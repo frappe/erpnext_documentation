@@ -1,0 +1,9 @@
+hr-settings
+employment-type
+branch
+department
+designation
+employee-grade
+daily-work-summary-group
+health-insurance
+staffing-plan

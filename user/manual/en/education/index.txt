@@ -1,0 +1,9 @@
+student
+admission
+Attendance
+schedule
+fees
+setup
+Assessment
+Assessment Reports
+Tools
