@@ -16,11 +16,6 @@
   "title": "Videos"
  },
  {
-  "route": "/search_docs",
-  "title": "Search",
-  "type": "input"
- },
- {
   "route": "https://github.com/erpnext/foundation/tree/master/foundation/www/docs",
   "title": "Improve Docs"
  }

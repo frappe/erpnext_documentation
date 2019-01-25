@@ -71,10 +71,5 @@
  {
   "route": "/docs/user/manual/en/customize-erpnext",
   "title": "Customize"
- },
- {
-  "route": "/search_docs",
-  "title": "Search",
-  "type": "input"
  }
 ]
