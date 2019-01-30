@@ -1,4 +1,5 @@
 <!-- add-breadcrumbs -->
+<!-- title: ERPNext User Manual -->
 # ERPNext User Manual
 
 Select your language
