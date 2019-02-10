@@ -19,7 +19,7 @@
     "route": "/docs/user/manual/en/asset",
     "title": "Asset"
 },
-   
+
  {
   "route": "/docs/user/manual/en/stock",
   "title": "Stock"
@@ -57,6 +57,10 @@
   "title": "Education"
  },
  {
+   "route": "/docs/user/manual/en/agriculture",
+   "title": "Agriculture"
+  },
+  {
   "route": "/docs/user/manual/en/healthcare",
   "title": "Healthcare"
  },

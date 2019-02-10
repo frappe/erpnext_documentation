@@ -1,7 +1,7 @@
 <!-- add-breadcrumbs -->
 # Implementation Strategy
 
-Before you start managing your Operations in EPRNext, you must first become
+Before you start managing your Operations in ERPNext, you must first become
 familiar with the system and the terms used. For this we recommend
 implementation should happen in two phases.
 

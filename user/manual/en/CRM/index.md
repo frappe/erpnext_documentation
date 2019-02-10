@@ -1,4 +1,5 @@
 <!-- add-breadcrumbs -->
+<!-- title: CRM -->
 # CRM
 
 ERPNext helps you track business **Opportunities** from **Leads** and

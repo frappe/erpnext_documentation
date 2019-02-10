@@ -35,7 +35,7 @@ Being a System Manager, you can set language in other user's master as well.
 
 #### Save
 
-Save System Settings, and refresh your EPRNext account. On refreshing, you should language in your ERPNext account changed as per your preference.
+Save System Settings, and refresh your ERPNext account. On refreshing, you should language in your ERPNext account changed as per your preference.
 
 <img alt="Select Language" class="screenshot" src="{{docs_base_url}}/assets/img/articles/set-language-2.gif">
 

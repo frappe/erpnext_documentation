@@ -1,7 +1,7 @@
 <!-- add-breadcrumbs -->
 # Įgyvendinimo strategija
 
-Prieš pradėdami tvarkyti jūsų organizacijos veiklą per EPRNext, pirmiausia turite susipažiti su sistema ir vartojamais terminais. Mes rekomenduojame diegimą atlikti dviem etapais.
+Prieš pradėdami tvarkyti jūsų organizacijos veiklą per ERPNext, pirmiausia turite susipažiti su sistema ir vartojamais terminais. Mes rekomenduojame diegimą atlikti dviem etapais.
 
   * **Bandomasis etapas**, kuomet įvedate dirbtinius/sintentinius įrašus, kurie atitinka jūsų kasdienes operacijas ir **diegimo etapas**, vėliau pradėsime vesti realius duomenis.
 

@@ -1,13 +1,14 @@
 <!-- add-breadcrumbs -->
 # Quality Action
 
+> Introduced in Version 12
 
  Quality Action is a standard features to allow implementation of corrective and preventive actions. This will meet compliance with industry regulations including GMP, ISO 9001 and 14001, TSCA, REACH, etc.
 
  Quality Action process workflows provide a controlled environment and reduce the risk of repeat issues by ensuring that defined solutions and processes are met.
- 
+
  Quality Actions can be initialized for a Quality Goal or for a Customer Feedback which may not meet the expected target and depending on that a Corrective or Preventive Action can be started.
- 
+
 ## Creating a Quality Action
 
 <img class="screenshot" alt="Quality mangement" src="{{docs_base_url}}/assets/img/quality-management/action.gif">

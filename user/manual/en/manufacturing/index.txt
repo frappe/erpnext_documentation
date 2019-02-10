@@ -3,6 +3,7 @@ workstation
 operation
 bill-of-materials
 work-order
+production-plan
 job-card
 subcontracting
 item-alternative
