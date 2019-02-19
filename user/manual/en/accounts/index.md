@@ -1,6 +1,6 @@
 # Accounts
 
-Whether you have an accountant in your internal team OR you do it yourself OR you have chosen to outsourced it,
+Whether you have an accountant in your internal team OR you do it yourself OR you have chosen to outsource it,
 the financial accounting process is almost always at the center any business management system (aka an ERP system).
 
 In ERPNext, your accounting operations consists of 3 main transactions:
