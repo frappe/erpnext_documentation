@@ -5,6 +5,8 @@ A Project Template is a set of tasks that can automatically be populated for a n
 
 This is ideal for projects that have standardized tasks (like an ERP implementation project).
 
+> Added in Version 12
+
 ### Usage
 
 ##### Step 1: Make a Project Template with the standard Tasks
