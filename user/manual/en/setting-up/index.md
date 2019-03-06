@@ -8,3 +8,5 @@ To get an ERP implementation right, the implementor needs to set aside time and 
 ### Topics
 
 {index}
+
+You can checkout the [help articles](https://erpnext.com/docs/user/manual/en/setting-up/articles) which demostrate various scenarios.
