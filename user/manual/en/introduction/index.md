@@ -64,6 +64,6 @@ Check out a variety of [User Stories](https://erpnext.org/stories) to know more.
   </div>
 </div>
 
-### Topics
+### Topic
 
 {index}
