@@ -15,5 +15,4 @@ territory
 third-party-backups
 workflows
 company-setup
-articles
 integrations
