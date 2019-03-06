@@ -1,6 +1,6 @@
 lead
-customer
 opportunity
+customer
 contact
 newsletter
 crm_reports
