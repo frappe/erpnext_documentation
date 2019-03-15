@@ -1,5 +1,5 @@
 
-## Asset
+## The Asset Module
 
 Asset record is the heart of fixed asset management feature. All the transactions related to Asset like purchasing, sales, depreciation, scrapping, movement or maintenance will be managed against the Asset record.
 

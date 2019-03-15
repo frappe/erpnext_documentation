@@ -1,3 +1,5 @@
+# Finance Book
+
 A Finance Book is a book against which all the accounting entries are booked. You can have multiple finance books, for example one book for tax authorities and another for stockholders.
 
 This is useful if you have to report depreciation and other values in different ways based on regulatory requirements. You can also use this to post alternate balance sheets for your internal reporting.

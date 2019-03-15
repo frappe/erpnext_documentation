@@ -1,5 +1,5 @@
 <!-- add-breadcrumbs -->
-#Maintaining Supplier's Item Code in the Item master
+#Maintaining Supplier's Item Code In the Item master
 
 For each item, code assigned might differ from the code your supplier has given to that same item. ERPNext allows you to track Supplier's Item Code in the item master. Also you can fetch Supplier's Item Code in your purchase transactions, so that they can easily recognize item referring to their Item Code.
 
@@ -9,7 +9,7 @@ In the Item master, under Supplier Details section, enter Item Code as given by 
 
 <img alt="Supplier Item Code" class="screenshot" src="{{docs_base_url}}/assets/img/articles/supplier-item-code.png">
 
-#### 2. Supplier's Item Code in Transactions
+#### 2. Supplier's Item Code In Transactions
 
 Each purchase transaction has field in the Item table where Supplier's Item Code is fetched. This field is hidden in form as well as in the Standard print format. You can make it visible by changing property for this field from [Customize Form.](/docs/user/manual/en/customize-erpnext/customize-form.html)
 

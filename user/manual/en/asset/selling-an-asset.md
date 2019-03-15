@@ -1,4 +1,4 @@
-## Sell an Asset
+## Selling an Asset
 
 To sell an asset, open the asset record and create a Sales Invoice by clicking on "Sell Asset". On submission of the Sales Invoice, following entries will take place:
 

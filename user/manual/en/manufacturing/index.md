@@ -1,33 +1,48 @@
 <!-- add-breadcrumbs -->
 # Manufacturing
 
-ERPNext comes batteries included for all requirements of a manufacturing business like Bill of Materials tracking, Production Order planning and execution, procurement and lot more.
+The Manufacturing module in ERPNext covers all necessary features a Manufacturing business would need. There are options to take a work order, enter stock of items, create a Production Plan, manage Bill of Materials, generate reports, and more. 
 
-<img class="screenshot" alt="BOM" src="{{docs_base_url}}/assets/img/manufacturing/BOM-hero.png">
+## 1. Topics
 
-### Bill of Material, Production Order and More
+##### 1.1 Basic and Setup
+1. [Introduction](/docs/user/manual/en/manufacturing/introduction)
+- [Manufacturing Settings](/docs/user/manual/en/manufacturing/setup/manufacturing-settings)
 
-The Manufacturing module in ERPNext helps you to maintain multi-level Bill of Materials (BOMs) for your Items.  It helps in product costing, production planning, creating work orders for your manufacturing shop floors and planning inventory by getting your material requirement via BOMs (also called Material Requirements Planning MRP).
+##### 1.2 Bill of Materials
+1. [Bill Of Materials](/docs/user/manual/en/manufacturing/bill-of-materials)
+- [Workstation](/docs/user/manual/en/manufacturing/workstation)
+- [Operation](/docs/user/manual/en/manufacturing/operation)
 
-<img class="screenshot" alt="BOM" src="{{docs_base_url}}/assets/img/manufacturing/manufacturing-hero.png">
+##### 1.3 Production
+1. [Work Order](/docs/user/manual/en/manufacturing/work-order)
+- [Production Plan](/docs/user/manual/en/manufacturing/production-plan)
+- [Job Card](/docs/user/manual/en/manufacturing/job-card)
 
-You can also effectively track operations like:
+##### 1.4 Advanced
+1. [Subcontracting](/docs/user/manual/en/manufacturing/subcontracting)
+- [Item Alternative](/docs/user/manual/en/manufacturing/item-alternative)
+- [BOM Update Tool](http://frappe.local:8000/docs/user/manual/en/manufacturing/tools/bom-update-tool)
 
-* Production Orders against customer's Sales Order
-* Material Planning
-* Purchasing based on Material Planning an reorder level.
-* Track actual material transfer against a Production Order
-* Despatched manufactured items to the Customers.
-* View reports
+## 2. Articles
 
-### ERPNext Manufacturing Demo
+##### 1.1 Production
+1. [Production Planning Subassembly](/docs/user/manual/en/manufacturing/articles/production-planning-subassembly)
+- [Capacity Planning](/docs/user/manual/en/manufacturing/articles/capacity-planning)
+- [Open Work Orders](/docs/user/manual/en/manufacturing/articles/open-work-orders)
 
-Check the following video to educate yourself on each feature in the manufacturing module.
+##### 1.2 Bill of Materials
+1. [Nested BOM Structure](/docs/user/manual/en/manufacturing/articles/nested-bom-structure)
+- [Valuation Based On Field In BOM](/docs/user/manual/en/manufacturing/articles/valuation-based-on-field-in-bom)
 
-<div class="embed-container">
-    <iframe src="https://www.youtube.com/embed/xE74wdQU5cc" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-</div>
+##### 1.3 Others
+1. [Material Consumption](/docs/user/manual/en/manufacturing/articles/material_consumption)
+- [Customer Provided Items](/docs/user/manual/en/manufacturing/articles/customer-provided-items)
+- [Scrap Management](/docs/user/manual/en/manufacturing/articles/scrap-management)
 
-### User Manual
-
-{index}
+## 3. Videos
+1. [Bill of Materials](/docs/user/videos/learn/bill-of-materials.html)
+- [Work Order](/docs/user/videos/learn/work-order.html)
+- [ERPNext for Manufacturers (Make to Order)](/docs/user/videos/learn/manufacturing-make-to-order.html)
+- [ERPNext for Manufacturers (Engineer to Order)](/docs/user/videos/learn/manufacturing-enigneer-to-order.html)
+- [ERPNext for Manufacturers](https://erpnext.com/docs/user/videos/learn/manufacturing-make-to-order.html)

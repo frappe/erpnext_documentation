@@ -1,43 +1,29 @@
 <!-- add-breadcrumbs -->
 # Projects
 
-For a services business, which doesn't have a tangible product to showcase their value, needs to get many things right to stay afloat and grow in the industry. ERPNext helps services company effectively manage business aspects like Projects Management, Customer Support, Sales and Purchase Management to list a few.
+A services business, which doesn't have a tangible product to showcase their value needs to get many things right in order to stay afloat and grow in the industry. ERPNext helps services company effectively manage business aspects like projects management, customer support, sales, and purchase management to list a few. You can look at the following topics after going through this [introduction](/docs/user/manual/en/projects/introduction).
 
-<img class="screenshot" alt="Gannt" src="{{docs_base_url}}/assets/img/project/services-hero.png">
 
-### Project Management in ERPNext
+## 1. Topics
+##### 1.1 Project Management
+1. [Project](/docs/user/manual/en/projects/project)
+- [Tasks](/docs/user/manual/en/projects/tasks)
+- [Project Template](/docs/user/manual/en/projects/project-template)
 
-ERPNext helps you manage your Projects by breaking them into Tasks and
-allocating them to different people.
+##### 1.2 Time Tracking
+1. [Salary Slip From Timesheet](/docs/user/manual/en/projects/timesheet/salary-slip-from-timesheet)
+- [Sales Invoice From Timesheet](/docs/user/manual/en/projects/timesheet/sales-invoice-from-timesheet)
+- [Timesheet Against Work Order](/docs/user/manual/en/projects/timesheet/timesheet-against-work-order)
+- [Timer In Timesheet](/docs/user/manual/en/projects/timesheet/timer-in-timesheet)
+- [Timesheet Against Project](/docs/user/manual/en/projects/timesheet/timesheet-against-project)
+- [Activity Type](/docs/user/manual/en/projects/activity-type)
+- [Activity Cost](/docs/user/manual/en/projects/activity-cost)
 
-<img class="screenshot" alt="Project" src="{{docs_base_url}}/assets/img/project/projects.png">
+## 2. Articles
+1. [Project Costing](/docs/user/manual/en/projects/articles/project-costing)
+- [Project Profitability](/docs/user/manual/en/projects/project-profitability)
+- [Project Expense Claims](/docs/user/manual/en/projects/project-expense-claims)
+- [Project Customer Portal](/docs/user/manual/en/projects/project-customer-portal)
 
-Projects can be used to manage internal projects, manufacturing jobs or
-service jobs. For service jobs, Time Sheets can also be created that can be used to bill Customers if billing is done on a Time & Money basis.
-
-### Sales, Purchase Management, Customer Support
-
-Purchasing and selling can also be tracked against Projects and this can help the company keep tabs on its budget, delivery and profitability for a Project.
-
-<img class="screenshot" alt="Non Profit" src="{{docs_base_url}}/assets/img/project/support.png">
-
-### Demo on ERPNext for the Service Business
-
-Check the following video to educate yourself on the ERPNext features for services business.
-
-<div>
-    <div class='embed-container'>
-        <iframe src='https://www.youtube.com/embed/mI8IkiGhaPA' frameborder='0' allowfullscreen>
-        </iframe>
-    </div>
-</div>
-
-### User Manual
-
-A services company needs lots more than projects module to operate efficiently. ERPNext has all of it available built-in.
-
-- You track your books of accounts using [Accounts module](/docs/user/manual/en/accounts.html).
-- Manage payroll, leaves and claims of your support staff in the [HR module](/docs/user/manual/en/human-resources.html).
-- Attend customer's support queries better with [Support](/docs/user/manual/en/support.html) module of ERPNext.
-
-{index}
+## 3. Videos
+1. [Project Management](/docs/user/videos/learn/project-and-task.html)

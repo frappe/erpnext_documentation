@@ -9,8 +9,4 @@ The core and most important elements of Agriculture module are:
 
 Here we will learn to do a quick setup with the essential requirements to manage a simple example crop, Carrots.
 
- These instructions assume you have already completed the basic ERPNext setup, and you have the ERPNext desk on your browser window.
-
-### Topics
-
-{index}
+These instructions assume you have already completed the basic ERPNext setup, and you have the ERPNext desk on your browser window.
