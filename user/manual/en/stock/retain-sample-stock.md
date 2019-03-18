@@ -1,5 +1,5 @@
 <!-- add-breadcrumbs -->
-# Retain Sample Stock
+# Retaining Sample Stock
 
 A sample of a batch of starting material, packaging material or finished product is stored for the purpose of being analyzed should the need arise later.
 

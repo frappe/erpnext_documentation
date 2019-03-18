@@ -1,41 +1,92 @@
 <!-- add-breadcrumbs -->
 # Stock
 
-Distributors have large part of their net worth is invested in the stock in hand. With ERPNext, you can always keep a birds eye view on your stock availability, replenishment, procurement and sales.
+Distributors always need to be on top of their game. From procuring the products to providing after-sales support, they are an important part of the supply chain.
 
-<img class="screenshot" alt="ERPNext Stock" src="{{docs_base_url}}/assets/img/stock/stock-hero.jpg">
+## 1. Topics
 
-Distributors need to be on the top of their game always. From procuring the products to providing after-sales support for the same, they are an important part of the supply-chain.
+##### 1.1 Basics
+1. [Introduction](/docs/user/manual/en/stock/introduction)
+- [Opening Stock](/docs/user/manual/en/stock/opening-stock)
+- [Accounting Of Inventory Stock](/docs/user/manual/en/stock/accounting-of-inventory-stock)
+- [Item](/docs/user/manual/en/stock/item)
 
-### Material Flow
+##### 1.2 Setup
+1. [Stock Settings](/docs/user/manual/en/stock/setup/stock-settings)
+- [Item Group](/docs/user/manual/en/stock/setup/item-group)
+- [Item Attribute](/docs/user/manual/en/stock/setup/item-attribute)
+- [Warehouse](/docs/user/manual/en/stock/warehouse)
 
-There are three main types of entries
+##### 1.3 Stock Transactions
+1. [Stock Entry](/docs/user/manual/en/stock/stock-entry)
+- [Delivery Note](/docs/user/manual/en/stock/delivery-note)
+- [Purchase Receipt](/docs/user/manual/en/stock/purchase-receipt)
+- [Material Request](/docs/user/manual/en/stock/material-request)
+- [Retaining Sample Stock](/docs/user/manual/en/stock/retain-sample-stock)
+- [Landed Cost Voucher](/docs/user/manual/en/stock/tools/landed-cost-voucher)
 
-  * Purchase Receipt: Items received from Suppliers against Purchase Orders.
-  * Stock Entry: Items transferred from one Warehouse to another.
-  * Delivery Note: Items shipped to Customers.
+##### 1.4 Serial and Batch Number
+1. [Serial Number](/docs/user/manual/en/stock/serial-no)
+- [Batch](/docs/user/manual/en/stock/batch)
+- [Installation Note](/docs/user/manual/en/stock/installation-note)
 
-<img class="screenshot" alt="ERPNext Healthcare" src="{{docs_base_url}}/assets/img/stock/purchase-order-hero.png">
+##### 1.5 Tools
+1. [Packing Slip](/docs/user/manual/en/stock/tools/packing-slip)
+- [Quality Inspection](/docs/user/manual/en/stock/tools/quality-inspection)
 
-### A Distributor on ERPNext Implementation
+##### 1.6 Advanced
+1. [Delivery Trip](/docs/user/manual/en/stock/delivery-trip)
+- [Projected Quantity](/docs/user/manual/en/stock/projected-quantity)
+- [Sales Return](/docs/user/manual/en/stock/sales-return)
+- [Purchase Return](/docs/user/manual/en/stock/purchase-return)
 
-When Tarun Gupta's security services startup Neural Integrated Services started growing, his ERP could not keep pace and was full of bugs in spite of spending a lot of money. Thats when Tarun decided he wanted to move to something better and discovered ERPNext.
 
-<div>
-    <div class='embed-container'>
-        <iframe src='https://www.youtube.com/embed/7tPifRTfbGo' frameborder='0' allowfullscreen>
-        </iframe>
-    </div>
-</div>
+## 2. Articles
+##### 2.1 Stock Transactions
+1. [Allow Over Delivery Billing Against Sales Order up to Certain Limit](/docs/user/manual/en/stock/articles/allow-over-delivery-billing-against-sales-order-upto-certain-limit)
+- [Auto Creation Of Material Request](/docs/user/manual/en/stock/articles/auto-creation-of-material-request)
+- [Delivery Note Stock Error](/docs/user/manual/en/stock/articles/delivery-note-stock-error)
+- [Stock Entry Purpose](/docs/user/manual/en/stock/articles/stock-entry-purpose)
+- [Stock Received But Not Billed](/docs/user/manual/en/stock/articles/stock-received-but-not-billed)
 
-### User Manual
+##### 2.2 Stock Reports
+1. [Stock Level Report](/docs/user/manual/en/stock/articles/stock-level-report)
 
-A distributor needs lots more than sales and purchase module to operate efficiently. ERPNext has all of it available built-in.
+##### 2.3 Managing Items
+1. [Item Valuation Transactions](/docs/user/manual/en/stock/articles/item-valuation-transactions)
+- [Maintain Stock Field Frozen In Item Master](/docs/user/manual/en/stock/articles/maintain-stock-field-frozen-in-item-master)
+- [Managing Rejected Finished Goods Items](/docs/user/manual/en/stock/articles/managing-rejected-finished-goods-items)
+- [Return Rejected Item](/docs/user/manual/en/stock/articles/return-rejected-item)
+- [Track Items Using Barcode](/docs/user/manual/en/stock/articles/track-items-using-barcode)
+- [Creating Depreciation For Item](/docs/user/manual/en/stock/articles/creating-depreciation-for-item)
 
-- You track your books of accounts using [Accounts module](/docs/user/manual/en/accounts.html).
-- Manage payroll, leaves and claims of your support staff in the [HR module](/docs/user/manual/en/human-resources.html).
-- Attend customer's support queries better with [Support](/docs/user/manual/en/support.html) module of ERPNext.
+##### 2.4 Serial and Batch Number
+1. [Serial Number Naming](/docs/user/manual/en/stock/articles/serial-no-naming)
+- [Opening Stock Balance Entry For Serialized And Batch Item](/docs/user/manual/en/stock/articles/opening-stock-balance-entry-for-serialized-and-batch-item)
+- [Managing Batch Wise Inventory](/docs/user/manual/en/stock/articles/managing-batch-wise-inventory)
 
-Here is the stepwise guide on the functionalities of ERPNext Stock / inventory module.
+##### 2.5 Others
+1. [Sales Return Use Cases](/docs/user/manual/en/stock/articles/sales-return-use-cases)
+- [Managing Fractions In UOM](/docs/user/manual/en/stock/articles/managing-fractions-in-uom)
+- [Repack Entry](/docs/user/manual/en/stock/articles/repack-entry)
+- [Material Transfer From Delivery Note](/docs/user/manual/en/stock/articles/material-transfer-from-delivery-note)
+- [Mode Of Payment](/docs/user/manual/en/stock/articles/mode_of_payment)
 
-{index}
+## 3. Videos
+
+##### 3.1 Stock Transactions
+1. [Stock Opening Balance](/docs/user/videos/learn/opening-stock.html)
+- [Stock Entries](/docs/user/videos/learn/stock-entries.html)
+
+##### 3.2 Items
+1. [Item and Pricing](/docs/user/videos/learn/item.html)
+- [Item Variant](/docs/user/videos/learn/item-variant.html)
+
+##### 3.3 Inventory
+1. [Batched Inventory](/docs/user/videos/learn/batch-inventory.html)
+- [Serialized Inventory](/docs/user/videos/learn/serialized-inventory.html)
+
+##### 3.4 Other
+1. [Fixed Assets Management](/docs/user/videos/learn/fixed-assets.html)
+- [Managing Subcontracting](/docs/user/videos/learn/subcontracting.html)
+- [Quality Inspection](/docs/user/videos/learn/quality-inspection.html)

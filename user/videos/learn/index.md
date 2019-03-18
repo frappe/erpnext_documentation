@@ -76,10 +76,6 @@
             Chart of Accounts</a>
             <span class="text-muted pull-right">3:10</span>
         </li>
-        <li><a href="/docs/user/videos/learn/opening-account-balances.html">
-            Opening Account Balances</a>
-            <span class="text-muted pull-right">4:40</span>
-        </li>
         <li><a href="/docs/user/videos/learn/opening-invoice-creation-tool.html">
             Opening Invoices Creation Tool</a>
             <span class="text-muted pull-right">2:30</span>
@@ -109,7 +105,7 @@
             <span class="text-muted pull-right">4:35</span>
         </li>
         <li><a href="/docs/user/videos/learn/sales-cycle.html">
-            Sales Order to Payment</a>
+            Sales Cycle</a>
               <span class="text-muted pull-right">4:28</span>
         </li>
         <li><a href="/docs/user/videos/learn/product-bundle.html">
@@ -153,7 +149,7 @@
             <span class="text-muted pull-right">3:17</span>
         </li>
         <li><a href="/docs/user/videos/learn/purchase-cycle.html">
-            Purchase Order to Payment</a>
+            Purchase Cycle</a>
               <span class="text-muted pull-right">3:16</span>
         </li>
         <li><a href="/docs/user/videos/learn/taxes.html">
@@ -212,10 +208,6 @@
     <br>
     <h3>Accounts</h3>
     <ul class="list-unstyled video-list">
-        <li><a href="/docs/user/videos/learn/chart-of-accounts.html">
-            Chart of Accounts</a>
-            <span class="text-muted pull-right">3:10</span>
-        </li>
         <li><a href="/docs/user/videos/learn/opening-account-balances.html">
             Accounts Opening Balances</a>
             <span class="text-muted pull-right">4:40</span>
@@ -295,7 +287,7 @@
     <h3>Project</h3>
     <ul class="list-unstyled video-list">
         <li><a href="/docs/user/videos/learn/project-and-task.html">
-            Project and Task</a>
+            Project Management</a>
             <span class="text-muted pull-right">3:52</span>
         </li>
     </ul>

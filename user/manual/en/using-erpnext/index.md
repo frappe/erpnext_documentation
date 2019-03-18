@@ -13,6 +13,28 @@ Messaging tool.
 These tools are integrated into all aspects of the product so that you can
 effectively manage your data and collaborate with your co-workers.
 
-### Topics
+## Topics
+1. [To Do](/docs/user/manual/en/using-erpnext/to-do)
+- [Restore Deleted Docs](/docs/user/manual/en/using-erpnext/restore-deleted-docs)
+- [Document Versioning](/docs/user/manual/en/using-erpnext/document-versioning)
+- [Collaborating Around Forms](/docs/user/manual/en/using-erpnext/collaborating-around-forms)
+- [Chat](/docs/user/manual/en/using-erpnext/chat)
+- [Notes](/docs/user/manual/en/using-erpnext/notes)
+- [Calendar](/docs/user/manual/en/using-erpnext/calendar)
+- [Assignment](/docs/user/manual/en/using-erpnext/assignment)
+- [Tags](/docs/user/manual/en/using-erpnext/tags)
 
-{index}
+## Articles
+1. [Check Link Between Documents](/docs/user/manual/en/using-erpnext/articles/check-link-between-documents)
+- [Delete Submitted Document](/docs/user/manual/en/using-erpnext/articles/delete-submitted-document)
+- [Duplicate Record](/docs/user/manual/en/using-erpnext/articles/duplicate-record)
+- [Adding File As A Attachment](/docs/user/manual/en/using-erpnext/articles/adding-file-as-a-attachment)
+- [Merging Documents](/docs/user/manual/en/using-erpnext/articles/merging-documents)
+- [Bulk Rename](/docs/user/manual/en/using-erpnext/articles/bulk-rename)
+- [Renaming Documents](/docs/user/manual/en/using-erpnext/articles/renaming-documents)
+- [Search Filter](/docs/user/manual/en/using-erpnext/articles/search-filter)
+- [Tree Master Renaming](/docs/user/manual/en/using-erpnext/articles/tree-master-renaming)
+- [Letter Head In The Report](/docs/user/manual/en/using-erpnext/articles/letter-head-in-the-report)
+- [Copy Pasting Multiple Records From Excel](/docs/user/manual/en/using-erpnext/articles/copy-pasting-multiple-records-from-excel)
+- [Global Search](/docs/user/manual/en/using-erpnext/articles/Global-search)
+- [Adding Attachments To Outgoing Messages](/docs/user/manual/en/using-erpnext/articles/adding-attachments-to-outgoing-messages)

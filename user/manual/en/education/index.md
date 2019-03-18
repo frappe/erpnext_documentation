@@ -1,46 +1,73 @@
-# Education
+# Education Domain
 
-The Education domain in ERPNext is designed to meet requirements of any organization which imparts knowledge and believe in doing it in an organized fashion. It has already been used at schools, colleges and even in private firms.
+An Education Institute needs lots more than a simple 'Education module', and ERPNext has all of it available built-in. You can:
 
-It helps you effectively manage administrative side and allows you to focus on what is most important for your institute, **to educate!**
+- Track your books of accounts using [Accounts module](/docs/user/manual/en/accounts).
+- Manage payroll, leaves and claims of your admin and teaching staff in the [HR module](/docs/user/manual/en/human-resources).
+- Organize your [purchases](/docs/user/manual/en/buying) and place an approval system.
 
-<img class="screenshot" alt="School Hero" src="{{docs_base_url}}/assets/img/education/school-hero.png">
+Here are the functionalities available under the ERPNext Education domain to go through after this **[introduction](/docs/user/manual/en/education/introduction)**
 
-### Contents of ERPNext Education Domain
+## Topics
+##### 1. Setup
+1. [Course](/docs/user/manual/en/education/setup/course)
+- [Program](/docs/user/manual/en/education/setup/program)
+- [Instructor](/docs/user/manual/en/education/setup/instructor)
+- [Room](/docs/user/manual/en/education/setup/room)
+- [Student Category](/docs/user/manual/en/education/setup/student-category)
+- [Student Batch Name](/docs/user/manual/en/education/setup/student-batch-name)
+- [Academic Term](/docs/user/manual/en/education/setup/academic-term)
+- [Academic Year](/docs/user/manual/en/education/setup/academic-year)
+- [Education Settings](/docs/user/manual/en/education/setup/education-settings)
 
-Using Education module of ERPNext, you can effectively manage operations like:
+##### 2. Student
+1. [Student](/docs/user/manual/en/education/student/student)
+- [Guardian](/docs/user/manual/en/education/student/guardian)
+- [Student Log](/docs/user/manual/en/education/student/student-log)
+- [Student Batch](/docs/user/manual/en/education/student/student-batch)
+- [Student Group](/docs/user/manual/en/education/student/student-group)
+- [Student Group Creation Tool](/docs/user/manual/en/education/student/student-group-creation-tool)
 
-- Managing Student
-- Program and Courses
-- Online Admissions
-- Student Attendance
-- Course Scheduling
-- Assessment Planning and Assessment Result
-- Fee Structure and Fee Receipt
+##### 3. Admission
+1. [Student Applicant](/docs/user/manual/en/education/admission/student-applicant)
+- [Program Enrollment](/docs/user/manual/en/education/admission/program-enrollment)
+- [Program Enrollment Tool](/docs/user/manual/en/education/admission/program-enrollment-tool)
+- [Student Admission](/docs/user/manual/en/education/admission/student_admission)
 
-For an online demonstration on each functionality of ERPNext Education module, [click here.](https://www.youtube.com/watch?v=f6foQOyGzdA&list=PL3lFfCEoMxvxyjnARY_C1zLoOE55LcMKB)
+##### 4. Fees
+1. [Fees](/docs/user/manual/en/education/fees/fees)
+- [Fee Structure](/docs/user/manual/en/education/fees/fee-structure)
+- [Fee Category](/docs/user/manual/en/education/fees/fee-category)
+- [Fee Schedule](/docs/user/manual/en/education/fees/fee-schedule)
 
-<img class="screenshot" alt="Fees Section" src="{{docs_base_url}}/assets/img/education/assessment.png">
+##### 5. Schedule
+1. [Course Schedule](/docs/user/manual/en/education/schedule/course-schedule)
+- [Scheduling Tool](/docs/user/manual/en/education/schedule/scheduling-tool)
+- [Examination](/docs/user/manual/en/education/schedule/examination)
 
-### Who Uses ERPNext Education?
+##### 6. Attendance
+1. [Student Attendance](/docs/user/manual/en/education/Attendance/student-attendance)
+- [Student Attendance Tool](/docs/user/manual/en/education/Attendance/student-attendance-tool)
+- [Student Leave Application](/docs/user/manual/en/education/Attendance/student-leave-application)
 
-The very first implementation of ERPNext was driven by a school teacher herself. She explains what it takes to get implementation right at your education institute.
+##### 7. Assessment
+1. [Introduction](/docs/user/manual/en/education/Assessment/)
+- [Assessment Criteria](/docs/user/manual/en/education/Assessment/assessment_criteria)
+- [Assessment Group](/docs/user/manual/en/education/Assessment/assessment_group)
+- [Assessment Plan](/docs/user/manual/en/education/Assessment/assessment_plan)
+- [Assessment Result](/docs/user/manual/en/education/Assessment/assessment_result)
+- [Assessment Result Tool](/docs/user/manual/en/education/Assessment/assessment_result_tool)
+- [Grading Scale](/docs/user/manual/en/education/Assessment/grading_scale)
 
-<div>
-    <div class='embed-container'>
-        <iframe src='https://www.youtube.com/embed/t8ZDDq4qtIk?end=52' frameborder='0' allowfullscreen>
-        </iframe>
-    </div>
-</div>
+##### 8. Assessment Reports
+1. [Final Assessment Grades](/docs/user/manual/en/education/assessment-reports/final-assessment-grades)
+- [Assessment Plan Status](/docs/user/manual/en/education/assessment-reports/assessment-plan-status)
+- [Student Report Generation Tool](/docs/user/manual/en/education/assessment-reports/student-report-generation-tool)
+- [Course Wise Assessment Report](/docs/user/manual/en/education/assessment-reports/course-wise-assessment-report)
 
-### User Manual
-
-Education Institute needs lots more than Education module, and ERPNext has all of it available built-in.
-
-- You track your books of accounts using [Accounts module](/docs/user/manual/en/accounts.html).
-- Manage payroll, leaves and claims of your admin and teaching staff in the [HR module](/docs/user/manual/en/human-resources.html).
-- Organize your [purchases](/docs/user/manual/en/buying.html) and place an approval system.
-
-Here is the stepwise guide on each functionality of ERPNext Education module.
-
-{index}
+##### 9. Tools
+1. [Student Attendance Tool](/docs/user/manual/en/education/tools/student-attendance-tool)
+- [Assessment Result Tool](/docs/user/manual/en/education/tools/assessment-result-tool)
+- [Student Group Creation Tool](/docs/user/manual/en/education/tools/student-group-creation-tool)
+- [Program Enrolment Tool](/docs/user/manual/en/education/tools/program-enrolment-tool)
+- [Course Scheduling Tool](/docs/user/manual/en/education/tools/course-scheduling-tool)
