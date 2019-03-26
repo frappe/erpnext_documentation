@@ -10,7 +10,11 @@ goods from trucks.
 The terminology of 'Warehouse" in ERPNext is a bit broader though and maybe can be 
 regarded as "storage locations". For example you can create a sub-Warehouse which 
 practically is a shelf inside your actual location. 
-This can become quite a detailed Tree like >Warehouse >Room >Row >Shelf >Box
+This can become quite a detailed Tree like:
+
+`Warehouse >Room >Row >Shelf >Box`
+
+### How to navigate to a Warehouse
 
 To go to Warehouse, click on Stock and go to Warehouse under Setup.  You
 could also switch to 'Tree' View or simply type warehouse tree in the awesome bar.
@@ -37,4 +41,6 @@ the user from accessing that Warehouse.
 of Item and Warehouse. Thus you can get stock balance for any specific Item in
 a particular Warehouse on any particular date.
 
-{next}
+#### Related Topics
+1. [Stock Entry Purpose](/docs/user/manual/en/stock/articles/stock-entry-purpose)
+1. [Stock Level Report](/docs/user/manual/en/stock/articles/stock-level-report)

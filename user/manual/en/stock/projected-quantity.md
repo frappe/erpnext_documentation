@@ -17,8 +17,7 @@ shortages and to calculate the right order quantity.
 <img class="screenshot" alt="Projected Quantity" src="{{docs_base_url}}/assets/img/stock/projected_quantity.png">
 
 
-> Projected Qty = Actual Qty + Planned Qty + Requested Qty + Ordered Qty -
-Reserved Qty
+`Projected Qty = Actual Qty + Planned Qty + Requested Qty + Ordered Qty - Reserved Qty`
 
   * Actual Qty: Quantity available in the warehouse.
   * Planned Qty: Quantity, for which, Work Order has been raised, but is pending to be manufactured.
@@ -26,4 +25,6 @@ Reserved Qty
   * Ordered Qty: Quantity ordered for purchase, but not received.
   * Reserved Qty: Quantity ordered for sale, but not delivered.
 
-{next}
+#### Related Topics
+1. [Warehouse](/docs/user/manual/en/stock/warehouse)
+1. [Material Request](/docs/user/manual/en/stock/material-request)

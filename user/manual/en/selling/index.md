@@ -10,12 +10,12 @@ organized and searchable manner.
 ## 1. Topics
 ##### 1.1 Setup
 
-1. [Selling Settings](/docs/user/manual/en/selling/setup/selling-settings)
-- [Sales Partner](/docs/user/manual/en/selling/setup/sales-partner)
-- [Shipping Rule](/docs/user/manual/en/selling/setup/shipping-rule)
-- [Product Bundle](/docs/user/manual/en/selling/setup/product-bundle)
-- [Item Price](/docs/user/manual/en/selling/setup/item-price)
-- [Sales Person Target Allocation](/docs/user/manual/en/selling/setup/sales-person-target-allocation)
+1. [Selling Settings](/docs/user/manual/en/selling/selling-settings)
+- [Sales Partner](/docs/user/manual/en/selling/sales-partner)
+- [Shipping Rule](/docs/user/manual/en/selling/shipping-rule)
+- [Product Bundle](/docs/user/manual/en/selling/product-bundle)
+- [Item Price](/docs/user/manual/en/selling/item-price)
+- [Sales Person Target Allocation](/docs/user/manual/en/selling/sales-person-target-allocation)
 
 ##### 1.2 Sales
 1. [Quotation](/docs/user/manual/en/selling/quotation)

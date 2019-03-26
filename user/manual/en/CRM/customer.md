@@ -8,30 +8,33 @@ a supplier for other valuable considerations.
 
 A customer is uniquely identified by the Customer ID. Normally this ID is identical to the customer Full Name, but in case of duplicate Full Name, a Name-1 is created as ID.
 
-You can either directly create your Customers via
+### 1. How to create a Customer
 
-> Selling > Customer
+1. You can either directly create your Customers via **Selling > Customer**.
+2. Enter Customer name.
+3. Save.
 
-<img class="screenshot" alt="Create Customer" src="{{docs_base_url}}/assets/img/crm/create-customer.gif">
+    <img class="screenshot" alt="Create Customer" src="{{docs_base_url}}/assets/img/crm/create-customer.gif">
 
-or upload it via the [Data Import Tool](/docs/user/manual/en/setting-up/data/data-import-tool.html).
+4. You can also upload it via the [Data Import Tool](/docs/user/manual/en/setting-up/data/data-import).
 
-A Customer can avail the features (operations) in the selling process. The general flow can be summarised as:
+### 2. Features
+A Customer can avail the features (operations) in the selling process. The general flow can be summarized as:
 
 <img class="screenshot" alt="Customer" src="{{docs_base_url}}/assets/img/crm/customer-to selling-flowchart.jpeg">
 
 > Note: Customers are separate from Contacts and Addresses. A Customer can
 have multiple Contacts and Addresses.
 
-### Contacts and Addresses
+#### 2.1 Contacts and Addresses
 
-[Contacts and Addresses](/docs/user/manual/en/CRM/contact.html) in ERPNext are stored separately so that you can
+[Contacts and Addresses](/docs/user/manual/en/CRM/contact) in ERPNext are stored separately so that you can
 attach multiple Contacts or Addresses to Customers and Suppliers
 
 Thus we may have identical Customer Names that are uniquely identified by the ID. Since the email address is not part of the
 customer information, the linking of Customer and User is through Contacts.
 
-### Integration with Accounts
+#### 2.2 Integration with Accounts
 
 In ERPNext, there is a separate Account record for each Customer, for each
 Company.
@@ -51,7 +54,7 @@ separate account for each customer, you have to first create the account under
 Accounts Receivable in the [Chart of Accounts](/docs/user/manual/en/accounts/chart-of-accounts.html) and then add it on the customer's
 form accounts table.
 
-### Customer Settings
+#### 2.3 Customer Settings
 
 You can link a Price List to a Customer (select “Default Price List”), so that
 when you select that Customer, the Price List will be automatically selected.
@@ -80,7 +83,7 @@ You can also mention [Sales Person](/docs/user/manual/en/CRM/setup/sales-person.
     </div>
 </div>
 
-### Sales Partner
+#### 2.6 Sales Partner
 
 A Sales Partner is a third party distributor / dealer / commission agent /
 affiliate / reseller who sells the companies products, for a commission. This
@@ -90,4 +93,6 @@ Partner.
 If you sell to your Sales Partner who in-turn sells it to the Customer, then
 you must make a Customer instead.
 
-{next}
+#### 3. Related Topics
+1. [Customer Group](/docs/user/manual/en/CRM/setup/customer-group)
+1. [Quotation](/docs/user/manual/en/selling/quotation)
