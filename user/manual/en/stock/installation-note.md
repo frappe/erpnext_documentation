@@ -7,5 +7,3 @@ the machine at the customer’s place. The service person can create an “Insta
 and details of the installation.
 
 <img class="screenshot" alt="Installation Note" src="{{docs_base_url}}/assets/img/stock/installation-note.png">
-
-{next}

@@ -21,7 +21,14 @@ could have:
   * INV120002
   * INV-A-120002
 
-etc. You could also have a separate series for each type of Customer or for
+1. You can define or select the Naming Series pattern from: **Setup > Data > Naming Series**
+2. Select the transaction for which naming series is to be applied.
+3. Modify the naming pattern as required.
+4. Tick the box if you want the user to always use this naming series.
+5. Change starting/existing sequence number if needed.
+6. Click on Update Series Number.
+
+You could also have a separate series for each type of Customer or for
 each of your retail outlets.
 
 ### 2. Managing Naming Series for Documents

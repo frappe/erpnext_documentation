@@ -11,9 +11,9 @@ The Customer Relationship Management (CRM) module helps maintain Leads, Opportun
 The CRM module has the following features:
 
 ##### 1.1 Basic setup
-1. [Campaign](/docs/user/manual/en/CRM/setup/campaign)
-- [Customer Group](/docs/user/manual/en/CRM/setup/customer-group)
-- [Sales Person](/docs/user/manual/en/CRM/setup/sales-person)
+1. [Campaign](/docs/user/manual/en/CRM/campaign)
+- [Customer Group](/docs/user/manual/en/CRM/customer-group)
+- [Sales Person](/docs/user/manual/en/CRM/sales-person)
 
 ##### 1.2 Sales
 1. [Lead](/docs/user/manual/en/CRM/lead)

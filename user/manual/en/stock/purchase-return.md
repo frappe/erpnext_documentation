@@ -5,6 +5,7 @@ ERPNext has an option for products that are need to be returned to the
 supplier. This may be on account of a number of reasons like defects in goods,
 quality not matching, the buyer not needing the stock, etc.
 
+### How to create a Purchase Return
 You can create a Purchase Return by simply making a Purchase Receipt with negative quantity.
 
 First open the original Purchase Receipt, against which supplier delivered the items.
@@ -22,3 +23,7 @@ On submission of Return Purchase Return, system will decrease item qty from the 
 If Perpetual Inventory enabled, system will also post accounting entry against warehouse account to sync warehouse account balance with stock balance as per Stock Ledger.
 
 <img class="screenshot" alt="Return Stock Ledger" src="{{docs_base_url}}/assets/img/stock/purchase-return-general-ledger.png">
+
+#### Related Topics
+1. [Purchase Receipt](/docs/user/manual/en/stock/purchase-receipt)
+1. [Perpetual Inventory](/docs/user/manual/en/stock/perpetual-inventory)

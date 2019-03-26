@@ -1,6 +1,8 @@
 <!-- add-breadcrumbs -->
 # Lead
 
+A lead is a potential customer you are going to contact.
+
 To get the customer through the door, you may be doing all or any of the
 following:
 
@@ -20,12 +22,16 @@ contact. The new person is then able to know the history of that particular
 Lead.
 
 ---
+### 1. How to create a Lead
 
-Leads are the  entities constituting a first contact. Leads can be created by a system users or by a web-user. When a lead is created minimal info (name,email) is entered and the lead is (default) linked to the active system user, the owner of the lead  A user configurable drop list is used to classify Status of the lead (Open, Replied etc)
+Leads are the  entities constituting a first contact. Leads can be created by a system user or by a web-user. When a lead is created minimal info (name,email) is entered and the lead is (default) linked to the active system user, the owner of the lead  A user configurable drop list is used to classify Status of the lead (Open, Replied etc)
 
-To create a Lead, go to:
+To create a new Lead, go to:
 
-> CRM > Lead > New Lead
+1. Go to **CRM > Sales Pipeline > Lead > New**.
+2. Enter the person's name.
+3. Enter details in other fields as applicable.
+4. Save.
 
 <img class="screenshot" alt="Lead" src="{{docs_base_url}}/assets/img/crm/lead.png">
 
@@ -38,7 +44,18 @@ who you want to work with.
 Contact” details. This will add a new event in the Calendar for the User who
 has to contact the lead next.
 
-### Difference between Lead, Contact and Customer
+### 2. Features
+#### 2.1 Creation via Portal
+
+If a someone creates an account through the website interface is Lead is automatically created, status is Open and the Owner is the webuser.
+
+After registration the webform Addresses is called, where the web user can enter address information.The address is linked to the lead using the **Lead Name-Address Type** as ID.
+
+If using the Cart functionality, items are ordered the Lead is Converted and a Customer is created using the Web-User Name. Because a Customer can only be linked to a webuser using the (foreign) ID in Contact, such contact has to be created as well.
+
+---
+
+### 3. Difference between Lead, Contact, and Customer
 
 A Lead is a potential Customer, someone who can give you business. A Customer is an
 organization or individual who has given you business before (and has an Account
@@ -54,14 +71,6 @@ Customer.
 
 <img class="screenshot" alt="Create Customer" src="{{docs_base_url}}/assets/img/crm/lead-to-customer.gif">
 
----
-
-### Creation via Portal
-
-If a someone creates an account through the website interface is Lead is automatically created, status is Open and the Owner is the webuser.
-
-After registration the webform Addresses is called, where the web user can enter address information.The address is linked to the lead using the **Lead Name-Address Type** as ID.
-
-If using the Cart functionality, items are ordered the Lead is Converted and a Customer is created using the Web-User Name. Because a Customer can only be linked to a webuser using the (foreign) ID in Contact, such contact has to be created as well.
-
-{next}
+#### 4. Related Topics
+1. [Opportunity](/docs/user/manual/en/CRM/opportunity)
+1. [Customer](/docs/user/manual/en/CRM/customer)

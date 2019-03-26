@@ -23,12 +23,12 @@ The following are the various modules and domains offered by ERPNext covering a 
 - [Quality Management](/docs/user/manual/en/quality-management)
 
 ##### 3. Industry Specific Modules
-1. [Hospitality](/docs/user/manual/en/hospitality)
+1. [Manufacturing](/docs/user/manual/en/manufacturing)
 - [Education](/docs/user/manual/en/education)
 - [Healthcare](/docs/user/manual/en/agriculture)
 - [Agriculture](/docs/user/manual/en/agriculture)
 - [Non Profit](/docs/user/manual/en/non_profit)
-- [Manufacturing](/docs/user/manual/en/manufacturing)
+- [Hospitality](/docs/user/manual/en/hospitality)
 
 ##### 4. Website and Portal
 1. [Customer Portal](/docs/user/manual/en/customer-portal)

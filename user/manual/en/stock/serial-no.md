@@ -31,11 +31,12 @@ set.
 <img class="screenshot" alt="Serial Number" src="{{docs_base_url}}/assets/img/stock/serial-no.png">
 
 * The Status is set based on Stock Entry.
-
 * Only Serial Numbers with status 'Available' can be delivered.
-
 * Serial Nos can automatically be created from a Stock Entry or Purchase Receipt. If you mention Serial No in the Serial Nos column, it will automatically create those serial Nos.
-
 * If in the Item Master, the Serial No Series is mentioned, you can leave the Serial No column blank in a Stock Entry / Purchase Receipt and Serial Nos will automatically be set from that series.
 
-{next}
+#### Related Topics
+1. [Item Codification](/docs/user/manual/en/stock/item-codification)
+1. [Item Variants](/docs/user/manual/en/stock/item-variants)
+1. [Serial Number Naming](/docs/user/manual/en/stock/articles/serial-no-naming)
+

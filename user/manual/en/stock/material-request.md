@@ -6,11 +6,12 @@ Items (products or services) for a particular reason.
 
 <img class="screenshot" alt="Material Request" src="{{docs_base_url}}/assets/img/buying/material-request-flowchart.png">
 
+### 1. How to create a Material Request
 To generate a Material Request manually go to:
 
-> Stock > Documents > Material Request > New
+`Stock > Documents > Material Request > New`
 
-#### Creating Material Request
+### 2. Creating Material Request
 
 <img class="screenshot" alt="Material Request" src="{{docs_base_url}}/assets/img/buying/material-request.png">
 
@@ -41,4 +42,6 @@ buying so that you can collect this information from various departments.
   </div>
 </div>
 
-{next}
+#### Related Topics
+1. [Item](/docs/user/manual/en/stock/item)
+- [Auto Creation Of Material Request](/docs/user/manual/en/stock/articles/auto-creation-of-material-request)

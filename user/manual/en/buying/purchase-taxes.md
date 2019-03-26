@@ -1,25 +1,26 @@
 <!-- add-breadcrumbs -->
-# Purchase Taxes
-
-For Tax Accounts that you want to use in the tax templates, you must mention
-them as type “Tax” in your Chart of Accounts.
+# Purchase Taxes and Charges Template
 
 Similar to your Sales Taxes and Charges Template is the Purchase Taxes and
 Charges Master. This is the tax template that you can use in your Purchase
 Orders and Purchase Invoices.
 
-> Buying > Setup > Purchase Taxes and Charges Template > New 
+For Tax Accounts that you want to use in the tax templates, you must mention
+them as type “Tax” in your Chart of Accounts.
 
+### 1. How to add Purchase Taxes/Charges via a template
+
+1. Go to **Buying > Setup > Purchase Taxes and Charges Template > New**.
+2. Enter a title name for the Tax.
 <img class="screenshot" alt="Purchase taxes" src="{{docs_base_url}}/assets/img/buying/purchase-taxes.png">
 
+You can specify if the tax/charge is only applicable for valuation (not a part of total) or only for total (does not add value to the item), or if the tax/charge is applicable for both. [Check out this article](/docs/user/manual/en/accounts/articles/what-is-the-differences-of-total-and-valuation-in-tax-and-charges) to know the difference.
 
-You can specify if the tax / charge is only for valuation (not a part of
-total) or only for total (does not add value to the item) or for both.
+If you select a particular tax as your Default tax, this
+tax will be applied to all the purchase transactions by default. 
 
-If you select a particular tax as your Default tax, the system will apply this
-tax to all the purchase transactions by default. 
-
-### Calculation Type
+### 2. Features
+#### 2.1 Calculation Type
 
 This can be on Net Total (that is the sum of basic amount). On Previous Row
 Total / Amount (for cumulative taxes or charges). If you select this option,
@@ -36,4 +37,6 @@ amount or total. Actual (as mentioned).
   * **Consider Tax or Charge for:** In this section you can specify if the tax / charge is only for valuation (not a part of total) or only for total (does not add value to the item) or for both.
   * **Add or Deduct:** Whether you want to add or deduct the tax.
 
-{next}
+#### 3. Related Topics
+1. [Purchase Order](/docs/user/manual/en/buying/purchase-order)
+1. [Buying Settings](/docs/user/manual/en/buying/setup/buying-settings)

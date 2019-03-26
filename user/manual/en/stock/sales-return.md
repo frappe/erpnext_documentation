@@ -1,9 +1,11 @@
 <!-- add-breadcrumbs -->
 # Sales Return
 
-Goods sold being returned is quite a common practice in business. They could
+Goods sold being returned happens commonly in business. They could
 be returned by the customer on quality issues, non-delivery on agreed date, or
 any other reason. 
+
+### How to create a Sales Return
 
 In ERPNext, you can create a Sales Return by simply making a Delivery Note / Sales Invoice with negative quantity.
 
@@ -28,3 +30,6 @@ In case of Return Sales Invoice, Customer account will be credited and associate
 If Perpetual Inventory enabled, system will also post accounting entry against warehouse account to sync warehouse account balance with stock balance as per Stock Ledger.
 
 <img class="screenshot" alt="Return Stock Ledger" src="{{docs_base_url}}/assets/img/stock/sales-return-general-ledger.png">
+
+#### Related Topics
+1. [Purchase Receipt](/docs/user/manual/en/stock/purchase-receipt)

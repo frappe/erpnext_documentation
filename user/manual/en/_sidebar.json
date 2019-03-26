@@ -56,10 +56,9 @@
    "route": "/docs/user/manual/en/quality-management",
    "title": "Quality Management"
  },
-
  {
-   "route": "/docs/user/manual/en/hospitality",
-   "title": "Hospitality"
+   "route": "/docs/user/manual/en/manufacturing",
+   "title": "Manufacturing"
   },
  {
   "route": "/docs/user/manual/en/education",
@@ -76,12 +75,12 @@
  {
   "route": "/docs/user/manual/en/non_profit",
   "title": "Non Profit"
- },
+ }, 
  {
-   "route": "/docs/user/manual/en/manufacturing",
-   "title": "Manufacturing"
-  },
-  {
+  "route": "/docs/user/manual/en/hospitality",
+  "title": "Hospitality"
+ },
+{
    "route": "/docs/user/manual/en/erpnext_integration",
    "title": "Integrations"
   }, 
