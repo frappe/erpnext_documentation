@@ -41,15 +41,15 @@ organized and searchable manner.
 - [Shipping Rule](/docs/user/manual/en/selling/articles/shipping-rule)
 
 ## 3. Videos
-##### 1.1 Sales
+##### 3.1 Sales
 1. [Customer](/docs/user/videos/learn/customer-and-supplier.html)
 - [Product Bundle](/docs/user/videos/learn/product-bundle.html)
 - [Sales Cycle](/docs/user/videos/learn/sales-cycle.html)
 
-##### 1.3 Advanced
+##### 3.2 Advanced
 1. [Drop Ship](/docs/user/videos/learn/drop-ship.html)
 - [Pricing Rule](/docs/user/videos/learn/pricing-rule.html)
 
-##### 1.3 Other 
+##### 3.3 Other 
 1. [Discounts](/docs/user/videos/learn/discounts.html)
 - [Taxes](/docs/user/videos/learn/taxes.html)
