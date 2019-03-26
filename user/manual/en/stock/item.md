@@ -90,9 +90,9 @@ Inspection Criteria: If a Quality Inspection is prepared for this Item, then thi
 
 * **Default Income Account:** Income account selected here will be fetched automatically in sales invoice for this item.
 
-***Cost Centre:** Cost center selected here will be fetched automatically in sales invoice for this item.
+* **Cost Centre:** Cost center selected here will be fetched automatically in sales invoice for this item.
 
-***Customer Codes:** Track Item Code assigned by the Customers for this Item. This will help you in searching item while creating Sales Order based on the Item Code in the Customer's Purchase Order.
+* **Customer Codes:** Track Item Code assigned by the Customers for this Item. This will help you in searching item while creating Sales Order based on the Item Code in the Customer's Purchase Order.
 
 #### 2.11  Manufacturing nd Website
 
