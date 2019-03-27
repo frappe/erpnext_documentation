@@ -7,41 +7,34 @@ Item Price is the record in which you can log selling and buying rate of an item
 
 There are two ways to reach to new Item Price form.
 
-`Selling/Buying/Stock > Setup > Item Price > New Item Price`
+1. **Selling/Buying/Stock > Items and Pricing > Item Price > New**.
+2. Enter the price list whether its the standard selling or buying rate.
+3. Enter the rate.
+4. Save.
 
 Or
 
-`Item > Add/Edit Prices > Click on "+"  > New Item Price`
+1. **Selling/Buying/Stock > Items and Pricing > Item > Item Prices**.
+2. Click on the item and change the price or create a new item price.
 
-Following are the steps to create new Item Price.
+### 2. How to create a new Price List.
 
-Step 1: Select Price List
+1. Select Price List. You can create multiple Price List in ERPNext to track Selling and Buying Price List of an item separtely. Also if item's selling prices id changing based on territory, or due to other criteria, you can create multiple selling Price List for it.
 
-You can create multiple Price List in ERPNext to track Selling and Buying Price List of an item separtely. Also if item's selling prices id changing based on territory, or due to other criteria, you can create multiple selling Price List for it.
+    ![Item Price list]({{docs_base_url}}/assets/img/stock/item-price-1.png)
 
-![Item Price list](/assets/img/stock/item-price-1.png)
+    On selection of Price List, its currency and for selling or buying property will be fetched as well. To have Item Price fetching in the sales or purchase transaction, you should have Price List id selected in the transaction, just above Item table.
 
-On selection of Price List, its currency and for selling or buying property will be fetched as well.
+2. Select Item. Select item for which Item Price record is to be created. On selection of Item Code, Item Name and Description will be fetched as well.
 
-To have Item Price fetching in the sales or purchase transaction, you should have Price List id selected in the transaction, just above Item table.
+    ![Item Price Item]({{docs_base_url}}/assets/img/stock/item-price-2.png)
 
-Step 2: Select Item
+3. Enter Rate. Enter selling/buying rate of an item in Price List currency.
 
-Select item for which Item Price record is to be created. On selection of Item Code, Item Name and Description will be fetched as well.
+    ![Item Price Rate]({{docs_base_url}}/assets/img/stock/item-price-3.png)
 
-![Item Price Item](/assets/img/stock/item-price-2.png)
-
-Step 3: Enter Rate
-
-Enter selling/buying rate of an item in Price List currency.
-
-![Item Price Rate](/assets/img/stock/item-price-3.png)
-
-Step 4: Save Item Price
-
-To check all Item Price together, go to:
-
-> Stock > Main Report > Itemwise Price List Rate
+4. Save Item Price. To check all Item Price together, go to:
+    Stock > Analytics > Item-wise Price List Rate
 
 You will find option to create new Item Price record (+) in this report as well.
 
@@ -52,6 +45,6 @@ You will find option to create new Item Price record (+) in this report as well.
     </div>
 </div>
 
-#### Related Topics
+#### 3. Related Topics
 1. [Item Valuation Transactions](/docs/user/manual/en/stock/articles/item-valuation-transactions)
 1. [Item Warranty](/docs/user/manual/en/stock/item-warranty)
