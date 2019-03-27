@@ -24,7 +24,7 @@ This is the warehouse where sample retentions are stored.
 #### 1.6 Default Valuation method
 FIFO - first in first out or moving average valuation for your items. Read more [here](https://frappe.io/blog/erpnext-features/inventory-valuation-method-fifo-vs-moving-average).
 
-#### 1.9 Convert Item Description to Clean HTML
+#### 1.7 Convert Item Description to Clean HTML
 
 Usually descriptions are copy-pasted from a website or Word / PDF file and they contain a lot of embedded style. This messes up the Print view of your invoices or quotes.
 

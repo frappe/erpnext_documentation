@@ -78,9 +78,9 @@ We believe if you do this small investment, it will help you rationalize
 things as your business grows, though its okay not to codify if you have less
 items.
 
-#### Related Topics
+#### 6. Related Topics
 1. [Item Group](/docs/user/manual/en/stock/item-group)
-- [Item Attribute](/docs/user/manual/en/stock/item-attribute)
+1. [Item Attribute](/docs/user/manual/en/stock/item-attribute)
 1. [Item Price](/docs/user/manual/en/stock/item-price)
 1. [Item Variants](/docs/user/manual/en/stock/item-variants)
 

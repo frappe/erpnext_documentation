@@ -10,6 +10,14 @@ ERPNext is optimized for itemized management of your sales and purchase. If you 
 2. Enter an item code, name, group and other details as needed.
 3. Save.
 
+#### 1.2 Options when creating an item
+
+  * **Maintain Stock:** If you are maintaining stock of this Item in your Inventory, ERPNext will make a stock ledger entry for each transaction of this item.
+  * **Default Warehouse:** This is the Warehouse that is automatically selected in your transactions.
+  * **Valuation Rate:** There are two options to maintain valuation of stock. FIFO (first in - first out) and Moving Average. To understand this topic in detail please visit [Item Valuation, FIFO and Moving Average](/docs/user/manual/en/stock/item-valuation-fifo-and-moving-average).
+  * **Allowance Percentage:** This is the percent by which you will be allowed to over-bill or over-deliver this Item. If not set, it will select from the Global Defaults. This option will be available once you create and save the item.
+  
+
 ###2. Features
 #### 2.1 Item Properties
 
@@ -24,16 +32,14 @@ ERPNext is optimized for itemized management of your sales and purchase. If you 
 
 To upload an image for your icon that will appear in all transactions, save the partially filled form. Only after your file is saved  the 'upload' button will work above the Image icon. Click on this sign and upload the image.
 
-#### 2.3 Inventory : Warehouse and Stock Setting
+#### 2.3 Item Warranty
+To track a warranty period, it is necessary that the Item is a serialized Item. When this Item is delivered, the delivery date and the expiry period is saved in the serial number master. Through the serial number master you can track the warranty status.
 
-In ERPNext, you can select different type of Warehouses to stock your different Items. This can be selected based on Item types. It could be Fixed Asset Item, Stock Item or even Manufacturing Item.
+A warranty means a guarantee or a promise which provides assurance by one party to the other party which allows for a legal remedy if that promise is not true or followed. A warranty period is a time period in which a purchased product may be returned or exchanged.
 
-  * **Stock Item:** If you are maintaining stock of this Item in your Inventory, ERPNext will make a stock ledger entry for each transaction of this item.
-  * **Default Warehouse:** This is the Warehouse that is automatically selected in your transactions.
-  * **Allowance Percentage:** This is the percent by which you will be allowed to over-bill or over-deliver this Item. If not set, it will select from the Global Defaults.
-  * **Valuation Method:** There are two options to maintain valuation of stock. FIFO (first in - first out) and Moving Average. To understand this topic in detail please visit “ Item Valuation, FIFO and Moving Average”.
+<img class="screenshot" alt="Item Warranty" src="{{docs_base_url}}/assets/img/stock/item-warranty.png">
 
-#### 2.4  Serialized and Batched Inventory
+#### 2.4 Serialized and Batched Inventory
 
 These numbers help to track individual units or batches of Items which you sell. It also tracks warranty and returns. In case any individual Item is recalled by the supplier the number system helps to track individual Item. The numbering system also manages expiry dates. Please note that if you sell your items in thousands, and if the items are very small like pens or erasers, you need not serialize them. In ERPNext, you will have to mention the serial number in some accounting entries. To create serial numbers you will have to manually create all the numbers in your entries. If your product is not a big consumer durable Item, if it has no warranty and has no chances of being recalled, avoid giving serial numbers.
 
@@ -126,3 +132,5 @@ Here is a video for demonstrating item management:
 - [Creating Depreciation For Item](/docs/user/manual/en/stock/articles/creating-depreciation-for-item)
 1. [Serial Number Naming](/docs/user/manual/en/stock/articles/serial-no-naming)
 - [Opening Stock Balance Entry For Serialized And Batch Item](/docs/user/manual/en/stock/articles/opening-stock-balance-entry-for-serialized-and-batch-item)
+1. [Serial Number](/docs/user/manual/en/stock/serial-no)
+1. [Serial Number Naming](/docs/user/manual/en/stock/articles/serial-no-naming)
