@@ -9,3 +9,5 @@ In ERPNext, Finance Book is not a mandatory setup. But if you choose to create m
 Many a times, for fixed asset depreciation, company use different depreciation method (Straight Line / Written Down Value / Double Declining Balance) for different finance book. In ERPNext, you can setup different depreciation schedule for each finance book and auto depreciations will booked against that finance book only.
 
 <img class="screenshot" alt="Finance Book" src="{{docs_base_url}}/assets/img/accounts/finance-book.png">
+
+{next}
