@@ -50,6 +50,7 @@ multiple Letter Heads for your Prints.
 1. [Making Custom Reports In ERPNext](/docs/user/manual/en/customize-erpnext/articles/making-custom-reports-in-erpnext)
 - [Perm Level Error In Permission Manager](/docs/user/manual/en/customize-erpnext/articles/perm-level-error-in-permission-manager)
 - [User Restriction](/docs/user/manual/en/customize-erpnext/articles/user-restriction)
+- [Dashboard](/docs/user/manual/en/customize-erpnext/dashboard)
 
 ##### 2.5 Other Actions
 1. [Disable Rounded Total](/docs/user/manual/en/customize-erpnext/articles/disable-rounded-total)
