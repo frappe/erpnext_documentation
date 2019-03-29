@@ -8,14 +8,14 @@ payment, and warranties. Acceptance of quotation by the buyer constitutes an
 agreement binding on both parties.
 
 ### 1. How to create a Supplier Quotation
+You can make a supplier quotation from a Material Request:
+![Supplier Quotation]({{docs_base_url}}/assets/img/buying/buying_flow.png)
 
-1. You can make a supplier quotation from a Material Request
+1. You can also make a Supplier Quotation directly from:
 
-    ![Supplier Quotation]({{docs_base_url}}/assets/img/buying/buying_flow.png)
-
-2. You can also make a Supplier Quotation directly from:
-
-    **Buying > Purchasing > Supplier Quotation > New Supplier Quotation**
+    **Buying > Purchasing > Supplier Quotation > New Supplier Quotation**.
+1. Select the Supplier for whom you're sending the quotation.
+1. Enter the Item code, select the quantity. Rate will be fetched if you've set the Standard Buying rate for the item in [Item Price](/docs/user/manual/en/stock/item-price).
     <img class="screenshot" alt="Supplier Quotation" src="{{docs_base_url}}/assets/img/buying/supplier-quotation.png">
 
 If you have multiple Suppliers who supply you with the same Item, you

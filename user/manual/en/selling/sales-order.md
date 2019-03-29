@@ -17,10 +17,11 @@ There are various transactions which can be triggered from Sales Order like;
 ### 1. How to create a Sales Order
 1. Go to **Selling > Sales > Sales Order > New Sales Order**.
    1. Enter Customer name.
-   2. Set the delivery date.
-   3. Set the delivery warehouse.
-   4. Enter the items to be delivered.
-   5. Save, review and submit.
+   1. Under delivery date set the date by which order is to be delivered.
+   1. With Order Type you can set whether it's a Sales order, Maintenance order, or from the online [Shopping Cart](/docs/user/manual/en/website/shopping-cart) of your website. 
+   1. Under Set Source Warehouse, set the warehouse from which the item will be ordered.
+   1. Enter the items and quantities to be delivered in the table.
+   1. Save and submit.
 
 2. You can also create a Sales Order from a submitted Quotation.
 

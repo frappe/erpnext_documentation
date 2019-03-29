@@ -29,9 +29,11 @@ Leads are the  entities constituting a first contact. Leads can be created by a 
 To create a new Lead, go to:
 
 1. Go to **CRM > Sales Pipeline > Lead > New**.
-2. Enter the person's name.
-3. Enter details in other fields as applicable.
-4. Save.
+1. You can set the Status whether Lead, Open, Replied, etc.
+1. Enter the person's name and Gender.
+1. You can set the lead's organization and source from where you got the lead.
+1. Enter email ID for communication, you can also set the Phone number under address & contact.
+1. Save.
 
 <img class="screenshot" alt="Lead" src="{{docs_base_url}}/assets/img/crm/lead.png">
 

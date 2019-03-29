@@ -16,27 +16,19 @@ Stock Entries can be made for the following purposes:
 
 ### 1. How to create a Stock Entry
 
-To make a Stock Entry you have to go to:
+To make a Stock Entry:
 
-**1\. Stock > Stock Entry > New**
+1. Go to **Stock > Stock Transactions > Stock Entry > New**.
 
-<img class="screenshot" alt="Stock Entry" src="{{docs_base_url}}/assets/img/stock/stock-entry.png">
+    <img class="screenshot" alt="Stock Entry" src="{{docs_base_url}}/assets/img/stock/stock-entry.png">
 
-**2\. Select Item.**
-
-**3\. Select Warehouse.**
-
-
-**4\. Add Items**
+2. Select Warehouse.
+3. Select Item, quantity.
+4. Save and Submit.
 
 In the Stock Entry you have to update the Items table with all your
 transactions. For each row, you must enter a “Source Warehouse” or a “Target
 Warehouse” or both (if you are recording a movement).
-
-<div class="embed-container">
-    <iframe src="https://www.youtube.com/embed/Njt107hlY3I?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen>
-    </iframe>
-</div>
 
 ### 2. Features
 
@@ -50,6 +42,7 @@ To add additional costs, enter the description and amount of the cost in the Add
 
 The added additional costs will be distributed among the receiving items (where the target warehouse mentioned) proportionately based on Basic Amount of the items. And the distributed additional cost will be added to the basic rate of the item, to calculate valuation rate.
 
+Quantity and Rate is shown as follows when you expand the Items table.
 <img class="screenshot" alt="Stock Entry Item Valuation Rate" src="{{docs_base_url}}/assets/img/stock/stock-entry-item-valuation-rate.png">
 
 #### 2.2 Perpetual Inventory
@@ -57,6 +50,12 @@ The added additional costs will be distributed among the receiving items (where 
 If perpetual inventory system is enabled, additional costs will be booked in "Expense Included In Valuation" account.
 
 <img class="screenshot" alt="Additional Costs General Ledger" src="{{docs_base_url}}/assets/img/stock/additional-costs-general-ledger.png">
+
+The following video shows a demonstration of Stock Entry:
+<div class="embed-container">
+    <iframe src="https://www.youtube.com/embed/Njt107hlY3I?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen>
+    </iframe>
+</div>
 
 #### 3. Related Topics
 1. [Stock Entry Purpose](/docs/user/manual/en/stock/articles/stock-entry-purpose)

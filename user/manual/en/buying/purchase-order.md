@@ -5,18 +5,19 @@ A Purchase Order usually a binding contract with your Supplier that you promise 
 
 ### 1. How to create a Purchase Order
 
-1. A Purchase Order can be automatically created from a Material Request or
+A Purchase Order can be automatically created from a Material Request or
 Supplier Quotation.
+![Purchase Order]({{docs_base_url}}/assets/img/buying/buying_flow.png)
 
-    ![Purchase Order]({{docs_base_url}}/assets/img/buying/buying_flow.png)
-
-2. In ERPNext, you can also make a Purchase Order directly by going to:
+1. In ERPNext, you can also make a Purchase Order directly by going to:
 
     **Buying > Purchasing > Purchase Order > New Purchase Order**
-
-3. Set the target Warehouse.
-4. Enter the Supplier name, item, required by date, and other details.
-5. Save and Submit.
+1. Select the Supplier, required by date.
+1. Set the target Warehouse where the items will be delivered.
+1. In the items table, select the item by code, you can change the required by date.
+1. Set the quantity and the price will be fetched automatically.
+1. Set taxes.
+1. Save and Submit.
     <img class="screenshot" alt="Purchase Order" src="{{docs_base_url}}/assets/img/buying/purchase-order.png">
 
 Entering a Purchase Order is very similar to a Purchase Request, the additional fields
@@ -86,7 +87,7 @@ Nos (from the Item form):
 
 6. Save and Submit the Form.
 
-#### Related Topics
+#### 3. Related Topics
 1. [Request For Quotation](/docs/user/manual/en/buying/request-for-quotation)
 1. [Purchase Taxes](/docs/user/manual/en/buying/purchase-taxes)
 1. [Purchasing In Different Unit](/docs/user/manual/en/buying/articles/purchasing-in-different-unit)

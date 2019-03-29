@@ -21,7 +21,6 @@ organized and searchable manner.
 1. [Quotation](/docs/user/manual/en/selling/quotation)
 - [Sales Order](/docs/user/manual/en/selling/sales-order)
 - [Sales Analytics](/docs/user/manual/en/selling/sales-analytics)
-- [Manufacturing Work In Progress Report](/docs/user/manual/en/selling/manufacturing-work-in-progress)
 
 ## 2. Articles
 ##### 2.1 Sales

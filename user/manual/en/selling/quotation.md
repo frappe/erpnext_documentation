@@ -26,11 +26,12 @@ A Quotation contains details about:
 
 ### 1. How to create a Quotation
 1. Go to **Selling > Sales > Quotation > New Quotation**.
-2. Select if the Quotation is to a Lead or a Customer.
+2. Select if the Quotation is to a Customer or a Lead.
 3. Enter Customer name.
-4. Add the Items in the CURRENCY AND PRICE LIST table.
-5. Modify the details as needed.
+4. Add the Items and their quantities in the items table, the prices will be fetched automatically from Item Price.
+5. Add additional taxes and charges as applicable.
 6. Save.
+
 You can also create a Quotation from an Opportunity.
 
 <img class="screenshot" alt="Make Quotation from Opportunity" src="{{docs_base_url}}/assets/img/selling/make-quote-from-opp.png">

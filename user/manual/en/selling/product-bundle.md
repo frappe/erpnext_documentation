@@ -8,8 +8,8 @@ Following are the steps on how to setup Product Bundle master, and how is it use
 
 ### 1. How to create a Product Bundle
 1. Go to: **Selling > Items and Pricing > Product Bundle > New**.
-2. Enter Parent Item, create one if not already created, make sure Maintain Stock in unchecked.
-3. Enter the products to be bundled in the ITEMS table, enter the quantities.
+2. Enter Parent Item, create one if not already created. Make sure Maintain Stock in unchecked when creating a Parent Item.
+3. Enter the products to be bundled in the Items table and enter their quantities.
 4. Save.
 <img class="screenshot" alt="Product Bundle" src="{{docs_base_url}}/assets/img/selling/product-bundle.png">
 

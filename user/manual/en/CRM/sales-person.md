@@ -7,8 +7,10 @@ individually. The target has to be set against Item Group.
 
 ### 1. How to create a Sales Person
 1. Go to **CRM > Setup > Sales Person > New**.
-2. Select the Employee ID for the Sales Person.
-3. Save.
+2. Enter a name for the Sales Person.
+3. Select the Employee ID for the Sales Person.
+4. If you tick the Group Node checkbox, you can create groups of Sales Persons under this group node.
+5. Save.
 
 <img class="screenshot" alt="Sales Person Tree" src="{{docs_base_url}}/assets/img/crm/sales-person-tree.png">
 

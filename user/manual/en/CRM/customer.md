@@ -10,13 +10,17 @@ A customer is uniquely identified by the Customer ID. Normally this ID is identi
 
 ### 1. How to create a Customer
 
-1. You can either directly create your Customers via **Selling > Customer**.
-2. Enter Customer name.
-3. Save.
+1. You can crete Customers via **CRM > Sales Pipeline > New** or **Selling > Customers > New**.
+1. Enter Customer name.
+1. Set the Customer group whether Commercial, Individual etc.
+1. You can set From Lead if you go this customer from a lead.
+1. Ticking Disabled will hide the customer from the Customer List.
+1. The Is Internal Customer checkbox is for a person from one of your companies who is a customer to another one of your companies. See more [here](/docs/user/manual/en/accounts/inter-company-invoices).
+1. Save.
 
     <img class="screenshot" alt="Create Customer" src="{{docs_base_url}}/assets/img/crm/create-customer.gif">
 
-4. You can also upload it via the [Data Import Tool](/docs/user/manual/en/setting-up/data/data-import).
+1. You can also upload customer details via the [Data Import Tool](/docs/user/manual/en/setting-up/data/data-import).
 
 ### 2. Features
 A Customer can avail the features (operations) in the selling process. The general flow can be summarized as:

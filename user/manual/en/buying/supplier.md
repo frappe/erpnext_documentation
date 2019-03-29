@@ -7,7 +7,7 @@ Suppliers are companies or individuals who provide you with products or services
 1. You can create a new Supplier from:
 **Buying > Supplier > Supplier > New**
 2. Enter a name for the supplier.
-4. Select the supplier group.
+4. Select the supplier group whether Pharmaceutical, Hardware etc.
 5. Save.
 <img class="screenshot" alt="Supplier Master" src="{{docs_base_url}}/assets/img/buying/supplier-master.png">
 
