@@ -26,5 +26,5 @@ On submission of this Stock Entry, button 'Make Retention Stock Entry' will be a
 
 <img class="screenshot" alt="Retain Sample" src="{{docs_base_url}}/assets/img/stock/material-transfer-sample.png">
 
-#### Related Topics
+#### 4. Related Topics
 1. [Warehouse](/docs/user/manual/en/stock/warehouse)

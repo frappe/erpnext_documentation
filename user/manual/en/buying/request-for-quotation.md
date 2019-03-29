@@ -4,12 +4,10 @@
 A Request for Quotation is a document that an organization submits to one or more suppliers eliciting quotation for items.
 
 ### 1. How to create a Request For Quotation
-1. In ERPNext, You can create Request for Quotation directly by going to:
-
-    **Buying > Purchasing > Request for Quotation > New**
+1. Go to: **Buying > Purchasing > Request for Quotation > New**
 2. Enter the date.
-3. Enter the supplier.
-4. Enter item and warehouse.
+3. Choose the supplier to whom Request for Quotation is to be sent.
+4. In the next table, enter items, quantity and the target warehouse where you'll be sending the items.
 5. Save and submit.
 
 ### 2. Features

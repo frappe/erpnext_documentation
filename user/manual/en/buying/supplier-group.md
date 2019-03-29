@@ -25,7 +25,7 @@ payments.
 
 3. Type your new supplier category and Save.
 
-#### 1.2 Supplier Group Tree
+#### 2. Supplier Group Tree
 
 You can also construct Supplier Group in the form of a tree hierarchy, similar
 to that of Chart of Accounts.
@@ -44,5 +44,5 @@ For example, in the above image, let's say that user permission is applied for a
 view 'Distributor' document. Then the user also gets permitted to view its
 child nodes 'Book Distributor', 'Electronic Distributor', etc.
 
-#### 2. Related Topics
+#### 3. Related Topics
 1. [Supplier](/docs/user/manual/en/buying/supplier)

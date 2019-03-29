@@ -19,7 +19,6 @@ Distributors always need to be on top of their game. From procuring the products
 1. [Item Price](/docs/user/manual/en/stock/item-price)
 1. [Item Codification](/docs/user/manual/en/stock/item-codification)
 1. [Item Variants](/docs/user/manual/en/stock/item-variants)
-1. [Item Warranty](/docs/user/manual/en/stock/item-warranty)
 
 
 ##### 1.3 Stock Transactions

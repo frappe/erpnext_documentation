@@ -11,7 +11,7 @@ You can track Sales Personwise commission in the report under Selling module.
 1. Go to:
 **Selling > Sales Partners and Territory > Sales Partner > New**.
 2. Enter the Sales Partner name and the Commission Rate.
-3. You can also select the type of the sales partner you're creating.
+3. You can also select the type of the sales partner you're creating to identify if they're a Reseller, or Retailer, and so on.
 Sales Partners are saved with Sales Partner name provided by user.
 4. Save.
 <img class="screenshot" alt="Sales Partner" src="{{docs_base_url}}/assets/img/selling/sales-partner.png">

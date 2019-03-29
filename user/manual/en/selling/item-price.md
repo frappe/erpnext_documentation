@@ -6,15 +6,17 @@ Item Price is the record in which you can log the selling and buying rate of an 
 ### 1. How to create Item Price
 1. There are two ways to reach to new Item Price form:
 
- 1. **Selling/Buying/Stock > Items and Pricing > Item Price > New**.
- 2. Select the price list and enter the rate.
- 3. Save.
+    **Selling/Buying/Stock > Items and Pricing > Item Price > New**.
  
- Or:
- 1. **Item > Click on "+" next to Item Price**.
- 2. Select the price list and enter the rate.
- 3. Save.
+    Or
+
+    **Item > Click on "+" next to Item Price**.
  
+1. Set the Unit of Measure for which price will be applied.
+1. Select the price list whether Selling or Buying price.
+1. Enter the actual rate.
+1. Save.
+
 Following are the detailed steps to create new Item Price.
 
 ##### 1.1 Select Price List

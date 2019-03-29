@@ -13,8 +13,8 @@ In ERPNext, you can create a supplier scorecard by going to:
 
 1. **Buying > Supplier Scorecard > Supplier Scorecard > New**
 2. Enter supplier name.
-3. Select the evaluating criteria.
-4. Save.
+3. Select the evaluating period whether weekly, monthly, or yearly.
+4. Setup the scoring function (details in next section).
 5. A supplier scorecard is created for each supplier individually. Only one supplier scorecard can be created for each supplier. 
 <img class="screenshot" alt="Purchase Order" src="{{docs_base_url}}/assets/img/buying/supplier-scorecard.png">
 
@@ -67,7 +67,9 @@ It is crucial that the formula be solvable for all variable values. This is most
 
 This example would resolve to 0 / 0 in periods where there are no received items, and therefore should have a check to protect in this case:
 ```
-({total_accepted_items} / {total_received_items}) if {total_received_items} > 0 else 1.
+({total_accepted_items} / {total_received_items}) 
+if {total_received_items} > 0
+else 1.
 ```
 
 #### 2.4 Evaluating the Supplier

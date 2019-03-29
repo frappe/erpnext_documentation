@@ -9,7 +9,7 @@ With management of Sales Person, ERPNext also allows you to assign target Sales 
 
 To allocate target, you need to open specific Sales Person master.
 
-**Selling > Sales Partners and Territory > Sales Person > (Edit Sales Person)**
+**Selling > Sales Partners and Territory > Sales Person > Edit**
 
 ####1.2 Allocate Item Groupwise Target
 

@@ -12,8 +12,11 @@ under Trading.
 
 ### 1. How to create an Item Group
 
+1. Go to: **Stock > Items and Pricing > Item Group**.
 1. Select an Item Group under which you wish to create the group.
-1. Select 'Add Child'
+1. Select 'Add Child'.
+1. To create a category, tick on Group Node.
+1. Save. 
 
 <img class="screenshot" alt="Add Item Group" src="{{docs_base_url}}/assets/img/stock/item-group-new.gif">
 
@@ -24,4 +27,5 @@ under Trading.
 
 <img class="screenshot" alt="Add Item Group" src="{{docs_base_url}}/assets/img/stock/item-group-del.gif">
 
-{next}
+#### Related Topics
+1. [Item](/docs/user/manual/en/stock/item)

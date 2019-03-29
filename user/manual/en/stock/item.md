@@ -6,17 +6,17 @@ An Item is your company's product or a service. The term Item is applicable to t
 ERPNext is optimized for itemized management of your sales and purchase. If you are in services, you can create an Item for each services that your offer. Completing the Item Master is very essential for successful implementation of ERPNext.
 
 ### 1. How to create an Item
-1. Go to  **Stock > Items and Pricing > Item > New**
-2. Enter an item code, name, group and other details as needed.
+1. Go to  **Stock > Items and Pricing > Item > New**.
+2. Enter an item code, name, group, opening stock units, and standard selling rate.
 3. Save.
 
 #### 1.2 Options when creating an item
-
+  * **Disabled**: The item will be disabled and not appear in the Item List.
+  * **Allow Alternative Item**: Sometimes when manufacturing a finished good, a specific material may not be available. If you tick this, you can create and select an alternative item from the Item Alternative list.
   * **Maintain Stock:** If you are maintaining stock of this Item in your Inventory, ERPNext will make a stock ledger entry for each transaction of this item.
-  * **Default Warehouse:** This is the Warehouse that is automatically selected in your transactions.
+  * **Include Item in Manufacturing**: This if for raw materials that'll be used to create finished goods.
   * **Valuation Rate:** There are two options to maintain valuation of stock. FIFO (first in - first out) and Moving Average. To understand this topic in detail please visit [Item Valuation, FIFO and Moving Average](/docs/user/manual/en/stock/item-valuation-fifo-and-moving-average).
-  * **Allowance Percentage:** This is the percent by which you will be allowed to over-bill or over-deliver this Item. If not set, it will select from the Global Defaults. This option will be available once you create and save the item.
-  
+  * **Allowance Percentage:** This option will be available only when you create and save the item. This is the percent by which you will be allowed to over-bill or over-deliver this Item. If not set, it will select from the Global Defaults. 
 
 ###2. Features
 #### 2.1 Item Properties
@@ -55,6 +55,18 @@ These numbers help to track individual units or batches of Items which you sell.
   ***Re-order level** suggests the amount of stock balance in the Warehouse.
   ***Re-order Qty** suggests the amount of stock to be ordered to maintain minimum stock levels.
   ***Minimum Order Qty** is the minimum quantity for which a Material Request / Purchase Order must be made.
+
+The **Re-order Level** is the point at which stock on a particular item has diminished to a point where it needs to be replenished. To order based on Re-order level can avoid shortages. Re-order level can be determined based on the lead time and the average daily consumption.
+
+You can update Re-order Level and Re-order Qty for an Item in the Auto Re-order section.
+
+For example, you can set your reorder level of Motherboard at 10. When there are only 10 Motherboards remaining in stock, the system will either automatically create a Material Request in your ERPNext account.
+
+**Re-order quantity** is the quantity to order, so that the sum of ordering cost and holding cost is at its minimum.The re-order quantity is based on the minimum order quantity specified by the supplier and many other factors.
+
+For example, If reorder level is 100 items, your reorder quantity may not necessarily be 100 items. The Reorder quantity can be greater than or equal to reorder level. It may depend upon lead time, discount, transportation and average daily consumption.
+
+<img alt="Item Reorder" class="screenshot" src="{{docs_base_url}}/assets/img/stock/item-reorder.png">
 
 #### 2.6  Item Tax
 
@@ -100,11 +112,16 @@ Inspection Criteria: If a Quality Inspection is prepared for this Item, then thi
 
 * **Customer Codes:** Track Item Code assigned by the Customers for this Item. This will help you in searching item while creating Sales Order based on the Item Code in the Customer's Purchase Order.
 
-#### 2.11  Manufacturing nd Website
+#### 2.11  Manufacturing and Website
 
 <img class="screenshot" alt="Manufaturing details" src="{{docs_base_url}}/assets/img/stock/item-manufacturing-website.png">
 
 Visit [Manufacturing](/docs/user/manual/en/manufacturing) and [Website ](/docs/user/manual/en/website)to understand these topics in detail.
+
+#### 2.12 Defaults
+* **Default Warehouse:** This is the Warehouse that is automatically selected in your transactions with this item.
+* **Default Price List:** Whether Standard Selling or Standard Buying.
+Likewise you can also set the purchasing and selling defaults. 
 
 Here is a video for demonstrating item management:
 <div>
@@ -113,7 +130,6 @@ Here is a video for demonstrating item management:
     </iframe>
   </div>
 </div>
-
 
 #### Related Topics
 1. [Item Price](/docs/user/manual/en/stock/item-price)
@@ -125,12 +141,12 @@ Here is a video for demonstrating item management:
 1. [Item Attribute](/docs/user/manual/en/stock/item-attribute)
 1. [Item Valuation FIFO And Moving Average](/docs/user/manual/en/stock/item-valuation-fifo-and-moving-average)
 1. [Item Valuation Transactions](/docs/user/manual/en/stock/articles/item-valuation-transactions)
-- [Maintain Stock Field Frozen In Item Master](/docs/user/manual/en/stock/articles/maintain-stock-field-frozen-in-item-master)
-- [Managing Rejected Finished Goods Items](/docs/user/manual/en/stock/articles/managing-rejected-finished-goods-items)
-- [Return Rejected Item](/docs/user/manual/en/stock/articles/return-rejected-item)
-- [Track Items Using Barcode](/docs/user/manual/en/stock/articles/track-items-using-barcode)
-- [Creating Depreciation For Item](/docs/user/manual/en/stock/articles/creating-depreciation-for-item)
+1. [Maintain Stock Field Frozen In Item Master](/docs/user/manual/en/stock/articles/maintain-stock-field-frozen-in-item-master)
+1. [Managing Rejected Finished Goods Items](/docs/user/manual/en/stock/articles/managing-rejected-finished-goods-items)
+1. [Return Rejected Item](/docs/user/manual/en/stock/articles/return-rejected-item)
+1. [Track Items Using Barcode](/docs/user/manual/en/stock/articles/track-items-using-barcode)
+1. [Creating Depreciation For Item](/docs/user/manual/en/stock/articles/creating-depreciation-for-item)
 1. [Serial Number Naming](/docs/user/manual/en/stock/articles/serial-no-naming)
-- [Opening Stock Balance Entry For Serialized And Batch Item](/docs/user/manual/en/stock/articles/opening-stock-balance-entry-for-serialized-and-batch-item)
+1. [Opening Stock Balance Entry For Serialized And Batch Item](/docs/user/manual/en/stock/articles/opening-stock-balance-entry-for-serialized-and-batch-item)
 1. [Serial Number](/docs/user/manual/en/stock/serial-no)
 1. [Serial Number Naming](/docs/user/manual/en/stock/articles/serial-no-naming)

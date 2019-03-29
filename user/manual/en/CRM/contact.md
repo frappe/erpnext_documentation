@@ -17,9 +17,10 @@ attach multiple Contacts or Addresses to Customers and Suppliers.
 
 ### 1. How to create a Contact
 
-1. Go to **> CRM > Sales Pipeline > Contact > New**.
-2. Choose a status if applicable.
-3. Enter additional details as needed.
+1. Go to **CRM > Sales Pipeline > Contact > New**.
+1. Enter the name.
+2. Choose the status if the contact is passive, is open to contact or has replied.
+3. Enter contact details like email, phone, etc.
 4. Save.
     <img class="screenshot" alt="Contact" src="{{docs_base_url}}/assets/img/crm/contact.png">
 

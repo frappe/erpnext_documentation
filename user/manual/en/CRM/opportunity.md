@@ -5,20 +5,19 @@ When you know a Lead is looking for some products or services to buy, it becomes
 
 ### 1. How to create an Opportunity
 
-1. Go to **CRM > Sales Pipeline > Opportunity > New Opportunity**.
-2. Select if the Opportunity is from a Lead or a Customer. 
-3. Select the Lead/Customer. 
-4. Creating an Opportunity:
+1. Go to **CRM > Sales Pipeline > Opportunity > New**.
+1. Select if the Opportunity is from a Lead or a Customer.
+1. Select the Customer if Opportunity is from a customer. 
 
    <img class="screenshot" alt="Opportunity" src="{{docs_base_url}}/assets/img/crm/new-opportunity.gif">
 
-5. You can also go to an “Open” Lead and select “Opportunity” from the **Make** dropdown.
+1. You can also go to an “Open” Lead and select “Opportunity” from the **Make** dropdown.
 
-6. Creating an Opportunity from an open Lead:
+1. Creating an Opportunity from an open Lead:
 
     <img class="screenshot" alt="Opportunity" src="{{docs_base_url}}/assets/img/crm/lead-to-opportunity.png">
 
-7. Creating an Opportunity for Customer to Collect their Requirement:
+1. Creating an Opportunity for Customer to Collect their Requirement:
 
     <img class="screenshot" alt="Opportunity" src="{{docs_base_url}}/assets/img/crm/requirement-gathering.png">
 

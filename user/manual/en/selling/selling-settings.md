@@ -13,11 +13,11 @@ When a customer is saved, a unique ID is generated for that Customer.
 
 By default, Customer ID is generated based on Customer Name. If you wish to save Customer using a naming series, in the field Customer Naming Series, set value as "Naming Series".
 
-Example of Customer Id's saved in Naming Series - `CUST00001,CUST00002, CUST00003...` and so on.
+Example of Customer Id's saved in Naming Series - "CUST00001,CUST00002, CUST00003..." and so on.
 
 You can set Naming Series for Customers from:
 
-`Setup > Data > Naming Series`
+**Setup > Data > Naming Series**
 
 #### 1.2 Campaign Naming By
 

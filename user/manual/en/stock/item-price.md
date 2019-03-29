@@ -9,17 +9,17 @@ There are two ways to reach to new Item Price form.
 
 1. **Selling/Buying/Stock > Items and Pricing > Item Price > New**.
 2. Enter the price list whether its the standard selling or buying rate.
-3. Enter the rate.
+3. Enter the actual price rate.
 4. Save.
 
 Or
 
-1. **Selling/Buying/Stock > Items and Pricing > Item > Item Prices**.
+1. **Selling/Buying/Stock > Items and Pricing > Item > Select the Item > Item Price**.
 2. Click on the item and change the price or create a new item price.
 
 ### 2. How to create a new Price List.
 
-1. Select Price List. You can create multiple Price List in ERPNext to track Selling and Buying Price List of an item separtely. Also if item's selling prices id changing based on territory, or due to other criteria, you can create multiple selling Price List for it.
+1. Go to **Selling/Buying/Stock > Items and Pricing > Price List**. You can create multiple Price List in ERPNext to track Selling and Buying Price List of an item separtely. Also if item's selling prices id changing based on territory, or due to other criteria, you can create multiple selling Price List for it.
 
     ![Item Price list]({{docs_base_url}}/assets/img/stock/item-price-1.png)
 
