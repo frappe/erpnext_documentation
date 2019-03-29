@@ -46,9 +46,9 @@ You can check out [this video](https://www.youtube.com/watch?v=5wjollWN0OA) for 
 1. [Inter Company Journal Entry](/docs/user/manual/en/accounts/inter-company-journal-entry)
 
 ##### 1.4 Tools
-1. [Bank Reconciliation](h/docs/user/manual/en/accounts/bank-reconciliation)
-1. [Payment Reconciliation](h/docs/user/manual/en/accounts/payment-reconciliation)
-1. [Period Closing Voucher](h/docs/user/manual/en/accounts/period-closing-voucher)
+1. [Bank Reconciliation](/docs/user/manual/en/accounts/bank-reconciliation)
+1. [Payment Reconciliation](/docs/user/manual/en/accounts/payment-reconciliation)
+1. [Period Closing Voucher](/docs/user/manual/en/accounts/period-closing-voucher)
 
 ##### 1.5 Reports
 
