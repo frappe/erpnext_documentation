@@ -11,12 +11,12 @@
 
 ## Topics
 ##### 1. Goal and Procedure
-1. [Quality Goal](http://frappe.local:8000/docs/user/manual/en/quality-management/quality_goal)
-- [Quality Procedure](http://frappe.local:8000/docs/user/manual/en/quality-management/quality_procedure)
-- [Tree Of Procedure](http://frappe.local:8000/docs/user/manual/en/quality-management/tree_of_procedure)
+1. [Quality Goal](/docs/user/manual/en/quality-management/quality_goal)
+- [Quality Procedure](/docs/user/manual/en/quality-management/quality_procedure)
+- [Tree Of Procedure](/docs/user/manual/en/quality-management/tree_of_procedure)
 
 ##### 2. Review and Action
-1. [Quality Review](http://frappe.local:8000/docs/user/manual/en/quality-management/quality_review)
-- [Quality Action](http://frappe.local:8000/docs/user/manual/en/quality-management/quality_action)
-- [Quality Meeting](http://frappe.local:8000/docs/user/manual/en/quality-management/quality_meeting)
-- [Customer Feedback](http://frappe.local:8000/docs/user/manual/en/quality-management/customer_feedback)
+1. [Quality Review](/docs/user/manual/en/quality-management/quality_review)
+- [Quality Action](/docs/user/manual/en/quality-management/quality_action)
+- [Quality Meeting](/docs/user/manual/en/quality-management/quality_meeting)
+- [Customer Feedback](/docs/user/manual/en/quality-management/customer_feedback)

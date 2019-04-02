@@ -46,4 +46,4 @@ warehouse specified in Packing List table.
 This work-around in Product Bundle was discovered when a customer dealing into nutrition product asked for feature to manage schemes like "Buy One Get One Free". To manage the same, he created a non-stock item which was used as Parent Item. In description of item, he entered scheme details with items image indicating the offer. The sellable product was selected in Package Item where qty was two. Hence every time they sold one qty of Parent item under scheme, system deducted two quantities of product from Warehouse.</div>
 
 #### 3. Related Topics
-1. [Item](http://frappe.local:8000/docs/user/manual/en/stock/item)
+1. [Item](/docs/user/manual/en/stock/item)
