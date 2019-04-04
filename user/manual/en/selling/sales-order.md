@@ -86,13 +86,15 @@ Sales Order is a “Submittable” transaction. See Document Stages. You will be
 When the 'Order Type' of the Sales Order is 'Maintenance' follow the steps
 given below:
 
-__Step 1:__ Enter Currency, Price list and Item details.
+1. Enter Currency, Price list and Item details.
 
-__Step 2:__ Mention taxes and other information.
+2. Mention taxes and other information.
 
-__Step 3:__ Save and Submit the form
+3. Save and Submit the form
 
-__Step 4:__ Once the form is submitted, the Action button will provide three choices.i) Maintenance Visit ii) Maintenance Schedule iii) Invoice.
+4. Once the form is submitted, the Action button will provide three choices.
+    
+    i) Maintenance Visit ii) Maintenance Schedule iii) Invoice.
 
 
 > **Note 1:**   

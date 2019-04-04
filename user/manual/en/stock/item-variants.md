@@ -26,7 +26,7 @@ On selecting 'Has Variants' a table shall appear. Specify the variant attributes
 
 > Note: You cannot make Transactions against a 'Template'
 
-To create 'Item Variants' against a 'Template' select 'Make Variants'
+To create 'Item Variants' against a 'Template' select 'Make Variants'.
 
 <img class="screenshot" alt="Make Variants" src="{{docs_base_url}}/assets/img/stock/make-variant.png">
 

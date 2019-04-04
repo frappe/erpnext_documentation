@@ -13,17 +13,18 @@ under Trading.
 ### 1. How to create an Item Group
 
 1. Go to: **Stock > Items and Pricing > Item Group**.
-1. Select an Item Group under which you wish to create the group.
+1. Select an group node under which you wish to create the Item Group, the default is All Item Groups   .
 1. Select 'Add Child'.
-1. To create a category, tick on Group Node.
-1. Save. 
+1. To make this child a category, tick on Group Node.
+1. Click on Create New. 
 
 <img class="screenshot" alt="Add Item Group" src="{{docs_base_url}}/assets/img/stock/item-group-new.gif">
 
 ### 2. Delete an Item Group
 
 1. Select the Item Group you want to delete.
-1. Select 'delete'
+1. Select 'Delete'.
+1. Click on Yes.
 
 <img class="screenshot" alt="Add Item Group" src="{{docs_base_url}}/assets/img/stock/item-group-del.gif">
 

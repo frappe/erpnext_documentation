@@ -11,13 +11,13 @@ inventory.
 ### 1. How to create a Delivery Note
 The entry of the Delivery Note is very similar to a Purchase Receipt. To create a delivery note:
 
-1. Go to **Stock > Stock Transactions > Delivery Note > New**
-2. Enter Customer Name.
-3. Select Warehouse.
-4. Enter the Item details.
-5. Save and Submit.
+1. Go to **Stock > Stock Transactions > Delivery Note > New**.
+1. Select the Customer.
+1. Select the Items and quantities in the Items table.
+1. The UOM and Rates will be fetched automatically.
+1. Save and Submit.
 
-Or, from a “Submitted” Sales Order (that is not shipped) by click on
+Or, from a “Submitted” Sales Order (that is not shipped) by clicking on
 “Make Delivery Note”.
 
 <img class="screenshot" alt="Delivery Note" src="{{docs_base_url}}/assets/img/stock/delivery-note.png">
@@ -66,5 +66,5 @@ Go to **Selling > Selling Settings > Sales Order Required**, then turn this sett
 
 #### 3. Related Topics
 1. [Warehouse](/docs/user/manual/en/stock/warehouse)
-- [Delivery Note Stock Error](/docs/user/manual/en/stock/articles/delivery-note-stock-error)
-- [Material Transfer From Delivery Note](/docs/user/manual/en/stock/articles/material-transfer-from-delivery-note)
+1. [Delivery Note Stock Error](/docs/user/manual/en/stock/articles/delivery-note-stock-error)
+1. [Material Transfer From Delivery Note](/docs/user/manual/en/stock/articles/material-transfer-from-delivery-note)

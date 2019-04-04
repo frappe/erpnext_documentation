@@ -16,9 +16,10 @@ This can become quite a detailed Tree like the following, for example:
 
 ### 1. How to create a Warehouse
 1. Go to **Stock > Setup > Warehouse > New**.
-2. Enter the name, set/check the parent warehouse. If you tick on Is Group, then this Warehouse becomes a parent warehouse.
-3. You can add additional details like address and contact details. You can also set it to be a group
-4. Save. 
+1. Enter a name for the warehouse.
+1. Set/check the parent warehouse. If you tick on Is Group, then this Warehouse becomes a parent group.
+1. You can add additional details like address and contact details.
+1. Save. 
 
 ### 2. How to navigate to a Warehouse
 

@@ -1,7 +1,7 @@
 <!-- add-breadcrumbs -->
 # Perpetual Inventory
 
-As per the perpetual inventory system, accounts posting is done for every stock transaction.
+As per the perpetual inventory system, accounts posting is done for every stock transaction. Otherwise its done in larger intervals for example monthly or quarterly
 
 On creating new Warehouse, the system will automatically create an Account in the Chart of Account, with the same name as Warehouse Name.
 
@@ -9,23 +9,29 @@ On receipt of items in a particular warehouse, the balance in the Warehouse Acco
 
 ### 1. How to activate perpetual inventory
 
-  * Activate Perpetual Inventory
+1. Activate Perpetual Inventory:
 
-	`Setup > Company > Stock Settings > "Enable Perpetual Inventory"`
+	**Setup > Company > Stock Settings > Enable Perpetual Inventory**
 
-<img class="screenshot" alt="Perpetual Inventory" src="{{docs_base_url}}/assets/img/accounts/perpetual-1.png">
-
-  * Setup the following default accounts for each Company. These accounts are created automatically in the new ERPNext accounts.
+    <img class="screenshot" alt="Perpetual Inventory" src="{{docs_base_url}}/assets/img/accounts/perpetual-1.png">
+    Note that if you disable perpetual inventory, users will have to manage the account entries manually.
+1. Set up the following default accounts for each Company if not set. These accounts are created automatically in the new ERPNext accounts.
 
 	* Default Inventory Account
     * Stock Received But Not Billed
     * Stock Adjustment Account
     * Expenses Included In Valuation	
     * Cost Center
+    * Capital Work In Progress Account
+    * Asset Received But Not Billed
 
-  * If user wants to set an individual account for each warehouse, create account head for each account under `Assets > Current Asset > Stock Assets > (Warehouse)` and set it on the respective warehouse under field 'Account'.
+1. If user wants to set an individual account for each warehouse, create account head for each account. Go to:
 
-  * For stock transactions, general ledger entries made against the account head set on the warehouse, if user had not set the account for the warhouse then system gets the account head from the parent warehouse. If account had not set for parent warehouse then system gets the account(Default Inventory Account) from the company master.
+    **Accounts > Chart of Accounts > Company > Application of Funds (Assets) > Current Asset > Stock Assets > *Create a new account with same name as Warehouse***
+
+    Now, go to a warehouse and link this account to the warehouse. This helps in filtering and viewing statements warehouse-wise.
+
+1. For stock transactions, general ledger entries made against the account head set on the warehouse, if user had not set the account for the warehouse then system gets the account head from the parent warehouse. If account had not set for parent warehouse then system gets the account(Default Inventory Account) from the company master.
 
 * * *
 
@@ -33,7 +39,7 @@ On receipt of items in a particular warehouse, the balance in the Warehouse Acco
 
 Consider following Chart of Accounts and Warehouse setup for your company:
 
-####Chart of Accounts
+Chart of Accounts:
 
   * Assets (Dr) 
     * Current Assets
@@ -45,8 +51,6 @@ Consider following Chart of Accounts and Warehouse setup for your company:
       * Work In Progress
     * Tax Assets 
       * VAT
-    * Fixed Assets
-      * Fixed Asset Warehouse
   * Liabilities (Cr) 
     * Current Liabilities
     * Accounts Payable 
@@ -67,13 +71,13 @@ Consider following Chart of Accounts and Warehouse setup for your company:
       * Shipping Charges
       * Customs Duty
 
-### 3. Warehouse - Account Configuration
+#### 2.1 Warehouse - Account Configuration
 
   * Stores
   * Work In Progress
   * Finished Goods
 
-#### 3.1 Purchase Receipt
+#### 2.2 Purchase Receipt
 
 Suppose you have purchased _10 nos_ of item "RM0001" at _$200_ and _5 nos_ of item "Base Plate" at **$100** from supplier "Arcu Vel Quam Fabricators". Following are the details of Purchase Receipt:
 
@@ -142,9 +146,7 @@ Suppose you have purchased _10 nos_ of item "RM0001" at _$200_ and _5 nos_ of it
 
 As stock balance increases through Purchase Receipt, "Store" accounts are debited and a temporary account "Stock Receipt But Not Billed" account is credited, to maintain double entry accounting system. At the same time, negative expense is booked in account "Expense included in Valuation" for the amount added for valuation purpose, to avoid double expense booking.
 
-* * *
-
-#### 3.2 Purchase Invoice
+#### 2.3 Purchase Invoice
 
 On receiving Bill from supplier, for the above Purchase Receipt, you will make Purchase Invoice for the same. The general ledger entries are as follows:
 
@@ -155,9 +157,7 @@ On receiving Bill from supplier, for the above Purchase Receipt, you will make P
 Here "Stock Received But Not Billed" account is debited and nullified the
 effect of Purchase Receipt.
 
-* * *
-
-#### 3.3 Delivery Note
+#### 2.4 Delivery Note
 
 Lets say, you have an order from "Utah Automation Services" to deliver 5 nos of item "RM0001"
 at $300. Following are the details of Delivery Note:
@@ -233,7 +233,7 @@ valuation method (FIFO / Moving Average) or actual cost of serialized items.
 
 * * *
 
-### 3.4 Sales Invoice with Update Stock
+### 2.5 Sales Invoice with Update Stock
 
 Lets say, you did not make Delivery Note against the above order and instead
 you have made Sales Invoice directly, with "Update Stock" options. The details
@@ -250,9 +250,7 @@ of the Sales Invoice are same as the above Delivery Note.
 Here, apart from normal account entries for invoice, "Stores" and "Cost of
 Goods Sold" accounts are also affected based on the valuation amount.
 
-* * *
-
-#### 3.5 Stock Entry (Material Receipt)
+#### 2.6 Stock Entry (Material Receipt)
 
 **Items:**
 
@@ -285,9 +283,7 @@ Goods Sold" accounts are also affected based on the valuation amount.
 
 <img class="screenshot" alt="Perpetual Inventory" src="{{docs_base_url}}/assets/img/accounts/perpetual-st-receipt-gl.png">
 
-* * *
-
-#### 3.6 Stock Entry (Material Issue)
+#### 2.7 Stock Entry (Material Issue)
 
 **Items:**
 
@@ -320,9 +316,7 @@ Goods Sold" accounts are also affected based on the valuation amount.
 
 <img class="screenshot" alt="Perpetual Inventory" src="{{docs_base_url}}/assets/img/accounts/perpetual-st-issue-gl.png">
 
-* * *
-
-#### 3.7 Stock Entry (Material Transfer)
+#### 2.8 Stock Entry (Material Transfer)
 
 **Items:**
 
@@ -357,6 +351,6 @@ Goods Sold" accounts are also affected based on the valuation amount.
 
 <img class="screenshot" alt="Perpetual Inventory" src="{{docs_base_url}}/assets/img/accounts/perpetual-st-transfer-gl.png">
 	
-#### Related Topics
+#### 3. Related Topics
 1. [Accounting Of Inventory Stock](/docs/user/manual/en/stock/accounting-of-inventory-stock)
 1. [Migrate to Perpetual Inventory](/docs/user/manual/en/stock/migrate-to-perpetual-inventory)

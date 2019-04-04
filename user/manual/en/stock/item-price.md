@@ -15,7 +15,7 @@ There are two ways to reach to new Item Price form.
 Or
 
 1. **Selling/Buying/Stock > Items and Pricing > Item > Select the Item > Item Price**.
-2. Click on the item and change the price or create a new item price.
+2. Click on the item and change the price or create a new item price as above.
 
 ### 2. How to create a new Price List.
 
@@ -34,7 +34,8 @@ Or
     ![Item Price Rate]({{docs_base_url}}/assets/img/stock/item-price-3.png)
 
 4. Save Item Price. To check all Item Price together, go to:
-    Stock > Analytics > Item-wise Price List Rate
+
+    **Stock > Analytics > Item-wise Price List Rate**
 
 You will find option to create new Item Price record (+) in this report as well.
 
