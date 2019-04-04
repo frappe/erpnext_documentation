@@ -13,9 +13,10 @@ To understand Opening Stock for serialized Items visit [Stock Reconciliation](/d
 
 ### 1. How to create a new Stock Reconciliation
 1. Go to **Stock > Tools > Stock Reconciliation > New**.
-2. Add the item codes, and warehouse in which they'll be stored, and the quantity.
-3. Set Valuation Rate. It's the amount that cost you for acquiring/making the item. This will be fetched automatically if set when creating the Item.
-4. Save and Submit.
+1. Add the item codes, warehouse in which they'll be stored, and the quantity.
+1. The Rate will be fetched and amount will calculated according to the quantity.
+1. Set Valuation Rate if not already set. It's the amount that cost you for acquiring/making the item. 
+1. Save and Submit.
 
 <div>
     <div class="embed-container">

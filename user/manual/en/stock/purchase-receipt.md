@@ -4,14 +4,19 @@
 Purchase Receipts are made when you accept material from your Supplier usually
 against a Purchase Order.
 
-You can also accept Purchase Receipts directly ( Set Purchase Order
+You can also accept Purchase Receipts directly (Set Purchase Order
 Required as “No” in Global Defaults).
 
 ### 1. How to create a Purchase Receipt
-Go to:
+1. Go to:
 **Stock > Stock Transactions > Purchase Receipt > New Purchase Receipt**
-
-Or from a “Submitted” Purchase Order, by click on “Make Purchase Receipt”.
+1. Enter the Supplier name.
+1. You can set the Accepted Warehouse for all items in this purchase receipt.
+1. Select the Item and enter the quantity in the items table.
+1. The rate will be fetched and amount will be calculated automatically.
+1. You can expand the item row to change the Accepted Warehouse for an item.
+1. Save and submit.
+Or from a “Submitted” Purchase Order, by clicking on “Make Purchase Receipt”.
 
 <img class="screenshot" alt="Purchase Receipt" src="{{docs_base_url}}/assets/img/stock/purchase-receipt.png">
 

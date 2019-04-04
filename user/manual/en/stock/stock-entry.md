@@ -6,29 +6,26 @@ Warehouse, to a Warehouse and between Warehouses.
 
 Stock Entries can be made for the following purposes:
 
-* Material Issue - If the material is being issued. (Outgoing Material)
-* Material Receipt - If the material is being received. (Incoming Material)
-* Material Transfer - If the material is being moved from one warehouse to another.
-* Material Transfer for Manufacturing - If the material being transfered is for Manufacturing Process.
-* Manufacture - If the Material is being received from a Manufacturing/Production Operation.
-* Repack - If the Original item/items is being repacked into new item/items.
-* Subcontract - If the Material is being issued for a sub-contract activity.
+* **Material Issue**: If the material is being issued. (Outgoing Material).
+* **Material Receipt**: If the material is being received. (Incoming Material).
+* **Material Transfer**: If the material is being moved from one warehouse to another.
+* **Material Transfer for Manufacturing**: If the material being transfered is for Manufacturing Process.
+* **Manufacture**: If the Material is being received from a Manufacturing/Production Operation.
+* **Repack**: If the Original item/items is being repacked into new item/items.
+* **Subcontract**: If the Material is being issued for a sub-contract activity.
 
 ### 1. How to create a Stock Entry
-
-To make a Stock Entry:
-
 1. Go to **Stock > Stock Transactions > Stock Entry > New**.
 
     <img class="screenshot" alt="Stock Entry" src="{{docs_base_url}}/assets/img/stock/stock-entry.png">
+1. Select the Stock Entry Purpose from the ones listed above.
+1. If you set the Default Source or Target Warehouses, they'll be automatically filled for the rows in the Items table.
+1. Source/Target Warehouse will be available as per the Stock Entry Purpose you selected.
+1. Select Item, quantity.
+1. The basic rate will be fetched and the amount will be calculated automatically.
+1. Save and Submit.
 
-2. Select Warehouse.
-3. Select Item, quantity.
-4. Save and Submit.
-
-In the Stock Entry you have to update the Items table with all your
-transactions. For each row, you must enter a “Source Warehouse” or a “Target
-Warehouse” or both (if you are recording a movement).
+Usually, "Source Warehouse" and "Target Warehouse" both are set for recording a movement.
 
 ### 2. Features
 

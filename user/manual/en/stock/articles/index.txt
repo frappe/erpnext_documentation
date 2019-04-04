@@ -15,4 +15,6 @@ track-items-using-barcode
 stock-received-but-not-billed
 return-rejected-item
 item-valuation-transactions
+item-valuation-fifo-and-moving-average
 delivery-note-stock-error
+migrate-to-perpetual-inventory

@@ -12,15 +12,15 @@ According to the [Third-Party Logistics Study](http://www.3plstudy.com/), only 4
 ### 1. How to create Landed Cost Voucher
 
 1. Go to: **Stock > Tools > Landed Cost Voucher > New**.
-2. Select Purchase document type.
-3. Select the document.
-4. Enter the Item Code, Quantity, and applicable charges in the Purchase Receipt Items table. You can also fetch these details from the Purchase Invoice/Receipt by clicking on the Get Items from Purchase Receipts button.
-5. Select whether Distribute Charges Based On should be on quantity or Amount.
-6. Save and Submit.
+1. Select Receipt Document Type whether Purchase Invoice or Receipt.
+1. Select the Invoice or Receipt. The supplier name and grand total will be fetched automatically.
+1. You can fetch the item details from the Purchase Invoice/Receipt by clicking on the Get Items from Purchase Receipts button.
+1. Select whether Distribute Charges Based On should be on quantity or Amount.
+1. Save and Submit.
 
 In the document, you can select multiple Purchase Receipts and fetch all items from those Purchase Receipts. Then you should add applicable charges in “Taxes and Charges” table. You can easily delete an item if the added charges is not applicable to that item. The added charges are proportionately distributed among all the items based their amount.
 
-<img class="screenshot" alt="Landed Cost Vouher" src="{{docs_base_url}}/assets/img/stock/landed-cost.png">
+<img class="screenshot" alt="Landed Cost Voucher" src="{{docs_base_url}}/assets/img/stock/landed-cost.png">
 
 ### 2. Related Actions
 #### 2.1 Landed Cost via Purchase Receipt
