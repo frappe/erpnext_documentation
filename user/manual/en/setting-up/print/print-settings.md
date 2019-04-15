@@ -1,12 +1,9 @@
 # Print Settings
 
-In Print Settings you can set your default printing preferences like Paper Size, default text size, whether you want to output as PDF or HTML etc.
-
-To edit print settings, go to:
-
-> Setup > Printing and Branding > Print Settings
+In Print Settings you can set your printing preferences like Paper Size, default text size, whether you want to output as PDF or HTML etc. To edit print settings, go to: **Settings > Printing > Print Settings**.
 
 <img class="screenshot" alt="Print Settings" src="{{docs_base_url}}/assets/img/setup/print/print-settings.png">
+
 
 There is various other configuration available in the Print Settings. Let's learn about each below.
 
@@ -81,5 +78,11 @@ After that, install pycups in the env using the command
 `./env/bin/pip install pycups`
 
 executed from the `frappe-bench` directory.
+
+#### Raw Printing
+
+You can enable raw printing and print using many supported thermal printers.
+
+[Click here to know more about Raw Printing.](/docs/user/manual/en/setting-up/print/raw-printing)
 
 {next}
