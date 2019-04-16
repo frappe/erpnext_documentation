@@ -1,5 +1,7 @@
 # Raw Printing
 
+> Introduced in Version 12
+
 ### 1. Introduction to Raw Printing
 
 Sending a string of commands to a printer directly in its native language is called Raw Printing. Many thermal printers need these raw commands sent to them in order to perform functions like barcode printing, receipt printing, label printing, etc. Raw Printing bypasses the printer's drivers in most cases, making it very fast and reliable. Raw Printing is also capable of doing some advanced features such as cutting receipt paper, kicking out cash drawers, etc.
@@ -10,8 +12,8 @@ Below are three simple steps to get started with Raw Printing:
 
 #### 2.1 Installing QZ Tray application on the client computer
 
-Download and install the QZ Tray application on the computer to which your thermal printer is connected. This application can be found at its [offical site](https://qz.io/download/). Currently, Windows, macOS, and Linux are supported by QZ Tray. During the installation you will be prompted to install Java if not already installed, please install Java to complete the installation.
-Further instrustions on installing the QZ Tray Application can be found at the below link:
+Download and install the QZ Tray application on the computer to which your thermal printer is connected. This application can be found at its [official site](https://qz.io/download/). Currently, Windows, macOS, and Linux are supported by QZ Tray. During the installation you will be prompted to install Java if not already installed, please install Java to complete the installation.
+Further instructions on installing the QZ Tray Application can be found at the below link:
 - [Installing QZ Tray](https://qz.io/wiki/using-qz-tray)
 
 #### 2.2 Create Raw Commands Print Format
@@ -50,8 +52,9 @@ To print a raw commands print format from the Document print view:
 4. You may be asked to select the "print format - printer mapping"
    -  This mapping is used to send the print commands to the appropriate printer.
    -  The printer needs to be installed on your computer to be able to map it to a print format.
-   -  ![print format - printer mapping]({{docs_base_url}}/assets/img/setup/print/raw-print-settings.png)
-   -  this mapping is stored locally in the same machine and will have to be set on each client machine.
+   -  ![print format - printer mapping]({{docs_base_url}}/assets/img/setup/print/printer-settings.png)
+   -  This mapping is stored locally in the same machine and will have to be set on each client machine.
+   -  You can also edit this by clicking on the "Printer Settings" button.
 
 ![Raw Printing from Print View]({{docs_base_url}}/assets/img/setup/print/raw-printing-from-print-view.gif)
 
@@ -59,7 +62,7 @@ To print a raw commands print format from the Document print view:
 
 It is often a requirement that a print command has to be issued on a certain event(like submit, save, amend, etc.). It is possible to write a custom script to do this for you.
 
-Below are the relevent Raw Print functions:
+Below are the relevant Raw Print functions:
 1. function: `frappe.ui.form.qz_connect`
   - A connection wrapper to establish a connection with the QZ Tray application.
   - Returns a promise which resolves on successful establishment of a connection.
@@ -85,7 +88,6 @@ Below are the relevent Raw Print functions:
   - displays a "Print Sent to the printer!" alert to the user. Can be called after the print command is successful.
 
 4. function: `frappe.ui.form.qz_fail`
-  - displays the error message to the user. Should be called on failer of QZ Tray connection.
+  - displays the error message to the user. Should be called on failure of QZ Tray connection.
 
-You can also directly access the functions provided by the `qz-tray.js` library via the globally available `qz` object. [Click here for `qz-tray.js` library documentation](https://qz.io/api/)
-
+You can also directly access the functions provided by the `qz-tray.js` library via the `qz` object. [Click here for `qz-tray.js` library documentation](https://qz.io/api/). Note: The `qz` object is initialized only after calling the `frappe.ui.form.qz_connect` for the first time. In case you require the `qz` object before that you can use the `frappe.ui.form.qz_init`.
