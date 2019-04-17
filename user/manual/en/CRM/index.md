@@ -15,6 +15,7 @@ The CRM module has the following features:
 1. [Opportunity](/docs/user/manual/en/CRM/opportunity)
 1. [Customer](/docs/user/manual/en/CRM/customer)
 1. [Contact](/docs/user/manual/en/CRM/contact)
+1. [Address](/docs/user/manual/en/CRM/address)
 1. [Campaign](/docs/user/manual/en/CRM/campaign)
 
 ##### 1.2 Reports
