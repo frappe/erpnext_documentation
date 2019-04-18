@@ -93,6 +93,7 @@ For more help, please contact your Accountant!
 
 #### 3.5 Hold Payments For A Purchase Invoice
 There are two ways to put a purchase invoice on hold:
+
 - Date Span Hold
 - Explicit Hold
 
