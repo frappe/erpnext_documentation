@@ -93,6 +93,7 @@ For more help, please contact your Accountant!
 
 #### 3.5 Hold Payments For A Purchase Invoice
 There are two ways to put a purchase invoice on hold:
+
 - Date Span Hold
 - Explicit Hold
 
@@ -123,6 +124,7 @@ Select the new release date and click "Save". You should also enter a comment
 in the "Reason For Putting On Hold" field.
 
 Take note of the following:
+
 - All purchases that have been placed on hold will not included in a Payment Entry's references table
 - The release date cannot be in the past.
 - You can only block or unblock a purchase invoice if it is unpaid.
