@@ -3,29 +3,27 @@
 
 In complex scenarios, especially in the capital goods industry, sometimes there is no direct link between payments and invoices. You send invoices to your Customers and your Customer sends you block payments or payments based on some schedule that is not linked to your invoices.
 
-In such cases, you can use the Payment to Invoice Matching Tool.
+In such cases, you can Match Payments with Invoices.
 
-> Accounts > Tools > Payment Reconciliation
+### 1. How to Match Payments with Invoices
+1. Go to **Accounts > Banking and Payments > Match Payments with Invoices**.
+1. Select a company if there are multiple.
+1. Select a Party Type and select the Party.
+1. Select the Bank/Cash account against which the payments need to be reconciled .
+1. If you want to filter the records, select a date range for the invoices.
+1. Click on the Get Unreconciled Entries button.
+1. This will fetch all un-linked Payment Entry and Sales Invoices from that Customer in a table.
+1. Delete any unwanted entries.
+1. Select the Invoice Number.
+1. Amount is the amount paid by the party, Allocated Amount is the amount you want to allocate for the reconciliation.
+1. Click on Reconcile.
 
-In this tool, you can select an account (your Customer’s account) and click on “Pull Payment Entries” and it will select all un-linked Payment Entry and Sales Invoices from that Customer.
-
-To cancel off some payments and invoices, select the Invoices and Journal Vouchers and click on “Reconcile”.
+You will get a message that says 'Amount allocated successfully'
 
 <img class="screenshot" alt="Payment Reconciliation" src="{{docs_base_url}}/assets/img/accounts/payment-reconcile-tool.png">
 
-__Step 1:__ Select the Account against whom the payments need to be reconciled.
-
-__Step 2:__ Mention the Voucher Type, whether it is Purchase Invoice, Sales
-Invoice or Payment Entry.
-
-__Step 3:__ Select the Voucher Number and click on 'Get Unreconciled Entries'.  
-
-* All the payment entries will be pulled into a table below.
-
-__Step 4:__ Click on the entry row to allocate a particular amount.
-
-__Step 5:__ Click on the button 'Reconcile'
-
-* You will get a message that says 'Amount allocated successfully'
-
-{next}
+#### 2. Related Topics
+1. [Payments](/docs/user/manual/en/accounts/payments)
+1. [Payment Request](/docs/user/manual/en/accounts/payment-request)
+1. [Sales Invoice](/docs/user/manual/en/accounts/sales-invoice)
+1. [Purchase Invoice](/docs/user/manual/en/accounts/purchase-invoice)

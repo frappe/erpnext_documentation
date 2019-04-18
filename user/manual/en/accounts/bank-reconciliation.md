@@ -1,16 +1,16 @@
 <!-- add-breadcrumbs -->
 # Bank Reconciliation
 
-### Bank Reconciliation Statement
+If you are receiving payments or making payments via cheques, the bank statements will not accurately match the dates of your entry, this is because the bank usually takes time to “clear” these payments. Also you may have mailed a cheque to your Supplier and it may be a few days before it is received and deposited by the Supplier. In ERPNext you can synchronize your bank statements and your Journal Entries using the by updating the bank transaction dates, see section 2 below.
 
-If you are receiving payments or making payments via cheques, the bank statements will not accurately match the dates of your entry, this is because the bank usually takes time to “clear” these payments. Also you may have mailed a cheque to your Supplier and it may be a few days before it is received and deposited by the Supplier. In ERPNext you can synchronise your bank statements and your Journal Entries using the “Bank Reconciliation” tool.
+### 1. What is a Bank Reconciliation Statement?
+The Bank Reconciliation Report provides the difference between the bank balance shown in an organization's bank statement, as provided by the bank against amount shown in the companies Chart of Accounts.
 
-The Bank Reconciliation Report provide the difference between the bank balance shown in an organisation's bank statement, as provided by the bank against amount shown in the companies Chart of Accounts.
-
-####Bank Reconciliation Statement
+This is what a Bank Reconciliation statement looks like:
 
 <img class="screenshot" alt="Bank Reconciliation statement" src="{{docs_base_url}}/assets/img/accounts/bank-reconciliation-2.png">  
 
+<<<<<<< HEAD
 In the report, check whether the field 'Balance as per bank' matches the Bank Account Statement. If it is matching, it means that Clearance Date is correctly updated for all the bank entries. If there is a mismatch, Its because of bank entries for which Cleanrane Date is not yet updated.
 
 ERPNext has two reconciliation tool:
@@ -21,31 +21,26 @@ ERPNext has two reconciliation tool:
 ###Manual Bank Reconciliation Tool
 
 To add clearance entries go to:
+=======
+To view this report, go to **Accounts > Banking and Payments > Bank Reconciliation Statement**. In the report, check whether the field 'Balance as per bank' matches the Bank Account Statement. If it is matching, it means that Clearance Date is correctly updated for all the bank entries. If there is a mismatch, it's because Clearance Date is not yet updated for the bank entries.
+>>>>>>> Add structure and steps to accounts module
 
-`Accounts > Tools > Bank Reconciliation`
+### 2. How to Update Bank Transaction Dates
 
-Select your “Bank” Account and enter the dates of your statement. Here you
-will get all the “Bank Voucher” type entries. In each of the entry on the
-right most column, update the “Clearance Date” and click on “Update”.
+1. Go to **Accounts > Banking and Payments > Update Bank Transaction Dates**.
+1. Select your Bank Account.
+1. Select a from and to date.
+1. You can choose to include reconciled entries and POS transactions.
+1. Click on the Get Payment Entries button.
+1. Now you will get all the “Bank Voucher” type entries.
+1. In each of the entries, on the right most column, update the “Clearance Date” field and click on the “Update Clearance Date” button.
 
 By doing this you will be able to sync your bank statements and entries into
 the system.
 
-__Step 1:__ Select the Bank Account against which you intend to reconcile. For
-example; HDFC Bank, ICICI Bank, or Citibank etc.
-
-__Step 2:__ Select the Date range that you wish to reconcile for.
-
-__Step 3:__ Click on 'Get Reconciled Entries'
-
-All the entries in the specified date range will be shown in a table below.
-
-__Step 4:__ Click on the JV from the table and update clearance date.
-
 <img class="screenshot" alt="Bank Reconciliation" src="{{docs_base_url}}/assets/img/accounts/bank-reconciliation.png">
-
-__Step 5:__ Click on the button 'Update Clearance Date'.
  
+<<<<<<< HEAD
 ### Semi-automatic Bank Reconciliation Tool
 
 1. Bank statement upload
@@ -96,3 +91,9 @@ You can also create a new payment or invoice directly from the bank reconciliati
 
 
 {next}
+=======
+#### 2. Related Topics
+1. [Payment Reconciliation](/docs/user/manual/en/accounts/payment-reconciliation)
+1. [Bank Guarantee](/docs/user/manual/en/accounts/bank-guarantee)
+1. [Payment Entry](/docs/user/manual/en/accounts/payment-entry)
+>>>>>>> Add structure and steps to accounts module
