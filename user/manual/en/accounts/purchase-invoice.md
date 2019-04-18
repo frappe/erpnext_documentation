@@ -123,6 +123,7 @@ Select the new release date and click "Save". You should also enter a comment
 in the "Reason For Putting On Hold" field.
 
 Take note of the following:
+
 - All purchases that have been placed on hold will not included in a Payment Entry's references table
 - The release date cannot be in the past.
 - You can only block or unblock a purchase invoice if it is unpaid.
