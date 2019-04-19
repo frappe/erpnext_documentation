@@ -15,13 +15,17 @@ There are various transactions which can be triggered from Sales Order like;
 <img class="screenshot" alt="Sales Order flow" src="{{docs_base_url}}/assets/img/selling/sales-order-f.jpg">
 
 ### 1. How to create a Sales Order
-1. Go to **Selling > Sales > Sales Order > New Sales Order**.
+1. Go to **Selling > Sales > Sales Order > New Sales Order** or Type 'New Sales Order' into the Global Search field on the Top of the page, left of the username/icon
+
    1. Enter Customer name.
-   1. Under delivery date set the date by which order is to be delivered.
-   1. With Order Type you can set whether it's a Sales order, Maintenance order, or from the online [Shopping Cart](/docs/user/manual/en/website/shopping-cart) of your website. 
-   1. Under Set Source Warehouse, set the warehouse from which the item will be ordered.
-   1. Enter the items and quantities to be delivered in the table.
-   1. Save and submit.
+   1. Under "Delivery Date" set the date by which order is to be delivered.
+   1. With Order Type you can set whether it's a Sales order, Maintenance order, or from the online [Shopping Cart](/docs/user/manual/en/website/shopping-cart) of your website. By default this value is set to "Sales"
+   1. In the "Customer's Purchase Order" you can enter the Customers Purchase Order No. or other details which may be useful as a reference.
+   1. Under "Set Source Warehouse", you define the warehouse from which the item will be ordered. If the Items in that Sales Order do **not** have checked the "Maintain Stock" Box this can be left blank.
+   1. Enter the items and quantities to be delivered in the Item table. In case you have Setup Item Prices for the items in question the "Rate" (price per Unit) will be populated automacially. If not, put the item Rate manually. You can also overwrite the auto-populated Item Rate in case you want to change that value.
+   1. Click "Save" to save a draft of the Sales Order and    
+   1. "Submit" to submit the Sales Order to the System.
+
 
 2. You can also create a Sales Order from a submitted Quotation.
 
@@ -31,12 +35,12 @@ There are various transactions which can be triggered from Sales Order like;
 
     <img class="screenshot" alt="Make Sales Order from Quotation" src="{{docs_base_url}}/assets/img/selling/make-so.gif">
 
-Most of the information in your Sales Order is the same as the Quotation.
+Most of the information in your Sales Order is the same as in the Quotation.
 
 There are a few amongst other things that a Sales Order will ask you to
 update.
 
-  * Enter Delivery Date against each item. If there are multiple items and if you enter delivery date in the first row, the date will be copied to other rows as well where it is blank.
+  * Enter Delivery Date against each item. If there are multiple items and if you enter a delivery date in the first row, the date will be copied to other rows as well where it is blank.
   * Customer Purchase Order number: If your customer has sent you a Purchase Order, you can update its number for future reference (in billing).
   * To allow for per-Customer, per-Item Pricing Rules ("Customer A" pays $1.00 for "Item 1" but "Customer B" pays $1.25 for "Item 1"), there's a check box in Selling Settings to enable saving the specific item price per customer when you change a price in the Sales Order.
 
@@ -93,7 +97,7 @@ given below:
 3. Save and Submit the form
 
 4. Once the form is submitted, the Action button will provide three choices.
-    
+
     i) Maintenance Visit ii) Maintenance Schedule iii) Invoice.
 
 
