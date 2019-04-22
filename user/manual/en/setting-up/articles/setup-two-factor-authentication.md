@@ -5,7 +5,7 @@
 
 Activate two factor authentication by running the command.
 
-`bench --site [sitename] enable_two_factor_auth true` 
+`bench --site [sitename] set-config enable_two_factor_auth true` 
 
 Specify the following in System Settings
 
