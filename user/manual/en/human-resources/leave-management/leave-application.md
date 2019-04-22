@@ -6,6 +6,12 @@ to be able to qualify as paid leaves, you can create Leave Application to
 track approval and usage of leaves. The applying employee requires to select their Employee record, Leave
 Type and the period for which the leave is taken.
 
+<img class="screenshot" alt="Leave Application and Attendance Link"
+	src="{{docs_base_url}}/assets/img/human-resources/leave-application-attendance-link.png">
+
+
+To create a new Leave Application, go to:
+
 > Human Resources > Leaves and Holiday > Leave Application > New Leave Application
 
 <img class="screenshot" alt="Leave Application" src="{{docs_base_url}}/assets/img/human-resources/new-leave-application.png">
