@@ -3,12 +3,6 @@
 
 In ERPNext, you can maintain fixed asset records for assets like computers, furnitures, cars, etc. and manage their depreciations, sale, or disposal. You can track locations of the assets or keep records of employees who are using the asset. You can also manage the maintenance details of the assets.
 
-<!-- <div class="embed-container">
-    <iframe src="https://www.youtube.com/embed/I-K8pLRmvSo" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen>
-    </iframe>
-</div> -->
-
-
 ## 1. Topics
 The various topics in the asset module are a follows.
 
