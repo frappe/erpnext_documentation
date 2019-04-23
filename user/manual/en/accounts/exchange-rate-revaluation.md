@@ -22,7 +22,7 @@ Exchange Rate Revaluation feature is for dealing the situation when you have a m
 1. Go to: **Setup > Company > *select the company***.
 1. Set the 'Unrealized Exchange Gain/Loss Account' field in Company DocType. This account is to balance the difference of total credit and total debit.
     <img class="screenshot" alt="Field Set for Company"  	src="{{docs_base_url}}/assets/img/accounts/exchange-rate-revaluation/field_set_company.png">
-1. Go to **Exchange Rate Revaluation** by searching from the awesome bar.
+1. Go to **Accounts > Setup > Exchange Rate Revaluation > New**..
 1. Select the Company.
 1. Click the Get Entries button. It'll fetch the accounts which have different currency as compared to 'Default Currency' in Company DocType.
 1. This will fetch the new exchange rate automatically if not set in Currency Exchange DocType for that currency else it will fetch the 'Exchange Rate' set in the Currency Exchange DocType.
