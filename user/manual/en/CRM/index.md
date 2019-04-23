@@ -26,6 +26,9 @@ The CRM module has the following features:
 1. [Customer Group](/docs/user/manual/en/CRM/customer-group)
 1. [Sales Person](/docs/user/manual/en/CRM/sales-person)
 
-## 2. Videos
+## 2. Articles
+1. [Difference between Lead, Contact, and Customer](/docs/user/manual/en/CRM/articles/difference_between_lead_contact_and_customer)
+
+## 3. Videos
 1. [Customer Relationship Management](/docs/user/videos/learn/lead-to-quotation.html)
 1. [Newsletter](/docs/user/videos/learn/newsletter.html)
