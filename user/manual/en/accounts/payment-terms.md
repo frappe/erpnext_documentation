@@ -13,7 +13,7 @@ You can attach Payment Terms to the following documents:
 Note that the introduction of Payment Terms removes "Credit Days" and "Credit Days Based On" fields in Customer/Supplier master. Payment Term contains the same information and makes it more flexible to use.
 
 ### 1. How to create a Payment Term
-1. Search for Payment Term in the awesome(search) bar > New.
+1. Go to: **Accounts > Billing > Payment Term > New**.
 1. Enter a name for the Payment Term (eg: 50% post shipment).
 1. Optionally, enter Invoice portion.
 1. Select a due date type.

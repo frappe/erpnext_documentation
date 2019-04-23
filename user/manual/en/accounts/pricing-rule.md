@@ -14,7 +14,7 @@ Following are the few cases which can be addressed using Pricing Rule.
 To have Discount and Price List Rate for an Item auto-applied, create Pricing Rules for it.
 
 ### 1. How to create a Pricing Rule
-1. Go to Pricing Rule via searching.
+1. Go to: **Selling > Items and Pricing > Pricing Rule > New**.
 1. Set a title for the rule.
 1. Select what to Apply On.
 
