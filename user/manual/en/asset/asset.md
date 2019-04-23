@@ -86,3 +86,5 @@ On submission of an asset, "Capital Work in Progress" account will be credited a
 #### 4.Related Topics
 1. [Asset Maintenance](/docs/user/manual/en/asset/asset-maintenance)
 1. [Asset Movement](/docs/user/manual/en/asset/asset-movement)
+1. [Purchase Receipt](/docs/user/manual/en/stock/purchase-receipt)
+1. [Purchase Invoice](/docs/user/manual/en/accounts/purchase-invoice)

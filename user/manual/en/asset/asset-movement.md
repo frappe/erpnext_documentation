@@ -1,3 +1,4 @@
+<!-- add breadcrumbs -->
 # Asset Movement
 
 In ERPNext, you can track the location of an asset or to whom it is issued. For tracking, you need to create an Asset Movement transaction, whenever the asset is moved from one location to another. You can also keep a track of issuance of an asset to any employee.
