@@ -15,7 +15,7 @@ There are various transactions which can be triggered from Sales Order like;
 <img class="screenshot" alt="Sales Order flow" src="{{docs_base_url}}/assets/img/selling/sales-order-f.jpg">
 
 ### 1. How to create a Sales Order
-1. Go to **Selling > Sales > Sales Order > New Sales Order** or Type 'New Sales Order' into the Global Search field on the Top of the page, left of the username/icon
+1. Go to **Selling > Sales > Sales Order > New Sales Order** or Type 'New Sales Order' into the "Global Search" field.
 
    1. Enter Customer name.
    1. Under "Delivery Date" set the date by which order is to be delivered.
