@@ -1,3 +1,4 @@
+<!-- add breadcrumbs -->
 # Quality Management System
 
 > Introduced in Version 12
@@ -12,11 +13,11 @@
 ## Topics
 ##### 1. Goal and Procedure
 1. [Quality Goal](/docs/user/manual/en/quality-management/quality_goal)
-- [Quality Procedure](/docs/user/manual/en/quality-management/quality_procedure)
-- [Tree Of Procedure](/docs/user/manual/en/quality-management/tree_of_procedure)
+1. [Quality Procedure](/docs/user/manual/en/quality-management/quality_procedure)
+1. [Tree Of Procedure](/docs/user/manual/en/quality-management/tree_of_procedure)
 
 ##### 2. Review and Action
 1. [Quality Review](/docs/user/manual/en/quality-management/quality_review)
-- [Quality Action](/docs/user/manual/en/quality-management/quality_action)
-- [Quality Meeting](/docs/user/manual/en/quality-management/quality_meeting)
-- [Customer Feedback](/docs/user/manual/en/quality-management/customer_feedback)
+1. [Quality Action](/docs/user/manual/en/quality-management/quality_action)
+1. [Quality Meeting](/docs/user/manual/en/quality-management/quality_meeting)
+1. [Customer Feedback](/docs/user/manual/en/quality-management/customer_feedback)

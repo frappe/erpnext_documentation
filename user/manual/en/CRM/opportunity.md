@@ -1,9 +1,11 @@
 <!-- add-breadcrumbs -->
 # Opportunity
 
-When you know a Lead is looking for some products or services to buy, it becomes an Opportunity. Also the Opportunity document in ERPNext helps users collect the requirement of a customer/lead.
+**A qualified lead is an opportunity.**
 
-### 1. How to create an Opportunity
+When you get a hint that lead is looking for a product/service that you offer, you can convert that lead into an opportunity. You can also create an opportunity against an existing customer. Multiple Opportunities can be collected against a lead or a customer.
+
+### 1. How to Create an Opportunity
 
 1. Go to **CRM > Sales Pipeline > Opportunity > New**.
 1. In 'Opportunity From', select Lead if opportunity is from a lead.
@@ -48,7 +50,7 @@ You can create a [Quotation](/docs/user/manual/en/selling/quotation) from the **
 
 <img class="screenshot" alt="Opportunity" src="{{docs_base_url}}/assets/img/crm/make-sq-from-opportunity.png">
 
-#### 2.4 Create a Supplier Quotation
+#### 2.5 Create a Supplier Quotation
 
 You may need to get a quotation from your supplier against the customer requirement and based on that, prepare the quotation for your customer. With ERPNext, you can make a [Supplier Quotation](/docs/user/manual/en/buying/supplier-quotation) from the opportunity itself.
 
@@ -63,3 +65,5 @@ able to track what is coming in order to adjust your resources.
 1. [Lead](/docs/user/manual/en/CRM/lead)
 1. [Supplier Quotation](/docs/user/manual/en/buying/supplier-quotation)
 1. [Difference between Lead, Contact, and Customer](/docs/user/manual/en/CRM/articles/difference_between_lead_contact_and_customer)
+
+{next}

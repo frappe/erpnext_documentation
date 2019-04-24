@@ -1,7 +1,7 @@
+<!-- add-breadcrumbs -->
 # Accounts
 
-Whether you have an accountant in your internal team OR you do it yourself OR you have chosen to outsource it,
-the financial accounting process is almost always at the center any business management system (aka an ERP system).
+Whether you have an accountant in your internal team OR you do it yourself OR you have chosen to outsource it, the financial accounting process is almost always at the center any business management system (aka an ERP system).
 
 In ERPNext, your accounting operations consists of 3 main transactions:
 
@@ -19,51 +19,41 @@ You can check out [this video](https://www.youtube.com/watch?v=5wjollWN0OA) for 
 1. [Opening Balance](/docs/user/manual/en/accounts/opening-accounts)
 1. [Cost Center](/docs/user/manual/en/accounts/cost-center)
 1. [Fiscal Year](/docs/user/manual/en/accounts/fiscal-year)
-1. [Finance Book](/docs/user/manual/en/accounts/finance-book)
 1. [Accounts Settings](/docs/user/manual/en/accounts/accounts-settings)
 
-##### 1.2 Billing
+##### 1.2 Journals and Payments
+1. [Journal Entry](/docs/user/manual/en/accounts/journal-entry)
+1. [Payment Entry](/docs/user/manual/en/accounts/payment-entry)
+1. [Payments](/docs/user/manual/en/accounts/payments)
+1. [Payment Request](/docs/user/manual/en/accounts/payment-request)
+1. [Payment Terms](/docs/user/manual/en/accounts/payment-terms)
+1. [Advance Payment Entry](/docs/user/manual/en/accounts/advance-payment-entry)
+1. [Inter Company Journal Entry](/docs/user/manual/en/accounts/inter-company-journal-entry)
 
+##### 1.3 Billing
 1. [Sales Invoice](/docs/user/manual/en/accounts/sales-invoice)
 1. [Purchase Invoice](/docs/user/manual/en/accounts/purchase-invoice)
-1. [Point Of Sale POS Invoice](/docs/user/manual/en/accounts/point-of-sale-pos-invoice)
 1. [Point Of Sales](/docs/user/manual/en/accounts/point-of-sales)
 1. [Inter Company Invoices](/docs/user/manual/en/accounts/inter-company-invoices)
 1. [Recurring Orders And Invoices](/docs/user/manual/en/accounts/recurring-orders-and-invoices)
 1. [Credit Note](/docs/user/manual/en/accounts/credit-note)
 1. [Debit Note](/docs/user/manual/en/accounts/debit-note)
 
-##### 1.3 Journals and Payments
+##### 1.4 Pricing and Taxes
+1. [Itemized Taxation](/docs/user/manual/en/accounts/item-wise-taxation)
+1. [Tax Withholding Category](/docs/user/manual/en/accounts/tax-withholding-category)
+1. [Exchange Rate Revaluation](/docs/user/manual/en/accounts/exchange-rate-revaluation)
+1. [Pricing Rule](/docs/user/manual/en/accounts/pricing-rule)
+1. [Tax Rule](/docs/user/manual/en/accounts/tax-rule)
 
-1. [Journal Entry](/docs/user/manual/en/accounts/journal-entry)
-1. [Payment Entry](/docs/user/manual/en/accounts/payment-entry)
-1. [Payments](/docs/user/manual/en/accounts/payments)
-1. [Payment Request](/docs/user/manual/en/accounts/payment-request)
-1. [Payment Terms](/docs/user/manual/en/accounts/payment-terms)
-
-1. [Advance Payment Entry](/docs/user/manual/en/accounts/advance-payment-entry)
-1. [Reverse Journal Entry](/docs/user/manual/en/accounts/reverse-journal-entry)
-1. [Inter Company Journal Entry](/docs/user/manual/en/accounts/inter-company-journal-entry)
-
-##### 1.4 Tools
+##### 1.5 Tools
 1. [Bank Reconciliation](/docs/user/manual/en/accounts/bank-reconciliation)
 1. [Payment Reconciliation](/docs/user/manual/en/accounts/payment-reconciliation)
 1. [Period Closing Voucher](/docs/user/manual/en/accounts/period-closing-voucher)
 
-##### 1.5 Reports
-
+##### 1.6 Reports
 1. [Credit Limit](/docs/user/manual/en/accounts/credit-limit)
 1. [Accounting Reports](/docs/user/manual/en/accounts/accounting-reports)
-1. [Accounts Receivable](/docs/user/manual/en/accounts/accounts-receivable)
-
-##### 1.6 Pricing and Taxes
-
-1. [Item Wise Taxation](/docs/user/manual/en/accounts/item-wise-taxation)
-1. [Tax Withholding Category](/docs/user/manual/en/accounts/tax-withholding-category)
-1. [Exchange Rate Revaluation](/docs/user/manual/en/accounts/exchange-rate-revaluation)
-1. [Tax Withholding](/docs/user/manual/en/accounts/tax-withholding)
-1. [Pricing Rule](/docs/user/manual/en/accounts/pricing-rule)
-1. [Tax Rule](/docs/user/manual/en/accounts/tax-rule)
 
 ##### 1.7 Advanced
 1. [Multi Currency Accounting](/docs/user/manual/en/accounts/multi-currency-accounting)
@@ -76,9 +66,8 @@ You can check out [this video](https://www.youtube.com/watch?v=5wjollWN0OA) for 
 
 ##### 1.8 Shareholder Management
 1. [Shareholder](/docs/user/manual/en/accounts/shareholder)
-1. [Share Transfer](/docs/user/manual/en/accounts/share_transfer)
-1. [Share Ledger](/docs/user/manual/en/accounts/share_ledger)
-1. [Share Balance](/docs/user/manual/en/accounts/share_balance)
+1. [Share Transfer](/docs/user/manual/en/accounts/share-transfer)
+1. [Share Reports](/docs/user/manual/en/accounts/share-reports)
 
 ## 2. Articles
 ##### 2.1 Record Entries

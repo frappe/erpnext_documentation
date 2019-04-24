@@ -1,46 +1,52 @@
 <!-- add-breadcrumbs -->
 # Inter Company Journal Entry
 
-You can also create Inter Company Journal Entry if you are making transactions with multiple Companies.
-You can select the Accounts which you wish to use in the Inter Company transactions.
-Just go to,
+You can create Inter Company Journal Entry if you are making transactions with multiple Companies.
+You can select the Accounts which you wish to use in the Inter Company transactions. A possible use case would be a company buying goods on behalf of another company.
 
-> Accounts > Company and Accounts > Chart Of Accounts
+Before creating an Inter Company Journal Entry, you need to set up your Chart of accounts.
 
-Select the Account which you would like to set as an Internal Account for the transaction, and check the **Inter Company Account** checkbox. It can now be used for Inter Company Journal Entry Transactions.
-
-<img class="screenshot" alt="Internal Account" src="{{docs_base_url}}/assets/img/accounts/internal-account.png">
-
+1. Go to: **Accounts > Company and Accounts > Chart Of Accounts**.
+1. Select the Account which you would like to set as an Internal Account for the transaction, and check the **Inter Company Account** checkbox. This account can now be used for Inter Company Journal Entry Transactions.
+    <img class="screenshot" alt="Internal Account" src="{{docs_base_url}}/assets/img/accounts/internal-account.png">
 You need to do the same for all the Companies' Accounts which you want to use for Inter Company Journal Entry transactions.
 
-Now, to create an Inter Company Journal Entry go to:
+### 1. How to create an Inter Company Journal Entry
+1. Go to: **Accounts > Company and Accounts > Journal Entry > New**.
 
-> Accounts > Company and Accounts > Journal Entry > New
-
-<img class="screenshot" alt="Inter Company Journal Entry" src="{{docs_base_url}}/assets/img/accounts/inter-company-jv.png">
-
-In the Journal Entry, you must select,
-
-* Type of Voucher - **Inter Company Journal Entry**.
-* Add rows for the individual accounting entries. In each row, you must specify:
+    <img class="screenshot" alt="Inter Company Journal Entry" src="{{docs_base_url}}/assets/img/accounts/inter-company-jv.png">
+1. Select Entry Type as **Inter Company Journal Entry**.
+1. Set the company who is buying items on behalf of another company.
+1. Add rows for the individual accounting entries. Only inter company accounts can be fetched here.
+1. In each row, you must specify:
   * The Internal account that will be affected. 
   * The amount to Debit or Credit.
   * The Cost Center (If it is an Income or Expense).
+1. On submitting the Journal Entry, you will find a button on the top right corner, **Make Inter Company Journal Entry**.
 
-On submitting the Journal Entry, you will find a button on the top right corner, **Make Inter Company Journal Entry**.
+   <img class="screenshot" alt="Submitted Inter Company Journal Entry" src="{{docs_base_url}}/assets/img/accounts/inter-company-jv-submit.png">
 
-<img class="screenshot" alt="Submitted Inter Company Journal Entry" src="{{docs_base_url}}/assets/img/accounts/inter-company-jv-submit.png">
+1. Click on the button. Now, you will be asked to select the Company against which you wish to create the linked Journal Entry.
 
-Click on the button, you will be asked to select the Company against which you wish to create the linked Journal Entry.
+    <img class="screenshot" alt="Select Company" src="{{docs_base_url}}/assets/img/accounts/select-company-jv.png">
 
-<img class="screenshot" alt="Select Company" src="{{docs_base_url}}/assets/img/accounts/select-company-jv.png">
+1. On selecting the Company, you will be routed to another Journal Entry where the relevant fields will be mapped, i.e. Company, Voucher Type, Inter Company Journal Entry Reference etc. 
 
-On selecting the Company, you will be routed to another Journal Entry where the relevant fields will be mapped, i.e. Company, Voucher Type, Inter Company Journal Entry Reference etc. 
+    <img class="screenshot" alt="Linked Journal Entry" src="{{docs_base_url}}/assets/img/accounts/linked-jv.png">
 
-<img class="screenshot" alt="Linked Journal Entry" src="{{docs_base_url}}/assets/img/accounts/linked-jv.png">
+1. Select the Internal accounts for the second Company in the table.
+1. Submit the Journal Entry.
+1. Make sure the total Debit and Credit Amounts are same as the previously created Journal Entry's total Credit and Debit Amounts respectively but the debits and credits will be opposite.
 
-Select the Internal accounts for the Company selected and submit the Journal Entry, make sure the total Debit and Credit Amounts are same as the previously created Journal Entry's total Credit and Debit Amounts respectively.
+**Note:** The accounts in second Journal Entry should be the opposite of what you did in the first Journal Entry.
+For example, Company A is buying something from Company B. This is how the payment cycle between the two companies will look like using Inter Company Journal Entry.
+
+1. Debit Bank Account by 500 and credit Debtors account of Company B by 500.
+1. Now, in th e Inter Company Journal Entry, debit Creditors account of Company A by 500 and credit Bank Account by 500. 
+1. You also need to select the parties for Creditors and Debtors account before proceeding with the Journal Entry.
 
 You can also find the reference link at the bottom, which will be added in both the linked Journal Entries and will be removed if any of the Journal Entries are cancelled.
 
-{next}
+#### 2. Related Topics
+1. [Journal Entry](/docs/user/manual/en/accounts/journal-entry)
+1. [Inter Company Invoices](/docs/user/manual/en/accounts/inter-company-invoices)

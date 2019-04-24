@@ -5,7 +5,7 @@ The concept of accounting is explained with an example given below: We will
 take a "Tea Stall" as a company and see how to book accounting entries for the
 business.
 
-  * Mama (The Tea-stall owner) invests Rs 25000 to start the business.
+Mama (The Tea-stall owner) invests Rs 25000 to start the business.
 
 ![A&L](/docs/assets/old_images/erpnext/assets-1.png)
 
@@ -63,9 +63,9 @@ materials available worth 1000 rupees.
 
 #### Related Topics
 1. [Payment Entry](/docs/user/manual/en/accounts/payment-entry)
-- [Advance Payment Entry](/docs/user/manual/en/accounts/advance-payment-entry)
-- [Freeze Accounting Entries](/docs/user/manual/en/accounts/articles/freeze-accounting-entries)
-- [Post Dated Cheque Entry](/docs/user/manual/en/accounts/articles/post-dated-cheque-entry)
-- [Adjust Withhold Amount Payment Entry](/docs/user/manual/en/accounts/articles/adjust-withhold-amount-payment-entry)
-- [Bulk Payment Entry](/docs/user/manual/en/accounts/articles/bulk-payment-entry)
+1. [Advance Payment Entry](/docs/user/manual/en/accounts/advance-payment-entry)
+1. [Freeze Accounting Entries](/docs/user/manual/en/accounts/articles/freeze-accounting-entries)
+1. [Post Dated Cheque Entry](/docs/user/manual/en/accounts/articles/post-dated-cheque-entry)
+1. [Adjust Withhold Amount Payment Entry](/docs/user/manual/en/accounts/articles/adjust-withhold-amount-payment-entry)
+1. [Bulk Payment Entry](/docs/user/manual/en/accounts/articles/bulk-payment-entry)
 1. [Difference Entry Button](/docs/user/manual/en/accounts/articles/difference-entry-button)
