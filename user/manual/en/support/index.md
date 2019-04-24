@@ -17,15 +17,16 @@ all Maintenance Visits made to your Customers.
 
 ##### 1. Common support topics
 1. [Issue](/docs/user/manual/en/support/issue)
-- [Warranty Claim](/docs/user/manual/en/support/warranty-claim)
-- [Maintenance Visit](/docs/user/manual/en/support/maintenance-visit)
-- [Maintenance Schedule](/docs/user/manual/en/support/maintenance-schedule)
-- [Support Reports](/docs/user/manual/en/support/support_reports)
+1. [Warranty Claim](/docs/user/manual/en/support/warranty-claim)
+1. [Maintenance Visit](/docs/user/manual/en/support/maintenance-visit)
+1. [Maintenance Schedule](/docs/user/manual/en/support/maintenance-schedule)
+1. [Support Reports](/docs/user/manual/en/support/support_reports)
+1. [Service Level Agreement](/docs/user/manual/en/support/service-level-agreement)
 
 ##### 2. Feedback
 
 1. [Setting Up Feedback](/docs/user/manual/en/setting-up/feedback/setting-up-feedback)
-- [Submit Feedback](/docs/user/manual/en/setting-up/feedback/submit-feedback)
-- [Resend Feedback Request](/docs/user/manual/en/setting-up/feedback/resend-feedback-request)
-- [Manual Feedback Request](/docs/user/manual/en/setting-up/feedback/manual-feedback-request)
+1. [Submit Feedback](/docs/user/manual/en/setting-up/feedback/submit-feedback)
+1. [Resend Feedback Request](/docs/user/manual/en/setting-up/feedback/resend-feedback-request)
+1. [Manual Feedback Request](/docs/user/manual/en/setting-up/feedback/manual-feedback-request)
 

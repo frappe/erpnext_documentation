@@ -1,48 +1,49 @@
 <!-- add-breadcrumbs -->
-# Contact and Address
+# Contact
 
-Contacts do not need to be linked to another document, they can be stand alone.  You can even create a contact with only a first name, not linked to any other document or party (Customer/Supplier).
+**Contact represents a person.**
 
-The Contact_ID is automatically created:
+A contact may be associated with a Lead, Customer, Supplier, Shareholder, Sales Partner or a User.
 
-1. If only a First Name is entered that First Name defines the ID , thus First name (only)
-2. If a First Name and a Party is linked the ID becomes “FirstName-Party”
- 
-Contacts can, but do not have to be linked, to:  User, Customer, Supplier, and Sales Partner. Since Customers and Addresses are not directly linked to a User, all links go via Contacts.
+You can also add contact as a standalone record without linking it to any of the entities listed above.
 
-A Contact can be linked to the (web) user. If that user is also a Customer, it is linked to the Customer by the Customer ID
+### 1. How to create a Contact
 
-Contacts and Addresses in ERPNext are stored separately so that you can
-attach multiple Contacts or Addresses to Customers and Suppliers.
+1. Go to **CRM > Sales Pipeline > Contact > New**.
+1. Enter First Name and Last Name.
+2. Choose the status if the contact is passive, is open to contact or has replied.
+3. Enter contact details like email, phone, etc.
+4. Save.
+    <img class="screenshot" alt="Contact" src="{{docs_base_url}}/assets/img/crm/contact.png">
 
-To create a new Contact go to,
-
-> CRM > Contact > New
-
-<img class="screenshot" alt="Contact" src="{{docs_base_url}}/assets/img/crm/contact.png">
-
-Or you can add a Contact or Address directly from the Customer record, click on “New Contact” or “New Address”.
+You can also add a Contact from the Customer or Supplier record by clicking on “New Contact” button as shown below.
 
 <img class="screenshot" alt="Contact" src="{{docs_base_url}}/assets/img/crm/contact-from-cust.png">
 
-> Tip: When you select a Customer in any transaction, one Contact and Address
-gets pre-selected. This is the “Default Contact or Address”.
+When you have multiple contacts against an entity like customer/supplier, you can check 'Is Primary Contact' to indicate the preferred contact. The primary contact will be chosen automatically in transactions like sales order and sales invoice.
 
-To Import multiple Contacts and Addresses from a spreadsheet, use the Data
-Import Tool.
+To Import multiple contacts from a spreadsheet, use the [Data Import Tool](/docs/user/manual/en/setting-up/data/data-import).
 
 ---
+### 2. Features
 
-### Address Titles
+#### 2.1 Link a Contact to Multiple Entities
 
-The Address Title (Name of person or organization that this address belongs to) is a free format unlinked field. The ID is automatically created from the Address Title and Address Type. (AddressTitle-AddressType).
+A contact may be linked to multiple customers or multiple suppliers.
 
-### Address Linking
+A contact can also be linked to customers and suppliers at the same time.
 
-Addresses can be entered individually (unlinked)  or linked to customers, leads, suppliers or Sales Partners. 
+<img class="screenshot" alt="Contact" src="{{docs_base_url}}/assets/img/crm/link_contact_to_multiple_entities.png">
 
-Linking is done in the reference section where the links can be established.
+#### 2.2 Invite the Contact as a User
+You can allow contacts of your customers and suppliers to log into your ERPNext system and view data relevant to them. Check [Customer Portal](/docs/user/manual/en/customer-portal) for more details on this.
+You can send an email invitation to a contact by clicking on 'Invite as User' button.
 
-(Contributed by Robert Becht)
+<img class="screenshot" alt="Contact" src="{{docs_base_url}}/assets/img/crm/invite_contact_as_a_user.png">
+
+#### 3. Related Topics
+1. [Customer](/docs/user/manual/en/CRM/customer)
+1. [Supplier](/docs/user/manual/en/buying)
+1. [Sales Partner](/docs/user/manual/en/selling)
 
 {next}

@@ -1,3 +1,4 @@
+<!-- add-breadcrumbs -->
 # Education Domain
 
 An Education Institute needs lots more than a simple 'Education module', and ERPNext has all of it available built-in. You can:

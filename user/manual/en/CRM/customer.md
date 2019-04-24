@@ -3,73 +3,106 @@
 
 A customer, who is sometimes known as a client, buyer, or purchaser is the one
 who receives goods, services, products, or ideas, from a seller for a monetary
-consideration. A customer can also receive goods or services from a vendor or
-a supplier for other valuable considerations.
+consideration.
 
-A customer is uniquely identified by the Customer ID. Normally this ID is identical to the customer Full Name, but in case of duplicate Full Name, a Name-1 is created as ID.
+Every customer needs to be assigned a unique id. Customer name itself can be the id or you can set a naming series for ids to be generated in [Selling Settings](/docs/user/manual/en/selling/selling-settings).
+### 1. How to create a Customer
 
-You can either directly create your Customers via
+1. You can create Customers via **CRM > Sales Pipeline > New** or **Selling > Customers > New**.
+1. Enter Full Name of the customer.
+1. Select Individual if the customer represents an individual or Company if the customer represents a company in Type field.
+1. Select a [Customer Group](/docs/user/manual/en/CRM/customer-group). Individual, Commercial, Non Profit and Government are available by default. You can create additional groups if you need.
+1. Select the [Territory](/docs/user/manual/en/setting-up/territory).
+1. If the customer is being created against a lead, you can select the same in From Lead field.
+1. Save.
 
-> Selling > Customer
+    <img class="screenshot" alt="Create Customer" src="{{docs_base_url}}/assets/img/crm/create-customer.gif">
 
-<img class="screenshot" alt="Create Customer" src="{{docs_base_url}}/assets/img/crm/create-customer.gif">
+You can disallow sales orders and sales invoices against a customer by clicking on 'Disabled'.
 
-or upload it via the [Data Import Tool](/docs/user/manual/en/setting-up/data/data-import-tool.html).
+>Advanced Tip: If the customer represents one of your own companies then check 'Is Internal Customer'. Check [Inter Company Invoices](/docs/user/manual/en/accounts/inter-company-invoices) for more details.
 
-A Customer can avail the features (operations) in the selling process. The general flow can be summarised as:
+You can also upload customer details via the [Data Import Tool](/docs/user/manual/en/setting-up/data/data-import).
+
+### 2. Features
+General flow of transactions for a customer is as following:
 
 <img class="screenshot" alt="Customer" src="{{docs_base_url}}/assets/img/crm/customer-to selling-flowchart.jpeg">
 
 > Note: Customers are separate from Contacts and Addresses. A Customer can
 have multiple Contacts and Addresses.
 
-### Contacts and Addresses
+#### 2.1 Multiple Contacts and Addresses
 
-[Contacts and Addresses](/docs/user/manual/en/CRM/contact.html) in ERPNext are stored separately so that you can
-attach multiple Contacts or Addresses to Customers and Suppliers
+[Contacts and Addresses](/docs/user/manual/en/CRM/contact) are stored separately so that you can
+attach multiple Contacts or Addresses to the a customer.
 
-Thus we may have identical Customer Names that are uniquely identified by the ID. Since the email address is not part of the
-customer information, the linking of Customer and User is through Contacts.
+#### 2.2 Default Currency and Price List
+ERPNext supports [Multiple Currencies](/docs/user/manual/en/accounts/multi-currency-accounting) and [Price Lists](/docs/user/manual/en/setting-up/price-lists).
 
-### Integration with Accounts
+You can set the default currency to be used for this customer in sales orders and sales invoices by selecting the appropriate currency in Billing Currency.
 
-In ERPNext, there is a separate Account record for each Customer, for each
-Company.
+Similarly, you can set the default price list to be used for this customer in sales orders and sales invoices by selecting the appropriate currency in Default Price List.
 
-When you create a new Customer, ERPNext will automatically create an Account
-Ledger for the Customer under “Accounts Receivable” in the Company set in the
-Customer record.
+#### 2.3 Integration with Accounts
 
-> Advanced Tip: If you want to change the Account Group under which the
-Customer Account is created, you can set it in the Company master. If you want
-to create an Account in another Company, just change the Company value and
-“Save” the Customer again.
+Unlike many accounting software, you need not create a separate accounting ledger for each customer.
+By default a unified ledger named **Debtors** is created.
 
-By default, the system does not generate an account for every customer. All
-Customers can be booked in one account called Debitors. In order to manage a
-separate account for each customer, you have to first create the account under
-Accounts Receivable in the [Chart of Accounts](/docs/user/manual/en/accounts/chart-of-accounts.html) and then add it on the customer's
-form accounts table.
+However if you specifically need a separate ledger for a customer, first create the ledger under
+Accounts Receivable in the [Chart of Accounts](/docs/user/manual/en/accounts/chart-of-accounts.html) and then add it in ACCOUNTING section of the customer.
 
-### Customer Settings
+>Advanced Tip: ERPNext supports [Multi-company Accounting](/docs/user/manual/en/setting-up/articles/managing-multiple-companies). You can use the same customer records in multiple companies. Since an accounting ledger is company specific, you need to select the company and the corresponding ledger in ACCOUNTING section if you decide have separate accounting ledger for a customer.
 
-You can link a Price List to a Customer (select “Default Price List”), so that
-when you select that Customer, the Price List will be automatically selected.
+#### 2.4 Credit Limit and Payment Terms
 
-You can set “Credit Days”, so that it is automatically set due date in the Sales
-Invoices made against this Customer. Credit Days can be defined as fixed days or last day of the next month based on invoice date.
+You can set the Credit Limit and when a sales order or a sales invoice is booked, the credit limit will be validated.
 
-You can set how much credit you want to allow for a Customer by adding the
-“Credit Limit”. You can also set a global “Credit Limit” in the Company
-master. Classifying Customers
+Credit Limit can also be set in Customer Group and in Company.
 
-ERPNext allows you to group your Customers using [Customer Group](/docs/user/manual/en/CRM/setup/customer-group.html)
-and also divide them into [Territories](/docs/user/manual/en/setting-up/territory.html)
-Grouping will help you get better analysis of your data and
-identify which Customers are profitable and which are not. Territories will
-help you set sales targets for the respective territories.
-You can also mention [Sales Person](/docs/user/manual/en/CRM/setup/sales-person.html) against a customer.
+The order of precedence is as following
 
+* Credit Limit in Customer
+* Credit Limit in Customer Grouping
+* Credit Limit in Company
+
+If the credit limit is to be considered only for the sales invoices and not for the sales orders booked, check 'Bypass credit limit check at Sales Order'.
+
+You can select the default [Payment Terms](/docs/user/manual/en/accounts/payment-terms) to be applied in sales orders and sales invoices in 'Default Payment Terms Template' field.
+
+#### 2.5 Sales Team and Sales Partner
+
+If you have one or more [Sales Person](/docs/user/manual/en/CRM/sales-person) to manage the sales to the customer, you can add them in SALES TEAM section. If multiple sales person are involved you can split the contribution among them. Make sure that the sum of all sales persons contribution equals to 100%.
+
+Check [Sales Persons in Sales Transaction](/docs/user/manual/en/selling/articles/sales-persons-in-the-sales-transactions) for more details.
+
+A [Sales Partner](/docs/user/manual/en/selling/sales-partner) is a third party distributor / dealer / commission agent /
+affiliate / reseller who facilitates your  products/services sales, for a commission.
+If you sell your products/services to the customer through a sales partner you can set it in 'Sales Partner' field and mention the 'Commission Rate' for calculation of commission.
+
+#### 2.6 Loyalty Program
+
+If you would like offer a [Loyalty Program](/docs/user/manual/en/accounts/loyalty-program) to the customer, select the same in Loyalty Program field.
+
+#### 2.7 View Accounting Ledger and Accounts Receivable
+
+Click on Accounting Ledger button to view all accounting transactions with the customer.
+
+Click on Accounts Receivable button to view the details of all outstanding invoices.
+
+#### 2.8 Set Customer Id, Default Customer Group, Territory, and Price List
+
+You can set how a unique id should be generated each the customer in [Selling Settings](/docs/user/manual/en/selling/selling-settings).
+
+* **Naming Series**: If you would like a unique id to be generated for each customer based on the naming series select 'Naming Series' in Customer Naming By.
+
+* **Customer Name**: If customer name itself should be used as an id then select 'Customer Name' in Customer Naming By. In this case, if you create two customers with identical names, **- 1** will be suffixed to the second customer.
+
+<img class="screenshot" alt="Customer" src="{{docs_base_url}}/assets/img/crm/customer-with-identical-names.png">
+
+You can set the default customer group, territory and price list in [Selling Settings](/docs/user/manual/en/selling/selling-settings).
+
+You can customize the Customer DocType using [Customize Form](/docs/user/manual/en/customize-erpnext/custom-field) tool.
 
 <div>
     <style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
@@ -80,14 +113,13 @@ You can also mention [Sales Person](/docs/user/manual/en/CRM/setup/sales-person.
     </div>
 </div>
 
-### Sales Partner
 
-A Sales Partner is a third party distributor / dealer / commission agent /
-affiliate / reseller who sells the companies products, for a commission. This
-is useful if you make the end sale to the Customer, involving your Sales
-Partner.
 
-If you sell to your Sales Partner who in-turn sells it to the Customer, then
-you must make a Customer instead.
 
-{next}
+
+#### 3. Related Topics
+1. [Customer Group](/docs/user/manual/en/CRM/setup/customer-group)
+1. [Quotation](/docs/user/manual/en/selling/quotation)
+1. [Territory](/docs/user/manual/en/setting-up/territory)
+1. [Price List](/docs/user/manual/en/setting-up/price-lists)
+1. [Contact](/docs/user/manual/en/CRM/contact)

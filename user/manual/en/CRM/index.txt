@@ -3,5 +3,5 @@ opportunity
 customer
 contact
 newsletter
-crm_reports
+CRM_reports
 setup

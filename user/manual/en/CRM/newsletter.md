@@ -1,9 +1,7 @@
 <!-- add-breadcrumbs -->
 # Newsletter
 
-A newsletter is a short written report that tells about the recent activities
-of an organization. It is generally sent to members of the organization,
-potential clients customers or potential leads.
+A newsletter is a short written report that outlines an organization's recent activities. It is generally sent to members of the organization, potential clients, customers, or leads.
 
 In ERPNext, you can use this UI to send any type of communication to a large
 number of audience. The process of sending bulk email to a target audience is
@@ -23,5 +21,3 @@ send the email to all the intended receipients by clicking on the send button.
     <iframe src="https://www.youtube.com/embed/muLKsCrrDRo?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen>
     </iframe>
 </div>
-
-{next}

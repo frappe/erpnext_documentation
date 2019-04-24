@@ -25,7 +25,7 @@ The following are the various modules and domains offered by ERPNext covering a 
 ##### 3. Industry Specific Modules
 1. [Manufacturing](/docs/user/manual/en/manufacturing)
 - [Education](/docs/user/manual/en/education)
-- [Healthcare](/docs/user/manual/en/agriculture)
+- [Healthcare](/docs/user/manual/en/healthcare)
 - [Agriculture](/docs/user/manual/en/agriculture)
 - [Non Profit](/docs/user/manual/en/non_profit)
 - [Hospitality](/docs/user/manual/en/hospitality)
