@@ -1,7 +1,7 @@
 ###  GSTR3B Report in ERPNext
 
 To generate GSTR3B Report in ERPNext navigate to <br>
-``` Accounting > Goods and Services Tax (GST India) > GSTR 3B Report ``` <br>
+**Accounting > Goods and Services Tax (GST India) > GSTR 3B Report** <br>
 or simply search for GSTR 3B Report in awesomebar.
 
 Click New to generate a new report or select an existing report to update it or download JSON.
