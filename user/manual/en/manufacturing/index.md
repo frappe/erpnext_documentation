@@ -7,7 +7,7 @@ The Manufacturing module in ERPNext covers all necessary features a Manufacturin
 
 ##### 1.1 Basic and Setup
 1. [Introduction](/docs/user/manual/en/manufacturing/introduction)
-1. [Manufacturing Settings](/docs/user/manual/en/manufacturing/setup/manufacturing-settings)
+1. [Manufacturing Settings](/docs/user/manual/en/manufacturing/manufacturing-settings)
 
 ##### 1.2 Bill of Materials
 1. [Bill Of Materials](/docs/user/manual/en/manufacturing/bill-of-materials)
@@ -23,7 +23,7 @@ The Manufacturing module in ERPNext covers all necessary features a Manufacturin
 ##### 1.4 Advanced
 1. [Subcontracting](/docs/user/manual/en/manufacturing/subcontracting)
 1. [Item Alternative](/docs/user/manual/en/manufacturing/item-alternative)
-1. [BOM Update Tool](/docs/user/manual/en/manufacturing/tools/bom-update-tool)
+1. [BOM Update Tool](/docs/user/manual/en/manufacturing/bom-update-tool)
 
 ## 2. Articles
 

@@ -9,7 +9,3 @@ Timesheet can be used to track actual hours worked. It can be used for multiple 
 * Tasks
 * Project
 * Internal References
-
-### Topics
-
-{index}
