@@ -24,20 +24,22 @@ You can check out **[this video](https://www.youtube.com/watch?v=lyW6mfFBSNw)** 
 ## 1. Topics
 
 1. [Web Page](/docs/user/manual/en/website/web-page)
-- [Blog Post](/docs/user/manual/en/website/blog-post)
-- [Web Form](/docs/user/manual/en/website/web-form)
-- [Blogger](/docs/user/manual/en/website/blogger)
-- [Setup](/docs/user/manual/en/website/setup)
-- [Add Products To Website](/docs/user/manual/en/website/add-products-to-website)
-- [Shopping Cart](/docs/user/manual/en/website/shopping-cart)
+1. [Blog Post](/docs/user/manual/en/website/blog-post)
+1. [Web Form](/docs/user/manual/en/website/web-form)
+1. [Blogger](/docs/user/manual/en/website/blogger)
+1. [Setup](/docs/user/manual/en/website/setup)
+1. [Add Products To Website](/docs/user/manual/en/website/add-products-to-website)
+1. [Shopping Cart](/docs/user/manual/en/website/shopping-cart)
+1. [Social Login Keys](/docs/user/manual/en/website/social-login-keys)
+1. [Website Settings](/docs/user/manual/en/website/website-settings)
 
 ## 2. Articles
 
 1. [Disable Signup](/docs/user/manual/en/website/articles/disable-signup)
-- [Website Security](/docs/user/manual/en/website/articles/website-security)
-- [Website Home Page](/docs/user/manual/en/website/articles/website-home-page)
-- [Website Banner](/docs/user/manual/en/website/articles/website-banner)
+1. [Website Security](/docs/user/manual/en/website/articles/website-security)
+1. [Website Home Page](/docs/user/manual/en/website/articles/website-home-page)
+1. [Website Banner](/docs/user/manual/en/website/articles/website-banner)
 
 ## 3. Videos
 1. [Publish Items on Website](/docs/user/videos/learn/publish-items-on-website.html)
-- [Shopping Cart](/docs/user/videos/learn/shopping-cart.html)
+1. [Shopping Cart](/docs/user/videos/learn/shopping-cart.html)

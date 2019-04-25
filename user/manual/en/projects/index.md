@@ -7,23 +7,24 @@ A services business, which doesn't have a tangible product to showcase their val
 ## 1. Topics
 ##### 1.1 Project Management
 1. [Project](/docs/user/manual/en/projects/project)
-- [Tasks](/docs/user/manual/en/projects/tasks)
-- [Project Template](/docs/user/manual/en/projects/project-template)
+1. [Tasks](/docs/user/manual/en/projects/tasks)
+1. [Project Template](/docs/user/manual/en/projects/project-template)
 
 ##### 1.2 Time Tracking
+1. [Timesheet Introduction](/docs/user/manual/en/projects/timesheet-intro/)
 1. [Salary Slip From Timesheet](/docs/user/manual/en/projects/timesheet/salary-slip-from-timesheet)
-- [Sales Invoice From Timesheet](/docs/user/manual/en/projects/timesheet/sales-invoice-from-timesheet)
-- [Timesheet Against Work Order](/docs/user/manual/en/projects/timesheet/timesheet-against-work-order)
-- [Timer In Timesheet](/docs/user/manual/en/projects/timesheet/timer-in-timesheet)
-- [Timesheet Against Project](/docs/user/manual/en/projects/timesheet/timesheet-against-project)
-- [Activity Type](/docs/user/manual/en/projects/activity-type)
-- [Activity Cost](/docs/user/manual/en/projects/activity-cost)
+1. [Sales Invoice From Timesheet](/docs/user/manual/en/projects/timesheet/sales-invoice-from-timesheet)
+1. [Timesheet Against Work Order](/docs/user/manual/en/projects/timesheet/timesheet-against-work-order)
+1. [Timer In Timesheet](/docs/user/manual/en/projects/timesheet/timer-in-timesheet)
+1. [Timesheet Against Project](/docs/user/manual/en/projects/timesheet/timesheet-against-project)
+1. [Activity Type](/docs/user/manual/en/projects/activity-type)
+1. [Activity Cost](/docs/user/manual/en/projects/activity-cost)
 
 ## 2. Articles
 1. [Project Costing](/docs/user/manual/en/projects/articles/project-costing)
-- [Project Profitability](/docs/user/manual/en/projects/project-profitability)
-- [Project Expense Claims](/docs/user/manual/en/projects/project-expense-claims)
-- [Project Customer Portal](/docs/user/manual/en/projects/project-customer-portal)
+1. [Project Profitability](/docs/user/manual/en/projects/project-profitability)
+1. [Project Expense Claims](/docs/user/manual/en/projects/project-expense-claims)
+1. [Project Customer Portal](/docs/user/manual/en/projects/project-customer-portal)
 
 ## 3. Videos
 1. [Project Management](/docs/user/videos/learn/project-and-task.html)
