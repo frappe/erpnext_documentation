@@ -11,3 +11,4 @@
 - [Stripe Integration](/docs/user/manual/en/setting-up/integrations/stripe-integration)
 - [Shopify Integration](/docs/user/manual/en/erpnext_integration/shopify_integration)
 - [Woocommerce Integration](/docs/user/manual/en/erpnext_integration/woocommerce_integration)
+- [Plaid Integration](/docs/user/manual/en/erpnext_integration/plaid_integration)
