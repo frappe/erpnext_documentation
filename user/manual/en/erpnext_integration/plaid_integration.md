@@ -10,10 +10,9 @@ If your instance is connected to Plaid, you are able to synchronize your bank ac
 
 In order to give ERPNext access to Plaid, you need to add the following three parameters to your `site_config.json` file.
 
-- plaid_client_id
-- plaid_env
-- plaid_public_key
-- plaid_secret
+- `plaid_env`
+- `plaid_public_key`
+- `plaid_secret`
 
 ## Activation
 
