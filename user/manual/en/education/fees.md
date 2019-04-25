@@ -6,6 +6,7 @@ The [Fee Structure](/docs/user/manual/en/education/fees/fee-structure.html) is f
 Student Details and detailed Fee Structure will be available in the fee module. You can get Paid amount and Outstanding Amount details also.
 
 <img class="screenshot" alt="Fees" src="{{docs_base_url}}/assets/img/education/fees/fee-all.png">
+<img class="screenshot" alt="Fees Section" src="{{docs_base_url}}/assets/img/education/fees/fees-section.png">
 
 
 # Payment Request
