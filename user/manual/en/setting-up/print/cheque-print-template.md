@@ -43,4 +43,4 @@ New print format generated for the cheque will be visible in the Payment Entry f
 
 <img class="screenshot" alt="Sample Cheque" src="{{docs_base_url}}/assets/img/setup/print/cheque-5.gif">
 
-
+{next}

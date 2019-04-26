@@ -18,14 +18,16 @@ To get an ERP implementation right, the implementor needs to set aside time and 
 1. [Workflows](/docs/user/manual/en/setting-up/workflows)
 
 ##### 1.2 Printing
-1. [Letter Head](/docs/user/manual/en/setting-up/print/letter-head)
 1. [Print Settings](/docs/user/manual/en/setting-up/print/print-settings)
 1. [Print Format Builder](/docs/user/manual/en/setting-up/print/print-format-builder)
 1. [Print Style](/docs/user/manual/en/setting-up/print/print-style)
 1. [Print Headings](/docs/user/manual/en/setting-up/print/print-headings)
+1. [Letter Head](/docs/user/manual/en/setting-up/print/letter-head)
 1. [Address Template](/docs/user/manual/en/setting-up/print/address-template)
 1. [Terms and Conditions](/docs/user/manual/en/setting-up/print/terms-and-conditions)
 1. [Cheque Print Template](/docs/user/manual/en/setting-up/print/cheque-print-template)
+1. [Custom Translations](/docs/user/manual/en/setting-up/print/custom-translations)
+1. [Raw Printing](/docs/user/manual/en/setting-up/print/raw-printing)
 
 ##### 1.3 Email and SMS
 
