@@ -1,9 +1,9 @@
 <!-- add-breadcrumbs -->
 # Customer
 
-A customer, who is sometimes known as a client, buyer, or purchaser is the one
+**A customer, who is sometimes known as a client, buyer, or purchaser is the one
 who receives goods, services, products, or ideas, from a seller for a monetary
-consideration.
+consideration.**
 
 Every customer needs to be assigned a unique id. Customer name itself can be the id or you can set a naming series for ids to be generated in [Selling Settings](/docs/user/manual/en/selling/selling-settings).
 ### 1. How to create a Customer
@@ -34,7 +34,7 @@ have multiple Contacts and Addresses.
 
 #### 2.1 Multiple Contacts and Addresses
 
-[Contacts and Addresses](/docs/user/manual/en/CRM/contact) are stored separately so that you can
+[Contacts](/docs/user/manual/en/CRM/contact) and [Addresses](/docs/user/manual/en/CRM/address) are stored separately so that you can
 attach multiple Contacts or Addresses to the a customer.
 
 #### 2.2 Default Currency and Price List
@@ -56,17 +56,7 @@ Accounts Receivable in the [Chart of Accounts](/docs/user/manual/en/accounts/cha
 
 #### 2.4 Credit Limit and Payment Terms
 
-You can set the Credit Limit and when a sales order or a sales invoice is booked, the credit limit will be validated.
-
-Credit Limit can also be set in Customer Group and in Company.
-
-The order of precedence is as following
-
-* Credit Limit in Customer
-* Credit Limit in Customer Grouping
-* Credit Limit in Company
-
-If the credit limit is to be considered only for the sales invoices and not for the sales orders booked, check 'Bypass credit limit check at Sales Order'.
+You can set the credit limit by entering the amount in 'Credit Limit' field. Read [Credit Limit](/docs/user/manual/en/CRM/articles/credit_limit) for more details.
 
 You can select the default [Payment Terms](/docs/user/manual/en/accounts/payment-terms) to be applied in sales orders and sales invoices in 'Default Payment Terms Template' field.
 
@@ -123,3 +113,6 @@ You can customize the Customer DocType using [Customize Form](/docs/user/manual/
 1. [Territory](/docs/user/manual/en/setting-up/territory)
 1. [Price List](/docs/user/manual/en/setting-up/price-lists)
 1. [Contact](/docs/user/manual/en/CRM/contact)
+1. [Difference between Lead, Contact, and Customer](/docs/user/manual/en/CRM/articles/difference_between_lead_contact_and_customer)
+
+{next}

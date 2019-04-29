@@ -41,7 +41,7 @@ To create a new Lead:
  * Interested: The lead is interested in the products or services.
  * Converted: If the quotation given to the Lead has resulted in confirmation of an order and if the Sales Order has been created against the quotation, then the status is set to Converted.
  * Do Not Contact: Lead is not interested and no further communication is needed.
-1. It is important to track the source from which you are getting the leads. This will help in allocating the marketing budgets effectively. You can set the same in Source field.
+1. You can set the Lead Source in Source field.
 1. Enter email ID for communication.
 1. Click on 'Save'.
 

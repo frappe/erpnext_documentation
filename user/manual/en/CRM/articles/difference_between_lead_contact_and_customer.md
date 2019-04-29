@@ -13,3 +13,5 @@ further Opportunities from the same source can be created against this
 Customer.
 
 <img class="screenshot" alt="Create Customer" src="{{docs_base_url}}/assets/img/crm/lead-to-customer.gif">
+
+{next}

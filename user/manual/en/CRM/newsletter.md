@@ -1,19 +1,40 @@
 <!-- add-breadcrumbs -->
 # Newsletter
 
-A newsletter is a short written report that outlines an organization's recent activities. It is generally sent to members of the organization, potential clients, customers, or leads.
+**Newsletter is an email which is sent to a specific group of subscribers periodically.**
 
-In ERPNext, you can use this UI to send any type of communication to a large
-number of audience. The process of sending bulk email to a target audience is
-very simple and easy.
+In the context of CRM, its is an informational and product-focused email that is sent to existing and potential customers with an intention of softly pushing the subscriber to do required actions.
 
-Select the list that you want to send the email to. Fill in your content in
-the message box, and send your newsletter.If you wish to test your email, to
-see how it looks to the recepient, you can use the test function. Save the
-document before testing. A test email will be sent to your Email Address. You can
-send the email to all the intended receipients by clicking on the send button.
+Newsletter can also be used to share information to employees, investors etc.
 
-<img class="screenshot" alt="Newsletter - New" src="{{docs_base_url}}/assets/img/crm/newsletter-new.png">
+You need to create [Email Groups](/docs/user/manual/en/CRM/email_group) before sending the newsletters.
+
+### 1. How to Create a Newsletter
+1. Go to **Settings > Email > Newsletter > New.**
+1. Select the Email Group in RECIPIENT table.
+1. Enter 'Subject'.
+1. Enter 'Message'.
+1. Tick 'Send Unsubscribe Link' if you woud like to include unsubscribe link in the email.
+
+<img class="screenshot" alt="Newsletter" src="{{docs_base_url}}/assets/img/crm/news_letter.gif">
+
+Below is the screenshot of the email received with link to unsubscribe.
+
+<img class="screenshot" alt="Lead" src="{{docs_base_url}}/assets/img/crm/newsletter.png">
+
+### 2. Features
+
+#### 2.1 Create Subscriber Groups
+
+You can manage subscribers by grouping them into different [Email Groups](/docs/user/manual/en/CRM/email_group).
+
+You can select multiple email groups in the 'RECIPIENT' tables in the newsletter.
+
+#### 2.2 Test Newsletter Before Sending to Subscribers
+
+Once the newsletter is ready you can provide a 'Test Email Address' and click on 'Test'.
+
+You can review the newsletter received in the test email, verify it and then send it to all subscribers by clicking on 'Send'.
 
 <img class="screenshot" alt="Newsletter - Test" src="{{docs_base_url}}/assets/img/crm/newsletter-test.png">
 
@@ -21,3 +42,5 @@ send the email to all the intended receipients by clicking on the send button.
     <iframe src="https://www.youtube.com/embed/muLKsCrrDRo?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen>
     </iframe>
 </div>
+
+{next}
