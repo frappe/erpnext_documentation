@@ -15,7 +15,7 @@ On submitting a document against which Payment Entry can be made, you will find 
 1. Go to: **Accounts > Billing > Payment Entry > New**.
 1. You can change the posting date.
 1. Select the Payment Type.
-1. Select the Party Type to pay.
+1. Select the Party Type.
 1. Select the Party, name will be fetched automatically.
 1. Set the Account Paid To and Account Paid From.
 1. Enter the amount paid.
