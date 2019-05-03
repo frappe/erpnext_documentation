@@ -13,6 +13,6 @@ Attendance Details_ report.
 
 You can easily set attendance for Employees using the [Employee Attendance Tool](/docs/user/manual/en/human-resources/employee-attendance-tool)
 
-You can also bulk upload attendance using the [Upload Attendence Tool](/docs/user/manual/en/human-resources/upload-attendance)
+You can also bulk upload attendance using the [Upload Attendance Tool](/docs/user/manual/en/human-resources/upload-attendance)
 
 {next}
