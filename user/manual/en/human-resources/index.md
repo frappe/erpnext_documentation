@@ -84,11 +84,11 @@ salary details, attendance, performance evaluation, leaves, and appraisal record
 1. [Travel Request](/docs/user/manual/en/human-resources/travel-request)
 
 ## 2. Articles
-1. [Leave Calculation In Salary Slip]()
-1. [Working Days In Salary Slip]()
+1. [Leave Calculation In Salary Slip](/docs/user/manual/en/human-resources/articles/leave-calculation-in-salary-slip)
+1. [Working Days In Salary Slip](/docs/user/manual/en/human-resources/articles/working-days-in-salary-slip)
 
 ## 3. Videos
-1. [Employees](/docs/user/videos/learn/employee.html)
-1. [Leave Management](/docs/user/videos/learn/leave-management.html)
-1. [Expense Claims](/docs/user/videos/learn/expense-claim.html)
-1. [Employee Advance](/docs/user/videos/learn/employee-advance.html)
+1. [Employees](/docs/user/videos/learn/employee)
+1. [Leave Management](/docs/user/videos/learn/leave-management)
+1. [Expense Claims](/docs/user/videos/learn/expense-claim)
+1. [Employee Advance](/docs/user/videos/learn/employee-advance)
