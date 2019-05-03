@@ -7,3 +7,4 @@ address-template
 terms-and-conditions
 cheque-print-template
 custom-translations
+raw-printing
