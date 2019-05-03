@@ -11,8 +11,8 @@ day can be created manually by:
 You can get a monthly report of your Attendance data by going to the _Monthly
 Attendance Details_ report.
 
-You can easily set attendance for Employees using the [Employee Attendance Tool](/docs/user/manual/en/human-resources/employee_and_attendance/employee-attendance-tool.html)
+You can easily set attendance for Employees using the [Employee Attendance Tool](/docs/user/manual/en/human-resources/employee-attendance-tool)
 
-You can also bulk upload attendance using the [Upload Attendence Tool](/docs/user/manual/en/human-resources/employee_and_attendance/upload-attendance.html)
+You can also bulk upload attendance using the [Upload Attendence Tool](/docs/user/manual/en/human-resources/upload-attendance)
 
 {next}
