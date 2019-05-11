@@ -20,6 +20,7 @@ organized and searchable manner.
 ##### 1.2 Sales
 1. [Quotation](/docs/user/manual/en/selling/quotation)
 1. [Sales Order](/docs/user/manual/en/selling/sales-order)
+1. [Blanket Order](/docs/user/manual/en/selling/blanket-order)
 1. [Sales Analytics](/docs/user/manual/en/selling/sales-analytics)
 
 ## 2. Articles
@@ -49,6 +50,6 @@ organized and searchable manner.
 1. [Drop Ship](/docs/user/videos/learn/drop-ship.html)
 1. [Pricing Rule](/docs/user/videos/learn/pricing-rule.html)
 
-##### 3.3 Other 
+##### 3.3 Other
 1. [Discounts](/docs/user/videos/learn/discounts.html)
 1. [Taxes](/docs/user/videos/learn/taxes.html)
