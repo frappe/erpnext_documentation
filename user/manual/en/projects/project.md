@@ -1,5 +1,5 @@
 <!-- add-breadcrumbs -->
-# Project
+# Project Management
 
 The project is an individual or collaborative enterprise, possibly involving research or design, that is carefully planned, usually by a project team, to achieve a particular aim
 

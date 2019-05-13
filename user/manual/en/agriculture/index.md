@@ -1,33 +1,19 @@
 <!-- add-breadcrumbs -->
 # Agriculture
 
-Farmers know that even a small operation requires intensive recordkeeping. A well-run farm requires proper management of accounting, payroll, suppliers, customers and logistics to name a few areas. ERPNext already helps organize these activities.
+The Agriculture Domain of ERPNext comes with features to record crops and land, track plant, soil, water, weather analytics, and even track diseases and fertilizers. You can check out the following topics after this brief [introduction](/docs/user/manual/en/agriculture/introduction) to the agriculture module in ERPNext.
 
-<img class="screenshot" alt="Land Unit" src="{{docs_base_url}}/assets/img/agriculture/land-unit.png">
 
-### Capture Land Units and Manage Crops
+## Topics
+##### 1. Crops and Land
+1. [Introduction](/docs/user/manual/en/agriculture/crops-introduction)
+1. [Land Unit](/docs/user/manual/en/agriculture/land_unit)
+1. [Crop](/docs/user/manual/en/agriculture/crop)
+1. [Crop Cycle](/docs/user/manual/en/agriculture/crop_cycle)
 
-A farm requires additional attention to manage its productive units (plots of land), time sensitive crop activities (such as planting, irrigating, fertilizing etc.), recording environmental and crop data for analysis, and reports to help make effective decisions.
+##### 2. Disease and Fertilizer
+1. [Disease](/docs/user/manual/en/agriculture/disease)
+1. [Fertilizer](/docs/user/manual/en/agriculture/fertilizer)
 
-<img class="screenshot" alt="Soil Texture" src="{{docs_base_url}}/assets/img/agriculture/soil-texture.png">
-
-### ERPNext Agriculture Demo
-
-The Agriculture module in ERPNext helps you keep track of your farming operations. It allows you keep records for each field where you farm, such as geospatial and soil texture characteristics. It allows you to:
-
-* Manage the physical spaces where you plant your crops
-* Manage your crops
-* Record analysis data
-* Plan activities related to your crops
-* Record sale of the harvest or transfer to warehouse for further processing
-* View reports
-
-To see feature of ERPNext Agriculture in action, check the following demo video.
-
-<div class="embed-container">
-    <iframe src="https://www.youtube.com/embed/A14cnWwE0vQ?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-</div>
-
-### Agriculture User Manual
-
-{index}
+##### 3. Analytics
+1. [Analytics](/docs/user/manual/en/agriculture/analytics)

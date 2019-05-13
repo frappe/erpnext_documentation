@@ -44,5 +44,4 @@ The translation is applied when user select language as Italiano on supplier quo
 <img src="{{docs_base_url}}/assets/img/multilingual_print_format/custom_translation.png" class="screenshot">
 
 
-
-
+{next}

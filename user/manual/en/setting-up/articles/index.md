@@ -1,4 +1,2 @@
 <!-- add-breadcrumbs -->
-# Articles
-
-{index}
+<!-- shifted to landing page-->

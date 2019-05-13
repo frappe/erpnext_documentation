@@ -1,14 +1,24 @@
 <!-- add-breadcrumbs -->
-# Managing Fixed Assets
+# Asset
 
-In ERPNext, you can maintain fixed asset records like Computers, Furnitures, Cars, etc. and manage their depreciations, sale or disposal of those assets. It gives you to track locations or keep records of the employees to whom the asset has been assigned. You can also manage maintenance details of the assets.
+In ERPNext, you can maintain fixed asset records for assets like computers, furnitures, cars, etc. and manage their depreciations, sale, or disposal. You can track locations of the assets or keep records of employees who are using the asset. You can also manage the maintenance details of the assets.
 
-<div class="embed-container">
-    <iframe src="https://www.youtube.com/embed/I-K8pLRmvSo" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen>
-    </iframe>
-</div>
+## 1. Topics
+The various topics in the asset module are a follows.
 
+##### 1.1 Asset Management
+1. [Asset](/docs/user/manual/en/asset/asset)
+1. [Asset Maintenance](/docs/user/manual/en/asset/asset-maintenance)
+1. [Asset Movement](/docs/user/manual/en/asset/asset-movement)
 
-### Topics
+##### 1.2 Asset Transactions
+1. [Asset Value Adjustment](/docs/user/manual/en/asset/asset-value-adjustment)
+1. [Purchasing an Asset](/docs/user/manual/en/asset/purchasing-an-asset) 
+1. [Selling an Asset](/docs/user/manual/en/asset/selling-an-asset)
 
-{index}
+##### 1.3 Discarding Assets
+1. [Asset Depreciation](/docs/user/manual/en/asset/asset-depreciation)
+1. [Scrapping an Asset](/docs/user/manual/en/asset/scrapping-an-asset)
+
+## 2. Videos
+You can check out [this video](/docs/user/videos/learn/fixed-assets) for a demonstration of managing fixed assets.

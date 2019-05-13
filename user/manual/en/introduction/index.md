@@ -23,17 +23,19 @@ In contrast to large enterprises, SMEs have been left out of the **1st wave of d
 So even today, small businesses continue to struggle to keep things organized. They often use a mix of applications and tools such as spreadsheets, accounting software, web-based CRMs to manage their day to day record keeping. As a consequence, they have to access different systems to understand customers' master data, sales, cash flows, or profitability. The information exists in different silos. It becomes hard to combine the data in order to get useful insights or alerts. This leads to SMEs being **reactive** instead of being **proactive** in their day to day operations. With such a constrained way of working, there's limited scope for **growth**. 
 
 ERPNext addresses some fundamental problems SMEs struggle with when managing their resources:
-- Affordability: It is a Free and Open Source Software, freely available to download and install.
-- Completeness: All necessary modules are available [Full List](https://erpnext.org/ "ERPNex.Org Homepage").
-- Customization: It is easy to add fields, or add more features.
-- Efficiency: Computing requirements are relatively low (cheaper to host and manage).
-- Wholesomeness: A single system and database that allows multiple users to record transactions or extract data simultaneously. 
+
+- **Affordability**: It is a Free and Open Source Software, freely available to download and install.
+- **Completeness**: All necessary modules are available [Full List](https://erpnext.org/ "ERPNex.Org Homepage").
+- **Customization**: It is easy to add fields, or add more features.
+- **Efficiency**: Computing requirements are relatively low (cheaper to host and manage).
+- **Wholesomeness**: A single system and database that allows multiple users to record transactions or extract data simultaneously. 
 
 ## What is ERPNext?
 
 ERPNext is a full-featured business management solution that helps SMEs to record all their business transactions in a single system. With ERPNext, SMEs can make informed, fact-based, timely decisions to remain ahead of the competition. It serves as the backbone of a business adding strength, transparency, and control to your growing enterprise. 
 
 ERPNext will help you to:
+
 - Track all invoices and payments.
 - Know what quantity of which product is available in stock.
 - Identify and track your key performance indicators (KPI's).
@@ -54,7 +56,7 @@ And a ton more.
 ERPNext can be used by SMEs as well as large enterprises. There are no known limitations, it has scaled well so far. Several retail chains in Africa and a highly regarded equities trading company in India (with 1000+ employees) uses ERPNext. 
 
 Check out a variety of [User Stories](https://erpnext.org/stories) to know more.
-
+Here is a video to get you started:
 
 
 <div>
@@ -64,6 +66,13 @@ Check out a variety of [User Stories](https://erpnext.org/stories) to know more.
   </div>
 </div>
 
-### Topic
+### Topics
+You can also checkout the following topics:
 
-{index}
+1. [Do I Need an ERP?](/docs/user/manual/en/introduction/do-i-need-an-erp)
+- [Open Source](/docs/user/manual/en/introduction/open-source)
+- [Getting Started with ERPNext](/docs/user/manual/en/introduction/getting-started-with-erpnext)
+- [The Champion](/docs/user/manual/en/introduction/the-champion)
+- [Implementation Strategy](/docs/user/manual/en/introduction/implementation-strategy)
+- [Key Workflows](/docs/user/manual/en/introduction/key-workflows)
+- [Concepts and Terms](/docs/user/manual/en/introduction/concepts-and-terms)

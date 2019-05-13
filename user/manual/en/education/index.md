@@ -1,46 +1,74 @@
-# Education
+<!-- add-breadcrumbs -->
+# Education Domain
 
-The Education domain in ERPNext is designed to meet requirements of any organization which imparts knowledge and believe in doing it in an organized fashion. It has already been used at schools, colleges and even in private firms.
+An Education Institute needs lots more than a simple 'Education module', and ERPNext has all of it available built-in. You can:
 
-It helps you effectively manage administrative side and allows you to focus on what is most important for your institute, **to educate!**
+- Track your books of accounts using [Accounts module](/docs/user/manual/en/accounts).
+- Manage payroll, leaves and claims of your admin and teaching staff in the [HR module](/docs/user/manual/en/human-resources).
+- Organize your [purchases](/docs/user/manual/en/buying) and place an approval system.
 
-<img class="screenshot" alt="School Hero" src="{{docs_base_url}}/assets/img/education/school-hero.png">
+Here are the functionalities available under the ERPNext Education domain to go through after this **[introduction](/docs/user/manual/en/education/introduction)**
 
-### Contents of ERPNext Education Domain
+## Topics
+##### 1. Setup
+1. [Course](/docs/user/manual/en/education/course)
+1. [Program](/docs/user/manual/en/education/program)
+1. [Instructor](/docs/user/manual/en/education/instructor)
+1. [Room](/docs/user/manual/en/education/room)
+1. [Student Category](/docs/user/manual/en/education/student-category)
+1. [Student Batch Name](/docs/user/manual/en/education/student-batch-name)
+1. [Academic Term](/docs/user/manual/en/education/academic-term)
+1. [Academic Year](/docs/user/manual/en/education/academic-year)
+1. [Education Settings](/docs/user/manual/en/education/education-settings)
 
-Using Education module of ERPNext, you can effectively manage operations like:
+##### 2. Student
+1. [Student](/docs/user/manual/en/education/student)
+1. [Guardian](/docs/user/manual/en/education/guardian)
+1. [Student Log](/docs/user/manual/en/education/student-log)
+1. [Student Batch](/docs/user/manual/en/education/student-batch)
+1. [Student Group](/docs/user/manual/en/education/student-group)
+1. [Student Group Creation Tool](/docs/user/manual/en/education/student-group-creation-tool)
 
-- Managing Student
-- Program and Courses
-- Online Admissions
-- Student Attendance
-- Course Scheduling
-- Assessment Planning and Assessment Result
-- Fee Structure and Fee Receipt
+##### 3. Admission
+1. [Student Applicant](/docs/user/manual/en/education/student-applicant)
+1. [Program Enrollment](/docs/user/manual/en/education/program-enrollment)
+1. [Program Enrollment Tool](/docs/user/manual/en/education/program-enrollment-tool)
+1. [Student Admission](/docs/user/manual/en/education/student_admission)
 
-For an online demonstration on each functionality of ERPNext Education module, [click here.](https://www.youtube.com/watch?v=f6foQOyGzdA&list=PL3lFfCEoMxvxyjnARY_C1zLoOE55LcMKB)
+##### 4. Fees
+1. [Fees](/docs/user/manual/en/education/fees)
+1. [Fee Structure](/docs/user/manual/en/education/fee-structure)
+1. [Fee Category](/docs/user/manual/en/education/fee-category)
+1. [Fee Schedule](/docs/user/manual/en/education/fee-schedule)
 
-<img class="screenshot" alt="Fees Section" src="{{docs_base_url}}/assets/img/education/assessment.png">
+##### 5. Schedule
+1. [Course Schedule](/docs/user/manual/en/education/course-schedule)
+1. [Scheduling Tool](/docs/user/manual/en/education/scheduling-tool)
+1. [Examination](/docs/user/manual/en/education/examination)
 
-### Who Uses ERPNext Education?
+##### 6. Attendance
+1. [Student Attendance](/docs/user/manual/en/education/student-attendance)
+1. [Student Attendance Tool](/docs/user/manual/en/education/student-attendance-tool)
+1. [Student Leave Application](/docs/user/manual/en/education/student-leave-application)
 
-The very first implementation of ERPNext was driven by a school teacher herself. She explains what it takes to get implementation right at your education institute.
+##### 7. Assessment
+1. [Introduction](/docs/user/manual/en/education/assessment-introduction)
+1. [Assessment Criteria](/docs/user/manual/en/education/assessment_criteria)
+1. [Assessment Group](/docs/user/manual/en/education/assessment_group)
+1. [Assessment Plan](/docs/user/manual/en/education/assessment_plan)
+1. [Assessment Result](/docs/user/manual/en/education/assessment_result)
+1. [Assessment Result Tool](/docs/user/manual/en/education/assessment_result_tool)
+1. [Grading Scale](/docs/user/manual/en/education/grading_scale)
 
-<div>
-    <div class='embed-container'>
-        <iframe src='https://www.youtube.com/embed/t8ZDDq4qtIk?end=52' frameborder='0' allowfullscreen>
-        </iframe>
-    </div>
-</div>
+##### 8. Assessment Reports
+1. [Final Assessment Grades](/docs/user/manual/en/education/final-assessment-grades)
+1. [Assessment Plan Status](/docs/user/manual/en/education/assessment-plan-status)
+1. [Student Report Generation Tool](/docs/user/manual/en/education/student-report-generation-tool)
+1. [Course Wise Assessment Report](/docs/user/manual/en/education/course-wise-assessment-report)
 
-### User Manual
-
-Education Institute needs lots more than Education module, and ERPNext has all of it available built-in.
-
-- You track your books of accounts using [Accounts module](/docs/user/manual/en/accounts.html).
-- Manage payroll, leaves and claims of your admin and teaching staff in the [HR module](/docs/user/manual/en/human-resources.html).
-- Organize your [purchases](/docs/user/manual/en/buying.html) and place an approval system.
-
-Here is the stepwise guide on each functionality of ERPNext Education module.
-
-{index}
+##### 9. Tools
+1. [Student Attendance Tool](/docs/user/manual/en/education/student-attendance-tool)
+1. [Assessment Result Tool](/docs/user/manual/en/education/assessment-result-tool)
+1. [Student Group Creation Tool](/docs/user/manual/en/education/student-group-creation-tool)
+1. [Program Enrollment Tool](/docs/user/manual/en/education/program-enrollment-tool)
+1. [Course Scheduling Tool](/docs/user/manual/en/education/course-scheduling-tool)

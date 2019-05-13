@@ -1,7 +1,7 @@
 [
  {
   "route": "/docs",
-  "title": "Home"
+  "title": "Docs Home"
  },
  {
   "route": "/docs/user/manual/en",
@@ -16,7 +16,7 @@
   "title": "Videos"
  },
  {
-  "route": "https://github.com/erpnext/foundation/tree/master/foundation/www/docs",
+  "route": "https://github.com/frappe/erpnext_com/tree/master/erpnext_com/www/docs",
   "title": "Improve Docs"
  }
 ]
