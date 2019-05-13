@@ -1,7 +1,7 @@
 <!-- add-breadcrumbs -->
 # Submit Feedback
 
-> NOTE: This feature has been removed in Version 12 as is was not very configurable and can be done better with Web Forms and Notifications
+> NOTE: This feature has been removed in Version 12 as it was not very configurable and can be done better with Web Forms and Notifications
 
 Once feedback request mail is sent the user/customer. He/She can visit the URL to submit the feedback
 as well as rating for the document.

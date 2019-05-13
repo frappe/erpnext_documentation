@@ -1,7 +1,7 @@
 <!-- add-breadcrumbs -->
 # Feedback Trigger
 
-> NOTE: This feature has been removed in Version 12 as is was not very configurable and can be done better with Web Forms and Notifications
+> NOTE: This feature has been removed in Version 12 as it was not very configurable and can be done better with Web Forms and Notifications
 
 You can set up the Feedback Trigger for various documents to get the Feedback from the user.
 

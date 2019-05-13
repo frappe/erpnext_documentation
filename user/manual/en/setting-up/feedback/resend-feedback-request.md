@@ -1,7 +1,7 @@
 <!-- add-breadcrumbs -->
 # Resend Feedback Request
 
-> NOTE: This feature has been removed in Version 12 as is was not very configurable and can be done better with Web Forms and Notifications
+> NOTE: This feature has been removed in Version 12 as it was not very configurable and can be done better with Web Forms and Notifications
 
 We can also Resend the Feedback Request to the Customer/User.
 
