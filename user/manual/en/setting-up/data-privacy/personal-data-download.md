@@ -2,7 +2,7 @@
 
 # Personal Data Download
 
-Personal data download tool enables user to automatically download all the personal data a user has generated while using erpnext.
+Personal data download tool enables user to automatically download all the personal data a user has generated while using erpnext. This includes personally identifiable data from lead, contact, communication, emails and so on.
 
 ### 1. How to request user data download
 
