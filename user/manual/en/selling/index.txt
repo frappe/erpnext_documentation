@@ -1,5 +1,6 @@
 quotation
 sales-order
+blanket-order
 sales-analytics
 setup
 articles
