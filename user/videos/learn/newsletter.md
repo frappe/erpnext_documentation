@@ -8,3 +8,7 @@
 A newsletter is a short written report that tells about the recent activities of an organization. It is generally sent to members of the organization, potential clients, customers or potential leads.
 
 This video walks you through managing Newsletter List, master containing Email Address's to whom Newsletter will be sent. You can compose Newsletter using rich text editor, and also in HTML editor.
+
+Check [CRM Documentation](/docs/user/manual/en/CRM) for more details on CRM Module.
+
+Next: [Selling Module](/docs/user/manual/en/selling)

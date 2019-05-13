@@ -1,7 +1,7 @@
 <!-- add-breadcrumbs -->
 # Opportunity
 
-**A qualified lead is an opportunity.**
+**Opportunity is a qualified lead.**
 
 When you get a hint that lead is looking for a product/service that you offer, you can convert that lead into an opportunity. You can also create an opportunity against an existing customer. Multiple Opportunities can be collected against a lead or a customer.
 
@@ -20,9 +20,13 @@ When you get a hint that lead is looking for a product/service that you offer, y
 
     <img class="screenshot" alt="Opportunity" src="{{docs_base_url}}/assets/img/crm/requirement-gathering.png">
 
+1. Select Opportunity Type. This indicates the broad category of opportunity like Sales, Support, Maintenance etc.
+
 1. You can add more details like Opportunity Amount, Probability (of conversion), Currency in 'SALES' section.
 
 1. You can capture the details of the products/services needed by clicking on 'With Items' checkbox and adding the item and quantity details in 'ITEMS' section.
+
+1. Enter the Source of the opportunity in the SOURCE section.
 
 ### 2. Features
 
@@ -58,6 +62,12 @@ You may need to get a quotation from your supplier against the customer requirem
 Pipeline” this is what you need to track if you want to be able to predict how
 much business you are going to get in the future. Its always a good idea to be
 able to track what is coming in order to adjust your resources.
+
+#### 2.6 Capture the Reasons for Losing Opportunities
+
+When an opportunity is lost, you can capture the reasons for losing. This will help you to analyse the trends over a long period of time and identify the insights needed for improvements at various areas in the organisation.
+
+<img class="screenshot" alt="Quotation Lost Reason" src="{{docs_base_url}}/assets/img/crm/quotation_lost_reason.png">
 
 #### 3. Related Topics
 1. [Quotation](/docs/user/manual/en/selling/quotation.html)

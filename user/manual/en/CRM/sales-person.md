@@ -1,27 +1,34 @@
 <!-- add-breadcrumbs -->
 # Sales Person
 
-Sales Persons behave exactly like Territories. You can create an organization
-chart of Sales Persons where each Sales Person's target can be set
-individually. The target has to be set against Item Group.
+**Sales Person is a person who sells your products/services.**
 
-### 1. How to create a Sales Person
-1. Go to **CRM > Setup > Sales Person > New**.
-2. Enter a name for the Sales Person.
-3. Select the Employee ID for the Sales Person.
-4. If you tick the Group Node checkbox, you can create groups of Sales Persons under this group node.
-5. Save.
+Sales Persons are created in hierarchical manner in ERPNext. You can create sales persons and add other sales persons under the main sales persons.
 
-<img class="screenshot" alt="Sales Person Tree" src="{{docs_base_url}}/assets/img/crm/sales-person-tree.png">
+### 1. How to Create a Sales Person
+1. Go to **CRM > Settings > Sales Person > New** or **Selling > Sales Person > New.**
+2. Enter the Sales Person Name.
+3. Select the Employee for the Sales Person.
+4. Tick 'Group Node' checkbox, if you would like to add more Sales Person under this Sales Person.
+5. Click on 'Create New'.
+
+<img class="screenshot" alt="Sales Person Tree" src="{{docs_base_url}}/assets/img/crm/sales-person-tree.gif">
 
 ### 2. Features
 #### 2.1 Sales Person in Transactions
 
-You can use Sales Person in Customer and sales transactions like Sales Order, Delivery Note and Sales Invoice.
-Click [here](/docs/user/manual/en/selling/articles/sales-persons-in-the-sales-transactions) to learn more about how Sales Persons are used in the transactions of Sales Cycle.
+You can use Sales Person sales transactions like Sales Order, Delivery Note and Sales Invoice.
+Read [Sales Persons in Sales Transactions](/docs/user/manual/en/selling/articles/sales-persons-in-the-sales-transactions) for more details.
+
+#### 2.2 Assign Sales Targets to Sales Person
+
+You can assign sales target for sales person and track the progress. Read [Sales Person Target Allocation](/docs/user/manual/en/selling/sales-person-target-allocation) for more details.
 
 #### 3. Related Topics
 1. [Sales Order](/docs/user/manual/en/selling/sales-order)
+1. [Sales Person Target Allocation](/docs/user/manual/en/selling/sales-person-target-allocation)
 1. [Delivery Note](/docs/user/manual/en/stock/delivery-note)
 1. [Sales Invoice](/docs/user/manual/en/accounts/sales-invoice)
 1. [Sales Cycle](/docs/user/videos/learn/sales-cycle.html)
+
+{next}
