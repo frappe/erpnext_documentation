@@ -59,6 +59,11 @@ To get an ERP implementation right, the implementor needs to set aside time and 
 1. [Price Lists](/docs/user/manual/en/setting-up/price-lists)
 1. [Stock Reconciliation for non-Serialized Items](/docs/user/manual/en/setting-up/stock-reconciliation-for-non-serialized-item)
 
+##### 1.5 Data Privacy
+
+1. [Personal Data Download](/docs/user/manual/en/setting-up/data-privacy/personal-data-download)
+1. [Personal Data Deletion](/docs/user/manual/en/setting-up/data-privacy/personal-data-deletion)
+
 ## 2. Articles
 ##### 2.1 Basic Setup
 1. [Change Password](/docs/user/manual/en/setting-up/articles/change-password)
