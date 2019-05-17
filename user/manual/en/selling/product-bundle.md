@@ -1,7 +1,9 @@
 <!-- add-breadcrumbs -->
 #Product Bundle
 
-A Product Bundle is a master where you can list existing items which are bundled together and sold as a set (or bundle). For instance, when you sell a smartphone, you need to ensure that the charger, cable, and sim ejector pin are delivered with it and stock levels of these items get affected. 
+**A Product Bundle is a master where you can list existing items which are bundled together and sold as a set (or bundle).** 
+
+For instance, when you sell a smartphone, you need to ensure that the charger, cable, and sim ejector pin are delivered with it and stock levels of these items get affected. 
 To address this scenario, you can create a Product Bundle for the main item, i.e. smartphone. Then list deliverable items i.e. smartphone + charger + cable + sim ejector pin as so-called "Child Items".
 
 A Product Bundle can be seen as a "Bill-of-Materials" on the Sales side. 

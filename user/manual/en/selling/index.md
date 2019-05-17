@@ -8,8 +8,14 @@ the communication leading up to the sale by keeping all your documents in an
 organized and searchable manner.
 
 ## 1. Topics
-### 1.1 Setup
 
+### 1.1 Sales
+1. [Quotation](/docs/user/manual/en/selling/quotation)
+1. [Sales Order](/docs/user/manual/en/selling/sales-order)
+1. [Blanket Order](/docs/user/manual/en/selling/blanket-order)
+1. [Sales Analytics](/docs/user/manual/en/selling/sales-analytics)
+
+### 1.2 Setup
 1. [Selling Settings](/docs/user/manual/en/selling/selling-settings)
 1. [Sales Partner](/docs/user/manual/en/selling/sales-partner)
 1. [Shipping Rule](/docs/user/manual/en/selling/shipping-rule)
@@ -17,11 +23,6 @@ organized and searchable manner.
 1. [Item Price](/docs/user/manual/en/selling/item-price)
 1. [Sales Person Target Allocation](/docs/user/manual/en/selling/sales-person-target-allocation)
 
-### 1.2 Sales
-1. [Quotation](/docs/user/manual/en/selling/quotation)
-1. [Sales Order](/docs/user/manual/en/selling/sales-order)
-1. [Blanket Order](/docs/user/manual/en/selling/blanket-order)
-1. [Sales Analytics](/docs/user/manual/en/selling/sales-analytics)
 
 ## 2. Articles
 ### 2.1 Sales

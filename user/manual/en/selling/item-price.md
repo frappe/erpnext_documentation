@@ -1,7 +1,7 @@
 <!-- add-breadcrumbs -->
 # Item Price
 
-Item Price is the record in which you can log the selling and buying rate of an item.
+**Item Price is the record in which you can log the selling and buying rate of an item.**
 
 ## 1. How to create Item Price
 1. There are two ways to reach a new Item Price form:

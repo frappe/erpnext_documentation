@@ -1,7 +1,8 @@
 <!-- add-breadcrumbs -->
 # Shipping Rule
 
-Using Shipping Rule you can define the cost for delivering the product to the customer the supplier.
+**Using Shipping Rule you can define the cost for delivering the product to the customer the supplier.**
+
 You can define different shipping rules or a fixed shipping amount for the same item across different territories.
 
 ## 1. How to create a Shipping Rule
