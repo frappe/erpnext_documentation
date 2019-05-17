@@ -12,11 +12,11 @@ A services business, which doesn't have a tangible product to showcase their val
 
 ##### 1.2 Time Tracking
 1. [Timesheet Introduction](/docs/user/manual/en/projects/timesheet-intro/)
-1. [Salary Slip From Timesheet](/docs/user/manual/en/projects/timesheet/salary-slip-from-timesheet)
-1. [Sales Invoice From Timesheet](/docs/user/manual/en/projects/timesheet/sales-invoice-from-timesheet)
-1. [Timesheet Against Work Order](/docs/user/manual/en/projects/timesheet/timesheet-against-work-order)
-1. [Timer In Timesheet](/docs/user/manual/en/projects/timesheet/timer-in-timesheet)
-1. [Timesheet Against Project](/docs/user/manual/en/projects/timesheet/timesheet-against-project)
+1. [Salary Slip From Timesheet](/docs/user/manual/en/projects/salary-slip-from-timesheet)
+1. [Sales Invoice From Timesheet](/docs/user/manual/en/projects/sales-invoice-from-timesheet)
+1. [Timesheet Against Work Order](/docs/user/manual/en/projects/timesheet-against-work-order)
+1. [Timer In Timesheet](/docs/user/manual/en/projects/timer-in-timesheet)
+1. [Timesheet Against Project](/docs/user/manual/en/projects/timesheet-against-project)
 1. [Activity Type](/docs/user/manual/en/projects/activity-type)
 1. [Activity Cost](/docs/user/manual/en/projects/activity-cost)
 
