@@ -5,9 +5,9 @@
 
 ## 1. Introduction
 
-If you are a new company you will have minimal opening balances to be imported. However, if you are migrating from a legacy accounting system like Tally or a Fox Pro based software you will have considerable data to be imported as opening balance.
+If you are a new company, you will have minimal opening balances to be imported. However, if you are migrating from a legacy accounting system like Tally or a Fox Pro based software you will have considerable data to be imported as opening balance.
 
-We recommend that you start using ERPNext for accounting from a new financial year, but you could start midway too. To setup your accounts, you will need the following for the “day” you start using accounting in ERPNext:
+We recommend that you start using ERPNext for accounting from a new financial year, but you could start midway too. To set up your accounts, you will need the following for the “day” you start using accounting in ERPNext:
 
 ##### Assets:
 1. Stock assets (stock in hand)

@@ -1,3 +1,4 @@
+<!-- add-breadcrumbs -->
 # Stock and Accounting Module Integration
 
 The value of stock stored in the warehouses needs to be tracked.

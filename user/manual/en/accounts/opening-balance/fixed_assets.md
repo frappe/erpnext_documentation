@@ -26,7 +26,7 @@ When you create an Asset with 'Is Existing Asset' checkbox ticked, the General L
 
 To create a new Journal Entry:
 
-1. Go to: **Accounts > Masters and Accounts > Journal Entry > New.**
+1. Go to: **Accounting > Masters and Accounts > Journal Entry > New.**
 1. Enter Posting Date.
 1. Select the appropriate fixed asset ledgers in Account column and enter the value in Debit column.
 1. Select 'Temporary Opening' ledger in Account column and enter the balancing amount in Credit column.
