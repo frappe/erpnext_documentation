@@ -36,6 +36,7 @@ Distributors always need to be on top of their game. From procuring the products
 ##### 1.5 Tools
 1. [Packing Slip](/docs/user/manual/en/stock/packing-slip)
 1. [Quality Inspection](/docs/user/manual/en/stock/quality-inspection)
+1. [Stock Reconciliation](/docs/user/manual/en/setting-up/stock-reconciliation-for-non-serialized-item)
 
 ##### 1.6 Advanced
 1. [Delivery Trip](/docs/user/manual/en/stock/delivery-trip)
