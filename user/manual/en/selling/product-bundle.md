@@ -8,7 +8,7 @@ To address this scenario, you can create a Product Bundle for the main item, i.e
 
 A Product Bundle can be seen as a "Bill-of-Materials" on the Sales side. 
 
-Following are the steps to setup a Product Bundle and using it in sales transactions.
+Following are the steps to set up a Product Bundle and using it in sales transactions.
 
 ## 1. How to create a Product Bundle
 1. Go to: **Selling > Items and Pricing > Product Bundle > New**.
@@ -27,11 +27,11 @@ The "Parent Item" should be seen more like a vessel or virtual item and not a ph
 The "Parent Item" must be a <b>non-stock item</b>. To create a <b>non-stock item</b> you have to unmark "Maintain Stock" in the Item Form.
 This is a non-stock item because there is no stock maintained for it but only for the "Child Items". 
 If you want to maintain stock for the Parent Item, then you must create a regular Bill of Material (BOM) 
-and package them using a Stock Entry Transactions.
+and package them using Stock Entry Transactions.
 
 ### 1.2 Selecting Child Items
 
-In Items table, you will list all the child items for which we maintain stock and is delivered to customer.
+In the Items table, you will list all the child items for which we maintain stock and is delivered to customer.
 Remember: The "Parent Item" is just virtual, so your main product (a smartphone in our example here) also has to be listed on the List of Child (or Package) Items.
 
 ## 2. Features
@@ -41,10 +41,8 @@ When making Sales transactions (Sales Invoice, Sales Order, Delivery Note) the P
 
 <img class="screenshot" alt="Product Bundle" src="{{docs_base_url}}/assets/img/selling/product-bundle.gif">
 
-On selection of a Parent Item in the main item table, its child items will be fetched in Packing List 
-table of the transaction. If child item is the serialized item, you will be able to specify its Serial No. 
-in packing List table itself. On submission of the transaction, system will reduce the stock level of child items from 
-warehouse specified in Packing List table.
+On selection of a Parent Item in the main item table, its child items will be fetched in Packing List table of the transaction. If child item is the serialized item, you will be able to specify its Serial No. 
+in packing List table itself. On submission of the transaction, the system will reduce the stock level of child items from warehouse specified in Packing List table.
 
 <div class="well"><b>Use Product Bundle to Manage Offers/Schemes:</b>
 <br>

@@ -13,7 +13,7 @@ There are various transactions which can be triggered from a Sales Order:
 1. Go to **Selling > Sales > Sales Order > New Sales Order** or Type 'New Sales Order' into the "Global Search" field.
 1. Select the Customer.
 1. Under 'Delivery Date' set the date by which order is to be delivered.
-1. With Order Type you can set whether it's a Sales order, Maintenance order, or from the online [Shopping Cart](/docs/user/manual/en/website/shopping-cart) of your website. By default this value is set to "Sales".
+1. With Order Type, you can set whether it's a Sales order, Maintenance order, or from the online [Shopping Cart](/docs/user/manual/en/website/shopping-cart) of your website. By default, this value is set to "Sales".
 1. In the "Customer's Purchase Order" you can enter the Customers Purchase Order No. or other details which may be useful as a reference.
 1. Enter the items and quantities to be delivered in the Item table. If Item Prices are set for the items, the Rate field will be populated automatically. If not, enter the item Rate manually. You can also overwrite the auto-populated Item Rate in case you want to change that value.
 1. Click "Save" to save a draft of the Sales Order.
@@ -66,7 +66,7 @@ Here is what a Packing List looks like:
 ### 2.4 More Information
 Campaign and Source (lead source) are explained in [Quotation](/docs/user/manual/en/selling/quotation).
 
-**Inter Company Order Reference**: If two of your companies are part of the same organization or have a parent child relationship, you can link a Purchase Order to this Sales Order. Know more about inter-company invoicing [here](/docs/user/manual/en/accounts/inter-company-invoices).
+**Inter Company Order Reference**: If two of your companies are part of the same organization or have a parent-child relationship, you can link a Purchase Order to this Sales Order. Know more about inter-company invoicing [here](/docs/user/manual/en/accounts/inter-company-invoices).
 **Project**: If your Sales Order is part of a project, you can link it here and the Project progress will be updated.
 
 ### 2.5 Billing and Delivery Status
@@ -83,7 +83,7 @@ If the sale took place via one of your Sales Partners, you can add their commiss
 <img class="screenshot" alt="Sales Team in Sales Order" src="{{docs_base_url}}/assets/img/selling/so-sales-team.png">
 
 ### 2.8 Auto Repeat Section
-Auto repeating Sales Orders is like a subscription. Set a start and end date for the auto repeat. Select the Auto Repeat created. To know more about auto repeat [click here](/docs/user/manual/en/accounts/auto_repeat).
+Auto repeating Sales Orders is like a subscription. Set a start and end date for the auto-repeat. Select the Auto Repeat created. To know more about auto repeat [click here](/docs/user/manual/en/accounts/auto_repeat).
 
 ### 2.9 Submitting
 Sales Order is a “Submittable” transaction. You will be able to execute further steps (like making a Delivery Note) only after “Submitting” a Sales Order.
@@ -96,7 +96,7 @@ Once you “Submit” your Sales Order, you can trigger actions from the Sales O
 
 * Create: From a submitted Sales Order, you can create the following:
 
-    * Delivery Note - To make a shipment entry. You can also make Delivery Note for selected items based on delivery date.
+    * Delivery Note - To make a shipment entry. You can also make Delivery Note for selected items based on the delivery date.
     * Work Order - To start a Work Order with the raw materials.
     * Sales Invoice - To bill the Order.
     * Material Request - To request re-stocking materials if out of stock.
@@ -106,7 +106,7 @@ Once you “Submit” your Sales Order, you can trigger actions from the Sales O
     * Payment Request - To make a Payment Request.
     * Payment - To record payment against the Sales Order.
 
-These actions can also be seen at the top in the Dashboard. You can also make an accounting Journal Entry based on the Sales Order from the dashboard.
+These actions can also be seen at the top of the Dashboard. You can also make an accounting Journal Entry based on the Sales Order from the dashboard.
 
 <img class="screenshot" alt="Actions from Submitted Sales Order" src="{{docs_base_url}}/assets/img/selling/submit-so.png">
 
@@ -115,7 +115,7 @@ These actions can also be seen at the top in the Dashboard. You can also make an
 
 When the 'Order Type' of the Sales Order is 'Maintenance' follow these steps:
 
-1. Enter Currency, Price list and Item details.
+1. Enter Currency, Price list, and Item details.
 2. Mention taxes and other information.
 3. Save and Submit the form.
 4. Once the form is submitted, the Create button will provide these choices specific to the maintenance Order Type.
@@ -131,7 +131,7 @@ By clicking on the Action button and selecting 'Maintenance Schedule' you can fi
 
 > **Note 3:**    
 By clicking on the Invoice button you can make an Invoice for your
-services . The sales orders details will be fetched directly.
+services. The sales orders details will be fetched directly.
 
 ### 3. Related Topics
 1. [Quotation](/docs/user/manual/en/selling/quotation)

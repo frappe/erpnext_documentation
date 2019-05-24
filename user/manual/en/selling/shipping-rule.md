@@ -19,7 +19,7 @@ You can define different shipping rules or a fixed shipping amount for the same 
 On selecting Net Total or Net Weight, a table will appear where you can set the from and to values for the amount or weight. Enter the Shipping Amount to be calculated for the entered range. Add more conditions as necessary. You can select only one of the three calculation methods in one Shipping Rule. 
 
 ### 2.2 Restrict to Countries
-You can restrict the Shipping Rule to certain countries, add the countries in the table. By default the Shipping Rule will be applicable globally.
+You can restrict the Shipping Rule to certain countries, add the countries in the table. By default, the Shipping Rule will be applicable globally.
 
 ### 3. Related Topics
 1. [Drop Shipping](/docs/user/manual/en/selling/articles/drop-shipping)

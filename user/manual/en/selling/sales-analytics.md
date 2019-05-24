@@ -42,7 +42,7 @@ Accessing the Filter Window, the company and date ranges can be applied. Data is
 Within the Data Window, columns of information are accessible.
 
 * **Moving columns**: The columns can be moved, re-arranged by clicking on the column headings and dragging them. 
-* **Sorting**: To sort the data in columns, click on the right-hand side of a column heading and you'll se options to sort as ascending, descending, reset sorting, or remove a column.
+* **Sorting**: To sort the data in columns, click on the right-hand side of a column heading and you'll see options to sort as ascending, descending, reset sorting, or remove a column.
 * **Filtering**: The text boxes below the column headings work as instant filters. Enter a number there and all matching records will be shown.
 
 The following example demonstrates data that has been sorted in ascending order by total (orange) and has been filtered for the year 2018 (blue).

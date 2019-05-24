@@ -1,7 +1,7 @@
 <!-- add-breadcrumbs -->
 # Quotation
 
-**A quotation is an estimate cost of the products/services you're selling to your future/present customer.** 
+**A quotation is an estimated cost of the products/services you're selling to your future/present customer.** 
 
 During a sale, a customer may request for a note about the products
 or services you are planning to offer along with the prices and other terms
@@ -131,7 +131,7 @@ You can do this by selecting a **Print Heading**. To create new Print Headings g
 ### 2.8 More Information
 * **Campaign:** A Sales campaign can be associated with the quotation. A set of quotations can be part of a sales campaign.
 * **Source:** A Lead Source type can be linked if quoting to a lead, whether from a campaign, from a supplier, an exhibition etc,. Select Existing Customer if quoting to a customer.
-* **Supplier Quotation:** A Supplier Quotation can be linked for comparing with your current quotation to a buyer. You can get an idea about profit/loss by comparing the two.
+* **Supplier Quotation:** A Supplier Quotation can be linked for comparing with your current quotation to a buyer. You can get an idea of profit/loss by comparing the two.
 
 ### 2.9 Submitting the Quotation
 Quotation is a “Submittable” transaction. When you click on Save, a draft is saved, on submitting, it is submitted permanently. Since you send this Quotation to

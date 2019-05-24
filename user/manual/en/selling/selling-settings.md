@@ -19,7 +19,7 @@ You can set Naming Series for Customers from:
 
 ### 1.2 Campaign Naming By
 
-Just like for Customer, you can also configure naming methodology for the Campaign master. By default, a campaign will be saved with Campaign Name.
+Just like for Customer, you can also configure the naming methodology for the Campaign master. By default, a campaign will be saved with Campaign Name.
 
 ## 2. Defaults
 ### 2.1 Default Customer Group and Territory
@@ -55,22 +55,22 @@ The frequency at which project progress and company transaction details will be 
 ## 4. Other checks
 ### 4.1 Maintain Same Rate Throughout Sales Cycle
 
-The system by default validates that item price will be the same throughout the sales cycle (Sales Order -> Delivery Note -> Sales Invoice). If you item price will be changing within the cycle and you need to bypass validation of the same rate maintained in the cycle, let this checkbox be unchecked.
+The system by default validates that item price will be the same throughout the sales cycle (Sales Order -> Delivery Note -> Sales Invoice). If your item price will be changing within the cycle and you need to bypass validation of the same rate maintained in the cycle, let this checkbox be unchecked.
 
 ### 4.2 Allow User to Edit Price List Rate in Transaction
 
-The item table in sale transactions has a field called Price List Rate. This field is non-editable by default in all the sales transactions. This is to ensure that price of an item is fetched from Item Price record and the user is not able to edit it.
+The item table in sale transactions has a field called Price List Rate. This field is non-editable by default in all the sales transactions. This is to ensure that the price of an item is fetched from Item Price record and the user is not able to edit it.
 
 If you need the Item Price fetched from Price List of an item to be editable, you should uncheck this field.
 
 ### 4.3 Allow Item to be added multiple times in a transaction
-This is a validation check which prevents an item from being added multiple times in the same transaction when unchecked. In some cases this might be an explicit need, if so check this box.
+This is a validation check which prevents an item from being added multiple times in the same transaction when unchecked. In some cases, this might be an explicit need if so check this box.
 
 ### 4.4 Allow multiple Sales Orders against a Customer's Purchase Order
 When creating a Sales Order, you can update the Purchase Order ID and Date received from the Customer. You can create only one Sales Order against the Customer's PO No. and Date. However, if you wish to allow the creation of multiple Sales Orders against the same PO No. of the Customer, tick the checkbox "Allow multiple Sales Orders against a Customer's Purchase Order".
 
 ### 4.5 Validate Selling Price for Item against Purchase Rate or Valuation Rate
-When making sales, it's important to know that you're not making losses. Enabling this validation will validate item's Selling Price with its valuation/buying price. If item's selling price is found to be less than it's buying price, then you will get a prompt when this checkbox is ticked.
+When making sales, it's important to know that you're not making losses. Enabling this validation will validate the item's Selling Price with its valuation/buying price. If an item's selling price is found to be less than it's buying price, then you will get a prompt when this checkbox is ticked.
 
 ### 4.6 Hide Customer's Tax ID from Sales Transactions
 As per the statutory requirement, most of the Customers have unique Tax ID assigned to them. They also need to have this tax ID fetched in the selling transactions. However, if you don't wish to use this functionality, you can disable by checking this property.
