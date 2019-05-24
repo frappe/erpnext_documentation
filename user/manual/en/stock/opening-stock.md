@@ -1,21 +1,36 @@
 <!-- add-breadcrumbs -->
 # Opening Stock
 
-Opening Stock is the Stock quantity in the beginning of every accounting year of an organization. The closing Stock with the prior accounting year becomes the opening Stock with the existing accounting year.
+**Opening Stock is the amount and value of materials that a company has available for sale or use at the beginning of an accounting period.**
 
-Opening Stock can be done for serialized Items as well as non-serialized Items. To update opening stock for non-serialized Item, you should perform Stock Reconciliation. For serialized Item, you can make Stock Entry of type Material Receipt.
+The closing Stock of the previous accounting period becomes the opening Stock of the current accounting period.
 
-In both cases, you should enter "Difference/Expense Account" as **Temporary Opening** account. On submission of the document, system will debit Warehouse account which is an asset account and credit difference/expense account. Before making these entries, make sure you have enabled "Perpetual Inventory" by checking Stock Settings page.
+* To update opening stock for non-serialized items, use **Stock Reconciliation**.
+* To update opening stock for serialized items, use **Stock Entry** with Stock Entry Type as Material Receipt.
 
-If you are not making opening Stock Entry, you can select "Stock Adjustment" account in Difference/Expense Account field which is an expense account.
+##1. Prerequisites
 
-To understand Opening Stock for serialized Items visit [Stock Reconciliation](/docs/user/manual/en/setting-up/stock-reconciliation-for-non-serialized-item)
+* Enable "Perpetual Inventory" in [Stock Settings](/docs/user/manual/en/stock/stock-settings).
+* Create [Items](/docs/user/manual/en/stock/item) for non-serialised, serialised and batched products.
+* Create [Warehouses](/docs/user/manual/en/stock/warehouse)
+* Link Warehouse to appropriate accounting ledgers.
 
-### 1. How to create a new Stock Reconciliation
-1. Go to **Stock > Tools > Stock Reconciliation > New**.
-1. Add the item codes, warehouse in which they'll be stored, and the quantity.
-1. The Rate will be fetched and amount will calculated according to the quantity.
-1. Set Valuation Rate if not already set. It's the amount that cost you for acquiring/making the item. 
+##2. Opening Stock for Non-serialized Items
+
+
+To post opening stock for non-serialised items check [Stock Reconciliation](/docs/user/manual/en/setting-up/stock-reconciliation-for-non-serialized-item)
+
+
+##3. Opening Stock for Serialised and Batched Items
+
+Create the [Batch](/docs/user/manual/en/stock/batch) and [Serial No](/docs/user/manual/en/stock/serial-no) records beforehand. To post opening stock for serialised and batched items:
+
+1. Go to **Stock > Stock Transactions > Stock Entry > New**.
+1. Select 'Material Receipt' in 'Stock Entry Type'.
+1. Select the warehouse in 'Default Target Warehouse'.
+1. In Items table select Item Code, Qty and Basic rate.
+1. For batched items select Batch No.
+1. For serialised items select Serial No.
 1. Save and Submit.
 
 <div>
@@ -25,6 +40,7 @@ To understand Opening Stock for serialized Items visit [Stock Reconciliation](/d
     </div>
 </div>
 
-#### 2. Related Topics
+### 4. Related Topics
 1. [Accounting Of Inventory Stock](/docs/user/manual/en/stock/accounting-of-inventory-stock)
 1. [Stock Entry](/docs/user/manual/en/stock/stock-entry)
+1. [Stock Reconciliation](/docs/user/manual/en/setting-up/stock-reconciliation-for-non-serialized-item)
