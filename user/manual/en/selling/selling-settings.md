@@ -50,7 +50,7 @@ If you wish to make Sales Order creation mandatory before the creation of a Sale
 To make Delivery Note creation as mandatory before Sales Invoice creation, you should set this field as 'Yes'. By default, this will be 'No'.
 
 ### 3.3 Sales Update Frequency
-The frequency at which project and company will be updated. By default it is for Each Transaction, you can also set it to Daily or Monthly.
+The frequency at which project progress and company transaction details will be updated. By default it is for Each Transaction, you can also set it to Daily or Monthly if you have a lot of transactions every day.
 
 ## 4. Other checks
 ### 4.1 Maintain Same Rate Throughout Sales Cycle

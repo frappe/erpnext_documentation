@@ -23,7 +23,6 @@ organized and searchable manner.
 1. [Item Price](/docs/user/manual/en/selling/item-price)
 1. [Sales Person Target Allocation](/docs/user/manual/en/selling/sales-person-target-allocation)
 
-
 ## 2. Articles
 ### 2.1 Sales
 1. [Sales Persons in the Sales Transactions](/docs/user/manual/en/selling/articles/sales-persons-in-the-sales-transactions)

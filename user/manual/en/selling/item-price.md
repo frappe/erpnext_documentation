@@ -57,3 +57,5 @@ Here is a video that shows how to manage item prices:
 ### 2. Related Topics
 1. [Item](/docs/user/manual/en/stock/item)
 1. [Applying Discount](/docs/user/manual/en/selling/articles/applying-discount)
+
+{next}
