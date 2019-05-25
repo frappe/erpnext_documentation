@@ -16,7 +16,7 @@ You can check out [this video](https://www.youtube.com/watch?v=5wjollWN0OA) for 
 ##### 1.1 Setup and Opening
 1. [Introduction](/docs/user/manual/en/accounts/accounting-entries)
 1. [Chart Of Accounts](/docs/user/manual/en/accounts/chart-of-accounts)
-1. [Opening Balance](/docs/user/manual/en/accounts/opening-accounts)
+1. [Opening Balance](/docs/user/manual/en/accounts/opening-balance)
 1. [Cost Center](/docs/user/manual/en/accounts/cost-center)
 1. [Fiscal Year](/docs/user/manual/en/accounts/fiscal-year)
 1. [Accounts Settings](/docs/user/manual/en/accounts/accounts-settings)
@@ -102,6 +102,9 @@ You can check out [this video](https://www.youtube.com/watch?v=5wjollWN0OA) for 
 ##### 2.5 Reports and Errors
 1. [Purchase Invoice Account Type Error](/docs/user/manual/en/accounts/articles/purchase-invoice-account-type-error)
 1. [Fiscal Year Error](/docs/user/manual/en/accounts/articles/fiscal-year-error)
+
+##### 2.6 Stock and Accounting Integration
+1. [Warehouse and Accounting Ledger Link](/docs/user/manual/en/accounts/articles/warehouse-ledger-link)
 
 ## 3. Videos
 1. [Chart of Accounts](/docs/user/videos/learn/chart-of-accounts.html)

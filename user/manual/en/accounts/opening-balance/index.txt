@@ -1,0 +1,6 @@
+fixed_assets
+accounts_receivable
+current_assets
+capital_accounts
+current_liabilities
+accounts_payables
