@@ -5,8 +5,6 @@
 
 It is usually a binding Contract with your Customer. Once your customer confirms the Quotation you can convert your Quotation into a Sales Order.
 
-There are various transactions which can be triggered from a Sales Order:
-
 <img class="screenshot" alt="Make Quotation from Opportunity" src="{{docs_base_url}}/assets/img/selling/selling-flow-so.png">
 
 ## 1. How to create a Sales Order
