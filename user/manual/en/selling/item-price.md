@@ -30,16 +30,16 @@ To check all Item Prices together, go to:
 
 ## 2. Features
 ###2.1 Packing Unit
-This is the quantity that must be bought or sold per unit of measure. For example if Packing Unit is two, and UOM is one, two items in quantity will be transacted. The default is 0, you can use non-integer UoM like 1.5Kg Oats for 1 Packing Unit. If you leave it as 0, it'll not affect any transaction.
+This is the quantity that must be bought or sold per unit of measure. For example, if Packing Unit is two, and UOM is one, two items in quantity will be transacted. The default is 0, you can use non-integer UoM like 1.5Kg Oats for 1 Packing Unit. If you leave it as 0, it'll not affect any transaction.
 
 ###2.2 Minimum quantity
 This is the minimum quantity of items to be transacted for this price to be applicable.
 
 ###2.3 Validity
-There are two fields here—Valid From and Valid Upto. Valid from is set to the date you created the Price List, you can also set the Valid Upto date for when the Price List will expire.
+There are two fields here—Valid From and Valid Upto. Valid from is set to the date you created the Price List, you can also set the Valid Up to date for when the Price List will expire.
 
 ###2.4 Lead Time in days
-Approximate number of days it takes the product to reach the seller's warehouse. You can set different price lists based on how much time a the same product will reach you from different vendors.
+An approximate number of days it takes the product to reach the seller's warehouse. You can set different price lists based on how much time a the same product will reach you from different vendors.
 
 ###2.5 Note
 You can add any note about the Item Price in this field.
@@ -57,3 +57,5 @@ Here is a video that shows how to manage item prices:
 ### 2. Related Topics
 1. [Item](/docs/user/manual/en/stock/item)
 1. [Applying Discount](/docs/user/manual/en/selling/articles/applying-discount)
+
+{next}
