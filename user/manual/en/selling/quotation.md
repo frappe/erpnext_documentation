@@ -63,12 +63,12 @@ The rates you quote may depend on two things.
 This table can be expanded by clicking on the inverted triangle present rightmost of the table.
 
 * On selecting Item Code, the following will be fetched automatically: item name, description, any image if set, quantity default as 1, the rates. You can add discounts in the Discounts and Margin section. 
-* You can add extra margin for profit or give a discount. Both can be set based on either amount or percentage. The final rate will be shown below in the Rate section. You can assign an Item Tax Template created specifically for an item.
-* Item weights will be fetched if set in the Item master.
-* The warehouse will be fetched from the Item master, this is the warehouse where your stock is present.
-* Under Planning you can see the Projected quantity and the actual quantity present. To know more about these fields, [click here](/docs/user/manual/en/stock/projected-quantity). If you click on the 'Stock Balance' button, it'll take you to a doctype where you can generate a stock report for the item.
-* Shopping cart, additional notes is for website transactions. Notes about the item will be fetched here when added via a shopping cart. For example: make food extra spicy. *Introduced in v12*
-* Page Break will be useful when printing, it's present in the Print Format section.
+* **Under Discount and Margin** you can add extra margin for profit or give a discount. Both can be set based on either amount or percentage. The final rate will be shown below in the Rate section. You can assign an Item Tax Template created specifically for an item.
+* **Item weights** will be fetched if set in the Item master.
+* In **Warehouse and Reference**, the warehouse will be fetched from the Item master, this is the warehouse where your stock is present.
+* Under **Planning** you can see the Projected quantity and the actual quantity present. To know more about these fields, [click here](/docs/user/manual/en/stock/projected-quantity). If you click on the 'Stock Balance' button, it'll take you to a doctype where you can generate a stock report for the item.
+* **Shopping cart**, additional notes is for website transactions. Notes about the item will be fetched here when added via a shopping cart. For example: make food extra spicy. *Introduced in v12*
+* **Page Break** will be useful when printing, it's present in the Print Format section.
 
 * You can insert rows below/above, duplicate, move, or delete rows in this table.
 

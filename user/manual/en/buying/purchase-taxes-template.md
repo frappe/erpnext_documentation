@@ -1,23 +1,25 @@
 <!-- add-breadcrumbs -->
 # Purchase Taxes and Charges Template
 
-Similar to your Sales Taxes and Charges Template is the Purchase Taxes and
-Charges Master. This is the tax template that you can use in your Purchase
-Orders and Purchase Invoices.
+**Purchase Taxes and Charges may be applied to any item you buy.**
 
-For Tax Accounts that you want to use in the tax templates, you must mention
-them as type “Tax” in your Chart of Accounts.
+The Purchase Taxes and Charges Template is similar to the Sales Taxes and Charges Template. The templates created from this form can be used in Purchase Orders and Purchase Invoices for internal records.
 
-### 1. How to add Purchase Taxes/Charges via a template
+For Tax Accounts that you want to use in the tax templates, you must set the Account Type field as 'Tax' for that particular account.
 
-1. Go to **Buying > Setup > Purchase Taxes and Charges Template > New**.
+## 1. How to add Purchase Taxes/Charges via a template
+Before creating a new template, note that templates are already created for many of the commonly used taxes.
+
+1. Go to **Buying > Settings > Purchase Taxes and Charges Template > New**.
 2. Enter a title name for the Tax.
 3. Under type, set on what the tax will be calculated and the tax rate. There are four options under type for which tax will be calculated.
   1. Actual: On the actual amount of each item.
   1. On Net Total: On the grand total of all the items.
-  1. On Previous Row Amount: This is for compounding the charges. For example cess charges over the tax already applied in the previous row.
+  1. On Previous Row Amount: This is for compounding the charges. For example, cess charges over the tax already applied in the previous row.
   1. On Previous Row Total: Same as above but applied on the total and not just the amount.
 4. Select an account head which has pre set tax rates or create your own.
+1. Selecting default will apply this template by default for new Purchase transactions.
+1. 
 5. Save.
 <img class="screenshot" alt="Purchase taxes" src="{{docs_base_url}}/assets/img/buying/purchase-taxes.png">
 
@@ -26,8 +28,11 @@ You can specify if the tax/charge is only applicable for valuation (not a part o
 If you select a particular tax as your Default tax, this
 tax will be applied to all the purchase transactions by default. 
 
-### 2. Features
-#### 2.1 Calculation Type
+## 2. Features
+### 2.1 Purchase Taxes and Charges table
+Consider Tax or Charge for:
+
+### 2.1 Calculation Type
 
 This can be on Net Total (that is the sum of basic amount). On Previous Row
 Total / Amount (for cumulative taxes or charges). If you select this option,
@@ -44,6 +49,6 @@ amount or total. Actual (as mentioned). To see some of the following options, ex
   * **Consider Tax or Charge for:** In this section you can specify if the tax/charge is only for valuation (not a part of total) or only for total (does not add value to the item) or for both.
   * **Add or Deduct:** Whether you want to add or deduct the tax.
 
-#### 3. Related Topics
+### 3. Related Topics
 1. [Purchase Order](/docs/user/manual/en/buying/purchase-order)
 1. [Buying Settings](/docs/user/manual/en/buying/setup/buying-settings)
