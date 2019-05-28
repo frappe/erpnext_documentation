@@ -20,6 +20,7 @@ You can check out [this video](https://www.youtube.com/watch?v=5wjollWN0OA) for 
 1. [Cost Center](/docs/user/manual/en/accounts/cost-center)
 1. [Fiscal Year](/docs/user/manual/en/accounts/fiscal-year)
 1. [Accounts Settings](/docs/user/manual/en/accounts/accounts-settings)
+1. [Accounting Dimensions](/docs/user/manual/en/accounts/accounting-dimensions)
 
 ##### 1.2 Journals and Payments
 1. [Journal Entry](/docs/user/manual/en/accounts/journal-entry)
