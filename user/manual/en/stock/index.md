@@ -1,6 +1,13 @@
 <!-- add-breadcrumbs -->
 # Stock
-Distributors always need to be on top of their game. From procuring the products to providing after-sales support, they are an important part of the supply chain.
+The stock or Inventory module helps you:
+
+* Maintain details of your products and warehouses.
+* Track receipt, transfer and delivery of the products.
+* Optimise stock levels by providing real-time information via reports.
+* Provide valuation of each product.
+
+The stock module is tightly integrated with Purchase, Manufacturing and Accounting modules.
 
 ## 1. Topics
 
