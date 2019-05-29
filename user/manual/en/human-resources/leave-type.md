@@ -28,8 +28,7 @@ requirement.
 
 * Carry Forward: It is possible that the carry forwarded leaves needs to expire within a particular time period based on the company policies regarding carry forwarded leaves. Once the "Is Carry Forward" is set, you can set the number of days in "Carry Forward Leave Expiry" field to define the expiry time period.
 
-	<img class="screenshot" alt="Leave Encashment"
-		src="{{docs_base_url}}/assets/img/human-resources/carry-forward-leave-expiry.png">
+	<img class="screenshot" alt="Carry Forward Leave Expiry" src="{{docs_base_url}}/assets/img/human-resources/carry-forward-leave-expiry.png">
 
 	>Note: On setting carry forward leave expiry as 0, unused leaves will not expire at the end of the leave allocation, hence, both previous remaining leaves and carry forwarded leaves will be considered for carry forward calculation for next leave allocation.
 
