@@ -4,7 +4,7 @@
 Accounting Dimensions are available in ERPNext from version 12 onwards.
 
 ### 1.What is dimensional accounting?
-Dimensional accounting is basically tagging each transaction with appropriate dimensions like Branch, Businesss Unit, etc. This allows you to maintain each segment separately, thereby limiting the overall maintenance on GL accounts and your chart of accounts remains pure.
+Dimensional accounting is basically tagging each transaction with appropriate dimensions like Branch, Business Unit, etc. This allows you to maintain each segment separately, thereby limiting the overall maintenance on GL accounts and your chart of accounts remains pure.
 
 In ERPNext you can create custom configurable accounting dimensions and use them in transactions and reports.
 
@@ -18,7 +18,7 @@ In ERPNext you can create custom configurable accounting dimensions and use them
 
 <img alt="Create custom dimension" class="screenshot" src="{{docs_base_url}}/assets/img/accounts/accounting-dimension.png">
 
-Once you create the dimensions you see these custom accounting diemnsions in Accounting Diemnsions section while making invoices or during any other transactions that affects the General Ledger.
+Once you create the dimensions you see these custom accounting dimensions in Accounting Dimensions section while making invoices or during any other transactions that affects the General Ledger.
 
 <img alt="Create custom dimension" class="screenshot" src="{{docs_base_url}}/assets/img/accounts/dimension-section.png">
 
