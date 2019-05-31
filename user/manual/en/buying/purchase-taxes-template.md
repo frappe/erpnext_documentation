@@ -12,7 +12,7 @@ them as type “Tax” in your Chart of Accounts.
 
 1. Go to **Buying > Setup > Purchase Taxes and Charges Template > New**.
 2. Enter a title name for the Tax.
-3. Under type, set on what the tax will be calculated and the tax rate. There are four options under type for which tax will be calculated.
+3. Under type, set on what the tax will be calculated and the tax rate. There are five options under type for which tax will be calculated.
   1. Actual: On the actual amount of each item.
   1. On Net Total: On the grand total of all the items.
   1. On Previous Row Amount: This is for compounding the charges. For example cess charges over the tax already applied in the previous row.
