@@ -1,8 +1,8 @@
-supplier
 request-for-quotation
-supplier-quotation
 purchase-order
-setup
-articles
 purchase-taxes
+supplier
+supplier-quotation
 supplier-scorecard
+buying-settings
+supplier-group
