@@ -16,7 +16,7 @@ words, company is liable to pay Rs. 25000 to Mama in the future. So, account
 be increased due to the investment. "Cash" is an asset to the company and it
 will be debited.
 
-  The company needs equipments (stove, teapot, cups, etc.) and raw materials (tea, sugar, milk, etc.) immediately. He decides to buy from the nearest general store, "Super Bazaar" whose owner is a friend, so that, he gets some credit. Equipments cost him Rs. 2800 and raw materials worth Rs. 2200. He pays Rs. 2000 out of total cost which is Rs. 5000.
+  The company needs equipments (stove, teapot, cups, etc.) and raw materials (tea, sugar, milk, etc.) immediately. He decides to buy them from the nearest general store, "Super Bazaar" whose owner is a friend, so that, he gets some credit. Equipments cost him Rs. 2800 and raw materials Rs. 2200. He pays Rs. 2000 out of the total cost which is Rs. 5000.
 
 ![A&L](/docs/assets/old_images/erpnext/assets-2.png)
 
@@ -24,8 +24,8 @@ will be debited.
 Equipments are "Fixed Assets" (because they have a long life) and raw materials are "Current Assets" (since they are used for day-to-day
 business), of the company. So, "Equipments" and "Stock in Hand" accounts have
 been debited to increase the value. He pays 2000, so "Cash" account will be
-reduced by that amount, hence credited and he is liable to pay 3000 to "Super
-Bazaar" later, so Super Bazaar will be credited by 3000.
+reduced by that amount, hence credited and he is liable to pay Rs. 3000 to "Super
+Bazaar" later, so Super Bazaar will be credited by Rs. 3000.
 
   Mama (who takes care of all entries) decides to book sales at the end of every day, so that he can analyze daily sales. At the end of the very first day, the tea stall sells 325 cups of tea, which gives net sales of Rs. 1575. The owner happily books his first day sales.
 
