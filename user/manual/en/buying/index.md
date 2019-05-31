@@ -35,14 +35,14 @@ efficient and seamless as possible.
 
 ## 3. Videos
 ### 3.1 Purchase
-1. [Purchase Cycle](/docs/user/videos/learn/purchase-cycle.html)
-1. [Supplier](/docs/user/videos/learn/customer-and-supplier.html)
-1. [Material Request to Purchase Order](/docs/user/videos/learn/material-request-to-purchase-order.html)
+1. [Purchase Cycle](/docs/user/videos/learn/purchase-cycle)
+1. [Supplier](/docs/user/videos/learn/customer-and-supplier)
+1. [Material Request to Purchase Order](/docs/user/videos/learn/material-request-to-purchase-order)
 
 ### 3.2 Pricing
-1. [Request for Quotation](/docs/user/videos/learn/request-for-quotation.html)
-1. [Pricing Rule](/docs/user/videos/learn/pricing-rule.html)
+1. [Request for Quotation](/docs/user/videos/learn/request-for-quotation)
+1. [Pricing Rule](/docs/user/videos/learn/pricing-rule)
 
 ### 3.3 Other
-1. [Discounts](/docs/user/videos/learn/discounts.html)
-1. [Taxes](/docs/user/videos/learn/taxes.html)
+1. [Discounts](/docs/user/videos/learn/discounts)
+1. [Taxes](/docs/user/videos/learn/taxes)

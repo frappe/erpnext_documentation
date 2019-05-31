@@ -1,47 +1,62 @@
 <!-- add-breadcrumbs -->
 # Supplier Quotation
 
-A Supplier Quotation is a formal statement of promise by potential supplier to
-supply the goods or services required by a buyer, at specified prices, and
-within a specified period. A quotation may also contain terms of sale and
-payment, and warranties. Acceptance of quotation by the buyer constitutes an
-agreement binding on both parties.
+**A Supplier Quotation is document by a potential supplier specifying the cost of goods or services they'll provide within a specified period.**
 
-### 1. How to create a Supplier Quotation
+A Supplier Quotation may also contain terms of sale, terms of payment, and warranties. Acceptance of quotation by the buyer can be considered as an agreement binding on both parties.
+
+## 1. How to create a Supplier Quotation
+
+### 1.1 Supplier Quotation from Material Request
+
 You can make a supplier quotation from a Material Request:
-![Supplier Quotation]({{docs_base_url}}/assets/img/buying/buying_flow.png)
+![Supplier Quotation from Material Receipt]({{docs_base_url}}/assets/img/buying/supplier-quotation-from-mr.png)
 
+Or:
+
+A Supplier Quotation can be created from a [Supplier master](/docs/user/manual/en/buying/supplier).
+
+Or:
+
+The supplier can submit you a quotation himself via ERPNext. To know more about this, see section _3. Creating a Supplier Quotation after RFQ_ of [Request for Quotation](/docs/user/videos/learn/request-for-quotation).
+
+### 1.2 Creating a Supplier Quotation manually
 1. You can also make a Supplier Quotation directly from:
 
-    **Buying > Purchasing > Supplier Quotation > New Supplier Quotation**.
-1. Select the Supplier for whom you're sending the quotation.
+    **Buying > Purchasing > Supplier Quotation > New**.
+1. Select the Supplier who sent you the quotation.
+1. The Address and Contact will be fetched if you've saved it in the supplier master.
 1. Enter the Item code, select the quantity. Rate will be fetched if you've set the Standard Buying rate for the item in [Item Price](/docs/user/manual/en/stock/item-price).
     <img class="screenshot" alt="Supplier Quotation" src="{{docs_base_url}}/assets/img/buying/supplier-quotation.png">
 
 If you have multiple Suppliers who supply you with the same Item, you
-usually send out a message (Request for Quote) to various Suppliers. In
-many cases, especially if you have centralized buying, you may want to record
-all the quotes so that
+usually send out a [Request for Quotation](/docs/user/videos/learn/request-for-quotation) to various Suppliers. In
+many cases, especially if you have centralized buying, you may want to record all the quotes so that:
 
   * You can easily compare prices in the future
   * Audit whether all Suppliers were given the opportunity to quote.
 
 Supplier Quotations are not necessary for most small businesses. Always
 evaluate the cost of collecting information to the value it really provides!
-You could only do this for high value items.
+As a recommendation, you can do this only for high value items.
 
-### 2. Features
-#### 2.1 Taxes and Charges
-If your Supplier is going to charge you additional taxes or charge like a shipping or insurance charge, you can add it here. It will help you to accurately track your costs. Also, if some of these charges add to the value of the product you will have to mention them in the Taxes table. You can also use templates for your taxes. For more information on setting up your taxes see the Purchase Taxes and Charges Template.
+## 2. Features
+### 2.1 Taxes and Charges
+If your Supplier is going to charge you additional taxes or charge like a shipping or insurance charge, you can add it here. This will help you accurately track your costs. Also, if some of these charges add to the value of the product you will have to mention them in the Taxes table. You can also use templates for your taxes. For more information on setting up your taxes see the [Purchase Taxes and Charges Template](/docs/user/manual/en/buying/purchase-taxes-template).
 
-You can select relevant tax by going to "Taxes and Charges" section and adding an entry to the table as shown below,
+### 2.2 More
+There are fields for Tax Category, Shipping Rule, Purchase Taxes and Charges Template, Discount, Terms and Conditions, Printing Settings. You can fill these fields for your record. Visit the [Quotation](/docs/user/manual/en/selling/quotation) page to know more about these sections. Note that the details you fill here like Shipping Rule, taxes, Discount, Terms and Conditions etc., are from your supplier and can be recorded for accurate tracking.
 
-<img class="screenshot" alt="Supplier Quotation" src="{{docs_base_url}}/assets/img/buying/add_taxes_to_doc.png">
+Note:
 
-Besides, in case of multiple items you can keep track of taxes on each by clicking "Show tax break-up"
+- Tax Category will be fetched from supplier master if set
+- Print settings is for making changes to the supplier quotation print
+- The Terms and Conditions here are your supplier's
+- The supplier quotation can be linked to material requests using the 'Link to material requests' button
 
-<img class="screenshot" alt="Supplier Quotation" src="{{docs_base_url}}/assets/img/buying/show_tax_breakup.png">
-
-#### 3. Related Topics
+### 3. Related Topics
 1. [Supplier](/docs/user/manual/en/buying/supplier)
 1. [Supplier Group](/docs/user/manual/en/buying/setup/supplier-group)
+1. [Request for Quotation](/docs/user/videos/learn/request-for-quotation.html)
+
+{next}

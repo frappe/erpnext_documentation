@@ -9,18 +9,19 @@ It is similar to a Sales Order but instead of sending it to an external party, y
 
 A Purchase Order can be automatically created from a Material Request or
 Supplier Quotation.
-![Purchase Order]({{docs_base_url}}/assets/img/buying/buying_flow.png)
+![Buying Flow]({{docs_base_url}}/assets/img/buying/buying_flow.png)
 
 1. In ERPNext, you can also make a Purchase Order directly by going to:
 
     **Buying > Purchasing > Purchase Order > New Purchase Order**
 1. Select the Supplier, required by date.
-1. Set the target Warehouse where the items will be delivered (optional).
 1. In the items table, select the item by code, you can change the required by date for each item.
 1. Set the quantity and the price will be fetched automatically if set in the Item master.
 1. Set taxes.
 1. Save and Submit.
     <img class="screenshot" alt="Purchase Order" src="{{docs_base_url}}/assets/img/buying/purchase-order.png">
+
+Optionally, you can set the target Warehouse where the items will be delivered. Supply Raw Materials option is useful for subcontracting where you provide the raw materials for making an item.
 
 ## 2. Features
 
@@ -94,11 +95,8 @@ For more information on setting up your taxes see the [Purchase Taxes and Charge
 ### 2.5 More Information
 This section shows the status of the Purchase Order, percentage of items received, and percentage of items billed. If this is an Inter Company Order, the Sales Order can be linked here.
 
-<!-- ### 2.5 Subscription
-A start and end date can be selected to repeat a Purchase Order. -->
-
 ### 2.6 More
-For Currency and Price List, Additional Discount, Payment Terms, Terms and Conditions, Printing Settings visit [Quotation](/docs/user/manual/en/selling/quotation). The seller's Additional Discount, Payment Terms, Terms and Conditions can be recorded in your Purchase Order.
+For other sections like Currency and Price List, Additional Discount, Payment Terms, Terms and Conditions, Printing Settings visit [Quotation](/docs/user/manual/en/selling/quotation). The seller's Additional Discount, Payment Terms, Terms and Conditions can be recorded in your Purchase Order.
 
 ### 3. Related Topics
 1. [Request For Quotation](/docs/user/manual/en/buying/request-for-quotation)
@@ -106,3 +104,5 @@ For Currency and Price List, Additional Discount, Payment Terms, Terms and Condi
 1. [Purchase Taxes](/docs/user/manual/en/buying/purchase-taxes)
 1. [Purchasing In Different Unit](/docs/user/manual/en/buying/articles/purchasing-in-different-unit)
 1. [Amending Purchase Order After Submit](/docs/user/manual/en/buying/articles/amending-purchase-order-after-submit)
+
+{next}

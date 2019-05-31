@@ -15,40 +15,34 @@ Before creating a new template, note that templates are already created for many
 3. Under type, set on what the tax will be calculated and the tax rate. There are four options under type for which tax will be calculated.
   1. Actual: On the actual amount of each item.
   1. On Net Total: On the grand total of all the items.
-  1. On Previous Row Amount: This is for compounding the charges. For example, cess charges over the tax already applied in the previous row.
-  1. On Previous Row Total: Same as above but applied on the total and not just the amount.
+  1. On Previous Row Amount: This is for compounding the charges. For example, cess charges over the amount to which tax was already applied in the previous row.
+  1. On Previous Row Total: Same as above but applied on the total bill and not just the amount of an item.
 4. Select an account head which has pre set tax rates or create your own.
 1. Selecting default will apply this template by default for new Purchase transactions.
-1. 
 5. Save.
 <img class="screenshot" alt="Purchase taxes" src="{{docs_base_url}}/assets/img/buying/purchase-taxes.png">
 
-You can specify if the tax/charge is only applicable for valuation (not a part of total) or only for total (does not add value to the item), or if the tax/charge is applicable for both. [Check out this article](/docs/user/manual/en/accounts/articles/what-is-the-differences-of-total-and-valuation-in-tax-and-charges) to know the difference.
-
-If you select a particular tax as your Default tax, this
-tax will be applied to all the purchase transactions by default. 
+Is Inter State: For India. On selection of a customer in Sales Invoice or Delivery Note, if the GST codes of place of supply and customer shipping address don't match, the template with 'Is Inter State' ticked will be set as the taxes template. If the place of supply and shipping address are the same, the default taxes template will be applied. This also applies to Purchase Invoice, on selection of Supplier, the templates are set depending on the addresses. For example, IGST.
 
 ## 2. Features
 ### 2.1 Purchase Taxes and Charges table
-Consider Tax or Charge for:
 
-### 2.1 Calculation Type
+* **Consider Tax or Charge for**: Total - for the total of all items. Valuation - for each item. Valuation and total - apply tax/charge to both. [Check out this article](/docs/user/manual/en/accounts/articles/what-is-the-differences-of-total-and-valuation-in-tax-and-charges) to know the difference.
+* **Add or Deduct:** Whether you want to add or deduct the tax from the item.
 
-This can be on Net Total (that is the sum of basic amount). On Previous Row
-Total / Amount (for cumulative taxes or charges). If you select this option,
-the tax will be applied as a percentage of the previous row (in the tax table)
-amount or total. Actual (as mentioned). To see some of the following options, expand the row by clicking on the downward facing triangle.
+* **Reference Row #**: If tax is based on "Previous Row Total" you can select the row number which will be taken as a base for this calculation (default is the previous row).
+   <img class="screenshot" alt="Purchase taxes table" src="{{docs_base_url}}/assets/img/buying/purchase-taxes-table.png">
 
-  * **Account Head:** The Account ledger under which this tax will be booked.
-  * **Cost Center:** If the tax / charge is an income (like shipping) or expense it needs to be booked against a Cost Center.
-  * **Description:** Description of the tax (that will be printed in invoices / quotes).
-  * **Rate:** Tax rate.
-  * **Amount:** Tax amount.
-  * **Total:** Cumulative total to this point.
-  * **Enter Row:** If based on "Previous Row Total" you can select the row number which will be taken as a base for this calculation (default is the previous row).
-  * **Consider Tax or Charge for:** In this section you can specify if the tax/charge is only for valuation (not a part of total) or only for total (does not add value to the item) or for both.
-  * **Add or Deduct:** Whether you want to add or deduct the tax.
+* **Is this Tax included in Basic Rate?**: If checked, the tax amount will be considered as already included in the Print Rate / Print Amount.
+* **Account Head:** The Account ledger under which this tax will be booked. If you select VAT or any other preset heads, the rate will be automatically filled.
+* **Cost Center:** If the tax/charge is an income (like shipping) or expense it needs to be booked against a Cost Center.
+* **Description:** Description of the tax (that will be printed in invoices/quotes).
+* **Rate:** The Tax rate, eg: 14 = 14% tax.
+* **Amount:** The Tax amount to be applied, eg: 100.00 = ₹100 tax.
+
 
 ### 3. Related Topics
 1. [Purchase Order](/docs/user/manual/en/buying/purchase-order)
 1. [Buying Settings](/docs/user/manual/en/buying/setup/buying-settings)
+
+{next}

@@ -11,7 +11,7 @@
 1. Warehouse can be left blank if 'Maintain Stock' is unticked for the item.
 5. Save and submit.
 
-A Request for Quotation (RFQ) can also be created from a submitted Material Request.
+A Request for Quotation (RFQ) can also be created from a submitted Material Request. Once an RFQ is created, you can print and send them the PDF which will have all the details you entered relevant to the RFQ and receive reply by mail. You can also get their reply (Supplier Quotation) from ERPNext itself, see section _3.1 Supplier Quotation by User_. However, for a large number of items, your supplier may be more comfortable with an Excel sheet etc.,
 
 ## 2. Features
 
@@ -37,7 +37,7 @@ In the Supplier table, on expanding a row with the inverted triangle, you'll see
 Enter any additional messages for the Supplier in this field. This field can be auto filled using an 'Email Template'. The field to select an Email Template is just above Message for Supplier.
 
 ### 2.4 More
-To know about Terms and Conditions and Printing Settings, visit [Quotation](/docs/user/manual/en/selling/quotation).
+To know about Terms and Conditions and Printing Settings, visit [Quotation](/docs/user/manual/en/selling/quotation). The Terms and Conditions will be seen if you print your RFQ.
 
 **Link to material requests button**: This button links the Request for Quotation to any Material Requests. The items should be the same in the Request for Quotation and the Material Request.
 
@@ -46,20 +46,20 @@ To know about Terms and Conditions and Printing Settings, visit [Quotation](/doc
 Now, when the Request for Quotation is saved, you can see in the Dashboard that it is linked to the Material Request.
 If there are multiple Material Requests with the same items, then the link will be created with the newest Material Request.
 
-### 3. Creating a Supplier Quotation
-After creating a Request for Quotation, there are two ways to generate Supplier Quotation from Request for Quotation.
+## 3. Creating a Supplier Quotation after RFQ
+After creation of Request for Quotation, there are two ways to generate Supplier Quotation from Request for Quotation.
 
-### 3.1 Supplier Quotation for User
+### 3.1 Supplier Quotation by User
 
 1. Open Request for Quotation and click on **Supplier Quotation > Create**.
 
-    ![Request For Quotation]({{docs_base_url}}/assets/img/buying/make-supplier-quotation-from-rfq.png)
+    ![Supplier Quotation from RFQ]({{docs_base_url}}/assets/img/buying/make-supplier-quotation-from-rfq.png)
 
 2. Select the Supplier, click on the supplier again. In this page, click on the + next to 'Supplier Quotation'. A new Supplier Quotation page will be opened, user has to enter the quantity, rate and submit it.
 
-    ![Request For Quotation]({{docs_base_url}}/assets/img/buying/supplier-quotation-from-sup.png)
+    ![Supplier Quotation from Supplier]({{docs_base_url}}/assets/img/buying/supplier-quotation-from-sup.png)
     
-### 3.2 Supplier Quotation for Supplier
+### 3.2 Supplier Quotation from Supplier
 
 1. Create contact or enter Email Address against the supplier on Request for Quotation and email is not present.
 
@@ -67,31 +67,34 @@ After creating a Request for Quotation, there are two ways to generate Supplier 
 
     **If the Supplier's account is not present**: The system will create Supplier's account and send details to the Supplier. The Supplier will need to click on the link(Password Update) present in the email. After the password update,Supplier can access his portal with the Request for Quotation form. The Supplier will be created as a Website User.
 
-    ![Request For Quotation]({{docs_base_url}}/assets/img/buying/supplier-password-update-link.png)
+    ![Supplier email if account not present]({{docs_base_url}}/assets/img/buying/supplier-password-update-link.png)
 
     
     **If Supplier's account is present**: System will send Request for Quotation link to Supplier, Supplier has to login using his credentials to view the Request for Quotation form on portal. 
 
-    ![Request For Quotation]({{docs_base_url}}/assets/img/buying/send-rfq-link.png)
+    ![Supplier email if account present]({{docs_base_url}}/assets/img/buying/send-rfq-link.png)
 
 3. Either way, when the Supplier logs in, the following screen will be shown to them. From here they can send you a quotation:
 
-    ![Request For Quotation]({{docs_base_url}}/assets/img/buying/rfq-supplier-quotation.png)
+    ![Supplier Quotation Screen]({{docs_base_url}}/assets/img/buying/rfq-supplier-quotation.png)
 
     The supplier has to enter amount and notes (payment terms) on the form and click on submit. In the Quotations section, previous quotations will be visible.
 
 4. On submission, system will create Supplier Quotation (draft mode) against the supplier. The user has to review the Supplier Quotation and submit it. When all items from the Request for Quotation have been quoted by a Supplier, the quote status is updated to 'Received' in the Supplier table of 'Request for Quotation'.
 
-    ![Request For Quotation]({{docs_base_url}}/assets/img/buying/rfq-supplier-quoted.png)
+    ![RFQ status after supplier quote]({{docs_base_url}}/assets/img/buying/rfq-supplier-quoted.png)
 
 ## 4. No quote from Supplier
 
 If a Supplier indicates that they will not provide a quotation for the items, this can be indicated in the RFQ document by checking the 'No Quote' box after the Request for Quotation has been submitted. The No Quote box can be seen on expanding a Supplier row by clicking on the inverted triangle at the right-hand side.
 
+To know about creating a Supplier Quotation, [click here](/docs/user/manual/en/buying/supplier-quotation).
+
 <div class="embed-container">
     <iframe src="https://www.youtube.com/embed/q85GFvWfZGI?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen>
     </iframe>
 </div>
+
 
 ### 4. Related Topics
 1. [Purchase Order](/docs/user/manual/en/buying/purchase-order)
@@ -99,3 +102,5 @@ If a Supplier indicates that they will not provide a quotation for the items, th
 1. [Supplier Quotation](/docs/user/manual/en/buying/supplier-quotation)
 1. [Quotation](/docs/user/manual/en/selling/quotation)
 1. [Material Request](/docs/user/manual/en/stock/material-request)
+
+{next}
