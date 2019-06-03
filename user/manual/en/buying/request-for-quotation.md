@@ -3,6 +3,8 @@
 
 **A Request for Quotation is a document that an organization sends to one or more suppliers asking a quotation for items.**
 
+![Buying Flow](/docs/assets/img/buying/buying_flow_rfq.png)
+
 ## 1. How to create a Request For Quotation
 1. Go to: **Buying > Purchasing > Request for Quotation > New**
 2. Enter the date.

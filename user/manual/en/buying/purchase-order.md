@@ -9,7 +9,7 @@ It is similar to a Sales Order but instead of sending it to an external party, y
 
 A Purchase Order can be automatically created from a Material Request or
 Supplier Quotation.
-![Buying Flow]({{docs_base_url}}/assets/img/buying/buying_flow.png)
+![Buying Flow](/docs/assets/img/buying/buying_flow_po.png)
 
 1. In ERPNext, you can also make a Purchase Order directly by going to:
 
