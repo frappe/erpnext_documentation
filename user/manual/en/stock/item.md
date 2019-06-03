@@ -15,18 +15,18 @@ ERPNext is optimized for itemized management of your sales and purchase. If you 
   * **Allow Alternative Item**: Sometimes when manufacturing a finished good, a specific material may not be available. If you tick this, you can create and select an alternative item from the Item Alternative list.
   * **Maintain Stock:** If you are maintaining stock of this Item in your Inventory, ERPNext will make a stock ledger entry for each transaction of this item.
   * **Include Item in Manufacturing**: This if for raw materials that'll be used to create finished goods.
-  * **Valuation Rate:** There are two options to maintain valuation of stock. FIFO (first in - first out) and Moving Average. To understand this topic in detail please visit [Item Valuation, FIFO and Moving Average](/docs/user/manual/en/stock/item-valuation-fifo-and-moving-average).
+  * **Valuation Rate:** There are two options to maintain valuation of stock. FIFO (first in - first out) and Moving Average. To understand this topic in detail please visit [Item Valuation, FIFO and Moving Average](/docs/user/manual/en/stock/articles/item-valuation-fifo-and-moving-average).
   * **Allowance Percentage:** This option will be available only when you create and save the item. This is the percent by which you will be allowed to over-bill or over-deliver this Item. If not set, it will select from the Global Defaults. 
 
 ###2. Features
 #### 2.1 Item Properties
 
   * **Item Name:** Item name is the actual name of your product or service.
-  * **Item Code:** Item Code is a short-form to denote your Item. If you have very few Items, it is advisable to keep the Item Name and the Item Code same. This helps new users to recognize and update Item details in all transactions. In case you have lot of Items with long names and the list runs in hundreds, it is advisable to code. To understand naming Item codes see [Item Codification](/docs/user/manual/en/stock/item/item-codification)
-  * **Item Group:** Item Group is used to categorize an Item under various criteria like products, raw materials, services, sub-assemblies, consumables or all Item groups. Create your default Item Group list under Setup> Item Group and pre-select the option while filling your New Item details under [Item Group](/docs/user/manual/en/stock/setup/item-group)
+  * **Item Code:** Item Code is a short-form to denote your Item. If you have very few Items, it is advisable to keep the Item Name and the Item Code same. This helps new users to recognize and update Item details in all transactions. In case you have lot of Items with long names and the list runs in hundreds, it is advisable to code. To understand naming Item codes see [Item Codification](/docs/user/manual/en/stock/item-codification)
+  * **Item Group:** Item Group is used to categorize an Item under various criteria like products, raw materials, services, sub-assemblies, consumables or all Item groups. Create your default Item Group list under Setup> Item Group and pre-select the option while filling your New Item details under [Item Group](/docs/user/manual/en/stock/item-group)
   * **Default Unit of Measure:** This is the default measuring unit that you will use for your product. It could be in nos, kgs, meters, etc. You can store all the UOM’s that your product will require under Set Up> Master Data > UOM. These can be preselected while filling New Item by using % sign to get a pop up of the UOM list.
   * **Brand:** If you have more than one brand save them under Set Up> Master Data> Brand and pre-select them while filling a New Item.
-  * **Variant:** A Item Variant is a different version of a Item.To learn more about managing variants see [Item Variants](/docs/user/manual/en/stock/item/item-variants)
+  * **Variant:** A Item Variant is a different version of a Item.To learn more about managing variants see [Item Variants](/docs/user/manual/en/stock/item-variants)
 
 #### 2.2 Upload an Image
 

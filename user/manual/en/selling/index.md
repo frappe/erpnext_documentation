@@ -14,14 +14,15 @@ organized and searchable manner.
 1. [Sales Order](/docs/user/manual/en/selling/sales-order)
 1. [Blanket Order](/docs/user/manual/en/selling/blanket-order)
 1. [Sales Analytics](/docs/user/manual/en/selling/sales-analytics)
+1. [Sales Partner](/docs/user/manual/en/selling/sales-partner)
 
 ### 1.2 Setup
 1. [Selling Settings](/docs/user/manual/en/selling/selling-settings)
-1. [Sales Partner](/docs/user/manual/en/selling/sales-partner)
+1. [Item Price](/docs/user/manual/en/selling/item-price)
 1. [Shipping Rule](/docs/user/manual/en/selling/shipping-rule)
 1. [Product Bundle](/docs/user/manual/en/selling/product-bundle)
-1. [Item Price](/docs/user/manual/en/selling/item-price)
 1. [Sales Person Target Allocation](/docs/user/manual/en/selling/sales-person-target-allocation)
+1. [Sales Taxes and Charges Template](/docs/user/manual/en/selling/sales-taxes-and-charges-template)
 
 ## 2. Articles
 ### 2.1 Sales

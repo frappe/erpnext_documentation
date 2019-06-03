@@ -29,7 +29,7 @@ In case of multi-company setup, accounting currency of Party must be same for al
 ### 2. Exchange Rates
 When dealing with multiple currencies, ERPNext has the Currency Exchange page for managing exchange rates. It allows you to save the exchange rate quotes you require. It's available at **Accounts > Setup > Currency Exchange**.
 
-For foreign currency transactions, ERPNext checks Currency Exchange for any matching record. If this fails, ERPNext will attempt to get the exchange rate quote from [fixer.io](http://fixer.io). If this still fails, then the exchange rate will have to be entered manually.
+For foreign currency transactions, ERPNext checks Currency Exchange for any matching record. If this fails, ERPNext will attempt to get the exchange rate quote from [Frankfurter](https://www.frankfurter.app). If this still fails, then the exchange rate will have to be entered manually.
 
 ERPNext automatically fetches the latest exchange rate available.
 
