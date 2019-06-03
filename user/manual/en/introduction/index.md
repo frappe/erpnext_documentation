@@ -32,7 +32,7 @@ ERPNext addresses some fundamental problems SMEs struggle with when managing the
 
 ## What is ERPNext?
 
-ERPNext is a full-featured business management solution that helps SMEs to record all their business transactions in a single system. With ERPNext, SMEs can make informed, fact-based, timely decisions to remain ahead of the competition. It serves as the backbone of a business adding strength, transparency, and control to your growing enterprise. 
+ERPNext is a full-featured business management solution that helps SMEs to record all their business transactions in a single system. With ERPNext, SMEs can make informed, fact-based, timely decisions to remain ahead in the competition. It serves as the backbone of a business adding strength, transparency, and control to your growing enterprise. 
 
 ERPNext will help you to:
 
@@ -44,7 +44,7 @@ ERPNext will help you to:
 - Assign tasks and follow up on them.
 - Maintain a database of all your customers, suppliers, and contacts.
 - Prepare quotations.
-- Tracking your budgets and spending.
+- Track your budgets and spending.
 - Determine effective selling price based on the actual raw material, machinery and effort cost. 
 - Get reminders on maintenance schedules.
 - Publish your website.
