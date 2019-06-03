@@ -24,3 +24,5 @@ You can restrict the Shipping Rule to certain countries, add the countries in th
 ### 3. Related Topics
 1. [Drop Shipping](/docs/user/manual/en/selling/articles/drop-shipping)
 1. [Customer](/docs/user/manual/en/CRM/customer)
+
+{next}

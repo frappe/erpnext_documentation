@@ -38,3 +38,5 @@ https://yourCompanyName.erpnext.com/partners
 
 ### 3. Related Topics
 1. [Sales Person Target Allocation](/docs/user/manual/en/selling/sales-person-target-allocation)
+
+{next}

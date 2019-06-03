@@ -46,3 +46,5 @@ child nodes 'Book Distributor', 'Electronic Distributor', etc.
 
 ### 3. Related Topics
 1. [Supplier](/docs/user/manual/en/buying/supplier)
+
+{next}

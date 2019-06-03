@@ -146,3 +146,5 @@ On submitting, you can create a Sales Order or a Subscription from the Quotation
 1. [Applying Discount](/docs/user/manual/en/selling/articles/applying-discount)
 1. [Customer](/docs/user/manual/en/CRM/customer)
 1. [Lead](/docs/user/manual/en/CRM/lead)
+
+{next}

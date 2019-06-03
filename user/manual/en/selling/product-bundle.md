@@ -50,3 +50,5 @@ This was discovered when a customer dealing into nutrition products asked for a 
 
 ### 3. Related Topics
 1. [Item](/docs/user/manual/en/stock/item)
+
+{next}

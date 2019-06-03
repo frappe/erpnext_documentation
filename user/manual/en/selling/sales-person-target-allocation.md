@@ -85,3 +85,5 @@ You can link Monthly Distribution while allocating targets in Sales Person and i
 ### 4. Related Topics
 1. [Sales Persons in the Sales Transactions](/docs/user/manual/en/selling/articles/sales-persons-in-the-sales-transactions)
 1. [Using Sales Person in transactions](/docs/user/manual/en/selling/articles/sales-persons-in-the-sales-transactions)
+
+{next}

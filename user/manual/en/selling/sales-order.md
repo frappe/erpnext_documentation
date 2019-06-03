@@ -135,3 +135,5 @@ services. The sales orders details will be fetched directly.
 1. [Quotation](/docs/user/manual/en/selling/quotation)
 1. [Close Sales Order](/docs/user/manual/en/selling/articles/close-sales-order)
 1. [Amending Sales Order After Submit](/docs/user/manual/en/selling/articles/amending-sales-order-after-submit)
+
+{next}

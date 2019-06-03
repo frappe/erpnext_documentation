@@ -74,3 +74,5 @@ When making sales, it's important to know that you're not making losses. Enablin
 
 ### 4.6 Hide Customer's Tax ID from Sales Transactions
 As per the statutory requirement, most of the Customers have unique Tax ID assigned to them. They also need to have this tax ID fetched in the selling transactions. However, if you don't wish to use this functionality, you can disable by checking this property.
+
+{next}
