@@ -1,7 +1,7 @@
 <!-- add-breadcrumbs -->
-# Do I Need An Erp?
+# Do I Need an ERP?
 
-ERPNext is a modern tool that covers not only accounting but also all other
+ERPNext is a modern tool that covers not only accounting, but also all other
 business functions, on an integrated platform. It has many benefits over both
 traditional accounting as well as ERP applications.
 
@@ -16,7 +16,7 @@ traditional accounting as well as ERP applications.
 
   * $$$ - Saves money.
   * **Easier to configure:** Big ERPs are notoriously hard to setup and will ask you a zillion questions before you can do something meaningful.
-  * **Easier to use:** Modern web like user interface will keep your users happy and in familiar territory.
+  * **Easier to use:** Modern web-like user interface will keep your users happy and in familiar territory.
   * **Open Source :** This software is always free and you can host it anywhere you like.
 
 {next}
