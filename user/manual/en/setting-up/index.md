@@ -15,6 +15,7 @@ To get an ERP implementation right, the implementor needs to set aside time and 
 1. [Setting Up Taxes](/docs/user/manual/en/setting-up/setting-up-taxes)
 1. [Setting Company Sales Goal](/docs/user/manual/en/setting-up/setting-company-sales-goal)
 1. [Data Import](/docs/user/manual/en/setting-up/data/data-import)
+1. [Charts Of Accounts Importer](/docs/user/manual/en/setting-up/chart-of-accounts-importer)
 1. [Workflows](/docs/user/manual/en/setting-up/workflows)
 1. [Energy Point System](/docs/user/manual/en/setting-up/energy-point-system)
 
