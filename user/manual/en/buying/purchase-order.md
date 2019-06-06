@@ -29,9 +29,12 @@ Optionally, you can set the target Warehouse where the items will be delivered. 
 
 * **Select Supplier Address**: The Supplier's billing address.
 * **Select Shipping Address**: The Supplier's shipping warehouse from which they'll be sending the items.
-* **Supplier and Company GSTIN**: The GST Identification Number of your Supplier and your company.
-* **Place of Supply**: For GST(India), Place of Supply is necessary. It consists of the state's name and number.
 * Address, Shipping Address, Contact, Contact Email will be fetched if saved in the Supplier master.
+
+For India:
+
+* **Supplier and Company GSTIN**: The GST Identification Number of your Supplier and your company.
+* **Place of Supply**: For GST, Place of Supply is necessary. It consists of the state's name and number.
 
 ### 2.2 The Items table
 * **Quantity and Rate**: When you select the Item code, it's name, description, and UOM will be fetched. The 'UOM Conversion Factor' is set to 1 by default, you can change it depending on the UOM received from the seller, more in the next section.

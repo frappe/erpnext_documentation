@@ -20,15 +20,17 @@ Fields in future transactions will be auto-populated if the 'Default' fields lik
 ### 2.1 Tax details
 
 * **Country**: If the supplier is from another country, you can change it here.
-* **GST Category**: Select a GST Category of the supplier.
 * **Tax ID**: Tax identification number of the supplier.
-* **PAN**: For India, PAN (Permanent Account Number) card details of the Supplier.
 * **Tax Category**: This is linked to [Tax Rule](/docs/user/manual/en/accounts/tax-rule). If a Tax Category is set here, when you select this supplier, the respective Purchase Tax and Charges template will be applied. This template is linked to the Tax Rule and the Tax Rule is linked with a Tax Category. Tax Category can be used to group suppliers to whom same tax will be applied. For example: Government, commercial, etc,.
 * **Print Language**: The language in which the document will be printed.
 * **Tax Withholding Category**: For India, TDS category for the supplier.
 * **Disabled**: Disables the Supplier and they won't be shown in the Supplier List.
 * **Is Transporter**: If the supplier is selling your transport services, tick this box. 'GST Transporter ID' field will be visible if this field is ticked.
 * **Internal Supplier**: If the supplier is from a sister or parent/child company, tick this field and select the company which they represent.
+
+For India:
+* **GST Category**: Select a GST Category of the supplier.
+* **PAN**: For India, PAN (Permanent Account Number) card details of the Supplier.
 
 ### 2.2 Currency and Price List
 **Billing Currency**: Your supplier's currency can be different from your company currency. If you choose USD for a supplier, then the currency will be filled as USD and the exchange rate shown for future purchase transactions.
@@ -76,8 +78,8 @@ Contacts and Addresses in ERPNext are stored separately so that you can create m
 
 > Tip: When you select a Supplier in any transaction, Contact for which "Is Primary" field id checked, it will auto-fetch with the Supplier details.
 
-### 2.7 Submitting
-Once all the necessary details are filled, submit the document. On submitting, options to create the following will be seen in the Dashboard:
+### 2.7 After saving
+Once all the necessary details are filled, save the document. On saving, options to create the following will be seen in the Dashboard:
 
 * **Request for Quotation**: An RFQ against this supplier.
 * **Supplier Quotation**: Any quotations that the supplier has sent you and you have submitted into the system.
@@ -87,7 +89,7 @@ Once all the necessary details are filled, submit the document. On submitting, o
 * **Payment Entry**: Payment Entries for the Purchase Invoices against this supplier.
 * **Pricing Rule**: Any Pricing Rules linked with this supplier. See section _2.2 Currency and Price List_ to know how it works.
 
-![Supplier Submit](/docs/assets/img/buying/supplier-submit.png)
+![Supplier Save](/docs/assets/img/buying/supplier-save.png)
 
 By clicking on the View button, you can view the Accounting Ledger or Accounts Payable directly for this supplier.
 
