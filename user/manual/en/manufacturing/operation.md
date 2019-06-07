@@ -5,7 +5,7 @@
 
 Stores a list of all Manufacturing Operations, its description and the Default Workstation for the Operation.
 
-You can also create a Operation by:
+You can also create an Operation by:
 
 > Manufacturing > Documents > Operation > New
 
