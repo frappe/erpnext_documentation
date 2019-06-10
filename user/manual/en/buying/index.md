@@ -5,7 +5,7 @@ If your business involves physical goods, buying is one of your core business
 activities. Your suppliers are as important as your customers and they must be
 provided with accurate information.
 
-Buying the right quantities at right amounts can affect your cash flow and
+Buying the right quantities in right amounts can affect your cash flow and
 profitability positively. ERPNext contains a set of transactions that will make your buying process as
 efficient and seamless as possible.
 
