@@ -8,6 +8,6 @@ To create a new Compensatory Leave Request, go to
 <img class="screenshot" alt="Compensatory Leave Request"
 	src="{{docs_base_url}}/assets/img/human-resources/compensatory-leave-request.png">
 
-On submitting a Compensatory Leave Request, ERPNext updates the Leave Allocation record for the leave type is updated allowing her to apply for leaves of this type later on.
+On submitting a Compensatory Leave Request, ERPNext updates the Leave Allocation record for the leave type allowing her to apply for leaves of this type later on depending upon the number of leaves left.
 
 {next}
