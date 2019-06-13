@@ -27,4 +27,4 @@ You can import email IDs from existing transactions.
 
 Click on Action > Import Subscribers and select a transaction like Lead. Click on Import and all the email IDs mentioned in the email IDs will be imported.
 
-Next: [CRM Analytics](/docs/user/manual/en/CRM/articles/sales_funnel)
+Next: [Automate Lead Capturing](/docs/user/manual/en/CRM/articles/automate_lead_capturing)

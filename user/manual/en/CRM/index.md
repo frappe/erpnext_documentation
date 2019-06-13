@@ -29,9 +29,10 @@ The CRM module has the following features:
 1. [Email Group](/docs/user/manual/en/CRM/email_group)
 
 ## 2. Articles
+1. [Automate Lead Capturing](/docs/user/manual/en/CRM/articles/automate_lead_capturing)
 1. [CRM Analytics](/docs/user/manual/en/CRM/articles/sales_funnel)
-1. [Difference between Lead, Contact, and Customer](/docs/user/manual/en/CRM/articles/difference_between_lead_contact_and_customer)
-1. [Customer Credit Limit](/docs/user/manual/en/CRM/articles/credit_limit)
+1. [Difference Between Lead, Contact, and Customer](/docs/user/manual/en/CRM/articles/difference_between_lead_contact_and_customer)
+1. [Customer Credit Limit](/docs/user/manual/en/accounts/credit-limit)
 
 ## 3. Video Tutorials
 1. [Lead, Opportunity and Quotation](/docs/user/videos/learn/lead-to-quotation)

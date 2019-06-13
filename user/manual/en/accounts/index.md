@@ -1,5 +1,5 @@
 <!-- add-breadcrumbs -->
-# Accounts
+# Accounting
 
 Whether you have an accountant in your internal team OR you do it yourself OR you have chosen to outsource it, the financial accounting process is almost always at the center of any business management system (aka an ERP system).
 

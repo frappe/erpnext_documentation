@@ -1,39 +1,62 @@
 <!-- add-breadcrumbs -->
 # Credit Limit
-A credit limit is the maximum amount of credit that a financial institution or
-other lender will extend to a debtor for a particular line of credit. From an
-organization's perspective, it is the maximum amount of credit which a
-customer gets on goods purchased.  
 
-### 1. How to set credit limit 
-1. Go to: **Selling > Customers > Customer**.
-1. Under Credit Limit and Payment Terms, set the Credit Limit.
+**Credit Limit is the maximum amount of credit you are willing to offer to a customer.**
+
+
+A credit limit is the maximum amount of credit that a financial institution or
+other lender will extend to a debtor for a particular line of credit. From a
+customer's perspective, it is the maximum amount of goods or services he can get without paying upfront.
+
+You can set the Credit Limit in customer, customer group, and in the company.
+When a sales order or a sales invoice is submitted, the credit limit will be checked.
+
+The order of precedence is as follows:
+
+* Credit Limit set in Customer
+* Credit Limit set in Customer Group
+* Credit Limit set in Company
+
+
+## 1. How to Set Credit Limit
+1. Go to: **Selling > Sales > Customer > Customer**.
+1. Under Credit Limit and Payment Terms section, set the Credit Limit.
 1. If you leave the Credit Limit as the default, i.e., 0, it has no effect.
-1. You can tick the 'Bypass credit limit check at Sales Order' checkbox, to allow more credit to customer as good will.
 1. Save.
 
-<img class="screenshot" alt="Credit Limit" src="{{docs_base_url}}/assets/img/accounts/credit-limit-1.png">
+<img class="screenshot" alt="Credit Limit" src="{{docs_base_url}}/assets/img/accounts/customer-credit-limit.png">
 
-### 2. Other actions
-#### 2.1 Credit Controller
-To allow any other role to submit transactions by customers whose credit limit
-has expired, go to accounting settings and select the role in Credit Controller.
-This Credit Controller would be authorized to accept orders or raise credit limits of customers.
+## 2. Features
+### 2.1 Credit Controller
+You can allow users with a specific role to override the credit limit validation and submit a sales order or sales invoice even when a customer's credit limit is fully utilised.
 
-<img class="screenshot" alt="Credit Limit" src="{{docs_base_url}}/assets/img/accounts/credit-limit-2.png">
+To set the credit controller role:
 
-#### 2.2 Credit Limit for Customer Groups
-To set credit limit at Customer Group Level go to **Selling > Customers > Customer Group**. Open the Customer Group and set the Credit Limit.
+1. Go to: **Accounting > Settings > Accounts Settings**
+1. Set the role in Credit Controller field.
 
-#### 2.1 Credit Limit for Company
-To set credit limit at Company level go to **Accounts > Company**. Enter an amount in the Credit Limit field.
+<img class="screenshot" alt="Credit Limit" src="{{docs_base_url}}/assets/img/accounts/credit_controller_role.png">
 
-The priority for checking Credit Limit (High to Low) is as follows:
-1. Customer
-1. Customer Group
-1. Company
+### 2.2 Bypass Credit Limit Check for Sales Order
 
-#### 3. Related Topics
+For specific customers, you can set the credit limit to be checked against the cumulative amount of the outstanding sales invoices and not the sales orders. You can do so by ticking 'Bypass credit limit check at Sales Order' checkbox in 'Credit Limit and Payment Terms' section of the customer.
+
+<img class="screenshot" alt="Customer Credit Limit" src="{{docs_base_url}}/assets/img/crm/customer-credit-limit.png">
+
+
+### 2.3 Credit Limit for Customer Groups
+To set credit limit at Customer Group Level:
+
+1. Go to **Selling > Customers > Customer Group**.
+1. Open the Customer Group and set the Credit Limit.
+
+### 2.4 Credit Limit for Company
+To set credit limit at Company level:
+
+1. Go to **Accounting > Masters and Accounts > Company**.
+1. Open the Company and set the Credit Limit.
+
+### 3. Related Topics
 1. [Payment Entry](/docs/user/manual/en/accounts/payment-entry)
 1. [Payments](/docs/user/manual/en/accounts/payments)
 1. [Customer](/docs/user/manual/en/CRM/customer)
