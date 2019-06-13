@@ -60,7 +60,7 @@ To get an ERP implementation right, the implementor needs to set aside time and 
 1. [POS Setting](/docs/user/manual/en/setting-up/pos-setting)
 1. [Territory](/docs/user/manual/en/setting-up/territory)
 1. [Price Lists](/docs/user/manual/en/setting-up/price-lists)
-1. [Stock Reconciliation for non-Serialized Items](/docs/user/manual/en/setting-up/stock-reconciliation-for-non-serialized-item)
+1. [Stock Reconciliation](/docs/user/manual/en/setting-up/stock-reconciliation)
 
 ##### 1.5 Data Privacy
 

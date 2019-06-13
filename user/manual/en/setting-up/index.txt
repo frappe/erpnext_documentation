@@ -10,7 +10,7 @@ pos-setting
 price-lists
 authorization-rule
 sms-setting
-stock-reconciliation-for-non-serialized-item
+stock-reconciliation
 territory
 third-party-backups
 workflows
