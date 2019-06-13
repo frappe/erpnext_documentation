@@ -1,7 +1,7 @@
 <!-- add-breadcrumbs -->
 # Employee Advance
 
-Sometimes employees go outside for company's work and company pays some amount for their expenses in advance. In that time, the employee can create Employee Advance form and the expense approver can submit the advance record after verification. After Employee Advance gets submitted, the accountant releases the payment and makes the payment entry.
+Sometimes employees go outside for company's work and company pays some amount for their expenses in advance. At that time, the employee can create Employee Advance form and the expense approver can submit the advance record after verification. After Employee Advance gets submitted, the accountant releases the payment and makes the payment entry.
 
 To make a new Employee Advance, go to:
 
@@ -15,7 +15,7 @@ Set the Employee ID, date, purpose and requested amount and “Save” the recor
 
 Employee Advance record can be created by any employee but they cannot submit the record.
 
-After saving Employee Advance, Employee should [Assign document to Approver](/docs/user/manual/en/using-erpnext/assignment.html). On assignment, approving user will also receive email notification. To automate email notification, you can also setup [Email Alert](/docs/user/manual/en/setting-up/email/email-alerts.html).
+After saving Employee Advance, Employee should [Assign document to Approver](/docs/user/manual/en/using-erpnext/assignment.html). On assignment, approving user will also receive email notification. To automate email notification, you can also setup [Email Alert](/docs/user/manual/en/setting-up/notifications.html).
 
 After verification, approver can submit the Employee Advance form or reject the request.
 
@@ -29,7 +29,8 @@ The payment entry will look like following:
 On submission of payment entry, the paid amount and status will be updated in Employee Advance record.
 
 ### Adjust advances on Expense Claim
-Later when employee claims the expense and advance record can be fetched in Expense Claim and linked to the claim record.
+Later when the employee claims the expense, an advance record can be fetched in the Expense Claim and linked to the claim record.
+
 <img class="screenshot" alt="Employee Advance Payment via Payment Entry" src="{{docs_base_url}}/assets/img/human-resources/expense_claim_advances.png">
 
 <div class="embed-container">
