@@ -45,7 +45,7 @@ with the Project module.
 
 ## Manufacturing and Inventory
 
-You can track work-in-progress by creating work-in-progress Warehouses.
+You can track work-in-progress by building from work-in-progress Warehouses.
 
 ERPNext will help you track material movement by automatically creating Stock
 Entries from your Work Orders by creating Bill of Materials.
