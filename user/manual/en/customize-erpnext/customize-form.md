@@ -71,7 +71,7 @@ table, th, td {
     border-collapse: collapse;
 }
 </style>
-<table border="1" width="700px">
+<table border="1" width="700px" class="table">
   <tbody>
     <tr>
       <td style="text-align: center;"><b>Field property</b></td>

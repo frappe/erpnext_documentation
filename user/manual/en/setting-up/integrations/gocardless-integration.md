@@ -36,7 +36,10 @@ The customer will only receive a confirmation email from GoCardless informing hi
 
 You can setup a Webhook in GoCardless to automatically disabled cancelled or expired mandates in ERPNext.
 
-The Endpoint URL of your webhook should be: https://yoursite.com/api/method/erpnext.erpnext_integrations.doctype.gocardless_settings.webhooks
+The Endpoint URL of your webhook should be: 
+
+`https://yoursite.com/api/method/erpnext.erpnext_integrations.doctype.gocardless_settings.webhooks`
+
 
 In this case do not forget to configure your Webhooks Secret Key in your GoCardless account settings in ERPNext.
 
