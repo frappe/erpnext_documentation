@@ -8,6 +8,7 @@ To manage client's subscription expiry and auto-generation of Sales Invoice for 
 
 ### 1. How to create a Subscription Plan
 Before you can set a Subscription, you need a Subscription Plan.
+
 1. Go to: **Accounts > Subscription Management > Subscription Plan > New**. 
 1. Enter a name for the plan.
 1. Select the item that will be subscribed.
