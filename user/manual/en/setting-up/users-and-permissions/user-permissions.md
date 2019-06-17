@@ -15,15 +15,18 @@ When you create a new record you will have to specify
 1. The user for which the rule has to be applied
 2. The type of document which will be allowed (for example "Company")
 3. The specific item that you want to allow (the name of the "Company)
+4. If you check "Is Default", the default value will be set in the transaction for fields of this type (example "Company")
 
-<img src="{{docs_base_url}}/assets/img/users-and-permissions/user-perms/new-user-permission.png" class="screenshot" alt="Creating a new user permission">
+    <img src="{{docs_base_url}}/assets/img/users-and-permissions/user-perms/new-user-permission.png" class="screenshot" alt="Creating a new user permission">
+
+    >Note: Only a single user permission can be set as default for a particular doctype for a specific user.
 
 ### Advanced control
 
 You can optionally apply user permission only for specific Document Type by setting the Document Type in the Applicable For field under Advanced Control.
 Setting **Applicable For** option will make the current user permission applicable only under the selected Document Type master.
 
-<img src="{{docs_base_url}}/assets/img/users-and-permissions/user-perms/advanced-control.png" class="screenshot" alt="Creating a new user permission">
+<img src="{{docs_base_url}}/assets/img/users-and-permissions/user-perms/advanced-control.png" class="screenshot" alt="Advance control">
 In the above User Permission, user michael.corleone@gadgets.com will be able to access blog posts created by blogger Michael Corleone.
 
 **Note:** If **Applicable For** is not set, User Permission will applicable across all related Document Types.
