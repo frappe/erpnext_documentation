@@ -39,6 +39,7 @@ To get an ERP implementation right, the implementor needs to set aside time and 
 1. [Email Reports](/docs/user/manual/en/setting-up/email/email-reports)
 1. [Sending Email](/docs/user/manual/en/setting-up/email/sending-email)
 1. [Email Domain](/docs/user/manual/en/setting-up/email/email-domain)
+1. [Linking Emails to Document](/docs/user/manual/en/setting-up/email/linking-emails-to-document)
 1. [SMS Settings](/docs/user/manual/en/setting-up/sms-setting)
 1. [Notifications](/docs/user/manual/en/setting-up/notifications)
 1. [Document Follow](/docs/user/manual/en/setting-up/email/document-follow)
