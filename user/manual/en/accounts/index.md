@@ -44,6 +44,7 @@ You can check out [this video](https://www.youtube.com/watch?v=5wjollWN0OA) for 
 1. [Itemized Taxation](/docs/user/manual/en/accounts/item-wise-taxation)
 1. [Tax Withholding Category](/docs/user/manual/en/accounts/tax-withholding-category)
 1. [Exchange Rate Revaluation](/docs/user/manual/en/accounts/exchange-rate-revaluation)
+1. [Promotional Scheme](/docs/user/manual/en/accounts/promotional-scheme)
 1. [Pricing Rule](/docs/user/manual/en/accounts/pricing-rule)
 1. [Tax Rule](/docs/user/manual/en/accounts/tax-rule)
 
