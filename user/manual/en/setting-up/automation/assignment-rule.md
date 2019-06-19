@@ -1,6 +1,6 @@
 <!-- add-breadcrumbs -->
 
-# Assignment Rulement
+# Assignment Rule
 
 You can setup automatic assignment of documents to users by creating **Assignment Rule**.
 
@@ -38,7 +38,7 @@ There are 2 rules:
 1. Round Robin: Assign each document to a user in sequence.
 2. Load Balancing: Assign to the user who has the least number of assignments.
 
-### Multiple Assignment Rulements
+### Multiple Assignment Rules
 
 You can aslo setup multiple auto assignments for each Document Type, the one with the highest Priority will be applied first
 
