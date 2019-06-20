@@ -98,8 +98,22 @@ For more information on setting up your taxes see the [Purchase Taxes and Charge
 ### 2.5 More Information
 This section shows the status of the Purchase Order, percentage of items received, and percentage of items billed. If this is an Inter Company Order, the Sales Order can be linked here.
 
-### 2.6 More
-For other sections like Currency and Price List, Additional Discount, Payment Terms, Terms and Conditions, Printing Settings visit [Quotation](/docs/user/manual/en/selling/quotation). The seller's Additional Discount, Payment Terms, Terms and Conditions can be recorded in your Purchase Order.
+### 2.6 Currency and Price List
+To know about Currency and Price List, [click here](/docs/user/manual/en/selling/articles/currency-and-price-list)
+
+### 2.7 Additional Discount
+To know about Additional Discount, [click here](/docs/user/manual/en/selling/articles/additional-discount)
+
+### 2.8 Payment Terms
+To know about Payment Terms, [click here](/docs/user/manual/en/selling/articles/payment-terms)
+
+### 2.9 Terms and Conditions
+To know about Terms and Conditions, [click here](/docs/user/manual/en/selling/articles/terms-and-conditions)
+
+### 2.10 Print Settings
+To know about Print Settings, [click here](/docs/user/manual/en/selling/articles/print-settings)
+
+The seller's Additional Discount, Payment Terms, Terms and Conditions can be recorded in your Purchase Order.
 
 ### 3. Related Topics
 1. [Request For Quotation](/docs/user/manual/en/buying/request-for-quotation)

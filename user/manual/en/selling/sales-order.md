@@ -29,7 +29,9 @@ It is usually a binding Contract with your Customer. Once your customer confirms
 To allow for per-Customer, per-Item Pricing Rules, ("Customer A" pays $1.00 for "Item 1" but "Customer B" pays $1.25 for "Item 1"), there's a check box called 'Allow User to Edit Price List Rate in Transaction' in [Selling Settings](/docs/user/manual/en/selling/selling-settings). This enables saving the specific item price per customer when you change a price in the Sales Order.
 
 ## 2. Features
-These features are explained in the [Quotation](/docs/user/manual/en/selling/quotation) page: Currency and Price List, Taxes and Charges, Additional Discount, Payment terms, Terms and Conditions, Print Settings. This section contains features particular to a Sales Order which are not present in a Quotation.
+
+### 2.1 Currency and Price List
+To know about Currency and Price List, [click here](/docs/user/manual/en/selling/articles/currency-and-price-list)
 
 ### 2.1 Set Source Warehouse
 If you have the same stock in multiple warehouses, setting a warehouse here will cause all the items from the item table to be fetched from this warehouse. You need to have stock available in this 'source warehouse' you're setting. Note that this option will override the 'Default Warehouse' you've set in the Item master.
@@ -49,7 +51,7 @@ If you have the same stock in multiple warehouses, setting a warehouse here will
 
 * **Planning**: To know about the fields under planning [click here](/docs/user/manual/en/stock/projected-quantity).
 
-The other fields are similar as explained in [Quotation](/docs/user/manual/en/selling/quotation).
+The other fields int the item table are similar as explained in [Quotation](/docs/user/manual/en/selling/quotation#23-the-items-table).
 
 ### 2.3 Packing List
 
@@ -61,29 +63,45 @@ Here is what a Packing List looks like:
 
 <img class="screenshot" alt="Packing List" src="{{docs_base_url}}/assets/img/selling/so-packing-list.png">
 
-### 2.4 More Information
-Campaign and Source (lead source) are explained in [Quotation](/docs/user/manual/en/selling/quotation).
+### 2.4 Taxes and Charges
+To know about setting up taxes visit [this page](/docs/user/manual/en/setting-up/setting-up-taxes).
+To know about Taxes and Charges in a quotation, [click here](/docs/user/manual/en/selling/articles/taxes-and-charges)
+
+### 2.5 Additional Discount
+To know about Additional Discount, [click here](/docs/user/manual/en/selling/articles/additional-discount)
+
+### 2.6 Payment Terms
+To know about Payment Terms, [click here](/docs/user/manual/en/selling/articles/payment-terms)
+
+### 2.7 Terms and Conditions
+To know about Terms and Conditions, [click here](/docs/user/manual/en/selling/articles/terms-and-conditions)
+
+### 2.8 Print Settings
+To know about Print Settings, [click here](/docs/user/manual/en/selling/articles/print-settings)
+
+### 2.9 More Information
+Campaign and Source (lead source) are explained in [Quotation](/docs/user/manual/en/selling/quotation#29-more-information).
 
 **Inter Company Order Reference**: If two of your companies are part of the same organization or have a parent-child relationship, you can link a Purchase Order to this Sales Order. Know more about inter-company invoicing [here](/docs/user/manual/en/accounts/inter-company-invoices).
 **Project**: If your Sales Order is part of a project, you can link it here and the Project progress will be updated.
 
-### 2.5 Billing and Delivery Status
+### 2.10 Billing and Delivery Status
 
 * **Status**: The status of the Sales Order whether a Draft, On Hold, To Deliver and Bill, To Bill, To Deliver, Completed, Cancelled, or Closed.
 * **Amount Billed and Delivered percent**: The percentage of amount billed and the items delivered from the Sales Order.
 
-### 2.6 Commission
+### 2.11 Commission
 If the sale took place via one of your Sales Partners, you can add their commission details here. Enter the commission rate and the commission amount will be displayed below.
 
-### 2.7 Sales Team
+### 2.12 Sales Team
 **Sales Persons:** ERPNext allows you to add multiple Sales Persons who may have worked on this deal. You can change the contribution percentage of the Sales Persons and track how much incentives they earned on this deal.
 
 <img class="screenshot" alt="Sales Team in Sales Order" src="{{docs_base_url}}/assets/img/selling/so-sales-team.png">
 
-### 2.8 Auto Repeat Section
+### 2.13 Auto Repeat Section
 Auto repeating Sales Orders is like a subscription. Set a start and end date for the auto-repeat. Select the Auto Repeat created. To know more about auto repeat [click here](/docs/user/manual/en/accounts/auto_repeat).
 
-### 2.9 Submitting
+### 2.14 Submitting
 Sales Order is a “Submittable” transaction. You will be able to execute further steps (like making a Delivery Note) only after “Submitting” a Sales Order.
 
 Once you “Submit” your Sales Order, you can trigger actions from the Sales Order:
@@ -109,7 +127,7 @@ These actions can also be seen at the top of the Dashboard. You can also make an
 <img class="screenshot" alt="Actions from Submitted Sales Order" src="{{docs_base_url}}/assets/img/selling/submit-so.png">
 
 
-### 2.10 Sales Order with Order type Maintenance
+### 2.15 Sales Order with Order type Maintenance
 
 When the 'Order Type' of the Sales Order is 'Maintenance' follow these steps:
 

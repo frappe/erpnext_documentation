@@ -7,6 +7,8 @@ The templates created from this form can be used in Sales Orders and Sales Invoi
 
 For Tax Accounts that you want to use in the tax templates, you must set the Account Type field as 'Tax' for that particular account.
 
+To know about setting up taxes visit [this page](/docs/user/manual/en/setting-up/setting-up-taxes)
+
 ## 1. How to add Sales Taxes/Charges via a template
 Before creating a new template, note that templates are already created for many of the commonly used taxes.
 
