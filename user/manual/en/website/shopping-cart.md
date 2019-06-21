@@ -1,67 +1,65 @@
+<!-- add-breadcrumbs -->
 # Shopping Cart
 
-On the Webpage, a shopping cart is an icon that allows you to store all the
-things that you have earmarked for purchasing. It is a graphical
-representation of a shopping basket or a shopping cart that allows you to save
-the items you intend to buy.
+In addition to listing your products, ERPNext also allows you to sell them via
+the Shopping Cart.
 
-This software displays the price of the product . It also displays shipping
-and handling charges, along with taxes, if applicable.
+To enable Shopping Cart, go to:
 
-<div class="embed-container">
-    <iframe src="https://www.youtube.com/embed/xkrYO-KFukM?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen>
-    </iframe>
-</div>
+> Home > Website > Portal > Shopping Cart Settings
 
-### Shopping Cart Setup
+![Shopping Cart Settings](/docs/assets/img/website/shopping-cart-settings.png)
+*Shopping Cart Settings*
 
-To set up a shopping cart, go to the website module.
+Here are some configuration options:
 
-> Website > Shopping Cart Settings
+1. **Show Price**: Show Item Price on the product page.
+1. **Show Stock Availability**: Show whether the Item is in stock.
+1. **Show Stock Quantity**: Show available stock on the product page.
+1. **Show Configure Button**: Show a configure button if the Item has variants.
+   It can be used to narrow down the specific item based on Attributes.
+1. **Show Contact Us Button**: Show a contact us button which customers can use
+   to enquire about the Item. It will create a Lead in the system.
 
-#### Enter Company Details and Checkout Details.
+## 1. Item Types
 
-<img class="screenshot" alt="Shopping Cart Settings" src="{{docs_base_url}}/assets/img/website/item-website-specs.png">
+Shopping Cart works differently for Items with and without variants.
 
-To make item available on website go to Item master.
+### 1.1 Items without variants
 
-> Stock > Item
+Items without variants have their dedicated product page and an **Add to Cart**
+button. The stock information is also shown if they are enabled in Shopping Cart
+Settings.
 
-#### Enable Item for website.
+![Item without Variants](/docs/assets/img/website/item-without-variants.png)
+*Item without Variants*
 
-<img class="screenshot" alt="Item" src="{{docs_base_url}}/assets/img/website/item-in-webiste.png">
+### 1.2 Items with variants
 
-#### Enter Website Specifications for Item.
+Since Item Templates can't be bought directly, there is a Configure button to
+choose the specific variant and add it to cart.
 
-<img class="screenshot" alt="Website Specifications" src="{{docs_base_url}}/assets/img/website/item-website-specs.png">
+![Item with Variants](/docs/assets/img/website/item-with-variants.gif)
+*Item with Variants*
 
+## 2. Cart Quotation
 
-### Shop using Shopping Cart
+If checkout is disabled, when your customers add an item to cart, they can click
+on the **Request for Quotation** button to get a quote for it. A [Quotation](/docs/user/manual/en/selling/quotation)
+is generated in the system.
 
-#### Add item to shopping cart
+![Cart Quotation](/docs/assets/img/website/cart-quotation.png)
+*Cart Quotation*
 
-Click on "Add to Cart" to add item to shopping cart.
+## 3. Cart Checkout
 
-<img class="screenshot" alt="Website Specifications" src="{{docs_base_url}}/assets/img/website/item-website-view.png">
+You can enable checkout from **Checkout Settings** section in Shopping Cart
+Settings. You must have [PayPal Integration](/docs/user/manual/en/setting-up/integrations/paypal-integration)
+or [Razorpay Integration](/docs/user/manual/en/setting-up/integrations/razorpay-integration)
+for enabling payments.
 
-#### Goto Checkout
+![Cart Checkout Settings](/docs/assets/img/website/cart-checkout-settings.png)
+*Cart Checkout Settings*
 
-Click on "Go to Cart" to checkout or on "Cart" which is on upper right side
-of the screen.
-
-<img class="screenshot" alt="Website Specifications" src="{{docs_base_url}}/assets/img/website/checkout.png">
-
-#### Checkout
-
-Change quantity, select Shipping and Billing Address and click
-on "Place Order" to place the order.
-
-<img class="screenshot" alt="Website Specifications" src="{{docs_base_url}}/assets/img/website/place-order.png">
-
-
-<div class="embed-container">
-    <iframe src="https://www.youtube.com/embed/yNWsNzPqK7E?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen>
-    </iframe>
-</div>
-
-{next}
+![Cart Checkout](/docs/assets/img/website/cart-checkout.png)
+*Cart Checkout*

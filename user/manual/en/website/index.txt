@@ -1,8 +1,9 @@
+homepage
 web-page
 blog-post
 web-form
-blogger
-setup
-add-products-to-website
+website-settings
+website-theme
+product-page
+product-listing
 shopping-cart
-articles
