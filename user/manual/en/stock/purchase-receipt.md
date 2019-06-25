@@ -86,4 +86,5 @@ represents the charges that you paid when it landed in your possession.
 #### 3. Related Topics
 1. [Delivery Note](/docs/user/manual/en/stock/delivery-note)
 1. [Purchase Order](/docs/user/manual/en/buying/purchase-order)
+1. [Purchase Invoice](/docs/user/manual/en/accounts/purchase-invoice)
 1. [Supplier](/docs/user/manual/en/buying/supplier)

@@ -68,7 +68,8 @@ The following items can be created after submitting a Supplier Quotation:
 
 ### 3. Related Topics
 1. [Supplier](/docs/user/manual/en/buying/supplier)
-1. [Supplier Group](/docs/user/manual/en/buying/setup/supplier-group)
+1. [Supplier Group](/docs/user/manual/en/buying/supplier-group)
+1. [Purchase Order](/docs/user/manual/en/buying/purchase-order)
 1. [Request for Quotation](/docs/user/videos/learn/request-for-quotation.html)
 
 {next}
