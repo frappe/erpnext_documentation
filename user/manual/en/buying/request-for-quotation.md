@@ -5,8 +5,11 @@
 
 ![Buying Flow](/docs/assets/img/buying/buying_flow_rfq.png)
 
+To access Request for Quotation, go to:
+> Home > Buying > Purchasing > Request for Quotation
+
 ## 1. How to create a Request For Quotation
-1. Go to: **Buying > Purchasing > Request for Quotation > New**
+1. Click on New.
 2. Enter the date.
 3. Choose the supplier to whom Request for Quotation is to be sent.
 4. In the next table, enter items, quantity and the target warehouse where you'll be sending the items.
@@ -39,11 +42,17 @@ In the Supplier table, on expanding a row with the inverted triangle, you'll see
 Enter any additional messages for the Supplier in this field. This field can be auto filled using an 'Email Template'. The field to select an Email Template is just above Message for Supplier.
 
 ### 2.4 Terms and Conditions
-To know about Terms and Conditions, [click here](/docs/user/manual/en/selling/articles/terms-and-conditions)
+To know about Terms and Conditions, [click here](/docs/user/manual/en/selling/articles/terms-and-conditions).
 The Terms and Conditions will be seen if you print your RFQ.
 
 ### 2.5 Print Settings
-To know about Print Settings, [click here](/docs/user/manual/en/selling/articles/print-settings)
+#### Letterhead
+You can print your request for quotation/purchase order on your company's letterhead. Know more [here](/docs/user/manual/en/setting-up/print/letter-head).
+
+'Group same items' will group the same items added multiple times in the items table. This can be seen when your print.
+
+#### Print Headings
+Titles of your documents can be changed. Know more [here](/docs/user/manual/en/setting-up/print/print-headings).
 
 ### 2.6 More
 
@@ -95,6 +104,8 @@ After creation of Request for Quotation, there are two ways to generate Supplier
 ## 4. No quote from Supplier
 
 If a Supplier indicates that they will not provide a quotation for the items, this can be indicated in the RFQ document by checking the 'No Quote' box after the Request for Quotation has been submitted. The No Quote box can be seen on expanding a Supplier row by clicking on the inverted triangle at the right-hand side.
+
+![No Quote from Supplier]({{docs_base_url}}/assets/img/buying/no-quote-supplier.png)
 
 To know about creating a Supplier Quotation, [click here](/docs/user/manual/en/buying/supplier-quotation).
 

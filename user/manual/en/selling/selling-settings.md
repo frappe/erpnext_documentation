@@ -6,6 +6,9 @@ Let's see each option available under Selling Settings in ERPNext.
 
 <img class="screenshot" alt="Selling Settings" src="{{docs_base_url}}/assets/img/selling/selling-settings.png">
 
+To access Selling Settings, go to:
+> Home > Selling > Settings > Selling Settings
+
 ## 1. Naming Series
 ###1.1 Customer Naming By
 

@@ -1,6 +1,6 @@
 request-for-quotation
 purchase-order
-purchase-taxes-template
+purchase-taxes-and-charges-template
 supplier
 supplier-quotation
 supplier-scorecard

@@ -31,6 +31,8 @@ tax-withholding-category
 recurring-orders-and-invoices
 promotional-scheme
 pricing-rule
+tax-rule
+tax-category
 tools
 setup
 share

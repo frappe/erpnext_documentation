@@ -7,10 +7,13 @@ It is usually a binding Contract with your Customer. Once your customer confirms
 
 <img class="screenshot" alt="Make Quotation from Opportunity" src="{{docs_base_url}}/assets/img/selling/selling-flow-so.png">
 
+To access Sales Order, go to:
+> Home > Selling > Sales > Sales Order
+
 ## 1. How to create a Sales Order
-1. Go to **Selling > Sales > Sales Order > New Sales Order** or Type 'New Sales Order' into the "Global Search" field.
+1. Click on New.
 1. Select the Customer.
-1. Under 'Delivery Date' set the date by which order is to be delivered.
+1. Set the 'Delivery Date' - applied to the whole order.
 1. With Order Type, you can set whether it's a Sales order, Maintenance order, or from the online [Shopping Cart](/docs/user/manual/en/website/shopping-cart) of your website. By default, this value is set to "Sales".
 1. In the "Customer's Purchase Order" you can enter the Customers Purchase Order No. or other details which may be useful as a reference.
 1. Enter the items and quantities to be delivered in the Item table. If Item Prices are set for the items, the Rate field will be populated automatically. If not, enter the item Rate manually. You can also overwrite the auto-populated Item Rate in case you want to change that value.
@@ -31,7 +34,11 @@ To allow for per-Customer, per-Item Pricing Rules, ("Customer A" pays $1.00 for 
 ## 2. Features
 
 ### 2.1 Currency and Price List
-To know about Currency and Price List, [click here](/docs/user/manual/en/selling/articles/currency-and-price-list)
+You can set the currency in which the quotation/sales order is to be sent. If you set a Pricing List, then the item prices will be fetched from that list. Ticking on Ignore Pricing Rule will ignore the Pricing Rules set in Accounts > Pricing Rule.
+
+To know about Price Lists, [click here](/docs/user/manual/en/setting-up/price-lists).
+
+To know about managing transactions in multiple currencies, [click here](/docs/user/manual/en/accounts/articles/managing-transactions-in-multiple-currency).
 
 ### 2.1 Set Source Warehouse
 If you have the same stock in multiple warehouses, setting a warehouse here will cause all the items from the item table to be fetched from this warehouse. You need to have stock available in this 'source warehouse' you're setting. Note that this option will override the 'Default Warehouse' you've set in the Item master.
@@ -55,35 +62,55 @@ The other fields int the item table are similar as explained in [Quotation](/doc
 
 ### 2.3 Packing List
 
+This is linked to the [Product Bundle](/docs/user/manual/en/selling/product-bundle) and appears only when the transaction involves a product bundle.
+
 The “Packing List” table will be automatically updated when you “Save” the Sales Order. If any Items in your table are Product Bundle (packets), then the “Packing List” will contain the exploded (detailed) list of your Items.
 
-You will be asked to select a Delivery Warehouse even for a product bundle item, this warehouse will be then updated in the Packing List items. You can change the warehouse in the packing list items in case items in your product bundle come from different warehouses.
+You will be asked to select a Delivery Warehouse even for a product bundle item, this warehouse will be then updated in the Packing List items. You can change the warehouse, serial number, and batch in the packing list items in case items in your product bundle come from different warehouses.
 
 Here is what a Packing List looks like:
 
 <img class="screenshot" alt="Packing List" src="{{docs_base_url}}/assets/img/selling/so-packing-list.png">
 
 ### 2.4 Taxes and Charges
-To know about setting up taxes visit [this page](/docs/user/manual/en/setting-up/setting-up-taxes).
-To know about Taxes and Charges in a quotation, [click here](/docs/user/manual/en/selling/articles/taxes-and-charges)
+To add taxes to your Quotation, you can select a [Sales Taxes and Charges Template](/docs/user/manual/en/selling/sales-taxes-and-charges-template) or add the taxes manually in the Sales Taxes and Charges table.
+
+The total taxes and charges will be displayed below the table. Clicking on Tax Breakup will show all the components and amounts.
+
+<img class="screenshot" alt="Taxes in Quotation" src="{{docs_base_url}}/assets/img/selling/sales-order-taxes.png">
+
+You can add a [Shipping Rule](/docs/user/manual/en/selling/shipping-rule) here for the items in the quotation.
+
+If a Tax Category is selected, the template and tax table will be automatically populated. To know more, visit [this page](/docs/user/manual/en/accounts/tax-category).
 
 ### 2.5 Additional Discount
-To know about Additional Discount, [click here](/docs/user/manual/en/selling/articles/additional-discount)
+Other than offering discount per item, you can add a discount to the whole sales order in this section. This discount could be based on the Grand Total i.e., post tax/charges or Net total i.e., pre tax/charges. The additional discount can be applied as a percentage or an amount.
+
+Read [Applying Discount](/docs/user/manual/en/selling/articles/applying-discount) for more details.
 
 ### 2.6 Payment Terms
-To know about Payment Terms, [click here](/docs/user/manual/en/selling/articles/payment-terms)
+Sometimes payment is not done all at once. Depending on the agreement, half of the payment may be made before shipment and the other half after receiving the goods/services. You can add a Payment Terms template or add the terms manually in this section.
+
+To know more about Payment Terms, [click here](/docs/user/manual/en/accounts/payment-terms).
 
 ### 2.7 Terms and Conditions
 To know about Terms and Conditions, [click here](/docs/user/manual/en/selling/articles/terms-and-conditions)
 
 ### 2.8 Print Settings
-To know about Print Settings, [click here](/docs/user/manual/en/selling/articles/print-settings)
+#### Letterhead
+You can print your quotation/sales order on your company's letterhead. Know more [here](/docs/user/manual/en/setting-up/print/letter-head).
+
+'Group same items' will group the same items added multiple times in the items table. This can be seen when your print.
+
+#### Print Headings
+Quotations can also be titled as “Proforma Invoice” or “Proposal”.
+You can do this by selecting a **Print Heading**. To create new Print Headings go to: Home > Settings > Printing > Print Heading. Know more [here](/docs/user/manual/en/setting-up/print/print-headings).
 
 ### 2.9 More Information
-Campaign and Source (lead source) are explained in [Quotation](/docs/user/manual/en/selling/quotation#29-more-information).
-
-**Inter Company Order Reference**: If two of your companies are part of the same organization or have a parent-child relationship, you can link a Purchase Order to this Sales Order. Know more about inter-company invoicing [here](/docs/user/manual/en/accounts/inter-company-invoices).
-**Project**: If your Sales Order is part of a project, you can link it here and the Project progress will be updated.
+* **Campaign:** A Sales campaign can be associated with the quotation. A set of quotations can be part of a sales campaign.
+* **Source:** A Lead Source type can be linked if quoting to a lead, whether from a campaign, from a supplier, an exhibition etc,. Select Existing Customer if quoting to a customer.
+* **Inter Company Order Reference**: If two of your companies are part of the same organization or have a parent-child relationship, you can link a Purchase Order to this Sales Order. Know more about inter-company invoicing [here](/docs/user/manual/en/accounts/inter-company-invoices).
+* **Project**: If your Sales Order is part of a project, you can link it here and the Project progress will be updated.
 
 ### 2.10 Billing and Delivery Status
 
@@ -101,7 +128,7 @@ If the sale took place via one of your Sales Partners, you can add their commiss
 ### 2.13 Auto Repeat Section
 Auto repeating Sales Orders is like a subscription. Set a start and end date for the auto-repeat. Select the Auto Repeat created. To know more about auto repeat [click here](/docs/user/manual/en/accounts/auto_repeat).
 
-### 2.14 Submitting
+### 2.14 After Submitting
 Sales Order is a “Submittable” transaction. You will be able to execute further steps (like making a Delivery Note) only after “Submitting” a Sales Order.
 
 Once you “Submit” your Sales Order, you can trigger actions from the Sales Order:
@@ -126,9 +153,7 @@ These actions can also be seen at the top of the Dashboard. You can also make an
 
 <img class="screenshot" alt="Actions from Submitted Sales Order" src="{{docs_base_url}}/assets/img/selling/submit-so.png">
 
-
-### 2.15 Sales Order with Order type Maintenance
-
+### 2.15 Sales Order with Order type 'Maintenance'
 When the 'Order Type' of the Sales Order is 'Maintenance' follow these steps:
 
 1. Enter Currency, Price list, and Item details.
@@ -138,6 +163,7 @@ When the 'Order Type' of the Sales Order is 'Maintenance' follow these steps:
 
     i) Maintenance Visit ii) Maintenance Schedule.
 
+  ![Sales Order Maintenance Type](/docs/assets/img/selling/so-maintenance.png)
 
 > **Note 1:**   
 By clicking on the Action button and selecting 'Maintenance Visit' you can directly fill the visit form. The Sales Order details will be fetched directly.    

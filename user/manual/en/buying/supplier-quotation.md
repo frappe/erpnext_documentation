@@ -7,6 +7,9 @@ A Supplier Quotation may also contain terms of sale, terms of payment, and warra
 
 ![Buying Flow](/docs/assets/img/buying/buying_flow_sq.png)
 
+To access Supplier Quotation, go to:
+> Home > Buying > Purchasing > Supplier Quotation
+
 ## 1. How to create a Supplier Quotation
 
 ### 1.1 Supplier Quotation from Material Request
@@ -55,6 +58,13 @@ Note:
 - Print settings is for making changes to the supplier quotation print
 - The Terms and Conditions here are your supplier's
 - The supplier quotation can be linked to material requests using the 'Link to material requests' button
+
+### 2.3 After Submitting
+The following items can be created after submitting a Supplier Quotation:
+
+* Purchase Order - A Purchase Order if you agree with the supplier's quotation.
+* Quotation - A quotation to your customer.
+* Auto Repeat - Auto Repeat the supplier quotation at specified intervals.
 
 ### 3. Related Topics
 1. [Supplier](/docs/user/manual/en/buying/supplier)

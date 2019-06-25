@@ -2,7 +2,9 @@
 # Buying Settings
 
 Buying Settings is where you can define properties which will be applied in the Buying module's transactions. 
-You can find Buying Settings at **Buying > Settings > Buying Settings**.
+You can find Buying Settings at:
+> Home > Buying > Settings > Buying Settings
+
 ![Buying Settings]({{docs_base_url}}/assets/img/buying/buying-settings.png)
 
 Let us look at the various options that can be configured:

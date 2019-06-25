@@ -7,10 +7,13 @@ The Purchase Taxes and Charges Template is similar to the Sales Taxes and Charge
 
 For Tax Accounts that you want to use in the tax templates, you must set the Account Type field as 'Tax' for that particular account.
 
+To access Purchase Taxes and Charges Template, go to:
+> Home > Buying > Settings > Purchase Taxes and Charges Template
+
 ## 1. How to add Purchase Taxes/Charges via a template
 Before creating a new template, note that templates are already created for many of the commonly used taxes.
 
-1. Go to **Buying > Settings > Purchase Taxes and Charges Template > New**.
+1. Click on New.
 2. Enter a title name for the Tax.
 3. Under type, set on what the tax will be calculated and the tax rate. There are five options under type for which tax will be calculated.
   1. Actual: On the actual amount of each item.

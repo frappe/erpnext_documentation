@@ -4,7 +4,7 @@ Each Quotation must ideally contain a set of terms of your contract. Terms and c
 usually a good idea to make template(s) of your Terms and Conditions, so that
 you have a standard set of terms. You can do this by going to:
 
-**Selling > Terms and Conditions**
+> Home > Selling > Settings > Terms and Conditions Template
 
 ## What should Terms and Conditions contain?
 Here are a some common topics that Terms and Conditions should contain:

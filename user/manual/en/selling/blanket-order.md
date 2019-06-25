@@ -5,9 +5,12 @@
 
 From a blanket order, sales orders can be generated as per the delivery schedule provided by the customer. Blanket orders help customers avoid storing materials in huge quantities while allowing them to take advantage of fixed rates by committing volumes within a specific time period.
 
+To access Blanket Order, go to:
+> Home > Selling > Sales > Blanket Order
+
 ## 1. How to Create a Blanket Order
 
-1. Go to **Selling > Sales > Blanket Order > New**.
+1. Click on New.
 1. Select Selling in Order Type.
 1. Select Customer.
 1. Specify the validity period of the order by selecting From Date and To Date.

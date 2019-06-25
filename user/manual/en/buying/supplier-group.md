@@ -12,8 +12,11 @@ categories are known as Supplier Groups. For example, if your suppliers are
 mainly pharmaceutical companies and FMCG distributors, you can create a new
 Supplier Groups for them and name the groups accordingly.
 
+To access Supplier Group, go to:
+> Home Buying > Supplier > Supplier Group
+
 ## 1. How to create a Supplier Group
-1. **Buying > Supplier > Supplier Group > New**
+1. Click on New.
 1. Type a name for your new Supplier Category.
 1. You can set a Parent Supplier Group for this Supplier Group.
 1. Ticking the Is Group checkbox will make it a Parent Supplier Group.

@@ -10,8 +10,11 @@ A Product Bundle can be seen as a "Bill-of-Materials" on the Sales side.
 
 Following are the steps to set up a Product Bundle and using it in sales transactions.
 
+To access product bundle, go to:
+> Home > Selling > Items and Pricing > Product Bundle
+
 ## 1. How to create a Product Bundle
-1. Go to: **Selling > Items and Pricing > Product Bundle > New**.
+1. Click on New.
 2. Select Parent Item, create one if not already created. Make sure Maintain Stock in unchecked when creating a Parent Item. eg: Dinner Set.
 1. Enter a price for the parent item, this will be fetched when making a transaction.
 1. You can enter a description for internal use.

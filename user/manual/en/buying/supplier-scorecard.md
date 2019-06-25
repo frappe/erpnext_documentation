@@ -6,9 +6,12 @@
 Supplier scorecards can be used to keep track of item quality, delivery, and responsiveness of suppliers across long periods of time. This data is typically used to help in purchasing decisions.
 A Supplier Scorecard is manually created for each supplier.
 
+To access Supplier Scorecard, go to:
+> Home > Buying > Supplier Scorecard > Supplier Scorecard
+
 ## 1. How to create Supplier Scorecard
 
-1. Go to **Buying > Supplier Scorecard > Supplier Scorecard > New**.
+1. Click on New.
 2. Select a supplier to score.
 3. Select the evaluating period whether weekly, monthly, or yearly.
 4. Setup the scoring function (details in next section).

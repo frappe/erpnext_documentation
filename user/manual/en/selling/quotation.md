@@ -8,6 +8,9 @@ or services you are planning to offer along with the prices and other terms
 of engagement. This has many names like "Proposal", Estimate", "Pro Forma
 Invoice" or a **Quotation**.
 
+To acesss Quotation, go to:
+> Home > Selling > Sales > Quotation
+
 A typical sales flow looks like:
 
 <img class="screenshot" alt="Make Quotation from Opportunity" src="{{docs_base_url}}/assets/img/selling/selling-flow-quo.png">
@@ -27,7 +30,7 @@ A Quotation contains details about:
 
 
 ## 1. How to create a Quotation
-1. Go to **Selling > Sales > Quotation > New Quotation**.
+1. Click on New.
 2. Select if the Quotation is to a Customer or a Lead from the 'Quotation To' field.
 3. Enter Customer/Lead name.
 1. Enter a Valid till date after which the quoted amount will be considered invalid.
@@ -51,7 +54,11 @@ In this section there are four fields:
 * **Territory:** Region where the customer belongs to. Default is All Territories. 
 
 ### 2.2 Currency and Price List
-To know about Currency and Price List, [click here](/docs/user/manual/en/selling/articles/currency-and-price-list)
+You can set the currency in which the quotation/sales order is to be sent. If you set a Pricing List, then the item prices will be fetched from that list. Ticking on Ignore Pricing Rule will ignore the Pricing Rules set in Accounts > Pricing Rule.
+
+To know about Price Lists, [click here](/docs/user/manual/en/setting-up/price-lists).
+
+To know about managing transactions in multiple currencies, [click here](/docs/user/manual/en/accounts/articles/managing-transactions-in-multiple-currency).
 
 ### 2.3 The Items Table
 This table can be expanded by clicking on the inverted triangle present rightmost of the table.
@@ -62,7 +69,7 @@ This table can be expanded by clicking on the inverted triangle present rightmos
 * In **Warehouse and Reference**, the warehouse will be fetched from the Item master, this is the warehouse where your stock is present.
 * Under **Planning** you can see the Projected quantity and the actual quantity present. To know more about these fields, [click here](/docs/user/manual/en/stock/projected-quantity). If you click on the 'Stock Balance' button, it'll take you to a doctype where you can generate a stock report for the item.
 * **Shopping cart**, additional notes is for website transactions. Notes about the item will be fetched here when added via a shopping cart. For example: make food extra spicy. *Introduced in v12*
-* **Page Break** will be useful when printing, it's present in the Print Format section.
+* **Page Break** Will create a page break just before this item when printing.
 
 * You can insert rows below/above, duplicate, move, or delete rows in this table.
 
@@ -71,20 +78,38 @@ This table can be expanded by clicking on the inverted triangle present rightmos
 The total quantity, rate, and net weight of all items will be shown below the item table. The rate shown here is pre-tax.
 
 ### 2.4 Taxes and Charges
-To know about setting up taxes visit [this page](/docs/user/manual/en/setting-up/setting-up-taxes).
-To know about Taxes and Charges in a quotation, [click here](/docs/user/manual/en/selling/articles/taxes-and-charges)
+To add taxes to your Quotation, you can select a [Sales Taxes and Charges Template](/docs/user/manual/en/selling/sales-taxes-and-charges-template) or add the taxes manually in the Sales Taxes and Charges table.
+
+The total taxes and charges will be displayed below the table. Clicking on Tax Breakup will show all the components and amounts.
+
+<img class="screenshot" alt="Taxes in Quotation" src="{{docs_base_url}}/assets/img/selling/quotation-taxes.png">
+
+You can add a [Shipping Rule](/docs/user/manual/en/selling/shipping-rule) here for the items in the quotation.
+
+To add taxes automatically via a Tax Category, visit [this page](/docs/user/manual/en/accounts/tax-category).
 
 ### 2.5 Additional Discount
 To know about Additional Discount, [click here](/docs/user/manual/en/selling/articles/additional-discount)
 
 ### 2.6 Payment Terms
-To know about Payment Terms, [click here](/docs/user/manual/en/selling/articles/payment-terms)
+Sometimes payment is not done all at once. Depending on the agreement, half of the payment may be made before shipment and the other half after receiving the goods/services. You can add a Payment Terms template or add the terms manually in this section.
+
+<img class="screenshot" alt="Payment Terms in Quotation" src="{{docs_base_url}}/assets/img/selling/quotation-payment-terms.png">
+
+To know more about Payment Terms, [click here](/docs/user/manual/en/accounts/payment-terms).
 
 ### 2.7 Terms and Conditions
-To know about Terms and Conditions, [click here](/docs/user/manual/en/selling/articles/terms-and-conditions)
+To know about Terms and Conditions, [click here](/docs/user/manual/en/selling/articles/terms-and-conditions).
 
 ### 2.8 Print Settings
-To know about Print Settings, [click here](/docs/user/manual/en/selling/articles/print-settings)
+#### Letterhead
+You can print your quotation/sales order on your company's letterhead. Know more [here](/docs/user/manual/en/setting-up/print/letter-head).
+
+'Group same items' will group the same items added multiple times in the items table. This can be seen when your print.
+
+#### Print Headings
+Quotations can also be titled as “Proforma Invoice” or “Proposal”.
+You can do this by selecting a **Print Heading**. To create new Print Headings go to: Home > Settings > Printing > Print Heading. Know more [here](/docs/user/manual/en/setting-up/print/print-headings).
 
 ### 2.9 More Information
 * **Campaign:** A Sales campaign can be associated with the quotation. A set of quotations can be part of a sales campaign.

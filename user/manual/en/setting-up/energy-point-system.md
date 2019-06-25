@@ -30,7 +30,7 @@ Energy Point Rule have the following fields:
 > Search for **Energy Point Rule** > create new Energy Point Rule
 
 Take a look at the following example rule:
-<img class="screenshot" src="/docs/assets/img/energy-point-system/issue-closed-rule.png">
+<img class="screenshot" src="/docs/assets/img/setup/energy-point-system/issue-closed-rule.png">
 The screenshot above is the rule for **Issue Closing**.
 So when any user closes the issue he/she will be rewarded with **10** points.
 
@@ -38,7 +38,7 @@ Other cases can be covered similarly.
 
 Suppose, you want to create a rule where user gets points on completing a task,
 you can do so by creating following rule
-<img class="screenshot" src="/docs/assets/img/energy-point-system/task-complete-rule.png">
+<img class="screenshot" src="/docs/assets/img/setup/energy-point-system/task-complete-rule.png">
 
 
 ## 4. Features:
@@ -50,15 +50,15 @@ Based on energy point rules created, users will automatically get points when th
 Review system can be used to "Appreciate" or "Criticize" someone's work.
 
 Check out the following GIF for the review process.
-<img class="screenshot" src="/docs/assets/img/energy-point-system/review-system.gif">
+<img class="screenshot" src="/docs/assets/img/setup/energy-point-system/review-system.gif">
 For reviewing, user needs to have review points which can be assigned by System Manager through **Energy Point Settings**.
 
 You can also setup auto review point allocation from 'Energy Point Settings':
-<img class="screenshot" src="/docs/assets/img/energy-point-system/auto-review-point-allocation.png">
+<img class="screenshot" src="/docs/assets/img/setup/energy-point-system/auto-review-point-allocation.png">
 
 ### 4.3 Leaderboard
 Go to Social Home > Leaderboard (side navigation bar)
 
 Leaderboard shows user's standing in the organization.
 
-<img class="screenshot" src="/docs/assets/img/energy-point-system/leaderboard.png">
+<img class="screenshot" src="/docs/assets/img/setup/energy-point-system/leaderboard.png">

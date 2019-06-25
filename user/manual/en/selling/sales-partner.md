@@ -9,8 +9,11 @@ For each Sales Partner, you can define a commission rate. When a Sales Partner i
 
 You can track Sales Partner-wise commission in the 'Sales Partners Commission' report under Selling module.
 
+To access Sales Partner, go to:
+> Home >Selling > Sales Partners and Territory > Sales Partner
+
 ## 1. How to create a Sales Partner
-1. Go to: **Selling > Sales Partners and Territory > Sales Partner > New**.
+1. Click on New.
 2. Enter the Sales Partner name and the Commission Rate.
 3. You can also select the type of sales partner you're creating to identify if they're a Reseller or Retailer, and so on.
 4. Save.

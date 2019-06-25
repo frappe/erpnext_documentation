@@ -3,10 +3,13 @@
 
 **Item Price is the record in which you can log the selling and buying rate of an item.**
 
+To access Item Price, go to:
+> Home > Selling/Buying/Stock > Items and Pricing > Item Price
+
 ## 1. How to create Item Price
 1. There are two ways to reach a new Item Price form:
 
-    **Selling/Buying/Stock > Items and Pricing > Item Price > New**.
+    Click on new after navigating to Item Price.
  
     Or
 
