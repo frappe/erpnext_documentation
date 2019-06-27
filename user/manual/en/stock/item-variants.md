@@ -1,66 +1,63 @@
 <!-- add-breadcrumbs -->
 # Item Variants
 
-A Item Variant is a version of an Item, such as differing sizes or differing colors (like a _blue_ t-shirt in size _small_ rather then just a t-shirt).
-Without Item variants, you would have to treat the _small, medium_ and _large_ versions of a t-shirt as three separate Items;
-Item variants let you treat the _small, medium_ and _large_ versions of a t-shirt as variations of the one Item 't-shirt'.
+**An Item Variant is a version of an Item with different attributes like sizes or colors.**
 
-### 1. Using Item Variants
+Eg: A _blue_ t-shirt in size _small_ rather then just a t-shirt. Item variants let you treat the _small, _medium_ and _large_ versions of a t-shirt as variations of one Item 't-shirt'.
+
+Without Item variants, you would have to treat the _small_, _medium_ and _large_ versions of a t-shirt as three separate Items.
+
+## 1. Using Item Variants
 
 Variants can be based on two things:
 
 1. Item Attributes
 1. Manufacturers
 
-### 2. Item Variants Based on Item Attributes
+> Tip: Once an item template is created, when you update this template, all the variants are also updated accordingly.
 
-To use Item Variants in ERPNext, create an Item and check 'Has Variants'.
+### 1.1 Item Variants Based on Item Attributes
 
- The Item shall then be referred to as a so called 'Template'. Such a Template is not identical to a regular 'Item' any longer. For example it (the Template) can not be used directly in any Transactions (Sales Order, Delivery Note, Purchase Invoice) itself. Only the Variants of an Item (_blue_ t-shirt in size _small)_ can be practically used in such. Therefore it would be ideal to decide whether an item 'Has Variants' or not directly when creating it.
+1. To use Item Variants in ERPNext, create an Item and tick 'Has Variants' under Variants.
 
-<img class="screenshot" alt="Has Variants" src="{{docs_base_url}}/assets/img/stock/item-has-variants.png">
+1. The Item then shall be referred to as a so called 'Template'. Such a Template is not identical to a regular 'Item' any longer. For example it (the Template) cannot be used directly in any transaction (Sales Order, Delivery Note, Purchase Invoice) itself.
+ 
+1. Only the Variants of the Item (_blue_ t-shirt in size _small)_ can be practically used. Therefore it would be ideal to decide whether an item 'Has Variants' or not directly when creating it.
 
-On selecting 'Has Variants' a table shall appear. Specify the variant attributes for the Item in the table. In case the attribute has Numeric Values, you can specify the range and increment values here.
+	<img class="screenshot" alt="Has Variants" src="{{docs_base_url}}/assets/img/stock/item-has-variants.png">
 
-<img class="screenshot" alt="Valid Attributes" src="{{docs_base_url}}/assets/img/stock/item-attributes.png">
+1. On selecting 'Has Variants' a table will appear. Specify the variant attributes for the Item in the table. In case the attribute has Numeric Values, you can specify the range and create intervals based on the increment values.
 
-> Note: You cannot make Transactions against a 'Template'
+	<img class="screenshot" alt="Valid Attributes" src="{{docs_base_url}}/assets/img/stock/item-attributes.png">
 
-To create 'Item Variants' against a 'Template' select 'Make Variants'.
+	> Note: You cannot make Transactions against a 'Template'.
 
-<img class="screenshot" alt="Make Variants" src="{{docs_base_url}}/assets/img/stock/make-variant.png">
+1. To create 'Item Variants' against a 'Template' click on 'Create'. From there, choose whether to create a single variant or multiple. Single is simple where you just one or more attributes and one item will be created. When choosing multiple variants, tick the atrributes and multiple items will be created. For example, if you choose Color: Red, Green and Size: Small, Medium, Large, 6 variants will be created.
 
-<img class="screenshot" alt="Make Variants" src="{{docs_base_url}}/assets/img/stock/make-variant-1.png">
+	Creating multiple variants in ERPNext:
 
-To learn more about setting Attributes Master check [Item Attributes](/docs/user/manual/en/stock/setup/item-attribute)
+	<img class="screenshot" alt="Make Variants" src="{{docs_base_url}}/assets/img/stock/make-multiple-variants.png">
 
-### 3. Item Variants Based on Manufacturers
+To learn more about setting attributes check out [Item Attributes](/docs/user/manual/en/stock/setup/item-attribute)
+
+### 1.2 Item Variants Based on Manufacturers
 
 To setup variants based on Manufacturers, in your Item template, set "Variants Based On" as "Manufacturers"
+In this case, to create variants, click on Create > Make Variant. The system will prompt you to select a Manufacturer. You can also optionally put in a Manufacturer Part Number.
 
-<img class='screenshot' alt='Setup Item Variant by Manufacturer'
-	src='{{docs_base_url}}/assets/img/stock/select-mfg-for-variant.png'>
+<img class='screenshot' alt='Setup Item Variant by Manufacturer' src='{{docs_base_url}}/assets/img/stock/select-mfg-for-variant.png'>
 
-When you make a new Variant, the system will prompt you to select a Manufacturer. You can also optionally put in a Manufacturer Part Number
+The naming of the variant will be the name (ID) of the template Item with a number suffix. e.g. "Screw driver" will have variant "Screw driver-1".
 
-<img class='screenshot' alt='Setup Item Variant by Manufacturer'
-	src='{{docs_base_url}}/assets/img/stock/set-variant-by-mfg.png'>
-
-The naming of the variant will be the name (ID) of the template Item with a number suffix. e.g. "ITEM000" will have variant "ITEM000-1"
-
-### 4. Update Item Variants Based on Template
-To update the value in the variants items from the template item, select the respective fields first in the Item Variant Settings page. After that system will update the value of that fields in the variants if that values has been changed in the template item.
-
-To set the fields Goto **Stock > Items and Pricing > Item Variant Settings**.
-<img class='screenshot' alt='Item Variant Settings'
-	src='{{docs_base_url}}/assets/img/stock/item_variants_settings.png'>
+## 2. Update Item Variants Based on Template
+Go to: **Stock > Items and Pricing > Item Variant Settings**. The fields displayed here will be copied over to the variants as well. Delete any rows you don't want to be updated from the item template to the variants.
 
 <div class="embed-container">
 	<iframe src="https://www.youtube.com/embed/kogIricF40I?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen>
 	</iframe>
 </div>
 
-#### 5. Related Topics
+### 3. Related Topics
 1. [Item Group](/docs/user/manual/en/stock/item-group)
 1. [Item Attribute](/docs/user/manual/en/stock/item-attribute)
 1. [Item Price](/docs/user/manual/en/stock/item-price)

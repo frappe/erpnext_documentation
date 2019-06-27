@@ -1,54 +1,53 @@
 <!-- add-breadcrumbs -->
 # Accounting Of Inventory Stock
 
-The value of available inventory is treated as an Asset in company's Chart of
-Accounts. Depending on the type of items, it can be treated as Fixed Asset or
-Current Asset. To prepare Balance Sheet, you should make the accounting
+The value of available inventory is treated as an Asset in company's [Chart of
+Accounts](/docs/user/manual/en/accounts/chart-of-accounts). Depending on the type of items, it can be treated as Fixed Asset or
+Current Asset. To prepare a Balance Sheet, you should make the accounting
 entries for those assets. There are generally two different methods of
-accounting for inventory:
+accounting for inventory.
 
-### 1. Auto / Perpetual Inventory
+## 1. Auto/Perpetual Inventory
 
-In this process, for each stock transactions, the system posts relevant
+In this process, for each stock transaction, the system posts relevant
 accounting entries to sync stock balance and accounting balance. This is the
 default setting in ERPNext for new accounts.
 
 When you buy and receive items, those items are booked as the company’s assets
 (stock-in-hand / fixed-assets). When you sell and deliver those items, an
 expense (cost-of-goods-sold) equal to the buying cost of the items is booked.
-General Ledger entries are made after every stock transaction. As a result,
+General Ledger entries are created after every stock transaction. As a result,
 the value as per Stock Ledger always remains same with the relevant account
-balance. This improves accuracy of Balance Sheet and Profit and Loss
+balance. This improves accuracy of the Balance Sheet and the Profit and Loss
 statement.
 
-To check accounting entries for a particular stock transaction, please check
-[examples](/docs/user/manual/en/stock/perpetual-inventory)
+To check accounting entries for a particular stock transaction,
+[click here](/docs/user/manual/en/stock/perpetual-inventory)
 
-#### 1.2 Advantages of Perpetual Inventory
+### 1.2 Advantages of Perpetual Inventory
 
-Perpetual Inventory system will make it easier for you to maintain accuracy of
-company's asset and expense values. Stock balances will always be synced with
+Perpetual Inventory system will make it easier for you to maintain the accuracy of the company's asset and expense values. Stock balances will always be synced with
 relevant account balances, so no more periodic manual entry has to be done to
 balance them.
 
 In case of new back-dated stock transactions or cancellation/amendment of an
 existing transaction, all the future Stock Ledger entries and GL Entries will
 be recalculated for all items of that transaction. The same is applicable if
-any cost is added to the submitted Purchase Receipt, later through the Landed
+any cost is added to the submitted Purchase Receipt later through the Landed
 Cost Wizard.
 
 > Note: Perpetual Inventory totally depends upon the item valuation rate.
 Hence, you have to be more careful entering valuation rate while making any
 incoming stock transactions like Purchase Receipt, Material Receipt, or
-Manufacturing / Repack.
+Manufacturing/Repack.
 
 * * *
 
-### 2. Periodic Inventory
+## 2. Periodic Inventory
 
-In this method, accounting entries are manually created periodically, to sync
+In this method, accounting entries need to be created manually in order to sync
 stock balance and relevant account balance. The system does not create
-accounting entries automatically for assets, at the time of material purchases
+accounting entries automatically for assets at the time of material purchases
 or sales.
 
 In an accounting period, when you buy and receive items, an expense is booked
@@ -68,7 +67,7 @@ This complete process is called **Periodic Inventory**.
 If you are an existing user using Periodic Inventory and want to use Perpetual
 Inventory, you have to follow some steps to migrate. 
 
-#### 3. Related Topics
+### 3. Related Topics
 1. [Perpetual Inventory](/docs/user/manual/en/stock/tools/perpetual-inventory)
 1. [Migrate to Perpetual Inventory](/docs/user/manual/en/stock/tools/migrate-to-perpetual-inventory)
 1. [Managing Batch Wise Inventory](/docs/user/manual/en/stock/articles/managing-batch-wise-inventory)

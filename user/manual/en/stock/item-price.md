@@ -11,8 +11,8 @@
     Or
 
     **Stock > Item > Click on "+" next to Item Price**.
-1. Select the item, the name and description will be fetched.
-1. Select the price list whether Selling or Buying price.
+1. Select the item, the name, UoM and description will be fetched.
+1. Select the price list whether Selling/Buying price or any other price list you may have created.
 1. Enter the actual rate.
 1. Save.
 
@@ -22,26 +22,31 @@ You can create multiple Price Lists in ERPNext to track Selling and Buying Price
 
 <img class="screenshot" alt="Item Price list" src="{{docs_base_url}}/assets/img/stock/item-price-1.png">
 
-On selection of Price List, its currency and for selling or buying property will be fetched as well. To have Item Price fetching in the sales or purchase transaction, you should have Price List ID selected in the transaction under Currency and Price List. If you select a Selling Price list, a customer field will appear where you can assign this Item Price to a specific customer.
+On selection of Price List, its currency and applicability whether for selling/buying or both will be fetched as well. To have Item Price fetching in the sales or purchase transaction, you should have 'Price List' selected in the transaction under Currency and Price List.
 
 To check all Item Prices together, go to:
 
 **Stock > Main Report > Itemwise Price List Rate**
 
 ## 2. Features
+
 ###2.1 Packing Unit
 This is the quantity that must be bought or sold per unit of measure. For example if Packing Unit is two, and UOM is one, two items in quantity will be transacted. The default is 0, you can use non-integer UoM like 1.5Kg Oats for 1 Packing Unit. If you leave it as 0, it'll not affect any transaction.
 
 ###2.2 Minimum quantity
-This is the minimum quantity of items to be transacted for this price to be applicable.
+This is the minimum quantity of items to be transacted for this price to be applicable and updated in the Item Price list. 
 
-###2.3 Validity
-There are two fields here—Valid From and Valid Upto. Valid from is set to the date you created the Price List, you can also set the Valid Upto date for when the Price List will expire.
+### 2.3 Applying Price List to a specific Customer/Supplier
+If you select a Selling Price list, a customer field will appear where you can assign this Item Price to a specific customer. Likewise, if you select a Buying Price List, a Supplier field will appear where you can select a specific Supplier
 
-###2.4 Lead Time in days
-Approximate number of days it takes the product to reach the seller's warehouse. You can set different price lists based on how much time a the same product will reach you from different vendors.
 
-###2.5 Note
+###2.4 Validity
+There are two fields here—'Valid From' and 'Valid Upto'. Valid from is set to the date you created the Item Price, you can also set the Valid Upto date on which the Item Price will expire.
+
+###2.5 Lead Time in days
+Approximate number of days it takes the product to reach the warehouse. You can set different Item Prices based on how much time the same product will reach you from different vendors.
+
+###2.6 Note
 You can add any note about the Item Price in this field.
 
 Here is a video that shows how to manage item prices:
