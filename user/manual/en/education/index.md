@@ -46,12 +46,18 @@ Here are the functionalities available under the ERPNext Education domain to go 
 1. [Scheduling Tool](/docs/user/manual/en/education/scheduling-tool)
 1. [Examination](/docs/user/manual/en/education/examination)
 
-##### 6. Attendance
+##### 6. Learning Management System
+1. [Setting Up LMS](/docs/user/manual/en/education/setting-up-lms)
+1. [LMS Masters](/docs/user/manual/en/education/lms-masters)
+1. [Navigating the Portal](/docs/user/manual/en/education/navigating-the-portal)
+1. [Tracking Progress](/docs/user/manual/en/education/tracking-progress)
+
+##### 7. Attendance
 1. [Student Attendance](/docs/user/manual/en/education/student-attendance)
 1. [Student Attendance Tool](/docs/user/manual/en/education/student-attendance-tool)
 1. [Student Leave Application](/docs/user/manual/en/education/student-leave-application)
 
-##### 7. Assessment
+##### 8. Assessment
 1. [Introduction](/docs/user/manual/en/education/assessment-introduction)
 1. [Assessment Criteria](/docs/user/manual/en/education/assessment_criteria)
 1. [Assessment Group](/docs/user/manual/en/education/assessment_group)
@@ -60,13 +66,13 @@ Here are the functionalities available under the ERPNext Education domain to go 
 1. [Assessment Result Tool](/docs/user/manual/en/education/assessment_result_tool)
 1. [Grading Scale](/docs/user/manual/en/education/grading_scale)
 
-##### 8. Assessment Reports
+##### 9. Assessment Reports
 1. [Final Assessment Grades](/docs/user/manual/en/education/final-assessment-grades)
 1. [Assessment Plan Status](/docs/user/manual/en/education/assessment-plan-status)
 1. [Student Report Generation Tool](/docs/user/manual/en/education/student-report-generation-tool)
 1. [Course Wise Assessment Report](/docs/user/manual/en/education/course-wise-assessment-report)
 
-##### 9. Tools
+##### 10. Tools
 1. [Student Attendance Tool](/docs/user/manual/en/education/student-attendance-tool)
 1. [Assessment Result Tool](/docs/user/manual/en/education/assessment-result-tool)
 1. [Student Group Creation Tool](/docs/user/manual/en/education/student-group-creation-tool)

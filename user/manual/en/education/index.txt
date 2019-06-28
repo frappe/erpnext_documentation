@@ -1,9 +1,10 @@
+setup
 student
 admission
-Attendance
-schedule
 fees
-setup
+schedule
+lms
+Attendance
 Assessment
 Assessment Reports
 Tools

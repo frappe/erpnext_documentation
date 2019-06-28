@@ -11,9 +11,11 @@ Using Education module of ERPNext, you can effectively manage operations like:
 
 - Managing Student
 - Program and Courses
+- Publishing Programs on the portal
 - Online Admissions
 - Student Attendance
 - Course Scheduling
+- Portal for Publishing Programs
 - Assessment Planning and Assessment Result
 - Fee Structure and Fee Receipt
 
