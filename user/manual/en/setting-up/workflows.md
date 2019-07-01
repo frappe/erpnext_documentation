@@ -46,14 +46,13 @@ workflow transition step that says from submitted you can cancel.
 
 #### Enable/Disable Self approval
 
-> New in Version 11
+> Introduced in Version 11
 
 <img class="screenshot" alt="Workflow" src="{{docs_base_url}}/assets/img/setup/workflow-6.png">
 
-
 #### Conditions
 
-> New in Version 11
+> Introduced in Version 11
 
 In Version 11, you can also add a condition for the transition to be applicable. For example in this case if someone applies to leave for more than 5 days, a particular role must approve. For this in the particular transition you can set a property for `Condition` as:
 
@@ -64,6 +63,18 @@ doc.total_leave_days <= 5
 Then if someone applied for leave for less than 5 days, only that particular transition will apply.
 
 This can be extended to any property of the document.
+
+#### Enable/Disable Optional Workflow State
+
+> Introduced in Version 12
+
+Optional workflow state means that the state may not be a part of final approval.
+
+E.g. states like Canceled or Rejected can be optional.
+![Optional State](/docs/assets/img/setup/workflow-optional-state.png)
+
+**Note:** Workflow Actions are not created for optional states.
+
 
 #### Example of a Leave Application Process:
 
@@ -82,7 +93,7 @@ When the Leave Approver opens the Leave Application page, he can finally "Approv
 
 #### Workflow Actions
 
-> New in Version 11
+> Introduced in Version 11
 
 Workflow Actions is a single place to manage all the pending actions you can take on Workflows.
 
@@ -92,11 +103,12 @@ If a User is eligible to take action on some workflows, emails will be sent to t
 Also the users will see entries in their Workflow Action list.
 <img class="screenshot" alt="Workflow" src="{{docs_base_url}}/assets/img/setup/workflow-actions-list.png">
 
-**Note:** You can set email template for Workflow Actions on each state.
-The template might consist message for users to proceed with the next Workflow Actions
+**Note:**
 
+- You can set email template for Workflow Actions on each state. The template might consist a message for users to proceed with the next Workflow Actions.
+- Workflow Actions will not be created for transition to optional state.
 
-### Video Tutorial:
+### Video Tutorial
 
 <div>
     <div class="embed-container">
