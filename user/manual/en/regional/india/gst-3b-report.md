@@ -30,10 +30,10 @@ Note: To make sure the report is calculated accurately and correctly please make
 
 1. Since GST is a destination based tax, please make sure all Indian Customers and Suppliers have gst state (even the Unregistered ones).
 
-2. Nil rated, exempted or non-gst items have is_nill_rated or is_non_gst checkbox checked.
+2. Nil rated, exempted or non-gst items have Is nill rated or Is Non GST checkbox is checked in the item master.
 
 <img class="screenshot" alt="GST Settings" src="{{docs_base_url}}/assets/img/regional/india/gst-item.png">
 
 3. Proper account heads are entered in GST Settings.
 
-4. Proper eligibility_for_itc field is selected. For eg: All Other ITC or Ineligible
+4. Proper Eligibility For ITC field is selected. For eg: All Other ITC or Ineligible
