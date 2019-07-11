@@ -43,7 +43,7 @@ To configure this in ERPNext the stpes are as follows:
 1. In price discount table, set the min qty, max qty as 15.
 1. Set the discount type as Discount Percentage and rate as 10.
 
-    <img alt="Promotional Scheme" class="screenshot" src="{{docs_base_url}}/assets/img/promotional-schemes/promotional-schemes-mixed-conditions.png">
+<img alt="Promotional Scheme" class="screenshot" src="{{docs_base_url}}/assets/img/promotional-schemes/promotional-schemes-mixed-conditions.png">
 
 ### 2.2 To apply discount on other item
 
@@ -57,7 +57,7 @@ To configure this in ERPNext the stpes are as follows:
 1. In price discount table, set the min qty as 30.
 1. Set the discount type as Rate and rate as 12.
 
-    <img alt="Promotional Scheme" class="screenshot" src="{{docs_base_url}}/assets/img/promotional-schemes/promotional-schemes-discount-on-other.png">
+<img alt="Promotional Scheme" class="screenshot" src="{{docs_base_url}}/assets/img/promotional-schemes/promotional-schemes-discount-on-other.png">
 
 #### 4. Related Topics
 1. [Pricing Rule](/docs/user/manual/en/accounts/pricing-rule)
