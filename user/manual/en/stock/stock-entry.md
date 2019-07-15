@@ -10,6 +10,7 @@ Stock Entries can be made for the following purposes:
 * **Material Receipt**: If the material is being received. (Incoming Material).
 * **Material Transfer**: If the material is being moved from one warehouse to another.
 * **Material Transfer for Manufacturing**: If the material being transfered is for Manufacturing Process.
+* **Material Consumption for Manufacture**: There can be multiple consumption stock entries against a manufacturing Work Order. [Refer this link for more details](/docs/user/manual/en/manufacturing/articles/material_consumption)
 * **Manufacture**: If the Material is being received from a Manufacturing/Production Operation.
 * **Repack**: If the Original item/items is being repacked into new item/items.
 * **Subcontract**: If the Material is being issued for a sub-contract activity.
