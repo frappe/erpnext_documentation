@@ -5,8 +5,8 @@ Global settings for HR related documents
 
 <img class="screenshot" alt="HR Settings" src="{{docs_base_url}}/assets/img/human-resources/hr-settings.png">
 
-To access HR Settings, go to: 
-> Home > Settings > HR Settings
+To access HR Settings, go to:
+> Home > Human Resources > Settings > HR Settings
 
 There are various settings available in the HR Settings. Let's learn about each below.
 
@@ -68,5 +68,10 @@ In Leave Application document the 'Leave Approver' field is set to mandatory on 
 
 ### 3.4 Show Leaves Of All Department Members In Calendar
 The approved leaves of all employees in the same department are shown in the calender view on checking this option.
+
+## 4. Hiring Settings
+
+### 4.1 Check Vacancies On Job Offer Creation
+On creation of job offer for a particular position, vacancies present in the staffing plan for that position is checked to warn the user from over hiring for a particular position.
 
 {next}
