@@ -69,6 +69,11 @@ When an opportunity is lost, you can capture the reasons for losing. This will h
 
 <img class="screenshot" alt="Quotation Lost Reason" src="{{docs_base_url}}/assets/img/crm/quotation_lost_reason.png">
 
+#### 2.7 Minutes to First Response
+
+When you send the first reply(email) to an Opportunity, it calculates Mins to First Response and is displayed in a field.
+
+A report is generated called 'Minutes to First Response for Opportunity'. For more details [click here](/docs/user/manual/en/CRM/crm_reports).
 #### 3. Related Topics
 1. [Quotation](/docs/user/manual/en/selling/quotation.html)
 1. [Customer](/docs/user/manual/en/CRM/customer)
