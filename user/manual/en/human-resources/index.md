@@ -58,6 +58,7 @@ salary details, attendance, performance evaluation, leaves, and appraisal record
 ##### 1.6 Lifecycle and Salary
 1. [Appraisal](/docs/user/manual/en/human-resources/appraisal)
 1. [Employee Onboarding And Separation](/docs/user/manual/en/human-resources/employee-onboarding-and-separation)
+1. [Employee Skill Map](/docs/user/manual/en/human-resources/employee_skill_map)
 1. [Employee Promotion](/docs/user/manual/en/human-resources/employee_promotion)
 1. [Employee Transfer](/docs/user/manual/en/human-resources/employee_transfer)
 
