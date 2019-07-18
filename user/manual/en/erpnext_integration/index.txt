@@ -2,3 +2,4 @@ amazon_integration
 shopify_integration
 woocommerce_integration
 plaid_integration
+google_contacts
