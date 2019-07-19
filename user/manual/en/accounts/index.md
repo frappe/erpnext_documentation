@@ -66,6 +66,7 @@ You can check out [this video](https://www.youtube.com/watch?v=5wjollWN0OA) for 
 1. [Budgeting](/docs/user/manual/en/accounts/budgeting)
 1. [Auto Repeat](/docs/user/manual/en/setting-up/automation/auto-repeat)
 1. [Subscription](/docs/user/manual/en/accounts/subscription)
+1. [Invoice Discounting](/docs/user/manual/en/accounts/invoice_discounting)
 
 ##### 1.8 Shareholder Management
 1. [Shareholder](/docs/user/manual/en/accounts/shareholder)
