@@ -12,7 +12,7 @@ requirement.
 
 * Applicable After (Working Days): Employees who have worked with the company for this number of days are only allowed to apply for this Leave Type. Do note that any other leaves availed by the Employee after her joining date is also considered while calculating working days.
 
-* Maximum Continuous Days Applicable: It refers to maximum number of days this particular Leave Type can be availed at a stretch. If an employee exceeds the maximum number of days under a particular Leave Type, his/her extended leave may be considered as ‘Leave Without Pay’ and this may affect his/her salary calculation.
+* Maximum Continuous Days Applicable: It refers to maximum number of days this particular Leave Type can be availed at a stretch.
 
 * Is Carry Forward: If checked, the balance leave will be carried forwarded to the next allocation period.
 
