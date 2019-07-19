@@ -54,6 +54,7 @@ To get an ERP implementation right, the implementor needs to set aside time and 
 1. [Download Backup](/docs/user/manual/en/setting-up/data/download-backup)
 1. [Assignment Rule](/docs/user/manual/en/setting-up/automation/assignment-rule)
 1. [Milestone Tracking](/docs/user/manual/en/setting-up/automation/milestone-tracker)
+1. [Auto Repeat](/docs/user/manual/en/setting-up/automation/auto-repeat)
 1. [Authorization Rule](/docs/user/manual/en/setting-up/authorization-rule)
 
 ##### 1.4 Sales and Stock

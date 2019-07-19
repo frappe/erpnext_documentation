@@ -1,7 +1,7 @@
 <!-- add-breadcrumbs -->
 #Recurring Orders and Invoices
 
-If you have a contract with a **Customer** where you bill the Customer on a monthly, quarterly, half-yearly or annual basis, you should use recurring feature in orders and invoices. 
+If you have a contract with a **Customer** where you bill the Customer on a monthly, quarterly, half-yearly or annual basis, you should use recurring feature in orders and invoices.
 
 ### 1. Consider a scenario
 
@@ -15,15 +15,18 @@ Option to set document as recurring will be visible only after it's submitted. T
 1. Click on the + button next to Auto Repeat.
 1. Select the Reference Doctype.
 1. Select the Reference Document.
-1. Set the Start Data and End Date.
+1. Set the Start Date and End Date(optional).
 1. Select the frequency whether daily, weekly, etc,.
-1. Save and Submit. 
+1. Save.
 
 Here is a explanation of the fields:
 
 * **From Date and To Date:** This defines contract period with the customer.
 * **Repeat on the Day of Month:** If recurring type is set as Monthly, then it will be day of the month on which recurring invoice will be generated.
+* **Repeat on Last Day of the Month:** Recurring invoices will be created on the last day of every month.
 * **Notify by Email:** Email Addresses (separated by comma) on which recurring invoice will be emailed when auto-generated.
+
+For more details about Auto Repeat [Click Here](/docs/user/manual/en/setting-up/automation/auto-repeat)
 
 ### 3. Exception Handling
 
