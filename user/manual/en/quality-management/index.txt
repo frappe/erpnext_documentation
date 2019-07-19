@@ -4,4 +4,4 @@ tree_of_procedure
 quality_review
 quality_action
 quality_meeting
-customer_feedback
+quality_feedback

@@ -20,7 +20,7 @@ The following are the various modules and domains offered by ERPNext covering a 
 - [Projects](/docs/user/manual/en/projects)
 - [Support](/docs/user/manual/en/support)
 - [Asset](/docs/user/manual/en/asset)
-- [Quality Management](/docs/user/manual/en/quality-management)
+- [Quality](/docs/user/manual/en/quality-management)
 
 ##### 3. Industry Specific Modules
 1. [Manufacturing](/docs/user/manual/en/manufacturing)

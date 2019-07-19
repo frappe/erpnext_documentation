@@ -3,36 +3,35 @@
 
 > Introduced in Version 12
 
-It is collection of individual metrics that helps to quantify quality of application. It is a basic quality management process to establish a set of quality objectives.
+It is a collection of individual metrics that helps to quantify the quality of an application. It is a basic quality management process to establish a set of quality objectives.
 
 You can create a Quality Goal for your business having multiple Quality Objectives. Different Quality Objectives for a Goal can have definite numeric target or target measured in terms of completion status(yes or no). It is monitored based on Frequency which is set for that Goal.
 
-<img class="screenshot" alt="Quality mangement" src="{{docs_base_url}}/assets/img/quality-management/Goal.gif">
+To access Quality Goal, go to:
+> Home > Quality > Goal and Procedure > Quality Goal
 
-## Creating a Quality Goal
+## 1. How to Create a Quality Goal
 
- Steps for creating a Quality Goal
+1. Go to the Quality Goal list, click on New.
+1. Add the following details:
 
- * Goal : Name of the Quality Goal that you intend to create.
+ * Goal: Name of the Quality Goal that you intend to create.
 
- * Procedure : Quality Procedure that is to be followed to achieve the Goal.
+ * Procedure: Quality Procedure that is to be followed to achieve the Goal.
 
- * created By : Person responsible for the creation of the Goal.
+ * Created By: Person responsible for the creation of the Goal.
 
- * Scope : This represents whether the Goal applied to the Company or only to a particular department.
+ * Monitoring Frequency: If a Review of a Goal is to be scheduled automatically then select the time interval after which the Review will be created.
 
- * Department : If the scope of the Goal is only to a particular department, the name of the department is to be specified.
+ * Revision: Mentioning the current Revision of the Quality Goal.
 
- * Monitoring Frequency : If a Review of a Goal is to be scheduled automatically then select the time interval after which the Review will be created.
+ * Objectives :
+     - Objective: Consists of the various Objectives that a Quality Goal consists of and which have to be completed to meet the Goal.
 
- * Revision : Mentioning the curent Revision of the Quality Goal.
+     - Target: Consists of the numeric target value of an Objective that is to be met.
 
- * Measurable Goal : If a Goal can be measured in terms of numeric values, eg: 100 Leads, 24 Hours, etc, then select 'Yes' indicating the Goal is be measured in numeric values. If a Goal can only be measured interms of completion status ie Yes or No, then select 'No' indicating the Goal is to be measured interms of completion status. Target and Units are disabled if the Goal cannot be measured interms of numeric values.
+     - Unit: Measurement Unit, eg: Lead/s, Hour/s, etc, to measure Objective.
 
- * Objective : Consists of the various Objectives that a Quality Goal consists of and which have to be completed to meet the Goal.
-
- * Target : Consists of the numeric target value of an Objective that is to be met.
-
- * Unit : Measurement Unit, eg: Lead/s, Hour/s, etc, to measure Objective.
+<img class="screenshot" alt="Quality mangement" src="{{docs_base_url}}/assets/img/quality-management/goal.gif">
 
 {next}
