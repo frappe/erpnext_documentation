@@ -26,11 +26,11 @@ requirement.
 
 * Is Optional: Check this Optional Leaves are holidays which Employees can choose to avail from a list of holidays published by the company. The Holiday List for optional leaves can have any number of holidays but you can restrict the number of such leaves granted to an Employee in a Leave Period by setting the Max Days Leave Allowed field.
 
-* Carry Forward: It is possible that the carry forwarded leaves needs to expire within a particular time period based on the company policies regarding carry forwarded leaves. Once the "Is Carry Forward" is set, you can set the number of days in "Carry Forward Leave Expiry" field to define the expiry time period.
+* Carry Forward: It is possible that the carry forwarded leaves need to expire within a particular time period based on the company policies. Once the "Is Carry Forward" is set, you can set the number of days in "Carry Forward Leave Expiry" field to define the expiry time period.
 
 	<img class="screenshot" alt="Carry Forward Leave Expiry" src="{{docs_base_url}}/assets/img/human-resources/carry-forward-leave-expiry.png">
 
-	>Note: On setting carry forward leave expiry as 0, unused leaves will not expire at the end of the leave allocation, hence, both previous remaining leaves and carry forwarded leaves will be considered for carry forward calculation for next leave allocation.
+	>Note: On setting carry forward leave expiry as 0, unused leaves will not expire at the end of the leave allocation. Hence, both previous remaining leaves and carry forwarded leaves will be considered for carry forward calculation for next leave allocation.
 
 * Encashment: It is possible that Employees can receive cash from their Employer for unused leaves granted to them in a Leave Period. Not all Leave Types need to be encashable, so you should set "Allow Encashment" for Leave Types which are encashable. Leave encashment is allowed only in the last month of the Leave Period.
 
