@@ -5,12 +5,12 @@ A services business, which doesn't have a tangible product to showcase their val
 
 
 ## 1. Topics
-##### 1.1 Project Management
+### 1.1 Project Management
 1. [Project](/docs/user/manual/en/projects/project)
 1. [Tasks](/docs/user/manual/en/projects/tasks)
 1. [Project Template](/docs/user/manual/en/projects/project-template)
 
-##### 1.2 Time Tracking
+### 1.2 Time Tracking
 1. [Timesheet Introduction](/docs/user/manual/en/projects/timesheet-intro/)
 1. [Salary Slip From Timesheet](/docs/user/manual/en/projects/salary-slip-from-timesheet)
 1. [Sales Invoice From Timesheet](/docs/user/manual/en/projects/sales-invoice-from-timesheet)
@@ -19,6 +19,9 @@ A services business, which doesn't have a tangible product to showcase their val
 1. [Timesheet Against Project](/docs/user/manual/en/projects/timesheet-against-project)
 1. [Activity Type](/docs/user/manual/en/projects/activity-type)
 1. [Activity Cost](/docs/user/manual/en/projects/activity-cost)
+
+### 1.3 Reports
+1. [Billing Summary Reports](/docs/user/manual/en/projects/reports/billing_summary_reports)
 
 ## 2. Articles
 1. [Project Costing](/docs/user/manual/en/projects/articles/project-costing)
