@@ -31,6 +31,7 @@ efficient and seamless as possible.
 ### 2.2 Other
 1. [Purchasing In Different Unit](/docs/user/manual/en/buying/articles/purchasing-in-different-unit)
 1. [Amending Purchase Order After Submit](/docs/user/manual/en/buying/articles/amending-purchase-order-after-submit)
+1. [Procurement Tracker Report](/docs/user/manual/en/buying/articles/procurement-tracker-report)
 
 ## 3. Videos
 ### 3.1 Purchase
