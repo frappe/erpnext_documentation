@@ -4,6 +4,7 @@ customer
 contact
 address
 campaign
+email-campaign
 newsletter
 crm_reports
 lead_source

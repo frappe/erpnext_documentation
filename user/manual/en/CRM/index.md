@@ -15,6 +15,7 @@ The CRM module has the following features:
 1. [Contact](/docs/user/manual/en/CRM/contact)
 1. [Address](/docs/user/manual/en/CRM/address)
 1. [Campaign](/docs/user/manual/en/CRM/campaign)
+1. [Email Campaign](/docs/user/manual/en/CRM/email-campaign)
 1. [Newsletter](/docs/user/manual/en/CRM/newsletter)
 
 ##### 1.2 Reports
