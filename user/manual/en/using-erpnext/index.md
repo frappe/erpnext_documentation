@@ -23,6 +23,7 @@ effectively manage your data and collaborate with your co-workers.
 - [Calendar](/docs/user/manual/en/using-erpnext/calendar)
 - [Assignment](/docs/user/manual/en/using-erpnext/assignment)
 - [Tags](/docs/user/manual/en/using-erpnext/tags)
+- [Desktop](/docs/user/manual/en/using-erpnext/articles/desktop)
 - [Keyboard Shortcuts](/docs/user/manual/en/using-erpnext/articles/keyboard-shortcuts)
 
 ## Articles
