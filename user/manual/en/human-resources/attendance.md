@@ -15,4 +15,6 @@ You can easily set attendance for Employees using the [Employee Attendance Tool]
 
 You can also bulk upload attendance using the [Upload Attendance Tool](/docs/user/manual/en/human-resources/upload-attendance)
 
+It is also, possible to setup marking of attendance automatically based on check-in/check-out logs from Biometric/RFID Devices (or any other similar mechanisms the produce IN/OUT logs of the employee). Please refer to [Auto Attendance](/docs/user/manual/en/human-resources/auto-attendance) feature for more information.
+
 {next}

@@ -54,6 +54,7 @@ salary details, attendance, performance evaluation, leaves, and appraisal record
 1. [Attendance Request](/docs/user/manual/en/human-resources/attendance-request)
 1. [Upload Attendance](/docs/user/manual/en/human-resources/upload-attendance)
 1. [Employee Attendance Tool](/docs/user/manual/en/human-resources/employee-attendance-tool)
+1. [Auto Attendance](/docs/user/manual/en/human-resources/auto-attendance)
 
 ##### 1.6 Lifecycle and Salary
 1. [Appraisal](/docs/user/manual/en/human-resources/appraisal)
