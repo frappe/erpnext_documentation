@@ -79,6 +79,7 @@ salary details, attendance, performance evaluation, leaves, and appraisal record
 ##### 1.8 Other
 1. [Human Resources Reports](/docs/user/manual/en/human-resources/human-resources-reports)
 1. [Human Resource Setup](/docs/user/manual/en/human-resources/human-resource-setup)
+1. [Leave Ledger Entry](/docs/user/manual/en/human-resources/leave-ledger-entry)
 1. [Loan Management](/docs/user/manual/en/human-resources/loan-management)
 1. [Fleet Management](/docs/user/manual/en/human-resources/fleet-management)
 1. [Employee Advance](/docs/user/manual/en/human-resources/employee-advance)
