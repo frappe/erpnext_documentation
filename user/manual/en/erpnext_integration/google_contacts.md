@@ -5,7 +5,7 @@ ERPNext provides an integration with Google Contacts in order for all users to s
 
 The following should be noted when synchronizing contacts in ERPNext from Google Contacts:
 - All the contacts present in Google Contacts will be synchronized to ERPNext.
-- If any of the Google Contacts has multiple Email IDs associated with it, new ERPNext contacts will be created each Email ID.
+- If any of the Google Contacts has multiple Email IDs associated with it, new ERPNext contacts will be created for each Email ID.
 
 ## How to set up Google Contacts Integration
 
