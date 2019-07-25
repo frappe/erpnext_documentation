@@ -140,8 +140,8 @@
             Supplier</a>
             <span class="text-muted pull-right">4:35</span>
         </li>
-        <li><a href="/docs/user/videos/learn/material-request-to-purchase-order.html">
-            Material Request to Purchase Order</a>
+        <li><a href="/docs/user/videos/learn/material-request.html">
+            Material Request</a>
             <span class="text-muted pull-right">2:25</span>
         </li>
         <li><a href="/docs/user/videos/learn/request-for-quotation.html">
