@@ -1,47 +1,47 @@
 <!-- add-breadcrumbs -->
 #Custom Translations
 
-User can print the customer's and supplier's document in their local language. For an example if I have customers from germany, france who want quotation in german, french language will be possible with these feature.
+**With Custom Translations, user can print the customer's and supplier's document in their local language.**
 
-####Set Language
+For example, if you have customers from Germany and France who want quotations in German and French, it's possible using Custom Translations.
 
-In the Customer master, select default Language. Say default language for the Customer is <b>deutsch</b>.
+## 1. Set the Language
 
-<img src="{{docs_base_url}}/assets/img/multilingual_print_format/set_customer_default_lang.png" class="screenshot">
+In the Customer master, select the default Language. Say, the default language for the Customer is **Spanish**.
+
+<img src="{{docs_base_url}}/assets/img/setup/multilingual_print_format/set_customer_default_lang.png" class="screenshot">
 
 Same way, you can also set default language in the Supplier master.
 
-<img src="{{docs_base_url}}/assets/img/multilingual_print_format/set_supplier_default_lang.png" class="screenshot">
+### 1.1 Print Preview in the Party's Language
 
-####Print Preview in the Party's Language
-
-In the Print Preview of a transaction, values will be translated into party's language.
+In the Print Preview of a transaction, values will be translated into the party's language.
 
 Customer Quotation print preview in customer's default language.
 
-<img src="{{docs_base_url}}/assets/img/multilingual_print_format/customer_quotation.png" class="screenshot">
+<img src="{{docs_base_url}}/assets/img/setup/multilingual_print_format/customer_quotation.png" class="screenshot">
 
 Supplier Quotation print preview in supplier's default language.
 
-<img src="{{docs_base_url}}/assets/img/multilingual_print_format/supplier_quotation.png" class="screenshot">
+### 1.2 Changing the print language in the preview
 
-####What to do if want to print with another language?
+User has the option to select an alternate language on print view.
 
-User can have option to select alternate language on print view.
+<img src="{{docs_base_url}}/assets/img/setup/multilingual_print_format/alternate_language.png" class="screenshot">
 
-<img src="{{docs_base_url}}/assets/img/multilingual_print_format/alternate_language.png" class="screenshot">
+## 2. Custom Translation
 
-####Custom Translation
+Users can set their custom translations using Custom Translations form. For example, if a user wants to set a description of a product in the customer's language (Spanish). For that, create a new translation with language as Spanish, enter source data and translated information.
 
-User can set their custom translations using translation form. For example user want to set description of the product in customer's language(Italiano). For that create new translation with language as Italiano, enter source data and Translated information.
+> Home > Customization > Other > Custom Translations > New
 
-`Setup > Settings > Translation List > New`
+<img src="{{docs_base_url}}/assets/img/setup/multilingual_print_format/translation.png" class="screenshot">
 
-<img src="{{docs_base_url}}/assets/img/multilingual_print_format/translation.png" class="screenshot">
+The translation is applied when the user selects the language as Spanish on supplier Quotation's print preview. Note that no translation is applied for the second item's description since it wasn't created in the Translation list.
 
-The translation is applied when user select language as Italiano on supplier quotation's print preview.
+<img src="{{docs_base_url}}/assets/img/setup/multilingual_print_format/custom_translation.png" class="screenshot">
 
-<img src="{{docs_base_url}}/assets/img/multilingual_print_format/custom_translation.png" class="screenshot">
-
-
-{next}
+### 3. Related Topics
+1. [Address Template](/docs/user/manual/en/setting-up/print/address-template)
+1. [Quotation](/docs/user/manual/en/selling/quotation)
+1. [Sales Order](/docs/user/manual/en/selling/sales-order)

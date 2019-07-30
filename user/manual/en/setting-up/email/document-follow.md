@@ -22,8 +22,7 @@
 1. Note that you can only follow documents for which track changes are on.
 1. To enable track changes, go to **Menu > Customize > *tick the Track Changes checkbox***.
 
-## 2. Features
-### 2.1 Automatic Follow
+### 1.2 Automatic Follow
 Cases where the document will be __automatically__ followed after activating Document Follow:
 
 * When you create a new document.
@@ -34,3 +33,7 @@ Cases where the document will be __automatically__ followed after activating Doc
 This is what an email notification for Document Follow will look like:
 
 <img class="screenshot" alt="Defining Criteria" src="{{docs_base_url}}/assets/img/setup/email/document-follow-email.png">
+
+### 2. Related Topics
+1. [Linking Emails to Document](/docs/user/manual/en/setting-up/email/linking-emails-to-document)
+1. [Notifications](/docs/user/manual/en/setting-up/notifications)

@@ -1,4 +1,6 @@
 <!-- add-breadcrumbs -->
+# Solving Permission Error Problems
+
 **Question:** User has roles like Account User and Account Manager assigned. Still, when accessing  Account Receivable report, User is getting an error message of no permission the territory master.
 
 <img alt="Report Permission Error" class="screenshot" src="{{docs_base_url}}/assets/img/articles/report-permission-1.png">

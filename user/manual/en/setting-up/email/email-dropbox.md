@@ -2,7 +2,7 @@
 
 # Email Dropbox
 
-When you receive emails from leads, customers, suppliers, or other business partners, you might wish to attach those to their relevant records in ERPNext. One way to do so is to save the email and upload it as an attachment. However, this could turn into a cumbersome process. ERPNext offers a better way to handle this through its "Email Dropbox" feature.
+When you receive emails from Leads, Customers, Suppliers, or other business partners, you might wish to attach those to their relevant records in ERPNext. One way to do so is to save the email and upload it as an attachment. However, this could turn into a cumbersome process. ERPNext offers a better way to handle this through its "Email Dropbox" feature.
 
 When enabled, each record in ERPNext will have it's own unique email address to which you can forward emails. You can click on the email address to copy it to your clipboard, which can then be added to the "To", "Cc", or "Bcc" field of the email that you wish to send.
 
@@ -24,4 +24,7 @@ Once the email is received, ERPNext attaches it to the appropriate record and it
 
 <img class="screenshot" alt="Email in Timeline" src="{{docs_base_url}}/assets/img/setup/email/email_in_timeline.png">
 
-{next}
+### Related Topics
+1. [Email Domain](/docs/user/manual/en/setting-up/email/email-domain)
+1. [Email Account](/docs/user/manual/en/setting-up/email/email-account)
+1. [Email Inbox](/docs/user/manual/en/setting-up/email/email-inbox)

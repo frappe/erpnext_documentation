@@ -36,6 +36,7 @@ organized and searchable manner.
 1. [Adding Margin](/docs/user/manual/en/selling/articles/adding-margin)
 1. [Amending Sales Order After Submit](/docs/user/manual/en/selling/articles/amending-sales-order-after-submit)
 1. [Drop Shipping](/docs/user/manual/en/selling/articles/drop-shipping)
+1. [Calculate Incentive For Sales Team](/docs/user/manual/en/setting-up/articles/calculate-incentive-for-sales-team)
 
 ### 2.3 Other
 1. [ERPNext For Services Organization](/docs/user/manual/en/selling/articles/erpnext-for-services-organization)

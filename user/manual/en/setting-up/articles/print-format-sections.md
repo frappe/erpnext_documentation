@@ -1,5 +1,5 @@
 <!-- add-breadcrumbs -->
-#Print Format Sections
+# Disabling Line Breaks in Print Format Sections
 
 **Question:** In the Print Format, I am getting link breaks for each section. How can I disable it?
 

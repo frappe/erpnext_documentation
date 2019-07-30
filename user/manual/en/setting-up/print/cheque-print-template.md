@@ -1,46 +1,49 @@
 <!-- add-breadcrumbs -->
 #Cheque Print Template
 
-Business involves making payment to various parties like suppliers and employees. Payment can be made in various modes like cash, NEFT or cheque. If you are making a payment via cheque, you can also create a Print Format for printing Cheque from ERPNext based on the Payment Entry.
+**Cheque Print Template allows defining templates for bank cheques.**
+
+Business involves making payment to various parties like suppliers and employees. Payment can be made in various modes like cash, NEFT or cheque. If you are making a payment via a cheque, you can also create a Print Format for printing Cheques from ERPNext based on the Payment Entry.
+
+To access Cheque Print Template, go to:
+> Home > Accounting > Cheque Print Template
+
+Using the Cheque Print Template you can generate a new Print Format for cheques. It will be created based on the cheque format provided by your bank. 
+
+A sample cheque:
 
 <img class="screenshot" alt="Sample Cheque" src="{{docs_base_url}}/assets/img/setup/print/sample-cheque.jpg">
 
-Using the Cheque Print Template you can generate a new Print Format based. It will be created based the cheque format provided by your bank. 
 
-####Create New
+## 1. How to create a Cheque Print Template
+1. Go to the Cheque Print Template list, click on New.
+1. You can set the position of various items in the cheque.
+1. Save.
 
-To create a new Print Format based on the specific cheque’s format, go to:
-
-`Account > Tools > Cheque Printing Template > New`
-
-In the Cheque Print Template, for each value (say Payee, Date), exact co-ordinates are provided based on where that value should be printed on a cheque. Co-ordinates are provided in centi-meter.
+In the Cheque Print Template, for each value (say Payee, Date), exact coordinates are provided based on where that value should be printed on a cheque. Co-ordinates are provided in centimeters. Here is a representation the structure:
 
 <img class="screenshot" alt="Sample Cheque" src="{{docs_base_url}}/assets/img/setup/print/cheque-1.png">
 
-####New Format via Scanning
+### 1.1 New Format by Scanning
 
-To speed up creation of a new cheque printing format, you can upload scanned image of the cheque. Considering the scanned image for the cheque, system automatically updates co-ordinates for each value like party name, amount, date, amount in words etc.
+To speed up the creation of a new cheque printing format, you can upload a scanned image of the cheque. Considering the scanned image for the cheque, the system automatically updates co-ordinates for each value like party name, amount, date, the amount in words, etc.
+
+### 1.2 New Print Format manually 
+If the preview looks good, click on the **Create Print Format** button to create a new Print Format for printing the cheque. Based on the values provided in the Cheque Print Template, the system will auto-generate an HTML script for the cheque’s Print Format.
+
+You can manually provide the co-ordinate for each value based on where you want it to be printed on the cheque and customize with HTML/CSS.
+
+#### Preview
+Based on coordinates provided for all the values, a preview will be shown as to how the values will be printed on the cheque.
 
 <img class="screenshot" alt="Sample Cheque" src="{{docs_base_url}}/assets/img/setup/print/cheque-2.png">
 
-####New format by manual entry
-You can manually provide the co-ordinate for each value based on where you want to to be printed on the cheque.
-
-####Preview
-Based on co-ordinates provided for all the values, a preview be shown as to how the values will be printed on the cheque.
-
-<img class="screenshot" alt="Sample Cheque" src="{{docs_base_url}}/assets/img/setup/print/cheque-3.png">
-
-####New Print Format
-
-If the preview looks promising, click on the button to create a new Print Format for printing cheque. Based on the values provided in the Cheque Print Template, the system will auto-generate an HTML script for the cheque’s Print Format.
-
-<img class="screenshot" alt="Sample Cheque" src="{{docs_base_url}}/assets/img/setup/print/cheque-4.png">
-
-####Printing Cheque
+### 1.3 Printing Cheques
 
 New print format generated for the cheque will be visible in the Payment Entry form. After creating the payment entry, you will be able to print transaction details on the cheque.
 
-<img class="screenshot" alt="Sample Cheque" src="{{docs_base_url}}/assets/img/setup/print/cheque-5.gif">
+<img class="screenshot" alt="Sample Cheque" src="{{docs_base_url}}/assets/img/setup/print/cheque-3.gif">
 
-{next}
+### 2. Related Topics
+1. [Address Template](/docs/user/manual/en/setting-up/print/address-template)
+1. [Terms and Conditions Template](/docs/user/manual/en/setting-up/print/terms-and-conditions)

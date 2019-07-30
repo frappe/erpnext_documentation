@@ -22,6 +22,7 @@ multiple Letter Heads for your Prints.
 1. [Print Format](/docs/user/manual/en/customize-erpnext/print-format)
 1. [Kanban Board](/docs/user/manual/en/customize-erpnext/kanban-board)
 1. [Hiding Modules and Features](/docs/user/manual/en/customize-erpnext/hiding-modules-and-features)
+1. [Authorization Rule](/docs/user/manual/en/customize-erpnext/authorization-rule)
 
 ## 2. Articles
 

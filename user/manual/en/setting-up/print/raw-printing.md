@@ -3,77 +3,75 @@
 
 > Introduced in Version 12
 
-Sending a string of commands to a printer directly in its native language is called Raw Printing. Many thermal printers need these raw commands sent to them in order to perform functions like barcode printing, receipt printing, label printing, etc. Raw Printing bypasses the printer's drivers in most cases, making it very fast and reliable. Raw Printing is also capable of doing some advanced features such as cutting receipt paper, kicking out cash drawers, etc.
+**Sending a string of commands to a printer directly in its native language is called Raw Printing.**
 
-### 1. Setting up Raw Printing in ERPNext
+Many thermal printers need these raw commands sent to them in order to perform functions like barcode printing, receipt printing, label printing, etc. Raw Printing bypasses the printer's drivers in most cases, making them very fast and reliable. Raw Printing is also capable of doing some advanced features such as cutting receipt paper, kicking out cash drawers, etc.
 
-Below are three simple steps to get started with Raw Printing:
+## 1. Setting up Raw Printing in ERPNext
 
-#### 1.1 Installing QZ Tray application on the client computer
+### 1.1 Installing QZ Tray application on the client computer
 
 Download and install the QZ Tray application on the computer to which your thermal printer is connected. This application can be found at its [official site](https://qz.io/download/). Currently, Windows, macOS, and Linux are supported by QZ Tray. During the installation you will be prompted to install Java if not already installed, please install Java to complete the installation.
 
-Further instructions on installing the QZ Tray Application can be found at the below link:
+Further instructions on installing the QZ Tray Application can be [here](https://qz.io/wiki/using-qz-tray).
 
-- [Installing QZ Tray](https://qz.io/wiki/using-qz-tray)
-
-#### 1.2 Create Raw Commands Print Format
+### 1.2 Create Raw Commands Print Format
 
 To be able to send raw commands to a printer you need to first create a print format in raw commands. Jinja Templating Language is used in raw commands just like in the [HTML custom print format](/docs/user/manual/en/customize-erpnext/print-format).
 
-To create a new print format for raw printing:
+To create a new print format for Raw Printing:
 
-1. Go to print format list: **Setting > Printing > Print Format**
-2. Create a new print format document
-3. Select the relevant DocType
-4. Check the `custom format` and `Raw Printing` options
-5. Fill in the `Raw Commands` field with the required raw commands to be sent to the printer.
-6. Click save. 
+1. Go to print format list: **Home > Settings > Printing > Print Format**
+2. Click on New.
+3. Select the relevant DocType.
+4. Check the **Custom format** and **Raw Printing** options.
+5. Fill in the **Raw Commands** field with the required raw commands to be sent to the printer.
+6. Click Save.
 
-![Raw Commands Print Format]({{docs_base_url}}/assets/img/setup/print/raw-command-print-format.png)
+  ![Raw Commands Print Format]({{docs_base_url}}/assets/img/setup/print/raw-command-print-format.png)
 
 Currently, any string-based printer languages can be used in the `Raw Commands` field in the print format. Writing raw commands requires knowledge of the printer's native language provided by the printer manufacturer. Please refer to the developer manual provided by the printer manufacturer on how to write their native commands.
 
-#### 1.3 Enable Raw Printing in the Print Setting
+### 1.3 Enable Raw Printing in the Print Setting
 
-To enable raw printing:
+To enable Raw Printing:
 
-1. Go to: **Settings > Printing > Print Settings > Raw Printing**.
-2. Check the `Enable Raw Printing` option.
+1. Go to: **Home > Settings > Printing > Print Settings > Raw Printing**.
+2. Check the **Enable Raw Printing** option.
 3. Save.
 
-### 2. Methods to utilize raw printing in ERPNext
+## 2. Methods to utilize raw printing in ERPNext
 
-There are two ways to send raw printing commands to your printer.
+There are two ways to send Raw Printing commands to your printer.
 
-#### 2.1 Method 1: Clicking print on the print view page
+### 2.1 Clicking print on the print view page
 
-To print a raw commands print format from the Document print view:
+To print a raw command print format from the Document print view:
 
 1. Select appropriate print format. For print format in Raw Commands, "No Preview available" message is shown in place of the print preview.
 2. Click on the print button.
 3. Please allow the connection prompt from the QZ Tray for the actions that you initiated (Keyboard Shortcut: Alt + A).
    -  ![QZ Tray Prompt]({{docs_base_url}}/assets/img/setup/print/qz-tray-prompt.png)
-4. You may be asked to select the "print format - printer mapping"
+4. You may be asked to select the "print format - printer mapping".
    -  This mapping is used to send the print commands to the appropriate printer.
    -  The printer needs to be installed on your computer to be able to map it to a print format.
-   -  ![print format - printer mapping]({{docs_base_url}}/assets/img/setup/print/printer-settings.png)
+     ![print format - printer mapping]({{docs_base_url}}/assets/img/setup/print/printer-settings.png)
    -  This mapping is stored locally on the same computer and will have to be set on each client machine.
-   -  You can also edit this by clicking on the "Printer Settings" button.
+   -  You can also edit this by clicking on the **Printer Settings** button.
 
-![Raw Printing from Print View]({{docs_base_url}}/assets/img/setup/print/raw-printing-from-print-view.gif)
+      ![Raw Printing from Print View]({{docs_base_url}}/assets/img/setup/print/raw-printing-from-print-view.gif)
 
-#### 2.2 Method 2: Calling Raw Print functions from a custom script
+### 2.2 Calling Raw Print functions from a custom script
 
-It is often a requirement that a print command has to be issued on a certain event(like submit, save, amend, etc.). It is possible to write a [custom script](/docs/user/manual/en/customize-erpnext/custom-scripts) to do this for you.
+It is often a requirement that a print command has to be issued on a certain event (like submit, save, amend, etc.). It is possible to write a [custom script](/docs/user/manual/en/customize-erpnext/custom-scripts) to do this for you.
 
-Below are the relevant Raw Print functions:
+Following are the relevant Raw Print functions:
 
 1. function: `frappe.ui.form.qz_connect`
   - A connection wrapper to establish a connection with the QZ Tray application.
   - Returns a promise which resolves on successful establishment of a connection.
   - Allows active and inactive connections to resolve regardless. Hence it can be called every time before sending a command.
-  - usage example:
+  - Usage example:
 
 ```
     frappe.ui.form.qz_connect()
@@ -85,12 +83,14 @@ Below are the relevant Raw Print functions:
         frappe.ui.form.qz_fail(err);
     });
 ```
-here, `qz` is a global object provided by the `qz-tray.js` library.
+
+Here, `qz` is a global object provided by the `qz-tray.js` library.
 
 2. function: `frappe.ui.form.qz_get_printer_list`
   - Gives you the list of printers available to the QZ Tray application
   - Returns a promise which resolves to a list of printers
-  - usage example:
+  
+  Usage example:
 ```
      frappe.ui.form.qz_get_printer_list().then(
            // Required action on getting the printer list.
@@ -99,11 +99,14 @@ here, `qz` is a global object provided by the `qz-tray.js` library.
 ```
 
 3. function: `frappe.ui.form.qz_success`
-  - displays a "Print Sent to the printer!" alert to the user. Can be called after the print command is successful.
+  - Displays a "Print Sent to the printer!" alert to the user. Can be called after the print command is successful.
 
 4. function: `frappe.ui.form.qz_fail`
-  - displays the error message to the user. Should be called on failure of QZ Tray connection.
+  - Displays the error message to the user. Should be called on failure of QZ Tray connection.
 
 You can also directly access the functions provided by the `qz-tray.js` library via the `qz` object. [Click here for qz-tray.js library documentation](https://qz.io/api/). Note: The `qz` object is initialized only after calling the `frappe.ui.form.qz_connect` for the first time. In case you require the `qz` object before that you can use the `frappe.ui.form.qz_init`.
 
-{next}
+### 3. Related Topics
+1. [Print Settings](/docs/user/manual/en/setting-up/print/print-settings)
+1. [Print Format](/docs/user/manual/en/setting-up/print/print-format)
+1. [Print Style](/docs/user/manual/en/setting-up/print/print-style)

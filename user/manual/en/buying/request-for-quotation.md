@@ -42,7 +42,7 @@ In the Supplier table, on expanding a row with the inverted triangle, you'll see
 Enter any additional messages for the Supplier in this field. This field can be auto filled using an 'Email Template'. The field to select an Email Template is just above Message for Supplier.
 
 ### 2.4 Terms and Conditions
-To know about Terms and Conditions, [click here](/docs/user/manual/en/selling/articles/terms-and-conditions).
+To know about Terms and Conditions, [click here](/docs/user/manual/en/setting-up/print/terms-and-conditions).
 The Terms and Conditions will be seen if you print your RFQ.
 
 ### 2.5 Print Settings

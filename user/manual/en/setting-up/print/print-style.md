@@ -1,16 +1,33 @@
 <!-- add-breadcrumbs -->
 # Print Style
 
-Frappe/ERPNext comes with pre-set styles for your printed documents. You can also create new styles using CSS that can be applied to all your print formats.
+**In Print Style you can define custom CSS styles applied to Print Formats.**
 
-To create a new **Print Style** go to **Setup > Printing and Branding > Print Style**, or just type "print style" in the search bar.
+ERPNext comes with preset styles for printing documents. You can also create new styles using CSS that can be applied to all your print formats.
 
-Here you can define the CSS rules for your print formats. These apply to both standard and custom print formats. To find out the various classes available, you can make a standard print format, open in a new page and see the source.
+The standard print Styles in ERPNext are: Monochrome, Modern, and Classic.
+To create a new **Print Style** go to:
 
-To set a default style, you can go to [Print Settings](/docs/setup/print/print-settings)
+> Home > Settings > Print Style
+
+## 1. How to create a new Print Style
+1. Go to the Print Style list, click on New.
+1. Enter a name for the Print Style.
+1. Enter the CSS that'll define how the style will look like.
+1. Save.
+
+The styles you create here apply to both standard and custom print formats. To find out the various CSS classes available, you can make a standard print format, open in a new page and see the source.
+
+A default Print Style, can be set from [Print Settings](/docs/user/manual/en/setting-up/print/print-settings).
 
 All Print Format styles are based on Bootstrap (Version 3) CSS Framework.
 
 <img class="screenshot" alt="Print Style" src="{{docs_base_url}}/assets/img/setup/print/print-style.png">
 
-{next}
+If you have enabled developer mode and tick on Standard then system will generate the JSON file for the Print Style. You can contribute a default print style with this.
+
+### 2. Related Topics
+1. [Print Format](/docs/user/manual/en/setting-up/print/print-format)
+1. [Print Headings](/docs/user/manual/en/setting-up/print/print-headings)
+1. [Letter Head](/docs/user/manual/en/setting-up/print/letter-head)
+1. [Cheque Print Template](/docs/user/manual/en/setting-up/print/cheque-print-template)

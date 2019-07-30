@@ -1,7 +1,7 @@
 <!-- add-breadcrumbs -->
 # Item Tax Template
 
-**Item Tax Template it for item wise taxation.**
+**Item Tax Template is for item wise taxation.**
 
 If some of your Items require tax rates different from the standard tax rate assigned in the Taxes and Charges table, then you can create an Item Tax Template and assign it to an Item or Item Group. The rate assigned in the Item Tax Template will get preference over the standard tax rate assigned in the Taxes and Charges table.
 

@@ -5,69 +5,78 @@ Setting up an ERP system is like starting your business all over again but in th
 
 To get an ERP implementation right, the implementor needs to set aside time and perform the implementation with dedication. Usually, this is not your post work side project you spare a couple of hours on.
 
+You'll find the global configuration options here, for module-wise setup, visit the respective modules.
+
 ## 1. Topics
 
 ##### 1.1 Basic Setup
-
-1. [Setup Wizard](/docs/user/manual/en/setting-up/setup-wizard)
-1. [Users and Permissions](/docs/user/manual/en/setting-up/users-and-permissions)
 1. [Company Setup](/docs/user/manual/en/setting-up/company-setup)
 1. [Setting Up Taxes](/docs/user/manual/en/setting-up/setting-up-taxes)
 1. [Setting Company Sales Goal](/docs/user/manual/en/setting-up/setting-company-sales-goal)
-1. [Data Import](/docs/user/manual/en/setting-up/data/data-import)
-1. [Charts Of Accounts Importer](/docs/user/manual/en/setting-up/chart-of-accounts-importer)
-1. [Workflows](/docs/user/manual/en/setting-up/workflows)
-1. [Energy Point System](/docs/user/manual/en/setting-up/energy-point-system)
+1. [Global Defaults](/docs/user/manual/en/setting-up/settings/global-defaults)
+1. [System Settings](/docs/user/manual/en/setting-up/settings/system-settings)
+1. [Letter Head](/docs/user/manual/en/setting-up/print/letter-head)
 
-##### 1.2 Printing
+##### 1.2 Data Import
+1. [Data Import](/docs/user/manual/en/setting-up/data/data-import)
+1. [Data Export](/docs/user/manual/en/setting-up/data/data-export)
+1. [Charts Of Accounts Importer](/docs/user/manual/en/setting-up/chart-of-accounts-importer)
+1. [Download Backup](/docs/user/manual/en/setting-up/data/download-backup)
+
+##### 1.3 User and Permissions
+1. [Users and Permissions](/docs/user/manual/en/setting-up/users-and-permissions)
+1. [Adding Users](/docs/user/manual/en/setting-up/users-and-permissions/adding-users)
+1. [Role and Role Profile](/docs/user/manual/en/setting-up/users-and-permissions/role-and-role-profile)
+1. [Role Based Permissions](/docs/user/manual/en/setting-up/users-and-permissions/role-based-permissions)
+1. [User Permissions](/docs/user/manual/en/setting-up/users-and-permissions/user-permissions)
+1. [Role Permission For Page And Report](/docs/user/manual/en/setting-up/users-and-permissions/role-permission-for-page-and-report)
+1. [Sharing](/docs/user/manual/en/setting-up/users-and-permissions/sharing)
+1. [Administrator](/docs/user/manual/en/setting-up/users-and-permissions/administrator)
+
+##### 1.4 Printing
 1. [Print Settings](/docs/user/manual/en/setting-up/print/print-settings)
+1. [Print Format](/docs/user/manual/en/setting-up/print/print-format)
 1. [Print Format Builder](/docs/user/manual/en/setting-up/print/print-format-builder)
 1. [Print Style](/docs/user/manual/en/setting-up/print/print-style)
 1. [Print Headings](/docs/user/manual/en/setting-up/print/print-headings)
-1. [Letter Head](/docs/user/manual/en/setting-up/print/letter-head)
 1. [Address Template](/docs/user/manual/en/setting-up/print/address-template)
-1. [Terms and Conditions](/docs/user/manual/en/setting-up/print/terms-and-conditions)
+1. [Terms and Conditions Template](/docs/user/manual/en/setting-up/print/terms-and-conditions)
 1. [Cheque Print Template](/docs/user/manual/en/setting-up/print/cheque-print-template)
 1. [Custom Translations](/docs/user/manual/en/setting-up/print/custom-translations)
 1. [Raw Printing](/docs/user/manual/en/setting-up/print/raw-printing)
 
-##### 1.3 Email and SMS
+##### 1.5 Workflows
+1. [Workflows](/docs/user/manual/en/setting-up/workflows)
+1. [Workflow Actions](/docs/user/manual/en/setting-up/workflow-actions)
+1. [Workflow State](/docs/user/manual/en/setting-up/workflow-state)
+1. [Assignment Rule](/docs/user/manual/en/setting-up/automation/assignment-rule)
 
+##### 1.6 Email and SMS
+1. [Email Domain](/docs/user/manual/en/setting-up/email/email-domain)
 1. [Email Account](/docs/user/manual/en/setting-up/email/email-account)
 1. [Email Inbox](/docs/user/manual/en/setting-up/email/email-inbox)
-1. [Email Digest](/docs/user/manual/en/setting-up/email/email-digest)
-1. [Email Reports](/docs/user/manual/en/setting-up/email/email-reports)
-1. [Sending Email](/docs/user/manual/en/setting-up/email/sending-email)
-1. [Email Domain](/docs/user/manual/en/setting-up/email/email-domain)
+1. [Sending Email from any Document](/docs/user/manual/en/setting-up/email/sending-email)
 1. [Linking Emails to Document](/docs/user/manual/en/setting-up/email/linking-emails-to-document)
+1. [Email Digest](/docs/user/manual/en/setting-up/email/email-digest)
+1. [Auto Email Reports](/docs/user/manual/en/setting-up/email/auto-email-reports)
 1. [SMS Settings](/docs/user/manual/en/setting-up/sms-setting)
-1. [Notifications](/docs/user/manual/en/setting-up/notifications)
+1. [Notification](/docs/user/manual/en/setting-up/notifications)
 1. [Document Follow](/docs/user/manual/en/setting-up/email/document-follow)
+1. [Email Dropbox](/docs/user/manual/en/setting-up/email/email-dropbox)
 
-##### 1.4 System Configuration
-
-1. [Global Defaults](/docs/user/manual/en/setting-up/settings/global-defaults)
-1. [System Settings](/docs/user/manual/en/setting-up/settings/system-settings)
-1. [Module Settings](/docs/user/manual/en/setting-up/settings/module-settings)
+##### 1.7 System Configuration
+1. [Show or Hide Modules](/docs/user/manual/en/setting-up/settings/show-hide-modules)
 1. [Naming Series](/docs/user/manual/en/setting-up/settings/naming-series)
-1. [Bulk Rename](/docs/user/manual/en/setting-up/data/bulk-rename)
-1. [Download Backup](/docs/user/manual/en/setting-up/data/download-backup)
-1. [Assignment Rule](/docs/user/manual/en/setting-up/automation/assignment-rule)
+1. [Bulk Rename](/docs/user/manual/en/setting-up/settings/bulk-rename)
+1. [Bulk Update](/docs/user/manual/en/setting-up/bulk-update)
 1. [Milestone Tracking](/docs/user/manual/en/setting-up/automation/milestone-tracker)
 1. [Auto Repeat](/docs/user/manual/en/setting-up/automation/auto-repeat)
-1. [Authorization Rule](/docs/user/manual/en/setting-up/authorization-rule)
+1. [Domain Settings](/docs/user/manual/en/setting-up/domain-settings)
+1. [Energy Point System](/docs/user/manual/en/setting-up/energy-point-system)
 
-##### 1.4 Sales and Stock
-
-1. [POS Setting](/docs/user/manual/en/setting-up/pos-setting)
-1. [Territory](/docs/user/manual/en/setting-up/territory)
-1. [Price Lists](/docs/user/manual/en/setting-up/price-lists)
-1. [Stock Reconciliation](/docs/user/manual/en/setting-up/stock-reconciliation-for-non-serialized-item)
-
-##### 1.5 Data Privacy
-
-1. [Personal Data Download](/docs/user/manual/en/setting-up/data-privacy/personal-data-download)
-1. [Personal Data Deletion](/docs/user/manual/en/setting-up/data-privacy/personal-data-deletion)
+##### 1.8 Data Privacy
+1. [Personal Data Request](/docs/user/manual/en/setting-up/personal-data-download)
+1. [Personal Data Deletion](/docs/user/manual/en/setting-up/personal-data-deletion)
 
 ## 2. Articles
 ##### 2.1 Basic Setup
@@ -78,31 +87,24 @@ To get an ERP implementation right, the implementor needs to set aside time and 
 
 ##### 2.2 Data and Managing
 
-1. [Delete A Company And All Related Transactions](/docs/user/manual/en/setting-up/articles/delete-a-company-and-all-related-transactions)
-1. [Managing Header And Footer](/docs/user/manual/en/setting-up/articles/managing-header-and-footer)
-1. [Managing Multiple Companies](/docs/user/manual/en/setting-up/articles/managing-multiple-companies)
-1. [Managing Permission Level](/docs/user/manual/en/setting-up/articles/managing-perm-level/)
-1. [Managing Tree Structure Masters](/docs/user/manual/en/setting-up/articles/managing-tree-structure-masters/)
 1. [Overwriting Data From Data Import Tool](/docs/user/manual/en/setting-up/articles/overwriting-data-from-data-import-tool)
-
+1. [Delete A Company And All Related Transactions](/docs/user/manual/en/setting-up/articles/delete-a-company-and-all-related-transactions)
+1. [Managing Tree Structure Masters](/docs/user/manual/en/setting-up/articles/managing-tree-structure-masters/)
+1. [Managing Permission Level](/docs/user/manual/en/setting-up/articles/managing-perm-level/)
 
 ##### 2.3 Errors
 
 1. [Email Error](/docs/user/manual/en/setting-up/articles/email-error)
 1. [Report Permission Error](/docs/user/manual/en/setting-up/articles/report-permission-error)
 
-##### 2.4 Sales
-
-1. [Calculate Incentive For Sales Team](/docs/user/manual/en/setting-up/articles/calculate-incentive-for-sales-team)
-
-##### 2.5 Other Actions
+##### 2.4 Other Actions
 
 1. [Integrating ERPNext With Other Application](/docs/user/manual/en/setting-up/articles/integrating-erpnext-with-other-application)
 1. [Naming Series Current Value](/docs/user/manual/en/setting-up/articles/naming-series-current-value)
 1. [Using Custom Domain On ERPNext](/docs/user/manual/en/setting-up/articles/using-custom-domain-on-erpnext)
 1. [Setup Two Factor Authentication](/docs/user/manual/en/setting-up/articles/setup-two-factor-authentication)
 1. [Outgoing Email Gateway](/docs/user/manual/en/setting-up/articles/outgoing-email-gateway)
-1. [Print Format Sections](/docs/user/manual/en/setting-up/articles/print-format-sections)
+1. [Disabling Line Breaks in Print Format Sections](/docs/user/manual/en/setting-up/articles/print-format-sections)
 
 
 ## 3. Videos

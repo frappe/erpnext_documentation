@@ -94,7 +94,7 @@ Sometimes payment is not done all at once. Depending on the agreement, half of t
 To know more about Payment Terms, [click here](/docs/user/manual/en/accounts/payment-terms).
 
 ### 2.7 Terms and Conditions
-To know about Terms and Conditions, [click here](/docs/user/manual/en/selling/articles/terms-and-conditions)
+To know about Terms and Conditions, [click here](/docs/user/manual/en/setting-up/print/terms-and-conditions)
 
 ### 2.8 Print Settings
 #### Letterhead

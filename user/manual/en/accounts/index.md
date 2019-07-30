@@ -34,6 +34,7 @@ You can check out [this video](https://www.youtube.com/watch?v=5wjollWN0OA) for 
 ##### 1.3 Billing
 1. [Sales Invoice](/docs/user/manual/en/accounts/sales-invoice)
 1. [Purchase Invoice](/docs/user/manual/en/accounts/purchase-invoice)
+1. [POS Setting](/docs/user/manual/en/accounts/pos-setting)
 1. [Point Of Sales](/docs/user/manual/en/accounts/point-of-sales)
 1. [Inter Company Invoices](/docs/user/manual/en/accounts/inter-company-invoices)
 1. [Recurring Orders And Invoices](/docs/user/manual/en/accounts/recurring-orders-and-invoices)
