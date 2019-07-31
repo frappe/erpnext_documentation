@@ -67,6 +67,7 @@ You'll find the global configuration options here, for module-wise setup, visit 
 ##### 1.7 System Configuration
 1. [Show or Hide Modules](/docs/user/manual/en/setting-up/settings/show-hide-modules)
 1. [Naming Series](/docs/user/manual/en/setting-up/settings/naming-series)
+1. [Session Defaults](/docs/user/manual/en/setting-up/settings/session-defaults)
 1. [Bulk Rename](/docs/user/manual/en/setting-up/settings/bulk-rename)
 1. [Bulk Update](/docs/user/manual/en/setting-up/bulk-update)
 1. [Milestone Tracking](/docs/user/manual/en/setting-up/automation/milestone-tracker)
