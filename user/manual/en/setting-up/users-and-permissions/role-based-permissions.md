@@ -7,6 +7,7 @@ ERPNext has a role-based permission system. It means that you can assign Roles t
 
 Once roles are assigned to a user, their access can be limited to specific documents. The permission structure allows you to define different permission rules for different fields using a concept called **Permission Level** of a field. 
 
+## 1. How to use the Role Permissions Manager
 To start using the Role Permission Manager, go to:
 > Home > Users and Permissions > Role Permissions Manager
 
