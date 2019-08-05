@@ -14,5 +14,5 @@ The Hotels module in ERPNext will help you manage creating Hotel Rooms, create H
 1. [Restaurant](/docs/user/manual/en/hospitality/restaurant)
 - [Restaurant Menu](/docs/user/manual/en/hospitality/restaurant-menu)
 - [Reservations](/docs/user/manual/en/hospitality/reservations)
-- [Order Entry](/docs/user/manual/en/hospitality/reservations)
-- [Hotel Room](/docs/user/manual/en/hospitality/reservations)
+- [Order Entry](/docs/user/manual/en/hospitality/order-entry)
+- [Hotel Room](/docs/user/manual/en/hospitality/hotel-room)
