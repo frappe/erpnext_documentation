@@ -25,6 +25,7 @@ effectively manage your data and collaborate with your co-workers.
 1. [Tags](/docs/user/manual/en/using-erpnext/tags)
 1. [Desktop](/docs/user/manual/en/using-erpnext/desktop)
 1. [Keyboard Shortcuts](/docs/user/manual/en/using-erpnext/articles/keyboard-shortcuts)
+1. [Access Log](/docs/user/manual/en/using-erpnext/access-log)
 
 ## Articles
 1. [Check Link Between Documents](/docs/user/manual/en/using-erpnext/articles/check-link-between-documents)
