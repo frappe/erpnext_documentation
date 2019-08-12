@@ -18,4 +18,4 @@ People who change the world need the tools to do it! The Non Profit Modules of E
 
 ##### 3. Grant and Chapter
 1. [Grant Application](/docs/user/manual/en/non_profit/grant-application/)
-1. [Chapter](/docs/user/manual/en/non_profit/Chapter/chapter)
+1. [Chapter](/docs/user/manual/en/non_profit/chapter)
