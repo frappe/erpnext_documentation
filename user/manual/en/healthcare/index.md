@@ -14,7 +14,7 @@ Following are detailed guides on each of the functionalities ready to use in the
 1. [Appointment](/docs/user/manual/en/healthcare/appointment)
 
 ##### 2. Setup
-1. [Healthcare Settings](/docs/user/manual/en/healthcare/healthcare-settings)
+1. [Healthcare Settings](/docs/user/manual/en/healthcare/healthcare_settings)
 1. [Setup Practice](/docs/user/manual/en/healthcare/setup_practice)
 1. [Setup Inpatient](/docs/user/manual/en/healthcare/setup_inpatient)
 1. [Setup Laboratory](/docs/user/manual/en/healthcare/setup_laboratory)
