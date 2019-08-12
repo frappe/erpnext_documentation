@@ -13,7 +13,7 @@ Tax Withholding Category is simply Tax Deducted at Source. According to this, a 
 1. Add more companies and accounts as needed.
 1. Save.
 
-<img class="screenshot" alt="Tax Withholding Category" src="{{docs_base_url}}/assets/img/accounts/tax-withholding-category.png">
+<img class="screenshot" alt="Tax Withholding Category" src="{{docs_base_url}}/assets/img/accounts/tax-withholding-category-1.png">
 
 #### 1.1 How does the threshold work?
 Lets say a rate of 5% will be applicable on invoice where Single threshold is 20,000 and Cumulative threshold is 30,000. If an invoice is created with a grand total of 20,000 then the single threshold will be triggered and a 5% tax would be charged. But if the invoice amount totalled up to be 15,000 then no tax will be charged as it didn't cross the threshold. If again an invoice is created with a total of 15,000 then although it didn't cross the Single threshold, charges will be deducted since the sum of last invoice and this invoice adds up to be 30,000 which is equal to the specified Cumulative threshold.
