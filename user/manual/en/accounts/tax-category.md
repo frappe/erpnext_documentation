@@ -24,6 +24,6 @@ Tax Category is automatically determined in a transaction by either the Party Ad
 ## 3. What effect does the Tax Category have in a transaction?
 
   * Specific Item Tax Templates for that Tax Category are automatically set for items.
-  * You can create [Tax Rules]({{docs_base_url}}/user/manual/en/accounts/setup/tax-rule)
+  * You can create [Tax Rules]({{docs_base_url}}/user/manual/en/accounts/tax-rule)
   to automatically set a specific Sales / Purchase Taxes and Charges Template based on different Tax Categories
   in transactions.
