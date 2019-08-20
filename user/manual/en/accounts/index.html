@@ -1,0 +1,165 @@
+<!-- title: ERPNext User Manual (English) -->
+{% from "frappe_theme/templates/includes/docs.html" import cards, hero, signup_footer %}
+
+<section class='hero-bg'>
+	<div class='container text-center'>
+		<h1>Accounting</h1>
+		<p class='lead'>Manage accounts, transactions and taxes easily with ERPNext</p>
+	</div>
+</section>
+<section class='section-bg section-sm'>
+	<div class='container'>
+		<h4 class='mb-0'>Introduction and Setting Up</h4>
+		{{ cards([
+			{
+				'title': 'Accounting Entries',
+				'content': 'Accounting entries are key sources of information used to prepare, verify and/or audit your financial statements.',
+				'link': '/docs/user/manual/en/accounts/accounting-entries',
+			},
+			{
+				'title': 'Chart of Accounts',
+				'content': 'Chart of Accounts is a tree view of Accounts and Ledgers that is required to manage your books of accounts.',
+				'link': '/docs/user/manual/en/accounts/chart-of-accounts',
+			},
+			{
+				'title': 'Account Dimensions',
+				'content': 'Dimensional accounting allows you to separately maintain multiple segments like Branch, Business Unit, etc.',
+				'link': '/docs/user/manual/en/accounts/accounting-dimensions',
+			}
+		])}}
+	</div>
+</section>
+<section class='section-sm section-light'>
+	<div class='container'>
+		<h4>Journals and Payments</h4>
+		{{ cards([
+			{
+				'title': 'Journal Entry',
+				'link': '/docs/user/manual/en/accounts/journal-entry',
+				'content': 'A standard accounting transaction that affects multiple Accounts and the sum of debits is equal to the sum of credits.'
+			},
+			{
+				'title': 'Payment Entry',
+				'link': '/docs/user/manual/en/accounts/payment-entry',
+				'content': 'Accounting entries that can be made against invoices, sales and purchase orders, expense claims, etc.'
+			},
+			{
+				'title': 'Payments',
+				'link': '/docs/user/manual/en/accounts/payments',
+				'content': 'Tracking presales process from Lead capturing, tracking open Opportunities, to emails and calls'
+			},
+			{
+				'title': 'Payment Request',
+				'link': '/docs/user/manual/en/accounts/payment-request',
+				'content': 'Selling covers sales operations like Quotations (Offers), Sales Orders and Delivery tracking'
+			},
+			{
+				'title': 'Advance Payment Entry',
+				'link': '/docs/user/manual/en/accounts/advance-payment-entry',
+				'content': 'Leave and Attendance Tracking, Expense Claims, Salary and Payroll, Recruitment, Performance and more'
+			},
+		])
+		}}
+	</div>
+</section>
+<section class='section-bg section-sm'>
+	<div class='container'>
+		<h4>Billing and Pricing</h4>
+		{{
+			cards([
+				{
+					'title': 'Sales Invoice',
+					'link': '/docs/user/manual/en/accounts/sales-invoice',
+					'content': 'A Sales Invoice is a bill that you send to your customers, On submission receivables are updated and income is booked.'
+				},
+				{
+					'title': 'Purchase Invoice',
+					'link': '/docs/user/manual/en/accounts/purchase-invoice',
+					'content': 'It is the bill that your Supplier sends you for products or services delivered. Here you accrue expenses to your Supplier'
+				},
+				{
+					'title': 'Point Of Sales',
+					'link': '/docs/user/manual/en/accounts/point-of-sales',
+					'content': 'For retail operations, the delivery of goods, accrual of sale and payment all happens in one event, Point of Sale (POS).'
+				},
+				{
+					'title': 'Credit Note',
+					'link': '/docs/user/manual/en/accounts/credit-note',
+					'content': 'A credit note is a document sent to the customer, notifying that a credit has been made to their account against the goods returned.'
+				},
+				{
+					'title': 'Debit Note',
+					'link': '/docs/user/manual/en/accounts/debit-note',
+					'content': 'A debit note is a document sent by a buyer to a seller which notifies that a debit has been made to their accounts.'
+				},
+				{
+					'title': 'Pricing Rule',
+					'link': '/docs/user/manual/en/accounts/pricing-rule',
+					'content': 'Pricing Rule is a master where you can define rules based on which discount is applied to specific Customer or Supplier.'
+				}
+			])
+		}}
+	</div>
+</section>
+<section class='section-sm section-light'>
+	<div class='container'>
+		<h4>Tools</h4>
+		{{
+			cards([
+				{
+					'title': 'Bank Reconciliation',
+					'link': '/docs/user/manual/en/accounts/bank-reconciliation',
+					'content': 'This explains the difference on a specified date between the bank balance shown in an organization\'s bank statement,'
+				},
+				{
+					'title': 'Payment Reconciliation',
+					'link': '/docs/user/manual/en/accounts/payment-reconciliation',
+					'content': 'Helps confirms whether the money leaving an account matches the amount that\'s been spent, and ensures the two are balanced at the end of the recording period'
+				},
+				{
+					'title': 'Accounting Reports',
+					'link': '/docs/user/manual/en/accounts/accounting-reports',
+					'content': 'ERPNext Accounting module has multiple built in reports like Profit and Loss, Balance Sheet, etc.'
+				}
+			])
+		}}
+	</div>
+</section>
+<section class='section-bg section-sm'>
+	<div class='container'>
+		<h4>Advanced Accounting</h4>
+		{{
+			cards([
+				{
+					'title': 'Multi Currency Accounting',
+					'link': '/docs/user/manual/en/accounts/multi-currency-accounting',
+					'content': 'You can make accounting entries in multiple currencies, you can have a bank account in foreign currency and make transactions in that currency.'
+				},
+				{
+					'title': 'Deferred Revenue',
+					'link': '/docs/user/manual/en/accounts/deferred-revenue',
+					'content': 'It is the advance payments a company receives for products or services that are to be delivered or performed in the future. '
+				},
+				{
+					'title': 'Subscription',
+					'link': '/docs/user/manual/en/accounts/subscription',
+					'content': 'For services sold which requires renewal in the certain time period, Subscription feature auto-creates Sales Invoices for your customers.'
+				},
+				{
+					'title': 'Invoice Discounting',
+					'link': '/docs/user/manual/en/accounts/invoice_discounting',
+					'content': 'Invoice discounting is the practice of using a company\'s unpaid sales invoices as collateral for a short term loan, which is issued by a bank or a finance company. '
+				},
+				{
+					'title': 'Shareholder',
+					'link': '/docs/user/manual/en/accounts/shareholder',
+					'content': 'ERPNext allows you to keep a track of all your Shareholders and maintain Share Transfers, Share Ledger and Share Balances.'
+				}
+			])
+		}}
+	<p class="mt-4 text-center">
+		<a href="/docs/user/manual/en/accounts/content" class="text-muted">View Table of Contents</a>
+	</p>
+	</div>
+</section>
+{{ signup_footer() }}
