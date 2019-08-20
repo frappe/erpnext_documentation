@@ -1,0 +1,73 @@
+{% from "frappe_theme/templates/includes/docs.html" import cards, hero %}
+
+<section class='section'>
+	<div class='container'>
+		<h1 class='text-center'>ERPNext Documentation</h1>
+		<p class='lead text-center mb-3'>ERPNext is s comprehensive platform explanation of all
+			features from Finanical Accounting to Portals.</p>
+{{ cards([
+	{
+		'title': 'Manual in English',
+		'content': 'The ERPNext Manual convers everything you want to know about configuring and using ERPNext',
+		'link': '/docs/user/manual/en',
+		'badge': 'Official',
+		'badge_style': 'primary'
+	},
+	{
+		'title': 'Handbuch in Deutsch',
+		'content': 'Das ERPNext Handbuch enthält alle Informationen zur Konfiguration und Verwendung von ERPNext',
+		'link': '/docs/user/manual/de',
+		'badge': 'Community'
+	},
+	{
+		'title': 'Manual en Español',
+		'content': 'El Manual ERPNext convierte todo lo que desea saber sobre la configuración y el uso de ERPNext',
+		'link': '/docs/user/manual/es',
+		'badge': 'Community'
+	},
+]) }}
+	</div>
+</section>
+
+<section class='section-bg'>
+	<div class='container'>
+		<h3 class='text-center'>Developer Documentation</h3>
+		<p class='lead text-center'>Learn more about Frappe Framework, the framework on which ERPNext is built</p>
+		{{ cards([
+			{
+				'title': 'Frappe Framework',
+				'content': 'ERPNext is built using the Frappe Framework, a fully featured web framework in Python and Javascript',
+				'link': 'https://frappe.io/docs'
+			},
+			{
+				'title': 'Tutorial',
+				'content': 'Learn the framework architecture by understanding how to build custom apps that can extend ERPNext',
+				'link': 'https://frappe.io/docs/user/en/tutorial'
+			},
+			{
+				'title': 'Developer API',
+				'content': 'Learn about how to build integrations and extensions for ERPNext by using the Developer API',
+				'link': 'https://frappe.io/docs/user/en/api'
+			}
+		]) }}
+	</div>
+</section>
+
+<section>
+	<div class='container'>
+		<div class='w-600'>
+			<h3>Feedback</h3>
+			<p>
+				ERPNext is Open Source under the GNU General Public Licence v3 and has been
+				listed as one of the Best Open Source Softwares in the world by many online
+				blogs.<br><br>
+
+				You're encouraged to help improve the quality of this documentation, by
+				sending a pull request on the <a href="https://github.com/frappe/erpnext_com">GitHub Repository</a>.
+				If you would like to have a discussion regarding the documentation,
+				you can do so <a href="https://discuss.erpnext.com">at the forum</a>.
+			</p>
+		</div>
+	</div>
+</section>
+

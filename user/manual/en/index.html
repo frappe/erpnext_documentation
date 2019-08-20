@@ -1,0 +1,179 @@
+<!-- title: ERPNext User Manual (English) -->
+{% from "frappe_theme/templates/includes/docs.html" import cards, hero %}
+
+<section class='hero-bg'>
+    <div class='container text-center'>
+        <h1>User Manual (English)</h1>
+        <p class='lead'>Explore modules to delve deep into ERPNext features</p>
+    </div>
+</section>
+<section class='section-bg section-sm'>
+    <div class='container'>
+        <h4 class='mb-0'>Basics</h4>
+        {{ cards([
+            {
+                'title': 'Introduction',
+                'content': 'Introduction to ERPNext and things to understand before you start your implementation',
+                'link': '/docs/user/manual/en/introduction',
+            },
+            {
+                'title': 'Setting Up',
+                'content': 'Learn how to configure ERPNext for your company and organization structure',
+                'link': '/docs/user/manual/en/setting-up',
+            },
+            {
+                'title': 'Using ERPNext',
+                'content': 'Learn how to navigate your way around the user interface and helpful utilities',
+                'link': '/docs/user/manual/en/using-erpnext',
+            }
+        ])}}
+    </div>
+</section>
+<section class='section-sm section-light'>
+    <div class='container'>
+        <h4>Core Modules</h4>
+        {{ cards([
+            {
+                'title': 'Accounts',
+                'link': '/docs/user/manual/en/accounts',
+                'content': 'Financial accounting from setup to billing, journals, ledgers and reports'
+            },
+            {
+                'title': 'Stock',
+                'link': '/docs/user/manual/en/stock',
+                'content': 'Inventory management with hierarchical location tree, stock movements, serials and batches'
+            },
+            {
+                'title': 'CRM',
+                'link': '/docs/user/manual/en/CRM',
+                'content': 'Tracking presales process from Lead capturing, tracking open Opportunities, to emails and calls'
+            },
+            {
+                'title': 'Selling',
+                'link': '/docs/user/manual/en/selling',
+                'content': 'Selling covers sales operations like Quotations (Offers), Sales Orders and Delivery tracking'
+            },
+            {
+                'title': 'Buying',
+                'link': '/docs/user/manual/en/buying',
+                'content': 'Manage purchasing in ERPNext right from material requisition, supplier quotes to Purchase Orders'
+            },
+            {
+                'title': 'Human Resources',
+                'link': '/docs/user/manual/en/human-resources',
+                'content': 'Leave and Attendance Tracking, Expense Claims, Salary and Payroll, Recruitment, Performance and more'
+            },
+            {
+                'title': 'Projects',
+                'link': '/docs/user/manual/en/projects',
+                'content': 'Project and task management with full integration with billing and cost centers'
+            },
+            {
+                'title': 'Support',
+                'link': '/docs/user/manual/en/support',
+                'content': 'Track customer tickets and issues, maintain server levels and track response and resolutions'
+            },
+            {
+                'title': 'Asset',
+                'link': '/docs/user/manual/en/asset',
+                'content': 'Fixed asset management and tracking with depreciation, asset allocation and movement tracking'
+            },
+            {
+                'title': 'Quality',
+                'link': '/docs/user/manual/en/quality-management',
+                'content': 'Quality management system with procedures, goals, tracking and reviewing'
+            },
+        ])
+        }}
+    </div>
+</section>
+<section class='section-bg section-sm'>
+    <div class='container'>
+        <h4>Industry Modules</h4>
+        {{
+            cards([
+                {
+                    'title': 'Manufacturing',
+                    'link': '/docs/user/manual/en/manufacturing',
+                    'content': 'Manage multi-level Bill of Materials, plan and track production with Work Orders',
+                },
+                {
+                    'title': 'Education',
+                    'link': '/docs/user/manual/en/education',
+                    'content': 'Manage the entire life cycle of a student from admission, enrollment to attendance and assessment',
+                },
+                {
+                    'title': 'Healthcare',
+                    'link': '/docs/user/manual/en/healthcare',
+                    'content': 'Track patients and their reports with appointments, consultations and lab reports',
+                },
+                {
+                    'title': 'Agriculture',
+                    'link': '/docs/user/manual/en/agriculture',
+                    'content': 'Manage multiple farms, crops, growing cycles, crop diseases and much more',
+                    'badge': 'beta',
+                },
+                {
+                    'title': 'Non Profit',
+                    'link': '/docs/user/manual/en/non_profit',
+                    'content': 'Track members, memberships, volunteers, grants for your non profit',
+                    'badge': 'beta',
+                },
+                {
+                    'title': 'Hospitality',
+                    'link': '/docs/user/manual/en/hospitality',
+                    'content': 'Mangement multiple restaurants and hotels with table and room booking (beta)',
+                    'badge': 'beta'
+                },
+            ])
+        }}
+    </div>
+</section>
+<section class='section-sm section-light'>
+    <div class='container'>
+        <h4>Customization and Integrations</h4>
+        {{
+            cards([
+                {
+                    'title': 'Customize ERPNext',
+                    'link': '/docs/user/manual/en/customize-erpnext',
+                    'content': 'Learn how to customize ERPNext with custom fields, print formats, custom scripts etc'
+                },
+                {
+                    'title': 'Regional',
+                    'link': '/docs/user/manual/en/regional',
+                    'content': 'ERPNext has built-in integration support for many regions like India, United States, UAE, Italy'
+                },
+                {
+                    'title': 'Integrations',
+                    'link': '/docs/user/manual/en/erpnext_integration',
+                    'content': 'Learn how to leverage built-in integrations to payment gateways, Google, AWS and more'
+                },
+                {
+                    'title': 'Developer',
+                    'link': 'https://frappe.io/docs',
+                    'content': 'Learn how to extend and contribute to ERPNext or build your own extension'
+                }
+            ])
+        }}
+    </div>
+</section>
+<section class='section-bg section-sm'>
+    <div class='container'>
+        <h4>Website and Portals</h4>
+        {{
+            cards([
+                {
+                    'title': 'Website',
+                    'link': '/docs/user/manual/en/website',
+                    'content': 'Manage your website pages, product catalog, shopping cart, web forms and more with the built-in portal'
+                },
+                {
+                    'title': 'Portals',
+                    'link': '/docs/user/manual/en/customer-portal',
+                    'content': 'Let your customers and vendors directly shop online, submit bids etc with ERPNext Portals'
+                }
+            ])
+        }}
+    </div>
+</section>
