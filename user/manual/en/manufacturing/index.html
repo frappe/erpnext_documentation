@@ -1,0 +1,140 @@
+{% set doc=[
+	{
+		"links": [
+			{
+				"content": "<img class=\"screenshot\" alt=\"BOM\" src=\"{{docs_base_url}}/assets/img/manufacturing/BOM-hero.png\">",
+				"link": "/docs/user/manual/en/manufacturing/introduction",
+				"title": "Introduction"
+			},
+			{
+				"content": "Manufacturing Settings can be found at:",
+				"link": "/docs/user/manual/en/manufacturing/manufacturing-settings",
+				"title": "Manufacturing Settings"
+			}
+		],
+		"title": "Basic and Setup"
+	},
+	{
+		"links": [
+			{
+				"content": "At the heart of the Manufacturing system is the **Bill of Materials** (BOM).\nThe **BOM** is a list of all materials (either bought or made) and operations\nthat go into a finished product or sub-Item. In ERPNext, the component could\nhave its own BOM hence forming a tree of Items with multiple levels.",
+				"link": "/docs/user/manual/en/manufacturing/bill-of-materials",
+				"title": "Bill Of Materials"
+			},
+			{
+				"content": "### Workstation",
+				"link": "/docs/user/manual/en/manufacturing/workstation",
+				"title": "Workstation"
+			},
+			{
+				"content": "### Operation",
+				"link": "/docs/user/manual/en/manufacturing/operation",
+				"title": "Operation"
+			}
+		],
+		"title": "Bill of Materials"
+	},
+	{
+		"links": [
+			{
+				"content": "<img class=\"screenshot\" alt=\"Work Order\" src=\"{{docs_base_url}}/assets/img/manufacturing/manufacturing-flow.png\">\nA Work Order is a document that is given to\nthe manufacturing shop floor by the Production Planner as a signal to produce\na certain quantity of a certain Item. The Work Order also helps to generate\nthe material requirements (Stock Entry) for the Item to be produced from its\n**Bill of Materials**.",
+				"link": "/docs/user/manual/en/manufacturing/work-order",
+				"title": "Work Order"
+			},
+			{
+				"content": "Production Plan helps the user to plan production against multiple Sales Orders or the Material Requests. Also, it helps in Material Procurement planning for the raw-material item, based on the quantity of finished product to be manufactured.",
+				"link": "/docs/user/manual/en/manufacturing/production-plan",
+				"title": "Production Plan"
+			},
+			{
+				"content": "A Job Card is created from the Work Order and given to each of the workstation in the manufacturing floor to start the production of an item with a certain quantity in each of the operations defined in the Work Order.",
+				"link": "/docs/user/manual/en/manufacturing/job-card",
+				"title": "Job Card"
+			},
+			{
+				"content": "A nice introduction",
+				"link": "/docs/user/manual/en/selling/manufacturing-work-in-progress",
+				"title": "Manufacturing Work In Progress Report"
+			}
+		],
+		"title": "Production"
+	},
+	{
+		"links": [
+			{
+				"content": "Subcontracting is a type of job contract that seeks to outsource certain types\nof work to other companies. It allows work on more than one phase of the\nproject to be done at once, often leading to a quicker completion.\nSubcontracting is practiced by various industries. For example, manufacturers\nmaking a number of products from complex components subcontract certain\ncomponents and package them at their facilities.  ",
+				"link": "/docs/user/manual/en/manufacturing/subcontracting",
+				"title": "Subcontracting"
+			},
+			{
+				"content": "Item alternative feature is very useful in manufacturing industries, if the raw material defined in the BOM is not available during the production process then their respective available alternative item used to complete the production process.",
+				"link": "/docs/user/manual/en/manufacturing/item-alternative",
+				"title": "Item Alternative"
+			},
+			{
+				"content": "From BOM Update Tool, you can replace a sub-assembly BOM and update costs of all BOMs.",
+				"link": "/docs/user/manual/en/manufacturing/bom-update-tool",
+				"title": "BOM Update Tool"
+			}
+		],
+		"title": "Advanced"
+	},
+	{
+		"links": [
+			{
+				"content": "if you need Production Planning Tool to consider raw-materials required for the manufacturing of sub-assembly items selected in the BOM, please check following instructions to achieve the same.",
+				"link": "/docs/user/manual/en/manufacturing/articles/production-planning-subassembly",
+				"title": "Production Planning Subassembly"
+			},
+			{
+				"content": "Capacity Planning functionality helps you in tracking production jobs allocated on each Workstation.",
+				"link": "/docs/user/manual/en/manufacturing/articles/capacity-planning",
+				"title": "Capacity Planning"
+			},
+			{
+				"content": "We can easily identify the progress of manufacturing of certain items in our organizations using Open Work Orders in ERPNext.",
+				"link": "/docs/user/manual/en/manufacturing/articles/open-work-orders",
+				"title": "Open Work Orders"
+			}
+		],
+		"title": "Production"
+	},
+	{
+		"links": [
+			{
+				"content": "**Question:** Our manufacturing process involves producing sub-assembly items before final product. How should we manage BOM master in this scenario?",
+				"link": "/docs/user/manual/en/manufacturing/articles/nested-bom-structure",
+				"title": "Nested BOM Structure"
+			},
+			{
+				"content": "**Question:** What are for various options in `Valuation Based On` in the Bill Of Materials (BOM)? ",
+				"link": "/docs/user/manual/en/manufacturing/articles/valuation-based-on-field-in-bom",
+				"title": "Valuation Based On Field In BOM"
+			}
+		],
+		"title": "Bill of Materials"
+	},
+	{
+		"links": [
+			{
+				"content": "Material Consumption functionality allows you to have multiple consumption `Stock Entry` against a Work Order. To enable this, go to Manufacturing > Manufacturing Settings.",
+				"link": "/docs/user/manual/en/manufacturing/articles/material_consumption",
+				"title": "Material Consumption"
+			},
+			{
+				"content": "In Contract Manufacturing, in some cases Customer provides specific items as one or few of the BOM components. These items cannot be received using a `Buying Cycle` since that will mean making Customer as a Supplier at the same time and it will go through each doctype in the cycle.",
+				"link": "/docs/user/manual/en/manufacturing/articles/customer-provided-items",
+				"title": "Customer Provided Items"
+			},
+			{
+				"content": "Scrap means waste that either has no economic value or only the value of its basic material content recoverable through recycling.",
+				"link": "/docs/user/manual/en/manufacturing/articles/scrap-management",
+				"title": "Scrap Management"
+			}
+		],
+		"title": "Others"
+	}
+] %}
+
+{% from 'erpnext_com/templates/includes/macros.html' import doc_page %}
+{{ doc_page('Manufacturing', 'Subtitle', doc) }}
