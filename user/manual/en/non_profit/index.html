@@ -1,0 +1,65 @@
+{% set doc=[
+	{
+		"links": [
+			{
+				"content": "The Member doctype allows you to record the Member details for a **Membership**.",
+				"link": "/docs/user/manual/en/non_profit/member",
+				"title": "Member"
+			},
+			{
+				"content": "Membership Types are a basic building block for membership management. Typically an organization will set up a membership type for each of the different memberships that they offer. For the simplest membership structures, one membership type may be enough. For more complex membership structures, more membership types may be required. For example, an organisation may define three membership types for 'regular', 'student', and 'honorary' members. Or an organization may choose to use membership types as subcriptions to their different publications, either free or paying ones.",
+				"link": "/docs/user/manual/en/non_profit/membership_type",
+				"title": "Membership Type"
+			},
+			{
+				"content": "The Membership doctype allows you to record membership details for the **Member**.",
+				"link": "/docs/user/manual/en/non_profit/membership",
+				"title": "Membership"
+			}
+		],
+		"title": "Membership"
+	},
+	{
+		"links": [
+			{
+				"content": "Volunteer Types are a basic building block for Volunteering management. Typically an organization will set up a volunteer type for each of the different donation that they offer. For example, an organisation may define three volunteer types for 'regular', 'Student', and 'Member' donor.",
+				"link": "/docs/user/manual/en/non_profit/volunteer_type",
+				"title": "Volunteer Type"
+			},
+			{
+				"content": "The Volunteer doctype allows you to record the Volunter details.",
+				"link": "/docs/user/manual/en/non_profit/volunteer",
+				"title": "Volunteer"
+			},
+			{
+				"content": "A donor in general is a person, organization or government who donates something voluntarily. The term is usually used to represent a form of pure altruism but sometimes used when the payment for a service is recognized by all parties as representing less than the value of the donation and that the motivation is altruistic. In business law, a donor is someone who is giving the gift (law), and a donee the person receiving the gift.",
+				"link": "/docs/user/manual/en/non_profit/donor",
+				"title": "Donor"
+			},
+			{
+				"content": "The Donor Type doctype allows you to Create different Donor Profile for the Donor.",
+				"link": "/docs/user/manual/en/non_profit/donor_type",
+				"title": "Donor Type"
+			}
+		],
+		"title": "Volunteers and Donors"
+	},
+	{
+		"links": [
+			{
+				"content": "Grant Application is designed to be used by organisations that distribute funds to others, for example grant seeker, etc.",
+				"link": "/docs/user/manual/en/non_profit/grant-application/",
+				"title": "Grant Application"
+			},
+			{
+				"content": "The Chapter doctype allows you to record the Chapter details.",
+				"link": "/docs/user/manual/en/non_profit/chapter",
+				"title": "Chapter"
+			}
+		],
+		"title": "Grant and Chapter"
+	}
+] %}
+
+{% from 'erpnext_com/templates/includes/macros.html' import doc_page %}
+{{ doc_page('Title', 'Subtitle', doc) }}
