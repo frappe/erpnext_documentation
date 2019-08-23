@@ -1,0 +1,60 @@
+{% set doc=[
+	{
+		"links": [
+			{
+				"content": "> Introduced in Version 12",
+				"link": "/docs/user/manual/en/quality-management/quality_goal",
+				"title": "Quality Goal"
+			},
+			{
+				"content": "> Introduced in Version 12",
+				"link": "/docs/user/manual/en/quality-management/quality_procedure",
+				"title": "Quality Procedure"
+			},
+			{
+				"content": "> Introduced in Version 12",
+				"link": "/docs/user/manual/en/quality-management/tree_of_procedure",
+				"title": "Tree Of Procedure"
+			}
+		],
+		"title": "Goal and Procedure"
+	},
+	{
+		"links": [
+			{
+				"content": "> Introduced in Version 12",
+				"link": "/docs/user/manual/en/quality-management/quality_review",
+				"title": "Quality Review"
+			},
+			{
+				"content": "> Introduced in Version 12",
+				"link": "/docs/user/manual/en/quality-management/quality_action",
+				"title": "Quality Action"
+			}
+		],
+		"title": "Review and Action"
+	},
+	{
+		"links": [
+			{
+				"content": "> Introduced in Version 12",
+				"link": "/docs/user/manual/en/quality-management/quality_meeting",
+				"title": "Quality Meeting"
+			}
+		],
+		"title": "Meeting"
+	},
+	{
+		"links": [
+			{
+				"content": "**Quality Feedback is the information that a Customer expresses about the satisfaction or dissatisfaction about the products or services you offer.**",
+				"link": "/docs/user/manual/en/quality-management/quality_feedback",
+				"title": "Quality Feedback"
+			}
+		],
+		"title": "Feedback"
+	}
+] %}
+
+{% from 'erpnext_com/templates/includes/macros.html' import doc_page %}
+{{ doc_page('Quality Management', 'Subtitle', doc) }}
