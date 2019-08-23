@@ -1,0 +1,65 @@
+{% set doc=[
+	{
+		"links": [
+			{
+				"content": "Asset record is the heart of fixed asset management feature. All the transactions related to an Asset like purchasing, sales, depreciation, scrapping, movement or maintenance will be managed against the Asset record.",
+				"link": "/docs/user/manual/en/asset/asset",
+				"title": "Asset"
+			},
+			{
+				"content": "To perform Asset Maintenance in ERPNext:",
+				"link": "/docs/user/manual/en/asset/asset-maintenance",
+				"title": "Asset Maintenance"
+			},
+			{
+				"content": "In ERPNext, you can track the location of an asset or to whom it is issued. For tracking, you need to create an Asset Movement transaction, whenever the asset is moved from one location to another. You can also keep a track of issuance of an asset to any employee.",
+				"link": "/docs/user/manual/en/asset/asset-movement",
+				"title": "Asset Movement"
+			}
+		],
+		"title": "Asset Management"
+	},
+	{
+		"links": [
+			{
+				"content": "In case of fixed asset management, sometimes the value of an asset needs some adjustment. For example, if a laptop got damaged some reason, and it's value will be dropped instantly. And in that case, we have to readjust the value of the asset.",
+				"link": "/docs/user/manual/en/asset/asset-value-adjustment",
+				"title": "Asset Value Adjustment"
+			},
+			{
+				"content": "For purchasing a new asset, first you have to create Asset Category and related Item record for the asset. Then the normal purchase cycle should be followed for purchasing an asset. In [Purchase Receipt](/docs/user/manual/en/stock/purchase-receipt) or [Purchase Invoice](/docs/user/manual/en/accounts/purchase-invoice) through which you are receiving the item, you have to enter \"Asset Location\". And on submission of a Purchase Receipt, an asset record will be created automatically. You can then enter other details of the asset manually from the Asset record.",
+				"link": "/docs/user/manual/en/asset/purchasing-an-asset",
+				"title": "Purchasing an Asset"
+			},
+			{
+				"content": "To sell an asset, open the asset record and clicking on the \"Sell Asset\" button. This will lead you to a [Sales Invoice](/docs/user/manual/en/accounts/sales-invoice). Enter details like Customer, Payment Due Date, and Debit To account in the Sales invoice and submit it.",
+				"link": "/docs/user/manual/en/asset/selling-an-asset",
+				"title": "Selling an Asset"
+			}
+		],
+		"title": "Asset Transactions"
+	},
+	{
+		"links": [
+			{
+				"content": "The system automatically creates a schedule for depreciation based on depreciation method and other related inputs like Available to Use Date in the Asset record. It is also possible to create multiple depreciation schedules for different Finance Books. You need to tick the 'Calculate Depreciation' checkbox while creating an asset for calculating its depreciation and adding entries to the depreciation table in the Asset record.",
+				"link": "/docs/user/manual/en/asset/asset-depreciation",
+				"title": "Asset Depreciation"
+			},
+			{
+				"content": "When an asset is no longer usable, it should be scrapped. You can scrap an asset anytime using the 'Scrap Asset' button in the Asset record.",
+				"link": "/docs/user/manual/en/asset/scrapping-an-asset",
+				"title": "Scrapping an Asset"
+			}
+		],
+		"title": "Discarding Assets"
+	}
+] %}
+
+{% from "erpnext_com/templates/includes/macros.html" import doc_page %}
+
+{{ doc_page(
+	'Asset',
+	'Manage all your inventory',
+	doc
+) }}
