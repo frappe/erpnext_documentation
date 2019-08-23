@@ -1,0 +1,330 @@
+{% set doc=[
+	{
+		"links": [
+			{
+				"content": "Distributors have a large part of their financial resources invested in the stock items they trade. With ERPNext, you can always keep a birds eye view on your stock availability, replenishment, procurement, and sales.",
+				"link": "/docs/user/manual/en/stock/introduction",
+				"title": "Introduction"
+			},
+			{
+				"content": "A warehouse is a commercial building for storage of goods. Warehouses are used\nby manufacturers, importers, exporters, wholesalers, transport businesses,\ncustoms, etc. They are usually large plain buildings in industrial areas of\ncities, towns, and villages. They mostly have loading docks to load and unload\ngoods from trucks.",
+				"link": "/docs/user/manual/en/stock/warehouse",
+				"title": "Warehouse"
+			},
+			{
+				"content": "**An Item is a product or a service offered by your company.**",
+				"link": "/docs/user/manual/en/stock/item",
+				"title": "Item"
+			},
+			{
+				"content": "**Opening Stock is the amount and value of materials that a company has available for sale or use at the beginning of an accounting period.**",
+				"link": "/docs/user/manual/en/stock/opening-stock",
+				"title": "Opening Stock"
+			},
+			{
+				"content": "The value of available inventory is treated as an Asset in the company's [Chart of\nAccounts](/docs/user/manual/en/accounts/chart-of-accounts). To prepare a Balance Sheet, you should make the accounting entries for those assets. There are generally two different methods of\naccounting for inventory.",
+				"link": "/docs/user/manual/en/stock/accounting-of-inventory-stock",
+				"title": "Accounting Of Inventory Stock"
+			}
+		],
+		"title": "Basics"
+	},
+	{
+		"links": [
+			{
+				"content": "**An Item Variant is a version of an Item with different attributes like sizes or colors.**",
+				"link": "/docs/user/manual/en/stock/item-variants",
+				"title": "Item Variants"
+			},
+			{
+				"content": "You can define Attributes and attribute values for your Item Variants here.",
+				"link": "/docs/user/manual/en/stock/item-attribute",
+				"title": "Item Attribute"
+			}
+		],
+		"title": "Item Variants"
+	},
+	{
+		"links": [
+			{
+				"content": "You can set default settings for your stock related transactions here.",
+				"link": "/docs/user/manual/en/stock/stock-settings",
+				"title": "Stock Settings"
+			},
+			{
+				"content": "**Item Price is the record in which you can log the selling and buying rate of an item.**",
+				"link": "/docs/user/manual/en/stock/item-price",
+				"title": "Item Price"
+			},
+			{
+				"content": "**An Item Group is a way to classify items based on types.**",
+				"link": "/docs/user/manual/en/stock/item-group",
+				"title": "Item Group"
+			},
+			{
+				"content": "**A Price List is a collection of Item Prices either selling, buying, or both.**",
+				"link": "/docs/user/manual/en/stock/price-lists",
+				"title": "Price Lists"
+			}
+		],
+		"title": "Setup"
+	},
+	{
+		"links": [
+			{
+				"content": "A Stock Entry is a simple document that lets you record Item movement from a\nWarehouse, to a Warehouse and between Warehouses.",
+				"link": "/docs/user/manual/en/stock/stock-entry",
+				"title": "Stock Entry"
+			},
+			{
+				"content": "A Material Request is a simple document identifying a requirement of a set of\nItems (products or services) for a particular reason.",
+				"link": "/docs/user/manual/en/stock/material-request",
+				"title": "Material Request"
+			},
+			{
+				"content": "Purchase Receipts are made when you accept material from your Supplier usually\nagainst a Purchase Order.",
+				"link": "/docs/user/manual/en/stock/purchase-receipt",
+				"title": "Purchase Receipt"
+			},
+			{
+				"content": "A Delivery Note is made when a shipment is shipped from the company\u2019s\nWarehouse.",
+				"link": "/docs/user/manual/en/stock/delivery-note",
+				"title": "Delivery Note"
+			},
+			{
+				"content": "A packing slip is a document listing the items in a shipment. Usually attached to the goods delivered.\nWhile Shipping a product 'Draft' for Delivery Notes are created.\nYou can make a Packing Slip from these Delivery Notes (Draft)",
+				"link": "/docs/user/manual/en/stock/packing-slip",
+				"title": "Packing Slip"
+			},
+			{
+				"content": "A sample of a batch of starting material, packaging material or finished product is stored for the purpose of being analyzed should the need arise later.",
+				"link": "/docs/user/manual/en/stock/retain-sample-stock",
+				"title": "Retaining Sample Stock"
+			},
+			{
+				"content": "Landed Cost is the total cost of a product to reach the product at the buyer\u2019s door. Landed costs include the original cost of the item, complete shipping costs, customs duties, taxes, insurance and currency conversion fees etc. All of these components might not be applicable in every shipment, but relevant components must be considered as a part of the landed cost.",
+				"link": "/docs/user/manual/en/stock/landed-cost-voucher",
+				"title": "Landed Cost Voucher"
+			}
+		],
+		"title": "Stock Transactions"
+	},
+	{
+		"links": [
+			{
+				"content": "As we discussed in the **Item** section, if an **Item** is _serialized_, a\n**Serial Number** (Serial No) record is maintained for each quantity of that\n**Item**. This information is helpful in tracking the location of the Serial\nNo, its warranty and end-of-life (expiry) information.",
+				"link": "/docs/user/manual/en/stock/serial-no",
+				"title": "Serial Number"
+			},
+			{
+				"content": "Batch feature in ERPNext allows you to group multiple units of an item,\nand assign them a unique value/number/tag called Batch No.",
+				"link": "/docs/user/manual/en/stock/batch",
+				"title": "Batch"
+			},
+			{
+				"content": "An Installation Note can be created when a product/item is being installed or set up at the customer's place. \nFor example, if you sell a Washing Machine, a service person generally accompanies the delivery to install \nthe machine at the customer\u2019s place. The service person can create an \u201cInstallation Note\u201d, to track the date \nand details of the installation.",
+				"link": "/docs/user/manual/en/stock/installation-note",
+				"title": "Installation Note"
+			}
+		],
+		"title": "Serial and Batch Number"
+	},
+	{
+		"links": [
+			{
+				"content": "In ERPNext, you can mark your incoming or outgoing products for Quality\nInspection. To enable ERPNext to perform this function, go to:",
+				"link": "/docs/user/manual/en/stock/quality-inspection",
+				"title": "Quality Inspection"
+			},
+			{
+				"content": "**Stock Reconciliation is the process of counting and evaluating material/products, periodically and at year end in order to:**",
+				"link": "/docs/user/manual/en/stock/stock-reconciliation",
+				"title": "Stock Reconciliation"
+			}
+		],
+		"title": "Tools"
+	},
+	{
+		"links": [
+			{
+				"content": "Goods sold being returned happens commonly in business. They could\nbe returned by the customer on quality issues, non-delivery on agreed date, or\nany other reason. ",
+				"link": "/docs/user/manual/en/stock/sales-return",
+				"title": "Sales Return"
+			},
+			{
+				"content": "ERPNext has an option for products that are need to be returned to the\nsupplier. This may be on account of a number of reasons like defects in goods,\nquality not matching, the buyer not needing the stock, etc.",
+				"link": "/docs/user/manual/en/stock/purchase-return",
+				"title": "Purchase Return"
+			}
+		],
+		"title": "Return"
+	},
+	{
+		"links": [
+			{
+				"content": "Delivery Trip is created to record Customer Deliveries in one vehicle. Multiple stops can also be added and Submitted Delivery Note can be tagged per Customer.",
+				"link": "/docs/user/manual/en/stock/delivery-trip",
+				"title": "Delivery Trip"
+			},
+			{
+				"content": "Projected Quantity is the level of stock that is predicted for a particular\nItem, based on the current stock levels and other requirements. It is the\nquantity of gross inventory that includes supply and demand in the past which\nis done as part of the planning process.",
+				"link": "/docs/user/manual/en/stock/projected-quantity",
+				"title": "Projected Quantity"
+			},
+			{
+				"content": "As per the perpetual inventory system, accounting entry is done for every stock transaction. Otherwise it's done in larger intervals for example monthly or quarterly. Each warehouse is linked with a corresponding account head.",
+				"link": "/docs/user/manual/en/stock/perpetual-inventory",
+				"title": "Perpetual Inventory"
+			}
+		],
+		"title": "Advanced"
+	},
+	{
+		"links": [
+			{
+				"content": "When creating a Delivery Note, system validates if item's qty is same as in the Sales Order. If item's qty has been increased, you will get the validation message of over-delivery or receipt. ",
+				"link": "/docs/user/manual/en/stock/articles/allow-over-delivery-billing-against-sales-order-upto-certain-limit",
+				"title": "Allow Over Delivery Billing Against Sales Order up to Certain Limit"
+			},
+			{
+				"content": "To prevent stockouts, you can track item's reorder level. When stock level goes below reorder level, purchase manager is notified and instructed to initiate purchase process for the item.",
+				"link": "/docs/user/manual/en/stock/articles/auto-creation-of-material-request",
+				"title": "Auto Creation Of Material Request"
+			},
+			{
+				"content": "**Question**: When submitting a Delivery Note, receiving a message says that item's stock is insufficient, but we have item's stock available in the Warehouse.",
+				"link": "/docs/user/manual/en/stock/articles/delivery-note-stock-error",
+				"title": "Delivery Note Stock Error"
+			},
+			{
+				"content": "Stock Entry is a stock transaction, which can be used for multiple purposes. Let's learn about each Stock Entry Purpose below.",
+				"link": "/docs/user/manual/en/stock/articles/stock-entry-purpose",
+				"title": "Stock Entry Purpose"
+			},
+			{
+				"content": "When purchased items are received, an accounts posting is done based on the value of the purchased items in the Stock-in-hand / fixed-assets account. When you sell and deliver those items, an expense (cost-of-goods-sold) is booked, equal to the buying cost of the items. ",
+				"link": "/docs/user/manual/en/stock/articles/stock-received-but-not-billed",
+				"title": "Stock Received But Not Billed"
+			}
+		],
+		"title": "Stock Transactions"
+	},
+	{
+		"links": [
+			{
+				"content": "Stock Level report list stock item's quantity available in a particular warehouse.",
+				"link": "/docs/user/manual/en/stock/articles/stock-level-report",
+				"title": "Stock Level Report"
+			},
+			{
+				"content": "BOM Explorer Report shows a complete hierarchy of the Bill of Materials (BOM) with its raw materials in the form of the tree view.",
+				"link": "/docs/user/manual/en/stock/articles/bom_explorer",
+				"title": "BOM Explorer"
+			}
+		],
+		"title": "Stock Reports"
+	},
+	{
+		"links": [
+			{
+				"content": "In ERPNext, Item's stock valuation is updated on the creation of one of the following transaction.",
+				"link": "/docs/user/manual/en/stock/articles/item-valuation-transactions",
+				"title": "Item Valuation Transactions"
+			},
+			{
+				"content": "In the item master, you might witness values in the following fields to be frozen.",
+				"link": "/docs/user/manual/en/stock/articles/maintain-stock-field-frozen-in-item-master",
+				"title": "Maintain Stock Field Frozen In Item Master"
+			},
+			{
+				"content": "There could be manufactured Items which would not pass quality test, hence rejected.",
+				"link": "/docs/user/manual/en/stock/articles/managing-rejected-finished-goods-items",
+				"title": "Managing Rejected Finished Goods Items"
+			},
+			{
+				"content": "In the Purchase Receipt, you can receive the Items in the Accepted or the Rejected Warehouse.",
+				"link": "/docs/user/manual/en/stock/articles/return-rejected-item",
+				"title": "Return Rejected Item"
+			},
+			{
+				"content": "A barcode is a value decoded into vertical spaced lines. Barcode scanners are the input medium, like Keyboard. When it scans a barcode, the data appears in the computer screens at the point of a cursor.",
+				"link": "/docs/user/manual/en/stock/articles/track-items-using-barcode",
+				"title": "Track Items Using Barcode"
+			},
+			{
+				"content": "**Question:** A Fixed Asset Item has been purchased and stored in a warehouse. How to create a depreciation for a Fixed Asset Item?",
+				"link": "/docs/user/manual/en/stock/articles/creating-depreciation-for-item",
+				"title": "Creating Depreciation For Item"
+			},
+			{
+				"content": "### How are Items Valued?",
+				"link": "/docs/user/manual/en/stock/articles/item-valuation-fifo-and-moving-average",
+				"title": "Item Valuation FIFO And Moving Average"
+			},
+			{
+				"content": "If you already have a full-fledged business with a number of physical items,\nyou would have probably coded your items. If you have not, you have a choice.\nWe recommend that you should codify if you have lot of products with long or\ncomplicated names. In case you have few products with short names, it is\npreferable to keep the Item Code same as Item Name.",
+				"link": "/docs/user/manual/en/stock/item-codification",
+				"title": "Item Codification"
+			}
+		],
+		"title": "Managing Items"
+	},
+	{
+		"links": [
+			{
+				"content": "Serial Nos. is unique value assigned on each unit of an item. Serial no. helps in tracking item's warranty and expiry details. Generally high value items like machines, computers, costly equipments are serialized.",
+				"link": "/docs/user/manual/en/stock/articles/serial-no-naming",
+				"title": "Serial Number Naming"
+			},
+			{
+				"content": "Items for which Serial No. and Batch No. is maintained, opening stock balance entry for them is update via Stock Entry. [Click here to learn how serialized inventory is managed in ERPNext](/docs/user/manual/en/stock/serial-no.html).",
+				"link": "/docs/user/manual/en/stock/articles/opening-stock-balance-entry-for-serialized-and-batch-item",
+				"title": "Opening Stock Balance Entry For Serialized And Batch Item"
+			},
+			{
+				"content": "Set of items which has same properties and attributes can be group in a single Batch. For example, pharmaceuticals  items are batch, so that it's manufacturing and expiry date can be tracked together. ",
+				"link": "/docs/user/manual/en/stock/articles/managing-batch-wise-inventory",
+				"title": "Managing Batch Wise Inventory"
+			}
+		],
+		"title": "Serial and Batch Number"
+	},
+	{
+		"links": [
+			{
+				"content": "In an event of Sales Return, the following adjustment pertaining to stock and accounting can be handled in multiple ways. Let's check what stock and accounts posting would be posted based on the Sales Return adjustment.",
+				"link": "/docs/user/manual/en/stock/articles/sales-return-use-cases",
+				"title": "Sales Return Use Cases"
+			},
+			{
+				"content": "UoM stands for Unit of Measurement. Few examples of UoM are Numbers (Nos), Kgs, Litre, Meter, Box, Carton etc.",
+				"link": "/docs/user/manual/en/stock/articles/managing-fractions-in-uom",
+				"title": "Managing Fractions In UOM"
+			},
+			{
+				"content": "Repack Entry is created for item bought in bulk, which is being packed into smaller packages. For example, item bought in tons can be repacked into Kgs. ",
+				"link": "/docs/user/manual/en/stock/articles/repack-entry",
+				"title": "Repack Entry"
+			},
+			{
+				"content": "In ERPNext, you can create Material Transfer entry from [Stock Entry](/docs/user/manual/en/stock/stock-entry.html) document. However, there are some scenarios in the Material Transfer where it needs to be presented as a Delivery Note. ",
+				"link": "/docs/user/manual/en/stock/articles/material-transfer-from-delivery-note",
+				"title": "Material Transfer From Delivery Note"
+			},
+			{
+				"content": "In the sales and purchase transactions, there are various options to settle the payment. We can do it in cash, via bank transfer, via promotion voucher to list a few. In ERPNext, you can create Mode of Payments as per your requirement. In the Payment Entry, you can select the Mode of Payment applicable.",
+				"link": "/docs/user/manual/en/stock/articles/mode_of_payment",
+				"title": "Mode Of Payment"
+			},
+			{
+				"content": "Perpetual Inventory Valuation is activated by default in the system.",
+				"link": "/docs/user/manual/en/stock/articles/migrate-to-perpetual-inventory",
+				"title": "Migrate to Perpetual Inventory"
+			}
+		],
+		"title": "Other"
+	}
+] %}
+
+{% from 'erpnext_com/templates/includes/macros.html' import doc_page %}
+{{ doc_page('Stock', 'Subtitle', doc) }}
