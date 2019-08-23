@@ -1,0 +1,65 @@
+{% set doc=[
+	{
+		"links": [
+			{
+				"content": "Issue is an incoming query from your Customer, usually via email or\nfrom the \u201cContact\u201d section of your website. (To fully integrate the Support\nTicket to email, see the Email Settings section).",
+				"link": "/docs/user/manual/en/support/issue",
+				"title": "Issue"
+			},
+			{
+				"content": "If you are selling **Items** under warranty or if you have sold and extended\nservice contract like the Annual Maintenance Contract (AMC), your **Customer**\nmay call you about an issue or a break-down and give you the Serial No of this\nItem.",
+				"link": "/docs/user/manual/en/support/warranty-claim",
+				"title": "Warranty Claim"
+			},
+			{
+				"content": "A Maintenance Visit is a record of a visit made by an engineer to a\nCustomer\u2019s premise usually against a Customer Issue. You can create a new\nMaintenance Visit from:",
+				"link": "/docs/user/manual/en/support/maintenance-visit",
+				"title": "Maintenance Visit"
+			},
+			{
+				"content": "All machines require regular maintenance, specially those that contain a lot\nof moving parts, so if you are in the business of maintaining those or have\nsome of them in your own premises, this is a useful tool to plan a calendar of\nactivities for its maintenance.",
+				"link": "/docs/user/manual/en/support/maintenance-schedule",
+				"title": "Maintenance Schedule"
+			},
+			{
+				"content": "",
+				"link": "/docs/user/manual/en/support/support_reports",
+				"title": "Support Reports"
+			},
+			{
+				"content": "## Employee Group",
+				"link": "/docs/user/manual/en/support/service-level-agreement",
+				"title": "Service Level Agreement"
+			}
+		],
+		"title": "Common support topics"
+	},
+	{
+		"links": [
+			{
+				"content": "A nice introduction",
+				"link": "/docs/user/manual/en/setting-up/feedback/setting-up-feedback",
+				"title": "Setting Up Feedback"
+			},
+			{
+				"content": "A nice introduction",
+				"link": "/docs/user/manual/en/setting-up/feedback/submit-feedback",
+				"title": "Submit Feedback"
+			},
+			{
+				"content": "A nice introduction",
+				"link": "/docs/user/manual/en/setting-up/feedback/resend-feedback-request",
+				"title": "Resend Feedback Request"
+			},
+			{
+				"content": "A nice introduction",
+				"link": "/docs/user/manual/en/setting-up/feedback/manual-feedback-request",
+				"title": "Manual Feedback Request"
+			}
+		],
+		"title": "Feedback"
+	}
+] %}
+
+{% from 'erpnext_com/templates/includes/macros.html' import doc_page %}
+{{ doc_page('Support', 'Subtitle', doc) }}
