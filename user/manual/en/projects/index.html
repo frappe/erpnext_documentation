@@ -1,0 +1,105 @@
+{% set doc=[
+	{
+		"links": [
+			{
+				"content": "The project is an individual or collaborative enterprise, possibly involving research or design, that is carefully planned, usually by a project team, to achieve a particular aim",
+				"link": "/docs/user/manual/en/projects/project",
+				"title": "Project"
+			},
+			{
+				"content": "Project is divided into Tasks. \nIn ERPNext, you can also create a Task independently.",
+				"link": "/docs/user/manual/en/projects/tasks",
+				"title": "Tasks"
+			},
+			{
+				"content": "A Project Template is a set of tasks that can automatically be populated for a new project. In the task, you can define the number of days from the project start date and the duration of each task.",
+				"link": "/docs/user/manual/en/projects/project-template",
+				"title": "Project Template"
+			}
+		],
+		"title": "Project Management"
+	},
+	{
+		"links": [
+			{
+				"content": "Timesheet can be used to track actual hours worked. It can be used for multiple purposes like:",
+				"link": "/docs/user/manual/en/projects/timesheet-intro/",
+				"title": "Timesheet Introduction"
+			},
+			{
+				"content": "If salary / wages for your employees are calculated based on number of hours worked, you can use Timesheet to track actual hours worked, and for creating Salary Slip.",
+				"link": "/docs/user/manual/en/projects/salary-slip-from-timesheet",
+				"title": "Salary Slip From Timesheet"
+			},
+			{
+				"content": "Customer can be invoiced based on total no. of hours your Employees has worked for that Customer. Timesheet can be used to track actual no. of hours Employee has worked. For example, in the IT services domain, clients are billed based on man-hour basis, where per hour billing cost is pre-determined.",
+				"link": "/docs/user/manual/en/projects/sales-invoice-from-timesheet",
+				"title": "Sales Invoice From Timesheet"
+			},
+			{
+				"content": "Creating Timesheet for Work Order helps in capacity planning for the Workstations. Also it helps in tracking actual time consumed by the Workstation for completing specific operation.",
+				"link": "/docs/user/manual/en/projects/timesheet-against-work-order",
+				"title": "Timesheet Against Work Order"
+			},
+			{
+				"content": "# Timer in Timesheet",
+				"link": "/docs/user/manual/en/projects/timer-in-timesheet",
+				"title": "Timer In Timesheet"
+			},
+			{
+				"content": "Timesheets can be tracked against Project and Tasks so that you can get reports on how much time was spent on each Task or Project.",
+				"link": "/docs/user/manual/en/projects/timesheet-against-project",
+				"title": "Timesheet Against Project"
+			},
+			{
+				"content": "Activity Type makes a list of the different types of activities against which a Time Log can be made.",
+				"link": "/docs/user/manual/en/projects/activity-type",
+				"title": "Activity Type"
+			},
+			{
+				"content": "Activity Cost records the per-hour billing rate and costing rate of an Employee against an Activity Type.\nThis rate is pulled by the system while making Time Logs. It is used for Project Costing.",
+				"link": "/docs/user/manual/en/projects/activity-cost",
+				"title": "Activity Cost"
+			}
+		],
+		"title": "Time Tracking"
+	},
+	{
+		"links": [
+			{
+				"content": "# Billing Summary Reports",
+				"link": "/docs/user/manual/en/projects/reports/billing_summary_reports",
+				"title": "Billing Summary Reports"
+			},
+			{
+				"content": "Each project has multiple task associated with it. To track actual costing of a Project, primarily in terms of services, user has to create Time Log based on actual time spent on Project-Task. Following the steps on how you can track actual service cost against Project.",
+				"link": "/docs/user/manual/en/projects/articles/project-costing",
+				"title": "Project Costing"
+			},
+			{
+				"content": "Project and related activities are generally active for longer time periods. While developments happen on the Project, there are various income and expense incurred against it. Hence, it becomes important to track the Profitability of a Project and ensure that you don't overspend.",
+				"link": "/docs/user/manual/en/projects/project-profitability",
+				"title": "Project Profitability"
+			},
+			{
+				"content": "The Employees working on the Project incur various expenses, sometimes from their own pocket. In ERPNext, then can claim such expenses using [Expense Claim](/docs/user/manual/en/human-resources/expense-claim.html)",
+				"link": "/docs/user/manual/en/projects/project-expense-claims",
+				"title": "Project Expense Claims"
+			},
+			{
+				"content": "If you are doing a Project for a Customer, then Customer will need to be updated on its progress on timely bases. In ERPNext, since it is a Customer Portal feature, you can let Customer update oneself on the Project's progress via Customer Portal.",
+				"link": "/docs/user/manual/en/projects/project-customer-portal",
+				"title": "Project Customer Portal"
+			},
+			{
+				"content": "A nice introduction",
+				"link": "/docs/user/videos/learn/project-and-task.html",
+				"title": "Project Management"
+			}
+		],
+		"title": "Reports"
+	}
+] %}
+
+{% from 'erpnext_com/templates/includes/macros.html' import doc_page %}
+{{ doc_page('Project Management', 'Subtitle', doc) }}
