@@ -1,0 +1,60 @@
+{% set doc=[
+	{
+		"links": [
+			{
+				"content": "The core and most important elements of Agriculture module are:",
+				"link": "/docs/user/manual/en/agriculture/crops-introduction",
+				"title": "Introduction"
+			},
+			{
+				"content": "Before we do anything, we need to define some details about where our crops will be planted. We will first create our farm as a parent land unit, and then we will add one or more fields as children or nodes, belonging to the parent.",
+				"link": "/docs/user/manual/en/agriculture/land_unit",
+				"title": "Land Unit"
+			},
+			{
+				"content": "Now we need to specify what our crop will be. A crop summarizes all that is necessary before creatng our first crop cycle or planting.",
+				"link": "/docs/user/manual/en/agriculture/crop",
+				"title": "Crop"
+			},
+			{
+				"content": "Once we have defined our crop, we can create as many crop cycles as we like, using the parameters outlined previously",
+				"link": "/docs/user/manual/en/agriculture/crop_cycle",
+				"title": "Crop Cycle"
+			}
+		],
+		"title": "Crops and Land"
+	},
+	{
+		"links": [
+			{
+				"content": "This part of Agriculture module deals with the management of Diseases, which may include various types of bacteria, funcgi, viruses, or pests which affect he Crop",
+				"link": "/docs/user/manual/en/agriculture/disease",
+				"title": "Disease"
+			},
+			{
+				"content": "This is used to keep track of available fertilizers, and their chemical composition, which is linked to the Item master",
+				"link": "/docs/user/manual/en/agriculture/fertilizer",
+				"title": "Fertilizer"
+			}
+		],
+		"title": "Disease and Fertilizer"
+	},
+	{
+		"links": [
+			{
+				"content": "This part of the Agriculture module is used for tracking data and report generation",
+				"link": "/docs/user/manual/en/agriculture/analytics",
+				"title": "Analytics"
+			}
+		],
+		"title": "Analytics"
+	}
+] %}
+
+{% from "erpnext_com/templates/includes/macros.html" import doc_page %}
+
+{{ doc_page(
+	'Agriculture',
+	'Manage Everything',
+	doc
+) }}
