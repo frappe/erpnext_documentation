@@ -1,0 +1,145 @@
+{% set doc=[
+	{
+		"links": [
+			{
+				"content": "**A Request for Quotation is a document that an organization sends to one or more suppliers asking a quotation for items.**",
+				"link": "/docs/user/manual/en/buying/request-for-quotation",
+				"title": "Request For Quotation"
+			},
+			{
+				"content": "**A Purchase Order is a binding contract with your Supplier that you promise to buy a set of items under given conditions.**",
+				"link": "/docs/user/manual/en/buying/purchase-order",
+				"title": "Purchase Order"
+			},
+			{
+				"content": "**Purchase Taxes and Charges may be applied to any item you buy.**",
+				"link": "/docs/user/manual/en/buying/purchase-taxes-and-charges-template",
+				"title": "Purchase Taxes and Charges Template"
+			}
+		],
+		"title": "Purchase Cycle"
+	},
+	{
+		"links": [
+			{
+				"content": "**Suppliers are companies or individuals who provide you with products or services.**",
+				"link": "/docs/user/manual/en/buying/supplier",
+				"title": "Supplier"
+			},
+			{
+				"content": "**A Supplier Quotation is document by a potential supplier specifying the cost of goods or services they'll provide within a specified period.**",
+				"link": "/docs/user/manual/en/buying/supplier-quotation",
+				"title": "Supplier Quotation"
+			},
+			{
+				"content": "**A Supplier Scorecard is an evaluation tool used to assess the performance of suppliers.**",
+				"link": "/docs/user/manual/en/buying/supplier-scorecard",
+				"title": "Supplier Scorecard"
+			}
+		],
+		"title": "Supplier"
+	},
+	{
+		"links": [
+			{
+				"content": "Buying Settings is where you can define properties which will be applied in the Buying module's transactions. \nYou can find Buying Settings at:\n> Home > Buying > Settings > Buying Settings",
+				"link": "/docs/user/manual/en/buying/buying-settings",
+				"title": "Buying Settings"
+			},
+			{
+				"content": "A supplier may be distinguished from a contractor or subcontractor, who\ncommonly adds specialized input to deliverables. A supplier is also known as a\nvendor. There are different types of suppliers based on the goods and\nproducts they supply.",
+				"link": "/docs/user/manual/en/buying/supplier-group",
+				"title": "Supplier Group"
+			}
+		],
+		"title": "Setup"
+	},
+	{
+		"links": [
+			{
+				"content": "For each item, code assigned might differ from the code your supplier has given to that same item. ERPNext allows you to track Supplier's Item Code in the item master. Also you can fetch Supplier's Item Code in your purchase transactions, so that they can easily recognize item referring to their Item Code.",
+				"link": "/docs/user/manual/en/buying/articles/maintaining-suppliers-part-no-in-item",
+				"title": "Maintaining Supplier's Item Code In the Item Master"
+			}
+		],
+		"title": "Supplier"
+	},
+	{
+		"links": [
+			{
+				"content": "Each item has stock unit of measument (UoM) associated to it. For example UoM of pen could be numbers (Nos) and sand could be stocked kgs. However, when we place an order with Supplier, UoM for an item could change. Like we can order 1 set/box of Pen, or one truck of sand to our Supplier. When creating purchase transacton, you can change Purchase UoM for an item.",
+				"link": "/docs/user/manual/en/buying/articles/purchasing-in-different-unit",
+				"title": "Purchasing In Different Unit"
+			},
+			{
+				"content": "<img alt=\"Update Items\" class=\"screenshot\" src=\"{{docs_base_url}}/assets/img/articles/po-update-items.png\">",
+				"link": "/docs/user/manual/en/buying/articles/amending-purchase-order-after-submit",
+				"title": "Amending Purchase Order After Submit"
+			},
+			{
+				"content": "This report lists all the transactions related to goods that are currently in the process of procurement.",
+				"link": "/docs/user/manual/en/buying/articles/procurement-tracker-report",
+				"title": "Procurement Tracker Report"
+			}
+		],
+		"title": "Other"
+	},
+	{
+		"links": [
+			{
+				"content": "Add Content",
+				"link": "/docs/user/videos/learn/purchase-cycle",
+				"title": "Purchase Cycle"
+			},
+			{
+				"content": "Add Content",
+				"link": "/docs/user/videos/learn/customer-and-supplier",
+				"title": "Supplier"
+			},
+			{
+				"content": "A nice introduction",
+				"link": "/docs/user/videos/learn/material-request-to-purchase-order",
+				"title": "Material Request to Purchase Order"
+			}
+		],
+		"title": "Purchase"
+	},
+	{
+		"links": [
+			{
+				"content": "Add Content",
+				"link": "/docs/user/videos/learn/request-for-quotation",
+				"title": "Request for Quotation"
+			},
+			{
+				"content": "Add Content",
+				"link": "/docs/user/videos/learn/pricing-rule",
+				"title": "Pricing Rule"
+			}
+		],
+		"title": "Pricing"
+	},
+	{
+		"links": [
+			{
+				"content": "Add Content",
+				"link": "/docs/user/videos/learn/discounts",
+				"title": "Discounts"
+			},
+			{
+				"content": "Add Content",
+				"link": "/docs/user/videos/learn/taxes",
+				"title": "Taxes"
+			}
+		],
+		"title": "Other"
+	}
+] %}
+
+{% from "erpnext_com/templates/includes/macros.html" import doc_page %}
+
+{{ doc_page(
+	'Buying',
+	'Manage buying and',
+	doc
+) }}
