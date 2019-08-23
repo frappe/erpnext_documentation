@@ -1,0 +1,305 @@
+{% set doc=[
+	{
+		"links": [
+			{
+				"content": " A course is a unit of teaching that typically lasts one academic term, is led by one or more instructors (teachers or professors), and has a fixed number of students. Students may receive a grade and academic credit after completion of the course.",
+				"link": "/docs/user/manual/en/education/course",
+				"title": "Course"
+			},
+			{
+				"content": "An educational program is a program written by the institutions which determines the learning progress of each subject in all the stages of formal education.",
+				"link": "/docs/user/manual/en/education/program",
+				"title": "Program"
+			},
+			{
+				"content": "An Instructor can be a teacher, tutor, coach, or professor, of a specialised subject that involves any skill.",
+				"link": "/docs/user/manual/en/education/instructor",
+				"title": "Instructor"
+			},
+			{
+				"content": "A classroom is a space (room or lab) where you want to schedule courses or examinations. A room in an educational institute can be a Class room, a laboratory or a Examination hall.",
+				"link": "/docs/user/manual/en/education/room",
+				"title": "Room"
+			},
+			{
+				"content": "Student Category doctype allow you to classify student based various categories. In Institutions, there may be fee concession for some categories such as Handicapped students, foreign, nationals, reserved category by the government etc.",
+				"link": "/docs/user/manual/en/education/student-category",
+				"title": "Student Category"
+			},
+			{
+				"content": "Student batch is a collection of students from Student Groups. **Student batch** allows you to create **Student Group** based on a batch. When a student is enrolled for a **Program**, the Student batch is selected to enroll the student for the given Program and batch ",
+				"link": "/docs/user/manual/en/education/student-batch-name",
+				"title": "Student Batch Name"
+			},
+			{
+				"content": "An academic term (or simply \"term\") is a portion of an academic year, the time during which an educational institution holds classes. The schedules adopted vary widely. The academic term can be a quater, trimester or a semester.",
+				"link": "/docs/user/manual/en/education/academic-term",
+				"title": "Academic Term"
+			},
+			{
+				"content": "An academic year is a period of time which education, colleges and universities use to measure a quantity of study.",
+				"link": "/docs/user/manual/en/education/academic-year",
+				"title": "Academic Year"
+			},
+			{
+				"content": "The Education Settings page allow you to setup basic settings like **Academic Year and Term** for the educational setup. \nAcademic Year and Term must be update in each Academic Year and Term.",
+				"link": "/docs/user/manual/en/education/education-settings",
+				"title": "Education Settings"
+			}
+		],
+		"title": "Setup"
+	},
+	{
+		"links": [
+			{
+				"content": "A Student is a person who has enrolled at your institute and you have accepted their application.\nThe Student doctype maintains detials like personal information, photo, date of birth, address etc. It also records the **Guardian** and sibling details. ",
+				"link": "/docs/user/manual/en/education/student",
+				"title": "Student"
+			},
+			{
+				"content": "The Guardian doctype allows you to record the guardian details for a **Student**.",
+				"link": "/docs/user/manual/en/education/guardian",
+				"title": "Guardian"
+			},
+			{
+				"content": "The **Student Log** Doctype enables you to add and edit addtional information for a student.\nYou can make a note of student activities using the **Student Log**.\nLogs can be categorised as 'General', 'Academic', 'Medical' or 'Achievement'",
+				"link": "/docs/user/manual/en/education/student-log",
+				"title": "Student Log"
+			},
+			{
+				"content": "Student batch is a collection of students from Student Groups. **Student batch** allows you to create **Student Group** based on a batch. When a student is enrolled for a **Program**, the Student batch is selected to enroll the student for the given Program and batch ",
+				"link": "/docs/user/manual/en/education/student-batch",
+				"title": "Student Batch"
+			},
+			{
+				"content": "A student group is a collection of students taking same course. You can create Course Schedules and Examinations against a Student Group.",
+				"link": "/docs/user/manual/en/education/student-group",
+				"title": "Student Group"
+			},
+			{
+				"content": "The Student group creation tool allows you to create student groups in bulk. ",
+				"link": "/docs/user/manual/en/education/student-group-creation-tool",
+				"title": "Student Group Creation Tool"
+			}
+		],
+		"title": "Student"
+	},
+	{
+		"links": [
+			{
+				"content": "A Student Applicant record needs to be created when a student applies for a program at your institute.\nYou can Approve or Reject a student applicant. By accepting a student applicant you can add them to the student master.",
+				"link": "/docs/user/manual/en/education/student-applicant",
+				"title": "Student Applicant"
+			},
+			{
+				"content": "**Program Enrollment** is the record of enrollment of a student in a given program and choose courses for a particular Academic Year and Academic Term (optional). If a student is enrolled in a program then his/her Program Enrollment must be created. The mandatory course in that program is automatically filled in Enrolled Courses table while the elective/optional courses can be selected manually.",
+				"link": "/docs/user/manual/en/education/program-enrollment",
+				"title": "Program Enrollment"
+			},
+			{
+				"content": "The Program Enrollment tool allows the bulk enrollment of the new and old students in a Program. If you are enrolling a new student, you  can fetch the students from the **Student Applicant** or if you are promoting the older students you can fetch them from the **Program Enrollment** itself",
+				"link": "/docs/user/manual/en/education/program-enrollment-tool",
+				"title": "Program Enrollment Tool"
+			},
+			{
+				"content": "The admission process begins with filling the admission form. The Student Admission record enables to initiate your admission process for a given **Academic year**. ERPNext admission module allows you to create an admission record which can be then published on the ERPNext generate website.",
+				"link": "/docs/user/manual/en/education/student_admission",
+				"title": "Student Admission"
+			}
+		],
+		"title": "Admission"
+	},
+	{
+		"links": [
+			{
+				"content": "Maintain a record of fees collected from students.\nThe [Fee Structure](/docs/user/manual/en/education/fees/fee-structure.html) is fetched based on the selected Program and Academic Term.\nStudent Details and detailed Fee Structure will be available in the fee module. You can get Paid amount and Outstanding Amount details also.",
+				"link": "/docs/user/manual/en/education/fees",
+				"title": "Fees"
+			},
+			{
+				"content": "A Fee Structure is a template that can be used while making Fees records or generating them via the Fee Schedule. In the Accounts section, you can set also the different accounts as for the Fees is an accounting transaction.",
+				"link": "/docs/user/manual/en/education/fee-structure",
+				"title": "Fee Structure"
+			},
+			{
+				"content": "List of all different type of fees collected.",
+				"link": "/docs/user/manual/en/education/fee-category",
+				"title": "Fee Category"
+			},
+			{
+				"content": "<img class=\"screenshot\" alt=\"Fees Schedule\" src=\"{{docs_base_url}}/assets/img/education/fees/fee-schedule.png\">",
+				"link": "/docs/user/manual/en/education/fee-schedule",
+				"title": "Fee Schedule"
+			}
+		],
+		"title": "Fees"
+	},
+	{
+		"links": [
+			{
+				"content": "Course Schedule is the schedule of a session conducted by an Instructor for a particular Course.\nYou can see the overall course schedule in the Calendar view.",
+				"link": "/docs/user/manual/en/education/course-schedule",
+				"title": "Course Schedule"
+			},
+			{
+				"content": "This tool can be used to create 'Course Schedules'. ",
+				"link": "/docs/user/manual/en/education/scheduling-tool",
+				"title": "Scheduling Tool"
+			},
+			{
+				"content": "The Examination record can be used to track the exam schedule and the results of that exam.",
+				"link": "/docs/user/manual/en/education/examination",
+				"title": "Examination"
+			}
+		],
+		"title": "Schedule"
+	},
+	{
+		"links": [
+			{
+				"content": "The Education module is bundled with a Learning Management System (LMS) out of the box. This allows institutes to publish their programs on their website. Programs can contain rich text articles, videos, and even quizzes. The progress of individual students can be tracked through the desk as well as the portal.",
+				"link": "/docs/user/manual/en/education/setting-up-lms",
+				"title": "Setting Up LMS"
+			},
+			{
+				"content": "LMS uses the following masters to show content on the portal.",
+				"link": "/docs/user/manual/en/education/lms-masters",
+				"title": "LMS Masters"
+			},
+			{
+				"content": "## Home Page\nThe portal is hosted on `/lms` route. (Example. `hogwarts.erpnext.com/lms`) Here all the programs are shown in the form of cards. Each card is clickable and navigates to the corresponding program/course/topic/content. The portal is accessible even if a student has not logged in, however the content (Articles, Videos, etc) can only be accessible after login and enrolling in the program.",
+				"link": "/docs/user/manual/en/education/navigating-the-portal",
+				"title": "Navigating the Portal"
+			},
+			{
+				"content": "The students can view their progress on the portal itself and do not have access to the desk. For instructors and other users of ERPNext, the following doctypes are used to track the progress of the student:",
+				"link": "/docs/user/manual/en/education/tracking-progress",
+				"title": "Tracking Progress"
+			}
+		],
+		"title": "Learning Management System"
+	},
+	{
+		"links": [
+			{
+				"content": "Attendance doctype allows you to track and manage attendance of a student in all the days at any time. The Attendance module is designed to help teachers easily mark student attendance during class. ",
+				"link": "/docs/user/manual/en/education/student-attendance",
+				"title": "Student Attendance"
+			},
+			{
+				"content": "A nice introduction",
+				"link": "/docs/user/manual/en/education/student-attendance-tool",
+				"title": "Student Attendance Tool"
+			},
+			{
+				"content": "ERPNext allows you to record the leave application for a student. ",
+				"link": "/docs/user/manual/en/education/student-leave-application",
+				"title": "Student Leave Application"
+			}
+		],
+		"title": "Attendance"
+	},
+	{
+		"links": [
+			{
+				"content": "Every education institute organizes assessment / examination to evaluates progress of their Students. In ERPNext, you can manage complete assessment processing for your ERPNext account.",
+				"link": "/docs/user/manual/en/education/assessment-introduction",
+				"title": "Introduction"
+			},
+			{
+				"content": "Assessment Criteria is the parameter based on which you assess the Student.",
+				"link": "/docs/user/manual/en/education/assessment_criteria",
+				"title": "Assessment Criteria"
+			},
+			{
+				"content": "Assessment Group tree is a master where you can define the hierarchy for examination conducted in your education institute.",
+				"link": "/docs/user/manual/en/education/assessment_group",
+				"title": "Assessment Group"
+			},
+			{
+				"content": "To schedule an assessment/examination for a Student Group, for specific Course, create Assessment Plan. In the Assessment Plan, you can also capture details like:",
+				"link": "/docs/user/manual/en/education/assessment_plan",
+				"title": "Assessment Plan"
+			},
+			{
+				"content": "Assessment Result is a log of marks/grades earned by the student for specific Assessment. Assessment Result is created in the backend based on the marks entered in the [Assessment Result Tool](docs/user/manual/en/education/Assessment/assessment_result_tool).",
+				"link": "/docs/user/manual/en/education/assessment_result",
+				"title": "Assessment Result"
+			},
+			{
+				"content": "Assessment Result Tool help you entering marks earned by the Students for specific course. In this tool, based on the Assessment Plan, all the Student will be fetched into Assessment Result Tool. Also, Columns for Assessment Criteria will be where marks earned can be entered for each Student.",
+				"link": "/docs/user/manual/en/education/assessment_result_tool",
+				"title": "Assessment Result Tool"
+			},
+			{
+				"content": "In the Grading Scale, you can define various grades and threshold for them. Based on the score earned by an Student for an Assessment, Grade will be assigned.",
+				"link": "/docs/user/manual/en/education/grading_scale",
+				"title": "Grading Scale"
+			}
+		],
+		"title": "Assessment"
+	},
+	{
+		"links": [
+			{
+				"content": "A nice introduction",
+				"link": "/docs/user/manual/en/education/final-assessment-grades",
+				"title": "Final Assessment Grades"
+			},
+			{
+				"content": "A nice introduction",
+				"link": "/docs/user/manual/en/education/assessment-plan-status",
+				"title": "Assessment Plan Status"
+			},
+			{
+				"content": "A nice introduction",
+				"link": "/docs/user/manual/en/education/student-report-generation-tool",
+				"title": "Student Report Generation Tool"
+			},
+			{
+				"content": "A nice introduction",
+				"link": "/docs/user/manual/en/education/course-wise-assessment-report",
+				"title": "Course Wise Assessment Report"
+			}
+		],
+		"title": "Assessment Reports"
+	},
+	{
+		"links": [
+			{
+				"content": "A nice introduction",
+				"link": "/docs/user/manual/en/education/student-attendance-tool",
+				"title": "Student Attendance Tool"
+			},
+			{
+				"content": "A nice introduction",
+				"link": "/docs/user/manual/en/education/assessment-result-tool",
+				"title": "Assessment Result Tool"
+			},
+			{
+				"content": "The Student group creation tool allows you to create student groups in bulk. ",
+				"link": "/docs/user/manual/en/education/student-group-creation-tool",
+				"title": "Student Group Creation Tool"
+			},
+			{
+				"content": "The Program Enrollment tool allows the bulk enrollment of the new and old students in a Program. If you are enrolling a new student, you  can fetch the students from the **Student Applicant** or if you are promoting the older students you can fetch them from the **Program Enrollment** itself",
+				"link": "/docs/user/manual/en/education/program-enrollment-tool",
+				"title": "Program Enrollment Tool"
+			},
+			{
+				"content": "A nice introduction",
+				"link": "/docs/user/manual/en/education/course-scheduling-tool",
+				"title": "Course Scheduling Tool"
+			}
+		],
+		"title": "Tools"
+	}
+] %}
+
+{% from "erpnext_com/templates/includes/macros.html" import doc_page %}
+
+{{ doc_page(
+	'Education',
+	'Manage all your Students',
+	doc
+) }}
