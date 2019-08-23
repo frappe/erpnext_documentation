@@ -1,0 +1,135 @@
+{% set doc=[
+	{
+		"title": "Topics",
+		"links": [
+			{
+				"content": "To Do is a simple tool where all the activities [assigned](/docs/user/manual/en/using-erpnext/assignment) to you and assigned by you are listed. You can also add your own to-do items in the list.",
+				"link": "/docs/user/manual/en/using-erpnext/to-do",
+				"title": "To Do"
+			},
+			{
+				"content": "In ERPNext, you can delete a records if not needed. They can be masters like Items, Customer or transactions like Sales Order, Payment Entries etc.",
+				"link": "/docs/user/manual/en/using-erpnext/restore-deleted-docs",
+				"title": "Restore Deleted Docs"
+			},
+			{
+				"content": "The document versioning feature allows you to track all the changes made in the form over the period. It will be very helpful in audit trial to check which user edited what value, and when exactly.",
+				"link": "/docs/user/manual/en/using-erpnext/document-versioning",
+				"title": "Document Versioning"
+			},
+			{
+				"content": "Following are the tools in each document using which you can collaborate with other Users in your ERPNext account.",
+				"link": "/docs/user/manual/en/using-erpnext/collaborating-around-forms",
+				"title": "Collaborating Around Forms"
+			},
+			{
+				"content": "You can send and receive messages from the system by using the Messages tool. ",
+				"link": "/docs/user/manual/en/using-erpnext/chat",
+				"title": "Chat"
+			},
+			{
+				"content": "You can store your long notes under this section. It can contain your partner lists, frequently used passwords, terms and conditions, or any other document which needs to be shared. Following are the steps to create new Note.",
+				"link": "/docs/user/manual/en/using-erpnext/notes",
+				"title": "Notes"
+			},
+			{
+				"content": "The Calendar is a tool where you can create and share Events and also see auto-generated events from the system.",
+				"link": "/docs/user/manual/en/using-erpnext/calendar",
+				"title": "Calendar"
+			},
+			{
+				"content": "Assign To feature in ERPNext allows you to allocate particular document to specific user, whom needs to further work on that document.",
+				"link": "/docs/user/manual/en/using-erpnext/assignment",
+				"title": "Assignment"
+			},
+			{
+				"content": "Like Assignments and Comments, you can also add your own tags to each type of transactions. These tags can help you search a document and also classify it. ",
+				"link": "/docs/user/manual/en/using-erpnext/tags",
+				"title": "Tags"
+			},
+			{
+				"content": "> Introduced in version 12",
+				"link": "/docs/user/manual/en/using-erpnext/desktop",
+				"title": "Desktop"
+			},
+			{
+				"content": "ERPNext Version 12 is almost fully accessible using keyboard shortcuts.",
+				"link": "/docs/user/manual/en/using-erpnext/articles/keyboard-shortcuts",
+				"title": "Keyboard Shortcuts"
+			},
+			{
+				"content": "metatags:\n description: Access Log is a security feature that logs all data exports in the form of printing of Forms and reports, private file downloading and exporting reports in excel/csv formats.\n keywords: frappe, access log, erpnext v12, erpnext release notes, erpnext new features, erp, open source erp, free erp, security\n---",
+				"link": "/docs/user/manual/en/using-erpnext/access-log",
+				"title": "Access Log"
+			},
+			{
+				"content": "Links option shows one document is linked to which other documents. Check Menu for the Links options.",
+				"link": "/docs/user/manual/en/using-erpnext/articles/check-link-between-documents",
+				"title": "Check Link Between Documents"
+			},
+			{
+				"content": "To be able to delete Submitted document, you should first Cancel. Once canceled, you can delete that document from Menu or from the List View of that Document Type.",
+				"link": "/docs/user/manual/en/using-erpnext/articles/delete-submitted-document",
+				"title": "Delete Submitted Document"
+			},
+			{
+				"content": "Duplicate feature helps you to copy values of existing document into new document.",
+				"link": "/docs/user/manual/en/using-erpnext/articles/duplicate-record",
+				"title": "Duplicate Record"
+			},
+			{
+				"content": "ERPNext allows to attach files with documents. User with a read permission on particular document will also be able to access files attached with it.",
+				"link": "/docs/user/manual/en/using-erpnext/articles/adding-file-as-a-attachment",
+				"title": "Adding File As A Attachment"
+			},
+			{
+				"content": "For a document, if you have two records which are identical, and meant for common purpose, you can merge them into one record.",
+				"link": "/docs/user/manual/en/using-erpnext/articles/merging-documents",
+				"title": "Merging Documents"
+			},
+			{
+				"content": "Using renaming tool, you can to rectify/change multiple document ids at once. This tool is only accessible to the User who has System Manager role assigned.",
+				"link": "/docs/user/manual/en/using-erpnext/articles/bulk-rename",
+				"title": "Bulk Rename"
+			},
+			{
+				"content": "Using Renaming feature, you can change ID of a master documents like Item, Warehouse, Accounts etc. Following are the steps to rename Item Code. Following same steps, you can rename other masters as well.\n \n#### 1. Go to Item",
+				"link": "/docs/user/manual/en/using-erpnext/articles/renaming-documents",
+				"title": "Renaming Documents"
+			},
+			{
+				"content": "Search Filter option allow user to filter records based on value in the specific field of that document. Search Filters are available on the List View of Document Type and in the Report Builder.",
+				"link": "/docs/user/manual/en/using-erpnext/articles/search-filter",
+				"title": "Search Filter"
+			},
+			{
+				"content": "There are various master which are maintained in tree structure. Click [here](/docs/user/manual/en/setting-up/articles/managing-tree-structure-masters.html) to learn more about tree structured masters in ERPNext.",
+				"link": "/docs/user/manual/en/using-erpnext/articles/tree-master-renaming",
+				"title": "Tree Master Renaming"
+			},
+			{
+				"content": "In the reports, Letter Head is fetched from the Company master. To have company's Letter Head fetched correctly in the report, please ensure that you have updated default Letter Head in the Company master.  ",
+				"link": "/docs/user/manual/en/using-erpnext/articles/letter-head-in-the-report",
+				"title": "Letter Head In The Report"
+			},
+			{
+				"content": "#Copy Pasting Multiple Records From Excel",
+				"link": "/docs/user/manual/en/using-erpnext/articles/copy-pasting-multiple-records-from-excel",
+				"title": "Copy Pasting Multiple Records From Excel"
+			},
+			{
+				"content": "Global search is a word-processing operation in which a complete computer file or set of files is searched for every occurrence of a particular word or other sequence of characters.",
+				"link": "/docs/user/manual/en/using-erpnext/articles/Global-search",
+				"title": "Global Search"
+			},
+			{
+				"content": "ERPNext has in-built file manager. Click [here](/docs/user/videos/learn/file-manager.html) to learn more on how attachments are managed in ERPNext.",
+				"link": "/docs/user/manual/en/using-erpnext/articles/adding-attachments-to-outgoing-messages",
+				"title": "Adding Attachments To Outgoing Messages"
+			}
+		]
+	}
+] %}
+
+{% from 'erpnext_com/templates/includes/macros.html' import doc_page %}
+{{ doc_page('Using ERPNext', 'Subtitle', doc) }}
