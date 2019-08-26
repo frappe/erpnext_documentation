@@ -42,4 +42,4 @@ Automatic Email Linking links an Email to the Document specified in the unique E
 1. [Document Follow](/docs/user/manual/en/setting-up/email/document-follow)
 
 
-{next
+{next}
