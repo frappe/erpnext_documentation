@@ -8,7 +8,7 @@ or services you are planning to offer along with the prices and other terms
 of engagement. This has many names like "Proposal", Estimate", "Pro Forma
 Invoice" or a **Quotation**.
 
-To acesss Quotation, go to:
+To access the Quotation list, go to:
 > Home > Selling > Sales > Quotation
 
 A typical sales flow looks like:
@@ -29,8 +29,15 @@ A Quotation contains details about:
 > Tip: Images look great on Quotations. Make sure your items have an image attached.
 
 
-## 1. How to create a Quotation
-1. Click on New.
+## 1. Prerequisites
+Before creating and using a Quotation, it is advised that you create the following first:
+
+* [Customer](/docs/user/manual/en/CRM/customer)
+* [Lead](/docs/user/manual/en/CRM/lead)
+* [Item](/docs/user/manual/en/stock/item)
+
+## 2. How to create a Quotation
+1. Go to the Quotation list, click on New.
 2. Select if the Quotation is to a Customer or a Lead from the 'Quotation To' field.
 3. Enter Customer/Lead name.
 1. Enter a Valid till date after which the quoted amount will be considered invalid.
@@ -43,9 +50,9 @@ You can also create a Quotation from an Opportunity shown as follows.
 
 <img class="screenshot" alt="Make Quotation from Opportunity" src="{{docs_base_url}}/assets/img/selling/make-quote-from-opp.png">
 
-## 2. Features
+## 3. Features
 
-### 2.1 Address and Contact
+### 3.1 Address and Contact
 In this section there are four fields:
 
 * **Customer Address:** This is the Billing address of the customer.
@@ -53,14 +60,14 @@ In this section there are four fields:
 * **Contact Person:** If your customer is an organization, then you can add the person to contact in this field.
 * **Territory:** Region where the customer belongs to. Default is All Territories. 
 
-### 2.2 Currency and Price List
+### 3.2 Currency and Price List
 You can set the currency in which the quotation/sales order is to be sent. If you set a Pricing List, then the item prices will be fetched from that list. Ticking on Ignore Pricing Rule will ignore the Pricing Rules set in Accounts > Pricing Rule.
 
 To know about Price Lists, [click here](/docs/user/manual/en/setting-up/price-lists).
 
 To know about managing transactions in multiple currencies, [click here](/docs/user/manual/en/accounts/articles/managing-transactions-in-multiple-currency).
 
-### 2.3 The Items Table
+### 3.3 The Items Table
 This table can be expanded by clicking on the inverted triangle present rightmost of the table.
 
 * On selecting Item Code, the following will be fetched automatically: item name, description, any image if set, quantity default as 1, the rates. You can add discounts in the Discounts and Margin section. 
@@ -77,7 +84,7 @@ This table can be expanded by clicking on the inverted triangle present rightmos
 
 The total quantity, rate, and net weight of all items will be shown below the item table. The rate shown here is pre-tax.
 
-### 2.4 Taxes and Charges
+### 3.4 Taxes and Charges
 To add taxes to your Quotation, you can select a [Sales Taxes and Charges Template](/docs/user/manual/en/selling/sales-taxes-and-charges-template) or add the taxes manually in the Sales Taxes and Charges table.
 
 The total taxes and charges will be displayed below the table. Clicking on Tax Breakup will show all the components and amounts.
@@ -88,20 +95,20 @@ You can add a [Shipping Rule](/docs/user/manual/en/selling/shipping-rule) here f
 
 To add taxes automatically via a Tax Category, visit [this page](/docs/user/manual/en/accounts/tax-category).
 
-### 2.5 Additional Discount
+### 3.5 Additional Discount
 To know about Additional Discount, [click here](/docs/user/manual/en/selling/articles/additional-discount)
 
-### 2.6 Payment Terms
+### 3.6 Payment Terms
 Sometimes payment is not done all at once. Depending on the agreement, half of the payment may be made before shipment and the other half after receiving the goods/services. You can add a Payment Terms template or add the terms manually in this section.
 
 <img class="screenshot" alt="Payment Terms in Quotation" src="{{docs_base_url}}/assets/img/selling/quotation-payment-terms.png">
 
 To know more about Payment Terms, [click here](/docs/user/manual/en/accounts/payment-terms).
 
-### 2.7 Terms and Conditions
+### 3.7 Terms and Conditions
 To know about Terms and Conditions, [click here](/docs/user/manual/en/setting-up/print/terms-and-conditions).
 
-### 2.8 Print Settings
+### 3.8 Print Settings
 #### Letterhead
 You can print your quotation/sales order on your company's letterhead. Know more [here](/docs/user/manual/en/setting-up/print/letter-head).
 
@@ -111,12 +118,12 @@ You can print your quotation/sales order on your company's letterhead. Know more
 Quotations can also be titled as “Proforma Invoice” or “Proposal”.
 You can do this by selecting a **Print Heading**. To create new Print Headings go to: Home > Settings > Printing > Print Heading. Know more [here](/docs/user/manual/en/setting-up/print/print-headings).
 
-### 2.9 More Information
+### 3.9 More Information
 * **Campaign:** A Sales campaign can be associated with the quotation. A set of quotations can be part of a sales campaign.
 * **Source:** A Lead Source type can be linked if quoting to a lead, whether from a campaign, from a supplier, an exhibition etc,. Select Existing Customer if quoting to a customer.
 * **Supplier Quotation:** A Supplier Quotation can be linked for comparing with your current quotation to a buyer. You can get an idea of profit/loss by comparing the two.
 
-### 2.10 Submitting the Quotation
+### 3.10 Submitting the Quotation
 Quotation is a “Submittable” transaction. When you click on Save, a draft is saved, on submitting, it is submitted permanently. Since you send this Quotation to
 your Customer or Lead, you must freeze it so that changes are not made after
 you send the Quotation.
@@ -125,9 +132,7 @@ On submitting, you can create a Sales Order or a Subscription from the Quotation
 
 <img class="screenshot" alt="Submitted Quotation" src="{{docs_base_url}}/assets/img/selling/submitted-quotation.png">
 
-### 3. Related Topics
+### 4. Related Topics
 1. [Applying Discount](/docs/user/manual/en/selling/articles/applying-discount)
-1. [Customer](/docs/user/manual/en/CRM/customer)
-1. [Lead](/docs/user/manual/en/CRM/lead)
 
 {next}

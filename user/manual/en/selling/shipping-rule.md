@@ -9,13 +9,13 @@ To access Shipping Rule, go to:
 > Home > Selling > Items and Pricing > Shipping Rule
 
 ## 1. How to create a Shipping Rule
-1. Click on New.
+1. Go to the Shipping Rule list, click on New.
 2. Enter the Shipping Rule label, for example 'Priority Shipping' or 'Next Day Shipping'.
 3. Proceed with accounting details like Shipping Account, Cost Center to which amount will be charged, and Shipping Amount.
 4. Under Calculate Based On, you can also change the calculation on which the Shipping Rule will be applied like net total quantity or net total weight, by default it is "Fixed".
 5. Save.
 
-<img class="screenshot" alt="Shipping Rule" src="{{docs_base_url}}/assets/img/selling/shipping-rule.png">
+    <img class="screenshot" alt="Shipping Rule" src="{{docs_base_url}}/assets/img/selling/shipping-rule.png">
 
 ## 2. Features
 ### 2.1 Shipping Rule Conditions

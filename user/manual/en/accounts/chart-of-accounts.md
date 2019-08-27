@@ -164,7 +164,7 @@ An Example of various financial statement are given below:
 </div>
 
 #### 3. Related Topics
-1. [Opening Balance](/docs/user/manual/en/accounts/opening-accounts)
+1. [Opening Balance](/docs/user/manual/en/accounts/opening-balance)
 1. [Accounts Settings](/docs/user/manual/en/accounts/accounts-settings)
 1. [Journal Entry](/docs/user/manual/en/accounts/journal-entry)
 1. [Inter Company Journal Entry](/docs/user/manual/en/accounts/inter-company-journal-entry)

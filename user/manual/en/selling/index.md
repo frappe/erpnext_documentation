@@ -18,7 +18,7 @@ organized and searchable manner.
 
 ### 1.2 Setup
 1. [Selling Settings](/docs/user/manual/en/selling/selling-settings)
-1. [Item Price](/docs/user/manual/en/selling/item-price)
+1. [Item Price](/docs/user/manual/en/stock/item-price)
 1. [Shipping Rule](/docs/user/manual/en/selling/shipping-rule)
 1. [Product Bundle](/docs/user/manual/en/selling/product-bundle)
 1. [Sales Person Target Allocation](/docs/user/manual/en/selling/sales-person-target-allocation)

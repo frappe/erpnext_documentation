@@ -119,7 +119,7 @@ Ledger”.
 1. [Payment Entry](/docs/user/manual/en/accounts/payment-entry)
 1. [Purchase Invoice](/docs/user/manual/en/accounts/purchase-invoice)
 1. [Purchase Receipt](/docs/user/manual/en/stock/purchase-receipt)
-1. [Item Wise Taxation](/docs/user/manual/en/accounts/item-wise-taxation)
+1. [Item Wise Taxation](/docs/user/manual/en/accounts/item-tax-template)
 1. [Sales Order](/docs/user/manual/en/selling/sales-order)
 1. [Quotation](/docs/user/manual/en/selling/quotation)
 1. [Delivery Note](/docs/user/manual/en/stock/delivery-note)

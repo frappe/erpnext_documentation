@@ -9,7 +9,7 @@
 2. Enter a name for the supplier.
 4. Select the supplier group whether Pharmaceutical, Hardware etc.
 5. Save.
-<img class="screenshot" alt="Supplier Master" src="{{docs_base_url}}/assets/img/buying/supplier-master.png">
+    <img class="screenshot" alt="Supplier Master" src="{{docs_base_url}}/assets/img/buying/supplier-master.png">
 
 The options to Warn RFQs, POs, Prevent RFQs, POs will be available once you create a [Supplier Scorecard](/docs/user/manual/en/buying/supplier-scorecard) and transactions are made.
 

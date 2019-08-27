@@ -18,7 +18,7 @@ To know about setting up taxes visit [this page](/docs/user/manual/en/setting-up
 ## 1. How to add Sales Taxes/Charges via a template
 Before creating a new template, note that templates are already created for many of the commonly used taxes.
 
-1. Click on New.
+1. Go to the Sales Taxes and Charges Template list, click on New.
 2. Enter a title name for the Tax.
 3. Under type, set on what the tax will be calculated and the tax rate. There are five options under type for which tax will be calculated.
   1. Actual: On the actual amount of each item.
@@ -28,7 +28,7 @@ Before creating a new template, note that templates are already created for many
 4. Select an account head which has pre set tax rates or create your own.
 1. Selecting default will apply this template by default for new Sales transactions.
 5. Save.
-![Sales taxes](/docs/assets/img/selling/sales-taxes.png)
+  ![Sales taxes](/docs/assets/img/selling/sales-taxes.png)
 
 **Is Inter State**: For India. On selection of a customer in Sales Invoice or Delivery Note, if the GST codes of place of supply and customer shipping address don't match, the template with 'Is Inter State' ticked will be set as the taxes template. If the place of supply and shipping address are the same, the default taxes template will be applied. This also applies to Purchase Invoice, on selection of Supplier, the templates are set depending on the addresses. For example, IGST.
 

@@ -8,8 +8,14 @@
 To access Request for Quotation, go to:
 > Home > Buying > Purchasing > Request for Quotation
 
+## 1. Prerequisites
+Before creating and using a Request for Quotation, it is advised that you create the following first:
+
+* [Supplier](/docs/user/manual/en/buying/supplier)
+* [Item](/docs/user/manual/en/stock/item)
+
 ## 1. How to create a Request For Quotation
-1. Click on New.
+1. Go to the Request For Quotation list, click on New.
 2. Enter the date.
 3. Choose the supplier to whom Request for Quotation is to be sent.
 4. In the next table, enter items, quantity and the target warehouse where you'll be sending the items.
@@ -18,9 +24,9 @@ To access Request for Quotation, go to:
 
 A Request for Quotation (RFQ) can also be created from a submitted Material Request. Once an RFQ is created, you can print and send them the PDF which will have all the details you entered relevant to the RFQ and receive reply by mail. You can also get their reply (Supplier Quotation) from ERPNext itself, see section _3.1 Supplier Quotation by User_. However, for a large number of items, your supplier may be more comfortable with an Excel sheet etc.,
 
-## 2. Features
+## 3. Features
 
-### 2.1 Get items from
+### 3.1 Get items from
 The items in the items table can be fetched from other documents. The options are: Material Request, Opportunity, and Possible Supplier.
 
 * **Material Request**: Items will be fetched from a submitted Material Request that you select. A Material Request can be searched with some matching words and a date range can also be selected to filter the Material Requests.
@@ -29,7 +35,7 @@ The items in the items table can be fetched from other documents. The options ar
 
 * **Possible Supplier**: Select a possible supplier. Then if you have any submitted Material Requests against this supplier, items can be fetched from that.
 
-### 2.2 The Get Suppliers button
+### 3.2 The Get Suppliers button
 Instead of entering the suppliers manually in the table, you can also fetch them using this button. When you click on the Get Suppliers button, you will see a field 'Get Suppliers By'. There are two options to fetch suppliers: by tags or by groups. 
 
 * **By tag**: Go to 'Tag Category' via searching from the search bar. You must have created tags here first and assigned them the the DocType Supplier in the Buying module. Then you can select by Tag and enter a get. On clicking Add 'All Suppliers', suppliers with matching tags will be fetched.
@@ -38,14 +44,14 @@ Instead of entering the suppliers manually in the table, you can also fetch them
 
 In the Supplier table, on expanding a row with the inverted triangle, you'll see an option 'Download PDF' which will open a PDF of the RFQ.
 
-### 2.3 Message for Supplier
+### 3.3 Message for Supplier
 Enter any additional messages for the Supplier in this field. This field can be auto filled using an 'Email Template'. The field to select an Email Template is just above Message for Supplier.
 
-### 2.4 Terms and Conditions
+### 3.4 Terms and Conditions
 To know about Terms and Conditions, [click here](/docs/user/manual/en/setting-up/print/terms-and-conditions).
 The Terms and Conditions will be seen if you print your RFQ.
 
-### 2.5 Print Settings
+### 3.5 Print Settings
 #### Letterhead
 You can print your request for quotation/purchase order on your company's letterhead. Know more [here](/docs/user/manual/en/setting-up/print/letter-head).
 
@@ -54,7 +60,7 @@ You can print your request for quotation/purchase order on your company's letter
 #### Print Headings
 Titles of your documents can be changed. Know more [here](/docs/user/manual/en/setting-up/print/print-headings).
 
-### 2.6 More
+### 3.6 More
 
 **Link to material requests button**: This button links the Request for Quotation to any Material Requests. The items should be the same in the Request for Quotation and the Material Request.
 
@@ -63,10 +69,10 @@ Titles of your documents can be changed. Know more [here](/docs/user/manual/en/s
 Now, when the Request for Quotation is saved, you can see in the Dashboard that it is linked to the Material Request.
 If there are multiple Material Requests with the same items, then the link will be created with the newest Material Request.
 
-## 3. Creating a Supplier Quotation after RFQ
+## 4. Creating a Supplier Quotation after RFQ
 After creation of Request for Quotation, there are two ways to generate Supplier Quotation from Request for Quotation.
 
-### 3.1 Supplier Quotation by User
+### 4.1 Supplier Quotation by User
 
 1. Open Request for Quotation and click on **Supplier Quotation > Create**.
 
@@ -76,7 +82,7 @@ After creation of Request for Quotation, there are two ways to generate Supplier
 
     ![Supplier Quotation from Supplier]({{docs_base_url}}/assets/img/buying/supplier-quotation-from-sup.png)
     
-### 3.2 Supplier Quotation from Supplier
+### 4.2 Supplier Quotation from Supplier
 
 1. Create contact or enter Email Address against the supplier on Request for Quotation and email is not present.
 
@@ -101,7 +107,7 @@ After creation of Request for Quotation, there are two ways to generate Supplier
 
     ![RFQ status after supplier quote]({{docs_base_url}}/assets/img/buying/rfq-supplier-quoted.png)
 
-## 4. No quote from Supplier
+## 5. No quote from Supplier
 
 If a Supplier indicates that they will not provide a quotation for the items, this can be indicated in the RFQ document by checking the 'No Quote' box after the Request for Quotation has been submitted. The No Quote box can be seen on expanding a Supplier row by clicking on the inverted triangle at the right-hand side.
 
@@ -109,13 +115,14 @@ If a Supplier indicates that they will not provide a quotation for the items, th
 
 To know about creating a Supplier Quotation, [click here](/docs/user/manual/en/buying/supplier-quotation).
 
+## 6. Video
 <div class="embed-container">
     <iframe src="https://www.youtube.com/embed/q85GFvWfZGI?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen>
     </iframe>
 </div>
 
 
-### 5. Related Topics
+### 7. Related Topics
 1. [Purchase Order](/docs/user/manual/en/buying/purchase-order)
 1. [Supplier](/docs/user/manual/en/buying/supplier)
 1. [Supplier Quotation](/docs/user/manual/en/buying/supplier-quotation)

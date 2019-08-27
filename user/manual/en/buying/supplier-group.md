@@ -15,8 +15,13 @@ Supplier Groups for them and name the groups accordingly.
 To access Supplier Group, go to:
 > Home Buying > Supplier > Supplier Group
 
-## 1. How to create a Supplier Group
-1. Click on New.
+## 1. Prerequisites
+Before creating and using a Supplier Group, it is advised that you create the following first:
+
+* [Supplier](/docs/user/manual/en/buying/supplier)
+
+## 2. How to create a Supplier Group
+1. Go to the Supplier Group list, click on New.
 1. Type a name for your new Supplier Category.
 1. You can set a Parent Supplier Group for this Supplier Group.
 1. Ticking the Is Group checkbox will make it a Parent Supplier Group.
@@ -28,7 +33,7 @@ To access Supplier Group, go to:
 You can classify your suppliers from a range of choices available in ERPNext.
 Choose from a set of given options like Distributor, Electrical, Hardware, Local, Pharmaceutical, Raw Material, Services etc. Classifying your supplier into different types facilitates accounting and payments.
 
-## 2. Supplier Group Tree
+## 3. Supplier Group Tree
 
 You can also construct Supplier Group in the form of a tree hierarchy, similar
 to Chart of Accounts.
@@ -47,7 +52,7 @@ For example, in the above image, let's say that user permission is applied for a
 view 'Distributor' document. Then the user also gets permitted to view its
 child nodes 'Book Distributor', 'Electronic Distributor', etc.
 
-### 3. Related Topics
+### 4. Related Topics
 1. [Supplier](/docs/user/manual/en/buying/supplier)
 
 {next}

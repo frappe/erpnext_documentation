@@ -13,8 +13,13 @@ Following are the steps to set up a Product Bundle and using it in sales transac
 To access product bundle, go to:
 > Home > Selling > Items and Pricing > Product Bundle
 
+## 1. Prerequisites
+Before creating and using a Product Bundle, it is advised that you create the following first:
+
+* [Item](/docs/user/manual/en/stock/item)
+
 ## 1. How to create a Product Bundle
-1. Click on New.
+1. Go to the Product Bundle list, click on New.
 2. Select Parent Item, create one if not already created. Make sure Maintain Stock in unchecked when creating a Parent Item. eg: Dinner Set.
 1. Enter a price for the parent item, this will be fetched when making a transaction.
 1. You can enter a description for internal use.
@@ -22,7 +27,7 @@ To access product bundle, go to:
 4. Save.
 <img class="screenshot" alt="Product Bundle" src="{{docs_base_url}}/assets/img/selling/product-bundle.png">
 
-### 1.1 Selecting Parent Item
+### 2.1 Selecting Parent Item
 
 In Product Bundle master, there are two sections. The "Parent Item" and a List of items to be shipped (Child Items).
 
@@ -32,13 +37,13 @@ This is a non-stock item because there is no stock maintained for it but only fo
 If you want to maintain stock for the Parent Item, then you must create a regular Bill of Material (BOM) 
 and package them using Stock Entry Transactions.
 
-### 1.2 Selecting Child Items
+### 2.2 Selecting Child Items
 
 In the Items table, you will list all the child items for which we maintain stock and is delivered to customer.
 Remember: The "Parent Item" is just virtual, so your main product (a smartphone in our example here) also has to be listed on the List of Child (or Package) Items.
 
-## 2. Features
-### 2.1 Product Bundle in the Sales Transactions
+## 3. Features
+### 3.1 Product Bundle in the Sales Transactions
 
 When making Sales transactions (Sales Invoice, Sales Order, Delivery Note) the Parent Item will be selected in the main item table.
 
@@ -51,7 +56,7 @@ in packing List table itself. On submission of the transaction, the system will 
 <br>
 This was discovered when a customer dealing into nutrition products asked for a feature to manage offers like "Buy One Get One Free". To manage the same, he created a non-stock item which was used as Parent Item. In description of item, he entered offer details with the item's image displaying the offer. The sellable product was selected in Package Item where qty was two. Hence every time they sold one qty of Parent item under this offer, the system deducted two quantities of product from Warehouse.</div>
 
-### 3. Related Topics
+### 4. Related Topics
 1. [Item](/docs/user/manual/en/stock/item)
 
 {next}

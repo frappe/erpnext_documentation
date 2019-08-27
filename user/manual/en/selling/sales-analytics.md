@@ -9,7 +9,7 @@ These analytics can be found under:
 > Home > Selling > Key Reports
 
 ## 1. Sales Analytics Report
- Go to **Selling > Analytics > Sales Analytics**. The Sales Analytics report looks like this:
+Go to **Selling > Analytics > Sales Analytics**. The Sales Analytics report looks like this:
 
   <img class="screenshot" alt="Sales Analytics Sections" src="/docs/assets/img/selling/sales-analytics-sections.png">
 

@@ -9,10 +9,16 @@ A Supplier Scorecard is manually created for each supplier.
 To access Supplier Scorecard, go to:
 > Home > Buying > Supplier Scorecard > Supplier Scorecard
 
+
+## 1. Prerequisites
+Before creating and using a Supplier Scorecard, it is advised that you create the following first:
+
+* [Supplier](/docs/user/manual/en/buying/supplier)
+
 ## 1. How to create Supplier Scorecard
 
-1. Click on New.
-2. Select a supplier to score.
+1. Go to the Supplier Scorecard list, click on New.
+2. Select a Supplier to score.
 3. Select the evaluating period whether weekly, monthly, or yearly.
 4. Setup the scoring function (details in next section).
 5. A supplier scorecard is created for each supplier individually. Only one supplier scorecard can be created for each supplier. 

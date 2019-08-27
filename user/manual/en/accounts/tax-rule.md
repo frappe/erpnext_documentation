@@ -32,4 +32,4 @@ In case the customers Billing Country was United Kingdom, the system would have 
 
 #### 3. Related Topics
 1. [Pricing Rule](/docs/user/manual/en/accounts/pricing-rule)
-1. [Itemized Taxation](/docs/user/manual/en/accounts/item-wise-taxation)
+1. [Itemized Taxation](/docs/user/manual/en/accounts/item-tax-template)

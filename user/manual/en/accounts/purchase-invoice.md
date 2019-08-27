@@ -132,7 +132,7 @@ Take note of the following:
 
 #### 4. Related Topics
 1. [Sales Invoice](/docs/user/manual/en/accounts/sales-invoice)
-1. [Item Wise Taxation](/docs/user/manual/en/accounts/item-wise-taxation)
+1. [Item Wise Taxation](/docs/user/manual/en/accounts/item-tax-template)
 1. [Payment Entry](/docs/user/manual/en/accounts/payment-entry)
 1. [Payments](/docs/user/manual/en/accounts/payments)
 1. [Payment Request](/docs/user/manual/en/accounts/payment-request)

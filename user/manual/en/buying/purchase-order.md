@@ -7,13 +7,19 @@ It is similar to a Sales Order but instead of sending it to an external party, y
 
 > Home > Buying > Purchasing > Purchase Order
 
-## 1. How to create a Purchase Order
+## 1. Prerequisites
+Before creating and using a Purchase Order, it is advised that you create the following first:
 
-A Purchase Order can be automatically created from a Material Request or
-Supplier Quotation.
+* [Supplier](/docs/user/manual/en/buying/supplier)
+* [Item](/docs/user/manual/en/stock/item)
+
+
+## 2. How to create a Purchase Order
+
+A Purchase Order can be automatically created from a Material Request or Supplier Quotation.
 ![Buying Flow](/docs/assets/img/buying/buying_flow_po.png)
 
-1. Click on New.
+1. Go to the Purchase Order list, click on New.
 1. Select the Supplier, required by date.
 1. In the items table, select the item by code, you can change the required by date for each item.
 1. Set the quantity and the price will be fetched automatically if set in the Item master.
@@ -23,9 +29,9 @@ Supplier Quotation.
 
 Optionally, you can set the target Warehouse where the items will be delivered. Supply Raw Materials option is useful for subcontracting where you provide the raw materials for making an item.
 
-## 2. Features
+## 3. Features
 
-### 2.1 Address and Contact
+### 3.1 Address and Contact
 
 * **Select Supplier Address**: The Supplier's billing address.
 * **Select Shipping Address**: The Supplier's shipping warehouse from which they'll be sending the items.
@@ -36,14 +42,14 @@ For India:
 * **Supplier and Company GSTIN**: The GST Identification Number of your Supplier and your company.
 * **Place of Supply**: For GST, Place of Supply is necessary. It consists of the state's name and number.
 
-### 2.2 Currency and Price List
+### 3.2 Currency and Price List
 You can set the currency in which the purchase order is to be stored. If you set a Pricing List, then the item prices will be fetched from that list. Ticking on Ignore Pricing Rule will ignore the Pricing Rules set in Accounts > Pricing Rule.
 
 To know about Price Lists, [click here](/docs/user/manual/en/setting-up/price-lists).
 
 To know about managing transactions in multiple currencies, [click here](/docs/user/manual/en/accounts/articles/managing-transactions-in-multiple-currency).
 
-### 2.3 The Items table
+### 3.3 The Items table
 * **Quantity and Rate**: When you select the Item code, it's name, description, and UOM will be fetched. The 'UOM Conversion Factor' is set to 1 by default, you can change it depending on the UOM received from the seller, more in the next section.
 
     'Price List Rate' will be fetched if a Standard Buying rate is set. 'Last Purchase Rate' shows the rate of the item from your last Purchase Order. Rate is fetched if set in the item master. You can attach an Item Tax Template to apply a specific tax rate to the item.
@@ -58,7 +64,7 @@ To know about managing transactions in multiple currencies, [click here](/docs/u
 
 A “Required By” date on each Item: If you are expecting part delivery, your Supplier will know how much quantity to deliver at which date. This will help you from preventing over-supply. It will also help you to track how well your Supplier is doing on timeliness.
 
-### 2.4 Purchase UOM and Stock UOM Conversion
+### 3.4 Purchase UOM and Stock UOM Conversion
 
 You can change your UOM as per your stock requirements in the Purchase Order.
 
@@ -78,7 +84,7 @@ For example, If you have bought your raw material in large quantities with UOM -
 
  <img class="screenshot" alt="Purchase Order - UOM" src="{{docs_base_url}}/assets/img/buying/po-stock-uom.png">
 
-### 2.5 Taxes and Charges
+### 3.5 Taxes and Charges
 
 If your Supplier is going to charge you additional taxes or charge like a
 shipping or insurance charge, you can add it here. It will help you to
@@ -102,20 +108,20 @@ effect.
 
 For more information on setting up taxes see the [Purchase Taxes and Charges Template](/docs/user/manual/en/buying/purchase-taxes-template).
 
-### 2.6 Additional Discount
+### 3.6 Additional Discount
 Other than recording discount per item, you can add a discount to the whole purchase order in this section. This discount could be based on the Grand Total i.e., post tax/charges or Net total i.e., pre tax/charges. The additional discount can be applied as a percentage or an amount.
 
 Read [Applying Discount](/docs/user/manual/en/selling/articles/applying-discount) for more details.
 
-### 2.7 Payment Terms
+### 3.7 Payment Terms
 Sometimes payment is not done all at once. Depending on the agreement, half of the payment may be made before shipment and the other half after receiving the goods/services. You can add a Payment Terms template or add the terms manually in this section.
 
 To know more about Payment Terms, [click here](/docs/user/manual/en/accounts/payment-terms).
 
-### 2.8 Terms and Conditions
+### 3.8 Terms and Conditions
 To know about Terms and Conditions, [click here](/docs/user/manual/en/setting-up/print/terms-and-conditions)
 
-### 2.9 Print Settings
+### 3.9 Print Settings
 #### Letterhead
 You can print your request for quotation / purchase order on your company's letterhead. Know more [here](/docs/user/manual/en/setting-up/print/letter-head).
 
@@ -126,10 +132,10 @@ Titles of your documents can be changed. Know more [here](/docs/user/manual/en/s
 
 The seller's Additional Discount, Payment Terms, Terms and Conditions can be recorded in your Purchase Order.
 
-### 2.10 More Information
+### 3.10 More Information
 This section shows the status of the Purchase Order, percentage of items received, and percentage of items billed. If this is an Inter Company Order, the Sales Order can be linked here.
 
-### 2.11 After Submitting
+### 3.11 After Submitting
 Once you “Submit” your Purchase Order, you can trigger actions from the Sales Order:
 
 * You can Update the items in the Purchase Order by clicking on the Update Items button. If you need to update any other details, you'll have to cancel the Purchase Order, amend, then save and submit.
@@ -146,7 +152,7 @@ Once you “Submit” your Purchase Order, you can trigger actions from the Sale
 
     ![Purchase Order post submitting](/docs/assets/img/buying/po-after-submit.png)
 
-### 3. Related Topics
+### 4. Related Topics
 1. [Request For Quotation](/docs/user/manual/en/buying/request-for-quotation)
 1. [Purchase Taxes and Charges Template](/docs/user/manual/en/buying/purchase-taxes-template)
 1. [Purchase Taxes](/docs/user/manual/en/buying/purchase-taxes)
