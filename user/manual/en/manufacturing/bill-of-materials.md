@@ -60,7 +60,7 @@ To add [Operations](/docs/user/manual/en/manufacturing/operation) tick the 'With
 
 > Note: Workstations are defined only for product costing and Work Order Operations scheduling purposes not tracking inventory. Inventory is tracked in [Warehouses](/docs/user/manual/en/stock/warehouse) set in the Items table of the BOM.
 
-Transfer Material Against needs to be set for a BOM With Operations. Materials can be transferred against a [Work Order](/docs/user/manual/en/manufacturing/work-order) in bulk or individual [Job Cards](/docs/user/manual/en/manufacturing/job-card). Setting this option depends on factors like time taken to manufacture the item, value of the items manufactured, number of parts used in manufacturing, the skill of your labor involved, etc.
+Transfer Material Against needs to be set for a BOM With Operations. Materials can be transferred against a [Work Order](/docs/user/manual/en/manufacturing/work-order) in bulk or individual [Job Cards](/docs/user/manual/en/manufacturing/job-card). Changing this affects whether the 'Material Transfer for Manufacture' is done against the Work Order at once or multiple times against the individual Job Cards. Setting this option depends on factors like time taken to manufacture the item, value of the items manufactured, number of parts used in manufacturing, the skill of your labor involved, etc.
 
 ![BOM transfer materials against](/docs/assets/img/manufacturing/bom-transfer-materials.png)
 
