@@ -2,12 +2,12 @@
 	{
 		"links": [
 			{
-				"content": "<img class=\"screenshot\" alt=\"BOM\" src=\"{{docs_base_url}}/assets/img/manufacturing/BOM-hero.png\">",
+				"content": "ERPNext has features like Bill of Materials tracking, Production Order planning and execution, procurement and lot more.",
 				"link": "/docs/user/manual/en/manufacturing/introduction",
 				"title": "Introduction"
 			},
 			{
-				"content": "Manufacturing Settings can be found at:",
+				"content": "Manufacturing Settings holds all global settings and configurations for manufacturing features",
 				"link": "/docs/user/manual/en/manufacturing/manufacturing-settings",
 				"title": "Manufacturing Settings"
 			}
@@ -17,17 +17,17 @@
 	{
 		"links": [
 			{
-				"content": "At the heart of the Manufacturing system is the **Bill of Materials** (BOM).\nThe **BOM** is a list of all materials (either bought or made) and operations\nthat go into a finished product or sub-Item. In ERPNext, the component could\nhave its own BOM hence forming a tree of Items with multiple levels.",
+				"content": "The BOM is a list of all materials (either bought or made) and operations that go into a finished product or sub-Item.",
 				"link": "/docs/user/manual/en/manufacturing/bill-of-materials",
 				"title": "Bill Of Materials"
 			},
 			{
-				"content": "### Workstation",
+				"content": "Workstation stores information regarding the place where the workstation operations is carried out",
 				"link": "/docs/user/manual/en/manufacturing/workstation",
 				"title": "Workstation"
 			},
 			{
-				"content": "### Operation",
+				"content": "Stores a list of all Manufacturing Operations, its description and the Default Workstation for the Operation",
 				"link": "/docs/user/manual/en/manufacturing/operation",
 				"title": "Operation"
 			}
@@ -37,24 +37,19 @@
 	{
 		"links": [
 			{
-				"content": "<img class=\"screenshot\" alt=\"Work Order\" src=\"{{docs_base_url}}/assets/img/manufacturing/manufacturing-flow.png\">\nA Work Order is a document that is given to\nthe manufacturing shop floor by the Production Planner as a signal to produce\na certain quantity of a certain Item. The Work Order also helps to generate\nthe material requirements (Stock Entry) for the Item to be produced from its\n**Bill of Materials**.",
+				"content": "A Work Order is a document that is given to the manufacturing shop floor by the Production Planner as a signal to produce a certain quantity of a certain Item.",
 				"link": "/docs/user/manual/en/manufacturing/work-order",
 				"title": "Work Order"
 			},
 			{
-				"content": "Production Plan helps the user to plan production against multiple Sales Orders or the Material Requests. Also, it helps in Material Procurement planning for the raw-material item, based on the quantity of finished product to be manufactured.",
+				"content": "Production Plan helps the user to plan production against multiple Sales Orders or the Material Requests.",
 				"link": "/docs/user/manual/en/manufacturing/production-plan",
 				"title": "Production Plan"
 			},
 			{
-				"content": "A Job Card is created from the Work Order and given to each of the workstation in the manufacturing floor to start the production of an item with a certain quantity in each of the operations defined in the Work Order.",
+				"content": "A Job Card is created from the Work Order and given to each of the workstation in the manufacturing floor to start the production of an item.",
 				"link": "/docs/user/manual/en/manufacturing/job-card",
 				"title": "Job Card"
-			},
-			{
-				"content": "A nice introduction",
-				"link": "/docs/user/manual/en/selling/manufacturing-work-in-progress",
-				"title": "Manufacturing Work In Progress Report"
 			}
 		],
 		"title": "Production"
@@ -62,12 +57,12 @@
 	{
 		"links": [
 			{
-				"content": "Subcontracting is a type of job contract that seeks to outsource certain types\nof work to other companies. It allows work on more than one phase of the\nproject to be done at once, often leading to a quicker completion.\nSubcontracting is practiced by various industries. For example, manufacturers\nmaking a number of products from complex components subcontract certain\ncomponents and package them at their facilities.  ",
+				"content": "Subcontracting is a type of job contract that seeks to outsource certain types of work to other companies.",
 				"link": "/docs/user/manual/en/manufacturing/subcontracting",
 				"title": "Subcontracting"
 			},
 			{
-				"content": "Item alternative feature is very useful in manufacturing industries, if the raw material defined in the BOM is not available during the production process then their respective available alternative item used to complete the production process.",
+				"content": "If a raw material defined in the BOM is not available during the production process then their respective available alternative item used to complete the production process.",
 				"link": "/docs/user/manual/en/manufacturing/item-alternative",
 				"title": "Item Alternative"
 			},
@@ -82,11 +77,6 @@
 	{
 		"links": [
 			{
-				"content": "if you need Production Planning Tool to consider raw-materials required for the manufacturing of sub-assembly items selected in the BOM, please check following instructions to achieve the same.",
-				"link": "/docs/user/manual/en/manufacturing/articles/production-planning-subassembly",
-				"title": "Production Planning Subassembly"
-			},
-			{
 				"content": "Capacity Planning functionality helps you in tracking production jobs allocated on each Workstation.",
 				"link": "/docs/user/manual/en/manufacturing/articles/capacity-planning",
 				"title": "Capacity Planning"
@@ -98,43 +88,8 @@
 			}
 		],
 		"title": "Production"
-	},
-	{
-		"links": [
-			{
-				"content": "**Question:** Our manufacturing process involves producing sub-assembly items before final product. How should we manage BOM master in this scenario?",
-				"link": "/docs/user/manual/en/manufacturing/articles/nested-bom-structure",
-				"title": "Nested BOM Structure"
-			},
-			{
-				"content": "**Question:** What are for various options in `Valuation Based On` in the Bill Of Materials (BOM)? ",
-				"link": "/docs/user/manual/en/manufacturing/articles/valuation-based-on-field-in-bom",
-				"title": "Valuation Based On Field In BOM"
-			}
-		],
-		"title": "Bill of Materials"
-	},
-	{
-		"links": [
-			{
-				"content": "Material Consumption functionality allows you to have multiple consumption `Stock Entry` against a Work Order. To enable this, go to Manufacturing > Manufacturing Settings.",
-				"link": "/docs/user/manual/en/manufacturing/articles/material_consumption",
-				"title": "Material Consumption"
-			},
-			{
-				"content": "In Contract Manufacturing, in some cases Customer provides specific items as one or few of the BOM components. These items cannot be received using a `Buying Cycle` since that will mean making Customer as a Supplier at the same time and it will go through each doctype in the cycle.",
-				"link": "/docs/user/manual/en/manufacturing/articles/customer-provided-items",
-				"title": "Customer Provided Items"
-			},
-			{
-				"content": "Scrap means waste that either has no economic value or only the value of its basic material content recoverable through recycling.",
-				"link": "/docs/user/manual/en/manufacturing/articles/scrap-management",
-				"title": "Scrap Management"
-			}
-		],
-		"title": "Others"
 	}
 ] %}
 
 {% from 'erpnext_com/templates/includes/macros.html' import doc_page %}
-{{ doc_page('Manufacturing', 'Subtitle', doc) }}
+{{ doc_page('Manufacturing', 'Manage multi-level Bill of Materials, plan and track production with Work Orders', doc, '/docs/user/manual/en/manufacturing/contents') }}
