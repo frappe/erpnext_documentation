@@ -23,18 +23,19 @@ To use multi-level BOM in a Work Order, enable the 'Use Multi-Level BOM' checkbo
 Let's consider another example to understand this better where a computer is being assembled. The hard disk and DVD drive are also being manufactured and are the sub-assemblies. The multi-level or nested BOM will look like this:
 
     
-<b>-Personal Computer (FG Item)</b><br>
-<b>---- Mother Board</b><br>
-<b>---- SMTP</b><br>
-<b>---- Accessories and wires</b><br>
-<b>----<i>Hard Disk (sub-assembly)</i></b><br>
- ------- Item A<br>
- ------- Item B<br>
- ------- Item C<br>
-<b>----<i>DVD Drive (sub-assembly)</i></b><br>
- ------- Item X<br>
- ------- Item Y<br>
- ------- Item Z
+- Personal Computer (FG Item)
+    - Mother Board
+    - SMTP
+    - Accessories and wires
+    - Hard Disk (sub-assembly)
+        - Item A
+        - Item B
+        - Item C
+    - DVD Drive (sub-assembly)
+        - Item X
+        - Item Y
+        - Item Z
+
 
 
 
