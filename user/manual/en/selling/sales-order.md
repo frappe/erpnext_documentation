@@ -10,7 +10,7 @@ It is usually a binding Contract with your Customer. Once your customer confirms
 To access Sales Order, go to:
 > Home > Selling > Sales > Sales Order
 
-## Prerequisites
+## 1. Prerequisites
 Before creating and using a Sales Order, it is advised that you create the following first:
 
 * [Customer](/docs/user/manual/en/CRM/customer)
