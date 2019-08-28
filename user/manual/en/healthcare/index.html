@@ -2,14 +2,29 @@
 	{
 		"links": [
 			{
-				"content": "Here is what a patient appointment looks like in ERPNext:",
+				"content": "Healthcare domain helps you define templates for Clinical Procedures, schedule appointments and also record the consumption of Stock.",
 				"link": "/docs/user/manual/en/healthcare/introduction",
 				"title": "Introduction"
 			},
 			{
-				"content": "<img class=\"screenshot\" alt=\"ERPNext Healthcare\" src=\"{{docs_base_url}}/assets/img/healthcare/appointment_calendar.png\">",
+				"content": "ERPNext Healthcare allows you to book Patient appointments for any date and alert patients via Email or SMS.",
 				"link": "/docs/user/manual/en/healthcare/appointment",
 				"title": "Appointment"
+			},
+			{
+				"content": "The Patient document corresponds any individual who is the recipient of healthcare services you provide.",
+				"link": "/docs/user/manual/en/healthcare/patient",
+				"title": "Patient"
+			},
+			{
+				"content": "All Vitals information over time can be viewed as part of the Patient's Medical History.",
+				"link": "/docs/user/manual/en/healthcare/vital_signs",
+				"title": "Vital Signs"
+			},
+			{
+				"content": "You can create a Patient Encounter based on a previously booked Appointment or directly by creating a new Patient Encounter",
+				"link": "/docs/user/manual/en/healthcare/patient_encounter",
+				"title": "Patient Encounter"
 			}
 		],
 		"title": "Basics and Setup"
@@ -22,22 +37,22 @@
 				"title": "Healthcare Settings"
 			},
 			{
-				"content": "You can easily configure the masters for setting up ERPNext Healthcare for your practice. Below are a list of documents which helps you speed up data entry. Also read [Healthcare Settings](/docs/user/manual/en/healthcare/setup/healthcare_settings) for setting up the Healthcare module.",
+				"content": "You can easily configure the masters for setting up ERPNext Healthcare for your practice.",
 				"link": "/docs/user/manual/en/healthcare/setup_practice",
 				"title": "Setup Practice"
 			},
 			{
-				"content": "ERPNext Healthcare allows you to easily configure your Inpatient facility, Admit, Discharge and Transfer (ADT) patients and Invoice the Patient for the care services rendered. Here's how you can setup this.",
+				"content": "ERPNext Healthcare allows you to easily configure your Inpatient facility, Admit, Discharge and Transfer patients for the care services rendered.",
 				"link": "/docs/user/manual/en/healthcare/setup_inpatient",
 				"title": "Setup Inpatient"
 			},
 			{
-				"content": "If you wish to use features of Laboratory, you can create Users with _Laboratory User_. Lab Tests, Sample Collection etc. are only visible to users with this Role enabled.",
+				"content": "You can setup your Laboratory where Lab Tests, Sample Collection etc. can be recorded by authorized users.",
 				"link": "/docs/user/manual/en/healthcare/setup_laboratory",
 				"title": "Setup Laboratory"
 			},
 			{
-				"content": "You can also consider creating multiple [POS Profiles](/docs/user/manual/en/setting-up/pos-setting.html) for each Pharmacy user. ERPNext Stock module features like [Items](/docs/user/manual/en/stock/item.html) with Reorder Levels and [Auto Reordering](/docs/user/manual/en/stock/item/reorder.html), [Batch Number and Expiry Dates](/docs/user/manual/en/stock/batch.html) etc. will be worth looking at.",
+				"content": "You can create multiple POS Profiles and along with the Stock Module, you can manage multiple pharmacies.",
 				"link": "/docs/user/manual/en/healthcare/setup_pharmacy",
 				"title": "Setup Pharmacy"
 			}
@@ -47,27 +62,7 @@
 	{
 		"links": [
 			{
-				"content": "In ERPNext Healthcare, the Patient document corresponds any individual who is the recipient of healthcare services you provide. For every document ERPNext Healthcare, it is important to have a Patient associated with it. You can create a new Patient from",
-				"link": "/docs/user/manual/en/healthcare/patient",
-				"title": "Patient"
-			},
-			{
-				"content": "`Healthcare > Patient Care > Vital Signs`",
-				"link": "/docs/user/manual/en/healthcare/vital_signs",
-				"title": "Vital Signs"
-			},
-			{
-				"content": "`Healthcare > Patient Care > Patient Encounter`",
-				"link": "/docs/user/manual/en/healthcare/patient_encounter",
-				"title": "Patient Encounter"
-			}
-		],
-		"title": "Patient"
-	},
-	{
-		"links": [
-			{
-				"content": "ERPNext Healthcare helps you to draw up the medical history of a Patient anytime by quickly searching and selecting the Patient. `View > Medical Record` button is available in all forms where Healthcare Practitioners act, so that they can easily switch to the `Patient Medical History` page to view the patient history.",
+				"content": "ERPNext Healthcare helps you to draw up the medical history of a Patient anytime by quickly searching and selecting the Patient.",
 				"link": "/docs/user/manual/en/healthcare/medical_record",
 				"title": "Medical Record"
 			},
@@ -77,24 +72,19 @@
 				"title": "Inpatient Record"
 			},
 			{
-				"content": "ERPNext Healthcare allows you to manage a clinical laboratory efficiently by allowing you to enter Lab Tests and print or email test results, manage samples collected, create Invoice etc. ERPNext Healthcare comes pre-packed with some frequently ordered tests, you can reconfigure Lab Test Templates for each Test and its result format or create new ones as explained in [Setting Up Laboratory](/docs/user/manual/en/healthcare/setup/setup_laboratory)",
+				"content": "ERPNext Healthcare allows you to manage a clinical laboratory efficiently by allowing you to enter Lab Tests and print or email test results, manage samples collected, create Invoice etc.",
 				"link": "/docs/user/manual/en/healthcare/lab_test",
 				"title": "Lab Test"
 			},
 			{
-				"content": "`Healthcare Settings > Laboratory > Sample Collection`",
+				"content": "It's critical for a Laboratory to manage collected samples and you may want to ID the sample, print stickers etc.",
 				"link": "/docs/user/manual/en/healthcare/sample_collection",
 				"title": "Sample Collection"
 			},
 			{
-				"content": "Managing ADT (Admission, Discharge, Transfer) in a busy Hospital is quite a tricky function and ERPNext Healthcare eases this to a great extent. In ERPNext Healthcare every patient admission is managed using the [Inpatient Record](/docs/user/manual/en/healthcare/inpatient_record.html) document.",
+				"content": "Managing ADT (Admission, Discharge, Transfer) in a busy Hospital is quite a tricky function and ERPNext Healthcare eases this to a great extent.",
 				"link": "/docs/user/manual/en/healthcare/inpatient_adt",
 				"title": "Inpatient ADT"
-			},
-			{
-				"content": "Billing is an integral part of any undertaking and ERPNext Healthcare achieves this by making use of the `Sales Invoice` document in the ERPNext Accounts module.",
-				"link": "/docs/user/manual/en/healthcare/invoicing",
-				"title": "Invoicing"
 			}
 		],
 		"title": "Records and Reports"
@@ -102,27 +92,27 @@
 	{
 		"links": [
 			{
-				"content": "`Healthcare > Masters > Healthcare Practitioner`",
+				"content": "ERPNext Healthcare allows you to create multiple practitioners and link to a User with appropriate Roles.",
 				"link": "/docs/user/manual/en/healthcare/healthcare_practitioner",
 				"title": "Healthcare Practitioner"
 			},
 			{
-				"content": "You can create Practitioner Schedule from -\n`Healthcare > Masters > Practitioner Schedule`",
+				"content": "Physician Schedule will help you to configure the availability Healthcare Practitioners.",
 				"link": "/docs/user/manual/en/healthcare/practitioner_schedule",
 				"title": "Practitioner Schedule"
 			},
 			{
-				"content": "You can lookup and book Patient Appointment from the ordered procedures for a patient by using the `Get Prescribed Procedures` button available in Patient Appointment. The performing practitioner can easily create a new procedure from a booked appointment using the `Create > Procedure` button.",
+				"content": "ERPNext allows you to preconfigure Clinical Procedure Templates, so that you do not have to set the default properties like the consumables every time you order a procedure.",
 				"link": "/docs/user/manual/en/healthcare/clinical_procedure",
 				"title": "Clinical Procedure"
 			},
 			{
-				"content": "ERPNext Healthcare helps you map your facility infrastructure and manage scheduling, billing etc. A Healthcare Service Unit corresponds to each such unit which can be scheduled so that these are made available for Appointment booking or Inpatient occupancy and also to be billed. You can create Healthcare Service Units by going to,",
+				"content": "A Healthcare Service Unit corresponds to each such unit which can be scheduled so that these are made available for Appointment booking or Inpatient occupancy and also to be billed.",
 				"link": "/docs/user/manual/en/healthcare/healthcare_service_unit",
 				"title": "Healthcare Service Unit"
 			},
 			{
-				"content": "`Healthcare > Medical Coding > Medical Code Standard`",
+				"content": "Medical Coding are required for regulatory compliance and many of the Medical Insurance companies manage eligibility and coverage based on Medical Code standards.",
 				"link": "/docs/user/manual/en/healthcare/medical_codes",
 				"title": "Medical Codes"
 			}
@@ -135,6 +125,7 @@
 
 {{ doc_page(
 	'Healthcare',
-	'Manage all your patients',
-	doc
+	'Track patients and their reports with appointments, consultations and lab reports',
+	doc,
+	'/docs/user/manual/en/healthcare/contents'
 ) }}
