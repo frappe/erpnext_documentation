@@ -58,7 +58,7 @@ This Warehouse will be auto-updated in the 'Work In Progress' Warehouse field of
 This Warehouse will be auto-updated in the 'Target Warehouse' field of Work Order.
 
 ### Allow Multiple Material Consumption
-If ticked, multiple materials can be used for a single Work Order.
+If ticked, multiple materials can be used for a single Work Order. This is useful if one or more time consuming products are being manufactured. For example a single product takes a month to manufacture and the raw materials are consumed daily. In a regular scenario, this won't be feasible with stock entries. Enabling this option will allow you to create stock entries for material consumption without having to create an entry to backflush. End result is that you can see the stock being consumed in the Warehouses and can update the final manufacure entry at a later stage.
 
 ### Update BOM Cost Automatically
 If ticked, the BOM cost will be automatically updated based on Valuation Rate / Price List Rate / last purchase rate of raw materials.
