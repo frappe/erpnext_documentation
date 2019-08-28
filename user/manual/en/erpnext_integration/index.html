@@ -1,0 +1,81 @@
+{% set doc=[
+	{
+		"links": [
+			{
+				"title": "Amazon Integration",
+				"link": "/docs/user/manual/en/erpnext_integration/amazon_integration",
+				"content": "The Amazon Connector pulls Products and Sales Orders from Amazon marketplace. "
+			},
+			{
+				"title": "Paypal Integration",
+				"link": "/docs/user/manual/en/erpnext_integration/paypal-integration",
+				"content": "Accept payments from users via PayPal."
+			},
+			{
+				"title": "Razorpay Integration",
+				"link": "/docs/user/manual/en/erpnext_integration/razorpay-integration",
+				"content": "Accept payments from users via Razorpay"
+			},
+			{
+				"title": "Dropbox Backup",
+				"link": "/docs/user/manual/en/erpnext_integration/dropbox-backup",
+				"content": "You can automate database backup download of your ERPNext account into your Dropbox account."
+			},
+			{
+				"title": "LDAP Integration",
+				"link": "/docs/user/manual/en/erpnext_integration/ldap-integration",
+				"content": "Lightweight Directory Access Protocol is a centralised access controll system used by many small and medium scale organisations."
+			},
+			{
+				"title": "Braintree Integration",
+				"link": "/docs/user/manual/en/erpnext_integration/braintree-integration",
+				"content": "You can integrate Braintree with ERPNext and setup payment gateway."
+			},
+			{
+				"title": "Gocardless Integration",
+				"link": "/docs/user/manual/en/erpnext_integration/gocardless-integration",
+				"content": "Accept payments from users via GoCardless."
+			},
+			{
+				"title": "Stripe Integration",
+				"link": "/docs/user/manual/en/erpnext_integration/stripe-integration",
+				"content": "Accept payments from users via Stripe."
+			},
+			{
+				"title": "Shopify Integration",
+				"link": "/docs/user/manual/en/erpnext_integration/shopify_integration",
+				"content": "The Shopify Connector pulls the orders from Shopify and creates Sales Order against them in ERPNext."
+			},
+			{
+				"title": "Woocommerce Integration",
+				"link": "/docs/user/manual/en/erpnext_integration/woocommerce_integration",
+				"content": "Sync customers, orders and sales with Woocommerce directly from ERPNext"
+			},
+			{
+				"title": "Plaid Integration",
+				"link": "/docs/user/manual/en/erpnext_integration/plaid_integration",
+				"content": "ERPNext offers the possibility to synchronize your bank accounts through a service called Plaid."
+			},
+			{
+				"title": "Exotel Integration",
+				"link": "/docs/user/manual/en/erpnext_integration/exotel_integration",
+				"content": "This integration allows you to integrate Exotel into your ERPNext account. Leads and their phone numbers captured via Exotel can be saved directly to your ERPNext."
+			},
+			{
+				"title": "Google Contacts",
+				"link": "/docs/user/manual/en/erpnext_integration/google_contacts",
+				"content": "ERPNext provides an integration with Google Contacts in order for all users to synchronize their Google Contacts with ERPNext."
+			}
+		],
+		"title": "All Integrations"
+	}
+] %}
+
+{% from "erpnext_com/templates/includes/macros.html" import doc_page %}
+
+{{ doc_page(
+	'Integrations',
+	'Learn how to leverage built-in integrations to payment gateways, Google, AWS and more',
+	doc,
+	'/docs/user/manual/en/integrations/contents'
+) }}
