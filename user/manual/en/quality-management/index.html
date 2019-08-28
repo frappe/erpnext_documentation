@@ -1,0 +1,50 @@
+{% set doc=[
+	{
+		"links": [
+			{
+				"content": "It is a collection of individual metrics that helps to quantify the quality of an application. It is a basic quality management process to establish a set of quality objectives.",
+				"link": "/docs/user/manual/en/quality-management/quality_goal",
+				"title": "Quality Goal"
+			},
+			{
+				"content": "A standard operating procedure (SOP) is a set of step-by-step instructions compiled by an organization to help workers carry out complex routine operations.",
+				"link": "/docs/user/manual/en/quality-management/quality_procedure",
+				"title": "Quality Procedure"
+			},
+			{
+				"content": "Tree of Procedures is used to show the Parent-Child relationship which may or may not exist between the different Procedures.",
+				"link": "/docs/user/manual/en/quality-management/tree_of_procedure",
+				"title": "Tree Of Procedure"
+			}
+		],
+		"title": "Goal and Procedure"
+	},
+	{
+		"links": [
+			{
+				"content": "A Quality Review is an inspection with a specific structure, defined roles, and procedure designed to ensure a product's completeness and adherence to standards.",
+				"link": "/docs/user/manual/en/quality-management/quality_review",
+				"title": "Quality Review"
+			},
+			{
+				"content": "Quality Action is a standard feature to allow implementation of corrective and preventive actions.",
+				"link": "/docs/user/manual/en/quality-management/quality_action",
+				"title": "Quality Action"
+			},
+			{
+				"content": "It is an assembly of people for a particular purpose or agenda, especially for formal discussion about Quality aspects.",
+				"link": "/docs/user/manual/en/quality-management/quality_meeting",
+				"title": "Quality Meeting"
+			},
+			{
+				"content": "Quality Feedback is the information that a Customer expresses about the satisfaction or dissatisfaction about the products or services you offer.",
+				"link": "/docs/user/manual/en/quality-management/quality_feedback",
+				"title": "Quality Feedback"
+			}
+		],
+		"title": "Tools for Quality Management"
+	}
+] %}
+
+{% from 'erpnext_com/templates/includes/macros.html' import doc_page %}
+{{ doc_page('Quality Management', 'Quality management system with procedures, goals, tracking and reviewing', doc, '/docs/user/manual/en/quality-management/contents') }}

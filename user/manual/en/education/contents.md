@@ -66,13 +66,13 @@ Here are the functionalities available under the ERPNext Education domain to go 
 1. [Assessment Result Tool](/docs/user/manual/en/education/assessment_result_tool)
 1. [Grading Scale](/docs/user/manual/en/education/grading_scale)
 
-##### 9. Assessment Reports
+<!-- ##### 9. Assessment Reports
 1. [Final Assessment Grades](/docs/user/manual/en/education/final-assessment-grades)
 1. [Assessment Plan Status](/docs/user/manual/en/education/assessment-plan-status)
 1. [Student Report Generation Tool](/docs/user/manual/en/education/student-report-generation-tool)
-1. [Course Wise Assessment Report](/docs/user/manual/en/education/course-wise-assessment-report)
+1. [Course Wise Assessment Report](/docs/user/manual/en/education/course-wise-assessment-report) -->
 
-##### 10. Tools
+##### 9. Tools
 1. [Student Attendance Tool](/docs/user/manual/en/education/student-attendance-tool)
 1. [Assessment Result Tool](/docs/user/manual/en/education/assessment-result-tool)
 1. [Student Group Creation Tool](/docs/user/manual/en/education/student-group-creation-tool)

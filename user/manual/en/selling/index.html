@@ -1,0 +1,90 @@
+{% set doc=[
+	{
+		"links": [
+			{
+				"content": "A quotation is an estimated cost of the products/services you're selling to your future/present customer. ",
+				"link": "/docs/user/manual/en/selling/quotation",
+				"title": "Quotation"
+			},
+			{
+				"content": "A Sales Order is a confirmation of an order from your customer.",
+				"link": "/docs/user/manual/en/selling/sales-order",
+				"title": "Sales Order"
+			},
+			{
+				"content": "A Blanket Order is an order from a customer to supply materials for specific items over a period of time at pre-negotiated rates.",
+				"link": "/docs/user/manual/en/selling/blanket-order",
+				"title": "Blanket Order"
+			},
+			{
+				"content": "You can view your company's sales performance, analyze sales data in different views to see the sales performance.",
+				"link": "/docs/user/manual/en/selling/sales-analytics",
+				"title": "Sales Analytics"
+			},
+			{
+				"content": "Sales Partners are people or companies that assist you in getting business.",
+				"link": "/docs/user/manual/en/selling/sales-partner",
+				"title": "Sales Partner"
+			}
+		],
+		"title": "Sales"
+	},
+	{
+		"links": [
+			{
+				"content": "Selling Settings is where you can define properties and validations which will be applied to the masters and transactions involved in the sales cycle.",
+				"link": "/docs/user/manual/en/selling/selling-settings",
+				"title": "Selling Settings"
+			},
+			{
+				"content": "Item Price is the record in which you can log the selling and buying rate of an item.",
+				"link": "/docs/user/manual/en/selling/item-price",
+				"title": "Item Price"
+			},
+			{
+				"content": "Using Shipping Rule you can define the cost for delivering the product to the customer the supplier.",
+				"link": "/docs/user/manual/en/selling/shipping-rule",
+				"title": "Shipping Rule"
+			},
+			{
+				"content": "A Product Bundle is a master where you can list existing items which are bundled together and sold as a set (or bundle). ",
+				"link": "/docs/user/manual/en/selling/product-bundle",
+				"title": "Product Bundle"
+			},
+			{
+				"content": "Sales Taxes and Charges may be applied to any item you sell.",
+				"link": "/docs/user/manual/en/selling/sales-taxes-and-charges-template",
+				"title": "Sales Taxes and Charges Template"
+			}
+		],
+		"title": "Setting up Sales"
+	},
+	{
+		"links": [
+			{
+				"content": "You can have multiple sell price UOMs for any inventory item.",
+				"link": "/docs/user/manual/en/selling/articles/Selling-in-different-UOM",
+				"title": "Selling in Different UOM"
+			},
+			{
+				"content": "User Can apply the margin on Quotation Item and Sales Order Item. The system will apply the margin on quotation item and sales order item if pricing rule is enabled.",
+				"link": "/docs/user/manual/en/selling/articles/adding-margin",
+				"title": "Adding Margin"
+			},
+			{
+				"content": "Drop shipping is a supply chain management technique in which the retailer does not keep goods in stock.",
+				"link": "/docs/user/manual/en/selling/articles/drop-shipping",
+				"title": "Drop Shipping"
+			},
+			{
+				"content": "Shipping Rule master helps in defining a rule based on which shipping charge is applied on a sales transactions.",
+				"link": "/docs/user/manual/en/selling/articles/shipping-rule",
+				"title": "Shipping Rule"
+			}
+		],
+		"title": "Advanced"
+	}
+] %}
+
+{% from 'erpnext_com/templates/includes/macros.html' import doc_page %}
+{{ doc_page('Selling', 'Selling covers sales operations like quotations, orders and delivery tracking', doc, '/docs/user/manual/en/selling/contents') }}

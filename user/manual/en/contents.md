@@ -1,10 +1,5 @@
-<!-- add-breadcrumbs -->
-<!-- title: ERPNext User Manual (English) -->
+# ERPNext Manual: Table of Contents
 
-# User Manual (English)
-The following are the various modules and domains offered by ERPNext covering a wide range of businesses. You can be a small distributor, a manufacturer, running an education institute, or a healthcare organization. We have something for everyone.
-
-## Contents
 ##### 1. Basics
 1. [Introduction](/docs/user/manual/en/introduction)
 - [Setting Up](/docs/user/manual/en/setting-up)

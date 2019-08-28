@@ -1,0 +1,75 @@
+{% set doc=[
+	{
+		"links": [
+			{
+				"content": "The project is an individual or collaborative enterprise, that is carefully planned by the project team, to achieve a particular aim",
+				"link": "/docs/user/manual/en/projects/project",
+				"title": "Project"
+			},
+			{
+				"content": "Project is divided into Tasks. In ERPNext, you can also create a Task independently.",
+				"link": "/docs/user/manual/en/projects/tasks",
+				"title": "Tasks"
+			},
+			{
+				"content": "A Project Template is a set of tasks that can automatically be populated for a new project.",
+				"link": "/docs/user/manual/en/projects/project-template",
+				"title": "Project Template"
+			},
+			{
+				"content": "In ERPNext you can let Customer update oneself on the Project's progress via Customer Portal.",
+				"link": "/docs/user/manual/en/projects/project-customer-portal",
+				"title": "Project Customer Portal"
+			}
+		],
+		"title": "Project Management"
+	},
+	{
+		"links": [
+			{
+				"content": "If salary for your employees are calculated based on number of hours worked, you can use Timesheet to track it and create Salary Slip.",
+				"link": "/docs/user/manual/en/projects/salary-slip-from-timesheet",
+				"title": "Salary Slip From Timesheet"
+			},
+			{
+				"content": "Customer can be invoiced based on total no. of hours your Employees has worked for that Customer.",
+				"link": "/docs/user/manual/en/projects/sales-invoice-from-timesheet",
+				"title": "Sales Invoice From Timesheet"
+			},
+			{
+				"content": "Activity Type makes a list of the different types of activities against which a Time Log can be made.",
+				"link": "/docs/user/manual/en/projects/activity-type",
+				"title": "Activity Type"
+			},
+			{
+				"content": "Activity Cost records the per-hour billing rate and costing rate of an Employee against an Activity Type.",
+				"link": "/docs/user/manual/en/projects/activity-cost",
+				"title": "Activity Cost"
+			}
+		],
+		"title": "Time Tracking"
+	},
+	{
+		"links": [
+			{
+				"content": "These reports help you analyze the billing per Project and Employee for a specific period.",
+				"link": "/docs/user/manual/en/projects/reports/billing_summary_reports",
+				"title": "Billing Summary Reports"
+			},
+			{
+				"content": "This reports helps to track the actual costing of a Project, primarily in terms of services, user has to create Time Log based on actual time spent on Project-Task.",
+				"link": "/docs/user/manual/en/projects/articles/project-costing",
+				"title": "Project Costing"
+			},
+			{
+				"content": "While developments happen on the Project, you can track the various income and expense incurred against it.",
+				"link": "/docs/user/manual/en/projects/project-profitability",
+				"title": "Project Profitability"
+			}
+		],
+		"title": "Tools and Reports"
+	}
+] %}
+
+{% from 'erpnext_com/templates/includes/macros.html' import doc_page %}
+{{ doc_page('Project Management', 'Project and task management with full integration with billing and cost centers', doc, '/docs/user/manual/en/projects/contents') }}

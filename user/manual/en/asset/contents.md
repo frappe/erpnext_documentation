@@ -13,7 +13,7 @@ The various topics in the asset module are a follows.
 
 ##### 1.2 Asset Transactions
 1. [Asset Value Adjustment](/docs/user/manual/en/asset/asset-value-adjustment)
-1. [Purchasing an Asset](/docs/user/manual/en/asset/purchasing-an-asset) 
+1. [Purchasing an Asset](/docs/user/manual/en/asset/purchasing-an-asset)
 1. [Selling an Asset](/docs/user/manual/en/asset/selling-an-asset)
 
 ##### 1.3 Discarding Assets
