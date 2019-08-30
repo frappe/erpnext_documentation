@@ -15,8 +15,8 @@ In ERPNext you can create configurable accounting dimensions and use them in tra
 1. Go to **Accounting > Settings > Accounting Dimensions**.
 1. Select the reference document which you want to use as custom dimension. For example, if you select Department as reference document, the dimension will based on Department.
 1. Enter the name of the dimension (This name will appear in the transactions for which dimensions are created).
+1. Inside the Dimension Defaults table you can mention company specific default dimensions as shown in the image below. This dimension will be automatically fetched in the transaction against that specific company.
 1. Check "Mandatory" checkbox if you want the dimension to be mandatory in the transactions.
-1. Optionally there is a "Disable" checkbox available which allows you to disable a specific dimension in case you don't need it anymore.
 
 <img alt="Create custom dimension" class="screenshot" src="{{docs_base_url}}/assets/img/accounts/accounting-dimension.png">
 
