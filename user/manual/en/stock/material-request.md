@@ -48,3 +48,4 @@ buying so that you can collect this information from various departments.
 #### 2. Related Topics
 1. [Item](/docs/user/manual/en/stock/item)
 1. [Auto Creation Of Material Request](/docs/user/manual/en/stock/articles/auto-creation-of-material-request)
+1. [Pick List](/docs/user/manual/en/stock/pick-list#23-create-pick-list-from-material-request)

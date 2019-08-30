@@ -51,12 +51,12 @@ A Work Order can also be directly created from a [Sales Order](/docs/user/manual
 
 ## 3. Features
 ### 3.1 Time
-The Planned Start Date and Expected Delivery Date can be set here. The default for Planned Start Date is the current date and time at the time of creating the Work Order. 
+The Planned Start Date and Expected Delivery Date can be set here. The default for Planned Start Date is the current date and time at the time of creating the Work Order.
 
 ### 3.2 Required Items table
 The Source Warehouse can be changed for the raw material items used here. The default Warehouse can be set at the Item level in the [Item](/docs/user/manual/en/stock/item#28-item-defaults) master or globally in [Stock Settings](/docs/user/manual/en/stock/stock-settings#23-default-warehouse).
 
-* **Required Quantity**: This will be calculated automatically based on the [Bill Of Materials](/docs/user/manual/en/manufacturing/bill-of-materials). 
+* **Required Quantity**: This will be calculated automatically based on the [Bill Of Materials](/docs/user/manual/en/manufacturing/bill-of-materials).
 * **Transferred Quantity**: Once the Work Order starts and Job Cards are run, items are transferred from the Source Warehouse to Work In Progress Warehouse. This field shows the quantity in the WIP Warehouse. Note that if you tick on 'Skip Material Transfer to WIP Warehouse', this column will not be updated.
 * **Consumed Quantity**: When the Item from the WIP Warehouse is consumed and the finished product is manufactured, this field will be updated.
 * **Allow Alternative Item**: If a particular Item (raw material or sub-assembly) is not available, ticking this checkbox will allow you to select an alternative item defined in the Item Alternative list.
@@ -102,14 +102,14 @@ In this section, the following are shown:
 * **Planned Operating Cost**: This is fetched as per the BOM and the Operations defined in it.
 * **Actual Operating Cost**: This is fetched from the Job Cards based on the Operations run on the Items.
 * **Additional Operating Cost**: Any additional expenses you may have incurred when manufacturing the Item can be added here.
-* **Total Operating Cost**: This is calculated as Actual Operating Cost + Additional Operating Cost. 
+* **Total Operating Cost**: This is calculated as Actual Operating Cost + Additional Operating Cost.
 
-These values are calculated as per the Job Cards. 
+These values are calculated as per the Job Cards.
 
 ![Work Order Operation Costs](/docs/assets/img/manufacturing/wo-operation-cost.png)
 
 ### 3.4 More Information
-Here the Item Description and Stock UOM is shown for the Item being manufactured. 
+Here the Item Description and Stock UOM is shown for the Item being manufactured.
 
 When a Work Order is created from a [Material Request](/docs/user/manual/en/stock/material-request), it'll be shown here.
 
@@ -160,7 +160,7 @@ To know more about Job Cards, visit [this page](/docs/user/manual/en/manufacturi
 * Mention the quantity of materials to be transferred.
 
 > Tip: You can also partially complete a Work Order by updating the Finished Goods stock creating a Stock Entry.
- 
+
 ### 3.9 Stopping a Work Order
 When you stop a Work Order its status is changed to Stopped indicating that all production process against that Work Order has stopped.
 
@@ -176,7 +176,7 @@ You can also re-start a stopped Work Order.
 * Drafts of Time Logs are also created based on the scheduled operations.
 
 On Submitting the Work Order, the system will reserve a slot for each of the Work Order Operations serially after the planned start date based on the Workstation availability. The Workstation availability depends on the Workstation timings, holiday list and if some other Work Order Operation is scheduled in that slot.
-  
+
 You can mention the number of days for the system to try scheduling the operations in the Manufacturing Settings. This is set to 30 Days by default. If the operation requires time exceeding the available slot, the system will ask you to break the operations. Once the scheduling is done the system will create Time Logs and save them. You can Modify them and submit them later.
 
 ## 4. Video
@@ -188,5 +188,6 @@ You can mention the number of days for the system to try scheduling the operatio
 
 ## 5. Related Topics
 1. [Job Card](/docs/user/manual/en/manufacturing/job-card)
+1. [Pick List](/docs/user/manual/en/stock/pick-list#22-create-pick-list-from-work-order)
 
 {next}

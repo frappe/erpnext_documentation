@@ -36,6 +36,7 @@ The stock module is tightly integrated with Purchase, Manufacturing and Accounti
 1. [Packing Slip](/docs/user/manual/en/stock/packing-slip)
 1. [Retaining Sample Stock](/docs/user/manual/en/stock/retain-sample-stock)
 1. [Landed Cost Voucher](/docs/user/manual/en/stock/landed-cost-voucher)
+1. [Pick List](/docs/user/manual/en/stock/pick-list)
 
 ### 1.5 Serial and Batch Number
 1. [Serial Number](/docs/user/manual/en/stock/serial-no)

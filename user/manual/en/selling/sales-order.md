@@ -51,8 +51,8 @@ If you have the same stock in multiple warehouses, setting a warehouse here will
 
 ### 3.2 The Item Table
 * **Delivery Date against each item**: If there are multiple items and if you enter a delivery date in the first row, the date will be copied to other rows as well where it is blank. You'll have to set these if not set globally at the top of the Sales Order.
-  
-    A Sales Order displays the billed amount, valuation rate, and gross profit in the items table when you click on the inverted triangle to expand a row. 
+
+    A Sales Order displays the billed amount, valuation rate, and gross profit in the items table when you click on the inverted triangle to expand a row.
 
     You can also add items in the item table by scanning their barcodes if you have a barcode scanner. Know how to track them [here](/docs/user/manual/en/stock/articles/track-items-using-barcode)
 
@@ -171,13 +171,13 @@ When the 'Order Type' of the Sales Order is 'Maintenance' follow these steps:
 
   ![Sales Order Maintenance Type](/docs/assets/img/selling/so-maintenance.png)
 
-> **Note 1:**   
-By clicking on the Action button and selecting 'Maintenance Visit' you can directly fill the visit form. The Sales Order details will be fetched directly.    
+> **Note 1:**
+By clicking on the Action button and selecting 'Maintenance Visit' you can directly fill the visit form. The Sales Order details will be fetched directly.
 
-> **Note 2:**    
+> **Note 2:**
 By clicking on the Action button and selecting 'Maintenance Schedule' you can fill the schedule details. The Sales Order details will be fetched directly.
 
-> **Note 3:**    
+> **Note 3:**
 By clicking on the Invoice button you can make an Invoice for your
 services. The sales orders details will be fetched directly.
 
@@ -185,5 +185,6 @@ services. The sales orders details will be fetched directly.
 1. [Quotation](/docs/user/manual/en/selling/quotation)
 1. [Close Sales Order](/docs/user/manual/en/selling/articles/close-sales-order)
 1. [Amending Sales Order After Submit](/docs/user/manual/en/selling/articles/amending-sales-order-after-submit)
+1. [Pick List](/docs/user/manual/en/stock/pick-list#21-create-pick-list-from-sales-order)
 
 {next}

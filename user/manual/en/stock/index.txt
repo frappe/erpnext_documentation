@@ -17,3 +17,4 @@ articles
 opening-stock
 stock-how-to
 retain-sample-stock
+pick-list
