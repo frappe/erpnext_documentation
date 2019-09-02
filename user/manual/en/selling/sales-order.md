@@ -26,7 +26,7 @@ Before creating and using a Sales Order, it is advised that you create the follo
 1. Click "Save" to save a draft of the Sales Order.
 1. "Submit" to submit the Sales Order to the System.
 
-### 3.1 Other ways to create a Sales Order
+### 2.1 Other ways to create a Sales Order
 1. You can also create a Sales Order from a submitted Quotation via the Create button on the top right.
 
   <img class="screenshot" alt="Make Sales Order from Quotation" src="{{docs_base_url}}/assets/img/selling/make-SO-from-quote.png">
