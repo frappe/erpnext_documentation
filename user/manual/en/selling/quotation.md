@@ -63,7 +63,7 @@ In this section there are four fields:
 ### 3.2 Currency and Price List
 You can set the currency in which the quotation/sales order is to be sent. If you set a Pricing List, then the item prices will be fetched from that list. Ticking on Ignore Pricing Rule will ignore the Pricing Rules set in Accounts > Pricing Rule.
 
-To know about Price Lists, [click here](/docs/user/manual/en/setting-up/price-lists).
+To know about Price Lists, [click here](/docs/user/manual/en/stock/price-lists).
 
 To know about managing transactions in multiple currencies, [click here](/docs/user/manual/en/accounts/articles/managing-transactions-in-multiple-currency).
 
