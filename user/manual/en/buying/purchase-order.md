@@ -45,7 +45,7 @@ For India:
 ### 3.2 Currency and Price List
 You can set the currency in which the purchase order is to be stored. If you set a Pricing List, then the item prices will be fetched from that list. Ticking on Ignore Pricing Rule will ignore the Pricing Rules set in Accounts > Pricing Rule.
 
-To know about Price Lists, [click here](/docs/user/manual/en/setting-up/price-lists).
+To know about Price Lists, [click here](/docs/user/manual/en/stock/price-lists).
 
 To know about managing transactions in multiple currencies, [click here](/docs/user/manual/en/accounts/articles/managing-transactions-in-multiple-currency).
 
@@ -144,11 +144,10 @@ Once you “Submit” your Purchase Order, you can trigger actions from the Sale
 
 * Create: From a submitted Purchase Order, you can create the following:
 
-    * Purchase Receipt - A receipt indicating you've received the items.
-    * Purchase Invoice - An invoice/bill for the purchase order.
-    * Payment Entry - A payment entry indicates that payment has been made against a purchase order.
-    * Journal Entry - A Journal Entry is recorded in the general ledger.
-    * Auto Repeat - Repeat the order at specific intervals.
+    * [Purchase Receipt](/docs/user/manual/en/stock/purchase-receipt) - A receipt indicating you've received the items.
+    * [Purchase Invoice](/docs/user/manual/en/accounts/purchase-invoice) - An invoice/bill for the purchase order.
+    * [Payment Entry](/docs/user/manual/en/accounts/payment-entry) - A payment entry indicates that payment has been made against a purchase order.
+    * [Journal Entry](/docs/user/manual/en/accounts/journal-entry) - A Journal Entry is recorded in the general ledger.
 
     ![Purchase Order post submitting](/docs/assets/img/buying/po-after-submit.png)
 

@@ -100,7 +100,7 @@ Some of the following accounts will be set by default when you create a new comp
 * Default Payment Terms Template
 
 ### 2.3 Stock Settings
-Enabling Perpetual Inventory feature would lead to Stock transactions impacting the company's books of accounts. Know more [here](/docs/user/manual/en/stock/perpetual-inventory).
+Perpetual Inventory feature would lead to Stock transactions impacting the company's books of accounts. Know more [here](/docs/user/manual/en/stock/perpetual-inventory). It is enabled by default.
 
 * Default Inventory Account
 * Stock Adjustment Account

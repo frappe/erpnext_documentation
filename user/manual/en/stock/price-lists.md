@@ -1,11 +1,11 @@
 <!-- add-breadcrumbs -->
 # Price Lists
 
-**A Price List is a collection of Item Prices either selling, buying, or both.**
+**A Price List is a collection of Item Prices either Selling, Buying, or both.**
 
-ERPNext lets you maintain multiple selling and buying [Item Prices](/docs/user/manual/en/selling/item-price) using Price Lists.
+ERPNext lets you maintain multiple Selling and Buying [Item Prices](/docs/user/manual/en/selling/item-price) using Price Lists.
 
-Price Lists can be used in scenarios where you have different prices for different zones (based on the shipping costs), for different currencies etc. An Item can have multiple prices based on customer, currency, region, shipping cost etc, which can be stored as different rate plans.
+Price Lists can be used in scenarios where you have different prices for different zones (based on the shipping costs), for different currencies, etc. An Item can have multiple prices based on customer, currency, region, shipping cost, etc, which can be stored as different rate plans.
 
 In ERPNext, all the Item Prices are stored separately. Buying Price for an item is different from Selling Price and thus they're stored separately.
 
@@ -14,6 +14,8 @@ To access a Price List go to:
 > Home > Selling/Buying/Stock > Items and Pricing > Price List
 
 <img class="screenshot" alt="Price List" src="{{docs_base_url}}/assets/img/stock/price-list.png">
+
+## 1. How to use a Price List
 
 * Price Lists will be used when creating an [Item Prices](/docs/user/manual/en/selling/item-price) to track selling or buying price of an item.
 

@@ -27,7 +27,7 @@ reports. An example of a sample report is given below:
 
 #### 2.1 Assign Credit Limit, Default Price List, and Default Payment Terms Template
 
-You can assign the credit limit, [Price List](/docs/user/manual/en/setting-up/price-lists), and [Payment Terms](/docs/user/manual/en/accounts/payment-terms) and they will be automatically applied when a customer belonging to the customer group is selected in sales transactions like [Sales Order](/docs/user/manual/en/selling/sales-order) and [Sales Invoice](/docs/user/manual/en/accounts/sales-invoice).
+You can assign the credit limit, [Price List](/docs/user/manual/en/stock/price-lists), and [Payment Terms](/docs/user/manual/en/accounts/payment-terms) and they will be automatically applied when a customer belonging to the customer group is selected in sales transactions like [Sales Order](/docs/user/manual/en/selling/sales-order) and [Sales Invoice](/docs/user/manual/en/accounts/sales-invoice).
 
 #### 2.2 Default Receivable Account
 
@@ -37,7 +37,7 @@ If you need a separate receivable account for a customer, you can add the same i
 
 #### 3. Related Topics
 1. [Customer](/docs/user/manual/en/CRM/customer)
-1. [Price List](/docs/user/manual/en/setting-up/price-lists)
+1. [Price List](/docs/user/manual/en/stock/price-lists)
 1. [Payment Terms](/docs/user/manual/en/accounts/payment-terms)
 
 {next}

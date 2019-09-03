@@ -1,9 +1,9 @@
 <!-- add-breadcrumbs -->
 # Perpetual Inventory
 
-As per the perpetual inventory system, accounting entry is done for every stock transaction. Otherwise it's done in larger intervals for example monthly or quarterly. Each warehouse is linked with a corresponding account head.
+As per the perpetual inventory system, accounting entry is done for every stock transaction. Otherwise, it's done in larger intervals for example monthly or quarterly. Each warehouse is linked with a corresponding account head.
 
-On receipt of items in a particular warehouse, the balance in the Warehouse Account will increase. Similarly, when items are delivered from the Warehouse, an expense will be booked, and balance in the Warehouse Account will reduce.
+On receipt of items in a particular warehouse, the balance in the Warehouse Account will increase. Similarly, when items are delivered from the Warehouse, an expense will be booked, and the balance in the Warehouse Account will reduce.
 
 ### 1. How to activate perpetual inventory
 

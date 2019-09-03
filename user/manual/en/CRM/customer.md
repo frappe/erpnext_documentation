@@ -12,7 +12,7 @@ Every customer needs to be assigned a unique id. Customer name itself can be the
 1. Enter Full Name of the customer.
 1. Select Individual if the customer represents an individual or Company if the customer represents a company in Type field.
 1. Select a [Customer Group](/docs/user/manual/en/CRM/customer-group). Individual, Commercial, Non Profit and Government are available by default. You can create additional groups if you need.
-1. Select the [Territory](/docs/user/manual/en/setting-up/territory).
+1. Select the Territory.
 1. If the customer is being created against a lead, you can select the same in From Lead field.
 1. Save.
 
@@ -35,7 +35,7 @@ have multiple Contacts and Addresses.
 #### 2.1 Multiple Contacts and Addresses
 
 [Contacts](/docs/user/manual/en/CRM/contact) and [Addresses](/docs/user/manual/en/CRM/address) are stored separately so that you can
-attach multiple Contacts or Addresses to the a customer.
+attach multiple Contacts or Addresses to the customer.
 
 #### 2.2 Default Currency and Price List
 ERPNext supports [Multiple Currencies](/docs/user/manual/en/accounts/multi-currency-accounting) and [Price Lists](/docs/user/manual/en/setting-up/price-lists).
@@ -110,8 +110,7 @@ You can customize the Customer DocType using [Customize Form](/docs/user/manual/
 #### 3. Related Topics
 1. [Customer Group](/docs/user/manual/en/CRM/setup/customer-group)
 1. [Quotation](/docs/user/manual/en/selling/quotation)
-1. [Territory](/docs/user/manual/en/setting-up/territory)
-1. [Price List](/docs/user/manual/en/setting-up/price-lists)
+1. [Price List](/docs/user/manual/en/stock/price-lists)
 1. [Contact](/docs/user/manual/en/CRM/contact)
 1. [Difference between Lead, Contact, and Customer](/docs/user/manual/en/CRM/articles/difference_between_lead_contact_and_customer)
 

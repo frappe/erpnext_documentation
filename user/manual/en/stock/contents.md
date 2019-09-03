@@ -1,13 +1,13 @@
 <!-- add-breadcrumbs -->
 # Stock
-The stock or Inventory module helps you:
+The Stock or Inventory module in ERPNext helps you to:
 
 * Maintain details of your products and warehouses.
 * Track receipt, transfer and delivery of the products.
 * Optimize stock levels by providing real-time information via reports.
 * Provide valuation of each product.
 
-The stock module is tightly integrated with Purchase, Manufacturing and Accounting modules.
+The Stock module is tightly integrated with Purchase, Manufacturing and Accounting modules.
 
 ## 1. Topics
 
@@ -17,22 +17,23 @@ The stock module is tightly integrated with Purchase, Manufacturing and Accounti
 1. [Item](/docs/user/manual/en/stock/item)
 1. [Opening Stock](/docs/user/manual/en/stock/opening-stock)
 1. [Accounting Of Inventory Stock](/docs/user/manual/en/stock/accounting-of-inventory-stock)
+1. [Price Lists](/docs/user/manual/en/stock/price-lists)
+1. [Stock Settings](/docs/user/manual/en/stock/stock-settings)
 
 ### 1.2 Item Variants
 1. [Item Variants](/docs/user/manual/en/stock/item-variants)
 1. [Item Attribute](/docs/user/manual/en/stock/item-attribute)
 
 ### 1.3 Setup
-1. [Stock Settings](/docs/user/manual/en/stock/stock-settings)
 1. [Item Price](/docs/user/manual/en/stock/item-price)
 1. [Item Group](/docs/user/manual/en/stock/item-group)
-1. [Price Lists](/docs/user/manual/en/stock/price-lists)
+1. [Unit of Measure (UoM)](/docs/user/manual/en/stock/uom)
 
 ### 1.4 Stock Transactions
-1. [Stock Entry](/docs/user/manual/en/stock/stock-entry)
 1. [Material Request](/docs/user/manual/en/stock/material-request)
 1. [Purchase Receipt](/docs/user/manual/en/stock/purchase-receipt)
 1. [Delivery Note](/docs/user/manual/en/stock/delivery-note)
+1. [Stock Entry](/docs/user/manual/en/stock/stock-entry)
 1. [Packing Slip](/docs/user/manual/en/stock/packing-slip)
 1. [Retaining Sample Stock](/docs/user/manual/en/stock/retain-sample-stock)
 1. [Landed Cost Voucher](/docs/user/manual/en/stock/landed-cost-voucher)

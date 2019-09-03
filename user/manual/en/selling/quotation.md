@@ -96,7 +96,9 @@ You can add a [Shipping Rule](/docs/user/manual/en/selling/shipping-rule) here f
 To add taxes automatically via a Tax Category, visit [this page](/docs/user/manual/en/accounts/tax-category).
 
 ### 3.5 Additional Discount
-To know about Additional Discount, [click here](/docs/user/manual/en/selling/articles/additional-discount)
+Other than offering discount per item, you can add a discount to the whole quotation in this section. This discount could be based on the Grand Total i.e., post tax/charges or Net total i.e., pre tax/charges. The additional discount can be applied as a percentage or an amount.
+
+Read [Applying Discount](/docs/user/manual/en/selling/articles/applying-discount) for more details.
 
 ### 3.6 Payment Terms
 Sometimes payment is not done all at once. Depending on the agreement, half of the payment may be made before shipment and the other half after receiving the goods/services. You can add a Payment Terms template or add the terms manually in this section.

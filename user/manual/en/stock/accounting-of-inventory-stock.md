@@ -1,7 +1,7 @@
 <!-- add-breadcrumbs -->
 # Accounting Of Inventory Stock
 
-The value of available inventory is treated as an Asset in the company's [Chart of
+The value of available inventory is treated as a Current Asset in the company's [Chart of
 Accounts](/docs/user/manual/en/accounts/chart-of-accounts). To prepare a Balance Sheet, you should make the accounting entries for those assets. There are generally two different methods of
 accounting for inventory.
 
@@ -9,7 +9,7 @@ accounting for inventory.
 
 In this process, for each stock transaction, the system posts relevant
 accounting entries to sync stock balance and accounting balance. This is the
-default setting in ERPNext for new accounts.
+default setting in ERPNext for new accounts. By default, Perpetual Inventory is enabled in the [Company](/docs/user/manual/en/setting-up/company-setup#23-stock-settings).
 
 When you buy and receive items, those items are booked as the company’s assets
 (stock-in-hand). When you sell and deliver those items, an

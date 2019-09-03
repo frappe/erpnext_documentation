@@ -1,7 +1,7 @@
 <!-- add-breadcrumbs -->
 # Naming Series
 
-**Master and transactions can be given prefixes in the form of naming series.**
+**Masters and transactions can be given prefixes in the form of naming series.**
 
 ERPNext allows you to make prefixes to your documents, with each prefix
 forming its own series. For example, a series with prefix INV12#### will have

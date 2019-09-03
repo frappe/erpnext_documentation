@@ -42,7 +42,7 @@ To allow for per-Customer, per-Item Pricing Rules, ("Customer A" pays $1.00 for 
 ### 3.1 Currency and Price List
 You can set the currency in which the quotation/sales order is to be sent. If you set a Pricing List, then the item prices will be fetched from that list. Ticking on Ignore Pricing Rule will ignore the Pricing Rules set in Accounts > Pricing Rule.
 
-To know about Price Lists, [click here](/docs/user/manual/en/setting-up/price-lists).
+To know about Price Lists, [click here](/docs/user/manual/en/stock/price-lists).
 
 To know about managing transactions in multiple currencies, [click here](/docs/user/manual/en/accounts/articles/managing-transactions-in-multiple-currency).
 
@@ -100,7 +100,7 @@ Sometimes payment is not done all at once. Depending on the agreement, half of t
 To know more about Payment Terms, [click here](/docs/user/manual/en/accounts/payment-terms).
 
 ### 3.7 Terms and Conditions
-To know about Terms and Conditions, [click here](/docs/user/manual/en/setting-up/print/terms-and-conditions)
+To know about adding Terms and Conditions, [click here](/docs/user/manual/en/setting-up/print/terms-and-conditions)
 
 ### 3.8 Print Settings
 #### Letterhead
