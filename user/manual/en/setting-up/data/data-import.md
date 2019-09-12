@@ -82,6 +82,8 @@ ERPNext also allows you to overwrite all/certain fields of a document type. If y
 update certain fields (columns in the spreadsheet), you can download the template with data. Remember to
 select the option as “Update Records” before uploading.
 
+When you create new records in the system, ERPNext assigns an ID to them. This is a unique value for the record as in used to identify it in the system. When you're updating an existing record, the ID field is a must. If not present, the system will create a new record for it.
+
 > Note: For child records, if you select overwrite, it will delete all the
 child records of that parent.
 
