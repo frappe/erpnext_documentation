@@ -16,7 +16,7 @@ The Stock Reconciliation feature in ERPNext is used for:
 To access the Stock Reconciliation list, go to:
 > Home > Stock > Tools > Stock Reconciliation
 
-##1. How to Create a Stock Reconciliation to Post Opening Stock
+## 1. How to Create a Stock Reconciliation to Post Opening Stock
 
 Using stock reconciliation you can update the number of specific items in a warehouse as of specific time.
 You can also add Items in the stock which have Serial Numbers or the Batch Numbers.
@@ -34,7 +34,7 @@ You can also add Items in the stock which have Serial Numbers or the Batch Numbe
 
 > Note: Maintain Stock option should be enabled in Item master for this to work.
 
-##2. How to Create a Stock Reconciliation to Reconcile Book and Physical Stock Count
+## 2. How to Create a Stock Reconciliation to Reconcile Book and Physical Stock Count
 
 Stock Reconciliation is the process of counting and evaluating stock-in-trade, periodically and at year-end in order to value the total stock for preparing accounting statements. In this process, the actual physical stocks are checked and recorded in the system. The actual stocks and the stock in the system should be in agreement and accurate. If they are not, you can use the Stock Reconciliation tool to reconcile stock balance and value with actuals.
 
@@ -51,9 +51,9 @@ To reconcile the stock:
     ![Stock Reconciliation](/docs/assets/img/stock/stock_recon.png)
 
 
-##3. Features
+## 3. Features
 
-###3.1 Upload Data Through Spreadsheet
+### 3.1 Upload Data Through Spreadsheet
 
 If you have a lot of items, you can upload the details via a spreadsheet.
 
@@ -83,19 +83,19 @@ If you have a lot of items, you can upload the details via a spreadsheet.
 
   <img class="screenshot" alt="Stock Reconciliation" src="{{docs_base_url}}/assets/img/stock/stock-reco-ledger.png">
 
-###3.2 Get Stock Balance and Valuation as of Specific Date and Time
+### 3.2 Get Stock Balance and Valuation as of Specific Date and Time
 
 You can import the stock balance and valuation as of specific date and time from a selected Warehouse by clicking on **Items** button. You can update the Quantity and Valuation Rate as needed.
 
 <img class="screenshot" alt="Stock Reconciliation Items Button" src="{{docs_base_url}}/assets/img/stock/stock_reconciliation_items_button.gif">
 
-##4. How Stock Reconciliation Works
+## 4. How Stock Reconciliation Works
 
-Once a stock reconciliation is posted to update the quantity on specific date and time for an item in a warehouse, it will not be modified by subsequent stock transactions even if such transactions have a posting date which is prior to the stock reconciliation date.
+Once a stock reconciliation is posted to update the quantity on specific date and time for an item in a warehouse, it will not be modified by subsequent stock transactions even if such transactions have a posting date which is prior to the stock reconciliation date. In other words, backdated entries will not change the stock numbers after a Stock Reconciliation entry is posted.
 
-Examples are as follows
+Examples are as follows.
 
-###4.1 For non-serialized Items
+### 4.1 For non-serialized Items
 Consider an item with code 'ABC001' in a 'Mumbai' warehouse.
 Let's assume that stock as on 10th January is 100 units.
 Stock Reconciliation is made on 12th January to set stock balance to 150 units.
@@ -134,7 +134,7 @@ Stock Ledger would look as shown below:
                 </tr>
                 <tr>
                     <td>12/01/2014</td>
-                    <td align="center">50</td>
+                    <td align="center">150</td>
                     <td>150</td>
                     <td>Stock Reconciliation</td>
                 </tr>
@@ -177,16 +177,16 @@ If a new Purchase Receipt entry is made on 5th January 2014, which is prior to t
 As you can see, the Balance Qty as on 10th January got updated from 100 to 120. But the Balance Qty as on 12th January did not get updated from 150 to 170.
 
 
-###4.2 For Serialized Items
+### 4.2 For Serialized Items
 
-For item ITEM-00225 has the 6 serial nos HJF00020, HJF00021, HJF00022, HJF00023, HJF00024, HJF00025 with valuation rate as 496.67 per serial no. At the end of the year, the user has come to know that they have only 3 serial nos against that item with valuation rate 530. So to remove the old serial nos HJF00020, HJF00021, HJF00022, HJF00023, HJF00024, HJF00025 and add the new serial nos with new valuation rate, stock reconciliation can be used as follows:
+For an Item, ITEM-00225 that has has the 6 serial nos HJF00020, HJF00021, HJF00022, HJF00023, HJF00024, HJF00025 with valuation rate as 530 per serial no. At the end of the year, the user has come to know that they have only 3 Serial Nos against that item with Valuation Rate 620. So to remove the old serial nos HJF00020, HJF00021, HJF00022, HJF00023, HJF00024, HJF00025 and add the new serial nos with new Valuation Rate, Stock Reconciliation can be used as follows:
 
-Select the item ITEM-00225 in the stock reconciliation, on the selection of the item system will auto pull the existing serials nos. Then set qty as 3, valuation rate as 530 and serial no as HJF00026, HJF00027, HJF00028.
+Select the item ITEM-00225 in the stock reconciliation, on the selection of the Item the system will auto pull the existing serials nos. Then set Qty as 3, Valuation Rate as 530 and serial no as HJF00026, HJF00027, HJF00028.
 
 
 <img class="screenshot" alt="Stock Reconciliation" src="{{docs_base_url}}/assets/img/stock/stock-recon-for-serialized.png">
 
-Before reconciliation, the valuation rate was 530 and the available qty was 6, so the total stock value was 3,180. After reconciliation, the valuation rate has changed to 620 and available qty changed to 3, so the new stock value becomes 1,860. To adjust the stock value in the accounting, the system has credited extra amount 3,180 - 1,860 = 1,320 to warehouse's account and debited to stock adjustment account. The GL entries for the above entry is as follows:
+Before reconciliation, the valuation rate was 530 and the available qty was 6, so the total stock value was 3,180. After reconciliation, the valuation rate has changed to 620 and available qty changed to 3, so the new stock value becomes 1,860. To adjust the stock value in the accounting, the system has credited extra amount 3,180 - 1,860 = 1,320 to Warehouse's account and debited to stock adjustment account. The GL entries for the above entry is as follows:
 
 To view GL entries, click on button View > Accounting Ledger
 
@@ -198,7 +198,7 @@ The stock balance after submission of the stock reconciliation:
 The general ledger for the warehouse account Nagpur after submission of the stock reconciliation:
 <img class="screenshot" alt="Stock Reconciliation" src="{{docs_base_url}}/assets/img/stock/general_ledger_after_stock_reco_submission.png">
 
-###4.3 For Batch Items
+### 4.3 For Batch Items
 
 Stock reconciliation for batch items will be used to add a new batch or to update the quantity of the existing batch. For example, the batch JHGJH00003 has the current quantity as 60 but if the user wants to make it 100 then by using stock reconciliation, user can update the batch quantity.
 
