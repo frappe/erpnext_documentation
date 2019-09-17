@@ -47,7 +47,11 @@ If you want to control your description, views, and allow any HTML to be embedde
 ![Stock Settings](/docs/assets/img/stock/stock-settings-2.png)
 
 ### 6.1 Auto insert Price List rate if missing
-Will insert a Price List rate to the Item automatically if it's missing. The Item Price will be automatically inserted with every transaction. If this is unticked, the 'Standard Selling Rate*' set in the Item or the 'Rate' set in the first transaction with the Item, will be inserted as the Item Price.
+Enabling this will insert an Item Price to the Price List of an Item automatically when using the Item in its first transaction. This price is fetched from the 'Rate' set in the first transaction with the Item. The Price List depends on whether you're using a Purchase or Sales transaction.
+
+Note that, the Item Price will be automatically inserted only in the first transaction if not already present.
+
+If this is unticked, the 'Standard Selling Rate' set in the Item when creating the Item will be added as Item Price.
 
 ### 6.2 Automatically Set Serial Nos based on FIFO
 Serial numbers for stock will be set automatically based on the Items entered based on first in first out. The Serial Numbers will be set automatically in transactions like Purchase/Sales Invoices, Delivery Notes, etc.
