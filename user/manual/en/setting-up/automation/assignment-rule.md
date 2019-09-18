@@ -18,7 +18,7 @@ To set up an automatic assignment:
 1. Select the Document Type you want to assign automatically (for example **Issue**).
 1. Write the "Description" that will be added to the To Do.
 1. Select the condition for the assignment.
-    You can write simple Python expressions for automatic assignment in the `Assign Rule` and `Unassign Rule`. You will have access to all the properties of the document and can use operators like >, <, ==, etc and also multiple conditions like `and` and `or`
+    You can write simple Python expressions for automatic assignment in the `Assign Rule`, `Close Rule` and `Unassign Rule`. You will have access to all the properties of the document and can use operators like >, <, ==, etc and also multiple conditions like `and` and `or`.
 
     Examples:
 
