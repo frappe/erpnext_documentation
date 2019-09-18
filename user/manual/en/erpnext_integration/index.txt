@@ -3,3 +3,6 @@ shopify_integration
 woocommerce_integration
 plaid_integration
 google_contacts
+google_calendar
+google_drive
+google_maps
