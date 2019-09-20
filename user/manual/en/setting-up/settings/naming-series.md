@@ -33,7 +33,7 @@ You can define or select the Naming Series pattern from:
 
 > Note: To see the newly added Naming Series, click on Settings > Reload.
 
-## 3. Financial Year in Naming Series
+## 2. Financial Year in Naming Series
 You can also show the financial year in the Naming Series. By default, if you enter 'YYYY' in the naming series, it'll pick up the current year. To set naming series based on the fiscal year, enter something like 'ACC-SINV-.19-20.-' where 19-20 is the current Fiscal Year. It is common to have a separate series for each financial year. 
 
 As you can see, in the following screenshot of a Sales Invoice, the year 2019 is listed:
@@ -41,7 +41,7 @@ As you can see, in the following screenshot of a Sales Invoice, the year 2019 is
 ![Fiscal year in Naming Series](/docs/assets/img/setup/settings/year-naming-series.png)
 
 
-## 4. Updating the current value for existing Naming Series
+## 3. Updating the current value for existing Naming Series
 
 You can change the starting/current sequence number of an existing series.
 
@@ -57,7 +57,7 @@ To know more about this, [visit this article](/docs/user/manual/en/setting-up/ar
 > Tip: You could have a separate series for each type of Customer or for
 each of your retail outlets.
 
-## 5. Using Field Values in Naming Series
+## 4. Using Field Values in Naming Series
 
 Some companies prefer to make use of "short-codes" for suppliers, i.e. WN for company "Web Notes" that later can be used in naming series for quick identification.
  
@@ -68,7 +68,7 @@ For example:
         PO-.YY.MM.-.vendor_id.-.####
         Resulting in "PO-1503-WN-00001"
 
-## 6. Video
+## 5. Video
 <div>
   <div class='embed-container'>
     <iframe src='https://www.youtube.com/embed//IGyISSfI1qU' frameborder='0' allowfullscreen>
@@ -76,5 +76,5 @@ For example:
   </div>
 </div>
 
-### 7. Related Topics
+### 6. Related Topics
 1. [Bulk Rename](/docs/user/manual/en/setting-up/data/bulk-rename)
