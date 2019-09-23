@@ -147,7 +147,7 @@ Client Code and Product Code are codes given by the bank to you. This is require
 ### 2.7 Budget
 Exception Budget Approver Role: The role selected here can bypass the set budget to approve expenses.
 
-### 2.6 Company Info
+### 2.8 Company Info
 For reference, the following details of your company can be saved in ERPNext:
 
 * Date of Incorporation
