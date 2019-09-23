@@ -4,4 +4,5 @@ tree_of_procedure
 quality_review
 quality_action
 quality_meeting
+quality-feedback-template
 quality_feedback
