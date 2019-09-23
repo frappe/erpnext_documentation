@@ -1,7 +1,7 @@
 <!-- add breadcrumbs -->
 # Selling an Asset
 
-To sell an asset, open the asset record and clicking on the "Sell Asset" button. This will lead you to a [Sales Invoice](/docs/user/manual/en/accounts/sales-invoice). Enter details like Customer, Payment Due Date, and Debit To account in the Sales invoice and submit it.
+To sell an asset, open the asset record and clicking on the **Sell Asset** button. This will take you to a [Sales Invoice](/docs/user/manual/en/accounts/sales-invoice). In the Sales Invoice, enter details like Customer and Payment Due Date.
 
 On submission of the Sales Invoice, following accounting entries will take place:
 
@@ -12,6 +12,6 @@ On submission of the Sales Invoice, following accounting entries will take place
 
 <img class="screenshot" alt="Asset" src="{{docs_base_url}}/assets/img/asset/asset-sales.png">
 
-#### Related Topics
+### Related Topics
 1. [Asset Value Adjustment](/docs/user/manual/en/asset/asset-value-adjustment)
 1. [Purchasing an Asset](/docs/user/manual/en/asset/purchasing-an-asset) 

@@ -1,15 +1,22 @@
 <!-- add-breadcrumbs -->
 # Asset
 
-In ERPNext, you can maintain fixed asset records for assets like computers, furnitures, cars, etc. and manage their depreciations, sale, or disposal. You can track locations of the assets or keep records of employees who are using the asset. You can also manage the maintenance details of the assets.
+In ERPNext, you can maintain fixed asset records for Company assets like computers, furnitures, cars, etc. and manage their depreciations, sale, or disposal. You can track locations of the assets or keep records of employees who are using the asset. You can also manage the maintenance details of the assets.
 
 ## 1. Topics
-The various topics in the asset module are a follows.
 
 ##### 1.1 Asset Management
 1. [Asset](/docs/user/manual/en/asset/asset)
-1. [Asset Maintenance](/docs/user/manual/en/asset/asset-maintenance)
+1. [Asset Category](/docs/user/manual/en/asset/asset-category)
+1. [Asset Location](/docs/user/manual/en/asset/asset-location)
 1. [Asset Movement](/docs/user/manual/en/asset/asset-movement)
+
+##### 1.2 Asset Management
+1. [Asset Settings](/docs/user/manual/en/asset/asset-settings)
+1. [Asset Maintenance Team](/docs/user/manual/en/asset/asset-maintenance-team)
+1. [Asset Maintenance](/docs/user/manual/en/asset/asset-maintenance)
+1. [Asset Maintenance Log](/docs/user/manual/en/asset/asset-maintenance-log)
+1. [Asset Repair](/docs/user/manual/en/asset/asset-repair)
 
 ##### 1.2 Asset Transactions
 1. [Asset Value Adjustment](/docs/user/manual/en/asset/asset-value-adjustment)
