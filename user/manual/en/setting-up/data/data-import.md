@@ -111,6 +111,9 @@ In case there are any Unicode errors, a new file with the invalid rows will be c
 ### 2.4 Don't create new records
 For 'Update records', ticking this will prevent the creation of new records even if they exist in the template. In other words, new records in the template will not be imported and created in the system, only existing records will be updated. 
 
+### 2.5 Do not send emails
+On submitting certain documents, emails will be sent. If you're importing 1000s of records with 'Submit after importing' option, you don't want to trigger 1000 emails at once. By default, this option is enabled so emails are not sent.
+
 ### 3. Additional Notes
 A CSV (Comma Separated Value) file is a data file that you can upload into
 ERPNext to update various data. Any spreadsheet file from popular spreadsheet
