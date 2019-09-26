@@ -33,8 +33,5 @@ Later when the employee claims the expense, an advance record can be fetched in 
 
 <img class="screenshot" alt="Employee Advance Payment via Payment Entry" src="{{docs_base_url}}/assets/img/human-resources/expense_claim_advances.png">
 
-<div class="embed-container">
-    <iframe src="https://www.youtube.com/embed/7NYZ6zcWZ-E?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-</div>
 
 {next}
