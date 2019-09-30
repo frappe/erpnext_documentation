@@ -40,7 +40,7 @@ Before creating and using a Work Order, it is advised that you create the follow
 
 A Work Order can also be directly created from a [Sales Order](/docs/user/manual/en/selling/sales-order#214-after-submitting).
 
-## 2.1 Additional Options when Creating a Work Order
+### 2.1 Additional Options when Creating a Work Order
 
 * **Sales Order**: If you create a Work Order from a Sales Order, it will be fetched here. You can also link an existing Sales Order which has the Item to be manufactured to this Work Order.
 * **Project**: Link the Work Order to a Project to track progress in cases like engineer to order.
