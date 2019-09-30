@@ -6,7 +6,8 @@
 To access the Maintenance Visit list, go to:
 > Home > Support > Maintenance > Maintenance Visit
 
-<img class="screenshot" alt="Maintenance Visit" src="{{docs_base_url}}/assets/img/support/maintenance-visit.png">
+A Maintenance Visit is usually created from a Sales Order of type 'Maintenance'.
+![SO Maintenance Visit](/docs/assets/img/support/so-maintenance-visit.png)
 
 ## 1. Prerequisites
 
@@ -23,6 +24,8 @@ To access the Maintenance Visit list, go to:
 1. Enter a Description of the maintenance, select the Sales Person performing the maintenance, and enter the work done.
 1. Save. 
 
+    <img class="screenshot" alt="Maintenance Visit" src="{{docs_base_url}}/assets/img/support/maintenance-visit.png">
+
 ### 2.1 Additional Options when Creating Maintenance Visit
 
 * **Customer Feedback**: You can record any feedback given by the Customer regarding ths=is Maintenance Visit.
@@ -35,5 +38,5 @@ To access the Maintenance Visit list, go to:
 ## 3. Related Topics
 1. [Warranty Claim](/docs/user/manual/en/support/warranty-claim)
 1. [Maintenance Schedule](/docs/user/manual/en/support/maintenance-schedule)
+1. [Sales Order](/docs/user/manual/en/selling/sales-order)
 
-{next}

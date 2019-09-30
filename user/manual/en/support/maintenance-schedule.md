@@ -12,6 +12,9 @@ To create a new Maintenance Schedule go to:
 
 > Home > Support > Maintenance > Maintenance Schedule
 
+A Maintenance Schedule is usually created from a Sales Order of type 'Maintenance'.
+![SO Maintenance Schedule](/docs/assets/img/support/so-maintenance-schedule.png)
+
 ## 1. Prerequisites
 * [Customer](/docs/user/manual/en/CRM/customer)
 * [Item](/docs/user/manual/en/stock/item)
@@ -37,3 +40,4 @@ When the document is Submitted Calendar events are created for the Sales Person 
 1. [Serial Number](/docs/user/manual/en/stock/serial-no)
 1. [Warranty Claim](/docs/user/manual/en/support/warranty-claim)
 1. [Maintenance Visit](/docs/user/manual/en/support/maintenance-visit)
+1. [Sales Order](/docs/user/manual/en/selling/sales-order)
