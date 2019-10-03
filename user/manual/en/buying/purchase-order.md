@@ -106,7 +106,7 @@ Ideally you must create two Accounts for each type of VAT you pay and collect,
 “Purchase VAT-X” (asset) and “Sales VAT-X” (liability), or something to that
 effect. 
 
-For more information on setting up taxes see the [Purchase Taxes and Charges Template](/docs/user/manual/en/buying/purchase-taxes-template).
+For more information on setting up taxes see the [Purchase Taxes and Charges Template](/docs/user/manual/en/buying/purchase-taxes-and-charges-template).
 
 ### 3.6 Additional Discount
 Other than recording discount per item, you can add a discount to the whole purchase order in this section. This discount could be based on the Grand Total i.e., post tax/charges or Net total i.e., pre tax/charges. The additional discount can be applied as a percentage or an amount.
@@ -119,6 +119,7 @@ Sometimes payment is not done all at once. Depending on the agreement, half of t
 To know more about Payment Terms, [click here](/docs/user/manual/en/accounts/payment-terms).
 
 ### 3.8 Terms and Conditions
+When buying a product, the Supplier may have some terms and conditions around the product/service being sold. These can be added here.
 To know about Terms and Conditions, [click here](/docs/user/manual/en/setting-up/print/terms-and-conditions)
 
 ### 3.9 Print Settings
@@ -153,8 +154,7 @@ Once you “Submit” your Purchase Order, you can trigger actions from the Sale
 
 ### 4. Related Topics
 1. [Request For Quotation](/docs/user/manual/en/buying/request-for-quotation)
-1. [Purchase Taxes and Charges Template](/docs/user/manual/en/buying/purchase-taxes-template)
-1. [Purchase Taxes](/docs/user/manual/en/buying/purchase-taxes)
+1. [Purchase Taxes and Charges Template](/docs/user/manual/en/buying/purchase-taxes-and-charges-template)
 1. [Purchasing In Different Unit](/docs/user/manual/en/buying/articles/purchasing-in-different-unit)
 1. [Amending Purchase Order After Submit](/docs/user/manual/en/buying/articles/amending-purchase-order-after-submit)
 
