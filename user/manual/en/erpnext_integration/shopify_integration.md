@@ -41,3 +41,6 @@ After setting up all the configurations, enable the Shopify sync and save the se
 
 ### Note:
 The connector won't handle Order cancellation. If you cancelled any order in Shopify then manually you have to cancel respective Sales Order and other documents in ERPNext.
+
+#### Version 11:
+We have enhanced the Shopify Integration to make it unidirectional - The Shopify Connector will pull the orders from Shopify and creates Sales Order against them in ERPNext, not the other way round.

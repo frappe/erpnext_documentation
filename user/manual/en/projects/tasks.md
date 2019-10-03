@@ -62,5 +62,3 @@ The system shall update the total amount from expense claims in the costing sect
 <div class="embed-container">
     <iframe src="https://www.youtube.com/embed/IxY-rSJsA6U?end=126rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 </div>
-
-{next}
