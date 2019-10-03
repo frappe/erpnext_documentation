@@ -18,7 +18,7 @@ Before creating and using a Purchase Return, it is advised that you create the f
     [Purchase Receipt](/docs/user/manual/en/stock/purchase-receipt)
 
 
-## 1. How to create a Purchase Return
+## 2. How to create a Purchase Return
 1. First open the original Purchase Receipt, against which supplier delivered the Items.
 
     <img class="screenshot" alt="Original Purchase Receipt" src="{{docs_base_url}}/assets/img/stock/purchase-return-original-purchase-receipt.png">
@@ -37,6 +37,6 @@ Before creating and using a Purchase Return, it is advised that you create the f
 
 If Perpetual Inventory enabled, the system will also post accounting entry against warehouse account to sync warehouse account balance with stock balance as per Stock Ledger.
 
-### 2. Related Topics
+### 3. Related Topics
 1. [Sales Return](/docs/user/manual/en/stock/sales-return)
 1. [Perpetual Inventory](/docs/user/manual/en/stock/perpetual-inventory)
