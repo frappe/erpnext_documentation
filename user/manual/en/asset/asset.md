@@ -74,13 +74,15 @@ An Asset Category needs to be assigned to that Item. Now the Asset can be create
 ### 4.1 Depreciation
 
 * **Frequency of Depreciation (Months)**: The number of months between depreciations.
-* **Depreciation Method**: There are two options**: Straight Line and Double Declining Balance.
+* **Depreciation Method**: There are two options: Straight Line and Double Declining Balance.
     - **Straight Line**: This method spreads the cost of the fixed asset evenly over its useful life.
     - **Double Declining Method**: An accelerated method of depreciation, it results in higher depreciation expense in the earlier years of ownership.
 * **Total Number of Depreciations**: The total number of depreciations during the useful life. In case of existing assets which are partially depreciated, mention the number of pending depreciations. For example if you set frequency as 12 months and no. of depreciations as 3, 1 depreciation will be booked every 12 months for 3 years.
 * **Depreciation Start Date**: The date from which booking of depreciation will be started.
 * **Expected Value After Useful Life**: Useful Life is the time period over in which the company expects that the asset will be productive. After that period, either the asset is scrapped or sold. In case it is sold, mention the estimated value here. This value is also known as Salvage Value, Scrap Value, or Residual Value.
 * **Rate of Depreciation**: This will be calculated based on the amount entered in expected value after useful life.
+
+To know about Asset Depreciation in detail, [visit this page](/docs/user/manual/en/asset/asset-depreciation).
 
 ### 4.2 Depreciation Schedule
 
