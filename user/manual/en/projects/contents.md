@@ -28,6 +28,7 @@ A services business, which doesn't have a tangible product to showcase their val
 1. [Project Profitability](/docs/user/manual/en/projects/project-profitability)
 1. [Project Expense Claims](/docs/user/manual/en/projects/project-expense-claims)
 1. [Project Customer Portal](/docs/user/manual/en/projects/project-customer-portal)
+1. [Make a Colorful Gantt Chart](/docs/user/manual/en/projects/articles/make-a-colorful-gantt-chart)
 
 ## 3. Videos
 1. [Project Management](/docs/user/videos/learn/project-and-task.html)
