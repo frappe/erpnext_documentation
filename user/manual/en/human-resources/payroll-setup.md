@@ -7,14 +7,14 @@ Payroll is the administration of financial records of employees' salaries, wages
 
 To process Payroll in ERPNext,
 
-1. Define [Payroll Period](/docs/user/manual/en/human-resources/payroll/payroll-period.html) (optional)
+1. Define [Payroll Period](/docs/user/manual/en/human-resources/payroll-period.html) (optional)
 2. Create Salary Structure with Salary Components (Earnings and Deductions)
 3. Assign Salary Structures to each Employee via Salary Structure Assignment
-4. Generate Salary Slips via [Payroll Entry](/docs/user/manual/en/human-resources/payroll/payroll-entry.html).
+4. Generate Salary Slips via [Payroll Entry](/docs/user/manual/en/human-resources/payroll-entry.html).
 5. Book the Salary in your Accounts.
 
 ## Payroll Period
-[Payroll Period](/docs/user/manual/en/human-resources/payroll/payroll-period.html), in ERPNext, is a period for which Employees get paid for their occupation with the Company. Payroll period helps you define Tax slabs applicable for the period, making it easier to manage changing laws.
+[Payroll Period](/docs/user/manual/en/human-resources/payroll-period.html), in ERPNext, is a period for which Employees get paid for their occupation with the Company. Payroll period helps you define Tax slabs applicable for the period, making it easier to manage changing laws.
 
 > Note: Configuring Payroll Period is optional if you do not intend to use Flexible Benefits or Tax Slabs
 
@@ -40,11 +40,11 @@ pay in proportion of LWP days divided by the total working days for the month (b
 
 * Is Payable: Such components can be booked against separate payable accounts and the Accounts shall be configured in the Accounts table
 
-* Flexible Benefits: Flexible Benefits are earning components which Employees can choose to receive on a pro-rata basis or annually when they claim for. These are mostly tax exempted, unless the Employee fail to file the claim with adequate bills / documents. If turned on, you can specify the maximum benefit allowed for an employee in a year. Employees can create [Employee Benefit Application](/docs/user/manual/en/human-resources/payroll/employee-benfit-application.html) with the ones they opt for.
+* Flexible Benefits: Flexible Benefits are earning components which Employees can choose to receive on a pro-rata basis or annually when they claim for. These are mostly tax exempted, unless the Employee fail to file the claim with adequate bills / documents. If turned on, you can specify the maximum benefit allowed for an employee in a year. Employees can create [Employee Benefit Application](/docs/user/manual/en/human-resources/employee-benfit-application.html) with the ones they opt for.
 
 	>Note: Employee Benefit Application will only allow Employees to only choose from the flexible components which are present in the Salary Structure assigned to the Employee
 
-	- Pay Against Benefit Claim: Employees can opt to receive flexible benefits annually via Employee Benefit Claim or along with their salary every month. If you enable this, the amount allocated for the component will be paid as the Employee submits an [Employee Benefit Claim](/docs/user/manual/en/human-resources/payroll/employee-benefit-claim.html). Else the amount will be dispersed as part of the Employee's salary on a pro-rata basis.
+	- Pay Against Benefit Claim: Employees can opt to receive flexible benefits annually via Employee Benefit Claim or along with their salary every month. If you enable this, the amount allocated for the component will be paid as the Employee submits an [Employee Benefit Claim](/docs/user/manual/en/human-resources/employee-benefit-claim.html). Else the amount will be dispersed as part of the Employee's salary on a pro-rata basis.
 
  - Only Tax Impact (Cannot Claim But Part of Taxable Income): Such components are those which the company has already paid to the Employee in cash or by some other means, for example a car purchased for the Employee's use. The Employee cannot claim but is liable to pay tax. The amount allocated for this component will be considered while calculating the taxable income of the Employee.
 
