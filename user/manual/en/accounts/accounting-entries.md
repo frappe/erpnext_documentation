@@ -6,32 +6,31 @@ take a "Tea Stall" as a company and see how to book accounting entries for the
 business.
 
 Mama (The Tea-stall owner) invests Rs. 25000 to start the business.
+![JE](/docs/assets/img/accounts/je-1.png)
 
-![A&L](/docs/assets/old_images/erpnext/assets-1.png)
-
-### 1. Investment
-Mama invested Rs. 25000 in company, hoping to get some profit. In other
+## 1. Investment
+Mama invested Rs. 25000 in Company, hoping to get some profit. In other
 words, company is liable to pay Rs. 25000 to Mama in the future. So, account
 "Mama" is a liability account and it is credited. Company's cash balance will
 be increased due to the investment. "Cash" is an asset to the company and it
 will be debited.
 
-  The company needs equipments (stove, teapot, cups, etc.) and raw materials (tea, sugar, milk, etc.) immediately. He decides to buy them from the nearest general store, "Super Bazaar" whose owner is a friend, so that, he gets some credit. Equipments cost him Rs. 2800 and raw materials Rs. 2200. He pays Rs. 2000 out of the total cost which is Rs. 5000.
+  The company needs equipments (stove, teapot, cups, etc.) and raw materials (tea, sugar, milk, etc.) immediately. He decides to buy them from the nearest general store, "Super Bazaar" whose owner is a friend, so that he gets some credit. Equipments cost him Rs. 2800 and raw materials Rs. 2200. He pays Rs. 2000 out of the total cost which is Rs. 5000. This can be recorded in ERPNext using a [Payment Entry](/docs/user/manual/en/accounts/payment-entry).
 
-![A&L](/docs/assets/old_images/erpnext/assets-2.png)
+![JE](/docs/assets/img/accounts/je-2.png)
 
-### 2. Assets
+## 2. Assets
 Equipments are "Fixed Assets" (because they have a long life) and raw materials are "Current Assets" (since they are used for day-to-day
 business), of the company. So, "Equipments" and "Stock in Hand" accounts have
 been debited to increase the value. He pays 2000, so "Cash" account will be
 reduced by that amount, hence credited and he is liable to pay Rs. 3000 to "Super
 Bazaar" later, so Super Bazaar will be credited by Rs. 3000.
 
-  Mama (who takes care of all entries) decides to book sales at the end of every day, so that he can analyze daily sales. At the end of the very first day, the tea stall sells 325 cups of tea, which gives net sales of Rs. 1575. The owner happily books his first day sales.
+  Mama (who takes care of all entries) decides to book sales at the end of every day, so that he can analyze daily sales. At the end of the very first day, the tea stall sells 325 cups of tea, which gives net sales of Rs. 1625. The owner happily books his first day sales.
 
-![A&L](/docs/assets/old_images/erpnext/assets-3.png)
+![JE](/docs/assets/img/accounts/si-1.png)
 
-### 3. Income
+## 3. Income
 Income has been booked in "Sales of Tea" account which has been
 credited to increase the value and the same amount will be debited to "Cash"
 account. Lets say, to make 325 cups of tea, it costs Rs. 800, so "Stock in
@@ -41,26 +40,24 @@ sold" account by same amount.
 At the end of the month, the company paid the rent amount of stall (Rs. 5000) and
 salary of one employee (Rs. 8000), who joined from the very first day.
 
-![A&L](/docs/assets/old_images/erpnext/assets-4.png)
+![JE](/docs/assets/img/accounts/je-3.png)
 
-### 4. Booking Profit
+## 4. Booking Profit
 
 As month progress, company purchased more raw materials for the business.
 After a month he books profit to balance the "Balance Sheet" and "Profit and
 Loss Statements" statements. Profit belongs to Mama and not the company hence
 its a liability for the company (it has to pay it to Mama). When the Balance
 Sheet is not balanced i.e. Debit is not equal to Credit, the profit has not
-yet been booked. To book profit, the following entry has to be made:
+yet been booked. To book profit, the profit and loss accounts have to be reset. The profit/loss is transfered to the Liability account and the profit/loss statement starts fresh. This is done using a [Period Closing Voucher](/docs/user/manual/en/accounts/period-closing-voucher).
 
-![A&L](/docs/assets/old_images/erpnext/assets-5.png)
-
-Explanation: Company's net sales and expenses are Rs. 40000 and Rs. 20000
+**Explanation**: Company's net sales and expenses are Rs. 40000 and Rs. 20000
 respectively. So, company made a profit of Rs. 20000. To make the profit booking
 entry, "Profit or Loss" account has been debited and "Capital Account" has
 been credited. Company's net cash balance is Rs. 44000 and there are some raw
 materials available worth Rs. 1000.
 
-#### Related Topics
+### Related Topics
 1. [Payment Entry](/docs/user/manual/en/accounts/payment-entry)
 1. [Advance Payment Entry](/docs/user/manual/en/accounts/advance-payment-entry)
 1. [Freeze Accounting Entries](/docs/user/manual/en/accounts/articles/freeze-accounting-entries)
