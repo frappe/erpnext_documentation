@@ -1,19 +1,52 @@
 <!-- add-breadcrumbs -->
 # Attendance
 
-An Attendance record stating that an Employee has been present on a particular
-day can be created manually by:
+**Attendance is a record stating whether an Employee has been present on a particular
+day or not.**
 
-> Human Resources > Documents > Attendance > New Attendance
+In ERPNext, you can mark and record attendance of an Employee on a daily basis using the Attendance doctype. 
 
-<img class="screenshot" alt="Attendance" src="{{docs_base_url}}/assets/img/human-resources/attendance.png">
+To access Attendance, go to:
 
-You can get a monthly report of your Attendance data by going to the _Monthly
-Attendance Details_ report.
+> Home > Human Resources > Attendance 
 
-You can easily set attendance for Employees using the [Employee Attendance Tool](/docs/user/manual/en/human-resources/employee-attendance-tool)
+## 1. Prerequisites
 
-You can also bulk upload attendance using the [Upload Attendance Tool](/docs/user/manual/en/human-resources/upload-attendance)
+Before creating an Attendance record, it is advised that you create the following first:
+
+* [Employee](/docs/user/manual/en/human-resources/employee)
+* [Shift Type](/docs/user/manual/en/human-resources/shift-management)
+
+## 2. How to create an Attendance
+
+1. Go to the Attendance list, click on New.
+1. Select the Employee.
+1. Select the Attendance Date.
+1. Select the Shift (optional).
+1. Select the Status (Present, Absent, On Leave, Half Day).
+1. Save and Submit.
+
+    <img class="screenshot" alt="Attendance" src="{{docs_base_url}}/assets/img/human-resources/attendance.png">
+
+
+> **Note:** Attendance cannot be marked for future dates.
+
+
+You can get a monthly report of your Attendance data by going to the **Monthly
+Attendance Details** report.
+
+You can easily set attendance for Employees using the [Employee Attendance Tool](/docs/user/manual/en/human-resources/employee-attendance-tool).
+
+You can also bulk upload attendance using the [Upload Attendance](/docs/user/manual/en/human-resources/upload-attendance).
+
+
+## 3. Related Topics
+
+1. [Employee Attendance Tool](/docs/user/manual/en/human-resources/employee-attendance-tool)
+1. [Employee Checkin](/docs/user/manual/en/human-resources/employee-checkin)
+1. [Upload Attendance](/docs/user/manual/en/human-resources/upload-attendance)
+1. [Attendance Request](/docs/user/manual/en/human-resources/attendance-request)
+
 
 It is also, possible to set up marking of attendance automatically based on check-in/check-out logs from Biometric/RFID Devices (or any other similar mechanisms that produce IN/OUT logs of the employee). Please refer to [Auto Attendance](/docs/user/manual/en/human-resources/auto-attendance) feature for more information.
 
