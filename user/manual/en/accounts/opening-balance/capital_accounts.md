@@ -11,6 +11,8 @@ To import details of capital accounts:
 1. Select 'Temporary Opening' ledger in Account and enter the balancing amount in Debit column.
 1. Set 'Is Opening' to Yes.
 
+> To know about Journal Enter in detail, [visit this page](/docs/user/manual/en/accounts/journal-entry).
+
 <img class="screenshot" alt="Stock Asset Ledger" src="{{docs_base_url}}/assets/img/accounts/opening_balance_capital_accounts.png">
 
 

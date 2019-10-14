@@ -61,7 +61,10 @@ The following Warehouses set will apply to all Items in the Items table of the P
 
 * **Accepted Warehouse**: This is the Warehouse in which you'll accept and store the incoming Items. Usually, this is the 'Stores' Warehouse.
 * **Rejected Warehouse:** This is the Warehouse in which you'll keep the rejected Items which were either defective or not up to the quality mark.
-* **Raw Materials Supplied**: In case you're subcontracting, select 'Yes' to supply the Raw Materials to the vendor. To know more about subcontracting, [click here](/docs/user/manual/en/manufacturing/subcontracting).
+
+#### Subcontracting
+
+**Raw Materials Supplied**: In case you're subcontracting, select 'Yes' to supply the Raw Materials to the vendor. To know more about subcontracting, [click here](/docs/user/manual/en/manufacturing/subcontracting).
 
 ### 3.3 Items table
 
@@ -122,6 +125,10 @@ The total taxes and charges will be displayed below the table.
 To add taxes automatically via a Tax Category, visit [this page](/docs/user/manual/en/accounts/tax-category).
 
 Make sure to mark all your taxes in the Taxes and Charges table correctly for an accurate valuation.
+
+#### Shipping Rule
+A Shipping Rule helps set the cost of shipping an Item. The cost will usually increase with the distance of shipping. To know more, visit the [Shipping Rule](/docs/user/manual/en/selling/shipping-rule) page.
+
 
 ### 3.7 Additional Discount
 Any additional discounts to the whole order can be set in this section.

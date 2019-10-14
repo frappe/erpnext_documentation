@@ -1,22 +1,34 @@
 <!-- add-breadcrumbs -->
 # Inter Company Journal Entry
 
+**An Inter Company Journal Entry is done between organizations that belong to the same group.**
+
 You can create Inter Company Journal Entry if you are making transactions with multiple Companies.
 You can select the Accounts which you wish to use in the Inter Company transactions. A possible use case would be a company buying goods on behalf of another company.
 
 Before creating an Inter Company Journal Entry, you need to set up your Chart of accounts.
 
 1. Go to: **Accounts > Company and Accounts > Chart Of Accounts**.
-1. Select the Account which you would like to set as an Internal Account for the transaction, and check the **Inter Company Account** checkbox. This account can now be used for Inter Company Journal Entry Transactions.
+1. Select the Account which you would like to set as an Internal Account for the transaction, and check the 'Inter Company Account' checkbox. This account can now be used for Inter Company Journal Entry Transactions. It is recommended to create a new account for inter company transactions.
     <img class="screenshot" alt="Internal Account" src="{{docs_base_url}}/assets/img/accounts/internal-account.png">
 You need to do the same for all the Companies' Accounts which you want to use for Inter Company Journal Entry transactions.
 
-### 1. How to create an Inter Company Journal Entry
-1. Go to: **Accounts > Company and Accounts > Journal Entry > New**.
+In case of parent-child companies, when an account is created in the parent company, it gets added in the child company. This works only if you've selected the option to create Chart of Accounts for child Company based on the parent Company.
 
-    <img class="screenshot" alt="Inter Company Journal Entry" src="{{docs_base_url}}/assets/img/accounts/inter-company-jv.png">
-1. Select Entry Type as **Inter Company Journal Entry**.
-1. Set the company who is buying items on behalf of another company.
+Inter company Journal Entries are created using the Journal Entry form in ERPNext. To access the Journal Entry list, go to:
+
+> Home > Accounts > Company and Accounts > Journal Entry
+
+## 1. Prerequisites
+Before creating an Inter Company Journal Entry, you need the following:
+
+* At least two [Companies](/docs/user/manual/en/setting-up/company-setup)
+* Setting inter company accounts in [Chart of Accounts](/docs/user/manual/en/accounts/chart-of-accounts)
+
+## 2. How to create an Inter Company Journal Entry
+1. Go to the Journal Entry list, and click on New.
+1. Select Entry Type as 'Inter Company Journal Entry'.
+1. Set the Company that is buying Items on behalf of another company.
 1. Add rows for the individual accounting entries. Only inter company accounts can be fetched here.
 1. In each row, you must specify:
   * The Internal account that will be affected. 
@@ -42,11 +54,11 @@ You need to do the same for all the Companies' Accounts which you want to use fo
 For example, Company A is buying something from Company B. This is how the payment cycle between the two companies will look like using Inter Company Journal Entry.
 
 1. Debit Bank Account by 500 and credit Debtors account of Company B by 500.
-1. Now, in th e Inter Company Journal Entry, debit Creditors account of Company A by 500 and credit Bank Account by 500. 
+1. Now, in the Inter Company Journal Entry, debit Creditors account of Company A by 500 and credit Bank Account by 500. 
 1. You also need to select the parties for Creditors and Debtors account before proceeding with the Journal Entry.
 
 You can also find the reference link at the bottom, which will be added in both the linked Journal Entries and will be removed if any of the Journal Entries are cancelled.
 
-#### 2. Related Topics
+### 3. Related Topics
 1. [Journal Entry](/docs/user/manual/en/accounts/journal-entry)
 1. [Inter Company Invoices](/docs/user/manual/en/accounts/inter-company-invoices)

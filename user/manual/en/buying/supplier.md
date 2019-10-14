@@ -23,7 +23,7 @@ Fields in future transactions will be auto-populated if the 'Default' fields lik
 * **Tax ID**: Tax identification number of the supplier.
 * **Tax Category**: This is linked to [Tax Rule](/docs/user/manual/en/accounts/tax-rule). If a Tax Category is set here, when you select this supplier, the respective Purchase Tax and Charges template will be applied. This template is linked to the Tax Rule and the Tax Rule is linked with a Tax Category. Tax Category can be used to group suppliers to whom same tax will be applied. For example: Government, commercial, etc,.
 * **Print Language**: The language in which the document will be printed.
-* **Tax Withholding Category**: For India, TDS category for the supplier.
+* **Tax Withholding Category**: For India, TDS category for the Supplier. On setting a category here, it will be fetched into the [Purchase Invoice](/docs/user/manual/en/accounts/purchase-invoice). For more information, visit the [Tax Withholding Category](/docs/user/manual/en/accounts/tax-withholding-category) page.
 * **Disabled**: Disables the Supplier and they won't be shown in the Supplier List.
 * **Is Transporter**: If the supplier is selling your transport services, tick this box. 'GST Transporter ID' field will be visible if this field is ticked.
 * **Internal Supplier**: If the supplier is from a sister or parent/child company, tick this field and select the company which they represent.

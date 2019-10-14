@@ -9,13 +9,13 @@ If you are a new company, you will have minimal opening balances to be imported.
 
 We recommend that you start using ERPNext for accounting from a new financial year, but you could start midway too. To set up your accounts, you will need the following for the “day” you start using accounting in ERPNext:
 
-##### Assets:
-1. Stock assets (stock in hand)
-1. Fixed assets like furnitures, computers etc
-1. Accounts Receivables(AR) i.e. unpaid invoices which you have sent to your customers
-1. Current assets like bank balances, cash in hand, deposits etc
+### Assets
+1. Stock assets (stock in hand).
+1. Fixed assets like furnitures, computers, etc.
+1. Accounts Receivables (AR) i.e. unpaid invoices which you have sent to your Customers.
+1. Current assets like bank balances, cash in hand, deposits, etc.
 
-##### Liabilities:
+### Liabilities
 
 1. Capital accounts like your shareholder’s (or owner’s) capital
 1. Current liabilities like loans, salary payables etc
@@ -52,6 +52,7 @@ After completing the accounting entries, the trial balance report will look as s
 
 <img class="screenshot" alt="Opening Account" src="{{docs_base_url}}/assets/img/accounts/opening-4.png">
 
+## 5. Video
 <div>
   <div class='embed-container'>
     <iframe src='https://www.youtube.com/embed//U5wPIvEn-0c' frameborder='0' allowfullscreen>
@@ -59,7 +60,7 @@ After completing the accounting entries, the trial balance report will look as s
   </div>
 </div>
 
-#### 4. Related Topics
+### 6. Related Topics
 1. [Chart of Accounts](/docs/user/manual/en/accounts/chart-of-accounts)
 1. [Journal Entry](/docs/user/manual/en/accounts/journal-entry)
 1. [Payment Entry](/docs/user/manual/en/accounts/payment-entry)

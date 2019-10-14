@@ -85,7 +85,7 @@ To know about managing transactions in multiple currencies, [click here](/docs/u
 ### 3.4 Items Table
 * **Barcode**: You can track Items using [barcodes](/docs/user/manual/en/stock/articles/track-items-using-barcode).
 
-* The Item Code, name, description, Image, and Manufacturer will be fetched from the Item master.
+* The Item Code, name, description, Image, and Manufacturer will be fetched from the [Item master](/docs/user/manual/en/stock/item).
 
 * **Discount and Margin**: You can apply a discount on individual Items percentage-wise or the total amount of the Item. Read [Applying Discount](/docs/user/manual/en/selling/articles/applying-discount) for more details.
 
@@ -97,21 +97,17 @@ To know about managing transactions in multiple currencies, [click here](/docs/u
 
 * **Warehouse and Reference**: The Warehouse from which the Items are sent to the Customer is shown. Also, a Sales Order will be shown if this Delivery Note was the creation flow: 'Sales Order > Deliver Note'. 
 
-* **Batch No and Serial No**: If your Item is serialized or batched, you will have to enter Serial Number
-and Batch in the Items table. You are allowed to enter multiple Serial Numbers
-in one row (each on a separate line) and you must enter the same number of
-Serial Numbers as the quantity. 
+* **Batch No and Serial No**: If your Item is serialized or batched, you will have to enter [Serial Number](/docs/user/manual/en/stock/serial-no) and [Batch](/docs/user/manual/en/stock/batch) in the Items table. You are allowed to enter multiple Serial Numbers in one row (each on a separate line) and you must enter the same number of Serial Numbers as the quantity.
 
     The 'Available Qty at From Warehouse', 'Available Batch Qty at From Warehouse', and 'Installed Qty' will be shown. To know more about installation, visit the [Installation Note](/docs/user/manual/en/stock/installation-note) page.
 
     **Note**: The Item has to be serialized or batched for these features to work. If the Item is serialized a popup will appear where you can enter the Serial Numbers.
 
-* Expense Account is the account from which the amount will be debited. Ticking on 'Allow Zero Valuation Rate' will allow submitting the Purchase Receipt even if the Valuation Rate of the Item is 0. This can be a sample item or due to a mutual understanding with your Supplier.
+* Expense Account is the account from which the amount will be debited. Ticking on 'Allow Zero Valuation Rate' will allow submitting the Delivery Note even if the Valuation Rate of the Item is 0. This can be a sample item or due to a mutual understanding with your Supplier.
 
 * Accounting Dimensions help to tag each transaction with different Dimensions without the need for creating new Cost Centers. You need to create Accounting Dimensions first, to know more, visit [this page](/docs/user/manual/en/accounts/accounting-dimensions). 
 
-
-* Page Break will create a page break just before this item when printing.
+* **Page Break** will create a page break just before this Item when printing.
 
 ### 3.5 Tracking Quality Inspection
 If for certain Items, it is mandatory to record Quality Inspections (if you have set it in your Item master), you will need to update the “Quality Inspection" field. The system will only allow you to “Submit” the
@@ -130,14 +126,19 @@ To add taxes automatically via a Tax Category, visit [this page](/docs/user/manu
 
 Make sure to mark all your taxes in the Taxes and Charges table correctly for an accurate valuation.
 
+#### Shipping Rule
+A Shipping Rule helps set the cost of shipping an Item. The cost will usually increase with the distance of shipping. To know more, visit the [Shipping Rule](/docs/user/manual/en/selling/shipping-rule) page.
+
 ### 3.6 Additional Discount
-Any additional discounts to the whole order can be set in this section.
+Any additional discounts to the whole order can be set in this section. This discount could be based on the Grand Total i.e., post tax/charges or Net total i.e., pre tax/charges. The additional discount can be applied as a percentage or an amount.
 Read [Applying Discount](/docs/user/manual/en/selling/articles/applying-discount) for more details.
 
 ### 3.7 Terms and Conditions
 These are fetched from the Sales Order. To know about adding Terms and Conditions, [click here](/docs/user/manual/en/setting-up/print/terms-and-conditions)
 
 ### 3.8 Transporter Information
+
+If you outsource transporting Items to their delivery location, the transporter details can be added. This is not the same as [drop shipping](/docs/user/manual/en/selling/articles/drop-shipping).
 
 * **Transporter**: The Supplier who will transport the Item to your Customer. The transporter feature should be enabled in the Supplier master to select the [Supplier](/docs/user/manual/en/buying/supplier) here.
 * **Driver**: You can add a Driver here who will drive the mode of transport.
@@ -171,7 +172,7 @@ The Delivery Note can be linked to the following for tracking purposes:
 #### Letterhead
 You can print your Delivery Note on your company's letterhead. Know more [here](/docs/user/manual/en/setting-up/print/letter-head).
 
-'Group same items' will group the same items added multiple times in the items table. This can be seen when your print.
+'Group same items' will group the same items added multiple times in the Items table. This can be seen when your print.
 
 #### Print Headings
 Purchase Receipt headings can also be changed when printing the document. You can do this by selecting a **Print Heading**. To create new Print Headings go to: Home > Settings > Printing > Print Heading. Know more [here](/docs/user/manual/en/setting-up/print/print-headings).

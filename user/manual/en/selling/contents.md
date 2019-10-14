@@ -15,6 +15,7 @@ organized and searchable manner.
 1. [Blanket Order](/docs/user/manual/en/selling/blanket-order)
 1. [Sales Analytics](/docs/user/manual/en/selling/sales-analytics)
 1. [Sales Partner](/docs/user/manual/en/selling/sales-partner)
+1. [Territory](/docs/user/manual/en/selling/territory)
 
 ### 1.2 Setup
 1. [Selling Settings](/docs/user/manual/en/selling/selling-settings)

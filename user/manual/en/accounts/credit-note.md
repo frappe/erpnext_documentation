@@ -1,31 +1,44 @@
 <!-- add-breadcrumbs -->
-## Credit Note
+# Credit Note
 
-A credit note is a document sent by a seller to the customer, notifying that a credit has been made to their account against the goods returned by the buyer.
+**A Credit Note is a document sent by a seller to the Customer, notifying that a credit has been made to their account against the goods returned by the buyer.**
 
-A credit note is issued for the value of goods returned by the customer, it may be less than or equal to total amount of the order. 
+A Credit Note is issued for the value of goods returned by the Customer, it may be less than or equal to the total amount of the order. 
 
-### 1. How to make a credit note
+## 1. How to make a Credit Note
 
-The user can make a credit note against the sales invoice or they can directly make credit note from the sales invoice without reference.
+The user can make a Credit Note against the Sales Invoice or they can directly make Credit Note from the Sales Invoice without reference. Note that to create a Credit Note, the invoice must be paid using a [Payment Entry](/docs/user/manual/en/accounts/payment-entry).
 
-1. Go to: **Accounts > Sales Invoice > New > *tick the Is Return checkbox***
+1. Go to the respective Sales Invoice and click on **Create > Return / Credit Note**.
+    ![Credit Note from Invoice](/docs/assets/img/accounts/credit-note-from-invoice.png)
+1. The Customer and Item details will be fetched as set in the Sales Invoice.
+1. If the Customer had paid partially or fully, make a Payment Entry against the original Sales Invoice.
 1. Save and Submit.
-1. Make Payment.
-1. The other steps are similar to a [Sales Invoice](/docs/user/manual/en/accounts/sales-invoice).
+    <img class="screenshot" alt="Sales Invoice" src="{{docs_base_url}}/assets/img/accounts/credit-note.png">
 
+The Item quantity and Payment amount will be negative since it's a return.
 
-<img class="screenshot" alt="Sales Invoice" src="{{docs_base_url}}/assets/img/accounts/credit-note.png">
-Note: For credit note set the negative quantity while adding the item
+### 1.1 How does Credit Note affect ledger
+Once a Payment Entry is created against the original Sales Invoice, the amount will be added to the Customer's account in negative so that the next time they make a purchase, this amount will be adjusted. 
 
-### 2. Example
+This is how the ledger is affected after a payment entry against a returned invoice:
+![Credit Note Ledger](/docs/assets/img/accounts/credit-note-ledger.png)
 
-Customer Mr. Sagar Malhotra has purchased Nokia Lumia worth Rs 42,400 and at the time of delivery customer found that the piece was damaged. Now Sagar has returned the product and he got his money back.
-Credit note with payment entry in ERPNext for above example is as below
+Refer the [Sales Invoice](/docs/user/manual/en/accounts/sales-invoice) page for any other details.
+
+### 1.2 No payment was made against Sales Invoice
+In case **no payment** was made against the original invoice, you could just cancel the Sales Invoice. But, if only 5 out of 10 Items are being returned from an invoice, creating a Credit Note is useful for updating the ledger.
+
+## 2. Example
+
+Customer Rohan had purchased PVC pipes worth Rs 300 + taxes and at the time of delivery, Customer found that the products were damaged. Now Rohan has returned the product a Credit Note will be issued.
+
+Credit Note with payment entry in ERPNext for above example is as below:
 
 <img class="screenshot" alt="Sales Invoice" src="{{docs_base_url}}/assets/img/accounts/credit_note_example1.gif">
 
-#### 3. Related Topics
+### 3. Related Topics
 1. [Payment Entry](/docs/user/manual/en/accounts/payment-entry)
 1. [Payments](/docs/user/manual/en/accounts/payments)
 1. [Debit Note](/docs/user/manual/en/accounts/debit-note)
+1. [Sales Return](/docs/user/manual/en/stock/sales-return)

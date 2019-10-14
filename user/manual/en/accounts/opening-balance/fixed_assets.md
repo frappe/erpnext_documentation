@@ -1,26 +1,29 @@
 <!-- add-breadcrumbs -->
 # Import Fixed Assets
 
-To import all the existing fixed assets first create the asset record and then create a journal entry to update general ledger.
+To import all the existing fixed assets first create the asset record and then create a Journal Entry to update the General Ledger.
 
-### 1. Create Asset Records
+## 1. Create Asset Records
 
 Create Asset record for each asset that your company owns which is not fully depreciated.
 
 To create a new Asset:
 
-1. Go to **Assets > Assets > New.**
+1. Create an [Item](/docs/user/manual/en/stock/item) with 'Is fixed Asset' enabled.
+1. Go to **Assets > Assets > New**.
 1. Enter Asset Name.
 1. Enter Item Code.
 1. Enter Location.
-1. Enter Purchase Date.
+1. Enter the Purchase Date.
 1. Enter Gross Amount.
 1. Tick **Is Existing Asset.**
+1. Save.
 
-<img class="screenshot" alt="Stock Asset Ledger" src="{{docs_base_url}}/assets/img/accounts/asset_opening_balance.png">
+    <img class="screenshot" alt="Stock Asset Ledger" src="{{docs_base_url}}/assets/img/accounts/asset_opening_balance.png">
 
+> To know about Assets in detail, [visit this page](/docs/user/manual/en/asset/asset).
 
-### 2. Created Journal Entry to Update the Ledgers
+## 2. Create Journal Entry to Update the Ledgers
 
 When you create an Asset with 'Is Existing Asset' checkbox ticked, the General Ledger is not updated. You will have to update the value via a Journal Entry.
 
