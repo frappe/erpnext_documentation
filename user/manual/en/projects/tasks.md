@@ -1,64 +1,96 @@
 <!-- add-breadcrumbs -->
 # Tasks
 
-Project is divided into Tasks. 
-In ERPNext, you can also create a Task independently.
+**A task is an independent assignment or a unit of a Project that defines a particular actionable assigned to an individual.** 
 
-<img class="screenshot" alt="Task" src="{{docs_base_url}}/assets/img/project/task.png">
+<img class="screenshot" alt="Task" src="{{docs_base_url}}/assets/img/project/projects-task.png">
 
-### Status of the Task
+To access Tasks, go to,
 
-A Task can have one of the following statuses - Open, Working, Pending Review, Closed, or Cancelled.
+> Home > Projects > Projects > Task
 
-<img class="screenshot" alt="Task - Status" src="{{docs_base_url}}/assets/img/project/task_status.png">
+## 1. How to Create a Task
 
-* By default each new Task created has the status set to 'Open'.
+  1. Go to the Task List and click on New.
+  2. Add the subject of the task which defines the actionable.
+  3. Save.
+  
+  <img class="screenshot" alt="Task" src="{{docs_base_url}}/assets/img/project/projects-task-creation-main.gif">
 
-* If a Time Log is made against a task, its status will be set to 'Working'.
+Alternatively, a task can also be created from a Project in the following way:
 
-### Dependent Task
+  1. Go to the Project for which you want to create a new task.
+  2. Go to Task under the Project section on the Dashboard. The plus icon '+' here would direct you to the task creation page.
+  3. Add the subject of the task which defines the actionable.
+  4. Save.
+  
+  <img class="screenshot" alt="Task" src="{{docs_base_url}}/assets/img/project/projects-task-creation.gif">
 
-You can specify a list of dependent tasks under the 'Depends On' section.
+### 1.1 Additional Options while creating a Project
 
-<img class="screenshot" alt="Depends On" src="{{docs_base_url}}/assets/img/project/task_depends_on.png">
+The following additional details can be added when editing a new task:
 
-* You cannot close the parent task until all dependent tasks are closed.
+  * **Status**: You can add the status of the Project or change the same whenever needed, e.g., from 'Open' to 'Working', 'Overdue','Pending Review','Completed', or 'Cancelled'
+  * **Project**: In case a task is added independently, you may choose to link the task to a particular Project. If the task is created from a Project, the details of the Project will get auto-imported.
+  * **Priority**: You can choose to define the priority of the task, viz., Low, Medium, High or Urgent.
+  * **Issue**: If the task is an actionable that arises out of an Issue, that issue can be tagged here with the Task.
+  * **Weight**: If a particular task carries some weightage out of a project, or otherwise, the weightage can be specified here. This weightage gets calculated in the Percentage Task Completion Method by Task Weight.
+  * **Type**: If your task can be defined under a particular Task Type, say, User Training or User Demo, you can enter the Task Type here. It can be used to filter the Tasks based on Task Types.
+  * **Color**: Each task can be recognized with a different color. This helps in identification of the task, while creating Gantt Charts.
+  * **Is Group**: This box can be checked to indicate that a task is a parent task, and can be further divided into multiple sub-tasks.
+  * **Parent Task**: If a particular task is a part of a group task, the parent task can be linked to the task from this field.
+  
+  <img class="screenshot" alt="Task" src="{{docs_base_url}}/assets/img/project/timesheet/project-task.png">
 
-* If the dependent tasks are delayed and overlap with the expected Start Date of the Parent task, the system will reschedule the parent task.
+## 2. Features
 
-### Managing Time
+### 2.1. Timeline and Details
 
-ERPNext uses [Time Log](/docs/user/manual/en/projects/time-log.html) to track the progress of a Task.
-You can create multiple Time Logs against each task.
-The Actual Start and End Time along with the costing is updated based on the Time Log.
+* **Expected Start Date**: You can enter the date on which you expect the Task to be started.
+* **Expected End Date**: You can enter the date on which you expect this Task to be finished.
+* **Expected Time**: You can enter the number of hours which you expect are going ot be spent on this task.
+* **Progress**: You can enter the Progress Percentage of a Task.
+* **Is Milestone**: This box can be checked in the cases where a particular task is a Milestone in a Project.
+* **Description**: You can add the description of the task here.
 
-* To view Time Log made against a Task click on 'Time Logs'
+  <img class="screenshot" alt="Task" src="{{docs_base_url}}/assets/img/project/projects-task-timeline.png">
 
-<img class="screenshot" alt="Task - View Time Log" src="{{docs_base_url}}/assets/img/project/task_view_time_log.png">
+### 2.2. Dependencies and Actual Time
 
-<img class="screenshot" alt="Task - Time Log List" src="{{docs_base_url}}/assets/img/project/task_time_log_list.png">
+* **Dependent Tasks**: Dependent tasks indicate that a particular task is dependent on another task, and the former cannot be completed before the completion of the latter.
 
-* You can also create a Time Log directly and link it to the Task.
+  The Task Dependencies can be viewed in the Gantt Charts in the following way.
 
-<img class="screenshot" alt="Task - Link Time Log" src="{{docs_base_url}}/assets/img/project/task_time_log_link.png">
+  <img class="screenshot" alt="Task" src="{{docs_base_url}}/assets/img/project/projects-task-gantt.png">
 
-### Managing Expenses
+* **Actual Start Date**: The Actual date and time on which the Task is started gets recorded basis the [Timesheets](/docs/user/manual/en/projects/timesheets/).
+* **Actual End Date**: The Actual date and time on which the task was finished gets recorded here via the Timesheets.
 
-You can book [Expense Claim](/docs/user/manual/en/human-resources/expense-claim.html) against a task.
-The system shall update the total amount from expense claims in the costing section.
+  <img class="screenshot" alt="Task" src="{{docs_base_url}}/assets/img/project/projects-task-dependencies.png">
 
-* To view Expense Claims made against a Task click on 'Expense Claims'
+### 2.3. Costing
 
-<img class="screenshot" alt="Task - View Expense Claim" src="{{docs_base_url}}/assets/img/project/task_view_expense_claim.png">
+* **Total Costing Amount**: The Total Costing Amount gets captured here via the Timesheets submitted by the user while working on this task.
+* **Total Billing Amount**: The Total Amount with which the [Customer](/docs/user/manual/en/CRM/customer) is to be billed via this task gets recorded here form the Timesheets.
+* **Total Expense Claim**: The Total Amount of Expense claimed by an Employee for the completion of this Task gets recorded and reflected here.
 
-* You can also create a Expense Claims directly and link it to the Task.
+### 2.4. More Info 
 
-<img class="screenshot" alt="Task - Link Expense Claim" src="{{docs_base_url}}/assets/img/project/task_expense_claim_link.png">
+* **Department**: You can enter the Owner Department for the task. Irrespective of the Owner department of the Project, each task can be carried out by a different department.
+* **Company**: You can change the Company for which this Task is being carried out. This can be used in cases where A company is carrying out the Task for its Sister Company or its Parent Company or a Subsidiary.
 
-* Total amount of Expense Claims booked against a task is shown under 'Total Expense Claim' in the Task Costing Section
+  <img class="screenshot" alt="Task" src="{{docs_base_url}}/assets/img/project/projects-task-costing.png">
 
-<img class="screenshot" alt="Task - Total Expense Claim" src="{{docs_base_url}}/assets/img/project/task_total_expense_claim.png">
+## 3. Video
 
 <div class="embed-container">
     <iframe src="https://www.youtube.com/embed/IxY-rSJsA6U?end=126rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 </div>
+
+
+## 4. Related Topics
+
+  1. [Project](/docs/user/manual/en/projects/project)
+  2. [Timesheet](/docs/user/manual/en/projects/timesheet)
+
+{next}

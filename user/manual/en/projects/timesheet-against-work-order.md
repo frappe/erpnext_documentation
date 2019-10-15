@@ -1,9 +1,9 @@
 <!-- add-breadcrumbs -->
-#Timesheet based on Work Order
+# Timesheet based on Work Order
 
-Creating Timesheet for Work Order helps in capacity planning for the Workstations. Also it helps in tracking actual time consumed by the Workstation for completing specific operation.
+**Creating Timesheet for Work Order helps for capacity planning at the Workstations. It also helps in tracking actual time consumed by the Workstation for completing specific operation.**
 
-When a Work Order is submitted, based on the Planned Start Date and the availability of the Workstations, system schedules all operations by creating Timesheet.
+When a Work Order is submitted, based on the Planned Start Date and the availability of the Workstations, system schedules all the operations by creating a Timesheet.
 
 <img class="screenshot" alt="Sales Invoice" src="{{docs_base_url}}/assets/img/project/timesheet/timesheet-capacity-planning.png">
 

@@ -1,5 +1,8 @@
-tasks
 project
+task
+project-template
+project-type
+project-update
 timesheet
 project-customer-portal
 project-profitability

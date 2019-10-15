@@ -1,50 +1,25 @@
 <!-- add-breadcrumbs -->
-#Salary Slip from Timesheet
+# Salary Slip from Timesheet
 
-If salary / wages for your employees are calculated based on number of hours worked, you can use Timesheet to track actual hours worked, and for creating Salary Slip.
+**The salary of an employee can be calculated based on the number of hours that he has worked for on a particular project.** 
 
-####Employee creates Timesheet
+To enable the same, you may choose to create the Employee's Salary Slip directly from a Timesheet.
 
-To track actual hours employee has worked for, create Timesheet for each Employee. We suggest you to create Timesheet based on a payment period. For example, if you are paying employee on a weekly basis, create one Timesheet for an Employee for one week. However, you can create multiple Timesheets, and create one Salary Slip for the multiple Timesheets.
+<img class="screenshot" alt="Salary Slip" src="{{docs_base_url}}/assets/img/project/projects-salary-slip-from-timesheet.png">
 
-<img class="screenshot" alt="Sales Invoice" src="{{docs_base_url}}/assets/img/project/timesheet/timesheet-salary-slip-1.png">
+## 1. How to Create A Salary Slip from A Timesheet
 
-####Salary Structure for the Employee
+  1. Once the Timesheet is submitted, and an invoice has been generated, go to the Timesheet and click on 'Create Salary Slip'.
+  2. All the details, like the Employee, Employee Name, Posting Date, Company Name, Letter Head, etc. will get captured from the Timesheet.
+  3. **Dates**: Since this Salary Slip is getting generated out of a Timesheet, it will auto-fetch the Start Date and End Date from the Timesheet. However, the same can be changed.
+  4. **Salary Slip Timesheet**: The details of the Timesheet from which the Salary Slip was created will be captured. You can also more Timesheets here to create a single Salary Slip against multiple Timesheets.
+  5. Save and Submit.
+  
+  <img class="screenshot" alt="Salary Slip" src="{{docs_base_url}}/assets/img/project/projects-salary-slip-timesheet.png">
 
-In the Salary Structure of the Employee, check field "Salary Slip Based on Timesheet". On checking this field, you see fields Salary Component and Hour Rate. Amount for that Salary Component (say Basic) will be calculated based on:
+### 1.1. Additional Details while Creating a Salary Slip form a Time Sheet:
 
-<div class=well> Total Timesheet Hours *  Hour Rate </div>
+  1. **Earnings and Deduction**: Any Earnings like HRA, Incentives etc. or Deductions like Income Tax, Provident Fund etc. in the Salary generated from the Timesheet can be mentioned here.
+  2. **Other Information**: According to the Salary Structure of the Employee, the Gross payment information, the Loan Repayment Information, and the Net Pay information will get auto-captured.
 
-Amount directly for other Salary Components (eg: House Rent Allowance, Phone Allowance) can be defined directly. When creating Salary Slip, Amount for these Salary Component will be fetched as it is.
-
-<div>
-<img class="screenshot" alt="Sales Invoice" src="{{docs_base_url}}/assets/img/project/timesheet/timesheet-salary-slip-2.png">
-</div>
-
-#### Create Salary Slip from Timesheet
-
-To create Salary Slip against Timesheet, open Timesheet and click on "Salary Slip".
-
-<img class="screenshot" alt="Sales Invoice" src="{{docs_base_url}}/assets/img/project/timesheet/timesheet-salary-slip-3.png">
-
-In the Salary Slip, Timesheet ID will be updated. You can select more Timesheet to be paid via this Salary Slip. Based on the Timesheets selected, Total Working Hours will be calculated.
-
-<img class="screenshot" alt="Sales Invoice" src="{{docs_base_url}}/assets/img/project/timesheet/timesheet-salary-slip-4.gif">
-
-Hour Rate will be fetched from the Salary Structure of an Employee. Based on Total Working Hours and Hour Rate, Amount will be calculated for the Salary Component based on actual hours worked.<br>
-
-#### Save and Submit Salary Slip
-
-On Submission of Salary Slip, Timesheet's status will be updated to "Payslip".
-
-<img class="screenshot" alt="Sales Invoice" src="{{docs_base_url}}/assets/img/project/timesheet/timesheet-salary-slip-5.png">
-
-<div class=well> 
-
-Creating Salary Slip based on Timesheet will allow you to manage payment for the overtime.
-	<ol>
-		<li>Employee created Timesheet for the overtime.</li>
-		<li>In the Salary Structure of an Employee, set Overtime as a Salary Component to be calculated based on hourly basis.</li>
-		<li>When creating Salary Structure for an Employee, pull Timesheet when overtime details are tracked.</li>
-	</ol>
-</div>
+{next}

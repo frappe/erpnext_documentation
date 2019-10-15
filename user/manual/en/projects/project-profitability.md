@@ -1,7 +1,7 @@
 <!-- add-breadcrumbs -->
 # Project Profitability
 
-Project and related activities are generally active for longer time periods. While developments happen on the Project, there are various income and expense incurred against it. Hence, it becomes important to track the Profitability of a Project and ensure that you don't overspend.
+Project and related activities are generally active for longer time periods. While developments keep happening on the Project, there are various transactions that are done against each project. Hence, it becomes important to track the Profitability of a Project to ensure that you don't overspend.
 
 ### Project in Sales Transactions
 
@@ -9,8 +9,7 @@ You can link a Project in all the sales transactions like Sales Order, Delivery 
 
 In sales transactions, Project field is generally available in the More Information section.
 
-<img class="screenshot" alt="Project in Sales" src="{{docs_base_url}}/assets/img/project/project-profitability-1.png">
-
+<img class="screenshot" alt="Project in Sales" src="{{docs_base_url}}/assets/img/project/projects-sales-order.png">
 
 #### Project in Purchase Transactions
 
@@ -18,7 +17,7 @@ The project can also be linked to the purchase transactions like Purchase Order,
 
 In the purchase transactions, Project's link field is available in the Item table. This is because you could be procuring material for multiple Projects from the same purchase entry.
 
-<img class="screenshot" alt="Project in Purchases" src="{{docs_base_url}}/assets/img/project/project-profitability-2.png">
+<img class="screenshot" alt="Project in Purchases" src="{{docs_base_url}}/assets/img/project/projects-purchase-order.png">
 
 ### Budgeting against Project
 
@@ -32,6 +31,6 @@ Based on the all the income and expense entries created for the Project, you can
 
 > Accounts > Profitability Analysis
 
-Filter report based on Project to check Projectwise Profitability.
+Filter report based on Project to check Project-wise Profitability.
 
-<img class="screenshot" alt="Project Profitability" src="{{docs_base_url}}/assets/img/project/profitability-analysis.png">
+<img class="screenshot" alt="Project Profitability" src="{{docs_base_url}}/assets/img/project/projects-profitability.png">
