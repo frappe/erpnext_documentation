@@ -50,6 +50,5 @@ For ease of use, you can also set a Payment Terms Template and simply reselect i
 You can add Payments Terms in the "Payment Terms Schedule" section of the Document. Each row in the table represents a portion of the document's grand total. 
 
 ### 2. Related Topics
-1. [Payments](/docs/user/manual/en/accounts/payments)
 1. [Sales Invoice](/docs/user/manual/en/accounts/sales-invoice)
 1. [Purchase Invoice](/docs/user/manual/en/accounts/purchase-invoice)

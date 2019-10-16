@@ -72,7 +72,7 @@ Before creating and using a Pick List, it is advised that you create the followi
 
 ### 2.2 Create Pick List from a Work Order
 
-1. Go to a [Work Order](/docs/user/manual/en/stock/work-order).
+1. Go to a [Work Order](/docs/user/manual/en/manufacturing/work-order).
 1. Click **Create Pick List** button.
 1. You'll see the dialog box asking for the quantity of Finished Goods Item. This is required to calculate the number of raw material items required to manufacture the entered quantity of Finished Goods Item.
 <img class='screenshot' alt='Dailog For qty' src='{{docs_base_url}}/assets/img/stock/pick-list-dialog-for-qty.png'>

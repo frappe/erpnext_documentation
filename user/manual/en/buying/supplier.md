@@ -106,6 +106,4 @@ There's a button to 'Send GST Update Reminder' to the supplier. You need to have
 1. [Supplier Quotation](/docs/user/manual/en/buying/supplier-quotation)
 1. [Supplier Scorecard](/docs/user/manual/en/buying/supplier-scorecard)
 1. [Maintaining Supplier's Item Code In the Item Master](/docs/user/manual/en/buying/articles/maintaining-suppliers-part-no-in-item)
-1. [Pull Items In Purchase Order Based On Supplier](/docs/user/manual/en/buying/articles/pull-items-in-purchase-order-based-on-supplier)
-
 {next}

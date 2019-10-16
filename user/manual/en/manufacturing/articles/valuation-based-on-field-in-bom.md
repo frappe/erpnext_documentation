@@ -12,6 +12,6 @@
 For Purchase Item, it is defined based on charges entered in the Purchase Receipt. If you don't have any Purchase Receipt
 made for an item or a Stock Reconciliation, then there won't be any Valuation Rate for that item.
 
-**Price List Rate:** This option allows to pull item rates from [Price List.](/docs/user/manual/en/stock/item/item-price.html) 
+**Price List Rate:** This option allows to pull item rates from [Price List.](/docs/user/manual/en/stock/item-price) 
 
 **Last Purchase Rate:** It will be the last Purchase (Order) Rate of an item.

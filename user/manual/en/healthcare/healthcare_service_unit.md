@@ -9,6 +9,6 @@ It is also possible that you can group and organize all the service units in a h
 
 <img class="screenshot" alt="ERPNext Healthcare" src="{{docs_base_url}}/assets/img/healthcare/healthcare_service_unit.png">
 
-Also read [Setting Up Inpatient](/docs/user/manual/en/healthcare/setup/setup-inpatient) for more details about configuring Healthcare Service Unit Types
+Also read [Setting Up Inpatient](/docs/user/manual/en/healthcare/setup_inpatient) for more details about configuring Healthcare Service Unit Types
 
 {next}

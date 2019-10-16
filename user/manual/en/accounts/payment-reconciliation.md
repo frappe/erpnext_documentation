@@ -28,7 +28,6 @@ You will get a message that says 'Amount allocated successfully'
 <img class="screenshot" alt="Payment Reconciliation" src="{{docs_base_url}}/assets/img/accounts/payment-reconcile-tool.png">
 
 ### 2. Related Topics
-1. [Payments](/docs/user/manual/en/accounts/payments)
 1. [Payment Request](/docs/user/manual/en/accounts/payment-request)
 1. [Sales Invoice](/docs/user/manual/en/accounts/sales-invoice)
 1. [Purchase Invoice](/docs/user/manual/en/accounts/purchase-invoice)

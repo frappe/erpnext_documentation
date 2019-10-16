@@ -41,5 +41,4 @@ Debit Note with payment entry in ERPNext for above example is as below:
 
 ### 3. Related Topics
 1. [Payment Entry](/docs/user/manual/en/accounts/payment-entry)
-1. [Payments](/docs/user/manual/en/accounts/payments)
-1. [Credit Note](/docs/user/manual/en/accounts/creit-note)
+1. [Credit Note](/docs/user/manual/en/accounts/credit-note)

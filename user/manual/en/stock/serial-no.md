@@ -76,7 +76,7 @@ Any additional information about this specific Item unit can be set under 'Seria
 </div>
 
 ### 5. Related Topics
-1. [Item Codification](/docs/user/manual/en/stock/item-codification)
+1. [Item Codification](/docs/user/manual/en/stock/articles/item-codification)
 1. [Item Variants](/docs/user/manual/en/stock/item-variants)
 1. [Serial Number Naming](/docs/user/manual/en/stock/articles/serial-no-naming)
 

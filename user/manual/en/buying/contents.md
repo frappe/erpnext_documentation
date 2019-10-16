@@ -37,7 +37,7 @@ efficient and seamless as possible.
 ### 3.1 Purchase
 1. [Purchase Cycle](/docs/user/videos/learn/purchase-cycle)
 1. [Supplier](/docs/user/videos/learn/customer-and-supplier)
-1. [Material Request to Purchase Order](/docs/user/videos/learn/material-request-to-purchase-order)
+1. [Material Request to Purchase Order](/docs/user/videos/learn/material-request.html)
 
 ### 3.2 Pricing
 1. [Request for Quotation](/docs/user/videos/learn/request-for-quotation)

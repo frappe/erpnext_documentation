@@ -59,5 +59,4 @@ To set Credit Limit at Company level:
 
 ### 3. Related Topics
 1. [Payment Entry](/docs/user/manual/en/accounts/payment-entry)
-1. [Payments](/docs/user/manual/en/accounts/payments)
 1. [Customer](/docs/user/manual/en/CRM/customer)

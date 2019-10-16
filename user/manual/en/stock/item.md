@@ -29,7 +29,7 @@ Before creating and using an Itme, it is advised that you create the following f
 
   * **Item Name:** Item name is the actual name of your product or service.
   
-  * **Item Code:** Item Code is a short-form to denote your Item. If you have very few Items, it is advisable to keep the Item Name and the Item Code same. This helps new users to recognize and update Item details in all transactions. In case you have a lot of Items with long names and the list runs in hundreds, it is advisable to code. To understand naming Item codes see [Item Codification](/docs/user/manual/en/stock/item-codification). You can also generate Item Code based on a [Naming Series](/docs/user/manual/en/setting-up/settings/naming-series) by enabling this feature in [Stock Settings](/docs/user/manual/en/stock/stock-settings#1-item-naming-by).
+  * **Item Code:** Item Code is a short-form to denote your Item. If you have very few Items, it is advisable to keep the Item Name and the Item Code same. This helps new users to recognize and update Item details in all transactions. In case you have a lot of Items with long names and the list runs in hundreds, it is advisable to code. To understand naming Item codes see [Item Codification](/docs/user/manual/en/stock/articles/item-codification). You can also generate Item Code based on a [Naming Series](/docs/user/manual/en/setting-up/settings/naming-series) by enabling this feature in [Stock Settings](/docs/user/manual/en/stock/stock-settings#1-item-naming-by).
   
   * **Item Group:** Item Group is used to categorize an Item under various criteria like products, raw materials, services, sub-assemblies, consumables or all Item groups. Create your default Item Group list under Setup > Item Group and pre-select the option while filling your New Item details under [Item Group](/docs/user/manual/en/stock/item-group). Item groups can be sub-assemblies, raw materials, etc, or based on your business use case.
   
@@ -132,7 +132,7 @@ A set of Items can be manufactured in batches. This is useful for moving the bat
 
 > **Note**: Once you mark an item as serialized or batched or neither, you cannot change it after you have made a Stock Entry.
 
-To know more, visit the [Stock Reconciliation](/docs/user/manual/en/setting-up/stock-reconciliation) page.
+To know more, visit the [Stock Reconciliation](/docs/user/manual/en/stock/stock-reconciliation) page.
 
 ### 3.8 Variants
 An Item Variant is a different version of a Item. To learn more about managing variants see [Item Variants](/docs/user/manual/en/stock/item-variants).
@@ -275,13 +275,11 @@ The hub is a free online marketplace where Suppliers and Customers can transact.
 
 ### 5. Related Topics
 1. [Item Price](/docs/user/manual/en/stock/item-price)
-1. [Item Codification](/docs/user/manual/en/stock/item-codification)
+1. [Item Codification](/docs/user/manual/en/stock/articles/item-codification)
 1. [Item Variants](/docs/user/manual/en/stock/item-variants)
-1. [Item Warranty](/docs/user/manual/en/stock/item-warranty)
-1. [Reorder Item](/docs/user/manual/en/stock/reorder-item)
 1. [Item Group](/docs/user/manual/en/stock/item-group)
 1. [Item Attribute](/docs/user/manual/en/stock/item-attribute)
-1. [Item Valuation FIFO And Moving Average](/docs/user/manual/en/stock/item-valuation-fifo-and-moving-average)
+1. [Item Valuation FIFO And Moving Average](/docs/user/manual/en/stock/articles//item-valuation-fifo-and-moving-average)
 1. [Item Valuation Transactions](/docs/user/manual/en/stock/articles/item-valuation-transactions)
 1. [Maintain Stock Field Frozen In Item Master](/docs/user/manual/en/stock/articles/maintain-stock-field-frozen-in-item-master)
 1. [Managing Rejected Finished Goods Items](/docs/user/manual/en/stock/articles/managing-rejected-finished-goods-items)

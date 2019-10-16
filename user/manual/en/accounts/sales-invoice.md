@@ -150,7 +150,7 @@ If your Company's Employees are working at a location and it needs to be billed,
 To know more, [visit this page](/docs/user/manual/en/projects/sales-invoice-from-timesheet).
 
 ### 3.8 Taxes and Charges
-The Taxes and Charges will be fetched from the [Sales Order](/docs/user/manual/en/buying/sales-order) or [Delivery Note](/docs/user/manual/en/stock/delivery-note).
+The Taxes and Charges will be fetched from the [Sales Order](/docs/user/manual/en/selling/sales-order) or [Delivery Note](/docs/user/manual/en/stock/delivery-note).
 
 Visit the [Sales Taxes and Charges Template](/docs/user/manual/en/selling/sales-taxes-and-charges-template) page to know more about taxes. 
 

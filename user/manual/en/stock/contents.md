@@ -77,7 +77,7 @@ The Stock module is tightly integrated with Purchase, Manufacturing and Accounti
 1. [Track Items Using Barcode](/docs/user/manual/en/stock/articles/track-items-using-barcode)
 1. [Creating Depreciation For Item](/docs/user/manual/en/stock/articles/creating-depreciation-for-item)
 1. [Item Valuation FIFO And Moving Average](/docs/user/manual/en/stock/articles/item-valuation-fifo-and-moving-average)
-1. [Item Codification](/docs/user/manual/en/stock/item-codification)
+1. [Item Codification](/docs/user/manual/en/stock/articles/item-codification)
 
 ### 2.4 Serial and Batch Number
 1. [Serial Number Naming](/docs/user/manual/en/stock/articles/serial-no-naming)

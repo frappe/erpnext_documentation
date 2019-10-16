@@ -132,5 +132,4 @@ Enter the collected amount for each mode of payment. If you notice any differenc
 1. [Sales Invoice](/docs/user/manual/en/accounts/sales-invoice)
 1. [Purchase Order](/docs/user/manual/en/buying/purchase-order)
 1. [Payment Entry](/docs/user/manual/en/accounts/payment-entry)
-1. [Payments](/docs/user/manual/en/accounts/payments)
 1. [Payment Request](/docs/user/manual/en/accounts/payment-request)

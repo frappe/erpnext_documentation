@@ -44,10 +44,6 @@
     <br>
     <h3>Setting Up</h3>
     <ul class="list-unstyled video-list">
-        <li><a href="/docs/user/videos/learn/setup-wizard.html">
-            The Setup Wizard</a>
-            <span class="text-muted pull-right">2:28</span>
-        </li>
         <li><a href="/docs/user/videos/learn/user-and-permission.html">
             User and Permissions</a>
             <span class="text-muted pull-right">6:16</span>

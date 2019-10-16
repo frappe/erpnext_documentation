@@ -23,7 +23,7 @@ To setup Leaves, create:
 * Holiday List (list of annual holidays for the year - these days will not be considered in Leave Applications)
 * Leave Policy to effectively track and manage Employee leaves across the company
 
-You can read [Leaves - Overview](/docs/user/manual/en/human-resources/leave.html) for a detailed description about how you can configure and manage Leaves.
+You can read [Leaves](/docs/user/manual/en/human-resources/leave-management-intro/) for a detailed description about how you can configure and manage Leaves.
 
 ### Payroll (Salary) Setup
 
@@ -35,7 +35,7 @@ If you intend to configure ERPNext to calculate Income Tax deductions automatica
 
 ### Recruitment
 
-It is important for enterprises to plan their manpower recruitment for future periods. ERPNext allows you to define recruitment plans at group company level. Subsidiary companies can create and publish job openings based on the group company plans, making it easy to manage your hiring process. To understand how you can set this up, check [Staffing Plan](/docs/user/manual/en/human-resources/setup/staffing-plan.html)
+It is important for enterprises to plan their manpower recruitment for future periods. ERPNext allows you to define recruitment plans at group company level. Subsidiary companies can create and publish job openings based on the group company plans, making it easy to manage your hiring process. To understand how you can set this up, check [Staffing Plan](/docs/user/manual/en/human-resources/staffing-plan)
 
 If you have an active Staffing Plan, every time you create a new _Job Opening_ ERPNext will validate the open positions and current employment count with the Staffing Plan.
 

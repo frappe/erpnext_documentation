@@ -198,5 +198,4 @@ You can assign a number while creating an account from Chart of Accounts page. Y
 1. [Journal Entry](/docs/user/manual/en/accounts/journal-entry)
 1. [Inter Company Journal Entry](/docs/user/manual/en/accounts/inter-company-journal-entry)
 1. [Accounting Reports](/docs/user/manual/en/accounts/accounting-reports)
-1. [Accounts Receivable](/docs/user/manual/en/accounts/accounts-receivable)
 1. [Multi Currency Accounting](/docs/user/manual/en/accounts/multi-currency-accounting)

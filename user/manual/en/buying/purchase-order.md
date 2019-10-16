@@ -98,7 +98,7 @@ shipping or insurance charge, you can add it here. It will help you to
 accurately track your costs. Also, if some of these charges add to the value
 of the product you will have to mention them in the Taxes table.
 
-Visit the [Purchase Taxes and Charges Template](/docs/user/manual/en/selling/purchase-taxes-and-charges-template) page to know more about taxes. 
+Visit the [Purchase Taxes and Charges Template](/docs/user/manual/en/buying/purchase-taxes-and-charges-template) page to know more about taxes. 
 
 The total taxes and charges will be displayed below the table.
 

@@ -216,7 +216,6 @@ To make payment using Journal Entry follow these steps:
 
 
 ## 4. Related Topics
-1. [Payments](/docs/user/manual/en/accounts/payments)
 1. [Payment Request](/docs/user/manual/en/accounts/payment-request)
 1. [Payment Terms](/docs/user/manual/en/accounts/payment-terms)
 1. [Sales Invoice](/docs/user/manual/en/accounts/sales-invoice)

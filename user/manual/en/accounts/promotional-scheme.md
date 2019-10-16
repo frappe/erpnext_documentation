@@ -160,6 +160,6 @@ To configure this in ERPNext the steps are as follows
 
 ## 6. Related Topics
 1. [Pricing Rule](/docs/user/manual/en/accounts/pricing-rule)
-1. [Customer](/docs/user/manual/en/crm/customer)
+1. [Customer](/docs/user/manual/en/CRM/customer)
 1. [Supplier](/docs/user/manual/en/buying/supplier)
 1. [Item](/docs/user/manual/en/stock/item)

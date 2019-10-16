@@ -51,6 +51,6 @@ The tax rates you define in the template be the standard tax rate for all Items.
 
 ### 3. Related Topics
 1. [Sales Order](/docs/user/manual/en/selling/sales-order)
-1. [Selling Settings](/docs/user/manual/en/selling/setup/selling-settings)
+1. [Selling Settings](/docs/user/manual/en/selling/selling-settings)
 
 {next}

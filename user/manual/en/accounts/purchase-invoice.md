@@ -141,7 +141,7 @@ The Taxes and Charges will be fetched from the [Purchase Order](/docs/user/manua
 
 ![PI Tax](/docs/assets/img/accounts/pi-tax.png)
 
-Visit the [Purchase Taxes and Charges Template](/docs/user/manual/en/selling/purchase-taxes-and-charges-template) page to know more about taxes. 
+Visit the [Purchase Taxes and Charges Template](/docs/user/manual/en/buying/purchase-taxes-and-charges-template) page to know more about taxes. 
 
 The total taxes and charges will be displayed below the table.
 
@@ -310,7 +310,6 @@ Take note of the following:
 1. [Sales Invoice](/docs/user/manual/en/accounts/sales-invoice)
 1. [Item Wise Taxation](/docs/user/manual/en/accounts/item-tax-template)
 1. [Payment Entry](/docs/user/manual/en/accounts/payment-entry)
-1. [Payments](/docs/user/manual/en/accounts/payments)
 1. [Payment Request](/docs/user/manual/en/accounts/payment-request)
 1. [Request For Quotation](/docs/user/manual/en/buying/request-for-quotation)
 1. [Purchase Order](/docs/user/manual/en/buying/purchase-order)

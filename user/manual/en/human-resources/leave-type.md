@@ -57,7 +57,7 @@ It is possible that Employees can receive cash from their Employer for unused le
 
 For example, if there are 10 leaves of a particular Leave Type which is encashable, and the Employee has 8 leaves left. If Encashment Threshold Days = 5, the Employee is given encashment of ony 8 - 5 = 3 leaves.
 
-**Earning Component:** This field allows you to specify the [Salary Component](/docs/user/manual/en/human-resources/salary-component) that will be encashed to Employees as a part of their Salary in the Salary Slip.
+**Earning Component:** This field allows you to specify the Salary Component that will be encashed to Employees as a part of their Salary in the Salary Slip.
 
 > **Note:** On submitting a [Leave Encashment](/docs/user/manual/en/human-resources/leave-encashment) for an Employee, ERPNext automatically creates an [Additional Salary](/docs/user/manual/en/human-resources/additional-salary) which will get added to the Salary Slip of the Employee when processing the next payroll
 

@@ -38,4 +38,4 @@ Create the [Batch](/docs/user/manual/en/stock/batch) and [Serial No](/docs/user/
 ### 5. Related Topics
 1. [Accounting Of Inventory Stock](/docs/user/manual/en/stock/accounting-of-inventory-stock)
 1. [Stock Entry](/docs/user/manual/en/stock/stock-entry)
-1. [Stock Reconciliation](/docs/user/manual/en/setting-up/stock-reconciliation-for-non-serialized-item)
+1. [Stock Reconciliation](/docs/user/manual/en/stock/stock-reconciliation-for-non-serialized-item)

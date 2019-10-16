@@ -2,7 +2,7 @@
 # Fees
 
 Maintain a record of fees collected from students.
-The [Fee Structure](/docs/user/manual/en/education/fees/fee-structure.html) is fetched based on the selected Program and Academic Term.
+The [Fee Structure](/docs/user/manual/en/education/fee-structure/) is fetched based on the selected Program and Academic Term.
 Student Details and detailed Fee Structure will be available in the fee module. You can get Paid amount and Outstanding Amount details also.
 
 <img class="screenshot" alt="Fees" src="{{docs_base_url}}/assets/img/education/fees/fee-all.png">

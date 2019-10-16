@@ -20,7 +20,7 @@ Ordering a laboratory investigation is similar and if you have Lab Tests configu
 
 <img class="screenshot" alt="ERPNext Healthcare" src="{{docs_base_url}}/assets/img/healthcare/encounter_3.png">
 
-The Pharmacy (Sales / Accounts) User can fetch medication and investigation orders from Patient Encounter using the _Get items from > Prescription_ made available in the sales Invoice. Lab Tests can be configured to be created automatically on Sales Invoice submission in [Healthcare Settings](/docs/user/manual/en/healthcare/setup/healthcare_settings). Procedure Orders can be fetched using the `Get Prescribed Procedures` while booking the Appointment for the procedure. These will then be available for billing via the _Get items from > Healthcare Services_.
+The Pharmacy (Sales / Accounts) User can fetch medication and investigation orders from Patient Encounter using the _Get items from > Prescription_ made available in the sales Invoice. Lab Tests can be configured to be created automatically on Sales Invoice submission in [Healthcare Settings](/docs/user/manual/en/healthcare/healthcare_settings). Procedure Orders can be fetched using the `Get Prescribed Procedures` while booking the Appointment for the procedure. These will then be available for billing via the _Get items from > Healthcare Services_.
 
 ### Medical Coding
 You can also attach one or more Medical Codes to designate the Diagnosis in the Medical Coding Section. You will have to select the Medical Code Standard you wish to encode the diagnosis and then select the Code by searching the Code itself or the Code Description.

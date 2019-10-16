@@ -19,7 +19,7 @@ Sales Taxes and Charges Template fetched taxes for your sales transactions like 
 [Click here](/docs/user/manual/en/selling/sales-taxes-and-charges-template) to know about this.
 
 ## 3. Purchase Taxes and Charges Template
-Purchase Taxes and Charges Template fetched taxes for your sales transactions like [Purchase Order](/docs/user/manual/en/selling/purchase-order) and [Purchase Invoice](/docs/user/manual/en/accounts/purchase-invoice).
+Purchase Taxes and Charges Template fetched taxes for your sales transactions like [Purchase Order](/docs/user/manual/en/buying/purchase-order) and [Purchase Invoice](/docs/user/manual/en/accounts/purchase-invoice).
 [Click here](/docs/user/manual/en/buying/purchase-taxes-and-charges-template) to know about this.
 
 ## 4. Item Tax Template

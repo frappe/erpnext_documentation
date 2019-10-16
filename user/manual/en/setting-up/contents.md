@@ -106,7 +106,6 @@ You'll find the global configuration options here, for module-wise setup, visit 
 1. [Naming Series Current Value](/docs/user/manual/en/setting-up/articles/naming-series-current-value)
 1. [Using Custom Domain On ERPNext](/docs/user/manual/en/setting-up/articles/using-custom-domain-on-erpnext)
 1. [Setup Two Factor Authentication](/docs/user/manual/en/setting-up/articles/setup-two-factor-authentication)
-1. [Outgoing Email Gateway](/docs/user/manual/en/setting-up/articles/outgoing-email-gateway)
 1. [Disabling Line Breaks in Print Format Sections](/docs/user/manual/en/setting-up/articles/print-format-sections)
 
 
@@ -114,7 +113,6 @@ You'll find the global configuration options here, for module-wise setup, visit 
 
 ### 3.1 Basic Setup
 
-1. [The Setup Wizard](/docs/user/videos/learn/setup-wizard.html)
 1. [User and Permissions](/docs/user/videos/learn/user-and-permission.html)
 
 ### 3.2 Data and Printing

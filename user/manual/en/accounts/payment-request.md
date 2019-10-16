@@ -45,7 +45,6 @@ In case you don't want to use any integration or payment gateway, simply set the
 
 ## 3. Related Topics
 1. [Payment Entry](/docs/user/manual/en/accounts/payment-entry)
-1. [Payments](/docs/user/manual/en/accounts/payments)
 1. [Payment Terms](/docs/user/manual/en/accounts/payment-terms)
 1. [Sales Invoice](/docs/user/manual/en/accounts/sales-invoice)
 1. [Purchase Invoice](/docs/user/manual/en/accounts/purchase-invoice)

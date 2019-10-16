@@ -65,5 +65,5 @@ Clicking on the **Fetch Subscription Updates** button will update the Subscripti
 1. [Sales Invoice](/docs/user/manual/en/accounts/sales-invoice)
 1. [Purchase Invoice](/docs/user/manual/en/accounts/purchase-invoice)
 1. [Item](/docs/user/manual/en/stock/item)
-1. [Customer](/docs/user/manual/en/crm/customer)
+1. [Customer](/docs/user/manual/en/CRM/customer)
 1. [Subscription Plan](/docs/user/manual/en/accounts/subscription-plan)

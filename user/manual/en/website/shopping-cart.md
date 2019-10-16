@@ -54,8 +54,8 @@ is generated in the system.
 ## 3. Cart Checkout
 
 You can enable checkout from **Checkout Settings** section in Shopping Cart
-Settings. You must have [PayPal Integration](/docs/user/manual/en/setting-up/integrations/paypal-integration)
-or [Razorpay Integration](/docs/user/manual/en/setting-up/integrations/razorpay-integration)
+Settings. You must have [PayPal Integration](/docs/user/manual/en/erpnext_integration/paypal-integration)
+or [Razorpay Integration](/docs/user/manual/en/erpnext_integration/razorpay-integration)
 for enabling payments.
 
 ![Cart Checkout Settings](/docs/assets/img/website/cart-checkout-settings.png)

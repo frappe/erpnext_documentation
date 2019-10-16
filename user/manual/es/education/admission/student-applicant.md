@@ -22,7 +22,7 @@ Puedes Aprobar o Rechazar una aplicación de estudiante. Aceptando una aplicaci�
 
 
 Una vez aprobada una Aplicación de Estudiante, puedes inscribirlo a un programa. Cuando le das click al butón 'Inscribir',
-el sistema creará un estudiante usando esa aplicación y le va a redireccionar a el [Formulario de Inscripción al Programa](/docs/user/manual/es/education/student/program-enrollment.html).
+el sistema creará un estudiante usando esa aplicación y le va a redireccionar a el [Formulario de Inscripción al Programa](/docs/user/manual/es/education/admission/program-enrollment).
 
 <img class="screenshot" alt="Student Applicant Enrollment" src="{{docs_base_url}}/assets/img/education/admission/student-applicant-enroll.png">
 

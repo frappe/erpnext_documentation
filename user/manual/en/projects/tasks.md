@@ -91,6 +91,6 @@ The following additional details can be added when editing a new task:
 ## 4. Related Topics
 
   1. [Project](/docs/user/manual/en/projects/project)
-  2. [Timesheet](/docs/user/manual/en/projects/timesheet)
+  2. [Timesheet](/docs/user/manual/en/projects/timesheets)
 
 {next}

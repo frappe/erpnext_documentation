@@ -27,7 +27,7 @@ Just like for Customer, you can also configure the naming methodology for the Ca
 ## 2. Defaults
 ### 2.1 Default Customer Group and Territory
 
-Select a default [Customer Group](/docs/user/manual/en/CRM/setup/customer-group) which will be auto-updated when creating a new Customer.
+Select a default Customer Group which will be auto-updated when creating a new Customer.
 
 Quotations can be created for the Customers as well as for the Leads. When converting a Quotation into a Sales Order, which is created for a Lead, the system attempts to convert that Lead into a Customer. While creating Customer in the backend, values for Customer Group and Territory is picked from Selling Settings. If no default values are found for Customer Group or Territory, then you will receive a validation message asking for Customer Group or Territory. You can also manually convert a Lead into a Customer.
 

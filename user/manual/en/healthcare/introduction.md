@@ -28,4 +28,4 @@ Of course, a Healthcare institution needs lots more than just the Healthcare dom
 - Organize your [Purchases](/docs/user/manual/en/buying) and place an approval system.
 - Track and manage your Pharmacy [Stock](/docs/user/manual/en/stock) and other supplies effectively.
 - Manage your [Fixed Assets](/docs/user/manual/en/asset) purchases and sales, depreciation and ensure timely maintenance.
-- Receive online payments and [Integrations](/docs/user/manual/en/setting-up/integrations) with other services including various Google Services.
+- Receive online payments and [Integrations](/docs/user/manual/en/setting-up/integrations) with other services including various Google Services

@@ -26,7 +26,7 @@ To create new Cost Center, go to:
 
 `Accounts > Setup > Cost Center`
 
-[Click here to learn how to manage Cost Centers.](/docs/user/manual/en/accounts/setup/cost-center.html)
+[Click here to learn how to manage Cost Centers.](/docs/user/manual/en/accounts/cost-center)
 
 #### 1.3 Update Cost Center in the Project
 

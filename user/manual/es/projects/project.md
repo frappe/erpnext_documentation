@@ -44,7 +44,7 @@ Las tareas pueden ser creadas a traves del documento de Proyecto o pueden ser cr
 
 ### Manejando tiempo
 
-ERPNext usa [Time Log](/docs/user/manual/en/projects/time-log.html) para hacer el seguimiento del progreso de un Proyecto.
+ERPNext usa [Time Log](/docs/user/manual/es/projects/timesheets/) para hacer el seguimiento del progreso de un Proyecto.
 Puedes crear registros de tiempo sobre cada Tarea.
 El tiempo actual de inicio y finalización junto con el costo deben ser actualizados basados en los Registros de Tiempo.
 
@@ -77,7 +77,7 @@ El sistema actualizará el monto total de las reclamaciones de gastos en la secc
 
 ### Centro de Costo
 
-Puedes crear un [Cost Center](/docs/user/manual/en/accounts/setup/cost-center.html) sobre un proyecto o usar un centro de costo existente para hacer el seguimiento de todos los gastos realizados al proyecto.
+Puedes crear un [Cost Center](/docs/user/manual/en/accounts/cost-center) sobre un proyecto o usar un centro de costo existente para hacer el seguimiento de todos los gastos realizados al proyecto.
 
 <img class="screenshot" alt="Project - Cost Center" src="{{docs_base_url}}/assets/img/project/project_cost_center.png">
 

@@ -25,7 +25,7 @@ After entering required details, Save and Submit the Payment Entry.
 
 ####Adjusting Post Dated  Cheque Entry
 
-You can adjust Post Dated Payment Entry against an invoice via [Payment Reconciliation Tool](/docs/user/manual/en/accounts/tools/payment-reconciliation.html).
+You can adjust Post Dated Payment Entry against an invoice via [Payment Reconciliation Tool](/docs/user/manual/en/accounts/payment-reconciliation).
 
 When cheque is cleared, i.e. on actual date on the cheque, you can update its Clearance Date via [Bank Reconciliation Tool](/docs/user/manual/en/accounts/tools/bank-reconciliation.html).
 

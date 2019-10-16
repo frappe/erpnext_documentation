@@ -238,4 +238,4 @@ If your Chart of Accounts has accounts with multiple currencies, a Journal Entry
 1. [Debit Note](/docs/user/manual/en/accounts/debit-note)
 1. [Sales Invoice](/docs/user/manual/en/accounts/sales-invoice)
 1. [Difference Entry Button](/docs/user/manual/en/accounts/articles/difference-entry-button)
-1. [Finance Book](/docs/user/manual/en/accounts/articles/finance-book)
+1. [Finance Book](/docs/user/manual/en/accounts/finance-book)

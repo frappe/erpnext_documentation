@@ -59,8 +59,8 @@ is passed.
 This complete process is called **Periodic Inventory**.
 
 If you are an existing user using Periodic Inventory and want to use Perpetual
-Inventory, you need to follow [a few steps](/docs/user/manual/en/stock/migrate-to-perpetual-inventory) to migrate. 
+Inventory, you need to follow [a few steps](/docs/user/manual/en/stock/articles/migrate-to-perpetual-inventory) to migrate. 
 
 ### 3. Related Topics
 1. [Perpetual Inventory](/docs/user/manual/en/stock/perpetual-inventory)
-1. [Migrate to Perpetual Inventory](/docs/user/manual/en/stock/migrate-to-perpetual-inventory)
+1. [Migrate to Perpetual Inventory](/docs/user/manual/en/stock/articles/migrate-to-perpetual-inventory)

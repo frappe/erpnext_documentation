@@ -38,7 +38,7 @@ have multiple Contacts and Addresses.
 attach multiple Contacts or Addresses to the customer.
 
 #### 2.2 Default Currency and Price List
-ERPNext supports [Multiple Currencies](/docs/user/manual/en/accounts/multi-currency-accounting) and [Price Lists](/docs/user/manual/en/setting-up/price-lists).
+ERPNext supports [Multiple Currencies](/docs/user/manual/en/accounts/multi-currency-accounting) and Price Lists.
 
 You can set the default currency to be used for this customer in sales orders and sales invoices by selecting the appropriate currency in Billing Currency.
 
@@ -52,11 +52,11 @@ By default a unified ledger named **Debtors** is created.
 However if you specifically need a separate ledger for a customer, first create the ledger under
 Accounts Receivable in the [Chart of Accounts](/docs/user/manual/en/accounts/chart-of-accounts.html) and then add it in ACCOUNTING section of the customer.
 
->Advanced Tip: ERPNext supports [Multi-company Accounting](/docs/user/manual/en/setting-up/articles/managing-multiple-companies). You can use the same customer records in multiple companies. Since an accounting ledger is company specific, you need to select the company and the corresponding ledger in ACCOUNTING section if you decide have separate accounting ledger for a customer.
+>Advanced Tip: ERPNext supports [Multi-company Accounting](/docs/user/manual/en/accounts/inter-company-journal-entry). You can use the same customer records in multiple companies. Since an accounting ledger is company specific, you need to select the company and the corresponding ledger in ACCOUNTING section if you decide have separate accounting ledger for a customer.
 
 #### 2.4 Credit Limit and Payment Terms
 
-You can set the credit limit by entering the amount in 'Credit Limit' field. Read [Credit Limit](/docs/user/manual/en/CRM/articles/credit_limit) for more details.
+You can set the credit limit by entering the amount in 'Credit Limit' field. Read [Credit Limit](/docs/user/manual/en/accounts/credit-limit) for more details.
 
 You can select the default [Payment Terms](/docs/user/manual/en/accounts/payment-terms) to be applied in sales orders and sales invoices in 'Default Payment Terms Template' field.
 
@@ -108,7 +108,6 @@ You can customize the Customer DocType using [Customize Form](/docs/user/manual/
 
 
 #### 3. Related Topics
-1. [Customer Group](/docs/user/manual/en/CRM/setup/customer-group)
 1. [Quotation](/docs/user/manual/en/selling/quotation)
 1. [Price List](/docs/user/manual/en/stock/price-lists)
 1. [Contact](/docs/user/manual/en/CRM/contact)

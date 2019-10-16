@@ -46,6 +46,6 @@ Is Inter State: For India. On selection of a customer in Sales Invoice or Delive
 
 ### 3. Related Topics
 1. [Purchase Order](/docs/user/manual/en/buying/purchase-order)
-1. [Buying Settings](/docs/user/manual/en/buying/setup/buying-settings)
+1. [Buying Settings](/docs/user/manual/en/buying/buying-settings)
 
 {next}

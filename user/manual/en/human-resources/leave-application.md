@@ -29,7 +29,7 @@ _Basic Workflow:_
 
 ### Setting Leave Approver
 
-* A leave approver is a user who can approve an leave application for an employee. Leave Approvers for each department can be configured in the [Department](/docs/user/manual/en/human-resources/setup/department.html) master.
+* A leave approver is a user who can approve an leave application for an employee. Leave Approvers for each department can be configured in the [Department](/docs/user/manual/en/human-resources/department) master.
 
 > Tip : If you want all users to create their own Leave Applications, you can set
 their “Employee ID” as a match rule in the Leave Application Permission
@@ -42,7 +42,7 @@ _Notes:_
 * Application period must be in the latest Allocation period.
 * Employee can't apply for leave on the dates which are added in the "Leave Block List".
 
-To understand how ERPNext allows you configure leaves for employees, check [Leaves - Setup](/docs/user/manual/en/human-resources/leave.html)
+To understand how ERPNext allows you configure leaves for employees, check [Leaves](/docs/user/manual/en/human-resources/leave-management-intro/)
 
 <div class="embed-container">
     <iframe src="https://www.youtube.com/embed/fc0p_AXebc8?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen>

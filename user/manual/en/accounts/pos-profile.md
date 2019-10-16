@@ -52,7 +52,7 @@ By default, all Sales Users can access the POS Profiles created in ERPNext. Howe
 
 > Note: If you specify a particular User, the POS setting will be
 applied only to that User. If the User option is left blank, the setting will
-be set for all users. To understand how POS works, visit the [Point of Sale](/docs/user/manual/en/accounts/point-of-sale-pos-invoice) page.
+be set for all users. To understand how POS works, visit the [Point of Sale](/docs/user/manual/en/accounts/point-of-sales) page.
 
 
 ### 2.2 Setting Item Group and Customer Group

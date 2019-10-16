@@ -46,6 +46,6 @@ If this is checked, ERPNext will stop you from changing an Item's price in a Pur
 When this checkbox is unchecked, an item cannot be added multiple times in the same Purchase Order. However, you can still explicitly change the quantity. This is a validation checkbox for preventing accidental purchase of the same item. This can be checked for specific use cases where there are multiple sources for the same material, for example in manufacturing.
 
 ### 4. Related Topics
-1. [Supplier Group](/docs/user/manual/en/buying/setup/supplier-group)
+1. [Supplier Group](/docs/user/manual/en/buying/supplier-group)
 
 {next}

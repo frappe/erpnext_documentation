@@ -23,7 +23,7 @@ Jei jau esate susipažinę su ERPNext, pradėkite vesti tikrus duomenis!
 
   * Išvalykite bandymo duomenis iš paskyros arba dar geriau, pradėkite įdiekite sistemą iš nauju.
   * Jei tiesiog norite išvalyti tranzakcijas, bet palikti pagrindinius duomenis, pvz., "Prekė", "Klientas", "Tiekėjas", "Komplektavimo specifikacija" ir kt., Galite spustelėti "Ištrinti" savo įmonės tranzakcijas ir pradėti iš naujo. Norėdami tai atlikti, atidarykite "Organziacijos žurnalas" per Nustatymai > Pagrindiniai > Įmonė ir ištrinkite savo organizacijos transakcijas, spustelėdami organizacijos formos apačioje esantį mygtuką **Trinti Organizacijos Tranzakcijas**.
-  * Taip pat galite sukurti naują paskyrą adresu [https://erpnext.com](https://erpnext.com) ir 30 dienų nemokamai naudoti bandomąją versiją. [Sužinokite daugiau ERPNext diegimo būdų](docs/user/manual/en/introduction/getting-started-with-erpnext)
+  * Taip pat galite sukurti naują paskyrą adresu [https://erpnext.com](https://erpnext.com) ir 30 dienų nemokamai naudoti bandomąją versiją. [Sužinokite daugiau ERPNext diegimo būdų](/docs/user/manual/lt/introduction/getting-started-with-erpnext)
   * Įdiekite visus modulius su Klientų grupėmis, Prekių grupėmis, Sandėliais, Komplektavimo specifikacijomis ir kt.
   * Importuokite Klientų duomenis, Tiekėjų duomenis, Prekes, Kontaktus ir Adresus naudodami duomenų importavimo įrankį.
   * Importuokite prekių atsargas naudojant Inventorizacijos įrankį.

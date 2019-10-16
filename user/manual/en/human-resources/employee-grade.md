@@ -38,7 +38,6 @@ You also can access [Employee](/docs/user/manual/en/human-resources/employee), [
 ## 3. Related Topics
 
 1. [Leave Type](/docs/user/manual/en/human-resources/leave-type)
-1. [Salary Component](/docs/user/manual/en/human-resources/salary-component) 
 
 
 

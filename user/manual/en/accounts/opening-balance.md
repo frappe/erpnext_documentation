@@ -64,7 +64,6 @@ After completing the accounting entries, the trial balance report will look as s
 1. [Chart of Accounts](/docs/user/manual/en/accounts/chart-of-accounts)
 1. [Journal Entry](/docs/user/manual/en/accounts/journal-entry)
 1. [Payment Entry](/docs/user/manual/en/accounts/payment-entry)
-1. [Payments](/docs/user/manual/en/accounts/payments)
 1. [Payment Reconciliation](/docs/user/manual/en/accounts/payment-reconciliation)
 
 {next}

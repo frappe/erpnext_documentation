@@ -102,7 +102,7 @@ For example, to manufacture a plastic shaving brush you need some raw materials 
 <img class="screenshot" alt="Exploded Section" src="{{docs_base_url}}/assets/img/manufacturing/bom-exploded.png">
 
 ### 3.3 Project and Website
-The BOM can be linked to a [Project](/docs/user/manual/en/project) to track progress, Project costing, etc. In case of engineer to order, every order could be a [Project](/docs/user/manual/en/projects/project) and the sub-assemblies would be [Tasks](/docs/user/manual/en/projects/tasks). The completion can be tracked by linking to a Project in that case.
+The BOM can be linked to a [Project](/docs/user/manual/en/projects) to track progress, Project costing, etc. In case of engineer to order, every order could be a [Project](/docs/user/manual/en/projects/project) and the sub-assemblies would be [Tasks](/docs/user/manual/en/projects/tasks). The completion can be tracked by linking to a Project in that case.
 
 The BOM can also be shown in the [Website](/docs/user/manual/en/website) for Open-source hardware products. Open-source hardware is similar to open-source where the product specifications are listed publicly.
 

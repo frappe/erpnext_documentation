@@ -1,6 +1,6 @@
 <!-- add-breadcrumbs -->
 # Clinical Procedure
-You can use this document to map all the clinical procedures, for example, wound cleaning or a cataract surgery. ERPNext allows you to preconfigure Clinical Procedure Templates, so that you do not have to set the default properties like the consumables every time you order a procedure. You can read more on this in the [Setting Up Practice](/docs/user/manual/en/healthcare/setup/setup_practice) page.
+You can use this document to map all the clinical procedures, for example, wound cleaning or a cataract surgery. ERPNext allows you to preconfigure Clinical Procedure Templates, so that you do not have to set the default properties like the consumables every time you order a procedure. You can read more on this in the [Setting Up Practice](/docs/user/manual/en/healthcare/setup_practice) page.
 
 You can lookup and book Patient Appointment from the ordered procedures for a patient by using the `Get Prescribed Procedures` button available in Patient Appointment. The performing practitioner can easily create a new procedure from a booked appointment using the `Create > Procedure` button.
 
