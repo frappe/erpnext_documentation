@@ -26,7 +26,7 @@ Before creating and using Landed Cost Voucher, it is advised that you create the
 * [Purchase Invoice](/docs/user/manual/en/accounts/purchase-invoice)
 
 
-## 1. How to create a Landed Cost Voucher
+## 2. How to create a Landed Cost Voucher
 
 1. Go to the Landed Cost Voucher list, click on New.
 1. Select Receipt Document Type whether Purchase Invoice or Receipt. You can select multiple documents.
@@ -45,19 +45,19 @@ The added charges are proportionately distributed among all the items based thei
 
 <img class="screenshot" alt="Landed Cost Voucher" src="{{docs_base_url}}/assets/img/stock/landed-cost-distribution.png">
 
-## 2. Related Actions
-### 2.1 Adding Landed Cost in the Purchase Receipt itself
+## 3. Related Actions
+### 3.1 Adding Landed Cost in the Purchase Receipt itself
 
 In ERPNext, you can add landed cost-related charges in “Taxes and Charges” table while creating Purchase Receipt (PR). You should add those charges for “Total and Valuation” or “Valuation” in the 'Consider Tax or Charge for' field. Charges which are payable to the same Supplier from whom you are buying the items should be tagged as “Total and Valuation”. Otherwise, if applicable charges are payable to a 3rd party, it should be tagged as “Valuation”. On submission of Purchase Receipt, the system will calculate the landed cost of all items, considering those charges. This landed cost will be considered to calculate the item’s Valuation Rate (based on FIFO / Moving Average method).
 
 But in reality, while making Purchase Receipt we might not know all the charges which are applicable for landed cost. Your transporter can send the invoice after 1 month, but there is no point in waiting for booking Purchase Receipt till then. Companies that import their products/parts, pay a huge amount as Customs Duty. And generally, they get invoices from the Customs Department after a while. In these cases, “Landed Cost Voucher” becomes handy, as it allows you to add those additional charges on a later date, and to update landed cost of purchased items.
 
-### 2.2 What happens on submission?
+### 3.2 What happens on submission?
 
 1. Valuation Rate of items is recalculated based on new landed cost. 
 
 3. If you are using “Perpetual Inventory”, the system will post general ledger entries to correct Stock-in-Hand balance. It will debit (increase) corresponding “warehouse account” and credit (decrease) “Expense Included in Valuation” account. If items are already delivered, the Cost-of-Goods-Sold (CoGS) value has been booked as per the old valuation rate. Hence, general ledger entries are reposted for all future outgoing entries of associated items, to correct CoGS value.
 
-### 3. Related Topics
+### 4. Related Topics
 1. [Delivery Trip](/docs/user/manual/en/stock/delivery-trip)
 1. [Purchase Receipt](/docs/user/manual/en/stock/purchase-receipt)

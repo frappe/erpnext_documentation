@@ -35,7 +35,7 @@ Optionally, you can set the target Warehouse where the items will be delivered.
 ### 3.1 Address and Contact
 
 * **Select Supplier Address**: The Supplier's billing address.
-* **Select Shipping Address**: The Supplier's shipping warehouse from which they'll be sending the items.
+* **Select Shipping Address**: The Supplier's shipping address from which they'll be sending the items.
 * Address, Shipping Address, Contact, Contact Email will be fetched if saved in the Supplier master.
 
 For India:

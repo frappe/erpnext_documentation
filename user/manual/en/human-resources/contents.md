@@ -12,7 +12,7 @@ It also maintains a complete employee database including contact information,
 salary details, attendance, performance evaluation, leaves, and appraisal records.
 
 ## 1. Topics
-##### 1.1 Setup
+### 1.1 Setup
 1. [Employee](/docs/user/manual/en/human-resources/employee)
 1. [Employment Type](/docs/user/manual/en/human-resources/employment-type)
 1. [Designation](/docs/user/manual/en/human-resources/designation)
@@ -24,20 +24,20 @@ salary details, attendance, performance evaluation, leaves, and appraisal record
 1. [Staffing Plan](/docs/user/manual/en/human-resources/staffing-plan)
 1. [HR Settings](/docs/user/manual/en/human-resources/hr-settings)
 
-##### 1.2 Recruitment
+### 1.2 Recruitment
 1. [Staffing Plan](/docs/user/manual/en/human-resources/staffing-plan)
 1. [Job Opening](/docs/user/manual/en/human-resources/job-opening)
 1. [Job Applicant](/docs/user/manual/en/human-resources/job-applicant)
 1. [Job Offer](/docs/user/manual/en/human-resources/job-offer)
 
-##### 1.3 Employee Management
+### 1.3 Employee Management
 1. [Recruitment](/docs/user/manual/en/human-resources/recruitment-intro)
 1. [Training](/docs/user/manual/en/human-resources/training)
 1. [Daily Work Summary](/docs/user/manual/en/human-resources/daily-work-summary)
 1. [Shift Management](/docs/user/manual/en/human-resources/shift-management)
 1. [Employee Lifecycle](/docs/user/manual/en/human-resources/employee-lifecycle-intro)
 
-##### 1.4 Leave Management
+### 1.4 Leave Management
 1. [Leave Management Introduction](/docs/user/manual/en/human-resources/leave-management-intro/)
 1. [Leave Type](/docs/user/manual/en/human-resources/leave-type)
 1. [Leave Period](/docs/user/manual/en/human-resources/leave-period)
@@ -49,21 +49,21 @@ salary details, attendance, performance evaluation, leaves, and appraisal record
 1. [Holiday List](/docs/user/manual/en/human-resources/holiday-list)
 1. [Leave Block List](/docs/user/manual/en/human-resources/leave-block-list)
 
-##### 1.5 Attendance
+### 1.5 Attendance
 1. [Attendance](/docs/user/manual/en/human-resources/attendance)
 1. [Attendance Request](/docs/user/manual/en/human-resources/attendance-request)
 1. [Upload Attendance](/docs/user/manual/en/human-resources/upload-attendance)
 1. [Employee Attendance Tool](/docs/user/manual/en/human-resources/employee-attendance-tool)
 1. [Auto Attendance](/docs/user/manual/en/human-resources/auto-attendance)
 
-##### 1.6 Lifecycle and Salary
+### 1.6 Lifecycle and Salary
 1. [Appraisal](/docs/user/manual/en/human-resources/appraisal)
 1. [Employee Onboarding And Separation](/docs/user/manual/en/human-resources/employee-onboarding-and-separation)
 1. [Employee Skill Map](/docs/user/manual/en/human-resources/employee_skill_map)
 1. [Employee Promotion](/docs/user/manual/en/human-resources/employee_promotion)
 1. [Employee Transfer](/docs/user/manual/en/human-resources/employee_transfer)
 
-##### 1.7 Payroll
+### 1.7 Payroll
 1. [Introduction](/docs/user/manual/en/human-resources/payroll-intro/)
 1. [Payroll Entry](/docs/user/manual/en/human-resources/payroll-entry)
 1. [Additional Salary](/docs/user/manual/en/human-resources/additional-salary)
@@ -76,7 +76,7 @@ salary details, attendance, performance evaluation, leaves, and appraisal record
 1. [Payroll Setup](/docs/user/manual/en/human-resources/payroll-setup)
 1. [Setting Up Tax](/docs/user/manual/en/human-resources/setting-up-tax)
 
-##### 1.8 Other
+### 1.8 Other
 1. [Human Resources Reports](/docs/user/manual/en/human-resources/human-resources-reports)
 1. [Human Resource Setup](/docs/user/manual/en/human-resources/human-resource-setup)
 1. [Leave Ledger Entry](/docs/user/manual/en/human-resources/leave-ledger-entry)

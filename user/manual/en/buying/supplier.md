@@ -3,9 +3,11 @@
 
 **Suppliers are companies or individuals who provide you with products or services.**
 
+To access the Supplier list, go to:
+> Home > Buying > Supplier > Supplier
+
 ## 1. How to create a Supplier
-1. You can create a new Supplier from:
-**Buying > Supplier > Supplier > New**
+1. Go to the Supplier list and click on New.
 2. Enter a name for the supplier.
 4. Select the supplier group whether Pharmaceutical, Hardware etc.
 5. Save.
@@ -95,6 +97,7 @@ By clicking on the View button, you can view the Accounting Ledger or Accounts P
 
 There's a button to 'Send GST Update Reminder' to the supplier. You need to have a default [email account](/docs/user/manual/en/setting-up/email/email-account) setup first.
 
+## 3. Video
 <div>
     <div class='embed-container'>
         <iframe src='https://www.youtube.com/embed//zsrrVDk6VBs?start=213' frameborder='0' allowfullscreen>
@@ -102,7 +105,7 @@ There's a button to 'Send GST Update Reminder' to the supplier. You need to have
     </div>
 </div>
 
-### 3. Related Topics
+### 4. Related Topics
 1. [Supplier Quotation](/docs/user/manual/en/buying/supplier-quotation)
 1. [Supplier Scorecard](/docs/user/manual/en/buying/supplier-scorecard)
 1. [Maintaining Supplier's Item Code In the Item Master](/docs/user/manual/en/buying/articles/maintaining-suppliers-part-no-in-item)

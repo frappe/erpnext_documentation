@@ -5,9 +5,12 @@
 
 Adding the appropriate opportunity type helps in assigning the opportunity to the right sales executive.
 
-### 1. How to Create an Opportunity
+To access the Opportunity Type, go to:
+> Home > CRM > Settings > Opportunity Type
 
-1. Go to **CRM > Settings > Opportunity Type > New**.
+## 1. How to Create an Opportunity Type
+
+1. Go to the Opportunity list and click on New.
 1. Enter 'Name'.
 1. Enter 'Description'
 

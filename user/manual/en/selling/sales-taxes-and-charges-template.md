@@ -21,10 +21,11 @@ Before creating a new template, note that templates are already created for many
 1. Go to the Sales Taxes and Charges Template list, click on New.
 2. Enter a title name for the Tax.
 3. Under type, set on what the tax will be calculated and the tax rate. There are five options under type for which tax will be calculated.
-  1. Actual: On the actual amount of each item.
-  1. On Net Total: On the grand total of all the items.
+  1. Actual: You can directly enter the amount for the expense.
+  1. On Net Total: On the net total of all the items.
   1. On Previous Row Amount: This is for compounding the charges. For example, cess charges over the amount to which tax was already applied in the previous row.
   1. On Previous Row Total: Same as above but applied on the total bill and not just the amount of an item.
+  1. On Item Quantity: Tax will be calculated as Tax Rate * Item Quantity. For example, if Tax Rate is 2% and number of Items is 1, then Tax Rate will be 4, if number of Items are 5, Tax Rate will be 10, and so on.
 4. Select an account head which has pre set tax rates or create your own.
 1. Selecting default will apply this template by default for new Sales transactions.
 5. Save.

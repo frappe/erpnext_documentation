@@ -5,17 +5,17 @@
 
 The closing Stock of the previous accounting period becomes the opening Stock of the current accounting period.
 
-##1. Prerequisites
+## 1. Prerequisites
 
 * Create [Warehouses](/docs/user/manual/en/stock/warehouse).
 * Link Warehouse to appropriate accounting ledgers.
 
-##2. Opening Stock for Non-serialized Items
+## 2. Opening Stock for Non-serialized Items
 
 To post opening stock visit the [Stock Reconciliation](/docs/user/manual/en/stock/stock-reconciliation) page.
 
 
-##3. Opening Stock for Serialized and Batched Items
+## 3. Opening Stock for Serialized and Batched Items
 
 Create the [Batch](/docs/user/manual/en/stock/batch) and [Serial No](/docs/user/manual/en/stock/serial-no) records beforehand. To post opening stock for serialized and batched items:
 

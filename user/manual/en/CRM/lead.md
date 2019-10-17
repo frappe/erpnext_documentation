@@ -21,12 +21,13 @@ this conversation to enable another person who may have to follow-up on that
 contact. The new person is then able to know the history of that particular
 Lead.
 
+To access the Lead list, go to:
+> Home > CRM > Sales Pipeline > Lead 
+
 ---
-### 1. How to Create a Lead
+## 1. How to Create a Lead
 
-To create a new Lead:
-
-1. Go to **CRM > Sales Pipeline > Lead > New**.
+1. Go to the Lead list and click on New.
 1. If the person represents an organization, check the 'Lead is an Organization' checkbox. Notice that when you check, the 'Company Name
 ' field becomes mandatory. Enter the Company Name.
 1. If the person is an individual, leave the checkbox unchecked and enter Person Name and Gender.  
@@ -57,44 +58,44 @@ the leads you can pursue.
 
 You can assign the Lead to a user by clicking on 'Assign' button on left bar. You can also attach files/images by clicking on 'Attach File' button.
 
-### 2. Features
+## 2. Features
 
-#### 2.1 Reminders to Follow Up on the Leads
+### 2.1 Reminders to Follow Up on the Leads
 
 It is important to reach out to leads from time to time and build the relationship. You can set the 'Next Contact Date' and 'Next Contact By' fields and a calendar event will be added for the user chosen in 'Next Contact By' field and a notification is shown on the that Date.
 
-#### 2.2 Adding Multiple Contacts and Addresses
+### 2.2 Adding Multiple Contacts and Addresses
 
 In Busines-to-business(B2B) scenario, in order to close a sales deal, you will have to contact multiple people working in the prospective company.
 You can add the details of all such people in the same lead. Once you save a Lead, you will get the option to add [Contact](/docs/user/manual/en/CRM/contact) details by clicking on 'New Contact' button. Similarly, you can add the [Address](/docs/user/manual/en/CRM/address) details by clicking on 'New Address'.
 
 <img class="screenshot" alt="Lead" src="{{docs_base_url}}/assets/img/crm/multiple_address_contacts_in_lead.png">
 
-#### 2.3 Recording Comments, Emails and Events
+### 2.3 Recording Comments, Emails and Events
 
 * **Comments**: You can write your comment in 'Add a comment' box and click on 'Comment'.
 * **Emails**: You can send an email to the lead by clicking on the 'New Email' button and when the lead responds to your email, it will visible.
 * **Events**: You can also records the Meetings, Calls etc you have had with the Lead by clicking on 'New Event'
 
-#### 2.4 Creating Opportunity, Customer and Quotation
+### 2.4 Creating Opportunity, Customer and Quotation
 
 You can create an Opportunity, Customer or a Quotation from the Make dropdown. Relevant field values will be copied over.
 
 
-#### 2.5 Auto-assigning the Leads to Sales Executives
+### 2.5 Auto-assigning the Leads to Sales Executives
 >Introduced in Version 12
 
 You can define [Assignment Rules](/docs/user/manual/en/setting-up/automation/assignment-rule) to automatically assign the leads to sales executives.
 
 <img class="screenshot" alt="Lead" src="{{docs_base_url}}/assets/img/crm/lead_assignment_rule.png">
 
-### 3. Adding Custom Fields
+## 3. Adding Custom Fields
 
 You may need to add custom fields to capture additional details as per your needs.
 
 You can customize the Lead DocType using [Customize Form](/docs/user/manual/en/customize-erpnext/custom-field) tool.
 
-### 4. Related Topics
+## 4. Related Topics
 1. [Opportunity](/docs/user/manual/en/CRM/opportunity)
 1. [Customer](/docs/user/manual/en/CRM/customer)
 1. [Difference between Lead, Contact, and Customer](/docs/user/manual/en/CRM/articles/difference_between_lead_contact_and_customer)

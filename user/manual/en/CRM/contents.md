@@ -8,7 +8,7 @@ ERPNext helps you track business **Opportunities** from **Leads** and
 ## 1. Topics
 The CRM module has the following features:
 
-##### 1.1 Sales
+### 1.1 Sales
 1. [Lead](/docs/user/manual/en/CRM/lead)
 1. [Opportunity](/docs/user/manual/en/CRM/opportunity)
 1. [Customer](/docs/user/manual/en/CRM/customer)
@@ -18,10 +18,10 @@ The CRM module has the following features:
 1. [Email Campaign](/docs/user/manual/en/CRM/email-campaign)
 1. [Newsletter](/docs/user/manual/en/CRM/newsletter)
 
-##### 1.2 Reports
+### 1.2 Reports
 1. [CRM Reports](/docs/user/manual/en/CRM/crm_reports)
 
-##### 1.3 Setup
+### 1.3 Setup
 1. [Lead Source](/docs/user/manual/en/CRM/lead_source)
 1. [Opportunity Type](/docs/user/manual/en/CRM/opportunity_type)
 1. [Sales Stage](/docs/user/manual/en/CRM/sales_stage)

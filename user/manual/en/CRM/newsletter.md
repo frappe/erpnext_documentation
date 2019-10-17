@@ -9,8 +9,11 @@ Newsletter can also be used to share information to employees, investors etc.
 
 You need to create [Email Groups](/docs/user/manual/en/CRM/email_group) before sending the newsletters.
 
-### 1. How to Create a Newsletter
-1. Go to **Settings > Email > Newsletter > New.**
+To access the Newsletter list, go to:
+> Home > Settings > Email > Newsletter
+
+## 1. How to Create a Newsletter
+1. Go to the Newsletter list and click on New.
 1. Select the Email Group in RECIPIENT table.
 1. Enter 'Subject'.
 1. Enter 'Message'.
@@ -22,15 +25,15 @@ Below is the screenshot of the email received with link to unsubscribe.
 
 <img class="screenshot" alt="Lead" src="{{docs_base_url}}/assets/img/crm/newsletter.png">
 
-### 2. Features
+## 2. Features
 
-#### 2.1 Create Subscriber Groups
+### 2.1 Create Subscriber Groups
 
 You can manage subscribers by grouping them into different [Email Groups](/docs/user/manual/en/CRM/email_group).
 
 You can select multiple email groups in the 'RECIPIENT' tables in the newsletter.
 
-#### 2.2 Test Newsletter Before Sending to Subscribers
+### 2.2 Test Newsletter Before Sending to Subscribers
 
 Once the newsletter is ready you can provide a 'Test Email Address' and click on 'Test'.
 

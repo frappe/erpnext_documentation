@@ -5,11 +5,12 @@
 
 It is important to track the source from which you are getting the leads. This will help in measuring the effectiveness of marketing campaigns and allocate the budgets accordingly.
 
-### 1. How to Create a Lead Source
+To access the Lead Source list, go to:
+> Home > Selling > Settings > Lead Source
 
-To create a new Lead Source:
+## 1. How to Create a Lead Source
 
-1. Go to **Selling > Settings > Lead Source> New**.
+1. Go to the Lead Source list, click on New.
 1. Enter 'Source Name'.
 1. Enter 'Details'.
 

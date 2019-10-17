@@ -11,18 +11,18 @@
  For more details go through the following topics
 
 ## Topics
-##### 1. Goal and Procedure
+### 1. Goal and Procedure
 1. [Quality Goal](/docs/user/manual/en/quality-management/quality_goal)
 1. [Quality Procedure](/docs/user/manual/en/quality-management/quality_procedure)
 1. [Tree Of Procedures](/docs/user/manual/en/quality-management/tree_of_procedure)
 
-##### 2. Review and Action
+### 2. Review and Action
 1. [Quality Review](/docs/user/manual/en/quality-management/quality_review)
 1. [Quality Action](/docs/user/manual/en/quality-management/quality_action)
 
-##### 3. Meeting
+### 3. Meeting
 1. [Quality Meeting](/docs/user/manual/en/quality-management/quality_meeting)
 
-##### 4. Feedback
+### 4. Feedback
 1. [Quality Feedback Template](/docs/user/manual/en/quality-management/quality-feedback-template)
 1. [Quality Feedback](/docs/user/manual/en/quality-management/quality_feedback)

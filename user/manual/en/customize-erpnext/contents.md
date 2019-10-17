@@ -10,14 +10,14 @@ You can also make your own Print Formats by using HTML Templates and create
 multiple Letter Heads for your Prints.
 
 ## 1. Topics
-##### 1.1 Customizations
+### 1.1 Customizations
 1. [Custom Field](/docs/user/manual/en/customize-erpnext/custom-field)
 1. [Custom Form](/docs/user/manual/en/customize-erpnext/customize-form)
 1. [Custom Doctype](/docs/user/manual/en/customize-erpnext/custom-doctype)
 1. [Custom Scripts](/docs/user/manual/en/customize-erpnext/custom-scripts)
 1. [Custom Translations](/docs/user/manual/en/setting-up/print/custom-translations)
 
-##### 1.2 Documents and Reports
+### 1.2 Documents and Reports
 1. [Document Title](/docs/user/manual/en/customize-erpnext/document-title)
 1. [Print Format](/docs/user/manual/en/customize-erpnext/print-format)
 1. [Kanban Board](/docs/user/manual/en/customize-erpnext/kanban-board)
@@ -26,18 +26,18 @@ multiple Letter Heads for your Prints.
 
 ## 2. Articles
 
-##### 2.1 Setup
+### 2.1 Setup
 
 1. [Set Language](/docs/user/manual/en/customize-erpnext/articles/set-language)
 1. [Set Precision](/docs/user/manual/en/customize-erpnext/articles/set-precision)
 1. [Module Visibility](/docs/user/manual/en/customize-erpnext/articles/module-visibility)
 
-##### 2.2 Customizations
+### 2.2 Customizations
 1. [Customizing Sorting Order In The List View](/docs/user/manual/en/customize-erpnext/articles/customizing-sorting-order-in-the-list-view)
 1. [Creating Custom Link Field](/docs/user/manual/en/customize-erpnext/articles/creating-custom-link-field)
 1. [Deleting Custom Reports](/docs/user/manual/en/customize-erpnext/articles/deleting-custom-reports)
 
-##### 2.3 Fields
+### 2.3 Fields
 1. [Field Types](/docs/user/manual/en/customize-erpnext/articles/field-types)
 1. [Allow Fields To Be Changed After Submit](/docs/user/manual/en/customize-erpnext/articles/allow-fields-to-be-changed-after-submit)
 1. [Make Field Visible In Print Format](/docs/user/manual/en/customize-erpnext/articles/make-field-visible-in-print-format)
@@ -47,13 +47,13 @@ multiple Letter Heads for your Prints.
 1. [Signature Field](/docs/user/manual/en/customize-erpnext/articles/signature-field)
 1. [Geolocation Field](/docs/user/manual/en/customize-erpnext/articles/geolocation-field)
 
-##### 2.4 Reports and Permissions
+### 2.4 Reports and Permissions
 1. [Making Custom Reports In ERPNext](/docs/user/manual/en/customize-erpnext/articles/making-custom-reports-in-erpnext)
 1. [Perm Level Error In Permission Manager](/docs/user/manual/en/customize-erpnext/articles/perm-level-error-in-permission-manager)
 1. [User Restriction](/docs/user/manual/en/customize-erpnext/articles/user-restriction)
 1. [Dashboard](/docs/user/manual/en/customize-erpnext/dashboard)
 
-##### 2.5 Other Actions
+### 2.5 Other Actions
 1. [Disable Rounded Total](/docs/user/manual/en/customize-erpnext/articles/disable-rounded-total)
 1. [Increase Max Attachments](/docs/user/manual/en/customize-erpnext/articles/increase-max-attachments)
 1. [Table Multiselect](/docs/user/manual/en/customize-erpnext/articles/table-multiselect)

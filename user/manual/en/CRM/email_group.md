@@ -8,20 +8,21 @@ You can manage subscribers by grouping them into different groups.
 
 You can group existing and potential customers into different groups based on their territory or products they are interested in. You can group the email ID of all employees so that you can share information with them.
 
-### 1. How to Create an Email Group
+To access the Email Group list, go to:
+> Home > Settings > Email > Email Group
 
-To create a new Email Group:
+## 1. How to Create an Email Group
 
-1. Go to **Settings > Email > Email Group > New**.
+1. Go to the Email Group list and click on New.
 1. Enter 'Title'.
 1. Click on 'Save'
 1. Click on Action > Add Subscribers.
 1. Enter Email Addresses.
 1. Click on 'Add'
 
-### 2. Features
+## 2. Features
 
-#### 2.1 Import Email IDs from Transactions
+### 2.1 Import Email IDs from Transactions
 
 You can import email IDs from existing transactions.
 
