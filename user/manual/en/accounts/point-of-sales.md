@@ -5,7 +5,7 @@
 
 For retail operations, the delivery of goods, accrual of sale and payment all happens in one event, that is usually called the 'Point of Sale' (POS).
 
-In ERPNext all Sales and Purchase transactions, like Sales Invoice, Quotation, Sales Order, Purchase Order etc. can be edited via the POS. There two steps to set up POS:
+In ERPNext all Sales and Purchase transactions, like Sales Invoice, Quotation, Sales Order, Purchase Order etc. can be edited via the POS. There are two steps to set up POS:
 
 To access POS, go to:
 > Home > Retail > Retail Operations > POS
@@ -57,7 +57,7 @@ in Search box.
 
 2. Set Qty as zero to remove Item from the POS invoice. There are two ways to remove an Item.
   * If Item's Qty is 1, click on a minus sign to make it zero.
-  * Manually enter 0(zero) quantity.
+  * Manually enter 0 (zero) quantity.
 
 
 ### 2.4 Change Amount
