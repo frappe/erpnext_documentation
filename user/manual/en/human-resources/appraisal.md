@@ -1,27 +1,42 @@
 <!-- add-breadcrumbs -->
 # Appraisal
 
+**A performance appraisal is a method by which the job performance of an employee is documented and evaluated.**
+
 In ERPNext, you can manage Employee Appraisals by creating an Appraisal
 Template for each role with the parameters that define the performance by
 giving appropriate weightage to each parameter.
 
-> Human Resource > Appraisal > New
 
-#### Step 1: Select an Appraisal Template
+To access Appraisal, go to:
 
-<img class="screenshot" alt="Appraisal" src="{{docs_base_url}}/assets/img/human-resources/appraisal.png">
+> Human Resources > Performance > Appraisal 
 
-After you select the template, the remaining form appears.
+## 1. Prerequisites
 
-#### Step 2: Enter Employee Details
+Before creating an Appraisal, make sure you have the following created:
 
-<img class="screenshot" alt="Appraisal" src="{{docs_base_url}}/assets/img/human-resources/appraisal-employee.png">
+* [Employee](/docs/user/manual/en/human-resources/employee)
 
-Once the Appraisal Template is completed, you can create Appraisal records for
-each period where you track performance. You can give points out of 5 for each
-parameter and the system will calculate the overall performance of the
-Employee.
+## 2. How to create an Appraisal
 
-To make the Appraisal final, make sure to “Submit” it.
+1. Got to: Appraisal > New.
+1. Select the Appraisal Template. If not created, create an Appraisal Template. Enter the Appraisal Template Name and the Key Result Areas (KRAs) along with the weightage of the same.
 
-{next}
+    <img class="screenshot" alt="Appraisal" src="{{docs_base_url}}/assets/img/human-resources/appraisal-template.png">
+
+ 
+1. After selecting the Appraisal Template, select the Employee, Start Date and End Date.
+1. Based on the template selected, the KRAs will be fetched in the Goals section. Enter the score (0-5)for each KRA. Based on the weightage mentioned, the Score Earned will be calculated for each KRA.
+1. Save and Submit.
+
+    <img class="screenshot" alt="Appraisal" src="{{docs_base_url}}/assets/img/human-resources/appraisal.png">
+
+
+
+Based on the scores entered for each KRA, the system will calculate the Total Score (out of 5) for the Employee.
+
+## 3. Related Topics
+
+1. [Energy Point](/docs/user/manual/en/setting-up/energy-point-system)
+

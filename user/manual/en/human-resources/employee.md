@@ -34,7 +34,6 @@ Before creating an Employee, it is advised to create the following:
 
 As shown below, all the mandatory fields are highlighted.
 
-<img class="screenshot" alt="Employee" src="{{docs_base_url}}/assets/img/human-resources/new-employee-mandatory.png">
 
 ## 3. Features 
 

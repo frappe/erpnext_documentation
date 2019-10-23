@@ -27,6 +27,7 @@ You can check out [this video](https://www.youtube.com/watch?v=5wjollWN0OA) for 
 1. [Bank](/docs/user/manual/en/accounts/bank)
 1. [Bank Account](/docs/user/manual/en/accounts/bank-account)
 <!-- (in development) 1. [Bank Transaction](/docs/user/manual/en/accounts/bank-transaction) -->
+1. [Accounting Dimensions](/docs/user/manual/en/accounts/accounting-dimensions)
 
 ### 1.2 Journals and Payments
 1. [Journal Entry](/docs/user/manual/en/accounts/journal-entry)

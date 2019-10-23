@@ -1,13 +1,30 @@
 <!-- add-breadcrumbs -->
-#Employee Tax Exemption Proof Submission
-Employees are required to submit proofs for all the spendings they claim tax exemption for. This is usually done at the end of a Payroll Period, but employees can submit any number of proofs unlike Employee Tax Exemption Declaration.
+# Employee Tax Exemption Proof Submission
 
-To create a new Employee Tax Exemption Proof Submission, go to
+**Employees are required to submit proofs for all the spendings they claim tax exemption for. This can be done through the Employee Tax Exemption Proof Submission document**
 
-> Human resources > Payroll > Employee Tax Exemption Proof Submission > New Employee Tax Exemption Proof Submission
+ This is usually done at the end of a Payroll Period, but employees can submit any number of proofs unlike Employee Tax Exemption Declaration.
 
-<img class="screenshot" alt="Employee Tax Exemption Proof Submission"
-	src="{{docs_base_url}}/assets/img/human-resources/employee-tax-exemption-proof-submission.png">
+> **Note:** Create an Employee Tax Exemption Declaration before creating an Employee Tax Exemption Proof Submission 
+
+To access Employee Tax Exemption Proof Submission, go to:
+
+> Home > Human resources > Employee Tax Exemption Proof Submission
+
+## 1. How to create an Employee Tax Exemption Proof Submission
+
+The details are already fetched if you click on 'Submit Proof' from [Employee Tax Exemption Declaration](/docs/user/manual/en/human-resources/employee-tax-exemption-declaration). However, if you want to create a 'Employee Tax Exemption Proof Submission' manually, follow these steps.
+
+1. Go to the Employee Tax Exemption Proof Submission list, click on New.
+1. Enter the details as needed.
+1. Additionally, enter the 'Type of Proof' (documents, receipts, etc.).
+1. Attach the proofs in by clicking on the **Attach** button at the bottom.
+1. Enter House Rent Payment Amount, Rented From Date and Rented To Date.
+1. Save and Submit.
+
+    <img class="screenshot" alt="Employee Tax Exemption Proof Submission" src="{{docs_base_url}}/assets/img/human-resources/employee-tax-exemption-proof-submission.png">
+
+ 
 
 The _Total Exemption Amount_ will be exempted from annual taxable earnings of the employee while calculating the tax deductions in the last payroll.
 

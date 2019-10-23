@@ -2,11 +2,12 @@
 
 **Leave Type refers to the types of leaves that an Employee can use while making Leave Applications.** 
 
+
+An employee can select a particular Leave Type while requesting for a leave. You can create any number of Leave Types based on your company’s requirement.
+
 To access Leave Type, go to:
 
 > Home > Human Resources > Leaves > Leave Type 
-
-An employee can select a particular Leave Type while requesting for a leave. You can create any number of Leave Types based on your company’s requirement.
 
 ## 1. How to create a Leave Type
 

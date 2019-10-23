@@ -1,13 +1,33 @@
 <!-- add-breadcrumbs -->
 # Expense Claim
 
-Expense Claim is made when Employee’s make expenses out of their pocket on behalf of the company. For example, if they take a customer out for lunch, they can make a request for reimbursement via the Expense Claim form.
+**Expense Claim is made when employees make expenses out of their pocket on behalf of the company.**
 
-To make a new Expense Claim, go to:
+For example, if they take a customer out for lunch, they can make a request for reimbursement via the Expense Claim form.
 
-> Human Resources > Travel and Expense Claims > Expense Claim > New Expense Claim
+To access an Expense Claim, go to:
 
-<img class="screenshot" alt="Expense Claim" src="{{docs_base_url}}/assets/img/human-resources/expense_claim.png">
+> Human Resources > Expense Claims > Expense Claim 
+
+## 1. Prerequisites
+
+1. [Employee](/docs/user/manual/en/human-resources/employee)
+1. [Department](/docs/user/manual/en/human-resources/department)
+1. [Chart of Accounts](/docs/user/manual/en/accounts/chart-of-accounts)
+
+
+## 2. How to create a Expense Claim
+
+1. Go to: Expense Claim > New.
+1. Select the Employee Name in the 'From Employee' field.
+1. Select the Expense Approver.
+1. Enter the Expense Date, Expense Claim Type and the Amount.
+1. Additionally, you can also enter the Expense Taxes and Charges.
+1. In Accounting Details, select the Company's Default Payable Account.
+1. Save and Submit.
+
+<img class="screenshot" alt="Expense Claim" src="{{docs_base_url}}/assets/img/human-resources/expense-claim.png">
+
 
 Set the Employee ID, date, the list of expenses, and corresponding taxes that are to be claimed and “Submit” the record.
 
