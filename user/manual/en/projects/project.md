@@ -83,6 +83,9 @@ To access Projects, go to:
 * **Total Purchase Cost**: The Total Purchase Cost of a Project is the cost fetched from the Purchase Invoices that get created against a Purchase Order issued for supply of Materials required for a Project.
 * **Total Consumed Material Cost**: Using the Stock Entry made as per the requirement of Materials in the Project, the Total Consumed Material Cost gets captured.
 
+**Note:** If the total weight of the Tasks is not 100, then the calculated result will be divided by the total weight.
+For example, if the total of task weights is 70, then percenrage completed = (70/0.8)% = 87.5%.
+
 ### 2.4. Margin
 
 * **Gross Margin**: Gross Margin would give you the Margin you have between your Total Costing Amount and the Total Billed Amount.
