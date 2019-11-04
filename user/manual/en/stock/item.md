@@ -11,7 +11,7 @@ To access the Item list, go to:
 > Home > Stock > Items and Pricing > Item
 
 ## 1. Prerequisites
-Before creating and using an Itme, it is advised that you create the following first:
+Before creating and using an Item, it is advised that you create the following first:
 
 * [Item Group](/docs/user/manual/en/stock/item-group)
 * [Warehouse](/docs/user/manual/en/stock/warehouse)

@@ -14,7 +14,7 @@ Before creating and using a Request for Quotation, it is advised that you create
 * [Supplier](/docs/user/manual/en/buying/supplier)
 * [Item](/docs/user/manual/en/stock/item)
 
-## 1. How to create a Request For Quotation
+## 2. How to create a Request For Quotation
 1. Go to the Request For Quotation list, click on New.
 2. Enter the date.
 3. Choose the supplier to whom Request for Quotation is to be sent.
