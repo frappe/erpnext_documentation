@@ -13,7 +13,7 @@ To setup your Employee master you must first create:
 * Designation (CEO, Sales Manager etc).
 * Grade (A, B, C etc, usually based on seniority).
 
-Check [Setup](/docs/user/manual/en/human-resources/setup/) for more details on each of masters, global _HR Settings_ and other configurations.
+Check [Setup](/docs/user/manual/en/setting-up) for more details on each of masters, global _HR Settings_ and other configurations.
 
 ### Leave Setup
 
@@ -29,9 +29,9 @@ You can read [Leaves](/docs/user/manual/en/human-resources/leave-management-intr
 
 In ERPNext, salaries have two types of components, earnings (basic salary, expenses paid by the company, like telephone bill, travel allowance etc) and deductions (amounts deducted for taxes, social security etc). You can create and assign salary structures to employees and ERPNext simplifies most of the payroll processing for you.
 
-Read more about setting up your payroll and how ERPNext simplifies payroll processing in [Salary and Payroll](/docs/user/manual/en/human-resources/salary-and-payroll.html).
+Read more about setting up your payroll and how ERPNext simplifies payroll processing in [Salary and Payroll](/docs/user/manual/en/human-resources/payroll-intro).
 
-If you intend to configure ERPNext to calculate Income Tax deductions automatically based on multiple Salary Slabs, [Setting Up Income Tax Deduction]((/docs/user/manual/en/human-resources/setting-up-tax.html)) will help you understand how you can set this up properly.
+If you intend to configure ERPNext to calculate Income Tax deductions automatically based on multiple Salary Slabs, [Setting Up Income Tax Deduction](/docs/user/manual/en/human-resources/setting-up-tax) will help you understand how you can set this up properly.
 
 ### Recruitment
 

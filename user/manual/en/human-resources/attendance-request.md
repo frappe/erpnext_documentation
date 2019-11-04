@@ -46,7 +46,8 @@ If you cancel the Attendance Request, the linked Attendance documents created wi
 ## 3. Related Topics
 
 1. [Employee Attendance Tool](/docs/user/manual/en/human-resources/employee-attendance-tool)
-1. [Employee Checkin](/docs/user/manual/en/human-resources/employee-checkin)
+1. [Shift Management](/docs/user/manual/en/human-resources/shift-management)
+1. [Auto Attendance](/docs/user/manual/en/human-resources/auto-attendance)
 1. [Upload Attendance](/docs/user/manual/en/human-resources/upload-attendance)
 1. [Attendance](/docs/user/manual/en/human-resources/attendance)
 

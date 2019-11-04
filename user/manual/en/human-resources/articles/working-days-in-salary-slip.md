@@ -9,4 +9,4 @@ If you want to include holidays in the count of Total Working days, then ensure 
 
 <img alt="Role Desk Permission" class="screenshot" src="{{docs_base_url}}/assets/img/articles/hr-working-days.png">
 
-To learn how to define holidays for your company, check [Holiday List](/user/manual/en/human-resources/holiday-list) feature in the HR module.
+To learn how to define holidays for your company, check [Holiday List](/docs/user/manual/en/human-resources/holiday-list) feature in the HR module.

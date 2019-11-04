@@ -20,7 +20,7 @@ To access the Shareholder list, go to:
 
  <img class="screenshot" alt="Create Shareholder" src="/docs/assets/img/accounts/shareholder/shareholder.png">
 
-A Shareholder can avail the features (operations) in the [Share Transfer](/docs/user/manual/en/accounts/share_transfer) process. Only after shares are issued to them, a Folio Number and the shares will be visible.
+A Shareholder can avail the features (operations) in the [Share Transfer](/docs/user/manual/en/accounts/share-transfer) process. Only after shares are issued to them, a Folio Number and the shares will be visible.
 
 ### 1.1 Contacts and Addresses
 

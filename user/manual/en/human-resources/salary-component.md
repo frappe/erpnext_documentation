@@ -50,6 +50,5 @@ Some of the additional attributes of the Salary Component that can be enabled us
 
 1. [Salary Structure](/docs/user/manual/en/human-resources/salary-structure)
 1. [Salary Structure Assignment](/docs/user/manual/en/human-resources/salary-structure-assignment)
-1. [Salary Slip](/docs/user/manual/en/human-resources/salary-slip)
 1. [Payroll Entry](/docs/user/manual/en/human-resources/payroll-entry)
 1. [Payroll Period](/docs/user/manual/en/human-resources/payroll-period)

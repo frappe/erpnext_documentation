@@ -12,9 +12,9 @@ To access the Warranty Claim list, go to:
 ## 1. Prerequisites
 Before creating and using Warranty Claim, it is advised that you create the following first:
 
-* [Customer](docs/user/manual/en/CRM/customer)
-* [Serial Number](docs/user/manual/en/stock/serial-no)
-* [Item](docs/user/manual/en/stock/item)
+* [Customer](/docs/user/manual/en/CRM/customer)
+* [Serial Number](/docs/user/manual/en/stock/serial-no)
+* [Item](/docs/user/manual/en/stock/item)
 
 ## 2. How to Create Warranty Claim
 

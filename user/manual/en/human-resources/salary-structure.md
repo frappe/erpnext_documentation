@@ -55,13 +55,12 @@ Some of the additional featurs provided in the Salary Structure doctype are:
 Once all the information is saved and submitted, you can assign the Salary Structure to an Employee either through the 'Assign Salary Structure' button or by creating a new [Salary Structure Assignment](/docs/user/manual/en/human-resources/salary-structure-assignment) through the dashboard. 
 
 You can also assign the created Salary Structure to a number of employees based on the Employee Grade, Department, Designation, etc. through the 'Assign to Employees' button.
-Additionally, [Salary Slip](/docs/user/manual/en/human-resources/salary-slip) can also be directly created through the dashboard.
+Additionally, Salary Slip can also be directly created through the dashboard.
 
 ## 3. Related Topics
 
 1. [Salary Component](/docs/user/manual/en/human-resources/salary-component)
 1. [Salary Structure Assignment](/docs/user/manual/en/human-resources/salary-structure-assignment)
-1. [Salary Slip](/docs/user/manual/en/human-resources/salary-slip)
 1. [Employee Grade](/docs/user/manual/en/human-resources/employee-grade)
 1. [Payroll Entry](/docs/user/manual/en/human-resources/payroll-entry)
 

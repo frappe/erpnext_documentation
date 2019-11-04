@@ -11,7 +11,7 @@ Employee can apply for loan by going to:
 Before creating a Loan Application, it is advisable to create the following documents:
 
 * [Employee](/docs/user/manual/en/human-resources/employee)
-* [Loan Type](/docs/user/manual/en/human-resources/loan-tytpe)
+* [Loan Type](/docs/user/manual/en/human-resources/loan-type)
 
   
 

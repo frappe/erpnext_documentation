@@ -195,7 +195,7 @@ This is usually fetched from a Sales Order, for example:
 
 ### 3.14 Shipping Packets or Items with Product Bundle
 
-If you are shipping Items that have a [Product Bundle](/docs/user/manual/en/selling/setup/product-bundle), ERPNext will automatically create a “Packing List” table for you based on the sub-Items in that Item.
+If you are shipping Items that have a [Product Bundle](/docs/user/manual/en/selling/product-bundle), ERPNext will automatically create a “Packing List” table for you based on the sub-Items in that Item.
 
 If your Items are serialized, then for Product Bundle type of Items, you will have
 to update the Serial Number in the “Packing List” table.

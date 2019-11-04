@@ -28,4 +28,4 @@ When creating Timesheet, Employee will have to select an Activity Type. For each
 
 In the Timesheet, costing will be done based on Activity Cost multiplied with number of hours. Based the Timesheet Cost, total costing will be doen for the Task and Project as well.
 
-To learn about setup of Activity Type and Activity Cost, click [here](/docs/user/manual/en/projects/articles/project-costing).
+To learn about setup of Activity Type and Activity Cost, click [here](/docs/user/manual/en/projects/activity-cost).

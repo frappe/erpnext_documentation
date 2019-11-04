@@ -43,7 +43,8 @@ You can also bulk upload attendance using the [Upload Attendance](/docs/user/man
 ## 3. Related Topics
 
 1. [Employee Attendance Tool](/docs/user/manual/en/human-resources/employee-attendance-tool)
-1. [Employee Checkin](/docs/user/manual/en/human-resources/employee-checkin)
+1. [Shift Management](/docs/user/manual/en/human-resources/shift-management)
+1. [Auto Attendance](/docs/user/manual/en/human-resources/auto-attendance)
 1. [Upload Attendance](/docs/user/manual/en/human-resources/upload-attendance)
 1. [Attendance Request](/docs/user/manual/en/human-resources/attendance-request)
 

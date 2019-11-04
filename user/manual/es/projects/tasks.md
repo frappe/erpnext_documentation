@@ -28,7 +28,7 @@ Puedes especificar una lista de tareas dependientes en la sección 'Depende de'
 
 ### Manejando el tiempo
 
-ERPNext usa [Time Log](/docs/user/manual/es/projects/timesheets/) para seguir el progreso de una tarea.
+ERPNext usa [Time Log](/docs/user/manual/es/projects/time-log-batch) para seguir el progreso de una tarea.
 Puedes crear varios registros de tiempo para cada tarea.
 El tiempo de inicio y fin actual junto con el costo es actualizado en base al Registro de Tiempo.
 

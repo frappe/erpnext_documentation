@@ -33,7 +33,6 @@ Select the 'Overwrite Salary Structure Amount' checkbox to overwrite the Additio
 1. [Employee Incentive](/docs/user/manual/en/human-resources/employee-incentive)
 1. [Salary Structure](/docs/user/manual/en/human-resources/salary-structure)
 1. [Salary Structure Assignment](/docs/user/manual/en/human-resources/salary-structure-assignment)
-1. [Salary Slip](/docs/user/manual/en/human-resources/salary-slip)
 1. [Payroll Entry](/docs/user/manual/en/human-resources/payroll-entry)
 1. [Payroll Period](/docs/user/manual/en/human-resources/payroll-period)
 

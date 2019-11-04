@@ -24,7 +24,6 @@ To access Retention Bonus, go to:
 1. [Additional Salary](/docs/user/manual/en/human-resources/additional-salary)
 1. [Salary Component](/docs/user/manual/en/human-resources/salary-component)
 1. [Salary Structure](/docs/user/manual/en/human-resources/salary-structure)
-1. [Salary Slip](/docs/user/manual/en/human-resources/salary-slip)
 1. [Payroll Entry](/docs/user/manual/en/human-resources/payroll-entry)
 
 {next}

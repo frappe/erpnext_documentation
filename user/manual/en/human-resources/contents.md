@@ -86,8 +86,7 @@ their calculation.
 
 ##### 1.9 Performance
 1. [Appraisal](/docs/user/manual/en/human-resources/appraisal)
-1. [Energy Point Rule](/docs/user/manual/en/human-resources/energy-point-rule)
-1. [Energy Point Log](/docs/user/manual/en/human-resources/energy-point-rule)
+1. [Energy Point System](/docs/user/manual/en/setting-up/energy-point-system)
 
 
 ##### 1.10 Expense Claims
@@ -101,15 +100,12 @@ their calculation.
 1. [Loan](/docs/user/manual/en/human-resources/loan)
 
 ##### 1.12 Shift Management
-1. [Shift Type](/docs/user/manual/en/human-resources/shift-type)
-1. [Shift Request](/docs/user/manual/en/human-resources/shift-request)
-1. [Shift Assignment](/docs/user/manual/en/human-resources/shift-assignment)
+1. [Shift Management](/docs/user/manual/en/human-resources/shift-management)
 
 ##### 1.13 Fleet Management
 1. [Fleet Management](/docs/user/manual/en/human-resources/fleet-management)
 1. [Vehicle](/docs/user/manual/en/human-resources/vehicle)
 1. [Vehicle Log](/docs/user/manual/en/human-resources/vehicle-log)
-1. [Vehicle Expenses](/docs/user/manual/en/human-resources/vehicle-expenses)
 
 
 ##### 1.14 Settings

@@ -40,4 +40,3 @@ Additionally, Vehicle attributes like Color, Wheels, Door, Last Carbon Check, Fu
 ## 3. Related Topics
 
 1. [Vehicle Log](/docs/user/manual/en/human-resources/vehicle-log)
-1. [Vehicle Expenses](/docs/user/manual/en/human-resources/vehicle-expenses)

@@ -15,7 +15,7 @@ To access the Issue list, go to:
 ## 1. Prerequisites
 Before creating and using Issues, it is advised that you create the following first:
 
-* [Customer](docs/user/manual/en/CRM/customer)
+* [Customer](/docs/user/manual/en/CRM/customer)
 * [Email Account](/docs/user/manual/en/setting-up/email/email-account)
 
 ## 2. How to Create Issue

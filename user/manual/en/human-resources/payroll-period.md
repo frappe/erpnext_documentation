@@ -43,7 +43,6 @@ Once the information is saved, you can also access [Employee Tax Exemption Proof
 
 1. [Salary Component](/docs/user/manual/en/human-resources/salary-component)
 1. [Salary Structure](/docs/user/manual/en/human-resources/salary-structure)
-1. [Salary Slip](/docs/user/manual/en/human-resources/salary-slip)
 1. [Payroll Entry](/docs/user/manual/en/human-resources/payroll-entry)
 1. [Employee Tax Exemption Proof Submission](/docs/user/manual/en/human-resources/employee-tax-exemption-proof-submission)
 1. [Employee Tax Exemption Declaration](/docs/user/manual/en/human-resources/employee-tax-exemption-declaration) 

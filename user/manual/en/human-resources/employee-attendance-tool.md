@@ -40,7 +40,8 @@ Once the attendance is marked using the Employee Attendance Tool, the employee a
 1. [Attendance](/docs/user/manual/en/human-resources/attendance)
 1. [Attendance Request](/docs/user/manual/en/human-resources/attendance-request)
 1. [Upload Attendance](/docs/user/manual/en/human-resources/upload-attendance)
-1. [Employee Checkin](/docs/user/manual/en/human-resources/employee-checkin)
+1. [Shift Management](/docs/user/manual/en/human-resources/shift-management)
+1. [Auto Attendance](/docs/user/manual/en/human-resources/auto-attendance)
 
 
 {next}

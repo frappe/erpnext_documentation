@@ -37,6 +37,7 @@ Once the bulk attendance is uploaded, respective attendance records will be crea
 
 
 1. [Employee Attendance Tool](/docs/user/manual/en/human-resources/employee-attendance-tool)
-1. [Employee Checkin](/docs/user/manual/en/human-resources/employee-checkin)
+1. [Shift Management](/docs/user/manual/en/human-resources/shift-management)
+1. [Auto Attendance](/docs/user/manual/en/human-resources/auto-attendance)
 1. [Attendance Request](/docs/user/manual/en/human-resources/attendance-request)
 1. [Attendance](/docs/user/manual/en/human-resources/attendance)

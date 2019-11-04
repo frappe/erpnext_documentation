@@ -73,7 +73,6 @@ Payroll Entry will route you to Journal Entry with relevant filters to view the 
 
 1. [Salary Component](/docs/user/manual/en/human-resources/salary-component)
 1. [Salary Structure](/docs/user/manual/en/human-resources/salary-structure)
-1. [Salary Slip](/docs/user/manual/en/human-resources/salary-slip)
 1. [Payroll Period](/docs/user/manual/en/human-resources/payroll-period)
 1. [Journal Entry](/docs/user/manual/en/accounts/journal-entry)
 

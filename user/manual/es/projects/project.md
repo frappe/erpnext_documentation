@@ -44,7 +44,7 @@ Las tareas pueden ser creadas a traves del documento de Proyecto o pueden ser cr
 
 ### Manejando tiempo
 
-ERPNext usa [Time Log](/docs/user/manual/es/projects/timesheets/) para hacer el seguimiento del progreso de un Proyecto.
+ERPNext usa Time Log para hacer el seguimiento del progreso de un Proyecto.
 Puedes crear registros de tiempo sobre cada Tarea.
 El tiempo actual de inicio y finalización junto con el costo deben ser actualizados basados en los Registros de Tiempo.
 

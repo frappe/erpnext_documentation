@@ -118,7 +118,7 @@ After submitting a Stock Entry, you can go to the stock ledger or the accounting
 1. [Stock Entry Purpose](/docs/user/manual/en/stock/articles/stock-entry-purpose)
 1. [Stock Reconciliation](/docs/user/manual/en/stock/stock-reconciliation)
 1. [Opening Stock Balance Entry For Serialized And Batch Item](/docs/user/manual/en/stock/articles/opening-stock-balance-entry-for-serialized-and-batch-item)
-1. [Stock Reconciliation](/docs/user/manual/en/stock/stock-reconciliation-for-non-serialized-item)
+1. [Stock Reconciliation](/docs/user/manual/en/stock/stock-reconciliation)
 1. [Work Order](/docs/user/manual/en/manufacturing/work-order)
 1. [Production Plan](/docs/user/manual/en/manufacturing/production-plan)
 1. [Job Card](/docs/user/manual/en/manufacturing/job-card)
