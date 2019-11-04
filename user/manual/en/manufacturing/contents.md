@@ -27,6 +27,7 @@ Different types of manufacturing like make to stock, make to order, and engineer
 1. [Item Alternative](/docs/user/manual/en/manufacturing/item-alternative)
 1. [Subcontracting](/docs/user/manual/en/manufacturing/subcontracting)
 1. [BOM Update Tool](/docs/user/manual/en/manufacturing/bom-update-tool)
+1. [BOM Comparison Tool](/docs/user/manual/en/manufacturing/bom-comparison-tool)
 
 ## 2. Articles
 

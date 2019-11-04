@@ -39,7 +39,7 @@ Select Current BOM and New BOM of the **sub-assembly** Item:
 
 <img class="screenshot" alt="BOM Update Tool" src="{{docs_base_url}}/assets/img/manufacturing/bom-update-tool.png">
 
-To update the new BOM in all the parent BOMs, where CPU is selected as sub-assembly, you can use the **Replace** button. 
+To update the new BOM in all the parent BOMs, where CPU is selected as sub-assembly, you can use the **Replace** button.
 
 On clicking Replace button, old BOM of CPU will be replaced with the new BOM in the BOM of finished Item (Computer).
 
@@ -54,4 +54,4 @@ On clicking this button, the system will create a background process to update a
 
 This functionality can also be executed automatically daily. For that, you need to enable "Update BOM Cost Automatically" from Manufacturing Settings.
 
-{next}
+
