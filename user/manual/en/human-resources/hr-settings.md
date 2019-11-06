@@ -1,4 +1,5 @@
 <!-- add-breadcrumbs -->
+<!-- title: HR Settings -->
 
 # HR Settings
 

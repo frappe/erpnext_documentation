@@ -1,5 +1,5 @@
 <!-- add-breadcrumbs -->
-# Terms And Conditions Template
+# Terms And Conditions
 
 **Terms and conditions contain the terms and conditions of a service/product offered by a seller to a buyer.**
 
@@ -23,6 +23,11 @@ To access Terms and Conditions template go to:
 In transactions, you will find a section of Terms and Conditions where you will be able to search and fetch the required Terms and Condition master.
 
 <img class="screenshot" alt="Terms and Conditions, Select in document" src="{{docs_base_url}}/assets/img/setup/print/terms-3.png">
+
+### 1.2 Terms and Conditions when printing
+Once the Terms and Conditions are set in a Sales/Purchase transaction, it will appear when printing:
+
+![Terms and Conditions in print](/docs/assets/img/setup/print/terms-in-print.png)
 
 ### 1.3 What should Terms and Conditions contain?
 Here are some common topics that Terms and Conditions should contain:

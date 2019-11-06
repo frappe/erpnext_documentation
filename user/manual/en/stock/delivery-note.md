@@ -134,7 +134,7 @@ Any additional discounts to the whole order can be set in this section. This dis
 Read [Applying Discount](/docs/user/manual/en/selling/articles/applying-discount) for more details.
 
 ### 3.7 Terms and Conditions
-These are fetched from the Sales Order. To know about adding Terms and Conditions, [click here](/docs/user/manual/en/setting-up/print/terms-and-conditions)
+In Sales/Purchase transactions there might be certain Terms and Conditions based on which the Supplier provides goods or services to the Customer. You can apply the Terms and Conditions to transactions to transactions and they will appear when printing the document. To know about Terms and Conditions, [click here](/docs/user/manual/en/setting-up/print/terms-and-conditions)
 
 ### 3.8 Transporter Information
 

@@ -77,7 +77,7 @@ You can print your Material Request on your company's letterhead. [Click here](/
 Purchase Receipt headings can also be changed when printing the document. You can do this by selecting a **Print Heading**. To create new Print Headings go to: Home > Settings > Printing > Print Heading. Know more [here](/docs/user/manual/en/setting-up/print/print-headings).
 
 ### 2.4 Terms and Conditions
-To know about adding Terms and Conditions, [click here](/docs/user/manual/en/setting-up/print/terms-and-conditions)
+In Sales/Purchase transactions there might be certain Terms and Conditions based on which the Supplier provides goods or services to the Customer. You can apply the Terms and Conditions to transactions to transactions and they will appear when printing the document. To know about Terms and Conditions, [click here](/docs/user/manual/en/setting-up/print/terms-and-conditions)
 
 ### 2.5 After Submitting
 You can create the following documents:

@@ -28,6 +28,7 @@ The Stock module is tightly integrated with Purchase, Manufacturing and Accounti
 1. [Item Price](/docs/user/manual/en/stock/item-price)
 1. [Item Group](/docs/user/manual/en/stock/item-group)
 1. [Unit of Measure (UoM)](/docs/user/manual/en/stock/uom)
+1. [Manufacturer](/docs/user/manual/en/stock/manufacturer)
 
 ### 1.4 Stock Transactions
 1. [Material Request](/docs/user/manual/en/stock/material-request)

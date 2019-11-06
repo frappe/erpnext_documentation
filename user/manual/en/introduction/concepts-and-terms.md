@@ -419,7 +419,8 @@ want to print a Quotation with a title “Proposal” or “Pro forma Invoice”
 
 #### Terms and Conditions
 
-Text of your terms of contract.
+Text of your terms of contract. In Sales/Purchase transactions there might be certain Terms and Conditions based on which the Supplier provides goods or services to the Customer. You can apply the Terms and Conditions to transactions to transactions and they will appear when printing the document. To know about Terms and Conditions, [click here](/docs/user/manual/en/setting-up/print/terms-and-conditions)
+
 
 > Selling > Setup > Terms and Conditions
 

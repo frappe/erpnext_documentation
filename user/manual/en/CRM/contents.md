@@ -28,6 +28,7 @@ The CRM module has the following features:
 1. [Sales Person](/docs/user/manual/en/CRM/sales-person)
 1. [Customer Group](/docs/user/manual/en/CRM/customer-group)
 1. [Email Group](/docs/user/manual/en/CRM/email_group)
+1. [Contract](/docs/user/manual/en/CRM/contract)
 
 ## 2. Articles
 1. [Automate Lead Capturing](/docs/user/manual/en/CRM/articles/automate_lead_capturing)

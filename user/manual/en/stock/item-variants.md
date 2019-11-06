@@ -32,7 +32,7 @@ Variants can be based on two things:
 > Note: You cannot make Transactions against a 'Template'.
 
 ### 1.2 Creating the Item Variants Based on Item Attributes
-To create 'Item Variants' against a 'Template' click on 'Create'. From there, choose whether to create a single variant or multiple. Single is simple where you just one or more attributes and one item will be created. When choosing multiple variants, tick the attributes and multiple items will be created. For example, if you choose Color: Red, Green and Size: Small, Medium, Large, 6 variants will be created.
+To create 'Item Variants' against a 'Template' click on 'Create'. From there, choose whether to create a single variant or multiple. Single is simple where you create just one or more attributes and one Item will be created. When choosing multiple variants, tick the attributes and multiple items will be created. For example, if you choose Color: Red, Green and Size: Small, Medium, Large, 6 variants will be created.
 
 Creating multiple variants in ERPNext:
 

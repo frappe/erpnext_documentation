@@ -48,8 +48,7 @@ In the Supplier table, on expanding a row with the inverted triangle, you'll see
 Enter any additional messages for the Supplier in this field. This field can be auto filled using an 'Email Template'. The field to select an Email Template is just above Message for Supplier.
 
 ### 3.4 Terms and Conditions
-To know about Terms and Conditions, [click here](/docs/user/manual/en/setting-up/print/terms-and-conditions).
-The Terms and Conditions will be seen if you print your RFQ.
+In Sales/Purchase transactions there might be certain Terms and Conditions based on which the Supplier provides goods or services to the Customer. You can apply the Terms and Conditions to transactions to transactions and they will appear when printing the document. To know about Terms and Conditions, [click here](/docs/user/manual/en/setting-up/print/terms-and-conditions)
 
 ### 3.5 Print Settings
 #### Letterhead
@@ -84,7 +83,7 @@ After creation of Request for Quotation, there are two ways to generate Supplier
     
 ### 4.2 Supplier Quotation from Supplier
 
-1. Create contact or enter Email Address against the supplier on Request for Quotation and email is not present.
+1. If a [Contact](/docs/user/manual/en/CRM/contact) is created for the Supplier and an email address is associated with the Contact, the Contact details and the email address will be fetched on selecting the Supplier. Create a Contact and email address if not present already.
 
 2. Click on 'Send Supplier Emails' button.
 

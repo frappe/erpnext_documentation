@@ -30,6 +30,14 @@ A Purchase Order can be automatically created from a Material Request or Supplie
 
 Optionally, you can set the target Warehouse where the items will be delivered. 
 
+#### Fetching Items from Open Material Requests
+Items can be fetched into the Purchase Order automatically from open [Material Requests](/docs/user/manual/en/stock/material-request). For this to work, the following steps need to be done:
+
+1. Select a Supplier in the Purchase Order.
+1. Set default Supplier in the Item form under [Item Defaults](/docs/user/manual/en/stock/item#39-item-defaults).
+1. A [Material Request](/docs/user/manual/en/stock/material-request) needs to present of type 'Purchase'.
+1. Click on the **Get Items from Open Material Requests** button. Now the Items will be fetched from the Material Requests for which the default Supplier is the same as the one selected in the Purchase Order.
+
 ## 3. Features
 
 ### 3.1 Address and Contact
@@ -131,7 +139,7 @@ Sometimes payment is not done all at once. Depending on the agreement, half of t
 To know more about Payment Terms, [click here](/docs/user/manual/en/accounts/payment-terms).
 
 ### 3.9 Terms and Conditions
-To know about Terms and Conditions, [click here](/docs/user/manual/en/setting-up/print/terms-and-conditions)
+In Sales/Purchase transactions there might be certain Terms and Conditions based on which the Supplier provides goods or services to the Customer. You can apply the Terms and Conditions to transactions to transactions and they will appear when printing the document. To know about Terms and Conditions, [click here](/docs/user/manual/en/setting-up/print/terms-and-conditions)
 
 ### 3.10 Print Settings
 #### Letterhead
