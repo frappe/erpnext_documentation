@@ -15,6 +15,7 @@ multiple Letter Heads for your Prints.
 1. [Custom Form](/docs/user/manual/en/customize-erpnext/customize-form)
 1. [Custom Doctype](/docs/user/manual/en/customize-erpnext/custom-doctype)
 1. [Custom Scripts](/docs/user/manual/en/customize-erpnext/custom-scripts)
+1. [Server Scripts](/docs/user/manual/en/customize-erpnext/server-script)
 1. [Custom Translations](/docs/user/manual/en/setting-up/print/custom-translations)
 
 ### 1.2 Documents and Reports
