@@ -18,7 +18,7 @@ Before creating and using a Product Bundle, it is advised that you create the fo
 
 * [Item](/docs/user/manual/en/stock/item)
 
-## 1. How to create a Product Bundle
+## 2. How to create a Product Bundle
 1. Go to the Product Bundle list, click on New.
 2. Select Parent Item, create one if not already created. Make sure Maintain Stock in unchecked when creating a Parent Item. eg: Dinner Set.
 1. Enter a price for the parent item, this will be fetched when making a transaction.
