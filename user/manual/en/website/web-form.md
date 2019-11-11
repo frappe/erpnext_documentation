@@ -73,16 +73,8 @@ You can add child tables to your web forms, just like regular forms.
 <img class="screenshot" alt="Web form Grid"
 src="{{docs_base_url}}/assets/img/website/grid-in-webform.png">
 
-### 2.3 Pagination
 
-To help your users fill out long new forms, you can insert page breaks that will
-appear on new sections. This way the user can focus on only filling one section
-at a time.
-
-<img class="screenshot" alt="Web form paging"
-src="{{docs_base_url}}/assets/img/website/paging-in-webform.png">
-
-### 2.4 Payment Gateway Integration
+### 2.3 Payment Gateway Integration
 
 You can now add a Payment Gateway to the web form, so that you can ask users to
 pay against a web form. A good example for this is a conference ticket.
@@ -90,7 +82,7 @@ pay against a web form. A good example for this is a conference ticket.
 <img class="screenshot" alt="Web form payment"
 src="{{docs_base_url}}/assets/img/website/payment-in-webform.png">
 
-### 2.5 Portal User
+### 2.4 Portal User
 
 We have also introduced roles for Website users. Before version 11, if you
 assigned any 'Role' to a user he would get access to 'Desk View'. From version
@@ -106,7 +98,7 @@ with that role will be allowed to see that item.
 <img class="screenshot" alt="portal settings"
 src="{{docs_base_url}}/assets/img/website/portal-settings.png">
 
-### 2.6 Custom Script
+### 2.5 Custom Script
 
 You can write custom scripts for your Web Form for things like validating your
 inputs, auto-filling values, showing a success message, or any arbitrary
@@ -115,7 +107,7 @@ action.
 Learn how to write custom scripts for your Web Forms
 [here](https://frappe.io/docs/user/en/web-forms#custom-script).
 
-### 2.7 Actions
+### 2.6 Actions
 
 You can add the text in 'Success Message' field and this text will be shown to
 user once he successfully submits the web form . And the user is redirected to
@@ -127,12 +119,12 @@ Required' checkbox unchecked).
 src="{{docs_base_url}}/assets/img/website/success_message.png">
 
 
-### 2.8 Result
+### 2.7 Result
 
 When a website user submits the form, the data will be stored in the
 document/doctype for which web form is created.
 
-### 2.9 Customizing
+### 2.8 Customizing
 
 For customizing web forms, see the [Frappe Web
 Forms Documentation](https://frappe.io/docs/user/en/guides/portal-development/web-forms)
