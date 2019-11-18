@@ -7,12 +7,12 @@
 
 ## 1. How to create a Server Script
 
-To create a server script
+To create a Server Script
 
 1. You must set `server_script_enabled` as true in site_config.json of your site.
-1. To add / edit Server Script, ensure your role is manager
-1. Create a new server script via "New Server Script" in the toolbar
-1. Set the type of server script (Document Event / API)
+1. To add/edit Server Script, ensure your role is System Manager.
+1. Create a new server script via "New Server Script" in the toolbar.
+1. Set the type of server script (Document Event / API).
 1. Set the document type and event name, or method name, script and save.
 
 ## 2. Features
@@ -22,7 +22,7 @@ To create a server script
 Server script must be enabled via site_config.json
 
 ```
-bench --site site1.local set-config enable_server_script true
+bench --site site1.local set-config server_script_enabled true
 ```
 
 ### 2.2 Document Events
