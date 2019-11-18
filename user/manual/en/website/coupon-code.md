@@ -25,7 +25,7 @@ To access the Coupon Code list, go to:
 
 	> Home > Settings > Shopping Cart Settings
 
-	<img class="screenshot" alt="Shopping Cart Settings to enable Coupon Code" src="{{docs_base_url}}/assets/img/selling/CCShoppingCartSettings.png">
+	<img class="screenshot" alt="Shopping Cart Settings to enable Coupon Code" src="{{docs_base_url}}/assets/img/selling/coupon-code-shoppingcart-settings.png">
 
 1. Create a Pricing Rule having **Coupon Code Based** flag enabled.
 
@@ -53,7 +53,7 @@ To access the Coupon Code list, go to:
 
 5. Click  on Save 
 
-	<img class="screenshot" alt="Coupon Code Doctype" src="{{docs_base_url}}/assets/img/selling/CouponCodeDoctype.png">
+	<img class="screenshot" alt="Coupon Code Doctype" src="{{docs_base_url}}/assets/img/selling/coupon-code.png">
 
 ## 3. Features
 
@@ -64,7 +64,7 @@ To access the Coupon Code list, go to:
 3. **Used** - for each Sales Order submitted with coupon code , the used count increments by 1.
 4. **Coupon Code Description** - can be used while creating Email Template to inform potential customers about the coupon code and scheme information
 
-	<img class="screenshot" alt="Pricing Rule Coupon Code Based" src="{{docs_base_url}}/assets/img/selling/PriceRuleCC.png">
+	<img class="screenshot" alt="Pricing Rule Coupon Code Based" src="{{docs_base_url}}/assets/img/selling/coupon-code-pricing-rule.png">
 
 
 
@@ -76,7 +76,7 @@ To access the Coupon Code list, go to:
 
 2. Explicitly applying the code , by filling the code and clicking on "Apply Coupon Code" button as shown below in shopping cart page
 
-	<img class="screenshot" alt="Shopping Cart Apply CouponCode" src="{{docs_base_url}}/assets/img/selling/ShoppinCartApplyCouponCode.png">
+	<img class="screenshot" alt="Shopping Cart Apply CouponCode" src="{{docs_base_url}}/assets/img/selling/coupon-code-pricing-rule.png">
 
 Price will get updated on successful application of the coupon code.
 
