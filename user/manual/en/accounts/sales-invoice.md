@@ -11,7 +11,7 @@ To access the Sales Invoice list, go to:
 ![SO Flow](/docs/assets/img/accounts/so-flow.png)
 
 ## 1. Prerequisites
-Before creating and using a Sales Invoice, it is advised to created the following first:
+Before creating and using a Sales Invoice, it is advised to create the following first:
 
 * [Item](/docs/user/manual/en/stock/item)
 * [Customer](/docs/user/manual/en/CRM/customer)
@@ -21,12 +21,12 @@ Before creating and using a Sales Invoice, it is advised to created the followin
 ## 2. How to create a Sales Invoice
 A Sales Invoice is usually created from a Sales Order or a Delivery Note. The Customer's Item details will be fetched into the Sales Invoice. However, you can also create a Sales Invoice directly.
 
-To fetch the details automatically in a Sales Invoice, click on the **Get Items from**. The details can be fetched from a Sales Order, Delivery Note, or a Quotation. 
+To fetch the details automatically in a Sales Invoice, click on the **Get Items from**. The details can be fetched from a Sales Order, Delivery Note, or a Quotation.
 
 For manual creation, follow these steps:
 
 1. Go to the Sales Invoice list and click on New.
-1. Select the Customer. 
+1. Select the Customer.
 1. Set the Payment Due Date.
 1. In the Items table, select the Items and set the quantities.
 1. The prices will be fetched automatically if [Item Price](/docs/user/manual/en/stock/item-price) is added, else add a price in the table.
@@ -85,7 +85,7 @@ Accounting Dimensions lets you tag transactions based on a specific Territory, B
 
 * **Customer Address:** This is the Billing Address of the Customer.
 * **Contact Person**: If the Customer is a company, the person to be contacted is fetched in this field if set in the [Customer](/docs/user/manual/en/CRM/customer) form.
-* **Territory:** A [Territory](/docs/user/manual/en/selling/territory) is the region where the Customer belongs to, fetched from the Customer form. The default value is All Territories. 
+* **Territory:** A [Territory](/docs/user/manual/en/selling/territory) is the region where the Customer belongs to, fetched from the Customer form. The default value is All Territories.
 * **Shipping Address:** Address where the items will be shipped to.
 
 For India, the following details can be recorded for GST purposes:
@@ -152,7 +152,7 @@ To know more, [visit this page](/docs/user/manual/en/projects/sales-invoice-from
 ### 3.8 Taxes and Charges
 The Taxes and Charges will be fetched from the [Sales Order](/docs/user/manual/en/selling/sales-order) or [Delivery Note](/docs/user/manual/en/stock/delivery-note).
 
-Visit the [Sales Taxes and Charges Template](/docs/user/manual/en/selling/sales-taxes-and-charges-template) page to know more about taxes. 
+Visit the [Sales Taxes and Charges Template](/docs/user/manual/en/selling/sales-taxes-and-charges-template) page to know more about taxes.
 
 The total taxes and charges will be displayed below the table.
 
@@ -201,7 +201,7 @@ The details are usually fetched from the Delivery Note.
 The following details can be recorded:
 
 * Distance in km
-* Mode of Transport whether road, air, rail, or ship. 
+* Mode of Transport whether road, air, rail, or ship.
 
 For India, GST:
 
@@ -262,11 +262,11 @@ If the sale took place via one of your Sales Partners, you can add their commiss
 ### 3.22 Automatically Fetching Item Batch Numbers
 
 If you are selling an Item from a [Batch](/docs/user/manual/en/stock/batch),
-ERPNext will automatically fetch a batch number for you if "Update Stock" 
-is checked. The batch number will be fetched on a First Expiring First Out 
-(FEFO) basis. This is a variant of First In First Out (FIFO) that gives the highest priority to the soonest to expire Items. 
+ERPNext will automatically fetch a batch number for you if "Update Stock"
+is checked. The batch number will be fetched on a First Expiring First Out
+(FEFO) basis. This is a variant of First In First Out (FIFO) that gives the highest priority to the soonest to expire Items.
 
-Note that if the first batch in the queue cannot satisfy the order on the invoice, 
+Note that if the first batch in the queue cannot satisfy the order on the invoice,
 the next batch in the queue that can satisfy the order will be selected. If no batch can satisfy the order, ERPNext will cancel its attempt to automatically fetch a suitable batch number.
 
 ### 3.23 POS Invoices

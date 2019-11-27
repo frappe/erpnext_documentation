@@ -13,7 +13,7 @@ To access the Purchase Invoice list, go to:
 ![PI Flow](/docs/assets/img/accounts/pi-flow.png)
 
 ## 1. Prerequisites
-Before creating and using a Purchase Invoice, it is advised to created the following first:
+Before creating and using a Purchase Invoice, it is advised to create the following first:
 
 * [Item](/docs/user/manual/en/stock/item)
 * [Supplier](/docs/user/manual/en/buying/supplier)
@@ -24,14 +24,14 @@ Before creating and using a Purchase Invoice, it is advised to created the follo
 ## 2. How to create a Purchase Invoice:
 A Purchase Invoice is usually created from a Purchase Order or a Purchase Receipt. The Supplier's Item details will be fetched into the Purchase Invoice. However, you can also create a Purchase Invoice directly.
 
-To fetch the details automatically in a Purchase Invoice, click on the **Get Items from**. The details can be fetched from a Purchase Order or Purchase Receipt. 
+To fetch the details automatically in a Purchase Invoice, click on the **Get Items from**. The details can be fetched from a Purchase Order or Purchase Receipt.
 
 For manual creation, follow these steps:
 
 1. Go to the Purchase Invoice list, click on New.
 1. Select the Supplier.
 1. The posting date and time will be set to current, you can edit after you tick the checkbox below Posting Time.
-1. Set the Due Date for payment. 
+1. Set the Due Date for payment.
 1. Add Items and quantities in the Items table.
 1. The Rate and Amount will be fetched.
 1. Save and Submit.
@@ -65,7 +65,7 @@ Accounting Dimensions lets you tag transactions based on a specific Territory, B
 
 ### 3.2 Holding the Invoice
 
-Sometimes you may need to hold an invoice from being submitted. 
+Sometimes you may need to hold an invoice from being submitted.
 
 **Hold Invoice**: Enable this checkbox to put the Purchase Invoice on hold. This can be done only before submitting the invoice. Once 'Hold Invoice' is enabled and the Purchase Invoice is submitted, the status will change to 'Temporarily on Hold'.
 
@@ -121,7 +121,7 @@ Setting 'Supply Raw Materials' option is useful for subcontracting where you pro
 
 * **Item Weight**: The Item Weight details per unit and Weight UOM are fetched if set in the Item master, else enter manually.
 
-* **Accounting Details**: The Expense account can be changed here you wish to. 
+* **Accounting Details**: The Expense account can be changed here you wish to.
 
 * **Deferred Expense**: If the expense for this Item will be billed over the coming months in parts, then tick on 'Enable Deferred Expense'. To know more, visit the [Deferred Expense page](/docs/user/manual/en/accounts/deferred-expense).
 
@@ -141,7 +141,7 @@ The Taxes and Charges will be fetched from the [Purchase Order](/docs/user/manua
 
 ![PI Tax](/docs/assets/img/accounts/pi-tax.png)
 
-Visit the [Purchase Taxes and Charges Template](/docs/user/manual/en/buying/purchase-taxes-and-charges-template) page to know more about taxes. 
+Visit the [Purchase Taxes and Charges Template](/docs/user/manual/en/buying/purchase-taxes-and-charges-template) page to know more about taxes.
 
 The total taxes and charges will be displayed below the table.
 
@@ -282,21 +282,21 @@ There are two ways to put a purchase invoice on hold:
 - Explicit Hold
 
 #### Explicit Hold
-Explicit hold holds the purchase invoice indefinitely. 
+Explicit hold holds the purchase invoice indefinitely.
 To do it, in the "Hold Invoice" section of the purchase invoice form, simply check the "Hold Invoice" checkbox. In the "Reason For Putting On Hold" text field, type a comment explaining why the invoice is to be put on hold.
 
-If you need to hold a submitted invoice, click the "Make"  button 
+If you need to hold a submitted invoice, click the "Make"  button
 and click "Block Invoice". Also, add a comment explaining why the invoice is to be put on hold in the dialog that pops up and click "Save".
 
 #### Date Span Hold
-Date span hold holds the purchase invoice until a specified date. To do it, in the "Hold Invoice" section of the purchase invoice form, check the "Hold Invoice" checkbox. Next, input the release date in the dialog that pops up and click "Save". The release date is the date 
+Date span hold holds the purchase invoice until a specified date. To do it, in the "Hold Invoice" section of the purchase invoice form, check the "Hold Invoice" checkbox. Next, input the release date in the dialog that pops up and click "Save". The release date is the date
 that the hold on the document expires.
 
-After the invoice has been saved, you can change the release date by clicking on the "Hold Invoice" drop down button and then "Change Release Date". This action will cause a dialog to appear. 
+After the invoice has been saved, you can change the release date by clicking on the "Hold Invoice" drop down button and then "Change Release Date". This action will cause a dialog to appear.
 
 <img class="screenshot" alt="Purchase Invoice on hold" src="{{docs_base_url}}/assets/img/accounts/purchase-invoice-hold.png">
 
-Select the new release date and click "Save". You should also enter a comment 
+Select the new release date and click "Save". You should also enter a comment
 in the "Reason For Putting On Hold" field.
 
 Take note of the following:
