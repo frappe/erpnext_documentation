@@ -13,7 +13,7 @@ Before creating an Email Account, you need an [Email Domain](/docs/user/manual/e
 
 ## 2. How to create an Email Account
 1. Go to the Email Account list, click on New.
-1. Enter the email address with the domain. [Domains](/docs/user/manual/en/setting-up/email/email-domain) need to be created in order to create an email account. 
+1. Enter the email address with the domain. [Domains](/docs/user/manual/en/setting-up/email/email-domain) need to be created in order to create an email account.
     You don't need to create a domain if you're syncing an email from certain providers as listed [here](/docs/user/manual/en/setting-up/email/email-inbox#2-create-an-email-domain).
 1. Enter the email account password.
 1. Save.
@@ -43,9 +43,9 @@ To set up an incoming Email Account, check on **Enable Incoming** and set your P
 
 The following options are available for incoming emails:
 
-* Use IMAP
-* Use SSL
-* Attachment Limit
+* **Use IMAP**
+* **Use SSL**
+* **Attachment Limit**
 * **Default Incoming**: If ticked, all replies to your company (eg: replies@yourcomany.com) will come to this account.
 * **Email Sync Option**: Whether to sync all or only unseen emails.
 * **Initial Sync Count**: Number of emails to sync the first time.
@@ -77,11 +77,11 @@ To set up an outgoing Email Account, check on **Enable Outgoing** and set your S
 <img class="screenshot" alt="Outgoing EMail" src="{{docs_base_url}}/assets/img/setup/email/email-account-sending.png">
 
 The following options are available for outgoing emails:
-* Use TLS
-* Port
-* Disable SMTP server authentication
-* Add Signature
 
+* **Use TLS**
+* **Port**
+* **Disable SMTP server authentication**
+* **Add Signature**: The default signature appended to the end of each email.
 * **Default Outgoing**: Notifications and bulk emails will be sent from this outgoing server.
 * **Always use Account's Email Address as Sender**: The email address of this account will be mentioned as the sender for outgoing emails.
 * **Send unsubscribe message in email**: Send a link to unsubscribe from emails sent from this account.
