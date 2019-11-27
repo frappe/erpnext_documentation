@@ -1,8 +1,6 @@
 <!-- add-breadcrumbs -->
 # Bank
 
-**A Bank is financial institution that stores and manages money.**
-
 In ERPNext, saving different banks lets you upload an excel sheet and map the transactions to the ledger. The transactions are created as Bank Transactions. These can then be used for reference and reports. This is done using [Bank Reconciliation](/docs/user/manual/en/accounts/bank-reconciliation).
 
 To access Bank, go to:

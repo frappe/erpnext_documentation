@@ -1,7 +1,9 @@
 <!-- add-breadcrumbs -->
 # Cost Center
 
-**A Cost Center is a department of an organization to which costs are charged.**
+**A Cost Center is a part of an organization where costs or income can be charged.**
+
+In ERPNext you can use the Cost Center as a Profit Center.
 
 Your Chart of Accounts is mainly designed to provide reports to the government and tax authorities.
 
@@ -15,6 +17,16 @@ The Cost Center can be set at these levels:
 * Company
 * Item
 * Order/Invoice
+
+The Cost Center can be liked to the following transactions:
+
+1. [Sales Invoice](/docs/user/manual/en/accounts/sales-invoice)
+1. [Purchase Invoice](/docs/user/manual/en/accounts/purchase-invoice)
+1. [Journal Entry](/docs/user/manual/en/accounts/journal-entry)
+1. [Payment Entry](/docs/user/manual/en/accounts/payment-entry)
+1. [Delivery Note](/docs/user/manual/en/stock/delivery-note)
+
+And other transactions which can be used for budgeting. You can also use Cost Center for [Budgeting](/docs/user/manual/en/accounts/budgeting).
 
 ## 1. Cost Center tree
 

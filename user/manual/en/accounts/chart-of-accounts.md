@@ -7,6 +7,16 @@ The overall structure of your Chart of Accounts is based on a system of double e
 accounting that has become a standard all over the world to quantify how a
 company is doing financially.
 
+Chart of Accounts is a tree view of the names of the Accounts (Ledgers and
+Groups) that a Company requires to manage its books of accounts. ERPNext sets
+up a simple chart of accounts for each Company you create, but you can
+modify it according to your needs and legal requirements.
+
+For each company, Chart of Accounts signifies the way to classify the accounting entries, mostly
+based on statutory (tax, compliance to government regulations) requirements.
+
+![CoA Tree](/docs/assets/img/accounts/chart-of-accounts-tree.png)
+
 The Chart of Accounts helps you to answer questions like:
 
  * What is your organization worth?
@@ -20,45 +30,31 @@ your business is doing.
 
 > **Tip**: If you can’t read a Balance Sheet it's a good opportunity to start learning about this. It will be worth the effort. You can also take the help of your accountant to set up your Chart of Accounts.
 
-Chart of Accounts is a tree view of the names of the Accounts (Ledgers and
-Groups) that a Company requires to manage its books of accounts. ERPNext sets
-up a simple chart of accounts for each Company you create, but you can
-modify it according to your needs and legal requirements.
-
-For each company, Chart of Accounts signifies the way to classify the accounting entries, mostly
-based on statutory (tax, compliance to government regulations) requirements.
-
 To access the Chart of Accounts list, go to:
 > Home > Accounting > Accounting Masters > Chart of Accounts
 
-## 1. Prerequisites
-Prior accounting knowledge will be useful for setting up and using the Chart of Accounts.
-
-## 2. How to create/edit Accounts
-Instead of creating/modifying, you can also use the [Chart of Accounts Importer](/docs/user/manual/en/setting-up/chart-of-accounts-importer) tool.
-
+## 1. How to Create/Edit Accounts
+ERPNext comes with a standard set Chart of Accounts. Instead of creating/modifying, you can also use the [Chart of Accounts Importer](/docs/user/manual/en/setting-up/chart-of-accounts-importer) tool. Note that the existing Chart of Accounts will be overwritten when this tool is used.
 
 1. Go to the Chart of Accounts list.
  
  Here you can open group accounts which contain other accounts. There are options to “Add Child” in an account, Edit or Delete the account.
 
- <img class="screenshot" alt="Chart of Accounts" src="{{docs_base_url}}/assets/img/accounts/chart-of-accounts-3.png">
+ <img class="screenshot" alt="Chart of Accounts" src="{{docs_base_url}}/assets/img/accounts/chart-of-accounts-add.gif">
+
 1. The option to create a child account will only appear if you click on a Group (folder) type
 Account. 
 1. Enter a name for the account.
 1. Enter a number for the account.
 1. Tick 'Is Group' if you want this to be a group account which can contain other accounts.
-1. Select the account type.
-1. Change the currency if needed. By default, it's the Company's currency.
-1. Click on Create New.
-
-ERPNext creates a standard structure for you when the Company is created but
-you can modify it to add or remove accounts.
+1. Select the Account Type. Selecting this is important as some fields allow selecting only specific type of accounts.
+1. Change the currency if this account will be used for transactions with different currency. By default, it's the Company's currency. To know more, visit the [Multi Currency Accounting](/docs/user/manual/en/accounts/multi-currency-accounting) page.
+1. Click on **Create New**.
 
 Typically, you might want to create Accounts for:
 
  * Travel, salaries, telephone, etc. under **Expenses**.
- * Value Added Tax (VAT), Sales Tax, etc. under **Current Liabilities**.
+ * Value Added Tax (VAT), Sales Tax, Equity, etc. under **Current Liabilities**.
  * Product Sales, Service Sales, etc. under **Income**.
  * Building, machinery, furniture, etc. under **Fixed Assets**.
 
@@ -68,8 +64,10 @@ Typically, you might want to create Accounts for:
 
 Let us understand the main groups of the Chart of Accounts.
 
-## 3. Account Types
-### 3.1 Balance Sheet Accounts
+## 2. Account Types
+Account types are mainly classified as income, expense, asset, or liability.
+
+### 2.1 Balance Sheet Accounts
 
 Balance Sheet accounts are 'Application of Funds (Assets)' and 'Sources of Funds
 (Liabilities)' that signifies the net-worth of your company at any given time.
@@ -94,7 +92,8 @@ Two special accounts to note here are Accounts Receivable (money you have to
 collect from your Customers) and Accounts Payable (money you have to pay to
 your Suppliers) under Assets and Liabilities respectively.
 
-### 3.2 Profit and Loss Accounts
+
+### 2.2 Profit and Loss Accounts
 
 Profit and Loss is the group of 'Income' and 'Expense' accounts that represent
 your accounting transactions over a period.
@@ -113,7 +112,7 @@ Note that, on the first day of the year you have not made any profit or loss, bu
 still have assets, hence balance sheet accounts never become zero at the
 beginning or end of a period.
 
-### 3.3 Groups and Ledgers
+### 2.3 Groups and Ledgers
 
 There are two main kinds of Accounts in ERPNext - Group and Ledger. Groups can
 have sub-groups and ledgers within them, whereas ledgers are the leaf nodes of
@@ -130,7 +129,7 @@ Supplier).
 <img class="screenshot" alt="Chart of Accounts" src="{{docs_base_url}}/assets/img/accounts/chart-of-accounts-2.png">
 
 
-### 3.4 Other Account Types
+### 2.4 Other Account Types
 
 In ERPNext, you can also specify more information when you create a new
 Account, this is there to help you select that particular account in a scenario like 'Bank Account' or a 'Tax Account' and has no effect on the Chart
@@ -160,8 +159,14 @@ Explanation of account types:
 * **Tax**: All tax accounts like VAT, TDS, GST, etc. come under this type.
 * **Temporary**: A Temporary account is useful for balancing incomes, expenses and nullifying them when shifting to ERPNext mid-year with outstanding accounting entries.
 
+> **Note**: When making Payment Entries, the default bank account will be fetched in the following order if set:
+    
+>       * Company form
+>       * Mode of Payment default account
+>       * Customer/Supplier default bank account
+>       * Select manually in Payment Entry
 
-### 3.5 Financial statements
+### 2.5 Financial statements
 Financial statements for your company are easily viewable in ERPNext. You can view financial statements
 such as Balance Sheet, Profit and Loss statement, and Cash flow statement.
 
@@ -176,14 +181,14 @@ An Example of various financial statement are given below:
 1. Balance Sheet Report:
  <img class="screenshot" alt="Balance Sheet Report" src="{{docs_base_url}}/assets/img/accounts/balance_sheet_report.png">
 
-### 3.6 Account Number
+### 2.6 Account Number
 A standard Chart of Accounts is organized according to a numerical system. Each major category will begin with a certain number, and then the sub-categories within that major category will all begin with the same number. For example, if assets are classified by numbers starting with the digit 1000, then cash accounts might be labeled 1100, bank accounts might be labeled 1200, accounts receivable might be labeled 1300, and so on. A gap between account numbers is generally maintained for adding accounts in the future.
 
 You can assign a number while creating an account from Chart of Accounts page. You can also edit a number from account record, by clicking **Update Account Name / Number** button. On updating account number, the system renames the account name automatically to embed the number in the account name.
 
 ![Account Number]({{docs_base_url}}/assets/img/accounts/acc-no.png)
 
-## 4. Video
+## 3. Video
 
 <div>
  <div class="embed-container">
@@ -192,7 +197,7 @@ You can assign a number while creating an account from Chart of Accounts page. Y
  </div>
 </div>
 
-### 5. Related Topics
+### 4. Related Topics
 1. [Opening Balance](/docs/user/manual/en/accounts/opening-balance)
 1. [Accounts Settings](/docs/user/manual/en/accounts/accounts-settings)
 1. [Journal Entry](/docs/user/manual/en/accounts/journal-entry)

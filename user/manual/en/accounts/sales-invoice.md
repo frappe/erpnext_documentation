@@ -15,11 +15,13 @@ Before creating and using a Sales Invoice, it is advised to create the following
 
 * [Item](/docs/user/manual/en/stock/item)
 * [Customer](/docs/user/manual/en/CRM/customer)
-* [Sales Order](/docs/user/manual/en/selling/sales-order)
-* [Delivery Note](/docs/user/manual/en/stock/delivery-note) (optional)
+
+* Optional:
+ * [Sales Order](/docs/user/manual/en/selling/sales-order)
+ * [Delivery Note](/docs/user/manual/en/stock/delivery-note)
 
 ## 2. How to create a Sales Invoice
-A Sales Invoice is usually created from a Sales Order or a Delivery Note. The Customer's Item details will be fetched into the Sales Invoice. However, you can also create a Sales Invoice directly.
+A Sales Invoice is usually created from a Sales Order or a Delivery Note. The Customer's Item details will be fetched into the Sales Invoice. However, you can also create a Sales Invoice directly, for example, a POS invoice.
 
 To fetch the details automatically in a Sales Invoice, click on the **Get Items from**. The details can be fetched from a Sales Order, Delivery Note, or a Quotation.
 
@@ -32,10 +34,11 @@ For manual creation, follow these steps:
 1. The prices will be fetched automatically if [Item Price](/docs/user/manual/en/stock/item-price) is added, else add a price in the table.
 1. The posting date and time will be set to current, you can edit after you tick the checkbox below Posting Time to make a backdated entry.
 1. Save and Submit.
+ ![SI](/docs/assets/img/accounts/sales-invoice-1.png)
 
 ### 2.1 Additional options when creating a Sales Invoice
 
-* **Include Payment (POS)**: If this invoice is for a Point of Sale. [Know more here](/docs/user/manual/en/accounts/sales-invoice#323-pos-invoices).
+* **Include Payment (POS)**: If this invoice is for retail sales / Point of Sale. [Know more here](/docs/user/manual/en/accounts/sales-invoice#323-pos-invoices).
 * **Is Return Credit Note**: Tick this if the customer has returned the Items. To know more details, visit the [Credit Note](/docs/user/manual/en/accounts/credit-note) page.
 
 <img class="screenshot" alt="Sales Invoice" src="{{docs_base_url}}/assets/img/accounts/sales-invoice.png">
@@ -45,19 +48,18 @@ For India:
 
 ### 2.2 Statuses
 
-These are the statuses a Sales Invoice can be in:
+These are the statuses that are auto-assigned to Sales Invoice.
 
-* **Draft**: A draft is saved but yet to be submitted to the system.
-* **Return**: The Item is returned by the Customer for any reason.
-* **Credit Note Issued**: The Item is returned by the Customer and a [Credit Note](/docs/user/manual/en/accounts/credit-note) is created against the invoice.
+* **Draft**: A draft is saved but yet to be submitted.
 * **Submitted**: The invoice is submitted to the system and the general ledger has been updated.
 * **Paid**: Customer has made the payment and a [Payment Entry](/docs/user/manual/en/accounts/payment-entry) has been submitted.
 * **Unpaid**: Invoice is generated but payment is pending but within the payment due date.
-* **Unpaid and Discontinued**: Payment is pending and any ongoing subscription has been discontinued.
 * **Overdue**: Payment is pending beyond the payment due date.
-* **Overdue and Discontinued**: Payment is pending beyond the payment due date and any ongoing subscription has been discontinued.
-* **Canceled**: The Sales Invoice is canceled due to any reason.
-
+* **Canceled**: The Sales Invoice is canceled due to any reason. Once an invoice is canceled, it's impact on Account and Stock is undone.
+* **Credit Note Issued**: The Item is returned by the Customer and a [Credit Note](/docs/user/manual/en/accounts/credit-note) is created against this invoice.
+* **Return**: It is assigned to Credit Note created against the original Sales Invoice. Though you can also create a standalone Credit Note.
+* **Unpaid and Discounted**: Payment is pending and any ongoing subscription has been discounted using [Invoice Discounting](/docs/user/manual/en/accounts/invoice_discounting).
+* **Overdue and Discounted**: Payment is pending beyond the payment due date and any ongoing subscription has been discounted using [Invoice Discounting](/docs/user/manual/en/accounts/invoice_discounting).
 
 ## 3. Features
 ### 3.1 Dates
@@ -67,17 +69,17 @@ accounts i.e. your General Ledger. This will affect all your balances in that
 accounting period.
 
 * **Due Date**: The date on which the payment is due (if you have sold on credit).
-The credit limit can be set from the [Customer](/docs/user/manual/en/CRM/customer) master.
+The credit limit can be set from the [Customer](/docs/user/manual/en/CRM/customer#24-credit-limit-and-payment-terms) master.
 
 ### 3.2 Accounting Dimensions
-Accounting Dimensions lets you tag transactions based on a specific Territory, Branch, Customer, etc. This helps in viewing accounting statements separately based on the criteria selected. To know more, visit the [Accounting Dimensions](/docs/user/manual/en/accounts/accounting-dimensions) page.
+Accounting Dimensions lets you tag transactions based on a specific Territory, Branch, Customer, etc. This helps in viewing accounting statements separately based on the selected dimension(s). To know more, check help on [Accounting Dimensions](/docs/user/manual/en/accounts/accounting-dimensions) feature.
 
 > Note: Project and Cost Center are treated as dimensions by default.
 
 ### 3.3 Customer PO Details
 
-* **Customer's Purchase Order**: The customer may identify this order with a number of his own. This is for reference.
-* **Customer's Purchase Order Date**: The date on which the Customer placed the Purchase Order from his end.
+* **Customer's Purchase Order**: Track customer's PO No. received, primarily to prevent the creation of duplicate Sales Order or Invoice for the same PO received from the Customer. You can do more configuration related to customer's PO No. validation in [Selling Settings](/docs/user/manual/en/selling/selling-settings#44-allow-multiple-sales-orders-against-a-customers-purchase-order)
+* **Customer's Purchase Order Date**: The date on which the Customer placed the Purchase Order.
 
  ![Customer Address](/docs/assets/img/accounts/si-customer.png)
 
@@ -88,22 +90,27 @@ Accounting Dimensions lets you tag transactions based on a specific Territory, B
 * **Territory:** A [Territory](/docs/user/manual/en/selling/territory) is the region where the Customer belongs to, fetched from the Customer form. The default value is All Territories.
 * **Shipping Address:** Address where the items will be shipped to.
 
-For India, the following details can be recorded for GST purposes:
+For India, the following details can be recorded for GST purposes. You can capture these details in the Address and Customer master, which would be fetched in the Sales Invoice.
 
 * Billing Address GSTIN
 * Customer GSTIN
 * Place of Supply
 * Company GSTIN
 
-### 3.5 Currency and Price list
-You can set the currency in which the Sales Invoice order is to be sent. This is fetched from the Sales Order. If you set a Pricing List, then the item prices will be fetched from that list. Ticking on 'Ignore Pricing Rule' will ignore the [Pricing Rules](/docs/user/manual/en/accounts/pricing-rule) set in Accounts > Pricing Rule.
+### 3.5 Currency
+You can set the currency in which the Sales Invoice order is to be sent. This can be fetched from the Customer master or preceding transactions like Sales Order. 
+
+* Wish to select Customer's currency just for the reference of the Customer, whereas accounts posting will be done in the Company's base currency only. Learn more [here](/docs/user/manual/en/accounts/articles/managing-transactions-in-multiple-currency).
+* Maintain separate receivable account in the Customer's currency. The Receivable for this invoice should be posted in that currency itself. [Click here](/docs/user/manual/en/accounts/multi-currency-accounting) to learn more about Multi Currency Accounting.
+
+### 3.6 Price list
+
+If you select a Price List, then the item prices will be fetched from that list. Ticking on 'Ignore Pricing Rule' will ignore the [Pricing Rules](/docs/user/manual/en/accounts/pricing-rule) set in Accounts > Pricing Rule.
 
 To know about Price Lists, [click here](/docs/user/manual/en/stock/price-lists).
 
-To know about managing transactions in multiple currencies, [click here](/docs/user/manual/en/accounts/articles/managing-transactions-in-multiple-currency).
 
-
-### 3.6 The Items table
+### 3.7 The Items table
 
 #### Update Stock
 Ticking this checkbox will update the Stock Ledger on submitting the Sales Invoice. If you've created a Delivery Note, the Stock Ledger will be changed. If you're **skipping** the creation of Delivery Note, tick this checkbox.
@@ -136,7 +143,7 @@ Ticking this checkbox will update the Stock Ledger on submitting the Sales Invoi
 
 * **Page Break** will create a page break just before this Item when printing.
 
-### 3.7 Timesheet
+### 3.8 Timesheet
 
 If you want to bill Employees working on Projects on an hourly basis (contract based),
 they can fill out Timesheets which consists of their billing rate. When you make a new
@@ -149,7 +156,7 @@ If your Company's Employees are working at a location and it needs to be billed,
 
 To know more, [visit this page](/docs/user/manual/en/projects/sales-invoice-from-timesheet).
 
-### 3.8 Taxes and Charges
+### 3.9 Taxes and Charges
 The Taxes and Charges will be fetched from the [Sales Order](/docs/user/manual/en/selling/sales-order) or [Delivery Note](/docs/user/manual/en/stock/delivery-note).
 
 Visit the [Sales Taxes and Charges Template](/docs/user/manual/en/selling/sales-taxes-and-charges-template) page to know more about taxes.
@@ -165,29 +172,29 @@ Make sure to mark all your taxes in the Taxes and Charges table correctly for an
 #### Shipping Rule
 A Shipping Rule helps set the cost of shipping an Item. The cost will usually increase with the distance of shipping. To know more, visit the [Shipping Rule](/docs/user/manual/en/selling/shipping-rule) page.
 
-### 3.9 Loyalty Points Redemption
+### 3.10 Loyalty Points Redemption
 
 If the Customer is enrolled in a Loyalty Program, they can choose to redeem it. To know more, visit the [Loyalty Program](/docs/user/manual/en/accounts/loyalty-program) page.
 
-### 3.10 Additional Discount
+### 3.11 Additional Discount
 Any additional discounts to the whole Invoice can be set in this section. This discount could be based on the Grand Total i.e., post tax/charges or Net total i.e., pre tax/charges. The additional discount can be applied as a percentage or an amount.
 Visit the [Applying Discount](/docs/user/manual/en/selling/articles/applying-discount) page for more details.
 
 ![SI Add Discount](/docs/assets/img/accounts/si-add-discount.png)
 
-### 3.11 Advance Payment
-For high-value Items, the seller can request an advance payment before processing the order. The **Get Advances Received** button opens a popup from where you can fetch the orders where advance payment was made. To know more, visit the [Advance Payment Entry](/docs/user/manual/en/accounts/advance-payment-entry) page.
+### 3.12 Advance Payment
+For high-value Items, the seller can request an advance payment before processing the order. The **Get Advances Received** button opens a popup from where you can fetch the orders where the advance payment was made. To know more, visit the [Advance Payment Entry](/docs/user/manual/en/accounts/advance-payment-entry) page.
 
-### 3.12 Payment Terms
+### 3.13 Payment Terms
 The payment for an invoice may be made in parts depending on your understanding with the Supplier. This is fetched if set in the Sales Order. To know more, visit the [Payment Terms](/docs/user/manual/en/accounts/payment-terms) page.
 
-### 3.13 Write Off
+### 3.14 Write Off
 Write off happens when the Customer pays an amount less than the invoice amount. This may be a small difference like 0.50. Over several orders, this might add up to a big number. For accounting accuracy, this difference amount is 'written off'. To know more, visit the [Payment Terms](/docs/user/manual/en/accounts/payment-entry#25-deductions-or-loss) page.
 
-### 3.14 Terms and Conditions
-In Sales/Purchase transactions there might be certain Terms and Conditions based on which the Supplier provides goods or services to the Customer. You can apply the Terms and Conditions to transactions to transactions and they will appear when printing the document. To know about Terms and Conditions, [click here](/docs/user/manual/en/setting-up/print/terms-and-conditions)
+### 3.15 Terms and Conditions
+There may be certain terms and conditions on the Item you're selling, these can be applied here. To know about adding Terms and Conditions, [click here](/docs/user/manual/en/setting-up/print/terms-and-conditions).
 
-### 3.15 Transporter Information
+### 3.16 Transporter Information
 
 If you outsource transporting Items to their delivery location, the transporter details can be added. This is not the same as [drop shipping](/docs/user/manual/en/selling/articles/drop-shipping).
 
@@ -212,7 +219,7 @@ For India, GST:
 
 The Transport Receipt Date and Driver Name will be fetched.
 
-### 3.16 Printing Settings
+### 3.17 Printing Settings
 
 #### Letterhead
 You can print your Sales Invoice on your Company's letterhead. Know more [here](/docs/user/manual/en/setting-up/print/letter-head).
@@ -224,7 +231,7 @@ Sales Invoice headings can also be changed when printing the document. You can d
 
 There are additional checkboxes for printing the Sales Invoice without the amount, this might be useful when the Item is of high value. You can also group the same Items in one row when printing.
 
-### 3.17 GST Details (for India)
+### 3.18 GST Details (for India)
 
 The following details can be set for GST:
 
@@ -234,7 +241,7 @@ The following details can be set for GST:
 * E-commerce GSTIN
 * Print Heading
 
-### 3.18 More Information
+### 3.19 More Information
 The following Sales details can be recorded:
 
 * **Campaign**: If this invoice is a part of on ongoing sales Campaign, it can be linked. To know more, visit the [Campaign page](/docs/user/manual/en/CRM/campaign).
@@ -242,24 +249,24 @@ The following Sales details can be recorded:
 
  ![SI More info](/docs/assets/img/accounts/si-more-info.png)
 
-### 3.19 Accounting Details
+### 3.20 Accounting Details
 
-* **Debit To**: The account against which debit will be booked.
+* **Debit To**: The account against which receivable will be booked for this Customer.
 * **Is Opening Entry**: If this is an opening entry to affect your accounts select 'Yes'. i.e. if you're migrating from another ERP to ERPNext mid year, you might want to use an Opening Entry to update account balances in ERPNext.
-* **C-Form Applicable**: A C Form is used for reduction of applicable taxes, select yes if applicable to your transaction. Note: C Form is not applicable in India since GST.
+<!-- deprecated * **C-Form Applicable**: A C Form is used for the reduction of applicable taxes, select yes if applicable to your transaction. Note: C Form is not applicable in India since GST. -->
 * **Remarks**: Any additional remarks about the Sales Invoice can be added here.
 
  ![SI Accounting Details](/docs/assets/img/accounts/si-acc-details.png)
 
-### 3.20 Commission
+### 3.21 Commission
 
 If the sale took place via one of your Sales Partners, you can add their commission details here. This is usually fetched from the Sales Order/Delivery Note.
 
-### 3.21 Sales Team
+### 3.22 Sales Team
 
 **Sales Persons:** ERPNext allows you to add multiple Sales Persons who may have worked on this deal. This is also fetched from the Sales Order/Delivery Note.
 
-### 3.22 Automatically Fetching Item Batch Numbers
+### 3.23 Automatically Fetching Item Batch Numbers
 
 If you are selling an Item from a [Batch](/docs/user/manual/en/stock/batch),
 ERPNext will automatically fetch a batch number for you if "Update Stock"
@@ -269,7 +276,7 @@ is checked. The batch number will be fetched on a First Expiring First Out
 Note that if the first batch in the queue cannot satisfy the order on the invoice,
 the next batch in the queue that can satisfy the order will be selected. If no batch can satisfy the order, ERPNext will cancel its attempt to automatically fetch a suitable batch number.
 
-### 3.23 POS Invoices
+### 3.24 POS Invoices
 
 Consider a scenario where the retail transaction is carried out. For e.g: A retail shop.
 If you check the **Is POS** checkbox, then all your **POS Profile** data is fetched
@@ -280,7 +287,7 @@ without the need for a Delivery Note.
 
 <img class="screenshot" alt="POS Invoice" src="{{docs_base_url}}/assets/img/accounts/pos-sales-invoice.png">
 
-### 3.24 After Submitting
+### 3.25 After Submitting
 
 On submitting a Sales Invoice, the following documents can be created against it:
 
@@ -298,8 +305,7 @@ On submitting a Sales Invoice, the following documents can be created against it
 
 All Sales must be booked against an “Income Account”. This refers to an
 Account in the “Income” section of your Chart of Accounts. It is a good
-practice to classify your income by type (like product income, service income
-, etc). The Income Account must be set for each row of the Items table.
+practice to classify your income by type (like product income, service income, etc). The Income Account must be set for each row of the Items table.
 
 > Tip: To set default Income Accounts for Items, you can set it in the Item or
 Item Group.

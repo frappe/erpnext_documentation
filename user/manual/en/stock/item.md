@@ -114,7 +114,7 @@ In ERPNext, you will have to mention the Serial Number in some accounting entrie
 
 A set of Items can be manufactured in batches. This is useful for moving the batch and associate an expiry date with a certain batch. 
 
-* **Has Batch No**: Options for batch number, expiry date, and retaining sample stock will be revealed on ticking this checkbox. You cannot activate this if there is any pre-existing transaction for this item.
+* **Has Batch No**: Options for batch number, expiry date, and retaining sample stock will be revealed on ticking this checkbox. You cannot activate this if there is any pre-existing transaction for this item. If this is disabled, you'll have to enter the serial numbers manually for every transaction.
 
 * **Batch Number Series**: Prefix that'll be applied to batch numbers. If you set 5x1SCR, then the first batch will be named like 5x1SCR00001 on first transaction/manufacture.
 

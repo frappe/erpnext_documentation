@@ -15,13 +15,13 @@ You can check out [this video](https://www.youtube.com/watch?v=5wjollWN0OA) for 
 
 ### 1.1 Setup and Opening
 1. [Introduction](/docs/user/manual/en/accounts/accounting-entries)
+1. [Accounts Settings](/docs/user/manual/en/accounts/accounts-settings)
 1. [Company](/docs/user/manual/en/setting-up/company-setup)
 1. [Chart Of Accounts](/docs/user/manual/en/accounts/chart-of-accounts)
-1. [Opening Balance](/docs/user/manual/en/accounts/opening-balance)
+1. [Opening Balance in Accounts](/docs/user/manual/en/accounts/opening-balance)
 1. [Cost Center](/docs/user/manual/en/accounts/cost-center)
 1. [Fiscal Year](/docs/user/manual/en/accounts/fiscal-year)
 1. [Accounting Period](/docs/user/manual/en/accounts/accounting-period)
-1. [Accounts Settings](/docs/user/manual/en/accounts/accounts-settings)
 1. [Finance Book](/docs/user/manual/en/accounts/finance-book)
 1. [Accounting Dimensions](/docs/user/manual/en/accounts/accounting-dimensions)
 1. [Bank](/docs/user/manual/en/accounts/bank)

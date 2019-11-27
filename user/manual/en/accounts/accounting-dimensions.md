@@ -5,6 +5,8 @@
 
 Dimensional accounting means tagging each transaction with appropriate dimensions like Branch, Business Unit, etc. This allows you to maintain each segment separately, thereby limiting the overall maintenance on GL accounts and your Chart of Accounts remains pure.
 
+Cost Center and Project are treated as dimensions by default in ERPNext. On setting a field in Accounting Dimension, that field will be added in transactions reports where applicable. 
+
 In ERPNext you can create configurable accounting dimensions and use them in transactions and reports.
 
 To access the Accounting Dimension list, go to:
@@ -12,7 +14,7 @@ To access the Accounting Dimension list, go to:
 
 ## 1. How to create Accounting Dimension in ERPNext.
 
-1. Go to Accounting Dimension.
+1. Go to the Accounting Dimension list and click on New.
 1. Select the Reference Document which you want to use as a custom dimension. For example, if you select Department as Reference Document, the dimension will based on Department.
 1. Enter the name of the dimension (This name will appear in the transactions for which dimensions are created).
 1. Inside the Dimension Defaults table you can mention company specific default dimensions as shown in the screenshot below. This dimension will be automatically fetched in the transaction against that specific company.

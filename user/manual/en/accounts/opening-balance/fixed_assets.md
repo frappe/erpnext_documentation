@@ -1,5 +1,5 @@
 <!-- add-breadcrumbs -->
-# Import Fixed Assets
+# Update Fixed Assets
 
 To import all the existing fixed assets first create the asset record and then create a Journal Entry to update the General Ledger.
 

@@ -9,7 +9,7 @@ You can select the Accounts which you wish to use in the Inter Company transacti
 Before creating an Inter Company Journal Entry, you need to set up your Chart of accounts.
 
 1. Go to: **Accounts > Company and Accounts > Chart Of Accounts**.
-1. Select the Account which you would like to set as an Internal Account for the transaction, and check the 'Inter Company Account' checkbox. This account can now be used for Inter Company Journal Entry Transactions. It is recommended to create a new account for inter company transactions.
+1. Select the Account which you would like to set as an Internal Account for the transaction, and check the 'Inter Company Account' checkbox. This account can now be used for Inter Company Journal Entry transactions. It is recommended to create a new account for inter company transactions.
     <img class="screenshot" alt="Internal Account" src="{{docs_base_url}}/assets/img/accounts/internal-account.png">
 You need to do the same for all the Companies' Accounts which you want to use for Inter Company Journal Entry transactions.
 

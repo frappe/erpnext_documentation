@@ -1,5 +1,5 @@
 <!-- add-breadcrumbs -->
-# Import Current Liabilities
+# Update Current Liabilities
 
 Before importing current liabilities, make sure that you have created the required ledgers under **Chart of Accounts > Liabilities > Current Liabilities** group.
 

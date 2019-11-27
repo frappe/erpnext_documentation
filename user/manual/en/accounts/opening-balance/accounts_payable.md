@@ -1,5 +1,5 @@
 <!-- add-breadcrumbs -->
-# Import Accounts Payables
+# Update Accounts Payables
 
 **Accounts Payables is the balance amount you owe your Suppliers towards the invoices they have already sent you.**
 

@@ -10,6 +10,7 @@ Payment Entry can be made against the following transactions.
 * Sales Order (Advance Payment)
 * Purchase Order (Advance Payment)
 * Expense Claim
+* Internal Transfer
 
 In ERPNext, there are two options through which User can capture the payment:
 
@@ -29,13 +30,19 @@ To access the Payment Entry list, go to:
 > Home > Accounting > Accounts Receivable/Payable > Payment Entry
 
 ## 1. Prerequisites
-Before creating and using Payment Entry, it is advised to create the following first:
+A Payment Entry can also be created directly then linked to an order/invoice later. Before creating and using Payment Entry, it is advised to create the following first:
 
+1. [Customer](/docs/user/manual/en/CRM/customer)
+1. [Supplier](/docs/user/manual/en/buying/supplier)
+1. [Bank Account](/docs/user/manual/en/accounts/bank-account)
+
+If you're following the Sales/Purchase Cycle, you'd need the following:
+
+1. [Sales Order](/docs/user/manual/en/selling/sales-order) (Advance Payment)
+1. [Purchase Order](/docs/user/manual/en/buying/purchase-order) (Advance Payment
 1. [Sales Invoice](/docs/user/manual/en/accounts/sales-invoice)
- 
- Or
-
 1. [Purchase Invoice](/docs/user/manual/en/accounts/purchase-invoice)
+
 
 Set up:
 
@@ -47,21 +54,33 @@ On submitting a document against which Payment Entry can be made, you will find 
 
 ![Payment Entry from SO]({{docs_base_url}}/assets/img/accounts/payment-entry-so.png)
 
-You can also create a Payment Entry manually if needed.
-
-1. Change the posting date if needed.
+1. Change the posting date.
 1. The Payment Type will be set based on the transaction you're coming from. The types are 'Receive', 'Pay', and 'Internal Transfer'.
 1. The Party Type, Party, Party Name will be fetched automatically.
 1. The Account Paid To and Account Paid From will be fetched as set in the [Company form](/docs/user/manual/en/setting-up/company-setup).
 1. The Amount Paid will be fetched from the Invoice.
 1. Save and Submit.
+ ![Payment Entry from SO]({{docs_base_url}}/assets/img/accounts/payment-entry-so.gif)
 
-### 2.1 Setting Mode of Payment
+### 2.1 Creating a Payment Manually
+A Payment Entry created manually will have no order/invoice linked to it. Payments made this will be recorded in the Customer's/Supplier's account and can be reconciled later using the [Payment Reconciliation Tool]((/docs/user/manual/en/accounts/payment-reconciliation)).
+
+1. Go to the Payment Entry list and click on New.
+1. Select the Party Type and the respective Customer/Supplier.
+1. Select the Bank Account/Cash Account Paid To and Paid From. Enter the Cheque Number and date if bank transfer.
+1. Enter the Amount Paid.
+1. Save and Submit.
+
+
+## 3. Features
+
+### 3.1 Setting Mode of Payment
+
 **Mode of Payment**: Entering this helps classify Payment Entries based on the payment mode used. Modes of Payment can be Bank, Cash, Wire Transfer, etc.
 
 > **Tip**: In the [Mode of Payment](/docs/user/manual/en/accounts/mode-of-payment) master, default Account can be set. This default payment Account will be fetched into Payment Entries.
 
-### 2.2 Payment From/To
+### 3.2 Payment From/To
 
 ![Payment Party]({{docs_base_url}}/assets/img/accounts/payment-party.png)
 
@@ -72,49 +91,67 @@ You can also create a Payment Entry manually if needed.
 * **Party Bank Account**: The Party's [Bank Account](/docs/user/manual/en/accounts/bank-account).
 * **Contact**: If the Party is an organization, a Contact person can be stored here.
 
-### 2.3 Accounts
+### 3.3 Accounts
 
 ![Payment Accounts]({{docs_base_url}}/assets/img/accounts/payment-accounts.png)
 
-* **Party Balance**: The amount to pay or to receive from Invoices set in the current Payment Entry. Paid amounts will be positive and if advance payments are made, they will be negative.
-* **Account Paid From**: The [CoA account](/docs/user/manual/en/accounts/chart-of-accounts) from which the amount will be deducted when Payment is submitted.
-* **Account Paid To**: The [CoA account](/docs/user/manual/en/accounts/chart-of-accounts) from which the amount will be added when Payment Entry is submitted.
+* **Party Balance**: The overall amount receivable or payable from Customer or Supplier from Invoices set in the current Payment Entry. Paid amounts will be positive and if advance payments are made, they will be negative.
+* **Account Paid From**: The [Account](/docs/user/manual/en/accounts/chart-of-accounts) from which the amount will be deducted when Payment is submitted. 
+* **Account Paid To**: The [CoA account](/docs/user/manual/en/accounts/chart-of-accounts) from which the amount will be added when Payment Entry is submitted. 
 
-* **Account Currency**: The Currencies of these accounts will be fetched as set in the [Chart Of Accounts](/docs/user/manual/en/accounts/chart-of-accounts) and cannot be edited here.
-* **Account Balance**: The total amount balance from all the invoices of the GL accounts selected. 
+* **Account Currency**: The Currencies of these accounts will be fetched as set in the [Account](/docs/user/manual/en/accounts/chart-of-accounts) and cannot be edited here. To know about more about transactions in multiple currencies, [visit this page]((/docs/user/manual/en/accounts/articles/managing-transactions-in-multiple-currency)).
+* **Account Balance**: The total amount balance from all the invoices of the selected accounts. 
 
 **Paid Amount**: The **total amount** paid for the current Payment Entry is shown in this field.
 
-### 2.4 Reference
+> **Note**: When making Payment Entries, the default bank account will be fetched in the following order if set:
+ 
+> * Company form
+> * Mode of Payment default account
+> * Customer/Supplier default bank account
+> * Select manually in Payment Entry
+
+### 3.4 Reference
 
 #### Fetching outstanding Invoices
 
-When creating a new Payment Entry, on clicking the **Get Outstanding Invoice** button all the outstanding Invoices and open Orders will be fetched for the party. You need to enter the 'Paid Amount' to see this button. From here a date range and invoices to be fetched can be selected.
+This can be used to make payments to multiple Sales Invoices using one Payment Entry. When creating a new Payment Entry, on clicking the **Get Outstanding Invoice** button all the outstanding Invoices and open Orders will be fetched for the party. You need to enter the 'Paid Amount' to see this button. From here a date range and invoices to be fetched can be selected.
 
 ![Outstanding Invoice]({{docs_base_url}}/assets/img/accounts/outstanding-pe.png)
 
-If the Customer has not made full payment, enter the amount paid in the 'Allocated' field. 
+If the Party has not made full payment, enter the amount paid in the 'Allocated' field. 
 
 If creating Payment Entry for a Customer, the Payment Amount will be allocated against a Sales Invoice. On the same lines, when creating Payment Entry for a Supplier, Payment Amount will be allocated against a Purchase Invoice.
 
 #### Payment References table
 
 * **Type**: Whether the payment is being made against a Sales Order, Sales Invoice, or a Journal Entry.
-* **Name**: The particular transaction is fetched/selected here.
+* **Name**: The particular transaction ID is fetched/selected here.
 * **Total Amount**: The total amount of one Invoice/Journal Entry in the row.
 * **Outstanding**: The amount to receive/to pay for this invoice.
-* **Allocated**: The amount allocated to this row in the Payment Entry from the 'Paid Amount' field. The payment may be made in parts and [Payment Terms](/docs/user/manual/en/accounts/payment-terms) may also be involved.
+* **Allocated**: If the Paid Amount is less than the invoice amount only the paid amount will be allocated to the invoice(s) fetched in the Payment Entry. The payment may be made in parts, for example, if there are three invoices of amounts 20, 20, 20, the Paid Amount is 60 then this Paid Amount will be distributed equally. [Payment Terms](/docs/user/manual/en/accounts/payment-terms) may also be involved. 
 
-### 2.5 Deductions or Loss
+ ![Outstanding Invoice]({{docs_base_url}}/assets/img/accounts/outstanding-pe.png)
 
-When making payment entry, there could be some difference in the actual payment amount and the invoice outstanding. This difference could be due to rounding error, or change in the currency exchange rate. You can set an Account here where this difference amount will be booked.
+#### What is Unallocated Amount?
+When a Payment Entry is made in ERPNext and the Paid Amount is more than the total invoice amount, it is stored in the Customer's/Supplier's account. This amount is hence currently 'Unallocated'. Unallocated amount can be used against future invoices.
 
+For example, you create a Sales Invoice totaling 1,000 and the Customer paid 1,500. When another invoice is created for this Customer in the future for 1,000 again, the previously paid 500 can be used.
+
+### 3.5 Deductions or Loss
+
+When a Payment Entry is created against an invoice, there could be some difference in the actual Paid Amount and the invoice outstanding amount. This difference could be due to rounding errors or changes in the currency exchange rate. You can set an Account here where this difference amount will be booked.
+
+![Outstanding Invoice]({{docs_base_url}}/assets/img/accounts/pe-get-outstanding.gif)
+
+The loss/deductions can be written off:
 ![Payment Deductions]({{docs_base_url}}/assets/img/accounts/payment-deductions.png)
 
-Let's see an example here where the paid amount is 25 but the allocated amount is 30 since 30 is the amount to be collected as per the invoice. The 'Difference Amount' will be 5 in this case. The Difference Amount needs to be 0 in order to submit the Payment Entry. This can be adjusted using the **Make Difference Entry** button. The amount will be adjusted in the Write Off account.
+Let's see an example here where the paid amount is 25 but the allocated amount is 30 since 30 is the amount to be collected as per the invoice. The 'Difference Amount' will be 5 in this case. This difference amount can occur due to discounts or Currency Exchange. The Difference Amount needs to be 0 in order to submit the Payment Entry. This can be adjusted using the **Make Difference Entry** button. The amount will be adjusted in the Write Off account.
+
 <img class="screenshot" alt="Making Payment" src="{{docs_base_url}}/assets/img/accounts/payment-entry-5.gif">
 
-### 2.6 Write Off
+### 3.6 Write Off
 
 Write off happens when the paid amount is less than the allocated amount. I.e. the remaining amount is considered as lost in miscellaneous charges or that amount isn't going to be paid. This is considered as loss.
 
@@ -124,14 +161,14 @@ In this table, the deductions or loss from payments can be adjusted as explained
 
 ![Payment Write Off]({{docs_base_url}}/assets/img/accounts/payment-write-off.png)
 
-### 2.5 After Submitting
+### 3.5 After Submitting
 Save and Submit Payment Entry. On submission, outstanding will be updated in the Invoices. 
 
 <img class="screenshot" alt="Making Payment" src="{{docs_base_url}}/assets/img/accounts/payment-entry-8.png">
 
-If payment entry was created against Sales Order or Purchase Order, field 'Advance Paid' will be updated in them. When creating Payment Invoice against those transactions, Payment Entry will auto-update in that Invoice, so that you can allocate invoice amount against advance payment entry.
+If payment entry was created against Sales Order or Purchase Order, the field 'Advance Paid' will be updated in them. When creating Invoice against those transactions, Payment Entry will be auto-updated in that Invoice so that you can allocate invoice amount against advance payment entry.
 
-For incoming payment, accounts posting will be done as follows.
+For incoming payment, the accounts posting will be done as follows.
 
  * Debit: Bank or Cash Account
  * Credit: Customer (Debtor)
@@ -141,11 +178,15 @@ For outgoing payment:
  * Debit: Supplier (Creditor)
  * Credit: Bank or Cash Account
 
-## 3. Other cases
+## 4. Other cases
 
-### 3.1 Multi Currency Payment Entry
+### 4.1 Multi Currency Payment Entry
 
-ERPNext allows you maintain accounts and invoicing in [multiple currency](/docs/user/manual/en/accounts/multi-currency-accounting). If an invoice is made in the party currency, Currency Exchange Rate between the Company's base currency and party currency is also entered in the invoice.
+If you want to maintain a receivable/payable account in foreign currency, then create accounts with foreign currency (different from Company currency) and link it in the party account. For example:
+
+![Foreign Account in Customer]({{docs_base_url}}/assets/img/accounts/cust-foreign-acc.png)
+
+ERPNext allows you maintain accounts and invoicing in [multiple currency](/docs/user/manual/en/accounts/multi-currency-accounting). If an invoice is made in the party currency, Currency Exchange Rate between the Company's base currency and party currency is also entered in the invoice. 
 
 > Note: A separate Debtor/Creditor account needs to be created and selected in the Sales Invoice/Order for currency exchange to work correctly. For example, if the Customer is from the US, create a receivable account called 'Debtors US'.
 
@@ -161,9 +202,9 @@ Since Currency Exchange Rate fluctuates all the time, it can lead to a differenc
 
 Payments can also be made independent of invoices by creating a new Payment Entry.
 
-To know more, [visit this page](/docs/user/manual/en/accounts/articles/managing-transactions-in-multiple-currency).
+To know more about managing transactions in multiple currencies [visit this page](/docs/user/manual/en/accounts/articles/managing-transactions-in-multiple-currency).
 
-### 3.2 Internal Transfer
+### 4.2 Internal Transfer
 
 Internal Transfer is used in cases where the money is transferred between the same Company's accounts. For example, if a customer from the US using PayPal, transferring money from PayPal to a bank account can be considered as Internal Transfer.
 
@@ -176,7 +217,9 @@ Following internal transfers can be managed from the Payment Entry.
 
 <img class="screenshot" alt="Making Payment" src="{{docs_base_url}}/assets/img/accounts/payment-entry-9.png">
 
-### 3.3 Managing Different Payment Scenarios
+### 4.3 Managing Different Payment Scenarios
+
+For an unpaid invoice, outstanding amount = grand total. When creating Payment Entries, the value in the outstanding amount will reduce.
 
 In most cases, apart from retail sales, billing and payments are separate activities. There are several combinations in which these payments are done. These cases apply to both Sales and Purchases.
 
@@ -191,17 +234,17 @@ ERPNext allows you to manage all these scenarios. All accounting entries (GL Ent
 The total outstanding amount against an invoice is the sum of all the accounting entries that are made “against” (or are linked to) that invoice. This way you can combine or split payments in Payment Entry to manage the
 scenarios.
 
-### 3.4 Difference between Payment Entry and Journal Entry
+### 4.4 Difference between Payment Entry and Journal Entry
 
-2. Using Journal Entry requires an understanding of which Account will get Debited or Credited. In the Payment Entry, it is managed in the backend, hence simpler for the User.
-3. Payment Entry is more efficient in managing payments in foreign currencies.
-3. Journal Entry can still be used for:
-- Updating opening balance in an Accounts.
-- Fixed Asset Depreciation entry.
-- For adjusting Credit Note against Sales Invoice and Debit Note against Purchase Invoice, in case there is no payment happening at all.
-4. Payment Entries are used if a cheque is printed.
+1. Using Journal Entry requires an understanding of which Account will get Debited or Credited. In the Payment Entry, it is managed in the backend, hence simpler for the User.
+1. Payment Entry is more efficient in managing payments in foreign currencies.
+1. Cheques can be printed from Payment Entries using the Cheque Print Format.
+1. Journal Entry can still be used for:
+ - Updating opening balance in Accounts.
+ - Fixed Asset Depreciation entry.
+ - For adjusting Credit Note against Sales Invoice and Debit Note against Purchase Invoice, in case there is no payment happening at all.
 
-### 3.5 Payments Using Journal Entry
+### 4.5 Payments Using Journal Entry
 
 To make payment using Journal Entry follow these steps:
 
@@ -215,7 +258,7 @@ To make payment using Journal Entry follow these steps:
  <img class="screenshot" alt="Making Payment" src="{{docs_base_url}}/assets/img/accounts/journal-entry.png">
 
 
-## 4. Related Topics
+## 5. Related Topics
 1. [Payment Request](/docs/user/manual/en/accounts/payment-request)
 1. [Payment Terms](/docs/user/manual/en/accounts/payment-terms)
 1. [Sales Invoice](/docs/user/manual/en/accounts/sales-invoice)

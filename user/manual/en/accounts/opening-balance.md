@@ -3,6 +3,8 @@
 
 **The opening balance is the balance that is brought forward at the beginning of an accounting period from the end of a previous accounting period or when starting out.**
 
+This also applies when starting a new Company and would like your offline balances to be updated in ERPNext.
+
 ## 1. Introduction
 
 If you are a new company, you will have minimal opening balances to be imported. However, if you are migrating from a legacy accounting system like Tally or a Fox Pro based software you will have considerable data to be imported as opening balance.
@@ -22,7 +24,9 @@ We recommend that you start using ERPNext for accounting from a new financial ye
 1. Accounts Payables(AP) i.e. unpaid invoices which your suppliers have sent you
 
 
-If you were using another accounting software before, you should close financial statements in that software first. The closing balance of the accounts should be updated as an opening balance in the ERPNext. Before starting to update opening balance, ensure that your [Chart of Accounts](/docs/user/manual/en/accounts/chart-of-accounts) has all the Accounts required.
+If you were using another accounting software before, you should **close** financial statements in that software first. The closing balance of the accounts should be updated as an opening balance in the ERPNext. Before starting to update opening balance, ensure that your [Chart of Accounts](/docs/user/manual/en/accounts/chart-of-accounts) has all the Accounts required.
+
+Opening entries can be created using the Opening Invoice Creation Tool in ERPNext.
 
 > Opening entry is only for Balance Sheet accounts and not for Profit and Loss Accounts.
 
@@ -49,8 +53,6 @@ If you were using another accounting software before, you should close financial
 Once all assets and liabilities have been imported, the balance of **Temporary Opening** ledger should be zero.
 
 After completing the accounting entries, the trial balance report will look as shown below.
-
-<img class="screenshot" alt="Opening Account" src="{{docs_base_url}}/assets/img/accounts/opening-4.png">
 
 ## 5. Video
 <div>

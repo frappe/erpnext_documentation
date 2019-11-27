@@ -1,5 +1,5 @@
 <!-- add-breadcrumbs -->
-# Import Capital Accounts
+# Update Capital Accounts
 
 Before importing capital accounts, make sure that you have created the required ledgers under **Chart of Accounts > Liabilities > Capital Accouns** group.
 

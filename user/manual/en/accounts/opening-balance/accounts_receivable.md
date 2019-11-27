@@ -1,5 +1,5 @@
 <!-- add-breadcrumbs -->
-# Import Accounts Receivables
+# Update Accounts Receivables
 
 **Accounts Receivables is the balance amount your Customer owes you towards the Sales Invoices you have already sent to them.**
 

@@ -1,9 +1,9 @@
 <!-- add-breadcrumbs -->
 # Bank Account
 
-**A Bank Account stores the financial transactions made by and balance held by the account holder.**
-
 In ERPNext, Bank Accounts can be created for a Company as well as other parties like Customers, Suppliers etc. Doing this lets you record all the bank transactions correctly for accounting accuracy.
+
+You can add Bank Accounts in ERPNext for Company. Supplier, Customer, or any other party with whom transactions are carried out. Then the Bank Account can be chosen in [Payment Entries](/docs/user/manual/en/accounts/payment-entry) as a [Mode of Payment](/docs/user/manual/en/accounts/mode-of-payment).
 
 To access Bank Account, go to:
 > Home > Accounting > Bank Statement > Bank Account

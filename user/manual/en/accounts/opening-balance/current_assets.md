@@ -1,5 +1,5 @@
 <!-- add-breadcrumbs -->
-# Import Current Assets
+# Update Current Assets
 
 Before importing current assets, make sure that you have created the required ledgers under **Chart of Accounts > Assets > Current Assets** group.
 

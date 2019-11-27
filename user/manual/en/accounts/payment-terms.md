@@ -1,11 +1,11 @@
 <!-- add-breadcrumbs -->
 # Payment Terms
 
-**A Payment Term is an agreement between the buyer and seller on how much money will be paid in what time.**
+**A Payment Term helps to set a schedule according to which payments will be made.**
 
-For example, 50% payment on shipping and 50% on delivery of the item. You can save your business's payment terms on ERPNext and include it in all documents in the sales/purchase cycle. ERPNext will make all the General Ledger entries accordingly.
+A Payment Term defines a specific payment slab. For example, 50% payment on shipping and 50% on delivery of the item. You can save your business's payment terms on ERPNext and include it in all documents in the sales/purchase cycle. ERPNext will make all the General Ledger entries accordingly.
 
-In ERPNext, the Payment Terms form only defines portion percentages, the actual Payment Terms can easily applied using the Payment Terms Template.
+In ERPNext, the Payment Terms form only defines portion percentages. The actual payment schedule can easily be applied using the Payment Terms Template.
 
 You can use Payment Terms in the following documents:
 
@@ -23,9 +23,10 @@ Note that the introduction of Payment Terms removes "Credit Days" and "Credit Da
 ![Payment Terms]({{docs_base_url}}/assets/img/accounts/payment-terms.png)
 
 ## 1. How to create a Payment Term
+
 1. Go to the Payment Term list and click on New.
 1. Enter a name for the Payment Term (eg: 50% post shipment).
-1. Enter the Invoice portion. If you enter 30, the portions will be 30 and 70 percent of the Invoice amount.
+1. Enter the Invoice portion. If you enter 50, the portion will be 50 percent of the Invoice amount.
 1. Select a Due Date type.
 1. Under Credit Days enter the number of days after which the remaining amount has to be paid.
 1. Save.
@@ -33,12 +34,12 @@ Note that the introduction of Payment Terms removes "Credit Days" and "Credit Da
 The fields are explained as follows:
 
 * **Payment Term Name:** The name for this Payment Term.
-* **Due Date Based On:** The basis by which the due date for the Payment Term is to be calculated. This is calculates X number of days from the **posting date** of the invoice/order. There are three options:
- - Day(s) after invoice date: Due date should be calculated in days with reference to the posting date of the invoice
- - Day(s) after the end of the invoice month: Due date should be calculated in days with reference to the last day of the month in which the invoice was created
- - Month(s) after the end of the invoice month: Due date should be calculated in months with reference to the last day of the month in which the invoice was created
-* **Invoice Portion:** The portion of the total invoice amount for which this Payment Term should be applied. Value given will be regarded as percentage i.e 50 = 50%.
-* **Credit Days (optional):** The number of days or month credit is allowed depending on the option chosen in the Due Date Based On field. 0 means no credit allowed.
+* **Due Date Based On:** The basis by which the due date for the Payment Term is to be calculated. This is calculated X number of days from the **posting date** of the invoice/order. There are three options:
+ - **Day(s) after invoice date**: Due date should be calculated in days with reference to the posting date of the invoice. For example, if 7 is entered on date 20th, the due date will be 27.
+ - **Day(s) after the end of the invoice month**: Due date should be calculated in days with reference to the last day of the month in which the invoice was created. For example, if 7 is entered in the current month and the last day of the month is 30th, the due date will be the 7th of the next month.
+ - **Month(s) after the end of the invoice month**: Due date should be calculated in months with reference to the last day of the month in which the invoice was created. For example, if 3 is entered on 20th of January, the due date will be on 20th March.
+* **Invoice Portion:** The portion of the total invoice amount for which this Payment Term should be applied. Value given will be regarded as percentage i.e 50 = 50% of the invoice/orders Grand Total
+* **Credit Days (optional):** The number of days or month credit is allowed depending on the option chosen in the Due Date Based On the field. 0 means no credit allowed.
 * **Description:** (optional) A brief description of the Payment Term.
 
 ### 1.2 Payment Terms in Converted Documents
@@ -47,7 +48,12 @@ When converting or copying documents in the sales/purchase cycle, the attached P
 For ease of use, you can also set a Payment Terms Template and simply reselect it.
 
 ### 1.3 Adding Payment Terms To Documents
-You can add Payments Terms in the "Payment Terms Schedule" section of the Document. Each row in the table represents a portion of the document's grand total. 
+
+Once you have composed Payment Terms Template, you can use them in sales and purchase transactions. Based on the value defined for Payment Terms and transaction value, the payment schedule will be defined, with Due Date for each payment slab.
+
+![Payment Schedule]({{docs_base_url}}/assets/img/accounts/payment-term-table.png)
+
+Note: The Payment Schedule can be shown in the Print View using the [Print Format Builder](/docs/user/manual/en/setting-up/print/print-format-builder).
 
 ### 2. Related Topics
 1. [Sales Invoice](/docs/user/manual/en/accounts/sales-invoice)
