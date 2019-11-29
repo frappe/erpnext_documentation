@@ -19,16 +19,18 @@ Before creating and using Asset Movement, it is advised to create the following 
 
 ## 2. How to create an Asset Movement
 1. Go to the Asset Movement list, click on New.
-1. Select the Asset. 
+1. Select the Purpose from 'Issue', 'Receipt', or 'Transfer'. Mandatory fields will be changed based on purpose.
 1. Select a date.
-1. Enter the Quantity to be transfered.
-1. Enter the source and target Locations of the Asset.
-1. You can also transfer an Asset from one Employee to another by selecting the From and To Employee.
+1. Select Assets you want to move. Currenct Location / Custodian will be automatically fetched.
+1. Select Reference Document Type (Optional).
+1. Select Reference Document Name (Optional).
 1. Save.
 1. Submit.
 
-    If the Item is Serialized, enter the Serial Number. 
-
-There is also a **Transfer Asset** button on the top right of the Asset form to initiate Asset Movement. Enter the target location, select a date and click on Transfer.
+To make an Asset Movement of a number of assets, it is advised to go to Asset List, select assets to be moved and click on **Make Asset Movement** from Actions menu on the top left. 
 
 <img class="screenshot" alt="Asset" src="{{docs_base_url}}/assets/img/asset/asset-movement-using-button.png">
+
+There is also a **Transfer Asset** button on the top right of the Asset form to initiate Asset Movement. It auto fills available fields from Asset Form.
+
+<img class="screenshot" alt="Asset" src="{{docs_base_url}}/assets/img/asset/asset-movement-using-transfer-asset-button.png">

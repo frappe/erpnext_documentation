@@ -50,6 +50,8 @@ Before creating and using an Item, it is advised that you create the following f
 
 * **Is Fixed Asset**: Tick this checkbox if this item is a company Asset. Check out the [Asset Module](/docs/user/manual/en/asset) to know more.
 
+* **Auto Create Assets on Purchase**: If Item is a Company Asset, tick this checkbox if you want to auto create assets while purchasing this item through [Purchase Cycle](/docs/user/manual/en/buying/purchase-order). Check out the [Asset Page](/docs/user/manual/en/asset/asset) to know more.
+
 * **Allowance Percentage**: This option will be available only when you create and save the item. This is the percent by which you will be allowed to over-bill or over-deliver this Item. If not set, it will select from [Stock Settings](/docs/user/manual/en/stock/stock-settings#3-limit-percent).
 
 * **Uploading an Image**: To upload an image for your icon that will appear in all transactions, save the partially filled form. Only after your file is saved the 'Change' button will appear on the Image icon. Click on Change, then click on Upload, and upload the image.
