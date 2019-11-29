@@ -8,6 +8,7 @@ your website and make it match your brand.
 
 ## 1. How to create a Website Theme
 
+1. Go to the Website Theme list and click on New.
 1. Enter a Theme Name.
 1. Click on Configure Theme and customize your theme.
 1. Click on Save.

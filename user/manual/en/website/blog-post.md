@@ -14,7 +14,7 @@ To access the Blog Post, go to:
 
 ## 1. How to create a Blog Post
 
-1. Click on New.
+1. Go to the Blog Post list and click on New.
 1. Enter the Title, Blog Category, Blogger, and the Content.
 1. Enable Published and click on Save.
 
