@@ -31,6 +31,7 @@ for a demonstration of the Website module in ERPNext.
 1. [Web Form](/docs/user/manual/en/website/web-form)
 1. [Website Settings](/docs/user/manual/en/website/website-settings)
 1. [Website Theme](/docs/user/manual/en/website/website-theme)
+1. [Website Route Meta](/docs/user/manual/en/website/website-route-meta)
 1. [Product Page](/docs/user/manual/en/website/product-page)
 1. [Product Listing](/docs/user/manual/en/website/product-listing)
 1. [Shopping Cart](/docs/user/manual/en/website/shopping-cart)
