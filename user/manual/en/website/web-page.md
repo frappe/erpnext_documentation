@@ -10,7 +10,7 @@ To access Web Page go to:
 
 ## 1. How to create a Web Page
 
-1. Go to the Web Page list and Click on New.
+1. Go to the Web Page list and click on New.
 1. Enter a Title and add content in Main Section. The route will auto generated
    but you can change it.
 1. Click on Save.
