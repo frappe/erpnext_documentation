@@ -48,6 +48,7 @@ The Stock module is tightly integrated with Purchase, Manufacturing and Accounti
 ### 1.6 Tools
 1. [Quality Inspection](/docs/user/manual/en/stock/quality-inspection)
 1. [Stock Reconciliation](/docs/user/manual/en/stock/stock-reconciliation)
+1. [Quick Stock Balance](/docs/user/manual/en/stock/quick-stock-balance)
 
 ### 1.7 Return
 1. [Sales Return](/docs/user/manual/en/stock/sales-return)
