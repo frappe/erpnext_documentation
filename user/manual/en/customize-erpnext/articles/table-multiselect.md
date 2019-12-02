@@ -30,4 +30,6 @@ You can remove any selected value by clicking on the cross sign next to selected
 
 This field allows one value to be selected only once.
 
+> Note: Table MultiSelect fields cannot be added in child DocTypes.
+
 {next}
