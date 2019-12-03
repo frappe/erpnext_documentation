@@ -52,18 +52,18 @@ Usually, "Source Warehouse" and "Target Warehouse" both are set for recording a 
 * **From BOM**: If this is a Manufacturing entry, the associated BOM for the Item being manufactured will be shown.
 
 ### 2.2 Stock Entry Type
-You can also create a Stock Entry Type where only the name will be different, for example 'Scrap Entry'. The purpose will be Material Transfer but the name will be different. This is useful if you want certain Users to have access only to specific actions related to stock. 
+You can also create a Stock Entry Type where only the name will be different, for example 'Scrap Entry'. The purpose will be Material Transfer but the name will be different. This is useful if you want certain Users to have access only to specific actions related to stock.
 
 ![Stock Entry Type](/docs/assets/img/stock/stock-entry-type.png)
 
 ## 3. Features
 
 ### 3.1 The Items table
-Details about the Item, Rate, Quantity, etc. will be shown here. 
+Details about the Item, Rate, Quantity, etc. will be shown here.
 
 Ticking on 'Allow Zero Valuation Rate' will allow submitting the Purchase Receipt even if the Valuation Rate of the Item is 0. This can be a sample item or due to a mutual understanding with your Supplier.
 
-Different Source and Target Warehouses can be set for different Items. 
+Different Source and Target Warehouses can be set for different Items.
 
 ### 3.2 Additional Costs
 
@@ -98,7 +98,9 @@ Purchase Receipt headings can also be changed when printing the document. You ca
 
 ### 3.6 Perpetual Inventory
 
-If the perpetual inventory system is enabled, additional costs will be booked in "Expense Included In Valuation" account.
+If the perpetual inventory system is enabled, additional costs will be booked in Expense Account mentioned in the Additional Costs table .
+
+<img class="screenshot" alt="Additional Costs General Ledger" src="{{docs_base_url}}/assets/img/stock/stock-entry-additional-cost.png">
 
 <img class="screenshot" alt="Additional Costs General Ledger" src="{{docs_base_url}}/assets/img/stock/additional-costs-general-ledger.png">
 
