@@ -1,7 +1,7 @@
 <!-- add-breadcrumbs -->
 # Plaid Integration
 
-ERPNext offers the possibility to synchronize your bank accounts through a service called [Plaid](https://plaid.com/).
+ERPNext offers the possibility to synchronize your bank accounts through a service called [Plaid](https://plaid.com/). Please check [the Plaid FAQ](https://plaid.com/docs/faq/#does-plaid-support-international-bank-accounts-) to see if your country is supported.
 
 If your instance is connected to Plaid, you are able to synchronize your bank account transactions without having to manually import a CSV or XLSX file.
 
