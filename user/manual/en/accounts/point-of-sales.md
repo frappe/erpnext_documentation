@@ -78,10 +78,10 @@ System books the Write Off amount into the General Ledger account which has sele
 
 ### 2.6 Change POS profile
 
-Change the POS profile via:
+Change the POS Profile via:
 > Menu > Change POS Profile
 
-Select the company and then choose the POS profile from the list. You can also set the new selection of POS profile as the default profile.
+Select the Company and then choose the POS Profile from the list. You can also set the newly selected POS profile as the default for the Company.
 
 <img class="screenshot" alt="Change POS Profile" src="{{docs_base_url}}/assets/img/accounts/Change-POS-Profile.png">
 
