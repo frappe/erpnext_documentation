@@ -76,6 +76,15 @@ For example, here bill amount is 2,310, but the Customer paid 2,300, then the am
 
 System books the Write Off amount into the General Ledger account which has selected on the POS Profile.
 
+### 2.6 Change POS profile
+
+Change the POS Profile via:
+> Menu > Change POS Profile
+
+Select the Company and then choose the POS Profile from the list. You can also set the newly selected POS profile as the default for the Company.
+
+<img class="screenshot" alt="Change POS Profile" src="{{docs_base_url}}/assets/img/accounts/Change-POS-Profile.png">
+
 ## 3. Features
 
 ### 3.1 Adding a new Customer
