@@ -15,7 +15,7 @@ You can also choose to customize the 'Message' you send to users.
     
 Before creating a Daily Work Summary Group, it is necessary you create the following:
 
-* [Email Account](/docs/user/videos/learn/email-account)
+* [Email Account](/docs/user/manual/en/setting-up/email/email-account)
 
 ## 2. How to create a Daily Work Summary Group
 

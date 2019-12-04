@@ -62,7 +62,7 @@ To create a new Employee Onboarding Template:
 
 ### 3.2 Tasks and Assignments
 
-On submission of the Employee Onboarding, a [Project](/docs/user/videos/learn/project-and-task) will be created. Within the Project, [Tasks](/docs/user/videos/learn/project-and-task) will also be created for each Activity. 
+On submission of the Employee Onboarding, a [Project](/docs/user/manual/en/projects/project) will be created. Within the Project, [Tasks](/docs/user/manual/en/projects/task) will also be created for each Activity. 
 
 You can view the created Projects and Tasks as shown below:
 

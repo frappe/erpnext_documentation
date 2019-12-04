@@ -49,7 +49,7 @@ To access the Coupon Code list, go to:
 
     It can be used on the shopping cart page before placing the order to avail discount. 
   
-4. Select [Pricing Rule](https://erpnext.com/docs/user/videos/learn/pricing-rule.html)  having **coupon code based** flag enabled. 
+4. Select [Pricing Rule](/docs/user/manual/en/accounts/pricing-rule)  having **coupon code based** flag enabled. 
 
 5. Click  on Save 
 
@@ -83,5 +83,5 @@ Price will get updated on successful application of the coupon code.
 
 ### 4. Related Topics
 
-1. [Shopping Cart](https://erpnext.com/docs/user/manual/en/website/shopping-cart)
-2. [Pricing Rule](https://erpnext.com/docs/user/videos/learn/pricing-rule.html)
+1. [Shopping Cart](/docs/user/manual/en/website/shopping-cart)
+2. [Pricing Rule](/docs/user/manual/en/accounts/pricing-rule)

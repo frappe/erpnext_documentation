@@ -29,7 +29,7 @@ A Supplier Quotation can be created from a [Supplier master](/docs/user/manual/e
 
 Or:
 
-The supplier can submit you a quotation himself via ERPNext. To know more about this, see section _3. Creating a Supplier Quotation after RFQ_ of [Request for Quotation](/docs/user/videos/learn/request-for-quotation).
+The supplier can submit you a quotation himself via ERPNext. To know more about this, see section visit the [Request for Quotation page](/docs/user/manual/en/buying/request-for-quotation#4-creating-a-supplier-quotation-after-rfq).
 
 ### 2.2 Creating a Supplier Quotation manually
 1. You can also make a Supplier Quotation directly from:
@@ -41,7 +41,7 @@ The supplier can submit you a quotation himself via ERPNext. To know more about 
     <img class="screenshot" alt="Supplier Quotation" src="{{docs_base_url}}/assets/img/buying/supplier-quotation.png">
 
 If you have multiple Suppliers who supply you with the same Item, you
-usually send out a [Request for Quotation](/docs/user/videos/learn/request-for-quotation) to various Suppliers. In
+usually send out a [Request for Quotation](/docs/user/manual/en/buying/request-for-quotation) to various Suppliers. In
 many cases, especially if you have centralized buying, you may want to record all the quotes so that:
 
   * You can easily compare prices in the future
@@ -76,6 +76,6 @@ The following items can be created after submitting a Supplier Quotation:
 1. [Supplier](/docs/user/manual/en/buying/supplier)
 1. [Supplier Group](/docs/user/manual/en/buying/supplier-group)
 1. [Purchase Order](/docs/user/manual/en/buying/purchase-order)
-1. [Request for Quotation](/docs/user/videos/learn/request-for-quotation.html)
+1. [Request for Quotation](/docs/user/manual/en/buying/request-for-quotation)
 
 {next}
