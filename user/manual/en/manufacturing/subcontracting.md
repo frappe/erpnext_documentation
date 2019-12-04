@@ -32,16 +32,20 @@ This BOM will be without Operations if all of the production work is done by the
 ### 1.2 Creating a Purchase Order
 Make a Purchase Order for the processed Item, the one for which you've created a BOM. When you “Save”, in the “Raw Materials Supplied”, all your un-processed Items will be updated based on your Bill of Materials. You can also select the Warehouse in which the raw materials would be reserved for subcontracting under Reserve Warehouse. 
 
-You need to set 'Supply Raw Materials' as Yes since this Purchase Order is for subcontracting.
+1. The costs involved with the subcontracting process should be recorded in the Rate field of the Items table in the Purchase Order shown as follows:
 
-<img class="screenshot" alt="Sub-Contracting" src="{{docs_base_url}}/assets/img/manufacturing/subcontract3.png">
+  <img class="screenshot" alt="Sub-Contracting" src="{{docs_base_url}}/assets/img/manufacturing/subcontract3.png">
 
-From a Purchase Order, select the raw materials to transfer to subcontractor:
-![Sub-Contracting](/docs/assets/img/manufacturing/po_material_transfer_subcontract.gif)
+1. In the previous image, we are providing the subcontractor with 2 boxes of each of the 3 materials to manufacture 240 pens. The cost involved with one pen is 27 and the total cost for all pens is hence 6,480
 
-Once the PO is submitted, you can view the reserved quantity of the item from the item dashboard as well.
+1. You need to set 'Supply Raw Materials' as Yes since this Purchase Order is for subcontracting.
 
-<img class="screenshot" alt="Sub-Contracting" src="{{docs_base_url}}/assets/img/manufacturing/subcontract3-reserved-material.png">
+1. From a Purchase Order, select the raw materials to transfer to subcontractor:
+  ![Sub-Contracting](/docs/assets/img/manufacturing/po_material_transfer_subcontract.gif)
+
+1. Once the PO is submitted, you can view the reserved quantity of the item from the item dashboard as well.
+
+  <img class="screenshot" alt="Sub-Contracting" src="{{docs_base_url}}/assets/img/manufacturing/subcontract3-reserved-material.png">
 
 ### 1.3 Creating Stock Entry to Transfer Raw Materials
 Now that the raw materials are reserved, make a Stock Entry to deliver the raw material Items to your Supplier.
