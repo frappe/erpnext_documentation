@@ -1,5 +1,5 @@
 <!-- add-breadcrumbs -->
-# Custom Script Fetch Values From Master
+# Custom Script for Fetching Values From Master
 
 To pull a value of a link on selection, use the `add_fetch` method.
 
@@ -10,11 +10,9 @@ To pull a value of a link on selection, use the `add_fetch` method.
 
 ### Example
 
-You create Custom Field **VAT ID** (`vat_id`) in **Customer** and **Sales
-Invoice** and want to make sure this value gets updated every time you select
-a Customer in a Sales Invoice.
+Let' say you have created a Custom Field **VAT ID** (`vat_id`) in **Customer** and **Sales Invoice** and want to make sure that this value gets updated every time you select a Customer in a Sales Invoice.
 
-Then in the Sales Invoice Custom Script, add this line:
+To configure this, in the Sales Invoice Custom Script, you can add this line:
 
     
     

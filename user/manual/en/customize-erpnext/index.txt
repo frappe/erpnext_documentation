@@ -1,9 +1,10 @@
 custom-field
 customize-form
-custom-doctype
+doctype
 document-title
 hiding-modules-and-features
 print-format
 custom-scripts
+custom-translations
 articles
 custom-translations

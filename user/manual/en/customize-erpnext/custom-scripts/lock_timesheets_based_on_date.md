@@ -1,7 +1,7 @@
 <!-- add-breadcrumbs -->
 # Lock Time Sheets Based on Date
 
-Let's say you would like all employees to fill time sheets by Friday of every week. And allow only users with 'Projects Manager' role to edit or add time sheets for days prior to the latest Friday. Below custom script will implement this feature.
+Let's say you would like all employees to fill time sheets by Friday of every week. And allow only those users having 'Projects Manager' role to edit or add time sheets for days prior to the latest Friday. Below custom script will implement this feature.
 
     frappe.ui.form.on("Timesheet", "validate", function(frm) {
         if (frappe.user_roles.indexOf("Projects Manager") == -1) {

@@ -1,48 +1,52 @@
 <!-- add-breadcrumbs -->
 #Kanban Board
 
-Kanban is a Japanese manufacturing system in which the supply of components is regulated through the use of an instruction card sent along the production line.
+**Kanban Board is a tool which will give you a descriptive layout of your data in ERPNext based on status and a virtual board.**
 
-In ERPNext Kanban board can be an alternative for the list views. It helps you in visualizing various documents (like Task, Projects, Quotatio etc.) based on some status on a virtual board. Also, you can easily update card status by dragging and dropping to required status column. Kanban Board helps to visualize, control and optimize workflow and collaborate in real-time with the entire team.
+This board shall consist of cards which represent the various Documents listed in a particular Document Type aligned as per the stage of operation of the transactions represented by Status Columns. The card status can be changed easily by dragging and dropping the cards across the board.
 
-###Create new Kanban Board
+A Kanban Board helps to visualize, control and optimize work-flow while collaborating with the entire team on a real-time basis.
 
-To  create a Kanban board in ERPNext click the Kanban dropdown on the sidebar, and select New Kanban Board.
+## Creating a new Kanban Board
 
-<img class="screenshot" alt="Add New Kanban Board" src="{{docs_base_url}}/assets/img/customize/kanban-board-1.png">
+To create a Kanban board in ERPNext click the Kanban dropdown on the sidebar, and select New Kanban Board.
 
-###Add new Card/Document
+<img class="screenshot" alt="Add New Kanban Board" src="{{docs_base_url}}/assets/img/customize/customize erpnext-kanban-board.gif">
 
-To add Cards on Kanban Board click Add Tasks. You can Edit a card details by click on the card and it will take you to the Task Doctype where you can further add and edit card details.
+## Adding new Card/Document
 
-<img class="screenshot" alt="Add card in Kanban Board" src="{{docs_base_url}}/assets/img/customize/kanban-board-2.png">
+To add Cards on Kanban Board click Add Tasks. You can Edit card details by click on the card and it will take you to the Task Doctype where you can further add and edit card details.
 
-###Update Cards/Document Status
+<img class="screenshot" alt="Add card in Kanban Board" src="{{docs_base_url}}/assets/img/customize/customize erpnext-kanban-board-1.gif">
 
-Based on the Task status you can drag and drop the Cards in the respective column. For example if the task is work in progress you can move the card for the task from the status Open to Working.
+## Update Cards/Document Status
 
-<img class="screenshot" alt="Move Cards on Kanban Board" src="{{docs_base_url}}/assets/img/customize/kanban-board-3.gif">
+Based on the Task status you can drag and drop the cards in the respective column. For example, if the task is work in progress you can move the card for the task from the status Open to Working.
 
-###Manage Columns
+<img class="screenshot" alt="Move Cards on Kanban Board" src="{{docs_base_url}}/assets/img/customize/customize erpnext-kanban-board-2.gif">
 
-To add more columns in the Kanban board click Add columns.
+## Manage Columns
 
-<img class="screenshot" alt="Add New column in Kanban Board" src="{{docs_base_url}}/assets/img/customize/kanban-board-4.gif">
+To add more columns in the Kanban board click on Add columns. 
 
-To move columns based on the priority drag and drop the columns as per requirement.
+<img class="screenshot" alt="Add New column in Kanban Board" src="{{docs_base_url}}/assets/img/customize/customize-kanban-add-column.png">
 
-<img class="screenshot" alt="Move columns in Kanban Board" src="{{docs_base_url}}/assets/img/customize/kanban-board-5.gif">
+You can move the columns as per your priority.
 
-To set Colors to a Card click drop down menu on the card and assign color to it.
+<img class="screenshot" alt="Add New column in Kanban Board" src="{{docs_base_url}}/assets/img/customize/customize erpnext-kanban-board-3.gif">
+
+You can also assign colors to columns.
 
 <img class="screenshot" alt="Add color to cards in Kanban Board" src="{{docs_base_url}}/assets/img/customize/kanban-board-6.gif">
 
-You can also Archive and Restore the columns added in a Kanban board. To do so click Archive in drop down menu on the card. Once archived you can restore the column from the list of the archived columns in the Kanban board.
+You can also Archive and Restore the columns added in a Kanban board. To do so click Archive in the drop-down menu on the card. Once archived you can restore the column from the list of the archived columns in the Kanban board.
 
-<img class="screenshot" alt="Archive and Restore in Kanban Board" src="{{docs_base_url}}/assets/img/customize/kanban-board-7.gif">
+<img class="screenshot" alt="Archive and Restore in Kanban Board" src="{{docs_base_url}}/assets/img/customize/customize erpnext-kanban-board-4.gif">
 
-###Filters
+## Filters
 
-You can create multiple Kanban Boards based on different filters. To save filters for a Kanban Board, click on Menu and then "Save filters"
+You can create multiple Kanban Boards based on different filters. To save filters for a Kanban Board, click on Menu and then "Save filters".
 
-<img class="screenshot" alt="Save filters in Kanban Board" src="{{docs_base_url}}/assets/img/customize/kanban-board-8.gif">
+<img class="screenshot" alt="Save filters in Kanban Board" src="{{docs_base_url}}/assets/img/customize/customize erpnext-kanban-board-5.gif">
+
+{next}

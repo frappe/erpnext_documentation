@@ -3,8 +3,8 @@
 
 Use the method `cur_frm.set_df_property` to update the field's display.
 
-In this script we also use the `__islocal` property of the doc to check if the
-document has been saved atleast once or is never saved. If `__islocal` is `1`,
+In this script we also use the `__islocal` property of the DocType to check if the
+document has been saved at least once or is never saved. If `__islocal` is `1`,
 then the document has never been saved.
 
 ```js

@@ -1,4 +1,4 @@
-## Example to fetch value in a child table field from master doctype
+# Example showing how to fetch value in a child table field from Master DocType
 
 
 ### Sample Script to fetch expiry_date field from Batch doctype to Sales Invoice Item table
@@ -15,3 +15,4 @@ frappe.ui.form.on("Sales Invoice Item", "batch_no", function(frm, cdt, cdn) {
     	});
 });
 ```
+{next}
