@@ -2,7 +2,7 @@
 # Student
 
 A Student is a person who has enrolled at your institute and you have accepted their application.
-The Student doctype maintains detials like personal information, photo, date of birth, address etc. It also records the **Guardian** and sibling details. 
+The Student doctype maintains details like personal information, photo, date of birth, address etc. It also records the **Guardian** and sibling details. 
 
 
 <img class="screenshot" alt="Student" src="{{docs_base_url}}/assets/img/education/student/student.png">
