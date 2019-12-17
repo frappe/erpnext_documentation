@@ -38,6 +38,8 @@ For scripts that are to be called via document events, you must set the Referenc
 - After Cancel
 - Before Delete
 - After Delete
+- Before Save (Submitted Document)
+- After Save (Submitted Document)
 
 ### 2.3 API Scripts
 
