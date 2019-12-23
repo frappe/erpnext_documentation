@@ -117,6 +117,22 @@ table, th, td {
       <td>Label</td>
       <td>Label is the field name which appears in form.</td>
     </tr>
+    <tr>
+      <td>Depends On</td>
+      <td>Condition on which the field's display depends.</td>
+    </tr>
+    <tr>
+      <td>Mandatory Depends On</td>
+      <td>Condition which determines whether the field will be mandatory.</td>
+    </tr>
+    <tr>
+      <td>Read Only Depends On</td>
+      <td>Condition which determines whether the field will be read only.</td>
+    </tr>
+    <tr>
+      <td>Collapsible Depends On</td>
+      <td>Condition which determines whether a Section Break field will be collapsible.</td>
+    </tr>
   </tbody>
 </table>
 
