@@ -2,11 +2,11 @@
 
 ## 1. Enable Appointment scheduling
 
-This checkbox will enable appointment scheduling and also enable the `/book_appointment` Route
+This checkbox will enable appointment scheduling and also enable the `/book_appointment` Route for website users (your customers).
 
 ## 2. Agent Details 
 
-This section contains details about agents, such as work hours and holidays
+In this section, you can add details about agents, such as their working hours and holidays.
 
 ### 2.1  Availability of Slots
 
@@ -20,7 +20,7 @@ This is the list of agents which will be autoassigned to appointments. The numbe
 
 ### 2.3 Holiday list
 
-You can link a (holiday list)[https://erpnext.com/docs/user/manual/en/human-resources/holiday-list] here, to apply to the appointment schedule. If the day is a holiday, scheduling an appointment on that day won't be allowed.
+You can link a (holiday list)[https://erpnext.com/docs/user/manual/en/human-resources/holiday-list] here to apply to the appointment schedule. If the day is a holiday, scheduling an appointment on that day won't be allowed.
 
 ## 3. Appointment Details
 
@@ -32,14 +32,14 @@ The duration of appointment in minutes. This is used to calculate appointment ti
 
 ### 3.2 Notify Via Email
 
-Enabling this checkbox will send an email to the participants of the appointments i.e. your employee and the customer on the day of the appointment. Changing this does not affect the appointments created before the change.
+Enabling this checkbox will send an email to the participants of the appointments i.e. your employee and the customer on the day of the appointment. Changing this checkbox does not affect the appointments created before the change.
 
 ### 3.3 Number of days appointment can be books in advance
 
 This is the number of days the appointment can be booked in advance. If the Holiday List provided above ends before the date calculated using this number, appointment schedulling will be stopped at the end of holiday list end.
 
 
-### 4. Success settings
+## 4. Success settings
 
 ### 4.1 Success Redirect URL
 
