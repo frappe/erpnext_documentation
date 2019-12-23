@@ -32,17 +32,7 @@ You can quickly add Weekly Offs in the Holiday List as follows:
 2. Click on 'Add to Holidays' button.
 3. Save.
 
-Once the Weekly Off is added, it is reflected in the Holidays table. 
-
-
-> **Note:** You can add multiple days in the Weekly Offs.
-
-1. In the 'Add Weekly Holidays' section, select the day in the Weekly Off field.
-2. Click on 'Add to Holidays' button.
-3. Save.
-
-Once the Weekly Off is added, it is reflected in the Holidays table. 
-
+Once the Weekly Off is added, it is reflected in the Holidays table.
 
 > **Note:** You can add multiple days in the Weekly Offs.
 
