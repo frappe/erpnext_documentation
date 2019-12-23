@@ -22,8 +22,9 @@ To open System Settings, go to:
 
 ### 1.2 Date and Number Format
 
-* **Date Format**: Format in which dates will be displayed. Eg: dd.mm.yyyy or mm/dd/yyyy. This depends on how dates are formatted in your region.
-* **Number Format**: Format in which numbers will be formatted. Eg: 1,000 or 1000.00.
+* **Date Format**: Format in which dates will be displayed. For e.g., dd.mm.yyyy or mm/dd/yyyy. This depends on how dates are formatted in your region.
+* **Time Format**: Format in which time will be displayed. You can choose to show (`HH:mm:ss`) or hide seconds by setting the option as (`HH:mm`) .
+* **Number Format**: Format in which numbers will be formatted. For e.g., 1,000 or 1000.00.
 * **Float Precision**: The number of zeros displayed after the decimal point for quantities etc. The range is 2-9. Default is 3.
 * **Currency Precision**: Number of zeros displayed after the decimal point for currency values. If left blank, it will be based on the **Number Format**.
 
