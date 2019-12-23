@@ -39,3 +39,5 @@ something like this:
 >
 > For e.g., You can add meta tags to your blog posts if you know the route which
 > you can get from the Blog Post form.
+
+{next}

@@ -35,10 +35,10 @@ for a demonstration of the Website module in ERPNext.
 1. [Product Page](/docs/user/manual/en/website/product-page)
 1. [Product Listing](/docs/user/manual/en/website/product-listing)
 1. [Shopping Cart](/docs/user/manual/en/website/shopping-cart)
+1. [Social Login Keys](/docs/user/manual/en/website/social-login-keys)
 
 ## 2. Articles
 
-1. [Social Login Keys](/docs/user/manual/en/website/social-login-keys)
 1. [Disable Signup](/docs/user/manual/en/website/articles/disable-signup)
 1. [Website Security](/docs/user/manual/en/website/articles/website-security)
 1. [Website Home Page](/docs/user/manual/en/website/articles/website-home-page)

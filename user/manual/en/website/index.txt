@@ -4,6 +4,8 @@ blog-post
 web-form
 website-settings
 website-theme
+website-route-meta
 product-page
 product-listing
 shopping-cart
+social-login-keys
