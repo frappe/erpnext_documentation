@@ -107,7 +107,13 @@ action.
 Learn how to write custom scripts for your Web Forms
 [here](https://frappe.io/docs/user/en/web-forms#custom-script).
 
-### 2.6 Actions
+### 2.6 Custom CSS
+
+You can customize the look and feel of your Web Form by writing your own Custom
+CSS. Inspect the elements on the page to see what classes are available for
+styling. Learn more about CSS [here](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/CSS_basics).
+
+### 2.7 Actions
 
 You can add the text in 'Success Message' field and this text will be shown to
 user once he successfully submits the web form . And the user is redirected to
@@ -119,12 +125,12 @@ Required' checkbox unchecked).
 src="{{docs_base_url}}/assets/img/website/success_message.png">
 
 
-### 2.7 Result
+### 2.8 Result
 
 When a website user submits the form, the data will be stored in the
 document/doctype for which web form is created.
 
-### 2.8 Customizing
+### 2.9 Customizing
 
 For customizing web forms, see the [Frappe Web
 Forms Documentation](https://frappe.io/docs/user/en/guides/portal-development/web-forms)
