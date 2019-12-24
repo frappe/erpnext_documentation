@@ -1,21 +1,29 @@
 <!-- add-breadcrumbs -->
 
-#Copy Pasting Multiple Records From Excel
+# Copy Pasting Multiple Records From Excel
 
-From v11, it is now possible to copy and paste multi records into child table field in the form by simply follow the steps below:
+**If you have a sequence of records saved in an excel sheet, that need to be mapped into a Child Table in ERPNext, the same can be done using this feature.**
 
-1. Prepare the source data in Excel or text editor with each column separated by tab.
+Let's say, you have a list of items saved in an Excel sheet, and you need to copy the same to the 'Items' Child Table in the Sales Order.
 
-<img alt="Preparing data in Excel" class="screenshot" src="{{docs_base_url}}/assets/img/articles/copy-paste-records/prepare-excel-sheet.png">
+## Steps to Copy Paste records from excel
 
-2. Drag to select the records , and click the copy menu button or by Ctrl + C (Cmd + C) for 
+* Prepare the source data in Excel or text editor with each column separated by tab.
 
-     Case 1. First line as column header, both field name and label supported, hidden columns can be copied
+     ![Copy Pasting](/docs/assets/img/using-erpnext/using-copy-paste-1.png)
 
-     Case 2. No column header, the data will directly map to the visible columns
+* Drag to select the records , and click the copy menu button or by Ctrl + C (Cmd + C) for 
 
-<img alt="Dragging the records" class="screenshot" src="{{docs_base_url}}/assets/img/articles/copy-paste-records/drag-records.png">
+     Case 1. First Column of the excel sheet should be the Column header, and the contents therein.
 
-3. Place the cursor to the target input field of the child table, paste it by Ctrl + V. Uunlike the import via upload file feature which also can batch input the child table, this copy & paste feature will trigger field change event automatically. In other word if only item_code is pasted, the item price, qty and other item code related fields will be auto populated just like user manually input item code and press ENTER. on the other hand, for performance consideration, less than 100 records per paste is allowed.
+     Case 2. When there is no defined column header, the data will be mapped to the visible columns.
 
-<img alt="Cancel Doc" class="screenshot" src="{{docs_base_url}}/assets/img/articles/copy-paste-records/copy-paste-excel-to-child-table.gif">
+     ![Copy Pasting](/docs/assets/img/using-erpnext/using-copy-paste-4.png)
+
+* Place the cursor to the target input field of the child table, and paste it. Unlike the import via upload file feature, this copy & paste feature will trigger field change event automatically. 
+
+     ![Copy Pasting](/docs/assets/img/using-erpnext/using-copy-paste-3.gif)
+
+For performance consideration, you should only paste less than or equal to 100 records at a time.
+
+{next}

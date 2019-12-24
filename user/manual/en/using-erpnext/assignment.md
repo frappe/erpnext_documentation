@@ -1,40 +1,40 @@
 <!-- add-breadcrumbs -->
 # Assignment
 
-Assign To feature in ERPNext allows you to allocate particular document to specific user, whom needs to further work on that document.
+**Assign To is a feature in ERPNext that allows you to assign a  particular document to specific user, who needs to further work on that document.**
 
-For example, if Sales Order needs to be approved/submitted by Sales Manager, first draft user can allocate that Sales Order to Sales Manager. On allocating document to Sales Manager, it will be added to that user's ToDo list. Same way, allocation can also be done to Material User and Account user who needs to create Delivery Note and Sales Invoice respectively against this Sales Note.
+For example, if a Sales Order needs to be approved or submitted by the Sales Manager, first draft user can assign that Sales Order to the Sales Manager. 
 
-<div class=well>Permissions restriction cannot be done based on Assigned To.</div>
+On assigning this document to the Sales Manager, it will be added to that user's ToDo list. 
 
-Following are the steps to assign document to another user.
+Similarly, for a Delivery Note and a Sales Invoice against this sales Order, the assignment can be done to a Material User and an Account User.
 
-#### Step 1: Click on the Assign To Button
+![Assignment](/docs/assets/img/using-erpnext/using-assignment-1.png)
 
-Assign to option is located at the footer of document. Clicking on Assignment Icon on the tool bar will fast-forward you to footer of same document.
+> Note: Assignment can be done irrespective of Permission Restrictions.
 
-<img class="screenshot" alt="Assign" src="{{docs_base_url}}/assets/img/collaboration-tools/assign-1.png">
+## New Assignment
 
-#### Step 2: Assign to User
+To make a new assignment, go to the document for which you wish to make the assignment and click on the 'Assigned to' button located at the left sidebar. Select the name of the User to whom you want to make this assignment.
 
-In the Assign To section, you will find option to select User to whom this document will be assigned to. You can assign one document to multiple people at a time.
+![Assignment](/docs/assets/img/using-erpnext/using-assignment-2.gif)
 
-<img class="screenshot" alt="Assign" src="{{docs_base_url}}/assets/img/collaboration-tools/assign-2.png">
+Along with assignment, you can also leave a comment for the review of the assignee.
 
-With assignment, you can also leave a comment for the review of assignee.
+![Assignment](/docs/assets/img/using-erpnext/using-assignment-3.gif)
 
-####ToDo List of Assignee
+### ToDo List of Assignee
 
-This transaction will appear in the To-do list of the user in “Todo” section.
+Every assignment made to a particular User will be reflected in their ToDo section.
 
-<img class="screenshot" alt="Assign" src="{{docs_base_url}}/assets/img/collaboration-tools/assign-3.png">
+![Assignment](/docs/assets/img/using-erpnext/using-assignment-4.png)
 
-####Removing Assignment
+### Removing Assignment
 
-User will be able to remove assignment by clicking on "Assignment Completed" button in the document.
+User will be able to remove assignment by clicking on "Closed" button in the document.
 
-<img class="screenshot" alt="Assign" src="{{docs_base_url}}/assets/img/collaboration-tools/assign-4.png">
+![Assignment](/docs/assets/img/using-erpnext/using-assignment-5.png)
 
-Once assignment is set as completed, the Status of its ToDo record will be set as Closed.
+Once assignment is set as completed, the corressponding ToDo will simultaneously be updated as 'Closed'.
 
 {next}

@@ -1,9 +1,8 @@
 adding-attachment-to-outgoing-messages
 check-link-between-documents
-delete-submitted-document
 duplicate-record
+todo-auto-creation
 adding-file-as-a-attachment
-merging-documents
 bulk-rename
 renaming-documents
 search-filter
@@ -12,3 +11,4 @@ letter-head-in-the-report
 global-search
 copy-pasting-multiple-records-from-excel
 keyboard-shortcuts
+comments

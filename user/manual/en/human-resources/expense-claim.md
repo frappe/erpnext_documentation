@@ -26,7 +26,7 @@ To access an Expense Claim, go to:
 1. In Accounting Details, select the Company's Default Payable Account.
 1. Save and Submit.
 
-<img class="screenshot" alt="Expense Claim" src="{{docs_base_url}}/assets/img/human-resources/expense-claim.png">
+<img class="screenshot" alt="Expense Claim" src="{{docs_base_url}}/assets/img/human-resources/expense_claim.png">
 
 
 Set the Employee ID, date, the list of expenses, and corresponding taxes that are to be claimed and “Submit” the record.

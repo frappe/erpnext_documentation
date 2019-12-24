@@ -1,24 +1,26 @@
 <!-- add-breadcrumbs -->
-#Tree Master Renaming
+# Tree Master Renaming
 
-There are various master which are maintained in tree structure. Click [here](/docs/user/manual/en/setting-up/articles/managing-tree-structure-masters.html) to learn more about tree structured masters in ERPNext.
+**There are various documents in ERPNext which are maintained in tree structure.**
 
-Following are the steps to be followed for renaming ID of a master which is maintained in tree structure. Let's rename an Account for the instance.
+Click [here](/docs/user/manual/en/setting-up/articles/managing-tree-structure-masters.html) to learn more about tree structured masters in ERPNext.
 
-#### Step 1: Go to Chart of Account
+Following are the steps to be followed for renaming the ID of a master which is maintained in tree structure. Let's rename an Account for the instance.
 
-`Accounts > Setup > Chart of Accounts`
+* **Step 1:** Go to the Tree View of the Document
 
-#### Step 2: Go to Account
+* **Step 2:** Go to the node of the Document which you wish to rename
 
-When click on the Account, you will find Rename option.
+    When you click on that node, you will have an option to 'Rename' the document. 
 
-<img alt="Account" class="screenshot" src="{{docs_base_url}}/assets/img/articles/rename-account.png">
+    ![Tree Master Renaming](/docs/assets/img/using-erpnext/using-tree-renaming-1.png)
 
-#### Step 2: Rename Account
+* **Step 3:** Rename Account
 
-On clicking Rename, you will get field to enter New Name. After entering new name for the Account, click on the "Rename" button.
+    When you click on rename, a box will pop-up wherein you will be allowed to rename the docuemnt.
 
-<img alt="Renamed Account" class="screenshot" src="{{docs_base_url}}/assets/img/articles/rename-account-2.gif">
+    ![Tree Master Renaming](/docs/assets/img/using-erpnext/using-tree-renaming-2.gif)
+
+{next}
 
 <!-- markdown -->

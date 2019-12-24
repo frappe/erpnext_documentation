@@ -1,34 +1,36 @@
 <!-- add-breadcrumbs -->
-#Restore Deleted Documents
+# Deleting and Restoring Documents
 
-In ERPNext, you can delete a records if not needed. They can be masters like Items, Customer or transactions like Sales Order, Payment Entries etc.
+**In ERPNext, you can delete a documents if not needed. They can be masters like Items, Customer or transactions like Sales Order, Payment Entries etc.**
 
-<img class="screenshot" alt="Delete a Docuemnt" src="{{docs_base_url}}/assets/img/collaboration-tools/delete-a-doc.png">
+To delete a document, you can go to the dropdown menu of the document and select 'Delete'.
 
-If you have deleted an entry by mistake and wish to restore it back into your ERPNext account.
+![Restore Deleted Document](/docs/assets/img/using-erpnext/using-restore-1.png)
 
-> Only User having System Manager role assigned can restore deleted documents.
+For bulk deletion, you can select multiple Cancelled records and delete at once from the List View.
 
-Steps below to restore a deleted document.
+![Restore Deleted Documents](/docs/assets/img/using-erpnext/using-restore-3.gif)
 
-####Step 1: Go to Deleted Documents
+> Note: Any submittable document will not be deleted after submission. To delete a submitted document, ou will be reuqired to first 'cancel' the document.
 
-For the list of deleted document, just type Deleted Document in the Search Bar and go to list.
+## Restoration of Deleted Documents
 
-<img class="screenshot" alt="Deleted Docs List" src="{{docs_base_url}}/assets/img/collaboration-tools/deleted-docs-list.gif">
+Further, any document, if deleted by mistake, or is required after deletion, can also be restored from the Deleted Documents list.
 
-####Step 2: Open Doc and Restore
+To access Deleted Documents, go to: 
 
-Open the document to be restored from the list. Click on Restore button.
+> Home > Settings > Data > Deleted Documents
 
-<img class="screenshot" alt="Restored Doc" src="{{docs_base_url}}/assets/img/collaboration-tools/restore-a-doc.png">
+### 1. How to Restore Deleted Documents
 
-####Step 3: Restored
+1. Go to Deleted Documents List
+2. Open the deleted Document
+3. Click on Restore button.
 
-Once a document is restored, you will be able to use it for creating entries in your ERPNext account. 
+![Restore Deleted Document](/docs/assets/img/using-erpnext/using-restore-2.gif)
 
-<img class="screenshot" alt="Restored Doc" src="{{docs_base_url}}/assets/img/collaboration-tools/restored-doc.png">
+> Note: If the document was deleted after getting **cancelled**, it would be restored with a new name.
 
-> If canceled document is deleted, then it will not be restored.
+> Further, Only those Users having System Manager Role assigned to them can restore deleted documents.
 
 {next}

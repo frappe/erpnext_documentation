@@ -1,59 +1,72 @@
 <!-- add-breadcrumbs -->
 # Calendar
 
-The Calendar is a tool where you can create and share Events and also see auto-generated events from the system.
+**The Calender is a Tool which helps you to create, share and keep track of events in your ERPNext account.**
 
-You can switch calendar view based on Month, Week and Day.
+You can have a Day, Week or Month view in a calender.
 
-<img class="screenshot" alt="Calendar" src="{{docs_base_url}}/assets/img/collaboration-tools/calendar-1.png">
+![Calender](/docs/assets/img/using-erpnext/using-calender-1.png)
 
-### Creating Events in Calendar
+To access calender, go to:
 
-#### Creating Event Manually
+> Home > Tools > Calender
 
-To create event manually, you should first determine Calendar View. If Event's start and end time will be within one day, then you should first switch to Day view.
+## 1. Creating Events in Calendar
 
-This view will 24 hours of a day broken in various slots. You should click on slot for Event Start Time, and drag it down till you reach event end time.
+1. Go to Calender and click on New.
+2. Enter the Subject and the Start Date of the event.
+3. Save.
 
-<img class="screenshot" alt="Calendar" src="{{docs_base_url}}/assets/img/collaboration-tools/calendar-2.gif">
+![Calender](/docs/assets/img/using-erpnext/using-calender-2.gif)
 
-Based on the selection of time slot, Start Time and End Time will be updated in the Event master. Then you can set subject for an event, and save it.
+Alternatively, you can also create an event from the 'Day View' of the Calender. This view is broken into various slots throughout the day. You can select the slot for the start of the event, enter the subject of the event and drag it own till the event end time.
 
-#### Event Based on Lead
+![Calender](/docs/assets/img/using-erpnext/using-calender-3.gif)
 
-In the Lead form, you will find a field called Next Contact By and Next Contact Date. Event will be auto created for date and person specified in this field.
+### 1.1. Event Based on a Lead
 
-<img class="screenshot" alt="Lead Event" src="{{docs_base_url}}/assets/img/collaboration-tools/calendar-3.png">
+In the Lead form, you will find a field called Next Contact By and Next Contact Date. Once you specify the date and the User in these fields, an event will automatically be created for the User on the given date and time.
 
-#### Birthday Event
+![Calender](/docs/assets/img/using-erpnext/using-calender-4.png)
+
+### 1.2. Event Based on Job Cards
+
+For every Job Card that gets created for a User in the ERPNext account, a corresponding event will be created in the Calender. 
+
+![Calender](/docs/assets/img/using-erpnext/using-calender-job-card.png)
+
+### 1.3. Birthday Event
 
 Birthday Event is created based on Date of Birth specified in the Employee master.
 
-### Recurring Events
+### 1.4. Recurring Events
 
-You can set events as recurring in specific interval by Checking the "Repeat This
-Event".
+There are various events in an organizations which occur on a recurring basis at periodic intervals. In ERPNext, you can create such events by enabling the 'Repeat this Event' property for that particular event. 
 
-<img class="screenshot" alt="Calendar Recurring Event" src="{{docs_base_url}}/assets/img/collaboration-tools/calendar-4.png">
+When you do this, you will ve asked to enter the periodicity of this event in the 'Repeat On'. This could be daily, monthly, weekly or Yearly. 
 
-### Event Reminders
+You can also enter the last day of the repeated occurence in the 'Repeat Till' field. In case of infinite repeatitions, you may choose to leave this field blank.
+
+![Calender](/docs/assets/img/using-erpnext/using-calender-5.gif)
+
+### 1.5. Event Reminders
 
 There are two ways you can receive email reminder for an event.
 
-#### Enable Reminder in Event
+1. Enable Reminder in Event
 
-In the Event master, checking "Send an email reminder in the morning" will trigger notification email to all the participants for this event.
+    In the Event master, checking "Send an email reminder in the morning" will trigger a notification email to all the participants for this event.
 
-<img class="screenshot" alt="Calendar Recurring Event" src="{{docs_base_url}}/assets/img/collaboration-tools/calendar-6.png">
+    ![Calender](/docs/assets/img/using-erpnext/using-calender-6.png)
 
-#### Create Email Digest
+2. Create Email Digest
 
-To get email reminders for event, you should set Email Digest for Calendar Events.
+    To get email reminders for event, you should set Email Digest for Calendar Events.
 
-Email Digest can be set from:
+    Email Digest can be set from:
 
-`Setup > Email > Email Digest`
+    > Setup > Email > Email Digest
 
-<img class="screenshot" alt="Calendar Recurring Event" src="{{docs_base_url}}/assets/img/collaboration-tools/calender-email-digest.png">
+    ![Calender](/docs/assets/img/using-erpnext/using-calender-7.png)
 
 {next}

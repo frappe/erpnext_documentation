@@ -1,20 +1,42 @@
 <!-- add-breadcrumbs -->
 # Notes
 
-You can store your long notes under this section. It can contain your partner lists, frequently used passwords, terms and conditions, or any other document which needs to be shared. Following are the steps to create new Note.
+Notes is a Tool which can be used to for Personal Note Taking purposes. You can use it to save your lists, frequently used passwords, terms and conditions, or any other document which needs to be shared or kept for reference.
 
-`Explore > Note > New`
+To access Notes, go to:
 
-####Notes Details
+> Home > Tools > Note 
 
-Enter Title and Context.
+![Notes](/docs/assets/img/using-erpnext/using-notes-1.png)
 
-<img class="screenshot" alt="Note New" src="{{docs_base_url}}/assets/img/collaboration-tools/note-1.png">
+## How to create a new Note
 
-####Set Permissions to select Users
+1. Go to Note list and click on New.
+1. Enter the Title of the Note.
+1. Enter the Content of the Note. The content box is a Text Editor box to enable you to fromat the content as per your requirements.
+1. Save.
 
-To make Note accessible for all, check "Public" under links section. Else you can share it with the specific User by using Share feature.
+![Notes](/docs/assets/img/using-erpnext/using-notes-2.png)
 
-<img class="screenshot" alt="Note New" src="{{docs_base_url}}/assets/img/collaboration-tools/share-1.gif">
+### Visibility of Notes
+
+You can select whether or not you want this particular Note to be Public. Making a Note public will allow you to share it across Users in your ERPNext account.
+
+![Notes](/docs/assets/img/using-erpnext/using-notes-3.png)
+
+Once you enable making a Note Public, there will be another checkbox, saying 'Notify users with a popup when they log in'. 
+
+![Notes](/docs/assets/img/using-erpnext/using-notes-5.png)
+
+You can also select if you wish to give some specific users, the right to read, write or share your note. This can be done from the 'Share' Option in the left sidebar.
+
+![Notes](/docs/assets/img/using-erpnext/using-notes-4.png)
+
+### Notification for Notes
+
+Enabling this property would ensure that whenever any User logs into their account, their will be a Pop-Up notification for the note.
+
+![Notes](/docs/assets/img/using-erpnext/using-notes-7.png)
+
 
 {next}

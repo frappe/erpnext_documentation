@@ -6,3 +6,4 @@ hiding-modules-and-features
 print-format
 custom-scripts
 articles
+custom-translations

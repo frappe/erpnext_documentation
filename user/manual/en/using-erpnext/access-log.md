@@ -14,7 +14,7 @@ metatags:
 
 **Access Log is a security feature that logs all data exports by all users in the system.**
 
-It is a tool for [System Managers](/docs/user/manual/en/setting-up/users-and-permissions/role-and-role-profile) to track which files were accesed or exported by users on the system. This is useful for tracking company sensitive information like transactions or financials.
+It is a tool for System Managers to track which files were accessed or exported by users on the system. This is useful for tracking your company's sensitive information like transactions or financials.
 
 Access logs are created in the following events:
 
@@ -22,21 +22,20 @@ Access logs are created in the following events:
  - Private file downloading
  - Exporting via XLSX/CSV formats
 
-In ERPNext, Access Log is available to [System Managers](/docs/user/manual/en/setting-up/users-and-permissions/role-and-role-profile), it can be accessed using our favourite [Awesome Bar](https://frappe.io/blog/erpnext-features/erpnext-awesome-bar) or through:
+In ERPNext, Access Log is available to System Managers, it can be accessed using the Global Search or through:
+
 > Home > Users and Permissions > Logs > Access Log
 
-The general List view provided out of the box by [Frappe](https://frappe.io/frappe).
-
-<img class="screenshot" alt="Acess Log: ERPNext List View" src="{{docs_base_url}}/assets/img/collaboration-tools/access-log-002.png">
+![Access Log](/docs/assets/img/using-erpnext/using-access-log-3.png)
 
 In case an access log is created on event of exporting a Report, a **Show Report** button will be generated in the respective log. On clicking this button, the exported report can be viewed along with the set filters.
 
-<img class="screenshot" alt="Acess Log: General Ledger Report ERPNext" src="{{docs_base_url}}/assets/img/collaboration-tools/access-log-003.png">
+![Access Log](/docs/assets/img/using-erpnext/using-access-log-1.png)
 
 Similarly, a **Show Document** button is generated in case of events related to documents directly such as document Printing and Private File download.
 
-<img class="screenshot" alt="Acess Log: Sales Invoice Frappe Custom Application" src="{{docs_base_url}}/assets/img/collaboration-tools/access-log-001.png">
+![Access Log](/docs/assets/img/using-erpnext/using-access-log-2.png)
 
 Events such as [Raw Printing](/docs/user/manual/en/setting-up/print/raw-printing) save information along with the chosen template for the document.
 
-<img class="screenshot" alt="Acess Log: HTML to PDF Printing" src="{{docs_base_url}}/assets/img/collaboration-tools/access-log-004.png">
+![Access Log](/docs/assets/img/using-erpnext/using-acces-log-4.png)
