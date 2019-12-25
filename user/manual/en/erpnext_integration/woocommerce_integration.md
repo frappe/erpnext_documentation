@@ -3,7 +3,7 @@
 
 Using WooCommerce Integration, the system creates Sales Orders in ERPNext for the orders created on WooCommerce using the WooCommerce webhook.
 
-While creating the sales order, if Customer or Item is missing in ERPNext, the system will create new Customer/Item by using the respective details from WooCommerce order details. It also creates Address linked to the Customer using the shipping details from the order data.
+While creating the sales order, if Customer or Item is missing in ERPNext, the system will create new Customer/Item by using the respective details from WooCommerce order data. It also creates Address linked to the Customer using the shipping details from the order data.
 
 ## 1. How to setup?
 
@@ -11,7 +11,12 @@ While creating the sales order, if Customer or Item is missing in ERPNext, the s
 
 1. From your woocommerce site's sidebar, click on Settings.
 2. Click on the "Advanced" tab then click on the REST API link.
+
+    ![Woocommerce API](/docs/assets/img/erpnext_integrations/wc-add-key.png)
+
 3. Click on "Add key" button. Provide the necessary details and click on "Generate API key" button.
+
+    ![Woocommerce API Key](/docs/assets/img/erpnext_integrations/wc-generate-keys.png)
 
 ### 1.2 Woocommerce Settings
 
@@ -25,6 +30,8 @@ While creating the sales order, if Customer or Item is missing in ERPNext, the s
 8. Click Save.
 9. After saving the Woocommerce Settings, "Secret" and "Endpoint" are generated automatically.
 
+![Woocommerce Settings](/docs/assets/img/erpnext_integrations/woocommerce-settings.png)
+
 ### 1.3 Woocommerce Webhook Settings
 
 1. Now from your woocommerce site's sidebar, go to Settings.
@@ -36,9 +43,13 @@ While creating the sales order, if Customer or Item is missing in ERPNext, the s
 7. Copy "Secret" from "Woocommerce Settings" doctype in your ERPNext site and paste it in "Secret" field.
 8. Keep API VERSION as it is and click on Save Webhook. Now it is successfully set up.
 
-<img class="screenshot" alt="Woocommerce Integration" src="{{docs_base_url}}/assets/img/erpnext_integrations/woocommerce_setting_config.gif">
+![Woocommerce Webhook](/docs/assets/img/erpnext_integrations/wc-webhook.png)
 
-**Note:** In above gif, inplace of delivery url on woocommerce website, you need to paste the url you will obtain after saving the "Woocommerce Settings" page (i.e. Endpoint from "Woocommerce Settings"). I pasted other url because I was using localhost. Please paste your endpoint in place of Delivery URL.
+A GIF below to show the entire process:
+
+![Woocommerce Set Up](/docs/assets/img/erpnext_integrations/woocommerce-setup.gif)
+
+**Note:** In the above screenshot and gif, in place of delivery url on woocommerce website, you need to paste the url you will obtain after saving the "Woocommerce Settings" in the "Endpoint" field in your ERPNext instance. Here other URL was pasted as localhost was being used.
 
 ### 1.4 Woocommerce order creation and syncing:
 1. From your Woocommerce website, register yourself as a user on the Account page.
@@ -51,7 +62,7 @@ While creating the sales order, if Customer or Item is missing in ERPNext, the s
 8. Now on your ERPNext instance, check the following Document Types: Customer, Address, Item, Sales Order. They will be fetched and created from the webhook data.
 9. In case the orders are not synced, you can check the error in **Home > Settings > Core > Error Log**.
 
-<img class="screenshot" alt="Woocommerce Integration" src="{{docs_base_url}}/assets/img/erpnext_integrations/woocommerce_demo.gif">
+![Woocommerce Set Up](/docs/assets/img/erpnext_integrations/woocommerce-order.gif)
 
 ## 2. Features
 
@@ -63,6 +74,8 @@ In the Woocommerce Settings DocType:
 - **Delivery After (Days)**: This is the default offset (days) for the Delivery Date in Sales Orders. The fallback offset is 7 days from the order placement date.
 - **Sales Order Series**: You can set a separate series for Sales Orders created via woocommerce. The fallback series is "SO-WOO-".
 - **UOM**: This is the default UOM used for Items and Sales Orders. The fallback UOM is "Nos".
+
+![Woocommerce Defalts](/docs/assets/img/erpnext_integrations/wc-defaults.png)
 
 ## 3. Related Topics
 1. [Sales Order](/docs/user/manual/en/selling/sales-order)
