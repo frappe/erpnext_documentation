@@ -75,7 +75,7 @@ In the Woocommerce Settings DocType:
 - **Sales Order Series**: You can set a separate series for Sales Orders created via woocommerce. The fallback series is "SO-WOO-".
 - **UOM**: This is the default UOM used for Items and Sales Orders. The fallback UOM is "Nos".
 
-![Woocommerce Defalts](/docs/assets/img/erpnext_integrations/wc-defaults.png)
+![Woocommerce Defaults](/docs/assets/img/erpnext_integrations/wc-defaults.png)
 
 ## 3. Related Topics
 1. [Sales Order](/docs/user/manual/en/selling/sales-order)
