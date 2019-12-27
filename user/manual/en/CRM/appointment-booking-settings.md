@@ -16,7 +16,7 @@ For example if your agents work Monday to Friday, 9am to 5pm but with a lunch br
 
 ### 2.2 Agents
 
-This is the list of agents which will be autoassigned to appointments. The number of appointments which can exist in one timeslot also depends upon the number employees in this list.
+This is the list of agents which will be **autoassigned** to appointments. The number of appointments which can exist in one timeslot also depends upon the number employees in this list.
 
 ### 2.3 Holiday list
 
@@ -43,5 +43,5 @@ This is the number of days the appointment can be booked in advance. If the Holi
 
 ### 4.1 Success Redirect URL
 
-This is the URL where the user will be redirect on creation of successful appoitnment creation via Web Portal. This redirect will not occur when creating appointments from within Desk UI.
+This is the URL where the user will be redirected on creation of successful appoitnment creation via Web Portal. This redirect will not occur when creating appointments from within Desk UI.
 Leave blank for home. This is relative to site URL, for example "about" will redirect to "https://yoursitename.com/about"
