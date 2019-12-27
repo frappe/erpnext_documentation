@@ -1,5 +1,6 @@
 # Appointment Booking Settings
 
+![Appointment Booking Settings](/docs/assets/img/crm/appointment-booking-settings.png)
 ## 1. Enable Appointment scheduling
 
 This checkbox will enable appointment scheduling and also enable the `/book_appointment` Route for website users (your customers).
