@@ -22,10 +22,10 @@ To access Appointment list, go to:
 ## 1. Prerequisites
 
 1. [Appointment Booking Settings](/docs/user/manual/en/CRM/appointment_booking_settings)
-2. Holiday List
-3. Employee
-4. Lead
-5. Email
+2. [Holiday List](/docs/user/manual/en/human-resources/holiday-list)
+3. [Employee](/docs/user/manual/en/human-resources/employee)
+4. [Lead](/docs/user/manual/en/CRM/lead)
+5. [Email](/docs/user/manual/en/setting-up/email/email-account)
 
 ## 2. How to create an Appointment
 
