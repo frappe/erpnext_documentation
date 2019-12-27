@@ -21,7 +21,7 @@ To access Appointment list, go to:
 
 ## 1. Prerequisites
 
-1. Appointment Booking Settings
+1. [Appointment Booking Settings](/docs/user/manual/en/CRM/appointment_booking_settings)
 2. Holiday List
 3. Employee
 4. Lead

@@ -43,5 +43,5 @@ This is the number of days the appointment can be booked in advance. If the Holi
 
 ### 4.1 Success Redirect URL
 
-This is the URL where the user will be redirect on creation of successful appoitnment creation via Web Portal. Does not apply to desk.
+This is the URL where the user will be redirect on creation of successful appoitnment creation via Web Portal. This redirect will not occur when creating appointments from within Desk UI.
 Leave blank for home. This is relative to site URL, for example "about" will redirect to "https://yoursitename.com/about"
