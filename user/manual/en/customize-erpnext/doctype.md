@@ -1,7 +1,9 @@
 <!-- add-breadcrumbs -->
 # DocType
 
-**A DocType is the core building block of any application based on the Frappe Framework.** It describes the Model and the View of your data. It contains what fields are stored for your data, and how they behave with each other. It contains information about how your data is named. The forms like Sales Order, Sales Invoices, Work Order are added as DocTypes in the backend.
+**A DocType is the core building block of any application based on the Frappe Framework.** 
+
+It describes the Model and the View of your data. It contains what fields are stored for your data, and how they behave with each other. It contains information about how your data is named. The forms like Sales Order, Sales Invoices, Work Order are added as DocTypes in the backend.
 
 DocType allows you to insert custom forms in ERPNext as per your requirement. 
 

@@ -2,7 +2,9 @@
 # Customize Form
 
 <!--markdown-->
-**Customize Form is a tool which enables you to make changes to a Form Type or a Document Type (DocType) on the front-end.** It allows you to insert [Custom Fields](/docs/user/manual/en/customize-erpnext/custom-field) as per your requirement or customize the properties of standard fields. 
+**Customize Form is a tool which enables you to make changes to a Form Type or a Document Type (DocType) on the front-end.** 
+
+It allows you to insert [Custom Fields](/docs/user/manual/en/customize-erpnext/custom-field) as per your requirement or customize the properties of standard fields. 
 
 Before we venture to learn the Form Customization tool, [click here](https://frappe.io/docs/user/en/understanding-doctypes) to understand the architecture of forms in ERPNext. It will help you in using the Customize Form tool more efficiently.
 

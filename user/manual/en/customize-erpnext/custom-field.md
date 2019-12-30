@@ -2,7 +2,9 @@
 
 # Custom Field
 
-Every form in ERPNext has a standard set of fields. **If you need to capture some information, but there is no standard Field available for it, you can insert Custom Field in a form as per your requirement.** You can go to [Customize Form](/docs/user/manual/en/customize-erpnext/customize-form) and add the Field in a particular Form or a Document type _(hereafter referred to as DocType)_ .
+**Every form in ERPNext has a standard set of fields. If you need to capture some information, but there is no standard Field available for it, you can insert Custom Field in a form as per your requirement.** 
+
+You can go to [Customize Form](/docs/user/manual/en/customize-erpnext/customize-form) and add the Field in a particular Form or a Document type _(hereafter referred to as DocType)_ .
 
 To access Custom Field, go to:
 

@@ -16,8 +16,8 @@ ERPNext, while being a system which is extremely easy to use, is also highly cus
 
 ### 1.2 Documents and Reports
 1. [Print Format](/docs/user/manual/en/customize-erpnext/print-format)
-1. [Custom Reports](/docs/user/manual/en/customize-erpnext/articles/making-custom-reports-in-erpnext)
-1. [Modules on Homepage](/docs/user/manual/en/customize-erpnext/customizing-module-visibility)
+1. [Making Custom Reports](/docs/user/manual/en/customize-erpnext/articles/making-custom-reports)
+1. [Customizing Module Visibility](/docs/user/manual/en/customize-erpnext/customizing-module-visibility)
 1. [Document Title](/docs/user/manual/en/customize-erpnext/document-title)
 1. [Kanban Board](/docs/user/manual/en/customize-erpnext/kanban-board)
 1. [Authorization Rule](/docs/user/manual/en/customize-erpnext/authorization-rule)
