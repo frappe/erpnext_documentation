@@ -1,10 +1,12 @@
 <!-- add-breadcrumbs -->
-#Adding Attachments to Outgoing Messages
+# Adding Attachments to Outgoing Messages
 
-ERPNext has in-built file manager. Click [here](/docs/user/videos/learn/file-manager.html) to learn more on how attachments are managed in ERPNext.
+**You can add attachments to outgoing emails on-the-go in ERPNext.**
 
-If you have file attached to the document (say Purchase Order), and same file needs to be emailed as attachment, following is how you can achieve it.
+If you have certain files attached to your document, and wish to attach the same to the outgoing email, you can do so by simply picking it from the attachments list.
 
-<img alt="Emailing Attachments" class="screenshot" src="{{docs_base_url}}/assets/img/articles/email-file-attachment.gif">
+![Attachments in Outgoing Messages](/docs/assets/img/using-erpnext/using-add-attachments-in-message.gif)
+
+{next}
 
 <!-- markdown -->

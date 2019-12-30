@@ -1,26 +1,31 @@
 <!-- add-breadcrumbs -->
-#Renaming a Document
+# Renaming Documents
 
-Using Renaming feature, you can change ID of a master documents like Item, Warehouse, Accounts etc. Following are the steps to rename Item Code. Following same steps, you can rename other masters as well.
- 
-#### 1. Go to Item
+**Using Renaming feature, you can change the name of a master document.** 
 
-`Stock > Documents > Item List > (Open Item to be renamed)`
+Using this feature you can also merge two master documents into a single one.
 
-#### 2. Rename
+Check [List of Renamable Documents](/docs/user/manual/en/using-erpnext/articles/renaming-documents#list-of-renamable-documents) for the list of all the documents that can be renamed in the system.
 
-<img alt="Renamed Item" class="screenshot" src="{{docs_base_url}}/assets/img/articles/rename-a-doc.gif">
+### Steps to rename a Document
 
-###Effect of Renaming
+**Step 1**: Go to the document that you wish to rename. 
 
-Renaming document affects existing transaction where this record is selected. Consider given example, Item Code for a given item will be updated in the existing transaction as well.
+**Step 2**: From the drop-down menu, select the option 'Rename'. 
 
-###See Also
+![Document Renaming](/docs/assets/img/using-erpnext/using-rename-documents-1.gif)
 
-1. [Bulk Renaming](/docs/user/manual/en/using-erpnext/articles/bulk-rename.html)
-2. [Document Merging](/docs/user/manual/en/using-erpnext/articles/merging-documents.html)
+Alternatively, you can also click on the Title of the document, which will result in a pop-up, wherein you will be able to change the name of the document that you wish to rename.
 
-**List of Renamable Documents**
+![Document Renaming](/docs/assets/img/using-erpnext/using-rename-documents-2.gif)
+
+### Effect of Renaming
+
+Renaming a document will affect all the existing transactions liked to this document. E.g., If you are changing the Item Code for an Item, the same will be updated in all the existing transactions wherein this Item is linked.
+
+### List of Renamable Documents
+
+Following is the list of all the documents that can be renamed.
 
 1. Contact        					     	
 2. Address         					     	
@@ -56,5 +61,9 @@ Renaming document affects existing transaction where this record is selected. Co
 32. Brand	
 33. Branch
 34. Sales Person
+
+## See also
+
+1. [Bulk Rename](/docs/user/manual/en/using-erpnext/articles/bulk-rename.md)
 
 <!-- markdown -->

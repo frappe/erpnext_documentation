@@ -1,12 +1,22 @@
 <!-- add-breadcrumbs -->
 # Tags
 
-Like Assignments and Comments, you can also add your own tags to each type of transactions. These tags can help you search a document and also classify it. 
+**Using Tags easy way to classify different kinds of documents in their respective categories.**
 
-<img class="screenshot" alt="Assign" src="{{docs_base_url}}/assets/img/collaboration-tools/tags-1.png">
+You can add any tag to a DocType just like Assignments and Comments.
 
-ERPNext will also show you all the important tags in the document list.
+![Tags](/docs/assets/img/using-erpnext/using-tags-1.gif)
 
-<img class="screenshot" alt="Assign" src="{{docs_base_url}}/assets/img/collaboration-tools/tags-2.png">
+While going through a document list, you may filter the same by using tags. At a glance, you will be able to see the number of documents tagged to each classification.
+
+![Tags](/docs/assets/img/using-erpnext/using-tags-2.png)
+
+## Tags in Reports
+
+All the tags that get created in your ERPNext account can also be searched when fetching a report. These tags can also be searched as a filter in the report.
+
+![Tags](/docs/assets/img/using-erpnext/using-tags-5.png)
+
+![Tags](/docs/assets/img/using-erpnext/using-tags-6.png)
 
 {next}

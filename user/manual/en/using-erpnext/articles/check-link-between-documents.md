@@ -1,24 +1,17 @@
 <!-- add-breadcrumbs -->
-#Checking Link Between Documents
+# Checking Link Between Documents
 
-Links option shows one document is linked to which other documents. Check Menu for the Links options.
+Every document can be linked to various other documents in ERPNext.
 
-<img alt="Cancel Doc" class="screenshot" src="{{docs_base_url}}/assets/img/articles/links-1.gif">
+**The 'Links' tool gives you an option to check if the current document is linked to any previous documents and lists down all the forward links.**
 
-####Scenario
+To do so, you can simply go to menu and click on 'Links'. A Pop-Up box will open which will list down all the documents that this document has been linked to.
 
-If you need that against Sales Order, which Delivery Note and Sales Invoice has been created, you should open Sales Order document, and check Links. Same way, you can also check Purchase Order, and find which Purchase Receipt and Purchase Ivoice is linked with it.
+![Checking Document Links](/docs/assets/img/using-erpnext/using-document-links-1.gif)
 
-####How It Works?
+> Note: This option will only show you the forward links in a document; the backward links can be found within the document itself. 
 
-When you check Links for a Sales Order, it lists all the record where this Sales Order ID is linked. When Delivery Note is created against Sales Order, then Sales Order link is updated in the Delivery Note Item table.
+> **E.g.**, if you want to check, which Sales Invoices are linked to your Sales Order, you can check the 'Links' from the dropdown menu. However, the information about the Quotation with which this Sales Order has been linked shall be present within the Docuemnt itself.
 
-####Backward Links
-
-If I check Links in the Purchase Receipt, will it list Purchase Order from which this Purchase Receipt was created?
-
-Links only shows forward linkages. For the backward links, you should check current document itself. In the Purchase Receipt Item table table, you can check which Purchase Order it is linked to.
-
-<img alt="Cancel Doc" class="screenshot" src="{{docs_base_url}}/assets/img/articles/links-2.gif">
 
 <!-- markdown -->

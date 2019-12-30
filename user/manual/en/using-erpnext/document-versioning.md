@@ -1,24 +1,31 @@
 <!-- add-breadcrumbs -->
-#Document Versioning
+# Document Versioning
 
-The document versioning feature allows you to track all the changes made in the form over the period. It will be very helpful in audit trial to check which user edited what value, and when exactly.
+**In ERPNext, Document Versioning is a feature that allows you to track all the changes made in a form or a document.**
 
-####Enable Document Versioning
+This feature is comes handy while conducting an Audit Tail to check on what changes were made in a document along with the time of change and the stakeholder responsible.
 
-Document Versioning can be enabled for one Document Type as a time. Let's assume that we need to enable it from Purchase Order. Then, we will check Customize Form tool for Purchase Order and check field `Track Changes`. With this, document versioning will be enabled for all the Purchase Orders create and edited hence forth.
+![Document Versioning](/docs/assets/img/using-erpnext/using-document-versioning-1.png)
 
-<img class="screenshot" alt="Enable Versioning" src="{{docs_base_url}}/assets/img/collaboration-tools/enable-versioning.png">
+## How to Enable Document Versioning
 
-####Version Log
+Let's assume that we need to enable Dcoument Versioning for Purchase Order.
 
-Following is link of version in a Purchase Order form. Each time a document is edited, a version's link will be added in that document. To check more details on specific version, click on it's link.
+1. Go to Purchase Order List.
+2. Click on Customize from the drop-down menu.
+3. You shall be directed to the [Customize Form](/docs/user/manual/en/customize-erpnext/customize-form) page for Purchase Order.
+4. Check the field "Track changes" in the Properties.
 
-<img class="screenshot" alt="Version Links" src="{{docs_base_url}}/assets/img/collaboration-tools/version-links.png">
+    ![Document Versioning](/docs/assets/img/using-erpnext/using-document-versioning-2.gif)
 
-####Version Details
+With this, Document Versioning shall be enabled for all the Purchase Orders edited henceforth.
 
-In the Version document, you will find log of all the fields and values changes in it.
+### Version Log
 
-<img class="screenshot" alt="Version Details" src="{{docs_base_url}}/assets/img/collaboration-tools/version-details.png">
+For each document that has Document Versioning enabled, a Version Log is created. Herein, there will be links to specific versions of the document.
+
+When you click on these links, you will be directed to a log of all the fields and the changes made therein.
+
+![Document Versioning](/docs/assets/img/using-erpnext/using-document-versioning-3.gif)
 
 {next}
