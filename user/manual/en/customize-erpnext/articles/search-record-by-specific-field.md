@@ -7,7 +7,7 @@ Let's assume that you want to see that Item in a Sales Order along with its Item
 
 #### Step 1: Go to Customize Form
 
-Customization > Form Customization > Customize Form
+> Home > Customization > Form Customization > Customize Form
 
 #### Step 2: Select the Document for which you want multiple fields to be visible in the Search Field
 

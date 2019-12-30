@@ -66,6 +66,6 @@ The filters used to generate the chart data can also be changed by clicking `Set
 
 <img class="screenshot" alt="Modal For Chart Filters" src="{{docs_base_url}}/assets/img/customize/dashboard-8.png">
 
-To get the most recent data each chart has to be refreshed forcefully by clicking `Force Refresh` button from the dropdown menu.
+To get the most recent data each chart has to be refreshed forcefully by clicking **Force Refresh** button from the dropdown menu.
 
 {next}

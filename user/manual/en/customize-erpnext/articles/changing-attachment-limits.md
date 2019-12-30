@@ -7,7 +7,7 @@ Let's assume we need to update Max Attachment for Quotation to five.
 
 #### Step 1: Setup
 
-> Customization > Form Customization > Customize Form
+> Home> Customization > Form Customization > Customize Form
 
 #### Step 2: Select Document Type
 

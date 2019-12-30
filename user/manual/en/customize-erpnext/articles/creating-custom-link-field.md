@@ -7,7 +7,7 @@ You can insert Custom Link Field by following the steps below.
 
 #### Step 1: Go to Customize Form
 
-> Customization > Form Customize > Customize Form
+> Home > Customization > Form Customize > Customize Form
 
 #### Step 2: Select Form
 

@@ -7,7 +7,7 @@
 
 #### Step 1: Go to Customize Form
 
-> Setup > Customize > Customize Form
+> Home > Customization > Form Customization > Customize Form
 
 #### Step 2: Select Doctype
 

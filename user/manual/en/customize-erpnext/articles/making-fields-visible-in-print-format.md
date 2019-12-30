@@ -7,7 +7,7 @@ Let's assume in the Sales order, we need to make Shipping Address field visible 
 
 #### Step 1: Go to Customize Form
 
-> Customization > Form Customization > Customize Form
+> Home > Customization > Form Customization > Customize Form
 
 #### Step 2: Document Type
 
