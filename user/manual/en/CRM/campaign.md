@@ -7,7 +7,7 @@ product or service.**
 This is done in a market segment of a particular geographical area to achieve specified objectives.
 
 To access Campaign, go to:
-> Home > CRM > Campaign
+> Home > CRM > Settings > Campaign
 
 <img class="screenshot" alt="Campaign" src="{{docs_base_url}}/assets/img/crm/campaign.png">
 
@@ -54,7 +54,7 @@ You will have to set up a schedule for the campaign. Click on 'Add Row' to add a
 -  In **Send After (days)**, specify the number of days after which the respective email should be sent. Using this field, the day on which email is to be sent is calculated relative to the **Start Date** of **Email Campaign**.
 
 ### 2.4 Dashboard
- 
+
 The Campaign dashboard shows you all the Email Campaigns linked to the Campaign. You can also create a new Email Campaign from here.
 
 <img class="screenshot" alt="Campaign Dashboard" src="{{docs_base_url}}/assets/img/crm/email-campaigns-from-dash.png">
