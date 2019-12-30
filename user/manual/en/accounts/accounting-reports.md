@@ -9,7 +9,7 @@ Go to: **Accounts > Company and Accounts > General Ledger**.
 
 The General Ledger is a detailed report for all transactions posted to each account and for every transaction there is a Credit and Debit account so it lists them all up.
 
-The report is based on the table GL Entry and can be filtered by many pre-defined filters like Account, Cost Centers, Party, Project and Period etc. This helps you to get a full update for all entries posted in a period against any account account. The result can be grouped by Account, Voucher/Transaction and Party with opening and closing balances for each group. In case of multi-currency accounting, there is also an option to check the amounts in any other currency than company's base currency.
+The report is based on the table GL Entry and can be filtered by many pre-defined filters like Account, Cost Centers, Party, Project and Period etc. This helps you to get a full update for all entries posted in a period against any account. The result can be grouped by Account, Voucher/Transaction and Party with opening and closing balances for each group. In case of multi-currency accounting, there is also an option to check the amounts in any other currency than company's base currency.
 
 <img alt="General Ledger" class="screenshot"
     src="{{docs_base_url}}/assets/img/accounts/reports/general-ledger.png">
@@ -57,7 +57,7 @@ Go to: **Accounts > Accounting Statements > Balance Sheet**.
 
 A Balance Sheet is the financial statement of a company which states assets, liabilities and equity at a particular point in time.
 
-The Balance Sheet in ERPNext gives you more flexibility to analysis your financial position. You can run the report across multiple year to compare values. You can check values for a specific Finance Book or Cost Center. You can also choose any other currency to display the balances.
+The Balance Sheet in ERPNext gives you more flexibility to analyse your financial position. You can run the report across multiple year to compare values. You can check values for a specific Finance Book or Cost Center. You can also choose any other currency to display the balances.
 
 <img alt="Balance Sheet" class="screenshot" src="{{docs_base_url}}/assets/img/accounts/reports/balance-sheet.png">
 
@@ -138,9 +138,9 @@ Invoice has not been created / partially been created.
 - **Received Items To Be Billed:** The items which has been received from the suppliers, but Purchase Invoice has not been created / partially been created.
 
 ## 8. Other Reports
-### 8.1 Party Wise Trail Balance
+### 8.1 Party Wise Trial Balance
 Go to: **Accounts > Other Reports > Trial Balance for Party**.
-Usually you might need to see the trail balance for your customesrs and suppliers. You can easily get for all of your customers or suppliers and also for individual.
+Usually you might need to see the trial balance for your customesrs and suppliers. You can easily get for all of your customers or suppliers and also for individual.
 
 <img alt="Sales Invoice Trends" class="screenshot" src="{{docs_base_url}}/assets/img/accounts/reports/party-wise-trail-balance.png">
 
