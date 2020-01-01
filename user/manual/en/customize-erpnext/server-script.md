@@ -56,8 +56,8 @@ Frappe Framework uses the RestrictedPython library to restrict access to methods
 ```py
 json # json module
 dict # internal dict
-frappe._ # translator method
-frappe._dict # frappe._dict internal method
+_ # translator method
+_dict # frappe._dict internal method
 frappe.flags # global flags
 
 # FORMATTING
