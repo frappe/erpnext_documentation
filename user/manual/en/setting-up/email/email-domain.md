@@ -27,6 +27,10 @@ ERPNext creates a template email domain using example.com for your reference. Yo
 
     **Do I have SSL?:** You may have purchased SSL certificate from your IT service provider for SSL and they may have set up SSL for your mail server. If you're using 'https' while accessing mail server over browser then you might have SSL setup.
 
+1. Use SSL for Outgoing. If your mailserver uses SSL for outgoing, enable this to explicitly use SSL for outgoing emails. Defaults to port 465.
+
+1. Append Outgoing Email to Sent Folder. If you are not using standard mailservers provided by GMail and similar services, you might need to enable this option to append all outgoing emails to the email account's inbox. (Recommended for email servers like Zimbra and CPanel).
+
 1. Attachment Limit (MB). You can limit the size of file attachments in emails sent from ERPNext.
 
 1. SMTP Server is the outgoing email service address of your email server.
