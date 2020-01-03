@@ -87,6 +87,7 @@ You'll find the global configuration options here, for module-wise setup, visit 
 1. [Rename User](/docs/user/manual/en/setting-up/articles/rename-user)
 1. [Difference Between System User And Website User](/docs/user/manual/en/setting-up/articles/difference-between-system-user-and-website-user)
 1. [Managing Letterhead](/docs/user/manual/en/setting-up/articles/managing-letterhead)
+1. [Using Prepared Report](/docs/user/manual/en/setting-up/articles/prepared-report)
 
 ### 2.2 Data and Managing
 
