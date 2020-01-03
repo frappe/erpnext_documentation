@@ -1,5 +1,5 @@
 <!-- add-breadcrumbs -->
-# Employee Incentive 
+# Employee Incentive
 
 
 **Employee Incentives are a way of compensating and motivating Employee performance apart from the usual salary.**
@@ -16,7 +16,9 @@ To access Employee Incentive, go to:
 1. Select the Employee.
 1. Enter the Incentive Amount.
 1. Select the Payroll Date.
+1. Select the [Salary Component](/docs/user/manual/en/human-resources/salary-component) under which you want to give the incentive.
 1. Save and Submit.
+1. On submit, 'Additional Salary' document of the specified 'Salary Component' is created. This will be fetched while running Payroll Entry.
 
 <img class="screenshot" alt="Employee Incentive" src="/docs/assets/img/human-resources/employee-incentive.png">
 
