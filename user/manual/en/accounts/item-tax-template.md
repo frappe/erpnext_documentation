@@ -67,9 +67,14 @@ Item Tax Template applied on an Item Group will apply to all Items in that group
 
 
 ### 2.5 Validity of Item Taxes
+
 <img class="screenshot" alt="Item Tax in Item Group" src="{{docs_base_url}}/assets/img/accounts/item-tax-in-item.png">
 
-You can also assign validity to tax templates as shown in the image above. Based on the posting date of the transaction valid tax template will be automatically fetched. If there are more than one valid tax templates then the first valid tax template from Item Tax table will be fetched. In case when there are no valid tax templates then the first tax template with no 'Valid From' date in the Item Tax table will be fetched.
+You can also assign validity to tax templates as shown in the image above.
+
+* Based on the posting date of the transaction, a valid tax template will be automatically fetched.
+* If there are more than one valid tax templates then the first valid tax template from Item Tax table will be fetched.
+* In case when there are no valid tax templates then the first tax template with no 'Valid From' date in the Item Tax table will be fetched.
 
 > Note: While adding items in Purchase Invoice first preference will be given to 'Supplier Invoice Date' instead of 'Posting Date' for fetching valid Item Tax Template.
 
