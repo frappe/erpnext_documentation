@@ -14,7 +14,7 @@ To access Retention Bonus, go to:
 1. Go to: Retention Bonus > New.
 1. Select Employee and Bonus Payment Date.
 1. Enter the Bonus Amount.
-1. Select the Salary Component under which you want to give the bonus. This will be fetched while running Payroll Entry.
+1. Select the [Salary Component](/docs/user/manual/en/human-resources/salary-component) under which you want to give the bonus. This will be fetched while running Payroll Entry.
 1. Save and Submit.
 1. On submit, 'Additional Salary' document of the specified 'Salary Component' is created. This will be fetched while running Payroll Entry.
 
