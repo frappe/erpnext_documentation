@@ -1,12 +1,11 @@
 <!-- add-breadcrumbs -->
 # Employee Health Insurance
 
-**Employee Health Insurance is a benefit extended by the company to to their employees. When a company provides health insurance assistance, they pay full or part premiums for the health insurance policy.**
+**Employee Health Insurance is a benefit extended by the company to their employees. When a company provides health insurance assistance, they pay full or part premiums for the health insurance policy.**
 
 ERPNext allows you to save the Employee Health Insurance detail and link it to that particular Employee's master. 
 
 To access Health Insurance Provider document, go to:
-
 
 > Home > Human Resources > Employee > Employee Health Insurance
 
