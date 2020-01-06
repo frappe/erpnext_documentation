@@ -3,13 +3,13 @@
 
 Using WooCommerce Integration, the system creates Sales Orders in ERPNext for the orders created on WooCommerce using the WooCommerce webhook.
 
-While creating the sales order, if Customer or Item is missing in ERPNext, the system will create new Customer/Item by using the respective details from WooCommerce order data. It also creates Address linked to the Customer using the shipping details from the order data.
+While creating a Sales Order from WooCommerce, if the Customer or Item is missing in ERPNext, the system will create new Customer/Item by using the respective details from WooCommerce order data. It also creates Address linked to the Customer using the shipping details from the order data.
 
-## 1. How to setup?
+## 1. How to set up WooCommerce?
 
 ### 1.1 Generate API Key and API Secret
 
-1. From your woocommerce site's sidebar, click on Settings.
+1. From your WooCommerce site's sidebar, click on Settings.
 2. Click on the "Advanced" tab then click on the REST API link.
 
     ![Woocommerce API](/docs/assets/img/erpnext_integrations/wc-add-key.png)
@@ -49,15 +49,16 @@ A GIF below to show the entire process:
 
 ![Woocommerce Set Up](/docs/assets/img/erpnext_integrations/woocommerce-setup.gif)
 
-**Note:** In the above screenshot and gif, in place of delivery url on woocommerce website, you need to paste the url you will obtain after saving the "Woocommerce Settings" in the "Endpoint" field in your ERPNext instance. Here other URL was pasted as localhost was being used.
+> **Note:** In the above screenshot and GIF, in place of delivery url on woocommerce website, you need to paste the url you will obtain after saving the "Woocommerce Settings" in the "Endpoint" field in your ERPNext instance. Here other URL was pasted as localhost was being used.
 
-### 1.4 Woocommerce order creation and syncing:
+### 1.4 Woocommerce order creation and syncing
+
 1. From your Woocommerce website, register yourself as a user on the Account page.
 2. Now Click on Addresses option and provide the required details.
 3. Click on "Shop" option and now available products can be seen.
-4. Add the desired products into the cart and click on "View Cart".
+4. Add the desired products into the cart and click on **View Cart**.
 5. From the cart, once you have added the desired products, you can click on "Proceed to Checkout".
-6. All billing details and Order details can be seen now. Once you are ok with it, click on "Place Order" button.
+6. All billing details and Order details can be seen now. Once you are ok with it, click on **Place Order** button.
 7. "Order Received" message can been seen indicating that the order has been placed successfully.
 8. Now on your ERPNext instance, check the following Document Types: Customer, Address, Item, Sales Order. They will be fetched and created from the webhook data.
 9. In case the orders are not synced, you can check the error in **Home > Settings > Core > Error Log**.
@@ -70,10 +71,10 @@ A GIF below to show the entire process:
 
 In the Woocommerce Settings DocType:
 
-- **Warehouse**: This warehouse will be used to create Sales Orders. The fallback warehouse is "Stores".
-- **Delivery After (Days)**: This is the default offset (days) for the Delivery Date in Sales Orders. The fallback offset is 7 days from the order placement date.
-- **Sales Order Series**: You can set a separate series for Sales Orders created via woocommerce. The fallback series is "SO-WOO-".
-- **UOM**: This is the default UOM used for Items and Sales Orders. The fallback UOM is "Nos".
+- **Warehouse**: This Warehouse will be used to create Sales Orders. The default Warehouse is "Stores".
+- **Delivery After (Days)**: This is the default offset (days) for the Delivery Date in Sales Orders. The default offset is 7 days from the order placement date.
+- **Sales Order Series**: You can set a separate series for Sales Orders created via woocommerce. The default series is "SO-WOO-".
+- **UOM**: This is the default UOM used for Items and Sales Orders. The default UOM is "Nos".
 
 ![Woocommerce Defaults](/docs/assets/img/erpnext_integrations/wc-defaults.png)
 
