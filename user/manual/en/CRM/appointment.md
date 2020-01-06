@@ -53,7 +53,7 @@ If no lead is found, the appointment is marked as "Unverified" and an email is s
 
 ### 3.1 Autoassign
 
-Appointments are automatically assigned to employees as per the `Agents` list in [Appointment Booking Settings](docs/user/manual/en/CRM/appointment_booking_settings). The agent with the least number of `assignment for the day of the appointment and who is free in the scheduled time is assigned to the appointment.
+Appointments are automatically assigned to employees as per the `Agents` list in [Appointment Booking Settings](docs/user/manual/en/CRM/appointment_booking_settings). The agent with the least number of assignments for the day of the appointment and who is free in the scheduled time is assigned to the appointment.
 
 ### 3.2 Email confirmation
 
