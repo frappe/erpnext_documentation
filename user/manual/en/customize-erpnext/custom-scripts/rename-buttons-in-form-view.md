@@ -24,10 +24,10 @@ frappe.ui.form.on('Sales Order', {
 );
 ```
 
-We have removed/hidden the unwanted buttons, and then renamed one:
+Using this script, we have removed/hidden the unwanted buttons, and then renamed one:
 
 <img alt="Custom Script" class="screenshot" src="{{docs_base_url}}/assets/img/customize/customize-button-rename.png">
 
-**Note:** To learn more about the JS APIs, check the [frappe](https://frappe.io/docs/user/en/api/form) documentation.
+**Note:** To learn more about the JS APIs, visit the [frappe documentation](https://frappe.io/docs/user/en/api/form).
 
 {next}
