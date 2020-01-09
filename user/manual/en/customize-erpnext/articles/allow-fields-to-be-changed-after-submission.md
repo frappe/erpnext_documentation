@@ -18,7 +18,7 @@ To set this property,
 
 4. Update.
 
-After updating Customize Form, you should reload your ERPNext account. Then check form, and field to confirm its editable in submitted form as well.
+After updating Customize Form, you should reload your ERPNext account. Then check form, and field to confirm whether or not it is editable in submitted form as well.
 
 {next}
 

@@ -52,7 +52,7 @@ If Sales User tries submitting Sales Order of value higher than 10,000, then he 
 
 1. Grand Total
 1. Average Discount
-1. Customerwise Discount
-1. Itemwise Discount
+1. Customer-wise Discount
+1. Item-wise Discount
 
 {next}

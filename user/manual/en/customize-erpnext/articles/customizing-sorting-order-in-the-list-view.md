@@ -1,7 +1,7 @@
 <!-- add-breadcrumbs -->
-#Customizing Sorting Order in the List View
+# Customizing Sorting Order in the List View
 
-**Question:** I want records in my Item List sorted based on Desc Order of Item Code.
+**Question:** I want records in my Item List sorted based on Descending Order of Item Code.
 
 **Answers:** Following are the steps to customize Sort Order for the Item master. These steps will be applicable for customizing Sort Order for the other documents as well.
 
@@ -9,7 +9,7 @@
 
 > Home > Customization > Form Customization > Customize Form
 
-#### Step 2: Select Doctype
+#### Step 2: Select DocType
 
 Select document type for which Sort Order is to be customized.
 

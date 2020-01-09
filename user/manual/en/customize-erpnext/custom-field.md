@@ -59,7 +59,7 @@ You can also go to [Customize Form](/docs/user/manual/en/customize-erpnext/custo
 * **Hidden**: Check this Field when you want this Field to be hidden, or to hide an existing Field.
 * **Print Hide**: In cases that you want the print button to be hidden from the Print Format. Checkout [Fields in Print Format](/docs/user/manual/en/customize-erpnext/articles/making-fields-visible-in-print-format) for more information.
 * **No Copy**: Checking this box will restrict copying of this Field in the DocType.
-* **Allow on Submit**: This will allow you to make changes to the Field even after you have submitted the Form. Checkout [Editing Value in Submitted Document](/docs/user/manual/en/customize-erpnext/articles/allow-fields-to-be-changed-after-submission) formore information.
+* **Allow on Submit**: This will allow you to make changes to the Field even after you have submitted the Form. Checkout [Editing Value in Submitted Document](/docs/user/manual/en/customize-erpnext/articles/allow-fields-to-be-changed-after-submission) for more information.
 * **In List View**: This will make the field visible in the List View of the DocType.
 * **In Standard Filter**: The field will become a standard filter in the List view of the Document.
 * **In Global Search**: When this box is checked this Field can be searched form the Global Search.

@@ -9,15 +9,15 @@ If you set the former field as Dynamic Link, where we select actual Lead or Cust
 
 Below are the steps to insert Custom Dynamic Field. For instance, we will insert Dynamic Link Field in Journal Entry.
 
-#### Step 1: Insert Link Field for Doctype
+#### Step 1: Insert Link Field for DocType
 
-First, we will create a link field that will be linked to the Doctype.
+First, we will create a link field that will be linked to the DocType.
 
 <img alt="Custom Link Field" class="screenshot" src="{{docs_base_url}}/assets/img/customize/customize-dynamic-link-1.gif">
 
-By **Doctype** mentioned in the Option field, we mean parent Doctype. So, just like Quotation is one Doctype, which has multiple Quotation under it. Same way, Doctype is also a Doctype which has Sales Order, Purchase Order and other doctypes created as Doctype records.
+By **DocType** mentioned in the Option field, we mean parent DocType. So, just like Quotation is one DocType, which has multiple Quotation under it. Same way, DocType is also a DocType which has Sales Order, Purchase Order and other doctypes created as DocType records.
 
-**Doctype<br>**
+**DocType<br>**
 ---- Sales Order<br>
 ---- Purchase Invoice<br>
 ---- Quotation<br>
@@ -26,7 +26,7 @@ By **Doctype** mentioned in the Option field, we mean parent Doctype. So, just l
 ---- Work Order<br>
 .. and so on.
 
-So linking this field with parent Doctype will list all the Doctype records.
+So linking this field with parent DocType will list all the DocType records.
 
 <img alt="journal Voucher Link Field" class="screenshot" src="{{docs_base_url}}/assets/img/customize/customize-dynamic-link.png">
 
@@ -42,7 +42,7 @@ This field will allow selecting document id, based on the value selected in the 
 
 **Customizing options in the Doctype Link field**
 
-By default, the Doctype link field will provide all the forms/doctypes for selection. If you wish this field to show certain specific doctypes in the search result, you will need to write Custom Script for it.
+By default, the DocType link field will provide all the forms/docTypes for selection. If you wish this field to show certain specific docTypes in the search result, you will need to write Custom Script for it.
 </div>
 
 {next}

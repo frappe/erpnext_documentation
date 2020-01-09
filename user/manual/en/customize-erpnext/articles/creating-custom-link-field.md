@@ -22,7 +22,7 @@ To set field as Link, enter values as below.
 1. Label: Desired label that user wishes to display in the form.
 1. Type: Set as 'Link'
 1. Name: Desired name for the field
-1. Options: Enter the name of the Doctype to which the field is linked
+1. Options: Enter the name of the DocType to which the field is linked
 
 <img alt="Enter Values" class="screenshot" src="{{docs_base_url}}/assets/img/customize/customize-creating-custom-link-fields.png">
 

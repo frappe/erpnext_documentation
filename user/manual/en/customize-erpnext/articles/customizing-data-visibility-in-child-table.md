@@ -19,7 +19,7 @@ Based on the value in the Column field, columns will be added to the child table
 
 **Switch to Un-editable Grid**
 
-To have more values shown in the preview of the Quotation Item table, you can disable Editable Grid for the Quotation Item Doctype. Steps below.
+To have more values shown in the preview of the Quotation Item table, you can disable Editable Grid for the Quotation Item DocType. Steps below.
 
 <img alt="Child Table" class="screenshot" src="{{docs_base_url}}/assets/img/customize/customize-child-table.gif">
 
