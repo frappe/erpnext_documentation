@@ -16,3 +16,4 @@ difference-between-system-user-and-website-user
 outgoing-email-gateway
 print-format-sections
 email-error
+prepared-report

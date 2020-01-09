@@ -5,7 +5,7 @@
 
 If some of your Items have tax rates different from the standard tax rate assigned in the Taxes and Charges table, then you can create an Item Tax Template and assign it to an [Item](/docs/user/manual/en/stock/item) or [Item Group](/docs/user/manual/en/stock/item-group). The rate assigned in the Item Tax Template will get preference over the standard tax rate assigned in the Taxes and Charges table.
 
-For example, if tax GST 18% is added in the Taxes and Charges table in Sales Order, then it will be applied on all the items in that Sales Order. However, if you need to have different tax rate applied on some of the items, the steps are given below 
+For example, if tax GST 18% is added in the Taxes and Charges table in Sales Order, then it will be applied on all the items in that Sales Order. However, if you need to have different tax rate applied on some of the items, the steps are given below
 
 To access the Item Tax Template list, go to
 > Home > Accounting > Taxes > Item Tax Template
@@ -20,7 +20,7 @@ Before creating and using an Item Tax Template, it is advised to create the foll
 
 ## 2. How to create an Item Tax Template
 1. Go to the Item Tax Template list and click on New.
-1. Enter a title for the Item Tax Template. 
+1. Enter a title for the Item Tax Template.
 1. Select an account and set the overriding rate. Add more rows if required.
 1. Save.
 
@@ -36,7 +36,7 @@ Tax templates are preset with values. For items which have a different tax rate 
 
 <img class="screenshot" alt="Opening Account" src="{{docs_base_url}}/assets/img/accounts/item-wise-tax.png">
 
-For the Item which is exempted from tax entirely, mention 0% as tax rate in the Item master. 
+For the Item which is exempted from tax entirely, mention 0% as tax rate in the Item master.
 
 <img class="screenshot" alt="Opening Account" src="{{docs_base_url}}/assets/img/accounts/exempted-item.png">
 
@@ -44,7 +44,7 @@ For the Item which is exempted from tax entirely, mention 0% as tax rate in the 
 
 > If you want to include multiple items with different tax rates, you need to have record them under different tax heads. For example, VAT 14%, VAT 5% etc.
 
-### 2.2 Tax Calculation in transaction	
+### 2.2 Tax Calculation in transaction
 
 For example, in the following screenshot, the Item has an Item Tax Template assigned to it with 5% on two tax heads.
 
@@ -65,7 +65,20 @@ You can assign the Item Tax Template to an Item Group by modifying the Item Tax 
 
 Item Tax Template applied on an Item Group will apply to all Items in that group unless an individual Item in the Item Group has its own Item Tax Template assigned to it.
 
-### 2.5 Some points to note
+
+### 2.5 Validity of Item Taxes
+
+<img class="screenshot" alt="Item Tax in Item Group" src="{{docs_base_url}}/assets/img/accounts/item-tax-in-item.png">
+
+You can also assign validity to tax templates as shown in the image above.
+
+* Based on the posting date of the transaction, a valid tax template will be automatically fetched.
+* If there are more than one valid tax templates then the first valid tax template from Item Tax table will be fetched.
+* In case when there are no valid tax templates then the first tax template with no 'Valid From' date in the Item Tax table will be fetched.
+
+> Note: While adding items in Purchase Invoice first preference will be given to 'Supplier Invoice Date' instead of 'Posting Date' for fetching valid Item Tax Template.
+
+### 2.6 Some points to note
 
 - If you set the Tax Category as empty, the default Item Tax Template will be applied to Items in transactions.
 

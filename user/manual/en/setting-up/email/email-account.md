@@ -87,6 +87,8 @@ The following options are available for outgoing emails:
 * **Send unsubscribe message in email**: Send a link to unsubscribe from emails sent from this account.
 * **Track Email Status**: Track if your email has been opened by the recipient. Note that, if you're sending to multiple recipients, even if one recipient reads the email, it'll be considered "Opened".
 * **Enable Auto Reply**: If enabled, enter an auto reply message.
+* **Append Outgoing Email to Sent Folder**: If using custom email servers like Zimbra or CPanel, SMTP will not automatically append emails to Sent folder. Enabling this option will ensure all emails are explicitly appended to the email account's Sent folder.
+* **Use SSL for Outgoing Emails**: Use SSL as a standard for outgoing emails. Defaults to port 465.
 
 ## 4. How ERPNext handles replies
 
