@@ -19,3 +19,13 @@ Clicking on Download Files Backup will send an email with links to the backup fo
 
 <img class="screenshot" alt="Download Backup" src="{{docs_base_url}}/assets/img/articles/download-backup-files.png">
 
+## Automating Backups to Cloud Storage
+
+You can also automate your backups to be uploaded directly on a cloud storage platform. Currently, ERPNext supports:
+
+1. Amazon S3
+1. [Dropbox](/docs/user/manual/en/erpnext_integration/dropbox-backup)
+1. [Google Drive](/docs/user/manual/en/erpnext_integration/google_drive)
+
+
+
