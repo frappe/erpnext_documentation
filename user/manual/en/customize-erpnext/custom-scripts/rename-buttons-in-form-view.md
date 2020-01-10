@@ -30,4 +30,6 @@ Using this script, we have removed/hidden the unwanted buttons, and then renamed
 
 **Note:** To learn more about the JS APIs, visit the [frappe documentation](https://frappe.io/docs/user/en/api/form).
 
+To check the method which is called, you will need to check JS file for that doctype. In this example, for renaming 'Request For Raw Materials', we are referring to [this line](https://github.com/frappe/erpnext/blob/782f45ae5f272173b5daadb493d40cf7ccf131b4/erpnext/selling/doctype/sales_order/sales_order.js#L167).
+
 {next}
