@@ -44,7 +44,7 @@ Following are the steps to use Purchase Receipt for creating Material Transfer E
 
 #### Enable Supplier Warehouse
 
-Similar to the customer warehouse shown above, the first step is to enable the Supplier Warehouse from [Customize Form](/docs/user/manual/en/customize-erpnext/customize-form.html) as demonstrated above.
+Similar to the Customer Warehouse shown above, the first step is to enable the Supplier Warehouse from [Customize Form](/docs/user/manual/en/customize-erpnext/customize-form.html) as demonstrated above.
 
 ### Select Warehouses
 
