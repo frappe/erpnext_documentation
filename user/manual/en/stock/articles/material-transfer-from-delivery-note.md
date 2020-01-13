@@ -36,7 +36,7 @@ On the submission of a Delivery Note, item's stock will be deducted from "From W
 
 ### Scenarios
 
-1. There are statutory requirements where taxes are to be applied on each transfer of Material. It is easier to manage in a transaction like Purchase Receipt, than in the Stock Entry as taxes cannot be applied on transfers of items via Stock Entry
+There are statutory requirements where taxes are to be applied on each transfer of Material. It is easier to manage in a transaction like Purchase Receipt, than in the Stock Entry as taxes cannot be applied on transfers of items via Stock Entry
 
 Following are the steps to use Purchase Receipt for creating Material Transfer Entry
 
@@ -44,11 +44,11 @@ Following are the steps to use Purchase Receipt for creating Material Transfer E
 
 #### Enable Supplier Warehouse
 
-Similar to the customer warehouse shown above the first step is to enable the Supplier Warehouse from [Customize Form](/docs/user/manual/en/customize-erpnext/customize-form.html) as demonstrated above.
+Similar to the customer warehouse shown above, the first step is to enable the Supplier Warehouse from [Customize Form](/docs/user/manual/en/customize-erpnext/customize-form.html) as demonstrated above.
 
 ### Select Warehouses
 
-When creating a Purchase Receipt for Material Transfer, for an item select target warehouse as Accepted Warehouse.
+When creating a Purchase Receipt for Material Transfer, for an Item select target Warehouse as Accepted Warehouse.
 
 In the Supplier Warehouse, select a Warehouse from where Material is to be transferred.
 
