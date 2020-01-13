@@ -1,5 +1,5 @@
 <!-- add-breadcrumbs -->
-# Blanker Order
+# Blanket Order
 
 **A Blanket Order is an order from a customer to supply materials for specific items over a period of time at pre-negotiated rates.**
 
