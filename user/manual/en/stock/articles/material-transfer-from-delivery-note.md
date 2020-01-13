@@ -48,7 +48,7 @@ Similar to the Customer Warehouse shown above, the first step is to enable the S
 
 ### Select Warehouses
 
-When creating a Purchase Receipt for Material Transfer, for an Item select target Warehouse as Accepted Warehouse.
+When creating a Purchase Receipt for Material Transfer, for an Item, select target Warehouse as Accepted Warehouse.
 
 In the Supplier Warehouse, select a Warehouse from where Material is to be transferred.
 
