@@ -36,7 +36,7 @@ On the submission of a Delivery Note, item's stock will be deducted from "From W
 
 ### Scenarios
 
-There are statutory requirements where taxes are to be applied on each transfer of Material. It is easier to manage in a transaction like Purchase Receipt, than in the Stock Entry as taxes cannot be applied on transfers of items via Stock Entry
+There are statutory requirements where taxes are to be applied on each transfer of Material. It is easier to manage a situation like this in a transaction like Purchase Receipt, than in the Stock Entry as taxes cannot be applied on transfers of items via Stock Entry
 
 Following are the steps to use Purchase Receipt for creating Material Transfer Entry
 
