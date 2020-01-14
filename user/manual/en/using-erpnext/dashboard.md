@@ -36,7 +36,7 @@ Save changes and click on `Show Dashboard` button to see the dashboard.
 
 To create a new Dashboard Chart, go to
 
-> Customizations > Dashboards > Dashboard Chart > New
+> Home > Customizations > Dashboards > Dashboard Chart > New
 
 Provide a name for the chart, this will show up in the dashboard as the chart label and select a `Dashboard Chart Source` as the data source for this chart.
 
