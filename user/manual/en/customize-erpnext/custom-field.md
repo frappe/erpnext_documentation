@@ -1,80 +1,79 @@
 <!-- add-breadcrumbs -->
+
 # Custom Field
 
-Every form in the ERPNext has standard set of fields. If you need to capture some information, but there is no standard field available for it, you can insert Custom Field in a form as per your requirement.
+**Every form in ERPNext has a standard set of fields. If you need to capture some information, but there is no standard Field available for it, you can insert Custom Field in a form as per your requirement.** 
 
-Following are the steps to insert Custom Field in the existing form.
+You can go to [Customize Form](/docs/user/manual/en/customize-erpnext/customize-form) and add the Field in a particular Form or a Document type _(hereafter referred to as DocType)_ .
 
-####Customize Form
+To access Custom Field, go to:
 
-To add a Custom Field, go to:
+> Home > Customization > Form Customization > Custom Field
 
-`Setup > Customize > Customize Form`
+You can also go to the list view of any DocType and select Customize from the Menu options. 
 
-####Select Document Type
+<img alt="Custom Field" class="screenshot" src="{{docs_base_url}}/assets/img/customize/customize-custom-field-01.png">
 
-In the Customize Form, select Document Type in which you want to insert Custom Field. Let's assume we are inserting Custom Field in the Employee master.
+## 1. How to create a Custom Field
 
-<img alt="Select Document Type" class="screenshot" src="{{docs_base_url}}/assets/img/customize/custom-field-1.gif">
+1. Go to the Custom Field list and click on New.
+2. **Document**: Select the Document in which you need to add the Custom Field.
+3. **Label**: Enter what Label would you like to give to your Custom Field.
+4.  **Field Type**: ERPNext already has a set of Field Types defined which can be fetched from this drop-down menu. You can select the Type of your Custom Field from within this menu.
+5. Update.
 
-#### Insert Row for the Custom Field
+  *Learn more about Field types [here](/docs/user/manual/en/customize-erpnext/articles/field-types.html).*
 
-In Customize Form, open the field above which you want to insert a Custom Field. Click on Insert Above.
+You can also go to [Customize Form](/docs/user/manual/en/customize-erpnext/customize-form) and add, edit or remove a Field in a particular Form.
 
-<img alt="Select Document Type" class="screenshot" src="{{docs_base_url}}/assets/img/customize/custom-field-2.gif">
+<img alt="Custom Field" class="screenshot" src="{{docs_base_url}}/assets/img/setup/customize-erpnext-custom-field-from-customize-form.gif">
 
-####Set Field Label
+### 1.1. Additional Details
 
-Custom Field's name will be set based on its Label. If you want to create Custom Field with specific name, but with different label, then you should first set Label as you want Field Name to be set. After Custom Field is saved, you can edit the Field Label again.
+1. **Options**: This Field comes into picture when you would want your data to be specific or specify the data. E.g., when you have selected the Field to be a 'Select Field', you would be required to enter the selection options here.
 
-<img alt="Select Document Type" class="screenshot" src="{{docs_base_url}}/assets/img/customize/custom-field-3.png">
+  <img alt="Custom Field" class="screenshot" src="{{docs_base_url}}/assets/img/customize/custom-field-2.png">
 
-####Select Field Type
+1. **Fetch From**: When you want your Custom Field to be 'Link Field', you would be required to specify the Form to which this Field is to be linked. E.g., you want to create a Custom Field 'Project' in the DocType 'Item'. You would be required to enter to specify your Field Type as 'Link' and enter 'Project' in the Fetch From Field to ensure that the Field is updated with the list of all the required DocTypes.
+1. **Fetch If Empty**: This check-box will ensure that this Field will be not overwritten based on Fetch From if a value already exists.
+1. **Default Value**: Enter the default value of the Field which you would want to be fetched for this Field.
+1. **Depends On**: You can define a condition here for the Field to be displayed. E.g., in the DocType Item, two fields 'Asset Category' and 'Asset Naming Series' will only appear if the Field 'Is Fixed Asset' is checked. The dependency condition here would be `is_fixed_asset`.
 
-There are various types of Field like Data, Date, Link, Select, Text and so on. Select Field Type for the Custom Field.
+  <img alt="Custom Field" class="screenshot" src="{{docs_base_url}}/assets/img/customize/custom-field-dpends-on.png">
 
-<img alt="Select Document Type" class="screenshot" src="{{docs_base_url}}/assets/img/customize/custom-field-4.png">
+1. **Field Description**: You can add the description of the Field here which can be displayed below this Field.
 
-Click [here](/docs/user/manual/en/customize-erpnext/articles/field-types.html) to learn more about types of field you can set for your Custom Field.
+   <img alt="Custom Field" class="screenshot" src="{{docs_base_url}}/assets/img/customize/custom-field-description-1.png">
 
-####Set Option
+1. **Permission Level**: This will allow you to specify which roles within your organization will be able to edit this Field. You can go through [Role Based Permissions](/docs/user/manual/en/setting-up/users-and-permissions/role-based-permissions) for more understanding on this.
+1. **Width**: This will define the width allocated to this Field while viewing the Form in a Grid View.
+1. **Columns**: You can define the number of Columns in the grid view of the DocType.
 
-Based on the Field Type, value will be entered in the Options field.
+  <img alt="Custom Field" class="screenshot" src="{{docs_base_url}}/assets/img/customize/cutom-field-changes.png">
 
-If you are creating a Link field, then in the Options, enter Doctype name with which this field will be linked. Click [here](/docs/user/manual/en/customize-erpnext/articles/creating-custom-link-field.html) to learn more about creating custom link field.
+### 1.2. More Properties
 
-If field type is set as Select (drop down field), then all he possible result for this field should be listed in the Options field. Each possible result should be separate by row.
+* **Is Mandatory Field**: This box can be checked if you want to make this Field mandatory while submitting a DocType.
+* **Unique**: Check this box when you want the value of this Field to be unique. This can be done in cases where the Custom Field is for a code or an Identification Number. E.g., Item Code in case of Item, GST Number in case of Customer.
+* **Read Only**: When you want this Field to be a read only or a non-editable Field. In this case, the value of the Field shall be auto-fetched from other fields.
+* **Hidden**: Check this Field when you want this Field to be hidden, or to hide an existing Field.
+* **Print Hide**: In cases that you want the print button to be hidden from the Print Format. Checkout [Fields in Print Format](/docs/user/manual/en/customize-erpnext/articles/making-fields-visible-in-print-format) for more information.
+* **No Copy**: Checking this box will restrict copying of this Field in the DocType.
+* **Allow on Submit**: This will allow you to make changes to the Field even after you have submitted the Form. Checkout [Editing Value in Submitted Document](/docs/user/manual/en/customize-erpnext/articles/allow-fields-to-be-changed-after-submission) for more information.
+* **In List View**: This will make the field visible in the List View of the DocType.
+* **In Standard Filter**: The field will become a standard filter in the List view of the Document.
+* **In Global Search**: When this box is checked this Field can be searched form the Global Search.
+* **Bold**: This will make this Field type bold, this adds more value to the Field.
+* **Report Hide**: This field will not be visible in the reports when you check this box.
+* **Ignore XSS Filter**: This will allow you to view this Field without the HTML tags.
+* **Translatable**: When this box is checked, it becomes translatable while applying [Custom Translations](/docs/user/manual/en/setting-up/print/custom-translations) to this.
 
-<img alt="Select Document Type" class="screenshot" src="{{docs_base_url}}/assets/img/customize/custom-field-5.png">
-
-For Data field, Option can be set to "Email" or "Phone" and the field will be validated accordingly.
-
-For other field types like Date, Currency, Option field will be left blank.
-
-####Set More Properties
-
-You can set properties as:
-
-1. Mandatory: If checked, entering data in the custom field will be mandatory.
-1. Print Hide: If checked, this field will be hidden from the Standard Print Format. To make field visible in the Standard Print Format, uncheck this field.
-1. Field Description: It will be short field description which will appear just below that field.
-1. Default Value: Value entered in this field will be auto-set in the Custom Field.
-1. Read Only: Checking this option will make custom field non-editable.
-1. Allow on Submit: Checking this option will allow editing value in the field when in submitted transaction.
-
-####Update Customize Form
-
-After inserting required details for the Custom Field, Update Customize Form. On update, Custom Field will be inserting in the form, Employee master in this case. Before checking Employee form, reload your ERPNext account. After reload, check Employee form to see Custom Field in a form.
-
-<img alt="Select Document Type" class="screenshot" src="{{docs_base_url}}/assets/img/customize/custom-field-6.png">
-
-####Deleting Custom Field
-
-Given a permission, user will be able to delete Custom Fields. Incase Custom Field is deleted by mistake, if you add another Custom Field with same name. Then you shall see new field auto-mapped with old-deleted Custom Field.
+## 2. Videos
 
 <div class="embed-container">
-    <iframe src="https://www.youtube.com/embed/pJhL9mmxV_U?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen>
-    </iframe>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/WSzkpPm3iIU?start=218" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
+
+
 
 {next}

@@ -36,6 +36,7 @@ For example, if you want to hide the 'Item Code' when printing a Quotation, clic
 Go to Menu > Customize, select Quotation Item in the 'Enter Form Type' field.
 ![Print Format Customize](/docs/assets/img/setup/print/print-format-customize1.png)
 
+To know more, visit the [Customize Print Format](/docs/user/manual/en/customize-erpnext/print-format) page.
 
 In the fields table, expand the 'Item Code' row, scroll down and tick the 'Print Hide' checkbox.
 ![Print Format Print Hide](/docs/assets/img/setup/print/print-format-customize2.png)

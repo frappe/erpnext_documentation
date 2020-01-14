@@ -1,29 +1,29 @@
 <!-- add-breadcrumbs -->
-#Search Record by Specific Field
+# Search Record by Specific Field
 
-While creating any document (say Sales Invoice), you have to select other document id in it (say Serial No). For ease in selection, you can also make value of other field of that visible in the search result. Search By functionality enables to define field whos value will be visible in the search result.
+While creating any DocType, you may want to link a particular field to another DocType. For ease in selection, you can also ensure that you are able to see the value of another field of the latter DocType in the search result. 
 
-Let's assume that while creating Sales Invoice, you wish to see Serial No result, with respective Warehouse.
+Let's assume that you want to see that Item in a Sales Order along with its Item Group. The steps to do this are given below:
 
-#### Step 1: Customize Form
+#### Step 1: Go to Customize Form
 
-`Setup > Customize > Customize Form`
+> Home > Customization > Form Customization > Customize Form
 
-#### Step 2: Select Document
+#### Step 2: Select the Document for which you want multiple fields to be visible in the Search Field
 
-`Document Type = Serial No.`
+Here, we will select the Document Item.
 
 #### Step 3:  Search Field
 
 Update Warehouse field name in the Search By field.
 
-<img alt="Search By in Customize Form" class="screenshot" src="{{docs_base_url}}/assets/img/articles/search-by-1.png">
+<img alt="Search By in Customize Form" class="screenshot" src="{{docs_base_url}}/assets/img/customize/customize-search-record-1.png">
 
-#### Searching in Another Record.
+<img alt="Search By in Customize Form" class="screenshot" src="{{docs_base_url}}/assets/img/customize/customize-search-record-2.png">
 
-While creating transaction, to get filtered result for Customer, you should firstly click on search magnifier.
+Once these settings have been updated, while creating a Sales Order, when you select the Item, you will also be able to the warehouse there.
 
-<img alt="Search By in Customize Form" class="screenshot" src="{{docs_base_url}}/assets/img/articles/search-by-2.png">
+<img alt="Search By in Customize Form" class="screenshot" src="{{docs_base_url}}/assets/img/customize/customize-search-record-3.png">
 
 {next}
 

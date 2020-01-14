@@ -1,7 +1,7 @@
 <!-- add-breadcrumbs -->
 # Filter Options in Select Field
 
-Let's say you have two dropdown fields named State and City. State has two values Karnataka and Maharashtra and City has four values, Bangalore, Mysore, Mumbai, and Pune. If you would like to filter options in City based on the value chosen in State, you can write custom script as shown below.
+Let's say you have two drop-down fields named State and City. State has two values Karnataka and Maharashtra and City has four values, Bangalore, Mysore, Mumbai, and Pune. If you would like to filter options in City based on the value chosen in State, you can write custom script as shown below.
 
     frappe.ui.form.on("Lead", "state", function(frm) {
       if(frm.doc.state == "Karnataka")

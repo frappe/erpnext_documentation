@@ -1,7 +1,7 @@
 <!-- add-breadcrumbs -->
 # Freeze an Account
 
-Once an Account is Frozen, you won't be able to use it any accounting transaction. Since this is a critical action, you need to explicitly define a Role who can set an Account as Frozen. You can define this Role in the Account Settings.  
+Once an Account is Frozen, you won't be able to use it for any accounting transaction. Since this is a critical action, you need to explicitly define a Role who can set an Account as Frozen. You can define this Role in the Account Settings.  
 
 `Accounts > Account Settings`
 

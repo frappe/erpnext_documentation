@@ -1,10 +1,10 @@
 <!-- add-breadcrumbs -->
-# Sales Invoice Id Based On Sales Order Id
+# Sales Invoice ID Based On Sales Order ID
 
-Below script allows you to get naming series in Sales Invoice, same as of corresponding Sales Order.
-Invoice uses a prefix M- but the number duplicates the SO doc name (number).
+The script given below allows you to apply naming series to a Sales Invoice, same as that of the corresponding Sales Order.
+Sales Invoice uses a prefix M- but the number duplicates itself from the Sales Order Name.
 
-Example: If Sales Order id is SO-12345, then corresponding Sales Invoice id will be set as M-12345.
+Example: If Sales Order ID is SO-12345, then corresponding Sales Invoice ID will be set as M-12345.
 
 ```js
 frappe.ui.form.on("Sales Invoice", "refresh", function(frm){
@@ -22,3 +22,4 @@ frappe.ui.form.on("Sales Invoice", "refresh", function(frm){
 	}
 });
 ```
+{next}

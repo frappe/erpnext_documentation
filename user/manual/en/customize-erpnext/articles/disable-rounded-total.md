@@ -1,25 +1,29 @@
 <!-- add-breadcrumbs -->
 #Disable Rounded Total
 
-All the sales transactions like Sales Order, Sales Invoice has Rounded Total in it. It calculated based on the value of Grand Total. Also Rounded Total is also visible in the Standard Print Formats.
+All the sales transactions like Sales Order, Sales Invoice have Rounded Total in it. It is calculated based on the value of Grand Total. Moreover, Rounded Total is also visible in the Standard Print Formats.
 
-<img alt="Print Preview" class="screenshot" src="{{docs_base_url}}/assets/img/articles/hide-rounded-total-1.png">
+> Note: The Rounded Total is a feature on present in **Sales** transactions.
 
-Follow steps given below to hide rounded total from Standard Print Formats, for all the sales transactions.
+<img alt="Print Preview" class="screenshot" src="{{docs_base_url}}/assets/img/customize/customize-disable-rounded-total-2.png">
 
-#### Step 1: Global Defaults
+However, if you wish to disable the same, you may follow steps given below to hide rounded total from Standard Print Formats, for all the sales transactions.
 
-`Setup > Settings > Global Defaults`
+#### Step 1: Go to ERPNext Settings
+
+> Home > Settings > Settings > ERPNext Settings
+
+<img alt="Print Preview" class="screenshot" src="{{docs_base_url}}/assets/img/customize/customize-disable-rounded-total-1.png">
 
 #### Step 2: Disable Rounded Total
 
 Check Disable Rounded Total, and Save Global Defaults.
 
-<img alt="Print Preview" class="screenshot" src="{{docs_base_url}}/assets/img/articles/hide-rounded-total-2.png">
+<img alt="Print Preview" class="screenshot" src="{{docs_base_url}}/assets/img/customize/customize-disable-rounded-total.png">
 
-For system to take effect of this setting, you should clear cache and refresh your ERPNext account. Then your print formats shall not render value for the Rounded Total in the print formats.
+To be able to view this setting, you should clear cache and/or refresh your ERPNext account. Then your print formats shall not render value for the Rounded Total.
 
-<div class=well>Note: This setting will only affect Standard print formats.</div>
+> Note: This setting will only affect Standard print formats.
 
 {next}
 

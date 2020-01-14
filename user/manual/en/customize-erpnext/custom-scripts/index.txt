@@ -11,4 +11,5 @@ custom-button
 filter-options-in-select-field
 fetch value in child table field
 hide-buttons-in-form-view
+rename-buttons-in-form-view
 lock_timesheets_based_on_date
