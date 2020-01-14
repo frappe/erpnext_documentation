@@ -9,7 +9,7 @@ Each Dashboard consists of one or more than one Dashboard Charts each of which a
 
 To access Dashboard, go to,
 
-> Customization > Dashboards > Dashboard
+> Home > Customization > Dashboards > Dashboard
 
 ## 1. How to Create a New Dashboard
 
