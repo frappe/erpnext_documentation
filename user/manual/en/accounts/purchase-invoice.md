@@ -71,6 +71,12 @@ Sometimes you may need to hold an invoice from being submitted.
 
 ![PI Hold](/docs/assets/img/accounts/pi-hold.png)
 
+Once the purchase invoice gets submit and you want to change 'Release Date' then you can take the help of the 'Hold Invoice' button, which is available on the top right.
+
+If you want to hold submitted purchase invoice then you can hold using 'Block Invoice' option and If you want to unblock again then use 'Unblock Invoice' option.
+
+![Block PI](/docs/assets/img/accounts/pi_block.png)   
+
 This is invoice level holding, Suppliers can be put on hold. [Learn more here](/docs/user/manual/en/buying/supplier#23-credit-limit).
 
 ### 3.3 Supplier Invoice Details
