@@ -4,11 +4,11 @@
 **Attendance is a record stating whether an Employee has been present on a particular
 day or not.**
 
-In ERPNext, you can mark and record attendance of an Employee on a daily basis using the Attendance doctype. 
+In ERPNext, you can mark and record attendance of an Employee on a daily basis using the Attendance doctype.
 
 To access Attendance, go to:
 
-> Home > Human Resources > Attendance 
+> Home > Human Resources > Attendance
 
 ## 1. Prerequisites
 
@@ -39,8 +39,22 @@ You can easily set attendance for Employees using the [Employee Attendance Tool]
 
 You can also bulk upload attendance using the [Upload Attendance](/docs/user/manual/en/human-resources/upload-attendance).
 
+## 3. Features
+### 3.1 Marking Unmarked Attendance
+In case the attendance for some employees is not marked, you can mark them as present, absent, or half-day.
 
-## 3. Related Topics
+#### How to Mark Attendance
+1. Go to the Attendance list.
+1. Click on the **Mark Attendance** button.
+1. A dialog will appear.
+1. Select the Employee and Month.
+1. Select the Status whether Present, Absent, or Half Day.
+1. Select the dates on which you want to mark attendance for a selected Employee.
+1. Click on the **Mark Attendance** button and click on **Yes**.
+
+    <img class="screenshot" alt="Attendance" src="{{docs_base_url}}/assets/img/human-resources/marking_unmarked_attendance.gif">
+
+## 4. Related Topics
 
 1. [Employee Attendance Tool](/docs/user/manual/en/human-resources/employee-attendance-tool)
 1. [Shift Management](/docs/user/manual/en/human-resources/shift-management)
