@@ -167,6 +167,34 @@ For reference, the following details of your company can be saved in ERPNext:
 On saving a company, the following details/actions will be visible in the dashboard:
 ![Company after Save](/docs/assets/img/setup/company-after-save.png)
 
+**Registration Details**: Here you can save various tax/cheque/bank number for reference.
+
+### 2.9 Deleting all Company Transactions
+You can delete all transactions (Orders, Invoices) of a Company. *Use with caution*, transactions once deleted cannot be recovered.
+
+#### Requirements
+
+* The User has to be a System Manager
+* The User has to be the creator of the Company
+
+#### Steps
+1. Click on the **Delete Company Transactions** button
+1. Verify your password
+1. Enter Company name for confirmation
+    ![Company after Save](/docs/assets/img/setup/company-delete-transactions.png)
+
+And you're done. The master data like Item, Account, Employee, BOM etc. will remain as it is.
+
+#### What is affected?
+
+* Sales/Purchase Orders/Invoices Receipts/Notes will be deleted
+* The monthly sales and sales history will be cleared
+* All notifications will be cleared
+* Lead Addresses to which the Company is linked will be deleted
+* All communications linked to the Company will be deleted
+* All naming series will be reset
+* Stock Entries linked to a Warehouse of this Company will be deleted
+
 ### 3. Related Topics
 1. [Setting Up Taxes](/docs/user/manual/en/setting-up/setting-up-taxes)
 1. [System Settings](/docs/user/manual/en/setting-up/settings/system-settings)
