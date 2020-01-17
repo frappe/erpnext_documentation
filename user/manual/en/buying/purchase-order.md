@@ -30,9 +30,7 @@ A Purchase Order can be automatically created from a Material Request or Supplie
 
 ### 2.1 Setting Warehouses
 
-* **Set Target Warehouse**: Optionally, you can set the target Warehouse where the items will be delivered. This will be fetched into the Item table rows.
-
-Optionally, you can set the target Warehouse where the items will be delivered. 
+* **Set Target Warehouse**: Optionally, you can set the default target Warehouse where the purchased Items will be delivered. This will be fetched into the Item table rows.
 
 ### 2.2 Fetching Items from Open Material Requests
 Items can be fetched into the Purchase Order automatically from open [Material Requests](/docs/user/manual/en/stock/material-request). For this to work, the following steps need to be done:
