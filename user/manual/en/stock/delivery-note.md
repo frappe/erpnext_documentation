@@ -77,12 +77,12 @@ To know about Price Lists, [click here](/docs/user/manual/en/stock/price-lists).
 
 To know about managing transactions in multiple currencies, [click here](/docs/user/manual/en/accounts/articles/managing-transactions-in-multiple-currency).
 
-### 3.3 Warehouses
+### 3.4 Warehouses
 
 * **Set Source Warehouse**: This is where the Items will be sourced from to send to the Customer.
 * **To Warehouse**: In a regular Sales scenario, the Item exits your Warehouse and reaches the Customer. However, if you wish to retain sample stock, enter a Warehouse here.
 
-### 3.4 Items Table
+### 3.5 Items Table
 * **Barcode**: You can track Items using [barcodes](/docs/user/manual/en/stock/articles/track-items-using-barcode).
 
 * The Item Code, name, description, Image, and Manufacturer will be fetched from the [Item master](/docs/user/manual/en/stock/item).
@@ -109,13 +109,13 @@ To know about managing transactions in multiple currencies, [click here](/docs/u
 
 * **Page Break** will create a page break just before this Item when printing.
 
-### 3.5 Tracking Quality Inspection
+### 3.6 Tracking Quality Inspection
 If for certain Items, it is mandatory to record Quality Inspections (if you have set it in your Item master), you will need to update the “Quality Inspection" field. The system will only allow you to “Submit” the
 Delivery Note if you update the “Quality Inspection”.
 
 After enabling Inspection Criteria in the [Item form](/docs/user/manual/en/stock/item#216-inspection-criteria) for Sales and attaching a Quality Inspection Template there, Quality Inspections can be recorded in Delivery Notes.
 
-### 3.5 Taxes and Charges
+### 3.7 Taxes and Charges
 The Taxes and Charges will be fetched from the [Sales Order](/docs/user/manual/en/buying/purchase-order).
 
 Visit the [Sales Taxes and Charges Template](/docs/user/manual/en/selling/sales-taxes-and-charges-template) page to know more about taxes. 
@@ -129,14 +129,14 @@ Make sure to mark all your taxes in the Taxes and Charges table correctly for an
 #### Shipping Rule
 A Shipping Rule helps set the cost of shipping an Item. The cost will usually increase with the distance of shipping. To know more, visit the [Shipping Rule](/docs/user/manual/en/selling/shipping-rule) page.
 
-### 3.6 Additional Discount
+### 3.8 Additional Discount
 Any additional discounts to the whole order can be set in this section. This discount could be based on the Grand Total i.e., post tax/charges or Net total i.e., pre tax/charges. The additional discount can be applied as a percentage or an amount.
 Read [Applying Discount](/docs/user/manual/en/selling/articles/applying-discount) for more details.
 
-### 3.7 Terms and Conditions
+### 3.9 Terms and Conditions
 In Sales/Purchase transactions there might be certain Terms and Conditions based on which the Supplier provides goods or services to the Customer. You can apply the Terms and Conditions to transactions to transactions and they will appear when printing the document. To know about Terms and Conditions, [click here](/docs/user/manual/en/setting-up/print/terms-and-conditions)
 
-### 3.8 Transporter Information
+### 3.10 Transporter Information
 
 If you outsource transporting Items to their delivery location, the transporter details can be added. This is not the same as [drop shipping](/docs/user/manual/en/selling/articles/drop-shipping).
 
@@ -159,7 +159,7 @@ For India, GST:
 
 The Transport Receipt Date and Driver Name will be fetched.
 
-### 3.9 More Information
+### 3.11 More Information
 
 The Delivery Note can be linked to the following for tracking purposes:
 
@@ -167,7 +167,7 @@ The Delivery Note can be linked to the following for tracking purposes:
 * [Campaign](/docs/user/manual/en/CRM/campaign)
 * [Source](/docs/user/manual/en/CRM/lead_source)
 
-### 3.10 Printing Settings
+### 3.11 Printing Settings
 
 #### Letterhead
 You can print your Delivery Note on your company's letterhead. Know more [here](/docs/user/manual/en/setting-up/print/letter-head).
@@ -179,28 +179,28 @@ Purchase Receipt headings can also be changed when printing the document. You ca
 
 There are additional checkboxes for printing the Delivery Note without the amount, this might be useful when the Item is of high value. You can also group the same Items in one row when printing.
 
-### 3.11 Status
+### 3.12 Status
 The status of the document and installation percentage is shown here. Any additional instructions for delivery can be entered here.
 
-### 3.12 Commission
+### 3.13 Commission
 
 If the sale took place via one of your Sales Partners, you can add their commission details here. This is usually fetched from the Sales Order.
 
-### 3.13 Sales Team
+### 3.14 Sales Team
 **Sales Persons:** ERPNext allows you to add multiple Sales Persons who may have worked on this deal.
 
 This is usually fetched from a Sales Order, for example:
 
 <img class="screenshot" alt="Sales Team in Sales Order" src="{{docs_base_url}}/assets/img/selling/so-sales-team.png">
 
-### 3.14 Shipping Packets or Items with Product Bundle
+### 3.15 Shipping Packets or Items with Product Bundle
 
 If you are shipping Items that have a [Product Bundle](/docs/user/manual/en/selling/product-bundle), ERPNext will automatically create a “Packing List” table for you based on the sub-Items in that Item.
 
 If your Items are serialized, then for Product Bundle type of Items, you will have
 to update the Serial Number in the “Packing List” table.
 
-### 3.15 Packing Items into Cases, for Container Shipment
+### 3.16 Packing Items into Cases, for Container Shipment
 
 If you are doing making the delivery via container shipment or by weight, then you can use the Packing
 Slip to break up your Delivery Note into smaller units. To know more about a Packing Slip, visit [this page](/docs/user/manual/en/stock/packing-slip).
@@ -210,7 +210,7 @@ You can create multiple Packing Slips for your Delivery Note and ERPNext will
 ensure that the quantities in the Packing Slip do not exceed the quantities in
 the Delivery Note. Note that you can create a Packing Slip from a Delivery Note only when the Delivery Note is in the Draft stage.
 
-### 3.16 After Submitting
+### 3.17 After Submitting
 
 When the Delivery Note is submitted, a Stock Ledger Entry is made for each Item and stock is updated. Pending
 Quantity in the Sales Order is updated (if applicable).
@@ -226,10 +226,10 @@ The Dashboard will show the following options:
 
 > Tip: To disallow the creation of Delivery Notes without a Sales Order against it:
 
-### 3.17 Returning a Sales Order
+### 3.18 Returning a Sales Order
 Once you've delivered a Sales Order using a Delivery Note, you can create a return entry in case the [Customer](/docs/user/manual/en/CRM/customer) returns the Item. To know more, visit the [Sales Return](/docs/user/manual/en/stock/sales-return) page.
 
-### 3.18 Skipping Delivery Note
+### 3.19 Skipping Delivery Note
 
 If you don't want to create a Delivery Note after a Sales Order and directly want to create a Sales Invoice, enable the feature for it in [Selling Settings](/docs/user/manual/en/selling/selling-settings#32-delivery-note-required).
 

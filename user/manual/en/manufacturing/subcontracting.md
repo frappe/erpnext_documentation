@@ -43,7 +43,7 @@ Make a Purchase Order for the processed Item, the one for which you've created a
 1. From a Purchase Order, select the raw materials to transfer to subcontractor:
   ![Sub-Contracting](/docs/assets/img/manufacturing/po_material_transfer_subcontract.gif)
 
-1. Once the PO is submitted, you can view the reserved quantity of the item from the item dashboard as well.
+1. Once the [Purchase Order](/docs/user/manual/en/buying/purchase-order#35-raw-materials-supplied) is submitted, you can view the reserved quantity of the item from the item dashboard as well.
 
   <img class="screenshot" alt="Sub-Contracting" src="{{docs_base_url}}/assets/img/manufacturing/subcontract3-reserved-material.png">
 
@@ -68,9 +68,9 @@ Click on Create > Purchase Receipt from the Purchase Order. Set the Accepted and
 * ERPNext will automatically add the raw material rate for your
 valuation purpose when you receive the finished Item in your stock.
 
-* ERPNext will automatically default the Reserve Warehouse in the PO
+* ERPNext will automatically default the 'Reserve Warehouse' in the Purchase Order
 from the BOM. If not found in the BOM, it would default it from the default
-Warehouse set in the Item.
+Warehouse set in the Item. You can set the default Reserve Warehouse for all the Items in the Purchase Order from the 'Reserve Warehouse' field in the Raw Materials Supplied section.
 
 ## 3. Video
 

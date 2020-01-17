@@ -28,9 +28,13 @@ A Purchase Order can be automatically created from a Material Request or Supplie
 1. Save and Submit.
     <img class="screenshot" alt="Purchase Order" src="{{docs_base_url}}/assets/img/buying/purchase-order.png">
 
+### 2.1 Setting Warehouses
+
+* **Set Target Warehouse**: Optionally, you can set the target Warehouse where the items will be delivered. This will be fetched into the Item table rows.
+
 Optionally, you can set the target Warehouse where the items will be delivered. 
 
-#### Fetching Items from Open Material Requests
+### 2.2 Fetching Items from Open Material Requests
 Items can be fetched into the Purchase Order automatically from open [Material Requests](/docs/user/manual/en/stock/material-request). For this to work, the following steps need to be done:
 
 1. Select a Supplier in the Purchase Order.
@@ -78,6 +82,17 @@ Setting 'Supply Raw Materials' option is useful for subcontracting where you pro
 A “Required By” date on each Item: If you are expecting part delivery, your Supplier will know how much quantity to deliver at which date. This will help you from preventing over-supply. It will also help you to track how well your Supplier is doing on timeliness.
 
 **Allow Zero Valuation Rate**: Ticking on 'Allow Zero Valuation Rate' will allow submitting the Purchase Receipt even if the Valuation Rate of the Item is 0. This can be a sample item or due to a mutual understanding with your Supplier.
+
+### 3.5 Raw Materials Supplied
+This section appears when 'Supply Raw Materials' supplied is set to 'Yes'. This section shows a table with the Items to be supplied to the Supplier for the subcontracting process. 
+
+* **Set Reserve Warehouse**: When [Subcontracting](/docs/user/manual/en/manufacturing/subcontracting), the raw materials can be reserved in a separate Warehouse. On selecting the Reserved Warehouse here, it'll be fetched into Item rows of the Raw Materials Supplied table.
+
+#### Supplied Items Table
+
+* **Required Quantity**: The count of Items required to complete the subcontracting as specified in the [BOM](/docs/user/manual/en/manufacturing/bill-of-materials).
+* **Supplied Quantity**: This will be updated when you create Stock Entries to transfer materials to Supplier Warehouse from the Reserve Warehouse using the **Transfer** button.
+    ![Subcontract Transfer Material](/docs/assets/img/buying/subcontract-transfer-materials.gif)
 
 ### 3.5 Purchase UOM and Stock UOM Conversion
 
