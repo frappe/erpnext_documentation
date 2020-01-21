@@ -25,7 +25,7 @@ Before creating a Loan record, it is necessary that you create the following doc
   <img class="screenshot" alt="Loan" src="{{docs_base_url}}/assets/img/human-resources/loan1.png">
 
 1. Enter Account Information such as Mode of Payment, Payment Account, Loan Account and Interest Income Account.
-1. Save. Once saved, a Repayment Schedule is automatically generated. The first repayment payment date would be set as per the "Repayment Start Date".  
+1. Save. Once saved, a Repayment Schedule is automatically generated. The first repayment payment date would be set as per the "Repayment Start Date". The
  
 
   <img class="screenshot" alt="Repayment Schedule" src="{{docs_base_url}}/assets/img/human-resources/loan2.png">
@@ -50,6 +50,10 @@ To auto deduct the Loan repayment from Salary, check "Repay from Salary" in Loan
 
 <img class="screenshot" alt="Salary Slip" src="{{docs_base_url}}/assets/img/human-resources/loan-repayment-salary-slip.png">
 
+### 3.3 Extending the Loan
+Loan amount is deducted from the salary. If the employee is on leave without pay for some period, the existing loan can be extended without the need for creating a new loan. This can be done be editing the Repayment Schedule table even after submitting the loan.
+
+![Extending Loan](/docs/assets/img/human-resources/change-loan-amount.gif)
 
 ## 4. Related Topics
 
