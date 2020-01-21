@@ -38,13 +38,14 @@ After verification, the Expense Approver can Submit (Accept) the Employee Advanc
 
 ### 3.2 Make Payment Entry
 
+##### Employee Advance via Payment Entry
 After submission of Employee Advance record, accounts user will be able to create a [Payment Entry](/docs/user/manual/en/accounts/payment-entry) using the 'Create' button.
 
 The Payment Entry will look like following:
 
 <img class="screenshot" alt="Employee Advance Payment via Payment Entry" src="{{docs_base_url}}/assets/img/human-resources/employee-advance-payment-entry.png">
 
-
+#### Employee Advance Payment via Journal Entry
 Alternatively, a [Journal Entry](/docs/user/manual/en/accounts/journal-entry) can also be created against the Employee Advance.
 
 
@@ -53,19 +54,33 @@ Alternatively, a [Journal Entry](/docs/user/manual/en/accounts/journal-entry) ca
 > Note: Make sure the Party Type is selected as Employee and the Reference Type is selected as Employee 
 Advance.
 
-
 <img class="screenshot" alt="Employee Advance Payment via Journal Entry" src="{{docs_base_url}}/assets/img/human-resources/employee-advance-journal-entry2.png">
 
-
-
-On submission of the Payment Entry/ Journal Entry, the paid amount and status will be updated in Employee Advance record.
+#### Employee Advance is Paid
+On submission of the Payment Entry/Journal Entry, the paid amount and status will be updated in Employee Advance record.
 
 ### 3.3 Adjust Advances on Expense Claim
 
-Later when the employee claims the expense, an advance record can be fetched in the Expense Claim and linked to the claim record.
+Later when the employee claims the expense, an advance record can be fetched in the [Expense Claim](/docs/user/manual/en/human-resources/expense-claim) and linked to the claim record.
 
 
-## Related Topics
+### 3.4 Return Amount
+When advance is paid to an Employee, there are three situations:
+
+* The amount may be unused
+* All of it may be used
+* Some part may be used
+
+
+Create the Employee Advance, create a payment entry to indicate that the amount is paid. 
+
+* If amount is unused, click on the **Return** button to return the paid Advance amount
+    ![Return Button](/docs/assets/img/human-resources/advance-return-button.png)
+* If all of the advance is used, it will reflect in the Claimed Amount field
+* If only some amount is claimed and rest is returned, the returned amount will be shown in the 'Returned Amount' field.
+    ![Return advance Amount](/docs/assets/img/human-resources/advance-returned-amount.png)
+
+## 4. Related Topics
 
 1. [Expense Claim](/docs/user/manual/en/human-resources/expense-claim)
 
