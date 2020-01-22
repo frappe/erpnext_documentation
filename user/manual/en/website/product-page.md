@@ -80,4 +80,9 @@ Content field of the Website Specifications section.
 ![Product Page with Custom Content](/docs/assets/img/website/product-page-with-custom-content.png)
 *Product Page with Custom Content*
 
+### 2.6 Website Warehouse
+This feature is available in the [Item master](/docs/user/manual/en/stock/item#318-website). Select an existing or create a new warehouse for transactions via your website. This Warehouse will be different from your offline Warehouses. Stock for any online transactions will be deducted from the Warehouses set under Website Warehouse.
+
+> Note: If the Website Warehouse isn't set and 'Maintain Stock' for an Item is ticked, the product page will list the Item as 'Not in Stock'.
+
 {next}
