@@ -6,7 +6,7 @@ For purchasing a new asset:
 1. Create an related Item with 'Is Fixed Asset' enabled for creating the asset.
 1. You may also enable 'Auto Create Assets on Purchase' for creating assets automatically. (Optional)
 
-  <img class="screenshot" alt="Purchasing Asset" src="{{docs_base_url}}/assets/img/asset/asset-purchase-receipt.png">
+  <img class="screenshot" alt="Purchasing Asset" src="{{docs_base_url}}/assets/img/asset/asset-auto-create-on-purchase.png">
 
 1. Then, the [purchase cycle](/docs/user/manual/en/buying/purchase-order) should be followed for purchasing an asset.
 1. Enter the Asset Location in the Items table of the [Purchase Receipt](/docs/user/manual/en/stock/purchase-receipt) or [Purchase Invoice](/docs/user/manual/en/accounts/purchase-invoice) through which you are receiving the item.
