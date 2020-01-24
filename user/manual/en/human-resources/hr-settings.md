@@ -58,10 +58,13 @@ If checked, total number of working days will include holidays, and this will re
 ### 2.2 Max working hours against Timesheet
 For salary slips based on timesheet, you can set the maximum allowed hours against a single timesheet. Set this value to Zero to disable this validation.
 
-### 2.3 Email Salary Slip to Employee
+### 2.3 Disable Rounded Total
+You can enable this to disable rounding of total amount in salary slips.
+
+### 2.4 Email Salary Slip to Employee
 An email with the salary slip is sent to the respective employee's preferred email address on submission of the salary slip.
 
-### 2.4 Encrypt Salary Slips in Emails
+### 2.5 Encrypt Salary Slips in Emails
 The salary slip PDF sent to the employee is encrypted using the mentioned Password Policy.
 
 #### Password Policy
