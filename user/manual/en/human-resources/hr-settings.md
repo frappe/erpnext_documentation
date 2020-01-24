@@ -59,7 +59,7 @@ If checked, total number of working days will include holidays, and this will re
 For salary slips based on timesheet, you can set the maximum allowed hours against a single timesheet. Set this value to Zero to disable this validation.
 
 ### 2.3 Disable Rounded Total
-You can enable this to disable rounding of total in salary slips.
+You can enable this to disable rounding of total amount in salary slips.
 
 ### 2.4 Email Salary Slip to Employee
 An email with the salary slip is sent to the respective employee's preferred email address on submission of the salary slip.
