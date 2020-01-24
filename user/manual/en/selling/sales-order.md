@@ -141,7 +141,7 @@ Sales Order is a “Submittable” transaction. You will be able to execute furt
 
 Once you “Submit” your Sales Order, you can trigger actions from the Sales Order:
 
-* You can Update the items in the Sales Order by clicking on the Update Items button. If you need to update any other details, you'll have to cancel the Sales Order, amend, then save and submit.
+* You can Add, Update, Delete items in the Sales Order by clicking on the **Update Items** button. However you cannot delete items which has already been delivered or has work order assigned to it.
 
 * Status: Once submitted, you can hold a Sales Order or Close it.
 

@@ -169,9 +169,9 @@ The seller's Additional Discount, Payment Terms, Terms and Conditions can be rec
 This section shows the status of the Purchase Order, percentage of items received, and percentage of items billed. If this is an Inter Company Order, the Sales Order can be linked here.
 
 ### 3.14 After Submitting
-Once you “Submit” your Purchase Order, you can trigger actions from the Sales Order:
+Once you “Submit” your Purchase Order, you can trigger actions these actions:
 
-* You can Update the items in the Purchase Order by clicking on the Update Items button. If you need to update any other details, you'll have to cancel the Purchase Order, amend, then save and submit.
+* You can Add, Update, Delete items in the Purchase Order by clicking on the **Update Items** button. However you cannot delete items which has already been received.
 
 * Status: Once submitted, you can hold a Purchase Order or Close it.
 
