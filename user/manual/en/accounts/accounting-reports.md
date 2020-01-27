@@ -123,7 +123,7 @@ The Item Wise Sales and Purchase Register report shows all the Sales and Purchas
 
 <img alt="Item Wise Sales Register" class="screenshot" src="{{docs_base_url}}/assets/img/accounts/reports/item-wise-sales-report.png">
 
-More detailed analysis can also be done by using the group by filter which gives sales data for a specific customer, supplier, territory etc and find out which item is more popular in which region or which customer is buying which item more.
+More detailed analysis can also be done by using the 'Group By' filter which gives sales data for a specific Customer, Supplier, Territory, etc. You can find out which Item is more popular in which region or which Customer is buying which Item more.
 
 <img alt="Group By Sales Register" class="screenshot" src="{{docs_base_url}}/assets/img/accounts/reports/group-by-sales-register.png">
 
