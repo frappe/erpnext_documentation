@@ -49,7 +49,7 @@ You'll find the global configuration options here, for module-wise setup, visit 
 1. [Workflows](/docs/user/manual/en/setting-up/workflows)
 1. [Workflow Actions](/docs/user/manual/en/setting-up/workflow-actions)
 1. [Workflow State](/docs/user/manual/en/setting-up/workflow-state)
-1. [Assignment Rule](/docs/user/manual/en/setting-up/automation/assignment-rule)
+1. [Assignment Rule](/docs/user/manual/en/automation/assignment-rule)
 
 ### 1.6 Email and SMS
 1. [Email Domain](/docs/user/manual/en/setting-up/email/email-domain)
@@ -71,8 +71,8 @@ You'll find the global configuration options here, for module-wise setup, visit 
 1. [Session Defaults](/docs/user/manual/en/setting-up/settings/session-defaults)
 1. [Bulk Rename](/docs/user/manual/en/setting-up/settings/bulk-rename)
 1. [Bulk Update](/docs/user/manual/en/setting-up/bulk-update)
-1. [Milestone Tracking](/docs/user/manual/en/setting-up/automation/milestone-tracker)
-1. [Auto Repeat](/docs/user/manual/en/setting-up/automation/auto-repeat)
+1. [Milestone Tracking](/docs/user/manual/en/automation/milestone-tracker)
+1. [Auto Repeat](/docs/user/manual/en/automation/auto-repeat)
 1. [Domain Settings](/docs/user/manual/en/setting-up/domain-settings)
 1. [Energy Point System](/docs/user/manual/en/setting-up/energy-point-system)
 

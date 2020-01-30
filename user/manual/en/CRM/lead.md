@@ -22,7 +22,7 @@ contact. The new person is then able to know the history of that particular
 Lead.
 
 To access the Lead list, go to:
-> Home > CRM > Sales Pipeline > Lead 
+> Home > CRM > Sales Pipeline > Lead
 
 ---
 ## 1. How to Create a Lead
@@ -30,7 +30,7 @@ To access the Lead list, go to:
 1. Go to the Lead list and click on New.
 1. If the person represents an organization, check the 'Lead is an Organization' checkbox. Notice that when you check, the 'Company Name
 ' field becomes mandatory. Enter the Company Name.
-1. If the person is an individual, leave the checkbox unchecked and enter Person Name and Gender.  
+1. If the person is an individual, leave the checkbox unchecked and enter Person Name and Gender.
 1. Enter the 'Email Address'.
 1. **Status is the important field** in the Lead. You can set the status manually and also it will be updated automatically based on your actions against the lead.
  * Lead: This is the default status assigned when a Lead is created and it indicates an action is needed against this Lead.
@@ -85,7 +85,7 @@ You can create an Opportunity, Customer or a Quotation from the Make dropdown. R
 ### 2.5 Auto-assigning the Leads to Sales Executives
 >Introduced in Version 12
 
-You can define [Assignment Rules](/docs/user/manual/en/setting-up/automation/assignment-rule) to automatically assign the leads to sales executives.
+You can define [Assignment Rules](/docs/user/manual/en/automation/assignment-rule) to automatically assign the leads to sales executives.
 
 <img class="screenshot" alt="Lead" src="{{docs_base_url}}/assets/img/crm/lead_assignment_rule.png">
 

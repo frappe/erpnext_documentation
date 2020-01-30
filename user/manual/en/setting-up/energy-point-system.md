@@ -69,4 +69,4 @@ The leaderboard shows the user's standing in the organization.
 <img class="screenshot" src="/docs/assets/img/setup/energy-point-system/leaderboard.png">
 
 ### 5. Related Topics
-1. [Milestone Tracking](/docs/user/manual/en/setting-up/automation/milestone-tracker)
+1. [Milestone Tracking](/docs/user/manual/en/automation/milestone-tracker)

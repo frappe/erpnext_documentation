@@ -1,7 +1,7 @@
 <!-- add-breadcrumbs -->
 # Issue
 
-**An Issue is an incoming query from a Customer, usually via email or from the *Contact* section of your website.** 
+**An Issue is an incoming query from a Customer, usually via email or from the *Contact* section of your website.**
 
 > Tip: A dedicated support Email Address is a good way to keep track of incoming
 queries. For example, you can send support queries to ERPNext at
@@ -31,7 +31,7 @@ You can also create an Issue manually, to do that:
 replied, its status becomes "Replied".
     * Open: The Issue has been created and yet to be replied to.
     * Replied: A reply has been sent to the Issue.
-    * Hold: The Issue is on Hold due to some reason. 
+    * Hold: The Issue is on Hold due to some reason.
     * Closed: The Customer got a resolution and the Issue was closed.
 
     If the sender replies to the thread, the status becomes "Open" again. User can "Close" the Issue manually by clicking on the **Close** button on the top right.
@@ -99,9 +99,9 @@ The email discussion thread in an Issue maintains all the emails which are sent 
 
 ### 4.4 Assigning Issues to Users
 
-> Issues can be assigned automatically among Users using [Assignment Rule](/docs/user/manual/en/setting-up/automation/assignment-rule).
+> Issues can be assigned automatically among Users using [Assignment Rule](/docs/user/manual/en/automation/assignment-rule).
 
-You can assign an Issue to a specific User by clicking on "Assign" feature in the left sidebar. This will add a new To Do to the user and also send a message indicating that this Issue is allocated. 
+You can assign an Issue to a specific User by clicking on "Assign" feature in the left sidebar. This will add a new To Do to the user and also send a message indicating that this Issue is allocated.
 
 ![Assign Issue](/docs/assets/img/support/issue-assign.png)
 

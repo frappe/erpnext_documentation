@@ -23,7 +23,7 @@ Once this is set, a new **Milestone** record is created every time the status of
 
 The Milestone can be viewed in the timeline of the view:
 
-<img class="screenshot" alt="Assign" src="/docs/assets/img/setup/automation/milestone-in-timeline.png">
+<img class="screenshot" alt="Assign" src="/docs/assets/img/automation/milestone-in-timeline.png">
 
 Note: Milestones work independently of Versions.
 

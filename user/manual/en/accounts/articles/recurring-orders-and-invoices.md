@@ -26,7 +26,7 @@ Here is a explanation of the fields:
 * **Repeat on Last Day of the Month:** Recurring invoices will be created on the last day of every month.
 * **Notify by Email:** Email Addresses (separated by comma) on which recurring invoice will be emailed when auto-generated.
 
-For more details about Auto Repeat [Click Here](/docs/user/manual/en/setting-up/automation/auto-repeat)
+For more details about Auto Repeat [Click Here](/docs/user/manual/en/automation/auto-repeat)
 
 ## 3. Exception Handling
 

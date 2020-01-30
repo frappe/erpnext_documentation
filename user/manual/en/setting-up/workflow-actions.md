@@ -24,4 +24,4 @@ Also the users will see entries in their Workflow Action list:
 
 ### Related Topics
 1. [Workflows](/docs/user/manual/en/setting-up/workflows)
-1. [Assignment Rule](/docs/user/manual/en/setting-up/automation/assignment-rule)
+1. [Assignment Rule](/docs/user/manual/en/automation/assignment-rule)

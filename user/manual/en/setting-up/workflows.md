@@ -33,17 +33,17 @@ Before creating a Workflow, it is advised to create these first:
 1. Go to the Workflow list, click on New.
 1. Enter a name for the **Workflow** and select the DocType on which to be applied.
 1. Enter the different states of the Workflow. Enter Doc Status for them, select which field to update from the Update Field column, enter what the value will be updated to under Update Value.
-    
+
     The Workflow States can have different colors according to the state. Eg: Green for success. Document statuses: Saved = 0, Submitted = 1, Cancelled = 3.
 
     <img class="screenshot" alt="Workflow" src="{{docs_base_url}}/assets/img/setup/workflow-1.png">
-    
+
     The field you select under Update Field will be updated for the document type when the State changes. Update Value is the text that appears on the field selected in Update Field. So here the status field is updated to Applied, Approved, etc.
 
 1. Enter the Transition Rules.
 
     <img class="screenshot" alt="Workflow" src="{{docs_base_url}}/assets/img/setup/workflow-2.png">
-    
+
     Action indicates the actions an approver can take on the leave application. Next State is the State the document type will be at when the Action is applied. So here, the State changes from Applied to Approved by HR when the Approve action is performed on it.
 
 1. Under Workflow State Field, enter a name for the Custom Field that'll be added to the DocType, Leave Application in this case.
@@ -118,4 +118,4 @@ When the Leave Approver opens the Leave Application page, he can finally "Approv
 
 ### 6. Related Topics
 1. [Workflow Actions](/docs/user/manual/en/setting-up/workflow-actions)
-1. [Assignment Rule](/docs/user/manual/en/setting-up/automation/assignment-rule)
+1. [Assignment Rule](/docs/user/manual/en/automation/assignment-rule)

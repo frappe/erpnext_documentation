@@ -3,6 +3,7 @@
 ## 1. Basics
 1. [Introduction](/docs/user/manual/en/introduction)
 1. [Setting Up](/docs/user/manual/en/setting-up)
+1. [Automation](/docs/user/manual/en/automation)
 1. [Using ERPNext](/docs/user/manual/en/using-erpnext)
 
 ## 2. Core Modules

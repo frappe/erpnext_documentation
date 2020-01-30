@@ -18,7 +18,7 @@ The Workflow States can have different colors according to the state.
 * Info - Light Blue
 * Warning - Orange
 
-Document statuses: 
+Document statuses:
 
 * Saved = 0
 * Submitted = 1
@@ -27,4 +27,4 @@ Document statuses:
 ### Related Topics
 1. [Workflows](/docs/user/manual/en/setting-up/workflows)
 1. [Workflow Actions](/docs/user/manual/en/setting-up/workflow-actions)
-1. [Assignment Rule](/docs/user/manual/en/setting-up/automation/assignment-rule)
+1. [Assignment Rule](/docs/user/manual/en/automation/assignment-rule)

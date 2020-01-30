@@ -40,7 +40,7 @@ It is important to reach out to opportunities from time to time and build the re
 ### 2.2 Auto-assign Opportunities to Sales Executives
 >Introduced in Version 12
 
-You can define [Assignment Rules](/docs/user/manual/en/setting-up/automation/assignment-rule) to automatically assign the opportunities to sales executives.
+You can define [Assignment Rules](/docs/user/manual/en/automation/assignment-rule) to automatically assign the opportunities to sales executives.
 
 <img class="screenshot" alt="Lead" src="{{docs_base_url}}/assets/img/crm/opportunity_assignment.png">
 

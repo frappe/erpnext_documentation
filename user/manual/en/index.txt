@@ -1,5 +1,6 @@
 introduction
 setting-up
+automation
 accounts
 asset
 stock

@@ -1,7 +1,7 @@
 <!-- add-breadcrumbs -->
 # To Do
 
-ToDo is a list of activities that is to be done by a particular individual. 
+ToDo is a list of activities that is to be done by a particular individual.
 
 **In ERPNext, a ToDo is a simple tool where you can define the activities to be done. The ToDo List will enlist all the activities assigned to you and by you.**
 
@@ -41,7 +41,7 @@ Once a ToDo is created, the assigned user will get a notification for the ToDo.
 
 ### 1.2. References
 
-Every Document in ERPNext has an option called 'Assign To' in the side-bar. Using this option, any Dcoument can be assigned to the user. The User would be assigned a ToDo simultaneously. 
+Every Document in ERPNext has an option called 'Assign To' in the side-bar. Using this option, any Dcoument can be assigned to the user. The User would be assigned a ToDo simultaneously.
 
 1. **Reference Type**: When a ToDo is created from another document, say a Task or an Issue, the Reference Document Type gets linked to the ToDo here. You can also choose to add a Reference Document Type manually.
 2. **Reference Name**: On assignment via another DocType, the name of the Reference DocType also gets linked over here.
