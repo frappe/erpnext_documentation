@@ -7,6 +7,7 @@ production-plan
 job-card
 subcontracting
 item-alternative
+capacity-planning
 tools
 setup
 articles

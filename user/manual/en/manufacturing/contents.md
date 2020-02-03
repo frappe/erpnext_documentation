@@ -32,7 +32,7 @@ Different types of manufacturing like make to stock, make to order, and engineer
 ## 2. Articles
 
 ### 2.1 Production
-1. [Capacity Planning](/docs/user/manual/en/manufacturing/articles/capacity-planning)
+1. [Capacity Planning](/docs/user/manual/en/manufacturing/capacity-planning)
 1. [Open Work Orders](/docs/user/manual/en/manufacturing/articles/open-work-orders)
 1. [Scrap Management](/docs/user/manual/en/manufacturing/articles/scrap-management)
 

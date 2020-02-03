@@ -5,37 +5,10 @@ Manufacturing Settings can be found at:
 
 > Home > Manufacturing > Settings > Manufacturing Settings
 
-<!-- <img class="screenshot" alt="Manufacturing Settings" src="{{docs_base_url}}/assets/img/manufacturing/manufacturing-settings-1.png">
+<img class="screenshot" alt="Manufacturing Settings" src="{{docs_base_url}}/assets/img/manufacturing/manufacturing-settings-1.png">
 
-## 1. Capacity and Planning
-### Disable Capacity Planning and Time Tracking
-
-As per Capacity Planning feature, when a [Work Order](/docs/user/manual/en/manufacturing/work-order) is created for an Item then a Time Log is created for each Operation. Based on actual Operation Time, Time Logs are updated. This also provides total Operations Cost against a specific Work Order.
-
-If you don't track actual operations time, and want to disable the creation of Time Log based on Operations, tick the "Disable Capacity Planning and Time Tracking" checkbox in Manufacturing Settings.
-
-### Allow Overtime
-
-In the Workstation master, actual working hours are defined (say 10 pm to 6 pm). As per the Capacity Planning, Time Logs are created against Workstation, for tracking actual operations hour. It also considers working hours of a Workstation when scheduling a job (via Time Log). 
-
-<img class="screenshot" alt="Manufacturing Settings" src="{{docs_base_url}}/assets/img/articles/manufacturing-settings-2.png">
-
-As per the standard validation, if an operation cannot be completed within working hours of a Workstation, then the user is asked to divide the Operation into multiple smaller Operations. However, if the 'Allow Overtime' field is checked while creating Time Logs for an Operation, the working hours of Workstation will not be validated. In this case, Time Logs for the Operation will be created beyond working hours of the Workstation as well.
-
-### Allow Production on Holidays
-
-Holiday of a company can be recorded in the [Holiday List](/docs/user/manual/en/human-resources/) master. While scheduling production job on a workstation, the system doesn't consider a day listed in the Holiday list. If you want a production job to be scheduled on holidays as well, tick the 'Allow Production on Holidays' checkbox.
-
-<img class="screenshot" alt="Manufacturing Settings" src="{{docs_base_url}}/assets/img/articles/manufacturing-settings-3.png">
-
-### Capacity Planning For (Days)
-
-Define no. of days for which the system will do production job allocation in advance.
-
-### Time Between Operations (in mins)
-
-The time gap between two production operations in minutes. The default is 10 minutes.
- -->
+### Capacity Planning
+[Capacity planning](/docs/user/manual/en/manufacturing/capacity-planning) is the process in which an organization decides whether or not to accept the new orders based on the resources and existing work orders.
 
 ### Over Production Allowance Percentage
 
