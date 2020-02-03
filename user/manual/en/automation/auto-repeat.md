@@ -53,6 +53,8 @@ If you want to notify certain contacts whenever the recurring documents are crea
 - **Preview Message**: This button will show a preview of the message.
 - **Print Format**: Select a print format to define document view which should be emailed to customer.
 
+> **Note**: If the document you are setting up Auto Repeat for, is submittable, ensure that "Allow Print for Draft" is enabled in [Print Settings](/docs/user/manual/en/setting-up/print/print-settings) to receive the new recurring document in Auto Repeat Notification Email. If this is not enabled, you will be notified about the recurring document creation without the document.
+
 ### 2.2 Repeat on a particular day
 If the frequency is set as Monthly, Quarterly, Half-yearly or Yearly, then it will create recurring documents in the respective months on the same day as the 'Start Date' of Auto Repeat. If you want to create recurring documents on some other day then you can set one of the following:
 
