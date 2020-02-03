@@ -23,7 +23,7 @@ Energy Point Rule has the following fields:
 | For Document Event| Options: Save, Submit, Cancel, and Custom.<br>**Note:** If "Custom" option is selected then the "Conditions" field becomes mandatory|
 | Points | Points to be allocated.|
 | Allot Points To Assigned Users | If checked, users assigned to the reference document will get points. eg. If users Reema and Jai are assigned to a particular task then both of them i.e, Reema and Jai will get points when the document fulfills the condition|
-| User Field | Field from which user will be selected eg. `Resolved By`, `Modified By`, `Owner`, etc. can be used.      |
+| User Field | Field from which user will be selected eg. `Resolved By`, `Modified By`, `Owner`, etc. can be used. If `Modified By` is selected, the last person to satisfy the doc condition will get the points.      |
 | Multiplier Field | Field which stores value for the multiplier. This field can take numeric and decimal values which will be multiplied with points defined in the rule. <br> For example: 2 (multiplier) * 10 (points set in the rule) = 20 points     |
 | Condition | Condition for the point allocation. <br>eg. `doc.status == 'Closed'`<br>The above condition will check whether the `status` field in the document is 'Closed' and if yes then the points will be allocated to the user.       |
 | Apply Only Once | The rule will be applied only once per document.|
