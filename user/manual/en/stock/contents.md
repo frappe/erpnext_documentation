@@ -68,8 +68,9 @@ The Stock module is tightly integrated with Purchase, Manufacturing and Accounti
 1. [Stock Received But Not Billed](/docs/user/manual/en/stock/articles/stock-received-but-not-billed)
 
 ### 2.2 Stock Reports
-1. [Stock Level Report](/docs/user/manual/en/stock/articles/stock-level-report)
-1. [BOM Explorer](/docs/user/manual/en/stock/articles/bom_explorer)
+1. [Stock Level Report](/docs/user/manual/en/stock/stock-level-report)
+1. [BOM Explorer](/docs/user/manual/en/stock/bom_explorer)
+1. [Stock Value and Account Value Comparision](/docs/user/manual/en/stock/stock-value-account-value-comparison)
 
 ### 2.3 Managing Items
 1. [Item Valuation Transactions](/docs/user/manual/en/stock/articles/item-valuation-transactions)

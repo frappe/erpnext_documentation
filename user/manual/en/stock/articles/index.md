@@ -7,9 +7,6 @@
 1. [Stock Entry Purpose](/docs/user/manual/en/stock/articles/stock-entry-purpose)
 1. [Stock Received But Not Billed](/docs/user/manual/en/stock/articles/stock-received-but-not-billed)
 
-##### 2.2 Stock Reports
-1. [Stock Level Report](/docs/user/manual/en/stock/articles/stock-level-report)
-
 ##### 2.3 Managing Items
 1. [Item Valuation Transactions](/docs/user/manual/en/stock/articles/item-valuation-transactions)
 1. [Maintain Stock Field Frozen In Item Master](/docs/user/manual/en/stock/articles/maintain-stock-field-frozen-in-item-master)
