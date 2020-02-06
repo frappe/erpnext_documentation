@@ -10,7 +10,7 @@ All types of accounting entries other than Sales and Purchase transactions are m
 Journal Entries can be used for entering expenses, opening entries, contra entries, bank payments, excise entries, etc. For example, booing running expenses, direct expenses like petrol/transport, sundry expenses, adjustment entries, and adjusting invoice amount.
 
 To access the Journal Entry list, go to:
-> Home > Accounting > Company and Accounts > Journal Entry 
+> Home > Accounting > General Ledger > Journal Entry 
 
 ## 1. How to create a Journal Entry
 1. Go to the Journal Entry list, click on New.
