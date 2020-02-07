@@ -157,7 +157,7 @@ In this section, you can define Company-wide transaction-related defaults for th
 ### 3.9 Purchase, Replenishment Details
 
 * **Default Purchase Unit of Measure**: The default UoM that will be used in Purchase transactions.
-* **Minimum Order Qty**: The minimum quantity required for purchase transactions/Material Requests. This quantity also applied to auto reordering items.
+* **Minimum Order Qty**: The minimum quantity required for purchase transactions/Material Requests. The value set here is only applicable to Material Requests generated via Production Plans and not on manually created Material Requests. This quantity is also applicable to Material Requests generated via Automatic Reordering option present in the Item master.
 * **Safety Stock**: “Safety Stock” is used in the report “Itemwise Recommended Reorder Level”. Based on Safety Stock, average daily consumption and the lead time, the system suggests Reorder Level of an item.
 
   Reorder Level = Safety Stock + (Average Daily Consumption * Lead Time)
