@@ -28,7 +28,7 @@ paid after the grace period.
 
 ## Creating A Subscription
 To create a Subscription, go to the Subscription creation form
-`Explore > Accounts > Subscriptions`
+`Explore > Accounting > Subscriptions`
 
 <img alt="Subscription form" class="screenshot" src="{{docs_base_url}}/assets/img/articles/subscription-1.png">
 

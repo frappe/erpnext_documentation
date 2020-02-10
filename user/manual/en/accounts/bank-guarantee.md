@@ -10,7 +10,7 @@ A client may ask you to provide a Bank Guarantee from a third party such as a Ba
 In a transaction between a large organization and a small organization, the larger organization (Supplier) is at risk of not receiving the money owed for providing Items/Services so it will receive a Bank Guarantee from the smaller organization (Customer). A Bank Guarantee ensures that the larger organization gets money in case the smaller organization is not able to deliver.
 
 To access the Bank Guarantee list, go to:
-> Home > Accounts > Banking and Payments > Bank Guarantee
+> Home > Accounting > Banking and Payments > Bank Guarantee
 
 ## 1. How to create a Bank Guarantee
 1. Go to the Bank Guarantee list and click on New.

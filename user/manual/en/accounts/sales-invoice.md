@@ -6,7 +6,7 @@
 Sales Invoice is an accounting transaction. On submission of Sales Invoice, the system updates the receivable and books income against a Customer Account.
 
 To access the Sales Invoice list, go to:
-> Home > Accounts > Accounts Receivable > Sales Invoice
+> Home > Accounting > Accounts Receivable > Sales Invoice
 
 ![SO Flow](/docs/assets/img/accounts/so-flow.png)
 

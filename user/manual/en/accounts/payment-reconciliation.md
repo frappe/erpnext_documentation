@@ -8,7 +8,7 @@ In complex scenarios, especially in the capital goods industry, sometimes there 
 In such cases, you can match Payments with Invoices using Payment Reconciliation.
 
 To access Payment Reconciliation, go to:
-> Home > Accounts > Banking and Payments > Match Payments with Invoices
+> Home > Accounting > Banking and Payments > Match Payments with Invoices
 
 ## 1. How to Match Payments with Invoices
 1. Go to Payment Reconciliation.

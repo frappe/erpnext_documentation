@@ -17,7 +17,7 @@ In case of parent-child companies, when an account is created in the parent comp
 
 Inter company Journal Entries are created using the Journal Entry form in ERPNext. To access the Journal Entry list, go to:
 
-> Home > Accounts > Company and Accounts > Journal Entry
+> Home > Accounting > Company and Accounts > Journal Entry
 
 ## 1. Prerequisites
 Before creating an Inter Company Journal Entry, you need the following:

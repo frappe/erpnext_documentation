@@ -50,7 +50,7 @@ Companies, you can create Cost Centers for each Company and manage them
 separately.
 
 To access the Chart of Cost Centers, go to:
-> Home > Accounts > Budget and Cost Center > Chart of Cost Centers
+> Home > Accounting > Budget and Cost Center > Chart of Cost Centers
 
 ## 2. How to set up Chart of Cost Centers
 1. Go to the Chart of Cost Centers.

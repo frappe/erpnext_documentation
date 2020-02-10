@@ -8,7 +8,7 @@ Let's consider a use-case of ERPNext subscription itself. Our hosting plans are 
 To manage the client's subscription expiry and auto-generation of Sales Invoice for the renewal, we use the Subscription feature.
 
 To access the Subscription list, go to:
-> Home > Accounts > Subscription Management > Subscription
+> Home > Accounting > Subscription Management > Subscription
 
 ## 1. Prerequisites
 Before creating and using a Subscription, it is advisable to create the following first:

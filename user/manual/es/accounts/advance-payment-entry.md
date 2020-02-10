@@ -13,7 +13,7 @@ house begins work on her order. She gives them $5000 in cash.
 
 Go to Accounts and open a new Journal Entry to make the advance entry.
 
-> Accounts > Documents > Journal Entry > New Journal Entry
+> Accounting > Documents > Journal Entry > New Journal Entry
 
 Mention the voucher type as cash voucher. This differs for different
 customers. If somebody pays by cheque the voucher type will be Bank Voucher.

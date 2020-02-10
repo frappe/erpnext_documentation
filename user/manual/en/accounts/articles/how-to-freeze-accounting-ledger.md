@@ -11,7 +11,7 @@ Please check following steps to freeze an Account from the Chart of Accounts mas
 
 To edit an Account, go to Chart of Accounts:
 
-`Explore > Accounts > Chart of Accounts`
+`Explore > Accounting > Chart of Accounts`
 
 <img class="screenshot" alt="Freeze Account" src="{{docs_base_url}}/assets/img/articles/freeze-account-1.png">
 

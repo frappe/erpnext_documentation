@@ -7,7 +7,7 @@ Version 5 onwards, you can now delete all dummy transactions related to a compan
 
 To do that, open the company record.
  
-`Setup > Accounts > Company` or  `Accounts > Setup > Company`
+`Setup > Accounting > Company` or  `Accounts > Setup > Company`
 
 In Company master, click on the **Delete Company Transactions** button right at the bottom of the form. Then you must re-type the company name to confirm if you are sure you want to continue with this.
 

@@ -8,7 +8,7 @@ accrue expenses to your Supplier. Making a Purchase Invoice is very similar to
 making a Purchase Order.
 
 To access the Purchase Invoice list, go to:
-> Home > Accounts > Accounts Payable > Purchase Invoice
+> Home > Accounting > Accounts Payable > Purchase Invoice
 
 ![PI Flow](/docs/assets/img/accounts/pi-flow.png)
 

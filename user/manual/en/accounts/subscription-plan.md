@@ -4,7 +4,7 @@
 A Subscription Plan stores information about the Item being subscribed, its price, and billing interval.
 
 To access the Subscription Plan list, go to:
-> Home > Accounts > Subscription Management > Subscription Plan
+> Home > Accounting > Subscription Management > Subscription Plan
 
 ## 1. How to create a Subscription Plan
 Before you can set a Subscription, you need a Subscription Plan.

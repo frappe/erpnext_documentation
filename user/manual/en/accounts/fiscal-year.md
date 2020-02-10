@@ -25,7 +25,7 @@ income will be for that year, and can adjust their expenses to maintain their
 desired profit margins.
 
 To access the Fiscal Year list, go to:
-> Home > Accounts > Setup > Fiscal Year
+> Home > Accounting > Setup > Fiscal Year
 
 ## 1. How to set up Fiscal Year
 1. Go to the Fiscal Year list.

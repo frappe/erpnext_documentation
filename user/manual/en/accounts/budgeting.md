@@ -10,7 +10,7 @@ For example, if you are doing online sales, you can set a budget for search adve
 Budgets are also great for planning purposes. When you are making plans for the next Financial Year, you would typically target a revenue based on which you would set your expenses. Setting a budget will ensure that your expenses do not get out of hand at any point.
 
 To access the Budget list, go to:
-> Home > Accounts > Cost Center and Budgeting > Budget
+> Home > Accounting > Cost Center and Budgeting > Budget
 
 ## 1. How to Create a new Budget
 1. Go to the Budget list and click on New.
@@ -56,7 +56,7 @@ At any point in time, you can check the Budget Variance Report to analyze the ac
 
 To check the Budget Variance report, go to:
 
-> Home > Accounts > Cost Center and Budgeting > Budget Variance Report
+> Home > Accounting > Cost Center and Budgeting > Budget Variance Report
 
 <img class="screenshot" alt="Budget Variance Report" src="{{docs_base_url}}/assets/img/accounts/budget-variance-report.png">
 

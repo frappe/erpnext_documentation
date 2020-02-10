@@ -73,7 +73,7 @@ Note: This amount should not be clubbed with Salary because the amount will then
 
 Alternatively, a Payment Entry can be made for an employee and all outstanding Expense Claims will be pulled in.
 
-> Accounts > Payment Entry > New Payment Entry
+> Accounting > Payment Entry > New Payment Entry
 
 Set the Payment Type to "Pay", the Party Type to Employee, the Party to the employee being paid and the account being paid from. All outstanding expense claims will be pulled in and payments amounts can be allocated to each expense.
 <img class="screenshot" alt="Expense Claim" src="{{docs_base_url}}/assets/img/human-resources/expense_claim_payment_entry.png">

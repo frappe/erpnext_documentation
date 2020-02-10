@@ -4,7 +4,7 @@
 The Subscription Settings page allows configuring settings for your ERPNext subscriptions.
 
 To access the Subscription list, go to:
-> Home > Accounts > Subscription Management > Subscription Settings
+> Home > Accounting > Subscription Management > Subscription Settings
 
 * **Grace Period**: Number of days after invoice date has elapsed before canceling subscription or marking subscription as unpaid.
 

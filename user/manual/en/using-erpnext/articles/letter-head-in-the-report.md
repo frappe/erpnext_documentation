@@ -5,7 +5,7 @@ In the reports, Letter Head is fetched from the Company master.
 
 To have company's Letter Head fetched correctly in the report, please ensure that you have updated default Letter Head in the Company master.  
 
-> Explore > Accounts > Company
+> Explore > Accounting > Company
 
 ![Letter Head](/docs/assets/img/using-erpnext/using-print-format.png)
 

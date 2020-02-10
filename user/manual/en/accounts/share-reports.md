@@ -6,7 +6,7 @@ There are two types of reports in ERPNext for shares. Share Balance and Share le
 This is a report view which gives the list of all the shares held by a given Shareholder and its value.
 
 To access the Share Balance report, go to:
-> Home > Accounts > Share Management > Share Balance
+> Home > Accounting > Share Management > Share Balance
 
 <img class="screenshot" alt="Create Shareholder" src="/docs/assets/img/accounts/shareholder/sharebalance_1.png">
 
@@ -15,7 +15,7 @@ To access the Share Balance report, go to:
 This is a report view which gives the list of all the transactions made by a given Shareholder.
 
 To access the Share Ledger report, go to:
-> Home > Accounts > Share Management > Share Ledger
+> Home > Accounting > Share Management > Share Ledger
 
 <img class="screenshot" alt="Create Shareholder" src="/docs/assets/img/accounts/shareholder/shareledger_1.png">
 

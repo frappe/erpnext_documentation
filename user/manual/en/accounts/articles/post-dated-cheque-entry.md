@@ -9,7 +9,7 @@ In ERPNext, create Payment Entry for post dated cheque.
 
 To open new journal voucher go to 
 
-`Explore > Accounts > Payment Entry > New`
+`Explore > Accounting > Payment Entry > New`
 
 #### Set Posting Date
 

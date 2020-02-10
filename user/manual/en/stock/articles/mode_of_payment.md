@@ -4,7 +4,7 @@ In the sales and purchase transactions, there are various options to settle the 
 
 You can manage standard Mode of Payments and create new ones from:
 
-> Accounts > Setup > Mode of Payment
+> Accounting > Setup > Mode of Payment
 
 <img alt="reorder level" class="screenshot" src="{{docs_base_url}}/assets/img/accounts/mode-of-payments.png">
 

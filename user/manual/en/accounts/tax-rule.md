@@ -6,7 +6,7 @@
 You can define which [Tax Template](/docs/user/manual/en/setting-up/setting-up-taxes.html) must be applied on a Sales / Purchase transaction using Tax Rule. This is decided by various factors like Customer, Customer Group, Supplier, Supplier Group, Item, Item Group or a combination of these.
 
 To access the Tax Rule list, go to:
-> Home > Accounts > Taxes > Tax Rule
+> Home > Accounting > Taxes > Tax Rule
 
 ## 1. Prerequisites
 Before creating and using a Tax Rule, it is advised to create the following first:

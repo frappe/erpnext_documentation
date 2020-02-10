@@ -29,7 +29,7 @@ You can create Budget for a Project as well. The expense limit defined in the Bu
 
 Based on the all the income and expense entries created for the Project, you can get its profitability.
 
-> Accounts > Profitability Analysis
+> Accounting > Profitability Analysis
 
 Filter report based on Project to check Project-wise Profitability.
 

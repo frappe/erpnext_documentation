@@ -16,7 +16,7 @@ When the potential Customer comes from other sites OR promotional emails to your
 
 To access the Coupon Code list, go to:
 
-> Home > Accounts > Coupon Code
+> Home > Accounting > Coupon Code
 
 
 ## 1. Prerequisites

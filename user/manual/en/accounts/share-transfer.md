@@ -8,7 +8,7 @@ There may be times when you want to change the share structure of your Company; 
 When creating a new Shareholder, they need to be issued shares first. Only then a Folio Number is visible and further transfer can be done using that Shareholder.
 
 To access the Share Transfer list, go to:
-> Home > Accounts > Share Management > Share Transfer
+> Home > Accounting > Share Management > Share Transfer
 
 ## 1. How to create a Share Transfer
 1. Go to the Share Transfer list and click on New.
