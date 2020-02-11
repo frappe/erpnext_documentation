@@ -1,9 +1,9 @@
 <!-- add-breadcrumbs -->
 # Assignment
 
-**Assign To is a feature in ERPNext that allows you to assign a  particular document to specific user, who needs to further work on that document.**
+**Assign To is a feature in ERPNext that allows you to assign a particular document to a specific user, who needs to further work on that document.**
 
-For example, if a Sales Order needs to be approved or submitted by the Sales Manager, first draft user can assign that Sales Order to the Sales Manager. 
+For example, if a Sales Order needs to be approved or submitted by the Sales Manager, the first draft user can assign that Sales Order to the Sales Manager. 
 
 On assigning this document to the Sales Manager, it will be added to that user's ToDo list. 
 
@@ -31,10 +31,10 @@ Every assignment made to a particular User will be reflected in their ToDo secti
 
 ### Removing Assignment
 
-User will be able to remove assignment by clicking on "Closed" button in the document.
+Users will be able to remove assignments by clicking on the "Closed" button in the document.
 
 ![Assignment](/docs/assets/img/using-erpnext/using-assignment-5.png)
 
-Once assignment is set as completed, the corressponding ToDo will simultaneously be updated as 'Closed'.
+Once the assignment is set as completed, the corresponding ToDo will simultaneously be updated as 'Closed'.
 
 {next}

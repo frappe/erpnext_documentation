@@ -1,7 +1,7 @@
 <!-- add-breadcrumbs -->
 # Collaborating Around Forms
 
-**In ERPNExt, every form comes with certain tools embedded in the system which allows you to collaborate with other users within you account to have quick and tranparent operations.** 
+**In ERPNExt, every form comes with certain tools embedded in the system which allows you to collaborate with other users within your account to have quick and transparent operations.** 
 
 Following are the tools in each document using which you can collaborate with other Users in your ERPNext account.
 
@@ -9,7 +9,7 @@ Following are the tools in each document using which you can collaborate with ot
 
 If a Document requires some action from a particular user, you can assign that document to that User. On assignment, the user shall be intimated of the same via an email. [Click here](docs/user/manual/en/using-erpnext/assignment.html) to learn more about this feature.
 
-E.g., an incoming [Lead](/docs/user/manual/en/CRM/lead) can e assigned to a particular user to ensure that the same is being persued by them.
+E.g., an incoming [Lead](/docs/user/manual/en/CRM/lead) can e assigned to a particular user to ensure that the same is being pursued by them.
 
 ![Collaborating Around Forms](/docs/assets/img/using-erpnext/using-assignment-1.png)
 
@@ -21,7 +21,7 @@ For a lot of Documents, there can be information that is not a part of the trans
 
 ### Share
 
-You can share a document with aspecific user in your ERPNext account. Irrespective of their roles or permissions, a User will be able to access a document shared with them.
+You can share a document with the aspecific user in your ERPNext account. Irrespective of their roles or permissions, a User will be able to access a document shared with them.
 
 ![Notes](/docs/assets/img/using-erpnext/using-notes-4.png)
 

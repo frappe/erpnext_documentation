@@ -9,13 +9,13 @@ Each filter option has three fields.
 
 #### Field
 
-Select the field of the document based on which you wish to filter the records. All the fields in a form will be seletable in this list.
+Select the field of the document based on which you wish to filter the records. All the fields in a form will be selectable in this list.
 
 ![Search Filter](/docs/assets/img/using-erpnext/using-search-filer-1.png)
 
 #### Based On
 
-For field, you will be required to put a value of the field. In the 'based on' field, you can define a criteria based on which the system will search the document. 
+For the field, you will be required to put a value of the field. In the 'based on' field, you can define criteria based on which the system will search the document. 
 
 ![Search Filter](/docs/assets/img/using-erpnext/using-search-filter-2.png)
 
@@ -34,7 +34,7 @@ So, on a whole, an algorithm or an equation for searching the documents will be 
 
 ![Search Filter](/docs/assets/img/using-erpnext/using-search-filter.gif)
 
-You can also apply multiple filters at a time. To remove specific filter, just click on 'x' sign on it.
+You can also apply multiple filters at a time. To remove a specific filter, just click on 'x' sign on it.
 
 ## Default Filters
 

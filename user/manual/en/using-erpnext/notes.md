@@ -1,7 +1,7 @@
 <!-- add-breadcrumbs -->
 # Notes
 
-Notes is a Tool which can be used to for Personal Note Taking purposes. You can use it to save your lists, frequently used passwords, terms and conditions, or any other document which needs to be shared or kept for reference.
+Notes is a tool that can be used for Personal Note Taking purposes. You can use it to save your lists, frequently used passwords, terms, and conditions, or any other document which needs to be shared or kept for reference.
 
 To access Notes, go to:
 
@@ -13,7 +13,7 @@ To access Notes, go to:
 
 1. Go to Note list and click on New.
 1. Enter the Title of the Note.
-1. Enter the Content of the Note. The content box is a Text Editor box to enable you to fromat the content as per your requirements.
+1. Enter the Content of the Note. The content box is a Text Editor box to enable you to format the content as per your requirements.
 1. Save.
 
 ![Notes](/docs/assets/img/using-erpnext/using-notes-2.png)
@@ -28,13 +28,13 @@ Once you enable making a Note Public, there will be another checkbox, saying 'No
 
 ![Notes](/docs/assets/img/using-erpnext/using-notes-5.png)
 
-You can also select if you wish to give some specific users, the right to read, write or share your note. This can be done from the 'Share' Option in the left sidebar.
+You can also select if you wish to give some specific users, the right to read, write or share your note. This can be done from the 'Share' option in the left sidebar.
 
 ![Notes](/docs/assets/img/using-erpnext/using-notes-4.png)
 
 ### Notification for Notes
 
-Enabling this property would ensure that whenever any User logs into their account, their will be a Pop-Up notification for the note.
+Enabling this property would ensure that whenever any User logs into their account, there will be a Pop-Up notification for the note.
 
 ![Notes](/docs/assets/img/using-erpnext/using-notes-7.png)
 

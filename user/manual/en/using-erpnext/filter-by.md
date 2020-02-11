@@ -1,7 +1,7 @@
 <!-- add-breadcrumbs -->
 # Filter by 
 
-**Filter By is a option wherein you can filter your search results while viewing a list or a report.** 
+**Filter By is an option wherein you can filter your search results while viewing a list or a report.** 
 
 The 'Filter By' option is present on the left sidebar of all the lists and reports. 
 
@@ -17,7 +17,7 @@ When viewing a list or a report of documents like Issues, Leads, Opportunities, 
 
 ## Created By
 
-Just like Assigned To, you will also be able to classify the document based on the entity that has created them. E.g., if you want to check all the Issues raised by particular entity, you can do so here.
+Just like Assigned To, you will also be able to classify the document based on the entity that has created them. E.g., if you want to check all the Issues raised by a particular entity, you can do so here.
 
 ![Filter By](/docs/assets/img/using-erpnext/using-filter-by-3.png)
 

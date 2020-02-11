@@ -28,7 +28,7 @@ In ERPNext, Access Log is available to System Managers, it can be accessed using
 
 ![Access Log](/docs/assets/img/using-erpnext/using-access-log-3.png)
 
-In case an access log is created on event of exporting a Report, a **Show Report** button will be generated in the respective log. On clicking this button, the exported report can be viewed along with the set filters.
+In case an access log is created on the event of exporting a Report, a **Show Report** button will be generated in the respective log. On clicking this button, the exported report can be viewed along with the set filters.
 
 ![Access Log](/docs/assets/img/using-erpnext/using-access-log-1.png)
 

@@ -1,7 +1,7 @@
 <!-- add-breadcrumbs -->
 # Merging Accounts
 
-For an account, if you have two records which are identical, and are meant for common purpose, you can merge them into one record.
+For an account, if you have two records that are identical, and are meant for a common purpose, you can merge them into one record.
 
 Following are steps to merge two accounts.
 
@@ -23,7 +23,7 @@ The document will open with different options present on the top. Click on 'Merg
 
 ### Effect of Merging
 
-After Account is merged, new name is updated in the existing transactions where old account was selected.
+After Account is merged, the new name is updated in the existing transactions where an old account was selected.
 
 > Group Account cannot be merged into Child Account and vice versa.
 

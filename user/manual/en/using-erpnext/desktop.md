@@ -3,7 +3,7 @@
 
 **The moment a User logs into the system they will be able to see a Home Screen wherein all the Modules and Domains will be listed in the form of cards.**
 
-There cards are a replacement to the erstwhile Module icons which were present in ERPNext versions before version 12.
+Their cards are a replacement to the erstwhile Module icons which were present in ERPNext versions before version 12.
 
 ![New Desktop](/docs/assets/img/using-erpnext/desktop/desktop.png)
 
@@ -36,7 +36,7 @@ Some links of these modules may be marked grey, clicking on these links won't op
 
 ![Muted Link in Module Page](/docs/assets/img/using-erpnext/desktop/module-link-hover.png)
 
-You shall also notice a color indicator before some of the links. These indicators are used to inform the user if there are any open or urgent documents that need to be looked at.
+You shall also notice a color indicator before some of the links. These indicators are used to inform the user if any open or urgent documents need to be looked at.
 
 ![Color Indicators](/docs/assets/img/using-erpnext/desktop/color-indicator.png)
 

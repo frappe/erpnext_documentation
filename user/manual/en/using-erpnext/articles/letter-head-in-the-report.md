@@ -3,7 +3,7 @@
 
 In the reports, Letter Head is fetched from the Company master. 
 
-To have company's Letter Head fetched correctly in the report, please ensure that you have updated default Letter Head in the Company master.  
+To have the company's Letter Head fetched correctly in the report, please ensure that you have updated the default Letter Head in the Company master. 
 
 > Explore > Accounting > Company
 

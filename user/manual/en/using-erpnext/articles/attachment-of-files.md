@@ -19,11 +19,11 @@ There are several ways to attach a file to a document.
 
 ### Link
 
-If you use separate server for files, or use online service like Dropbox or Docs, you can attach file by providing link of a particular file.
+If you use a separate server for files or use online services like Dropbox or Docs, you can attach a file by providing a link to a particular file.
 
 ![Attachment of Files](/docs/assets/img/using-erpnext/using-attach-files-3.gif)
 
-`For hosted users, limit of 5 MB is applied on file size.`
+`For hosted users, the limit of 5 MB is applied on file size.`
 
 Attachment of too many files to documents may affect the performance of your ERPNext account. You can set a limit towards the maximum number of attachments that can be added to a document. Click [here](/docs/user/manual/en/customize-erpnext/articles/changing-attachment-limits) to learn more about it.
 
@@ -35,7 +35,7 @@ Home > Tools > Files
 
 ![Attachment of Files](/docs/assets/img/using-erpnext/using-attach-files-5.png)
 
-Check following link to learn how files are managed in ERPNext.
+Check the following link to learn how files are managed in ERPNext.
 
 <iframe width="660" height="371" src="https://www.youtube.com/embed/4-osLW3E_Rk" frameborder="0" allowfullscreen></iframe>
 
