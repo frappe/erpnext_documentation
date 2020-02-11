@@ -1,23 +1,21 @@
-# Appointment
-
-```
 ---
 title: Appointment
 add_breadcrumbs: 1
 show_sidebar: 0
 
 metatags:
- description: Appointment Schedulling for CRM in ERPNext
- keywords: Appointment Schedulling , CRM, frappe, erpnext new features, erp, open source erp, free erp, security
+ description: Appointment Scheduling for CRM in ERPNext
+ keywords: Appointment Scheduling , CRM, frappe, erpnext new features, erp, open source erp, free erp, security
 ---
-```
+
+# Appointment
 
 **An appointment is a prearranged meeting between a Lead and an Employee of your Company.**
 
 Appointment document type can be used to schedule and manage interaction with a [Lead](/docs/user/manual/en/CRM/lead) or an [Opportunity](/docs/user/manual/en/CRM/opportunity). 
 
 To access Appointment list, go to:
-> Home > Sales Pipeline > CRM > Appointment 
+> Home > CRM > Sales Pipeline > Appointment 
 
 ## 1. Prerequisites
 
