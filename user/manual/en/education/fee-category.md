@@ -1,8 +1,18 @@
 <!-- add-breadcrumbs -->
 # Fee Category
 
-List of all different type of fees collected.
+**Fee Category would form all the components for calculation of Fees or creation of Fee Structure.** 
 
-<img class="screenshot" alt="Fees Category" src="{{docs_base_url}}/assets/img/education/fees/fee-category.png">
+E.g. Tuition Fees and Hostel fees would make the different categories of fees.
+
+![Fee Category](/docs/assets/img/education/education-fee-category-1.png)
+
+To access Fee Category, go to 
+
+> Home > Education > Fees > Fee Category
+
+To create a new Fee Category, go to the Fee Category list, and click on new. Add the **Name** and **Description** of the Fee Category.
+
+![Fee Category](/docs/assets/img/education/education-fee-category-2.gif)
 
 {next}

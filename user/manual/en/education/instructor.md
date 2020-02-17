@@ -1,24 +1,66 @@
 <!-- add-breadcrumbs -->
 # Instructor
 
-An Instructor can be a teacher, tutor, coach, or professor, of a specialised subject that involves any skill.
+**An instructor is a teacher, tutor or a professor that will be responsible for teaching a particular topic or course to the students.**
 
-To create new Instructor go to:
+This document can be used to maintain the Instructor Log in the form of a list of topics/courses covered by the Instructor. This log will have the entire history of the courses taught by the Instructor.
 
-> Education > Instructor > New
+![Instructor](/docs/assets/img/education/education-instructor-1.png)
 
-<img class="screenshot" alt="Instructor" src="{{docs_base_url}}/assets/img/education/setup/instructor.png">
+To access instructor, go to
 
-An **Instructor** can also be linked to a **Course Schedule**, where you can define the schedule for a **Course** for a give date and **Room no**.
+> Home > Education > Masters > Instructor
 
-It is also linked to **Student group** where an **Instructor** is assigned to the Student Group.
+## 1. Prerequisites
 
-While creating the **Assessment Plan** for a Student Group, **Instructor** can be linked as the Examiner or the Supervisor for that assessment.
+Before creating an instructor, it is advisable to first create the following:
 
-Further, the log for the Instructor can be entered in the Instructor Log table which can be used for keeping the records of subjects taught by that Instructor.
+1. Employee
+1. Department
+1. Academic Year
+1. Academic Term
+1. Program
+1. Course 
+1. Student Group
 
-#### Video Tutorial for Instructor
+## 2. How to create an Instructor
 
+1. Click on New Instructor.
+1. Select the Employee ID/Employee Name for the Instructor.
+1. Select the Department for which you are creating an Instructor.
+1. Save.
+
+ ![Instructor](/docs/assets/img/education/education-instructor.gif)
+
+## 3. Features
+
+### 3.1. Instructor Log
+
+* **Academic Year**: Select the Academic Year for which the Instructor is created.
+* **Academic Term**: Select the Academic Term for which the Insructor is created.
+* **Department**: Select the department to which the Instructor belongs to.
+* **Program**: Select the Program for which the Instructor Log is being made.
+* **Course**: Select the course for which the Instructor Log is being made.
+* **Student Group**: Select the Student Group for which the user is making the Instructor Log.
+* **Other Details**: Any other details regarding the Instructor Log can be recorded here.
+
+ ![Instructor](/docs/assets/img/education/education-instructor-2.png)
+
+### 3.2. After Submitting
+
+Once the Intructor and Instructor Log is saved, you can create the following from there:
+
+1. [Student Group](/docs/user/manual/en/education/student-group)
+1. [Course Schedule](/docs/user/manual/en/education/course-schedule)
+3. [Assessment Plan](/docs/user/manual/en/education/assessment_plan)
+
+ ![Instructor](/docs/assets/img/education/education-instructor-3.png)
+
+> Note: While creating an Assessment Plan from the Instructor, the user can select whether the Instructor has to be kept as a Supervisor or as an Examminer for the Assessment plan.
+
+> ![Instructor](/docs/assets/img/education/education-instructor-4.png)
+
+## 4. Video Tutorial for Instructor
 
 <div>
     <div class='embed-container'>

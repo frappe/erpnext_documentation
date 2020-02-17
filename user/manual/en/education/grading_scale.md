@@ -1,9 +1,11 @@
 <!-- add-breadcrumbs -->
-#Grading Scale
+# Grading Scale
 
-In the Grading Scale, you can define various grades and threshold for them. Based on the score earned by an Student for an Assessment, Grade will be assigned.
+**Under Grading Scale, you can define the threshold for the different grades obtained by the students, based on their scores in the assessment.**
 
-<img class="screenshot" alt="Grading Scale" src="{{docs_base_url}}/assets/img/education/assessment/grading-scale.png">
+E.g. Students obtaining a score of 90% and above would be graded as A+, students obtaining a score of 80% and above would be graded A- and so on.
+
+![Grading Scale](/docs/assets/img/education/education-grading-scale-1.png)
 
 #### Video Tutorial on Grading Scale
 

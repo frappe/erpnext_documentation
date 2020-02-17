@@ -1,7 +1,9 @@
 <!-- add-breadcrumbs -->
 # Education Domain
 
-An Education Institute needs lots more than a simple 'Education module', and ERPNext has all of it available built-in. You can:
+Whether you are running a B-School, an Academy or even a Primary School, the ERPNext Education Module helps you in organizing your entire set-up. You can have your entire Student Database, Fee Structure, Staffing Information, Courses, Curriculum, all defined in ERPNext.
+
+We also understand that an Educational Institute needs a lot more than a simple 'Education Module', and ERPNext has all of it available built-in. You can:
 
 - Track your books of accounts using [Accounts module](/docs/user/manual/en/accounts).
 - Manage payroll, leaves and claims of your admin and teaching staff in the [HR module](/docs/user/manual/en/human-resources).
@@ -11,12 +13,11 @@ Here are the functionalities available under the ERPNext Education domain to go 
 
 ## Topics
 ##### 1. Setup
-1. [Course](/docs/user/manual/en/education/course)
 1. [Program](/docs/user/manual/en/education/program)
+1. [Course](/docs/user/manual/en/education/course)
 1. [Instructor](/docs/user/manual/en/education/instructor)
 1. [Room](/docs/user/manual/en/education/room)
 1. [Student Category](/docs/user/manual/en/education/student-category)
-1. [Student Batch Name](/docs/user/manual/en/education/student-batch-name)
 1. [Academic Term](/docs/user/manual/en/education/academic-term)
 1. [Academic Year](/docs/user/manual/en/education/academic-year)
 1. [Education Settings](/docs/user/manual/en/education/education-settings)
@@ -25,7 +26,7 @@ Here are the functionalities available under the ERPNext Education domain to go 
 1. [Student](/docs/user/manual/en/education/student)
 1. [Guardian](/docs/user/manual/en/education/guardian)
 1. [Student Log](/docs/user/manual/en/education/student-log)
-1. [Student Batch](/docs/user/manual/en/education/student-batch)
+1. [Student Batch Name](/docs/user/manual/en/education/student-batch-name)
 1. [Student Group](/docs/user/manual/en/education/student-group)
 1. [Student Group Creation Tool](/docs/user/manual/en/education/student-group-creation-tool)
 
@@ -44,13 +45,13 @@ Here are the functionalities available under the ERPNext Education domain to go 
 ##### 5. Schedule
 1. [Course Schedule](/docs/user/manual/en/education/course-schedule)
 1. [Scheduling Tool](/docs/user/manual/en/education/scheduling-tool)
-1. [Examination](/docs/user/manual/en/education/examination)
+<!--1. [Examination](/docs/user/manual/en/education/examination) -->
 
 ##### 6. Learning Management System
 1. [Setting Up LMS](/docs/user/manual/en/education/setting-up-lms)
 1. [LMS Masters](/docs/user/manual/en/education/lms-masters)
 1. [Navigating the Portal](/docs/user/manual/en/education/navigating-the-portal)
-1. [Tracking Progress](/docs/user/manual/en/education/tracking-progress)
+<!-- 1. [Tracking Progress](/docs/user/manual/en/education/tracking-progress) -->
 
 ##### 7. Attendance
 1. [Student Attendance](/docs/user/manual/en/education/student-attendance)

@@ -1,11 +1,16 @@
 <!-- add-breadcrumbs -->
 # Student Batch
 
-Student batch is a collection of students from Student Groups. **Student batch** allows you to create **Student Group** based on a batch. When a student is enrolled for a **Program**, the Student batch is selected to enroll the student for the given Program and batch 
+**A Student batch is a collection of students from within Student Groups.**
+
+E.g. A group of students taking the studying the same Program together will be called a Student Batch.
+
+![Student Batch](/docs/assets/img/education/education-student-workflow.png)
+
+When a student is enrolled for a [Program](/docs/user/manual/en/education/program), the batch can be selected for the student, and they shall be a part of that batch.
 
 <img class="screenshot" alt="Student" src="{{docs_base_url}}/assets/img/education/student/student-batch.gif">
 
-You can also get a **Student Batch-Wise Attendance** report to view the number of student present from the Batch.
-
+You can also get a Student Batch-Wise Attendance report to view the number of student present from the Batch.
 
 {next}

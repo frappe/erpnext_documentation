@@ -1,15 +1,15 @@
 <!-- add-breadcrumbs -->
 #Assessment Group
 
-Assessment Group tree is a master where you can define the hierarchy for examination conducted in your education institute.
+**Assessment Group tree is a master where you can define the hierarchy for examination conducted in your education institute.**
 
-For example, if you conduct two assessment in a academic year, then setup Assessment Group as following.
+For example, if you wish to conduct an assessment for each Academic Term within an Academic Year, then setup Assessment Group as following.
 
-<img class="screenshot" alt="Assessment Group Term" src="{{docs_base_url}}/assets/img/education/assessment/assessment-group-term.png">
+![Assessment Group](/docs/assets/img/education/education-assessment-group.png)
 
-On the same lines, you can also define multiple Assessment Group bases on assessment conducted in your institute.
+To access Assessment Group, go to 
 
-<img class="screenshot" alt="Assessment Group Term" src="{{docs_base_url}}/assets/img/education/assessment/assessment-group-details.png">
+> Home > Education > Assessment > Assessment Group
 
 #### Video Tutorial on Assessment Group
 

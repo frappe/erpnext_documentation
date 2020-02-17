@@ -1,11 +1,15 @@
 <!-- add-breadcrumbs -->
-#Student Leave Application 
+# Student Leave Application 
 
-ERPNext allows you to record the leave application for a student. 
+**Leave Application will have a record of the leaves applied by the students.**
 
-To create a Student Leave application record, enter the Student and the date for which the leave is applied and save.
+To access Leave Application, go to 
 
-<img class="screenshot" alt="Student Attendance" src="{{docs_base_url}}/assets/img/education/schedule/student-leave-application.gif">
+> Home > Education > Attendance > Student Leave Application
+
+To create a Student Leave application record, enter the **Student** and the date for which the leave is applied and save.
+
+![Student Leave Application](/docs/assets/img/education/education-student-leave-application.gif)
 
 Incase the student is not attending the institute in order to participate or represent institute in any event, he/she can be mark as present from the Leave Application itself. 
 

@@ -1,31 +1,31 @@
-# Navigating the Portal
+# Navigating on the Portal
 
 ## Home Page
+
 The portal is hosted on `/lms` route. (Example. `hogwarts.erpnext.com/lms`) Here all the programs are shown in the form of cards. Each card is clickable and navigates to the corresponding program/course/topic/content. The portal is accessible even if a student has not logged in, however the content (Articles, Videos, etc) can only be accessible after login and enrolling in the program.
 
-<img class="screenshot" alt="LMS Home" src="{{docs_base_url}}/assets/img/education/lms/home.png">
+![LMS Navigation](/docs/assets/img/education/education-lmms-3.png)
 
 ## Program Page
 On the program page, the student can see the description as well as the list of courses in the form of cards. If the student is not enrolled, a button to enroll will be shown. This will happen only if self enroll is enabled in the program doc, if not then the program won't be visible to the student at all.
 
 After enrolling, the status of each course is added to the card footer. This status is updated based on the student's activity on the portal.
 
-<img class="screenshot" alt="Portal Program Enrolled" src="{{docs_base_url}}/assets/img/education/lms/program-enrolled.png">
-<img class="screenshot" alt="Portal Program Progress" src="{{docs_base_url}}/assets/img/education/lms/program-progress.png">
+![LMS Navigation](/docs/assets/img/education/education-navigation-1.png)
 
 ---
 
 ## Course Page
 Similar to the program page, it lists all the topics, as well as the status of each topic. Clicking on any card will navigate to the topic page. A list of contents is shown in each topic card, clicking on any list item will navigate to that content.
 
-<img class="screenshot" alt="Portal Course" src="{{docs_base_url}}/assets/img/education/lms/completed_course.png">
+![LMS Navigation](/docs/assets/img/education/education-lms-4.png)
 
 ---
 
 ## Topic Page
 The topic page lists all the content as well as their completion status. Clicking on any card will navigate to the content Page:
 
-<img class="screenshot" alt="Portal Course" src="{{docs_base_url}}/assets/img/education/lms/topic.png">
+![LMS Navigation](/docs/assets/img/education/education-lms-13.png)
 
 ---
 
@@ -56,12 +56,4 @@ In case the student has cleared the quiz already, the quiz will be closed and th
 <img class="screenshot" alt="Quiz Already Cleared" src="{{docs_base_url}}/assets/img/education/lms/quiz-pass-cleared.png">
 *Quiz already cleared*
 
----
-
-## Profile Page
-This page is located on route `/lms/profile` (Example. `hogwarts.erpnext.com/lms/profile`)
-
-This page shows the profile of the student as well as the progress of the student in each program enrolled.
-<img class="screenshot" alt="Quiz Already Cleared" src="{{docs_base_url}}/assets/img/education/lms/profile.png">
-
-> Note: The link to the profile page has to be <a href="{{docs_base_url}}/user/manual/en/website/website-settings" target="blank" alt="Website Settings">added to the navbar manually</a>.
+{next}

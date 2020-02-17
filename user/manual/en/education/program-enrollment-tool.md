@@ -1,25 +1,38 @@
 <!-- add-breadcrumbs -->
 # Program Enrollment Tool
 
-The Program Enrollment tool allows the bulk enrollment of the new and old students in a Program. If you are enrolling a new student, you  can fetch the students from the **Student Applicant** or if you are promoting the older students you can fetch them from the **Program Enrollment** itself
+**The Program Enrollment Tool can be used in cases when you want to bulk Enroll new students to a Program, or when old or existing students, who are already enrolled to a program are needed to be enrolled to a new program.**
 
-> Note: Academic Term is optional in the Program Enrollment Tool
+To access Program Enrollment Tool, go to 
 
-You can create the Program Enrollment for :
+> Home > Education > Tools > Program Enrollment Tool
 
-1. **Student Applicants**: List of Student Applicants will be fetched for the selected **Program**, **Academic year** and **Academic Term** (if provided). 
+## 1. How to create Student Enrollment using the Student Enrollment Tool
 
-<img class="screenshot" alt="Student Applicant Enrollment" src="{{docs_base_url}}/assets/img/education/admission/program-enrollment-tool.gif">
+1. **Get Students From**: If you are enrolling a new student, you can fetch the students from the **Student Applicant** or if you are promoting the older students you can fetch them from the **Program Enrollment** itself.
+2. **Academic Year**: Enter the Academic Year for which the new students had applied or under which the existing students were enrolled.
+3. **Academic Term**: Enter the Academic Term for which the new students had applied or under which the existing students were enrolled.
+4. **Program**: Enter the Program for which the new students had applied or under which the existing students were enrolled.
 
-2. **Program Enrollment**: List of students already enrolled in selected **Program** for the given **Academic Year**, **Academic Term** (if provided) and **Student Batch** will be fetched and can be used to enroll students from one academic year/term to another in the same **Program** or a new **Program**.
+### 1.1. Fetching Students
 
-<img class="screenshot" alt="Student Applicant Enrollment" src="{{docs_base_url}}/assets/img/education/admission/program-enrollment-tool01.gif">
+Oce you click on the **Get Students** button, the system will fetch the list of all the students matching with the above specified criteria. You can then delete a record if you wish to.
 
-**New Student Batch**: This can be selected for the entire students fetched in the table. Priority will be given to the Batch selected in the table (for individual students).
+### 1.2. Enrollment Details
 
-For promoting the students, the new academic year, academic term and program can also be selected for the enrollment of the fetched students list.
+* If the student list is fetched from the Student Applicant list, you can enter a New Student BAtch Name under which all the New Students will be enrolled.
 
-#### Video Tutorial for Program Enrollment Tool
+![Student Enrollment Tool](/docs/assets/img/education/setup/education-student-tool-5.png)
+
+* If the student list is fetched from the existing Program Enrollment, you will be asked to enter the details of the new Program like, Program Name, Academic Year, Academic Term and New Student Batch.
+
+![Student Enrollment Tool](/docs/assets/img/education/education-student-tool-6.png)
+
+Once all the details have been entered, click on **Enroll Students** to create PRogram Enrollment in bulk.
+
+1[Etudent Enrollment Tool](/docs/assets/img/education/education-student-tool-7.png)
+
+## 2. Video Tutorial for Program Enrollment Tool
 
 
 <div>

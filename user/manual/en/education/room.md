@@ -1,18 +1,27 @@
 <!-- add-breadcrumbs -->
 # Room
 
-A classroom is a space (room or lab) where you want to schedule courses or examinations. A room in an educational institute can be a Class room, a laboratory or a Examination hall.
+**Room refers to a tutoring space (e.g., Examination Hall, Classroom or a Lab) which can be set as the venue for courses or examinations.**
 
-The Room doctype allows you to record the room number and the seating capacity for a classroom. Once a room is created Course schedule link is provided in the Room doctype to view or add the course schedule for the classroom. 
+The Room will have details like Room number and Room Capacity.
 
-<img class="screenshot" alt="Room" src="{{docs_base_url}}/assets/img/education/setup/room.png">
+To access Room, go to
 
-The course schedule validate the availability of the Room number and an alert message is shown if there is an overlap for the Room number for a given time slot.
+> Home > Education > Masters > Room
 
-<img class="screenshot" alt="Room" src="{{docs_base_url}}/assets/img/education/setup/Course-schedule-error.png">
+## 1. How to create a Room
 
-The Room number is further linked to the Assesment plan. It validates the availability of examination room for the assessment to be held for a given date and time.
+1. Add the name of the room.
+2. Add the Room Number for the selected room.
+3. Enter the Seating capacity for the room.
 
-<img class="screenshot" alt="Room" src="{{docs_base_url}}/assets/img/education/setup/Room-Assesment-plan.png">
+ ![Room](/docs/assets/img/education/education-room-1.gif)
+
+## 2. Other Actions
+
+A Room can be further linked to a [Course Schedule](/docs/user/manual/en/education/course-schedule).
+
+![Room](/docs/assets/img/education/education-room-2.png)
+
 
 {next}
