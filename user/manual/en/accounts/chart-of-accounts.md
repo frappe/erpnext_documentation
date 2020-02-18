@@ -139,8 +139,8 @@ Explanation of account types:
 
 * **Accumulated Depreciation**: To store the total accumulated depreciation information of the Company Assets. Accumulated depreciation appears on the balance sheet.
 * **Asset Received But Not Billed**: A temporary liability account which holds the value of Asset received but not billed yet.
-* **Bank**: The account type under which bank accounts will be created.
-* **Cash**: The account type under which cash account will be created.
+* **Bank**: The account type under which bank accounts will be created. There must be at least one group account of type "Bank" in the CoA.
+* **Cash**: The account type under which cash account will be created. There must be at least one group account of type "Cash" in the CoA.
 * **Chargeable**: Additional charges applied to Items can be stored in accounts of this type. For example, "Freight and Forwarding Charges".
 * **Capital Work in Progress**: Current charges when creating Fixed Assets are stored in CWIP accounts. For example, construction costs when constructing a building. In ERPNext Assets are booked against CWIP accounts when they are not yet being used. 
 * **Cost of Goods Sold**: An account under this type is used to book the accumulated total of all costs incurred while manufacturing/purchasing a product or service, sold by a Company.
