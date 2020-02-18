@@ -1,7 +1,7 @@
 <!-- add-breadcrumbs -->
 # Serial Number
 
-As discussed in the [Item]([Item](/docs/user/manual/en/stock/item)) page, if an **Item** is _serialized_, a
+As discussed in the [Item](/docs/user/manual/en/stock/item) page, if an **Item** is _serialized_, a
 **Serial Number** (Serial No) record is maintained for each quantity of that
 **Item**. This information helps track the location of the Serial
 No, its warranty and end-of-life (expiry) information.
