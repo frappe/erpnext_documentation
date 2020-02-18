@@ -1,7 +1,10 @@
 <!-- add-breadcrumbs -->
-# Material Transfer from Delivery Note
+# Material Transfer from Delivery Note and Purchase Receipt
 
-In ERPNext, you can create Material Transfer entry from [Stock Entry](/docs/user/manual/en/stock/stock-entry.html) document. However, there are some scenarios in the Material Transfer where it needs to be presented as a Delivery Note. 
+
+In ERPNext, you can create Material Transfer entry from [Stock Entry](/docs/user/manual/en/stock/stock-entry.html) document. However, there are some scenarios in the Material Transfer where it needs to be presented as a Delivery Note and Purchase Receipt.
+
+## Material Transfer from Delivery Note
 
 ### Scenarios
 
@@ -28,3 +31,27 @@ In the Customer Warehouse, select a Warehouse where Material is to be transferre
 <img class="screenshot" alt="Delivery Note Material Transfer" src="{{docs_base_url}}/assets/img/stock/customer-warehouse-2.png">
 
 On the submission of a Delivery Note, item's stock will be deducted from "From Warehouse" and added to the "Customer Warehouse".
+
+## Material Transfer from Purchase Receipt
+
+### Scenarios
+
+There are statutory requirements where taxes are to be applied on each transfer of Material. It is easier to manage a situation like this in a transaction like Purchase Receipt, than in the Stock Entry as taxes cannot be applied on transfers of items via Stock Entry
+
+Following are the steps to use Purchase Receipt for creating Material Transfer Entry.
+
+### Steps
+
+#### Enable Supplier Warehouse
+
+Similar to the Customer Warehouse shown above, the first step is to enable the Supplier Warehouse from [Customize Form](/docs/user/manual/en/customize-erpnext/customize-form.html) as demonstrated above.
+
+### Select Warehouses
+
+When creating a Purchase Receipt for Material Transfer, for an Item, select target Warehouse as Accepted Warehouse.
+
+In the Supplier Warehouse, select a Warehouse from where Material is to be transferred.
+
+<img class="screenshot" alt="Delivery Note Material Transfer" src="{{docs_base_url}}/assets/img/stock/supplier-warehouse.png">
+
+On submission of the Purchase Receipt, item's stock will be deducted from "Supplier Warehouse" and added to the "Accepted Warehouse".
