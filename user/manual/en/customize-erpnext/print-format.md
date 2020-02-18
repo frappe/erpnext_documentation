@@ -101,6 +101,6 @@ To edit/update your print and PDF settings, go to:
 ## Notes
 
 1. To get date and currency formatted values use, `doc.get_formatted("fieldname")`
-1. For translatable strings, use `{{ _("This string is translated") }}`
+1. For translatable strings, use `{{ '{{ _("This string is translated") }}' }}`
 
 {next}
