@@ -63,7 +63,7 @@ On submitting a document against which Payment Entry can be made, you will find 
  ![Payment Entry from SO]({{docs_base_url}}/assets/img/accounts/payment-entry-so.gif)
 
 ### 2.1 Creating a Payment Manually
-A Payment Entry created manually will have no order/invoice linked to it. Payments made this will be recorded in the Customer's/Supplier's account and can be reconciled later using the [Payment Reconciliation Tool]((/docs/user/manual/en/accounts/payment-reconciliation)).
+A Payment Entry created manually will have no order/invoice linked to it. Payments made this will be recorded in the Customer's/Supplier's account and can be reconciled later using the [Payment Reconciliation Tool](/docs/user/manual/en/accounts/payment-reconciliation).
 
 1. Go to the Payment Entry list and click on New.
 1. Select the Party Type and the respective Customer/Supplier.
