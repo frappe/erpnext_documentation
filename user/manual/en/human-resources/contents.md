@@ -47,6 +47,7 @@ their calculation.
 1. [Job Opening](/docs/user/manual/en/human-resources/job-opening)
 1. [Job Applicant](/docs/user/manual/en/human-resources/job-applicant)
 1. [Job Offer](/docs/user/manual/en/human-resources/job-offer)
+1. [Appointment Letter](/docs/user/manual/en/human-resources/appointment-letter)
 
 ### 1.5 Training
 1. [Training Program](/docs/user/manual/en/human-resources/training-program)
