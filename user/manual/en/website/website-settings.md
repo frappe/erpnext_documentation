@@ -92,12 +92,28 @@ You can add address information and categorized links to your footer in the
 
 ## 7. Integrations
 
+### 7.1 Google Indexing
+
+#### How to set up automated Google Indexing
+
+In order to allow ERPNext to request Google crawlers to index a web page, you need to authorize ERPNext to send a request whenever the user requests the data. Google Drive Integration is set up with the following steps:
+
+- Create OAuth 2.0 Credentials via [Google Settings](/docs/user/manual/en/erpnext_integration/google_settings)
+
+- Enable indexing in the Website Settings
+
+- Now click on **Authorize API Indexing Access** to authorize ERPNext to send a publish request.
+
+- Once Authorized, an indexing request is automatically sent on creation/update/trash of any new blog post or web pages created via the user.
+
+![Website Integration](/docs/assets/img/website/website-settings-integrations.png)
+*Website Integration*
+
+### 7.2 Google Analytics
+
 You can enable Google Analytics on your website. Just get your [Google Analytics
 ID](https://support.google.com/analytics/answer/1008080?hl=en) from your Google
 Console and set it here.
-
-![Google Analytics Integration](/docs/assets/img/website/website-settings-integrations.png)
-*Google Analytics Integration*
 
 ## 8. HTML Header
 
