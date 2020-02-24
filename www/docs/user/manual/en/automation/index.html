@@ -1,0 +1,30 @@
+{% set doc=[
+	{
+		"links": [
+			{
+				"content": "An Assignment Rule lets you set up automatic assignment of documents to Users.",
+				"link": "/docs/user/manual/en/automation/assignment-rule",
+				"title": "Assignment Rule"
+			},
+			{
+				"content": "You can automatically track milestones based on the lifecycle of a document if it undergoes multiple stages.",
+				"link": "/docs/user/manual/en/automation/milestone-tracker",
+				"title": "Milestone Tracking"
+			},
+			{
+				"content": "Auto Repeat feature helps you create certain documents automatically in a given time period.",
+				"link": "/docs/user/manual/en/automation/auto-repeat",
+				"title": "Auto Repeat"
+			},
+			{
+				"content": "Event Streaming enables inter site communications between two or more sites. You can subscribe to Document Types and stream Documents between different sites.",
+				"link": "/docs/user/manual/en/automation/event_streaming",
+				"title": "Event Streaming"
+			},
+		],
+		"title": "Automation"
+	}
+] %}
+
+{% from 'erpnext_com/templates/includes/macros.html' import doc_page %}
+{{ doc_page('Automation', 'Learn how to automate ERPNext for saving your time from performing periodic mundane tasks', doc, '/docs/user/manual/en/automation/contents') }}

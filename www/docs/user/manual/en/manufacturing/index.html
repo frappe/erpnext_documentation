@@ -1,0 +1,100 @@
+{% set doc=[
+	{
+		"links": [
+			{
+				"content": "ERPNext has features like Bill of Materials tracking, Production Order planning and execution, procurement and lot more.",
+				"link": "/docs/user/manual/en/manufacturing/introduction",
+				"title": "Introduction"
+			},
+			{
+				"content": "Manufacturing Settings holds all global settings and configurations for manufacturing features",
+				"link": "/docs/user/manual/en/manufacturing/manufacturing-settings",
+				"title": "Manufacturing Settings"
+			}
+		],
+		"title": "Basic and Setup"
+	},
+	{
+		"links": [
+			{
+				"content": "The BOM is a list of all materials (either bought or made) and operations that go into a finished product or sub-Item.",
+				"link": "/docs/user/manual/en/manufacturing/bill-of-materials",
+				"title": "Bill Of Materials"
+			},
+			{
+				"content": "Workstation stores information regarding the place where the workstation operations is carried out",
+				"link": "/docs/user/manual/en/manufacturing/workstation",
+				"title": "Workstation"
+			},
+			{
+				"content": "Stores a list of all Manufacturing Operations, its description and the Default Workstation for the Operation",
+				"link": "/docs/user/manual/en/manufacturing/operation",
+				"title": "Operation"
+			}
+		],
+		"title": "Bill of Materials"
+	},
+	{
+		"links": [
+			{
+				"content": "A Work Order is a document that is given to the manufacturing shop floor by the Production Planner as a signal to produce a certain quantity of a certain Item.",
+				"link": "/docs/user/manual/en/manufacturing/work-order",
+				"title": "Work Order"
+			},
+			{
+				"content": "Production Plan helps the user to plan production against multiple Sales Orders or the Material Requests.",
+				"link": "/docs/user/manual/en/manufacturing/production-plan",
+				"title": "Production Plan"
+			},
+			{
+				"content": "A Job Card is created from the Work Order and given to each of the workstation in the manufacturing floor to start the production of an item.",
+				"link": "/docs/user/manual/en/manufacturing/job-card",
+				"title": "Job Card"
+			}
+		],
+		"title": "Production"
+	},
+	{
+		"links": [
+			{
+				"content": "Subcontracting is a type of job contract that seeks to outsource certain types of work to other companies.",
+				"link": "/docs/user/manual/en/manufacturing/subcontracting",
+				"title": "Subcontracting"
+			},
+			{
+				"content": "If a raw material defined in the BOM is not available during the production process then their respective available alternative item used to complete the production process.",
+				"link": "/docs/user/manual/en/manufacturing/item-alternative",
+				"title": "Item Alternative"
+			},
+			{
+				"content": "From BOM Update Tool, you can replace a sub-assembly BOM and update costs of all BOMs.",
+				"link": "/docs/user/manual/en/manufacturing/bom-update-tool",
+				"title": "BOM Update Tool"
+			},
+			{
+				"content": "Using BOM Comparison Tool, you can compare two BOMs and see what changed between their iterations.",
+				"link": "/docs/user/manual/en/manufacturing/bom-comparison-tool",
+				"title": "BOM Comparison Tool"
+			},
+		],
+		"title": "Advanced"
+	},
+	{
+		"links": [
+			{
+				"content": "Capacity Planning functionality helps you in tracking production jobs allocated on each Workstation.",
+				"link": "/docs/user/manual/en/manufacturing/capacity-planning",
+				"title": "Capacity Planning"
+			},
+			{
+				"content": "We can easily identify the progress of manufacturing of certain items in our organizations using Open Work Orders in ERPNext.",
+				"link": "/docs/user/manual/en/manufacturing/articles/open-work-orders",
+				"title": "Open Work Orders"
+			}
+		],
+		"title": "Production"
+	}
+] %}
+
+{% from 'erpnext_com/templates/includes/macros.html' import doc_page %}
+{{ doc_page('Manufacturing', 'Manage multi-level Bill of Materials, plan and track production with Work Orders', doc, '/docs/user/manual/en/manufacturing/contents') }}

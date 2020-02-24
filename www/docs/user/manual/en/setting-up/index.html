@@ -1,0 +1,255 @@
+{% set doc=[
+	{
+		"links": [
+			{
+				"content": "A company is a legal entity made up of an association of people for carrying on a commercial or industrial enterprise.",
+				"link": "/docs/user/manual/en/setting-up/company-setup",
+				"title": "Company Setup"
+			},
+			{
+				"content": "Taxes are compulsory contributions to the state/country revenue. ERPNext allows you to manage taxes with each transaction",
+				"link": "/docs/user/manual/en/setting-up/setting-up-taxes",
+				"title": "Setting Up Taxes"
+			},
+			{
+				"content": "Defining and achieving sales goals/targets can help your company reach new goals and increase revenue.",
+				"link": "/docs/user/manual/en/setting-up/setting-company-sales-goal",
+				"title": "Setting Company Sales Goal"
+			},
+			{
+				"content": "Default values for documents like Currency, Fiscal Year, etc. These values will be used across the system.",
+				"link": "/docs/user/manual/en/setting-up/settings/global-defaults",
+				"title": "Global Defaults"
+			},
+			{
+				"content": "System Setting contains settings for system-wide configuration of the account involving settings related to security and administration.",
+				"link": "/docs/user/manual/en/setting-up/settings/system-settings",
+				"title": "System Settings"
+			},
+			{
+				"content": "A Letter Head contains your organization's name, logo, address, etc which appears at the top portion in documents.",
+				"link": "/docs/user/manual/en/setting-up/print/letter-head",
+				"title": "Letter Head"
+			}
+		],
+		"title": "Basic Setup"
+	},
+	{
+		"links": [
+			{
+				"content": "Data Import is an easy way to upload (or edit) bulk data (especially master data) into the system.",
+				"link": "/docs/user/manual/en/setting-up/data/data-import",
+				"title": "Data Import"
+			},
+			{
+				"content": "Data Export lets you export data from various ERPNext masters to a CSV or an Excel format.",
+				"link": "/docs/user/manual/en/setting-up/data/data-export",
+				"title": "Data Export"
+			},
+			{
+				"content": "This importer allows you to create your own Chart of Accounts according to your requirement and import it into the system.",
+				"link": "/docs/user/manual/en/setting-up/chart-of-accounts-importer",
+				"title": "Charts Of Accounts Importer"
+			},
+			{
+				"content": "In the ERPNext, you can manually download database backup and can later be resotred to a new site.",
+				"link": "/docs/user/manual/en/setting-up/data/download-backup",
+				"title": "Backups"
+			}
+		],
+		"title": "Data Import and Export"
+	},
+	{
+		"links": [
+			{
+				"content": "Users can be added by the System Manager. And can be given separate permissions based on their role in the organization",
+				"link": "/docs/user/manual/en/setting-up/users-and-permissions/adding-users",
+				"title": "Adding Users"
+			},
+			{
+				"content": "Permission to different documents can be controlled using Role Based Permissions.",
+				"link": "/docs/user/manual/en/setting-up/users-and-permissions/role-based-permissions",
+				"title": "Role Based Permissions"
+			},
+			{
+				"content": "You can share documents with other users via sharing in ERPNext.",
+				"link": "/docs/user/manual/en/setting-up/users-and-permissions/sharing",
+				"title": "Sharing"
+			},
+			{
+				"content": "The administrator is above the System Manager and has all the rights and permissions for an ERPNext account.",
+				"link": "/docs/user/manual/en/setting-up/users-and-permissions/administrator",
+				"title": "Administrator"
+			}
+		],
+		"title": "User and Permissions"
+	},
+	{
+		"links": [
+			{
+				"content": "In Print Settings you can set your printing preferences like Paper Size, default text size, whether you want to output as PDF or HTML, etc.",
+				"link": "/docs/user/manual/en/setting-up/print/print-settings",
+				"title": "Print Settings"
+			},
+			{
+				"content": "With Print Format, you can set how document types look when printing.",
+				"link": "/docs/user/manual/en/setting-up/print/print-format",
+				"title": "Print Format"
+			},
+			{
+				"content": "The Print Format builder helps you quickly make a simple customized Print Format by dragging and dropping data fields and adding custom text or HTML.",
+				"link": "/docs/user/manual/en/setting-up/print/print-format-builder",
+				"title": "Print Format Builder"
+			},
+			{
+				"content": "Address template can store different formats of addresses based on the region.",
+				"link": "/docs/user/manual/en/setting-up/print/address-template",
+				"title": "Address Template"
+			},
+			{
+				"content": "Terms and conditions contain the terms and conditions of a service/product offered by a seller to a buyer.",
+				"link": "/docs/user/manual/en/setting-up/print/terms-and-conditions",
+				"title": "Terms and Conditions Template"
+			},
+			{
+				"content": "With Custom Translations, user can print the customer's and supplier's document in their local language.",
+				"link": "/docs/user/manual/en/setting-up/print/custom-translations",
+				"title": "Custom Translations"
+			},
+			{
+				"content": "ERPNext let's you send raw commands to thermal printers directly to print barcode, labels and much more.",
+				"link": "/docs/user/manual/en/setting-up/print/raw-printing",
+				"title": "Raw Printing"
+			}
+		],
+		"title": "Printing"
+	},
+	{
+		"links": [
+			{
+				"content": "With workflows you can rewrite how a particular process/workflow is approved in ERPNext.",
+				"link": "/docs/user/manual/en/setting-up/workflows",
+				"title": "Workflows"
+			},
+			{
+				"content": "Workflow Actions is a single place to manage all the pending actions you can take on Workflows.",
+				"link": "/docs/user/manual/en/setting-up/workflow-actions",
+				"title": "Workflow Actions"
+			},
+			{
+				"content": "A Workflow State is a state in the workflow you create.",
+				"link": "/docs/user/manual/en/setting-up/workflow-state",
+				"title": "Workflow State"
+			},
+			{
+				"content": "An Assignment Rule lets you set up automatic assignment of documents to Users.",
+				"link": "/docs/user/manual/en/automation/assignment-rule",
+				"title": "Assignment Rule"
+			}
+		],
+		"title": "Workflows"
+	},
+	{
+		"links": [
+			{
+				"content": "An email domain is the name of the network/service you're using for your email account.",
+				"link": "/docs/user/manual/en/setting-up/email/email-domain",
+				"title": "Email Domain"
+			},
+			{
+				"content": "You can sync your email account with ERPNext to send and receive emails from ERPNext.",
+				"link": "/docs/user/manual/en/setting-up/email/email-account",
+				"title": "Email Account"
+			},
+			{
+				"content": "An email can be linked to multiple documents in ERPNext both manually and automatically",
+				"link": "/docs/user/manual/en/setting-up/email/linking-emails-to-document",
+				"title": "Linking Emails to Document"
+			},
+			{
+				"content": "You can subscribe to an SMS provider to send SMS to mobile numbers.",
+				"link": "/docs/user/manual/en/setting-up/sms-setting",
+				"title": "SMS Settings"
+			},
+			{
+				"content": "You can configure various notifications in your system to remind you of important activities.",
+				"link": "/docs/user/manual/en/setting-up/notifications",
+				"title": "Notification"
+			},
+			{
+				"content": "Document Follow is a feature that allows users to track changes in documents like via email notifications.",
+				"link": "/docs/user/manual/en/setting-up/email/document-follow",
+				"title": "Document Follow"
+			}
+		],
+		"title": "Email and SMS"
+	},
+	{
+		"links": [
+			{
+				"content": "You can globally Hide or Unhide certain modules by clicking on Show/Hide Cards in your ERPNext Home Page.",
+				"link": "/docs/user/manual/en/setting-up/settings/show-hide-modules",
+				"title": "Show or Hide Modules"
+			},
+			{
+				"content": "Master and transactions can be given prefixes in the form of naming series.",
+				"link": "/docs/user/manual/en/setting-up/settings/naming-series",
+				"title": "Naming Series"
+			},
+			{
+				"content": "Session Defaults are configurable default values set during user sessions.",
+				"link": "/docs/user/manual/en/setting-up/settings/session-defaults",
+				"title": "Session Defaults"
+			},
+			{
+				"content": "Bulk Renaming allows renaming multiple records at once.",
+				"link": "/docs/user/manual/en/setting-up/settings/bulk-rename",
+				"title": "Bulk Rename"
+			},
+			{
+				"content": "Bulk Update allows you to update a particular field of a DocType for all documents.",
+				"link": "/docs/user/manual/en/setting-up/bulk-update",
+				"title": "Bulk Update"
+			},
+			{
+				"content": "You can automatically track milestones based on the lifecycle of a document if it undergoes multiple stages.",
+				"link": "/docs/user/manual/en/automation/milestone-tracker",
+				"title": "Milestone Tracking"
+			},
+			{
+				"content": "Auto Repeat feature helps you create certain documents automatically in a given time period.",
+				"link": "/docs/user/manual/en/automation/auto-repeat",
+				"title": "Auto Repeat"
+			},
+			{
+				"content": "You can select the domains to be active globally under Domain Settings. ",
+				"link": "/docs/user/manual/en/setting-up/domain-settings",
+				"title": "Domain Settings"
+			},
+			{
+				"content": "Energy Points System is a rating/karma system that you can enable for your organization.",
+				"link": "/docs/user/manual/en/setting-up/energy-point-system",
+				"title": "Energy Point System"
+			}
+		],
+		"title": "System Configuration"
+	},
+	{
+		"links": [
+			{
+				"content": "Personal data download tool enables a user to automatically download all the personal data they have generated while using ERPNext.",
+				"link": "/docs/user/manual/en/setting-up/personal-data-download",
+				"title": "Personal Data Request"
+			},
+			{
+				"content": "Personal data deletion tool enables a user to anonymize all the personally identifiable data a user has generated while using ERPNext",
+				"link": "/docs/user/manual/en/setting-up/personal-data-deletion",
+				"title": "Personal Data Deletion"
+			}
+		],
+		"title": "Data Privacy"
+	}
+] %}
+
+{% from 'erpnext_com/templates/includes/macros.html' import doc_page %}
+{{ doc_page('Setting Up', 'Learn how to configure ERPNext for your business needs', doc, '/docs/user/manual/en/setting-up/contents') }}

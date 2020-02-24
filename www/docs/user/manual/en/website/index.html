@@ -1,0 +1,56 @@
+{% set doc=[
+	{
+	'title': 'Topics',
+	'links':
+		[
+			{
+				"content": "A homepage is the default landing page of your website.",
+				"link": "/docs/user/manual/en/website/homepage",
+				"title": "Homepage"
+			},
+			{
+				"content": "Static Content like your Home Page, About Us, Contact Us, Terms pages can be created using the Web Page.",
+				"link": "/docs/user/manual/en/website/web-page",
+				"title": "Web Page"
+			},
+			{
+				"content": "You can authorize customers, suppliers, job applicants, etc to access certain or create certain transactions using Web Forms.",
+				"link": "/docs/user/manual/en/website/web-form",
+				"title": "Web Form"
+			},
+			{
+				"content": "Website related settings like landing page and website wide theme can be configured here.",
+				"link": "/docs/user/manual/en/website/website-settings",
+				"title": "Website Settings"
+			},
+			{
+				"content": "ERPNext provides advanced theming capabilities to customize the look and feel of your website and make it match your brand.",
+				"link": "/docs/user/manual/en/website/website-theme",
+				"title": "Website Theme"
+			},
+			{
+				"content": "ERPNext provides a product listing page where your customers can discover your products. It is enabled by default if you have published Items on your website.",
+				"link": "/docs/user/manual/en/website/product-listing",
+				"title": "Product Listing"
+			},
+			{
+				"content": "ERPNext provides product pages for your Sales Items, they can be configured from the Item Master.",
+				"link": "/docs/user/manual/en/website/product-page",
+				"title": "Product Page"
+			},
+			{
+				"content": "In addition to listing your products, ERPNext also allows you to sell them via the Shopping Cart.",
+				"link": "/docs/user/manual/en/website/shopping-cart",
+				"title": "Shopping Cart"
+			},
+			{
+				"content": "Social Login enables users to login to ERPNext via their Google, Facebook or GitHub account.",
+				"link": "/docs/user/manual/en/website/social-login-keys",
+				"title": "Social Login Keys"
+			}
+		]
+	}
+] %}
+
+{% from 'erpnext_com/templates/includes/macros.html' import doc_page %}
+{{ doc_page('Website', 'Manage your website pages, product catalog, shopping cart, web forms and more with the built-in portal', doc, '/docs/user/manual/en/website/contents/') }}
