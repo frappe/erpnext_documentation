@@ -75,7 +75,7 @@ Here are the functionalities available under the ERPNext Education domain to go 
 
 ##### 9. Tools
 1. [Student Attendance Tool](/docs/user/manual/en/education/student-attendance-tool)
-1. [Assessment Result Tool](/docs/user/manual/en/education/assessment-result-tool)
+1. [Assessment Result Tool](/docs/user/manual/en/education/assessment_result_tool)
 1. [Student Group Creation Tool](/docs/user/manual/en/education/student-group-creation-tool)
 1. [Program Enrollment Tool](/docs/user/manual/en/education/program-enrollment-tool)
-<!-- 1. [Course Scheduling Tool](/docs/user/manual/en/education/course-scheduling-tool) -->
+1. [Course Scheduling Tool](/docs/user/manual/en/education/course-scheduling-tool)
