@@ -11,6 +11,16 @@ app_color = "grey"
 app_email = "developers@erpnext.com"
 app_license = "MIT"
 
+
+website_context = {
+	"repo": "frappe/erpnext_documentation",
+	"logo_image_url": '/assets/erpnext_documentation/img/erpnext-logo.svg',
+	'brand_name': 'ERPNext',
+	"brand_html": "ERPNext",
+	"hide_login": 1,
+	"favicon": "/assets/erpnext_documentation/img/erpnext-logo-blue.png"
+}
+
 # Includes in <head>
 # ------------------
 
