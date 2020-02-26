@@ -13,7 +13,7 @@ To access Salary Component, go to:
 To create a new Salary Component:
 
 1. Go to: Salary Component > New.
-2. Enter its Name and Abbr.
+2. Enter its Name and Abbreviation.
 3. Enter Description of the Salary Component (optional).
 1. Enter the Company name and the Default Account of the Salary Component.
 3. Save.
@@ -39,7 +39,7 @@ Some of the additional attributes of the Salary Component that can be enabled us
 * Is Payable: This checkbox can be enabled if the Salary Component type is payable.
 * Depends on Payment Days: If this checkbox is enabled then the Salary Component will be calculated based on the number of working days.
 * Is Tax Applicable: Selecting this checkbox allows you to apply tax on this Salary Component.
-* Deduct Full Tax on Selected Payroll Date: 
+* Deduct Full Tax on Selected Payroll Date.
 * Round to the Nearest Integer: Selecting this checkbox allows you to round the amount of this Salary Component to the nearest integer.
 * Statistical Component: If selected, the value specified or calculated in this component will not contribute to the earnings or deductions. However, it's value can be referenced by other components that can be added or deducted.
 * Do Not Include in Total: Selecting this checkbox ensures that the Salary Component is not included in the Total Salary.

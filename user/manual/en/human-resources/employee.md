@@ -75,7 +75,7 @@ Here, the mode of salary payment, i.e. through Bank, Cheque or Cash can be selec
 
 ### 3.7 Contact Details
 
-Employee's Contact information such as Mobile Number, Current and Permanent Address, Personal and Company Email ID can be captured here. In the Preferred Email ID field, either the the Company Email, Personal Email or User ID of the Employee can be selected depedning on the user's preference.
+Employee's Contact information such as Mobile Number, Current and Permanent Address, Personal and Company Email ID can be captured here. In the Preferred Email ID field, either the the Company Email, Personal Email or User ID of the Employee can be selected depending on the user's preference.
  
 
 ### 3.8 Personal Details

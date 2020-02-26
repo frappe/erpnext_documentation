@@ -4,7 +4,7 @@
 
 **A Promotional Scheme is a temporary discount on one or more products.**
 
-Promotional schemes help businesses become successful as lower prices for a limited period of time to attract more Customers. They can be easily configured in ERPNnext. A Promotional scheme is linked to a pricing rule, against each slab system that will generate the pricing rule.
+Promotional schemes help businesses become successful as lower prices for a limited period of time to attract more Customers. They can be easily configured in ERPNext. A Promotional scheme is linked to a pricing rule, against each slab system that will generate the pricing rule.
 
 On creating a Promotional Scheme, the system creates a [Pricing Rule](/docs/user/manual/en/accounts/pricing-rule). A Promotional Scheme can have multiple Pricing Rules associated with it. In ERPNext, a Promotional Scheme is an easier way to manage pricing on multiple Item/Groups based on different parties and conditions.
 

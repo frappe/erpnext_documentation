@@ -23,7 +23,7 @@ When creating Purchase Receipt, you should create new Batch, or select one of th
 
 #### Delivery Note
 
-Define Batch in Delivery Note Item table. If Batch item is added under Product Bundle, you can update it's Batch No. in the Packing List table sa well.
+Define Batch in Delivery Note Item table. If Batch item is added under Product Bundle, you can update it's Batch No. in the Packing List table as well.
 
 <img alt="Batch in Delivery Note" class="screenshot" src="{{docs_base_url}}/assets/img/articles/batchwise-stock-3.png">
 

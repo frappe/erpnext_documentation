@@ -1,7 +1,9 @@
 <!-- add-breadcrumbs -->
 # Projects
 
-Any business, wherein the deliverables can not be defined tangibly, in order to showcase their value needs to get many things right in order to stay afloat and grow in the industry. ERPNext helps any company effectively manage business aspects like projects management, customer support, sales, and purchase management to list a few. You can look at the following topics after going through this [introduction](/docs/user/manual/en/projects/introduction).
+There are a lot of Businesses, wherein the deliverables cannot be defined tangibly. In order to showcase their value, such businesses need track and update each of their processes to stay afloat and grow in the industry. The Projects Module helps an organization to keep a track of such deliverables and ensure their timely completion.
+
+ERPNext helps any company effectively manage business aspects like projects management, customer support, sales, and purchase management to list a few. You can look at the following topics after going through this [introduction](/docs/user/manual/en/projects/introduction).
 
 
 ## 1. Topics

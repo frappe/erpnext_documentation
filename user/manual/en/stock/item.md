@@ -36,7 +36,7 @@ Before creating and using an Item, it is advised that you create the following f
   * **Default Unit of Measure:** This is the default measuring unit that you will use for your product. It could be Nos, Kgs, Meters, etc. You can store all the UOM’s that your product will require under Set Up> Master Data > UOM. These can be preselected while filling New Item by using % sign to get a pop up of the UOM list. Visit the [UoM](/docs/user/manual/en/stock/uom) page for more details
 
 ### 2.2 Options when creating an item
-* **Disabled**: If you disable ad Item, it cannot be selected in any transaction.
+* **Disabled**: If you disable an Item, it cannot be selected in any transaction.
 
 * **Allow Alternative Item**: Sometimes when manufacturing a finished good, specific material may not be available. If you tick this, you can create and select an alternative item from the Item Alternative list. To know more, visit the [Item Alternative](/docs/user/manual/en/manufacturing/item-alternative) page.
 

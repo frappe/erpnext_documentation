@@ -5,7 +5,7 @@
 
 Any changes to the Salary Structure i.e. among the components can have a major impact on what the Employee does, such as the kind of tax exemptions claimed.
 
-ERPNExt allows you to define the Earning and Deductions of a Salary Structure, Payroll frequency and Payment Mode among other features.
+ERPNext allows you to define the Earning and Deductions of a Salary Structure, Payroll frequency and Payment Mode among other features.
 
 To access Salary Structure, go to:
 > Home > Human Resources > Payroll > Salary Structure

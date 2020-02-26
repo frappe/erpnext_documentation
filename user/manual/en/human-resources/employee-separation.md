@@ -77,8 +77,6 @@ Based on the progress on the Tasks, progress can be updated in the Employee Sepa
 
 You can directly view the separated Employee through the Employee Separation doctype through View > Employee once the form is submitted.
 
-> Note: Once the Employee Separation form is submitted, the status of the Employee changes from 'Active' to 'Left'. 
-
 
 ## 4. Related Topics
 

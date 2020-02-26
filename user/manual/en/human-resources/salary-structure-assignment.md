@@ -1,6 +1,8 @@
 <!-- add-breadcrumbs -->
 # Salary Structure Assignment
 
+**Salary Structure Assignment form will help you assign a particular Salary Structure to the employee.**
+
 In order to access Salary Structure Assignment, a Salary Structure needs to be created first. Once it is created, it can be assigned to an Employee using Salary Structure Assignment.
 
 
@@ -14,7 +16,7 @@ To create a new Salary Structure Assignment:
 1. Go to: Salary Structure Assignment > New.
 1. Select the Employee and Salary Structure.
 1. Select the From Date from which this particular Salary Structure will be applicable.
-1. Enter Base and Variable amount as per requirement.
+1. Enter Base and Variable amount as per requirement. Base amount refers to the Base Salary of the Employee, which can also be the Fixed Salary Component for that employee. The Variable Salary component would be the salary the employee received as a bonus or anything apart from their CTC.
 1. Save and Submit.
 
 <img class="screenshot" alt="Salary Structure Assignment" src="{{docs_base_url}}/assets/img/human-resources/salary-structure-assignment.png">

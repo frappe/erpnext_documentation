@@ -13,7 +13,7 @@ To access Employee Tax Exemption Proof Submission, go to:
 
 ## 1. How to create an Employee Tax Exemption Proof Submission
 
-The details are already fetched if you click on 'Submit Proof' from [Employee Tax Exemption Declaration](/docs/user/manual/en/human-resources/employee-tax-exemption-declaration). However, if you want to create a 'Employee Tax Exemption Proof Submission' manually, follow these steps.
+The details are already fetched if you click on 'Submit Proof' from [Employee Tax Exemption Declaration](/docs/user/manual/en/human-resources/employee-tax-exemption-declaration). However, if you want to create an 'Employee Tax Exemption Proof Submission' manually, follow these steps.
 
 1. Go to the Employee Tax Exemption Proof Submission list, click on New.
 1. Enter the details as needed.

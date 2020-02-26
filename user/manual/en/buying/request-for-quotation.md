@@ -48,13 +48,13 @@ In the Supplier table, on expanding a row with the inverted triangle, you'll see
 Enter any additional messages for the Supplier in this field. This field can be auto filled using an 'Email Template'. The field to select an Email Template is just above Message for Supplier.
 
 ### 3.4 Terms and Conditions
-In Sales/Purchase transactions there might be certain Terms and Conditions based on which the Supplier provides goods or services to the Customer. You can apply the Terms and Conditions to transactions to transactions and they will appear when printing the document. To know about Terms and Conditions, [click here](/docs/user/manual/en/setting-up/print/terms-and-conditions)
+In Sales/Purchase transactions there might be certain Terms and Conditions based on which the Supplier provides goods or services to the Customer. You can apply the Terms and Conditions to transactions and they will appear when printing the document. To know about Terms and Conditions, [click here](/docs/user/manual/en/setting-up/print/terms-and-conditions)
 
 ### 3.5 Print Settings
 #### Letterhead
 You can print your request for quotation/purchase order on your company's letterhead. Know more [here](/docs/user/manual/en/setting-up/print/letter-head).
 
-'Group same items' will group the same items added multiple times in the items table. This can be seen when your print.
+'Group same items' will group the same items added multiple times in the items table. This can be seen when you print it.
 
 #### Print Headings
 Titles of your documents can be changed. Know more [here](/docs/user/manual/en/setting-up/print/print-headings).

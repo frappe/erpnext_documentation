@@ -62,7 +62,7 @@ You can assign the Lead to a user by clicking on 'Assign' button on left bar. Yo
 
 ### 2.1 Reminders to Follow Up on the Leads
 
-It is important to reach out to leads from time to time and build the relationship. You can set the 'Next Contact Date' and 'Next Contact By' fields and a calendar event will be added for the user chosen in 'Next Contact By' field and a notification is shown on the that Date.
+It is important to reach out to leads from time to time and build the relationship. You can set the 'Next Contact Date' and 'Next Contact By' fields and a calendar event will be added for the user chosen in 'Next Contact By' field and a notification is shown on that Date.
 
 ### 2.2 Adding Multiple Contacts and Addresses
 
@@ -74,7 +74,7 @@ You can add the details of all such people in the same lead. Once you save a Lea
 ### 2.3 Recording Comments, Emails and Events
 
 * **Comments**: You can write your comment in 'Add a comment' box and click on 'Comment'.
-* **Emails**: You can send an email to the lead by clicking on the 'New Email' button and when the lead responds to your email, it will visible.
+* **Emails**: You can send an email to the lead by clicking on the 'New Email' button and when the lead responds to your email, it will be visible.
 * **Events**: You can also records the Meetings, Calls etc you have had with the Lead by clicking on 'New Event'
 
 ### 2.4 Creating Opportunity, Customer and Quotation
