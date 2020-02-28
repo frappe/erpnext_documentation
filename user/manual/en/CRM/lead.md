@@ -74,7 +74,9 @@ You can add the details of all such people in the same lead. Once you save a Lea
 ### 2.3 Recording Comments, Emails and Events
 
 * **Comments**: You can write your comment in 'Add a comment' box and click on 'Comment'.
-* **Emails**: You can send an email to the lead by clicking on the 'New Email' button and when the lead responds to your email, it will be visible.
+
+* **Emails**: You can send an email to the lead by clicking on the 'New Email' button and when the lead responds to your email, it will be appended to your email creating an email thread.
+
 * **Events**: You can also records the Meetings, Calls etc you have had with the Lead by clicking on 'New Event'
 
 ### 2.4 Creating Opportunity, Customer and Quotation
