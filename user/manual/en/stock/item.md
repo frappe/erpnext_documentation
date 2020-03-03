@@ -33,7 +33,7 @@ Before creating and using an Item, it is advised that you create the following f
   
   * **Item Group:** Item Group is used to categorize an Item under various criteria like products, raw materials, services, sub-assemblies, consumables or all Item groups. Create your default Item Group list under Setup > Item Group and pre-select the option while filling your New Item details under [Item Group](/docs/user/manual/en/stock/item-group). Item groups can be sub-assemblies, raw materials, etc, or based on your business use case.
   
-  * **Default Unit of Measure:** This is the default measuring unit that you will use for your product. It could be Nos, Kgs, Meters, etc. You can store all the UOM’s that your product will require under Set Up> Master Data > UOM. These can be preselected while filling New Item by using % sign to get a pop up of the UOM list. Visit the [UoM](/docs/user/manual/en/stock/uom) page for more details
+  * **Default Unit of Measure:** This is the default measuring unit that you will use for your product. It could be Nos, Kgs, Meters, etc. You can store all the UOMs that your product will require under Set Up> Master Data > UOM. These can be preselected while filling New Item by using % sign to get a pop up of the UOM list. Visit the [UoM](/docs/user/manual/en/stock/uom) page for more details
 
 ### 2.2 Options when creating an item
 * **Disabled**: If you disable an Item, it cannot be selected in any transaction.
