@@ -96,10 +96,13 @@ Then the following can be configured in the POS Profile:
 * **Currency**: By default, this will be set according to the Company's default currency. However, you can change it. In case you change the currency, remember to change the accounts too.
 * **Taxes and Charges**: Selecting a [Sales Taxes and Charges Template](/docs/user/manual/en/selling/sales-taxes-and-charges-template) or [Purchase Taxes and Charges Template](/docs/user/manual/en/buying/purchase-taxes-and-charges-template) here will automatically apply the taxes and charges to the POS transaction.
 * **Apply Discount On**: Here you can set whether the discount is to be applied on the Grand Total (pre tax amount) or the Net Total (post tax amount).
+* **Tax Category**: On selecting a [Tax Category](/docs/user/manual/en/accounts/tax-category) here, the Tax Rules associated with the Tax Category will be applied to each transaction performed from this POS Profile.
 
 The following accounts can be set so that the general ledger is updated accordingly:
 
 * Account for Change Amount
+* Write Off Account
+* Write Off Cost Center
 * Income Account
 * Expense Account
 

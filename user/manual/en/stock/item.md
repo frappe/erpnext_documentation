@@ -99,6 +99,8 @@ When the stock of an item dips under a certain quantity, you can set an automati
 
   <img alt="Item Reorder" class="screenshot" src="{{docs_base_url}}/assets/img/stock/item-reorder.png">
 
+> **Note**: The Material Request is created at 12 midnight depending on the set reorder level.
+
 ### 3.4 Multiple Units of Measure
 You can add alternate UoMs for an Item. If the default UoM in which you sell is numbers (NoS) but you receive it in Kilos, you can set an additional UoM with an appropriate conversion factor. For example, 500 Nos of screws = 1 Kilogram, so select Kilogram/Litre as UOM and set the conversion factor as 500. To know more about selling in different UoM, visit [this page](/docs/user/manual/en/selling/articles/Selling-in-different-UOM).
 

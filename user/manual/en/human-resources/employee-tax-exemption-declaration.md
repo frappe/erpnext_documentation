@@ -72,7 +72,7 @@ Once the declaration is submitted, you can submit the proof of your tax exemptio
 
 <img class="screenshot" alt="Employee Tax Exemption Declaration" src="{{docs_base_url}}/assets/img/human-resources/hra-exemption.png">
 
-> Note: HRA component needs to be configured in Company master under HRS Settings sections for the HRA exemption to work.
+> Note: HRA component needs to be configured in Company master under HRA Settings sections for the HRA exemption to work.
 
 
 ## 4. Related Topics

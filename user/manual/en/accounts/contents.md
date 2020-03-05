@@ -69,6 +69,8 @@ You can check out [this video](https://www.youtube.com/watch?v=5wjollWN0OA) for 
 1. [Payment Reconciliation](/docs/user/manual/en/accounts/payment-reconciliation)
 1. [Period Closing Voucher](/docs/user/manual/en/accounts/period-closing-voucher)
 1. [Payment Order](/docs/user/manual/en/accounts/payment-order)
+1. [Quickbooks Migrator](/docs/user/manual/en/accounts/quickbooks-migrator)
+
 
 ### 1.8 Reports
 1. [Accounting Reports](/docs/user/manual/en/accounts/accounting-reports)
@@ -127,7 +129,7 @@ You can check out [this video](https://www.youtube.com/watch?v=5wjollWN0OA) for 
 1. [Update Stock Option In Sales Invoice](/docs/user/manual/en/accounts/articles/update-stock-option-in-sales-invoice)
 1. [Exchange Rate Field Frozen](/docs/user/manual/en/accounts/articles/exchange-rate-field-frozen)
 1. [Fiscal Year Creation](/docs/user/manual/en/accounts/articles/fiscal-year-creation)
-1. [How To Customize Cash Flow Report](/docs/user/manual/en/accounts/articles/how-to-customise-cash-flow-report)
+1. [How To Customize Cash Flow Report](/docs/user/manual/en/accounts/articles/how-to-customize-cash-flow-report)
 1. [How To Manage Subscriptions With ERPNext](/docs/user/manual/en/accounts/articles/how-to-manage-subscriptions-with-erpnext)
 1. [Merging Accounts](/docs/user/manual/en/accounts/articles/merging-documents)
 
