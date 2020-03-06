@@ -70,7 +70,14 @@ For India:
 * **Description**: Description of the item. The text from the Item Code will be fetched by default.
   ![Item brand and description](/docs/assets/img/stock/item-brand-description.png)
 
-### 3.2 Inventory
+### 3.2 Barcodes
+
+Barcodes can be recorded in Items to quickly scan and add them in transactions. In the Barcodes table you can add an Item's [barcode for scanning](/docs/user/manual/en/stock/articles/track-items-using-barcode). There are two types of barcodes in ERPNext:
+
+* **EAN**: The European Article Number is a 13 digit number. EAN is used internationally and recognized by more POS systems.
+* **UPC**: The Universal Product Code is a 12 digit number. UPC is generally used only in USA and Canada.
+
+### 3.3 Inventory
 
 * **Shelf Life In Days**: This is for a product [Batch](/docs/user/manual/en/stock/batch). The number of days after which product batch will be unusable. For example, medicines.
 * **End of Life**: For a single item/product, the date after which it'll be completely unusable. That is, the item will be unusable in transactions and manufacturing. For example, you're using plastic crystals for manufacturing Items for the next 5 years after which you want to use plastic beads. 
@@ -85,7 +92,7 @@ For India:
 * **Default Material Request Type**: When you create a new Material Request for this item, the field set here will be selected by default in the new Material Request. This is also known as an 'indent'.
 * **Valuation Method**: Select the Valuation Method whether FIFO or Moving Average. To know more about Valuation Methods, [click here](/docs/user/manual/en/stock/articles/item-valuation-fifo-and-moving-average).
 
-### 3.3 Automatic Reordering
+### 3.4 Automatic Reordering
 When the stock of an item dips under a certain quantity, you can set an automatic reorder under 'Auto Reorder' section. This should be enabled in [Stock Settings](/docs/user/manual/en/stock/stock-settings#9-automatic-material-request). This will raise a [Material Request](/docs/user/manual/en/stock/material-request) for the Item. The user with roles Purchase Manager and Stock Manager will be **notified** when the Material Request is created.
 
 * **Check in (group)**: In which group warehouses to check the quantity of the item.
@@ -101,10 +108,10 @@ When the stock of an item dips under a certain quantity, you can set an automati
 
 > **Note**: The Material Request is created at 12 midnight depending on the set reorder level.
 
-### 3.4 Multiple Units of Measure
+### 3.5 Multiple Units of Measure
 You can add alternate UoMs for an Item. If the default UoM in which you sell is numbers (NoS) but you receive it in Kilos, you can set an additional UoM with an appropriate conversion factor. For example, 500 Nos of screws = 1 Kilogram, so select Kilogram/Litre as UOM and set the conversion factor as 500. To know more about selling in different UoM, visit [this page](/docs/user/manual/en/selling/articles/Selling-in-different-UOM).
 
-### 3.5 Serial Numbers
+### 3.6 Serial Numbers
 
 With Serial Numbers, you can track warranty and returns. In case any individual Item is recalled by the supplier the number system helps to track individual Item. The numbering system also manages expiry dates.
 
@@ -114,7 +121,7 @@ In ERPNext, you will have to mention the Serial Number in some accounting entrie
 
 <img alt="Serial No modal" class="screenshot" src="{{docs_base_url}}/assets/img/stock/serial_no_modal.gif">
 
-### 3.6 Batches
+### 3.7 Batches
 
 A set of Items can be manufactured in batches. This is useful for moving the batch and associate an expiry date with a certain batch. 
 
@@ -138,10 +145,10 @@ A set of Items can be manufactured in batches. This is useful for moving the bat
 
 To know more, visit the [Stock Reconciliation](/docs/user/manual/en/stock/stock-reconciliation) page.
 
-### 3.7 Variants
+### 3.8 Variants
 An Item Variant is a different version of a Item. To learn more about managing variants see [Item Variants](/docs/user/manual/en/stock/item-variants).
 
-### 3.8 Item Defaults
+### 3.9 Item Defaults
 
 In this section, you can define Company-wide transaction-related defaults for this Item.
 
@@ -156,7 +163,7 @@ In this section, you can define Company-wide transaction-related defaults for th
 
 > Tip: You can add more rows for multiple companies.
 
-### 3.9 Purchase, Replenishment Details
+### 3.10 Purchase, Replenishment Details
 
 * **Default Purchase Unit of Measure**: The default UoM that will be used in Purchase transactions.
 * **Minimum Order Qty**: The minimum quantity required for purchase transactions like Purchase Orders. If set, the system will not let you proceed with the purchase transaction if the item quantity in the purchase transaction is lesser than the quantity set in this field.
@@ -170,7 +177,7 @@ In this section, you can define Company-wide transaction-related defaults for th
 
   <img class="screenshot" alt="Purchase details" src="{{docs_base_url}}/assets/img/stock/item-purchase-details.png">
 
-### 3.10 Supplier Details
+### 3.11 Supplier Details
 
 * **Delivered by Supplier (Drop Ship)**: If the item is delivered directly by the supplier to the customer, tick this checkbox. Read more [here](/docs/user/manual/en/selling/articles/drop-shipping).
 * **Manufacturer:** Select the Manufacturer who manufactured this item.
@@ -179,13 +186,13 @@ In this section, you can define Company-wide transaction-related defaults for th
 
   ![Item Supplier Details](/docs/assets/img/stock/item-supplier.png)
 
-### 3.11 Foreign Trade Details
+### 3.12 Foreign Trade Details
 If you're sourcing the item from another country, you can set the details here.
 
 * **Country of Origin**: The country from which you're sourcing the item.
 * **Customs Tariff Number**: You can create a customs tariff number with a description and use it for reference here to share with custom agencies. Later it can be used to add in Delivery Notes.
 
-### 3.12 Sales Details
+### 3.13 Sales Details
 
 * **Default Sales Unit of Measure**: The default UoM that'll be fetched for sales transactions.
 * **Max Discount (%)**: You can define the maximum discount in % to be applied to an item. Eg: if you set 20%, you cannot sell this item with a discount greater than 20%.
@@ -193,7 +200,7 @@ If you're sourcing the item from another country, you can set the details here.
 
   ![Item Sales Details](/docs/assets/img/stock/item-sales.png)
 
-### 3.13 Deferred Revenue and Deferred Expense
+### 3.14 Deferred Revenue and Deferred Expense
 You can enable deferred revenue or expense from the item. Once you tick the checkbox, you'll see options to set the Deferred Expense Account and the number of months through which the revenue/expense is deferred. 
 
 For example, consider a yearly gym membership, you pay the money upfront at once but the service is given throughout the year. For the gym owner, this is deferred revenue and for the customer, it is a deferred expense.
@@ -202,7 +209,7 @@ For example, consider a yearly gym membership, you pay the money upfront at once
 
 Check out the pages on [Deferred Revenue](/docs/user/manual/en/accounts/deferred-revenue) for more details.
 
-### 3.14 Customer Details
+### 3.15 Customer Details
 
 The Customer may identify an Item with a different Item Code. this is Similar to [Supplier Code](/docs/user/manual/en/stock/item#311-supplier-details). 
 
@@ -210,7 +217,7 @@ The Customer may identify an Item with a different Item Code. this is Similar to
 * **Customer Group**: This will be fetched based on the Customer you selected in the previous field.
 * **Ref Code:** A customer can identify this item with a different number. You can track Item Code assigned by the Customer for this Item. When you create a Sales Order, the Customer's Reference Code for this Item will be shown.
 
-### 3.15 Item Tax
+### 3.16 Item Tax
 
 These settings are required only if a particular Item has a different tax rate than the rate defined in the standard tax Account.
 
@@ -221,7 +228,7 @@ You need to create a new 'Item Tax Template' or choose an existing one. For exam
 You can also set a [Tax Category](/docs/user/manual/en/accounts/tax-category) for this Item.
 
 
-### 3.16 Inspection Criteria
+### 3.17 Inspection Criteria
 
 * **Inspection Required before Purchase**: If an inspection is mandatory before the item is purchased, i.e., before you generate Purchase Receipt, tick this checkbox.
 * **Inspection Required before Delivery**: If an inspection is required at the time of delivery from your Supplier is mandatory for this Item, tick this checkbox. That is, before you generate a Delivery Note. 
@@ -231,12 +238,12 @@ Quality Inspection can be done with Quick View and you need not go to a differen
 
 To know more about Quality Inspection, [click here](/docs/user/manual/en/stock/quality-inspection).
 
-### 3.17 Manufacturing
+### 3.18 Manufacturing
 
 * **Default BOM**: The default [Bill of Materials](/docs/user/manual/en/manufacturing/bill-of-materials) used to manufacture this Item.
 * **Supply Raw Materials for Purchase**:  If you're subcontracting to a vendor, you can choose to provide them with the raw materials to manufacture the item using the default BOM.
 
-### 3.18  Website
+### 3.19  Website
 
 * **Show in Website**: Choose if you want to show this Item on your website. Once you tick this, additional options will be visible to configure the item on your website. To view the item on the website click on the 'See on Website' link on the top left just above the item image. Visit the [Website module](/docs/user/manual/en/website) to know more.
 
@@ -252,7 +259,7 @@ To know more about Quality Inspection, [click here](/docs/user/manual/en/stock/q
 
 Visit [Manufacturing](/docs/user/manual/en/manufacturing) and [Website](/docs/user/manual/en/website) to understand these topics in detail.
 
-### 3.19 Website Specifications
+### 3.20 Website Specifications
 This section is for configuring other details about the item.
 
 * **Copy from Item Group:** The 'Website Specifications' details will be fetched as set in a specific Item Group chosen on the previous section (2.17).
@@ -260,7 +267,7 @@ This section is for configuring other details about the item.
 * **Website Description**: This will appear on the item page.
 * **Website Content**: (*Introduced in v12*) You can create additional styling, etc., use Bootstrap 4 markup to display on the item page.
 
-### 3.20 Hub Publishing Details
+### 3.21 Hub Publishing Details
 
 The hub is a free online marketplace where Suppliers and Customers can transact. If both parties are on ERPNext, the transactions happen seamlessly. You can visit the hub at: https://hubmarket.org.
 
