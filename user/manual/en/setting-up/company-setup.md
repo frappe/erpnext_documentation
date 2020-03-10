@@ -3,7 +3,7 @@
 
 **A company is a legal entity made up of an association of people for carrying on a commercial or industrial enterprise.**
 
-In ERPNext, the first Company is created when an ERPNext account. For each Company, you can set a domain as manufacturing, retail, or services depending on the nature of your business activity.
+In ERPNext, the first Company is created when an ERPNext account is set up. For each Company, you can set a domain as manufacturing, retail, or services depending on the nature of your business activity.
 
 If you have more than one company, you can add them from:
 
