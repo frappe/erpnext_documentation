@@ -24,7 +24,7 @@ You can also attach a company logo and add a description for the company.
 
 ### 1.1 Multi Company Structure
 
-Let's assume you run a group of companies, some may be larger companies and some may be smaller that are a part of the larger companie(s).
+Let's assume you run a group of companies, some may be larger companies and some may be smaller that are a part of the larger company(s).
 
 In ERPNext, you can set up multiple companies. The company structure can be parallel, i.e., sister companies, parent-child companies, or a combination of both.
 
