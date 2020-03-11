@@ -1,7 +1,7 @@
 <!-- add-breadcrumbs -->
 # Google Settings
 
-To enable Google Integrations, ERPNext needs access to the API through which the data will be synced which is acheived using OAuth 2.0 Authentication Protocol.
+To enable Google Integrations, ERPNext needs access to the API through which the data will be synced which is achieved using OAuth 2.0 Authentication Protocol.
 
 ## How to set up Google Settings
 
@@ -17,6 +17,8 @@ In order to allow a synchronization with Google Calendar, Google Contacts or Goo
   - Google Drive: **Drive API**
 
  <img class="screenshot" src="/docs/assets/img/erpnext_integrations/api.gif">
+- In **API & Services > Credentials** create a new Credential and select **Create OAuth client ID**
+- Select Application Type **Web Application**
 - Add `https://{yoursite}` to Authorized JavaScript origins.
 - Add `https://{yoursite}?cmd=frappe.integrations.doctype.{integration_name}.{integration_name}.google_callback` as an authorized redirect URI.
   - You need to replace `integration_name` with one of the following:
