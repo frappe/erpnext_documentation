@@ -51,20 +51,20 @@
 
 ## Account
 
-1.  ### Existing Chart of Accounts
+### Existing Chart of Accounts
     Upon creation of a Company ERPNext creates a chart of accounts for that company, these accounts will be kept.
 
-1. ### Account Naming
+### Account Naming
     To avoid name collision with existing accounts, all accounts from QuickBooks will be assigned "- QB" suffix.
 
     e.g. `Job Expense` will become  `Job Expense - QB`.
 
     **Note**: ERPNext also encodes account names with Company abbreviation. Taking this into account `Job Expense` will become  `Job Expense - QB - AZ` (assuming `AZ` is the company abbreviation).
 
-1. ### Root Accounts
+### Root Accounts
     Five root accounts, namely `Asset`, `Equity`, `Expense`, `Liability`, `Income` will be created and all accounts (depending on the account type) will become children of these accounts.
 
-1.  ### Group Accounts
+### Group Accounts
     QuickBooks allows transactions on group accounts, which is not allowed in ERPNext, to handle this, every group account will have a child with a hyphenated name.
 
     e.g.
@@ -80,7 +80,7 @@
             Job Materials
     ```
 
-1.  ### Name Collisions
+### Name Collisions
     QuickBooks allows multiple accounts to have the same name, which is not allowed in ERPNext, to handle this, every duplicate account will have a hyphenated name.
 
     e.g.
@@ -102,22 +102,22 @@
 
 ## Item
 
-1. ### Naming
+### Naming
     All Items will have company encoded names.
 
     e.g. `Pen` will become  `Pen - AZ` (assuming `AZ` is the company abbreviation).
 
-1. ### UOM
+### UOM
     All Items will be assigned `Unit` as the default UOM.
 
-1. ### Fractional UOM
+### Fractional UOM
     `Unit` will be allowed to have fractional value.
 
-1. ### Inventory
+### Inventory
     Irrespective of whether Item is an Inventory or Non-Inventory Item in QuickBooks, No Inventory related information will be kept.
 
-1. ## Customer and Supplier
-1. ### Naming
+## Customer and Supplier
+### Naming
     All Customer and Suppliers will have company encoded names.
 
     e.g. `Pen` will become  `Pen - AZ` (assuming `AZ` is the company abbreviation).
@@ -126,7 +126,7 @@
 
 ## Invoice
 
-1. ### Variants
+### Variants
     QuickBooks has four transactional variants of Invoice, all of these will be saved as Sales Invoice.
 
     - **Invoice** is equivalent to a Sales Invoice.
@@ -134,23 +134,23 @@
     - **Credit Memo** is equivalent to a return Sales Invoice (Credit Note).
     - **Refund Receipt** is equivalent to a return POS Sales Invoice.
 
-1. ### Discount and Markup
+### Discount and Markup
     QuickBooks uses special accounts for both Markup and Discount, ERPNext doesn't handle the discount expense and markup this way, instead, all Item's will see the change in their Income accounts.
 
-1. ### Shipping
+### Shipping
     For Invoices with Shipping, an Item with name Shipping will be added in the Item table.
 
-1. ### Round off
+### Round off
     ERPNext uses different rounding method than QuickBooks, because of this, in Invoices with Tax and with a currency different than company currency, Sales Invoice will have different grand total than that of the QuickBooks Invoice.
 
-1. ### Special Case
+### Special Case
     If a QuickBooks Invoice is linked to a `Delayed Charge` or `Statement Charge` then an equivalent `Journal Entry` is created for this Invoice.
 
 
 
 ## Bill
 
-1. ### Variants
+### Variants
     QuickBooks has two transactional variants of Bill, all of these will be saved as Purchase Invoice.
 
     - **Bill** is equivalent to a Purchase Invoice.
