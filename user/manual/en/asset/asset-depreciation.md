@@ -11,7 +11,17 @@ Types of depreciations in ERPNext:
 
 * **Double Declining Balance**: This is also known as 200% declining balance. In this method, 20% is depreciated from the existing value each time. For example, if asset is worth 1000, it'll be worth 800 in the next period, then 20% of 800 would be 160 so now the asset is worth 640, and so on till the end value is reached. If you start at the middle of the year, 10% depreciation will be calculated. This method is useful when the asset depreciates fast in the beginning and slows down later.
 
-* **Written Down Value**: A fixed depreciation percentage is set and the asset value depreciates by that percentage over lifespan of the asset. This fixed percentage is always calculated on the original value of the asset. For example if value is 1000 and 'Written Down Value' is 10% over 5 years, 10% will be depreciated every year to get the expected value of 950 at the end of life. Useful for vehicles where the depreciation is higher in later years.
+* **Written Down Value**: A fixed depreciation percentage is set and the asset value depreciates by that percentage over lifespan of the asset. This fixed percentage is always calculated on the current existing value of the asset. For example if the value is 1000 and 'Written Down Value' is 10% over 5 years, 10% will be depreciated every year to get the expected value of 600 at the end of life. Useful for vehicles where the depreciation is higher in later years.
+
+    | Current Value | Depreciation | Booked Value |
+    | -------------- | ----------- | ------------ |
+    | 1000 | 100 | 900 |
+    | 900 | 90 | 810 |
+    | 810 | 80 | 730 |
+    | 730 | 70 | 660 |
+    | 660 | 60 | 600 |
+    | 600 | 50 | 550 |
+
 
 * **Manual**: In this method, you can define the Schedule Date and Depreciation Amount for each period. 
 
