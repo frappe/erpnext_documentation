@@ -3,7 +3,7 @@
 
 **A company is a legal entity made up of an association of people for carrying on a commercial or industrial enterprise.**
 
-In ERPNext, the first Company is created when an ERPNext account. For each Company, you can set a domain as manufacturing, retail, or services depending on the nature of your business activity.
+In ERPNext, the first Company is created when an ERPNext account is set up. For each Company, you can set a domain as manufacturing, retail, or services depending on the nature of your business activity.
 
 If you have more than one company, you can add them from:
 
@@ -24,7 +24,7 @@ You can also attach a company logo and add a description for the company.
 
 ### 1.1 Multi Company Structure
 
-Let's assume you run a group of companies, some may be larger companies and some may be smaller that are a part of the larger companie(s).
+Let's assume you run a group of companies, some may be larger companies and some may be smaller that are a part of the larger company(s).
 
 In ERPNext, you can set up multiple companies. The company structure can be parallel, i.e., sister companies, parent-child companies, or a combination of both.
 
