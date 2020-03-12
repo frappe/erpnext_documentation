@@ -80,11 +80,12 @@ An Asset Category needs to be assigned to that Item. Now the Asset can be create
 * **Depreciation Method**: There are two options, Straight Line and Double Declining Balance.
     - **Straight Line**: This method spreads the cost of the fixed asset evenly over its useful life.
     - **Double Declining Method**: An accelerated method of depreciation, it results in higher depreciation expense in the earlier years of ownership.
+    - **Written Down Value**: In this method, the depreciation percentage is fixed but it is applied on the current value of the asset which we get after each depreciation.
+    To know about Asset Depreciation in detail, [visit this page](/docs/user/manual/en/asset/asset-depreciation).
 * **Depreciation Start Date**: The date from which booking of depreciation will be started.
 * **Expected Value After Useful Life**: Useful Life is the time period over in which the company expects that the asset will be productive. After that period, either the asset is scrapped or sold. In case it is sold, mention the estimated value here. This value is also known as Salvage Value, Scrap Value, or Residual Value.
 * **Rate of Depreciation**: This will be calculated based on the amount entered in expected value after useful life.
 
-To know about Asset Depreciation in detail, [visit this page](/docs/user/manual/en/asset/asset-depreciation).
 
 ### 4.2 Depreciation Schedule
 

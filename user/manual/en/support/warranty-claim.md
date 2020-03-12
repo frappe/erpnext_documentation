@@ -19,7 +19,7 @@ Before creating and using Warranty Claim, it is advised that you create the foll
 ## 2. How to Create Warranty Claim
 
 1. Go to the Warranty Claim list, click on New.
-1. Select a Customer, 
+1. Select a Customer. 
 1. Select the Serial Number of the Item on which Warranty Claim is to be recorded. The system will then automatically fetch the Serial No’s details and indicate whether this is under warranty or AMC.
 1. Enter a description of the Issue. User can upload and image and create a table.
 1. Save.
@@ -28,7 +28,7 @@ Before creating and using Warranty Claim, it is advised that you create the foll
 ### 2.1 Additional Options when Creating a Warranty Claim
 
 * **Status**: While creating a Warranty Claim, the status will be set as "Open". User can change the status to:
-    * Work In Progress: Fix/repairs are being done on the Item
+    * Work In Progress: Fix/repairs are being done on the Item.
     * Closed: The repairs have been done and the Warranty Claim is now closed.
     * Cancelled: The Warranty Claim was invalid and the claim was closed.
 * **Issue Date**: While creating the Warranty Claim, the current date will be captured. This field is editable.

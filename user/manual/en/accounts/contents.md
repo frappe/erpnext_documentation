@@ -71,7 +71,6 @@ You can check out [this video](https://www.youtube.com/watch?v=5wjollWN0OA) for 
 1. [Payment Order](/docs/user/manual/en/accounts/payment-order)
 1. [Quickbooks Migrator](/docs/user/manual/en/accounts/quickbooks-migrator)
 
-
 ### 1.8 Reports
 1. [Accounting Reports](/docs/user/manual/en/accounts/accounting-reports)
 
