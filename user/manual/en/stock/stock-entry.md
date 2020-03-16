@@ -69,7 +69,10 @@ Different Source and Target Warehouses can be set for different Items.
 
 If the stock entry is an incoming entry i.e any item is receiving at a target warehouse, you can add related additional costs (like Shipping Charges, Customs Duty, Operating Costs, etc) associated with the process. The additional costs will be considered to calculate the Valuation Rate of the items.
 
-To add additional costs, enter the description and amount of the cost in the Additional Costs table.
+To add additional costs:
+
+1. Select the Expense Account to which the expense from this Stock Entry will be recorded.
+1. Enter the description and amount of the cost in the Additional Costs table.
 
 <img class="screenshot" alt="Stock Entry Additional Costs" src="{{docs_base_url}}/assets/img/stock/additional-costs-table.png">
 
