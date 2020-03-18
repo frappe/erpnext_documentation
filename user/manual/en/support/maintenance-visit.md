@@ -28,7 +28,7 @@ A Maintenance Visit is usually created from a Sales Order of type 'Maintenance'.
 
 ### 2.1 Additional Options when Creating Maintenance Visit
 
-* **Customer Feedback**: You can record any feedback given by the Customer regarding ths=is Maintenance Visit.
+* **Customer Feedback**: You can record any feedback given by the Customer regarding this Maintenance Visit.
 * The following fields will be fetched from the [Customer](docs/user/manual/en/CRM/customer) form:
   * Customer Address
   * Contact Person
