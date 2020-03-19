@@ -36,7 +36,7 @@ Control actions can be triggered when:
 * A [Purchase Order](/docs/user/manual/en/buying/purchase-order) is being submitted 
 * When an actual expense is being posted (through a journal entry or a purchase invoice).
 
-You can set a control action in the Budget based on Material Request, Purchase Order, or on actual expenses. Further, you can set a control action for annual or monthly budgets.
+You can set a control action in the Budget based on Material Requests, Purchase Orders, or on actual expenses. Further, you can set a control action for annual or monthly budgets.
 
 ![Control Actions](/docs/assets/img/accounts/control-actions.png)
 
@@ -49,6 +49,8 @@ There are three types of control actions.
 You can set separate actions for monthly and annual budgets. If you exceed the budget, a warning will be shown:
 
 <img class="screenshot" alt="Monthly Distribution" src="{{docs_base_url}}/assets/img/accounts/budget-warning.png">
+
+Note that a similar warning will be triggered for any type of transactions set in the budget for the particular Account heads.
 
 ## 3. Budget Variance Report
 

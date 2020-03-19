@@ -52,8 +52,6 @@ Opening entries can be created using the Opening Invoice Creation Tool in ERPNex
 
 Once all assets and liabilities have been imported, the balance of **Temporary Opening** ledger should be zero.
 
-After completing the accounting entries, the trial balance report will look as shown below.
-
 ## 5. Video
 <div>
   <div class='embed-container'>
