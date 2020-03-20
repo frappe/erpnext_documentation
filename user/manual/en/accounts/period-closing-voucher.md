@@ -33,7 +33,7 @@ To access the Period Closing Voucher list, go to:
 * **Closing Fiscal Year** will be an year for which you are closing your financial statement.
 
 ### 1.3 What happens on submitting?
-The Period Closing Voucher will make accounting entries (GL Entry). This wil make all your Income and Expense Accounts zero and transfer Profit/Loss balance to the Closing Account.
+The Period Closing Voucher will make accounting entries (GL Entry). This will make all your Income and Expense Accounts zero and transfer Profit/Loss balance to the Closing Account.
 
 You should select a liability account like Reserves and Surplus, or Any Revenue Reserve account or into Owners Capital account as Closing Account.
 
