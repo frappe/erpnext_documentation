@@ -90,7 +90,7 @@ You can add address information and categorized links to your footer in the
 ![Website Footer](/docs/assets/img/website/website-footer.png)
 *Website Footer*
 
-## 7. Integrations
+## 7. Google Integrations
 
 ### 7.1 Google Indexing
 
@@ -106,8 +106,8 @@ In order to allow ERPNext to request Google crawlers to index a web page, you ne
 
 - Once Authorized, an indexing request is automatically sent on creation/update/trash of any new blog post or web pages created via the user.
 
-![Website Integration](/docs/assets/img/website/website-settings-integrations.png)
-*Website Integration*
+![Google Integrations](/docs/assets/img/website/website-settings-integrations.png)
+*Google Integrations*
 
 ### 7.2 Google Analytics
 
