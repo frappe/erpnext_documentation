@@ -18,7 +18,7 @@ The Cost Center can be set at these levels:
 * Item
 * Order/Invoice
 
-The Cost Center can be liked to the following transactions:
+The Cost Center can be linked to the following transactions:
 
 1. [Sales Invoice](/docs/user/manual/en/accounts/sales-invoice)
 1. [Purchase Invoice](/docs/user/manual/en/accounts/purchase-invoice)
