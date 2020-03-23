@@ -28,7 +28,6 @@ To access an Expense Claim, go to:
 
 <img class="screenshot" alt="Expense Claim" src="{{docs_base_url}}/assets/img/human-resources/expense_claim.png">
 
-
 Set the Employee ID, date, the list of expenses, and corresponding taxes that are to be claimed and “Submit” the record.
 
 <img class="screenshot" alt="Expense Claim" src="{{docs_base_url}}/assets/img/human-resources/expense-claim-expenses.png">
@@ -41,6 +40,7 @@ Expense claim workflow
 
 
 ### Set Account for Employee
+
 Set employee's expense account on the employee form, system books an expense amount of an employee under this account.
 <img class="screenshot" alt="Expense Claim" src="{{docs_base_url}}/assets/img/human-resources/employee_account.png">
 
@@ -62,21 +62,23 @@ User can view unpaid expense claim using report "Unclaimed Expense Claims"
 
 ### Payment for Expense Claim
 
-To make payment against the expense claim, user has to click on Make > Bank Entry
+To make payment against the expense claim, user has to click on Create > Payment.
+
 #### Expense Claim
-<img class="screenshot" alt="Expense Claim" src="{{docs_base_url}}/assets/img/human-resources/payment.png">
+
+<img class="screenshot" alt="Create Payment" src="{{ docs_base_url }}/assets/img/human-resources/expense_claim_create_payment.png">
 
 #### Payment Entry
-<img class="screenshot" alt="Expense Claim" src="{{docs_base_url}}/assets/img/human-resources/payment_entry.png">
 
-Note: This amount should not be clubbed with Salary because the amount will then be taxable to the Employee.
+> Note: This amount should not be clubbed with Salary because the amount will then be taxable to the Employee.
+
+<img class="screenshot" alt="Expense Claim" src="{{docs_base_url}}/assets/img/human-resources/expense_claim_payment_entry.png">
 
 Alternatively, a Payment Entry can be made for an employee and all outstanding Expense Claims will be pulled in.
 
 > Accounting > Payment Entry > New Payment Entry
 
 Set the Payment Type to "Pay", the Party Type to Employee, the Party to the employee being paid and the account being paid from. All outstanding expense claims will be pulled in and payments amounts can be allocated to each expense.
-<img class="screenshot" alt="Expense Claim" src="{{docs_base_url}}/assets/img/human-resources/expense_claim_payment_entry.png">
 
 ### Linking with Task & Project
 
