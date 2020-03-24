@@ -72,7 +72,7 @@ This option is useful if you want to ensure a constant supply of raw materials/p
 A [Material Request](/docs/user/manual/en/stock/material-request) will be raised automatically when stock reached the re-order level defined in the [Item form](/docs/user/manual/en/stock/item#34-automatic-reordering). 
 
 ### 9.2 Notify by Email on the creation of automatic Material Request
-An email will be sent to notify the User with the role 'Account Manager' when an automatic Material Request is created. 
+An email will be sent to notify the User with the role 'Purchase Manager' when an automatic Material Request is created. 
 
 ## 10. Freeze Stock Entries
 
