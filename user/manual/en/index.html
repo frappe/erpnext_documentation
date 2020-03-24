@@ -13,6 +13,17 @@
 		</nav>
 		<h1>User Manual (English)</h1>
 		<p class='lead mx-0'>Explore modules to delve deep into ERPNext features</p>
+		<form action="/search">
+			<div class="input-group">
+				<input name="q" class="form-control border-secondary" type="text" placeholder="Search documentation...">
+				<div class="input-group-append">
+					<button type="submit" class="btn btn-sm btn-outline-secondary">
+						{{ _('Search') }}
+					</button>
+				</div>
+			</div>
+			<input type="text" name="scope" hidden value="docs">
+		</form>
 	</div>
 </section>
 <!-- <section class='hero-bg'>
