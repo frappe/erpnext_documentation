@@ -1,7 +1,7 @@
 <!-- add-breadcrumbs -->
 # Job Applicant
 
-**A Job Applicant is a person who applies for a a job in your Company against a particular Job Opening.** 
+**A Job Applicant is a person who applies for a job in your Company against a particular Job Opening.** 
 
 In ERPNext, you can maintain a list of people who have applied against a particular [Job Opening](/docs/user/manual/en/human-resources/job-opening).
 
