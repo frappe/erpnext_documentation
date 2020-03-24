@@ -3,6 +3,7 @@
 
 ### Authentication Integration
 1. [Ldap Integration](/docs/user/manual/en/erpnext_integration/ldap-integration)
+1. [fairlogin Integration](/docs/user/manual/en/erpnext_integration/fairlogin-integration)
 
 ### Backup Integration
 1. [Dropbox Backup](/docs/user/manual/en/erpnext_integration/dropbox-backup)
