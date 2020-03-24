@@ -64,6 +64,7 @@ If the Apply Strict User Permissions checkbox is ticked, documents, where Territ
 
 * **Force User to Reset Password**: Number of days after which a password reset is mandatory. 0 means no limit.
 * **Enable Password Policy**: Enables a password strength checker so that users have to use strong passwords for their login.
+* **Logout All Sessions on Password Reset**: Logout user from all existing sessions when their password is reset. This check, if not set, is overriden when user checks "Logout All Sessions" on the password reset form.
 * **Minimum Password Score**: Score for the password strength checker
     * 2 is medium
     * 3 is strong
