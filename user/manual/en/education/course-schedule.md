@@ -1,13 +1,13 @@
 <!-- add-breadcrumbs -->
 # Course Schedule
 
-**Course Schedule can be used to for scheduling a particular course by an Instructor.**
+**Course Schedule can be used for scheduling a particular course by an Instructor.**
 
-Using this feature, a time table or an itinerary can be created in the Institute, wherein each slot will be scheduled via Course scheduling.
+Using this feature, a time table or an itinerary can be created in the Institute, wherein each slot will be scheduled via Course schedule.
 
 ![Course Schedule](/docs/assets/img/education/education-course-schedule-1.png)
 
-To access Course schedule, go to
+To access Course schedule, go to:
 
 > Home > Education > Schedule > Course Schedule
 
@@ -23,7 +23,7 @@ Before creating a Course Schedule, it is advised that you create the following f
 
 ## 2. How to create a Course Schedule
 
-1. Create a new Course Schedule from the Schedule Calender.
+1. Create a new Course Schedule from the Schedule Calendar.
 1. Select the **Student Group** for which you want to create the Course Schedule.
 1. Select the **Instructor** who will be tutoring the students for the course.
 1. Select the **Course** for which the schedule is being prepared.
@@ -38,12 +38,11 @@ You can mark attendance for a Student Group against a Course Schedule.
 
 ![Course Schedule](/docs/assets/img/education/education-course schedule-3.png)
 
-To mark attendance for a course, click on **Attendance** in the Course Schedule. You will be redirected to a page, wherein the name of all the students will be listed along with check-boxes for marking attendance. YOu can check the Present students and **Mark Attendance**. You can also **Check All** or **Uncheck All** and mark attendance.
+To mark attendance for a course, click on **Attendance** in the Course Schedule. You will be redirected to a page, wherein the name of all the students will be listed along with check-boxes for marking attendance. You can check the Present students and **Mark Attendance**. You can also **Check All** or **Uncheck All** and mark attendance.
 
 ![Course Schedule](/docs/assets/img/education/education-course-schedule-4.gif)
 
-#### Video Tutorial on Course Scheduling
-
+## 4. Video Tutorial on Course Scheduling
 
 <div>
     <div class='embed-container'>
@@ -51,6 +50,5 @@ To mark attendance for a course, click on **Attendance** in the Course Schedule.
         </iframe>
     </div>
 </div>
-
 
 {next}

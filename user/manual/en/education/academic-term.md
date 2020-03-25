@@ -1,9 +1,9 @@
 <!-- add-breadcrumbs -->
 # Academic Term
 
-**An Academic Term would become a part of the Academic Year, during which the Institute will asses its Students on the curriculum defined for that term. It could be a Quarter, Trimester or a Semester.**
+**An Academic Term would become a part of the Academic Year, during which the Institute will assess its Students on the curriculum defined for that term. It could be a Quarter, Trimester or a Semester.**
 
-To access Academic term, go to
+To access Academic term, go to:
 
 > Home > Education > Settings > Academic Term
 

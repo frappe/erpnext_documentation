@@ -1,7 +1,7 @@
 <!-- add-breadcrumbs -->
 # Academic Year
 
-**An academic year is a period of time which the Educational Institutes, Schools and Universities use to measure a quantity of study.**
+**An academic year is a period which the Educational Institutes, Schools and Universities use to measure a quantity of study.**
 
 The **Academic year** form have the Start and End date for the Academic year.
 

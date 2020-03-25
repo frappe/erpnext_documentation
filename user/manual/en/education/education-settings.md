@@ -1,11 +1,11 @@
 <!-- add-breadcrumbs -->
 # Education Settings
 
-**The Education Settings will allow you to do a basic setup for your Institute wherein you can define the Academic Year, Academic Term and other defaults for your ERPNext account.**
+**The Education Settings will allow you to do a basic setup for your Institute wherein you can define the Academic Year, Academic Term, and other defaults for your ERPNext account.**
 
 These configuration settings will have an impact throughout the module.
 
-To access Academic term, go to
+To access Academic term, go to:
 
 > Home > Education > Settings > Education Settings
 

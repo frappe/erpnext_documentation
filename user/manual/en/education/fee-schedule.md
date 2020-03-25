@@ -2,7 +2,7 @@
 
 **Fee Schedule would help you in defining a time-line for the Fee payment of the students, based on the Student Group.**
 
-To access Fee Schedule, go to 
+To access Fee Schedule, go to:
 
 > Home > Education > Fees > Fee Schedule
 
@@ -13,7 +13,7 @@ To access Fee Schedule, go to
 
 ## 1. How to create a new Fee Schedule
 
-1. Go to Fee Schedule list and click on new.
+1. Go to the Fee Schedule list and click on New.
 1. Select and add the **Fee Structure**. The moment you add the Fee Structure, the **Fee Break Up for Each Student** will be auto-populated.
 1. Select and add the **Academic Year** and the **Academic Term**.
 1. Add the **Due Date** for the fees.
@@ -24,7 +24,7 @@ To access Fee Schedule, go to
 
 ## 2. Features
 
-The **Accounting** features and **Accounting Dimensions** will be fetched as is from the Fee structure.
+The **Accounting** features and **Accounting Dimensions** will be fetched as-is from the Fee structure.
 
 ### 2.1. Printing Settings
 

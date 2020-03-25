@@ -3,7 +3,7 @@
 
 **The Program Enrollment Tool can be used in cases when you want to bulk Enroll new students to a Program, or when old or existing students, who are already enrolled to a program are needed to be enrolled to a new program.**
 
-To access Program Enrollment Tool, go to 
+To access the Program Enrollment Tool, go to:
 
 > Home > Education > Tools > Program Enrollment Tool
 
@@ -16,21 +16,21 @@ To access Program Enrollment Tool, go to
 
 ### 1.1. Fetching Students
 
-Oce you click on the **Get Students** button, the system will fetch the list of all the students matching with the above specified criteria. You can then delete a record if you wish to.
+Once you click on the **Get Students** button, the system will fetch the list of all the students matching with the above-specified criteria. You can then delete a record if you wish to.
 
 ### 1.2. Enrollment Details
 
 * If the student list is fetched from the Student Applicant list, you can enter a New Student BAtch Name under which all the New Students will be enrolled.
 
-![Student Enrollment Tool](/docs/assets/img/education/setup/education-student-tool-5.png)
+    ![Student Enrollment Tool](/docs/assets/img/education/setup/education-student-tool-5.png)
 
-* If the student list is fetched from the existing Program Enrollment, you will be asked to enter the details of the new Program like, Program Name, Academic Year, Academic Term and New Student Batch.
+* If the student list is fetched from the existing Program Enrollment, you will be asked to enter the details of the new Program like Program Name, Academic Year, Academic Term and New Student Batch.
 
-![Student Enrollment Tool](/docs/assets/img/education/education-student-tool-6.png)
+    ![Student Enrollment Tool](/docs/assets/img/education/education-student-tool-6.png)
 
-Once all the details have been entered, click on **Enroll Students** to create PRogram Enrollment in bulk.
+* Once all the details have been entered, click on **Enroll Students** to create Program Enrollment in bulk.
 
-1[Etudent Enrollment Tool](/docs/assets/img/education/education-student-tool-7.png)
+    ![Student Enrollment Tool](/docs/assets/img/education/education-student-tool-7.png)
 
 ## 2. Video Tutorial for Program Enrollment Tool
 

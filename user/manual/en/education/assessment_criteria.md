@@ -5,7 +5,7 @@
 
 ![Assessment Criteria](/docs/assets/img/education/education-assessment-criteria.png)
 
-After assessment is conducted for a Course, marks earned are entered based on the Assessment Criteria. For example, if assessment was conducted for science subject, then you can evaluate Student in Science on various criteria like Writing, Practicals, Presentation etc.
+After an assessment is conducted for a Course, marks earned are entered based on the Assessment Criteria. For example, if the assessment was conducted for science subjects, then you can evaluate Student in Science on various criteria like Writing, Practicals, Presentation, etc.
 
 Assessment Criteria can be used while scheduling Assessment Plan for Student Group and Course.
 

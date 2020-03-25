@@ -1,7 +1,9 @@
 <!-- add-breadcrumbs -->
 # Setting Up Learning Management System
 
-**The Education module in ERPNext comes bundled with a Learning Management System (LMS). This allows institutes to publish their programs on their website. Programs can contain rich text articles, videos, and even quizzes. The progress of individual students can be tracked through ERPNext as well as the portal.**
+**The Education module in ERPNext comes bundled with a Learning Management System (LMS).**
+
+This allows institutes to publish their programs on their website. Programs can contain rich text articles, videos, and even quizzes. The progress of individual students can be tracked through ERPNext as well as the portal.
 
 <img class="screenshot" alt="LMS Home" src="{{docs_base_url}}/assets/img/education/lms/home.png">
 

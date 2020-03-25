@@ -3,7 +3,7 @@
 
 **An Assessment Plan is a schedule to conduct the examination/assessment of a particular course for a group of students studying that course in an on-going academic term.**
 
-To access Assessment Plan, go to 
+To access the Assessment Plan, go to 
 
 > Home > Education > Assessment > Assessment Plan
 
@@ -19,7 +19,7 @@ Before creating an Assessment Plan, it is advisable that you create the followin
 
 ## 2. How to create an Assessment Plan
 
-1. Go to Assessment Plan list and click on New.
+1. Go to the Assessment Plan list and click on New.
 1. Select the **Student Group** for which you want to conduct the assessment.
 1. Select the **Course** for which you are conducting the assessment.
 1. Select the **Assessment Group** under which the assessment is being conducted.
@@ -31,7 +31,7 @@ Before creating an Assessment Plan, it is advisable that you create the followin
 Apart from the mandatory fields, you may also add the following details to the assessment plan:
 
 1. **Assessment Name**: Enter the name for the assessment which is to be conducted. E.g., Assessment for Economics Core Course IV, Term I.
-1. **Program**: Select the Program under which the the assessment has been conducted.
+1. **Program**: Select the Program under which the assessment has been conducted.
 1. **Academic Year and Academic Term**: Select and enter the Academic Year and the Academic Year for which the Assessment is being done.
 
 ![Assessment Plan](/docs/assets/img/education/assessment-plan-4.png)

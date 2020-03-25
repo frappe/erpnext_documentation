@@ -3,9 +3,9 @@
 
 **In this document we can maintain the Fee Records of the students.**
 
-At the time of submission of Fees by each student, a new Fees Record will be created wherein all the details of the student, Program they are enrolled to, Accounting information etc. would be maintained.
+At the time of submission of Fees by each student, a new Fees Record will be created wherein all the details of the student, Program they are enrolled in, Accounting information, etc. would be maintained.
 
-To access Fees, go to 
+To access Fees, go to:
 
 > Home > Education > Fees > Fees
 
@@ -19,13 +19,13 @@ Before you create Fees record, it is advisable that you create the following fir
 
 ## 2. How to Create Fees
 
-1. Go to Fees list and click on new.
+1. Go to the Fees list and click on New.
 1. The **Institution** will be selected by default, which is editable, if required.
 1. Select and add the **Student** for whom the Fees record is being made. The name of the student will be fetched simultaneously.
 1. Add the **Due Date** of the payment of the Fees.
 1. Save.
 
-![Fees](/docs/assets/img/education/education-fee-1.gif)
+    ![Fees](/docs/assets/img/education/education-fee-1.gif)
 
 ### 2.1. Additional Options while Creating Fees
 
@@ -71,9 +71,9 @@ To facilitate that smoothly, you can add your Accounts details in the fee struct
 
 * **Cost Center**: Select and add the name of the Cost Center of your Institute for Accounting Dimensions.
 
-![Fees](/docs/assets/img/education/education-fees-3.png)
+    ![Fees](/docs/assets/img/education/education-fees-3.png)
 
-# Payment
+### Payment
 Directly make a payment from fee, select Mode of Payment in payment entry and submit the payment. 
 
 <img class="screenshot" alt="Fee Payment" src="{{docs_base_url}}/assets/img/education/fees/fee-payment.png">

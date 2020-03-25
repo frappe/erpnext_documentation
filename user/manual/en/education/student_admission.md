@@ -1,9 +1,9 @@
 <!-- add-breadcrumbs -->
 # Student Admission
 
-**Student Admission is a document which can be configured in order to initiate an Admission Process for your institution by publishing it on the ERPNext generated website.**
+**Student Admission is a document which can be configured to initiate an Admission Process for your institution by publishing it on the ERPNext generated website.**
 
-To access student Admission, go to
+To access student Admission, go to:
 
 > Home > Education > Admission > Student Admission
 
@@ -25,7 +25,8 @@ Once the Student Admission has been saved, you will be bale to see a link on the
 
 ![Student Admission](/docs/assets/img/education/education-student-admission-4.png)
 
-![Studnet Admission](/docs/assets/img/education/education-student-admission-5.png)
+This is what the Student Admission will look like in the website view:
+![Student Admission](/docs/assets/img/education/education-student-admission-5.png)
 
 ### 2.1. Additional Details while creating a Student Admission
 
@@ -33,9 +34,9 @@ Once the Student Admission has been saved, you will be bale to see a link on the
 1. **Route**: Enter a desirable path which will become the url extension for the admission portal.
 1. **Admission Start Date**: Select the date for the start of online Admission Process.
 1. **Admission End Date**: Select the last date for applying to online Admission Process.
-1. **Publish on Website**: Check this box when the content of the portal is ready and the Admission  Process can be kickstarted on the website.
+1. **Publish on Website**: Check this box when the content of the portal is ready and the Admission Process can be kickstarted on the website.
 
-![Student Admission](/docs/assets/img/education/education-student-admission-2.png)
+    ![Student Admission](/docs/assets/img/education/education-student-admission-2.png)
 
 ### 2.2. Eligibility And Details
 
@@ -46,6 +47,6 @@ Once the Student Admission has been saved, you will be bale to see a link on the
 * **Naming Series**: Here you can define the Naming series based which the forms of the Admission Seekers will be named ond ordered.
 * **Introduction**: You can add a brief introductory information about the admission process so that it is better understood to the admission seekers.
 
-![Student Admission](/docs/assets/img/education/education-student-admission-3.png)
+    ![Student Admission](/docs/assets/img/education/education-student-admission-3.png)
 
 {next}

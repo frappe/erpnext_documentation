@@ -1,15 +1,15 @@
 <!-- add-breadcrumbs -->
 # Course
 
-**A course can be considered as a subject or a part of an educational program which is to be taught over a period of a term.**
+**A course can be considered as a subject or a part of an educational program which is to be taught for a term.**
 
-E.g. if for a particular term, Economics Major is a program taught in the institute, then Mathematical Methods for Economics would be a Course covered under the program.
+For example, if for a particular term, Economics Major is a program taught in the institute, then Mathematical Methods for Economics would be a Course covered under the program.
 
 ![Course](/docs/assets/img/education/education-program-workflow.png)
 
 A course will have a set of [topics](/docs/user/manual/en/education/topic) that are to be covered under it's scope. 
 
-To access course, go to
+To access the course list, go to:
 
 > Home > Education > Masters > Course
 
@@ -26,7 +26,7 @@ Before creating a course, it is advised to create:
 2. Enter the Course Name.
 3. Select the Department under which this course is being made.
 4. Add the Topics. You can also create the topics from here itself.
-5. Add the Desciption for the course.
+5. Add the Description for the course.
 6. Save.
 
  ![Course](/docs/assets/img/education/education-course-1.png)

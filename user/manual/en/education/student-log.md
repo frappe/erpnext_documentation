@@ -25,7 +25,7 @@ To access Student Log, go to
 
     ![Student Log](/docs/assets/img/education/education-student-log-1.png)
 
-## 3.1. Additional Options while creating a Student Log
+### 3.1. Additional Options while creating a Student Log
 
 * **Type**: You can enter the type of the Log that is being created for the student. A student log can be a General, Academic, Medical or Achievement log. Following are some examples wherein you can make a log for the student:
 

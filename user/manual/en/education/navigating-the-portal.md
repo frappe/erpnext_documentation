@@ -2,7 +2,7 @@
 
 ## Home Page
 
-The portal is hosted on `/lms` route. (Example. `hogwarts.erpnext.com/lms`) Here all the programs are shown in the form of cards. Each card is clickable and navigates to the corresponding program/course/topic/content. The portal is accessible even if a student has not logged in, however the content (Articles, Videos, etc) can only be accessible after login and enrolling in the program.
+The portal is hosted on the `/lms` route. (Example. `hogwarts.erpnext.com/lms`) Here all the programs are shown in the form of cards. Each card is clickable and navigates to the corresponding program/course/topic/content. The portal is accessible even if a student has not logged in, however, the content (Articles, Videos, etc) can only be accessible after login and enrolling in the program.
 
 ![LMS Navigation](/docs/assets/img/education/education-lmms-3.png)
 
@@ -31,11 +31,11 @@ The topic page lists all the content as well as their completion status. Clickin
 
 ## Content Pages
 
-Each type of content has its own view and a common navigation based on the content type.
+Each type of content has its own view and common navigation based on the content type.
 
 <img alt="Portal Contents" src="{{docs_base_url}}/assets/img/education/lms/content.png">
 
-When a student visits particular content page, he/she can navigate using buttons at the bottom of the content.
+When a student visits a particular content page, he/she can navigate using buttons at the bottom of the content.
 
 > Note: The activity of the student is only recorded after the student clicks on the Next button.
 
@@ -43,7 +43,7 @@ When a student visits particular content page, he/she can navigate using buttons
 
 ### Navigating Quizzes
 
-In case of a quiz, the student has to first submit the quiz, following which the result is computed and displayed, after which the student can navigate to the next content.
+In the case of a quiz, the student has to first submit the quiz, following which the result is computed and displayed, after which the student can navigate to the next content.
 
 <img class="screenshot" alt="Quiz Pass" src="{{docs_base_url}}/assets/img/education/lms/quiz-pass.png">
 

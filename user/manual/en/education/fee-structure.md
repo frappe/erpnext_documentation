@@ -7,11 +7,11 @@ The Fee structure can be fetched while creating the [Fees](/docs/user/manual/en/
 
 ![Fee Structure](/docs/assets/img/education/education-fee-structure-2.png)
 
-To access fee Structure, go to
+To access fee Structure, go to:
 
 > Home > Education > Fees > Fee Structure
 
-## 1. Pre-requisites
+## 1. Prerequisites
 
 Before creating a Fee Structure, it is advisable to create the following first:
 
@@ -22,12 +22,12 @@ Before creating a Fee Structure, it is advisable to create the following first:
 
 ## 2. How to create a Fee Structure
 
-1. Go to fee structure list and click on New.
+1. Go to the fee structure list and click on New.
 1. Select and add the **Program** and other details for the fee structure.
 1. In the Components Table, enter the **Fees Category** and **Amount**.
 1. Save and Submit.
 
-![Fee Structure](/docs/assets/img/education/education-fee-structure-1.gif)
+    ![Fee Structure](/docs/assets/img/education/education-fee-structure-1.gif)
 
 ### 2.1. Additional Options while creating a Fee Structure.
 
@@ -57,8 +57,6 @@ To facilitate that smoothly, you can add your Accounts details in the fee struct
 Once you have submitted the Fee Structure, you will be able to create the [Fee Schedule](/docs/user/manual/en/education/fee-schedule) from within Fee Structure.
 
 ![Fee Structure](/docs/assets/img/education/education-fee-structure-4.png)
-
-{next}
 
 ## 4. Video Tutorial for Fee Structure
 

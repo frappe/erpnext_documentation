@@ -5,7 +5,7 @@
 
 ![Course Scheduling Tool](/docs/assets/img/education/education-course-schedule-1.png)
 
-To access Course scheduling Tool, go to 
+To access the Course Scheduling Tool, go to:
 
 > Home > Education > Schedule > Course Scheduling Tool
 
