@@ -1,0 +1,90 @@
+{% set doc=[
+	{
+		"links": [
+			{
+				"content": "Loan Security Type defines the type of security that can be pledged against a loan like goods or land",
+				"link": "/docs/user/manual/en/loan-management/loan-security-type",
+				"title": "Loan Security Type"
+			},
+			{
+				"content": "A Loan Security is the actual security that is going to be pledged against a loan",
+				"link": "/docs/user/manual/en/loan-management/loan-security",
+				"title": "Loan Security"
+			},
+			{
+				"content": "Loan Security Price is the record in which you can log the loan's security price and validity",
+				"link": "/docs/user/manual/en/loan-management/loan-security-price",
+				"title": "Loan Security Price"
+			},
+			{
+				"content": "A Loan Type is where you can define various loan types and their properties like rate of interest, loan account details, etc.",
+				"link": "/docs/user/manual/en/loan-management/loan-type",
+				"title": "Loan Type"
+			}
+		],
+		"title": "Setting Up Loans"
+	},
+	{
+		"links": [
+			{
+				"content": "Loan Application contains the applicant and loan security details for review",
+				"link": "/docs/user/manual/en/loan-management/loan-application",
+				"title": "Loan Application"
+			},
+			{
+				"content": "Loan Security Pledge contains the loan security and the quantity pledged against a loan",
+				"link": "/docs/user/manual/en/loan-management/loan-security-pledge",
+				"title": "Loan Security Pledge"
+			},
+			{
+				"content": "A Loan record is the loan account which contains all the information regarding a loan",
+				"link": "/docs/user/manual/en/loan-management/loan",
+				"title": "Loan"
+			},
+			{
+				"content": "Once a Loan is sanctioned, the loan amount is ready to be disbursed. For that a Loan disbursement entry is created",
+				"link": "/docs/user/manual/en/loan-management/loan-disbursement",
+				"title": "Loan Disbursement"
+			},
+			{
+				"content": "Loan Interest will be accrued monthly on the first day of every month for demand loans and one day before payment day for term loans",
+				"link": "/docs/user/manual/en/loan-management/loan-interest-accrual",
+				"title": "Loan Interest Accrual"
+			},
+			{
+				"content": "Loan Repayment entry is used to track repayments against loans",
+				"link": "/docs/user/manual/en/loan-management/loan-repayment",
+				"title": "Loan Repayment"
+			},
+			{
+				"content": "Once all the loan amount is paid, a Loan Security Unpledge is created for unpledging the securities",
+				"link": "/docs/user/manual/en/loan-management/loan-security-unpledge",
+				"title": "Loan Security Unpledge"
+			}
+		],
+		"title": "Loan Cycle"
+	},
+	{
+		"links": [
+			{
+				"content": "Process Loan Security Shortfall record is created on loan security price update and is also used for manual processing of Loan Security Price",
+				"link": "/docs/user/manual/en/loan-management/process-loan-security-shortfall",
+				"title": "Process Loan Security Shortfall"
+			},
+			{
+				"content": "Process Loan Interest Accrual record is created on every loan interest accrual cycle and is also used for manually processing loan interest accrual",
+				"link": "/docs/user/manual/en/loan-management/process-loan-interest-accrual",
+				"title": "Process Loan Interest Accrual"
+			},
+			{
+				"content": "If loan to security value ratio falls below a specific value, a Loan Security Shortfall is automatically created for that specific loan",
+				"link": "/docs/user/manual/en/loan-management/loan-security-shortfall",
+				"title": "Loan Security Shortfall"
+			},
+		],
+		"title": "Advanced"
+	}
+] %}
+
+{% from 'erpnext_com/templates/includes/macros.html' import doc_page %}
+{{ doc_page('Loan Management', 'Loan Management covers loan operations like loan application, loan security pledging, loan disbursement etc.',  doc, '/docs/user/manual/en/loan-management/contents') }}
