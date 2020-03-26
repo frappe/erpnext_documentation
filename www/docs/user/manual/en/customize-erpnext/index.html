@@ -1,0 +1,72 @@
+<!-- title: Customize ERPNext -->
+{% set doc=[
+	{
+		"links": [
+			{
+				"content": "If you need to capture some information, but there is no standard Field available for it, you can insert Custom Field in a form as per your requirement.",
+				"link": "/docs/user/manual/en/customize-erpnext/custom-field",
+				"title": "Custom Field"
+			},
+			{
+				"content": "Customize Form is a tool which enables you to make changes to a Form Type on the front-end. ",
+				"link": "/docs/user/manual/en/customize-erpnext/customize-form",
+				"title": "Customize Form"
+			},
+			{
+				"content": "Doctype allows you to insert custom forms in ERPNext as per your requirement.",
+				"link": "/docs/user/manual/en/customize-erpnext/doctype",
+				"title": "Doctype"
+			},
+			{
+				"content": "If you wish to change any ERPNext form formats, you can do so by using Custom Scripts.",
+				"link": "/docs/user/manual/en/customize-erpnext/custom-scripts",
+				"title": "Custom Scripts"
+			},
+			{
+				"content": "Server Scripts are a powerful way customize from adding server side event handlers to making full fledged apps",
+				"link": "/docs/user/manual/en/customize-erpnext/server-script",
+				"title": "Server Scripts"
+			},
+			{
+				"content": "With Custom Translations, user can print the customer's and supplier's document in their local language.",
+				"link": "/docs/user/manual/en/setting-up/print/custom-translations",
+				"title": "Custom Translations"
+			}
+		],
+		"title": "Customizations"
+	},
+	{
+		"links": [
+			{
+				"content": "Customize the title of documents based on properties so that you have meaningful information for the list views.",
+				"link": "/docs/user/manual/en/customize-erpnext/document-title",
+				"title": "Document Title"
+			},
+			{
+				"content": "Print Formats are the layouts that are generated when you want to Print or Email a transaction.",
+				"link": "/docs/user/manual/en/customize-erpnext/print-format",
+				"title": "Print Format"
+			},
+			{
+				"content": "Kanban is a Japanese manufacturing system in which the supply of components is regulated through the use of an instruction card sent along the production line.",
+				"link": "/docs/user/manual/en/customize-erpnext/kanban-board",
+				"title": "Kanban Board"
+			},
+			{
+				"content": "Authorization Rule is a tool to define a rule for conditional authorization of documents.",
+				"link": "/docs/user/manual/en/customize-erpnext/authorization-rule",
+				"title": "Authorization Rule"
+			}
+		],
+		"title": "Documents and Reports"
+	}
+] %}
+
+{% from "erpnext_com/templates/includes/macros.html" import doc_page %}
+
+{{ doc_page(
+	'Customize ERPNext',
+	'Learn how to customize ERPNext with custom fields, print formats, custom scripts etc',
+	doc,
+	'/docs/user/manual/en/customize-erpnext/contents'
+) }}

@@ -1,0 +1,66 @@
+{% set doc=[
+	{
+		"links": [
+			{
+				"content": "All the transactions related to an Asset like purchasing, sales, depreciation, scrapping, movement or maintenance will be managed against the Asset master.",
+				"link": "/docs/user/manual/en/asset/asset",
+				"title": "Asset"
+			},
+			{
+				"content": "ERPNext provides features to track the details of individual maintenance/calibration of various assets.",
+				"link": "/docs/user/manual/en/asset/asset-maintenance",
+				"title": "Asset Maintenance"
+			},
+			{
+				"content": "You can track the location of an asset or to whom it is issued or whenever it is moved from one location to another.",
+				"link": "/docs/user/manual/en/asset/asset-movement",
+				"title": "Asset Movement"
+			}
+		],
+		"title": "Asset Management"
+	},
+	{
+		"links": [
+			{
+				"content": "In case of fixed asset management, sometimes the value of an asset needs some adjustment, this can be managed within ERPNext",
+				"link": "/docs/user/manual/en/asset/asset-value-adjustment",
+				"title": "Asset Value Adjustment"
+			},
+			{
+				"content": "You can follow the default purchase cycle after ensuring the the appropriate asset category exists",
+				"link": "/docs/user/manual/en/asset/purchasing-an-asset",
+				"title": "Purchasing an Asset"
+			},
+			{
+				"content": "You can sell an asset and even make all the necessary documents lile a Sales Invoice for it.",
+				"link": "/docs/user/manual/en/asset/selling-an-asset",
+				"title": "Selling an Asset"
+			}
+		],
+		"title": "Asset Transactions"
+	},
+	{
+		"links": [
+			{
+				"content": "The system automatically creates a schedule for depreciation based on depreciation method and other related inputs in the Asset record.",
+				"link": "/docs/user/manual/en/asset/asset-depreciation",
+				"title": "Asset Depreciation"
+			},
+			{
+				"content": "When an asset is no longer usable, you can scrap an asset with the click of a button in the Asset record.",
+				"link": "/docs/user/manual/en/asset/scrapping-an-asset",
+				"title": "Scrapping an Asset"
+			}
+		],
+		"title": "Discarding Assets"
+	}
+] %}
+
+{% from "erpnext_com/templates/includes/macros.html" import doc_page %}
+
+{{ doc_page(
+	'Asset',
+	'Fixed asset management and tracking with depreciation, asset allocation and movement tracking',
+	doc,
+	'/docs/user/manual/en/asset/contents'
+) }}

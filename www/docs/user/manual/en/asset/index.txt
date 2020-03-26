@@ -1,0 +1,12 @@
+asset
+asset-location
+asset-category
+asset-maintenance
+asset-value-adjustment
+purchasing-asset
+selling-asset
+scrap-asset
+asset-depreciation
+asset-movement
+
+

@@ -1,0 +1,35 @@
+{% set doc=[
+	{
+		"links": [
+			{
+				"title": "Restaurant",
+				"link": "/docs/user/manual/en/hospitality/restaurant",
+				"content": "The Restaurant record represents one restaurant in your organization."
+			},
+			{
+				"title": "Restaurant Menu",
+				"link": "/docs/user/manual/en/hospitality/restaurant-menu",
+				"content": "For every restaurant you must set an active Restaurant Menu from which orders can be placed. You can also set the rates for each of the item for the day."
+			},
+			{
+				"title": "Reservations",
+				"link": "/docs/user/manual/en/hospitality/reservations",
+				"content": "Once you have setup the restaurant and tables, you can start taking in reservations for your restaurant."
+			},
+			{
+				"title": "Order Entry",
+				"link": "/docs/user/manual/en/hospitality/order-entry",
+				"content": "The Restaurant Order Entry is the screen where the waiters will punch in orders related to a particular table."
+			},
+			{
+				"title": "Hotel Room",
+				"link": "/docs/user/manual/en/hospitality/hotel-room",
+				"content": "Hotel Room is a master to create hotel rooms for reservation"
+			}
+		],
+		"title": "Membership"
+	}
+] %}
+
+{% from 'erpnext_com/templates/includes/macros.html' import doc_page %}
+{{ doc_page('Hospitality', 'Manage multiple restaurants and hotels with table and room booking', doc, '/docs/user/manual/en/hospitality/contents/') }}

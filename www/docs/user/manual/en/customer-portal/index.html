@@ -1,0 +1,31 @@
+{% set doc=[
+	{
+		"links": [
+			{
+				"title": "Customer Orders, Invoices And Shipping",
+				"link": "/docs/user/manual/en/customer-portal/customer-orders-invoices-and-shipping-status",
+				"content": "With ERPNext web portal customers can check the status of their orders, invoices, and shipping status by logging on to the web."
+			},
+			{
+				"title": "Issues",
+				"link": "/docs/user/manual/en/customer-portal/issues",
+				"content": "The customer portal makes it very easy for a customer to raise concerns."
+			},
+			{
+				"title": "Portal Login",
+				"link": "/docs/user/manual/en/customer-portal/portal-login",
+				"content": "To login into the customer account, the customer has to use his Email Address and the password sent by ERPNext; generated through the sign-up process."
+			}
+		],
+		"title": "Topics"
+	}
+] %}
+
+{% from "erpnext_com/templates/includes/macros.html" import doc_page %}
+
+{{ doc_page(
+	'Customer Portal',
+	'Let your customers and vendors directly shop online, submit bids etc with ERPNext Portals',
+	doc,
+	'/docs/user/manual/en/customer-portal/contents'
+) }}

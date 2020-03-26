@@ -1,0 +1,112 @@
+<!-- title: Using ERPNext -->
+
+{% set doc=[
+	{
+		"title": "Tools",
+		"links": [
+			{
+				"content": "To Do is a simple tool where all the activities assigned to you and assigned by you are listed. You can also add your own to-do items in the list.",
+				"link": "/docs/user/manual/en/using-erpnext/to-do",
+				"title": "To Do"
+			},
+			{
+				"content": "You can store your long notes under this section and also set appropriate permissions for your note.",
+				"link": "/docs/user/manual/en/using-erpnext/notes",
+				"title": "Notes"
+			},
+			{
+				"content": "The Calendar is a tool where you can create and share Events and also see auto-generated events from the system.",
+				"link": "/docs/user/manual/en/using-erpnext/calendar",
+				"title": "Calendar"
+			},
+			{
+				"content": "You can send and receive messages from the system by using the Messages tool. ",
+				"link": "/docs/user/manual/en/using-erpnext/chat",
+				"title": "Chat"
+			},
+			{
+				"content": "Dashboard provides an at-a-glance view of key performance indicators relevant to the business process.",
+				"link": "/docs/user/manual/en/using-erpnext/dashboard",
+				"title": "Dashboard"
+			}
+		]
+	},
+	{
+		"title": "Collaboration Tools",
+		"links": [
+			{
+				"content": "Assign To is a feature in ERPNext that allows you to assign a particular document to specific user, who needs to further work on that document.",
+				"link": "/docs/user/manual/en/using-erpnext/assignment",
+				"title": "Assignment"
+			},
+			{
+				"content": "Using Tags is a quick and easy way to classify different kinds of documents in their respective categories.",
+				"link": "/docs/user/manual/en/using-erpnext/tags",
+				"title": "Tags"
+			},
+			{
+				"content": "Kanban Board is a tool which will give you a descriptive layout of your data in ERPNext based on status and a virtual board.",
+				"link": "/docs/user/manual/en/customize-erpnext/kanban-board",
+				"title": "Kanban Board"
+			},
+			{
+				"content": "Search Filter is an option wherein you can filter down your search results while viewing a list or a report.",
+				"link": "//docs/user/manual/en/using-erpnext/search-filter",
+				"title": "Search Filter"
+			},
+			{
+				"content": "Save Filter is a Tool that will allow you to save certain filters in a document list or a report, so that you can reuse them.",
+				"link": "/docs/user/manual/en/using-erpnext/save-filter",
+				"title": "Save Filter"
+			}
+		]
+	},
+	{
+		"title": "Articles",
+		"links": [
+			{
+				"content": "The tool gives you an option to check if the current document is linked to any previous documents and lists down all the forward links.",
+				"link": "/docs/user/manual/en/using-erpnext/articles/check-link-between-documents",
+				"title": "Checking Document Links"
+			},
+			{
+				"content": "Access Log is a security feature that logs all data exports by all users in the system.",
+				"link": "/docs/user/manual/en/using-erpnext/access-log",
+				"title": "Access Log"
+			},
+			{
+				"content": "Duplicate is a feature that helps you to copy values of existing document into a new document.",
+				"link": "/docs/user/manual/en/using-erpnext/articles/duplicate-record",
+				"title": "Duplicate A Record"
+			},
+			{
+				"content": "Using renaming tool, you can to rectify/change multiple document ids at once. This tool is only accessible to the User who has System Manager role assigned.",
+				"link": "/docs/user/manual/en/using-erpnext/articles/bulk-rename",
+				"title": "Bulk Rename"
+			},
+			{
+				"content": "Using Renaming feature, you can change ID of a master documents like Item, Warehouse, Accounts etc.",
+				"link": "/docs/user/manual/en/using-erpnext/articles/renaming-documents",
+				"title": "Renaming Documents"
+			},
+			{
+				"content": "Search Filter option allow user to filter records based on value in the specific field of that documents list view and report builder.",
+				"link": "/docs/user/manual/en/using-erpnext/articles/search-filter",
+				"title": "Search Filter"
+			},
+			{
+				"content": "Global search is a word-processing operation in which a complete computer file or set of files is searched for every occurrence of a particular word or other sequence of characters.",
+				"link": "/docs/user/manual/en/using-erpnext/articles/Global-search",
+				"title": "Global Search"
+			},
+			{
+				"content": "In ERPNext, you can delete a records if not needed. They can be masters like Items, Customer or transactions like Sales Order, Payment Entries etc.",
+				"link": "/docs/user/manual/en/using-erpnext/restore-deleted-docs",
+				"title": "Deleting and restoring Documents"
+			}
+		]
+	}
+] %}
+
+{% from 'erpnext_com/templates/includes/macros.html' import doc_page %}
+{{ doc_page('Using ERPNext', 'Learn how to navigate your way around the user interface and helpful utilities', doc, '/docs/user/manual/en/using-erpnext/contents') }}

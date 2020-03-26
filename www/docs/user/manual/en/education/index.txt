@@ -1,0 +1,13 @@
+setup
+student
+admission
+fees
+fee-structure
+fee-category
+fee-schedule
+schedule
+lms
+Attendance
+Assessment
+Assessment Reports
+Tools

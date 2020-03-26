@@ -1,0 +1,61 @@
+{% set doc=[
+	{
+		"links": [
+			{
+				"content": "Suppliers are companies or individuals who provide you with products or services.",
+				"link": "/docs/user/manual/en/buying/supplier",
+				"title": "Supplier"
+			},
+			{
+				"content": "A Request for Quotation is a document that an organization sends to one or more suppliers asking a quotation for items.",
+				"link": "/docs/user/manual/en/buying/request-for-quotation",
+				"title": "Request For Quotation"
+			},
+			{
+				"content": "A Supplier Quotation is document by a potential supplier specifying the cost of goods or services they'll provide within a specified period.",
+				"link": "/docs/user/manual/en/buying/supplier-quotation",
+				"title": "Supplier Quotation"
+			},
+			{
+				"content": "A Purchase Order is a binding contract with your Supplier that you promise to buy a set of items under given conditions.",
+				"link": "/docs/user/manual/en/buying/purchase-order",
+				"title": "Purchase Order"
+			}
+		],
+		"title": "Purchase Basics"
+	},
+	{
+		"links": [
+			{
+				"content": "Buying Settings is where you can define properties which will be applied in the Buying module's transactions.",
+				"link": "/docs/user/manual/en/buying/buying-settings",
+				"title": "Buying Settings"
+			},
+			{
+				"content": "A supplier may be distinguished from a contractor or subcontractor, who commonly adds specialized input to deliverables.",
+				"link": "/docs/user/manual/en/buying/supplier-group",
+				"title": "Supplier Group"
+			},
+			{
+				"content": "The templates created from this form can be used in Purchase Orders and Purchase Invoices for internal records.",
+				"link": "/docs/user/manual/en/buying/purchase-taxes-and-charges-template",
+				"title": "Purchase Taxes and Charges Template"
+			},
+			{
+				"content": "A Supplier Scorecard is an evaluation tool used to assess the performance of suppliers.",
+				"link": "/docs/user/manual/en/buying/supplier-scorecard",
+				"title": "Supplier Scorecard"
+			}
+		],
+		"title": "Setup"
+	}
+] %}
+
+{% from "erpnext_com/templates/includes/macros.html" import doc_page %}
+
+{{ doc_page(
+	'Buying',
+	'Manage purchasing in ERPNext right from material requisition, supplier quotes to Purchase Orders',
+	doc,
+	'/docs/user/manual/en/buying/contents/'
+) }}

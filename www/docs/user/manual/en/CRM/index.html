@@ -1,0 +1,86 @@
+{% set doc=[
+	{
+		"links": [
+			{
+				"content": "A lead is a potential customer who might be interested in your products or services.",
+				"link": "/docs/user/manual/en/CRM/lead",
+				"title": "Lead"
+			},
+			{
+				"content": "Opportunity is a qualified lead i.e. when they decide to consider your offering.",
+				"link": "/docs/user/manual/en/CRM/opportunity",
+				"title": "Opportunity"
+			},
+			{
+				"content": "A customer, who is someone who receives services or products from a seller for a monetary consideration.",
+				"link": "/docs/user/manual/en/CRM/customer",
+				"title": "Customer"
+			},
+			{
+				"content": "Contact represents a person in ERPNext, and can be associated to a customer or a supplier or a company",
+				"link": "/docs/user/manual/en/CRM/contact",
+				"title": "Contact"
+			},
+			{
+				"content": "You can record the addresses associated with a Lead, Customer, Supplier, Shareholder, Sales Partner or a Warehouse.",
+				"link": "/docs/user/manual/en/CRM/address",
+				"title": "Address"
+			},
+			{
+				"content": "A Campaign is a full-scale implementation of a sales strategy to promote a product or service.",
+				"link": "/docs/user/manual/en/CRM/campaign",
+				"title": "Campaign"
+			}
+		],
+		"title": "Sales"
+	},
+	{
+		"links": [
+			{
+				"content": "A Lead Source is a source from which the leads are generated.",
+				"link": "/docs/user/manual/en/CRM/lead_source",
+				"title": "Lead Source"
+			},
+			{
+				"content": "Opportunity Type indicates the broad category of opportunity like Sales, Support, Maintenance, Partnership etc.",
+				"link": "/docs/user/manual/en/CRM/opportunity_type",
+				"title": "Opportunity Type"
+			},
+			{
+				"content": "A Sales Stage indicates the level at which an opportunity is in the sales cycle.",
+				"link": "/docs/user/manual/en/CRM/sales_stage",
+				"title": "Sales Stage"
+			},
+			{
+				"content": "Sales Person is a person who sells your products/services.",
+				"link": "/docs/user/manual/en/CRM/sales-person",
+				"title": "Sales Person"
+			},
+			{
+				"content": "Customer Group is an aggregation of customers that are similar in some way.",
+				"link": "/docs/user/manual/en/CRM/customer-group",
+				"title": "Customer Group"
+			},
+			{
+				"content": "You can analyze your sales funnel and quantify the number of prospects at each stage of the process and you can get an idea of your potential customers.",
+				"link": "/docs/user/manual/en/CRM/articles/sales_funnel",
+				"title": "CRM Analytics"
+			},
+			{
+				"content": "Appointment document type can be used to schedule and manage interaction with a lead or opportunity.",
+				"link": "/docs/user/manual/en/CRM/appointment",
+				"title": "Appointment"
+			}
+		],
+		"title": "Setup"
+	}
+] %}
+
+{% from "erpnext_com/templates/includes/macros.html" import doc_page %}
+
+{{ doc_page(
+	'CRM',
+	'Tracking presales process from Lead capturing, tracking open Opportunities, to emails and calls',
+	doc,
+	'/docs/user/manual/en/CRM/contents/'
+) }}
