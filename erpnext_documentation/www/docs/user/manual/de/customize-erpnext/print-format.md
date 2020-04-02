@@ -1,7 +1,6 @@
 <!-- add-breadcrumbs -->
 # Druckformat
 
-
 Druckformate sind die Erscheinungsbilder der Ausdrucke, wenn Sie eine E-Mail oder eine Transaktion wie eine Ausgangsrechnung drucken. Es gibt zwei Arten von Druckformaten:
 
 * Das automatisch generierte "Standard"-Druckformat: Diese Art der Formatierung folgt den Vorgaben von ERPNext.
@@ -42,53 +41,59 @@ Um Ihre Druck- und PDF-Einstellungen zu bearbeiten/zu aktualisieren, gehen Sie z
 
 ### Beispiel
 
- {% raw %}<h3>{{ doc.select_print_heading or "Invoice" }}</h3>
+```jinja
+{% raw %}
+ <h3>{{ doc.select_print_heading or "Invoice" }}</h3>
  <div class="row">
-    <div class="col-md-3 text-right">Customer Name</div>
+    <!-- Kunde XYZ GmbH -->
+    <div class="col-md-3 text-right">{{ _("Customer Name") }}</div>
     <div class="col-md-9">{{ doc.customer_name }}</div>
  </div>
  <div class="row">
-    <div class="col-md-3 text-right">Date</div>
+    <!-- Date 09.09.1999 -->
+    <div class="col-md-3 text-right">{{ _("Date") }}</div>
     <div class="col-md-9">{{ doc.get_formatted("invoice_date") }}</div>
  </div>
  <table class="table table-bordered">
     <tbody>
         <tr>
-            <th>Sr</th>
-            <th>Item Name</th>
-            <th>Description</th>
-            <th class="text-right">Qty</th>
-            <th class="text-right">Rate</th>
-            <th class="text-right">Amount</th>
+            <!--
+            Pos  Artikel                  Art.Nr.   Menge     Preis     Summe
+            -->
+            <th>{{ _("Sr") }}</th>
+            <th>{{ _("Item Name") }}</th>
+            <th>{{ _("Item Code") }}</th>
+            <th class="text-right">{{ _("Qty") }}</th>
+            <th class="text-right">{{ _("Rate") }}</th>
+            <th class="text-right">{{ _("Amount") }}</th>
         </tr>
         {%- for row in doc.items -%}
         <tr>
-            <td style="width: 3%;">{{ row.idx }}</td>
-            <td style="width: 20%;">
-                {{ row.item_name }}
-                {% if row.item_code != row.item_name -%}
-                <br>Item Code: {{ row.item_code}}
-                {%- endif %}
+            <!-- 
+            1  Schraube                    s123     € 10,00   € 0,10   € 1,00
+               Halbrundkopf Kreuzschlitz
+            2  ...
+            -->
+            <td>{{ row.idx }}</td>
+            <td>
+                {{ row.item_name }}<br>
+                {{ row.description }}
             </td>
             <td style="width: 37%;">
-                <div style="border: 0px;">{{ row.description }}</div></td>
-            <td style="width: 10%; text-align: right;">{{ row.qty }} {{ row.uom or row.stock_uom }}</td>
-            <td style="width: 15%; text-align: right;">{{
-                row.get_formatted("rate", doc) }}</td>
-            <td style="width: 15%; text-align: right;">{{
-                row.get_formatted("amount", doc) }}</td>
+                <div>{{ row.item_code}}</div></td>
+            <td>{{ row.qty }} {{ row.uom or row.stock_uom }}</td>
+            <td>{{ row.get_formatted("rate", doc) }}</td>
+            <td>{{ row.get_formatted("amount", doc) }}</td>
         </tr>
         {%- endfor -%}
     </tbody>
-    </table>{% endraw %}
+   </table>
+{% endraw %}
+```
 
 ### Anmerkungen
 
 1. Um nach Datum und Währung formatiert Werte zu erhalten, verwenden Sie: `doc.get_formatted("fieldname")`
 1. Für übersetzbare Zeichenfolgen verwenden Sie: `{{ _("This string is translated") }}`
-
-### Fußzeilen
-
-Sie werden des öfteren eine Standard-Fußzeile mit Ihrer Adresse und Ihren Kontaktinformationen bei Ihren Ausdrucken haben wollen. Leider ist es aufgrund der beschränkten Druckunterstützung auf HTML-Seiten nicht möglich dies ohne Skripte umzusetzen. Entweder Sie verwenden dann vorgedrucktes Briefpapier oder Sie fügen diese Informationen dem Briefkopf hinzu.
 
 {next}
