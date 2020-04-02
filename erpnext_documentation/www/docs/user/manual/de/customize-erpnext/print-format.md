@@ -81,9 +81,9 @@ Um Ihre Druck- und PDF-Einstellungen zu bearbeiten/zu aktualisieren, gehen Sie z
             </td>
             <td style="width: 37%;">
                 <div>{{ row.item_code}}</div></td>
-            <td>{{ row.qty }} {{ row.uom or row.stock_uom }}</td>
-            <td>{{ row.get_formatted("rate", doc) }}</td>
-            <td>{{ row.get_formatted("amount", doc) }}</td>
+            <td class="text-right">{{ row.qty }} {{ row.uom or row.stock_uom }}</td>
+            <td class="text-right">{{ row.get_formatted("rate", doc) }}</td>
+            <td class="text-right">{{ row.get_formatted("amount", doc) }}</td>
         </tr>
         {%- endfor -%}
     </tbody>
@@ -94,6 +94,6 @@ Um Ihre Druck- und PDF-Einstellungen zu bearbeiten/zu aktualisieren, gehen Sie z
 ### Anmerkungen
 
 1. Um nach Datum und Währung formatiert Werte zu erhalten, verwenden Sie: `doc.get_formatted("fieldname")`
-1. Für übersetzbare Zeichenfolgen verwenden Sie: `{{ _("This string is translated") }}`
+1. Für übersetzbare Zeichenfolgen verwenden Sie: `{{ '{{ _("This string is translated") }}' }}`
 
 {next}
