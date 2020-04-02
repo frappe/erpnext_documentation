@@ -23,27 +23,29 @@ Before creating and using a Blanket Order, it is advised that you create the fol
 1. Enter Item Code, Quantity and Rate in the Item table. You can also mention the Terms and Conditions for each item.
 1. Submit.
 
-<img class="screenshot" alt="Opening Account" src="{{docs_base_url}}/assets/img/selling/blanket_order_sales.gif">
+<img class="screenshot" alt="Blanket Order Selling" src="{{docs_base_url}}/assets/img/selling/blanket-order-sales.gif">
 
 ## 3. Features
 
 ### 3.1 Create Sales Orders
 
-The Ordered Quantity field will be updated once a Sales Order is placed. Once a blanket order is submitted, you can create new sales orders by clicking on the Create Sales Order button.
+The 'Ordered Quantity' field will be updated once a Sales Order is placed. Once a blanket order is submitted, you can create new Sales Orders by clicking on **Sales Order** under the **Create** button.
 
-### 3.2 View Sales Orders Created against Blanket Order
+### 3.2 Create Purchase Orders
 
-Click on View Orders button to view the list of sales orders created against this blanket order. 
+The 'Ordered Quantity' field will be updated once a Purchase Order is placed. Once a Blanket Order is submitted,you can create new Purchase Orders by clicking on **Purchase Order** under the **Create** button.
 
-### 3.3 Create Purchase Orders
+### 3.3. Create Quotations
 
-The 'Ordered Quantity' field will be updated once a Purchase Order is placed. Once a Blanket Order is submitted, you can create new Purchase Orders by clicking on the **Create Purchase Order** button.
+Once a Blanket Order is submitted, you can create new Quotations by clicking on **Quotation** under the **Create** button.
 
-### 3.4 View Purchase Orders Created against Blanket Order
+### 3.4. Dashboard
 
-Click on the **View Orders** button to view the list of Purchase Orders created against this Blanket Order.
+You can view Purchase Orders, Sales Orders and Quotations against this Blanket Order through the Dashboard.
 
-**Note-** Multiple Sales Order and Purchase Order can be created against one Blanket Order.
+<img class="screenshot" alt="Blanket Order Dashboard" src="{{docs_base_url}}/assets/img/selling/blanket_order_dashboard.png">
+
+**Note-** Multiple Sales Orders, Purchase Orders and Quotations can be created against one Blanket Order.
 
 
 ### 4. Related Topics
