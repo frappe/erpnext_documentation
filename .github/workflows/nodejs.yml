@@ -1,0 +1,26 @@
+name: Spell Checker
+
+on:
+  pull_request:
+    branches:
+    - master
+
+jobs:
+   my_job:
+    name: Spell Check
+    runs-on: ubuntu-18.04
+
+    steps:
+    - name: Checkout branch
+      uses: actions/checkout@v2
+    - name: Setup Node
+      uses: actions/setup-node@v1
+      with:
+        node-version: '10.x'
+    - name: Setup cSpell
+      run: npm i -g cspell
+    - name: Run cSpell
+      run: |
+        git fetch origin $GITHUB_BASE_REF:$GITHUB_BASE_REF -q
+        files=$(git diff --name-only $GITHUB_BASE_REF --diff-filter=d)
+        npx cspell --config ./spell_checker/cSpell.json $files
