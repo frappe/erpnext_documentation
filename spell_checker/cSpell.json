@@ -1,0 +1,29 @@
+{
+	"version": "0.1",
+	"language": "en",
+	"words": [],
+	"maxNumberOfProblems": 10000,
+	"ignorePaths": [
+		"**/manual/es/**",
+		"**/manual/de/**",
+		"**/manual/lt/**",
+		"**/img/**",
+		"**/videos/**",
+		"**/assets/**"
+	],
+	"allowCompoundWords": true,
+	"flagWords": [],
+	"dictionaryDefinitions": [
+		{ "name": "ignored_words", "path": "./cspell_ignored_words.txt"}
+	],
+	"dictionaries": ["ignored_words"],
+	"languageSettings": [
+		{
+			"languageId": "md",
+			"local": "en",
+			"dictionaryDefinitions": [
+				{ "name": "ignored_words", "path": "./cspell_ignored_words.txt"}
+			]
+		}
+	]
+}
