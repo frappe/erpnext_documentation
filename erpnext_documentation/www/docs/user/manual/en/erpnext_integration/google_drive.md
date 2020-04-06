@@ -15,7 +15,7 @@ In order to allow a ERPNext to upload backups to Google Drive, you need to autho
 ## How to use Google Drive Integration
 
 ### Uploading backup to Google Drive
-- Once Google Drive Integration is succesful, you can upload the system backup as well as all your public and private files to Google Drive.
+- Once Google Drive Integration is successful, you can upload the system backup as well as all your public and private files to Google Drive.
 - To backup data to Google Drive, click on **Take Backup**. Backup process will run in the background and you will be notified regarding the backup status.
   <img class="screenshot" src="/docs/assets/img/erpnext_integrations/google_drive.gif">
 
