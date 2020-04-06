@@ -89,4 +89,4 @@ Public files: /Apps/erpnext/files
 Private files: /Apps/erpnext/private/files
 ```
 
-> **Note**: If the compressed backup size exceeds 1GB (gigabyte), the system will upload the latest available backup to Dropbox instead of generating a new backup file.
+> **Note**: If the compressed backup size exceeds 1GB (Gigabyte), the system will upload the latest available backup to Dropbox instead of generating a new backup file.
