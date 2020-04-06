@@ -19,4 +19,4 @@ In order to allow a ERPNext to upload backups to Google Drive, you need to autho
 - To backup data to Google Drive, click on **Take Backup**. Backup process will run in the background and you will be notified regarding the backup status.
   <img class="screenshot" src="/docs/assets/img/erpnext_integrations/google_drive.gif">
 
-> **Note**: If the compressed backup size exceeds 1GB (gigabyte), the system will upload the latest available backup to Google Drive instead of generating a new backup file.
+> **Note**: If the compressed backup size exceeds 1GB (Gigabyte), the system will upload the latest available backup to Google Drive instead of generating a new backup file.
