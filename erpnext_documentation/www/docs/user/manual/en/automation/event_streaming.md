@@ -105,8 +105,13 @@ Check the 'Use Same Name' checkbox to let the documents have same name on both E
 ![Subscribed Document](/docs/assets/img/automation/event-subscribed-doc.png)
 
 ### 3.5 Mapping Configuration
-If you want to stream documents between an ERPNext instance and another Frappe app for a particular Document Type which has the same structure but fieldnames are different in both the sites, you can use Event Streaming with Mapping Configuration.
+
+If you want to stream documents between an ERPNext instance and another Frappe app for a particular Document Type with same or different structure or fieldnames are different in both the sites, you can use Event Streaming with Mapping Configuration.
 For this you need to first set up a Document Type Mapping:
+
+Go to: **Home > Automation > Event Streaming > Document Type Mapping**.
+
+#### 3.5.1 Mapping for DocTypes with similar structure
 
 - **Mapping Name**: Give a unique name to the mapping
 - **Local Document Type**: The Document Type in your current site
@@ -119,11 +124,46 @@ In the Field Mapping child table:
 
 ![Document Type Mapping](/docs/assets/img/automation/event-field-mapping.png)
 
-- **Is Child Table**: If the field you are trying to map is a child table, you need to check this.
-- **Child Table Mapping**: Create another Document Type Mapping for the child table fields and select it here.
+#### 3.5.2 Default Value for some field
 
-![Child Table Mapping](/docs/assets/img/automation/event-map-is-child-table.png)
+If your field is not mapped to any other remote fieldname and you always want the field to have the same value, set the default value field. Event if you have set the remote fieldname, in case during the sync, remote field's value is not found and the "Default Value" has been specified, it will be set.
 
-After this, check the 'Has Mapping' checkbox in the Event Configuration child table in Event Producer against the required Document Type and select the Document Type Mapping you just created.
+![Child Table Mapping Link](/docs/assets/img/automation/default.png)
+
+
+#### 3.5.3 Mapping for DocTypes having child tables
+
+If the field you are trying to map is a child table, you need create another Document Type Mapping for the child table fields.
+
+![Child Table Mapping Link](/docs/assets/img/automation/child_table_map_doc.png)
+
+- **Mapping Type**: Select the Mapping Type as Child Table.
+- **Mapping**: Select the Document Type Mapping doc you created for the child table.
+
+![Child Table Mapping Link](/docs/assets/img/automation/event-map-is-child-table.png)
+
+#### 3.5.4 Mapping for DocTypes having dependencies (Link, Dynamic Link fields)
+
+If the DocTypes you are trying to map, have any kind of dependencies like Link or Dynamic Link fields you need to set up another Document Type Mapping for syncing the dependencies.
+
+For example: The local doctype is Opportunity and remote doctype is ERPNext Opportunity. The field `party_name` (Link field for DocType Lead) in Opportunity is mapped to `full_name` (Data field) in ERPNext Opportunity. During the sync, this Lead has to be created for the main Opportunity to sync. So you need to set up a mapping for this Link Field too.
+
+![Lead Dependency Creation](/docs/assets/img/automation/lead_dependency_creation.png)
+
+- **Mapping Type**: In this case, the Mapping Type is Document.
+- **Mapping**: Select the mapping you just created.
+- **Remote Value Filters**: You need to specify the filters that will fetch the exact remote document to be mapped. Like in this case, the remote DocType is ERPNext Opportunity which can be uniquely fetched using name, phone number and country.
+
+The format is:
+
+{ "remote fieldname": "field or expression from where we will get the value for that fieldname"}
+
+If you want to fetch the value from somewhere start the expression with eval:
+
+Like in this case it is: `eval:frappe.db.get_value('Global Defaults', None, 'country')`
+
+![Document Mapping Type](/docs/assets/img/automation/document_mapping_type.png)
+
+At last, check the 'Has Mapping' checkbox in the Event Configuration child table in Event Producer against the required Document Type and select the Document Type Mapping you just created.
 
 ![Mapping Configuration](/docs/assets/img/automation/event-mapping-conf.png)
