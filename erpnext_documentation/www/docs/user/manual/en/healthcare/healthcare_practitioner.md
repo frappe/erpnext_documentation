@@ -1,29 +1,62 @@
 <!-- add-breadcrumbs -->
 # Healthcare Practitioner
-ERPNext Healthcare allows you to create multiple practitioners and link to a User with appropriate Roles. You can create a Practitioner by going to,
 
-`Healthcare > Masters > Healthcare Practitioner`
+Healthcare Practitioners are the doctors, nurses, ward boys, lab technicians, etc. who are serving the hospital unit in one way or another. ERPNext Healthcare allows you to create multiple practitioners and link to a User with appropriate Roles. You can also link a Healthcare Practitioner to an [Employee](/docs/user/manual/en/human-resources/employee) to track Payroll, Attendance or other Human Resource Management activities.
 
 <img class="screenshot" alt="ERPNext Healthcare" src="{{docs_base_url}}/assets/img/healthcare/practitioner_1.png">
 
-To enable access rights to ERPNext, you may want to attach a User with `Physician` role for the practitioner. Most Patient related documents like the Encounter, Vitals etc. offer only limited access to users with other roles. You should ideally link the User to Employee document for the user to access Human Resources module so as to utilize the many features like Leaves, Payroll etc.
+To create a Practitioner, go to,
 
->Note: Selecting the Employee field will fetch in all relevant fields as configured in the Employee document to help you easily setup the Practitioner
+> Home > Healthcare > Masters > Healthcare Practitioner
 
-### Availability and Charges
-You can select multiple schedules for each practitioner and optionally a service unit at which the practitioner will be available.
+## 1. How to Create a Healthcare Practitioner
 
-<img class="screenshot" alt="ERPNext Healthcare" src="{{docs_base_url}}/assets/img/healthcare/practitioner_2.png">
+1. Go to the Healthcare Practitioner list and click on New.
+2. Select the Naming Series.
+3. Enter basic details like First Name, Last Name, Gender, Mobile number.
+4. Optionally, select a Medical Department.
+4. Save.
 
-You can optionally set an `Appointment Type` for each schedule to ensure that only those types of appointments can be booked for the time slots available as per the schedule. Leaving this field blank will allow appointments of any type. Also, enabling `Always Use Slot Duration as Appointment Duration` will override the default behavior of setting appointment duration to the duration configured in the Appointment Type.
+<img class="screenshot" alt="ERPNext Healthcare" src="{{docs_base_url}}/assets/img/healthcare/practitioner.png">
 
-<img class="screenshot" alt="ERPNext Healthcare" src="{{docs_base_url}}/assets/img/healthcare/practitioner_4.png">
+## 2. Features
 
-You can set the consultation charges which are applicable to the practitioner. If required, you can also select an Income Account for a Physician to book all Consultation charges into separate accounts.
+### 2.1 Track Payroll, Attendance, Roles and Permissions
 
-<img class="screenshot" alt="ERPNext Healthcare" src="{{docs_base_url}}/assets/img/healthcare/practitioner_3.png">
+In order to track all Human Resource Management activities for the Practitioner, you need to create and select the [Employee](/docs/user/manual/en/human-resources/employee) in the "Employee" field in practitioner. This will help run [Payroll](/docs/user/manual/en/human-resources/payroll-intro) and also track availability and attendance for booking appointments by setting appropriate [Holiday List](/docs/user/manual/en/human-resources/holiday-list) and [Practitioner Schedule](/docs/user/manual/en/Healthcare/practitioner_schedule). You can then create an ERPNext User linked to the Employee document. This will help track permissions for the Practitioner.
 
-### Referring Physicians
+<img class="screenshot" alt="ERPNext Healthcare" src="{{docs_base_url}}/assets/img/healthcare/practitioner-employee.png">
+
+> Note: Selecting the Employee field will fetch in all relevant fields as configured in the Employee document to help you easily setup the Practitioner
+
+If the Healthcare Practitioners are not employees in your Healthcare Units you can link User to the Practitioner and assign them the required roles.
+
+### 2.2 Practitioner Availability
+
+You can select multiple [Practitioner Schedule](/docs/user/manual/en/Healthcare/practitioner_schedule) for each practitioner and optionally set a service unit at which the practitioner will be available.
+
+<img class="screenshot" alt="ERPNext Healthcare" src="{{docs_base_url}}/assets/img/healthcare/practitioner_availability.png">
+
+### 2.3 Healthcare Practitioner Charges
+
+You can select or create the service items for consulting charges and set them in "Out Patient Consulting Charge Item" and "In Patient Consulting Charge Item". These will be fetched in Sales Invoices. You can set the consultation charges which are applicable to the practitioner. If required, you can also select an Income Account for a Physician to book all Consultation charges into separate accounts.
+
+<img class="screenshot" alt="ERPNext Healthcare" src="{{docs_base_url}}/assets/img/healthcare/practitioner_charges.png">
+
+> Note: Make sure that the Items you create for services have "Maintain Stock" and "Include Items in Manufacturing" unchecked since they are service items.
+
+### 2.4 Referring Physicians
+
 You may also want to manage a list of Doctors who refers Patients to your facility. You can manage such data in the Healthcare Practitioner document itself by leaving out the Employee and User links.
+
+### 2.5 Link Multiple Addresses and Contacts
+
+Suppose the Practitioner works at various hospitals, you can link multiple contacts and addresses for that Practitioner.
+
+## 3. Related Topics
+
+1. [Users and Permissions](/docs/user/manual/en/setting-up/users-and-permissions)
+2. [Employee](/docs/user/manual/en/human-resources/employee)
+3. [Practitioner Schedule](/docs/user/manual/en/Healthcare/practitioner_schedule)
 
 {next}

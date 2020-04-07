@@ -3,51 +3,78 @@
 
 Most of the global settings for the Healthcare module can be done via the Healthcare Settings page.
 
-`Healthcare > Setup > Healthcare Settings`
+To view and change the settings, go to:
 
-> Note: Ensure that you have `Healthcare Administrator` role enabled for your User to access this page.
+> Home > Healthcare > Settings > Healthcare Settings
 
-### Outpatient Settings
+## 1. Out Patient Settings
+
 <img class="screenshot" alt="ERPNext Healthcare" src="{{docs_base_url}}/assets/img/healthcare/healthcare_settings_1.png">
 
-* **Patient Auto Name**: By default Patient document uses naming series for naming but you can also opt to change this to Patient Name if required.
+* **Patient Name By**: By default Patient document uses naming series for naming but you can also opt to change this to "Patient Name" if required.
 
-* **Link Patient with Customer**: The `Manage Customer` option will enable the system to create and link a Customer whenever a new Patient is created. This Customer is used while booking all transactions. If you do not enable this, you wont be able to ling the Patient with a Customer while invoicing any of the services.
+* **Link Customer to Patient**: This option will enable the system to create and link a Customer whenever a new Patient is created. This Customer is used while booking all transactions. Patient Invoices will be created against this Customer. You can also select existing Customer while creating Patient.
 
-* **Default Medical Code Standard**: ERPNext Healthcare allows you to use multiple Medical Code Standards - here, you can also select the default Medical Code Standard.
+* **Default Medical Code Standard**: ERPNext Healthcare allows you to use multiple Medical Code Standards. Here, you can also select the default Medical Code Standard.
 
-* **Collect Fee for Patient Registration**: If you enable this, all new Patients you create will be _Disabled_ by default and will be only be enabled after Invoicing the Registration Fee. To create Invoice and record the payment receipt, you can use the `Invoice Patient Registration` button in the Patient document. Also note that all ERPNext Healthcare documents, filters out Patient records that are disabled. You can also set the registration fee to be collected here.
+* **Collect Fee for Patient Registration**: If you enable this, all new Patients you create will be _Disabled_ by default and will only be enabled after Invoicing the Registration Fee. To create an Invoice and record the Payment Receipt, you can use the "Invoice Patient Registration" button in the Patient document. Also note that all ERPNext Healthcare documents, filter out Patient records that are disabled.
 
-* **Manage Appointment Invoice Automatically**: If you wish to automatically create an Invoice (with the selected Practitioner's consultation charges), you can enable this option. This feature is particularly helpful if your facility collects payment while booking an appointment. The Patient Appointment form will allow you to select the Payment Method and amount received.
+* **Registration Fee**: You can set the Registration Fee to be collected here if you have checked "Collect Fee for Patient Registration".
 
-* **Validity for Followups**: Many healthcare facilities do not charge for follow up consultations within a time period after the first visit. You can configure the number of free follow ups (_Patient Encounters in valid days_) allowed as well as the time period (_Valid number of days_) for free consultations here.
+* **Automate Appointment Invoicing**: If you wish to automatically create a Sales Invoice (with the selected Practitioner's consultation charges), you can enable this option. This feature is particularly helpful if your facility collects payment while booking an appointment. The Patient Appointment form will allow you to select the Payment Method and Amount Received. Also, the invoices will be cancelled automatically on Appointment cancellation.
 
-### Healthcare Service Items
+* **Enable Free Follow-ups**: Many healthcare facilities do not charge for follow up consultations within a time period after the first visit (Patient Registration). Check this if you want to enable free follow-ups. After this is checked, configure the number of free follow ups (_Patient Encounters in Valid Days_) allowed as well as the time period (_Valid number of days_) for free consultations here.
+
+## 2. Default Healthcare Service Items
+
+ERPNext Healthcare utilizes the Accounts module for billing Patients. You can configure default "Items" for billing consultation charges, procedure consumption items etc. here. Make sure that the "Inpatient Visit Charge Item" and "Out Patient Consulting Charge Item" are service items i.e they have _Maintain Stock_ checkbox disabled.
+
 <img class="screenshot" alt="ERPNext Healthcare" src="{{docs_base_url}}/assets/img/healthcare/healthcare_settings_2.png">
 
-ERPNext Healthcare utilizes the Accounts module for billing Patients. You can configure default `Items` for billing consultation charges, procedure consumption items etc. here.
+## 3. Default Accounts
 
-### SMS Alerts
+If you wish to override default accounts settings and configure the Income and Receivable accounts for Healthcare, you can do so here.
+
+* **Income Account**: Default Income Accounts to be used if not set in Healthcare Practitioner to book Appointment charges.
+
+* **Receivable Account**: Default Receivable Accounts to be used to book Appointment charges.
+
 <img class="screenshot" alt="ERPNext Healthcare" src="{{docs_base_url}}/assets/img/healthcare/healthcare_settings_3.png">
 
-You can enable sending SMS alerts on Patient appointment Booking etc. and also configure SMS text in this section.
+## 4. Out Patient SMS Alerts
 
-### Income Account and Receivable Account
+You can enable sending SMS alerts on Patient appointment Booking, Patient Registration etc. and also configure message in this section.
+
+* **Patient Registration**: This message will be sent when a new Patient is created in your instance.
+
+* **Appointment Confirmation**: This message will be sent when an Appointment is booked for the Patient.
+
+* **Avoid Confirmation**: Check this if you don't want to send the Appointment Booking message when the Appointment is booked on the same day.
+
+* **Appointment Reminder**: This message will be sent on the day of the Appointment as a reminder.
+
+* **Remind Before**: You can configure the time before all reminder messages should be sent.
+
 <img class="screenshot" alt="ERPNext Healthcare" src="{{docs_base_url}}/assets/img/healthcare/healthcare_settings_4.png">
 
-If you wish to override default accounts settings and set custom Income and receivable accounts, you can do so here.
+## 4. Laboratory Settings
 
-### Laboratory Settings
+* **Create Lab Test(s) on Sales Invoice Submit**: If your facility creates Invoices and collect payments from Patients before performing the Lab Test, you can enable this option to create Lab tests automatically for all the Tests that are billed. If you have enabled "Create Sample Collection document for Lab Test" and the Lab Test has a _Sample_ configured in the Lab Test Template, a Sample Collection document will also be created.
+
+* **Create Sample Collection document for Lab Test**: If this flag is enabled, every time you create a Lab Test, a Sample Collection document will be created.
+
+* **Employee Name and Designation in Print**: Enable this option if you want the name and designation of the Employee associated with the User who submits the document to be printed in the Lab Test Report.
+
+* **Do not print or email Lab Tests without Approval**: Checking this will restrict printing and emailing of Lab Tests unless they have the status as Approved. You can use this flag to ensure that every Test result leaves your facility after verification.
+
 <img class="screenshot" alt="ERPNext Healthcare" src="{{docs_base_url}}/assets/img/healthcare/healthcare_settings_5.png">
 
-* **Create Lab Test(s) on Sales Invoice Submit**: If your facility creates Invoices and collect payments from Patients before performing the Lab Test, you can enable this option to create Lab tests automatically for all the Tests that are billed. If you have enabled `Manage Sample Collection` and has a _Sample_ configured in the Lab Test Template, a Sample Collection document will also be created.
+## 5. Laboratory SMS ALerts
 
-* **Manage Sample Collection**: If this flag is enabled, every time you create a Lab Test, a Sample Collection document will be created.
+You can configure ERPNext Healthcare to alert Patients via SMS when the Lab Test result gets ready (Submit) and when you Email the result. You can configure the templates for the SMS as registered with your provider here.
 
-* **Require Lab Test Approval**: Turning this on will restrict printing and emailing of Lab Tests only if the documents are in Approved status. You can use this flag to ensure that every Test result leaves your facility after verification.
+<img class="screenshot" alt="ERPNext Healthcare" src="{{docs_base_url}}/assets/img/healthcare/healthcare_settings_6.png">
 
-* **Employee name and designation in print**: Enable the third option if you want the name and designation of the Employee associated with the User who submits the document to be printed in the Lab Test Report.
-
-* **Laboratory SMS Alerts**: You can configure ERPNext Healthcare to alert Patients via SMS when the Lab Test result gets ready (Submit) and when you Email the result. You can configure the templates for the SMS as registered with your provider here.
+> Note: Ensure that you have "Healthcare Administrator" role enabled for your User to access this page.
 
 {next}
