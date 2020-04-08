@@ -1,7 +1,7 @@
 <!-- add-breadcrumbs -->
 # Accounting Dimensions
 
-> Introduced in Version 12
+> Introduced in Version 13
 
 Dimensional accounting means tagging each transaction with appropriate dimensions like Branch, Business Unit, etc. This allows you to maintain each segment separately, thereby limiting the overall maintenance on GL accounts and your Chart of Accounts remains pure.
 
