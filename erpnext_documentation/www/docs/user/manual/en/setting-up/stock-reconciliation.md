@@ -69,27 +69,27 @@ If you have lot of items, you can upload the details via a spreadsheet.
 
   Open new Stock Reconciliation and click on Download button to download the template in CSV format.
 
-  <img class="screenshot" alt="Stock Reconciliation" src="{{docs_base_url}}/assets/img/setup/stock-recon-1.png">
+  <img class="screenshot" alt="Stock Reconciliation" src="{{docs_base_url}}/assets/img/stock/stock-recon-1.png">
 
 2. Enter Data in CSV Template.
 
   The CSV format is case-sensitive. Do not edit the headers which are preset in the template. In the Item Code and Warehouse column, enter exact Item Code and Warehouse as created in your ERPNext account. For quantity, enter stock level you wish to set for that item, in a specific warehouse.
 
-  <img class="screenshot" alt="Stock Reconciliation" src="{{docs_base_url}}/assets/img/setup/stock-reco-data.png">
+  <img class="screenshot" alt="Stock Reconciliation" src="{{docs_base_url}}/assets/img/stock/stock-reco-data.png">
 
 
 3. Upload the CSV file with the data by clicking on 'Upload' button.
 
-  <img class="screenshot" alt="Stock Reconciliation" src="{{docs_base_url}}/assets/img/setup/stock-recon-2.png">
+  <img class="screenshot" alt="Stock Reconciliation" src="{{docs_base_url}}/assets/img/stock/stock-recon-2.png">
 
 
 4. Review, Save, and Submit.
 
-  <img class="screenshot" alt="Stock Reconciliation" src="{{docs_base_url}}/assets/img/setup/stock-reco-upload.gif">
+  <img class="screenshot" alt="Stock Reconciliation" src="{{docs_base_url}}/assets/img/stock/stock-reco-upload.gif">
 
 5. Check Stock Ledger Report for updated stock balance.
 
-  <img class="screenshot" alt="Stock Reconciliation" src="{{docs_base_url}}/assets/img/setup//stock-reco-ledger.png">
+  <img class="screenshot" alt="Stock Reconciliation" src="{{docs_base_url}}/assets/img/stock/stock-reco-ledger.png">
 
 ##3.2 Get Stock Balance and Valuation as of Specific Date and Time
 
