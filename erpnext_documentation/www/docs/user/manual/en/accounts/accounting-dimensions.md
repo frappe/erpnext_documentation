@@ -15,10 +15,10 @@ To access the Accounting Dimension list, go to:
 ## 1. How to create Accounting Dimension in ERPNext.
 
 1. Go to the Accounting Dimension list and click on New.
-1. Select the Reference Document which you want to use as a custom dimension. For example, if you select Department as Reference Document, the dimension will be based on Department.
-1. Enter the name of the dimension (This name will appear in the transactions for which dimensions are created).
-1. Inside the Dimension Defaults table you can mention company specific default dimensions as shown in the screenshot below. This dimension will be automatically fetched in the transaction against that specific company.
-1. Check "Mandatory" checkbox if you want the dimension to be mandatory in the transactions.
+2. Select the Reference Document which you want to use as a custom dimension. For example, if you select Department as Reference Document, the dimension will be based on Department.
+3. Enter the name of the dimension (This name will appear in the transactions for which dimensions are created).
+4. Inside the Dimension Defaults table you can mention company specific default dimensions as shown in the screenshot below. This dimension will be automatically fetched in the transaction against that specific company.
+5. Check "Mandatory" checkbox if you want the dimension to be mandatory in the transactions.
 
 <img alt="Create custom dimension" class="screenshot" src="{{docs_base_url}}/assets/img/accounts/accounting-dimension.png">
 
