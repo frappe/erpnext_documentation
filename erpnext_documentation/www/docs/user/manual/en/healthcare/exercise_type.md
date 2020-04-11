@@ -1,0 +1,40 @@
+<!-- add-breadcrumbs -->
+
+# Exercise Type
+
+Mapping Exercises for a Patient is at the heart of Rehabilitation and Physiotherapy. Exercise Type is a Master in ERPNext which helps you templatize the Exercise with its difficulty level, linking according to body parts and a mechanism to map all the steps involved in the Exercise.
+
+To create an Exercise Type, go to:
+
+> Home > Healthcare > Rehabilitation and Physiotherapy > Exercise Type
+
+## 1. How to Create an Exercise Type
+
+1. Go to Exercise Type list, click on New.
+2. Enter a unique Exercise Name.
+3. Optionally select a Difficulty Level, add some description for the Exercise Type.
+4. You can also select the Body Parts for which the Exercise will be prescribed. This linking will help you add exercises automatically to a Therapy Type.
+5. Save.
+
+<img class="screenshot" alt="ERPNext Healthcare" src="{{docs_base_url}}/assets/img/healthcare/exercise-type.png">
+
+## 2. Features
+
+### 2.1 Add Exercise Steps
+
+You can attach a document for Exercise Instructions or also create a Video document and link it in Exercise Type.
+
+<img class="screenshot" alt="ERPNext Healthcare" src="{{docs_base_url}}/assets/img/healthcare/exercise-video.png">
+
+You can also add instructions with images and description for detailed demonstration using the "Add" button in Exercise Steps section.
+
+<img class="screenshot" alt="ERPNext Healthcare" src="{{docs_base_url}}/assets/img/healthcare/exercise-type-steps.png">
+
+Click on the edit button on each card to edit the content.
+
+<img class="screenshot" alt="ERPNext Healthcare" src="{{docs_base_url}}/assets/img/healthcare/edit-exercise-step.png">
+
+## 3. Related Topics
+1. [Therapy Type](/docs/user/manual/en/healthcare/therapy_type)
+
+{next}
