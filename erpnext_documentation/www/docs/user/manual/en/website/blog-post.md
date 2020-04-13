@@ -36,7 +36,7 @@ View your Blog Post by clicking on **See on Website** in the sidebar.
 ![Blog Post](/docs/assets/img/website/blog-post.png)
 *Blog Post*
 
-Check the _Disable Comments_ option if you'd like to disable the ability for readers to add comments to the current blog post.
+Check the **Disable Comments** option if you'd like to disable the ability for readers to add comments to the current blog post.
 ![Blog Post](/docs/assets/img/website/blog-post-disable-comments.png)
 
 ![Blog Post](/docs/assets/img/website/blog-post-no-comments.png)
