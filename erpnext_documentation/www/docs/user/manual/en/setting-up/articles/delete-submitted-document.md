@@ -1,7 +1,7 @@
 <!-- add-breadcrumbs -->
 #Delete Submitted Document
 
-To delete submitted document, you need to cancel it first. Followings are steps to delete submitted document.
+To delete a submitted document, you need to cancel it first. Following are steps to delete submitted document. These steps assume that you have the appropriate permissions to cancel and delete a submitted document.
 
 ####Step 1: Cancel Submitted Document
 
@@ -22,11 +22,10 @@ To delete the document, now click on Menu, then Delete. This will delete the sel
 <img alt="Cancel Doc" class="screenshot" src="{{docs_base_url}}/assets/img/articles/cancel-list-view.gif">
 
 
-If your document linked with other documents, then you will need to cancel last document you made on top of this document. <br><br>
+If your document is linked with other documents, then you will need to cancel dependent document before trying to delete the parent document.
+
+<br><br>
 	
 Example: If you have created Delivery Note and Sales Invoice against Sales Order, which you need to amend, then you should first Cancel Delivery Note and Sales Invoice made for that Sales Order. Then amend Sales Order, re-save and re-submit it.
 </div>
-
-
-
 <!-- markdown -->
