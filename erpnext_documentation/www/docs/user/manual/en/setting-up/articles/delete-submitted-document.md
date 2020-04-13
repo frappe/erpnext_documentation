@@ -1,15 +1,15 @@
 <!-- add-breadcrumbs -->
-#Delete Submitted Document
+# Delete Submitted Document
 
-To delete a submitted document, you need to cancel it first. Following are steps to delete submitted document. These steps assume that you have the appropriate permissions to cancel and delete a submitted document.
+To delete a submitted document, you need to cancel it first. Following are the steps to delete a submitted document. These steps assume that you have the appropriate permissions on the document that you wish to cancel and delete.
 
-####Step 1: Cancel Submitted Document
+#### Step 1: Cancel Submitted Document
 
 You will find Cancel button on upper right corner of submitted document.
 
 <img alt="Delete Doc" class="screenshot" src="{{docs_base_url}}/assets/img/articles/cancel-delete-submitted-doc-1.png">
 
-####Step 2: Delete the document
+#### Step 2: Delete the document
 
 On cancellation of submitted document, Amend button becomes visible with the document status set to Cancelled. This means that the document has been cancelled successfully.
 
