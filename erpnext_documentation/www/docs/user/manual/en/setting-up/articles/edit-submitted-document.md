@@ -1,7 +1,7 @@
 <!-- add-breadcrumbs -->
 #Edit Submitted Document
 
-To edit submitted document, you need to cancel it first. Followings are steps to edit submitted document.
+To edit a submitted document, you need to cancel it first. Following are steps to edit submitted document. These steps assume you have the appropriate permissions for cancelling and editing a document.
 
 ####Step 1: Cancel Submitted Document
 
@@ -25,7 +25,4 @@ On clicking Amend button, same document will become editable again. After Making
 	
 Example:If you have created Delivery Note and Sales Invoice against Sales Order, which you need to amend, then you should first Cancel Delivery Note and Sales Invoice made for that Sales Order. Then amend Sales Order, re-save and re-submit it.
 </div>
-
-
-
 <!-- markdown -->
