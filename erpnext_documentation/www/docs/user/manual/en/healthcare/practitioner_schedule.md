@@ -11,7 +11,7 @@ To create a Practitioner Schedule, go to:
 
 1. Go to the Practitioner Schedule and click on New.
 2. Enter a unique name for the Schedule.
-3. After naming the schedule click on the "Add Time Slots" button to create time slots for each day of the week.
+3. After naming the schedule click on the **Add Time Slots** button to create time slots for each day of the week.
 4. Save
 
 <img class="screenshot" alt="ERPNext Healthcare" src="{{docs_base_url}}/assets/img/healthcare/practitioner_schedule.png">

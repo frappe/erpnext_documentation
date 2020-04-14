@@ -18,7 +18,7 @@ Normal values or ranges are provided for ease of assessment. An automated BMI ca
 
 <img class="screenshot" alt="ERPNext Healthcare" src="{{docs_base_url}}/assets/img/healthcare/vitals_bmi.png">
 
-You can also create and record Vitals for a Patient from Patient Appointment, Patient Encounter or the Patient master documents by using the _Create > Vital Signs_ button.
+You can also create and record Vitals for a Patient from Patient Appointment, Patient Encounter or the Patient master documents by using the **Create > Vital Signs** button.
 
 ## 2. Related Topics
 

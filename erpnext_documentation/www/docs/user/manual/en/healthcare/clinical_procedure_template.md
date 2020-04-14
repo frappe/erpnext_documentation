@@ -26,7 +26,7 @@ Templates allow you to manage the billable Item, rate etc. for a particular proc
 
 <img class="screenshot" alt="ERPNext Healthcare" src="{{docs_base_url}}/assets/img/healthcare/clinical_procedure_item.png">
 
-You can change the Item Code linked to the Procedure if needed using the Change Item Code button.
+You can change the Item Code linked to the Procedure if needed using the **Change Item Code** button.
 
 ### 2.2 Manage Procedure Consumables
 

@@ -26,10 +26,10 @@ You can book appointments for a registered Patient by searching for Patient by P
 
 1. Go to Patient Appointment list, click on New.
 2. Select the [Patient](/docs/user/manual/en/Healthcare/Patient) for which you want to set up an Appointment. The Patient Name, Gender and Patient Age will be auto-fetched on selecting the Patient. If the patient is an Inpatient (Admitted) then the Inpatient Record will also be auto-fetched for them.
-3. You can optionally select the [Service Unit](/docs/user/manual/en/Healthcare/healthcare_service_unit) where you would want to schedule the appointment. In that case, it will be marked as "Occupied" for the duration of the Appointment.
-4. If you need to book Appointment for Clinical Procedure select a [Clinical Procedure Template](/docs/user/manual/en/Healthcare/clinical_procedure_template). If you want to select a Clinical Procedure which has been prescribed for the patient in the previous Patient Encounter click on "Get Prescribed Clinical Procedures" button to select from a list of Clinical Procedures that are prescribed for the selected Patient.
+3. You can optionally select the [Service Unit](/docs/user/manual/en/Healthcare/healthcare_service_unit) where you would want to schedule the appointment.
+4. If you need to book Appointment for Clinical Procedure select a [Clinical Procedure Template](/docs/user/manual/en/Healthcare/clinical_procedure_template). If you want to select a Clinical Procedure which has been prescribed for the patient in the previous Patient Encounter click on **Get Prescribed Clinical Procedures** button to select from a list of Clinical Procedures that are prescribed for the selected Patient.
 5. You can optionally select the "Appointment Type" and the "Duration (in minutes)". Note that, selecting the "Appointment Type" will automatically set the duration of the appointment as configured in the Appointment Type. This will allow you to override the duration of appointments set by the Practitioner Schedule and the time slots will adjust to the next available time automatically.
-6. If you have check "Automate Appointment Invoicing" in [Healthcare Settings](/docs/user/manual/en/Healthcare/healthcare_settings), setting the "Mode of Payment" and "Amount" fields in Patient Appointment is mandatory.
+6. If you have checked "Automate Appointment Invoicing" in [Healthcare Settings](/docs/user/manual/en/Healthcare/healthcare_settings), setting the "Mode of Payment" and "Amount" fields in Patient Appointment is mandatory.
 7. Then click on the **Check Availability** button. It will allow you to select the Medical Department, Healthcare Practitioner and Date for which the appointment is to be booked. On selecting the details, all the available time slots for the practitioner will be fetched from the [Practitioner Schedule](/docs/user/manual/en/Healthcare/practitioner_schedule) and displayed with status indicators for the selected date. You can select a time slot and hit **Book**.
 8. Once booked, the scheduled time of the Appointment and the Service Unit as per the Practitioner and appropriate Status will be set in the document.
 
@@ -47,7 +47,7 @@ You can click on "Calendar" view from the Patient Appointment list view. Types o
 
 ### 3.2 Appointment Rescheduling
 
-You can reschedule the Patient Appointment by clicking on the Reschedule button in the document and following the same steps.
+You can reschedule the Patient Appointment by clicking on the **Reschedule** button in the document and following the same steps.
 
 <img class="screenshot" alt="ERPNext Healthcare" src="{{docs_base_url}}/assets/img/healthcare/reschedule.png">
 
@@ -59,7 +59,7 @@ While booking it also checks for Appointment Overlaps and restricts the booking 
 
 ### 3.4 Notes and Referrals
 
-In the "More Info" section of Patient Appointment document, user can add **Notes** and also select a **Referring Practitioner** to help track referrals.
+In the "More Info" section of Patient Appointment document, user can add "Notes" and also select a "Referring Practitioner" to help track referrals.
 
 <img class="screenshot" alt="ERPNext Healthcare" src="{{docs_base_url}}/assets/img/healthcare/more_info.png">
 
@@ -92,11 +92,16 @@ Status indicates the state of the Patient Appointment. The various Statuses are:
 
 
 ## 4. Actions
-  * Vital Signs: "Create > Vital Signs" button will take you to the new Vital Signs screen to record the vitals of the Patient.
 
-  * Encounter: From the Appointment screen you can directly create and record the "Patient Encounter" to record the details of the visit.
+  * Vital Signs: **Create > Vital Signs** button will take you to the new Vital Signs screen to record the vitals of the Patient.
 
-  * View "Patient Medical History".
+  * Encounter: From the Appointment screen you can directly create and record the "Patient Encounter" to record the details of the visit using the **Create > Patient Encounter** button.
+
+  * To view the medical history of that patient click on **View > Patient Medical History**.
+
+  * **Reschedule**: For rescheduling the Appointment.
+
+  * **Cancel**: For cancelling the Appointment
 
 > Note: User should have appropriate privileges (User Role) to view the buttons
 

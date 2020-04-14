@@ -25,13 +25,13 @@ To create a Clinical Procedure go to:
 
 ### 1.2 Create a Clinical Procedure from an Appointment
 
-You can lookup and book [Patient Appointment](/docs/user/manual/en/Healthcare/patient_appointment) from the procedures that have been ordered for a patient in the previous [Patient Encounter](/docs/user/manual/en/Healthcare/patient_encounter) by using the "Get Prescribed Procedures" button available in Patient Appointment.
+You can lookup and book [Patient Appointment](/docs/user/manual/en/Healthcare/patient_appointment) from the procedures that have been ordered for a patient in the previous [Patient Encounter](/docs/user/manual/en/Healthcare/patient_encounter) by using the **Get Prescribed Procedures** button available in Patient Appointment.
 
 <img class="screenshot" alt="ERPNext Healthcare" src="{{docs_base_url}}/assets/img/healthcare/prescribed_procedures.png">
 
 <img class="screenshot" alt="ERPNext Healthcare" src="{{docs_base_url}}/assets/img/healthcare/prescribed_procedures_1.png">
 
-After the Appointment is booked, the performing practitioner can easily create a new procedure from a booked appointment using the "Create > Clinical Procedure" button.
+After the Appointment is booked, the performing practitioner can easily create a new procedure from a booked appointment using the **Create > Clinical Procedure** button.
 
 ## 2. Features
 
@@ -39,7 +39,7 @@ After the Appointment is booked, the performing practitioner can easily create a
 
 #### 2.1.1 Start Procedure
 
-The Practitioner can update the procedure status to _In Progress_ by clicking the "Start" button.
+The Practitioner can update the procedure status to _In Progress_ by clicking the **Start** button.
 
 If the procedure has consumables, for the procedure to start, adequate quantity of all consumables must be present in the Healthcare Service Unit's Warehouse. If this fails, the system will ask you to confirm _Stock Transfer_. After you confirm, a [Stock Entry](/docs/user/manual/en/stock/stock-entry) with Entry Type "Material Transfer" will be created and displayed. Validate the Stock Entry auto-created document, Save and Submit. Then you can start the Procedure.
 
@@ -47,7 +47,7 @@ If the procedure has consumables, for the procedure to start, adequate quantity 
 
 #### 2.1.2 Complete Procedure
 
-When the procedure is completed, the practitioner can update the _Consumables_ table with the actual values of the stock quantity that are used. The "Complete and Consume" button will record consumption by booking a stock entry and update the status of the Clinical Procedure to _Completed_. If the Procedure does not have any stock items in the Consumables table, the "Complete" button will be displayed.
+When the procedure is completed, the practitioner can update the _Consumables_ table with the actual values of the stock quantity that are used. The **Complete and Consume** button will record consumption by booking a stock entry and update the status of the Clinical Procedure to _Completed_. If the Procedure does not have any stock items in the Consumables table, the **Complete** button will be displayed.
 
 <img class="screenshot" alt="ERPNext Healthcare" src="{{docs_base_url}}/assets/img/healthcare/complete_and_consume.png">
 
@@ -58,7 +58,7 @@ You can create Invoices for procedures performed on a patient by going to
 
 This way the billing user need not access the Healthcare module documents and the un-billed services for a Patient will be listed which the user can chose from.
 
-If the "Invoice Consumables Separately" option is turned on, the charges for the consumable Items will be added to the Sales Invoice separately.
+If the _Invoice Consumables Separately_ option is turned on, the charges for the consumable Items will be added to the Sales Invoice separately.
 
 ## 3. Related Topics
 

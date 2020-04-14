@@ -60,7 +60,7 @@ Many clinical facilities collect a registration fee during Patient Registration.
 
 <img class="screenshot" alt="ERPNext Healthcare" src="{{docs_base_url}}/assets/img/healthcare/patient_registration_fee.png">
 
-If you have this option enabled, all new Patients you create will be in "Disabled" state by default and will only be enabled after Invoicing the Registration Fee. To create Invoice and record the payment receipt, you can use the "Invoice Patient Registration" button in the Patient document.
+If you have this option enabled, all new Patients you create will be in "Disabled" state by default and will only be enabled after Invoicing the Registration Fee. To create Invoice and record the payment receipt, you can use the **Invoice Patient Registration** button in the Patient document.
 
 <img class="screenshot" alt="ERPNext Healthcare" src="{{docs_base_url}}/assets/img/healthcare/patient_disabled.png">
 
@@ -72,13 +72,13 @@ ERPNext Healthcare allows you to create a portal user associated with a Patient 
 ### 2.5. Actions
 You can use the document links in the dashboard to traverse the linked document list with Patient filter applied, or use the + icons to create new records. Apart from this, the Patient document allows you to,
 
-* View Patient's Health History, using "View > Patient History" button.
+* View Patient's Health History, using **View > Patient History** button.
 
-* "Create > Vital Signs" to record the vitals of the Patient.
+* **Create > Vital Signs** to record the vitals of the Patient.
 
-* Manually add data to a Patient's Medical Record, for instance a scanned copy of a Lab Test performed in an external Laboratory or a quick note on the Patient's condition, using "Create > Medical Record" button.
+* Manually add data to a Patient's Medical Record, for instance a scanned copy of a Lab Test performed in an external Laboratory or a quick note on the Patient's condition, using **Create > Medical Record** button.
 
-* Record the details of an encounter by using "Create > Patient Encounter" button
+* Record the details of an encounter by using **Create > Patient Encounter** button
 
 The Patient document holds the Patient barcode and can be used in any the default print formats or any [Custom Print Formats](docs/user/manual/en/customize-erpnext/print-format) that you create for printing patient identification tags.
 

@@ -43,7 +43,7 @@ The item is automatically created and linked to the document on save.
 
 If the Healthcare Service Unit Type is not being used, you can disable it. Disabling will not allow selecting the item created for it while billing.
 
-If you want to change the Item Code of the item created for the billable Healthcare Service Unit Type, click on "Change Item Code" button.
+If you want to change the Item Code of the item created for the billable Healthcare Service Unit Type, click on **Change Item Code** button.
 
 <img class="screenshot" alt="ERPNext Healthcare" src="{{docs_base_url}}/assets/img/healthcare/healthcare_service_unit_type_3.png">
 

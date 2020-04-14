@@ -18,7 +18,7 @@ To create a Patient Encounter, go to:
 6. Select the Symptoms and Diagnosis in the Encounter Impression section. You can opt to include the captured data in Patient Encounter print by checking "In Print".
 7. Save.
 
-You can also create and record encounter details for a patient from Patient Appointment, the Patient Encounter or the Patient master documents by using the "Create > Patient Encounter" button.
+You can also create and record encounter details for a patient from Patient Appointment, the Patient Encounter or the Patient master documents by using the **Create > Patient Encounter** button.
 If you are creating a Patient Encounter manually, you can search for a Patient by name, email, phone number etc.
 
 <img class="screenshot" alt="ERPNext Healthcare" src="{{docs_base_url}}/assets/img/healthcare/patient_encounter_1.png">
@@ -57,9 +57,9 @@ You can also prescribe a Clinical Procedure to be performed for the Patient in t
 
 ### 2.5 Billing and Prescriptions
 
-The Pharmacy (Sales / Accounts) User can fetch medication and investigation (Lab Test) orders from Patient Encounter using the _Get items from > Prescription_ in Sales Invoice.
+The Pharmacy (Sales / Accounts) User can fetch medication and investigation (Lab Test) orders from Patient Encounter using the **Get items from > Prescription** in Sales Invoice.
 
-Clinical Procedure orders can be fetched using the "Get Prescribed Clinical Procedures" button while booking  Appointment for the procedure. These will then be available for billing via the _Get items from > Healthcare Services_.
+Clinical Procedure orders can be fetched using the "Get Prescribed Clinical Procedures" button while booking  Appointment for the procedure. These will then be available for billing via the **Get items from > Healthcare Services**.
 
 <img class="screenshot" alt="ERPNext Healthcare" src="{{docs_base_url}}/assets/img/healthcare/prescription.png">
 
@@ -67,13 +67,13 @@ Clinical Procedure orders can be fetched using the "Get Prescribed Clinical Proc
 
 After you have completed filling up all the necessary sections, you can Submit the document. The Action buttons will be visible only after submission.
 
-  * Vital Signs: _Create > Vital Signs_ button will take you to the new Vital Signs screen to record the vitals of the Patient.
+  * Vital Signs: **Create > Vital Signs** button will take you to the new Vital Signs screen to record the vitals of the Patient.
 
-  * Medical Record: _Create > Medical Record_ button will take you to the new Medical Record screen to record details. You can also attach some report to the record.
+  * Medical Record: **Create > Medical Record** button will take you to the new Medical Record screen to record details. You can also attach some report to the record.
 
-  * Clinical Procedure: Using _Create > Clinical Procedure_ button you can create a Clinical Procedure.
+  * Clinical Procedure: Using **Create > Clinical Procedure** button you can create a Clinical Procedure.
 
-  * Patient History: _View > Patient History_
+  * Patient History: **View > Patient History**.
 
   * Schedule Admission: You can Schedule Admission using this button. This will create an Inpatient Record.
 
