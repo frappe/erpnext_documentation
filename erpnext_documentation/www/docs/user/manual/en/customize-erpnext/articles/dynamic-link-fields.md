@@ -17,7 +17,7 @@ First, we will create a link field that will be linked to the DocType.
 
 By **DocType** mentioned in the Option field, we mean parent DocType. So, just like Quotation is one DocType, which has multiple Quotation under it. Same way, DocType is also a DocType which has Sales Order, Purchase Order and other doctypes created as DocType records.
 
-**DocType**
+**DocType**<br>
 ---- Sales Order<br>
 ---- Purchase Invoice<br>
 ---- Quotation<br>
