@@ -17,7 +17,7 @@ First, we will create a link field that will be linked to the DocType.
 
 By **DocType** mentioned in the Option field, we mean parent DocType. So, just like Quotation is one DocType, which has multiple Quotation under it. Same way, DocType is also a DocType which has Sales Order, Purchase Order and other doctypes created as DocType records.
 
-**DocType<br>**
+**DocType**
 ---- Sales Order<br>
 ---- Purchase Invoice<br>
 ---- Quotation<br>
@@ -43,8 +43,6 @@ This field will allow selecting document id, based on the value selected in the 
 **Customizing options in the Doctype Link field**
 
 By default, the DocType link field will provide all the forms/docTypes for selection. If you wish this field to show certain specific docTypes in the search result, you will need to write Custom Script for it.
-</div>
 
 {next}
-
 <!-- markdown -->
