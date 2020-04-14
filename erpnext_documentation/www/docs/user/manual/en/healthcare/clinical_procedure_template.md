@@ -22,7 +22,7 @@ You can create new Clinical Procedure Templates by going to:
 
 ### 2.1 Automatic Item Creation for Templates
 
-Templates allow you to manage the billable Item, rate etc. for a particular procedure. The system automatically creates an Item linked to the template when it is saved.
+Templates allow you to manage the billable Item, rate, etc. for a particular procedure. The system automatically creates an Item linked to the template when it is saved.
 
 <img class="screenshot" alt="ERPNext Healthcare" src="{{docs_base_url}}/assets/img/healthcare/clinical_procedure_item.png">
 
@@ -30,7 +30,7 @@ You can change the Item Code linked to the Procedure if needed using the **Chang
 
 ### 2.2 Manage Procedure Consumables
 
-The Consumables section lets you set the consumable Stock Items with default quantities etc. which will be needed during the Procedure, so that these items will be preloaded in the Clinical Procedures created based on the template. This allows the performing practitioner to easily input the consumed quantities or add additional items which have been consumed during the actual procedure.
+The Consumables section lets you set the consumable Stock Items with default quantities etc. which will be needed during the Procedure so that these items will be preloaded in the Clinical Procedures created based on the template. This allows the performing practitioner to easily input the consumed quantities or add additional items that have been consumed during the actual procedure.
 
 <img class="screenshot" alt="ERPNext Healthcare" src="{{docs_base_url}}/assets/img/healthcare/procedure_consumables.png">
 
