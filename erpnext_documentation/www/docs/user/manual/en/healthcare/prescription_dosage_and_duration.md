@@ -18,13 +18,13 @@ To Create a new Prescription Dosage, go to:
 
 > Home > Heathcare > Consultation Setup > Prescription Dosage
 
-You can name the Prescription Dosage in anyway you want (for example, BID or I-0-I), and then set the strength of the drug and the times at which it should be consumed.
+You can name the Prescription Dosage in any way you want (for example, BID or I-0-I), and then set the strength of the drug and the times at which it should be consumed.
 
 <img class="screenshot" alt="ERPNext Healthcare" src="{{docs_base_url}}/assets/img/healthcare/prescription_dosage_1.png">
 
 ## Prescription Duration
 
-You can configure the duration for which the Patient has to consume the dosages prescribed for medication in the Prescription Duration master.
+You can configure the duration for which the Patient has to consume the dosages prescribed for the medication in the Prescription Duration master.
 
 This master is pre-configured in ERPNext.
 
