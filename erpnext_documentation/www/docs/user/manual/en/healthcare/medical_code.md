@@ -2,7 +2,7 @@
 
 # Medical Code
 
-Medical Code Standard document is used to name the Code Standard and act as a container for all the medical codes which are standardized under it. For example ICD (International Classification of Diseases) is a Medical Code Standard and ICD-10 codes are alphanumeric, containing 3-7 characters. Each code is a Medical Code that described a particular diagnosis in detail.
+Medical Code Standard document is used to name the Code Standard and act as a container for all the medical codes which are standardized under it. For example, ICD (International Classification of Diseases) is a Medical Code Standard and ICD-10 codes are alphanumeric, containing 3-7 characters. Each code is a Medical Code that described a particular diagnosis in detail.
 
 ## 1. How to Create a Medical Code
 
@@ -27,7 +27,7 @@ Medical Codes and Descriptions can also be imported to create the "Medical Code"
 
 ## 2. Features
 
-In the Patient Encounter, practitioner can easily search and select appropriate ones from preconfigured Medical Codes to enable codification based on each of the services your facility offers. In many regions this is mandatory for processing Patient Insurance eligibility, claim processing and billing.
+In the Patient Encounter, a practitioner can easily search and select appropriate ones from preconfigured Medical Codes to enable codification based on each of the services your facility offers. In many regions this is mandatory for processing Patient Insurance eligibility, claim processing and billing.
 
 <img class="screenshot" alt="ERPNext Healthcare" src="{{docs_base_url}}/assets/img/healthcare/encounter_4.png">
 
