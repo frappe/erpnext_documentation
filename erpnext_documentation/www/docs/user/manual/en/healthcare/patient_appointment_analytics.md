@@ -34,6 +34,6 @@ You can use the checkboxes on the Left Hand Side to choose what rows you want to
 
 <img class="screenshot" src="/docs/assets/img/healthcare/appointment_analytics.gif">
 
-Using the **Set Chart** button, you can set values for the X and Y fields, use different type of charts and select a color.
+Using the **Set Chart** button, you can set values for the X and Y fields, use different types of charts and select a color.
 
 {next}
