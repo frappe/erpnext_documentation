@@ -59,7 +59,7 @@ You can also prescribe a Clinical Procedure to be performed for the Patient in t
 
 The Pharmacy (Sales / Accounts) User can fetch medication and investigation (Lab Test) orders from Patient Encounter using the **Get items from > Prescription** in Sales Invoice.
 
-Clinical Procedure orders can be fetched using the "Get Prescribed Clinical Procedures" button while booking an Appointment for the procedure. These will then be available for billing via the **Get items from > Healthcare Services**.
+Clinical Procedure orders can be fetched using the **Get Prescribed Clinical Procedures** button while booking an Appointment for the procedure. These will then be available for billing via the **Get items from > Healthcare Services**.
 
 <img class="screenshot" alt="ERPNext Healthcare" src="{{docs_base_url}}/assets/img/healthcare/prescription.png">
 
