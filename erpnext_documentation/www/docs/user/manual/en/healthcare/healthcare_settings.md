@@ -19,7 +19,7 @@ To view and change the settings, go to:
 
 * **Default Medical Code Standard**: ERPNext Healthcare allows you to use multiple Medical Code Standards. Here, you can also select the default Medical Code Standard.
 
-* **Collect Fee for Patient Registration**: If you enable this, all new Patients you create will be _Disabled_ by default and will only be enabled after Invoicing the Registration Fee. To create an Invoice and record the Payment Receipt, you can use the "Invoice Patient Registration" button in the Patient document. Also note that all ERPNext Healthcare documents, filter out Patient records that are disabled.
+* **Collect Fee for Patient Registration**: If you enable this, all new Patients you create will be _Disabled_ by default and will only be enabled after Invoicing the Registration Fee. To create an Invoice and record the Payment Receipt, you can use the **Invoice Patient Registration** button in the Patient document. Also note that all ERPNext Healthcare documents, filter out Patient records that are disabled.
 
 * **Registration Fee**: You can set the Registration Fee to be collected here if you have checked "Collect Fee for Patient Registration".
 
