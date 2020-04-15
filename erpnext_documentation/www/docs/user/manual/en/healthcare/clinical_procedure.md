@@ -2,7 +2,7 @@
 
 # Clinical Procedure
 
-ERPNext helps you create and map Clinical Procedures for patients like Wound Cleaning or a Cataract Surgery. System allows you to preconfigure [Clinical Procedure Templates](/docs/user/manual/en/Healthcare/sample_collection), so that you do not have to set the default properties like the consumables, rates, items every time you conduct a Clinical Procedure.
+ERPNext helps you create and map Clinical Procedures for patients like Wound Cleaning or a Cataract Surgery. The system allows you to preconfigure [Clinical Procedure Templates](/docs/user/manual/en/Healthcare/sample_collection), so that you do not have to set the default properties like the consumables, rates, items every time you conduct a Clinical Procedure.
 
 ## 1. How to Create a Clinical Procedure
 
@@ -41,7 +41,7 @@ After the Appointment is booked, the performing practitioner can easily create a
 
 The Practitioner can update the procedure status to _In Progress_ by clicking the **Start** button.
 
-If the procedure has consumables, for the procedure to start, adequate quantity of all consumables must be present in the Healthcare Service Unit's Warehouse. If this fails, the system will ask you to confirm _Stock Transfer_. After you confirm, a [Stock Entry](/docs/user/manual/en/stock/stock-entry) with Entry Type "Material Transfer" will be created and displayed. Validate the Stock Entry auto-created document, Save and Submit. Then you can start the Procedure.
+If the procedure has consumables, for the procedure to start, an adequate quantity of all consumables must be present in the Healthcare Service Unit's Warehouse. If this fails, the system will ask you to confirm _Stock Transfer_. After you confirm, a [Stock Entry](/docs/user/manual/en/stock/stock-entry) with Entry Type "Material Transfer" will be created and displayed. Validate the Stock Entry auto-created document, Save and Submit. Then you can start the Procedure.
 
 <img class="screenshot" alt="ERPNext Healthcare" src="{{docs_base_url}}/assets/img/healthcare/procedure_consumption.png">
 
@@ -56,7 +56,7 @@ When the procedure is completed, the practitioner can update the _Consumables_ t
 You can create Invoices for procedures performed on a patient by going to
 > Home > Selling > Sales > Sales Invoice > Get Items From > Healthcare Services.
 
-This way the billing user need not access the Healthcare module documents and the un-billed services for a Patient will be listed which the user can chose from.
+This way the billing user need not access the Healthcare module documents and the un-billed services for a Patient will be listed which the user can choose from.
 
 If the _Invoice Consumables Separately_ option is turned on, the charges for the consumable Items will be added to the Sales Invoice separately.
 
