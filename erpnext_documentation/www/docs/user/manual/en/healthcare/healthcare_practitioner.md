@@ -27,7 +27,7 @@ In order to track all Human Resource Management activities for the Practitioner,
 
 <img class="screenshot" alt="ERPNext Healthcare" src="{{docs_base_url}}/assets/img/healthcare/practitioner-employee.png">
 
-> Note: Selecting the Employee field will fetch in all relevant fields as configured in the Employee document to help you easily setup the Practitioner
+> Note: Selecting the Employee field will fetch in all relevant fields as configured in the Employee document to help you easily set up the Practitioner
 
 If the Healthcare Practitioners are not employees in your Healthcare Units you can link User to the Practitioner and assign them the required roles.
 
@@ -39,7 +39,7 @@ You can select multiple [Practitioner Schedule](/docs/user/manual/en/Healthcare/
 
 ### 2.3 Healthcare Practitioner Charges
 
-You can select or create the service items for consulting charges and set them in "Out Patient Consulting Charge Item" and "In Patient Consulting Charge Item". These will be fetched in Sales Invoices. You can set the consultation charges which are applicable to the practitioner. If required, you can also select an Income Account for a Physician to book all Consultation charges into separate accounts.
+You can select or create the service items for consulting charges and set them in "Out-Patient Consulting Charge Item" and "In-Patient Consulting Charge Item". These will be fetched in Sales Invoices. You can set the consultation charges which are applicable to the practitioner. If required, you can also select an Income Account for a Physician to book all Consultation charges into separate accounts.
 
 <img class="screenshot" alt="ERPNext Healthcare" src="{{docs_base_url}}/assets/img/healthcare/practitioner_charges.png">
 
