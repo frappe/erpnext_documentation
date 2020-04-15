@@ -2,7 +2,7 @@
 
 # Vital Signs
 
-ERPNext Healthcare helps you to capture Vital Signs of Patients at any point in the treatment process. All Vitals information over time can be viewed as part of the Patient History.
+ERPNext Healthcare helps you to capture the Vital Signs of Patients at any point in the treatment process. All Vitals information over time can be viewed as part of the Patient History.
 
 ## 1. How to Create Vital Signs
 
