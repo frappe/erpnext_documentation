@@ -24,8 +24,8 @@ You can book appointments for a registered Patient by searching for Patient by P
 
 ## 2. How to Create a Patient Appointment
 
-1. Go to Patient Appointment list, click on New.
-2. Select the [Patient](/docs/user/manual/en/Healthcare/Patient) for which you want to set up an Appointment. The Patient Name, Gender and Patient Age will be auto-fetched on selecting the Patient. If the patient is an Inpatient (Admitted) then the Inpatient Record will also be auto-fetched for them.
+1. Go to the Patient Appointment list, click on New.
+2. Select the [Patient](/docs/user/manual/en/Healthcare/Patient) for which you want to set up an Appointment. The Patient Name, Gender, and Patient Age will be auto-fetched on selecting the Patient. If the patient is an Inpatient (Admitted) then the Inpatient Record will also be auto-fetched for them.
 3. You can optionally select the [Service Unit](/docs/user/manual/en/Healthcare/healthcare_service_unit) where you would want to schedule the appointment.
 4. If you need to book Appointment for Clinical Procedure select a [Clinical Procedure Template](/docs/user/manual/en/Healthcare/clinical_procedure_template). If you want to select a Clinical Procedure which has been prescribed for the patient in the previous Patient Encounter click on **Get Prescribed Clinical Procedures** button to select from a list of Clinical Procedures that are prescribed for the selected Patient.
 5. You can optionally select the "Appointment Type" and the "Duration (in minutes)". Note that, selecting the "Appointment Type" will automatically set the duration of the appointment as configured in the Appointment Type. This will allow you to override the duration of appointments set by the Practitioner Schedule and the time slots will adjust to the next available time automatically.
@@ -55,17 +55,17 @@ You can reschedule the Patient Appointment by clicking on the **Reschedule** but
 
 Patient Appointment booking considers any "Approved" Leave Applications for the Practitioner (Employee linked in the master) and does not allow booking Patient Appointments on such days.
 
-While booking it also checks for Appointment Overlaps and restricts the booking for same slots.
+While booking it also checks for Appointment Overlaps and restricts the booking for the same slots.
 
 ### 3.4 Notes and Referrals
 
-In the "More Info" section of Patient Appointment document, user can add "Notes" and also select a "Referring Practitioner" to help track referrals.
+In the "More Info" section of the Patient Appointment document, the user can add "Notes" and also select a "Referring Practitioner" to help track referrals.
 
 <img class="screenshot" alt="ERPNext Healthcare" src="{{docs_base_url}}/assets/img/healthcare/more_info.png">
 
 ### 3.5 Out Patient SMS Alerts
 
-Optionally, you can configure [Healthcare Settings](/docs/user/manual/en/Healthcare/healthcare_settings) in ERPNext to automatically send an SMS alert to the Patients about the booking confirmation via "Out Patient SMS Alerts".
+Optionally, you can configure [Healthcare Settings](/docs/user/manual/en/Healthcare/healthcare_settings) in ERPNext to automatically send an SMS alert to the Patients about the booking confirmation via "Out-Patient SMS Alerts".
 
 <img class="screenshot" alt="ERPNext Healthcare" src="{{docs_base_url}}/assets/img/healthcare/outpatient_sms_alert.png">
 
@@ -82,7 +82,7 @@ If enabled, the Patient Appointment will prompt you to select the **Mode of Paym
 
 Status indicates the state of the Patient Appointment. The various Statuses are:
 
-- **Scheduled**: When the Patient Appointment has not yet started but scheduled on a future Date.
+- **Scheduled**: When the Patient Appointment has not yet started but scheduled on a future date.
 - **Open**: When the Patient Appointment has been scheduled for today.
 - **Closed**: When a Patient Encounter or Clinical Procedure has been created for the Patient Appointment.
 - **Expired**: When the Appointment date has passed and no Patient Encounter or Clinical Procedure has been created against it.
@@ -103,7 +103,7 @@ Status indicates the state of the Patient Appointment. The various Statuses are:
 
   * **Reschedule**: For rescheduling the Appointment.
 
-  * **Cancel**: For cancelling the Appointment
+  * **Cancel**: For canceling the Appointment
 
 > This Form has been Changed in Version 13
 
