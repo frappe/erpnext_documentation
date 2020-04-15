@@ -1,7 +1,7 @@
 <!-- add-breadcrumbs -->
 # Healthcare Service Unit
 
-ERPNext Healthcare helps you map your Facility Infrastructure and manage Appointment Scheduling, Billing etc by creating Healthcare Service Units. These are made available for Appointment Booking or Inpatient Occupancy and also for Billing.
+ERPNext Healthcare helps you map your Facility Infrastructure and manage Appointment Scheduling, Billing, etc by creating Healthcare Service Units. These are made available for Appointment Booking or Inpatient Occupancy and also for Billing.
 
 ## 1. How to Create a Healthcare Service Unit
 
