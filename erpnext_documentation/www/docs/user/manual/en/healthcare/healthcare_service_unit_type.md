@@ -47,6 +47,8 @@ If you want to change the Item Code of the item created for the billable Healthc
 
 <img class="screenshot" alt="ERPNext Healthcare" src="{{docs_base_url}}/assets/img/healthcare/healthcare_service_unit_type_3.png">
 
+> This Form has been Changed in Version 13
+
 ## 2. Related Topics
 1. [Healthcare Service Unit](/docs/user/manual/en/healthcare/healthcare_service_unit)
 

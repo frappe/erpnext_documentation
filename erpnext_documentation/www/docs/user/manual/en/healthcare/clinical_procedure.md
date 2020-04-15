@@ -60,6 +60,8 @@ This way the billing user need not access the Healthcare module documents and th
 
 If the _Invoice Consumables Separately_ option is turned on, the charges for the consumable Items will be added to the Sales Invoice separately.
 
+> This Form has been Changed in Version 13
+
 ## 3. Related Topics
 
 1. [Clinical Procedure Template](/docs/user/manual/en/Healthcare/clinical_procedure_template)

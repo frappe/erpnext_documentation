@@ -33,6 +33,8 @@ This Fee Validity document will be updated with every appointment:
 
 <img class="screenshot" alt="ERPNext Healthcare" src="{{docs_base_url}}/assets/img/healthcare/fee_validity_completed.png">
 
+> This Form has been Changed in Version 13
+
 ## 2. Related Topics
 
 1. [Patient Appointment](/docs/user/manual/en/Healthcare/patient_appointment)

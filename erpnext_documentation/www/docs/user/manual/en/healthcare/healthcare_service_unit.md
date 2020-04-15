@@ -27,6 +27,8 @@ It is also possible that you can group and organize all the service units in a h
 
 <img class="screenshot" alt="ERPNext Healthcare" src="{{docs_base_url}}/assets/img/healthcare/healthcare_service_unit.png">
 
+> This Form has been Changed in Version 13
+
 ## 3. Related Topics
 
 1. [Healthcare Service Unit Type](/docs/user/manual/en/healthcare/healthcare_service_unit_type)

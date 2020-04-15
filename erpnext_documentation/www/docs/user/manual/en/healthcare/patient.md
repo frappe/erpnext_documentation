@@ -70,6 +70,9 @@ If you have this option enabled, all new Patients you create will be in "Disable
 ERPNext Healthcare allows you to create a portal user associated with a Patient by simply entering the user email id. A welcome email will be sent to the Patient email address to "Complete" registration.
 
 ### 2.5. Actions
+
+> Note: User should have appropriate privileges (User Role) to view the buttons
+
 You can use the document links in the dashboard to traverse the linked document list with Patient filter applied, or use the + icons to create new records. Apart from this, the Patient document allows you to,
 
 * View Patient's Health History, using **View > Patient History** button.
@@ -82,7 +85,7 @@ You can use the document links in the dashboard to traverse the linked document 
 
 The Patient document holds the Patient barcode and can be used in any the default print formats or any [Custom Print Formats](docs/user/manual/en/customize-erpnext/print-format) that you create for printing patient identification tags.
 
-> Note: User should have appropriate privileges (User Role) to view the buttons
+> This Form has been Changed in Version 13
 
 ## 3. Related Topics
 1. [Healthcare Settings](/docs/user/manual/en/Healthcare/healthcare_settings)

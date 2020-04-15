@@ -65,6 +65,8 @@ Clinical Procedure orders can be fetched using the "Get Prescribed Clinical Proc
 
 ## 3. Actions
 
+> Note: User should have appropriate privileges (User Role) to view the buttons
+
 After you have completed filling up all the necessary sections, you can Submit the document. The Action buttons will be visible only after submission.
 
   * Vital Signs: **Create > Vital Signs** button will take you to the new Vital Signs screen to record the vitals of the Patient.
@@ -77,7 +79,7 @@ After you have completed filling up all the necessary sections, you can Submit t
 
   * Schedule Admission: You can Schedule Admission using this button. This will create an Inpatient Record.
 
-> Note: User should have appropriate privileges (User Role) to view the buttons
+> This Form has been Changed in Version 13
 
 ## 4. Related Topics
 

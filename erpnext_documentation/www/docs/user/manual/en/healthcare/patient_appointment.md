@@ -93,6 +93,8 @@ Status indicates the state of the Patient Appointment. The various Statuses are:
 
 ## 4. Actions
 
+> Note: User should have appropriate privileges (User Role) to view the buttons
+
   * Vital Signs: **Create > Vital Signs** button will take you to the new Vital Signs screen to record the vitals of the Patient.
 
   * Encounter: From the Appointment screen you can directly create and record the "Patient Encounter" to record the details of the visit using the **Create > Patient Encounter** button.
@@ -103,7 +105,7 @@ Status indicates the state of the Patient Appointment. The various Statuses are:
 
   * **Cancel**: For cancelling the Appointment
 
-> Note: User should have appropriate privileges (User Role) to view the buttons
+> This Form has been Changed in Version 13
 
 ## 5. Related Topics
 1. [Patient](/docs/user/manual/en/Healthcare/patient)

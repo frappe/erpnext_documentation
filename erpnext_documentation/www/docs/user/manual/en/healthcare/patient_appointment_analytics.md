@@ -2,6 +2,8 @@
 
 # Patient Appointment Analytics
 
+> Introduced in Version 13
+
 Appointment Analytics Report helps you get insights about the number of Appointments created according to:
 
 - Medical Departments

@@ -46,6 +46,8 @@ Note that you can also enable "Sample Collection" for a Clinical Procedure if ap
 
 <img class="screenshot" alt="ERPNext Healthcare" src="{{docs_base_url}}/assets/img/healthcare/sample_collection.png">
 
+> This Form has been Changed in Version 13
+
 ## 3. Related Topics
 
 1. [Clinical Procedure](/docs/user/manual/en/Healthcare/clinical_procedure)

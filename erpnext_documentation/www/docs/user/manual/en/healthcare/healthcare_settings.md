@@ -7,6 +7,8 @@ To view and change the settings, go to:
 
 > Home > Healthcare > Settings > Healthcare Settings
 
+> Note: Ensure that you have "Healthcare Administrator" role enabled for your User to access this page.
+
 ## 1. Out Patient Settings
 
 <img class="screenshot" alt="ERPNext Healthcare" src="{{docs_base_url}}/assets/img/healthcare/healthcare_settings_1.png">
@@ -75,6 +77,6 @@ You can configure ERPNext Healthcare to alert Patients via SMS when the Lab Test
 
 <img class="screenshot" alt="ERPNext Healthcare" src="{{docs_base_url}}/assets/img/healthcare/healthcare_settings_6.png">
 
-> Note: Ensure that you have "Healthcare Administrator" role enabled for your User to access this page.
+> This Form has been Changed in Version 13
 
 {next}
