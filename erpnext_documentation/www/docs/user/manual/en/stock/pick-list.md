@@ -30,10 +30,12 @@ Before creating and using a Pick List, it is advised that you create the followi
 ## 2. How to create Pick List
 
 1. Go to the Pick List list, click on New.
+ <img class='screenshot' alt='Unsaved Pick List' src='{{docs_base_url}}/assets/img/stock/pick-list-unsaved-doc.png'>
+
 1. Set the Company.
 1. Select the Purpose of Pick List. These are the options under Purpose:
 
-   - **Delivery against Sales Order:** This option will let you add Items from a Sales Order. After submitting Pick List a new Delivery Note can be created based on the Warehouse from which items were picked.
+   - **Delivery:** This option will let you add Items from a Sales Order, to deliver. After submitting Pick List a new Delivery Note can be created based on the Warehouse from which items were picked.
 
    - **Material Transfer for Manufacture:** This will let you select a Work Order from which raw materials will be pulled for picking. You will be presented with an option to select the number of finished goods for which you want to pick raw materials. After picking the stock you can create Stock Entry for the picked items i.e., raw materials.
 
@@ -99,7 +101,17 @@ Before creating and using a Pick List, it is advised that you create the followi
 > - Only Material Requests with type 'Material Transfer' can be used for Pick List creation.
 > - A **Stock Entry** of type 'Material Transfer' can be created after the Pick List is submitted.
 
-## 3. Related Topics
+## 3. Features
+
+### 3.1. Update Current Stock
+
+If a Pick List is outdated, there could be a shift in stock availabilty by the time a Delivery Note or Stock Entry is created against it. Clicking **Update Current Stock** will update the quantities and warehouses in the Item Locations table.
+
+> **Note:**
+>
+> - This button is visible as long as there are no Delivery Notes or Stock Entries against the Pick List.
+
+## 4. Related Topics
 
 1. [Sales Order](/docs/user/manual/en/selling/sales-order)
 1. [Work Order](/docs/user/manual/en/manufacturing/work-order)
