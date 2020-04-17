@@ -38,7 +38,8 @@ Items can be fetched into the Purchase Order automatically from open [Material R
 1. Select a Supplier in the Purchase Order.
 1. Set default Supplier in the Item form under [Item Defaults](/docs/user/manual/en/stock/item#39-item-defaults).
 1. A [Material Request](/docs/user/manual/en/stock/material-request) needs to present of type 'Purchase'.
-1. Click on the **Get Items from Open Material Requests** button. Now the Items will be fetched from the Material Requests for which the default Supplier is the same as the one selected in the Purchase Order.
+1. Click on the **Get Items from Open Material Requests** button. Now a dialog will appear with Material Requests containing Items for which the default Supplier is the same as the one selected in the Purchase Order. On selecting the Material Requests and clicking on **Get Items**, the Items will be fetched from the Material Requests.
+<img class="screenshot" alt="Get Items from Open Material Requests" src="{{docs_base_url}}/assets/img/buying/get-items-from-open-mr.png">
 
 ## 3. Features
 
@@ -82,7 +83,7 @@ A “Required By” date on each Item: If you are expecting part delivery, your 
 **Allow Zero Valuation Rate**: Ticking on 'Allow Zero Valuation Rate' will allow submitting the Purchase Receipt even if the Valuation Rate of the Item is 0. This can be a sample item or due to a mutual understanding with your Supplier.
 
 ### 3.6 Raw Materials Supplied
-This section appears when 'Supply Raw Materials' supplied is set to 'Yes'. This section shows a table with the Items to be supplied to the Supplier for the subcontracting process. 
+This section appears when 'Supply Raw Materials' supplied is set to 'Yes'. This section shows a table with the Items to be supplied to the Supplier for the subcontracting process.
 
 * **Set Reserve Warehouse**: When [Subcontracting](/docs/user/manual/en/manufacturing/subcontracting), the raw materials can be reserved in a separate Warehouse. On selecting the Reserved Warehouse here, it'll be fetched into Item rows of the Raw Materials Supplied table.
 
@@ -119,7 +120,7 @@ shipping or insurance charge, you can add it here. It will help you to
 accurately track your costs. Also, if some of these charges add to the value
 of the product you will have to mention them in the Taxes table.
 
-Visit the [Purchase Taxes and Charges Template](/docs/user/manual/en/buying/purchase-taxes-and-charges-template) page to know more about taxes. 
+Visit the [Purchase Taxes and Charges Template](/docs/user/manual/en/buying/purchase-taxes-and-charges-template) page to know more about taxes.
 
 The total taxes and charges will be displayed below the table.
 
@@ -139,7 +140,7 @@ to your Supplier for X, what you owe your government is only the tax on 0.3X.
 This is very easy to track in ERPNext since each tax head is also an Account.
 Ideally you must create two Accounts for each type of VAT you pay and collect,
 “Purchase VAT-X” (asset) and “Sales VAT-X” (liability), or something to that
-effect. 
+effect.
 
 ### 3.9 Additional Discount
 Other than recording discount per item, you can add a discount to the whole purchase order in this section. This discount could be based on the Grand Total i.e., post tax/charges or Net total i.e., pre tax/charges. The additional discount can be applied as a percentage or an amount.
