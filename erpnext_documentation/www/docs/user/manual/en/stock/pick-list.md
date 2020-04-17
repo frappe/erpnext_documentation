@@ -77,7 +77,7 @@ Before creating and using a Pick List, it is advised that you create the followi
 1. Go to a [Work Order](/docs/user/manual/en/manufacturing/work-order).
 1. Click **Create Pick List** button.
 1. You'll see the dialog box asking for the quantity of Finished Goods Item. This is required to calculate the number of raw material items required to manufacture the entered quantity of Finished Goods Item.
-<img class='screenshot' alt='Dailog For qty' src='{{docs_base_url}}/assets/img/stock/pick-list-dialog-for-qty.png'>
+<img class='screenshot' alt='Dialog For qty' src='{{docs_base_url}}/assets/img/stock/pick-list-dialog-for-qty.png'>
 
 1. You should be able to see the Item locations table with the Warehouse selected for each raw material item.
 1. Save this document and then this document can be forwarded to the person who is picking the stock.
@@ -105,7 +105,7 @@ Before creating and using a Pick List, it is advised that you create the followi
 
 ### 3.1. Update Current Stock
 
-If a Pick List is outdated, there could be a shift in stock availabilty by the time a Delivery Note or Stock Entry is created against it. Clicking **Update Current Stock** will update the quantities and warehouses in the Item Locations table.
+If a Pick List is outdated, there could be a shift in stock availability by the time a Delivery Note or Stock Entry is created against it. Clicking **Update Current Stock** will update the quantities and warehouses in the Item Locations table.
 
 > **Note:**
 >
