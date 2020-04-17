@@ -48,7 +48,7 @@ These are the statuses a Material Request can be in:
 * **Stopped**: If no more materials are needed the Material Request can be stopped.
 * **Canceled**: The materials are not needed at all and the request is canceled.
 * **Pending**: The Purchase/Manufacture is pending to complete the Material Request.
-* **Partially Ordered**: Purchse Orders for some Items from the Material Request are made and some are pending.
+* **Partially Ordered**: Purchase Orders for some Items from the Material Request are made and some are pending.
 * **Ordered**: All Items in the Material Request are ordered via Purchase Orders.
 * **Issued**: The materials are issued using a Material Issue Stock Entry.
 * **Transferred**: The required materials are transferred from one Warehouse to another using a Stock Entry.
