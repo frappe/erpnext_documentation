@@ -66,7 +66,7 @@ Once you click Update, your Customizations will be updated to the Form.
 
 ### 1.2. Customizing the Fields
 
-Every form in ERPNext has a standard set of fields. If you need to capture some information, but there is no standard field available for it, you can insert Custom Field in a form as per your requirement. Adding, editing or deleting of Feilds can also be done here. You can also place the fields as per your requirement in the form by adding it below or above any other already present fields. [Click here](/docs/user/manual/en/customize-erpnext/custom-field) for more information on Custom Fields.
+Every form in ERPNext has a standard set of fields. If you need to capture some information, but there is no standard field available for it, you can insert Custom Field in a form as per your requirement. Adding, editing or deleting of Fields can also be done here. You can also place the fields as per your requirement in the form by adding it below or above any other already present fields. [Click here](/docs/user/manual/en/customize-erpnext/custom-field) for more information on Custom Fields.
 
 ## 2. Videos
 
