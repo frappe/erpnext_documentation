@@ -61,7 +61,7 @@ Here is a video to get you started:
 
 <div>
   <div class='embed-container'>
-    <iframe src='https://www.youtube.com/embed/vKjHRzMEei0' frameborder='0' allowfullscreen>
+    <iframe src='https://www.youtube.com/embed/j60xyNFqX_A' frameborder='0' allowfullscreen>
     </iframe>
   </div>
 </div>
