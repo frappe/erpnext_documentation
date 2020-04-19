@@ -35,7 +35,7 @@ You can also go to the list view of any DocType and select Customize from the Me
 
   *Learn more about field types [here](/docs/user/manual/en/customize-erpnext/articles/field-types.html).*
 
-1. **Default Print Format**: For a single DocType, there could be multiple Print Formats. Here you can select the default Print FOrmat for the seleted DocType. For e.g., a company may have different Letter Heads for different purposes which can be configured through Print Formats. However, you can select two different Default Print Formats for a Sales Order and a Appointment Letter. Check [Custom Print Formats](/docs/user/manual/en/customize-erpnext/print-format) for more information.
+1. **Default Print Format**: For a single DocType, there could be multiple Print Formats. Here you can select the default Print FOrmat for the selected DocType. For e.g., a company may have different Letter Heads for different purposes which can be configured through Print Formats. However, you can select two different Default Print Formats for a Sales Order and a Appointment Letter. Check [Custom Print Formats](/docs/user/manual/en/customize-erpnext/print-format) for more information.
 1. **Image Field**: You can select an "Attach Image" Field for your Image Field. This becomes the Image representing that particular DocType. E.g., the 'Image Field' for an Employee could be their photograph or a snapshot of their ID cards; the same can be configured here.
 
   <img alt="Customize Form select doctype" class="screenshot" src="{{docs_base_url}}/assets/img/setup/customize-form-2.png">
