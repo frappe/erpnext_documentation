@@ -16,7 +16,7 @@ If 'Allow Self Enroll' is not checked, the program will be visible to only those
 
 ![LMS Setting](/docs/assets/img/education/education-lms-settings-1.png)
 
-![LMS Setting](/docs/assets/img/education/education-lmms-3.png)
+![LMS Setting](/docs/assets/img/education/education-lms-3.png)
 
 Learn more about Programs [here](/docs/user/manual/en/education/program).
 
