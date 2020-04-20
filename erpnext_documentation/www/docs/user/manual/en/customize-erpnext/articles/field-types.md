@@ -61,7 +61,7 @@ This field will give you a date and time picker. The current date and time (as p
 
 #### Barcode
 
-In this field, you can specify the field as Barcode which will allow you to enter a Barcode number. Oce you do that, the Barcode would automatically get generated against the number. 
+In this field, you can specify the field as Barcode which will allow you to enter a Barcode number. Oce you do that, the Barcode would automatically get generated against the number.
 
 <img alt="Field Types" class="screenshot" src="{{docs_base_url}}/assets/img/customize/customize-barcode.png">
 
@@ -85,7 +85,7 @@ You will have the option of specifying the color for this Form.
 
 #### Column Break
 
-Since ERPNext has multiple column layouts, using Column Breaks, you can divide a set of fields into a maximum of two columns. 
+Since ERPNext has multiple column layouts, using Column Breaks, you can divide a set of fields into a maximum of two columns.
 
 <img alt="Field Types" class="screenshot" src="{{docs_base_url}}/assets/img/customize/customize-column break.png">
 
@@ -97,7 +97,7 @@ Currency field holds numeric value, like Item Price, Amount, etc. Currency field
 
 #### Data
 
-The data field will be a simple text field. It allows you to enter a value of up to 140 characters.
+The data field will be a simple text field. It allows you to enter a value of up to 140 characters, making this the most generic field type. To enable validations for Email or Phone Number inputs, set options to "Email" or "Phone" in Settings > DocType.
 
 <img alt="Field Types" class="screenshot" src="{{docs_base_url}}/assets/img/customize/customize-data-field.png">
 
@@ -197,7 +197,7 @@ You can define the field to be a Signature field wherein you can add the Digital
 
 #### Table MultiSelect
 
-This is a combination of 'Link' type and 'Table' type fields. Instead of a child table with 'Add Row' button, in one field multiple values can be selected.  
+This is a combination of 'Link' type and 'Table' type fields. Instead of a child table with 'Add Row' button, in one field multiple values can be selected.
 
 <img alt="Field Types" class="screenshot" src="{{docs_base_url}}/assets/img/customize/customize-table-multiselect.png">
 
