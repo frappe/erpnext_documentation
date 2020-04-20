@@ -14,7 +14,7 @@ There you add a new client, select open-id as client protocol and enter the addr
 
 Adding your ERNext service as a client is being [offered as a service by fairkom](https://erp.fairkom.net/cloud/fairlogin-client). 
 
-![ERPnext keycloak Settings](/docs/assets/img/setup/integrations/fairloginKeycloakERPnext.png)
+![ERPnext keycloak Settings](/docs/assets/img/erpnext_integrations/fairloginKeycloakERPnext.png)
 
 ## Setup fairlogin
 
@@ -26,7 +26,7 @@ To enable fairlogin as an ERPNext login option, you need to configure the follow
 - Access Token URL https://id.fairkom.net/auth/realms/fairlogin/protocol/openid-connect/token
 - API Endpoint https://id.fairkom.net/auth/realms/fairlogin/protocol/openid-connect/userinfo
 
-![ERPnext fairlogin Settings](/docs/assets/img/setup/integrations/fairloginERPnextSettings.png)
+![ERPnext fairlogin Settings](/docs/assets/img/erpnext_integrations/fairloginERPnextSettings.png)
 
 On enabling service, the system will allow to login with any fairlogin account. 
 
