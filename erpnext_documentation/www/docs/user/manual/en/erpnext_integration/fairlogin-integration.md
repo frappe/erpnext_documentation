@@ -27,7 +27,7 @@ To enable fairlogin as an ERPNext login option, you need to configure the follow
 - API Endpoint https://id.fairkom.net/auth/realms/fairlogin/protocol/openid-connect/userinfo
 
 ![ERPnext fairlogin Settings](/docs/assets/img/setup/integrations/fairloginERPnextSettings.png)
-
+ 
 On enabling service, the system will allow to login with any fairlogin account. 
 
 The default role of a new user is Blogger (currently hardcoded). 
