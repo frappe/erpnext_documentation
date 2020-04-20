@@ -46,7 +46,7 @@ You can also go to [Customize Form](/docs/user/manual/en/customize-erpnext/custo
    <img alt="Custom Field" class="screenshot" src="{{docs_base_url}}/assets/img/customize/custom-field-description-1.png">
 
 1. **Permission Level**: This will allow you to specify which roles within your organization will be able to edit this Field. You can go through [Role Based Permissions](/docs/user/manual/en/setting-up/users-and-permissions/role-based-permissions) for more understanding on this.
-1. **In Preview**: If [Show Preview Popup](/docs/user/manual/en/customize-erpnext/customize-form#13-more-properties) for the document type is checked, the Field will be included in the popup that appears on hover of links of the document type (in list view and other link fields).
+1. **In Preview**: If [Show Preview Popup](/docs/user/manual/en/customize-erpnext/customize-form#13-more-properties) for the document type is checked, the Field will be included in the popup that appears on hovering over links of the document type (in list view and other link fields).
 1. **Width**: This will define the width allocated to this Field while viewing the Form in a Grid View.
 1. **Columns**: You can define the number of Columns in the grid view of the DocType.
 
