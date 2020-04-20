@@ -21,6 +21,6 @@ To enable the same, you may choose to create the Employee's Salary Slip directly
 
   1. **Earnings and Deduction**: Any Earnings like HRA, Incentives etc. or Deductions like Income Tax, Provident Fund etc. in the Salary generated from the Timesheet can be mentioned here.
   2. **Other Information**: According to the Salary Structure of the Employee, the Gross payment information, the Loan Repayment Information, and the Net Pay information will get auto-captured.
-  3. For a detailed guide on setting up payroll via timesheets, <a href="https://frappe.io/kb/hr/create-payroll-entry-with-timesheets" target="_blank">click here</a>.
+  3. For a detailed guide on setting up overtime via timesheets, <a href="https://frappe.io/kb/hr/create-payroll-entry-with-timesheets" target="_blank">click here</a>.
 
 {next}
