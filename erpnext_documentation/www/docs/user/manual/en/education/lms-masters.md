@@ -57,7 +57,8 @@ The article is published if its parent program is published, it looks as follows
 ![LMS Setting](/docs/assets/img/education/education-lms-settings-8.png)
 
 ### 5.2 Videos
-Videos can be added from both Vimeo and YouTube, the appropriate provider has to be set, but default the provider is set to YouTube.
+
+Videos can be added from both Vimeo and YouTube, using the [Video](/docs/user/manual/en/using-erpnext/video) DocType. The appropriate provider has to be set, but by default the provider is set to YouTube.
 
 Title field stores the name of the document as well as the title to be displayed on the portal. You can also add a publish date as well as the duration of the video in minutes.
 
