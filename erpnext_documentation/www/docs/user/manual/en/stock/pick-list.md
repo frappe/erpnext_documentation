@@ -109,7 +109,7 @@ If a Pick List is outdated, there could be a shift in stock availability by the 
 
 > **Note:**
 >
-> - This button is visible as long as there are no Delivery Notes or Stock Entries against the Pick List.
+> This button is visible as long as there are no Delivery Notes or Stock Entries against the Pick List.
 
 ## 4. Related Topics
 
