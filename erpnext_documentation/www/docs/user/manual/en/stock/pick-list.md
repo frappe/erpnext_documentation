@@ -107,9 +107,7 @@ Before creating and using a Pick List, it is advised that you create the followi
 
 If a Pick List is outdated, there could be a shift in stock availability by the time a Delivery Note or Stock Entry is created against it. Clicking **Update Current Stock** will update the quantities and warehouses in the Item Locations table.
 
-> **Note:**
->
-> This button is visible as long as there are no Delivery Notes or Stock Entries against the Pick List.
+> **Note:** This button is visible as long as there are no Delivery Notes or Stock Entries against the Pick List.
 
 ## 4. Related Topics
 
