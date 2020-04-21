@@ -3,7 +3,7 @@
 
 **Activity Cost records the per-hour billing rate and costing rate of an Employee against a particular Activity Type.**
 
-This rate is pulled by the system while making Timesheets. It is used for Project Costing.
+The system pulls this rate while making Timesheets. It is used to determine the [Project Cost](/docs/user/manual/en/projects/project#23-costing-and-billing).
 
 <img class="screenshot" alt="Activity Cost" src="{{docs_base_url}}/assets/img/project/projects-activity-cost.png">
 
@@ -18,7 +18,7 @@ To access Activity Cost, go to,
   3. Add the Costing Rate and the Billing Rate for the Employee.
   3. Save.
 
-Alternatively, an Activity Cost can also be created via an [Activity List](/docs/user/manual/en/projects/activity-type).
+Alternatively, an Activity Cost can also be created via the [Activity List](/docs/user/manual/en/projects/activity-type).
 
 <img class="screenshot" alt="Activity Cost" src="{{docs_base_url}}/assets/img/project/projects-activity-cost-activity-type.png">
 
