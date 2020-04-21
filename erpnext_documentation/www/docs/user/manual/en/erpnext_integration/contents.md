@@ -30,6 +30,8 @@
 3. [Gocardless Integration](/docs/user/manual/en/erpnext_integration/gocardless-integration)
 4. [Stripe Integration](/docs/user/manual/en/erpnext_integration/stripe-integration)
 5. [Braintree Integration](/docs/user/manual/en/erpnext_integration/braintree-integration)
+6. [AuthorizeNet Integration](/docs/user/manual/en/erpnext_integration/authorizenet-integration)
+
 
 ### Telephony Integration
 1. [Exotel Integration](/docs/user/manual/en/erpnext_integration/exotel_integration)
