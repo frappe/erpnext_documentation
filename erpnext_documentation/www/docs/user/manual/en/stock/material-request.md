@@ -48,7 +48,7 @@ These are the statuses a Material Request can be in:
 * **Stopped**: If no more materials are needed the Material Request can be stopped.
 * **Canceled**: The materials are not needed at all and the request is canceled.
 * **Pending**: The Purchase/Manufacture is pending to complete the Material Request.
-* **Partially Ordered**: Purchse Orders for some Items from the Material Request are made and some are pending.
+* **Partially Ordered**: Purchase Orders for some Items from the Material Request are made and some are pending.
 * **Ordered**: All Items in the Material Request are ordered via Purchase Orders.
 * **Issued**: The materials are issued using a Material Issue Stock Entry.
 * **Transferred**: The required materials are transferred from one Warehouse to another using a Stock Entry.
@@ -59,6 +59,8 @@ These are the statuses a Material Request can be in:
 * **Barcode**: You can track Items using [barcodes](/docs/user/manual/en/stock/articles/track-items-using-barcode).
 
 * The Item Code, name, description, Image, and Manufacturer will be fetched from the Item master.
+
+* **Scan Barcode**: You can add Items in the Items table by scanning their barcodes if you have a barcode scanner. Know how to track them [here](/docs/user/manual/en/stock/articles/track-items-using-barcode)
 
 * The UoM, Conversion Factor, and Amount will be fetched. You change the Warehouse for which the material is being requested.
 
@@ -82,9 +84,9 @@ In Sales/Purchase transactions there might be certain Terms and Conditions based
 ### 2.5 After Submitting
 You can create the following documents:
 
-* [Request For Quotation](/docs/user/manual/en/buying/request-for-quotation) 
-* [Purchase Order](/docs/user/manual/en/buying/purchase-order) 
-* [Supplier Quotation](/docs/user/manual/en/buying/supplier-quotation) 
+* [Request For Quotation](/docs/user/manual/en/buying/request-for-quotation)
+* [Purchase Order](/docs/user/manual/en/buying/purchase-order)
+* [Supplier Quotation](/docs/user/manual/en/buying/supplier-quotation)
 
 <img class="screenshot" alt="Material Request" src="{{docs_base_url}}/assets/img/stock/material-request.png">
 
@@ -105,6 +107,6 @@ Material Requests can be generated automatically by enabling the setting in [Sto
 1. [Item](/docs/user/manual/en/stock/item)
 1. [Auto Creation Of Material Request](/docs/user/manual/en/stock/articles/auto-creation-of-material-request)
 1. [Pick List](/docs/user/manual/en/stock/pick-list#23-create-pick-list-from-material-request)
-1. [Request For Quotation](/docs/user/manual/en/buying/request-for-quotation) 
-1. [Purchase Order](/docs/user/manual/en/buying/purchase-order) 
-1. [Supplier Quotation](/docs/user/manual/en/buying/supplier-quotation) 
+1. [Request For Quotation](/docs/user/manual/en/buying/request-for-quotation)
+1. [Purchase Order](/docs/user/manual/en/buying/purchase-order)
+1. [Supplier Quotation](/docs/user/manual/en/buying/supplier-quotation)

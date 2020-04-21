@@ -233,7 +233,7 @@ debts.
 
 ### 3.11 Opening Entry
 
-This entry is useful when moving from a another software to ERPNext mid year. Your outstanding bills, equities etc can be recorded to ERPNext using this entry type. Selecting type will fetch the Balance Sheet accounts. 
+This entry is useful when moving from an another software to ERPNext during any time of the year. Your outstanding bills, equities etc. can be recorded to ERPNext using this entry type. Selecting type will fetch the Balance Sheet accounts. 
 
 ### 3.12 Depreciation
 
