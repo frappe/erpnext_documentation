@@ -17,7 +17,7 @@ To enable Authorizenet payment service, you need to configure parameters like AP
 
 On enabling service, the system will create Payment Gateway record and Account head in chart of accounts having account type as Bank.
 
-<img class="screenshot" alt="AuthorizeNet Settings" src="{{docs_base_url}}/assets/img/setup/integrations/authorizenet_coa.png">
+<img class="screenshot" alt="AuthorizeNet Chart Of Accounts" src="{{docs_base_url}}/assets/img/setup/integrations/authorizenet_coa.png">
 
 Also, it will create Payment Gateway Account entry. Payment Gateway Account is configuration hub from this you can set account head from existing COA, default Payment Request email body template.
 
