@@ -129,13 +129,13 @@ Image field will render an image file selected in another attach field.
 
 For the Image field, under Option (in Doctype), a field name should be provided where the image file is attached. By referring to the value in that field, the image will be a reference in the Image field.
 
-<img alt="Field Types" class="screenshot" src="{{docs_base_url}}/assets/img/customize/cutomize-image-field.png">
+<img alt="Field Types" class="screenshot" src="{{docs_base_url}}/assets/img/customize/customize-image-field.png">
 
 #### Int (Integer)
 
 The integer field holds numeric value, without decimal place.
 
-<img alt="Field Types" class="screenshot" src="{{docs_base_url}}/assets/img/customize/cuxtomize-int-field.png">
+<img alt="Field Types" class="screenshot" src="{{docs_base_url}}/assets/img/customize/customize-int-field.png">
 
 #### Small Text
 
