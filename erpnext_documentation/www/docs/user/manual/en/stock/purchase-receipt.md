@@ -19,11 +19,11 @@ Before creating and using a Purchase Receipt, it is advised that you create the 
 
 ## 2. How to create a Purchase Receipt
 A Purchase Receipt is usually created from a [Purchase Order](/docs/user/manual/en/buying/purchase-order). In the Purchase Order, click on Create > Purchase Receipt.
-    
+
 To create a Purchase Receipt _manually_ (not recommended), follow these steps:
 
 1. Go to the Purchase Receipt list, click on New.
-1. The Supplier name and the Items can be fetched from the Purchase Order by clicking on 'Get Items from > Purchase Order'. 
+1. The Supplier name and the Items can be fetched from the Purchase Order by clicking on 'Get Items from > Purchase Order'.
 1. You can set the Accepted Warehouse for all items in this Purchase Receipt. This is fetched if set in Purchase Order.
 1. In case any Items are defective, set the Rejected Warehouse where those Items will be stored.
 1. Select the Item and enter the quantity in the Items table.
@@ -32,9 +32,9 @@ To create a Purchase Receipt _manually_ (not recommended), follow these steps:
 1. Save and submit.
 
     <img class="screenshot" alt="Purchase Receipt" src="{{docs_base_url}}/assets/img/stock/purchase-receipt.png">
-    
-You can also add a 'Supplier Delivery Note' to the Purchase Receipt if your Supplier has added some notes. 
-Using the 'Edit Posting Date and Time' checkbox you can edit the posting time and date of the Purchase Receipt. By default, the date and time are set when you click on the New button. 
+
+You can also add a 'Supplier Delivery Note' to the Purchase Receipt if your Supplier has added some notes.
+Using the 'Edit Posting Date and Time' checkbox you can edit the posting time and date of the Purchase Receipt. By default, the date and time are set when you click on the New button.
 
 Is Return: Tick this checkbox if you're returning Items that were not accepted to your Warehouse.
 
@@ -70,9 +70,11 @@ The following Warehouses set will apply to all Items in the Items table of the P
 
 * **Barcode**: You can track Items using [barcodes](/docs/user/manual/en/stock/articles/track-items-using-barcode).
 
+* **Scan Barcode**: You can add Items in the Items table by scanning their barcodes if you have a barcode scanner. Know how to track them [here](/docs/user/manual/en/stock/articles/track-items-using-barcode)
+
 * The Item Code, name, description, Image, and Manufacturer will be fetched from the Item master.
 
-* **Received and Accepted**: Set the received, accepted and rejected quantity. The UoM is fetched from the Item master. You will need to update the “UOM Conversion Factor” if your Purchase Order for an Item is in a different Unit of Measure (UOM) than what you stock (Stock UOM). 
+* **Received and Accepted**: Set the received, accepted and rejected quantity. The UoM is fetched from the Item master. You will need to update the “UOM Conversion Factor” if your Purchase Order for an Item is in a different Unit of Measure (UOM) than what you stock (Stock UOM).
 
     ![Purchase Receipt Items table](/docs/assets/img/stock/purchase-receipt-item.png)
 
@@ -82,14 +84,14 @@ The following Warehouses set will apply to all Items in the Items table of the P
 
 * The Item Weight details per unit and Weight UOM are fetched if set in the Item master.
 
-* **Warehouse and Reference**: You can set the accepted and rejected Warehouses and also add a Quality Inspection, see next section. 
+* **Warehouse and Reference**: You can set the accepted and rejected Warehouses and also add a Quality Inspection, see next section.
 
 * **Serial No, Batch No, and BOM**: If your Item is serialized or batched, you will have to enter Serial Number
 and Batch in the Items table. You are allowed to enter multiple Serial Numbers
 in one row (each on a separate line) and you must enter the same number of
 Serial Numbers as the quantity.
 
-    There are separate fields for entering Serial Numbers of both accepted and rejected Items here. A Batch Number can also be set if you're storing a batch of plastic medicines for example. 
+    There are separate fields for entering Serial Numbers of both accepted and rejected Items here. A Batch Number can also be set if you're storing a batch of plastic medicines for example.
 
     Ticking on 'Allow Zero Valuation Rate' will allow submitting the Purchase Receipt even if the Valuation Rate of the Item is 0. This can be a sample item or due to a mutual understanding with your Supplier.
 
@@ -97,7 +99,7 @@ Serial Numbers as the quantity.
 
     **Note**: The Item has to be serialized or batched for these features to work. If the Item is serialized a popup will appear where you can enter the Serial Numbers.
 
-* Accounting Dimensions help to tag each transaction with different Dimensions without the need for creating new Cost Centers. You need to create Accounting Dimensions first, to know more, visit [this page](/docs/user/manual/en/accounts/accounting-dimensions). 
+* Accounting Dimensions help to tag each transaction with different Dimensions without the need for creating new Cost Centers. You need to create Accounting Dimensions first, to know more, visit [this page](/docs/user/manual/en/accounts/accounting-dimensions).
 
 * Page Break will create a page break just before this item when printing.
 
@@ -118,7 +120,7 @@ The **Get Current Stock** button will fetch the current number of stock Items fr
 ### 3.6 Taxes and Valuation
 The Taxes and Charges will be fetched from the [Purchase Order](/docs/user/manual/en/buying/purchase-order).
 
-Visit the [Purchase Taxes and Charges Template](/docs/user/manual/en/buying/purchase-taxes-and-charges-template) page to know more about taxes. 
+Visit the [Purchase Taxes and Charges Template](/docs/user/manual/en/buying/purchase-taxes-and-charges-template) page to know more about taxes.
 
 The total taxes and charges will be displayed below the table.
 
