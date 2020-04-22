@@ -65,7 +65,7 @@ If you have the same stock in multiple warehouses, setting a warehouse here will
 
 * **Planning**: To know about the fields under planning [click here](/docs/user/manual/en/stock/projected-quantity).
 
-The other fields int the item table are similar as explained in [Quotation](/docs/user/manual/en/selling/quotation#23-the-items-table).
+The other fields in the item table are similar as explained in [Quotation](/docs/user/manual/en/selling/quotation#23-the-items-table).
 
 ### 3.3 Packing List
 

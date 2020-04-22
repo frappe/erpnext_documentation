@@ -18,7 +18,7 @@ To access Project Update, go to:
   3. Add the name of the Users to whom you want to send the Project Update in the Child Table. These Users could be your Customers or any other Internal or External Stake Holders.
   4. Save and Submit.
 
-Once you have submitted the Project Update, an email is shot out to the selected Stakeholders ont he update of the project.
+Once you have submitted the Project Update, an email is shot out to the selected Stakeholders on the updatation of the project.
 
 ### 1.1. Additional Details
 
