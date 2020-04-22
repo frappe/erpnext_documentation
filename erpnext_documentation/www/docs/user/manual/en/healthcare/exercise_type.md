@@ -26,7 +26,7 @@ You can attach a document for Exercise Instructions or also create a Video docum
 
 <img class="screenshot" alt="ERPNext Healthcare" src="{{docs_base_url}}/assets/img/healthcare/exercise-video.png">
 
-You can also add instructions with images and description for detailed demonstration using the "Add" button in Exercise Steps section.
+You can also add instructions with images and descriptions for detailed demonstrations using the **Add** button in the "Exercise Steps" section.
 
 <img class="screenshot" alt="ERPNext Healthcare" src="{{docs_base_url}}/assets/img/healthcare/exercise-type-steps.png">
 

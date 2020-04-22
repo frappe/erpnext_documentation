@@ -14,8 +14,8 @@ To create an Exercise Type, go to:
 2. Enter a unique Therapy Name.
 3. Enter the Item details such as Item Code, Item Name, Item Group and optionally some description.
 4. Check "Is Billable" if this Therapy Type will be billed and enter the rate for one therapy session.
-5. You can optionally add the default duration for one therapy session which will be used while booking appointment for it.
-6. You can also add Healthcare Service Unit and Medical Department for the Therapy Type.
+5. You can optionally add the default duration for one therapy session which will be used while booking an appointment for it.
+6. You can also add the Healthcare Service Unit and the Medical Department for the Therapy Type.
 7. Save.
 
 <img class="screenshot" alt="ERPNext Healthcare" src="{{docs_base_url}}/assets/img/healthcare/therapy-type.png">
@@ -24,7 +24,7 @@ To create an Exercise Type, go to:
 
 ### 2.1 Add Exercises According to Body Parts
 
-Many a times you might need to prescribe exercises according to body parts with ailments for Patients. You can just add all the Body Parts in the _Therapy For_ field and click on "Add Exercises" to add the Exercise Types for those body parts. For that you will have to link Exercise Type to Body Parts in Exercise Type document.
+Many times you might need to prescribe exercises according to body parts with ailments for Patients. You can just add all the Body Parts in the _Therapy For_ field and click on "Add Exercises" to add the Exercise Types for those body parts. For that you will have to link Exercise Type to Body Parts in Exercise Type document.
 For example:
 
 - Exercise "Wall Pushups" is for Hand, Muscles and Joints
@@ -51,7 +51,7 @@ You can also disable some Therapy Types if you are not conducting sessions for t
 
 ### 2.3 Change Item Code
 
-You can also change the Item Code which will be used for billing from the Therapy Type screen itself. Click on "Change Item Code" button, enter the new Item Code and click "Change Item Code" in the dialog. The Item will be renamed.
+You can also change the Item Code which will be used for billing from the Therapy Type screen itself. Click on **Change Item Code** button, enter the new Item Code and click "Change Item Code" in the dialog. The Item will be renamed.
 
 <img class="screenshot" alt="ERPNext Healthcare" src="{{docs_base_url}}/assets/img/healthcare/therapy-change-item-code.png">
 
@@ -63,7 +63,7 @@ You can prescribe therapies in Patient Encounter and a Therapy Plan will be crea
 
 ### 2.5 Book Appointment for Therapy Type
 
-For booking Patient Appointment for any Therapy Type, select the therapy in _Therapy_ field. You can also use the _Get Prescribed Therapies_ button to fetch all therapies prescribed for that Patient in the previous Patient Encounter.
+For booking Patient Appointment for any Therapy Type, select the therapy in _Therapy_ field. You can also use the **Get Prescribed Therapies** button to fetch all therapies prescribed for that Patient in the previous Patient Encounter.
 
 <img class="screenshot" alt="ERPNext Healthcare" src="{{docs_base_url}}/assets/img/healthcare/therapy-appointment.png">
 
