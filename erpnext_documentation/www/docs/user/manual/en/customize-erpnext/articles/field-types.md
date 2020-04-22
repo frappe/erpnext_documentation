@@ -97,7 +97,7 @@ Currency field holds numeric value, like Item Price, Amount, etc. Currency field
 
 #### Data
 
-The data field will be a simple text field. It allows you to enter a value of up to 140 characters, making this the most generic field type. To enable validations for Email or Phone Number inputs, set options to "Email" or "Phone" in Settings > DocType.
+The data field will be a simple text field. It allows you to enter a value of up to 140 characters, making this the most generic field type. To enable validations for Email, Name, or Phone Number inputs, set options to "Email", "Name", "Phone" in Settings > DocType.
 
 <img alt="Field Types" class="screenshot" src="{{docs_base_url}}/assets/img/customize/customize-data-field.png">
 
@@ -129,13 +129,13 @@ Image field will render an image file selected in another attach field.
 
 For the Image field, under Option (in Doctype), a field name should be provided where the image file is attached. By referring to the value in that field, the image will be a reference in the Image field.
 
-<img alt="Field Types" class="screenshot" src="{{docs_base_url}}/assets/img/customize/cutomize-image-field.png">
+<img alt="Field Types" class="screenshot" src="{{docs_base_url}}/assets/img/customize/customize-image-field.png">
 
 #### Int (Integer)
 
 The integer field holds numeric value, without decimal place.
 
-<img alt="Field Types" class="screenshot" src="{{docs_base_url}}/assets/img/customize/cuxtomize-int-field.png">
+<img alt="Field Types" class="screenshot" src="{{docs_base_url}}/assets/img/customize/customize-int-field.png">
 
 #### Small Text
 
