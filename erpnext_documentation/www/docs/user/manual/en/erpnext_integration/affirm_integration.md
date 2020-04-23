@@ -13,7 +13,7 @@ To setup Affirm,
 
 To enable Affirm payment service, you need to configure parameters like API Key, API Secret
 
-<img class="screenshot" alt="Razorpay Settings" src="{{docs_base_url}}/assets/img/setup/integrations/affirm_settings.png">
+<img class="screenshot" alt="Affirm Settings" src="{{docs_base_url}}/assets/img/setup/integrations/affirm_settings.png">
 
 On enabling service, the system will create Payment Gateway record and Account head in the Chart of Account with account type as Bank.
 
