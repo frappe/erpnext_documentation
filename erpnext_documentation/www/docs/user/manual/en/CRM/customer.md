@@ -45,6 +45,12 @@ have multiple Contacts and Addresses.
 [Contacts](/docs/user/manual/en/CRM/contact) and [Addresses](/docs/user/manual/en/CRM/address) are stored separately so that you can
 attach multiple Contacts or Addresses to the customer.
 
+### 2.2 Allow creation of Sales Invoice without Sales Order and Delivery Note
+
+If the "Delivery Note Required" or "Sales Order Required" option is configured as "Yes" in [Selling Settings](/docs/user/manual/en/selling/selling-settings), it can be overridden for a particular customer by enabling the "Allow Sales Invoice Creation Without Sales Order" or "Allow Purchase Invoice Creation Without Delivery Note" in the Customer Master.
+
+<img class="screenshot" alt="Supplier Master" src="{{docs_base_url}}/assets/img/selling/customer-so-dn-required.png">
+
 ### 2.2 Default Currency and Price List
 ERPNext supports [Multiple Currencies](/docs/user/manual/en/accounts/multi-currency-accounting) and [Price Lists](/docs/user/manual/en/stock/price-lists).
 

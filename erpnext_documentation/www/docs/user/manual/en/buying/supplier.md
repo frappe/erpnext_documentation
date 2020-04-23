@@ -17,7 +17,7 @@ The options to Warn RFQs, POs, Prevent RFQs, POs will be available once you crea
 
 ## 2. Features
 
-Fields in future transactions will be auto-populated if the 'Default' fields like Default Bank Account, Default Payment Terms Template etc., are set in Supplier. 
+Fields in future transactions will be auto-populated if the 'Default' fields like Default Bank Account, Default Payment Terms Template etc., are set in Supplier.
 
 ### 2.1 Tax details
 
@@ -34,16 +34,22 @@ For India:
 * **GST Category**: Select a GST Category of the supplier.
 * **PAN**: For India, PAN (Permanent Account Number) card details of the Supplier.
 
-### 2.2 Currency and Price List
+### 2.2 Allow creation of Purchase Invoice without Purchase Order and Purchase Receipt
+
+If the "Purchase Order Required" or "Purchase Receipt Required" option is configured as "Yes" in [Buying Settings](/docs/user/manual/en/buying/buying-settings), it can be overridden for a particular supplier by enabling the "Allow Purchase Invoice Creation Without Purchase Order" or "Allow Purchase Invoice Creation Without Purchase Receipt" in the Supplier Master.
+
+<img class="screenshot" alt="Supplier Master" src="{{docs_base_url}}/assets/img/buying/supplier-po-pr-required.png">
+
+### 2.3 Currency and Price List
 **Billing Currency**: Your supplier's currency can be different from your company currency. If you choose USD for a supplier, then the currency will be filled as USD and the exchange rate shown for future purchase transactions.
 
 ![Supplier Currency](/docs/assets/img/buying/supplier-currency.gif)
 
 Each Supplier can have a default **Price List** so that every time you buy a new item from this supplier for different prices, the price list associated with the supplier would be updated as well. Under the price list comes item price, you can see the prices in Buying > Items and Pricing > Item Price.
-  
+
 If you select this particular supplier, then the associated Price List will be fetched in Purchase transactions.
 
-### 2.3 Credit Limit
+### 2.4 Credit Limit
 
 * **Default Payment Terms Template**: If a Payment Terms template is set here, it'll be automatically selected for future purchase transactions.
 * **Block Supplier**: You can block invoices, payments or both from a supplier till specific date. Choose 'Hold Type', if you do not select a hold type, ERPNext will set it to "All". When a supplier is blocked, their status will be shown as 'On Hold'.
@@ -53,12 +59,12 @@ If you select this particular supplier, then the associated Price List will be f
     - Payments: ERPNext will not allow Payment Entries to be created for the Supplier
     - All: ERPNext will apply both hold types above
 
-    If you do not set a release date, ERPNext will hold the Supplier **indefinitely**. 
+    If you do not set a release date, ERPNext will hold the Supplier **indefinitely**.
 
-### 2.4 Default Payable Accounts
+### 2.5 Default Payable Accounts
 Add the default account from which invoices against this supplier will be paid. Add additional rows for more companies, you can select only one account per company.
 
-You can **integrate** a supplier with an account. For all Suppliers, "Creditor" account is set as the default payable Account. When Purchase Invoice is created, payable towards the supplier is booked against "Creditors" account. 
+You can **integrate** a supplier with an account. For all Suppliers, "Creditor" account is set as the default payable Account. When Purchase Invoice is created, payable towards the supplier is booked against "Creditors" account.
 
 If you want to customize payable account for the Supplier, you should first add a payable Account in the Chart of Account, and then select that Payable Account in the Supplier master.
 
@@ -70,17 +76,17 @@ If you don't want to customize payable account, and proceed with default payable
 
 Depending on your [plan](/pricing), you can add multiple companies in your ERPNext instance. One Supplier can be used across multiple companies. In this case, you should define Company-wise Payable Account for the Supplier in the "Default Payable Accounts" table, i.e, add multiple rows.
 
-### 2.5 More Information
+### 2.6 More Information
 You can add the supplier's website and any additional details about your supplier in this section. If you freeze a supplier with the 'Is Frozen' option, accounting entries for the supplier will be frozen. In this case the only user whose entries will surpass the 'freeze' is the role assigned in 'Role Allowed to Set Frozen Accounts & Edit Frozen Entries' in Accounting > Settings > Accounts Settings. This is useful when the supplier's name or bank details are being amended.
 
-### 2.6 Address and Contacts
+### 2.7 Address and Contacts
 Contacts and Addresses in ERPNext are stored separately so that you can create multiple Contacts and Addresses for one Supplier. Once Supplier is saved, you will find the option to create Contact and Address for that Supplier.
 
 <img class="screenshot" alt="Supplier Master" src="{{docs_base_url}}/assets/img/buying/supplier-new-address-contact.png">
 
 > Tip: When you select a Supplier in any transaction, Contact for which "Is Primary" field id checked, it will auto-fetch with the Supplier details.
 
-### 2.7 After saving
+### 2.8 After saving
 Once all the necessary details are filled, save the document. On saving, options to create the following will be seen in the Dashboard:
 
 * **Request for Quotation**: An RFQ against this supplier.
