@@ -1,5 +1,6 @@
 to-do
 notes
+video
 calender
 chat
 dashboard
