@@ -20,7 +20,7 @@ To access Social Media Post, go to:
 1. [LinkedIn Settings](/docs/user/manual/en/CRM/linkedin-settings)
 2. [Twitter Settings](/docs/user/manual/en/CRM/twitter-settings)
 
-## 2. How to create an Social Media Post
+## 2. How to create a Social Media Post
 
 1. Go to Social Media Post list, click on **New**.
 2. Select **Campaign** if any otherwise leave it blank.
