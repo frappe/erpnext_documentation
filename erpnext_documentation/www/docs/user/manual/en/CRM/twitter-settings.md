@@ -18,7 +18,7 @@ You must have Twitter App for your company. ERPNext interacts with this App for 
 
 ### 1.1 Create LinkedIn Developer App
 
-Create App by link `https://developer.twitter.com/` and that App have **Read and write** Access permission.
+Create App by link `https://developer.twitter.com/` and check that the App has **Read and write** Access permission.
 ![Twitter App Permission](/docs/assets/img/crm/twitter-app-permission.png)
 
 ### 1.2. Configure Callback URL
