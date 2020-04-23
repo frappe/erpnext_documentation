@@ -10,9 +10,9 @@ To create a Patient Assessment Template, go to:
 
 ## 1. How to Create a Patient Assessment Template
 
-1. Go to the Template list, click on New.
+1. Go to the Patient Assessment Template list, click on New.
 2. Enter a unique Assessment Name.
-3. Add all the Assessment Parameters that you want to examine in the Parameters child table. Patient Assessment Parameter is a master that keeps a track of all the parameters based on which the Patient will be assessed. For example, in the Motor Assessment Scale, the patient's movements are evaluated by certain performance parameters like walking, advanced hand activities, hand movements, balance sitting, etc.
+3. Add all the Assessment Parameters that you want to examine in the Parameters table. Patient Assessment Parameter is a master that keeps a track of all the parameters based on which the Patient will be assessed. For example, in the Motor Assessment Scale, the patient's movements are evaluated by certain performance parameters like walking, advanced hand activities, hand movements and balance sitting to name a few.
 4. For most of the Patient Assessments, the patient's movements or performance are evaluated based on some numeric scale. In the Assessment Scale section, you can set the Scale Minimum and Scale Maximum on the basis of which the Patient will be evaluated.
 5. You can optionally add some Assessment Descriptions and instructions about the scoring rules.
 6. Save.

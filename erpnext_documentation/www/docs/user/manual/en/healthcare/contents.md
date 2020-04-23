@@ -1,7 +1,7 @@
 <!-- add-breadcrumbs -->
 # Healthcare
 
-Life is priceless and you, as a healthcare practitioner would need the best tools to honor it. ERPNext Healthcare domain is a humble initiative to help you serve your patients better.
+Life is priceless, and you, as a healthcare practitioner would need the best tools to honor it. ERPNext Healthcare domain is a humble initiative to help you serve your patients better.
 
 ERPNext Healthcare helps you manage your hospital, clinic or practice efficiently by scheduling **Appointments**, capturing **Vitals** and managing medication and investigation orders by recording **Patient Encounters**. You can easily pull out a **Patient's Medical History** anytime to review the patient's past conditions and treatments assisting you in providing effective, high-quality care. ERPNext Healthcare allows you to manage multiple **Medical Code Standards** like the ICD 10 and easily search for Medical Codes simplifying the coding process. ERPNext Healthcare also comes with a **Laboratory** module with predefined templates for recording common Lab Tests. Reports like **Appointment Analytics** and **Lab Test Report** help you get a thorough idea of the operations.
 

@@ -2,7 +2,7 @@
 
 # Exercise Type
 
-Mapping Exercises for a Patient is at the heart of Rehabilitation and Physiotherapy. Exercise Type is a Master in ERPNext which helps you templatize the Exercise with its difficulty level, linking according to body parts and a mechanism to map all the steps involved in the Exercise.
+Mapping Exercises for a Patient is at the heart of Rehabilitation and Physiotherapy. Exercise Type in ERPNext helps you templatize the Exercise based on its difficulty level, body parts for which it is prescribed and the steps involved in the same.
 
 To create an Exercise Type, go to:
 
@@ -26,7 +26,7 @@ You can attach a document for Exercise Instructions or also create a Video docum
 
 <img class="screenshot" alt="ERPNext Healthcare" src="{{docs_base_url}}/assets/img/healthcare/exercise-video.png">
 
-You can also add instructions with images and descriptions for detailed demonstrations using the **Add** button in the "Exercise Steps" section.
+You can also add instructions with images and descriptions for detailed demonstrations using the **Add** button under the "Exercise Steps" section.
 
 <img class="screenshot" alt="ERPNext Healthcare" src="{{docs_base_url}}/assets/img/healthcare/exercise-type-steps.png">
 

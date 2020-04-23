@@ -12,11 +12,11 @@ To create a Patient Assessment, go to:
 
 1. Go to the Patient Assessment list, click on New.
 2. You can optionally select a Therapy Session after which the evaluation is being conducted. Details like Patient and Healthcare Practitioner will be fetched automatically.
-3. Select the Patient Assessment Template. The Assessment Description and all the Assessment Parameters will be fetched automatically. The scale for patient evaluation will be set in the "Score" field in the child table.
+3. Select the Patient Assessment Template. The Assessment Description and all the Assessment Parameters will be fetched automatically. The scale for patient evaluation will be set in the "Score" field in the Assessment table.
 4. You can then start the assessment by selecting the score against every parameter.
 5. Save.
 6. The _Total Score Obtained_ will be calculated as a sum of all the individual parameter scores obtained.
-7. You can also add Time and Comments while evaluating individual parameters in the child table.
+7. You can also add Time and Comments while evaluating individual parameters in the Assessment table.
 8. Submit.
 
 <img class="screenshot" alt="ERPNext Healthcare" src="{{docs_base_url}}/assets/img/healthcare/patient-assessment.png">

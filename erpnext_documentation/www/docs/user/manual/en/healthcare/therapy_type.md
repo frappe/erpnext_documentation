@@ -2,7 +2,7 @@
 
 # Therapy Type
 
-As therapists, you might be prescribing a number of different therapies for a patient right from Intensive Upper Limb Training to Functional Mobility and so on. Every therapy might have a set of exercises. ERPNext helps you templatize the therapies using the "Therapy Type" DocType. With this you can create and link therapies to Healthcare Service Units, add standard rates and Item details for billing and also add exercises according to Body Parts.
+As therapists, you might be prescribing a number of different therapies for a patient right from Intensive Upper Limb Training to Functional Mobility and so on. Every therapy might have a set of exercises. ERPNext helps you templatize the therapies using the "Therapy Type" DocType. With this, you can create and link therapies to Healthcare Service Units, add standard rates and Item details for billing, and also add exercises according to Body Parts.
 
 To create an Exercise Type, go to:
 
@@ -24,22 +24,23 @@ To create an Exercise Type, go to:
 
 ### 2.1 Add Exercises According to Body Parts
 
-Many times you might need to prescribe exercises according to body parts with ailments for Patients. You can just add all the Body Parts in the _Therapy For_ field and click on "Add Exercises" to add the Exercise Types for those body parts. For that you will have to link Exercise Type to Body Parts in Exercise Type document.
+Many times, you might need to prescribe exercises that are specific to the affected body parts for Patients. You can easily add these Body Parts in the _Therapy For_ field and click on *Add Exercises* to add the Exercise Types for those body parts. For that, you will have to link Exercise Type to Body Parts in the Exercise Type document.
+
 For example:
 
-- Exercise "Wall Pushups" is for Hand, Muscles and Joints
+- Exercise "Wall Pushups" is for Hand, Muscles and Joints.
 
 <img class="screenshot" alt="ERPNext Healthcare" src="{{docs_base_url}}/assets/img/healthcare/exercise-1.png">
 
-- Exercise "Sit to Stand" is for Legs and Core
+- Exercise "Sit to Stand" is for Legs and Core.
 
 <img class="screenshot" alt="ERPNext Healthcare" src="{{docs_base_url}}/assets/img/healthcare/exercise-2.png">
 
-- Exercise "Thera-band Upper Body" is for Muscles, Joints, Back, Legs
+- Exercise "Thera-band Upper Body" is for Muscles, Joints, Back, Legs.
 
 <img class="screenshot" alt="ERPNext Healthcare" src="{{docs_base_url}}/assets/img/healthcare/exercise-3.png">
 
-Then while creating the Therapy Type template, you can select the body parts in "Therapy For" field and exercises for those Body Parts will be added to the Exercise table:
+Then while creating the Therapy Type template, you can select the body parts in the "Therapy For" field and exercises for those Body Parts will be added to the Exercise table.
 
 <img class="screenshot" src="{{docs_base_url}}/assets/img/healthcare/add-exercises.gif">
 
