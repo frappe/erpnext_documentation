@@ -2,6 +2,8 @@
 
 # Exercise Type
 
+> Introduced in Version 13
+
 Mapping Exercises for a Patient is at the heart of Rehabilitation and Physiotherapy. Exercise Type in ERPNext helps you templatize the Exercise based on its difficulty level, body parts for which it is prescribed and the steps involved in the same.
 
 To create an Exercise Type, go to:

@@ -2,6 +2,8 @@
 
 # Therapy Session
 
+> Introduced in Version 13
+
 ERPNext helps you track every session conducted with the Patient in the Therapy Session DocType. Booking an appointment is optional for a Therapy Session. It helps you map the Patient's progress by keeping a track of the Targeted Counts, Counts Completed and the Assistance Level required for the Patient to complete each Exercise.
 
 To create a Therapy Session, go to:

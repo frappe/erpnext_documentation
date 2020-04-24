@@ -2,6 +2,8 @@
 
 # Patient Assessment Template
 
+> Introduced in Version 13
+
 There are over 20-25 evaluation forms that you will need to fill up during a patient's rehab therapy to track their progress. These evaluations have certain parameters based on which the Patient's progress will be evaluated. Different forms have different scales to rate progress. You can create all such Patient Assessment forms seamlessly in ERPNext by creating Patient Assessment Templates.
 
 To create a Patient Assessment Template, go to:

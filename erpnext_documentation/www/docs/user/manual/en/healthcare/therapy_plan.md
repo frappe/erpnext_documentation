@@ -2,6 +2,8 @@
 
 # Therapy Plan
 
+> Introduced in Version 13
+
 A Therapy Plan lists all the therapies required for the Patient along with the number of sessions which will be conducted for each therapy. It also keeps a track of the progress as per the number of sessions completed.
 
 To create a Therapy Plan, go to:

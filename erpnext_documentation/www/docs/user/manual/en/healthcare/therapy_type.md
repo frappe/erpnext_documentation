@@ -2,6 +2,8 @@
 
 # Therapy Type
 
+> Introduced in Version 13
+
 As therapists, you might be prescribing a number of different therapies for a patient right from Intensive Upper Limb Training to Functional Mobility and so on. Every therapy might have a set of exercises. ERPNext helps you templatize the therapies using the "Therapy Type" DocType. With this, you can create and link therapies to Healthcare Service Units, add standard rates and Item details for billing, and also add exercises according to Body Parts.
 
 To create an Exercise Type, go to:

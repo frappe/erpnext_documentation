@@ -2,6 +2,8 @@
 
 # Patient Assessment
 
+> Introduced in Version 13
+
 The Patient Assessments in Rehabilitation provide evidence to support the development of a rehabilitation plan, tailored to the client's needs, circumstances and goals. Healthcare Practitioners have to record assessments at regular intervals to track Patient Progress. There are various assessments that are conducted for the Patient like Motor Assessment Scale, Functional Mobility Scale, Stroke Rehabilitation Assessment of Movement (STREAM), etc. Patient Assessment DocType helps you capture these assessments at any point of time during the Therapy Plan.
 
 To create a Patient Assessment, go to:
