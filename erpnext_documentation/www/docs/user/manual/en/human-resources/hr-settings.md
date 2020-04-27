@@ -75,7 +75,7 @@ This will generate a password like SAL-Jane-1972
 ## 3. Leave Settings
 
 ### 3.1 Leave Approval Notification Template
-On creation/updation of a leave application with a leave approver, an email is sent to this leave approver notifying about the new leave application. The email template used for this purpose can be selected here.
+On creating or updating a leave application with a leave approver, an email is sent to this leave approver notifying about the new leave application. The email template used for this purpose can be selected here.
 
 ### 3.2 Leave Status Notification Template
 On Submission/Cancellation of a leave application the employee receives an email with the updated status of their leave application. The email template used for this purpose can be selected here.

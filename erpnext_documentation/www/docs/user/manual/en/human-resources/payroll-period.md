@@ -32,7 +32,7 @@ The most important feature in Payroll Period is Tax Salary Slabs under which you
 
  Tax Slabs can also be applied based on certain properties of the employees such as date of birth or gender. You can set this in the Condition column of the Taxable Salary Slabs table.
 
-Additionally, Standard Tax Exemption Amount can be specified in the Payroll Period which will be applicabel for that entire period. 
+Additionally, Standard Tax Exemption Amount can be specified in the Payroll Period which will be applicable for that entire period. 
 
 > **Note:** Configuring Payroll Period is optional if you do not intend to use Flexible Benefits or Tax Slabs for your organization.
 
