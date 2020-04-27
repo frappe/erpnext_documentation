@@ -12,7 +12,7 @@ To access SMS settings, go to:
 
 To configure SMS Settings in ERPNext, find out their HTTP API (a document
 which describes the method of accessing their SMS interface from 3rd party
-applications). In this document, you will get an URL which is used to send the
+applications). In this document, you will get a URL which is used to send the
 SMS using HTTP request. Using this URL, you can configure SMS Settings in
 ERPNext.
 
@@ -23,7 +23,7 @@ Example SMS Gateway URL:
 
 <img class="screenshot" alt="SMS Setting 2" src="{{docs_base_url}}/assets/img/setup/sms-settings2.jpg">
 
-> Note: The string up to the "?" is the SMS Gateway URL.
+> Note: For SMS Gateway URL, only include the string before the "?".
 
 Example: 
     
