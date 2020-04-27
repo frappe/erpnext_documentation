@@ -36,9 +36,9 @@ Before creating a Leave Allocation, it is advisable you create the following doc
  <img class="screenshot" alt="Grant Leaves from Leave Period"
 	src="{{docs_base_url}}/assets/img/human-resources/grant-button.png">
  
- You can allocate leaves based on Employee Grade, Department or Designation. Also, note that 'Add unused leaves from previous allocations' check will enable you to carry forward any unused leaves (for Leave Types with 'Is Carry Forward' turned on) from previous allocations to new ones.
+ You can allocate leaves based on [Employee Grade](/docs/user/manual/en/human-resources/employee-grade), [Department](/docs/user/manual/en/human-resources/department) or [Designation](/docs/user/manual/en/human-resources/designation). Also, note that 'Add unused leaves from previous allocations' check will enable you to carry forward any unused leaves (for Leave Types with 'Is Carry Forward' set) from previous allocations to new ones.
 
-Once the Leaves are granted, Leaves will be allocated to the selected Employees based on the Leave Policy set in the [Employee](/docs/user/manual/en/human-resources/employee) master.
+Once the Leaves are granted, Leaves will be automatically allocated to the selected Employees based on the Leave Policy set in their [Employee](/docs/user/manual/en/human-resources/employee) master. You can check the newly allocated leaves in the Leave Allocation list.
 
 <img class="screenshot" alt="Manual Leave Allocation"
 	src="{{docs_base_url}}/assets/img/human-resources/leave-allocation2.png">

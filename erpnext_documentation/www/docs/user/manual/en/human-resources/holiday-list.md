@@ -3,7 +3,7 @@
 
 **Holiday List is a list which contains the dates of holidays.**
 
-Most organizations have a standard Holiday List for their employees. Some even have different holiday lists based on the different Locations or Departments.
+Most organizations have a standard Holiday List for their employees. Some even have different holiday lists based on the different Locations or Departments. In ERPNext, you can configure multiple Holiday Lists and assign them to your employees based on your requirement.
 
 To access Holiday List, go to:
 
@@ -45,19 +45,30 @@ You can also add specific days (like festival holidays) manually by clicking on 
 
 > **Note:** Each time a new holiday is updated in the Holidays table, the Total Holidays field gets updated.
 
+### 2.2 Holiday List in Company
 
-### 2.2 Holiday List in Employee 
+You can set a default Holiday List at company-level in the Company master in the 'Default Holiday List' field.
+
+
+<img class="screenshot" alt="Holiday List" src="{{docs_base_url}}/assets/img/human-resources/default-holiday-list-company.png">
+
+
+### 2.3 Holiday List in Employee 
 
 If you have created multiple Holiday List, select a specific Holiday List for an Employee in the respective master.
 
 When an Employee applies for Leave, the days mentioned in the Holiday List will not be counted, as they are holidays already. 
 
-
-
 > **Note:** If you have specified a Holiday List in the Employee master, then that Holiday List will be given priority as compared to the default Holiday List of the Company.
 You can form as many holiday lists as you wish. For example, if you have a factory, you can have one list for the factory workers and another list for office staff. You can manage between many lists by linking a Holiday List to the respective Employee.
 
-You can also access [Company](/docs/user/manual/en/setting-up/company-setup), [Employee](/docs/user/manual/en/human-resources/employee), [Workstation](/docs/user/manual/en/manufacturing/workstation), [Service Level](/docs/user/manual/en/support/service-level), [Service Level Agreement](/docs/user/manual/en/support/service-level-agreement), [Leave Period](/docs/user/manual/en/human-resources/leave-period), and [Shift Type](/docs/user/manual/en/human-resources/shift-type) from the Holiday List page. 
+### 2.4 Holiday List in Workstation
+
+You can also set a Holiday List at workstation-level as shown in the screenshot below. 
+
+<img class="screenshot" alt="Holiday List" src="{{docs_base_url}}/assets/img/human-resources/holiday-list-workstation.png">
+
+The dates in the Holiday List tagged in the [Workstation](/docs/user/manual/en/manufacturing/workstation) master will be considered as the days the Workstation will remain closed.
 
 
 ## 3. Related Topics

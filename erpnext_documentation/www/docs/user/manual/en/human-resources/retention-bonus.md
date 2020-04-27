@@ -9,18 +9,25 @@
 To access Retention Bonus, go to:
 > Home > Human Resources > Payroll > Retention Bonus
 
-## 1. How to create a Retention Bonus
+## 1. Prerequisites
 
-1. Go to: Retention Bonus > New.
+Before creating a Retention Bonus, it is advisable to create the following:
+
+* [Employee](/docs/user/manual/en/human-resources/employee)
+* [Salary Component](/docs/user/manual/en/human-resources/salary-component)
+
+## 2. How to create a Retention Bonus
+
+1. Go to Retention Bonus list, click on New.
 1. Select Employee and Bonus Payment Date.
 1. Enter the Bonus Amount.
-1. Select the [Salary Component](/docs/user/manual/en/human-resources/salary-component) under which you want to give the bonus. This will be fetched while running Payroll Entry.
+1. Select the [Salary Component](/docs/user/manual/en/human-resources/salary-component) under which you want to give the bonus. 
 1. Save and Submit.
 1. On submit, 'Additional Salary' document of the specified 'Salary Component' is created. This will be fetched while running Payroll Entry.
 
-<img class="screenshot" alt="Retention Bonus" src="/docs/assets/img/human-resources/retention-bonus.png">
+ <img class="screenshot" alt="Retention Bonus" src="/docs/assets/img/human-resources/retention-bonus.png">
 
-## 2. Related Topics
+## 3. Related Topics
 
 1. [Employee Incentive](/docs/user/manual/en/human-resources/employee-incentive)
 1. [Additional Salary](/docs/user/manual/en/human-resources/additional-salary)

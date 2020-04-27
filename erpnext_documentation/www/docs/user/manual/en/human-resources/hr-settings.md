@@ -15,13 +15,9 @@ The different settings allowed are explained in brief below:
 
 2. **Employee Records to be created by:** This is a select field which allows you to create Employee records such as Attendance records, Leave records, etc. either by Naming series or Employee Number or Full Name.  
 
-<img class="screenshot" alt="Previous Work Experience" src="{{docs_base_url}}/assets/img/human-resources/hr-settings1.png">
+    <img class="screenshot" alt="Previous Work Experience" src="{{docs_base_url}}/assets/img/human-resources/hr-settings1.png">
 
 3. **Leave Approval Notification Template:** 
-
- 
-
-
 
 To access HR Settings, go to:
 > Home > Human Resources > Settings > HR Settings

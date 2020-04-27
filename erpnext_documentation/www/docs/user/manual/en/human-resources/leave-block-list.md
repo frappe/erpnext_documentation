@@ -30,6 +30,8 @@ Before you create a Leave Block List, it is advisable you have the following doc
 	<img class="screenshot" alt="Leave Block List"
 	src="{{docs_base_url}}/assets/img/human-resources/leave-block-list.png">
 
+> **Note:** Select the 'Applies to Company' checkbox if you want the Leave Block List to be applicable for the netire Company. If not checked, the list will have to be added to each [Department](/docs/user/manual/en/human-resources/department) where it has to be applied.
+
 
 ## 3. Related Topics
 

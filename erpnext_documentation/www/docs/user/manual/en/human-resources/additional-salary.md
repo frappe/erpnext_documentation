@@ -12,7 +12,7 @@ To access Additional Salary, go to:
 
 ## 1. Prerequisites
 
-Before creating a Additional Salary, it is advisable to create the following:
+Before creating an Additional Salary, it is advisable to create the following:
 
 * [Employee](/docs/user/manual/en/human-resources/employee)
 * [Salary Component](/docs/user/manual/en/human-resources/salary-component)

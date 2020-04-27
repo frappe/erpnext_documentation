@@ -15,7 +15,7 @@ In order to access Payroll Period, go to:
 
 ## 1. How to create a Payroll Period
 
-1. Go to: Payroll Period > New.
+1. Go to Payroll Period list, click on New.
 1. Enter Name.
 1. Select Start Date and End Date of Payroll Period.
 1. Save.
@@ -30,13 +30,11 @@ The most important feature in Payroll Period is Tax Salary Slabs under which you
 
 <img class="screenshot" alt="Payroll Period" src="/docs/assets/img/human-resources/payroll-period.png">
 
- Tax Slabs can also be applied based on certain properties of the employees such as date of birth or gender. 
+ Tax Slabs can also be applied based on certain properties of the employees such as date of birth or gender. You can set this in the Condition column of the Taxable Salary Slabs table.
 
-Additionally, Standard Tax Exemption Amount can be specified in the Payroll Period doctype. 
+Additionally, Standard Tax Exemption Amount can be specified in the Payroll Period which will be applicabel for that entire period. 
 
-Once the information is saved, you can also access [Employee Tax Exemption Proof Submission](/docs/user/manual/en/human-resources/employee-tax-exemption-proof-submission) and [Employee Tax Exemption Declaration](/docs/user/manual/en/human-resources/employee-tax-exemption-declaration) through the dashboard.
-
-> Note: Configuring Payroll Period is optional if you do not intend to use Flexible Benefits or Tax Slabs
+> **Note:** Configuring Payroll Period is optional if you do not intend to use Flexible Benefits or Tax Slabs for your organization.
 
 
 ## 3. Related Topics
