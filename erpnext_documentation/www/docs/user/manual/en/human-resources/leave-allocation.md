@@ -52,4 +52,4 @@ Once granted, the leaves will be automatically allocated to the selected Employe
 1. [Leave Block List](/docs/user/manual/en/human-resources/leave-block-list)
 1. [Holiday List](/docs/user/manual/en/human-resources/holiday-list)
 
-
+{next}
