@@ -19,7 +19,7 @@ To access Leave Policy, go to:
 	src="{{docs_base_url}}/assets/img/human-resources/leave-policy.png">
 
 
-Once submitted, you can  enforce the Leave Policy through the dashboard, either to an Employee or an Employee Grade. 
+Once submitted, you can enforce the Leave Policy through the dashboard, either to an Employee or an Employee Grade. 
 
 When a Leave Policy is assigned to an [Employee Grade](/docs/user/manual/en/human-resources/employee-grade), it will ensure that all leave allocations for employees of this grade will be as per the Leave Policy. In case you need to selectively update the Leave Policy for a particular Employee, you can do so by tagging the Leave Policy in the [Employee](/docs/user/manual/en/human-resources/employee) master under the 'Attendance and Leave Details' section.
 
