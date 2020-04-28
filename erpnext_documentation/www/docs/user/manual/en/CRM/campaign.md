@@ -7,7 +7,7 @@ product or service.**
 This is done in a market segment of a particular geographical area to achieve specified objectives.
 
 To access Campaign, go to:
-> Home > CRM > Settings > Campaign
+> Home > CRM > Campaign > Campaign
 
 <img class="screenshot" alt="Campaign" src="{{docs_base_url}}/assets/img/crm/campaign.png">
 

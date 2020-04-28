@@ -35,6 +35,9 @@ Create App by link `https://www.linkedin.com/developers` fill all the details an
 
 ## 2. How to set up LinkedIn Settings
 
+To access LinkedIn Settings, go to:
+> Home > CRM > Settings > LinkedIn Settings
+
 ![LinkedIn Settings](/docs/assets/img/crm/linkedin-settings.png)
 
 ### Company ID

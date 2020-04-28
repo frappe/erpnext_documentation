@@ -32,6 +32,9 @@ Create App by link `https://developer.twitter.com/` and check that the App has *
 
 ## 2. How to set up Twitter Settings
 
+To access Twitter Settings, go to:
+> Home > CRM > Settings > Twitter Settings
+
 ![Twitter Settings](/docs/assets/img/crm/twitter-settings.png)
 
 ### 2.1 API Key and API Key Secret
