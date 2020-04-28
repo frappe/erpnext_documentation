@@ -9,7 +9,7 @@ Payroll Period helps you define Salary Structures and Tax slabs applicable for t
 
 In ERPNext, you can configure the Payroll Period and define Tax Slabs.
 
-In order to access Payroll Period, go to:
+To access Payroll Period, go to:
 
 > Home > Human Resources > Payroll > Payroll Period 
 
