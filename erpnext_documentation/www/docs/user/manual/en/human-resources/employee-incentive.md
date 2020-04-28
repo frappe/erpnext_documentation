@@ -24,7 +24,7 @@ Before creating an Employee Incentive, it is advisable to create the following:
 1. Select the Payroll Date.
 1. Select the [Salary Component](/docs/user/manual/en/human-resources/salary-component) under which you want to give the incentive.
 1. Save and Submit.
-1. On submit, 'Additional Salary' document of the specified 'Salary Component' is created. This will be fetched while running Payroll Entry.
+1. On submit, the 'Additional Salary' document of the specified 'Salary Component' is created. This will be fetched while running the Payroll Entry.
 
  <img class="screenshot" alt="Employee Incentive" src="/docs/assets/img/human-resources/employee-incentive.png">
 
