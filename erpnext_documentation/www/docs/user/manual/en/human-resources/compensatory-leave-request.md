@@ -6,7 +6,7 @@
 
  ERPNext allows Employees to request for Compensatory Leaves through the Compensatory Leave Request document. It is necessary that the dates mentioned in the Compensatory Leave Request should be in default Holiday List and also that the Employee should have their attendance marked Present. 
  
- > **Note:** Only Leave Types which are marked are 'Is Compensatory' can be selected in the Compensatory Leave Request.
+ > **Note:** Only Leave Types which are marked as 'Is Compensatory' can be selected in the Compensatory Leave Request.
 
 To access Compensatory Leave Request, go to:
 
