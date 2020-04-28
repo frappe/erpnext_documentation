@@ -3,7 +3,7 @@
 
 **Holiday List is a list which contains the dates of holidays.**
 
-Most organizations have a standard Holiday List for their employees. However, some of them may have different holiday lists based on the different Locations or Departments. In ERPNext, you can configure multiple Holiday Lists and assign them to your employees based on your requirement.
+Most organizations have a standard Holiday List for their employees. However, some of them may have different holiday lists based on different Locations or Departments. In ERPNext, you can configure multiple Holiday Lists and assign them to your employees based on your requirements.
 
 To access Holiday List, go to:
 
@@ -29,7 +29,7 @@ Some of the additional features in the Holiday List are as follows:
 You can quickly add Weekly Offs in the Holiday List as follows:
 
 1. In the 'Add Weekly Holidays' section, select the day in the Weekly Off field.
-2. Click on 'Add to Holidays' button.
+2. Click on the 'Add to Holidays' button.
 3. Save.
 
 Once the Weekly Offs are added, it is reflected in the Holidays table.
@@ -47,7 +47,7 @@ You can also add specific days (like festival holidays) manually by clicking on 
 
 ### 2.2 Holiday List in Company
 
-You can set a default Holiday List at company-level in the Company master in the 'Default Holiday List' field.
+You can set a default Holiday List at the company-level in the Company master in the 'Default Holiday List' field.
 
 
 <img class="screenshot" alt="Holiday List" src="{{docs_base_url}}/assets/img/human-resources/default-holiday-list-company.png">
