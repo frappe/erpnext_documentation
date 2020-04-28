@@ -23,7 +23,7 @@ Below is a detailed explanation of all the fields and checkboxes in Leave Type.
 
 * **Max Leaves Allowed:** This field allows you to set the maximum number of the annual allocation of this Leave Type while creating the Leave Policy. 
 
-* **Applicable After (Working Days):** Employees who have worked with the company for at least the number of days specified in this field are only allowed to apply for this Leave Type. Any other leaves availed by the Employees after their joining date is also considered while calculating working days.
+* **Applicable After (Working Days):** Enter the minimum number of working days here. Only the employees who have worked for this number of days or more will be allowed to apply for this particular leave type. Any other leaves (such as Casual Leave, Sick Leave.etc.) availed by the Employees after their joining date will also be considered while calculating working days of the Employee.
 
 * **Maximum Continuous Days Applicable:** It refers to the maximum number of days this particular Leave Type can be availed at a stretch. If an employee exceeds the maximum number of days, their extended leave will be considered as ‘Leave Without Pay'.
 
