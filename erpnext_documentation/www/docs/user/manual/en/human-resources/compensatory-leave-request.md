@@ -2,7 +2,7 @@
 # Compensatory Leave Request
 
 
-**Compensatory Leave is a leave that is granted to an Employee as a compensation for working overtime or on holidays.**
+**Compensatory Leave is a leave that is granted to an Employee as compensation for working overtime or on holidays.**
 
  ERPNext allows Employees to request for Compensatory Leaves through the Compensatory Leave Request document. It is necessary that the dates mentioned in the Compensatory Leave Request should be in default Holiday List and also that the Employee should have their attendance marked Present. 
  
@@ -30,13 +30,13 @@ Before creating a Compensatory Leave Request, it is necessary to create the foll
 
 1. Go to Compensatory Leave Request list, click on New.
 1. Select the Employee ID. Once selected, The Employee Name and Department will get automatically fetched.
-1. Select the Leave Type.
+1. Select Leave Type.
 1. Select Work From Date and Work End Date. This is the date of the day(s) the Employee has worked on, during a Holiday.
 1. Enter the Reason.
 1. Save and Submit.
 
-	<img class="screenshot" alt="Compensatory Leave Request"
-	src="{{docs_base_url}}/assets/img/human-resources/compensatory-leave.png">
+    <img class="screenshot" alt="Compensatory Leave Request"
+    src="{{docs_base_url}}/assets/img/human-resources/compensatory-leave.png">
 
 
 
