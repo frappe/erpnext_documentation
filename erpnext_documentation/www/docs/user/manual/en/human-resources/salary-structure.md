@@ -53,7 +53,7 @@ In this section, the [Mode of Payment](/docs/user/manual/en/accounts/mode-of-pay
 
 In ERPNext you can also define the Salary Structure for Salary Slip based on Timesheet, which allows the Company to pay there Employee as per working hours.
 
-Steps for creating such Salary Structure:
+Steps for creating Salary Structure based on Timesheets:
 
 1. Go to Salary Structure List, click on New.
 1. Select checkbox **Salary Slip Based on Timesheet**.
