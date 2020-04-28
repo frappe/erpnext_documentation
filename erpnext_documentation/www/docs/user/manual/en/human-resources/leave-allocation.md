@@ -24,24 +24,24 @@ Before creating a Leave Allocation, it is advisable you create the following doc
 1. Enter the number of New Leaves Allocated for that particular Leave Type.
 1. Save and Submit.
 
-	<img class="screenshot" alt="Leave Allocation"
-	src="{{docs_base_url}}/assets/img/human-resources/leave-allocation.png">
+    <img class="screenshot" alt="Leave Allocation"
+    src="{{docs_base_url}}/assets/img/human-resources/leave-allocation.png">
 
-> **Note:** Enable the 'Add unused leaves from previous allocations' option in case you want to carry forward unused leaves from previous allocation period for this particular Leave Type.
+> **Note:** Enable the 'Add unused leaves from previous allocations' option in case you want to carry forward unused leaves from the previous allocation period for this particular Leave Type.
 
 ### 2.1 Allocating Leaves through Leave Period
 
  Leaves are usually allocated for a particular [Leave Period](/docs/user/manual/en/human-resources/leave-period). Once a Leave Period is created and saved, you can click on the **Grant** button to generate Leave Allocations based on the [Leave Policy](/docs/user/manual/en/human-resources/leave-policy) applicable to each Employee.
 
  <img class="screenshot" alt="Grant Leaves from Leave Period"
-	src="{{docs_base_url}}/assets/img/human-resources/grant-button.png">
+    src="{{docs_base_url}}/assets/img/human-resources/grant-button.png">
  
  You can allocate leaves based on [Employee Grade](/docs/user/manual/en/human-resources/employee-grade), [Department](/docs/user/manual/en/human-resources/department) or [Designation](/docs/user/manual/en/human-resources/designation). Also, note that 'Add unused leaves from previous allocations' check will enable you to carry forward any unused leaves (for Leave Types with 'Is Carry Forward' set) from previous allocations to new ones.
 
 Once granted, the leaves will be automatically allocated to the selected Employees based on the Leave Policy set in their [Employee](/docs/user/manual/en/human-resources/employee) master. You can check the newly allocated leaves in the Leave Allocation list.
 
 <img class="screenshot" alt="Manual Leave Allocation"
-	src="{{docs_base_url}}/assets/img/human-resources/leave-allocation2.png">
+    src="{{docs_base_url}}/assets/img/human-resources/leave-allocation2.png">
 
 
 ## 3. Related Topics
