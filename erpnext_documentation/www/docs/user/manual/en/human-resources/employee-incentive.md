@@ -3,7 +3,7 @@
 
 **Employee Incentives are a way of compensating and motivating employee performance apart from the usual salary.**
 
-When an organization wants to encourage productivity among its employees, one of the options available is rewarding the Employee with an incentive. ERPNext allows you to create Employee Incentives as and when required for a particular Payroll.
+When an organization wants to encourage productivity among its employees, one of the options available is rewarding the Employee with an incentive. ERPNext allows you to create Employee Incentives as and when required for a particular payroll entry.
 
 
 To access Employee Incentive, go to:
