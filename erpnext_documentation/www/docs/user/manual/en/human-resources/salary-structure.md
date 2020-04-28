@@ -5,7 +5,7 @@
 
 Any changes to the Salary Structure i.e. among the components can have a major impact on what the Employee does, such as the kind of tax exemptions claimed.
 
-ERPNext allows you to define the Earnings and Deductions of a Salary Structure, Payroll frequency and Payment Mode among other features.
+ERPNext allows you to define the Earnings and Deductions of a Salary Structure, Payroll frequency, and Payment Mode among other features.
 
 To access Salary Structure, go to:
 > Home > Human Resources > Payroll > Salary Structure
@@ -20,7 +20,7 @@ Before you create a Salary Structure, it is advisable you have the following:
 
 ## 2. How to create a Salary Structure
 
-1. Go to Salary Structure list, click on New.
+1. Go to the Salary Structure list, click on New.
 2. Enter the Salary Structure Name.
 3. Select the Company Name and Payroll Frequency.
 3. Save and Submit.
@@ -30,7 +30,7 @@ Before you create a Salary Structure, it is advisable you have the following:
 
 ### 2.1 Earnings and Deductions
 
-Earnings specify the Salary Components that are earned by an Employee. These components typically include basic, allowances, bonuses and incentives that are added to the employee's Total Salary. On the other hand, Deductions specify the Salary Components that are deducted from the employee's Total Salary. These typically include the taxes.
+Earnings specify the Salary Components that are earned by an Employee. These components typically include basic, allowances, bonuses, and incentives that are added to the employee's Total Salary. On the other hand, Deductions specify the Salary Components that are deducted from the employee's Total Salary. These typically include the taxes.
 
 >**Note:** Only Salary Components set as 'Earnings' will be shown in the Earnings table and components set as 'Deductions' will be shown in the Deductions table.
 
