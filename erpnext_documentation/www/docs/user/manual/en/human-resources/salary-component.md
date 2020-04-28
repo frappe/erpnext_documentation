@@ -3,7 +3,7 @@
 
 **Salaries are paid by organizations to their employees in exchange for the services rendered by them. The different components that make up the Salary Structure are called as Salary Components.** 
 
-Salary paid to the employees comprises of a number of different components, such as basic salary, allowances, arrears, etc. ERPNext allows you to define these Salary Components and also specify its various attributes.
+Salary paid to the employees comprises of several different components, such as basic salary, allowances, arrears, etc. ERPNext allows you to define these Salary Components and also specify its various attributes.
 
 To access Salary Component, go to:
 > Home > Human Resources > Payroll > Salary Component
@@ -26,7 +26,7 @@ Apart from the above mentioned mandatory fields, some of the additional features
 
 ### 2.1 Condition and Formula
 
-In this section, the Condition and Formula required for the calculation of the Salary Component can be specified. In order to specify the formula, enable the 'Amount based on formula' checkbox. 
+In this section, the Condition and Formula required for the calculation of the Salary Component can be specified. To specify the formula, enable the 'Amount based on formula' checkbox. 
 
 <img class="screenshot" alt="Salary Component" src="{{docs_base_url}}/assets/img/human-resources/salary-component2.png">
 
