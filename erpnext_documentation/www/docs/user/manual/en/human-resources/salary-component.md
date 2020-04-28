@@ -34,7 +34,7 @@ In case the Salary Component is based on a pre-defined amount, ERPNext allows yo
 
 > **Note:** This above setup is optional. You can define Amount and Formula/Condition for a Salary Component directly in the Salary Structure also. If they are specified in the Salary Component document itself, the information will be directly fetched in the Salary Structure when the Component is selected.
 
-### 2.2 Additional Checkboxes
+### 2.2 Additional Properties
 
 Some of the additional attributes of the Salary Component that can be enabled using checkboxes are as follows:
 
