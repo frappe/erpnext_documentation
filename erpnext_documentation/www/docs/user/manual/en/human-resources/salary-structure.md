@@ -32,7 +32,7 @@ Before you create a Salary Structure, it is advisable you have the following:
 
 Earnings specify the Salary Components that are earned by an Employee. These components typically include basic, allowances, bonuses and incentives that are added to the employee's Total Salary. On the other hand, Deductions specify the Salary Components that are deducted from the employee's Total Salary. These typically include the taxes.
 
->**Note:** Only Salary Components set as 'Earnings' will be shown int he Earnings table and components set as 'Deductions' will be shown in the Deductions table.
+>**Note:** Only Salary Components set as 'Earnings' will be shown in the Earnings table and components set as 'Deductions' will be shown in the Deductions table.
 
 
 To create Earnings and Deductions, select the Salary Component in the Component column. Enter the Formula/Condition if not previously specified while creating the [Salary Component](/docs/user/manual/en/human-resources/salary-component). Additionally, you can also enter a pre-defined amount in the Amount column.
