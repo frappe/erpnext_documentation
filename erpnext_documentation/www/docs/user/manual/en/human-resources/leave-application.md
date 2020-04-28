@@ -23,39 +23,39 @@ Before you create a Leave Application, it is advisable you have the following do
 ## 2. How to create a Leave Application
 
 1. Go to Leave Application list, click on New.
-1. A table of Allocated Leaves will be shown. Based on the Leaves taken, the available leaves is displayed for each Leave Type. 
+1. A table of Allocated Leaves will be shown. Based on the Leaves taken, the available leaves are displayed for each Leave Type. 
 
      <img class="screenshot" alt="Leave Application" src="{{docs_base_url}}/assets/img/human-resources/leave-app.png">
 
 
 1. Select the Employee Name and Leave Type.
 1. Set the Leave duration using From Date and To Date. Based on the dates selected, the 'Total Leave Days' and the 'Leave Balance Before Application' fields will be displayed.
-1. If the Leave applied is for half day, select the 'Half Day' checkbox.
-1. Enter the Reason of Leave.
+1. If the Leave applied is for a half-day, select the 'Half Day' checkbox.
+1. Enter the Reason for Leave.
 
     <img class="screenshot" alt="Leave Application" src="{{docs_base_url}}/assets/img/human-resources/leave-app1.png">
 
 
-1. Select the Leave Approver. 
+1. Select Leave Approver. 
 1. Select the Posting Date of the Leave Application. 
 1. Check the 'Follow via Email' checkbox to send notification of the Leave Application to the Leave Approver.
-1. You can also link the Salary Slip of the Employee in the Leave Application for record.
+1. You can also link the Salary Slip of the Employee in the Leave Application for the record.
 
     <img class="screenshot" alt="Leave Application" src="{{docs_base_url}}/assets/img/human-resources/leave-app3.png">
 
-1. Click on Save. Once the Employee saves the Leave Application, the status of the Leave Application changes to 'Open' and an email is sent to the Leave Approver for approval. The Leave Approval Notification Template can be configured in [HR Settings](/docs/user/manual/en/human-resources/hr-settings) under the Leave Settings section. 
-1. Once the Leave Approver receives the email, they can Approve, Reject or Cancel the Leave Application. Once this is done, the Leave Approver can submit the Leave Application. On submission, the status of the document changes accordingly and an email is sent to the Employee notifying them the same.
+1. Click on Save. Once the Employee saves the Leave Application, the status of the Leave Application changes to 'Open', and an email is sent to the Leave Approver for approval. The Leave Approval Notification Template can be configured in [HR Settings](/docs/user/manual/en/human-resources/hr-settings) under the Leave Settings section. 
+1. Once the Leave Approver receives the email, they can Approve, Reject, or Cancel the Leave Application. Once this is done, the Leave Approver can submit the Leave Application. On submission, the status of the document changes accordingly, and an email is sent to the Employee notifying them the same.
 
     
-> **Note:** Leave Application cannot be submitted if Salary is already processed for the leave period.
+> **Note:** Leave Application cannot be submitted if the Salary is already processed for the leave period.
 
 The Leave Application process flow is summarized below:
 
-- Employee applies for leave through Leave Application.
+- The employee applies for leave through Leave Application.
 - Approver gets notification via email. For this, the "Follow via Email" checkbox should be checked.
 - Approver reviews Leave Application.
 - Approver approves/rejects/cancels Leave Application
-- Employee gets notification on the status of his/her Leave Application
+- The employee gets the notification on the status of his/her Leave Application
 
 ## 3. Features
 
@@ -87,7 +87,7 @@ for more information.
 
 > **Additional Notes:**
 
->* Leave Application period must be within a single Leave Allocation period. In case, you are applying for leave across leave allocation period, you have to create two Leave Application records.
+>* Leave Application period must be within a single Leave Allocation period. In case, you are applying for leave across the leave allocation period, you have to create two Leave Application records.
 >* Leave Application period must be in the latest Leave Allocation period.
 >* Employee cannot apply for leave on the dates which are added in the [Leave Block List](/docs/user/manual/en/human-resources/leave-block-list).
 
