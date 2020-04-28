@@ -27,7 +27,7 @@ Before creating a Leave Allocation, it is advisable you create the following doc
 	<img class="screenshot" alt="Leave Allocation"
 	src="{{docs_base_url}}/assets/img/human-resources/leave-allocation.png">
 
-> **Note:** Check the 'Add unused leaves from previous allocations' checkbox in case you want to carry forward unused leaves from previous allocation period for this particular Leave Type.
+> **Note:** Enable the 'Add unused leaves from previous allocations' option in case you want to carry forward unused leaves from previous allocation period for this particular Leave Type.
 
 ### 2.1 Allocating Leaves through Leave Period
 
