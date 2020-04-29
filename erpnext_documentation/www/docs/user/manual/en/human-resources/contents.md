@@ -68,6 +68,7 @@ their calculation.
 ### 1.7 Payroll
 1. [Payroll Management](/docs/user/manual/en/human-resources/payroll-intro)
 1. [Payroll Period](/docs/user/manual/en/human-resources/payroll-period)
+1. [Income Tax Slab](/docs/user/manual/en/human-resources/income-tax-slab)
 1. [Salary Component](/docs/user/manual/en/human-resources/salary-component)
 1. [Salary Structure](/docs/user/manual/en/human-resources/salary-structure)
 1. [Salary Structure Assignment](/docs/user/manual/en/human-resources/salary-structure-assignment)

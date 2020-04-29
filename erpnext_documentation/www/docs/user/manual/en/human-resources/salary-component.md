@@ -3,7 +3,11 @@
 
 **Salaries are paid by organizations to their employees in exchange for the services rendered by them. The different components that make up the Salary Structure are called as Salary Components.** 
 
+<<<<<<< HEAD
 Salary paid to the employees comprises of several different components, such as basic salary, allowances, arrears, etc. ERPNext allows you to define these Salary Components and also specify its various attributes.
+=======
+The salary paid to the employees comprises several different components, such as basic salary, allowances, arrears, etc. ERPNext allows you to define these Salary Components and also specify its various attributes.
+>>>>>>> docs: Income Tax Slab
 
 To access Salary Component, go to:
 > Home > Human Resources > Payroll > Salary Component
@@ -41,12 +45,13 @@ Some of the additional attributes of the Salary Component that can be enabled us
 * **Is Payable:** Select this if the Salary Component is payable.
 * **Depends on Payment Days:** If this checkbox is enabled then the Salary Component will be calculated based on the number of working days.
 * **Is Tax Applicable:** This checkbox is applicable for Earning Components. Selecting this checkbox allows tax to be applied on this Salary Component.
-* **Deduct Full Tax on Selected Payroll Date:** This checkbox is shown if the 'Is Tax Applicable' checkbox is enabled. On enabling this, the system will deduct tax for this Salary Component in the Payroll.
+* **Deduct Full Tax on Selected Payroll Date:** If checked and the component is used in Additional Salary, the tax amount applicable on the additional amount will be deducted on the specific payroll month. If not checked, the tax will be distributed over the remaining months of the payroll period. For example, If a bonus is given on a month using Additional Salary, the full tax on the bonus amount can be deducted on that month only.
 * **Round to the Nearest Integer:** Selecting this checkbox allows you to round the amount of this Salary Component to the nearest integer.
 * **Statistical Component:** If selected, the value specified or calculated in this component will not contribute to the earnings or deductions. However, it's value can be referenced by other components that can be added or deducted. If you set a Salary Component as a Statistical component, then you do not have to set the Default Account for the same. Also, you would not be able to set this component as a Flexible Benefit.
-* **Do Not Include in Total:** Selecting this checkbox ensures that the Salary Component is not included in the Total Salary.
+* **Do Not Include in Total:** Selecting this checkbox ensures that the Salary Component is not included in the Total Salary. It is used to define the component which is part of the CTC but not payable (e.g. Usage of Company Cars).
+* **Variable Based On Taxable Salary:** The component is calculated automatically on taxable income based on applicable Income Tax Slab (e.g. TDS or Income Tax).
+* **Exempted from Income Tax:** If checked, the full amount will be deducted from taxable income before calculating income tax without any [declaration](/docs/user/manual/en/human-resources/employee-tax-exemption-declaration) or [proof submission](/docs/user/manual/en/human-resources/employee-tax-exemption-proof-submission). For example, Professional Tax in India is deducted from taxable income before calculating income tax. 
 * **Disabled:** This checkbox can be selected to disable this Salary Component. A disabled Salary Component cannot be used in the Salary Structure.
-
 
 ### 2.3 Flexible Benefits
 
@@ -61,11 +66,6 @@ Enter the maximum yearly amount for this flexible benefit in the 'Max Benefit Am
 * **Only Tax Impact (Cannot Claim But Part of Taxable Income):** If set, the flexible benefit will be part of taxable income.
 
 * **Create Separate Payment Entry Against Benefit Claim:** If this checkbox is checked, it will let you create a separate payment entry against the Benefit Claim.
-
-
-### 2.4 Variable Based On Taxable Salary
-
-This checkbox is shown if the Salary Component is a Deduction Component. If checked, the system will check the Taxable Salary Slabs in the [Payroll Period](/docs/user/manual/en/human-resources/payroll-period) to calculate tax.
 
 ## 3. Related Topics
 
