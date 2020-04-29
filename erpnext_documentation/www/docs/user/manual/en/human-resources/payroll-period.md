@@ -4,7 +4,7 @@
 
 **A Payroll Period is a period for which Employees get paid for their occupation with the Company.** 
 
-Payroll Period helps you define Salary Structures and Tax slabs applicable for the period. And tax is calculated for a specific Payroll Period based on applicable tax slab.
+Payroll Period helps you define Salary Structures and to calculate tax for a specific period based on applicable Income Tax Slab.
 
 To access Payroll Period, go to:
 

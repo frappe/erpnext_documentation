@@ -83,6 +83,7 @@ their calculation.
 ### 1.8 Employee Tax and Benefits
 1. [Employee Tax Exemption Declaration](/docs/user/manual/en/human-resources/employee-tax-exemption-declaration)
 1. [Employee Tax Exemption Proof Submission](/docs/user/manual/en/human-resources/employee-tax-exemption-proof-submission)
+1. [Employee Other Income](/docs/user/manual/en/human-resources/employee-other-income)
 1. [Employee Benefit Application](/docs/user/manual/en/human-resources/employee-benefit-application)
 1. [Employee Benefit Claim](/docs/user/manual/en/human-resources/employee-benefit-claim)
 
