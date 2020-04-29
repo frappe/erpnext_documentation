@@ -8,11 +8,12 @@ On the website, you'll see cards in the beginning, to view fuller lists of docum
 
 ### How to contribute?
 
-1. To learn about contributing to this repository, visit [this WIKI section](https://github.com/frappe/erpnext/wiki/How-To-Contribute-to-the-ERPNext-Documentation-(The-Lengthy-Version)).
+1. To learn how to contribute to ERPNext documentation, visit [this WIKI section](https://github.com/frappe/erpnext/wiki/How-To-Contribute-to-the-ERPNext-Documentation-(The-Lengthy-Version)).
 
 1. To know how content in the documentation is formatted, visit [this WIKI page](https://github.com/frappe/erpnext/wiki/Page-format-for-ERPNext-docs).
 
 Check out our website http://erpnext.com/
+
 Start a free trial at https://erpnext.com/pricing
 
 #### License
