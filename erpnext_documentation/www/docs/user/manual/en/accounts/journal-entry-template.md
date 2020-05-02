@@ -1,26 +1,32 @@
 <!-- add-breadcrumbs -->
 # Journal Entry Template
 
-**A Project Template is a predefined sequence of tasks arranged in stipulated schedule.**
+**Lets you set and select a predetermined list of accounts and options while making a Journal Entry.**
 
-These templates can be pulled for similar kind of Projects and the tasks therein get auto-populated at the time of creation of each new project.
+To access Journal Entry Templates, go to:
 
-To access Project Template, go to:
+> Home > Accounting > General Ledger > Journal Entry Template
 
-> Home > Projects > Projects > Project Template
+## 1. How to Create and use a Journal Entry Template:
 
-<img class="screenshot" alt="Project Template" src="{{docs_base_url}}/assets/img/project/projects-project-template.png">
+<img class="screenshot" alt="Journal Entry Template" src="{{docs_base_url}}/assets/img/accounts/journal-entry-template-1.png">
 
-## 1. How to Create A New Project Template:
-
-  1. Go to the Project Template List and click on New.
+  1. Go to the Journal Entry Template List and click on New.
   2. Add the following details:
-      * **Project Template Name**: Title of the Project Template
-      * **Project Type**: Project Templates, just like projects can be classified into different project types, e.g., Internal or External.
-      * **Task**: Each Project Template will have a set of predefined sequence of tasks. In this field, you can enter the details of the task. Apart from the Task subject and description, you can also specify the day on which this task should begin after the project is commenced and then assign a specific number of days to each task.
+      * **Template Title**: This will be used to select the template from Journal Entry.
+      * **Company**: By default the company defined in Global Defaults is selected. You can select any another company too.
+      * **Entry Type**: You can select from the [entry types available in Journal Entry](/user/manual/en/accounts/journal-entry#3-journal-entry-types) here. Default value is [Journal Entry](/user/manual/en/accounts/journal-entry#31-journal-entry).
+        * There are 3 special 'Entry Types' in this:
+          * [Opening Entry](/user/manual/en/accounts/journal-entry#311-opening-entry): This will get all the accounts and load them into the "Accounting Entries" table. To learn more visit [Opening Balance](/user/manual/en/accounts/opening-balance) page.
+          * [Bank Entry](/user/manual/en/accounts/journal-entry#33-bank-entry): This will get and load the default Bank Account if set.
+          * [Cash Entry](/user/manual/en/accounts/journal-entry#34-cash-entry): This will get and load the default Cash Account if set.
+      * **Is Opening**: This will be autoset to 'Yes' if 'Opening Entry' is selected as Entry Type.
+      * **Series**: You can select from a list of naming series available to Journal Entry.
+      * **Accounting Entries**: Here you can select a list of accounts to add to the entry.
+  3. Save and go to [Journal Entry](/user/manual/en/accounts/journal-entry#1-how-to-create-a-journal-entry) and click on new.
+  4. In the 'From Template' field when you select the template, it will load the accounts and other options set in it. Please note it will clear the Accounting Entries table first, but you can add more accounts to the table apart from those fetched from the template.
 
-## 2. Related Topics
-  1. [Project](/docs/user/manual/en/projects/project)
-  2. [Task](/docs/user/manual/en/projects/tasks)
+<img class="screenshot" alt="Journal Entry Template" src="{{docs_base_url}}/assets/img/accounts/journal-entry-template-2.gif">
 
-{next}
+## 3. Related Topics
+  1. [Journal Entry](/user/manual/en/accounts/journal-entry)
