@@ -76,15 +76,13 @@ An email will be sent to notify the User with the role 'Purchase Manager' when a
 
 ## 10. Inter Warehouse Transfer Settings
 
-### 10.1 Enable customer warehouse for material transfer from Delivery Note and Sales Invoice
+<img class="screenshot" alt="Delivery Note Material Transfer" src="{{docs_base_url}}/assets/img/stock/inter-warehouse.png">
 
-<img class="screenshot" alt="Delivery Note Material Transfer" src="{{docs_base_url}}/assets/img/stock/customer-warehouse.png">
+### 10.1 Enable customer warehouse for material transfer from Delivery Note and Sales Invoice
 
 This option is useful when material transfer needs to be presented as a Delivery Note. For example, if there are statutory requirements where taxes are to be applied on each transfer of Material. It is easier to manage in a transaction like Delivery Note, than in the Stock Entry
 
 ### 10.2 Enable supplier warehouse for material transfer from Purchase Receipt and Purchase Invoice
-
-<img class="screenshot" alt="Purchase Receipt Material Transfer" src="{{docs_base_url}}/assets/img/stock/supplier-warehouse-enable.png">
 
 Similar to above option this option is useful when material transfer needs to be presented as Purchase Receipt.
 
