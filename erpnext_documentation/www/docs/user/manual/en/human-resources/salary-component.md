@@ -12,7 +12,7 @@ To access Salary Component, go to:
 
 To create a new Salary Component:
 
-1. Go to: Salary Component > New.
+1. Go to Salary Component list, click on New.
 2. Enter its Name and Abbreviation.
 3. Enter Description of the Salary Component (optional).
 1. Enter the Company name and the Default Account of the Salary Component in the Accounts table.
