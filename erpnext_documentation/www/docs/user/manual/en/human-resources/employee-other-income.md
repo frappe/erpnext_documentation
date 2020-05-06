@@ -2,7 +2,8 @@
 # Employee Other Income
 
 
-**Employee Other Income is a document to declare other incomes of an employee from different sources.**
+**Employee Other Income is a document to declare other income of an employee from different sources.**
+
 
 Other income of an employee is also important to calculate the income tax liability of an employee. In ERPNext, an employee can declare their other income using this document.
 

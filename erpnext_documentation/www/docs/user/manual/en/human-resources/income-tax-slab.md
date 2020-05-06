@@ -5,20 +5,18 @@
 
 In many countries, income tax is levied on individual taxpayers based on a slab system where different tax rates have been prescribed for different slabs and such tax rates keep increasing with an increase in the income slab. In ERPNext, you can define multiple Income Tax Slabs and link them to individual employee's salary structure via Salary Structure Assignment.
 
-To access Salary Component, go to:
+To access Income Tax Slab, go to:
 > Home > Human Resources > Payroll > Income Tax Slab
 
 ## 1. How to create an Income Tax Slab
 
 To create a new Income Tax Slab:
 
-1. Go to: Income Tax Slab > New.
-1. Enter its name, company, and the date from which it is effective.
-1. Enter the tax rates as per the slab.
-1. Enter whether tax exemption is applicable or not.
-1. Enter if any other taxes apply to income tax.
-1. Save.
+1. Enter a Name for the IT Slab, Company and the date from which it will be Effective From.
+1. Enable the checkbox 'Allow Tax Exemption' if applicable.
+1. Save and Submit.
 
+## 2. Features
 
 ### 2.1 Tax Slabs
 
@@ -45,11 +43,10 @@ base > 10000
 annual_taxable_earning > 500000
 ```
 
-
 ### 2.2 Other Taxes and Charges on Income Tax
 
 If other taxes are applicable on calculated income tax, you can enter those using this table. You can also define the min and max taxable amount for which this tax will be applicable.
-For example, Health and Education Cess is applied to income tax to everyone in India.
+For example, Health and Education Cess is applied additionally on income tax to everyone in India.
 
 <img class="screenshot" alt="Other Charged on Income Tax" src="/docs/assets/img/human-resources/other-taxes-on-income-tax.png">
 
@@ -57,7 +54,7 @@ For example, Health and Education Cess is applied to income tax to everyone in I
 ### 2.3 Other Properties
 
 - **Allow Tax Exemptions:** Tax exemptions can be allowed for a specific Income Tax Slab. If enabled, while calculating taxes based on this tax slab, Employee Tax Exemption Declaration and Proof Submission are considered for calculating taxable income.
-- **Standard Tax Exemption Amount:** If exemption is allowed, the standard tax exemption amount can be defined here. This exemption generally does not need any kind of document proof and applicable to all employees linked to this income tax slab.
+- **Standard Tax Exemption Amount:** If exemption is allowed, the Standard Tax Exemption Amount defined by the government can be added here. This exemption generally does not need any kind of document proof and applicable to all employees linked to this income tax slab.
 
 ## 3. Related Topics
 
