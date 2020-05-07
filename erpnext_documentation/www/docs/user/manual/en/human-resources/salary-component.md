@@ -3,11 +3,7 @@
 
 **Salaries are paid by organizations to their employees in exchange for the services rendered by them. The different components that make up the Salary Structure are called as Salary Components.** 
 
-<<<<<<< HEAD
 Salary paid to the employees comprises of several different components, such as basic salary, allowances, arrears, etc. ERPNext allows you to define these Salary Components and also specify its various attributes.
-=======
-The salary paid to the employees comprises several different components, such as basic salary, allowances, arrears, etc. ERPNext allows you to define these Salary Components and also specify its various attributes.
->>>>>>> docs: Income Tax Slab
 
 To access Salary Component, go to:
 > Home > Human Resources > Payroll > Salary Component
