@@ -22,6 +22,7 @@ Before you create a Salary Structure Assignment, it is advisable you have the fo
 1. Go to Salary Structure Assignment list and click on New.
 1. Select the Employee and Salary Structure.
 1. Select the From Date from which this particular Salary Structure will be applicable.
+1. Select preferred Income Tax Slab for the employee.
 1. Enter Base and Variable amount as per requirement. Base amount refers to the Base Salary of the Employee, which is fixed and paid out, regardless of employees meeting their goals. Variable pay, on the other hand, is the portion of sales compensation determined by employee performance. When employees hit their goals (aka quota), variable pay is provided as a type of bonus, incentive pay, or commission. 
 
  <img class="screenshot" alt="Salary Structure Assignment" src="{{docs_base_url}}/assets/img/human-resources/salary-structure-assignment.png">
