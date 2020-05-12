@@ -1,4 +1,4 @@
-<!-- base_template: frappe_io/www/frappe/frappe_base.html --><!-- add-breadcrumbs -->
+<!-- add-breadcrumbs -->
 # Translations
 
 **ERPNext is available in more than 80 languages most of which has been contributed by ERPNext community.**
