@@ -98,10 +98,10 @@ their calculation.
 1. [Employee Advance](/docs/user/manual/en/human-resources/employee-advance)
 
 ### 1.11 Loans
-1. [Loan Management](/docs/user/manual/en/human-resources/loan-management)
-1. [Loan Type](/docs/user/manual/en/human-resources/loan-type)
-1. [Loan Application](/docs/user/manual/en/human-resources/loan-application)
-1. [Loan](/docs/user/manual/en/human-resources/loan)
+1. [Loan Management](/docs/user/manual/en/loan-management)
+1. [Loan Type](/docs/user/manual/en/loan-management/loan-type)
+1. [Loan Application](/docs/user/manual/en/loan-management/loan-application)
+1. [Loan](/docs/user/manual/en/loan-management/loan)
 
 ### 1.12 Shift Management
 1. [Shift Management](/docs/user/manual/en/human-resources/shift-management)
