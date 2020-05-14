@@ -7,7 +7,7 @@ A Journal Entry is a multi purpose transaction where the debit and credit accoun
 
 All types of accounting entries other than Sales and Purchase transactions are made using the **Journal Entry**. A **Journal Entry** is a standard accounting transaction that affects multiple Accounts and the sum of debits is equal to the sum of credits. A Journal Entry Impacts the main ledger.
 
-Journal Entries can be used for entering expenses, opening entries, contra entries, bank payments, excise entries, etc. For example, booing running expenses, direct expenses like petrol/transport, sundry expenses, adjustment entries, and adjusting invoice amount.
+Journal Entries can be used for entering expenses, opening entries, contra entries, bank payments, excise entries, etc. For example, booking running expenses, direct expenses like petrol/transport, sundry expenses, adjustment entries, and adjusting invoice amount.
 
 To access the Journal Entry list, go to:
 > Home > Accounting > General Ledger > Journal Entry
