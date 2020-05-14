@@ -7,7 +7,7 @@ Email Campaigns are still one of the most effective ways to reach your Customers
 
 To create an Email Campaign, go to:
 
- > Home > CRM > Settings > Email Campaign
+ > Home > CRM > Campaign > Email Campaign
 
 ## 1. Prerequisites
 
