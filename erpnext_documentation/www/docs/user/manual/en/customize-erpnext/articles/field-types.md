@@ -217,6 +217,7 @@ If you don't want to track duration in terms of days or seconds, you can uncheck
 
 <img alt="Field Types" class="screenshot" src="{{docs_base_url}}/assets/img/customize/duration-options.png">
 
+For example, here in the SLA DocType, option is present to choose hours and minutes.
 <img alt="Field Types" class="screenshot" src="{{docs_base_url}}/assets/img/customize/duration-options-2.png">
 
 {next}
