@@ -1,7 +1,7 @@
 <!-- add-breadcrumbs -->
 # Tasks
 
-**In project management, a task is an actionalble unit or activity which needs to be completed.**
+**In project management, a task is an actionable unit or activity which needs to be completed.**
 
 <img class="screenshot" alt="Task" src="{{docs_base_url}}/assets/img/project/projects-task.png">
 
@@ -36,7 +36,7 @@ The following additional details can be added when editing a new task:
   * **Issue**: If the task is an actionable that arises out of an Issue, that issue can be tagged here with the Task.
   * **Weight**: If a particular task carries some weightage out of a project, or otherwise, the weightage can be specified here. This weightage gets calculated in the Percentage Task Completion Method by Task Weight.
   * **Type**: If your task can be defined under a particular Task Type, say, User Training or User Demo, you can enter the Task Type here. It can be used to filter the Tasks based on Task Types.
-  * **Color**: Each task can be recognized by a different color. This helps in identfying a task while creating Gantt Charts.
+  * **Color**: Each task can be recognized by a different color. This helps in identifying a task while creating Gantt Charts.
   * **Is Group**: This box can be checked to indicate that a task is a parent task, and can be further divided into multiple sub-tasks.
   * **Parent Task**: If a particular task is a part of a group task, the parent task can be linked to the task from this field.
   
