@@ -207,5 +207,17 @@ This is a Time field where you can define the Time in the field.
 
 <img alt="Field Types" class="screenshot" src="{{docs_base_url}}/assets/img/customize/customize-field-type-time.png">
 
+#### Duration
+
+You can use the Duration field if you want to define a timespan.
+
+<img alt="Field Types" class="screenshot" src="{{docs_base_url}}/assets/img/customize/duration-fieldtype.png">
+
+If you don't want to track duration in terms of days or seconds, you can uncheck "Show Days" and "Show Seconds" options respectively in your Form.
+
+<img alt="Field Types" class="screenshot" src="{{docs_base_url}}/assets/img/customize/duration-options.png">
+
+<img alt="Field Types" class="screenshot" src="{{docs_base_url}}/assets/img/customize/duration-options-2.png">
+
 {next}
 
