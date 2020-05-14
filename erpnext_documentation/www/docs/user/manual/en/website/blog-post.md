@@ -76,7 +76,7 @@ list of blogs under that category.
 
 ### 2.3 Meta Tags
 
-Meta are HTML tags which describe a page and its content to a search engine or a social media platform. A meta description is a tag which provides a brief description of a webpage. 
+Meta tags are HTML tags which describe a page and its content to a search engine or a social media platform. A meta description provides a brief description of a webpage. 
 
 In HTML, the meta description tag will be written as follows:
 
