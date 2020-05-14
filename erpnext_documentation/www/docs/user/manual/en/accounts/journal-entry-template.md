@@ -1,9 +1,9 @@
 <!-- add-breadcrumbs -->
 # Journal Entry Template
 
-**Lets you set and select a predetermined list of accounts and options while making a Journal Entry.**
+**A Journal Entry Template lets you set and select a predetermined list of accounts and options while making a Journal Entry.**
 
-To access Journal Entry Templates, go to:
+To access the Journal Entry Template, go to:
 
 > Home > Accounting > General Ledger > Journal Entry Template
 
