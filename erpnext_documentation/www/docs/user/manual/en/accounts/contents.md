@@ -30,6 +30,7 @@ You can check out [this video](https://www.youtube.com/watch?v=5wjollWN0OA) for 
 
 ### 1.2 Journals and Payments
 1. [Journal Entry](/docs/user/manual/en/accounts/journal-entry)
+1. [Journal Entry Template](/docs/user/manual/en/accounts/journal-entry-template)
 1. [Payment Entry](/docs/user/manual/en/accounts/payment-entry)
 1. [Payment Request](/docs/user/manual/en/accounts/payment-request)
 1. [Mode of Payment](/docs/user/manual/en/accounts/mode-of-payment)

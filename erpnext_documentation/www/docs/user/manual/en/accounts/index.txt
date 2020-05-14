@@ -9,6 +9,7 @@ debit-note
 inter-company-invoices
 payments
 journal-entry
+journal-entry-template
 reverse-journal-entry
 finance-book
 mode-of-payment
