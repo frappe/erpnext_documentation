@@ -23,47 +23,45 @@ To access Payroll Entry, go to:
 1. Save. 
 
 
-Once the information is saved, click on the _Get Employees_ button to get a list of Employees for which the Salary Slips will be created based on the selected criteria.
+Once the information is saved, click on the **Get Employees** button to get a list of Employees for which the Salary Slips will be created based on the selected criteria.
 
-<img class="screenshot" alt="Payroll Entry" src="/docs/assets/img/human-resources/payroll-entry1.png">
+Once the list of Employees is fetched, click on the **Create Salary Slips** button to generate Salary Slips.
 
-
-
-Once the list of Employees is fetched, click on the _Create Salary Slips_ button to generate Salary Slips.
-
-
-<img class="screenshot" alt="Payroll Entry" src="/docs/assets/img/human-resources/payroll-entry.png">
-
+<img class="screenshot" alt="Payroll Entry" src="/docs/assets/img/human-resources/payroll-entry-get-employees.png">
 
 > **Note:** If the Salary Slips are already created, the system will not create any more Salary Slips. You can also just save the form as Draft and create the Salary Slips later.
 
 
 ## 2. Features 
 
-### 2.1 Booking Salary Accrual 
+### 2.1 Salary Accrual 
 
-After verifying the Salary Slips, you can Submit them all together by clicking on the _Submit Salary Slip_ button. This will also book the default Payroll Payable account against respective Expense Heads (as configured in Salary Components) to record the accrual of salary to employees.
+After verifying the Salary Slips, you can Submit them all together by clicking on the **Submit Salary Slip** button.
+
+<img class="screenshot" alt="Payroll Entry" src="/docs/assets/img/human-resources/payroll-entry.png">
+
+This will also book the default Payroll Payable account against respective Expense Heads (as configured in Salary Components) to record the accrual of salary to employees.
+
+**Cost Center:**
+You can select Cost Center in the Payroll Entry against which the expenses will be posted.
+
+If you want to book expenses against multiple cost centers based on Employee/Department, you can do so by setting Payroll Cost Center in Employee/Department master. Cost Center assigned in Employee/Department master will get priority over the selected Cost Center in Payroll Entry.
+
+<img class="screenshot" alt="Payroll Entry" src="/docs/assets/img/human-resources/payroll-make-accrual-entry.png">
 
 > **Note:** Submitting Salary Slips one by one manually will not create the Journal Entry to record salary accrual.
+
+### 2.2 Salary Payment
 
 The final step is to book the Salary Payment.
 
 Salaries in businesses are usually dealt with extreme privacy. In most cases, companies issue a single payment to the bank combining all salaries and the bank distributes the salaries to each employee’s salary account. 
 
-
 This way there is only one payment entry in the company’s books of accounts and anyone with access to the company’s accounts will not have access to the individual salaries.
-
-
-<img class="screenshot" alt="Payroll Entry" src="/docs/assets/img/human-resources/payroll-make-accrual-entry.png">
-
-
-
-### 2.2 Salary Payment Entry
 
 The salary payment entry is a Journal Entry that debits the total of the Earnings type salary component and credits the total of Deductions type salary component of all Employees to the default account set at Salary Component level for each component.
 
-To generate your salary payment voucher from Payroll Entry, click on the _Make Bank Entry_ button.
-
+To generate your salary payment voucher from Payroll Entry, click on the **Make Bank Entry** button.
 
 Payroll Entry will route you to Journal Entry with relevant filters to view the draft Journal Vouchers created. You will have to set the reference number and date for the transactions and Submit the Journal Entry.
 
