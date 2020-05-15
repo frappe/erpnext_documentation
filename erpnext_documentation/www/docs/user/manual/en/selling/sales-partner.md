@@ -67,5 +67,6 @@ This report will provide you variance between target and actual performance of t
 
 ## Related Topics
 1. [Sales Person Target Allocation](/docs/user/manual/en/selling/sales-person-target-allocation)
+2. [How to record Commission to Sales Partner in ERPNext?](https://support.erpnext.com/kb/selling/how-to-give-commission-to-sales-partner)
 
 {next}
