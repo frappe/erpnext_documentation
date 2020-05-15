@@ -10,7 +10,7 @@ metatags:
 
 # Social Media Post
 
-Social Media Post is used to create and schedule the post for LinkedIn and Twitter, it can be also linked with a [Campaign](docs/user/manual/en/CRM/campaign).
+Social Media Post is used to create and schedule the post for LinkedIn and Twitter, it can be also linked with a [Campaign](/docs/user/manual/en/CRM/campaign).
 
 To access Social Media Post, go to:
 > Home > CRM > Settings > Social Media Post
@@ -38,8 +38,8 @@ Users can also immediately post just after submitting a Social Media Post by cli
 ![Post Now](/docs/assets/img/crm/post-now.png)
 
 ### 3.2 Reschedule
-Users can change the Scheduled Time of the Social Media Post. And it can be rescheduled in case any Error occurred at runtime by changing the '**Scheduled Time**' of the Social Media Post document.
+Users can change the Scheduled Time of the post. In case there is an error, users can reschedule the post by changing the '**Scheduled Time**' of the Social Media Post document.
 ![Reschedule Post](/docs/assets/img/crm/reschedule-post.png)
 
 ## 4. Related Topics
-1. [Campaign](docs/user/manual/en/CRM/campaign)
+1. [Campaign](/docs/user/manual/en/CRM/campaign)
