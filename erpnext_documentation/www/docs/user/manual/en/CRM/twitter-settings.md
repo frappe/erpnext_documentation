@@ -44,3 +44,4 @@ You get **API Key** and **API Key Secret** from your Twitter Developer account g
 Once you save the doc by filling **API Key** and **API Key Secret** it will redirect to Twitter Sign In page by providing valid Twitter credentials and clicking **Authorize app**, the member approves your application's request to access their member data and interact with Twitter.
 ![Twitter Authorize App](/docs/assets/img/crm/twitter-authorize-app.png)
 
+{next}
