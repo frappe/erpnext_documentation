@@ -14,7 +14,7 @@ LinkedIn related settings like OAuth can be configured here. ERPNext needs acces
 
 ## 1. How to set up LinkedIn Developer App
 
-You must have LinkedIn Developer App for your company. ERPNext interacts with this App for sharing the post. 
+You must have LinkedIn Developer App for your company. ERPNext interacts with this App for sharing the post.
 
 ### 1.1 Create LinkedIn Developer App
 
@@ -47,7 +47,7 @@ You get **Consumer Key** and **Consumer Secret** from your LinkedIn Developer ac
 
 ![LinkedIn Client](/docs/assets/img/crm/linkedin-client.png)
 
-Once you save the doc by filling **Company ID**, **Consumer Key**, and **Consumer Secret** it will redirect to LinkedIn Sign In page by providing valid LinkedIn credentials and clicking Allow, the member approves your application's request to access their member data and interact with LinkedIn on their behalf. 
+Once you save the doc by filling **Company ID**, **Consumer Key**, and **Consumer Secret** it will redirect to LinkedIn's sign-in page by providing valid LinkedIn credentials and clicking Allow, the member approves your application's request to access their member data and interact with LinkedIn on their behalf. 
 ![Authorize LinkedIn](/docs/assets/img/crm/authorize-linkedin.jpg)
 
 {next}

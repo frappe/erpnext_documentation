@@ -34,7 +34,7 @@ The CRM module has the following features:
 
 ### 1.4 Social Media
 
-1. [Linkedin Settings](/docs/user/manual/en/CRM/linkedin-settings)
+1. [LinkedIn Settings](/docs/user/manual/en/CRM/linkedin-settings)
 1. [Twitter Settings](/docs/user/manual/en/CRM/twitter-settings)
 1. [Social Media Post](/docs/user/manual/en/CRM/social-media-post)
 
