@@ -79,6 +79,7 @@ You can check out [this video](https://www.youtube.com/watch?v=5wjollWN0OA) for 
 1. [Multi Currency Accounting](/docs/user/manual/en/accounts/multi-currency-accounting)
 1. [Deferred Revenue](/docs/user/manual/en/accounts/deferred-revenue)
 1. [Deferred Expense](/docs/user/manual/en/accounts/deferred-expense)
+1. [Process Deferred Accounting](/docs/user/manual/en/accounts/process-deferred-accounting)
 1. [Bank Guarantee](/docs/user/manual/en/accounts/bank-guarantee)
 1. [Loyalty Program](/docs/user/manual/en/accounts/loyalty-program)
 1. [Budgeting](/docs/user/manual/en/accounts/budgeting)
