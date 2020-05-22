@@ -28,7 +28,7 @@ Before creating a Training Event, it is advisable you create the following docum
 
     <img class="screenshot" alt="Employee" src="{{docs_base_url}}/assets/img/human-resources/training-event.png">
 
-> **Note:**  Check the 'Has Certificate' checkbox if the TRaining Event is a certified course.
+> **Note:**  Check the 'Has Certificate' checkbox if the Training Event is a certified course.
 
 
 ## 3. Features
