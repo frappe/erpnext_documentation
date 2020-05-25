@@ -36,6 +36,12 @@ View your Blog Post by clicking on **See on Website** in the sidebar.
 ![Blog Post](/docs/assets/img/website/blog-post.png)
 *Blog Post*
 
+Check the **Disable Comments** option if you'd like to disable the ability for readers to add comments to the current blog post.
+![Blog Post](/docs/assets/img/website/blog-post-disable-comments.png)
+
+![Blog Post](/docs/assets/img/website/blog-post-no-comments.png)
+*Adding Comments Disabled*
+
 ## 2. Features
 
 ### 2.1 Blogger
@@ -67,5 +73,38 @@ list of blogs under that category.
 
 ![Blog Category - General](/docs/assets/img/website/blog-category-web-view.png)
 *Blog Category - General*
+
+### 2.3 Meta Tags
+
+Meta tags are HTML tags which describe a page and its content to a search engine or a social media platform. A meta description provides a brief description of a webpage. 
+
+In HTML, the meta description tag will be written as follows:
+
+```<head>
+    <meta name="description" content="This is an example of a meta description. This will often show up in search results.">
+    </head>
+```
+
+Under the SEO section, you can add the meta description and image for your blog post. ERPNext will generate a preview of the blog when listed as a search result by Google.
+
+If you leave this section empty, the blog introduction or the first 140 characters of the blog will be shown as the meta description. In the same way, if you leave the meta image empty, the first image in the blog will be selected.
+
+![Google Search Preview](/docs/assets/img/website/blog-post-seo-meta.png)
+*Blog Post Google Search Preview*
+
+On submitting the blog, you can also preview how the blog will look when shared on a social media platform like Facebook or Twitter. To check this, use the debugging tools offered by the platforms:
+
+- Facebook: [Sharing Debugger](https://developers.facebook.com/tools/debug/)
+
+- Twitter: [Card Validator](https://cards-dev.twitter.com/validator)
+
+- LinkedIn: [Post Inspector](https://www.linkedin.com/post-inspector/inspect/)
+
+To check the post preview, simply enter the webpage/blog link in the tool:
+
+![Facebook Sharing Debugger](/docs/assets/img/website/blog-post-facebook-debugger.png)
+*Using Facebook's Sharing Debugger Tool*
+
+Using these tools, you can optimize your blog post for sharing.
 
 {next}

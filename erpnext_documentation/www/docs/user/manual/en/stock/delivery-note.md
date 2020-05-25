@@ -49,7 +49,7 @@ These are the statuses a Delivery Note can be in:
 
 ### 2.2 Partial Deliveries
 
-When you create a Delivery Note from a Sales Order, the quantities can be changed. So if the Sales Order contains 10 Items to be delivered and you're delivering only 5 this week and the remaining next week, then you can create 2 Delivery Notes in two weeks. 
+When you create a Delivery Note from a Sales Order, the quantities can be changed. So if the Sales Order contains 10 Items to be delivered and you're delivering only 5 this week and the remaining next week, then you can create 2 Delivery Notes in two weeks.
 
 
 ## 3. Related Actions
@@ -64,7 +64,7 @@ For India, the following details can be added for GST:
 
 * Customer GSTIN
 * Place of Supply
-* Billing Address GSTIN 
+* Billing Address GSTIN
 * Company GSTIN
 * Company Address Name
 
@@ -87,6 +87,8 @@ To know about managing transactions in multiple currencies, [click here](/docs/u
 
 * The Item Code, name, description, Image, and Manufacturer will be fetched from the [Item master](/docs/user/manual/en/stock/item).
 
+* **Scan Barcode**: You can add Items in the Items table by scanning their barcodes if you have a barcode scanner. Know how to track them [here](/docs/user/manual/en/stock/articles/track-items-using-barcode)
+
 * **Discount and Margin**: You can apply a discount on individual Items percentage-wise or the total amount of the Item. Read [Applying Discount](/docs/user/manual/en/selling/articles/applying-discount) for more details.
 
 * **Rate**: The Rate is fetched if set in the [Price List](/docs/user/manual/en/stock/price-lists) and the total Amount is calculated.
@@ -95,7 +97,7 @@ To know about managing transactions in multiple currencies, [click here](/docs/u
 
 * The Item Weight details per unit and Weight UOM are fetched if set in the Item master.
 
-* **Warehouse and Reference**: The Warehouse from which the Items are sent to the Customer is shown. Also, a Sales Order will be shown if this Delivery Note was the creation flow: 'Sales Order > Deliver Note'. 
+* **Warehouse and Reference**: The Warehouse from which the Items are sent to the Customer is shown. Also, a Sales Order will be shown if this Delivery Note was the creation flow: 'Sales Order > Deliver Note'.
 
 * **Batch No and Serial No**: If your Item is serialized or batched, you will have to enter [Serial Number](/docs/user/manual/en/stock/serial-no) and [Batch](/docs/user/manual/en/stock/batch) in the Items table. You are allowed to enter multiple Serial Numbers in one row (each on a separate line) and you must enter the same number of Serial Numbers as the quantity.
 
@@ -105,7 +107,7 @@ To know about managing transactions in multiple currencies, [click here](/docs/u
 
 * Expense Account is the account from which the amount will be debited. Ticking on 'Allow Zero Valuation Rate' will allow submitting the Delivery Note even if the Valuation Rate of the Item is 0. This can be a sample item or due to a mutual understanding with your Supplier.
 
-* Accounting Dimensions help to tag each transaction with different Dimensions without the need for creating new Cost Centers. You need to create Accounting Dimensions first, to know more, visit [this page](/docs/user/manual/en/accounts/accounting-dimensions). 
+* Accounting Dimensions help to tag each transaction with different Dimensions without the need for creating new Cost Centers. You need to create Accounting Dimensions first, to know more, visit [this page](/docs/user/manual/en/accounts/accounting-dimensions).
 
 * **Page Break** will create a page break just before this Item when printing.
 
@@ -118,7 +120,7 @@ After enabling Inspection Criteria in the [Item form](/docs/user/manual/en/stock
 ### 3.7 Taxes and Charges
 The Taxes and Charges will be fetched from the [Sales Order](/docs/user/manual/en/buying/purchase-order).
 
-Visit the [Sales Taxes and Charges Template](/docs/user/manual/en/selling/sales-taxes-and-charges-template) page to know more about taxes. 
+Visit the [Sales Taxes and Charges Template](/docs/user/manual/en/selling/sales-taxes-and-charges-template) page to know more about taxes.
 
 The total taxes and charges will be displayed below the table.
 
@@ -148,7 +150,7 @@ If you outsource transporting Items to their delivery location, the transporter 
 The following details can be recorded:
 
 * Distance in km
-* Mode of Transport whether road, air, rail, or ship. 
+* Mode of Transport whether road, air, rail, or ship.
 
 For India, GST:
 
@@ -237,6 +239,6 @@ If you don't want to create a Delivery Note after a Sales Order and directly wan
 ### 4. Related Topics
 1. [Warehouse](/docs/user/manual/en/stock/warehouse)
 1. [Delivery Note Stock Error](/docs/user/manual/en/stock/articles/delivery-note-stock-error)
-1. [Material Transfer From Delivery Note](/docs/user/manual/en/stock/articles/material-transfer-from-delivery-note)
+1. [Material Transfer From Delivery Note and Purchase Receipt](/docs/user/manual/en/stock/articles/material-transfer-from-delivery-note)
 1. [Installation Note](/docs/user/manual/en/stock/installation-note)
 1. [Delivery Trip](/docs/user/manual/en/stock/delivery-trip)

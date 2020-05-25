@@ -16,9 +16,9 @@ A customer can be billed based on the total number of hours an employee has work
   5. Optionally, you can include payments for POS or make this a credit note.
   6. Save and Submit.
   
-To fetch the details automatically in a Sales Invoice, click on the Get Items from. The details can be fetched from a Sales Order, Delivery Note, or a Quotation. The details like Customer PO, Address and Contact Number, Currency and Price List, Items will get auto-populated.
+To fetch the details automatically in a Sales Invoice, click on the **Get items from** button. The details can be fetched from a Sales Order, Delivery Note, or a Quotation. The details like Customer PO, Address and Contact Number, Currency and Price List, Items will get auto-populated.
 
-<img class="screenshot"alt="Sales Invoice" src="{{docs_base_url}}/assets/img/project/projects-salary-slip-timesheet.png">
+<img class="screenshot"alt="Sales Invoice" src="{{docs_base_url}}/assets/img/project/timesheet/timesheet-billing-to-sales-invoice.gif">
 
 ## 2. Features
 

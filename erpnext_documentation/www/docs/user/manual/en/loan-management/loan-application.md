@@ -27,7 +27,7 @@ Before creating and using a Loan Security, it is advised that you create the fol
 3. Select the Applicant.
 4. Select the Loan Type. All the loan details like rate of interest, loan accounts will be automatically fetched from the Loan Type.
 5. Enter the Loan Amount.
-6. If the loan is a term loan, enter the Repayment Method. If the Repayment Method is selected as "Repay Over Number Of Periods" then you will have to enter the number of months in which the repayment will be made in "Repayment Period in Months". If the repayment method is selected as "Repay Over Number Of Periods" then you will have to enter the "Monthly Repayment Amount".
+6. If the loan is a term loan, enter the Repayment Method. If the Repayment Method is selected as "Repay Over Number Of Periods" then you will have to enter the number of months in which the repayment will be made in "Repayment Period in Months". If the repayment method is selected as "Repay Fixed Amount per Period " then you will have to enter the "Monthly Repayment Amount".
 7. You can also mention the proposed securities that will be pledged against a loan. For that, first tick the "Is Secure Loan" checkbox. Then in the proposed pledges table, you can enter the securities and their quantities.
 8. Click "Save" to save the draft of the Loan Application.
 9. Click "Submit" to submit the loan application.

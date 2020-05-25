@@ -32,6 +32,12 @@ The CRM module has the following features:
 1. [Contract](/docs/user/manual/en/CRM/contract)
 1. [Appointment Booking Settings](/docs/user/manual/en/CRM/appointment-booking-settings)
 
+### 1.4 Social Media
+
+1. [LinkedIn Settings](/docs/user/manual/en/CRM/linkedin-settings)
+1. [Twitter Settings](/docs/user/manual/en/CRM/twitter-settings)
+1. [Social Media Post](/docs/user/manual/en/CRM/social-media-post)
+
 ## 2. Articles
 1. [Automate Lead Capturing](/docs/user/manual/en/CRM/articles/automate_lead_capturing)
 1. [CRM Analytics](/docs/user/manual/en/CRM/articles/sales_funnel)

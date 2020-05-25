@@ -2,7 +2,7 @@
 
 # Custom Field
 
-**Every form in ERPNext has a standard set of fields. If you need to capture some information, but there is no standard Field available for it, you can insert Custom Field in a form as per your requirement.** 
+**Every form in ERPNext has a standard set of fields. If you need to capture some information, but there is no standard Field available for it, you can insert Custom Field in a form as per your requirement.**
 
 You can go to [Customize Form](/docs/user/manual/en/customize-erpnext/customize-form) and add the Field in a particular Form or a Document type _(hereafter referred to as DocType)_ .
 
@@ -10,7 +10,7 @@ To access Custom Field, go to:
 
 > Home > Customization > Form Customization > Custom Field
 
-You can also go to the list view of any DocType and select Customize from the Menu options. 
+You can also go to the list view of any DocType and select Customize from the Menu options.
 
 <img alt="Custom Field" class="screenshot" src="{{docs_base_url}}/assets/img/customize/customize-custom-field-01.png">
 
@@ -46,6 +46,7 @@ You can also go to [Customize Form](/docs/user/manual/en/customize-erpnext/custo
    <img alt="Custom Field" class="screenshot" src="{{docs_base_url}}/assets/img/customize/custom-field-description-1.png">
 
 1. **Permission Level**: This will allow you to specify which roles within your organization will be able to edit this Field. You can go through [Role Based Permissions](/docs/user/manual/en/setting-up/users-and-permissions/role-based-permissions) for more understanding on this.
+1. **In Preview**: If [Show Preview Popup](/docs/user/manual/en/customize-erpnext/customize-form#13-more-properties) for the document type is checked, the Field will be included in the popup that appears on hovering over links of the document type (in list view and other link fields).
 1. **Width**: This will define the width allocated to this Field while viewing the Form in a Grid View.
 1. **Columns**: You can define the number of Columns in the grid view of the DocType.
 

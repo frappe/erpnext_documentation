@@ -38,12 +38,6 @@ Expense claim workflow
     </iframe>
 </div>
 
-
-### Set Account for Employee
-
-Set employee's expense account on the employee form, system books an expense amount of an employee under this account.
-<img class="screenshot" alt="Expense Claim" src="{{docs_base_url}}/assets/img/human-resources/employee_account.png">
-
 ### Approving Expenses
 
 Approver for the Expense Claim is selected by an Employee himself. Employee can choose from the list of users who are configured as _Expense Approvers_ for their [Department](/docs/user/manual/en/human-resources/department).

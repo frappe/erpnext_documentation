@@ -18,9 +18,9 @@ Considering these scenarios, the provision of Material Transfer has been added i
 
 #### Enable Customer Warehouse
 
-Delivery Note Item doctype as a hidden field of Customer Warehouse. You can enable it from [Customize Form](/docs/user/manual/en/customize-erpnext/customize-form.html). Here is the quick demonstration of the same.
+Delivery Note Item doctype has a hidden field of Customer Warehouse. You can enable it from [Stock Settings](/docs/user/manual/en/stock/stock-settings.md) by enabling "Allow Material Transfer From Delivery Note and Sales Invoice"
 
-<img class="screenshot" alt="Delivery Note Material Transfer" src="{{docs_base_url}}/assets/img/stock/customer-warehouse.gif">
+<img class="screenshot" alt="Delivery Note Material Transfer" src="{{docs_base_url}}/assets/img/stock/customer-warehouse.png">
 
 ### Select Warehouses
 
@@ -44,7 +44,9 @@ Following are the steps to use Purchase Receipt for creating Material Transfer E
 
 #### Enable Supplier Warehouse
 
-Similar to the Customer Warehouse shown above, the first step is to enable the Supplier Warehouse from [Customize Form](/docs/user/manual/en/customize-erpnext/customize-form.html) as demonstrated above.
+Similar to the Customer Warehouse shown above, the first step is to enable the Supplier Warehouse from [Stock Settings](/docs/user/manual/en/stock/stock-settings.md) as shown above.
+
+<img class="screenshot" alt="Delivery Note Material Transfer" src="{{docs_base_url}}/assets/img/stock/supplier-warehouse-enable.png">
 
 ### Select Warehouses
 

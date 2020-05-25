@@ -68,6 +68,7 @@ their calculation.
 ### 1.7 Payroll
 1. [Payroll Management](/docs/user/manual/en/human-resources/payroll-intro)
 1. [Payroll Period](/docs/user/manual/en/human-resources/payroll-period)
+1. [Income Tax Slab](/docs/user/manual/en/human-resources/income-tax-slab)
 1. [Salary Component](/docs/user/manual/en/human-resources/salary-component)
 1. [Salary Structure](/docs/user/manual/en/human-resources/salary-structure)
 1. [Salary Structure Assignment](/docs/user/manual/en/human-resources/salary-structure-assignment)
@@ -82,6 +83,7 @@ their calculation.
 ### 1.8 Employee Tax and Benefits
 1. [Employee Tax Exemption Declaration](/docs/user/manual/en/human-resources/employee-tax-exemption-declaration)
 1. [Employee Tax Exemption Proof Submission](/docs/user/manual/en/human-resources/employee-tax-exemption-proof-submission)
+1. [Employee Other Income](/docs/user/manual/en/human-resources/employee-other-income)
 1. [Employee Benefit Application](/docs/user/manual/en/human-resources/employee-benefit-application)
 1. [Employee Benefit Claim](/docs/user/manual/en/human-resources/employee-benefit-claim)
 
@@ -96,10 +98,10 @@ their calculation.
 1. [Employee Advance](/docs/user/manual/en/human-resources/employee-advance)
 
 ### 1.11 Loans
-1. [Loan Management](/docs/user/manual/en/human-resources/loan-management)
-1. [Loan Type](/docs/user/manual/en/human-resources/loan-type)
-1. [Loan Application](/docs/user/manual/en/human-resources/loan-application)
-1. [Loan](/docs/user/manual/en/human-resources/loan)
+1. [Loan Management](/docs/user/manual/en/loan-management)
+1. [Loan Type](/docs/user/manual/en/loan-management/loan-type)
+1. [Loan Application](/docs/user/manual/en/loan-management/loan-application)
+1. [Loan](/docs/user/manual/en/loan-management/loan)
 
 ### 1.12 Shift Management
 1. [Shift Management](/docs/user/manual/en/human-resources/shift-management)

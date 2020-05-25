@@ -31,7 +31,7 @@ To create a new DocType, go to:
 
 1. **Naming**
 
- Here you can choose if you would want each of your forms within this DocType to be named automatically. A given in the description, you can select the pattern for naming of the forms. The same can be a Field within the DocType, Naming Series, Prompt, A defined Naming Series, or a Format based Name. For Naming, you can also add a Description and the Name Case (as a Title Case or UPPER CASE)for your convenience.
+ Here you can choose if you would want each of your forms within this DocType to be named automatically. As given in the description, you can select the pattern for naming of the forms. The same can be a Field within the DocType, Naming Series, Prompt, A defined Naming Series, or a Format based Name. For Naming, you can also add a Description and the Name Case (as a Title Case or UPPER CASE)for your convenience.
 
  <img alt="DocType" class="screenshot" src="{{docs_base_url}}/assets/img/customize/doctype-student-transfer-certificate-1.png">
 
