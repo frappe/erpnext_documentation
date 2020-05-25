@@ -34,9 +34,9 @@ Enter the account if Deferred Revenue or Expense has to be booked only for speci
 
 ### 3.2 Enabling automatic deferred accounting
 
-To enable automatic deferred accounting, enable the 'Automatically Process Deferred Account Entry' checkbox by navigating to Accounts Settings
+To enable automatic deferred accounting, enable the 'Automatically Process Deferred Account Entry' checkbox by navigating to Accounts Settings.
 
-To access Accounts Settings go to
-> Accounting > Accounting Masters > Accounts Settings
+To access Accounts Settings go to:
+> Home > Accounting > Accounting Masters > Accounts Settings
 
 <img class="screenshot" alt="Process Deferred Revenue" src="{{docs_base_url}}/assets/img/accounts/process-deferred-accounting-settings.png">
