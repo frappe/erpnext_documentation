@@ -167,6 +167,6 @@ Like in this case it is: `eval:frappe.db.get_value('Global Defaults', None, 'cou
 
 ![Document Mapping Type](/docs/assets/img/automation/document_mapping_type.png)
 
-Finally, check the 'Has Mapping' checkbox in the Event Configuration child table in Event Producer against the required Document Type and select the Document Type Mapping you just created.
+Lastly, enable the 'Has Mapping' option in the Event Configuration child table in Event Producer against the required Document Type and select the Document Type Mapping you just created.
 
 ![Mapping Configuration](/docs/assets/img/automation/event-mapping-conf.png)
