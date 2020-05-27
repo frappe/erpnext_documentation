@@ -1,7 +1,7 @@
 <!-- add-breadcrumbs -->
 # Practitioner Schedule
 
-Practitioner Schedule will help you configure the availability of Healthcare Practitioners. You can then select multiple applicable schedules for each [Healthcare Practitioner](/docs/user/manual/en/Healthcare/healthcare_practitioner).
+Practitioner Schedule will help you configure the availability of Healthcare Practitioners. You can then select multiple applicable schedules for each [Healthcare Practitioner](/docs/user/manual/en/healthcare/healthcare_practitioner).
 
 To create a Practitioner Schedule, go to:
 
@@ -30,6 +30,6 @@ These time slots will then be displayed while checking the availability of a pra
 
 ## 2. Related Topics
 
-1. [Healthcare Practitioner](/docs/user/manual/en/Healthcare/healthcare_practitioner)
+1. [Healthcare Practitioner](/docs/user/manual/en/healthcare/healthcare_practitioner)
 
 {next}

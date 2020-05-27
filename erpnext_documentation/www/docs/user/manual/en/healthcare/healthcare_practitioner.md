@@ -23,7 +23,7 @@ To create a Practitioner, go to,
 
 ### 2.1 Track Payroll, Attendance, Roles and Permissions
 
-In order to track all Human Resource Management activities for the Practitioner, you need to create and select the [Employee](/docs/user/manual/en/human-resources/employee) in the "Employee" field in practitioner. This will help run [Payroll](/docs/user/manual/en/human-resources/payroll-intro) and also track availability and attendance for booking appointments by setting appropriate [Holiday List](/docs/user/manual/en/human-resources/holiday-list) and [Practitioner Schedule](/docs/user/manual/en/Healthcare/practitioner_schedule). You can then create an ERPNext User linked to the Employee document. This will help track permissions for the Practitioner.
+In order to track all Human Resource Management activities for the Practitioner, you need to create and select the [Employee](/docs/user/manual/en/human-resources/employee) in the "Employee" field in practitioner. This will help run [Payroll](/docs/user/manual/en/human-resources/payroll-intro) and also track availability and attendance for booking appointments by setting appropriate [Holiday List](/docs/user/manual/en/human-resources/holiday-list) and [Practitioner Schedule](/docs/user/manual/en/healthcare/practitioner_schedule). You can then create an ERPNext User linked to the Employee document. This will help track permissions for the Practitioner.
 
 <img class="screenshot" alt="ERPNext Healthcare" src="{{docs_base_url}}/assets/img/healthcare/practitioner-employee.png">
 
@@ -33,7 +33,7 @@ If the Healthcare Practitioners are not employees in your Healthcare Units you c
 
 ### 2.2 Practitioner Availability
 
-You can select multiple [Practitioner Schedule](/docs/user/manual/en/Healthcare/practitioner_schedule) for each practitioner and optionally set a service unit at which the practitioner will be available.
+You can select multiple [Practitioner Schedule](/docs/user/manual/en/healthcare/practitioner_schedule) for each practitioner and optionally set a service unit at which the practitioner will be available.
 
 <img class="screenshot" alt="ERPNext Healthcare" src="{{docs_base_url}}/assets/img/healthcare/practitioner_availability.png">
 
@@ -59,6 +59,6 @@ Suppose the Practitioner works at various hospitals, you can link multiple conta
 
 1. [Users and Permissions](/docs/user/manual/en/setting-up/users-and-permissions)
 2. [Employee](/docs/user/manual/en/human-resources/employee)
-3. [Practitioner Schedule](/docs/user/manual/en/Healthcare/practitioner_schedule)
+3. [Practitioner Schedule](/docs/user/manual/en/healthcare/practitioner_schedule)
 
 {next}

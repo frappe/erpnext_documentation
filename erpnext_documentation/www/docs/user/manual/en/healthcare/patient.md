@@ -13,7 +13,7 @@ To create a new Patient:
 2. Enter the First Name, Gender, Blood Group, DOB, etc.
 3. Enter the patient's mobile number. This is important if you have enabled SMS alerts for patients.
 4. Enter the email address for the patient.
-5. For the "Customer" field you can create a customer and select it here. If you don't create select a Customer and you have enabled "Link Customer to Patient" in [Healthcare Settings](/docs/user/manual/en/Healthcare/healthcare_settings), a customer will be automatically created and linked as soon as you save the document.
+5. For the "Customer" field you can create a customer and select it here. If you don't create select a Customer and you have enabled "Link Customer to Patient" in [Healthcare Settings](/docs/user/manual/en/healthcare/healthcare_settings), a customer will be automatically created and linked as soon as you save the document.
 6. Save.
 
 <img class="screenshot" alt="ERPNext Healthcare" src="{{docs_base_url}}/assets/img/healthcare/patient_1.png">
@@ -48,7 +48,7 @@ Capture Risk Factors like Tobacco and Alcohol consumption habits, etc.
 
 ### 2.2 Patient as a Customer
 
-ERPNext, especially the Accounts module, makes use of **Customer** document for booking all transactions. So, you may want to associate every Patient with a Customer. By default, the system creates a Customer alongside a Patient and links to it. If for some reason you do not intend to use the ERPNext Accounts module you can turn this behavior off by disabling the flag "Link Customer to Patient" in [Healthcare Settings](/docs/user/manual/en/Healthcare/healthcare_settings).
+ERPNext, especially the Accounts module, makes use of **Customer** document for booking all transactions. So, you may want to associate every Patient with a Customer. By default, the system creates a Customer alongside a Patient and links to it. If for some reason you do not intend to use the ERPNext Accounts module you can turn this behavior off by disabling the flag "Link Customer to Patient" in [Healthcare Settings](/docs/user/manual/en/healthcare/healthcare_settings).
 
 <img class="screenshot" alt="ERPNext Healthcare" src="{{docs_base_url}}/assets/img/healthcare/patient_link_customer.png">
 
@@ -88,6 +88,6 @@ The Patient document holds the Patient barcode and can be used in any the defaul
 > This Form has been Changed in Version 13
 
 ## 3. Related Topics
-1. [Healthcare Settings](/docs/user/manual/en/Healthcare/healthcare_settings)
+1. [Healthcare Settings](/docs/user/manual/en/healthcare/healthcare_settings)
 
 {next}

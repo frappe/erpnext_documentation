@@ -24,8 +24,8 @@ You can also create and record Vitals for a Patient from Patient Appointment, Pa
 
 ## 2. Related Topics
 
-1. [Patient Appointment](/docs/user/manual/en/Healthcare/patient_appointment)
-1. [Patient](/docs/user/manual/en/Healthcare/patient)
-1. [Patient Encounter](/docs/user/manual/en/Healthcare/patient_encounter)
+1. [Patient Appointment](/docs/user/manual/en/healthcare/patient_appointment)
+1. [Patient](/docs/user/manual/en/healthcare/patient)
+1. [Patient Encounter](/docs/user/manual/en/healthcare/patient_encounter)
 
 {next}

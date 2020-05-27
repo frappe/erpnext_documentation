@@ -50,7 +50,7 @@ Note that you can also enable "Sample Collection" for a Clinical Procedure if ap
 
 ## 3. Related Topics
 
-1. [Clinical Procedure](/docs/user/manual/en/Healthcare/clinical_procedure)
-1. [Sample Collection](/docs/user/manual/en/Healthcare/sample_collection)
+1. [Clinical Procedure](/docs/user/manual/en/healthcare/clinical_procedure)
+1. [Sample Collection](/docs/user/manual/en/healthcare/sample_collection)
 
 {next}
