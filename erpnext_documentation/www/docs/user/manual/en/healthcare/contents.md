@@ -13,6 +13,7 @@ The following are the detailed guides on each of the functionalities ready to us
 1. [Introduction](/docs/user/manual/en/healthcare/introduction)
 1. [Patient](/docs/user/manual/en/healthcare/patient)
 1. [Healthcare Practitioner](/docs/user/manual/en/healthcare/healthcare_practitioner)
+1. [Practitioner Schedule](/docs/user/manual/en/healthcare/practitioner_schedule)
 1. [Medical Department](/docs/user/manual/en/healthcare/medical_department)
 1. [Healthcare Service Unit](/docs/user/manual/en/healthcare/healthcare_service_unit_type)
 1. [Healthcare Service Unit](/docs/user/manual/en/healthcare/healthcare_service_unit)
@@ -48,6 +49,6 @@ The following are the detailed guides on each of the functionalities ready to us
 1. [Sample Collection](/docs/user/manual/en/healthcare/sample_collection)
 
 ### 7. Records, History and Reports
-1. [Patient History](/docs/user/manual/en/healthcare/medical_record)
+1. [Patient History](/docs/user/manual/en/healthcare/patient_history)
 1. [Patient Appointment Analytics](/docs/user/manual/en/healthcare/patient_appointment_analytics)
 1. [Inpatient Record](/docs/user/manual/en/healthcare/inpatient_record)
