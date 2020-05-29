@@ -24,7 +24,8 @@ Create App by link `https://developer.twitter.com/` and check that the App has *
 ### 1.2. Configure Callback URL
 1. Select your App and go to **App Details**.
 2. Then go to **Edit** and click **Edit Details**.
-3. Add your website URL in **Callback URLs** like `https://erpnext.com`.
+3. Add your website URL in **Callback URLs** like:
+`https://{yoursite}/api/method/erpnext.crm.doctype.twitter_settings.twitter_settings.callback`
 4. Click **Save** to make changes. 
 
 ![Twitter App Callback URL](/docs/assets/img/crm/twitter-callback-url.png)

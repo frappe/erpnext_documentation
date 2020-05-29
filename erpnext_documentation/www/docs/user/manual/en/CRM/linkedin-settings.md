@@ -29,9 +29,9 @@ Create App by link `https://www.linkedin.com/developers` fill all the details an
 
 1. Goto your LinkedIn Developers App then **Auth** tab.
 2. In **OAuth 2.0 settings** section add **Redirect URLs**:
-`https://{yoursite}/?cmd=erpnext.crm.doctype.linkedin_settings.linkedin_settings.callback`
+`https://{yoursite}/api/method/erpnext.crm.doctype.linkedin_settings.linkedin_settings.callback`
 3. Click **Update** to make changes. 
-![LinkedIn Redirect URL](/docs/assets/img/crm/linkedin-redirect-urls.gif)
+![LinkedIn Redirect URL](/docs/assets/img/crm/linkedin-redirect-urls.png)
 
 ## 2. How to set up LinkedIn Settings
 
