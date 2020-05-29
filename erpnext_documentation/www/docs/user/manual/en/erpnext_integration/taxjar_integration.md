@@ -1,82 +1,56 @@
 <!-- add-breadcrumbs -->
 # TaxJar Integration
 
-Using WooCommerce Integration, the system creates Sales Orders in ERPNext for the orders created on WooCommerce using the WooCommerce webhook.
+TaxJar integration provide sales tax calculations at checkout. This functionality is provided completely through the TaxJar API, our sales tax API. When a customer visits a cart or checkout page, your platform will make a request to the API with the merchant and customer’s details to calculate the right amount of sales tax. You’ll use that data to collect sales tax for the merchant during the checkout process.
 
-While creating a Sales Order from WooCommerce, if the Customer or Item is missing in ERPNext, the system will create new Customer/Item by using the respective details from WooCommerce order data. It also creates Address linked to the Customer using the shipping details from the order data.
+You can also import transactions (orders and refunds) into TaxJar directly from your platform through the TaxJar API. Merchants can see their transactions by logging into the TaxJar app at https://app.taxjar.com. At this time, TaxJar provides reporting for US merchants.
 
-## 1. How to set up WooCommerce?
+Once a merchant imports their transactions into TaxJar, we can automatically file their sales tax returns. If you implement sales tax reporting in your integration, no additional work is needed to support sales tax filing. Merchants can enroll in AutoFile directly from the TaxJar app at https://app.taxjar.com.
+
+## 1. How to set up TaxJar?
 
 ### 1.1 Generate API Key and API Secret
 
-1. From your WooCommerce site's sidebar, click on Settings.
+1. From your TAXJAR site's sidebar, click on Settings.
 2. Click on the "Advanced" tab then click on the REST API link.
 
-    ![Woocommerce API](/docs/assets/img/erpnext_integrations/wc-add-key.png)
+    ![Taxjar API](/docs/assets/img/erpnext_integrations/)
 
 3. Click on "Add key" button. Provide the necessary details and click on "Generate API key" button.
 
-    ![Woocommerce API Key](/docs/assets/img/erpnext_integrations/wc-generate-keys.png)
+    ![Taxjar API Key](/docs/assets/img/erpnext_integrations/)
 
-### 1.2 Woocommerce Settings
+### 1.2 Taxjar Settings
 
-1. On your ERPNext site, go to: **Home > Integrations > Settings > Woocommerce Settings**.
-2. Paste the API key and secret generated in the previous step into the "API consumer key" and "API consumer secret" fields.
-3. In the "Woocommerce Server URL" paste the url of your WooCommerce site.
-4. Make sure "Enable Sync" is checked.
-5. Select the "Tax Account" and "Freight and Forwarding Account" in the Account Details Section.
-6. Select the "Creation User" in Defaults section. This user will be used to create Customers, Items and Sales Orders. Ensure that the user has the relevant permissions.
-7. Select the "Company" that will be used to create the Sales Orders.
-8. Click Save.
-9. After saving the Woocommerce Settings, "Secret" and "Endpoint" are generated automatically.
+1. On your ERPNext site, go to: **Home > Integrations > Settings > Taxjar Settings**.
+2. Paste the API key and secret generated in the previous step into the "Live API Key" fields.
+3. Select the "Tax Account" and "Freight and Forwarding Account" in the Account Details Section.
+4. Select the "Creation User" in Defaults section. This user will be used to create Customers, Items and Sales Orders. Ensure that the user has the relevant permissions.
+5. Click Save.
 
-![Woocommerce Settings](/docs/assets/img/erpnext_integrations/woocommerce-settings.png)
-
-### 1.3 Woocommerce Webhook Settings
-
-1. Now from your woocommerce site's sidebar, go to Settings.
-2. Click on the "Advanced" tab then click on the Webhooks link and then click on "Add webhook" button.
-3. Give the webhook a name of your choice.
-4. Click on Status dropdown and select "Active".
-5. Select Topic as "Order created".
-6. Copy the "Endpoint" from "Woocommerce Settings" doctype in your ERPNext site and paste it in "Delivery URL" field.
-7. Copy "Secret" from "Woocommerce Settings" doctype in your ERPNext site and paste it in "Secret" field.
-8. Keep API VERSION as it is and click on Save Webhook. Now it is successfully set up.
-
-![Woocommerce Webhook](/docs/assets/img/erpnext_integrations/wc-webhook.png)
+![TaxJar Settings](/docs/assets/img/erpnext_integrations/)
 
 A GIF below to show the entire process:
 
-![Woocommerce Set Up](/docs/assets/img/erpnext_integrations/woocommerce-setup.gif)
+![Taxjar Set Up](/docs/assets/img/erpnext_integrations/)
 
-> **Note:** In the above screenshot and GIF, in place of delivery url on woocommerce website, you need to paste the url you will obtain after saving the "Woocommerce Settings" in the "Endpoint" field in your ERPNext instance. Here other URL was pasted as localhost was being used.
-
-### 1.4 Woocommerce order creation and syncing
-
-1. From your Woocommerce website, register yourself as a user on the Account page.
-2. Now Click on Addresses option and provide the required details.
-3. Click on "Shop" option and now available products can be seen.
-4. Add the desired products into the cart and click on **View Cart**.
-5. From the cart, once you have added the desired products, you can click on "Proceed to Checkout".
-6. All billing details and Order details can be seen now. Once you are ok with it, click on **Place Order** button.
-7. "Order Received" message can been seen indicating that the order has been placed successfully.
-8. Now on your ERPNext instance, check the following Document Types: Customer, Address, Item, Sales Order. They will be fetched and created from the webhook data.
-9. In case the orders are not synced, you can check the error in **Home > Settings > Core > Error Log**.
-
-![Woocommerce Set Up](/docs/assets/img/erpnext_integrations/woocommerce-order.gif)
+> **Note:** In the above screenshot and GIF
 
 ## 2. Features
 
 ### 2.1 Defaults
 
-In the Woocommerce Settings DocType:
+In the Taxjar Settings DocType:
 
-- **Warehouse**: This Warehouse will be used to create Sales Orders. The default Warehouse is "Stores".
-- **Delivery After (Days)**: This is the default offset (days) for the Delivery Date in Sales Orders. The default offset is 7 days from the order placement date.
-- **Sales Order Series**: You can set a separate series for Sales Orders created via woocommerce. The default series is "SO-WOO-".
-- **UOM**: This is the default UOM used for Items and Sales Orders. The default UOM is "Nos".
+- **Enable Tax Calculation**: Check this field to auto calculate sales tax.
+- **Create TaxJar Transaction**: Check this field to enable create auto transaction on Taxjar Platform.
 
-![Woocommerce Defaults](/docs/assets/img/erpnext_integrations/wc-defaults.png)
+In Customer, Quotation, Sales Order and Sales Invoice Doctype:
+
+- **exempt_from_sales_tax**: Check this field to exempt this transaction for auto Sales Tax Calculation.
+
+
+![ Defaults](/docs/assets/img/erpnext_integrations/)
 
 ## 3. Related Topics
 1. [Sales Order](/docs/user/manual/en/selling/sales-order)
