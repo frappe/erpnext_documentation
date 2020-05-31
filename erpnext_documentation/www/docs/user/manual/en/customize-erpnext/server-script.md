@@ -9,11 +9,12 @@
 
 To create a Server Script
 
-1. You must set `server_script_enabled` as true in site_config.json of your site.
-1. To add/edit Server Script, ensure your role is System Manager.
-1. Create a new server script via "New Server Script" in the toolbar.
-1. Set the type of server script (Document Event / API).
-1. Set the document type and event name, or method name, script and save.
+1. If your site is being hosted on [erpnext.com](https://erpnext.com/), contact support to activate Server Script.
+> In case of self-hosted, you must set `server_script_enabled` as true in site_config.json of your site. 
+2. To add/edit Server Script, ensure your role is System Manager.
+3. Create a new server script via "New Server Script" in the toolbar.
+4. Set the type of server script (Document Event / API).
+5. Set the document type and event name, or method name, script and save.
 
 ## 2. Features
 
