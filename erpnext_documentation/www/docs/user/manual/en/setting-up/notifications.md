@@ -105,14 +105,14 @@ To generate webhook URLs, you need to create a new Slack App:
     <img class="screenshot" alt="Set Message" src="{{docs_base_url}}/assets/img/setup/notifications/slack_notification_1.png">
 
 3. Give your App a name and choose the right workspace.
-    Once your app is created, go to the "Incoming Webhooks" section and add a new Webhook to Workspace.  
+    Once your app is created, go to the "Incoming Webhooks" section and add a new Webhook to Workspace.
     <img class="screenshot" alt="Set Message" src="{{docs_base_url}}/assets/img/setup/notifications/slack_notification_2.png">
 
 4. Copy the created link, go back to ERPNext and use it to create a new Slack Webhook URL in Integrations > Slack Webhook URL.
     <img class="screenshot" alt="Set Message" src="{{docs_base_url}}/assets/img/setup/notifications/slack_notification_3.png">
 
 5. Select Slack and your Slack channel in the channel and Slack channel fields within your notification
-    
+
 
 ### 2.2 Message Format
 
@@ -139,6 +139,30 @@ Example:
 
 <img class="screenshot" alt="Set Message" src="{{docs_base_url}}/assets/img/setup/notifications/slack_notification_4.png">
 
-### 3. Related Topics
+
+---
+
+## 3. System Notifications
+
+In **Version 12** we introduced System notifications for **assignments**, **mentions**, **documents shared**, and **energy points**. These notifications show up on the notifications dropdown on the top right of the navigation bar.
+
+In **Version 13** we have introduced an additional channel to send alerts - **System Notifications**:
+
+<img class="screenshot" alt="Notifications Dropdown" src="{{docs_base_url}}/assets/img/setup/notifications/system-notifications-channel.png">
+
+Choosing this channel will send a system notification when a notification is triggered, instead of an Email or a Slack notification.
+
+<img class="screenshot" height=400 alt="Notifications Dropdown" src="{{docs_base_url}}/assets/img/setup/notifications/system-notification.png">
+
+Clicking on the notification routes to the **Notification Log** document which contains the configured subject, message as well as the attached file, if Attach Print is set:
+
+<img class="screenshot" alt="Notifications Dropdown" src="{{docs_base_url}}/assets/img/setup/notifications/notification-log.png">
+
+In case Email/Slack alerts as well as System Notifications are required, the main channel can be set as Email or Slack and this option can be checked:
+
+<img class="screenshot" alt="Notifications Dropdown" src="{{docs_base_url}}/assets/img/setup/notifications/send-system-notification.png">
+
+
+### 4. Related Topics
 1. [SMS Settings](/docs/user/manual/en/setting-up/sms-setting)
 1. [Document Follow](/docs/user/manual/en/setting-up/email/document-follow)
