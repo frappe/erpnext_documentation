@@ -15,7 +15,7 @@ The following are the detailed guides on each of the functionalities ready to us
 1. [Healthcare Practitioner](/docs/user/manual/en/healthcare/healthcare_practitioner)
 1. [Practitioner Schedule](/docs/user/manual/en/healthcare/practitioner_schedule)
 1. [Medical Department](/docs/user/manual/en/healthcare/medical_department)
-1. [Healthcare Service Unit](/docs/user/manual/en/healthcare/healthcare_service_unit_type)
+1. [Healthcare Service Unit Type](/docs/user/manual/en/healthcare/healthcare_service_unit_type)
 1. [Healthcare Service Unit](/docs/user/manual/en/healthcare/healthcare_service_unit)
 1. [Medical Code Standards](/docs/user/manual/en/healthcare/medical_code_standard)
 1. [Medical Code](/docs/user/manual/en/healthcare/medical_code)
