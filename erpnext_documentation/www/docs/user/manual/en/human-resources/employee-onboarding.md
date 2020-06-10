@@ -42,7 +42,7 @@ Before creating an Employee Onboarding, it is advisable that you create the foll
 
 > Note 1: If an Employee Onboarding Template isn't created, you can directly fill the onboarding information in the Employee Onboarding doctype itself.
 
-> Note 2: The 'Status' of the Employee Onbaording will change to Completed once all the associated Activities are complete.
+> Note 2: The 'Status' of the Employee Onboarding will change to Completed once all the associated Activities are complete.
 
 
 ## 3. Features
