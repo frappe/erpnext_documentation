@@ -20,7 +20,7 @@ Da der Kunde 5.000 Euro bar angezahlt hat, wird dieser Betrag als Habenbuchung z
 
 ### Doppelte Buchführung
 
-Bei der doppelten Buchführung hat jede Transaktion einen positiven oder negativen Gegenpart: Soll und Haben. Für jede Transaktion gibt es eine [Sollbuchung](http://www.e-conomic.co.uk/accountingsystem/glossary/debit) auf einem Konto und eine [Habenbuchung](http://www.e-conomic.co.uk/accountingsystem/glossary/credit) auf einem anderen Kont. Das heißt, dass jede Transaktion zu zwei Konten erfolgt. Ein Konto wird belastet, weil sich ein Betrag erhöht, und eines wird entlastet, weil sich der Betrag vermindert.
+Bei der doppelten Buchführung hat jede Transaktion einen positiven oder negativen Gegenpart: Soll und Haben. Für jede Transaktion gibt es eine Sollbuchung auf einem Konto und eine Habenbuchung auf einem anderen Kont. Das heißt, dass jede Transaktion zu zwei Konten erfolgt. Ein Konto wird belastet, weil sich ein Betrag erhöht, und eines wird entlastet, weil sich der Betrag vermindert.
 
 #### Abbildung 2: Transaktion und Ausgleichsbuchung
 

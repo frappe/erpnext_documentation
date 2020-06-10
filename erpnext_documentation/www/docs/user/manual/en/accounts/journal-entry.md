@@ -52,7 +52,7 @@ Following are the documents that can be selected in the Journal Entry under Refe
   * [Purchase Order](/docs/user/manual/en/buying/purchase-order)
   * [Expense Claim](/docs/user/manual/en/human-resources/expense-claim)
   * [Asset](/docs/user/manual/en/asset/asset)
-  * [Loan](/docs/user/manual/en/human-resources/loan-management)
+  * [Loan](/docs/user/manual/en/loan-management/loan)
   * [Payroll Entry](/docs/user/manual/en/human-resources/payroll-entry)
   * [Employee Advance](/docs/user/manual/en/human-resources/employee-advance)
   * [Exchange Rate Revaluation](/docs/user/manual/en/accounts/exchange-rate-revaluation)

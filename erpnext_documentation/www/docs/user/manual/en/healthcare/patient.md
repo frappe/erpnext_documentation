@@ -83,7 +83,7 @@ You can use the document links in the dashboard to traverse the linked document 
 
 * Record the details of an encounter by using **Create > Patient Encounter** button
 
-The Patient document holds the Patient barcode and can be used in any the default print formats or any [Custom Print Formats](docs/user/manual/en/customize-erpnext/print-format) that you create for printing patient identification tags.
+The Patient document holds the Patient barcode and can be used in any the default print formats or any [Custom Print Formats](/docs/user/manual/en/customize-erpnext/print-format) that you create for printing patient identification tags.
 
 > This Form has been Changed in Version 13
 

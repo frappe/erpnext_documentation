@@ -20,5 +20,5 @@ You can also view the Stock Balance report by clicking on 'Stock Balance Report'
 ![Stock Balance Report](/docs/assets/img/stock/stock-balance-report.png)
 
 ### 2. Related Topics
-1. [Stock Level Report](/docs/user/manual/en/stock/articles/stock-level-report)
+1. [Stock Level Report](/docs/user/manual/en/stock/stock-level-report)
 1. [Stock Entry](/docs/user/manual/en/stock/stock-entry)

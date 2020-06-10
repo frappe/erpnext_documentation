@@ -16,7 +16,7 @@ You can update the range of the chart by selecting one of Quarter Day, Half Day,
 
 Dragging a task along the dates will update the start and end date of a task.
 
-If you want to further customize the chart and make it more colorful, read [this article](/docs/user/manual/en/projects/article/make-a-colorful-gantt-chart).
+If you want to further customize the chart and make it more colorful, read [this article](/docs/user/manual/en/projects/articles/make-a-colorful-gantt-chart)
 
 ## Kanban View
 

@@ -47,7 +47,7 @@ Once you click on save, these settings are validated by ERPNext and the Email Do
 
 #### Entered everything but still unable to setup Email Domain?
 
-If you've entered and verified the above settings and are still unable to setup Email Domain, you can contact [ERPNext support](/in-app-support) for help.
+If you've entered and verified the above settings and are still unable to setup Email Domain, you can contact ERPNext support within your account for help.
 
 ### 2. Related Topics
 1. [Email Account](/docs/user/manual/en/setting-up/email/email-account)

@@ -91,6 +91,5 @@ After you have completed filling up all the necessary sections, you can Submit t
 
 1. [Patient Appointment](/docs/user/manual/en/healthcare/patient_appointment)
 1. [Clinical Procedure Template](/docs/user/manual/en/healthcare/clinical_procedure_template)
-1. [Lab Test Template](/docs/user/manual/en/healthcare/lab_test_template)
 
 {next}
