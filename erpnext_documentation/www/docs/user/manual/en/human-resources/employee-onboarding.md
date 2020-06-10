@@ -31,7 +31,7 @@ Before creating an Employee Onboarding, it is advisable that you create the foll
 
 1. Go to: Employee Onboarding > New.
 1. Select the Job Applicant. once the Job Applicant is selected, the corresponding Employee will automatically get fetched.
-1. Select the [Employee Onboarding Template](#31-employee-onboarding-template). Based on the template selected, information such as Department, Designation and Employee grade will be automatically fetched (if already mentioned in the Onbaording Template).
+1. Select the [Employee Onboarding Template](#31-employee-onboarding-template). Based on the template selected, information such as Department, Designation and Employee grade will be automatically fetched (if already mentioned in the Onboarding Template).
 1. Enter Date of Joining.
 1. Save and Submit.
 
