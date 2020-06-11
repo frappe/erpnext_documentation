@@ -6,7 +6,7 @@
 
 **An Assignment Rule lets you set up automatic assignment of documents to Users.**
 
-Assignment Rule will be useful in a scenario like—you have a support team and incoming support tickets. To assign the support tickets automatically amongst the employees who work on support, an Assignment Rule can be used.
+Assignment Rule will be useful in a scenario wherein you have a support team and incoming support tickets. To assign the support tickets automatically amongst the employees who work on support, an Assignment Rule can be used.
 
 To access Assignment Rule, go to:
 > Home > Settings > Assignment Rule

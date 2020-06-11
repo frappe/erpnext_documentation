@@ -37,7 +37,7 @@ To create a new DocType, go to:
 
 1. **Form Settings**
 
- Additional Settings for the Form, Image Fields, Attachments, Timeline etc. can be configured here. To know more about Form, visit [Customize Form](/user/manual/en/customize-erpnext/customize-form).
+ Additional Settings for the Form, Image Fields, Attachments, Timeline etc. can be configured here. To know more about Form, visit [Customize Form](/docs/user/manual/en/customize-erpnext/customize-form).
 
  <img alt="DocType" class="screenshot" src="{{docs_base_url}}/assets/img/customize/doctype-student-transfer-certificate-2.png">
 

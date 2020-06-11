@@ -44,7 +44,7 @@ There are some filters present out of the box for the views which can be used fo
 
 ## See also
 
-1. [Filter by](/docs/user/manual/en/using-erpnext/articles/filter-by-condition)
-1. [Save Filter](/docs/user/manual/en/using-erpnext/articles/save-filer)
+1. [Filter by](/docs/user/manual/en/using-erpnext/filter-by)
+1. [Save Filter](/docs/user/manual/en/using-erpnext/save-filter)
 
 <!-- markdown -->

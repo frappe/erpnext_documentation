@@ -58,7 +58,7 @@ You can also go to the list view of any DocType and select Customize from the Me
   <img alt="Customize Form" class="screenshot" src="{{docs_base_url}}/assets/img/customize/customize-track-changes-1.png">
 
 * **Track Views**: This option will give you a trail of all the views towards this particular DocType.
-* **Allow Auto-Repeat**: This option, if checked, will allow you to enable Auto Repetition of a DocType periodically. E.g., if there is a Sales Order which has to be made multiple number of times, you can enable this option and then [Set Up Auto Repeat](/docs/user/manual/en/setting-up/automation/auto-repeat) for any particular Sales Order.
+* **Allow Auto-Repeat**: This option, if checked, will allow you to enable Auto Repetition of a DocType periodically. E.g., if there is a Sales Order which has to be made multiple number of times, you can enable this option and then [Set Up Auto Repeat](/docs/user/manual/en/automation/auto-repeat) for any particular Sales Order.
 * **Allow Import**: This option will allow the user to Import data from any files. Checkout [Data Import Tool](/docs/user/manual/en/setting-up/data/data-import) for more information.
 * **Show Preview Popup**: This option was introduced in Version 12. If checked, a small popup will appear on hover of links of this document type (in list view and other link fields). This popup will contain the mandatory fields of the document and the fields for which `in_preview` is checked. Checkout [Link Preview](https://erpnext.com/version-12/release-notes/features#link-preview) for more information.
 

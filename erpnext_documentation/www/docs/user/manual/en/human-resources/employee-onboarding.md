@@ -31,7 +31,7 @@ Before creating an Employee Onboarding, it is advisable that you create the foll
 
 1. Go to: Employee Onboarding > New.
 1. Select the Job Applicant. once the Job Applicant is selected, the corresponding Employee will automatically get fetched.
-1. Select the [Employee Onboarding Template](#31-employee-onboarding-template). Based on the template selected, information such as Department, Designation and Employee grade will be automatically fetched (if already mentioned in the Onbaording Template).
+1. Select the [Employee Onboarding Template](#31-employee-onboarding-template). Based on the template selected, information such as Department, Designation and Employee grade will be automatically fetched (if already mentioned in the Onboarding Template).
 1. Enter Date of Joining.
 1. Save and Submit.
 
@@ -42,7 +42,7 @@ Before creating an Employee Onboarding, it is advisable that you create the foll
 
 > Note 1: If an Employee Onboarding Template isn't created, you can directly fill the onboarding information in the Employee Onboarding doctype itself.
 
-> Note 2: The 'Status' of the Employee Onbaording will change to Completed once all the associated Activities are complete.
+> Note 2: The 'Status' of the Employee Onboarding will change to Completed once all the associated Activities are complete.
 
 
 ## 3. Features
@@ -62,7 +62,7 @@ To create a new Employee Onboarding Template:
 
 ### 3.2 Tasks and Assignments
 
-On submission of the Employee Onboarding, a [Project](/docs/user/manual/en/projects/project) will be created. Within the Project, [Tasks](/docs/user/manual/en/projects/task) will also be created for each Activity. 
+On submission of the Employee Onboarding, a [Project](/docs/user/manual/en/projects/project) will be created. Within the Project, [Tasks](/docs/user/manual/en/projects/tasks) will also be created for each Activity. 
 
 You can view the created Projects and Tasks as shown below:
 

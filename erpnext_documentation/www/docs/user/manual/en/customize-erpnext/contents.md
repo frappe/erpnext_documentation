@@ -27,7 +27,7 @@ ERPNext, while being a system which is extremely easy to use, is also highly cus
 1. [Workflows](/docs/user/manual/en/setting-up/workflows)
 1. [Workflow Actions](/docs/user/manual/en/setting-up/workflow-actions)
 1. [Workflow State](/docs/user/manual/en/setting-up/workflow-state)
-1. [Assignment Rule](/docs/user/manual/en/setting-up/automation/assignment-rule)
+1. [Assignment Rule](/docs/user/manual/en/automation/assignment-rule)
 
 ## 2. [Articles](/docs/user/manual/en/customize-erpnext/articles)
 
