@@ -13,7 +13,7 @@ metatags:
  
 The Distributed cost center enhances the cost center dimension to allow the distribution of the tagged value to a set of cost centers. A distributed cost center can be created out of different ratios of ordinary cost centers and it can be tagged against the GL entries. Expense and income will not affect directly to the cost center. It will be distributed with the selected cost centers as 100% equal calculation.
 
-## 1. How to create the Distributed Cost Center
+## 1. How to create a Distributed Cost Center
 1. Go to the cost center list, click on New.
 1. Enter the cost center name.
 1. Select the parent cost center.
