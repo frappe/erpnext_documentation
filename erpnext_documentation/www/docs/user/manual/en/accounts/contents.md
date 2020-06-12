@@ -20,6 +20,7 @@ You can check out [this video](https://www.youtube.com/watch?v=5wjollWN0OA) for 
 1. [Chart Of Accounts](/docs/user/manual/en/accounts/chart-of-accounts)
 1. [Opening Balance in Accounts](/docs/user/manual/en/accounts/opening-balance)
 1. [Cost Center](/docs/user/manual/en/accounts/cost-center)
+1. [Distributed Cost Center](/docs/user/manual/en/accounts/distributed-cost-center)
 1. [Fiscal Year](/docs/user/manual/en/accounts/fiscal-year)
 1. [Accounting Period](/docs/user/manual/en/accounts/accounting-period)
 1. [Finance Book](/docs/user/manual/en/accounts/finance-book)
