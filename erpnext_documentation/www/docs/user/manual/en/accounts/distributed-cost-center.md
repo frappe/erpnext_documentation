@@ -15,7 +15,7 @@ metatags:
 
 In ERPNext you can create Distributed Cost Center and use them in transactions and reports. Expense and income will not affect directly to the Cost Center. It will be distributed with the selected Cost Centers as 100% equal calculation.
 
-## 1. How to create the Distributed Cost Center
+## 1. How to create a Distributed Cost Center
 1. Go to the Cost Center list, click on New.
 1. Enter the Cost Center name.
 1. Select the parent Cost Center.
@@ -32,5 +32,5 @@ The following reports will be automatically updated when Cost Center filter is a
     * General Ledger
   * [Profitability Analysis](/docs/user/manual/en/accounts/articles/tracking-project-profitability-using-cost-center)
 
-### 2. Related Topic
+### 2. Related Topics
 1. [Cost Center](/docs/user/manual/en/accounts/cost-center)
