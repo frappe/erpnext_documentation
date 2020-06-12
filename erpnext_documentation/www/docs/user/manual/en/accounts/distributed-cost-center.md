@@ -30,5 +30,5 @@ The following reports will be automatically updated when cost center filter is a
     * General Ledger
   * [Profitability Analysis](/docs/user/manual/en/accounts/articles/tracking-project-profitability-using-cost-center)
 
-### 2. Related Topic
+### 2. Related Topics
 1. [Cost Center](/docs/user/manual/en/accounts/cost-center)
