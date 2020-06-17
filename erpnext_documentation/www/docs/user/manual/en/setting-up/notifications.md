@@ -144,7 +144,7 @@ Example:
 
 ## 3. System Notifications
 
-In **Version 12** we introduced System notifications for **assignments**, **mentions**, **documents shared**, and **energy points**. These notifications show up on the notifications dropdown on the top right of the navigation bar.
+In **Version 12** we introduced System notifications for **Assignments**, **mentions**, **documents shared**, and **Energy Points**. These notifications show up in the notifications dropdown on the the navigation bar's top right corner.
 
 In **Version 13** we have introduced an additional channel to send alerts - **System Notifications**:
 
@@ -158,7 +158,7 @@ Clicking on the notification routes to the **Notification Log** document which c
 
 <img class="screenshot" alt="Notifications Dropdown" src="{{docs_base_url}}/assets/img/setup/notifications/notification-log.png">
 
-In case Email/Slack alerts as well as System Notifications are required, the main channel can be set as Email or Slack and this option can be checked:
+If Email/Slack alerts and System Notifications both are required, the main channel can be set as Email or Slack and this option can be checked:
 
 <img class="screenshot" alt="Notifications Dropdown" src="{{docs_base_url}}/assets/img/setup/notifications/send-system-notification.png">
 
