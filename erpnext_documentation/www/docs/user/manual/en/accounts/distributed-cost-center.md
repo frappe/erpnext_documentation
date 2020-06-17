@@ -13,6 +13,8 @@ metatags:
 
 **A Distributed Cost Center is a *Cost Center* in which multiple Cost Centers are tagged with an appropriate percentage.**
 
+For example, you can mention Cost Center 'A' as a Distributed Cost Center when its income, expense, budget, etc are shared among various Cost Centers like 'B' and 'C' with some percentage equivalence.
+
 In ERPNext you can create Distributed Cost Center and use them in transactions and reports. Expense and income will not affect directly to the Cost Center. It will be distributed with the selected Cost Centers as 100% equal calculation.
 
 ## 1. How to create a Distributed Cost Center
