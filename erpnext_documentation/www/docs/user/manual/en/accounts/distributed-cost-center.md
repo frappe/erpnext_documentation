@@ -11,7 +11,7 @@ metatags:
 <!-- add-breadcrumbs -->
 # Distributed Cost Center
 
-**A Distributed Cost Center is a *Cost Center* in which multiple Cost Centers are tagged with an appropriate percentage.**
+**A Distributed Cost Center is a Cost Center in which multiple Cost Centers are tagged with an appropriate percentage.**
 
 For example, you can mention the Cost Center 'A' as a Distributed Cost Center. when its income, expense, and budget are shared among various Cost Centers like 'B' and 'C' with some percentage equivalence.
 
