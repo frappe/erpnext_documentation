@@ -10,24 +10,10 @@ The closing Stock of the previous accounting period becomes the opening Stock of
 * Create [Warehouses](/docs/user/manual/en/stock/warehouse).
 * Link Warehouse to appropriate accounting ledgers.
 
-## 2. Opening Stock for Non-serialized Items
-
+## 2. Opening Stock for Items
 To post opening stock visit the [Stock Reconciliation](/docs/user/manual/en/stock/stock-reconciliation) page.
 
-
-## 3. Opening Stock for Serialized and Batched Items
-
-Create the [Batch](/docs/user/manual/en/stock/batch) and [Serial No](/docs/user/manual/en/stock/serial-no) records beforehand. To post opening stock for serialized and batched items:
-
-1. Go to **Stock > Stock Transactions > Stock Entry > New**.
-1. Select 'Material Receipt' in 'Stock Entry Type'.
-1. Select the Warehouse in 'Default Target Warehouse'.
-1. In Items table select Item Code, Qty and Basic rate.
-1. For batched items select Batch No.
-1. For serialized items select Serial No.
-1. Save and Submit.
-
-## 4. Video
+## 3. Video
 <div>
     <div class="embed-container">
         <iframe src="https://www.youtube.com/embed/nlHX0ZZ84Lw?end=120" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen>
@@ -35,7 +21,7 @@ Create the [Batch](/docs/user/manual/en/stock/batch) and [Serial No](/docs/user/
     </div>
 </div>
 
-### 5. Related Topics
+### 4. Related Topics
 1. [Accounting Of Inventory Stock](/docs/user/manual/en/stock/accounting-of-inventory-stock)
 1. [Stock Entry](/docs/user/manual/en/stock/stock-entry)
 1. [Stock Reconciliation](/docs/user/manual/en/stock/stock-reconciliation)
