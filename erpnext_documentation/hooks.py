@@ -55,6 +55,10 @@ home_page = "index"
 # Website user home page (by function)
 # get_website_user_home_page = "erpnext_documentation.utils.get_home_page"
 
+base_template_map = {
+	r'docs/user/manual.*': 'templates/erpnext_docs.html'
+}
+
 # Generators
 # ----------
 
