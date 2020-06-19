@@ -1,120 +1,137 @@
 <!--add breadcrumbs-->
 
-# Data Import
+# Data Import Tool
 
-**Data Import lets you import records from a CSV/Excel file.**
+**The Data Import Tool lets you import records from a CSV/Excel file.**
 
-Data Import (formerly known as the Data Import Tool) is a great way to upload (or edit) bulk data (especially master data) into the system.
+Data Import Tool is an easy way to upload (or edit) bulk data (especially master data) into the system.
 
 To begin importing data, go to:
 
-> Home > Settings > Import Data
+> Home > Data Import and Settings > Import Data
 
-Or go to the Transaction you want to import and click on Menu > Import:
+Or go to the Document you want to import and click on Menu > Import:
 
-<img alt="Start Import" class="screenshot" src="{{docs_base_url}}/assets/img/setup/data-import/data-import-1-new.png">
+<img alt="Start Import" class="screenshot" src="/docs/assets/img/setup/data-import/task-menu-import.png">
 
 Before using Data Import **ensure** that you have all of your data ready.
 
-## 1. Using Data Import
+## 1. Inserting New Records
+
+Let's say you want to import the list of Customers from your old system into ERPNext. The first step is to download a template in which we can enter our data.
+
+### 1.1 Download the Template
+
+1. Go to Customer List, click on Menu > Import. Click on New.
+1. Select Import Type as Insert New Records.
+1. Click on Save.
+1. Now, click on Download Template.
+1. While inserting new records, the template should be blank. If you have a few Customers in your system, you can select Export Type as "5 Records" to see the format in which you have to enter the data in the template.
+1. Select the File Type of the export template.
+1. Select the fields that you want to fill in as the Customer details.
+1. Click on Export.
+
+![Download Template](/docs/assets/img/setup/data-import/download-template.gif)
+
+### 1.2 Entering Data in the Template
+
+Your downloaded template will look something like this:
+
+![Blank Template](/docs/assets/img/setup/data-import/blank-template-file.png)
+
+Open the downloaded template in a spreadsheet application (like Excel, Numbers, or Libre Office) and enter the the data below the column headings shown as follows:
+
+![Customer Template with Data](/docs/assets/img/setup/data-import/customer-template-with-data.png)
+
+Now, save your template as an Excel or Comma Separated Values (CSV) file.
+
+> You can leave the ID column as blank while inserting new records.
+
+When you import this template, each row will make a Customer record in the system.
+
+
+### 1.3 Importing the Template
+
+1. After updating your template file, go back to the Data Import form and attach the file by clicking on the Attach button.
+1. Select the template file and click on Upload.
+1. After the upload is successful, click on Start Import.
+
+![Upload Template File](/docs/assets/img/setup/data-import/upload-template-file.png)
+
+If there are any errors in your template, they will be shown in the Warnings section. The warnings will be categorized by Row or Column with their number so that you can easily track them down in the template and resolve them. You must resolve all the warnings before you can import the data.
+
+![Import Warnings](/docs/assets/img/setup/data-import/import-warnings.png)
+
+After you have resolved the warnings, click on Start Import again to import the data. On successful import of the data you'll see a log of each record that was created in the Import Log section.
+
+![Import Success](/docs/assets/img/setup/data-import/import-success.png)
+
+## 2. Updating Existing Records
+
+Let's say you want to update Customer data in bulk in your system. The first step is to download the template with the data.
+
+### 2.1 Download the Template
+
+1. Go to Customer List, click on Menu > Import. Click on New.
+1. Select Import Type as Update Existing Records
+1. Click on Save.
+1. Now, click on Download Template.
+1. While updating existing records, you must export the records from the system with the ID field and the fields that you want to update. You can choose All Records or Filtered Records depending upon your case.
+1. Select the fields that you want to update for the Customer records.
+1. Click on Export.
+
+### 2.2 Updating Data in the Template
+
+Your downloaded template will look something like this:
+
+![Customer Template for Update](/docs/assets/img/setup/data-import/customer-template-for-update.png)
+
+Now, change the values in your template and save the file as Excel or CSV.
+
+> While exporting records for update, make sure that the ID column is exported and is untouched. The values in the ID column are used to identify the records in the system. You can update the values in other columns but not in ID column.
+
+### 2.3 Importing the Template
+
+Follow the steps in [Importing the Template](#23-importing-the-template) section above.
+
+## 3. Importing Child Records
 
 Data in ERPNext is stored in tables like a spreadsheet with columns and rows of data. Each form likes Sales Order has multiple fields like Customer, Company, etc. It also has tables like the item table, tax table, etc. In Data Import, the set of fields in the Sales Order are treated as the main table and the rows inside the child table (item table) are treated as the child table for data import.
 
-Each form in ERPNext can have multiple child tables associated with it.
+Each form in ERPNext can have multiple child tables associated with it. The child tables are linked to the parent tables and are implemented where there are multiple values for any property. For example, an Item can have multiple prices, a Sales Invoice has multiple Items, Taxes and so on.
 
-The child tables are linked to the parent tables and are implemented where there are multiple values for any property. For example, an Item can have multiple prices, a Sales Invoice has multiple Items, Taxes and so on.
+When you export a document with child tables, for e.g., each child row will appear on a separate row but it is associated with a single parent row. The subsequent values in the parent columns will remain blank. You must ensure that this order is not broken when you are importing them via Data Import.
 
-### 1.1 Downloading the Template
-Considering the Supplier document type as an example, after clicking on Import:
+![Child Table Export](/docs/assets/img/setup/data-import/child-table-export.png)
 
-> A document type (DocType) is a form (master or transaction) in ERPNext. Eg: Item, Sales Order.
+## 4. Import Options
 
-1. Select document type for which template should be downloaded (if navigating from Settings).
-1. Select action as Insert new records.
-1. Click on Download template.
-1. Select whether to create a template for all or just the mandatory columns for a supplier.
-1. Check fields to be included in the template.
-1. Select the file format of the template file.
-1. Click on Download.
+### 4.1 Import from Google Sheets
 
-  For bulk editing, you can check "Download With Data", this will add the existing system data to the template you'll download.
-  
-  <img alt="Download Template" class="screenshot" src="{{docs_base_url}}/assets/img/setup/data-import/data-import-steps.gif">
+You can also import data from Google Sheets. Import your template in Google Sheets and enter the data. Make sure the Google Sheet is public. You can test this by opening the Google Sheets URL in an incognito browser window.
 
-### 1.2 Filling the Template
+![Google Sheets](/docs/assets/img/setup/data-import/google-sheets.png)
 
-A separate document will be created for each row in the spreadsheet. It is suggested that you create a few document types first to understand the meaning of fields and the values entered.
+![Import via Google Sheets](/docs/assets/img/setup/data-import/import-via-google-sheets.png)
 
-After downloading the template, open it in a spreadsheet application (like Excel, Numbers, or Libre Office) and fill in the data below the column headings shown as follows:
+### 4.2 Submit After Import
 
-<img alt="Download Template" class="screenshot" src="{{docs_base_url}}/assets/img/setup/data-import/import-file.png">
+In ERPNext document types are mainly of two types - masters and transactions. The masters are records like Customer and Task which can only be saved not submitted. Transactions like Sales Orders, Purchase Invoices are submittable documents and can be submitted.
 
-Then save your template as an Excel or Comma Separated Values (CSV) file.
+When you select a submittable document type for Import, you can tick **Submit After Import** to submit the document after it is imported.
 
-### 1.3 Uploading back the Template
+### 4.3 Don't Send Emails
 
-1. After making the necessary changes, go back to the data import form and attach the file by clicking on the Attach button.
-1. Click on the Upload.
-1. Once the upload is successful click on Import.
+Let's say you have created a [Notification](/docs/user/manual/en/setting-up/notifications) in your system and whenever a Lead is created an email is sent. Now, if you are bulk importing Leads then a lot of emails will be sent, which may not be desired. You can disable this option to avoid sending emails.
 
-  <img alt="Upload" class="screenshot" src="{{docs_base_url}}/assets/img/setup/data-import/data-import-4-new.png">
+## 5. Additional Notes
 
-### 1.4 Uploading All Tables (Main + Child)
+### 5.1 Upload Limit
 
-If you select all tables when downloading the template, you will get columns belonging to all the tables in
-one row. The main table and child table will be separated by `~` between the columns.
+There is no hard limit on the number of records that can be imported. But you must try and upload only a few thousand records at a time. Importing a large number of records (let's say 50,000) might slow down the system considerably for the users that are using the system.
 
-If you have multiple child rows then you must start a new main item on a new
-row. See the example:
+### 5.2 CSV Files
 
-
-    Main Table                          ~   Child Table
-    Column 1    Column 2    Column 3    ~   Column 1    Column 2    Column 3
-    v11         v12         v13             c11         c12         c13
-                                            c14         c15         c17
-    v21         v22         v23             c21         c22         c23
-
-> To see how it appears, enter a few records manually using regular forms (like a Sales Order). Then export the data with "All Tables" and "Download with Data" ticked.
-
-### 1.5 Overwriting
-
-ERPNext also allows you to overwrite all/certain fields of a document type. If you want to
-update certain fields (columns in the spreadsheet), you can download the template with data. Remember to
-select the option as “Update Records” before uploading.
-
-When you create new records in the system, ERPNext assigns an ID to them. This is a unique value for the record as in used to identify it in the system. When you're updating an existing record, the ID field is a must. If not present, the system will create a new record for it.
-
-> Note: For child records, if you select overwrite, it will delete all the
-child records of that parent.
-
-### 1.6 Upload Limitations
-
-You can only upload up to 5,000 records in one go. (maybe less in some cases).
-
-Uploading a lot of data can cause a system crash, especially
-if other users are using the system in parallel. Hence ERPNext restricts the
-number of “writes” you can process in one request.
-
-When uploading a large number of records, it is recommended to do it in batches. That is, select a few thousand records at a time, upload then repeat.
-
-## 2. Import Options
-
-### 2.1 Skip rows with errors
-If this is checked, rows with valid data will be imported and rows which encountered errors will be dumped into a new file for you to import later.
-
-### 2.2 Submit after importing
-In ERPNext document types are mainly of two types - masters and transactions. The masters are records like Customer, Supplier, etc., they can only be saved not submitted. The transactions like Sales Orders, Purchase Invoices are submittable documents and can be submitted to the system to alter the general ledger. Tick this in case there are submittable transactions which are imported and need to be submitted after importing.
-
-### 2.3 Ignore encoding errors
-In case there are any Unicode errors, a new file with the invalid rows will be created to be imported later.
-
-### 2.4 Don't create new records
-For 'Update records', ticking this will prevent the creation of new records even if they exist in the template. In other words, new records in the template will not be imported and created in the system, only existing records will be updated. 
-
-### 2.5 Do not send emails
-On submitting certain documents, emails will be sent. If you're importing 1000s of records with 'Submit after importing' option, you don't want to trigger 1000 emails at once. By default, this option is enabled so emails are not sent.
-
-### 3. Additional Notes
 A CSV (Comma Separated Value) file is a data file that you can upload into
 ERPNext to update various data. Any spreadsheet file from popular spreadsheet
 applications like MS Excel or Open Office Spreadsheet can be saved as a CSV
@@ -123,16 +140,17 @@ file.
 If you are using Microsoft Excel and using non-English characters, make sure
 to save your file encoded as UTF-8.
 
-For older versions of Excel, there is no
-clear way of saving as UTF-8. So save your file as CSV, then open it in
-Notepad, then save as “UTF-8”. (Or upgrade your Excel!)
+For older versions of Excel, there is no clear way of saving as UTF-8. So save your file as CSV,
+then open it in Notepad, then save as “UTF-8”. (Or upgrade your Excel!)
 
-## 4. Video
+## 6. Video
+
 <div class="embed-container">
     <iframe src="https://www.youtube.com/embed/Ta2Xx3QoK3E" frameborder="0" allowfullscreen></iframe>
 </div>
 
-### 5. Related Topics
+## 7. Related Topics
+
 1. [Charts Of Accounts Importer](/docs/user/manual/en/setting-up/chart-of-accounts-importer)
 1. [Data Export](/docs/user/manual/en/setting-up/data/data-export)
 
