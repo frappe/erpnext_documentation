@@ -32,31 +32,31 @@ jobs:
         - docker push frappe/erpnext-docs-nginx:latest
         - docker push frappe/erpnext-docs-nginx:develop
         - docker push frappe/erpnext-docs-nginx:edge
-
-after_success:
-  - curl -LO https://storage.googleapis.com/kubernetes-release/release/$(curl -s https://storage.googleapis.com/kubernetes-release/release/stable.txt)/bin/linux/amd64/kubectl;
-    chmod +x ./kubectl;
-    sudo mv ./kubectl /usr/local/bin/kubectl
-  - mkdir ${HOME}/.kube
-  - echo "$KUBE_CONFIG" | base64 --decode > ${HOME}/.kube/config
-  - curl https://raw.githubusercontent.com/helm/helm/master/scripts/get-helm-3 | bash
-  - helm repo add frappe https://helm.erpnext.com
-  - helm repo update
-  - |
-    for deploy in $(kubectl get -n erpnext deployments --template '{{range .items}}{{.metadata.name}}{{"\n"}}{{end}}')
-    do
-      kubectl rollout restart deployments/$deploy -n erpnext
-    done
-  - |
-    helm upgrade frappe-bench-stable --namespace erpnext frappe/erpnext
-    --set mariadbHost=mariadb.mariadb.svc.cluster.local
-    --set persistence.storageClass=nfs
-    --set nginxImage.repository=frappe/erpnext-docs-nginx
-    --set nginxImage.tag=develop
-    --set nginxImage.pullPolicy=Always
-    --set pythonImage.repository=frappe/erpnext-docs-worker
-    --set pythonImage.tag=develop
-    --set pythonImage.pullPolicy=Always
-    --set migrateJob.enable=true
-  - helm version
-  - kubectl version --short
+    - stage: "Deploy ERPNext Documentation"
+      script:
+        - curl -LO https://storage.googleapis.com/kubernetes-release/release/$(curl -s https://storage.googleapis.com/kubernetes-release/release/stable.txt)/bin/linux/amd64/kubectl;
+          chmod +x ./kubectl;
+          sudo mv ./kubectl /usr/local/bin/kubectl
+        - mkdir ${HOME}/.kube
+        - echo "$KUBE_CONFIG" | base64 --decode > ${HOME}/.kube/config
+        - curl https://raw.githubusercontent.com/helm/helm/master/scripts/get-helm-3 | bash
+        - helm repo add frappe https://helm.erpnext.com
+        - helm repo update
+        - >
+          for deploy in $(kubectl get -n erpnext deployments --template '{{range .items}}{{.metadata.name}}{{"\n"}}{{end}}')
+          do
+            kubectl rollout restart deployments/$deploy -n erpnext
+          done
+        - >
+          helm upgrade frappe-bench-stable --namespace erpnext frappe/erpnext
+          --set mariadbHost=mariadb.mariadb.svc.cluster.local
+          --set persistence.storageClass=nfs
+          --set nginxImage.repository=frappe/erpnext-docs-nginx
+          --set nginxImage.tag=develop
+          --set nginxImage.pullPolicy=Always
+          --set pythonImage.repository=frappe/erpnext-docs-worker
+          --set pythonImage.tag=develop
+          --set pythonImage.pullPolicy=Always
+          --set migrateJob.enable=true
+        - helm version
+        - kubectl version --short
