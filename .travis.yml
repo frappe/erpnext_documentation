@@ -17,6 +17,7 @@ before_install:
     sudo mv ./kubectl /usr/local/bin/kubectl
   - mkdir ${HOME}/.kube
   - echo "$KUBE_CONFIG" | base64 --decode > ${HOME}/.kube/config
+  - curl https://raw.githubusercontent.com/helm/helm/master/scripts/get-helm-3 | bash
 
 jobs:
   include:
@@ -39,6 +40,7 @@ jobs:
         - docker push frappe/erpnext-docs-nginx:edge
 
 after_success:
+  - helm repo add frappe https://helm.erpnext.com
   - helm repo update
   - |
     for deploy in $(kubectl get -n erpnext deployments --template '{{range .items}}{{.metadata.name}}{{"\n"}}{{end}}')
