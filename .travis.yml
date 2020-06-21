@@ -12,12 +12,6 @@ branches:
 before_install:
   - echo "$DOCKER_PASSWORD" | docker login -u "$DOCKER_USERNAME" --password-stdin
   - sudo apt update && sudo apt install -y git
-  - curl -LO https://storage.googleapis.com/kubernetes-release/release/$(curl -s https://storage.googleapis.com/kubernetes-release/release/stable.txt)/bin/linux/amd64/kubectl;
-    chmod +x ./kubectl;
-    sudo mv ./kubectl /usr/local/bin/kubectl
-  - mkdir ${HOME}/.kube
-  - echo "$KUBE_CONFIG" | base64 --decode > ${HOME}/.kube/config
-  - curl https://raw.githubusercontent.com/helm/helm/master/scripts/get-helm-3 | bash
 
 jobs:
   include:
@@ -25,21 +19,27 @@ jobs:
       name: "ERPNext Documentation Worker [Latest]"
       script:
         - docker build -t frappe/erpnext-docs-worker:latest -f .deploy/build/erpnext-docs-worker/Dockerfile .
-        - docker tag erpnext-docs-worker frappe/erpnext-docs-worker:develop
-        - docker tag erpnext-docs-worker frappe/erpnext-docs-worker:edge
+        - docker tag frappe/erpnext-docs-worker frappe/erpnext-docs-worker:develop
+        - docker tag frappe/erpnext-docs-worker frappe/erpnext-docs-worker:edge
         - docker push frappe/erpnext-docs-worker:latest
         - docker push frappe/erpnext-docs-worker:develop
         - docker push frappe/erpnext-docs-worker:edge
     - name: "ERPNext Documentation NGINX [Latest]"
       script:
         - docker build -t frappe/erpnext-docs-nginx:latest -f .deploy/build/erpnext-docs-nginx/Dockerfile .
-        - docker tag erpnext-docs-nginx frappe/erpnext-docs-nginx:develop
-        - docker tag erpnext-docs-nginx frappe/erpnext-docs-nginx:edge
+        - docker tag frappe/erpnext-docs-nginx frappe/erpnext-docs-nginx:develop
+        - docker tag frappe/erpnext-docs-nginx frappe/erpnext-docs-nginx:edge
         - docker push frappe/erpnext-docs-nginx:latest
         - docker push frappe/erpnext-docs-nginx:develop
         - docker push frappe/erpnext-docs-nginx:edge
 
 after_success:
+  - curl -LO https://storage.googleapis.com/kubernetes-release/release/$(curl -s https://storage.googleapis.com/kubernetes-release/release/stable.txt)/bin/linux/amd64/kubectl;
+    chmod +x ./kubectl;
+    sudo mv ./kubectl /usr/local/bin/kubectl
+  - mkdir ${HOME}/.kube
+  - echo "$KUBE_CONFIG" | base64 --decode > ${HOME}/.kube/config
+  - curl https://raw.githubusercontent.com/helm/helm/master/scripts/get-helm-3 | bash
   - helm repo add frappe https://helm.erpnext.com
   - helm repo update
   - |
