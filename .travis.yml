@@ -33,6 +33,8 @@ jobs:
         - docker push frappe/erpnext-docs-nginx:develop
         - docker push frappe/erpnext-docs-nginx:edge
     - stage: "Deploy ERPNext Documentation"
+      git:
+        clone: false
       script:
         - curl -LO https://storage.googleapis.com/kubernetes-release/release/$(curl -s https://storage.googleapis.com/kubernetes-release/release/stable.txt)/bin/linux/amd64/kubectl;
           chmod +x ./kubectl;
@@ -42,7 +44,7 @@ jobs:
         - curl https://raw.githubusercontent.com/helm/helm/master/scripts/get-helm-3 | bash
         - helm repo add frappe https://helm.erpnext.com
         - helm repo update
-        - >
+        - |
           for deploy in $(kubectl get -n erpnext deployments --template '{{range .items}}{{.metadata.name}}{{"\n"}}{{end}}')
           do
             kubectl rollout restart deployments/$deploy -n erpnext
