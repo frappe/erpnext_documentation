@@ -9,7 +9,8 @@
 		"**/manual/lt/**",
 		"**/img/**",
 		"**/videos/**",
-		"**/assets/**"
+		"**/assets/**",
+		".deploy/**"
 	],
 	"allowCompoundWords": true,
 	"flagWords": [],
