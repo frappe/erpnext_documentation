@@ -10,7 +10,8 @@
 		"**/img/**",
 		"**/videos/**",
 		"**/assets/**",
-		".deploy/**"
+		".deploy/**",
+		".travis.yml"
 	],
 	"allowCompoundWords": true,
 	"flagWords": [],
