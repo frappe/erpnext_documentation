@@ -9,7 +9,9 @@
 		"**/manual/lt/**",
 		"**/img/**",
 		"**/videos/**",
-		"**/assets/**"
+		"**/assets/**",
+		".deploy/**",
+		".travis.yml"
 	],
 	"allowCompoundWords": true,
 	"flagWords": [],
