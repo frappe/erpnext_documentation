@@ -8,7 +8,7 @@ Here are some analytics:
 
 <img class="screenshot" alt="ERPNext Healthcare" src="{{docs_base_url}}/assets/img/healthcare/appointment-analytics.png">
 
-ERPNext Healthcare domain helps you define templates for **Clinical Procedures**, **Schedule Appointments*** for procedures and also record the consumption of **Stock** while performing a procedure. **Inpatient ADT** and related **Billing** features are also made available. More importantly, all of it seamlessly integrated with of other useful features available in ERPNext.
+ERPNext Healthcare helps you manage your hospital, clinic, or practice efficiently by scheduling Appointments, capturing Vitals, and managing medication and investigation orders by recording Patient Encounters. You can easily pull out a Patient's Medical History anytime to review the patient's past conditions and treatments assisting you in providing effective, high-quality care. ERPNext Healthcare allows you to manage multiple Medical Code Standards like the ICD 10 and easily search for Medical Codes simplifying the coding process. ERPNext Healthcare also comes with a Laboratory module with predefined templates for recording common Lab Tests. Reports like Appointment Analytics and Lab Test Report help you get a thorough idea of the operations.
 
 ## Contributors of ERPNext Healthcare domain
 The Healthcare domain of ERPNext is the first domain to be completely contributed by a ERPNext community member, ***Earthians***. Listen to Anoop, founder of Earthians on what motivated him to venture into Healthcare domain and how it benefit all stake holders of the community.
