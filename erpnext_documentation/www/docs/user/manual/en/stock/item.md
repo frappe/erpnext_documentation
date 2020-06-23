@@ -245,7 +245,11 @@ To know more about Quality Inspection, [click here](/docs/user/manual/en/stock/q
 
   ![Item Manufacturing](/docs/assets/img/stock/item-manufacturing.png)
 
-The manufacturer details appear after you've created an 'Item Manufacturer' from the dashboard and selected that record as default.
+* The manufacturer details appear after you've created an 'Item Manufacturer' from the dashboard and selected that record as default. Here, add details for:
+  * Item Code
+  * Enter the manufacturer name
+  * Enter the part number the manufacturer uses to identify this item
+  * Select 'Is Default' to show the manufacturer and part number in the Item record
 
   ![Item Manufacturer](/docs/assets/img/stock/item-manufacturer.png)
 
