@@ -243,8 +243,11 @@ To know more about Quality Inspection, [click here](/docs/user/manual/en/stock/q
 * **Manufacturer:** Select the Manufacturer who manufactured this item.
 * **Manufacturer Part Number:** Enter the manufacturer part number that the manufacturer has assigned to this item.
 
-  ![Item Supplier Details](/docs/assets/img/stock/item-manufacturing.png)
+  ![Item Manufacturing](/docs/assets/img/stock/item-manufacturing.png)
 
+The manufacturer details appear after you've created an 'Item Manufacturer' from the dashboard and selected that record as default.
+
+  ![Item Manufacturer](/docs/assets/img/stock/item-manufacturer.png)
 
 ### 3.19  Website
 
