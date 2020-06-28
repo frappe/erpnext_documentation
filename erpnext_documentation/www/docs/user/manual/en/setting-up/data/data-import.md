@@ -10,7 +10,7 @@ To begin importing data, go to:
 
 > Home > Data Import and Settings > Import Data
 
-Or go to the Document you want to import and click on Menu > Import:
+Or go to the Document you want to import and click on **Menu** > **Import**:
 
 <img alt="Start Import" class="screenshot" src="/docs/assets/img/setup/data-import/task-menu-import.png">
 
@@ -22,14 +22,14 @@ Let's say you want to import the list of Customers from your old system into ERP
 
 ### 1.1 Download the Template
 
-1. Go to Customer List, click on Menu > Import. Click on New.
+1. Go to Customer List, click on **Menu** > **Import**. Click on **New**.
 1. Select Import Type as Insert New Records.
-1. Click on Save.
-1. Now, click on Download Template.
+1. Click on **Save**.
+1. Now, click on **Download Template**.
 1. While inserting new records, the template should be blank. If you have a few Customers in your system, you can select Export Type as "5 Records" to see the format in which you have to enter the data in the template.
 1. Select the File Type of the export template.
 1. Select the fields that you want to fill in as the Customer details.
-1. Click on Export.
+1. Click on **Export**.
 
 ![Download Template](/docs/assets/img/setup/data-import/download-template.gif)
 
@@ -52,9 +52,9 @@ When you import this template, each row will make a Customer record in the syste
 
 ### 1.3 Importing the Template
 
-1. After updating your template file, go back to the Data Import form and attach the file by clicking on the Attach button.
-1. Select the template file and click on Upload.
-1. After the upload is successful, click on Start Import.
+1. After updating your template file, go back to the Data Import form and attach the file by clicking on the **Attach** button.
+1. Select the template file and click on **Upload**.
+1. After the upload is successful, click on **Start Import**.
 
 ![Upload Template File](/docs/assets/img/setup/data-import/upload-template-file.png)
 
@@ -62,7 +62,7 @@ If there are any errors in your template, they will be shown in the Warnings sec
 
 ![Import Warnings](/docs/assets/img/setup/data-import/import-warnings.png)
 
-After you have resolved the warnings, click on Start Import again to import the data. On successful import of the data you'll see a log of each record that was created in the Import Log section.
+After you have resolved the warnings, click on **Start Import** again to import the data. On successful import of the data you'll see a log of each record that was created in the Import Log section.
 
 ![Import Success](/docs/assets/img/setup/data-import/import-success.png)
 
@@ -72,13 +72,13 @@ Let's say you want to update Customer data in bulk in your system. The first ste
 
 ### 2.1 Download the Template
 
-1. Go to Customer List, click on Menu > Import. Click on New.
+1. Go to Customer List, click on Menu > Import. Click on **New**.
 1. Select Import Type as Update Existing Records
-1. Click on Save.
-1. Now, click on Download Template.
+1. Click on **Save**.
+1. Now, click on **Download Template**.
 1. While updating existing records, you must export the records from the system with the ID field and the fields that you want to update. You can choose All Records or Filtered Records depending upon your case.
 1. Select the fields that you want to update for the Customer records.
-1. Click on Export.
+1. Click on **Export**.
 
 ### 2.2 Updating Data in the Template
 
@@ -153,4 +153,3 @@ then open it in Notepad, then save as “UTF-8”. (Or upgrade your Excel!)
 
 1. [Charts Of Accounts Importer](/docs/user/manual/en/setting-up/chart-of-accounts-importer)
 1. [Data Export](/docs/user/manual/en/setting-up/data/data-export)
-
