@@ -32,9 +32,12 @@ replied, its status becomes "Replied".
     * Open: The Issue has been created and yet to be replied to.
     * Replied: A reply has been sent to the Issue.
     * Hold: The Issue is on Hold due to some reason.
+    * Resolved: When the users are reasonably sure that they have provided the customer with a solution to their problem but have not acknowledgement about the resolution from the customer.
     * Closed: The Customer got a resolution and the Issue was closed.
 
     If the sender replies to the thread, the status becomes "Open" again. User can "Close" the Issue manually by clicking on the **Close** button on the top right.
+
+> Note: If SLA has been set up, then the fulfillment status of the SLA will be updated on both, the **Closed** as well as the **Resolved** status. The key difference between these two statuses is to indicate the case where the user solving the issue is sure about the resolution and the customer has not yet acknowledged that the issue has been resolved (Resolved) and the case where an acknowledgement is received (Closed).
 
 * **Customer**: If the email was sent from a [Customer](/docs/user/manual/en/CRM/customer) stored in your ERPNext account, then a Customer link will appear in this field.
 * **Priority**: Priority can be set as per the requirements. By default, there are three priorities--Low, Medium, and High. You can delete these or add more as needed.
@@ -58,9 +61,13 @@ User can select the [Service Level Agreement](/docs/user/manual/en/support/servi
 <img class="screenshot" alt="Issue" src="{{docs_base_url}}/assets/img/support/iss.gif">
 
 ### 3.3 Response
-**Mins to First Response**: Time in minutes from when the Issue was created to when the first reply was sent.
+* **Mins to First Response**: Time in minutes from when the Issue was created to when the first reply was sent.
 
 * **First Responded on**: When a Support team member first replies to the issue, first response date and time will be updated.
+
+* **Average Response Time**: The average time taken to respond to the Customer. This is calculated as the average of all time spans between Received and Sent Communications. This field will be updated on every reply to the customer.
+
+<img class="screenshot" alt="Issue" src="{{docs_base_url}}/assets/img/support/response.png">
 
 ### 3.4 Reference
 User can filter the issues based on these fields linked to the Issue:
@@ -76,6 +83,14 @@ User can filter the issues based on these fields linked to the Issue:
 * **Opening Time**: When the issue is created or logged the exact time will automatically be posted.
 * **Resolution Date**: When the user resolved the issue, Date and Time will get updated in this field.
 * **Resolution Details**: User can enter the details of the issue, once it is resolved. This is a text field. Also, user can upload the image, enter or create a table.
+* **Resolution Time**: Total time taken to close the ticket (from Issue creation to closing).
+* **User Resolution Time**: Many times a user has to wait for a customer's reply in order to solve some Issue. While measuring User's productivity this wait time shouldn't be taken into consideration. Hence, user resolution time is the total time taken by a user to close the ticket calculated as:
+
+    _Resolution time - Total Time for which the user had to wait for a customer's reply_
+
+The Resolution Time and User Resolution Time metrics are set on "Close" and reset when the Issue reopens or splits.
+
+<img class="screenshot" alt="Issue" src="{{docs_base_url}}/assets/img/support/resolution.png">
 
 #### Via Customer Portal
 If the Customer raising the Issue is a Website User (no access to modules), this checkbox will be ticked to indicate that.
