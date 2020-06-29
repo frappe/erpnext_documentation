@@ -72,6 +72,7 @@ The Stock module is tightly integrated with Purchase, Manufacturing and Accounti
 1. [Delivery Note Stock Error](/docs/user/manual/en/stock/articles/delivery-note-stock-error)
 1. [Stock Entry Purpose](/docs/user/manual/en/stock/articles/stock-entry-purpose)
 1. [Stock Received But Not Billed](/docs/user/manual/en/stock/articles/stock-received-but-not-billed)
+1. [Calculation of Valuation Rate in FIFO and Moving Average](/docs/user/manual/en/stock/articles/calculation-of-valuation-rate-in-fifo-and-moving-average.md)
 
 
 ### 2.2 Managing Items
