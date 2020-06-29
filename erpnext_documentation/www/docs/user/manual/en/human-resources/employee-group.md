@@ -26,9 +26,9 @@ Before creating an Employee Group, it is advisable you create the following docu
 
 ## 3. Features
 
-### 3.1 Service Level
+### 3.1 Service Level Agreement
 
-An Employee Group can be added to the [Service Level](/docs/user/manual/en/support/service-level-agreement) doctype, where the Service Level can be specified for a particular Employee Group.
+An Employee Group can be added to the [Service Level Agreement](/docs/user/manual/en/support/service-level-agreement) doctype, where the Service Level can be specified for a particular Employee Group.
 
 
 ## 4. Related Topics

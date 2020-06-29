@@ -64,3 +64,5 @@ From version 13 onwards, ERPNext allows you to pause SLA on issues when you are 
 * When the status of the issue changes back to a non-hold status (which is not configured in the "Pause SLA On" table), the **Total Hold time** field will be set in your Issue document.
     <img class="screenshot" alt="Service Level" src="{{docs_base_url}}/assets/img/support/total-hold-time.png">
 The Response and Resolution time will be recalculated by adding the hold time, thereby restarting your SLA timers.
+
+> Note: Service Level DocType was removed in version 13 and all functions are handled only with the Service Level Agreement DocType
