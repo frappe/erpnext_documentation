@@ -34,4 +34,4 @@ To make a sale of 15 qty, we will directly multiply it by the average value we r
 
 15 * 113.33 = **1700** which leaves us 15 qty in stock amounting to **1700**.
 
-If you check, even though the quantity is same the stock value is different but both amounts to a total of 3400 only.
+If you check, even though the quantity is same and the stock value is different but both amounts to a total of 3400 only.
