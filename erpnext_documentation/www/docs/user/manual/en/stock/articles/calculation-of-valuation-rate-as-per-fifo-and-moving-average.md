@@ -3,7 +3,7 @@
 
 **Valuation Rate** of an item is calculated based on the total expense incurred to make the product available for sale like freight, labour, cost of raw materials, etc.
 
-In ERPNext, Valuation Rate is calculated based on the valuation method selected for the particular item.
+In ERPNext, the Valuation Rate is calculated based on the valuation method selected for the particular item.
 
 An item can have either **FIFO** or **Moving Average** selected as a valuation method.
 
