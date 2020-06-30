@@ -1,5 +1,5 @@
 <!-- add-breadcrumbs -->
-#Calculation of Valuation Rate in FIFO and Moving Average
+#Calculation of Valuation Rate as per FIFO and Moving Average method
 
 **Valuation Rate** of an item is calculated based on the total expense incurred to make the product available for sale like freight, labour, cost of raw materials, etc.
 
@@ -9,7 +9,7 @@ An item can have either **FIFO** or **Moving Average** selected as a valuation m
 
 Consider the following example to know how it impacts your stock:
 
-| Date | Transaction | Qty | Unit Cost
+| Date | Transaction | Qty | Unit Cost |
 |--|--|--|--|
 | 1-4-2020 | Purchase | 10 | 100  |
 | 6-4-2020 | Purchase | 20 | 120  |

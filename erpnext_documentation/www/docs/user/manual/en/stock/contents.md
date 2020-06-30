@@ -67,12 +67,14 @@ The Stock module is tightly integrated with Purchase, Manufacturing and Accounti
 
 ## 2. Articles
 ### 2.1 Stock Transactions
+1. [How Valuation Rate is Calculated for an Item](/docs/user/manual/en/stock/articles/how-valuation-rate-is-calculated)
 1. [Allow Over Delivery Billing Against Sales Order up to Certain Limit](/docs/user/manual/en/stock/articles/allow-over-delivery-billing-against-sales-order-upto-certain-limit)
 1. [Auto Creation Of Material Request](/docs/user/manual/en/stock/articles/auto-creation-of-material-request)
 1. [Delivery Note Stock Error](/docs/user/manual/en/stock/articles/delivery-note-stock-error)
 1. [Stock Entry Purpose](/docs/user/manual/en/stock/articles/stock-entry-purpose)
 1. [Stock Received But Not Billed](/docs/user/manual/en/stock/articles/stock-received-but-not-billed)
-1. [Calculation of Valuation Rate in FIFO and Moving Average](/docs/user/manual/en/stock/articles/calculation-of-valuation-rate-in-fifo-and-moving-average.md)
+1. [Calculation of Valuation Rate as per FIFO and Moving Average method](/docs/user/manual/en/stock/articles/calculation-of-valuation-rate-as-per-fifo-and-moving-average.md)
+1. [Values Out of Sync](/docs/user/manual/en/stock/articles/values-out-of-sync)
 
 
 ### 2.2 Managing Items
@@ -86,9 +88,11 @@ The Stock module is tightly integrated with Purchase, Manufacturing and Accounti
 1. [Item Codification](/docs/user/manual/en/stock/articles/item-codification)
 
 ### 2.3 Serial and Batch Number
+1. [Calculation of Valuation Rate for Serialized Item](/docs/user/manual/en/stock/articles/how-is-valuation-rate-of-serialised-item-calculated-in-erpnext)
 1. [Serial Number Naming](/docs/user/manual/en/stock/articles/serial-no-naming)
 1. [Opening Stock Balance Entry For Serialized And Batch Item](/docs/user/manual/en/stock/articles/opening-stock-balance-entry-for-serialized-and-batch-item)
 1. [Managing Batch Wise Inventory](/docs/user/manual/en/stock/articles/managing-batch-wise-inventory)
+1. [How to enable Serial and Batch Number](/docs/user/manual/en/stock/articles/how-to-enable-serial-batch)
 
 ### 2.4 Other
 1. [Sales Return Use Cases](/docs/user/manual/en/stock/articles/sales-return-use-cases)
