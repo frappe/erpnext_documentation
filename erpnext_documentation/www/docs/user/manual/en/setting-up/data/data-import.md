@@ -10,7 +10,7 @@ To begin importing data, go to:
 
 > Home > Data Import and Settings > Import Data
 
-Or go to the Document you want to import and click on **Menu** > **Import**:
+Or go to the Document you want to import and click on Menu > Import:
 
 <img alt="Start Import" class="screenshot" src="/docs/assets/img/setup/data-import/task-menu-import.png">
 
@@ -22,7 +22,7 @@ Let's say you want to import the list of Customers from your old system into ERP
 
 ### 1.1 Download the Template
 
-1. Go to Customer List, click on **Menu** > **Import**. Click on **New**.
+1. Go to Customer List, click on Menu > Import. Click on **New**.
 1. Select Import Type as Insert New Records.
 1. Click on **Save**.
 1. Now, click on **Download Template**.
@@ -39,7 +39,7 @@ Your downloaded template will look something like this:
 
 ![Blank Template](/docs/assets/img/setup/data-import/blank-template-file.png)
 
-Open the downloaded template in a spreadsheet application (like Excel, Numbers, or Libre Office) and enter the the data below the column headings shown as follows:
+Open the downloaded template in a spreadsheet application (like Excel, Numbers, or Libre Office) and enter the data below the column headings shown as follows:
 
 ![Customer Template with Data](/docs/assets/img/setup/data-import/customer-template-with-data.png)
 
@@ -62,7 +62,7 @@ If there are any errors in your template, they will be shown in the Warnings sec
 
 ![Import Warnings](/docs/assets/img/setup/data-import/import-warnings.png)
 
-After you have resolved the warnings, click on **Start Import** again to import the data. On successful import of the data you'll see a log of each record that was created in the Import Log section.
+After you have resolved the warnings, click on **Start Import** again to import the data. On successful import of the data, you'll see a log of each record that was created in the Import Log section.
 
 ![Import Success](/docs/assets/img/setup/data-import/import-success.png)
 
@@ -76,7 +76,7 @@ Let's say you want to update Customer data in bulk in your system. The first ste
 1. Select Import Type as Update Existing Records
 1. Click on **Save**.
 1. Now, click on **Download Template**.
-1. While updating existing records, you must export the records from the system with the ID field and the fields that you want to update. You can choose All Records or Filtered Records depending upon your case.
+1. While updating existing records, you must export the records from the system with the ID field and the fields that you want to update. You can choose All Records or Filtered Records depending on your case.
 1. Select the fields that you want to update for the Customer records.
 1. Click on **Export**.
 
@@ -88,7 +88,7 @@ Your downloaded template will look something like this:
 
 Now, change the values in your template and save the file as Excel or CSV.
 
-> While exporting records for update, make sure that the ID column is exported and is untouched. The values in the ID column are used to identify the records in the system. You can update the values in other columns but not in ID column.
+> While exporting records for updating them, ensure that the ID column is exported and is untouched. The values in the ID column are used to identify the records in the system. You can update the values in other columns but not in the ID column.
 
 ### 2.3 Importing the Template
 
@@ -98,7 +98,7 @@ Follow the steps in [Importing the Template](#23-importing-the-template) section
 
 Data in ERPNext is stored in tables like a spreadsheet with columns and rows of data. Each form likes Sales Order has multiple fields like Customer, Company, etc. It also has tables like the item table, tax table, etc. In Data Import, the set of fields in the Sales Order are treated as the main table and the rows inside the child table (item table) are treated as the child table for data import.
 
-Each form in ERPNext can have multiple child tables associated with it. The child tables are linked to the parent tables and are implemented where there are multiple values for any property. For example, an Item can have multiple prices, a Sales Invoice has multiple Items, Taxes and so on.
+Each form in ERPNext can have multiple child tables associated with it. The child tables are linked to the parent tables and are implemented where there are multiple values for any property. For example, an Item can have multiple prices, a Sales Invoice has multiple Items, Taxes, and so on.
 
 When you export a document with child tables, for e.g., each child row will appear on a separate row but it is associated with a single parent row. The subsequent values in the parent columns will remain blank. You must ensure that this order is not broken when you are importing them via Data Import.
 
