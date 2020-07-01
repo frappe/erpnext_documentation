@@ -21,7 +21,7 @@ Before creating and using a Service Level Agreement, it is advised that you crea
 ## 2. How to Create a Service Level Agreement
 1. Go to the Service Level Agreement list, click on New.
 1. Enter a name for the Service Level.
-1. Select an Employee group, which will handle a particular Service Level.
+1. Select an Employee group, that will handle a particular Service Level.
 1. Set a Holiday List. Service Level Agreement won't be applied in the days mentioned in the Holiday List.
 1. 'Enable' determines if a Service Level Agreement is enabled or disabled.
 1. Ticking 'Default Service Level Agreement' will apply this SLA to a customer if they don't have a particular SLA assigned to them.
