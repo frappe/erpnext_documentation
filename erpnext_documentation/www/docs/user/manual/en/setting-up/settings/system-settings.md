@@ -30,7 +30,7 @@ To open System Settings, go to:
 
 ### 1.3 Backups
 
-In ERPNext you can backup the database as well as your files. Database backups are created automatically while file backups need to be downloaded explicitly. 
+In ERPNext you can backup the database as well as your files. Database backups are created automatically while file backups need to be downloaded explicitly.
 
 This field shows the number of backups after which older ones will be deleted. By default, 3 backups are saved over 24 hours. New backups are automatically created every few hours and the newest backup will overwrite the oldest one. For a backup of files, click on the Download Files Backup button in the Download Backups form.
 
@@ -55,7 +55,7 @@ If the Apply Strict User Permissions checkbox is ticked, documents, where Territ
 * **Session Expiry**: Number of idle hours after which you'll be logged out of a session. This helps in better security. For example, if there is no activity for 6 hours, your account will be logged out.
 * **Session Expiry Mobile**: Session expiry when logged in from a mobile phone.
 * **Allow only one session per user**: If you want to use a single set of credentials for multiple users, tick this checkbox. The number of simultaneous sessions can be changed under User master. Mobile phone sessions are not counted here.
-* **Allow Login using Mobile Number**: By checking the 'Allow Login using Mobile Number' checkbox, you can log in to ERPNext using a valid mobile number set in your User account. 
+* **Allow Login using Mobile Number**: By checking the 'Allow Login using Mobile Number' checkbox, you can log in to ERPNext using a valid mobile number set in your User account.
 
 * **Allow Login using User Name**: Allow user login via their username set in the [User master](/docs/user/manual/en/setting-up/users-and-permissions/adding-users).
 * **Show Full Error and Allow Reporting of Issues to the Developer**: This will display the whole error on the screen and allow reporting issues. If you have technical knowledge in this area, you can get a better idea of the error by reading the whole message.
@@ -98,6 +98,9 @@ On ticking 'Enable Two Factor Auth', the following two options will be seen.
 * **Hide footer in auto-email reports**: If ticked, footers will be hidden in [Auto Email reports](/docs/user/manual/en/setting-up/email/auto-email-reports).
 
     ![Email Footer](/docs/assets/img/setup/settings/email-footer.png)
+
+* **Send document web view link in the email**: ERPNext has a portal view available from where parties like Customers and Suppliers can sign up and view their order history. When you email a transaction to your party, you can also send a web link to view the same document on the portal of your ERPNext account.
+
 
 ### 1.10 Chat
 
