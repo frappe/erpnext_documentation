@@ -170,3 +170,14 @@ Like in this case it is: `eval:frappe.db.get_value('Global Defaults', None, 'cou
 Lastly, enable the 'Has Mapping' option in the Event Configuration child table in Event Producer against the required Document Type and select the Document Type Mapping you just created.
 
 ![Mapping Configuration](/docs/assets/img/automation/event-mapping-conf.png)
+
+### 3.6 Conditional Events Configuration
+
+If you are in scenario when you dont want to send over all the documents in a doctype over to the consumer, you can specify the conditions for them.
+
+For example, if you would like to emit only those `Note` documents that are public, you can specify them within the Producer/Consumer document.
+
+![Child Table Mapping Link](/docs/assets/img/automation/event-streaming-conditions.png)
+
+- You can make use of `Event DocType Condition` doctype to specify global conditions for all Consumers.
+- If a document satisfies a condition down the line in its lifetime, all the old `Event Update Logs` are synced to the consumer
