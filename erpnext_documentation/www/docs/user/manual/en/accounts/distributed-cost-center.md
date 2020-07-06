@@ -15,7 +15,7 @@ metatags:
 
 If a business has a master Cost Center with dependent Cost Centers. In every master Cost Center transaction, it is difficult to update the budget, profit, and loss to each dependent Cost Center manually with the allocated percentage of the master Cost Center. This feature helps to automate the process of manual entry.
 
-For example, In your business, If the Cost Center 'B' and 'C' depend on Cost Center 'A' by 20% and 80%. Here, you can mention 'A' as a Distributed Cost Center. It helps to reflect income, expense, and budget of 'A' in 'B' and 'C' with allocated percentages.
+For example, In your business, If the Cost Center 'B' and 'C' depend on Cost Center 'A' by 20% and 80%. Then, you can mention 'A' as a Distributed Cost Center. It helps to reflect income, expense, and budget of 'A' in 'B' and 'C' with allocated percentages.
 
 In ERPNext you can create Distributed Cost Center and use them in transactions and reports.
 
