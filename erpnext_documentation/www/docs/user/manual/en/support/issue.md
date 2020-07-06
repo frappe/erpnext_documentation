@@ -65,7 +65,7 @@ User can select the [Service Level Agreement](/docs/user/manual/en/support/servi
 
 * **First Responded on**: When a Support team member first replies to the issue, first response date and time will be updated.
 
-* **Average Response Time**: The average time taken to respond to the Customer. This is calculated as the average of all time spans between Received and Sent Communications. This field will be updated on every reply to the customer.
+* **Average Response Time**: The average time taken to respond to the Customer. This is calculated by taking the average of all time spans between Received and Sent Communications. This field will be updated on every reply sent to the customer.
 
 <img class="screenshot" alt="Issue" src="{{docs_base_url}}/assets/img/support/response.png">
 
