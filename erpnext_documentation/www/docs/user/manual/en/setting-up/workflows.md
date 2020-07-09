@@ -51,6 +51,8 @@ Before creating a Workflow, it is advised to create these first:
 
 ### 2.2 Things to note when creating a Workflow
 
+* Make sure the **Allow Workflow** checkbox is selected in the Form Settings section of the DocType you want use to create a workflow. If it is unchecked, a workflow can not be created for that DocType.
+
 * Creating a Workflow in ERPNext essentially overrides the regular Save and Submit workflow. Thus the document will function based on your Workflow and not based on the pre-set code workflow. Hence there might be no Submit button/option if you have not specified it in the Workflow you create.
 
     If you don't apply a Workflow to a document, and that document is submittable, then it has the default workflow with states: Draft - Submitted - Cancelled. If you are applying a Workflow to a submittable document, then those default states should be handled by the user.
