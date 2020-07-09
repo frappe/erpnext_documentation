@@ -7,15 +7,15 @@ Payroll is the administration of financial records of employees' salaries, wages
 
 To process Payroll in ERPNext,
 
-1. Define [Payroll Period](/docs/user/manual/en/human-resources/payroll-period.html) (optional)
-1. Define [Income Tax Slab](/docs/user/manual/en/human-resources/income-tax-slab.html) (optional)
+1. Define [Payroll Period](/docs/user/manual/en/payroll/payroll-period.html) (optional)
+1. Define [Income Tax Slab](/docs/user/manual/en/payroll/income-tax-slab.html) (optional)
 2. Create Salary Structure with Salary Components (Earnings and Deductions)
 3. Assign Salary Structures to each Employee via Salary Structure Assignment
-4. Generate Salary Slips via [Payroll Entry](/docs/user/manual/en/human-resources/payroll-entry.html).
+4. Generate Salary Slips via [Payroll Entry](/docs/user/manual/en/payroll/payroll-entry.html).
 5. Book the Salary in your Accounts.
 
 ## Payroll Period
-[Payroll Period](/docs/user/manual/en/human-resources/payroll-period.html), in ERPNext, is a period for which Employees get paid for their occupation with the Company. Payroll period helps you define Tax slabs applicable for the period, making it easier to manage changing laws.
+[Payroll Period](/docs/user/manual/en/payroll/payroll-period.html), in ERPNext, is a period for which Employees get paid for their occupation with the Company. Payroll period helps you define Tax slabs applicable for the period, making it easier to manage changing laws.
 
 > Note: Configuring Payroll Period is optional if you do not intend to use Flexible Benefits or Tax Slabs
 
@@ -33,7 +33,7 @@ pay in proportion of LWP days divided by the total working days for the month (b
 #### Earning
 
 <img class="screenshot" alt="Salary Component Earnings"
-	src="{{docs_base_url}}/assets/img/human-resources/salary-component.png">
+	src="{{docs_base_url}}/assets/img/payroll/salary-component.png">
 
 * Is Additional Component: This option specify that the component can only be paid as Additional Salary. Examples of this component could be Performance Bonus or pay received for on-site deputation etc. Such components are not considered to be part of normal Salary Structure. Instead, Additional Salary with these components can be submitted as required which will be added to the Salary Slip automatically.
 
@@ -41,25 +41,25 @@ pay in proportion of LWP days divided by the total working days for the month (b
 
 * Is Payable: Such components can be booked against separate payable accounts and the Accounts shall be configured in the Accounts table
 
-* Flexible Benefits: Flexible Benefits are earning components which Employees can choose to receive on a pro-rata basis or annually when they claim for. These are mostly tax exempted, unless the Employee fail to file the claim with adequate bills / documents. If turned on, you can specify the maximum benefit allowed for an employee in a year. Employees can create [Employee Benefit Application](/docs/user/manual/en/human-resources/employee-benefit-application) with the ones they opt for.
+* Flexible Benefits: Flexible Benefits are earning components which Employees can choose to receive on a pro-rata basis or annually when they claim for. These are mostly tax exempted, unless the Employee fail to file the claim with adequate bills / documents. If turned on, you can specify the maximum benefit allowed for an employee in a year. Employees can create [Employee Benefit Application](/docs/user/manual/en/payroll/employee-benefit-application) with the ones they opt for.
 
 	>Note: Employee Benefit Application will only allow Employees to only choose from the flexible components which are present in the Salary Structure assigned to the Employee
 
-	- Pay Against Benefit Claim: Employees can opt to receive flexible benefits annually via Employee Benefit Claim or along with their salary every month. If you enable this, the amount allocated for the component will be paid as the Employee submits an [Employee Benefit Claim](/docs/user/manual/en/human-resources/employee-benefit-claim.html). Else the amount will be dispersed as part of the Employee's salary on a pro-rata basis.
+	- Pay Against Benefit Claim: Employees can opt to receive flexible benefits annually via Employee Benefit Claim or along with their salary every month. If you enable this, the amount allocated for the component will be paid as the Employee submits an [Employee Benefit Claim](/docs/user/manual/en/payroll/employee-benefit-claim.html). Else the amount will be dispersed as part of the Employee's salary on a pro-rata basis.
 
  - Only Tax Impact (Cannot Claim But Part of Taxable Income): Such components are those which the company has already paid to the Employee in cash or by some other means, for example a car purchased for the Employee's use. The Employee cannot claim but is liable to pay tax. The amount allocated for this component will be considered while calculating the taxable income of the Employee.
 
  - Create Separate Payment Entry Against Benefit Claim: Some of the flexible benefits may be legally required to be paid via separate vouchers. If you enable this, while posting the bank entry the amount paid for such components will be posted as a separate entry for each Employee.
 
 	<img class="screenshot" alt="Flexible Salary Component"
-	src="{{docs_base_url}}/assets/img/human-resources/salary-component-1.png">
+	src="{{docs_base_url}}/assets/img/payroll/salary-component-1.png">
 
 	> Note: Normal Tax calculation does not include Flexible Benefits as in most cases these are exempted from Tax. To tax these components anytime before that last payroll, use "Deduct Tax For Unclaimed Employee Benefits" in Payroll Entry / Salary Slip while processing the Salary.
 
 #### Deduction
 
 <img class="screenshot" alt="Salary Component Deduction"
-	src="{{docs_base_url}}/assets/img/human-resources/salary-component-2.png">
+	src="{{docs_base_url}}/assets/img/payroll/salary-component-2.png">
 
 * Variable Based On Taxable Salary: If you enable this, the component will be considered as the standard Tax deduction component. Tax will be calculated based on the Income Tax Slab linked to the employee.
 
@@ -91,7 +91,7 @@ Usual components of a salary structure (in India) include:
 
 * Employee Stock Options: ESOPS are Free/discounted shares given by the company to the employees. This is done to primarily increase employee retention.
 
-<img class="screenshot" alt="Submitted Salary Structure" src="{{docs_base_url}}/assets/img/human-resources/salary-structure.png">
+<img class="screenshot" alt="Submitted Salary Structure" src="{{docs_base_url}}/assets/img/payroll/salary-structure.png">
 A submitted Salary Structure
 
 ### Creating a New Salary Structure
@@ -113,7 +113,7 @@ Salary Slip based on Timesheet is applicable if you have timesheet based payroll
 1. Check "Salary Slip Based on Timesheet"
 2. Select the salary component and enter Hour Rate (Note: This salary component gets added to earnings in Salary Slip)
 
-<img class="screenshot" alt="Salary Slip based on Timesheet" src="{{docs_base_url}}/assets/img/human-resources/salary-timesheet.png">
+<img class="screenshot" alt="Salary Slip based on Timesheet" src="{{docs_base_url}}/assets/img/payroll/salary-timesheet.png">
 
 #### Earnings and Deductions in Salary Structure
 
@@ -123,11 +123,11 @@ If the condition and formula for any of the earnings or deductions are not confi
 
 #### Condition and Formula
 
-<img class="screenshot" alt="Condition and Formula" src="{{docs_base_url}}/assets/img/human-resources/condition-formula.png">
+<img class="screenshot" alt="Condition and Formula" src="{{docs_base_url}}/assets/img/payroll/condition-formula.png">
 
 #### Condition and Amount
 
-<img class="screenshot" alt="Condition and Amount" src="{{docs_base_url}}/assets/img/human-resources/condition-amount.png">
+<img class="screenshot" alt="Condition and Amount" src="{{docs_base_url}}/assets/img/payroll/condition-amount.png">
 
 
 In conditions and formulas,
@@ -138,7 +138,7 @@ In conditions and formulas,
 
 #### Account Details
 
-<img class="screenshot" alt="Salary Structure Account" src="{{docs_base_url}}/assets/img/human-resources/salary-structure-account.png">  
+<img class="screenshot" alt="Salary Structure Account" src="{{docs_base_url}}/assets/img/payroll/salary-structure-account.png">
 
   * Select Mode of Payment and Payment Account for the Salary Slips which will be generated using this Salary Structure
 
@@ -159,7 +159,7 @@ To create a new Salary Structure Assignment go to:
 
 > Human Resources > Payroll > Salary Structure Assignment > New Salary Structure Assignment
 
-<img class="screenshot" alt="Salary Structure Assignment" src="{{docs_base_url}}/assets/img/human-resources/salary-structure-assignment.png">  
+<img class="screenshot" alt="Salary Structure Assignment" src="{{docs_base_url}}/assets/img/payroll/salary-structure-assignment.png">
 
 * * *
 
@@ -173,7 +173,7 @@ You can also create salary slip for multiple employees using Payroll Entry:
 
 #### Payroll Entry
 
-<img class="screenshot" alt="Payroll Entry" src="{{docs_base_url}}/assets/img/human-resources/payroll-entry.png">
+<img class="screenshot" alt="Payroll Entry" src="{{docs_base_url}}/assets/img/payroll/payroll-entry.png">
 
 In Payroll Entry,
 
@@ -183,11 +183,11 @@ In Payroll Entry,
 4. Click on "Get Employee Details" to get a list of Employees for which the Salary Slips will be created based on the selected criteria.
 5. Enter the Start and End dates for the payroll period.
 6. You can check _Deduct Tax For Unclaimed Employee Benefits_ if you want to deduct taxes for all benefits (Salary Components which are _Is Flexible Benefit_) paid to employees till the current payroll
-7. Similarly, _Deduct Tax For Unsubmitted Tax Exemption Proof_ allows you to deduct taxes for the earnings which were exempted in the previous payrolls as declared in [Employee Tax Exemption Declaration](/docs/user/manual/en/human-resources/employee-tax-exemption-declaration) but the Employee has not submitted sufficient proof [Employee Tax Exemption Proof Submission](/docs/user/manual/en/human-resources/employee-tax-exemption-proof-submission)
+7. Similarly, _Deduct Tax For Unsubmitted Tax Exemption Proof_ allows you to deduct taxes for the earnings which were exempted in the previous payrolls as declared in [Employee Tax Exemption Declaration](/docs/user/manual/en/payroll/employee-tax-exemption-declaration) but the Employee has not submitted sufficient proof [Employee Tax Exemption Proof Submission](/docs/user/manual/en/payroll/employee-tax-exemption-proof-submission)
 8. Select the Cost Center and Payment Account.
 9. Save the form and Submit it to create Salary Slip records for each active Employee for the time period selected. If the Salary Slips are already created, the system will not create any more Salary Slips. You can also just save the form as Draft and create the Salary Slips later.
 
-<img class="screenshot" alt="Submitted Payroll Entry" src="/docs/assets/img/human-resources/created-payroll.png">
+<img class="screenshot" alt="Submitted Payroll Entry" src="/docs/assets/img/payroll/created-payroll.png">
 
 Once all Salary Slips are created, you can use _View Salary Slips_ to verify if they are created correctly or edit it if you want to deduct Leave Without Pay (LWP).
 
@@ -206,13 +206,13 @@ The salary payment entry is a Journal Entry that debits the total of the earning
 To generate your salary payment voucher from Payroll Entry, click on -
 > Make > Bank Entry
 
-<img class="screenshot" alt="Payroll Make Entry" src="/docs/assets/img/human-resources/payroll-make-bank-entry.png">
+<img class="screenshot" alt="Payroll Make Entry" src="/docs/assets/img/payroll/payroll-make-bank-entry.png">
 
 Payroll Entry will route you to Journal Entry with relevant filters to view the draft Journal Vouchers created. You shall set reference number and date for the transactions and Submit the Journal Entries.
 
 >Note: For Salary Components which are Flexible Benefits and has _Create Separate Payment Entry Against Benefit Claim_ checked, ERPNext will book separate draft Journal Entries.
 
-<img class="screenshot" alt="Payroll Entry" src="/docs/assets/img/human-resources/payroll-journal-entry.png">
+<img class="screenshot" alt="Payroll Entry" src="/docs/assets/img/payroll/payroll-journal-entry.png">
 
 ## Creating Salary Slips Manually
 
@@ -222,6 +222,6 @@ Once the Salary Structure is created and assigned to employees via Salary Struct
 
 #### Salary Slip
 
-<img class="screenshot" alt="Salary Slip" src="{{docs_base_url}}/assets/img/human-resources/salary-slip.png">
+<img class="screenshot" alt="Salary Slip" src="{{docs_base_url}}/assets/img/payroll/salary-slip.png">
 
 {next}

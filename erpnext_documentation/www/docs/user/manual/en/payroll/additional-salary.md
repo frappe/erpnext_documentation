@@ -8,14 +8,14 @@ ERPNext offers you a feature called Additional Salary to add or deduct ad hoc sa
 
 To access Additional Salary, go to:
 
-> Home > Human Resources > Payroll > Additional Salary
+> Home > Payroll > Compensation > Additional Salary
 
 ## 1. Prerequisites
 
 Before creating an Additional Salary, it is advisable to create the following:
 
 * [Employee](/docs/user/manual/en/human-resources/employee)
-* [Salary Component](/docs/user/manual/en/human-resources/salary-component)
+* [Salary Component](/docs/user/manual/en/payroll/salary-component)
 
 
 ## 2. How to create an Additional Salary
@@ -30,23 +30,23 @@ Before creating an Additional Salary, it is advisable to create the following:
 
 Select the 'Overwrite Salary Structure Amount' checkbox to overwrite the Additional Salary component on the Salary Structure amount. Additionally, the 'Deduct Full Tax on Selected Payroll Date' checkbox can be selected if full tax needs to be deducted on the Additional Salary component for that particular payroll date.
 
-<img class="screenshot" alt="Additional Salary" src="{{docs_base_url}}/assets/img/human-resources/additional-salary.png">
+<img class="screenshot" alt="Additional Salary" src="{{docs_base_url}}/assets/img/payroll/additional-salary.png">
 
 ## 3.Features
 
 ### 3.1 Recurring Additional Salary
 This feature allows users to create an Additional Salary for a fixed interval.
-When 'Is Recurring' is checked you need to fill 'To Date' and 'From Date'. 
-This will add or deduct the additional salary amount for this employee within the selected date range and it will be reflected in the Salary Slip for the employee. The Additional Salary will be repeated every month between 'From Date' and 'To Date' interval.
+When 'Is Recurring' is checked you need to fill 'To Date' and 'From Date'.
+This will add or deduct the additional salary amount for employee within the selected date range and it will be reflected in the Salary Slip for the employee. The Additional Salary will be repeated every month between 'From Date' and 'To Date' interval.
 
 ## 4. Related Topics
 
-1. [Retention Bonus](/docs/user/manual/en/human-resources/retention-bonus)
-1. [Employee Incentive](/docs/user/manual/en/human-resources/employee-incentive)
-1. [Salary Structure](/docs/user/manual/en/human-resources/salary-structure)
-1. [Salary Structure Assignment](/docs/user/manual/en/human-resources/salary-structure-assignment)
-1. [Payroll Entry](/docs/user/manual/en/human-resources/payroll-entry)
-1. [Payroll Period](/docs/user/manual/en/human-resources/payroll-period)
+1. [Retention Bonus](/docs/user/manual/en/payroll/retention-bonus)
+1. [Employee Incentive](/docs/user/manual/en/payroll/employee-incentive)
+1. [Salary Structure](/docs/user/manual/en/payroll/salary-structure)
+1. [Salary Structure Assignment](/docs/user/manual/en/payroll/salary-structure-assignment)
+1. [Payroll Entry](/docs/user/manual/en/payroll/payroll-entry)
+1. [Payroll Period](/docs/user/manual/en/payroll/payroll-period)
 
 
 {next}

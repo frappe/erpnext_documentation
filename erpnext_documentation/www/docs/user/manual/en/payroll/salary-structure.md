@@ -8,14 +8,14 @@ Any changes to the Salary Structure i.e. among the components can have a major i
 ERPNext allows you to define the Earnings and Deductions of a Salary Structure, Payroll frequency, and Payment Mode among other features.
 
 To access Salary Structure, go to:
-> Home > Human Resources > Payroll > Salary Structure
+> Home > Payroll > Salary Structure
 
 
 ## 1. Prerequisites
 
 Before you create a Salary Structure, it is advisable you have the following:
 
-* [Salary Component](/docs/user/manual/en/human-resources/salary-component)
+* [Salary Component](/docs/user/manual/en/payroll/salary-component)
 
 
 ## 2. How to create a Salary Structure
@@ -35,11 +35,11 @@ Earnings specify the Salary Components that are earned by an Employee. These com
 >**Note:** Only Salary Components set as 'Earnings' will be shown in the Earnings table and components set as 'Deductions' will be shown in the Deductions table.
 
 
-To create Earnings and Deductions, select the Salary Component in the Component column. Enter the Formula/Condition if not previously specified while creating the [Salary Component](/docs/user/manual/en/human-resources/salary-component). Additionally, you can also enter a pre-defined amount in the Amount column.
+To create Earnings and Deductions, select the Salary Component in the Component column. Enter the Formula/Condition if not previously specified while creating the [Salary Component](/docs/user/manual/en/payroll/salary-component). Additionally, you can also enter a pre-defined amount in the Amount column.
 
 
 
-<img class="screenshot" alt="Salary Structure" src="{{docs_base_url}}/assets/img/human-resources/salary-structure.png">
+<img class="screenshot" alt="Salary Structure" src="{{docs_base_url}}/assets/img/payroll/salary-structure.png">
 
 
 > **Note:** Make sure to click on the downward arrow and enable the 'Amount based on formula' checkbox in case the Salary Component is calculated using a formula.
@@ -57,31 +57,31 @@ Steps for creating Salary Structure based on Timesheets:
 
 1. Go to Salary Structure List, click on New.
 1. Select checkbox **Salary Slip Based on Timesheet**.
-1. Select the Salary Component. 
+1. Select the Salary Component.
 1. Enter the Hour Rate. Based on the Rate entered, the amount for Working hours for the selected Salary Component will be calculated accordingly.
 1. Save and Submit.
 
- <img class="screenshot" alt="Create Salary Slip based on Timesheets" src="{{docs_base_url}}/assets/img/human-resources/salary-structure-for-salary-based-on-timesheets.png">
+ <img class="screenshot" alt="Create Salary Slip based on Timesheets" src="{{docs_base_url}}/assets/img/payroll/salary-structure-for-salary-based-on-timesheets.png">
 
 
-### 2.4 Leave Encashment Amount Per Day 
+### 2.4 Leave Encashment Amount Per Day
 
 In case there are encashable leaves for an Employee, you can define the leave encashment amount per day in this field for this particular Salary Structure. Based on the 'Earning Component' set in the encashed [Leave Type](/docs/user/manual/en/human-resources/leave-type) and the amount per day, the value for the Salary component will be calculated accordingly in the Salary Slip.
 
 
 ### 2.5 Max Benefits (Amount)
 
-In this field, the Max Benefits Amount for the Salary Structure can be specified. If this field is filled, make sure the Salary Structure has a [Salary Component](/docs/user/manual/en/human-resources/salary-component) with the "Is Flexible Benefits" checked, against which this amount will be paid.
+In this field, the Max Benefits Amount for the Salary Structure can be specified. If this field is filled, make sure the Salary Structure has a [Salary Component](/docs/user/manual/en/payroll/salary-component) with the "Is Flexible Benefits" checked, against which this amount will be paid.
 
 
 
-Once all the information is saved and submitted, you can assign the Salary Structure to an Employee either through the **Assign Salary Structure** button or by creating a new [Salary Structure Assignment](/docs/user/manual/en/human-resources/salary-structure-assignment) through the dashboard.
+Once all the information is saved and submitted, you can assign the Salary Structure to an Employee either through the **Assign Salary Structure** button or by creating a new [Salary Structure Assignment](/docs/user/manual/en/payroll/salary-structure-assignment) through the dashboard.
 
 You can also assign the created Salary Structure to several employees based on the [Employee Grade](/docs/user/manual/en/human-resources/employee-grade), [Department](/docs/user/manual/en/human-resources/department), [Designation](/docs/user/manual/en/human-resources/designation), etc. through the 'Assign to Employees' button.
 Additionally, Salary Slip can also be directly created through the dashboard.
 
 ## 3. Related Topics
 
-1. [Salary Component](/docs/user/manual/en/human-resources/salary-component)
-1. [Salary Structure Assignment](/docs/user/manual/en/human-resources/salary-structure-assignment)
-1. [Payroll Entry](/docs/user/manual/en/human-resources/payroll-entry)
+1. [Salary Component](/docs/user/manual/en/payroll/salary-component)
+1. [Salary Structure Assignment](/docs/user/manual/en/payroll/salary-structure-assignment)
+1. [Payroll Entry](/docs/user/manual/en/payroll/payroll-entry)
