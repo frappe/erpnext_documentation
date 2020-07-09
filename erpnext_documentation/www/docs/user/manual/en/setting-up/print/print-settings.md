@@ -16,7 +16,7 @@ There are various configurations available in the Print Settings. Let's learn ab
 
 ### 1.1 PDF or HTML
 
-When you email any document (like Sales Order/Invoice) from ERPNext, it is sent in the PDF or HTML format. The file is sent in PDF by default. If you wish to send a document in the HTML format, just untick the field "Send Print as PDF".
+When you email any document (like Sales Order/Invoice) from ERPNext, it is sent in the PDF or HTML format. The file is sent in PDF by default. If you wish to send a document in the HTML format, just uncheck the option "Send Print as PDF".
 
 ### 1.2 Repeat Header and Footer in PDF
 
