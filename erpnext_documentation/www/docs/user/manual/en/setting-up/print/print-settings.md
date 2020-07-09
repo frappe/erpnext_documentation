@@ -33,7 +33,7 @@ Enabling this property will automatically tick the Letter Head option when print
 
 ### 2.2 Compact Item Print
 
-Transactions like sales orders/invoices have a table detailing items bought or sold. It has multiple columns like Item Name, Description, UoM, Rate Amount, etc. If there are many columns in the Item table, then Print Format looks bit cluttered. You can improve the view of the table by enabling Compact Item Print. 
+Transactions like sales orders/invoices have a table detailing items bought or sold. It has multiple columns like Item Name, Description, UoM, Rate Amount, etc. If there are many columns in the Item table, then Print Format looks bit cluttered. You can improve the view of the table by enabling Compact Item Print.
 
 As per this setting, there will be only four columns in the Print Format, namely: Description, Qty, Rate, and Amount.
 
@@ -50,25 +50,19 @@ This is what the Compact Print Format looks like:
 
 The documents (mostly transactions) have two stages of authentication, Save and Submit. The saved documents are the first draft and not submitted to the system. Hence printing is restricted for the documents at this stage. However, if you wish to permit users to print documents at the Draft stage as well, enable this checkbox.
 
-### 2.4 Send document web view link in the email
-
-ERPNext has a portal view available from where parties like Customers and Suppliers can sign up and view their order history.
-
-When you email a transaction to your party, you can also send a web link to view the same document on the portal of your ERPNext account.
-
-### 2.5 Always add "Draft" Heading for printing draft documents
+### 2.4 Always add "Draft" Heading for printing draft documents
 
 Enabling this setting also print "Draft" in the Print Format, thus indicating that document shared is not completely authenticated yet.
 
-### 2.6 Allow Page Break Inside Table
+### 2.5 Allow Page Break Inside Table
 
 If an item's description captures more than usual space of a page, then enabling this setting will split the item's details to the next page. Hence, a page break will be inserted between the Item Description, and the rest of the details will be pushed to the next page.
 
-### 2.7 Allow Print for Canceled
+### 2.6 Allow Print for Canceled
 
 Canceled transactions are the ones which don't have any impact on the reports. If you wish to allow printing for the canceled transactions, then enable this setting. A transaction can be canceled only once it is submitted.
 
-### 2.8 Print Taxes with Zero Amount
+### 2.7 Print Taxes with Zero Amount
 
 In the sales and purchase transactions, you can add apply multiple taxes on the item. By default, in the print format, only taxes which have some amount calculated are visible. If you wish to also print the tax which was not applied and has zero tax amount, enable this setting.
 
