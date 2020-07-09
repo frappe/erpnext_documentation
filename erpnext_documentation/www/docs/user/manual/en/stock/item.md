@@ -180,8 +180,6 @@ In this section, you can define Company-wide transaction-related defaults for th
 ### 3.11 Supplier Details
 
 * **Delivered by Supplier (Drop Ship)**: If the item is delivered directly by the supplier to the customer, tick this checkbox. Read more [here](/docs/user/manual/en/selling/articles/drop-shipping).
-* **Manufacturer:** Select the Manufacturer who manufactured this item.
-* **Manufacturer Part Number:** Enter the manufacturer part number that the manufacturer has assigned to this item.
 * **Supplier Codes:** Track Item Code defined by the Suppliers for this Item. In the Purchase transactions, on selecting an Item, a Supplier Part No. will be fetched as well for the Supplier's reference. You can read more about it [here](/docs/user/manual/en/buying/articles/maintaining-suppliers-part-no-in-item).
 
   ![Item Supplier Details](/docs/assets/img/stock/item-supplier.png)
@@ -242,6 +240,18 @@ To know more about Quality Inspection, [click here](/docs/user/manual/en/stock/q
 
 * **Default BOM**: The default [Bill of Materials](/docs/user/manual/en/manufacturing/bill-of-materials) used to manufacture this Item.
 * **Supply Raw Materials for Purchase**:  If you're subcontracting to a vendor, you can choose to provide them with the raw materials to manufacture the item using the default BOM.
+* **Manufacturer:** Select the Manufacturer who manufactured this item.
+* **Manufacturer Part Number:** Enter the manufacturer part number that the manufacturer has assigned to this item.
+
+  ![Item Manufacturing](/docs/assets/img/stock/item-manufacturing.png)
+
+* The manufacturer details appear after you've created an 'Item Manufacturer' from the dashboard and selected that record as default. Here, add details for:
+  * Item Code
+  * Enter the manufacturer name
+  * Enter the part number the manufacturer uses to identify this item
+  * Select 'Is Default' to show the manufacturer and part number in the Item record
+
+  ![Item Manufacturer](/docs/assets/img/stock/item-manufacturer.png)
 
 ### 3.19  Website
 
