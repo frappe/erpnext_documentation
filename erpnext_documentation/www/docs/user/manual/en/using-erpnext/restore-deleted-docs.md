@@ -31,6 +31,8 @@ To access Deleted Documents, go to:
 
 > Note: If the document was deleted after getting ** canceled**, it would be restored with a new name.
 
+> If File Document is `restored`, the `file` on the `file system` is also restored.
+
 > Further, Only those Users having System Manager Role assigned to them can restore deleted documents.
 
 {next}
