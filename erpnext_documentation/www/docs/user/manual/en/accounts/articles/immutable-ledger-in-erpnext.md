@@ -3,11 +3,11 @@
 
 > Introduced in Version 13
 
-A major change has been introduced in ERPNext from version 13 onwards. This changes the way Accounting Ledger (General Ledger) and Stock Ledger works in ERPNext. There are multiple reasons why ledgers should be immutable. To list a few
+A major change has been introduced in ERPNext from version 13 onwards. This changes the way Accounting Ledger (General Ledger) and Stock Ledger works in ERPNext. There are multiple reasons why ledgers should be immutable. To list a few:
 
 * Reposting future entries is computationally expensive.
-* In Stock Ledger, where the valuations are based on First-in-first-out(FIFO) method, the entire sequence may get regenerated which may upset valuations and profit for subsequent transactions.
-* Taxes paid for a period may also get changed
+* In Stock Ledger, where the valuations are based on First-in-first-out (FIFO) method, the entire sequence may get regenerated which may upset valuations and profit for subsequent transactions.
+* Taxes paid for a period may also get changed.
 
 ## Following are the impacts on day to day transactions
 

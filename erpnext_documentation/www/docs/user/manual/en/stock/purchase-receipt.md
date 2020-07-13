@@ -16,6 +16,8 @@ Before creating and using a Purchase Receipt, it is advised that you create the 
 
 * [Purchase Order](/docs/user/manual/en/buying/purchase-order)
 
+> Note: From version-13 onwards we have introduced immutable ledger which changes the rules for cancellation of stock entries and posting backdated stock transactions in ERPNext. [Learn more here](/docs/user/manual/en/accounts/articles/immutable-ledger-in-erpnext).
+
 
 ## 2. How to create a Purchase Receipt
 A Purchase Receipt is usually created from a [Purchase Order](/docs/user/manual/en/buying/purchase-order). In the Purchase Order, click on Create > Purchase Receipt.
