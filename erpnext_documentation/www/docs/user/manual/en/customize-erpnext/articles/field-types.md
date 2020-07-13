@@ -213,11 +213,11 @@ You can use the Duration field if you want to define a timespan.
 
 <img alt="Field Types" class="screenshot" src="{{docs_base_url}}/assets/img/customize/duration-fieldtype.png">
 
-If you don't want to track duration in terms of days or seconds, you can uncheck "Show Days" and "Show Seconds" options respectively in your Form.
+If you don't want to track duration in terms of days or seconds, you can enable "Hide Days" and "Hide Seconds" options respectively in your Form.
 
 <img alt="Field Types" class="screenshot" src="{{docs_base_url}}/assets/img/customize/duration-options.png">
 
-For example, here in the SLA DocType, option is present to choose hours and minutes.
+For example, here in the SLA DocType, option is present to choose hours and minutes only.
 <img alt="Field Types" class="screenshot" src="{{docs_base_url}}/assets/img/customize/duration-options-2.png">
 
 {next}
