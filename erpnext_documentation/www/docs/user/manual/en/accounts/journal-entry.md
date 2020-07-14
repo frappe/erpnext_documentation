@@ -9,6 +9,8 @@ All types of accounting entries other than Sales and Purchase transactions are m
 
 Journal Entries can be used for entering expenses, opening entries, contra entries, bank payments, excise entries, etc. For example, booking running expenses, direct expenses like petrol/transport, sundry expenses, adjustment entries, and adjusting invoice amount.
 
+> Note: From version-13 onwards we have introduced immutable ledger which changes the way cancellation of accounting entries works in ERPNext. [Learn more here](/docs/user/manual/en/accounts/articles/immutable-ledger-in-erpnext).
+
 To access the Journal Entry list, go to:
 > Home > Accounting > General Ledger > Journal Entry
 
