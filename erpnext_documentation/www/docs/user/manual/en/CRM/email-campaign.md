@@ -14,15 +14,15 @@ To create an Email Campaign, go to:
 Before creating and using Email Campaign, these need to be created first:
 
 * [Campaign](/docs/user/manual/en/CRM/campaign)
-* [Lead](/docs/user/manual/en/CRM/lead) or [Contact](/docs/user/manual/en/CRM/contact)
+* [Lead](/docs/user/manual/en/CRM/lead) or [Contact](/docs/user/manual/en/CRM/contact) or [Email Group](/docs/user/manual/en/CRM/email_group)
 
 ## 2. How to Create an Email Campaign
 
 1. Go to the Email Campaign list, click on New.
 2. Select the [Campaign](/docs/user/manual/en/CRM/campaign) for which you want to set up an Email Campaign.
 3. Set the 'Start Date' for the Email Campaign.
-4. In 'Email Campaign For', select whether you want to set up Email Campaign for a Lead or a Contact.
-5. In 'Recipient', select the respective Lead or Contact for whom you want to start the Email Campaign.
+4. In 'Email Campaign For', select whether you want to set up Email Campaign for a Lead or a Contact or for an Email Group to send to multiple email contacts.
+5. In 'Recipient', select the respective Lead or Contact or Email Group for whom you want to start the Email Campaign.
 6. In 'Sender', select the user of the system who should be the sender of the emails.
 7. Save
 
