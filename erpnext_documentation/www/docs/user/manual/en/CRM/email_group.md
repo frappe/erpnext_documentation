@@ -32,8 +32,8 @@ Click on Action > Import Subscribers and select a transaction like Lead. Click o
 
 You can specify the confirmation email and welcome email template for the email group. A confirmation email will be sent to confirm a person's subscription to your newsletter. The welcome email is sent when the person confirms their subscription to your email newsletter.
 
-**a. Confirmation Email Template:** This email template is used to replace the default template sent for newsletter subscription.<br />
-**b. Welcome Email Template:** This email template defines the email that is sent whenever a subscriber is added to the email group.
+**Confirmation Email Template:** This email template is used to replace the default template sent for newsletter subscription. By default, email generated via this template is sent on subscription via email group Website.
+**Welcome Email Template:** Whenever a subscriber is added to an email group, the template set here will be sent to them.
 
 <img class="screenshot" alt="Email Group Templates" src="{{docs_base_url}}/assets/img/crm/email-group.png">
 
