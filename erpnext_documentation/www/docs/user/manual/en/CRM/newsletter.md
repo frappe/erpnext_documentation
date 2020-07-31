@@ -17,9 +17,9 @@ To access the Newsletter list, go to:
 1. Select the Email Group in RECIPIENT table.
 1. Enter 'Subject'.
 1. Enter 'Message'.
-1. Tick 'Send Unsubscribe Link' if you woud like to include unsubscribe link in the email.
+1. Tick 'Send Unsubscribe Link' if you would like to include unsubscribe link in the email.
 
-<img class="screenshot" alt="Newsletter" src="{{docs_base_url}}/assets/img/crm/news_letter.gif">
+<img class="screenshot" alt="Newsletter" src="{{docs_base_url}}/assets/img/crm/newsletter-doc.png">
 
 Below is the screenshot of the email received with link to unsubscribe.
 
@@ -33,17 +33,23 @@ You can manage subscribers by grouping them into different [Email Groups](/docs/
 
 You can select multiple email groups in the 'RECIPIENT' tables in the newsletter.
 
-### 2.2 Test Newsletter Before Sending to Subscribers
+### 2.2 Schedule Send
+
+You can choose to send your newsletter at any future datetime by specifying time in hourly steps.
+
+<img class="screenshot" alt="Scheduled Newsletter" src="{{docs_base_url}}/assets/img/crm/scheduled-newsletter.png">
+
+### 2.3 Test Newsletter Before Sending to Subscribers
 
 Once the newsletter is ready you can provide a 'Test Email Address' and click on 'Test'.
 
 You can review the newsletter received in the test email, verify it and then send it to all subscribers by clicking on 'Send'.
 
-<img class="screenshot" alt="Newsletter - Test" src="{{docs_base_url}}/assets/img/crm/newsletter-test.png">
+<img class="screenshot" alt="Newsletter Test" src="{{docs_base_url}}/assets/img/crm/newsletter-test.png">
 
 <div class="embed-container">
-    <iframe src="https://www.youtube.com/embed/muLKsCrrDRo?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen>
-    </iframe>
+	<iframe src="https://www.youtube.com/embed/muLKsCrrDRo?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen>
+	</iframe>
 </div>
 
 {next}
