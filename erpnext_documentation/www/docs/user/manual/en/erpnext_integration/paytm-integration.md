@@ -1,12 +1,14 @@
 <!-- add-breadcrumbs -->
-#Setting up Paytm
+# Paytm Integration
 
-Paytm Integration facilitates processing of payments between paytm payment portal and ERPNext. Your customers can choose to pay from any credit/debit card, UPI, Netbanking, Paytm Wallet.
+**Paytm is a payment gateway provider which allows processing transactions.**
 
-To setup Paytm,
-`Explore > Integrations > Paytm Settings`
+Paytm Integration facilitates processing of payments between Paytm payment portal and ERPNext. Your customers can choose to pay from any credit/debit card, UPI, Netbanking, Paytm Wallet.
 
-#### How to get your Paytm API credentials?
+To setup Paytm:
+> Explore > Integrations > Paytm Settings
+
+## 1.How to get your Paytm API credentials?
 1. In order to activate your API credentials, you need to login to your Paytm account.
 2. Open the Developer Settings option in the sidebar.
 3. Choose API Keys option, it should display a two types of API details(Test/Production).
@@ -15,7 +17,7 @@ To setup Paytm,
 <img class="screenshot" alt="Razorpay Settings" src="{{docs_base_url}}/assets/img/setup/integrations/paytm_credentials.png">
 
 
-#### Setup Paytm
+## 2.Setup Paytm
 
 To enable Paytm payment service, you need to configure all the mandatory parameters which you received from the Paytm.
 <img class="screenshot" alt="Razorpay Settings" src="{{docs_base_url}}/assets/img/setup/integrations/paytm_settings.png">
@@ -30,5 +32,5 @@ Also it will create Payment Gateway Account entry. Payment Gateway Account is co
 
 After configuring Payment Gateway Account your system is able to accept online payments.
 
-####Supporting transaction currencies
+## 3.Supporting transaction currencies
 	Paytm will only work for the company having `INR (Indian Rupee)` as a Currency.
