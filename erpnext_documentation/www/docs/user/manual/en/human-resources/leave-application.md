@@ -23,7 +23,7 @@ Before you create a Leave Application, it is advisable you have the following do
 ## 2. How to create a Leave Application
 
 1. Go to Leave Application list, click on New.
-1. A table of Allocated Leaves will be shown. Based on the Leaves taken, the available leaves are displayed for each Leave Type. 
+1. A table of Allocated Leaves will be shown. Based on the Leaves taken, the available leaves are displayed for each Leave Type.
 
      <img class="screenshot" alt="Leave Application" src="{{docs_base_url}}/assets/img/human-resources/leave-app.png">
 
@@ -36,17 +36,17 @@ Before you create a Leave Application, it is advisable you have the following do
     <img class="screenshot" alt="Leave Application" src="{{docs_base_url}}/assets/img/human-resources/leave-app1.png">
 
 
-1. Select Leave Approver. 
-1. Select the Posting Date of the Leave Application. 
+1. Select Leave Approver.
+1. Select the Posting Date of the Leave Application.
 1. Check the 'Follow via Email' checkbox to send notification of the Leave Application to the Leave Approver.
 1. You can also link the Salary Slip of the Employee in the Leave Application for the record.
 
     <img class="screenshot" alt="Leave Application" src="{{docs_base_url}}/assets/img/human-resources/leave-app3.png">
 
-1. Click on Save. Once the Employee saves the Leave Application, the status of the Leave Application changes to 'Open', and an email is sent to the Leave Approver for approval. The Leave Approval Notification Template can be configured in [HR Settings](/docs/user/manual/en/human-resources/hr-settings) under the Leave Settings section. 
+1. Click on Save. Once the Employee saves the Leave Application, the status of the Leave Application changes to 'Open', and an email is sent to the Leave Approver for approval. The Leave Approval Notification Template can be configured in [HR Settings](/docs/user/manual/en/human-resources/hr-settings) under the Leave Settings section.
 1. Once the Leave Approver receives the email, they can Approve, Reject, or Cancel the Leave Application. Once this is done, the Leave Approver can submit the Leave Application. On submission, the status of the document changes accordingly, and an email is sent to the Employee notifying them the same.
 
-    
+
 > **Note:** Leave Application cannot be submitted if the Salary is already processed for the leave period.
 
 The Leave Application process flow is summarized below:
@@ -61,9 +61,9 @@ The Leave Application process flow is summarized below:
 
 ### 3.1 Setting Leave Approver
 
-A leave approver is a user who can approve a Leave Application of an Employee. In ERPNext version 12, Leave Approvers can be set at two levels: 
+A leave approver is a user who can approve a Leave Application of an Employee. In ERPNext version 12, Leave Approvers can be set at two levels:
 
-* **Department Level:** Leave Approvers for each department can be configured in the [Department](/docs/user/manual/en/human-resources/department) master. Multiple Leave Approvers can be set in a Department. The first Leave Approver in the list will be considered as the default Leave Approver. 
+* **Department Level:** Leave Approvers for each department can be configured in the [Department](/docs/user/manual/en/human-resources/department) master. Multiple Leave Approvers can be set in a Department. The first Leave Approver in the list will be considered as the default Leave Approver.
 
 
     <img class="screenshot" alt="Leave Application - Leave Approvers" src="{{docs_base_url}}/assets/img/human-resources/leave-app4.png">
@@ -72,10 +72,10 @@ A leave approver is a user who can approve a Leave Application of an Employee. I
 
 
 * **Employee Level:**
-Leave Approvers can also be set Employee-wise in the employee master. 
+Leave Approvers can also be set Employee-wise in the employee master.
 
-    
- <img class="screenshot" alt="Leave Application - Leave Approvers" src="{{docs_base_url}}/assets/img/human-resources/leave-app5.png">
+
+ <img class="screenshot" alt="Leave Application - Leave Approvers" src="{{docs_base_url}}/assets/img/human-resources/employee-level-approvers.png">
 
 
 If Leave Approvers are set at both Employee-level and Department-level, the Employee-level Leave Approver will be considered as the default Leave Approver in this case.
