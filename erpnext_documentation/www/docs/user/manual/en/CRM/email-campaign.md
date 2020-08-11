@@ -77,8 +77,8 @@ Then the emails sent would look like this:
 Status indicates the state of the Email Campaign, the various Statuses are:
 
 - **Scheduled**: When the Email Campaign has not yet started but scheduled on a future 'Start Date'.
-- **In Progress**: When the Email Campaign is in progress.
-- **Completed**: When the Email Campaign is completed.
+- **In Progress**: The campaign would be marked as 'In Progress' between 'Start Date' and 'End Date' of the campaign.
+- **Completed**: After the 'End Date' of the campaign, the status will be changed to 'Completed'.
 - **Unsubscribed**: When the Lead or Contact unsubscribes from the Campaign.
 
     <img class="screenshot" alt="Email Campaign Status" src="{{docs_base_url}}/assets/img/crm/email-campaign-status.png">
