@@ -75,7 +75,7 @@ Once the purchase invoice gets submit and you want to change 'Release Date' then
 
 If you want to hold submitted purchase invoice then you can hold using 'Block Invoice' option and If you want to unblock again then use 'Unblock Invoice' option.
 
-![Block PI](/docs/assets/img/accounts/pi_block.png)   
+![Block PI](/docs/assets/img/accounts/pi_block.png)
 
 This is invoice level holding, Suppliers can be put on hold. [Learn more here](/docs/user/manual/en/buying/supplier#23-credit-limit).
 
@@ -140,6 +140,9 @@ Setting 'Supply Raw Materials' option is useful for subcontracting where you pro
 * **Page Break** will create a page break just before this Item when printing.
 
 #### Update Stock
+
+> Note: From version-13 onwards we have introduced immutable ledger which changes the rules for cancellation of stock entries and posting backdated stock transactions in ERPNext. [Learn more here](/docs/user/manual/en/accounts/articles/immutable-ledger-in-erpnext).
+
 The **Update Stock** checkbox should be checked if you want ERPNext to automatically update your inventory. Consequently, there will be no need for a Delivery Note.
 
 ### 3.8 Taxes and charges

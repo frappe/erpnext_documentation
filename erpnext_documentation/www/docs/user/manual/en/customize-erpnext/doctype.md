@@ -37,7 +37,7 @@ To create a new DocType, go to:
 
 1. **Form Settings**
 
- Additional Settings for the Form, Image Fields, Attachments, Timeline etc. can be configured here. To know more about Form, visit [Customize Form](/user/manual/en/customize-erpnext/customize-form).
+ Additional Settings for the Form, Image Fields, Attachments, Timeline etc. can be configured here. To know more about Form, visit [Customize Form](/docs/user/manual/en/customize-erpnext/customize-form).
 
  <img alt="DocType" class="screenshot" src="{{docs_base_url}}/assets/img/customize/doctype-student-transfer-certificate-2.png">
 
@@ -58,7 +58,7 @@ To create a new DocType, go to:
 ### 1.2. More Properties
 
 1. **Is Submittable**: You can select if you want this DocType to only be 'Saved' or to also be 'Submitted' by checking and un-checking this box.
-1. **Is Child Table**: You can define if you want the New DocType to be a Child Table within another DocType. Checkout [Child Table](/docs/user/manual/en/customize-erpnext/articles/customizing-data-visibility-in-child-table) for more infortmation.
+1. **Is Child Table**: You can define if you want the New DocType to be a Child Table within another DocType. Checkout [Child Table](/docs/user/manual/en/customize-erpnext/articles/customizing-data-visibility-in-child-table) for more information.
 1. **Is Single**: If checked, this Doctype will become a single form, like Sales Order, which user will
 not be able to re-produce. For e.g., Selling Settings in Sales Module is a Single DocType.
 1. **Is Tree**: A few DocTypes in ERPNext are structured as Trees, wherein there are some Parent DocTypes and some Children DocTypes. E.g., Doctype Company is structured as Tree, there are Parent Companies as well as Child Companies, which we call subsidiaries. If you want your DocTypes to be structured similarly, you can enable this option.

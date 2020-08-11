@@ -13,7 +13,6 @@ You can also make Maintenance Schedules for Serial NOs and keep a record of all 
 ## 1. Issues
 1. [Issue](/docs/user/manual/en/support/issue)
 1. [Issue Type and Priority](/docs/user/manual/en/support/issue-type-and-priority)
-1. [Service Level](/docs/user/manual/en/support/service-level)
 1. [Service Level Agreement](/docs/user/manual/en/support/service-level-agreement)
 
 ## 2. Maintenance

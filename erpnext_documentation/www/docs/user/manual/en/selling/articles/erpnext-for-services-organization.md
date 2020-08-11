@@ -33,7 +33,7 @@ Modules unchecked here will be hidden from all the User.
 
 Within the form, there are many fields only needed for companies into trading and manufacturing businesses. These fields can be hidden for the service company. Feature Setup is a tool where you can enable/disable specific feature. If a feature is disabled, then fields relevant to that feature is hidden from all the forms. For example, if Serial No. feature is disabled, then Serial. No. field from Item as well as from all the sales and purchase transaction will be hidden.
 
-[To learn more about Feature Setup, click here.](/docs/user/manual/en/customize-erpnext/hiding-modules-and-features.html).
+[To learn more about Feature Setup, click here.](/docs/user/manual/en/customize-erpnext/hiding-modules-and-features).
 
 ####Permissions
 

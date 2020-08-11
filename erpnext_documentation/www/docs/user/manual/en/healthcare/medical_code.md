@@ -36,6 +36,5 @@ In the Patient Encounter, a practitioner can easily search and select appropriat
 1. [Medical Code Standard](/docs/user/manual/en/healthcare/medical_code_standard)
 1. [Patient Appointment](/docs/user/manual/en/healthcare/patient_appointment)
 1. [Clinical Procedure Template](/docs/user/manual/en/healthcare/clinical_procedure_template)
-1. [Lab Test Template](/docs/user/manual/en/healthcare/lab_test_template)
 
 {next}

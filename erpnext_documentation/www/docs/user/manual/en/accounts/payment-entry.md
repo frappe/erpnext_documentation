@@ -99,7 +99,7 @@ A Payment Entry created manually will have no order/invoice linked to it. Paymen
 * **Account Paid From**: The [Account](/docs/user/manual/en/accounts/chart-of-accounts) from which the amount will be deducted when Payment is submitted.
 * **Account Paid To**: The [CoA account](/docs/user/manual/en/accounts/chart-of-accounts) from which the amount will be added when Payment Entry is submitted.
 
-* **Account Currency**: The Currencies of these accounts will be fetched as set in the [Account](/docs/user/manual/en/accounts/chart-of-accounts) and cannot be edited here. To know about more about transactions in multiple currencies, [visit this page]((/docs/user/manual/en/accounts/articles/managing-transactions-in-multiple-currency)).
+* **Account Currency**: The Currencies of these accounts will be fetched as set in the [Account](/docs/user/manual/en/accounts/chart-of-accounts) and cannot be edited here. To know about more about transactions in multiple currencies, [visit this page](/docs/user/manual/en/accounts/articles/managing-transactions-in-multiple-currency).
 * **Account Balance**: The total amount balance from all the invoices of the selected accounts.
 
 **Paid Amount**: The **total amount** paid for the current Payment Entry is shown in this field.

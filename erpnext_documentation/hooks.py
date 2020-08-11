@@ -14,9 +14,6 @@ app_license = "MIT"
 
 website_context = {
 	"repo": "frappe/erpnext_documentation",
-	"logo_image_url": '/assets/erpnext_documentation/img/erpnext-logo.svg',
-	'brand_name': 'ERPNext',
-	"brand_html": "ERPNext",
 	"hide_login": 1,
 	"favicon": "/assets/erpnext_documentation/img/erpnext-logo-blue.png"
 }
@@ -54,6 +51,10 @@ home_page = "index"
 
 # Website user home page (by function)
 # get_website_user_home_page = "erpnext_documentation.utils.get_home_page"
+
+base_template_map = {
+	r'docs/user/manual.*': 'templates/erpnext_docs.html'
+}
 
 # Generators
 # ----------

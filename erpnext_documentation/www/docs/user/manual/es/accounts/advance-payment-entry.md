@@ -33,10 +33,9 @@ the row "Is Advance" click 'Yes'.
 
 Double entry bookkeeping is a system of accounting in which every transaction
 has a corresponding positive and negative entry : debits and credits. Every
-transaction involves a [debit entry
-](http://www.e-conomic.co.uk/accountingsystem/glossary/debit)in one account
-and a [credit
-entry](http://www.e-conomic.co.uk/accountingsystem/glossary/credit) in another
+transaction involves a debit entry in one account
+and a credit
+entry in another
 account. This means that every transaction must be recorded in two accounts;
 one account will be debited because it receives value and the other account
 will be credited because it has given value.

@@ -20,6 +20,7 @@ You can check out [this video](https://www.youtube.com/watch?v=5wjollWN0OA) for 
 1. [Chart Of Accounts](/docs/user/manual/en/accounts/chart-of-accounts)
 1. [Opening Balance in Accounts](/docs/user/manual/en/accounts/opening-balance)
 1. [Cost Center](/docs/user/manual/en/accounts/cost-center)
+1. [Distributed Cost Center](/docs/user/manual/en/accounts/distributed-cost-center)
 1. [Fiscal Year](/docs/user/manual/en/accounts/fiscal-year)
 1. [Accounting Period](/docs/user/manual/en/accounts/accounting-period)
 1. [Finance Book](/docs/user/manual/en/accounts/finance-book)
@@ -130,9 +131,9 @@ You can check out [this video](https://www.youtube.com/watch?v=5wjollWN0OA) for 
 1. [Update Stock Option In Sales Invoice](/docs/user/manual/en/accounts/articles/update-stock-option-in-sales-invoice)
 1. [Exchange Rate Field Frozen](/docs/user/manual/en/accounts/articles/exchange-rate-field-frozen)
 1. [Fiscal Year Creation](/docs/user/manual/en/accounts/articles/fiscal-year-creation)
-1. [How To Customize Cash Flow Report](/docs/user/manual/en/accounts/articles/how-to-customize-cash-flow-report)
+1. [How To Customize Cash Flow Report](/docs/user/manual/en/accounts/articles/how-to-customise-cash-flow-report)
 1. [How To Manage Subscriptions With ERPNext](/docs/user/manual/en/accounts/articles/how-to-manage-subscriptions-with-erpnext)
-1. [Merging Accounts](/docs/user/manual/en/accounts/articles/merging-documents)
+1. [Immutable Ledger In ERPNext](/docs/user/manual/en/accounts/articles/immutable-ledger-in-erpnext)
 
 ### 2.5 Reports and Errors
 1. [Purchase Invoice Account Type Error](/docs/user/manual/en/accounts/articles/purchase-invoice-account-type-error)
