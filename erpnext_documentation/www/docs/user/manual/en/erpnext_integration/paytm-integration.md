@@ -17,9 +17,9 @@ To setup Paytm:
 <img class="screenshot" alt="Razorpay Settings" src="{{docs_base_url}}/assets/img/setup/integrations/paytm_credentials.png">
 
 
-## 2.Setup Paytm
+## 2.Setting up Paytm
 
-To enable Paytm payment service, you need to configure all the mandatory parameters which you received from the Paytm.
+To enable Paytm payment service, you need to configure all the mandatory parameters which you received from the Paytm. If you want to use staging environment of the integration, you can select staging option and use the test API developer credentials provided by Paytm.
 <img class="screenshot" alt="Razorpay Settings" src="{{docs_base_url}}/assets/img/setup/integrations/paytm_settings.png">
 
 On enabling service, the system will create Payment Gateway record and Account head in chart of account with account type as Bank.
@@ -33,4 +33,5 @@ Also it will create Payment Gateway Account entry. Payment Gateway Account is co
 After configuring Payment Gateway Account your system is able to accept online payments.
 
 ## 3.Supporting transaction currencies
-	Paytm will only work for the company having `INR (Indian Rupee)` as a Currency.
+
+Paytm will only work for the company having `INR (Indian Rupee)` as a Currency.
