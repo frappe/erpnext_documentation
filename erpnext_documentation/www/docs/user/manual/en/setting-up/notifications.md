@@ -162,6 +162,32 @@ If Email/Slack alerts and System Notifications both are required, the main chann
 
 <img class="screenshot" alt="Notifications Dropdown" src="{{docs_base_url}}/assets/img/setup/notifications/send-system-notification.png">
 
+## 4. WhatsApp
+In **Version 13** we have introduced an additional channel to send alerts - **WhatsApp**:
+<img class="screenshot" alt="Notifications WhatsApp Channel" src="{{docs_base_url}}/assets/img/setup/notifications/twilio-channel.png">
+
+If you prefer to have your notifications sent to a WhatsApp number, you can also choose the option "WhatsApp" in the channel options and select the appropriate Twilio Number. Twilio Numbers can be added to the Twilio settings.
+
+<img class="screenshot" alt="Twilio Settings" src="{{docs_base_url}}/assets/img/setup/notifications/twilio-settings.png">
+
+### 2.1 Twilio Settings
+
+In order to configure the Twilio settings, you need to first obtain Twilio credentials from account settings of your Twilio Account. You can only add those phone numbers that have been activated in your Twilio Account.
+<img class="screenshot" alt="Twilio Credentials" src="{{docs_base_url}}/assets/img/setup/notifications/twilio-credentials.png">
+
+### 2.2 Message Format
+
+WhatsApp allows users to only send pre-approved templates to your users. Failure to do so might result in restrictions on you Twilio account.
+<img class="screenshot" alt="Pre Approved Message Template" src="{{docs_base_url}}/assets/img/setup/notifications/twilio-pre-approved-message.png">
+
+
+## 5. SMS
+
+In **Version 13** we have introduced an additional channel to send alerts - **SMS**:
+<img class="screenshot" alt="SMS Channel" src="{{docs_base_url}}/assets/img/setup/notifications/sms-notification-channel.png">
+
+In order to use this channel, you would need to complete the configuration of [SMS Settings](/docs/user/manual/en/setting-up/sms-setting).
+
 
 ### 4. Related Topics
 1. [SMS Settings](/docs/user/manual/en/setting-up/sms-setting)
