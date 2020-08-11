@@ -28,7 +28,7 @@ Before creating an Employee Incentive, it is advisable to create the following:
 
  <img class="screenshot" alt="Employee Incentive" src="/docs/assets/img/payroll/employee-incentive.png">
 
-## 3. How Retention Bonus is processed
+## 3. How Employee Incentive is processed
 When Retention Bonus is Submitted, an Additional Salary having reference of Employee Incentive document is created which is fetched in Salary Slip Earnings while payroll process.
 
  <img class="screenshot" alt="Retention Bonus" src="/docs/assets/img/payroll/employee-incentive-reference.png">
