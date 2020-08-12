@@ -34,4 +34,4 @@ After configuring Payment Gateway Account, you will be able to accept online pay
 
 ## 3.Supporting transaction currencies
 
-Paytm will only work for the Company which has `INR (Indian Rupee)` as Company Currency.
+Paytm will only work for the Company which has INR (Indian Rupee) as Company Currency.
