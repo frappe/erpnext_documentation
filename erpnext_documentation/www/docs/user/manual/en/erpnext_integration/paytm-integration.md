@@ -26,7 +26,7 @@ On enabling the Paytm integration in ERPNext, the system will create a Payment G
 
 <img class="screenshot" alt="Stripe COA" src="{{docs_base_url}}/assets/img/setup/integrations/paytm_coa.png">
 
-Also it will create a Payment Gateway Account entry. Payment Gateway Account is the configuration hub from where you can set Account Heads and default Payment Request email body template.
+Also it will create a Payment Gateway Account entry. Payment Gateway Account is the configuration hub from where you can set Account Heads and the default Payment Request email template for requesting payments from customers.
 
 <img class="screenshot" alt="Payment Gateway Account" src="{{docs_base_url}}/assets/img/setup/integrations/payment_gateway_account_paytm.png">
 
