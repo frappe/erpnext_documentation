@@ -179,5 +179,10 @@ For example, if you would like to emit only those `Note` documents that are publ
 
 ![Child Table Mapping Link](/docs/assets/img/automation/event-streaming-conditions.png)
 
-- You can make use of `Event DocType Condition` doctype to specify global conditions for all Consumers.
-- If a document satisfies a condition down the line in its lifetime, all the old `Event Update Logs` are synced to the consumer
+> If a document satisfies a condition down the line in its lifetime, all the old `Event Update Logs` are synced to the consumer
+
+If you need more fine control over the conditions, you can hook up a custom function. Your function will be executed with parameters `consumer`, `doc` & `update_log`.
+
+```js
+cmd: my_custom_app.note.can_sync
+```
