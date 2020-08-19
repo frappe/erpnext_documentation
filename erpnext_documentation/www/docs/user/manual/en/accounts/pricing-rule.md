@@ -63,7 +63,7 @@ In this field you can add a condition in python to check against field values in
 customer=='Customer Name' and status!='Overdue'
 ```
 
-Please note that only single line python conditions will work using fieldnames of the target doctype.
+Please note that only single line python conditions will work, using fieldnames of the target doctype.
 
 #### Mixed Conditions
 If you select two or more Items and set the Min and Max Quantity. The Pricing Rule will be applied only if the total sum of Items matches the set quantities. For example, you create a Pricing Rule on Item 1 and Item 2 and set the Min and Max Quantity as 30, the Pricing Rule will apply only if the total quantity is 30.
