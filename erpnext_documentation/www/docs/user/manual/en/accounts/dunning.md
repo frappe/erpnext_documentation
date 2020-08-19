@@ -19,7 +19,7 @@ A Dunning is created against a Sales Invoice.
 For manual creation, follow these steps:
 
 1. Go to the Dunning list and click on New.
-1. Select an overdue Sales Invoice it is against.
+1. Select an overdue Sales Invoice.
 1. Set Dunning Type in the dunning type link field.
 1. Set printing setting for the print template of the Dunning letter.
 1. The posting date and time will be set to current, you can edit after you tick the checkbox below Posting Time to make a backdated entry.
