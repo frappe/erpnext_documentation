@@ -12,7 +12,6 @@ To access the Dunning list, go to:
 Before creating a Dunning, there must be a Sales Invoice since it is created against it.
 
 * [Sales Invoice](/docs/user/manual/en/accounts/sales-invoice)
-* [Customer](/docs/user/manual/en/CRM/customer)
 
 ## 2. How to create a Dunning
 A Dunning is created against a Sales Invoice.
