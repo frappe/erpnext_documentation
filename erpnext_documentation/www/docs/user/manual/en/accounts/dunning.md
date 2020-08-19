@@ -27,7 +27,7 @@ For manual creation, follow these steps:
  ![SI](/docs/assets/img/accounts/dunning.gif)
 
 ### 2.1 What is a Dunning Type
-Dunning type is to be created to set interval days of the Dunning, rate of added payment and default Print Setting template for the Dunning letter.
+Dunning Type stores default values for overdue days, dunning fee, interest rate and text blocks to be included. For example, a Dunning Type "First Notice" will not have any fees, but Dunning Type "Second Notice" will have a dunning fee and interest charged on the outstanding amount.
  ![Dunning Type](/docs/assets/img/accounts/dunning-type.png)
 
 ### 2.2 Statuses
