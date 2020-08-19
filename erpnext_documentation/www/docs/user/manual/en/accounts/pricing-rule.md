@@ -58,7 +58,7 @@ In this table, you can select the specific Item/Item Group/Brand. For example, i
 
 #### Condition
 
-In this field you can add a condition in python to check against field vales in the transaction doctype like shown below for Sales Invoice:
+In this field you can add a condition in python to check against field values in the transaction doctype, like shown below for Sales Invoice:
 ```
 customer=='Customer Name' and status!='Overdue'
 ```
