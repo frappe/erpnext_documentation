@@ -35,8 +35,8 @@ Dunning type is to be created to set interval days of the Dunning, rate of added
 These are the statuses that are auto-assigned to Dunning.
 
 * **Draft**: A draft is saved but yet to be submitted.
-* **Resolved**: The Dunning is set to be resoled if the demand letter is acknowledged and paid.
-* **Unresolved**: The Dunning is unresolved when it is submitted but no payments yet.
+* **Unresolved**: The Dunning is unresolved when it is submitted but no payments have been received.
+* **Resolved**: The Dunning is resolved when the outstanding payment has been received.
 * **Cancelled**: A cancelled status is a cancelled Dunning document.
 
 ## 3. Payment
