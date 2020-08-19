@@ -37,7 +37,7 @@ Before creating and using a Pricing Rule, it is advisable to create the followin
 1. For a single item, select Item Code and select the items.
 1. If you want Pricing Rule to be applied on all the items, select 'Item Group' and select **All Item Group** (parent Item Group).
 1. Set the discount/price to be applied. To know more, [go to this section](/docs/user/manual/en/accounts/pricing-rule#35-price-discount-scheme).
-1. Save. 
+1. Save.
 
 ### 2.1 Additional options when creating a Pricing Rule
 
@@ -55,6 +55,15 @@ Based on the attribute selected in the 'Apply On' field, you can set the Pricing
 In this table, you can select the specific Item/Item Group/Brand. For example, if you select Apply On 'Item Group' and select 'Raw Materials' in the table, this Pricing Rule will be applied only on Items that belong to the Group 'Raw Materials'.
 
 **UoM**: The Pricing Rule will apply only if the UoM set here matches with the transaction.
+
+#### Condition
+
+In this field you can add a condition in python to check against field values in the transaction doctype, like shown below for Sales Invoice:
+```
+customer=='Customer Name' and status!='Overdue'
+```
+
+Please note that only single line python conditions will work, using fieldnames of the target doctype.
 
 #### Mixed Conditions
 If you select two or more Items and set the Min and Max Quantity. The Pricing Rule will be applied only if the total sum of Items matches the set quantities. For example, you create a Pricing Rule on Item 1 and Item 2 and set the Min and Max Quantity as 30, the Pricing Rule will apply only if the total quantity is 30.
@@ -96,8 +105,8 @@ Note that if the quantity or amount falls short or exceeds the limits set here, 
 
 <img alt="Applicable Qty" class="screenshot" src="{{docs_base_url}}/assets/img/articles/pricing-rule-qty-amt.png">
 
-### 3.4 Validity 
-You can also set a date interval for when the Pricing Rule will be valid. This is useful for a sales promotion. On leaving the dates blank the Pricing Rule will not have any time frame limit. 
+### 3.4 Validity
+You can also set a date interval for when the Pricing Rule will be valid. This is useful for a sales promotion. On leaving the dates blank the Pricing Rule will not have any time frame limit.
 
 <img alt="Period" class="screenshot" src="{{docs_base_url}}/assets/img/articles/pricing-rule-period.png">
 
@@ -105,7 +114,7 @@ You can also set a date interval for when the Pricing Rule will be valid. This i
 
 ![Pricing Rule Margin](/docs/assets/img/articles/pricing-rule-margin1.png)
 
-* **Margin Type**: When selling an Item, you may sell it for a certain margin. If you don't want to add selling prices to Items every time and would like to automatically set a margin, it can be done with this feature. 
+* **Margin Type**: When selling an Item, you may sell it for a certain margin. If you don't want to add selling prices to Items every time and would like to automatically set a margin, it can be done with this feature.
 
 * **Margin Rate or Amount**: The margin set can be based on Percentage or Amount, eg: 5% margin or $50 fixed margin.
 
@@ -130,7 +139,7 @@ The actual rule to be applied is set in this section.
 
 * **Apply Multiple Pricing Rules**: To understand this, consider an Item of Rate 500. There are two Pricing Rules on it P1 and P2. P1 applies 10% discount and P2 applies 5%. Enabling this option will apply a total of 15% on the Item Rate which gives 425.
 
-* **Apply Discount on Rate**: The discount will be compounded. Consider the same scenario as above. On enabling this option, 10% will be applied on 500 which will give 450, then 5% will be applied on 450 which will give 427.5. 
+* **Apply Discount on Rate**: The discount will be compounded. Consider the same scenario as above. On enabling this option, 10% will be applied on 500 which will give 450, then 5% will be applied on 450 which will give 427.5.
 
 * **Validate Applied Rule**: Shows the entered validation message if the discount/rate set manually by you in a transaction does not match the Pricing Rule.
 
