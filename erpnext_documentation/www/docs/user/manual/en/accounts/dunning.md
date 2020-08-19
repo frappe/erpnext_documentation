@@ -28,7 +28,7 @@ For manual creation, follow these steps:
 
 ### 2.1 What is a Dunning Type
 Dunning type is to be created to set interval days of the Dunning, rate of added payment and default Print Setting template for the Dunning letter.
- ![DT](/docs/assets/img/accounts/dunning-type.png)
+ ![Dunning Type](/docs/assets/img/accounts/dunning-type.png)
 
 ### 2.2 Statuses
 
