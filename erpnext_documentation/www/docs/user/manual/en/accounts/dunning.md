@@ -9,7 +9,7 @@ To access the Dunning list, go to:
 > Home > Accounting > Dunning
 
 ## 1. Prerequisites
-Before creating a Dunning list, there must be a Sales Invoice since it is created against it.
+Before creating a Dunning, there must be a Sales Invoice since it is created against it.
 
 * [Sales Invoice](/docs/user/manual/en/accounts/sales-invoice)
 * [Customer](/docs/user/manual/en/CRM/customer)
