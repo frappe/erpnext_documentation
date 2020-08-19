@@ -32,7 +32,7 @@ Dunning type is to be created to set interval days of the Dunning, rate of added
 
 ### 2.2 Statuses
 
-These are the statuses that are auto-assigned to Sales Invoice.
+These are the statuses that are auto-assigned to Dunning.
 
 * **Draft**: A draft is saved but yet to be submitted.
 * **Resolved**: The Dunning is set to be resoled if the demand letter is acknowledged and paid.
