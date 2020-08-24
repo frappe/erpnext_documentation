@@ -103,6 +103,8 @@ frappe.get_url # frappe.utils.get_url
 socketio_port # port for socketio
 style.border_color # '#d1d8dd'
 guess_mimetype = mimetypes.guess_type,
+frappe.get_print # get pdf for a doc
+frappe.attach_print # attach PDF to an email
 html2text = html2text,
 dev_server # True if in developer mode
 ```
