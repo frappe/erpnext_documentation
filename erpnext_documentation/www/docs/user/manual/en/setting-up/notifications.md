@@ -166,18 +166,18 @@ If Email/Slack alerts and System Notifications both are required, the main chann
 In **Version 13** we have introduced an additional channel to send alerts - **WhatsApp**:
 <img class="screenshot" alt="Notifications WhatsApp Channel" src="{{docs_base_url}}/assets/img/setup/notifications/twilio-channel.png">
 
-If you prefer to have your notifications sent to a WhatsApp number, you can also choose the option "WhatsApp" in the channel options and select the appropriate Twilio Number. Twilio Numbers can be added to the Twilio settings. WhatsApp messages can only be sent to numbers which have country codes in them.
+If you prefer to have your notifications sent to a WhatsApp number, you can also choose the option "WhatsApp" in the channel options and select the appropriate Twilio Number. Twilio Numbers can be added to Twilio settings in Frappe. WhatsApp messages can only be sent to numbers which have country codes in them.
 
 <img class="screenshot" alt="Twilio Settings" src="{{docs_base_url}}/assets/img/setup/notifications/twilio-settings.png">
 
 ### 2.1 Twilio Settings
 
-In order to configure the Twilio settings, you need to first obtain Twilio credentials from account settings of your Twilio Account. You can only add those phone numbers that have been activated in your Twilio Account with WhatsApp access.
+In order to configure Twilio settings, you need to first obtain Twilio credentials from your Twilio Account's account settings. You can only add those phone numbers that have been activated in your Twilio Account with WhatsApp access.
 <img class="screenshot" alt="Twilio Credentials" src="{{docs_base_url}}/assets/img/setup/notifications/twilio-credentials.png">
 
 ### 2.2 Message Format
 
-WhatsApp allows users to only send pre-approved templates to your users. Failure to do so might result in restrictions on you Twilio account.
+WhatsApp allows their users to only send those message templates that are pre-approved by them to your customers. Failure to do so might result in restrictions on you Twilio account.
 <img class="screenshot" alt="Pre Approved Message Template" src="{{docs_base_url}}/assets/img/setup/notifications/twilio-pre-approved-message.png">
 
 
