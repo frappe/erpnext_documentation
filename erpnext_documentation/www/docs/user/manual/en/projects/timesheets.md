@@ -64,10 +64,10 @@ The Time Sheet when expanded, allows you to enter the following details to it:
    * **To Time**: Enter the date and time at which the work was completed.
    * **Completed**: This box needs to be checked if the Task has been completed while submitting the Timesheet.
    * **Task**: If this Time Sheet needs to be tagged to a particular Task, you can do it here.
-   * **Billing Hours**: This number of hours for which the Customer needs to be billed for this Timesheet.  
-   * **Billing Rate**: The rate at which the customer needs to be billed for this Work. It is fetched from the activity cost (per employee) or from activity type and can be edited.
-   * **Costing Rate**: The rate is fetched from the activity cost (per employee) or from activity type and can be edited.
-   * **Billing Amount**: The billing amount gets auto-calculated based on the billable number of hours and the Billing Rate.
+   * **Billing Hours**: This number of hours for which the customer needs to be billed for this Timesheet.  
+   * **Billing Rate**: The rate at which the customer needs to be billed for this work. 
+   * **Costing Rate**: This is the actual cost of work done. It is fetched from the activity cost (per employee) or from activity type and can be edited.
+   * **Billing Amount**: The billing amount gets auto-calculated based on the billable number of hours and the billing Rate.
    * **Costing Amount**: The costing amount gets auto-calculated based on the number of hours and the costing rate.
    
    <img class="screenshot" alt="Timesheet" src="{{docs_base_url}}/assets/img/project/projects-time-sheet-expansion.png">
