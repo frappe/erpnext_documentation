@@ -133,7 +133,7 @@ if "validate" in doc.description:
 Script Type: "After Save"
 
 ```py
-if doc.allocted_to:
+if doc.allocated_to:
     frappe.get_doc(dict(
         doctype = 'ToDo'
         owner = doc.allocated_to,
