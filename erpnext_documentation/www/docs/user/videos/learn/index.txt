@@ -42,7 +42,7 @@ report-builder
 services
 distributors
 manufacturing-make-to-order
-manufacturing-enigneer-to-order
+manufacturing-engineer-to-order
 opening-invoice-creation-tool
 pricing-rule
 discounts
