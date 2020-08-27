@@ -93,7 +93,7 @@ To create a new Shift Request go to:
 1. Select Employee and Shift Type
 1. Set the Shift duration using From Date and To Date.
 1. Select Approver
-3. Save
+1. Save
 
 	<img class="screenshot" alt="Shift Request" src="{{docs_base_url}}/assets/img/human-resources/shift-request.png">
 
