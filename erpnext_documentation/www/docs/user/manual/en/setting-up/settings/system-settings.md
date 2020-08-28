@@ -70,6 +70,7 @@ If the Apply Strict User Permissions checkbox is ticked, documents, where Territ
     * 4 is very strong
 
     The complexity is based on the number of characters, capitalization, special characters, etc.
+* **Password Reset Link Generation Limit**: The number of attempts allowed in an hour to a user to reset the password
 
 ### 1.7 Brute Force Security
 
