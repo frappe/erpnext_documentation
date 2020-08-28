@@ -9,7 +9,7 @@ To use Shift Management in ERPNext,
   2. Enter Shift Request.
   3. View and Manage Shift Assignments.
 
-# Shift Type
+## 1. Shift Type
 
 The Shift Type document allows you to define the different types of Shifts in your Organization and setup the auto attendance for the shift. Auto attendance marks attendance based on 'Employee Checkin' for Employees assigned to the shift.
 
@@ -64,10 +64,10 @@ This can be configured using the following options:
 	- i.e. Only the time during which the employee is checked in is calculated as working hours.
 
 ### Begin check-in before shift start time
-Often employees would check-in a few minutes before the shift start time. To consider these check-ins as part of the shift during the caculation of attendance, you could setup this value accordingly.
+Often employees would check-in a few minutes before the shift start time. To consider these check-ins as part of the shift during the calculation of attendance, you could setup this value accordingly.
 
 ### Allow check-out after shift end time
-Often employees would check-out after the shift end time. To consider these check-outs as part of the shift during the caculation of attendance, you could setup this value accordingly.
+Often employees would check-out after the shift end time. To consider these check-outs as part of the shift during the calculation of attendance, you could setup this value accordingly.
 
 ### Working Hours Threshold for Half Day
 If the actual number of working hours is less than the given value in this field then the employee attendance is marked as 'Half Day'. If you never want to mark Half Day based on working hours, you should set this value to zero.
@@ -82,6 +82,13 @@ The date from which 'Auto Attendance' should start marking attendance. You shoul
 This is the time upto which attendance is marked based on the Employee Checkin records. You should set this to a date and time upto which the Employee Checkin has been synced. Otherwise an employee might be marked as absent due to the lack of check-in records.
 
 # Shift Request
+
+
+## 1. Prerequisites
+To create a Shift Request, these need to be created first:
+
+* [Employee](/docs/user/manual/en/human-resources/employee)
+* [Shift Type](docs/user/manual/en/human-resources/shift-management#1-shift-type)]
 
 Shift Request is used by an employee to request for a particular Shift Type.
 
