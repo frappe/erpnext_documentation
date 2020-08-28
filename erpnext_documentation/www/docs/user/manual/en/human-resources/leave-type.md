@@ -41,7 +41,7 @@ Below is a detailed explanation of all the fields and checkboxes in Leave Type.
 
 > Introduced in version 13
 
-* **Is Partially Paid Leaves:** This Checkbox ensures that Leave Type will be treated as partially paid and some part of daily earnings will be paid through salary slip. If this checkbox is enabled then a field "Fraction of Daily Salary Per Leave" appears where you can define the fraction of daily salary paid on the partial leave day.
+* **Is Partially Paid Leaves:** This checkbox ensures that Leave Type will be treated as partially paid and some part of daily earnings will be paid through salary slip. If this checkbox is enabled then a field "Fraction of Daily Salary Per Leave" appears where you can define the fraction of daily salary paid on the partial leave day.
 
     <img class="screenshot" alt="New Leave Type"
     src="{{docs_base_url}}/assets/img/human-resources/is-partially-paid-leaves.png">
