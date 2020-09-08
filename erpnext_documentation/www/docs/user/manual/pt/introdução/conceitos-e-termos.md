@@ -1,90 +1,88 @@
 <!-- add-breadcrumbs -->
-# Concepts and Terms
+# Termos e Conceitos
 
-Before you start implementation, lets get familiar with the terminology that
-is used and some basic concepts in ERPNext.
+Antes de começar a implementação, vamos nos familiarizar com as terminologias usadas
+e alguns conceitos basicos no ERPNext.
 
 * * *
 
-### Basic Concepts
+### Conceitos Basicos
 
-#### Company
+#### Empresa
 
-This represents the Company records for which ERPNext is setup. With this same
-setup, you can create multiple Company records, each representing a different
-legal entity. The accounting for each Company will be different, but they will
-share the Customer, Supplier and Item records.
+Este representa a Empresa para o qual o ERPNext foi configurado. Com esta configuração,
+voçê pode criar varias Empresa, cada representando uma entidade legal diferente.
+A contabilidade de cada Empresa será diferente, mas todos partilham o mesmo
+Cliente, Fornecedor e Produtos ou Serviços.
 
-> Setup > Company
+> Configuração > Empresa
 
-#### Customer
+#### Clientes
 
-Represents a customer. A Customer can be an individual or an organization.
-You can create multiple Contacts and Addresses for each Customer.
+Representa um cliente. Um Cliente pode ser individual ou um empresa.
+Voçê pode criar varios Contactos e Endereços para cada Cliente.
 
-> Selling > Customer
+> Vendas > Clientes
 
-#### Supplier
+#### Fornecedores
 
-Represents a supplier of goods or services. Your telephone company is a
-Supplier, so is your raw materials Supplier. Again, a Supplier can be an
-individual or an organization and has multiple Contacts and Addresses.
+Representa o fornecedor de produtos ou serviços. Sua empresa de teleones é o 
+seu Fornecedor, então é um fornecedor de material. Novamente, um Fornecedor pode ser
+individual ou uma empresa e tem varios Contactos e Endereços.
 
-> Buying > Supplier
+> Compras > Fornecedores
 
 #### Item
 
-A Product, sub-product or Service that is either bought, sold or manufactured
-and is uniquely identified.
+Um Produtos, sub-produto ou Serviço é comprado, vendido ou fabricado
+e tem um identificador unico.
 
-> Stock > Item
+> Inventário > Item
 
-#### Account
+#### Contabilidade
 
-An Account is a heading under which financial and business transactions are
-carried on. For example, “Travel Expense” is an account, “Customer Zoe”,
-“Supplier Mae” are accounts. ERPNext creates accounts for Customers and
-Suppliers automatically.
+Uma Conta é um titulo em que transações de negócio e finaceiro são feitos
+Por exemplo, "Despesas de Viagem" é uma conta, "Cliente Zoe", "Fornecedor Mae"
+são contas. ERPNext cria contas para Clientes e para Fornecedores automaticamente.
 
-> Accounting > Chart of Accounts
+> Contabilidade > Plano de Contas
 
-#### Address
+#### Endereços
 
-An address represents location details of a Customer or Supplier. These can be
-of different locations such as Head Office, Factory, Warehouse, Shop etc.
+Um endereço representa detalhes de local de um Cliente ou Fornecedor. Estes podem ser
+de diferentes locais tais como Empresa Mãe, Fabrica, Armazem, Loja etc.
 
-> Selling > Address
+> Vendas > Endereços
 
-#### Contact
+#### Contacto
 
-An individual Contact belongs to a Customer or Supplier or is just an
-independent. A Contact has a name and contact details like email and phone
-number.
+Um contacto Individual pertençe a um Cliente ou Fornecedor ou de um 
+independente. Um Contacto tem um nome e detalhes de contacto como email e numero de telefone.
 
-> Selling > Contact
+> Vendas > Contacto
 
-#### Communication
+#### Comunicação
 
-A list of all Communication with a Contact or Lead. All emails sent from the
-system are added to the Communication table.
+A lista de Comunicação com o Contacto ou Lead. Todos os emails envaidos apartir do 
+sistema são adicionados a tabela de Comunicação.
 
-> Support > Communication
+> Suporte > Comunicação
 
-#### Price List
+#### Lista de Preços
 
-A Price List is a place where different rate plans can be stored. It’s a name
-you give to a set of Item Prices stored under a particular List.
+Uma Lista de Preços é um lugar aonde lista de preços diferentes podem ser guardados. É um nome
+que voçê da a um conjunto de Preços de Item guardados numa lista particular.
 
-> Selling > Price List
+> Vendas > Lista de Preços
 
 
-> Buying > Price List
+> Compras > Lista de Preços
 
 * * *
 
-### Accounting
+### Contabilidade
 
-#### Fiscal Year
+#### Ano Fiscal
 
 Represents a Financial Year or Accounting Year. You can operate multiple
 Fiscal Years at the same time. Each Fiscal Year has a start date and an end

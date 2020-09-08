@@ -1,7 +1,7 @@
-do-i-need-an-erp
-open-source
-getting-started-with-erpnext
-the-champion
-implementation-strategy
+preciso-de-um-erp
+codigo-aberto
+iniciando-com-erpnext
+o-campeao
+estrategia-de-implementacao
 key-workflows
-concepts-and-terms
+conceitos-e-termos
