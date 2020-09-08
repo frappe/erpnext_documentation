@@ -1,62 +1,62 @@
 <!-- add-breadcrumbs -->
-# Introduction
+# Introdução
 
-<p class='lead'>What is an ERP system? And why should businesses use it?</p>
+<p class='lead'>O que é um sistema ERP? E porque os empresários devem usar?</p>
 
-> If you are already convinced you need an all-in-one enterprise solutions system for your organization, you can skip this page.
+> Caso voçê já esteja convencido que precisa de uma solução todos-em-um para a sua empresa, então pode ignorar esta pagina.
 
-Today, small and medium-sized businesses (SMEs) also face some of the problems that large enterprises do. One of them being planning and managing their resources. SMEs face similar complexities but have limited resources to deal with them.
+Nos dias de hoje, pequenas e medias empresas (PME) enfrentam alguns dos problemas das grandes empresa. Um deles é planeamento e gestão dos seus recuros. PME encontram complexidades mas tem recursos limitados para lidar com eles.
 
-Small businesses (like their bigger counterparts) have to:
+Pequenas empresas (como os seus grandes competidores) tem que:
 
-- Do accounts to track their sales/purchases.
-- Do their taxes.
-- Pay their employees.
-- Manage deliveries within promised timelines.
-- Deliver quality goods and services.
-- Communicate with customers, answer their queries.
+- Fazer contabilidade para gerir as vendas/compras.
+- Pagar impostos.
+- Pagar os seu funcionários.
+- Gerir as entregas dentro do tempo prometido.
+- Entregar bens e serviços de qualidade.
+- Comunicar com so seus clientes, responder as suas inquentações.
 
-Large enterprises invest millions of dollars in highly sophisticated systems like SAP. SAP and similar systems are able to handle requirements from these large enterprises to bring their **multi-country**, **multi-company**, **multi-currency**, global businesses into a single platform. This has helped them achieve consolidation of data/records in the fundamental processes such as accounting, taxation, payroll, reporting, and supply chain to name a few.
+Empresas grandes investem milhões de dolas em sistemas sofisticados como o SAP. SAP e sistemas familiares são capazes de gerir os requisitos destas grandes empresas e trazer **multi-país**, **multi-empresa**, **multi-moeda**, negócios globais numa unica plataforma. Isto tem ajudado a consolidar dados/registos dos processos fundamentais tais como contabilidade, impostos, salários, relatórios e gestão de fornecedores.
 
-In contrast to large enterprises, SMEs have been left out of the **1st wave of digital revolution (1995-2015)**. The main reason for being left out is because they don't have the financial resources to **license, hire programmers and customize** such software to match their needs. Systems like SAP have been a **no-go** for most SMEs. Such systems need a **minimum** CAPEX or OPEX layout of **$100k (Yes, One Hundred Thousand Dollars)** and upwards. Even with cloud offerings (Software as a Service, SAAS) from such vendors, there is no easy Do It Yourself (DIY) people can feel confident about.
+Em contraste empresas grandes as PME foram deixadas de fora da **1º onda revolução digital (1995-2015)**. A principal razão para serem deixadas de fora deve-se a falta de recursos finançeiros para **licenças, contractar programadores e customizar** tais programas de acordo as suas necessidades. Sistemas como o SAP começaram como **não-serve** para a maioria das PME. Tais sistemas precisa de um **minimo** CAPEX ou OPEX de **$100k (Sim, Cem Mil Dolares)** e mais. Mesmo com a oferta de nuvens (Software como Serviço, SAAS) de certos vendedores, não há uma forma facil de Faça voçê mesmo que as pessoas se sintam confiantes.
 
-So even today, small businesses continue to struggle to keep things organized. They often use a mix of applications and tools such as spreadsheets, accounting software, web-based CRMs to manage their day to day record keeping. As a consequence, they have to access different systems to understand customers' master data, sales, cash flows, or profitability. The information exists in different silos. It becomes hard to combine the data in order to get useful insights or alerts. This leads to SMEs being **reactive** instead of being **proactive** in their day to day operations. With such a constrained way of working, there's limited scope for **growth**.
+Então mesmo nos dias de hoje, pequenos negocios continuam a lugar para mantarem-se organizados. Eles normalmente usam um conjunto de aplicações e ferramentas tais com o folhas de calculo, aplicação de contabilidade, CRMs em pagina para gerir o seu dia a dia e guardar os registos. Como consequencia, eles tem que acessar varias sistemas diferentes para entender os dados dos seus clientes, vendas, fluxo de caixa ou lucros. A informação existe em diferentes silos. Ficou dificil combinar os dados de forma a ter resultados uteis ou alertas. Isto levou as PME como **reactivas** em vez de **proactivas** nas suas operações do dia a dia. Com tais problemas de trabalho, há um escoupo de **crescimento** limitado.
 
-ERPNext addresses some fundamental problems SMEs struggle with when managing their resources:
+O ERPNext direciona os problemas fundamentais que as PME se debatem durante a gestão dos seus recursos:
 
-- **Affordability**: It is a Free and Open Source Software, freely available to download and install.
-- **Completeness**: All necessary modules are available. [View full list](https://erpnext.com/docs/user/manual/en "ERPNext User Manual").
-- **Customization**: It is easy to add fields, or add more features.
-- **Efficiency**: Computing requirements are relatively low (cheaper to host and manage).
-- **Wholesomeness**: A single system and database that allows multiple users to record transactions or extract data simultaneously.
+- **Affordability**: É um sistema livre e Programa de Codigo Aberto, disponivel para fazer o download e instalar gratuito.
+- **Completeness**: Todos os modulos necessários estão disponiveis.. [Vêr lista completa](https://erpnext.com/docs/user/manual/pt "Manual de Usuário ERPNext").
+- **Customization**: É facil adicionar campos ou adicionar mais funcionalidades.
+- **Efficiency**: Requerimentos de Computador são bastante baixos (mais barato alojar do que gerir).
+- **Wholesomeness**: Um unico sistema e base de dados que permite varios usuários gravar as transações ou extrair dados em simultaneo.
 
-## What is ERPNext?
+## O que é o ERPNext?
 
-ERPNext is a full-featured business management solution that helps SMEs to record all their business transactions in a single system. With ERPNext, SMEs can make informed, fact-based, timely decisions to remain ahead in the competition. It serves as the backbone of a business adding strength, transparency, and control to your growing enterprise.
+O ERPNext é um sistema de solução completa para gestão de empresas que ajudam PME a gravar as suas transações num unico sistema. Com o ERPNext, PME podem tomar desições baseadas em factos e em tempo certo para garantir estar a frente dos seus competidores. Serve como suport do negócio adicionando força, transparencia e control da sua empresa em crescimento.
 
-ERPNext will help you to:
+O ERPNext irá ajudar-lhe a:
 
-- Track all invoices and payments.
-- Know what quantity of which product is available in stock.
-- Identify and track your key performance indicators (KPIs).
-- Identify open customer queries.
-- Manage employee payroll.
-- Assign tasks and follow up on them.
-- Maintain a database of all your customers, suppliers, and contacts.
-- Prepare quotations.
-- Track your budgets and spending.
-- Determine effective selling price based on the actual raw material, machinery and effort cost.
-- Get reminders on maintenance schedules.
-- Publish your website.
+- Monitorizar todas as facturas e pagamentos.
+- Saiba que quantidades e que produtos estão disponveis em stock.
+- Identifique e rastrei os seus indicadores de performance (KPIs).
+- Indentifique questões abertas dos seus clientes.
+- Gerir o processamento de salários do pessoal.
+- Atribuir tarefas e seguir.
+- Manter uma base de dados de todos os clientes, fornecedore e contactos.
+- Preparar proformas.
+- Rastrear os gastos e orçamentos.
+- Determinar preços de venda efectivos com base na lista actual de material, equipamento e custo de produção.
+- Receba alertas de manutenção.
+- Publique o seu website.
 
-And a ton more.
+E muito mais.
 
-## Is ERPNext only for SMEs?
+## É o ERPNext somente para PMEs?
 
-ERPNext scales well from SMEs to even large enterprises. ERPNext is used by several retail chains in Africa as well as a highly regarded equities trading company in India with over a thousand employees.
+O ERPNext escala bem de PMEs para grandes empresas. O ERPNext é usado por varias correntes de venda a retalho em Africa bem como é altamente recomendado por empresas de vendas na India com mais de mil funcionários.
 
-Check out a variety of [User Stories](https://erpnext.org/stories) to know more.
-Here is a video to get you started:
+Verifique as varias historias [User Stories](https://erpnext.org/stories) para saber mais.
+Aqui está um video para iniciar:
 
 
 <div>
@@ -67,12 +67,12 @@ Here is a video to get you started:
 </div>
 
 ### Topics
-You can also checkout the following topics:
+Pode tambem verificar os seguintes topicos:
 
-1. [Do I Need an ERP?](/docs/user/manual/en/introduction/do-i-need-an-erp)
-- [Open Source](/docs/user/manual/en/introduction/open-source)
-- [Getting Started with ERPNext](/docs/user/manual/en/introduction/getting-started-with-erpnext)
-- [The Champion](/docs/user/manual/en/introduction/the-champion)
-- [Implementation Strategy](/docs/user/manual/en/introduction/implementation-strategy)
-- [Key Workflows](/docs/user/manual/en/introduction/key-workflows)
-- [Concepts and Terms](/docs/user/manual/en/introduction/concepts-and-terms)
+1. [Preciso de um ERP?](/docs/user/manual/pt/introdução/preciso-de-um-erp)
+- [Codigo Aberto](/docs/user/manual/pt/introdução/codigo-aberto)
+- [Iniciando com ERPNext](/docs/user/manual/pt/introdução/iniciando-com-erpnext)
+- [O Campeão](/docs/user/manual/pt/introdução/o-campeao)
+- [Estrategia de Implementação](/docs/user/manual/pt/introdução/estrategia-de-implementacao)
+- [Key Workflows](/docs/user/manual/pt/introdução/key-workflows)
+- [Conceitos e Termos](/docs/user/manual/pt/introdução/conceitos-e-termos)

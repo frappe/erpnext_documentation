@@ -8,3 +8,4 @@ Select your language
 1. [Deutsch](/docs/user/manual/de)
 1. [Español](/docs/user/manual/es)
 1. [Lietuvių](/docs/user/manual/lt)
+1. [Portuguese](/docs/user/manual/pt)
