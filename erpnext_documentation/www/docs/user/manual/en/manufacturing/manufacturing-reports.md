@@ -34,7 +34,7 @@ This report shows the overall analytics of all Work Orders.
 
 ![Production Analytics](/docs/assets/img/manufacturing/production-analytics.png)
 
-## BOM Search 
+## BOM Search
 In this report, you can search for specific BOMs based on the raw materials items used in them, then open it. Useful if you have a lot of BOMs.
 ![BOM search](/docs/assets/img/manufacturing/bom-search.png)
 

@@ -16,7 +16,7 @@ Twitter related settings like OAuth can be configured here. ERPNext needs access
 
 You must have Twitter App for your company. ERPNext interacts with this App for sharing Tweet. 
 
-### 1.1 Create LinkedIn Developer App
+### 1.1 Create Twitter Developer App
 
 Create App by link `https://developer.twitter.com/` and check that the App has **Read and write** Access permission.
 ![Twitter App Permission](/docs/assets/img/crm/twitter-app-permission.png)

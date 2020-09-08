@@ -101,6 +101,8 @@ frappe.utils # methods in frappe.utils
 frappe.render_template # frappe.render_template,
 frappe.get_url # frappe.utils.get_url
 frappe.sendmail # send email via server script
+frappe.get_print # get pdf for a doc
+frappe.attach_print # attach PDF to an email
 socketio_port # port for socketio
 style.border_color # '#d1d8dd'
 guess_mimetype = mimetypes.guess_type,

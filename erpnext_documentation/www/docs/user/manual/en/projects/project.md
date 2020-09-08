@@ -53,6 +53,11 @@ To access Projects, go to:
   | **Task Progress**   | Sum of % Progress of all Tasks / Total No. of Tasks | (100+100+50)/3                     | 83.33                |
   | **Task Weight**     | Sum of (Task weight + % Progress)                   | (0.4 * 100 + 0.2 * 100 + 0.2 * 100)| 70                   |
 
+
+**Note:** If the total weight of the Tasks is not 100, then the calculated result will be divided by the total weight.
+For example, if the total of task weights is 70, then percentage completed = (70/0.8)% = 87.5%.
+
+
 ## 2. Features
 
 ### 2.1. Customer Details, Users and Notes
@@ -87,8 +92,6 @@ To access Projects, go to:
 * **Total Purchase Cost**: The Total Purchase Cost of a Project is the cost fetched from the Purchase Invoices that get created against a Purchase Order issued for supply of Materials required for a Project.
 * **Total Consumed Material Cost**: Using the Stock Entry made as per the requirement of Materials in the Project, the Total Consumed Material Cost gets captured.
 
-**Note:** If the total weight of the Tasks is not 100, then the calculated result will be divided by the total weight.
-For example, if the total of task weights is 70, then percentage completed = (70/0.8)% = 87.5%.
 
 ### 2.4. Margin
 
