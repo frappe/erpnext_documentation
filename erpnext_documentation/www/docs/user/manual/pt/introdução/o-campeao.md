@@ -1,45 +1,42 @@
 <!-- add-breadcrumbs -->
-# The Champion
+# O Campeão
 
 <img alt="Champion" class="screenshot" src="{{docs_base_url}}/assets/img/setup/implementation-image.png">
 
-We have seen dozens of ERP implementations over the past few years and we
-realize that successful implementation is a lot about intangibles and
-attitude.
+Nós temos visto dezenas de implementações de ERP no passar dos anos e nós verificamos
+que uma implementação com sucesso tem muito haver com atitude e metas não atingidas.
 
-**ERPs are not required.**
+**ERPs não são necessários.**
 
 Like exercise.
 
-The human body may seem like it does not require exercise today or even tomorrow,
-but in the long run, if you wish to maintain your body and its health, you
-should get on the treadmill.
+O corpo humano pode parecer que não precisa de exercicio hoje ou até amanhã,
+mas ao longo do tempo, caso queira manter o seu corpo e a saúde, voçê
+deve ir aos treinos.
 
-In the same way, ERPs improve the health of your organization over a long run
-by keeping it fit and efficient. The more you delay putting things in order,
-the more time you lose, and the closer you get to a major disaster.
+Da mesma forma, ERPs melhoram a saude da sua empresa ao longo do tempo mantendo em ordem
+e eficiente. O quanto mais atrasar em organizar, mais tempo voçê perde,
+e o mais rapido para uma desastre maior.
 
-So when you start implementing an ERP, keep your sight on the long term
-benefits. Like exercise, its painful in the short run, but will do wonders if
-you stay on course.
+Portanto quando voçê implementa um ERP, mantenha o foco nos beneficios ao longo tempo. Como
+nos exercicios, é doloroso em curto tempo, mas irá criar beneficios ao longo do percurso.
 
 * * *
 
-## The Champion
+## O Campeão
 
-ERP means organization wide change and it does not happen without effort.
-Every change requires a champion and it is the duty of the champion to
-organize and energize the entire team towards implementation. The champion
-needs to be resilient incase something goes wrong .
+Organização ERP significa mudanças grandes e não acontece sem esforço.
+Qualquer mudança requer um campeão e é o papelo do campeão em organizar
+e dar energia ao team durante a implementação. O campeão
+precisa ser resiliente em caso de algum erro.
 
-In many organizations we have seen, the champion is most often the owner or a
-senior manager. Occasionally, the champion is an outsider who is hired for a
-particular purpose.
+Em muitas empresas nós vimos que o campeão muita das vezes é o dono ou o
+gestor senior. Ocasionalmente, o campeão é alguem de fora contractado para tarefas especificas.
 
-In either case, you must identify your champion first.
+Em qualquer caso, voçê deve indentificar o seu campeão primeiro.
 
-Most likely it's **you!**
+Muitos dos casos é **voçê!**
 
-Lets Begin!
+Vamos Começar!
 
-{next}
+{proximo}

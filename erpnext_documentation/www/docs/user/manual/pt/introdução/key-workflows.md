@@ -1,12 +1,12 @@
 <!-- add-breadcrumbs -->
-# Flow Chart Of Transactions In ERPNext
+# Grafico de Transações no ERPNext
 
-This diagram covers how ERPNext tracks your company information across key
-functions. This diagram does not cover all the features of ERPNext.
+Este fluxograma mostra como o ERPNExt gere a sua informação da sua empresa nas areas
+chave. Este fluxograma não cobre todas as funcionalidades do ERPNext.
 
 <img class="screenshot" alt="Workflow" src="{{docs_base_url}}/assets/img/setup/overview-flow.png">
 
-_Note: Not all of the steps are mandatory. ERPNext allows you to freely skip
-steps if you want to simplify the process._
+_Nota: Nem todo os passos são obrigatórios. O ERPNext permite que voçê skip alguns passos
+caso queira simplificar o processo._
 
-{next}
+{proximo}
