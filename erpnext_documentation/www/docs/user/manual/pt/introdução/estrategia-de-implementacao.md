@@ -9,7 +9,7 @@ implementação deve ser feita em duas fases.
 
 ### Fase de Teste
 
-  * Leia o ManualRead the Manual
+  * Leia o Manual
   * Crie uma conta livre no [https://erpnext.com](https://erpnext.com) (a forma mais facil de experimentar).
   * Crie o seu primeiro Cliente, Fornecedor e Item. Adicione alguns mais para se familiarizar.
   * Crie Grupo de Clientes, Grupo de Itens, Armazens, Grupo de Fornecedores, para classificar os Itens.
@@ -32,4 +32,4 @@ Uma vez familiar com o ERPNext, começe por inserir os seus dados!
   * Crie entradas de abertura de saldo pelo Jornal de Entrada e crie Factura de Vendas e Compras de inicio/abertura.
   * Caso precise de ajuda, [voçê pode comprar o suporte](https://erpnext.com/pricing) ou [peça no forum de usuário](https://discuss.erpnext.com).
 
-{proximo}
+{next}

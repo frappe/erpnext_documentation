@@ -1,5 +1,5 @@
 <!-- add-breadcrumbs -->
-# Termos e Conceitos
+# Conceitos e Termos
 
 Antes de começar a implementação, vamos nos familiarizar com as terminologias usadas
 e alguns conceitos basicos no ERPNext.
@@ -17,20 +17,20 @@ Cliente, Fornecedor e Produtos ou Serviços.
 
 > Configurações > Empresa
 
-#### Clientes
+#### Cliente
 
 Representa um cliente. Um Cliente pode ser individual ou um empresa.
 Voçê pode criar varios Contactos e Endereços para cada Cliente.
 
-> Vendas > Clientes
+> Vendas > Cliente
 
-#### Fornecedores
+#### Fornecedor
 
 Representa o fornecedor de produtos ou serviços. Sua empresa de teleones é o 
 seu Fornecedor, então é um fornecedor de material. Novamente, um Fornecedor pode ser
 individual ou uma empresa e tem varios Contactos e Endereços.
 
-> Compras > Fornecedores
+> Compras > Fornecedor
 
 #### Item
 
@@ -47,12 +47,12 @@ são contas. ERPNext cria contas para Clientes e para Fornecedores automaticamen
 
 > Contabilidade > Plano de Contas
 
-#### Endereços
+#### Endereço
 
 Um endereço representa detalhes de local de um Cliente ou Fornecedor. Estes podem ser
 de diferentes locais tais como Empresa Mãe, Fabrica, Armazem, Loja etc.
 
-> Vendas > Endereços
+> Vendas > Endereço
 
 #### Contacto
 
@@ -63,7 +63,7 @@ independente. Um Contacto tem um nome e detalhes de contacto como email e numero
 
 #### Comunicação
 
-A lista de Comunicação com o Contacto ou Lead. Todos os emails envaidos apartir do 
+A lista de Comunicação com o Contacto ou Potenciais Clientes. Todos os emails envaidos apartir do 
 sistema são adicionados a tabela de Comunicação.
 
 > Suporte > Comunicação
@@ -102,23 +102,23 @@ linha de produto ou grupo de negocio (e.g., vendas online, vendas a retalho, etc
 
 > Contabilidade > Mapa de Centros de Custo
 
-#### Journal de Entrada
+#### Lançamento Contabilístico
 
 Um documento contem varias Contabilidades Gerais / General Ledger (GL) e a soma dos Debitos e Creditos
 destas entradas são iguais. No ERPNext voçê pode actualizar os Pagamentos,
-Develuções, etc., usando as entradas do Jornal.
+Develuções, etc., usando as entradas do Lançamento.
 
-> Contabilidade > Contabilidade Geral
+> Contabilidade > Lançamento Contabilístico
 
 #### Factura de Vendas
 
-Uma bill enviada ao Cliente para entrega de Itens (serviços ou bens).
+Uma cobrança enviada ao Cliente para entrega de Itens (serviços ou bens).
 
 > Contabilidade > Factura de Vendas
 
 #### Factura de Compras
 
-Uma bill enviada pelo Fornecedor para a entrega de Itens (serviços ou bens).
+Uma cobrança enviada pelo Fornecedor para a entrega de Itens (serviços ou bens).
 
 > Contabilidade > Factura de Compras
 
@@ -141,12 +141,12 @@ Uma classificação de Clientes, normalmente baseada num segmento do mercado.
 
 > Vendas > Configurações > Grupo de Clientes
 
-#### Lead
+#### Potenciais Clientes
 
 Uma pessoa que poderá ser uma futura fonte do negócio. Um lider pode gerar
 Oportunidades. (desde: “pode levar a uma venda”).
 
-> CRM > Lead
+> CRM > Potenciais Clientes
 
 #### Oportunidade
 
@@ -218,12 +218,12 @@ Um Armazem logico no qual as entradas de stock são feitas.
 
 > Stock > Armazem
 
-#### Entrada de Stock
+#### Registo de Stock
 
 Material transferido de um Armazem, para um Armazem ou apartir de um outro Armazem para
 outro.
 
-> Stock > Entrada de Stock
+> Stock > Registo de Stock
 
 #### Guia de Remessa
 
@@ -253,15 +253,15 @@ ou fabricado em grupos.
 
 > Stock > Lotes
 
-#### Entrada de Stock Ledger
+#### Registo de Stock Ledger
 
 Uma tabela unificada de todos os movimentos de material apartir de um armazem para outro. Esta é
-a tabela actualizada quando uma Entrada de Stock, Guia de Remessa, Recibo de Compra e 
+a tabela actualizada quando uma Registo de Stock, Guia de Remessa, Recibo de Compra e 
 Factura de Venda (POS) é feita.
 
 #### Reconciliação de Stock
 
-Actualizar a entrada de Stock de multiplos Itens apartir de uma folha (CSV).
+Actualizar a Registo de Stock de multiplos Itens apartir de uma folha (CSV).
 
 > Stock > Reconciliação de Stock 
 
@@ -272,11 +272,11 @@ do Fornecedor, ou Entraga ao Cliente.
 
 > Stock > Inspecção de Qualidade
 
-#### Grupo de Itens
+#### Grupo do Item
 
 Uma classificação de Item.
 
-> Stock > Configurações > Grupo de Itens
+> Stock > Configurações > Grupo do Item
 
 * * *
 
@@ -379,14 +379,14 @@ numa Ordem de Venda aberta para um periodo especifico.
 
 #### Blog Post
 
-Um peuqnos artigo que aparece na secção "Blog" do website gerado
+Um pequeno artigo que aparece na secção "Blog" do website gerado
 pelo modulo do ERPNext. Blog significa "Log de Pagina".
 
 > Website > Blog Post
 
 #### Web Page
 
-Uma pagina web com un unico URL (endereço web) no website gerado pelo
+Uma pagina web com um unico URL (endereço web) no website gerado pelo
 ERPNext.
 
 > Website > Web Page

@@ -5,7 +5,7 @@ Existem varias formas de começar o ERPNext.
 
 ### 1\. Veja o Demo
 
-CAso queira verificar a interface do usuário e **sentir** a aplicação, basta
+Caso queira verificar a interface do usuário e **sentir** a aplicação, basta
 ver o demo:
 
   * <https://demo.erpnext.com>
@@ -33,4 +33,4 @@ esta imagem em **qualquer** plataforma incluindo no Microsoft Windows.
 
 Caso esteja familiarizado em instalar aplicações em plataformas *nix, leia as instruções em como instalar usando [Frappe Bench](https://github.com/frappe/bench).
 
-{proximo}
+{next}

@@ -24,11 +24,11 @@ Então mesmo nos dias de hoje, pequenos negocios continuam a lugar para mantarem
 
 O ERPNext direciona os problemas fundamentais que as PME se debatem durante a gestão dos seus recursos:
 
-- **Affordability**: É um sistema livre e Programa de Codigo Aberto, disponivel para fazer o download e instalar gratuito.
-- **Completeness**: Todos os modulos necessários estão disponiveis.. [Vêr lista completa](https://erpnext.com/docs/user/manual/pt "Manual de Usuário ERPNext").
-- **Customization**: É facil adicionar campos ou adicionar mais funcionalidades.
-- **Efficiency**: Requerimentos de Computador são bastante baixos (mais barato alojar do que gerir).
-- **Wholesomeness**: Um unico sistema e base de dados que permite varios usuários gravar as transações ou extrair dados em simultaneo.
+- **Acessibilidade**: É um sistema livre e Programa de Codigo Aberto, disponivel para fazer o download e instalar gratuito.
+- **Integridade**: Todos os modulos necessários estão disponiveis.. [Vêr lista completa](https://erpnext.com/docs/user/manual/pt "Manual de Usuário ERPNext").
+- **Customização**: É facil adicionar campos ou adicionar mais funcionalidades.
+- **Eficiencia**: Requerimentos de Computador são bastante baixos (mais barato alojar do que gerir).
+- **Salubridade**: Um unico sistema e base de dados que permite varios usuários gravar as transações ou extrair dados em simultaneo.
 
 ## O que é o ERPNext?
 
@@ -51,7 +51,7 @@ O ERPNext irá ajudar-lhe a:
 
 E muito mais.
 
-## É o ERPNext somente para PMEs?
+## O ERPNext é somente para PMEs?
 
 O ERPNext escala bem de PMEs para grandes empresas. O ERPNext é usado por varias correntes de venda a retalho em Africa bem como é altamente recomendado por empresas de vendas na India com mais de mil funcionários.
 
@@ -74,5 +74,5 @@ Pode tambem verificar os seguintes topicos:
 - [Iniciando com ERPNext](/docs/user/manual/pt/introdução/iniciando-com-erpnext)
 - [O Campeão](/docs/user/manual/pt/introdução/o-campeao)
 - [Estrategia de Implementação](/docs/user/manual/pt/introdução/estrategia-de-implementacao)
-- [Key Workflows](/docs/user/manual/pt/introdução/key-workflows)
+- [Fluxogramas Chaves](/docs/user/manual/pt/introdução/fluxogramas-chaves)
 - [Conceitos e Termos](/docs/user/manual/pt/introdução/conceitos-e-termos)

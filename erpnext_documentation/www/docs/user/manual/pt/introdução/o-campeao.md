@@ -39,4 +39,4 @@ Muitos dos casos é **voçê!**
 
 Vamos Começar!
 
-{proximo}
+{next}

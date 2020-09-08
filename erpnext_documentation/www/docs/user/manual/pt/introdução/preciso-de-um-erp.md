@@ -19,4 +19,4 @@ como uma Aplicação de ERP.
   * **Facil de usar:** Interface web-like de usuário moderno vai manter os seus utilizadores alegres e num territorio familiar.
   * **Codigo Aberto :** Este software é sempre gratuito e voçê pode hospedar aonde voçê quiser.
 
-{proximo}
+{next}

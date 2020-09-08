@@ -3,5 +3,5 @@ codigo-aberto
 iniciando-com-erpnext
 o-campeao
 estrategia-de-implementacao
-key-workflows
+fluxogramas-chaves
 conceitos-e-termos
