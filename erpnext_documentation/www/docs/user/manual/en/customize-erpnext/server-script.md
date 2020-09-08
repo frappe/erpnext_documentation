@@ -10,7 +10,7 @@
 To create a Server Script
 
 1. If your site is being hosted on [erpnext.com](https://erpnext.com/), contact support to activate Server Script.
-	In case of self-hosted accounts, set `server_script_enabled` as true in site_config.json of your site. 
+	In case of self-hosted accounts, set `server_script_enabled` as true in site_config.json of your site.
 2. To add/edit Server Script, ensure your role is System Manager.
 3. Create a new server script via "New Server Script" in the toolbar.
 4. Set the type of server script (Document Event / API).
@@ -100,6 +100,7 @@ frappe.get_hooks # app hooks
 frappe.utils # methods in frappe.utils
 frappe.render_template # frappe.render_template,
 frappe.get_url # frappe.utils.get_url
+frappe.sendmail # send email via server script
 frappe.get_print # get pdf for a doc
 frappe.attach_print # attach PDF to an email
 socketio_port # port for socketio
@@ -134,7 +135,7 @@ if "validate" in doc.description:
 Script Type: "After Save"
 
 ```py
-if doc.allocted_to:
+if doc.allocated_to:
     frappe.get_doc(dict(
         doctype = 'ToDo'
         owner = doc.allocated_to,
