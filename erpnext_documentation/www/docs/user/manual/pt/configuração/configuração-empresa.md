@@ -32,7 +32,7 @@ Uma empresa parente é uma empresa grande que consiste em ter uma ou mais empres
 
 A visão em arvore da empresa mostra a estrutura de todoas as suas empresas.
 
-<img class="screenshot" alt="Company Tree" src="{{docs_base_url}}/assets/img/accounts/company-tree.png">
+<img class="screenshot" alt="Company Tree" src="{{docs_base_url}}/assets/img/contabilidade/company-tree.png">
 
 Quando constroe uma arvore de empresa, o ERPNext vai validade se as contas das empresas filhas são iguais as contas das empresa parent. Todas as contas podem ser combinadas num plano de contas consolidado.
 
@@ -43,99 +43,99 @@ Quando constroe uma arvore de empresa, o ERPNext vai validade se as contas das e
 * **Empresa Mãe**: Caso seja uma empresa filha, digite a empresa maẽ aqui eg., selecione o grupo de empresa que ela pertença. Se uma empresa mãe existe, o plano de contas para anova empresa a ser criada será com base na empresa mãe.
 
 ### 1.3 Plano de Contas
-Para cada Empresa, o Plano de Contas é mantido separado. Faz com tenha uma contabilidade separada para cada empresa de acordo as regras legais. Voçê pode importa plnao de contas usando [Importar Plano de Contas](/docs/user/manual/pt/configuração/importar-plano-de-contas).
+Para cada Empresa, o Plano de Contas é mantido separado. Faz com tenha uma contabilidade separada para cada empresa de acordo as regras legais. Voçê pode importa plano de contas usando [Importar Plano de Contas](/docs/user/manual/pt/configuração/importar-plano-de-contas).
 
-<img class="screenshot" alt="Company Chart of Accounts" src="{{docs_base_url}}/assets/img/accounts/company-coa.png">
+<img class="screenshot" alt="Company Chart of Accounts" src="{{docs_base_url}}/assets/img/contabilidade/company-coa.png">
 
-ERPNext has localized Chart of Accounts readily available for some countries. When creating a new Company, you can choose to set up the Chart of Account for it from one of the following options.
+O ERPNext tem um Plano de Contas disponivel para alguns paise. Ao criar a nova Empresa, voçê pode escolher o Plano de Contas atravez de uma das seguintes opções.
 
-* Standard Chart of Accounts
-* Based on Existing Company's Chart of Account
+* Plano de Contas Standard
+* Baseado no Plano de Contas de um Empresa Existente
 
-<img class="screenshot" alt="Company Chart of Accounts" src="{{docs_base_url}}/assets/img/accounts/company-coa-2.png">
+<img class="screenshot" alt="Company Chart of Accounts" src="{{docs_base_url}}/assets/img/contabilidade/company-coa-2.png">
 
-Note that, if the Parent Company is selected when creating a new Company, the Chart of Accounts will be created based on the existing Parent Company.
+De nota que, se a Empresa mãe for selecionar ao criar a nova Empresa, o Plano de Contas será com base na empresa mãe.
 
 ### 1.4 Defaults
-Within the Company master, you can set many of the default values for masters and accounts. These default accounts will help you in the quick posting of accounting transactions, where the value for the account will be fetched from the Company master if provided. As soon as the company is created, a default Chart Of Accounts and Cost Center is automatically created.
+Dentro dos registo de Empresa, voçẽ pode definir valores iniciais para contas. Estas contas iniciais vão ajudar rapidamente a criar transações de contabilidade, aonde o valor inicial será da Empresa mestre. Assim que a empesa for criada, o Plano de Contas e Centro de Custo tambem são criados.
 
-The following defaults can be set for a company:
+O seguintes valores iniciais podem ser posto para a empresa:
 
-* Default Finance Book
-* Default Letter Head
-* Default Holiday List
-* Standard Working Hours
-* Default Terms and Conditions
-* Country
-* Tax ID
-* Date of Establishment
+* Livro de Finanças Inicial
+* Cabeçalho de Carta Inicial
+* Lista de Feriados Inicial
+* Horario de Trabalho Inicial
+* Termos e Condições Inicial
+* País
+* NIF
+* Data de Inicio
 
-## 2. Features
-### 2.1 Monthly Sales Target
-Set the monthly sales target number in the company currency, for example, $10,000. Total monthly sales will be visible once transactions are made. To know more [click here](/docs/user/manual/pt/configuração/setting-company-sales-goal).
+## 2. Funcionalidades
+### 2.1 Metas de Vendas Mensal
+Defina o numero da meta de vendas mensal na moeda da empresa, por exemplo, $10,000. Total de vendas mensal ficará visivel uma vez que as transações sejam feitas. Para saber mais[click here](/docs/user/manual/pt/configuração/configurar-objectivos-vendas-empresa).
 
-### 2.2 Account Settings
-Some of the following accounts will be set by default when you create a new company, others can be created. The accounts can be seen in the [Chart of Accounts](/docs/user/manual/pt/accounts/chart-of-accounts). These values can be changed later on if needed.
+### 2.2 Configurações da Contabilidade
+Algumas da seguintes contas seram postas por defeito quando criar a empesa, outras pode ser criadas depois. As contas podem ser vistas no [Chart of Accounts](/docs/user/manual/pt/contabilidade/plano-de-contas). Este valores podem ser alterados depois caso seja necessário.
 
-* Default Bank Account
-* Default Cash Account
-* Default Receivable Account
-* Round Off Account
-* Round Off Cost Center
-* Write Off Account
-* Discount Allowed Account
-* Discount Received Account
-* Exchange Gain / Loss Account
-* Unrealized Exchange Gain/Loss Account
-* Default Payable Account
-* Default Employee Advance Account
-* Default Cost of Goods Sold Account
-* Default Income Account
-* Default Deferred Revenue Account
-* Default Deferred Expense Account
-* Default Payroll Payable Account
-* Default Expense Claim Payable Account
-* Default Cost Center
-* Credit Limit
-* Default Payment Terms Template
+* Conta do Banco Inicial
+* Conta do Dinheiro Inicial
+* Conta de Recebimentos Inicial
+* Conta de Arredondamento
+* Arredondamento Centro de Custo
+* Conta de Write Off
+* Conta de Desconto Permitido
+* Conta de Desconto Recebido
+* Ganhos Cambiais / Conta de Perca
+* Ganhos Cambiais não Realizados/Conta de Perca
+* Conta de Pagamento Inicial
+* Conta de Adiantamento a Funcionario Inicial
+* Conta de Custo de Bens Vendidos Inicial
+* Conta de Lucros Inicial
+* Conta de Default Deferred Revenue
+* Conta de Despesas Default Deferred Expense
+* Conta de Pagamento Salario Inicial
+* Conta de Pagamento de Reembolso de Despesas
+* Conta de Centro de Custo Incial
+* Limite de Credito
+* Modelo de Termos de Pagamento Inicial
 
-### 2.3 Stock Settings
-Perpetual Inventory feature would lead to Stock transactions impacting the company's books of accounts. Know more [here](/docs/user/manual/pt/stock/perpetual-inventory). It is enabled by default.
+### 2.3 Configurações de Stock
+Funcionalidade de Stock Perpetual leva as transações de Stock que tem impacto no livros de Contabilidade da Empresa. Saiba mais [aqui](/docs/user/manual/pt/inventario/perpetual-inventory). Está activo por defeito.
 
-* Default Inventory Account
-* Stock Adjustment Account
-* Stock Received But Not Billed
-* Expenses Included In Valuation
+* Conta de Stocks Inicial
+* Conta de Ajuste de Stock
+* Stock Recebido Mas não Cobrado
+* Despesas Incluidas no Valor Valuation
 
-    ![Stock Settings in Company](/docs/assets/img/setup/company-stock-settings.png)
+    ![Configuração de Stock na Empresa](/docs/assets/img/setup/company-stock-settings.png)
 
-### 2.4 Fixed Asset Depreciation Settings
-For managing fixed assets in a company, the following accounts are needed. Most of them will be created by default. They can be seen in the [Chart of Accounts](/docs/user/manual/pt/accounts/chart-of-accounts).
+### 2.4 Configurações da Depreciação do Activos
+Para gerir os activos da empresa, as seguintes contas são necessárias. Seram criadas por defeitas muitas delas. Podem ser vistas aqui [Plano de Contas](/docs/user/manual/pt/contabilidade/plano-de-contas).
 
-* Accumulated Depreciation Account
-* Depreciation Expense Account
-* Series for Asset Depreciation Entry (Journal Entry)
-* Expenses Included In Asset Valuation
-* Gain/Loss Account on Asset Disposal
-* Asset Depreciation Cost Center
-* Capital Work In Progress Account
-* Asset Received But Not Billed
+* Conta de Depreciação Acumulada
+* Conta de Depreciação de Despesas
+* Registo para Depreciação de Activo Series (Journal Entry)
+* Despesas Incluidas no Valor do Activo
+* Conta de Ganhos/Percas Disposal de Activos
+* Centro de Custo para Depreciação de Activos
+* Conta de Capital em Curso
+* Activos Recebidos Mas não Cobrados
 
-    ![Fixed Asset Depreciation](/docs/assets/img/setup/company-asset-depreciation.png)
+    ![Depreciação de Activos](/docs/assets/img/setup/company-asset-depreciation.png)
 
 ### 2.5 HRA Settings
 
-Set the default Component for the following Salary Components.
+Define a componente inicial para os seguintes Componentes de Salario.
 
-> For the Indian user, setting the default value in this section will help in Employee Tax Declaration calculations, especially for HRA exemption amount.
+> Para um usuario Indiano, pondo o valor default nesta area ira ajudar nos calculos de Declaração de Impostos para Funcionario, especialmente o valor da Isenção.
 
-* Basic Component
-* HRA Component
+* Componente Basico
+* Componente HRA
 * Arrear Component
 
-### 2.6 Bank Remittance Settings
+### 2.6 Configuração do Bank Remittance
 
-*Only for India.*
+*Somente para India.*
 
 Using the Payment Order feature (in Accounts), you can give a single document of transfer for multiple bank transfers. Updating value in the following fields will help you generate Bank Remittance in a format which can be accepted and can be also uploaded on the bank's portal.
 
@@ -144,63 +144,63 @@ Payment order allows a user to combine several payment entries/payment requests 
 Client Code and Product Code are codes given by the bank to you. This is required to be added in the text file as per the format specified by Kotak bank.
 
 
-### 2.7 Budget
-Exception Budget Approver Role: The role selected here can bypass the set budget to approve expenses.
+### 2.7 Orçamento
+Excepção de Regra do Aprovador de Orçamento: A regra selionada aqui pode passar o valor das despesas aprovadas no orçamento.
 
-### 2.8 Company Info
-For reference, the following details of your company can be saved in ERPNext:
+### 2.8 Detalhes da Empresa
+Para referencia, os seguintes detalhes da sua empresa pode salvos no ERPNext:
 
-* Date of Incorporation
-* Phone No
+* Data de Inicio
+* Telefone No
 * Fax
 * Email
-* Website
-* Address
-* Registration Details
+* Pagina Web
+* Endereço
+* Detalhes de Registo (NIF)
 
-> Note: When setting the address here, it is important to tick the 'Is Your Company Address' checkbox.
+> Nota: Quando definir o endereço aqui, é importante assinalar a caixa 'É o Endereço da Sua Empresa'.
 
-![Company Address](/docs/assets/img/setup/company-address.png)
+![Endereço da Empresa](/docs/assets/img/setup/company-address.png)
 
-**For India**, different addresses can be added with different GSTIN numbers if the company has multiple locations. For example, if your company has offices in Mumbai, Delhi, and Bangalore, you'll have to add different addresses with different GSTIN numbers.
+**Para India**, different addresses can be added with different GSTIN numbers if the company has multiple locations. For example, if your company has offices in Mumbai, Delhi, and Bangalore, you'll have to add different addresses with different GSTIN numbers.
 
-On saving a company, the following details/actions will be visible in the dashboard:
-![Company after Save](/docs/assets/img/setup/company-after-save.png)
+Ao salvar a empresa, os seguintes detalhes/acções ficam visiveis no dashboard:
+![Empresa depois de Salvar](/docs/assets/img/setup/company-after-save.png)
 
-**Registration Details**: Here you can save various tax/cheque/bank number for reference.
+**Detalhes de Registo**: Aqui voçê pode salvar imposto/check/numero do banco para referencia.
 
-### 2.9 Deleting all Company Transactions
-You can delete all transactions (Orders, Invoices) of a Company. *Use with caution*, transactions once deleted cannot be recovered.
+### 2.9 Apagando todas as Transações da Empresa
+Voçê pode apagar todas as transações (Ordens, Facturas) de um Empresa. *Use com cuidado*, as transacções quando apagadas não podem ser recuperadas.
 
-#### Requirements
+#### Requesitos
 
-* The User has to be a System Manager
-* The User has to be the creator of the Company
+* O Usuário tem que ser um Gestor do Sistema
+* O Usuário tem que ser o que criou a Empresa
 
-#### Steps
-1. Click on the **Delete Company Transactions** button
-1. Verify your password
-1. Enter Company name for confirmation
-    ![Company after Save](/docs/assets/img/setup/company-delete-transactions.png)
+#### Passos
+1. Click no botão **Apagar Transações da Empresa**
+1. Verificar a sua senha
+1. Digitar o Nome da Empresa para confirmar
+    ![Empresa depois de salva](/docs/assets/img/setup/company-delete-transactions.png)
 
-And you're done. The master data like Item, Account, Employee, BOM etc. will remain as it is.
+E está feito. Os dados mestre como Item, Contas, Funcioanarios, LDM, etc vão permanecer.
 
-#### What is affected?
+#### O que vai afectar?
 
-* Sales/Purchase Orders/Invoices Receipts/Notes will be deleted
-* The monthly sales and sales history will be cleared
-* All notifications will be cleared
-* Lead Addresses to which the Company is linked will be deleted
-* All communications linked to the Company will be deleted
-* All naming series will be reset
-* Stock Entries linked to a Warehouse of this Company will be deleted
+* Venda/Ordens de Compra/Recibos de Facturas/Guias seram apagadas
+* As vendas mensais e o historico de vendas será limpo
+* Todas as notificações seram limpas
+* Endereços de Lead para o qual a Empresa esta ligada será apagada
+* Todas as comunicações ligadas a Empresa seram apagadas
+* Todos os All naming series seram zerados
+* As Entradas de Stocks ligadas ao Armazem desta Empresa será apagado
 
-### 3. Related Topics
-1. [Setting Up Taxes](/docs/user/manual/pt/configuração/setting-up-taxes)
-1. [System Settings](/docs/user/manual/pt/configuração/settings/system-settings)
-1. [Charts Of Accounts Importer](/docs/user/manual/pt/configuração/chart-of-accounts-importer)
-1. [Users and Permissions](/docs/user/manual/pt/configuração/users-and-permissions)
-1. [Adding Users](/docs/user/manual/pt/configuração/users-and-permissions/adding-users)
-1. [Letter Head](/docs/user/manual/pt/configuração/print/letter-head)
-1. [Email Account](/docs/user/manual/pt/configuração/email/email-account)
-1. [Administrator](/docs/user/manual/pt/configuração/users-and-permissions/administrator)
+### 3. Topicos Relacionados
+1. [Configurar Impostos](/docs/user/manual/pt/configuração/configurar-impostos)
+1. [Configurações do Sistema](/docs/user/manual/pt/configuração/configurações/configurações-sistema)
+1. [Importar Plano de Contas](/docs/user/manual/pt/configuração/importar-plano-de-contas)
+1. [Usuários e Permissões](/docs/user/manual/pt/configuração/usuarios-e-permissṍes)
+1. [Adicionar Usuários](/docs/user/manual/pt/configuração/usuarios-e-permissões/adicionar-usuarios)
+1. [Cabeçalho de Carta](/docs/user/manual/pt/configuração/impressão/cabeçalho-carta)
+1. [Conta de Email](/docs/user/manual/pt/configuração/email/conta-email)
+1. [Administrador](/docs/user/manual/pt/configuração/usuarios-e-permissões/administrador)
