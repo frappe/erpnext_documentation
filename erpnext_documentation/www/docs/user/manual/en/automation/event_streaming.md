@@ -11,24 +11,38 @@ To access Event Streaming, go to:
 > Home > Automation > Event Streaming
 
 ## 1. Prerequisites
-Before creating an Event Producer, a common user needs to be created on both the sites which will be used to access the site and will act as an Event Subscriber. Make sure the user has the necessary permissions for creation, updation, and deletion of the subscribed DocTypes.
+Before creating an Event Producer, a common user needs to be created on both the sites which will be used to access the site and will act as an Event Subscriber. Make sure the user is a System Manager and has the necessary permissions for creation, updation, and deletion of the subscribed DocTypes.
 
 ## 2. How to set up Event Streaming
 
-### 2.1 Create an Event Producer
+Let's take 2 sites for explaining the process. http://test_site:8000 (Consumer site) and http://test_site_producer:8000 (Producer site)
+
+### 2.1 Obtain the Event Subscriber's keys from the producer site
+
+1. On http://test_site_producer:8000 (producer site), go to the User list.
+2. Open the user document you are going to use as an event subscriber. Scroll down to the section labelled "API access". In that section, generate keys for the user by clicking on **Generate Keys** button. You will get a prompt with the user secret, copy the user secret and save it with you. It will also generate an API key.
+
+### 2.2 Generate Keys for the Event Subscriber on the consumer site
+
+1. On http://test_site:8000 (consumer site), go to the User list and follow the same process specified in the previous step.
+
+### 2.3 Create an Event Producer on the consumer site
+
 1. The site which you want to subscribe to, is called as the Event Producer. Create an Event Producer document for the site you wish to get the updates from.
-2. Go to: **Home > Automation > Event Streaming > Event Producer**.
-3. Enter the site URL of the site you want to subscribe to, in the Producer URL field.
-4. Add all the Document Types you want to subscribe to, in the Event Configuration child table.
+2. On http://test_site:8000 (consumer site), go to **Home > Automation > Event Streaming > Event Producer**.
+3. Enter the site URL of the site you want to subscribe to (in this case http://test_site_producer:8000), in the Producer URL field.
+4. Add all the Document Types you want to subscribe to, in the Event Producer Document Types child table.
 5. If you want to have the created documents with the same name as it is on the remote Event Producer site, check the 'Use Same Name' checkbox in the child table against the required Document Type.
-6. Set the Event Subscriber field to a user that will be used to create the documents fetched from the Event Producer. You need to create the same user both ways, i.e on the Event Consumer as well as the Event Producer site before creating the Event Producer.
-7. Save.
-8. The API key and API secret are then set in the Event Producer document for Authentication.
+6. Set the Event Subscriber field to the user that will be used to create the documents fetched from the Event Producer. You need to create the same user both ways, i.e on the Event Consumer as well as the Event Producer site before creating the Event Producer.
+7. Paste the API key and secret you generated in the first step (2.1) in the API key and API secret fields respectively.
+8. Save.
+9. After saving, an Event Consumer is created on the producer site (http://test_site_producer:8000). The keys of the user on the consumer site are automatically copied to the Event Consumer document on the producer site in this process.
 
     ![Event Producer](/docs/assets/img/automation/event-producer-doc.png)
 
-### 2.2 Approve Event Consumer on the Event Producer site
-1. After the Event Producer has been created, an Event Consumer automatically gets created on the other site. By default all the Subscribed Document Types have the status as 'Pending'. In order to enable the Event Consumer to consume the documents of these Document Types, their Status needs to be updated to 'Approved'.
+### 2.4 Approve Event Consumer on the Event Producer site
+
+1. After the Event Producer has been created, an Event Consumer automatically gets created on the producer site. By default all the Subscribed Document Types have the status as 'Pending'. In order to enable the Event Consumer to consume the documents of these Document Types, their Status needs to be updated to 'Approved'.
 2. Go to: **Home > Automation > Event Streaming > Event Consumer**.
 3. Once you open the Event Consumer document you will see all the Document Types that the consumer has subscribed to. Change the status from 'Pending' to 'Approved' for all the Document Types that you want to approve to be consumed. You can change the status to 'Rejected' if you do not want the documents of that Document Type to be consumed.
 4. Save.
@@ -37,7 +51,7 @@ Before creating an Event Producer, a common user needs to be created on both the
 
 >**Note**: Document updates for Subscribed Document Types won't be synced unless they are Approved.
 
-### 2.3 Offline access with single site
+### 2.5 Offline access with single site
 If you have some places where internet connectivity is low, for example, a store in a remote area where sales invoices are generated and you want to sync these invoices from the store to the hosted account, you could setup offline syncing using the following steps:
 
 1. Set up an ERPNext local instance. You can refer [this guide](https://github.com/frappe/bench) for local setup.
@@ -48,7 +62,14 @@ If you have some places where internet connectivity is low, for example, a store
 
 ## 3. Features
 
-### 3.1 Event Update Log
+
+### 3.1 Unsubscribe from the updates
+
+As an event consumer, if you wish to unsubscribe from the updates for any doctypes you had previously subscribed to, check unsubscribe against the doctype. You will not receive any more updates from the producer site for that particular doctype once you have unsubscribed.
+
+![Unsubscribe](/docs/assets/img/automation/unsubscribe-event.png)
+
+### 3.2 Event Update Log
 Event Update Log logs every create, update, and delete for documents that have consumers on the Event Producer site.
 In order to view the Event Update Log:
 
@@ -60,7 +81,7 @@ Go to: **Home > Automation > Event Streaming > Event Update Log**.
 
 ![Event Update Log](/docs/assets/img/automation/event-update-log-doc.png)
 
-### 3.2 Event Sync Log
+### 3.3 Event Sync Log
 Like the Update Log, Event Sync Log logs every document synced from the Event Producer on the Event Consumer site.
 In order to view the Event Sync Log:
 
@@ -89,13 +110,13 @@ A failed event generates a log doc with the above fields along with:
 - **Resync Button**: It also provides a 'Resync' button in order to resync the failed event.
     ![Event Failed](/docs/assets/img/automation/event-failed.png)
 
-### 3.3 Dependency Syncing
+### 3.4 Dependency Syncing
 Certain Document Types have dependencies. For example, before syncing a Sales Invoice, the Item and Customer need to be present in the current site. So, Item and Customer are dependencies for Sales Invoice. Event Streaming handles this by on-demand dependency syncing. Whenever any document is to be synced, it first checks whether the document has any dependencies (Link fields, Dynamic Link fields, Child Table fields, etc.). If that dependency is not fullfilled i.e. the dependent document (eg: Item) is not present on your consumer site, it will be synced first and then the Sales Invoice will be synced.
 
 For example: Sales Invoice syncing with Item dependency:
     ![Event Dependency](/docs/assets/img/automation/event-dependency-sync.gif)
 
-### 3.4 Naming Configuration
+### 3.5 Naming Configuration
 Check the 'Use Same Name' checkbox to let the documents have same name on both Event Producer and Event Consumer sites. If this is not checked, then the document will be created using the naming conventions of the current site.
 
 ![Use Same Name Config](/docs/assets/img/automation/event-use-same-name.png)
@@ -104,7 +125,7 @@ Check the 'Use Same Name' checkbox to let the documents have same name on both E
 
 ![Subscribed Document](/docs/assets/img/automation/event-subscribed-doc.png)
 
-### 3.5 Mapping Configuration
+### 3.6 Mapping Configuration
 
 If you want to stream documents between an ERPNext instance and another Frappe app for a particular Document Type with same or different structures, or if field names are different in both the sites, you can use Event Streaming with Mapping Configuration.
 
@@ -114,7 +135,7 @@ To access Document Type Mapping, go to:
 
 > Home > Automation > Event Streaming > Document Type Mapping.
 
-#### 3.5.1 Mapping for DocTypes with similar structure
+#### 3.6.1 Mapping for DocTypes with similar structure
 
 - **Mapping Name**: Give a unique name to the mapping
 - **Local Document Type**: The Document Type in your current site
@@ -127,14 +148,14 @@ In the Field Mapping child table:
 
 ![Document Type Mapping](/docs/assets/img/automation/event-field-mapping.png)
 
-#### 3.5.2 Default value for some field
+#### 3.6.2 Default value for some field
 
 If your field is not mapped to any other remote fieldname and you always want the field to have the same value, set the set the same in the default value field. Event if you have set the remote fieldname, in case during the sync, remote field's value is not found and if the "Default Value" has been specified, it will be set.
 
 ![Child Table Mapping Link](/docs/assets/img/automation/default.png)
 
 
-#### 3.5.3 Mapping for DocTypes having child tables
+#### 3.6.3 Mapping for DocTypes having child tables
 
 If the field you are trying to map is a child table, you need to create another Document Type Mapping for the child table fields.
 
@@ -145,7 +166,7 @@ If the field you are trying to map is a child table, you need to create another 
 
 ![Child Table Mapping Link](/docs/assets/img/automation/event-map-is-child-table.png)
 
-#### 3.5.4 Mapping for DocTypes having dependencies (Link, Dynamic Link fields)
+#### 3.6.4 Mapping for DocTypes having dependencies (Link, Dynamic Link fields)
 
 If the DocTypes you are trying to map have any kind of dependencies like Link or Dynamic Link fields, you need to set up another Document Type Mapping for syncing the dependencies.
 
