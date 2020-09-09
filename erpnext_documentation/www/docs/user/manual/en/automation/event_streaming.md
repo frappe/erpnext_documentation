@@ -40,6 +40,8 @@ Let's take 2 sites for explaining the process. http://test_site:8000 (Consumer s
 
     ![Event Producer](/docs/assets/img/automation/event-producer-doc.png)
 
+>**Note**: If at all the API Secret is changed for the users on any of these sites, you will have to manually update the keys in Event Producer as well as the Event Consumer on both the sites.
+
 ### 2.4 Approve Event Consumer on the Event Producer site
 
 1. After the Event Producer has been created, an Event Consumer automatically gets created on the producer site. By default all the Subscribed Document Types have the status as 'Pending'. In order to enable the Event Consumer to consume the documents of these Document Types, their Status needs to be updated to 'Approved'.
