@@ -1,0 +1,194 @@
+---
+full_width: 1
+title: Manual do Usuário ERPNext (Português)
+---
+
+{% from "templates/includes/macros.html" import cards %}
+
+{{ web_blocks([
+	{
+		'template': 'Hero',
+		'values': {
+			'title': 'Manual do Usuário (Português)',
+			'subtitle': 'Explore os modulos para conhecer as funcionalidades do ERPNext'
+		},
+		'add_bottom_padding': 0,
+		'add_container': 0
+	}
+]) }}
+
+<section class="section section-padding-top">
+	<h2 class="section-title">Basico</h2>
+	{{ cards([
+		{
+			'title': 'Introdução',
+			'content': 'Introdução ao ERPNext para entender antes de começar a sua implementação',
+			'link': '/docs/user/manual/pt/introdução',
+		},
+		{
+			'title': 'Configuração',
+			'content': 'Aprenda como configurar o ERPNext para sua empresa e estrutura organizacional',
+			'link': '/docs/user/manual/pt/configuração',
+		},
+		{
+			'title': 'Usando o ERPNext',
+			'content': 'Aprenda como navegar em torno do interface do usuário e ferramentas uteis',
+			'link': '/docs/user/manual/pt/usando-erpnext',
+		},
+		{
+			'title': 'Automação',
+			'content': 'Aprenda como automatizar o ERPNext salvando tempo de tarefas diarias',
+			'link': '/docs/user/manual/pt/automação',
+		},
+	]) }}
+</section>
+
+	
+<section class="section section-padding-top">
+	<h2 class="section-title">Modulos Base</h2>
+	{{ cards([
+		{
+			'title': 'Contabilidade',
+			'link': '/docs/user/manual/pt/contabilidade',
+			'content': 'Contabilidade Financeira desde a configuração para cobrar, jornais, ledgers e relatórios'
+		},
+		{
+			'title': 'Inventário/Stocks',
+			'link': '/docs/user/manual/pt/inventario',
+			'content': 'Gestão de Stocks com localização da arvore hierarquica, movimento de stock, numeros de serie e lotes'
+		},
+		{
+			'title': 'CRM',
+			'link': '/docs/user/manual/pt/CRM',
+			'content': 'Rastrei o processo de pré-venda desde a captura do Lead, rastrei Oportunidades abertas, emails e chamadas'
+		},
+		{
+			'title': 'Vendas',
+			'link': '/docs/user/manual/pt/vendas',
+			'content': 'Vendas cobre o rastreio das operações de vendas como Proformas (Ofertas), Ordens de Venda e Guias de Remessa'
+		},
+		{
+			'title': 'Compras',
+			'link': '/docs/user/manual/pt/compras',
+			'content': 'Gestão de Compras no ERPNext desde a aquisição de material, cotação de fornecedor até Ordens de Compra'
+		},
+		{
+			'title': 'Recursos Humanos',
+			'link': '/docs/user/manual/pt/recursos-humanos',
+			'content': 'Gestão de Ferias e Assiduidade, Reembolso de Despesas, Salário e processamento, Recrutamento, Avaliação e muito mais'
+		},
+		{
+			'title': 'Projectos',
+			'link': '/docs/user/manual/pt/projectos',
+			'content': 'Gestão de Projecto e tarefas com integração completa as cobranças e centros de custo'
+		},
+		{
+			'title': 'Suporte',
+			'link': '/docs/user/manual/pt/suporte',
+			'content': 'Gestão dos bilhetes e problemas dos clientes, manter nivel de serviço e tempo de resposta e soluçoes'
+		},
+		{
+			'title': 'Activos',
+			'link': '/docs/user/manual/pt/activos',
+			'content': 'Gestão de Activos e rastreio das depreciações, alocação e movimento dos activos'
+		},
+		{
+			'title': 'Gestão de Qualidade',
+			'link': '/docs/user/manual/pt/gestão-qualidade',
+			'content': 'Sistema de Gestão de Qualidade com procedimentos, objectivos, rastreio e revisão'
+		},
+	])
+	}}
+</section>
+
+<section class="section section-padding-top">
+	<h2 class="section-title">Modulos para Industria</h2>
+	{{
+		cards([
+			{
+				'title': 'Fabrico',
+				'link': '/docs/user/manual/pt/fabrico',
+				'content': 'Gerir Lista de Material a multi-niveis, plano e rastreio de producçaõ com Ordens de Trabalho',
+			},
+			{
+				'title': 'Educação',
+				'link': '/docs/user/manual/pt/educação',
+				'content': 'Gerir um ciclo completo dos Alunos, desde admissão, matricula, assiduidade e exames',
+			},
+			{
+				'title': 'Cuidados de Saúde',
+				'link': '/docs/user/manual/pt/saúde',
+				'content': 'Gerir pacientes, enfermeiros, horário, agenda dos médicos e relatórios, consultas, procedimentos e relatórios de laboratório',
+			},
+			{
+				'title': 'Agricultura',
+				'link': '/docs/user/manual/pt/agricultura',
+				'content': 'Gerir fazendas, crops, ciclo de crescimento, doenças das crop e muito mais',
+				'badge': 'beta',
+			},
+			{
+				'title': 'Sem fins Lucrativos',
+				'link': '/docs/user/manual/pt/sem_lucros',
+				'content': 'Gerir membros, subscrições, voluntários, emprestimos para sua causa',
+				'badge': 'beta',
+			},
+			{
+				'title': 'Hospitality',
+				'link': '/docs/user/manual/pt/hospitality',
+				'content': 'Management multiple restaurants and hotels with table and room booking (beta)',
+				'badge': 'beta'
+			},
+		])
+	}}
+</section>
+
+<section class="section section-padding-top">
+	<h2 class="section-title">Customizações e Integrações</h2>
+	{{
+		cards([
+			{
+				'title': 'Customização do ERPNext',
+				'link': '/docs/user/manual/pt/customização-erpnext',
+				'content': 'Aprenda a customizar o ERPNext com campos personalizados, formato de impressão, scripts personalizadas, etc'
+			},
+			{
+				'title': 'Regional',
+				'link': '/docs/user/manual/pt/regional',
+				'content': 'O ERPNext tem suporte interno integrado para muitas regiões como a India, Estados Unidos, UAE, Italia'
+			},
+			{
+				'title': 'Integrações',
+				'link': '/docs/user/manual/pt/integração_erpnext',
+				'content': 'Aprendar como tirar partido das integrações para pagamentos, Google, AWS e muito mais'
+			},
+			{
+				'title': 'Traduções',
+				'link': '/docs/user/manual/pt/traduções',
+				'content': 'Aprenda como contribuir para as traduções no ERPNext'
+			},
+			{
+				'title': 'Programador',
+				'link': 'https://frappe.io/docs',
+				'content': 'Aprenda a extender e contribuir para o ERPNext ou construir a sua propria extensão'
+			}
+		])
+	}}
+</section>
+
+<section class="section section-padding-top">
+	<h2 class="section-title">Portais e Pagina Web</h2>
+	{{
+		cards([
+			{
+				'title': 'Pagina Web',
+				'link': '/docs/user/manual/pt/website',
+				'content': 'Gerencie as suas paginas web, catalogo de produtos, cartão de compras, formulários web e muito mais com as ferramentas do portal'
+			},
+			{
+				'title': 'Portal Cliente',
+				'link': '/docs/user/manual/pt/portal-cliente',
+				'content': 'Permita que os seu clientes e vendedores façam compras online, submetam propostas, etc com os Portais do ERPNext'
+			}
+		])
+	}}
+</section>

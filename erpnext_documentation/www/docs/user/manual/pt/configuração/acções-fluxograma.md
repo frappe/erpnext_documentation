@@ -1,27 +1,27 @@
 <!-- add-breadcrumbs -->
 
-# Workflow Actions
+# Acções do Fluxograma
 
-> Introduced in Version 11
+> Introduzido na Versão 11
 
-**Workflow Actions is a single place to manage all the pending actions you can take on Workflows.**
+**Acções do Fluxograma é um lugar unico para gerir todas as acções pendentes que podem ser feitas em Fluxogramas.**
 
-Workflow Actions will send email notifications only if the 'Send Email Alert' checkbox is ticked in the Workflow that you've created.
+A Acção de Fluxograma apenas envia uma notificação de email caso o 'Enviar Alerta por Email' estiver activo no Fluxograma que voçê criou.
 
-To access Workflow Actions, go to:
-> Home > Settings > Workflow Actions
+Para aceder as Acções do Fluxograma, vá para:
+> Home > Configurações > Acções do Fluxograma
 
-If a User is eligible to take action on some workflows, emails will be sent to the user with the relevant document as attachment. From there the user can `Approve` or `Reject` the Workflow.
+Caso o Usuário tenha permissão para agir em alguns fluxogramas, emails seram enviado para o usuário com os referidos documentos em anexo. Apartir daí o usuário poderá `Aprovar` ou `Rejeitar` o Fluxograma.
 <img class="screenshot" alt="Workflow" src="{{docs_base_url}}/assets/img/setup/workflow-actions-email.png">
 
-Also the users will see entries in their Workflow Action list:
+Os usuários iram ver tambem as entradas na lista de Acções do Fluxograma deles:
 <img class="screenshot" alt="Workflow" src="{{docs_base_url}}/assets/img/setup/workflow-actions-list.png">
 
-**Note:**
+**Nota:**
 
-- You can set email template for Workflow Actions on each state. The template might consist of a message for users to proceed with the next Workflow Actions.
-- Workflow Actions will not be created for a transition to optional states.
+- Pode configurar um formulário de email para as Acções de Fluxograma para cada estado. O formulário poderá consistir de em uma mensagem para os usuários avançarem com a proxima Acção do Fluxograma.
+- Acções do Fluxograma não serão criadas para a transição de estados opcionais.
 
-### Related Topics
-1. [Workflows](/docs/user/manual/en/setting-up/workflows)
-1. [Assignment Rule](/docs/user/manual/en/automation/assignment-rule)
+### Topicos Relacionados
+1. [Fluxogramas](/docs/user/manual/pt/configuração/fluxogramas)
+1. [Regras de Atribuição](/docs/user/manual/pt/automação/regra-atribuição)
