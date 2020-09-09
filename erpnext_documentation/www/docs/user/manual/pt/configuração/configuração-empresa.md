@@ -1,49 +1,49 @@
 <!-- add-breadcrumbs -->
 # Configuração Empresa
 
-**A company is a legal entity made up of an association of people for carrying on a commercial or industrial enterprise.**
+**A empresa é uma entidade legal feita da associação de pessoas para levar a cabo uma activadade comercial ou industrial.**
 
-In ERPNext, the first Company is created when an ERPNext account is set up. For each Company, you can set a domain as manufacturing, retail, or services depending on the nature of your business activity.
+No ERPNext, as primeira Empresa é criada uma conta é criada. Para cada Empresa, voçê pode definir como Fabrico, Venda Retalho ou serviços dependendo da actividade do seu negocio.
 
-If you have more than one company, you can add them from:
+Caso tenha mais que uma empresa, voçê pode adicionar por aqui:
 
-> Home > Accounting > Company
+> Home > Contabilidade > Empresa
 
-## 1. How to create a new Company
-1. Go to the Company list, click on New.
-1. Enter the name, abbreviation, and default currency for the company.
-1. Save.
+## 1. Como criar uma nova Empresa
+1. Vai para lista de Empresa, Click em Novo.
+1. Digite o nome, abreviatura e a moeda por defeito da empresa.
+1. Salvar.
 
-The abbreviation for your company is created by default. For example, FT for Frappe Technologies. The abbreviation helps in differentiating assets of one company from another.
+A abreviatura para a sua empresa é criada por defeito. Por exemplo, FT para Frappe Technologies. A abreviatura ajuda em diferenciar os ativos de uma empresa em relação a outra.
 
-The abbreviation also appears in various accounts, cost centers, taxes templates, warehouse, etc, of your company. 
+A abreviatura tambem aparece na sua empresa em varias contas, centros de custo, modelos de impostos, armazens, etc. 
 
-You can also attach a company logo and add a description for the company.
+Voçê pode tambem adicionar o Logo da empresa e adiconar uma descrição da Empresa.
 
-![Company Master](/docs/assets/img/setup/company-master.png)
+![Empresa Mestre](/docs/assets/img/setup/company-master.png)
 
-### 1.1 Multi Company Structure
+### 1.1 Estrutura de Multi Empresa
 
-Let's assume you run a group of companies, some may be larger companies and some may be smaller that are a part of the larger company(s).
+Vamos assumir que voçê gere um grupo de empresas, algumas podem ser grandes e outras pequenas que fazem parte da empresa(s) grande.
 
-In ERPNext, you can set up multiple companies. The company structure can be parallel, i.e., sister companies, parent-child companies, or a combination of both.
+No ERPNext, voçê pode adicionar varias empresas. A estrutura da empresa pode ser paralela, ex. sister companies, empresa mãe-filhos, ou uma combinação de ambas.
 
-A parent company is a larger organization which consists of one or more child companies. A child company is a subsidiary of a parent company.
+Uma empresa parente é uma empresa grande que consiste em ter uma ou mais empresas filhas. Um empresa filha é uma subsidiaria da uma empresa mãe.
 
-The company tree view displays the overall structure of your companies.
+A visão em arvore da empresa mostra a estrutura de todoas as suas empresas.
 
 <img class="screenshot" alt="Company Tree" src="{{docs_base_url}}/assets/img/accounts/company-tree.png">
 
-Once you build a company tree, ERPNext will validate if the accounts of the child companies match the accounts in the parent company. All the accounts can be combined in a consolidated chart of accounts statement.
+Quando constroe uma arvore de empresa, o ERPNext vai validade se as contas das empresas filhas são iguais as contas das empresa parent. Todas as contas podem ser combinadas num plano de contas consolidado.
 
-### 1.2 Other Options when Creating a Company
+### 1.2 Outras Opções ao Criar a Empresa
 
-* **Domain**: The domain of work the company is into. Eg: manufacturing, services, etc. Choose one when setting up your account.
-* **Is Group**: If checked, this becomes a parent company.
-* **Parent Company**: If this is a child company, set the parent from this field i.e., select a group company this company belongs to. If a parent company is set, the chart of accounts for the new company you're creating will be created based on the selected parent company.
+* **Dominio**: O dominio de trabalho em que a empresa tem. Eg: fabrico, serviços, etc. Escolha uma ao configurar a sua conta.
+* **É Grupo**: Caso selecionada, ficará a Empresa Mãe.
+* **Empresa Mãe**: Caso seja uma empresa filha, digite a empresa maẽ aqui eg., selecione o grupo de empresa que ela pertença. Se uma empresa mãe existe, o plano de contas para anova empresa a ser criada será com base na empresa mãe.
 
-### 1.3 Chart of Accounts
-For each Company, the master for Chart of Accounts is maintained separately. This allows you to maintain separate accounting for each company as per the legal requirements. You can also import chart of accounts using the [Charts Of Accounts Importer](/docs/user/manual/en/setting-up/chart-of-accounts-importer).
+### 1.3 Plano de Contas
+Para cada Empresa, o Plano de Contas é mantido separado. Faz com tenha uma contabilidade separada para cada empresa de acordo as regras legais. Voçê pode importa plnao de contas usando [Importar Plano de Contas](/docs/user/manual/pt/configuração/importar-plano-de-contas).
 
 <img class="screenshot" alt="Company Chart of Accounts" src="{{docs_base_url}}/assets/img/accounts/company-coa.png">
 
@@ -72,10 +72,10 @@ The following defaults can be set for a company:
 
 ## 2. Features
 ### 2.1 Monthly Sales Target
-Set the monthly sales target number in the company currency, for example, $10,000. Total monthly sales will be visible once transactions are made. To know more [click here](/docs/user/manual/en/setting-up/setting-company-sales-goal).
+Set the monthly sales target number in the company currency, for example, $10,000. Total monthly sales will be visible once transactions are made. To know more [click here](/docs/user/manual/pt/configuração/setting-company-sales-goal).
 
 ### 2.2 Account Settings
-Some of the following accounts will be set by default when you create a new company, others can be created. The accounts can be seen in the [Chart of Accounts](/docs/user/manual/en/accounts/chart-of-accounts). These values can be changed later on if needed.
+Some of the following accounts will be set by default when you create a new company, others can be created. The accounts can be seen in the [Chart of Accounts](/docs/user/manual/pt/accounts/chart-of-accounts). These values can be changed later on if needed.
 
 * Default Bank Account
 * Default Cash Account
@@ -100,7 +100,7 @@ Some of the following accounts will be set by default when you create a new comp
 * Default Payment Terms Template
 
 ### 2.3 Stock Settings
-Perpetual Inventory feature would lead to Stock transactions impacting the company's books of accounts. Know more [here](/docs/user/manual/en/stock/perpetual-inventory). It is enabled by default.
+Perpetual Inventory feature would lead to Stock transactions impacting the company's books of accounts. Know more [here](/docs/user/manual/pt/stock/perpetual-inventory). It is enabled by default.
 
 * Default Inventory Account
 * Stock Adjustment Account
@@ -110,7 +110,7 @@ Perpetual Inventory feature would lead to Stock transactions impacting the compa
     ![Stock Settings in Company](/docs/assets/img/setup/company-stock-settings.png)
 
 ### 2.4 Fixed Asset Depreciation Settings
-For managing fixed assets in a company, the following accounts are needed. Most of them will be created by default. They can be seen in the [Chart of Accounts](/docs/user/manual/en/accounts/chart-of-accounts).
+For managing fixed assets in a company, the following accounts are needed. Most of them will be created by default. They can be seen in the [Chart of Accounts](/docs/user/manual/pt/accounts/chart-of-accounts).
 
 * Accumulated Depreciation Account
 * Depreciation Expense Account
@@ -196,11 +196,11 @@ And you're done. The master data like Item, Account, Employee, BOM etc. will rem
 * Stock Entries linked to a Warehouse of this Company will be deleted
 
 ### 3. Related Topics
-1. [Setting Up Taxes](/docs/user/manual/en/setting-up/setting-up-taxes)
-1. [System Settings](/docs/user/manual/en/setting-up/settings/system-settings)
-1. [Charts Of Accounts Importer](/docs/user/manual/en/setting-up/chart-of-accounts-importer)
-1. [Users and Permissions](/docs/user/manual/en/setting-up/users-and-permissions)
-1. [Adding Users](/docs/user/manual/en/setting-up/users-and-permissions/adding-users)
-1. [Letter Head](/docs/user/manual/en/setting-up/print/letter-head)
-1. [Email Account](/docs/user/manual/en/setting-up/email/email-account)
-1. [Administrator](/docs/user/manual/en/setting-up/users-and-permissions/administrator)
+1. [Setting Up Taxes](/docs/user/manual/pt/configuração/setting-up-taxes)
+1. [System Settings](/docs/user/manual/pt/configuração/settings/system-settings)
+1. [Charts Of Accounts Importer](/docs/user/manual/pt/configuração/chart-of-accounts-importer)
+1. [Users and Permissions](/docs/user/manual/pt/configuração/users-and-permissions)
+1. [Adding Users](/docs/user/manual/pt/configuração/users-and-permissions/adding-users)
+1. [Letter Head](/docs/user/manual/pt/configuração/print/letter-head)
+1. [Email Account](/docs/user/manual/pt/configuração/email/email-account)
+1. [Administrator](/docs/user/manual/pt/configuração/users-and-permissions/administrator)
