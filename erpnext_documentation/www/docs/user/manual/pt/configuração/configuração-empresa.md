@@ -199,7 +199,7 @@ E está feito. Os dados mestre como Item, Contas, Funcioanarios, LDM, etc vão p
 1. [Configurar Impostos](/docs/user/manual/pt/configuração/configurar-impostos)
 1. [Configurações do Sistema](/docs/user/manual/pt/configuração/configurações/configurações-sistema)
 1. [Importar Plano de Contas](/docs/user/manual/pt/configuração/importar-plano-de-contas)
-1. [Usuários e Permissões](/docs/user/manual/pt/configuração/usuarios-e-permissṍes)
+1. [Usuários e Permissões](/docs/user/manual/pt/configuração/usuarios-e-permissões)
 1. [Adicionar Usuários](/docs/user/manual/pt/configuração/usuarios-e-permissões/adicionar-usuarios)
 1. [Cabeçalho de Carta](/docs/user/manual/pt/configuração/impressão/cabeçalho-carta)
 1. [Conta de Email](/docs/user/manual/pt/configuração/email/conta-email)

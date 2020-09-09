@@ -1,13 +1,13 @@
 <!-- add-breadcrumbs -->
-# Users And Permissions
+# Usuários e Permissões
 
-In ERPNext, you can create multiple users and assign them different roles.
+No ERPNext, voçê pode criar varios usuários e atribuir regras diferentes.
 
-A role is a set of permissions assigned to a user so that they can access the documents they need to. For example, a sales employee will need access to sales transactions but will not have access to approve leaves. 
+Uma regra é um conjunto de permissões atribuidas a um usuário para que ele tenha acesso aos documentos que precisa. Por exemplo, um funcionário de vendas irá precisar de acesso as transações de vendas mas não terá acesso para aprovar ferias. 
 
-Some users can only access the public-facing part of ERPNext (i.e. a portal view). Such users are called "Website Users". "System Users" will have access to modules and can access documents as per the roles set.
+Alguns usuários somente podem aceder a parte publica do ERPNext (ex. vista do portal). Tais usuarios são chamadas de "Usuarios de Pagina". "Usuarios de Sistema" teram acesso aos modulos do sistema e podem aceder documentos de acordo as regras que tem.
 
-ERPNext implements permission control at the User and Role level. Each user in the system can be assigned multiple roles and permissions. The most important role is "System Manager". Any user having this role can add other users and set roles for all users.
+ERPNext implementa permissões de control ao nivel de Usuários e nivel de Regra. Cada usuário no sistema pode ser atribuido varios papeis e permissões. O papel mais importante  é "Gestor do Sistema". Qualquer usuário tendo este papel pode adicionar outros usuários e definir os papeis de todos.
 
 <div>
     <div class='embed-container'>
@@ -16,12 +16,12 @@ ERPNext implements permission control at the User and Role level. Each user in t
     </div>
 </div>
 
-### Related Topics
+### Topicos Relacionados
 
-1. [Adding Users](/docs/user/manual/en/setting-up/users-and-permissions/adding-users)
-1. [Role and Role Profile](/docs/user/manual/en/setting-up/users-and-permissions/role-and-role-profile)
-1. [Role Based Permissions](/docs/user/manual/en/setting-up/users-and-permissions/role-based-permissions)
-1. [User Permissions](/docs/user/manual/en/setting-up/users-and-permissions/user-permissions)
-1. [Role Permission For Page And Report](/docs/user/manual/en/setting-up/users-and-permissions/role-permission-for-page-and-report)
-1. [Sharing](/docs/user/manual/en/setting-up/users-and-permissions/sharing)
-1. [Administrator](/docs/user/manual/en/setting-up/users-and-permissions/administrator)
+1. [Adicioar Usuarios](/docs/user/manual/pt/configuração/usuarios-e-permissões/adding-users)
+1. [Papel e Perfil de Papel](/docs/user/manual/pt/configuração/usuarios-e-permissões/role-and-role-profile)
+1. [Permissões Baseadas Regras](/docs/user/manual/pt/configuração/usuarios-e-permissões/role-based-permissions)
+1. [Permissões de Usuario](/docs/user/manual/pt/configuração/usuarios-e-permissões/user-permissions)
+1. [Regra de Permissão para Pagina e Relatorio](/docs/user/manual/pt/configuração/usuarios-e-permissões/role-permission-for-page-and-report)
+1. [Partilhar](/docs/user/manual/pt/configuração/usuarios-e-permissões/sharing)
+1. [Administrador](/docs/user/manual/pt/configuração/usuarios-e-permissões/administrator)
