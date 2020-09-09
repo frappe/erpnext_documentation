@@ -30,9 +30,9 @@ No ERPNext, voçê pode adicionar varias empresas. A estrutura da empresa pode s
 
 Uma empresa parente é uma empresa grande que consiste em ter uma ou mais empresas filhas. Um empresa filha é uma subsidiaria da uma empresa mãe.
 
-A visão em arvore da empresa mostra a estrutura de todoas as suas empresas.
+A visão em arvore da empresa mostra a estrutura de todas as suas empresas.
 
-<img class="screenshot" alt="Company Tree" src="{{docs_base_url}}/assets/img/contabilidade/company-tree.png">
+<img class="screenshot" alt="Company Tree" src="{{docs_base_url}}/assets/img/accounts/company-tree.png">
 
 Quando constroe uma arvore de empresa, o ERPNext vai validade se as contas das empresas filhas são iguais as contas das empresa parent. Todas as contas podem ser combinadas num plano de contas consolidado.
 
@@ -45,14 +45,14 @@ Quando constroe uma arvore de empresa, o ERPNext vai validade se as contas das e
 ### 1.3 Plano de Contas
 Para cada Empresa, o Plano de Contas é mantido separado. Faz com tenha uma contabilidade separada para cada empresa de acordo as regras legais. Voçê pode importa plano de contas usando [Importar Plano de Contas](/docs/user/manual/pt/configuração/importar-plano-de-contas).
 
-<img class="screenshot" alt="Company Chart of Accounts" src="{{docs_base_url}}/assets/img/contabilidade/company-coa.png">
+<img class="screenshot" alt="Company Chart of Accounts" src="{{docs_base_url}}/assets/img/accounts/company-coa.png">
 
 O ERPNext tem um Plano de Contas disponivel para alguns paise. Ao criar a nova Empresa, voçê pode escolher o Plano de Contas atravez de uma das seguintes opções.
 
 * Plano de Contas Standard
 * Baseado no Plano de Contas de um Empresa Existente
 
-<img class="screenshot" alt="Company Chart of Accounts" src="{{docs_base_url}}/assets/img/contabilidade/company-coa-2.png">
+<img class="screenshot" alt="Company Chart of Accounts" src="{{docs_base_url}}/assets/img/accounts/company-coa-2.png">
 
 De nota que, se a Empresa mãe for selecionar ao criar a nova Empresa, o Plano de Contas será com base na empresa mãe.
 
