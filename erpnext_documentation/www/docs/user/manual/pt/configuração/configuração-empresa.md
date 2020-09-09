@@ -1,5 +1,5 @@
 <!-- add-breadcrumbs -->
-# Company Setup
+# Configuração Empresa
 
 **A company is a legal entity made up of an association of people for carrying on a commercial or industrial enterprise.**
 
