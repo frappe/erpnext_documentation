@@ -25,7 +25,7 @@ Então mesmo nos dias de hoje, pequenos negocios continuam a lugar para mantarem
 O ERPNext direciona os problemas fundamentais que as PME se debatem durante a gestão dos seus recursos:
 
 - **Acessibilidade**: É um sistema livre e Programa de Codigo Aberto, disponivel para fazer o download e instalar gratuito.
-- **Integridade**: Todos os modulos necessários estão disponiveis.. [Vêr lista completa](https://erpnext.com/docs/user/manual/pt "Manual de Usuário ERPNext").
+- **Integridade**: Todos os modulos necessários estão disponiveis. [Vêr lista completa](https://erpnext.com/docs/user/manual/pt "Manual de Usuário ERPNext").
 - **Customização**: É facil adicionar campos ou adicionar mais funcionalidades.
 - **Eficiencia**: Requerimentos de Computador são bastante baixos (mais barato alojar do que gerir).
 - **Salubridade**: Um unico sistema e base de dados que permite varios usuários gravar as transações ou extrair dados em simultaneo.

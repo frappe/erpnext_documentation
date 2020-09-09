@@ -9,4 +9,4 @@ chave. Este fluxograma não cobre todas as funcionalidades do ERPNext.
 _Nota: Nem todo os passos são obrigatórios. O ERPNext permite que voçê skip alguns passos
 caso queira simplificar o processo._
 
-{proximo}
+{next}

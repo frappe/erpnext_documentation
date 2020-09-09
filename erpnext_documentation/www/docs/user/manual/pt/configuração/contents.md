@@ -1,142 +1,142 @@
 <!-- add-breadcrumbs -->
-# Setting Up
+# Configurando
 
-Setting up an ERP system is like starting your business all over again but in the virtual world. Thankfully it is not as hard as the real business and you get to do a trial too!
+Configurando um sistem de ERP é como começar o seu negocio de novo num mundo virtual. Não é tão dificil como no mundo real e voçê sempre pode fazer testes!
 
-To get an ERP implementation right, the implementor needs to set aside time and perform the implementation with dedication. Usually, this is not your post work side project you spare a couple of hours on.
+Para acertar numa implementação de ERP, o implementador precisa de tempo e fazer implementação com dedicação. Normalmente, não é o seu ponto de trabalho a parte que dá algumas horas. Usually, this is not your post work side project you spare a couple of hours on.
 
-You'll find the global configuration options here, for module-wise setup, visit the respective modules.
+Voçê irá encontrar a opção de configuração global aqui, para configuração geral visite os modulos respectivos.
 
-## 1. Topics
+## 1. Topicos
 
-### 1.1 Basic Setup
-1. [Company Setup](/docs/user/manual/en/setting-up/company-setup)
-1. [Setting Up Taxes](/docs/user/manual/en/setting-up/setting-up-taxes)
-1. [Setting Company Sales Goal](/docs/user/manual/en/setting-up/setting-company-sales-goal)
-1. [Global Defaults](/docs/user/manual/en/setting-up/settings/global-defaults)
-1. [System Settings](/docs/user/manual/en/setting-up/settings/system-settings)
-1. [Letterhead](/docs/user/manual/en/setting-up/print/letter-head)
+### 1.1 Configuração Basica
+1. [Configuração Empresa](/docs/user/manual/pt/configuração/configuração-empresa)
+1. [Configurar Impostos](/docs/user/manual/pt/configuração/configurar-impostos)
+1. [Configurar Ojectivos de Vendas da Empresa](/docs/user/manual/pt/configuração/configurar-objectivos-vendas-empresa)
+1. [Global Defaults](/docs/user/manual/pt/configuração/configurações/global-defaults)
+1. [Configurações do Sistema](/docs/user/manual/pt/configuração/configurações/configurações-sistema)
+1. [Cabeçalho de Carta](/docs/user/manual/pt/configuração/imprimir/cabeçalho-carta)
 
-### 1.2 Data Import
-1. [Data Import](/docs/user/manual/en/setting-up/data/data-import)
-1. [Data Export](/docs/user/manual/en/setting-up/data/data-export)
-1. [Charts Of Accounts Importer](/docs/user/manual/en/setting-up/chart-of-accounts-importer)
-1. [Download Backup](/docs/user/manual/en/setting-up/data/download-backup)
+### 1.2 Importar Dados
+1. [Importar Dados](/docs/user/manual/pt/configuração/dados/importar-dados)
+1. [Exportar Dados](/docs/user/manual/pt/configuração/dados/exportar-dados)
+1. [Importar Plano de Contas](/docs/user/manual/pt/configuração/importar-plano-de-contas)
+1. [Descarrgar Backup](/docs/user/manual/pt/configuração/dados/descarregar-backup)
 
-### 1.3 User and Permissions
-1. [Users and Permissions](/docs/user/manual/en/setting-up/users-and-permissions)
-1. [Adding Users](/docs/user/manual/en/setting-up/users-and-permissions/adding-users)
-1. [Role and Role Profile](/docs/user/manual/en/setting-up/users-and-permissions/role-and-role-profile)
-1. [Role Based Permissions](/docs/user/manual/en/setting-up/users-and-permissions/role-based-permissions)
-1. [User Permissions](/docs/user/manual/en/setting-up/users-and-permissions/user-permissions)
-1. [Role Permission For Page And Report](/docs/user/manual/en/setting-up/users-and-permissions/role-permission-for-page-and-report)
-1. [Sharing](/docs/user/manual/en/setting-up/users-and-permissions/sharing)
-1. [Administrator](/docs/user/manual/en/setting-up/users-and-permissions/administrator)
+### 1.3 Usuários e Permissões
+1. [Usuários e Permissões](/docs/user/manual/pt/configuração/usuarios-e-permissões)
+1. [Adding Users](/docs/user/manual/pt/configuração/usuarios-e-permissões/adicionar-usuarios)
+1. [Regras e Perfile de Regras](/docs/user/manual/pt/configuração/usuarios-e-permissões/regras-perfil-regras)
+1. [Permissões Baseadas em Regras](/docs/user/manual/pt/configuração/usuarios-e-permissões/permissões-regras)
+1. [Permissões de Usuaŕio](/docs/user/manual/pt/configuração/usuarios-e-permissões/permissões-usuario)
+1. [Regra de Permissão para Pagina e Relatório](/docs/user/manual/pt/configuração/usuarios-e-permissões/regra-permissão-pagina-relatorio)
+1. [Partilhar](/docs/user/manual/pt/configuração/usuarios-e-permissões/partilhar)
+1. [Administrador](/docs/user/manual/pt/configuração/usuarios-e-permissões/administrador)
 
-### 1.4 Printing
-1. [Print Settings](/docs/user/manual/en/setting-up/print/print-settings)
-1. [Print Format](/docs/user/manual/en/setting-up/print/print-format)
-1. [Print Format Builder](/docs/user/manual/en/setting-up/print/print-format-builder)
-1. [Print Style](/docs/user/manual/en/setting-up/print/print-style)
-1. [Print Headings](/docs/user/manual/en/setting-up/print/print-headings)
-1. [Address Template](/docs/user/manual/en/setting-up/print/address-template)
-1. [Terms and Conditions Template](/docs/user/manual/en/setting-up/print/terms-and-conditions)
-1. [Cheque Print Template](/docs/user/manual/en/setting-up/print/cheque-print-template)
-1. [Custom Translations](/docs/user/manual/en/setting-up/print/custom-translations)
-1. [Raw Printing](/docs/user/manual/en/setting-up/print/raw-printing)
+### 1.4 Impressão
+1. [Configuração de Impressão](/docs/user/manual/pt/configuração/imprimir/configuração-impressão)
+1. [Formato de Impressão](/docs/user/manual/pt/configuração/imprimir/formato-impressão)
+1. [Construtor de Formato de Impressão](/docs/user/manual/pt/configuração/imprimir/construtor-formato-impressão)
+1. [Estilo de Impressão](/docs/user/manual/pt/configuração/imprimir/estilo-impressão)
+1. [Titulos de Impressão](/docs/user/manual/pt/configuração/imprimir/titulos-impressão)
+1. [Modelo Endereço](/docs/user/manual/pt/configuração/imprimir/modelo-endereço)
+1. [Modelo de Termos e Condições](/docs/user/manual/pt/configuração/imprimir/termos-e-condições)
+1. [Modelo de Impressão de Cheques](/docs/user/manual/pt/configuração/imprimir/modelo-impressão-cheque)
+1. [Tradução Customizada](/docs/user/manual/pt/configuração/imprimir/tradução-customizada)
+1. [Raw Printing](/docs/user/manual/pt/configuração/imprimir/raw-printing)
 
-### 1.5 Workflows
-1. [Workflows](/docs/user/manual/en/setting-up/workflows)
-1. [Workflow Actions](/docs/user/manual/en/setting-up/workflow-actions)
-1. [Workflow State](/docs/user/manual/en/setting-up/workflow-state)
-1. [Assignment Rule](/docs/user/manual/en/automation/assignment-rule)
+### 1.5 Fluxogramas
+1. [Fluxogramas](/docs/user/manual/pt/configuração/fluxogramas)
+1. [Acções de Fluxograma](/docs/user/manual/pt/configuração/acções-fluxograma)
+1. [Estado do Fluxograma](/docs/user/manual/pt/configuração/estado-fluxograma)
+1. [Regra de Atribuição](/docs/user/manual/pt/automação/regra-atribuição)
 
-### 1.6 Email and SMS
-1. [Email Domain](/docs/user/manual/en/setting-up/email/email-domain)
-1. [Email Account](/docs/user/manual/en/setting-up/email/email-account)
-1. [Email Inbox](/docs/user/manual/en/setting-up/email/email-inbox)
-1. [Email Template](/docs/user/manual/en/setting-up/email/email-template)
-1. [Sending Email from any Document](/docs/user/manual/en/setting-up/email/sending-email)
-1. [Linking Emails to Document](/docs/user/manual/en/setting-up/email/linking-emails-to-document)
-1. [Email Digest](/docs/user/manual/en/setting-up/email/email-digest)
-1. [Auto Email Reports](/docs/user/manual/en/setting-up/email/auto-email-reports)
-1. [SMS Settings](/docs/user/manual/en/setting-up/sms-setting)
-1. [Notification](/docs/user/manual/en/setting-up/notifications)
-1. [Document Follow](/docs/user/manual/en/setting-up/email/document-follow)
-1. [Email Dropbox](/docs/user/manual/en/setting-up/email/email-dropbox)
+### 1.6 Email e SMS
+1. [Dominio do Email](/docs/user/manual/pt/configuração/email/dominio-email)
+1. [Conta de Email](/docs/user/manual/pt/configuração/email/conta-email)
+1. [Caixa de Entrada de Email](/docs/user/manual/pt/configuração/email/entrada-email)
+1. [Modelo de Email](/docs/user/manual/pt/configuração/email/modelo-email)
+1. [Enviando Email apartir de Documento](/docs/user/manual/pt/configuração/email/enviando-email)
+1. [Ligando Emails a Documentos](/docs/user/manual/pt/configuração/email/ligando-emails-documentos)
+1. [Email Digest](/docs/user/manual/pt/configuração/email/email-digest)
+1. [Relatórios de Auto Email](/docs/user/manual/pt/configuração/email/auto-email-reports)
+1. [Configuração SMS](/docs/user/manual/pt/configuração/configuração-sms)
+1. [Notificações](/docs/user/manual/pt/configuração/notificações)
+1. [Seguir Documento](/docs/user/manual/pt/configuração/email/seguir-documento)
+1. [Email Dropbox](/docs/user/manual/pt/configuração/email/email-dropbox)
 
-### 1.7 System Configuration
-1. [Show or Hide Modules](/docs/user/manual/en/setting-up/settings/show-hide-modules)
-1. [Naming Series](/docs/user/manual/en/setting-up/settings/naming-series)
-1. [Session Defaults](/docs/user/manual/en/setting-up/settings/session-defaults)
-1. [Bulk Rename](/docs/user/manual/en/setting-up/settings/bulk-rename)
-1. [Bulk Update](/docs/user/manual/en/setting-up/bulk-update)
-1. [Milestone Tracking](/docs/user/manual/en/automation/milestone-tracker)
-1. [Auto Repeat](/docs/user/manual/en/automation/auto-repeat)
-1. [Domain Settings](/docs/user/manual/en/setting-up/domain-settings)
-1. [Energy Point System](/docs/user/manual/en/setting-up/energy-point-system)
+### 1.7 Configuração do Sistema
+1. [Mostrar ou Esconder Modulos](/docs/user/manual/pt/configuração/configurações/mostrar-esconder-modulos)
+1. [Naming Series](/docs/user/manual/pt/configuração/configurações/naming-series)
+1. [Session Defaults](/docs/user/manual/pt/configuração/configurações/session-defaults)
+1. [Renomear em Massa](/docs/user/manual/pt/configuração/configurações/renomear-massa)
+1. [Actulização em Massa](/docs/user/manual/pt/configuração/actualizar-massa)
+1. [Milestone Tracking](/docs/user/manual/pt/automação/milestone-tracker)
+1. [Repetição Automatica](/docs/user/manual/pt/automação/repetição-automatica)
+1. [Configuração de Dominio](/docs/user/manual/pt/configuração/configuração-dominio)
+1. [Sistema de Pontos de Energia](/docs/user/manual/pt/configuração/sistema-pontos-energia)
 
-### 1.8 Data Privacy
-1. [Personal Data Request](/docs/user/manual/en/setting-up/personal-data-download)
-1. [Personal Data Deletion](/docs/user/manual/en/setting-up/personal-data-deletion)
+### 1.8 Privacidade dos Dados
+1. [Pedido dos Dados Pessoais](/docs/user/manual/pt/configuração/descarregar-dados-pessoais)
+1. [Eleminação dos Dados Pessoais](/docs/user/manual/pt/configuração/apagar-dados-pessoais)
 
-## 2. Articles
-### 2.1 Basic Setup
-1. [Change Password](/docs/user/manual/en/setting-up/articles/change-password)
-1. [Edit Submitted Document](/docs/user/manual/en/setting-up/articles/edit-submitted-document)
-1. [Delete Submitted Document](/docs/user/manual/en/setting-up/articles/delete-submitted-document)
-1. [Rename User](/docs/user/manual/en/setting-up/articles/rename-user)
-1. [Difference Between System User And Website User](/docs/user/manual/en/setting-up/articles/difference-between-system-user-and-website-user)
-1. [Managing Letterhead](/docs/user/manual/en/setting-up/articles/managing-letterhead)
-1. [Using Prepared Report](/docs/user/manual/en/setting-up/articles/prepared-report)
+## 2. Artigos
+### 2.1 Configuração Basica
+1. [Alterar Senha](/docs/user/manual/pt/configuração/artigos/alterar-senha)
+1. [Editar Documento Submetido](/docs/user/manual/pt/configuração/artigos/editar-documento-submetido)
+1. [Eliminar Documento Submetido](/docs/user/manual/pt/configuração/artigos/eliminar-documento-submetido)
+1. [Renomear Usuário](/docs/user/manual/pt/configuração/artigos/renomear-usuario)
+1. [Diferença entre Usuário de Sistema e Usuário de Pagina](/docs/user/manual/pt/configuração/artigos/diferença-entre-usuario-sistema-e-usuario-pagina)
+1. [Gerindo Cabeçalhos](/docs/user/manual/pt/configuração/artigos/gerindo-cabeçalhos)
+1. [Usando Relatorio Preparado](/docs/user/manual/pt/configuração/artigos/relatorio-preparado)
 
-### 2.2 Data and Managing
+### 2.2 Dados e Gerenciamento
 
-1. [Overwriting Data From Data Import Tool](/docs/user/manual/en/setting-up/articles/overwriting-data-from-data-import-tool)
-1. [Delete A Company And All Related Transactions](/docs/user/manual/en/setting-up/articles/delete-a-company-and-all-related-transactions)
-1. [Managing Tree Structure Masters](/docs/user/manual/en/setting-up/articles/managing-tree-structure-masters/)
-1. [Managing Permission Level](/docs/user/manual/en/setting-up/articles/managing-perm-level/)
+1. [Subscrevendo Dados usando Ferramenta de Importação](/docs/user/manual/pt/configuração/artigos/subscrevendo-dados-usando-ferramenta-importação)
+1. [Apagar Uma Empresa e Todas Transações](/docs/user/manual/pt/configuração/artigos/apagar-uma-empresa-todas-transações)
+1. [Managing Tree Structure Masters](/docs/user/manual/pt/configuração/artigos/managing-tree-structure-masters/)
+1. [Gerindo Niveis de Permissão](/docs/user/manual/pt/configuração/artigos/gerindo-niveis-permissão/)
 
-### 2.3 Errors
+### 2.3 Erros
 
-1. [Email Error](/docs/user/manual/en/setting-up/articles/email-error)
-1. [Report Permission Error](/docs/user/manual/en/setting-up/articles/report-permission-error)
+1. [Enviar Erro por Email](/docs/user/manual/pt/configuração/artigos/enviar-erro-email)
+1. [Relatorio de Erros de Permissão](/docs/user/manual/pt/configuração/artigos/relatorio-erros-permissão)
 
-### 2.4 Other Actions
+### 2.4 Outras Acções
 
-1. [Integrating ERPNext With Other Application](/docs/user/manual/en/setting-up/articles/integrating-erpnext-with-other-application)
-1. [Naming Series Current Value](/docs/user/manual/en/setting-up/articles/naming-series-current-value)
-1. [Using Custom Domain On ERPNext](/docs/user/manual/en/setting-up/articles/using-custom-domain-on-erpnext)
-1. [Set up Two Factor Authentication](/docs/user/manual/en/setting-up/articles/setup-two-factor-authentication)
-1. [Disabling Line Breaks in Print Format Sections](/docs/user/manual/en/setting-up/articles/print-format-sections)
-1. [Integrating ERPNext With Biometric Attendance Devices](/docs/user/manual/en/setting-up/articles/integrating-erpnext-with-biometric-attendance-devices)
+1. [Integrando ERPNext Com Outras Aplicações](/docs/user/manual/pt/configuração/artigos/integrando-erpnext-outras-aplicaçãoes)
+1. [Naming Series Current Value](/docs/user/manual/pt/configuração/artigos/naming-series-current-value)
+1. [Usando Dominio Customizado no ERPNext](/docs/user/manual/pt/configuração/artigos/usando-dominio-customizado-erpnext)
+1. [Configurar Factor de Duas Autenticações](/docs/user/manual/pt/configuração/artigos/configurar-factor-duas-autenticações)
+1. [Desactivar Quebra de Linhas na Secção do Formato de Impressão](/docs/user/manual/pt/configuração/artigos/secções-formato-impressão)
+1. [Integrar o ERPNext com Aparelhos Biometricos de Assiduidade](/docs/user/manual/pt/configuração/artigos/integrar-erpnext-aparelhos-biometricos-assiduidade)
 
 
 ## 3. Videos
 
-### 3.1 Basic Setup
+### 3.1 Configuração Basica
 
-1. [User and Permissions](/docs/user/videos/learn/user-and-permission.html)
+1. [Usuários e Permissões](/docs/user/videos/learn/user-and-permission.html)
 
-### 3.2 Data and Printing
-1. [Data Import Tool](/docs/user/videos/learn/data-import-tool.html)
-1. [Printing and Branding](/docs/user/videos/learn/printing-and-branding.html)
+### 3.2 Dados e Impressão
+1. [Ferramenta de para Importar Dados](/docs/user/videos/learn/data-import-tool.html)
+1. [Impressão e Branding](/docs/user/videos/learn/printing-and-branding.html)
 
-### 3.3 Email and SMS
+### 3.3 Email e SMS
 
-1. [Email Account](/docs/user/videos/learn/email-account.html)
-1. [Email Inbox](/docs/user/videos/learn/email-inbox.html)
+1. [Conta de Email](/docs/user/videos/learn/email-account.html)
+1. [Caixa de Entrada de Email](/docs/user/videos/learn/email-inbox.html)
 
-### 3.4 Files
-1. [File Manager](/docs/user/videos/learn/file-manager.html)
+### 3.4 Ficheiros
+1. [Gestor de Ficheiros](/docs/user/videos/learn/file-manager.html)
 
 
-### 3.5 Sales
+### 3.5 Vendas
 
-1. [Customer and Supplier](/docs/user/videos/learn/customer-and-supplier.html)
-1. [Item and Pricing](/docs/user/videos/learn/item.html)
-1. [Opening Invoices Creation Tool](/docs/user/videos/learn/opening-invoice-creation-tool.html)
-1. [Opening Stock](/docs/user/videos/learn/opening-stock.html)
+1. [Clientes e Fornecedores](/docs/user/videos/learn/customer-and-supplier.html)
+1. [Item e Preços](/docs/user/videos/learn/item.html)
+1. [Ferramenta para Criação de Facturas de Abertura](/docs/user/videos/learn/opening-invoice-creation-tool.html)
+1. [Stock Inicial](/docs/user/videos/learn/opening-stock.html)
 
 
 

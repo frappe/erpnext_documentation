@@ -375,7 +375,7 @@ numa Ordem de Venda aberta para um periodo especifico.
 
 * * *
 
-### Website
+### Pagina Web
 
 #### Blog Post
 
@@ -384,7 +384,7 @@ pelo modulo do ERPNext. Blog significa "Log de Pagina".
 
 > Website > Blog Post
 
-#### Web Page
+#### Pagina Web
 
 Uma pagina web com um unico URL (endereço web) no website gerado pelo
 ERPNext.
@@ -416,7 +416,7 @@ quer imprimir uma Proforma com o titulo "Proposta" or "Factura Proforma".
 
 #### Termos e Condições
 
-Texto com os seus termos de contracto. Em transações de Vendas/Compras pode haver a necessidade de alguns Termos e Condições baseados nos serviços ou bens que o Fornecedor emite para o Cliente. Voçê pode aplicar os Termos e Condições para as transações e ao imprimir aparece na Impressão. Para saber sobre os Termos e Condições, [click here](/docs/user/manual/en/setting-up/print/terms-and-conditions)
+Texto com os seus termos de contracto. Em transações de Vendas/Compras pode haver a necessidade de alguns Termos e Condições baseados nos serviços ou bens que o Fornecedor emite para o Cliente. Voçê pode aplicar os Termos e Condições para as transações e ao imprimir aparece na Impressão. Para saber sobre os Termos e Condições, [click here](/docs/user/manual/pt/configuração/imprimir/termos-e-condições)
 
 
 > Vendas > Configurações > Termos e Condições
