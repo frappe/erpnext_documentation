@@ -22,6 +22,7 @@ therapy_session
 patient_assessment_template
 patient_assessment
 healthcare_settings
+lab_test_template
 lab_test
 sample_collection
 patient_history

@@ -45,6 +45,7 @@ The following are the detailed guides on each of the functionalities ready to us
 1. [Healthcare Settings](/docs/user/manual/en/healthcare/healthcare_settings)
 
 ### 6. Laboratory
+1. [Lab Test Template](/docs/user/manual/en/healthcare/lab_test_template)
 1. [Lab Test](/docs/user/manual/en/healthcare/lab_test)
 1. [Sample Collection](/docs/user/manual/en/healthcare/sample_collection)
 
