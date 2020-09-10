@@ -85,4 +85,9 @@ ERPNext also allows you to format test result for each test/event in your result
 
 You can configure the messages for sending SMS alerts to patients whenever the lab test results are ready in the [Healthcare Settings](/docs/user/manual/en/healthcare/healthcare_settings). For this, you must setup [SMS Settings](/docs/user/manual/en/setting-up/sms-setting) first.
 
+## 3. Related Topics
+
+1. [Lab Test](/docs/user/manual/en/healthcare/lab_test)
+1. [Sample Collection](/docs/user/manual/en/healthcare/sample_collection)
+
 {next}

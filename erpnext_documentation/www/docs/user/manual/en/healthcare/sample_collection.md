@@ -1,17 +1,40 @@
 <!-- add-breadcrumbs -->
 # Sample Collection
-It's critical for a Laboratory to manage collected samples and you may want to ID the sample, print stickers etc. You can create a Sample Collection directly from
 
-`Healthcare Settings > Laboratory > Sample Collection`
+It's critical for a Laboratory to manage collected samples and print labels for those samples, automate sample collection, etc.
 
-You can optionally automate the creation of Sample Collection document for each Lab Test by turning on this flag `Healthcare Settings > Laboratory Settings > Manage Sample Collection`.
+## 1. How to create a Sample Collection
 
-<img class="screenshot" alt="ERPNext Healthcare" src="{{docs_base_url}}/assets/img/healthcare/sample_collection_1.png">
+To create a Sample Collection go to
 
-> Note: You will have to select a Sample in the Lab Test Template for the system to automatically create a Sample Collection document
+> Home > Healthcare> Laboratory > Sample Collection > New Sample Collection`
 
-You will have to enter the sample collected date and time to Submit the document signaling that the sample is collected.
+1. Enter the name of the Patient. All the patient details will be auto-fetched.
+2. Select the Lab Test Sample in the Sample field. You can configure the Lab Test Sample master as per your requirements. The Sample UOM is automatically fetched from the Lab Test Sample doc.
+3. Set the Quantity of the sample collected.
+4. Select the user who collected the sample in the "Collected By" field.
+5. Set the Date and Time of sample collection in the "Collected On" field.
+6. Save and Submit.
 
-Printing of sample identification tags is also possible. By default a sample sticker print template is made available, but you can always customize this directly using the [Print Format Builder](/docs/user/manual/en/setting-up/print/print-format-builder.html) or even create a custom [Print Format](/docs/user/manual/en/customize-erpnext/print-format.html) if required.
+![Sample Collection](/docs/assets/img/healthcare/sample-collection.png)
+
+## 2. Features
+
+## 2.1 Sample Collection automation
+
+You can also automate the creation of Sample Collection document for each Lab Test by enabling the _Create Sample Collection document for Lab Test_ option in [Healthcare Settings](/docs/user/manual/en/healthcare/healthcare_settings) and configure samples in the Lab Test Template.
+
+![Lab Sample Collection](/docs/assets/img/healthcare/lab-sample-collection.png)
+
+## 2.2 Sample labelling
+
+Printing of sample identification tags is also possible in ERPNext. By default a print format called "Sample ID Print" is made available, but you can always customize this directly using the [Print Format Builder](/docs/user/manual/en/setting-up/print/print-format-builder.html) or even create a custom [Print Format](/docs/user/manual/en/customize-erpnext/print-format.html) if required. The number of labels required has to be set in the "No. of prints" field in the Sample Collection document. Accordingly, those many labels will be generated in the print view.
+
+![Sample Print](/docs/assets/img/healthcare/sample-print.png)
+
+## 3. Related Topics
+
+1. [Lab Test](/docs/user/manual/en/healthcare/lab_test)
+1. [Lab Test Template](/docs/user/manual/en/healthcare/lab_test_template)
 
 {next}
