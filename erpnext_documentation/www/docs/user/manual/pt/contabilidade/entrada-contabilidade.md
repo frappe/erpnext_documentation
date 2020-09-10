@@ -50,10 +50,10 @@ da conta "Lucro e Perca" foi debitada e "Conta Capital" foi creditada. O balanç
 disponivel no valor de Rs. 1000.
 
 ### Topicos Relacionados
-1. [Entrada de Pagamento](/docs/user/manual/pt/contabilidade/entrada-pagamento)
+1. [Registo de Pagamento](/docs/user/manual/pt/contabilidade/registo-pagamento)
 1. [Adiantamento de Pagamento](/docs/user/manual/pt/contabilidade/adiantamento-pagamento)
 1. [Congelar Entradas de Contabilidade](/docs/user/manual/pt/contabilidade/articles/freeze-accounting-entries)
 1. [Post Dated Cheque Entry](/docs/user/manual/pt/contabilidade/articles/post-dated-cheque-entry)
 1. [Ajustar Valor Retido de Pagamento](/docs/user/manual/pt/contabilidade/articles/adjust-withhold-amount-payment-entry)
-1. [Bulk Entrada de Pagamento](/docs/user/manual/pt/contabilidade/articles/bulk-payment-entry)
+1. [Entrada de Pagamento em Massa](/docs/user/manual/pt/contabilidade/articles/bulk-payment-entry)
 1. [Botão de Registo de Diferença](/docs/user/manual/pt/contabilidade/articles/difference-entry-button)
