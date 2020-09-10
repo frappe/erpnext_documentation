@@ -21,7 +21,7 @@ Os Centros de Custo podem estar ligados as seguintes transações:
 
 1. [Factura de Vendas](/docs/user/manual/pt/contabilidade/factura-vendas)
 1. [Factura de Compras](/docs/user/manual/pt/contabilidade/factura-compras)
-1. [Lançamento Contabilistico](/docs/user/manual/pt/contabilidade/lancamento-contabilistico)
+1. [Lançamento Contabilistico](/docs/user/manual/pt/contabilidade/lançamento-contabilistico)
 1. [Registo de Pagamento](/docs/user/manual/pt/contabilidade/registo-pagamento)
 1. [Guia de Remessa](/docs/user/manual/pt/stock/guia-remessa)
 

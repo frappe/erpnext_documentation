@@ -43,5 +43,5 @@ Salvar e Submeter a Factura de Venda.
 
 ### 3. Topicos Relacionados
 1. [Factura de Vendas](/docs/user/manual/pt/contabilidade/factura-vendas)
-1. [Lançamento Contabilistico](/docs/user/manual/pt/contabilidade/lancamento-contabilistico)
+1. [Lançamento Contabilistico](/docs/user/manual/pt/contabilidade/lançamento-contabilistico)
 1. [Registo de Pagamento](/docs/user/manual/pt/contabilidade/registo-pagamento)

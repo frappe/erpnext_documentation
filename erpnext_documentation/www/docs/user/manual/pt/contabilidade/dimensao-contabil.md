@@ -58,6 +58,6 @@ Voçê pode desactivar as dimensões caso voçê não precise mais. As transaç�
 
 
 ### Topicos Relacionados
-1. [Centro de Custo](/docs/user/manual/pt/contabilidade/centro-custo
+1. [Centro de Custo](/docs/user/manual/pt/contabilidade/centro-custo)
 1. [Orçamento](/docs/user/manual/pt/contabilidade/orcamento)
 1. [Relatorios de Contabibilidade](/docs/user/manual/pt/contabilidade/relatorios-contabilidade)
