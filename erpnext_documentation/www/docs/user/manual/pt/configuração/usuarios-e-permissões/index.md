@@ -18,10 +18,10 @@ ERPNext implementa permissões de control ao nivel de Usuários e nivel de Regra
 
 ### Topicos Relacionados
 
-1. [Adicioar Usuarios](/docs/user/manual/pt/configuração/usuarios-e-permissões/adding-users)
-1. [Papel e Perfil de Papel](/docs/user/manual/pt/configuração/usuarios-e-permissões/role-and-role-profile)
-1. [Permissões Baseadas Regras](/docs/user/manual/pt/configuração/usuarios-e-permissões/role-based-permissions)
-1. [Permissões de Usuario](/docs/user/manual/pt/configuração/usuarios-e-permissões/user-permissions)
+1. [Adicionar Usuarios](/docs/user/manual/pt/configuração/usuarios-e-permissões/adicionar-usuarios)
+1. [Papel e Perfil de Papel](/docs/user/manual/pt/configuração/usuarios-e-permissões/regras-perfil-regras)
+1. [Permissões Baseadas Regras](/docs/user/manual/pt/configuração/usuarios-e-permissões/permissões-regras)
+1. [Permissões de Usuario](/docs/user/manual/pt/configuração/usuarios-e-permissões/permissões-usuario)
 1. [Regra de Permissão para Pagina e Relatorio](/docs/user/manual/pt/configuração/usuarios-e-permissões/role-permission-for-page-and-report)
-1. [Partilhar](/docs/user/manual/pt/configuração/usuarios-e-permissões/sharing)
-1. [Administrador](/docs/user/manual/pt/configuração/usuarios-e-permissões/administrator)
+1. [Partilhar](/docs/user/manual/pt/configuração/usuarios-e-permissões/partilhar)
+1. [Administrador](/docs/user/manual/pt/configuração/usuarios-e-permissões/administrador)

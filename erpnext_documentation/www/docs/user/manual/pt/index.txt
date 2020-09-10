@@ -3,7 +3,7 @@ configuração
 automação
 contabilidade
 activos
-iventário
+inventário
 CRM
 vendas
 compras

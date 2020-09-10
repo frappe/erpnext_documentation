@@ -35,5 +35,5 @@
 1. [Regional](/docs/user/manual/pt/regional)
 1. [Integração ERPNext](/docs/user/manual/pt/integração_erpnext)
 
-## 6. Desenvolvedor
+## 6. Programador
 1. [Frappe Framework Docs](https://frappe.io/docs/)
