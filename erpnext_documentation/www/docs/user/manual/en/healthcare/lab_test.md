@@ -1,37 +1,88 @@
 <!-- add-breadcrumbs -->
 # Lab Test
 
-ERPNext Healthcare allows you to manage a clinical laboratory efficiently by allowing you to enter Lab Tests and print or email test results, manage samples collected, create Invoice etc. ERPNext Healthcare comes pre-packed with some frequently ordered tests, you can reconfigure Lab Test Templates for each Test and its result format or create new ones as explained in [Setting Up Laboratory](/docs/user/manual/en/healthcare/setup_laboratory)
+ERPNext Healthcare allows you to manage a clinical laboratory efficiently by allowing you to enter lab tests and print or email test results, manage samples collected, create invoices, etc. You can configure Lab Test Templates for each Test and its result format or create new ones as explained in [Setting Up Laboratory](/docs/user/manual/en/healthcare/setup_laboratory)
 
-Once you have all necessary Lab Test Templates configured, you can start creating Lab Tests by selecting a Test Template every time you create a Test. To create a new Lab Test
+Once you have all the necessary Lab Test Templates configured, you can start creating Lab Tests by selecting a Test Template every time you create a Test.
 
-`Healthcare > Laboratory > Lab Test > New Lab Test`
+## 1. How to create a Lab Test
 
-<img class="screenshot" alt="ERPNext Healthcare" src="{{docs_base_url}}/assets/img/healthcare/lab_test_1.png">
+To create a Lab Test, go to:
 
-It is also possible to use the `Create Multiple` option to create all the lab tests ordered / billed for a patient.
+> Home > Healthcare > Laboratory > Lab Test > New Lab Test
 
-<img class="screenshot" alt="ERPNext Healthcare" src="{{docs_base_url}}/assets/img/healthcare/lab_test_3.png">
+1. Set the Naming Series.
+2. Select the Lab Test Template. Medical Department will automatically be fetched from the template.
+3. Select the Patient. The patient details will be auto-fetched.
+4. You can optionally select the Requesting Practitioner and the Lab Technician.
+5. Save.
+6. After saving all the data configured in the template will be fetched and set in the lab test document.
+7. You can change the pre-configured data according to your requirements. Add comments if any, in the Comments section.
 
-You can select the Patient and then the Encounter or Invoice from which you need to pull the tests without having to open the Encounter / Sales Invoice to look up the orders.
+    ![Lab Test](/docs/assets/img/healthcare/lab-test.png)
 
-<img class="screenshot" alt="ERPNext Healthcare" src="{{docs_base_url}}/assets/img/healthcare/lab_test_4.png">
+8. As the results get ready, you can enter the details of the results in the Lab Test document. All presets, Normal Values etc. as configured in the Lab Test Template are made available Lab Test for easy data capture.
 
-If the Lab Test Template has sample collection enabled, creating Lab Test will automatically create Sample Collection records.
+For example: Grouped Test
+    ![Lab Result](/docs/assets/img/healthcare/lab_test_2.png)
 
-> Note: To create Sample Collection documents for every Lab Test, turn on "Manage Sample Collection" flag in Healthcare Settings *and* select Sample in the Lab Test Template
+Descriptive Test
+    ![Lab Result](/docs/assets/img/healthcare/lab-result.png)
 
-ERPNext Healthcare also allows creation of Lab Tests automatically when any lab tests are billed (via Sales Invoice). This along with other Laboratory configurations can be setup in [Healthcare Settings](/docs/user/manual/en/healthcare/healthcare_settings)
+Components for which _Allow Blank_ is not checked, will throw a validation if left blank on submit.
 
-As the results gets ready, you can enter the details of results in the Lab Test document. All presets, Normal Values etc. as configured in the Lab Test Template are made available Lab Test for easy data capture.
+![Lab Result](/docs/assets/img/healthcare/result-mandatory.png)
 
-<img class="screenshot" alt="ERPNext Healthcare" src="{{docs_base_url}}/assets/img/healthcare/lab_test_2.png">
+## 2. Features
 
+### 2.1 Create multiple Lab Tests
 
-In many Laboratories, approval of Lab Tests is a must before printing and submitting the document. ERPNext Healthcare allows you to create Users with Role "Lab Test Approver" for this. You will also have to enable this in
+It is also possible to use the "Create Multiple" option from the Lab Test list view to create all the lab tests ordered or billed for a patient. You can create multiple lab tests from a previously created Sales Invoice or Patient Encounter
 
-`Healthcare Settings > Laboratory Settings > Require Lab Test Approval`
+![Lab Test Multiple](/docs/assets/img/healthcare/lab_test_3.png)
 
-This will ensure that emailing or printing of Lab Tests can only be done after Approval of the Lab Test by the Lab Test Approver.
+You can select the Patient and then the Encounter or Invoice from which you need to pull the tests without having to open the Encounter/Sales Invoice to look up the orders.
+
+![Lab Test](/docs/assets/img/healthcare/patient-encounter-lab-tests-1.png)
+
+The tests prescribed in the Investigations section of that Patient Encounter would be pulled.
+
+![Lab Test](/docs/assets/img/healthcare/patient-encounter-lab-tests.png)
+
+![Lab Test](/docs/assets/img/healthcare/patient-encounter-lab-tests-2.png)
+
+In the case of Sales Invoice, the items (Lab Test Template items) billed in the invoice will be pulled to create Lab Tests.
+
+### 2.2 Automatic Sample Collection document creation
+
+If the Lab Test Template has sample collection configured, then on creating the Lab Test, sample collection document(s) will be created automatically. To create Sample Collection documents for every Lab Test, enable _Create Sample Collection document for Lab Test_ option in Healthcare Settings and configure samples in the Lab Test Template.
+
+![Lab Sample Collection](/docs/assets/img/healthcare/lab-sample-collection.png)
+
+### 2.3 Automatic Lab Test creation on Sales Invoice submission
+
+ERPNext Healthcare also allows creation of Lab Tests automatically when any lab tests are billed (via Sales Invoice). To configure this enable _Create Lab Test(s) on Sales Invoice Submission_ option in [Healthcare Settings](/docs/user/manual/en/healthcare/healthcare_settings).
+
+### 2.4 Organism Test Results
+
+Organisms are an optional entry for descriptive lab tests. You can select the organism, set the colony population and select the colony UOM.
+
+### 2.5 Sensitivity Results
+
+In the case of Descriptive lab tests, if _Sensitivity_ option is enabled in the template you can enter the sensitivity results of the sample against various antibiotics in the Sensitivity child table. The Sensitivity and Antibiotic masters are pre-configured in ERPNext. You can extend or modify them as per your needs.
+
+![Sensitivity](/docs/assets/img/healthcare/sensitivity.png)
+
+### 2.6 Format Test Result
+
+ERPNext also allows you to format test result for each test/event in your result.
+
+![Format Test Result](/docs/assets/img/healthcare/format-result-value.png)
+
+![Formatted Result](/docs/assets/img/healthcare/formatted-result.png)
+
+### 2.7 Laboratory SMS Alerts
+
+You can configure the messages for sending SMS alerts to patients whenever the lab test results are ready in the [Healthcare Settings](/docs/user/manual/en/healthcare/healthcare_settings). For this, you must setup [SMS Settings](/docs/user/manual/en/setting-up/sms-setting) first.
 
 {next}

@@ -3,7 +3,7 @@
 
 The healthcare module in ERPNext allows you to create all types of Lab Tests rapidly with the help of Lab Test Template DocType. You can pre-configure the events and result components for Single, Compound, Descriptive or Grouped tests, so that, you don't have to fill in redundant data every single time.
 
-## 1. How to Create a Lab Test Template
+## 1. How to create a Lab Test Template
 
 To create a Lab Test Template, go to:
 
