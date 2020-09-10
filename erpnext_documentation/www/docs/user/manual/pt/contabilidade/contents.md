@@ -1,152 +1,152 @@
 <!-- add-breadcrumbs -->
-# Accounting
+# Contabilidade
 
-Whether you have an accountant in your internal team OR you do it yourself OR you have chosen to outsource it, the financial accounting process is at the center of any business management system (aka an ERP system).
+Quer tenha uma contabilista no seu grupo interno ou voçê mesmo o faz ou voçê decidiu contractar alguem, o processo de contabilidade financeira é o centro de qualquer gestão de negocios (aka um sistema de ERP).
 
-In ERPNext, accounting operations consists of 3 main transactions:
+No ERPNext, operações de contabilidade consistem em 3 principais transações:
 
-  * **Sales Invoice**: The bills that you raise to your Customers for the products or services you provide.
-  * **Purchase Invoice**: Bills that your Suppliers give you for their products or services.
-  * **Journal Entries**: For accounting entries, like payments, credit and other types.
+  * **Factura de Vendas**: A cobranças que voçê gera para os seus Cliente de produtos ou serviços que voçê entregou.
+  * **Factura de Compras**: Combranças que os seu Fornecedores lhe dao pelos seu produtos ou serviços.
+  * **Registo Contabilistico**: Para registode contabilidade, como pagamentos, creditos e outros tipos.
 
-You can check out [this video](https://www.youtube.com/watch?v=5wjollWN0OA) for a run down of the accounts module in ERPNext.
+Voçê pode ver [Este video](https://www.youtube.com/watch?v=5wjollWN0OA) para uma explicação do modulo de Contabilidade no ERPNext.
 
-## 1. Topics
+## 1. Topicos
 
-### 1.1 Setup and Opening
-1. [Introduction](/docs/user/manual/en/accounts/accounting-entries)
-1. [Accounts Settings](/docs/user/manual/en/accounts/accounts-settings)
-1. [Company](/docs/user/manual/en/setting-up/company-setup)
-1. [Chart Of Accounts](/docs/user/manual/en/accounts/chart-of-accounts)
-1. [Opening Balance in Accounts](/docs/user/manual/en/accounts/opening-balance)
-1. [Cost Center](/docs/user/manual/en/accounts/cost-center)
-1. [Distributed Cost Center](/docs/user/manual/en/accounts/distributed-cost-center)
-1. [Fiscal Year](/docs/user/manual/en/accounts/fiscal-year)
-1. [Accounting Period](/docs/user/manual/en/accounts/accounting-period)
-1. [Finance Book](/docs/user/manual/en/accounts/finance-book)
-1. [Accounting Dimensions](/docs/user/manual/en/accounts/accounting-dimensions)
-1. [Bank](/docs/user/manual/en/accounts/bank)
-1. [Bank Account](/docs/user/manual/en/accounts/bank-account)
-<!-- (in development) 1. [Bank Transaction](/docs/user/manual/en/accounts/bank-transaction) -->
+### 1.1 Configuração e Abertura
+1. [Introdução](/docs/user/manual/pt/contabilidade/accounting-entries)
+1. [Configurações de Contabilidade](/docs/user/manual/pt/contabilidade/accounts-settings)
+1. [Empresa](/docs/user/manual/pt/setting-up/company-setup)
+1. [Plano de Contas](/docs/user/manual/pt/contabilidade/chart-of-accounts)
+1. [Abertura de Balanco em Contabilidade](/docs/user/manual/pt/contabilidade/opening-balance)
+1. [Centros de Custo](/docs/user/manual/pt/contabilidade/cost-center)
+1. [Centros de Custo Distribuidos](/docs/user/manual/pt/contabilidade/distributed-cost-center)
+1. [Ano Fiscal](/docs/user/manual/pt/contabilidade/fiscal-year)
+1. [Periodo Contabil](/docs/user/manual/pt/contabilidade/accounting-period)
+1. [Livros Financeiros](/docs/user/manual/pt/contabilidade/finance-book)
+1. [Dimensao Contabil](/docs/user/manual/pt/contabilidade/accounting-dimensions)
+1. [Banco](/docs/user/manual/pt/contabilidade/bank)
+1. [Conta Banco](/docs/user/manual/pt/contabilidade/bank-account)
+<!-- (in development) 1. [Bank Transaction](/docs/user/manual/pt/contabilidade/bank-transaction) -->
 
 ### 1.2 Journals and Payments
-1. [Journal Entry](/docs/user/manual/en/accounts/journal-entry)
-1. [Journal Entry Template](/docs/user/manual/en/accounts/journal-entry-template)
-1. [Payment Entry](/docs/user/manual/en/accounts/payment-entry)
-1. [Dunning](/docs/user/manual/en/accounts/dunning)
-1. [Payment Request](/docs/user/manual/en/accounts/payment-request)
-1. [Mode of Payment](/docs/user/manual/en/accounts/mode-of-payment)
-1. [Payment Terms](/docs/user/manual/en/accounts/payment-terms)
-1. [Payment Terms Template](/docs/user/manual/en/accounts/payment-terms-template)
-1. [Advance Payment Entry](/docs/user/manual/en/accounts/advance-payment-entry)
-1. [Inter Company Journal Entry](/docs/user/manual/en/accounts/inter-company-journal-entry)
+1. [Lançamento Contabilistico](/docs/user/manual/pt/contabilidade/journal-entry)
+1. [Modelo Lançamento Contabilistico](/docs/user/manual/pt/contabilidade/journal-entry-template)
+1. [Registo de Pagamento](/docs/user/manual/pt/contabilidade/payment-entry)
+1. [Dunning](/docs/user/manual/pt/contabilidade/dunning)
+1. [Solicitação de Pagamento](/docs/user/manual/pt/contabilidade/payment-request)
+1. [Modo de Pagamento](/docs/user/manual/pt/contabilidade/mode-of-payment)
+1. [Termos de Pagamento](/docs/user/manual/pt/contabilidade/payment-terms)
+1. [Modelo de Termo de Pagamento](/docs/user/manual/pt/contabilidade/payment-terms-template)
+1. [Registo de Adiantamento de Pagamento](/docs/user/manual/pt/contabilidade/advance-payment-entry)
+1. [Registo de Lançamento Inter Empresa](/docs/user/manual/pt/contabilidade/inter-company-journal-entry)
 
-### 1.3 Billing
-1. [Sales Invoice](/docs/user/manual/en/accounts/sales-invoice)
-1. [Purchase Invoice](/docs/user/manual/en/accounts/purchase-invoice)
-1. [Inter Company Invoices](/docs/user/manual/en/accounts/inter-company-invoices)
-1. [Credit Note](/docs/user/manual/en/accounts/credit-note)
-1. [Debit Note](/docs/user/manual/en/accounts/debit-note)
-1. [Credit Limit](/docs/user/manual/en/accounts/credit-limit)
+### 1.3 Cobranças
+1. [Factura de Vendas](/docs/user/manual/pt/contabilidade/sales-invoice)
+1. [Factura de Compras](/docs/user/manual/pt/contabilidade/purchase-invoice)
+1. [Facturas Inter Empresa](/docs/user/manual/pt/contabilidade/inter-company-invoices)
+1. [Nota de Credito](/docs/user/manual/pt/contabilidade/credit-note)
+1. [Nota de Debito](/docs/user/manual/pt/contabilidade/debit-note)
+1. [Limite de Credito](/docs/user/manual/pt/contabilidade/credit-limit)
 
-### 1.4 Taxes
-1. [Item Tax Template](/docs/user/manual/en/accounts/item-tax-template)
-1. [Tax Withholding Category](/docs/user/manual/en/accounts/tax-withholding-category)
-1. [Tax Rule](/docs/user/manual/en/accounts/tax-rule)
-1. [Tax Category](/docs/user/manual/en/accounts/tax-category)
+### 1.4 Impostos
+1. [Modelo de Imposto de Item](/docs/user/manual/pt/contabilidade/item-tax-template)
+1. [Categoria de Isenção de Imposto](/docs/user/manual/pt/contabilidade/tax-withholding-category)
+1. [Regas de Imposto](/docs/user/manual/pt/contabilidade/tax-rule)
+1. [Categoria de Imposto](/docs/user/manual/pt/contabilidade/tax-category)
 
-### 1.5 Pricing
-1. [Pricing Rule](/docs/user/manual/en/accounts/pricing-rule)
-1. [Promotional Scheme](/docs/user/manual/en/accounts/promotional-scheme)
-1. [Exchange Rate Revaluation](/docs/user/manual/en/accounts/exchange-rate-revaluation)
-1. [Currency Exchange](/docs/user/manual/en/accounts/currency-exchange)
-1. [Currency](/docs/user/manual/en/accounts/currency)
+### 1.5 Preços
+1. [Regras de Preço](/docs/user/manual/pt/contabilidade/pricing-rule)
+1. [Esquema Promocional](/docs/user/manual/pt/contabilidade/promotional-scheme)
+1. [Re-avaliação da Taxa de Cambio](/docs/user/manual/pt/contabilidade/exchange-rate-revaluation)
+1. [Taxa de Cambio](/docs/user/manual/pt/contabilidade/currency-exchange)
+1. [Moeda](/docs/user/manual/pt/contabilidade/currency)
 
-### 1.6 Retail Operations
-1. [POS Profile](/docs/user/manual/en/accounts/pos-profile)
-1. [Point Of Sales](/docs/user/manual/en/accounts/point-of-sales)
-1. [POS Cashier Closing](/docs/user/manual/en/accounts/pos-cashier-closing)
+### 1.6 Operações de Retalho
+1. [Perfil POS](/docs/user/manual/pt/contabilidade/pos-profile)
+1. [Ponto de Vendas](/docs/user/manual/pt/contabilidade/point-of-sales)
+1. [Fecho do Caixa POS](/docs/user/manual/pt/contabilidade/pos-cashier-closing)
 
-### 1.7 Tools
-1. [Bank Reconciliation](/docs/user/manual/en/accounts/bank-reconciliation)
-1. [Payment Reconciliation](/docs/user/manual/en/accounts/payment-reconciliation)
-1. [Period Closing Voucher](/docs/user/manual/en/accounts/period-closing-voucher)
-1. [Payment Order](/docs/user/manual/en/accounts/payment-order)
-1. [Quickbooks Migrator](/docs/user/manual/en/accounts/quickbooks-migrator)
+### 1.7 Ferramentas
+1. [Reconciliação do Banco](/docs/user/manual/pt/contabilidade/bank-reconciliation)
+1. [Reconciliação de Pagamentos](/docs/user/manual/pt/contabilidade/payment-reconciliation)
+1. [Fecho de Periodo Contabilistico](/docs/user/manual/pt/contabilidade/period-closing-voucher)
+1. [Ordem de Pagamento](/docs/user/manual/pt/contabilidade/payment-order)
+1. [Quickbooks Migrator](/docs/user/manual/pt/contabilidade/quickbooks-migrator)
 
-### 1.8 Reports
-1. [Accounting Reports](/docs/user/manual/en/accounts/accounting-reports)
+### 1.8 Relatorios
+1. [Relatorios de Contabilidade](/docs/user/manual/pt/contabilidade/accounting-reports)
 
-### 1.9 Advanced
-1. [Multi Currency Accounting](/docs/user/manual/en/accounts/multi-currency-accounting)
-1. [Deferred Revenue](/docs/user/manual/en/accounts/deferred-revenue)
-1. [Deferred Expense](/docs/user/manual/en/accounts/deferred-expense)
-1. [Process Deferred Accounting](/docs/user/manual/en/accounts/process-deferred-accounting)
-1. [Bank Guarantee](/docs/user/manual/en/accounts/bank-guarantee)
-1. [Loyalty Program](/docs/user/manual/en/accounts/loyalty-program)
-1. [Budgeting](/docs/user/manual/en/accounts/budgeting)
-1. [Auto Repeat](/docs/user/manual/en/automation/auto-repeat)
-1. [Invoice Discounting](/docs/user/manual/en/accounts/invoice_discounting)
+### 1.9 Avançado
+1. [Contabilidade Multi Moedas](/docs/user/manual/pt/contabilidade/multi-currency-accounting)
+1. [Deferred Revenue](/docs/user/manual/pt/contabilidade/deferred-revenue)
+1. [Deferred Expense](/docs/user/manual/pt/contabilidade/deferred-expense)
+1. [Contabilidade Process Deferred Accounting](/docs/user/manual/pt/contabilidade/process-deferred-accounting)
+1. [Garantia de Banco](/docs/user/manual/pt/contabilidade/bank-guarantee)
+1. [Programa de Fidelidade](/docs/user/manual/pt/contabilidade/loyalty-program)
+1. [Orçamento](/docs/user/manual/pt/contabilidade/budgeting)
+1. [Auto Repetição](/docs/user/manual/pt/automation/auto-repeat)
+1. [Descontando Facturas](/docs/user/manual/pt/contabilidade/invoice_discounting)
 
-### 1.10 Subscription
-1. [Subscription](/docs/user/manual/en/accounts/subscription)
-1. [Subscription Plan](/docs/user/manual/en/accounts/subscription-plan)
-1. [Subscription Settings](/docs/user/manual/en/accounts/subscription-settings)
+### 1.10 Subscrição
+1. [Subscrição](/docs/user/manual/pt/contabilidade/subscription)
+1. [Plano de Subscrição](/docs/user/manual/pt/contabilidade/subscription-plan)
+1. [Configurações de Subscrição](/docs/user/manual/pt/contabilidade/subscription-settings)
 
-### 1.11 Shareholder Management
-1. [Shareholder](/docs/user/manual/en/accounts/shareholder)
-1. [Share Transfer](/docs/user/manual/en/accounts/share-transfer)
-1. [Share Reports](/docs/user/manual/en/accounts/share-reports)
+### 1.11 Gestão de Acionistas
+1. [Acionista](/docs/user/manual/pt/contabilidade/shareholder)
+1. [Transferencia de Acção](/docs/user/manual/pt/contabilidade/share-transfer)
+1. [Relatorios de Acções](/docs/user/manual/pt/contabilidade/share-reports)
 
 ### 1.12 GST
-1. [GST Setup](/docs/user/manual/en/regional/india/gst-setup)
-1. [GST Reminders](/docs/user/manual/en/regional/india/gst-reminders)
-1. [GST 3B](/docs/user/manual/en/regional/india/gst-3b-report)
-1. [Auto generating e-Way Bill](/docs/user/manual/en/regional/india/auto-generate-e-way-bill-JSON)
+1. [GST Setup](/docs/user/manual/pt/regional/india/gst-setup)
+1. [GST Reminders](/docs/user/manual/pt/regional/india/gst-reminders)
+1. [GST 3B](/docs/user/manual/pt/regional/india/gst-3b-report)
+1. [Auto generating e-Way Bill](/docs/user/manual/pt/regional/india/auto-generate-e-way-bill-JSON)
 
-## 2. Articles
-### 2.1 Record Entries
-1. [Freeze Accounting Entries](/docs/user/manual/en/accounts/articles/freeze-accounting-entries)
-1. [Post Dated Cheque Entry](/docs/user/manual/en/accounts/articles/post-dated-cheque-entry)
-1. [Adjust Withhold Amount Payment Entry](/docs/user/manual/en/accounts/articles/adjust-withhold-amount-payment-entry)
-1. [Bulk Payment Entry](/docs/user/manual/en/accounts/articles/bulk-payment-entry)
-1. [Difference Entry Button](/docs/user/manual/en/accounts/articles/difference-entry-button)
+## 2. Artigos
+### 2.1 Gravar Registos
+1. [Congelar Registos de Contabilidade](/docs/user/manual/pt/contabilidade/articles/freeze-accounting-entries)
+1. [Registo de Cheque Passados Post Dated](/docs/user/manual/pt/contabilidade/articles/post-dated-cheque-entry)
+1. [Registo de Ajuste de Valor Pago Retido ](/docs/user/manual/pt/contabilidade/articles/adjust-withhold-amount-payment-entry)
+1. [Registo de Pagamento em Massa](/docs/user/manual/pt/contabilidade/articles/bulk-payment-entry)
+1. [Botão de Registo de Diferença](/docs/user/manual/pt/contabilidade/articles/difference-entry-button)
 
-### 2.2 Account Operations
-1. [Changing Parent Account](/docs/user/manual/en/accounts/articles/changing-parent-account)
-1. [Withdrawing Salary From Owners Equity Account](/docs/user/manual/en/accounts/articles/withdrawing-salary-from-owners-equity-account)
-1. [Common Receivable Account](/docs/user/manual/en/accounts/articles/common-receivable-account)
-1. [Freeze Account](/docs/user/manual/en/accounts/articles/freeze-account)
-1. [Round Off Account Validation](/docs/user/manual/en/accounts/articles/round-off-account-validation)
+### 2.2 Operações de Contabilidade
+1. [Alterar Conta Mãe](/docs/user/manual/pt/contabilidade/articles/changing-parent-account)
+1. [Retirando Salario apartir da Conta de Donos Equity](/docs/user/manual/pt/contabilidade/articles/withdrawing-salary-from-owners-equity-account)
+1. [Contas de Recebimentos Communs](/docs/user/manual/pt/contabilidade/articles/common-receivable-account)
+1. [Congelar Conta](/docs/user/manual/pt/contabilidade/articles/freeze-account)
+1. [Arredondar Validação da Conta Round Off Account Validation](/docs/user/manual/pt/contabilidade/articles/round-off-account-validation)
 
-### 2.3 Advanced
-1. [What Is The Differences Of Total And Valuation In Tax And Charges](/docs/user/manual/en/accounts/articles/what-is-the-differences-of-total-and-valuation-in-tax-and-charges)
-1. [Types In Tax Template](/docs/user/manual/en/accounts/articles/types-in-tax-template)
-1. [Manage Foreign Exchange Difference](/docs/user/manual/en/accounts/articles/manage-foreign-exchange-difference)
-1. [How To Freeze Accounting Ledger](/docs/user/manual/en/accounts/articles/how-to-freeze-accounting-ledger)
-1. [Managing Transactions In Multiple Currency](/docs/user/manual/en/accounts/articles/managing-transactions-in-multiple-currency)
-1. [Recurring Orders And Invoices](/docs/user/manual/en/accounts/articles/recurring-orders-and-invoices)
+### 2.3 Avançado
+1. [Qual a Diferenca entre Total e Valuação em Impostos e Taxas](/docs/user/manual/pt/contabilidade/articles/what-is-the-differences-of-total-and-valuation-in-tax-and-charges)
+1. [Tipos em Modelo de Impostos](/docs/user/manual/pt/contabilidade/articles/types-in-tax-template)
+1. [Gerir Diferenca de Taxa de Cambio](/docs/user/manual/pt/contabilidade/articles/manage-foreign-exchange-difference)
+1. [Como Congelar o Razão](/docs/user/manual/pt/contabilidade/articles/how-to-freeze-accounting-ledger)
+1. [Gerir Transações em Multiplas Moedas](/docs/user/manual/pt/contabilidade/articles/managing-transactions-in-multiple-currency)
+1. [Ordens e Facturas Recurring](/docs/user/manual/pt/contabilidade/articles/recurring-orders-and-invoices)
 
-### 2.4 Other
-1. [Tracking Project Profitability Using Cost Center](/docs/user/manual/en/accounts/articles/tracking-project-profitability-using-cost-center)
-1. [Update Stock Option In Sales Invoice](/docs/user/manual/en/accounts/articles/update-stock-option-in-sales-invoice)
-1. [Exchange Rate Field Frozen](/docs/user/manual/en/accounts/articles/exchange-rate-field-frozen)
-1. [Fiscal Year Creation](/docs/user/manual/en/accounts/articles/fiscal-year-creation)
-1. [How To Customize Cash Flow Report](/docs/user/manual/en/accounts/articles/how-to-customise-cash-flow-report)
-1. [How To Manage Subscriptions With ERPNext](/docs/user/manual/en/accounts/articles/how-to-manage-subscriptions-with-erpnext)
-1. [Immutable Ledger In ERPNext](/docs/user/manual/en/accounts/articles/immutable-ledger-in-erpnext)
+### 2.4 Outros
+1. [Rastreando Lucros de Projecto usando os Centros de Custo](/docs/user/manual/pt/contabilidade/articles/tracking-project-profitability-using-cost-center)
+1. [Opção Actualizar Stock em Facturas de Venda](/docs/user/manual/pt/contabilidade/articles/update-stock-option-in-sales-invoice)
+1. [Campo Taxa de Cambio Congelado](/docs/user/manual/pt/contabilidade/articles/exchange-rate-field-frozen)
+1. [Criação do Ano Fiscal](/docs/user/manual/pt/contabilidade/articles/fiscal-year-creation)
+1. [Como Customizar o Relatorio de Fluxo de Caixa](/docs/user/manual/pt/contabilidade/articles/how-to-customise-cash-flow-report)
+1. [Como Gerir Subscrições com o ERPNext](/docs/user/manual/pt/contabilidade/articles/how-to-manage-subscriptions-with-erpnext)
+1. [Razão Imudavel no ERPNext](/docs/user/manual/pt/contabilidade/articles/immutable-ledger-in-erpnext)
 
-### 2.5 Reports and Errors
-1. [Purchase Invoice Account Type Error](/docs/user/manual/en/accounts/articles/purchase-invoice-account-type-error)
-1. [Fiscal Year Error](/docs/user/manual/en/accounts/articles/fiscal-year-error)
+### 2.5 Relatorios Erros
+1. [Erros de Conta de Factura de Compras](/docs/user/manual/pt/contabilidade/articles/purchase-invoice-account-type-error)
+1. [Erros de Ano Fiscal](/docs/user/manual/pt/contabilidade/articles/fiscal-year-error)
 
-### 2.6 Stock and Accounting Integration
-1. [Warehouse and Accounting Ledger Link](/docs/user/manual/en/accounts/articles/warehouse-ledger-link)
+### 2.6 Stock e Integração de Contabilidade
+1. [Ligação de Armazem e Razão de Contabilidade](/docs/user/manual/pt/contabilidade/articles/warehouse-ledger-link)
 
 ## 3. Videos
-1. [Chart of Accounts](/docs/user/videos/learn/chart-of-accounts.html)
-1. [Opening Account Balances](/docs/user/videos/learn/opening-account-balances.html)
-1. [Taxes](/docs/user/videos/learn/taxes.html)
-1. [Advance Payments](/docs/user/videos/learn/advance-payments.html)
-1. [Budgeting](/docs/user/videos/learn/budgeting.html)
-1. [Subscription Management](/docs/user/videos/learn/subscription.html)
+1. [Plano de Contas](/docs/user/videos/learn/chart-of-accounts.html)
+1. [Saldos de Abertura Opening Account Balances](/docs/user/videos/learn/opening-account-balances.html)
+1. [Impostos](/docs/user/videos/learn/taxes.html)
+1. [Adiantamento de Pagamento](/docs/user/videos/learn/advance-payments.html)
+1. [Orçãmento](/docs/user/videos/learn/budgeting.html)
+1. [Gestão de Subscrição](/docs/user/videos/learn/subscription.html)
