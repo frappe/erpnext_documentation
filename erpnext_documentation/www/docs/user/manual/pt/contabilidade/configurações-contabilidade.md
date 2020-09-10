@@ -1,72 +1,72 @@
 <!-- add-breadcrumbs -->
-# Accounts Settings
+# Configurações de Contabilidade
 
-There are various account settings in ERPNext to restrict and configure actions in the Accounting module.
+Existem varias contigurações de contabilidade no ERPNext para restringir e configurar acções no modulo de Contabilidade.
 
-![Account Settings]({{docs_base_url}}/assets/img/accounts/account-settings.png)
+![Configurações de Contabilidade]({{docs_base_url}}/assets/img/accounts/account-settings.png)
 
-## 1. Accounts Frozen Up to
-Freeze accounting transactions up to specified date, nobody can make/modify entry except the specified Role.
+## 1. Contas Congeladas Até
+Congelar transações contabilisticas até uma certa data, aonde ninguem pode criar/modificar os registos excepto quem tevir a Permissão certa.
 
-## 2. Role Allowed to Set Frozen Accounts & Edit Frozen Entries
-Users with this Role are allowed to set frozen accounts and create/modify accounting entries against frozen accounts.
+## 2. Perfil Autorizado para Definir as Contas Congeladas e Editar Registos Congelados
+Usuários com este Perfil estão autorizados a definir as contas congeladas e criar/modificar registos de contas contra estas contas congeladas.
 
-## 3. Determine Address Tax Category From
-[Tax category](/docs/user/manual/en/accounts/tax-category) can be set on Addresses. An address can be Shipping or Billing address. Set which addres to select when applying Tax Category.
+## 3. Determinar o Endereço do Formulario de Categoria de Imposto
+[Categoria do Imposto](/docs/user/manual/pt/contabilidade/categoria-imposto) pode ser definido nos Endereços. Um Endereço pode ser de Envio ou Cobrança. Definina o endereço a usar quando aplicar a Categoria do Impostos.
 
-## 4. Over Billing Allowance Percentage
-The percentage by which you can overbill transactions. For example, if the order value is $100 for an Item and percentage here is set as 10% then you are allowed to bill for $110.
+## 4. Percentagem Permitida Ultrapassada de Cobrança
+A percentagem pelo qual pode utrapassar nas cobranças. Por exemplo, caso a valor da ordem é de $100 para um Item e a percentagem aqui está para 10% então voçê está permitido a cobrar $110.
 
-## 5. Credit Controller
-Select the role that is allowed to submit transactions that exceed credit limits set. The credit limit can be set in the Customer form.
+## 5. Controlador de Credito
+Selecione o perfil que está autorizado a submeter transações que excedam o limite de credito definido. O limite de Credito pode ser definido no Formulario de Cliente.
 
-## 6. Check Supplier Invoice Number Uniqueness
-When checked, Purchase Invoices with same 'Supplier Invoice No' will not be allowed. This is useful to avoid duplicate entries. 
+## 6. Verificar o Numero de Factura de Fornecedor Unico
+Quando activo, Factura de Compra com o mesmo 'Numero da Factura de Fornecedor' não será autorizado para evitar registo duplicados. 
 
-## 7. Make Payment via Journal Entry
-When checked, if user proceeds to make payment from an invoice, the system will open a Journal Entry instead of a Payment Entry.
+## 7. Fazer Pagamento atravez do Lançamento de Contabilistico
+Quando activo, e se o usuario proseguir com o pagamento para um factura, o sistema irá abrir o Lançamento Contabilistico em vez do Registo de Pagamento.
 
-## 8. Unlink Payment on Cancellation of Invoice
-If checked, system will unlink the payment against the respective invoice. By default, if a Payment Entry is submitted, the linked invoice cannot be canceled until the Payment Entry is also canceled. On unlinking, you can now cancel and amend the invoices. But the payments not be linked and considered as advance payments.
+## 8. Desvincular o Pagamento no Cancelamento de uma Factura
+Caso activo, o sistema irá desvincular o pagamento conra a respectiva factura. Por defeito, se um Registo de Pagamento é submetido, a factura vinculada não pode ser cancelada até que o Registo de Pagamento tambem o seja. Ao desvincular, voçê pode cancelar e emender as facturas. Mas os pagamentos não vinculados são considerados como adiantamento de Pagamento. But the payments not be linked and considered as advance payments.
 
-## 9. Unlink Advance Payment on Cancellation of Order
-Similar to the previous option, this unlinks any advance payments made against Purchase/Sales Orders. 
-
-
-## 10. Book Asset Depreciation Entry Automatically
-When checked, an automatic entry for an asset depreciation will be created based on the first date set. For example, yearly depreciation for an item will be scheduled for the next 3/4 years based on the Number of Depreciations Booked set in the Asset master. For more details, visit the [Asset Depreciation](/docs/user/manual/en/asset/asset-depreciation) page.
-
-## 11. Allow Cost Center in Entry of Balance Sheet Account
-If checked, system will allow user to tag entries in Balance Sheet Accounts against a Cost Center. By default Cost Center is available only for Profit/Loss account.
-
-## 12. Automatically Add Taxes and Charges from Item Tax Template
-Enabling this will populate the Taxes table in transactions if an [Item Tax Template](/docs/user/manual/en/accounts/item-tax-template) is set for an Item and that Item is selected in the transaction.
-
-## 13. Automatically Fetch Payment Terms
-Enabling this will automatically fetch the Payment Terms based on the Supplier. 
-
-## 14. Print Settings
-
-![Account Settings]({{docs_base_url}}/assets/img/accounts/account-settings-1.png)
-
-* **Show Inclusive Tax In Print**: The applied taxes will be shown in the print view.
-* **Show Payment Schedule in Print**: The Payment Schedule table is visible on using [Payment Terms](/docs/user/manual/en/accounts/payment-terms). Enabling this will show this table in print view.
-
-## 15. Allow Stale Exchange Rate
-This should be unchecked if you want ERPNext to check the age of records fetched from Currency Exchange in foreign currency transactions. If it is unchecked, the exchange rate field will be read-only in documents.
-
-Stale Days is the number of days to use when deciding if a Currency Exchange record is stale. This is valid when 'Allow Stale Rates' is **disabled**. So, if the Stale Days is set as 10, stale rates that are 10 days will be allowed. If Allow Stale Rates is enabled, there is no time limit on the age of stale rates.
-
-If stale rates are enabled, the order of fetching is:
-
-* Latest rate from Currency Exchange form
-* If no Currency Exchange is found latest rate as per market is fetched automatically
-
-If stale rates are disabled, the order of fetching is:
-
-* Latest rate from Currency Exchange form upto number of days set in 'Stale Days'
-* If no Currency Exchange is found Latest rate as per market is fetched automatically
+## 9. Desvincular Adiantamento de Pagamento no Cancelamento de um Ordem
+Similar a opção anterior, este desvincula qualquer adiantamento de pagamento feito contra uma Compra/Ordem de Venda. 
 
 
-## 16. Use Custom Cash Flow Format
-You may choose to use Custom Cash Flow Formats to customize what the Cash Flow report looks like. To know more, [visit this page](/docs/user/manual/en/accounts/articles/how-to-customise-cash-flow-report).
+## 10. Entrada de Depreciação Automatica de Activos
+Quando activo, um registo automatico para a depreciação de um activo será criado baseado na data definida. Por exemplo, depreciação anual para um item será agendada para os proximos 3/4 anos baseados no Numero de Depreciações Agendadas no Registo Mestre de Activos. Para mais detalhes, visite a pagina [Depreciação de Activos](/docs/user/manual/pt/activos/depreciação-activos).
+
+## 11. Permitir Centros de Custo nas Contas de Registo da Folha de Balanço
+Caso activo, o sistema irá permitir o usuário marcar os registos nas Contas de Registo da Folha de Balanço contra o Centro de Custo. Por defeito o Centro de Custo está disponivel somente para contas de Lucros/Percas.
+
+## 12. Adicionar Automaticamente Impostos e Taxas apartir do Modelo de Impostos do Item
+Activando irá preencher as tabelas de Impostos nas transações caso algum [Modelo de Imposto de Item](/docs/user/manual/pt/contabilidade/modelo-imposto-item) seja definido para um Item e essa Item for selecionado para a transação.
+
+## 13. Busca Automaticamente os Termos de Pagamento
+Activando este irá automaticamente buscar os Termos de Pagamento baseados no Fornecedor. 
+
+## 14. Configurações de Impressão
+
+![Configurações de Contabilidade]({{docs_base_url}}/assets/img/accounts/account-settings-1.png)
+
+* **Mostrar ao Imprimir Inclusivo de Imposto**: O imposto aplicado será mostrado ao imprimir.
+* **Mostrar ao Imprimir o Agendamento de Pagamento**: A table de Agendamento de Pagamento está visivel ao usar [Termos de Pagamento](/docs/user/manual/pt/contabilidade/termos-pagamento). Activando isto irá mostrar esta tabela ao imprimir.
+
+## 15. Permitir Taxa de Cambio Fixa/Parada Allow Stale Exchange Rate
+Deve estar não activo caso voçê queira que o ERPNext verifique o tempo dos registo procurados apartir da Taxa de Cambio em transações de Moedas estrangeiras. Caso não activo, o campo taxa de cambio será de leitura somente nos documentos.
+
+Dias Parados é o numero de dias para usar até decidir se o registo da Taxa de Cambio é Fixo. É valido quando 'Permitir Cambios Parados' está **desactivo**. Portanto, caso os Dias Parados for 10, as taxa fixas que tem 10 dias serao permitidas. Caso Permitir Cambios Parados estiver activo, então não tem um tempo limit na idade das Taxas paradas.
+
+Caso as taxas paradas estiverem activas, a forma de procura é:
+
+* Ultima taxa de cambio apartir do Formulario Taxa de Cambio
+* Se não tiver uma Taxa de Cambio a ultima taxa do mercado será adicionada automaticamente
+
+Caso as taxas paradas estiver desactiva, a ordem de procura é:
+
+* Ultima taxa apartir do Formulario Taxa de Cambio até o numero de dias definido no 'Dias Parados'
+* Cas não tiver uma Taxa de Cambio a ultima tax de acordo o mercado será adicionada automaticamente
+
+
+## 16. Usar o Formato de Fluxo de Caixa
+Voçê pode escolher em usar os Formatos de Fluxo de Caixa Customizados para customizar como o Relatorio de Fluxo de Caixa irá ficar. Para saber mais, [visita esta pagina](/docs/user/manual/pt/contabilidade/artigos/como-customizar-relatorio-de-fluxo-de-caixa).

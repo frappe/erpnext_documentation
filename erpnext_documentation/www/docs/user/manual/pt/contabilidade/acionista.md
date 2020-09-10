@@ -20,12 +20,12 @@ Para aceder a lista de Acionistas, vá para:
 
  <img class="screenshot" alt="Create Shareholder" src="/docs/assets/img/accounts/shareholder/shareholder.png">
 
-Um Acionista pode avail liberar as funcionalidades (operações) do processo em [Tranferencia de Acção](/docs/user/manual/pt/contabilidade/transferir-acção). Somente depois das acções serem enviadas para eles, um Numero Folio e a acção será visivel.
+Um Acionista pode avail liberar as funcionalidades (operações) do processo em [Transferencia de Acção](/docs/user/manual/pt/contabilidade/transferir-acção). Somente depois das acções serem enviadas para eles, um Numero Folio e a acção será visivel.
 
 ### 1.1 Contactos e Endereços
 
 [Contactos](/docs/user/manual/pt/CRM/contacto) e [Endereços](/docs/user/manual/pt/CRM/endereço) no ERPNext são guardados separados para que voçê possa anexar varios Contactos ou Endereços para os Acionistas ou qualquer outros.
 
 ### 2. Topicos Relacionados
-1. [Tranferencia de Acções](/docs/user/manual/pt/contabilidade/tranferir-acção)
+1. [Tranferencia de Acções](/docs/user/manual/pt/contabilidade/transferir-acção)
 1. [Relatorios de Acções](/docs/user/manual/pt/contabilidade/relatorios-acções)
