@@ -1,52 +1,52 @@
 <!-- add-breadcrumbs -->
 # Dunning
 
-**A document to be sent as a persistent demand for debt payment.**
+**Um docmento para ser enviado como uma obrigação de pagamento de debito.**
 
-Dunning is a document to store and send as a persistent demand for debt payment against an unpaid Sales Invoice.
+Dunning é um documento para guardar e enviar como uma obrigação de pagamento de debito contra uma Factura de Venda não paga..
 
-To access the Dunning list, go to:
-> Home > Accounting > Dunning
+Para aceder a lista de Dunning, vá para:
+> Home > Contabilidade > Dunning
 
-## 1. Prerequisites
-Before creating a Dunning, there must be a Sales Invoice since it is created against it.
+## 1. Pre-requesitos
+Antes de criar o Dunning, deve ter uma Factura de Venda pois será criada sobre a mesma.
 
-* [Sales Invoice](/docs/user/manual/en/accounts/sales-invoice)
+* [Factura de Vendas](/docs/user/manual/pt/contabilidade/factura-vendas)
 
-## 2. How to create a Dunning
-A Dunning is created against a Sales Invoice.
+## 2. Como criar um Dunning
+Um Dunning é criado contra uma Factura de Vendas.
 
-For manual creation, follow these steps:
+Para criar manualmente, siga estes passos:
 
-1. Go to the Dunning list and click on New.
-1. Select an overdue Sales Invoice.
-1. Set Dunning Type in the dunning type link field.
-1. Set printing setting for the print template of the Dunning letter.
-1. The posting date and time will be set to current, you can edit after you tick the checkbox below Posting Time to make a backdated entry.
-1. Save and Submit.
+1. Vá para a lista de Dunning e click em Novo.
+1. Selecione uma Factura de Venda caducada.
+1. Defina o Tipo de Dunning no campo de dunning.
+1. Defina a configuração de impressão para imprimir o modelo de Carta do Dunning.
+1. A data de postagem e hora será automatica, voçê pode editar depois de fazer um click na caixa em baixo da Hora de Postagem para entrada de dias anteriores.
+1. Salvar e Submeter.
 
- ![Dunning example](/docs/assets/img/accounts/dunning.gif)
+ ![Exemplo Dunning](/docs/assets/img/accounts/dunning.gif)
 
-### 2.1 What is a Dunning Type
-Dunning Type stores default values for overdue days, dunning fee, interest rate and text blocks to be included. For example, a Dunning Type "First Notice" will not have any fees, but Dunning Type "Second Notice" will have a dunning fee and interest charged on the outstanding amount.
+### 2.1 O que é o Tipo de Dunning
+O Tipo de Dunning guarda valores iniciais para dias vencidos, taxa dunning, taxa de xxx e blocos de texto para incluir. Por exemplo, um Tipo de Dunning `Primeira Notificação' não terá qualquer taxa, mas o Tipo de Dunning 'Segunda Notificação' terá uma taxa dunnig e cobrado uma percentagem sobre o valor em divida.
 
- ![Dunning Type](/docs/assets/img/accounts/dunning-type.png)
+ ![Tipo de Dunning](/docs/assets/img/accounts/dunning-type.png)
 
-### 2.2 Statuses
+### 2.2 Estados / Statuses
 
-These are the statuses that are auto-assigned to Dunning.
+Estes são os Estados que são auto-atribuidos ao Dunning.
 
-* **Draft**: A draft is saved but yet to be submitted.
-* **Unresolved**: The Dunning is unresolved when it is submitted but no payments have been received.
-* **Resolved**: The Dunning is resolved when the outstanding payment has been received.
-* **Cancelled**: A cancelled status is a cancelled Dunning document.
+* **Rascunhos**: Um rascunho é salvo mas ainda não foi submetido.
+* **Não Resolvido**: O Dunning não está resolvido quando submetido mas nenhum pagamento foi recebido.
+* **Resolvido**: O Dunning está resolvido quando o valor pendente foi recebido.
+* **Cancelado**: Um status cancelado é um documento Dunning cancelado.
 
-## 3. Payment
+## 3. Pagamento
 
-A Payment Entry can be created from a Dunning. It will be pulled together with the Sales Invoice details it is against.
+Um Registo de Pagamento pode ser criado apartir de um Dunning. Será puxado em conjunto com os Detalhes da Factura de Venda pelo qual foi criado.
  
-![Dunning Payment](/docs/assets/img/accounts/dunning-payment.png)
+![Pagamento Dunning](/docs/assets/img/accounts/dunning-payment.png)
 
-## 4. Related Topics
-1. [Payment Entry](/docs/user/manual/en/accounts/payment-entry)
-1. [Sales Invoice](/docs/user/manual/en/accounts/purchase-invoice)
+## 4. Topicos Relacionados
+1. [Registo de Pagamento](/docs/user/manual/pt/contabilidade/registo-pagamento)
+1. [Factura de Vendas](/docs/user/manual/pt/accounts/factura-vendas)

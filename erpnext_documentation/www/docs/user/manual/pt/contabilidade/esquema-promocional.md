@@ -1,23 +1,23 @@
-# Promotional Scheme
+# Esquema Promocional
 
-> Introduced in version 12
+> Introduzido na versão 12
 
-**A Promotional Scheme is a temporary discount on one or more products.**
+**O Esquema Promocional é um desconto temporario em um ou mais produtos.**
 
-Promotional schemes help businesses become successful as lower prices for a limited period of time to attract more Customers. They can be easily configured in ERPNext. A Promotional scheme is linked to a pricing rule, against each slab system that will generate the pricing rule.
+Esquemas Promocionais ajudam o negocio a tornar-se um sucesso com os preços baixos por uma periodo de tempo para atrair mais Clientes. Eles podem ser configuração no ERPNext. O Esquema Promocional está ligado as regras de preço, against each slab system that will generate the pricing rule.
 
-On creating a Promotional Scheme, the system creates a [Pricing Rule](/docs/user/manual/en/accounts/pricing-rule). A Promotional Scheme can have multiple Pricing Rules associated with it. In ERPNext, a Promotional Scheme is an easier way to manage pricing on multiple Item/Groups based on different parties and conditions.
+Ao criar o Esquema Promocional, o sistema cria uma [Regra de Preço](/docs/user/manual/pt/contabilidade/regras-preço). Um Esquema Promocional pode ter varias Regras de Preço associadas. No ERPNext, o Esquema é uma forma facil de gerir preço em varios Itens/Grupos baseado em varias condições e Partes.
 
-To access the Promotional Scheme list, go to:
-> Home > Selling > Items and Pricing > Promotional Scheme
+Para aceder a lista de Esquema Promocional, deve ir:
+> Home > Vendas > Itens e Preços > Esquema Promocional
 
-## 1. Prerequisites
-Before creating and using a Promotional Scheme, it is advisable to create the following first:
+## 1. Pre-requisitos
+Antes de criar e usar o Esquema Promocional, é aconselhaver criar os seguintes primeiro:
 
-1. [Item](/docs/user/manual/en/stock/item)
-1. [Item Group](/docs/user/manual/en/stock/item-group)
-1. [Customer](/docs/user/manual/en/CRM/customer)
-1. [Supplier](/docs/user/manual/en/buying/supplier)
+1. [Item](/docs/user/manual/pt/inventario/item)
+1. [Grupo de Item](/docs/user/manual/pt/inventario/grupo-item)
+1. [Clientes](/docs/user/manual/pt/CRM/cliente)
+1. [Fornecedores](/docs/user/manual/pt/comprar/fornecedor)
 
 ## 2. How to create a Promotional Scheme
 
@@ -59,12 +59,12 @@ Set whether the Promotional Scheme is for Selling of Buying the Item.
 
 Based on your selection you can set applicability to one of the following masters.
 
-* [Customer](/docs/user/manual/en/CRM/customer)
-* [Customer Group](/docs/user/manual/en/CRM/customer-group)
-* [Territory](/docs/user/manual/en/selling/territory)
-* [Sales Partner](/docs/user/manual/en/selling/sales-partner)
-* [Campaign](/docs/user/manual/en/CRM/campaign)
-* [Supplier](/docs/user/manual/en/buying/supplier)
+* [Customer](/docs/user/manual/pt/CRM/customer)
+* [Customer Group](/docs/user/manual/pt/CRM/customer-group)
+* [Territory](/docs/user/manual/pt/selling/territory)
+* [Sales Partner](/docs/user/manual/pt/selling/sales-partner)
+* [Campaign](/docs/user/manual/pt/CRM/campaign)
+* [Supplier](/docs/user/manual/pt/buying/supplier)
 * Supplier Group
 
 ### 3.3 Validity 
@@ -159,7 +159,7 @@ To configure this in ERPNext the steps are as follows
 <img alt="Promotional Scheme" class="screenshot" src="{{docs_base_url}}/assets/img/accounts/promotional-schemes-discount-on-other.png">
 
 ## 6. Related Topics
-1. [Pricing Rule](/docs/user/manual/en/accounts/pricing-rule)
-1. [Customer](/docs/user/manual/en/CRM/customer)
-1. [Supplier](/docs/user/manual/en/buying/supplier)
-1. [Item](/docs/user/manual/en/stock/item)
+1. [Pricing Rule](/docs/user/manual/pt/accounts/pricing-rule)
+1. [Customer](/docs/user/manual/pt/CRM/customer)
+1. [Supplier](/docs/user/manual/pt/buying/supplier)
+1. [Item](/docs/user/manual/pt/stock/item)

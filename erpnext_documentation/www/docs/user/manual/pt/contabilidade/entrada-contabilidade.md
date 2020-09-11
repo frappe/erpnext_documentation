@@ -13,7 +13,7 @@ a empresa é obrigada a pagar Rs. 25000 a Mama no futuro. Portanto, a conta
 "Mama" é uma conta de responsabilidade e a credito. Balanço de dinheiro da Empresa será
 aumentado devido o investimento feito. "Dinheiro" é um activo para a empresa e será debitado.
 
-  A empresa precisa de equipamento (fogão, Chaleira, chavenas, etc.) e material crú (chá, açucar, leite, etc.) de imediato. Eles decidem comprar numa loja proxima, "Super Bazaar" cujo o dono é um amigo, pelo que obtem um credito. Custo do Equipamento ficou em Rs. 2800 e material crús Rs. 2200. Ele pagou Rs. 2000 fora do custo total que é Rs. 5000. Isto pode ser guardado no ERPNext usando [Payment Entry](/docs/user/manual/pt/contabilidade/entrada-pagamento).
+  A empresa precisa de equipamento (fogão, Chaleira, chavenas, etc.) e material crú (chá, açucar, leite, etc.) de imediato. Eles decidem comprar numa loja proxima, "Super Bazaar" cujo o dono é um amigo, pelo que obtem um credito. Custo do Equipamento ficou em Rs. 2800 e material crús Rs. 2200. Ele pagou Rs. 2000 fora do custo total que é Rs. 5000. Isto pode ser guardado no ERPNext usando [Registo de Pagamento](/docs/user/manual/pt/contabilidade/registo-pagamento).
 
 ![JE](/docs/assets/img/accounts/je-2.png)
 
