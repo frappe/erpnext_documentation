@@ -38,34 +38,34 @@ Considere um Fornecedor a quem a Categoria de Retenção de Imposto é aplicada.
 
 Por exemplo, digamos que a percentagem de 5% será aplicada na factura aonde o thresfold Singular é de 20,000 e o threshold Acumulado é de 30,000. Caso a factura seja criada com o valor total de 20,000 então o threshold singular será activado e a percentagem de 5% será cobrada.
 
-But if the invoice amount totaled up to be 15,000 then no tax will be charged as it didn't cross the threshold. If again another invoice is created against the same supplier with a total of 15,000 then although it didn't cross the Single threshold, charges will be deducted since the sum of the last invoice and this invoice adds up to be 30,000 which is equal to the specified Cumulative threshold.
+Mas se o valor da factura totalizasse até 15,000 então não seria aplicado o Imposto vendo que não passou o limite threshold. Caso uma outra factura seja criada para o mesmo fornecedor com o mesmo total de 15,000 então apesar de não ter ultrapassado o limite Singular threshold, será aplicada a dedução vendo que a soma da ultima factura e a corrente dá 30,000 que é igual ao Limite Acumulado especificado.
 
-## 3. Using Tax Withholding
-### 3.1 Use in Purchase Invoice
-In the following example, we have selected 'TDS - 194C - Individual' which has a single threshold of 30,000, cumulative threshold of 1,00,000 and rate of 1%.
+## 3. Usando Retenção de Impostos
+### 3.1 Usar em Facturas de Compra
+No exemplo seguinte, nós selecionamos 'TDS - 194C - Individual' que tem um unico limite singular de 30,000, limite acumulado de 1,00,000 e a percentagem de 1%.
 
-1. If the **Supplier** has the tax withholding field set, then upon selecting that Supplier, a checkbox will become visible in the Purchase Invoice to select whether to apply tax or not.
+1. Caso o **Fornecedor** tenha o campo de retenção de imposto activo, então após selecionar o Fornecedor, uma caixa ficará visivel na Factura de Compra para selcionar se quer aplicar ou nao o Imposto.
 
  <img class="screenshot" alt="Tax Withholding Category" src="{{docs_base_url}}/assets/img/accounts/tax-withholding-category-2.png">
 
-1. Let's create an invoice for 90,000. Saving the invoice automatically calculates tax and appends it in the taxes table.
+1. Vamos criar uma factura no valor de 90,000. Salvando a factura automaticamente o imposto é calculado e aodicionado a tabela de impostos.
 
  <img class="screenshot" alt="Tax Withholding Category" src="{{docs_base_url}}/assets/img/accounts/tax-withholding-category-6.png">
 
-1. To see the effect of Cumulative threshold, let's create an invoice with of amount 20,000 and submit it. 
+1. Para ver o efeito do Limite Acumulado, vamos criar uma factura com o valor de 20,000 e submeter. 
 
  <img class="screenshot" alt="Tax Withholding Category" src="{{docs_base_url}}/assets/img/accounts/tax-withholding-category-8.png">
 
- Although the invoice amount didn't cross the Single threshold (30,000), we see that tax has been charged. This is because the previous and the current invoice adds up to be 1,10,000 which exceeds the Cumulative threshold. Hence, tax based on the rate provided in the **Tax Withholding Category** is applied accordingly.
+ Apesar do valor da factura não ter ultrapassado o limite Singular (30,000), nós vemos que o imposto foi cobrado. Isto porque a factura anterior e a corrente somão mais de 1,10,000 que excede o Limite Acumulado. Daí, o imposto baseado na percentagem criada na  **Categoria de Retenção de Imposto** é aplicada de acordo.
 
-> Note: On submitting the invoice, three GL Entries are created:
+> Nota: Ao submeter a factura, três entradas no GL são criadas:
 
->1. First for debit from the expense head
->1. Second for credit in Creditors account
->1. Third for credit in the account selected in Tax Withholding Category.
+>1. Primeiro para debito da conta de despesas
+>1. Segundo para credito na conta de Credores
+>1. Terçeiro para credito na conta selecionada na Categoria de Retenção de Imposto.
 
-![Tax Withholding Ledger](/docs/assets/img/accounts/tax-withholding-ledger.png)
+![Razão Retenção Imposto](/docs/assets/img/accounts/tax-withholding-ledger.png)
 
-### 4. Related Topics
-1. [Tax Rule](/docs/user/manual/pt/accounts/tax-rule)
-1. [Supplier](/docs/user/manual/pt/comprar/supplier)
+### 4. Topicos Relacionados
+1. [Regra de Imposto](/docs/user/manual/pt/contabilidade/regra-imposto)
+1. [Fornecedor](/docs/user/manual/pt/comprar/fornecedor)

@@ -1,40 +1,40 @@
 ---
-title: Distributed Cost Center
+title: Centro de Custo Distribuido
 add_breadcrumbs: 1
 show_sidebar: 0
 
 metatags:
- description: A Distributed Cost Center is a Cost Center in which multiple Cost Centers are tagged with an appropriate percentage.
- keywords: frappe, erpnext, accounting reports, Cost Center, GL Entry.
+ description: Um Centro de Custo Distribuido é um Centro de Custo em que varios Centros de Custo são marcadados com a percentagem apropriada.
+ keywords: frappe, erpnext, relatorios contabilidade, Centro de Custo, Entrada GL.
 ---
 
 <!-- add-breadcrumbs -->
-# Distributed Cost Center
+# Centro de Custo Distribuido
 
-**A Distributed Cost Center is a Cost Center in which multiple Cost Centers are tagged with an appropriate percentage.**
+**Um Centro de Custo Distribuido é um Centro de Custo em que varios Centros de Custo são marcadados com a percentagem apropriada.**
 
-If a business has a master Cost Center with dependent Cost Centers. In every master Cost Center transaction, it is difficult to update the budget, profit, and loss to each dependent Cost Center manually with the allocated percentage of the master Cost Center. This feature helps to automate the process of manual entry.
+Caso o negocio tenha um Centro de Custo Mestre com outros Centros de Custo dependentes. Em todas transações dos Centros de Custo, é dificil manter o orçamento, lucro e percas para cada Centro de Custo dependente manualmente com a percentagem alocada no Centro de Custo Mestre. Esta funcionalidade ajudar a automatizar o processo de registo manual.
 
-For example, In your business, If the Cost Center 'B' and 'C' depend on Cost Center 'A' by 20% and 80%. Then, you can mention 'A' as a Distributed Cost Center. It helps to reflect income, expense, and budget of 'A' in 'B' and 'C' with allocated percentages.
+Por exemplo, se no seu negocio, caso o Centro de Custo 'B' e 'C' depende do Centro de Custo 'A' por 20% e 80%. Então, voçê pode mencionar 'A' como um Centro de Custo Distribuido. Ajuda a rever os lucros, despesas e orçamento do 'A' no 'B' e 'C' com as percentagens alocadas.
 
-In ERPNext you can create Distributed Cost Center and use them in transactions and reports.
+No ERPNext voçê pode criar Centros de Custo Distribuidos e usar em transações e relatorios.
 
-## 1. How to create a Distributed Cost Center
-1. Go to the Cost Center list, click on New.
-1. Enter the Cost Center name.
-1. Select the parent Cost Center.
-1. Enable the checkbox, **Enable Distributed Cost Center**: On enabling this, the distributed Cost Center table will show. Here, select the Cost Centers and allocate the corresponding percentage.
-1. Once you are done click on Save.
+## 1. Como criar um Centro de Custo Distribuido
+1. Vá para a lista de Centro de Custo, click em Novo.
+1. Digite o nome do Centro de Custo.
+1. Selecione o Centro de Custo parent.
+1. Activar a caixa, **Activar Centro de Custo Distribuido**: Ao activar, a tabela Centro de Custo Distribuido irá aparecer. Então depois selecione o Centro de Custo e aloque a percentagem correspondente.
+1. Quando terminar click em Salvar.
 
   <img class="screenshot" alt="Distributed Cost Center" src="{{docs_base_url}}/assets/img/accounts/distributed_cost_center.png">
 
-The following reports will be automatically updated when Cost Center filter is added:
+Os seguintes relatorios serão automaticamente actualizados quando o filtro Centro de Custo é adicionado:
 
-  * [Accounting Reports](/docs/user/manual/en/accounts/accounting-reports)
-    * Financial Statements
-    * Budget Variance
-    * General Ledger
-  * [Profitability Analysis](/docs/user/manual/en/accounts/articles/tracking-project-profitability-using-cost-center)
+  * [Relatorios de Contabilidade](/docs/user/manual/pt/contabilidade/relatorios-contabilidade)
+    * Extractos Financeiros
+    * Variante de Orçamento
+    * Razão Geral
+  * [Analise de Lucros](/docs/user/manual/pt/contabilidade/artigos/rastreando-lucros-usando-centros-custo)
 
-### 2. Related Topics
-1. [Cost Center](/docs/user/manual/en/accounts/cost-center)
+### 2. Topicos Relacionados
+1. [Centro de Custo](/docs/user/manual/pt/contabilidade/centro-custo)
