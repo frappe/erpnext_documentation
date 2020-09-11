@@ -1,14 +1,14 @@
 <!-- add-breadcrumbs -->
-# Subscription Settings
+# Configurações de Subscrição
 
-The Subscription Settings page allows configuring settings for your ERPNext subscriptions.
+A pagina de Configurações de Subscrição permite configurar no ERPNext as suas subscrições.
 
-To access the Subscription list, go to:
-> Home > Accounting > Subscription Management > Subscription Settings
+Para aceder a lista de Subcrições, vá para:
+> Home > Contabilidade > Gestão de Subscrição > Configurações de Subscrição
 
-* **Grace Period**: Number of days after invoice date has elapsed before canceling subscription or marking subscription as unpaid.
+* **Perido Grace**: Numero de dias depois da data da factura ter expirado antes de cancelar a subscrição or tornar a subscrição não paga.
 
-* **Cancel Invoice After Grace Period**: Instead of displaying 'Unpaid', the Subscription will be canceled in ERPNext if the Customer does not pay.
+* **Cancelar Factura Depois do Periodo Grace**: Em vez de mostrar 'não Pago', a Subscrição será cancelada no ERPNext caso o Cliente não faça o pagamento.
 
-![Subscription](/docs/assets/img/accounts/subscription-settings.png)
+![Subscrição](/docs/assets/img/accounts/subscription-settings.png)
 
