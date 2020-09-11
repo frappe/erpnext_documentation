@@ -215,7 +215,7 @@ The Customer may identify an Item with a different Item Code. this is Similar to
 * **Customer Group**: This will be fetched based on the Customer you selected in the previous field.
 * **Ref Code:** A customer can identify this item with a different number. You can track Item Code assigned by the Customer for this Item. When you create a Sales Order, the Customer's Reference Code for this Item will be shown.
 
-### 3.16 Item Tax
+### 3.16 Imposto de Item
 
 These settings are required only if a particular Item has a different tax rate than the rate defined in the standard tax Account.
 
