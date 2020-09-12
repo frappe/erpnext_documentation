@@ -19,147 +19,147 @@ Antes de criar e usar o Esquema Promocional, é aconselhaver criar os seguintes 
 1. [Clientes](/docs/user/manual/pt/CRM/cliente)
 1. [Fornecedores](/docs/user/manual/pt/comprar/fornecedor)
 
-## 2. How to create a Promotional Scheme
+## 2. Como criar um Esquema Promocional
 
-1. Go to the Promotional Scheme list and click on New.
-1. Enter a title for the rule.
-1. Select what to Apply On like Item Code, Item Group, Brand, or Transaction. Selecting Transaction will apply the scheme on the total amount of the transaction.
-1. Based on the 'Apply On', system will give you the provision to select the Item Code / Item Group / Brand in the table.
-1. Select whether the scheme is for Selling, Buying, or both and set the part information.
-1. In the Price Discount Slabs table, set the price discount, product discount.
-1. Users can also apply the discount on the other Item Code / Item Group / Brand by selecting the value for Apply Rule On Other field.
+1. Vá para a lista de Esquema Promocional e click em Novo.
+1. Digite o titulo da regra.
+1. Selecione o que vai aplicar como Codigo do Item, Grupo de Item, Marca ou Transação. Selecionando a Transação irá aplicar o esquema no valor total da transação.
+1. Baseado no 'Aplicar em', o sistema irá dar-lhe a provisão para selecionar o Codigo de Item / Grupo de Item / Marcar na tabela.
+1. Selecione se o esquema é para Vendas, Compras ou ambos e defina a informação da parte.
+1. No tab da tabela de Desconto de Preço, defina o desconto de preço, desconto de produto.
+1. Usuários pode aplicar o desconto on Codigo de Item / Grupo de Item / Marca selecionando o valor para Aplicar Regra no outro campo.
 
  <img alt="Promotional Scheme" class="screenshot" src="{{docs_base_url}}/assets/img/accounts/promotional-schemes.png">
-1. Save.
+1. Salvar.
 
-> Note: On saving a Promotional Scheme, a new Pricing Rule is created.
+> Nota: Ao salvar o Esquema Promocional, uma nova Regra de Preço é criada.
 
-### 2.1 Additional fields when creating a Promotional Scheme
+### 2.1 Campos Adicionais ao criar o Esquema Promocional
 
-#### Mixed Conditions
-If you select two or more Items and set the Min and Max Quantity. The Promotional Scheme will be applied only if the total sum of Items matches the set quantities. For example, you create a Promotional Scheme on Item 1 and Item 2 and set the Min and Max Quantity as 30, the Promotional Scheme will apply only if the total quantity is 30.
+#### Condições Mistas
+Caso voçê selecione dois ou mais Itens e defina a Quantidade Minima e Maxima. O Esquema Promocional irá ser aplicado somente se o total da soma de Itens for igual as quantidades definidas. Por exemplo, voçê criou um Esquema Promocional no Item 1 e no Item 2 e defina a Quantidade Maxima e Minima como 30, o Esquema Promocional somente irá aplicar caso o total de quantidades for 30.
 
-#### Is Cumulative
-Enabling this options allows the Promotional Scheme to be applied cumulatively. You need to set the 'Min Amt' and 'Max Amt' for this.
+#### É Acumulativo
+Activando esta opção permite que o Esquema Promocional seja aplicado de forma acumulada. Voçê poide definir o 'Valor Min' e o 'Valor Max' para este.
 
-Consider a scenario where the Min Amt is 1,500 and Max Amt is 2,000. Now, if one transaction is created for 1,400 then the Promotional Scheme will not be applied. However, on creating a second invoice of amount 600, Promotional Scheme will be applied. This happened since the total (cumulative) amount of the invoices added up to 2,000. Note that the discount will be applied only to the latest transaction that crosses the cumulative limit.
+Considere o seguinte senário aonde o Valor Min é 1,500 e Valor Max é 2,000. Agora, caso uma transação for criada por 1,400 então o Esquema Promocional não será aplicado. Contudo, ao criar a segunda factura no valor de 600, o Esquema Promocional irá ser aplicado. Isto acontece desde que o valor total (acumulado) das facturas foi somado até 2,000. De notar que o desconto irá aplicado somente a ultima transação que ultrapasse / chegue até o limite do valor acumulado.
 
-This can be useful to give discounts if a Customer buys an Item multiple times and you want to reward him with discounts/special prices.
+Este pode ser util para dar descontos aos Clientes que compram um Item varias vezes e voçê quer dar uma recompensa em descontos/preços especiais.
 
-## 3. Features
+## 3. Funcionalidades
 
-### 3.1 Apply Scheme On Other Item
-This feature checks condition on the first Item but applies scheme/discount/rate on another Item.
+### 3.1 Aplicar o Esquema em Outro Item
+Esta funcionaliadde verifica a condição do primeiro Item mas aplica esquema/desconto/precos em outros Item.
 
-For example, set Item1 and Item2 in the 'Apply Rule On' table and set 'Apply Rule On Other' on Item3. Now, if the transaction has Item1, Item2, and Item3, the Pricing Rule will apply on Item3 since the first two Items were present in the transaction.
+Por exemplo, defina o Item1 e Item2 na tabela 'Aplicar Regra' e defina 'Aplicar Regra no Outro' no Item3. Agora, caso a transação tenha Item1, Item2 e Item3, a Regra de Preço irá ser aplicada ao Item3 vendo que os primeiros dois Itens estavam presentes na transação.
 
-### 3.2 Party Information
+### 3.2 Informação da Parte
 
-Set whether the Promotional Scheme is for Selling of Buying the Item.
+Defina se o Esquema Promocional é para Venda ou Compra de Item.
 
-Based on your selection you can set applicability to one of the following masters.
+Baseado na sua selecão voçê pode definir a aplicabilidade para um das tabelas Mastre.
 
-* [Customer](/docs/user/manual/pt/CRM/customer)
-* [Customer Group](/docs/user/manual/pt/CRM/customer-group)
-* [Territory](/docs/user/manual/pt/selling/territory)
-* [Sales Partner](/docs/user/manual/pt/selling/sales-partner)
-* [Campaign](/docs/user/manual/pt/CRM/campaign)
-* [Supplier](/docs/user/manual/pt/buying/supplier)
-* Supplier Group
+* [Cliente](/docs/user/manual/pt/CRM/cliente)
+* [Grupo de Cliente](/docs/user/manual/pt/CRM/grupo-cliente)
+* [Territorio](/docs/user/manual/pt/selling/territorio)
+* [Parceiro de Vendas](/docs/user/manual/pt/vendas/parceiro-vendas)
+* [Campanha](/docs/user/manual/pt/CRM/campanha)
+* [Fornecedor](/docs/user/manual/pt/compras/fornecedor)
+* Grupo de Fornecedor
 
-### 3.3 Validity 
-You can also set a date interval for when the Promotional Scheme will be valid. This is useful for a sales promotion. On leaving the dates blank the Promotional Scheme will not have any time frame limit. 
+### 3.3 Validade
+Voçê pode tambem definir a data limite de validade do Esquema Promocional. É util para uma promoção de Vendas. Ao deixar as datas em branco o Esquema Promocional não terá uma data de termino.
 
-**Currency**: Setting a Currency here will cause the Promotional Scheme to be applied only when the Currency is the same in the transaction.
+**Moeda**: Definindo a Moeda aqui irá fazer com o Esquema Promocional a ser aplicado somente quando a Moeda de transação for igual.
 
-### 3.4 Price Discount Slabs
+### 3.4 Laje de Desconto de Preço
 
-**Rule Description**: Enter a description to keep a not of what this Promotional Scheme entails.
+**Descrição da Regra**: Digita a descrição para manter saber que Esquema Promocional se trata.
 
-#### Quantity and Amount
-Specify minimum qty, maximum qty, minimum amount, or maximum amount of an Item when this Promotional Scheme should be applicable.
+#### Quantidade e Valor
+Especifique a Quantidade minima, quantidade maxima, valor minima ou valor maximo de Item quando se pode aplicar o Esquema Promocional.
 
-Note that if the quantity or amount falls short or exceeds the limits set here, the Promotional Scheme will not be applied at all. However, it will be applied if you have enabled the options Mixed Conditions or Cumulative.
+Note que se a quantidade ou valor for menor ou exceder os limites definidos aqui, o Esquema Promocional não será aplicado em todos. Contudo, será aplicado caso voçê tenha activado a opção Condições Mixas ou Acumulativo.
 
-### Setting the Discount/Rate
-* **Rate**: This will be the new rate for an Item. For example, if you sell an Item for 100 and want to sell it for 112 for a specific party, then select Rate and set the Rate as 112.
-* **Discount Percentage**: A specific discount percentage can be set. For example, a 10% discount on an Item worth 500 would result in a price of 450.
-* **Discount Amount**: A fixed discount amount will be applied. For example if you sell an Item for 100 and want to sell it with a discount of 7, then this condition can be set using the Discount Amount option.
+### Definindo os Descontos/Taxas
+* **Taxa**: Esta sera a nova taxa para um Item. Por exemplo, se voçê vender um Item por 100 e quer vender por 112 para uma parte especifica, então pode selecionar Taxa e definir a Taxa como 112.
+* **Percentagem de Desconto**: Uma percentagem de desconto especifico pode ser definido. Por exemplo, um desconto de 10% num Item que valha 500 resultaria no preço de 450.
+* **Desconto de Valor**: Um desconto de valor fixo pode ser aplicado. Por exemplo, se voçê vender um Item por 100 e quer vender com um desconto de 7, então esta condição pode ser definida usando a opção Desconto de Valor.
 
-#### Filters for setting discount
+#### Filtros para definir Desconto
 
-* **Warehouse**: Setting a Warehouse here will cause the Promotional Scheme to be applied only if the Item is selected from the Warehouse specified here.
+* **Armazem**: Definindo um Armazem aqui irá fazer com que o Esquema Promocional seja aplicado somente a um Item se for deste Armazem especificado aqui.
 
-* **Priority**: Consider an Item Group, you want to set specific rules on one Item from the group. This can be done by creating a new Promotional Scheme and setting a higher priority. 
+* **Prioridade**: Considere o Grupo de Item, voçê quer definir regras especificas num dos Itens do grupo. Este pode ser feito criando uma novo Esquema Promocional e definindo uma prioridade maior. 
 
-* **Threshold for Suggestion**: This is the threshold based on which the system will notify you to adjust Item Quantity for discount. For example, if the Min Quantity is 10 and the Threshold is 9, the system will notify to add 1 more Item for the discount to be applicable. This also applies to the amount set.
+* **Sugestão de Threshold**: Este é o threshold baseado no qual o sistema irá notificar para ajustar a quantidade do Item para o desconto. Por exemplo, se a Quantidade Min for 10 e o limite for 9, o sistema irá notificar para adicionar mais 1 Item para o ddesconto ser aplicado. Isto tambem aplica-se ao valor definido..
 
-* **Validate Applied Rule**: If the entered price is not valid for the Item, the system will not allow you to apply a different rate/discount.
+* **Validar Regra Aplicada**: Caso o preço digitado não seja valido para o Item, o sistem não irá aceitar aplicar uma taxa/desconto diferente.
 
-### 3.5 Product Discount Slabs
-A Product Discount is applicable when one or more Items are free on the purchase of other Items. Most fields in this table are the same as the previous section.
+### 3.5 Laje de Desconto de Produto
+Um Desconto de Produto é aplicado quando um ou mais Itens são de Borla na compra de outros Itens. Muitos dos campos na tabela são os mesmos que a secção anterior.
 
-The additional options are:
-* **Same Item**: If you want to give the same Item as free (product discount) on purchase of an Item, enable this checkbox. If you want to give another Item, untick and select the Item to be given as free.
+As opções adicionais são:
+* **Mesmo Item**: Caso voçês queira dar o Item de Borla (desconto de produto) na compra de um Item, active esta caixa. Caso voçê queira dar outro Item, desactive e selecione o Item para dar de Borla.
 
-* **Apply Multiple Pricing Rules**: To understand this, consider an Item of Rate 500. There are two Pricing Rules on it P1 and P2. P1 applies 10% discount and P2 applies 5%. Enabling this option will apply a total of 15% on the Item Rate which gives 425.
+* **Aplicar Regras de Preço Multiplo**: Para entender isto, considere a Taxa do Item de 500. Existem duas Regras de Preço nele, o P1 e P2. P1 aplica 10% de desconto e P2 aplica 5%. Activando esta opção irá aplicar o total de 15% na taxa de Item que da 425.
 
-* **UoM**: The Promotional Scheme will apply only if the UoM set here matches with the transaction.
+* **UdM**: O Esquema Promocional será aplicado somente se a UdM (Unidade de Medida) definida for igual ao da transação.
 
-* **Rate**: An Item may be offered free of cost by the Supplier but there may be some tax applicable. Entering a Rate here means that the Customer will have to pay the applicable taxes.
+* **Taxa**: Um Item pode ser oferecido sem custo pelo Fornecedor mas poderá haver um Imposto. Digitando a Taxa aqui significa que o Cliente irá ter de pagar o Imposto aplicado.
 
 
-## 4. Promotional Scheme types
-### 4.1 Price Discount
+## 4. Tipos de Esquema Promocionais
+### 4.1 Desconto de Preço
 
-In this type of promotional scheme, the user gets an option to set the discount in terms of percentage or amount based on the min quantity, max quantity, min amount and max amount on the products. Users can also configure the scheme where they can set the flat rate for the product based on the quantity or the amount of the product.
+Neste tipo de esquema promocional, o usuáro tem um opção para definir o desconto em termos de percentagem ou valor de acord a quantidade min, quantidade max, valor minimo e valor maximo do produto. Usuários podem tambem configurara o esquema aonde eles podem definir uma Taxa flat para os productos baseados na quantidade ou valor do produto.
 
 <img alt="Promotional Scheme" class="screenshot" src="{{docs_base_url}}/assets/img/accounts/promotional-schemes-price-discount.png">
 
-### 4.2 Product Discount
+### 4.2 Desconto do Produto
 
-In this type of promotional scheme, the user gets an option to give a free product on purchase of the same or different product with conditions like min quantity, max quantity, min amount, max amount.
+Neste tipo de esquema promocional, o usuário tem um opção para dar um produto de borla na compra do mesmo produto ou outro com as condições quantidade min, quantidade maxima, valor minimo, valor maximo.
 
 <img alt="Promotional Scheme" class="screenshot" src="{{docs_base_url}}/assets/img/accounts/promotional-schemes-product-discount.png">
 
-## 5. How to configure a Promotional Scheme (Examples)
+## 5. Como configurar o Esquema Promocional (Exemplos)
 
-Let's understand how to configure a promotional scheme in ERPNext using some examples.
+Vamos entender como configurar o esquema promocional no ERPNext usando alguns exemplos.
 
-### 5.1 Mixed Conditions Schemes
+### 5.1 Condições Mistas de Esquemas
 
-Customer A has purchased 10 quantities of Britannia Cake 5 Rs packet and 5 quantities of Britannia Cake 10 Rs packet. Now, the Supplier wants to give a discount of 10% to Customer A. This Supplier also wants to give a 10 % discount to Customer B who has purchased 15 quantities of Britannia Cake 5 Rs packet.
+Cliente A comprou 10 quantidade de Bolo Britannia por 5 Rs pacote e 5 quantidade de Bolo Britannia por 10 Rs pacote. Agora, o Fornecedor quer dar um desconto de 10% ao Cliente A. O Fornecedor tambem quer dar um desconto de 10% ao Cliente B que comprou 15 quantidade de Bolo Britannia Cake por 5 Rs pacote.
 
-So, the Supplier wants to apply the discount on products Britannia Cake 5 Rs, Britannia Cake 10 Rs only if his Customers have purchased 15 quantities of any product or sum of both products.
+Portanto, o Fornecedor quer aplicar o desconto nos produtos Bolo Britannia 5 Rs, Bolo Britannia 10 Rs somente se o Cliente comprou 15 quantidades de qualquer um dos produtos ou a soma de ambos.
 
-To configure this in ERPNext the steps are as follows:
+Para configurar isto no ERPNext os passos são os seguintes:
 
-1. Set Apply On as Item Code.
-1. Set the Item Code Britannia Cake 5 Rs, Britannia Cake 10 Rs in the Pricing Rule Item Code table.
-1. Enable the "Mixed Conditions" field.
-1. In the price discount table, set the min qty, max qty as 15.
-1. Set the discount type as Discount Percentage and rate as 10.
+1. Definir Aplicar em como Codigo de Item.
+1. Definir o Codigo de Item para o Bolo Britannia 5 Rs, Bolo Britannia 10 Rs na tabela de Regras de Preço do Codigo de Item.
+1. Activar o campo "Condições Mistas".
+1. Na tabela desconto de preço, definir a qtd min, qtd max como 15.
+1. Definir o tipo de desconto como Percentagem de Desconto e o valor 10.
 
 <img alt="Promotional Scheme" class="screenshot" src="{{docs_base_url}}/assets/img/accounts/promotional-schemes-mixed-conditions.png">
 
-### 5.2 To apply a discount on other Item
+### 5.2 Para aplicar o desconto em outro Item
 
-Customer A has purchased 30 quantities of Britannia Cake 5 Rs packet and 2 quantities of Britannia Cake 15 Rs. The Supplier wants to sell the product Britannia Cake 15 Rs at the flat rate 12. Here the original price for the product Britannia Cake 15 Rs is 15.
+Cliente A comprou 30 quantidades do Bolo Britannia 5 Rs pacote e 2 quantidades de Bolo Britannia 15 Rs. O Fornecedor quer vender o produto Bolo Britannia 15 Rs ao preço baixo de 12. Aqui o preço original para o produto Bolo Britannia 15 Rs é 15.
 
-The Supplier wants to apply the rule only if the Customer has purchased min 30 quantities of the product Britannia Cake 5 Rs or Britannia Cake 10 Rs.
+O Fornecedor quer aplicar a regra somente se o Cliente comprou o min de 30 quantidades do produto Bolo Britannia 5 Rs ou Bolo Britannia 10 Rs.
 
-To configure this in ERPNext the steps are as follows
+Para configura no ERPNext siga as instruções em baixo
 
-1. Set Apply On as Item Code.
-1. Set the item code Britannia Cake 5 Rs, Britannia Cake 10 Rs in the Pricing Rule Item Code table.
-1. Apply Rule On Other as Item Code and set Item Code as Britannia Cake 15 Rs.
-1. In the price discount table, set the min qty as 30.
-1. Set the discount type as Rate and rate as 12.
+1. Definir Aplicar como Codigo de Item.
+1. Definir o Codigo do Item para Bolo Britannia 5 Rs, Bolo Britannia 10 Rs na tabela Regra de Preços de Codigo de Item.
+1. Aplicar a Regra em Outro como Codigo de Item e definir o Codigo de Item como Bolo Britannia 15 Rs.
+1. Na tabela desconto de preço, definir a qtd min de 30.
+1. Definir o tipo de desconto como Taxa e digitar 12.
 
 <img alt="Promotional Scheme" class="screenshot" src="{{docs_base_url}}/assets/img/accounts/promotional-schemes-discount-on-other.png">
 
-## 6. Related Topics
-1. [Pricing Rule](/docs/user/manual/pt/accounts/pricing-rule)
-1. [Customer](/docs/user/manual/pt/CRM/customer)
-1. [Supplier](/docs/user/manual/pt/buying/supplier)
-1. [Item](/docs/user/manual/pt/stock/item)
+## 6. Topicos Relacionados
+1. [Regra de Preço](/docs/user/manual/pt/contabilidade/regras-preço)
+1. [Cliente](/docs/user/manual/pt/CRM/cliente)
+1. [Fornecedor](/docs/user/manual/pt/comprar/fornecedor)
+1. [Item](/docs/user/manual/pt/inventario/item)
