@@ -68,7 +68,7 @@ Accounts Receivable in the [Chart of Accounts](/docs/user/manual/en/accounts/cha
 
 >Advanced Tip: ERPNext supports [Multi-company Accounting](/docs/user/manual/en/accounts/inter-company-journal-entry). You can use the same customer records in multiple companies. Since an accounting ledger is company specific, you need to select the company and the corresponding ledger in ACCOUNTING section if you decide have separate accounting ledger for a customer.
 
-### 2.5 Credit Limit and Payment Terms
+### 2.5 Limite de Credito e Termos de Pagamento
 
 You can set the credit limit by entering the amount in 'Credit Limit' field. Read [Credit Limit](/docs/user/manual/en/accounts/credit-limit) for more details.
 

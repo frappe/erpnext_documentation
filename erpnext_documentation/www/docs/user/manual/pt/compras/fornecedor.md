@@ -49,7 +49,7 @@ Each Supplier can have a default **Price List** so that every time you buy a new
 
 If you select this particular supplier, then the associated Price List will be fetched in Purchase transactions.
 
-### 2.4 Credit Limit
+### 2.4 Limite Credito
 
 * **Default Payment Terms Template**: If a Payment Terms template is set here, it'll be automatically selected for future purchase transactions.
 * **Block Supplier**: You can block invoices, payments or both from a supplier till specific date. Choose 'Hold Type', if you do not select a hold type, ERPNext will set it to "All". When a supplier is blocked, their status will be shown as 'On Hold'.

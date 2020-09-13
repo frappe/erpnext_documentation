@@ -77,7 +77,7 @@ If you need the Item Price fetched from Price List of an item to be editable, yo
 ### 4.3 Allow Item to be added multiple times in a transaction
 This is a validation check which prevents an item from being added multiple times in the same transaction when unchecked. In some cases, this might be an explicit need if so check this box.
 
-### 4.4 Allow multiple Sales Orders against a Customer's Purchase Order
+### 4.4 Permitir Ordens de Venda Multiplas contra Ordem de Compra de Clientes
 When creating a Sales Order, you can update the Purchase Order ID and Date received from the Customer. You can create only one Sales Order against the Customer's PO No. and Date. However, if you wish to allow the creation of multiple Sales Orders against the same PO No. of the Customer, tick the checkbox "Allow multiple Sales Orders against a Customer's Purchase Order".
 
 ### 4.5 Validate Selling Price for Item against Purchase Rate or Valuation Rate

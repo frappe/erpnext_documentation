@@ -138,7 +138,7 @@ When a Payment Entry is made in ERPNext and the Paid Amount is more than the tot
 
 For example, you create a Sales Invoice totaling 1,000 and the Customer paid 1,500. When another invoice is created for this Customer in the future for 1,000 again, the previously paid 500 can be used.
 
-### 3.5 Deductions or Loss
+### 3.5 Dedução ou Perca
 
 When a Payment Entry is created against an invoice, there could be some difference in the actual Paid Amount and the invoice outstanding amount. This difference could be due to rounding errors or changes in the currency exchange rate. You can set an Account here where this difference amount will be booked.
 

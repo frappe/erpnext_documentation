@@ -1,237 +1,236 @@
 <!-- add-breadcrumbs -->
-# Sales Invoice
+# Factura de Vendas
 
-**A Sales Invoice is a bill that you send to your Customers against which the Customer makes the payment.**
+**Uma Factura de Vendas é uma cobrança que voçê envia para os seu Clientes no qual os Clientes fazem o pagamento.**
 
-Sales Invoice is an accounting transaction. On submission of Sales Invoice, the system updates the receivable and books income against a Customer Account.
+Factura de Vendas é uma transação de contabilidade. Ao submeter uma Factura de Vendas, o sistema actualiza os recebimentos e books os valores na conta de Cliente.
 
-To access the Sales Invoice list, go to:
-> Home > Accounting > Accounts Receivable > Sales Invoice
+Para aceder a lista de Factura de Vendas, vá para:
+> Home > Contabilidade > Contas a Receber > Factura de Vendas
 
-![SO Flow](/docs/assets/img/accounts/so-flow.png)
+![Fluxograma OD](/docs/assets/img/accounts/so-flow.png)
 
-## 1. Prerequisites
-Before creating and using a Sales Invoice, it is advised to create the following first:
+## 1. Pre-requisitos
+Antes de criar e usar a Factura de Venda, é aconselhavel criar os seguintes primeiro:
 
-* [Item](/docs/user/manual/en/stock/item)
-* [Customer](/docs/user/manual/en/CRM/customer)
+* [Item](/docs/user/manual/pt/inventario/item)
+* [Cliente](/docs/user/manual/pt/CRM/cliente)
 
-* Optional:
- * [Sales Order](/docs/user/manual/en/selling/sales-order)
- * [Delivery Note](/docs/user/manual/en/stock/delivery-note)
+* Opcional:
+ * [Ordens de Venda](/docs/user/manual/pt/vendas/ordem-vendas)
+ * [Guia de Remessa](/docs/user/manual/pt/inventario/guia-de-remessa)
 
-## 2. How to create a Sales Invoice
-A Sales Invoice is usually created from a Sales Order or a Delivery Note. The Customer's Item details will be fetched into the Sales Invoice. However, you can also create a Sales Invoice directly, for example, a POS invoice.
+## 2. Como criar uma Factura de Venda
+Uma Factura de Venda é normalmente criada apartir de uma Ordem de Venda ou Guia de Remessa. Os detalhes dos Itens do Cliente seram inseridos na Factura de Vendas. Contudo, voçê poide tambem criar Factura de Vendas directamente, poir exemplo, uma factura POS.
 
-To fetch the details automatically in a Sales Invoice, click on the **Get Items from**. The details can be fetched from a Sales Order, Delivery Note, or a Quotation.
+Para inserir os detalhes automaticamente a Factura de Vendas, clique em **Obter Itens de**. Os detalhes podem ser inseridos apartir de uma Ordem de Venda, Guia de Remessa ou Proforma.
 
-For manual creation, follow these steps:
+Para criar manual, siga estes passos:
 
-1. Go to the Sales Invoice list and click on New.
-1. Select the Customer.
-1. Set the Payment Due Date.
-1. In the Items table, select the Items and set the quantities.
-1. The prices will be fetched automatically if [Item Price](/docs/user/manual/en/stock/item-price) is added, else add a price in the table.
-1. The posting date and time will be set to current, you can edit after you tick the checkbox below Posting Time to make a backdated entry.
-1. Save and Submit.
- ![SI](/docs/assets/img/accounts/sales-invoice-1.png)
+1. Vá para a lista de Factura de Vendas e clique em Novo.
+1. Selecione o Cliente.
+1. Definir o Prazo de Pagamento.
+1. Na tabela de Itens, selcione os Itens e as quantidades.
+1. Os preços seram incluidos automaticamente se [Preço de Item](/docs/user/manual/pt/inventario/preço-item) for adicionado, caso contrario adicione na tabela.
+1. A data de postagem e hora sera automaticamente inserida, voçê pode depois fazer um clique na caixa em baixo da Hora de Postagem para alterar.
+1. Salvar e Submeter.
+ ![FV](/docs/assets/img/accounts/sales-invoice-1.png)
 
-### 2.1 Additional options when creating a Sales Invoice
+### 2.1 Opções Adicionais ao criar um Factura de Vendas
 
-* **Include Payment (POS)**: If this invoice is for retail sales / Point of Sale. [Know more here](/docs/user/manual/en/accounts/sales-invoice#324-pos-invoices).
-* **Is Return Credit Note**: Tick this if the customer has returned the Items. To know more details, visit the [Credit Note](/docs/user/manual/en/accounts/credit-note) page.
+* **Incluir Pagamento (POS)**: Se a factura for venda a retalho / Ponto de Venda. [Saiba mais aqui](/docs/user/manual/pt/contabilidade/factura-vendas#324-facturas-pos).
+* **É uma Nota de Credito**: Selecione isto se o cliente devolveu os Itens. Para saber mais detalhes, visite a pagina [Nota de Credito](/docs/user/manual/pt/contabilidade/nota-credito).
 
 <img class="screenshot" alt="Sales Invoice" src="{{docs_base_url}}/assets/img/accounts/sales-invoice.png">
 
-For India:
-**e-Way Bill No**: According to GST rules, transporters need to carry an e-Way Bill. To know how to generate an e-Way Bill, [visit this page](/docs/user/manual/en/regional/india/auto-generate-e-way-bill-JSON).
+Para India:
+**e-Way Bill No**: According to GST rules, transporters need to carry an e-Way Bill. To know how to generate an e-Way Bill, [visit this page](/docs/user/manual/pt/regional/india/auto-generate-e-way-bill-JSON).
 
 ### 2.2 Statuses
 
-These are the statuses that are auto-assigned to Sales Invoice.
+Estes são os estados auto atribuídos as Facturas de Venda.
 
-* **Draft**: A draft is saved but yet to be submitted.
-* **Submitted**: The invoice is submitted to the system and the general ledger has been updated.
-* **Paid**: Customer has made the payment and a [Payment Entry](/docs/user/manual/en/accounts/payment-entry) has been submitted.
-* **Unpaid**: Invoice is generated but payment is pending but within the payment due date.
-* **Overdue**: Payment is pending beyond the payment due date.
-* **Canceled**: The Sales Invoice is canceled due to any reason. Once an invoice is canceled, it's impact on Account and Stock is undone.
-* **Credit Note Issued**: The Item is returned by the Customer and a [Credit Note](/docs/user/manual/en/accounts/credit-note) is created against this invoice.
-* **Return**: It is assigned to Credit Note created against the original Sales Invoice. Though you can also create a standalone Credit Note.
-* **Unpaid and Discounted**: Payment is pending and any ongoing subscription has been discounted using [Invoice Discounting](/docs/user/manual/en/accounts/invoice_discounting).
-* **Overdue and Discounted**: Payment is pending beyond the payment due date and any ongoing subscription has been discounted using [Invoice Discounting](/docs/user/manual/en/accounts/invoice_discounting).
+* **Rascunho**: Um rascunho é salvo mas não submetido ainda.
+* **Submetido**: A factura foi submetida ao sistema e o razão geral foi actualizado.
+* **Pago**: Cliente fez o pagamento e o [Registo de Pagamento](/docs/user/manual/pt/contabilidade/registo-pagamento) foi submetido.
+* **Não Pago**: Factura é gerada mas o pagamento está pendente dentro do prazo de pagamento.
+* **Expirado**: Pagamento está pendente e o prazo de pagamento expirado.
+* **Cancelado**: A Factura de Venda foi cancelada por qualquer motivo. Uma vez a factura cancelada, os movimentos em Contabilidade e Stock são desfeitos.
+* **Nota de Credito Criada**: O Item foi retornado pelo Cliente e a [Nota de Credito](/docs/user/manual/pt/contabilidade/nota-credito) é criada contra a factura.
+* **Devolvido**: É atribuido a Nota de Credito contra a Factura de Venda original. Apesar de poder tambem criar uma Nota de Credito sozinha.
+* **Não Paga e Descontada**: Pagamento está pendente e qualquer subscrição foi descontada usando [Desconto de Facturas](/docs/user/manual/pt/contabilidade/desconto-de-facturas).
+* **Expirada e Descontada**: Pagamento está pendente e prazo de pagamento expirado e qualquer subscrição foi descontada usando [Desconto de Facturas](/docs/user/manual/pt/contabilidade/desconto-de-facturas).
 
-## 3. Features
-### 3.1 Dates
+## 3. Funcionalidades
+### 3.1 Datas
 
-* **Posting Date**: The date on which the Sales Invoice will affect your books of
-accounts i.e. your General Ledger. This will affect all your balances in that
-accounting period.
+* **Data de Postagem**: A data em que a Factura de Venda irá afectar os seus livros de Contabilidade. ex. Razão Geral. 
+Irá afectar os balanços neste periodo contabil.
 
-* **Due Date**: The date on which the payment is due (if you have sold on credit).
-The credit limit can be set from the [Customer](/docs/user/manual/en/CRM/customer#24-credit-limit-and-payment-terms) master.
+* **Data Limite de Pagamento**: A data que expira o pagamento (caso tenha vendido a credito).
+O limite de credito pode ser definido na tabela [Cliente](/docs/user/manual/pt/CRM/cliente#25-limite-de-credito-e-termos-de-pagamento).
 
-### 3.2 Accounting Dimensions
-Accounting Dimensions lets you tag transactions based on a specific Territory, Branch, Customer, etc. This helps in viewing accounting statements separately based on the selected dimension(s). To know more, check help on [Accounting Dimensions](/docs/user/manual/en/accounts/accounting-dimensions) feature.
+### 3.2 Dimensão Contabil
+Dimensão Contabil permite que marque as transações baseadas num Territorio especifico, Branch, Cliente, etc. Isto ajuda a ver os extractos de contabilidade separados baseados na dimensão selecionada. Para saber mais, verifique a ajuda da funcionalidade [Dimensão Contabil](/docs/user/manual/pt/contabilidade/dimensão-contabil).
 
-> Note: Project and Cost Center are treated as dimensions by default.
+> Nota: Projecto e Centros de Custo são tratados como Dimensões por defeito.
 
-### 3.3 Customer PO Details
+### 3.3 Detalhes da OC de Cliente
 
-* **Customer's Purchase Order**: Track customer's PO No. received, primarily to prevent the creation of duplicate Sales Order or Invoice for the same PO received from the Customer. You can do more configuration related to customer's PO No. validation in [Selling Settings](/docs/user/manual/en/selling/selling-settings#44-allow-multiple-sales-orders-against-a-customers-purchase-order)
-* **Customer's Purchase Order Date**: The date on which the Customer placed the Purchase Order.
+* **Ordem de Compra de Clientes**: Rastrei o Nº da OC do Cliente recebido, primariamente para prevenir a criação de Ordens de Venda ou Facturas duplicadas para a mesma OC recebida pelo seu Cliente. Voçê pode fazer mais configurações de Validação sobre o Nº de OC do Cliente nas [Configurações de Venda](/docs/user/manual/pt/vendas/configurações-venda#44-permitir-ordens-de-venda-multiplas-contra-ordem-de-compra-de-clientes)
+* **Data da Ordem de Compra do Cliente**: A data em que o Cliente fez a Ordem de Compra.
 
- ![Customer Address](/docs/assets/img/accounts/si-customer.png)
+ ![Endereço Cliente](/docs/assets/img/accounts/si-customer.png)
 
-### 3.4 Address and Contact
+### 3.4 Endereço e Contacto
 
-* **Customer Address:** This is the Billing Address of the Customer.
-* **Contact Person**: If the Customer is a company, the person to be contacted is fetched in this field if set in the [Customer](/docs/user/manual/en/CRM/customer) form.
-* **Territory:** A [Territory](/docs/user/manual/en/selling/territory) is the region where the Customer belongs to, fetched from the Customer form. The default value is All Territories.
-* **Shipping Address:** Address where the items will be shipped to.
+* **Endereço Cliente:** Este é o Endereço de Cobrança do Cliente.
+* **Pessoa de Contacto**: Se o Cliente for uma empresa, a pessoa de contacto será procurada no campo se foi definido no formulario [Cliente](/docs/user/manual/pt/CRM/cliente).
+* **Territorio:** Um [Territorio](/docs/user/manual/pt/vendas/territorio) é uma região aonde o Cliente pertence, procurado no formulario do Cliente. O valor default é Todos os Territorios.
+* **Endereço de Envio:** Endereço para aonde os Itens seram enviados.
 
-For India, the following details can be recorded for GST purposes. You can capture these details in the Address and Customer master, which would be fetched in the Sales Invoice.
+Para India, the following details can be recorded for GST purposes. You can capture these details in the Address and Customer master, which would be fetched in the Sales Invoice.
 
 * Billing Address GSTIN
 * Customer GSTIN
 * Place of Supply
 * Company GSTIN
 
-### 3.5 Currency
-You can set the currency in which the Sales Invoice order is to be sent. This can be fetched from the Customer master or preceding transactions like Sales Order.
+### 3.5 Moeda
+Voçê pode definir a moeda em que a Factura de Venda será feita. Pode ser procurado apartir da ficha de Cliente ou transações anteriores como Ordens de Venda.
 
-* Wish to select Customer's currency just for the reference of the Customer, whereas accounts posting will be done in the Company's base currency only. Learn more [here](/docs/user/manual/en/accounts/articles/managing-transactions-in-multiple-currency).
-* Maintain separate receivable account in the Customer's currency. The Receivable for this invoice should be posted in that currency itself. [Click here](/docs/user/manual/en/accounts/multi-currency-accounting) to learn more about Multi Currency Accounting.
+* Deseja selecionar a moeda do Cliente somente para a referencia do Cliente, aonde os registo de contabilidade seram feitos na moeda base da Empresa somente. Aprenda mais [aqui](/docs/user/manual/pt/contabilidade/artigos/gerir-transações-multiplas-moedas).
+* Mantenha as contas de recebimento separadas na moeda do Cliente. Os Recebimentos para esta factura devem ser postados naquela moeda. [Clique aqui](/docs/user/manual/pt/contabilidade/contabilidade-multi-moedas) para aprender mais sobre Contabilidade Multi Moedas.
 
-### 3.6 Price list
+### 3.6 Lista de Preços
 
-If you select a Price List, then the item prices will be fetched from that list. Ticking on 'Ignore Pricing Rule' will ignore the [Pricing Rules](/docs/user/manual/en/accounts/pricing-rule) set in Accounts > Pricing Rule.
+Se voçê selcionar uma Lista de Preços, então os preços do item seram procurados apartir desta lista. Selecionando 'ignorar Regras de Preço' irá ignorar as [Regras de Preço](/docs/user/manual/pt/contabilidade/regras-preço) definidos em Contabilidade > Regras de Preço.
 
-To know about Price Lists, [click here](/docs/user/manual/en/stock/price-lists).
+Para saber mais sobre Lista de Preços, [clique aqui](/docs/user/manual/pt/inventario/lista-preços).
 
 
-### 3.7 The Items table
+### 3.7 A tabela de Itens
 
-> Note: From version-13 onwards we have introduced immutable ledger which changes the rules for cancellation of stock entries and posting backdated stock transactions in ERPNext. [Learn more here](/docs/user/manual/en/accounts/articles/immutable-ledger-in-erpnext).
+> Nota: Apartir da versão-13 nós introduzimos o razão imudavel que muda as regras de cancelamento de registo de stocks e transações de stock no ERPNext com datas anteriores. [Saiba mais aqui](/docs/user/manual/pt/contabilidade/artigos/razão-imudavel-erpnext).
 
-#### Update Stock
-Ticking this checkbox will update the Stock Ledger on submitting the Sales Invoice. If you've created a Delivery Note, the Stock Ledger will be changed. If you're **skipping** the creation of Delivery Note, tick this checkbox.
+#### Actualizar Stock
+Activando esta caixa irá actualizar o razão do Stock ao submeter a Factura de Vendas. Se voçê criou uma Guia de Remessa, o Razão de Stock será alterado. Se voçê **não criou** uma Guia de Remessa selecione esta caixa.
 
-* **Scan Barcode**: You can add Items in the Items table by scanning their barcodes if you have a barcode scanner. Know how to track them [here](/docs/user/manual/en/stock/articles/track-items-using-barcode)
+* **Leitura de Codigo de Barras**: Voçê pode adiconar Itens na tabela fazendo a leitura dos seus codigos de barra se voçê tiver um leitor de codigos de barra. Para saber como rastrear [aqui](/docs/user/manual/pt/inventario/artigos/track-items-using-barcode)
 
-* The Item Code, name, description, Image, and Manufacturer will be fetched from the [Item master](/docs/user/manual/en/stock/item).
+* O Codigo do Item, nome, descrição, Imagem e Facbricante seram procurados apartir do [Ficha de Item](/docs/user/manual/pt/inventario/item).
 
-* **Discount and Margin**: You can apply a discount on individual Items percentage-wise or on the total amount of the Item. Read [Applying Discount](/docs/user/manual/en/selling/articles/applying-discount) for more details.
+* **Desconto e Margem**: Voçê pode aplicar um desconto percentual a Itens individuais ou no valor total do Item. Leia [Aplicando Desconto](/docs/user/manual/pt/vendas/artigos/aplicando-desconto) para mais detalhes.
 
-* **Rate**: The Rate is fetched if set in the [Price List](/docs/user/manual/en/stock/price-lists) and the total Amount is calculated.
+* **Preço**: O Preço é procurado se definido na [Lista de Preços](/docs/user/manual/pt/inventario/lista-preços) e o valor total será calculado.
 
-* **Drop Ship**: Drop Shipping is when you make the sales transaction, but the Item is delivered by the Supplier. To know more, visit the [Drop Shipping](/docs/user/manual/en/selling/articles/drop-shipping) page.
+* **Drop Ship**: Envio de Descarga/Entrega é quando voçê faz a transação de venda, mas o Item é entregue pelo Fornecedor. Para saber mais, visite a pagina [Drop Shipping](/docs/user/manual/pt/vendas/artigos/drop-shipping).
 
-* **Accounting Details**: The Income and Expense accounts can be changed here you you wish to. If this Item is an [Asset](/docs/user/manual/en/asset/asset), it can be linked here. This is useful when you're [selling an Asset](/docs/user/manual/en/asset/selling-an-asset).
+* **Detalhes Contabilisticos**: As  contas de Recebimentos e Despesas podem ser alteradas aqui se quiser. Se este Item for um [Activo](/docs/user/manual/pt/activos/activo), pode ser ligado aqui. É util quando voçê esta a [Vendendo um Ativo](/docs/user/manual/pt/activos/vendendo-um-activo).
 
-* **Deferred Revenue**: If the income for this Item will be billed over the coming months in parts, then tick on 'Enable Deferred Revenue'. To know more, visit the [Deferred Revenue page](/docs/user/manual/en/accounts/deferred-revenue).
+* **Deferred Revenue**: Se o Recebimento para este Item será cobrado nos meses futuros em parcelas, então selecione 'Activar Recebimento Futuro'. Para saber mais, visite a [Pagina de Recebimento Futuro](/docs/user/manual/pt/contabilidade/deferred-revenue).
 
-* **Item Weight**: The Item Weight details per unit and Weight UOM are fetched if set in the Item master.
+* **Peso do Item**: Os detalhes de Peso do Item por unidade e UDM de Peso são procurados se definidos na tabela Item.
 
-* **Stock Details**: The following details will be fetched from the Item master:
- * **Warehouse**: The Warehouse from where the stock will be sent.
- * **Available Qty at Warehouse**: The quantity available in the selected Warehouse.
+* **Detalhes de Stock**: Os seguintes detalhes serao procurados apartir da tabela Item:
+ * **Armazem**: O Armazem aonde o stock será enviado.
+ * **Quantidade Disponivel em Armazem**: A quantidade disponivel no Armazem selecionado.
 
-* **Batch No and Serial No**: If your Item is serialized or batched, you will have to enter [Serial Number](/docs/user/manual/en/stock/serial-no) and [Batch](/docs/user/manual/en/stock/batch) in the Items table. You are allowed to enter multiple Serial Numbers in one row (each on a separate line) and you must enter the same number of Serial Numbers as the quantity.
+* **Numero de Lote e Numero de Serie**: Se o seu Item é serializado ou tem Lotes, voçê irá ter de digitar o [Numero de Serie](/docs/user/manual/pt/inventario/numero-serie) e [Lote](/docs/user/manual/pt/inventario/lote) na tabela Itens. Voçê está autorizado a digitar varios Numeros de Serie numa unica linha (cada um em linhas separadas) e voçê deve digitar o mesmo Numero de Series como quantidade.
 
-* **Item Tax Template**: You can set an Item Tax Template to apply a specific Tax amount to this particular Item. To know more, visit [this page](/docs/user/manual/en/accounts/item-tax-template).
+* **Modelo de Imposto de Item**: Voçê pode definir o Modelo de Imposto de Item para a plicar o valor do Imposto para este Item em particular. Para saber mais, visite [esta pagina](/docs/user/manual/pt/contabilidade/modelo-imposto-item).
 
-* References: If this Sales Invoice was created from a Sales Order/Delivery Note, it'll be referred here. Also, the Delivered Quantity will be shown.
+* Referencias: Se esta Factura de Venda foi criada apartir de uma Orde de Venda/Guia de Remessa, será citada aqui. Tambem, a Quantidade Entregue será mostrada.
 
-* **Page Break** will create a page break just before this Item when printing.
+* **Quebra de Pagina** irá criar uma quebra de pagina mesmo antes do Item ser impresso.
 
-### 3.8 Timesheet
+### 3.8 Registo de Horas
 
-If you want to bill Employees working on Projects on an hourly basis (contract based),
-they can fill out Timesheets which consists of their billing rate. When you make a new
-Sales Invoice, select the Project for which the billing is to be made, and the
-corresponding Timesheet entries for that Project will be fetched.
+Se voçê quiser cobrar os Funcionários trabalhando em Projectos com base nas horas (baseado em contracto),
+eles tem que preencher o Registo de Horas que consiste no preço de cobrança deles. Quando voçê fizer uma nova Factura de Venda,
+selecione o Projecto para o qual a cobrança será feita, e o correspondente registo de Registo de Horas
+para o Projecto será inserido.
 
-If your Company's Employees are working at a location and it needs to be billed, you can create an Invoice based on the Timesheet.
+Se o seu Funcionario está a trabalhar numa localização e precisa cobrar, voçê pode criar uma Factura com base no Registo de Horas.
 
-![SI Timesheet](/docs/assets/img/accounts/si-timesheet.png)
+![Registo de Horas FV](/docs/assets/img/accounts/si-timesheet.png)
 
-To know more, [visit this page](/docs/user/manual/en/projects/sales-invoice-from-timesheet).
+Para saber mais, [visite esta pagina](/docs/user/manual/pt/projectos/factura-vendas-registo-horas).
 
-### 3.9 Taxes and Charges
-The Taxes and Charges will be fetched from the [Sales Order](/docs/user/manual/en/selling/sales-order) or [Delivery Note](/docs/user/manual/en/stock/delivery-note).
+### 3.9 Impostos e Taxas
+Os Impostos e Taxas serão procurados apartir da [Ordem de Vendas](/docs/user/manual/pt/vendas/ordem-vendas) ou [Guia de Remessa](/docs/user/manual/pt/inventario/guia-remessa).
 
-Visit the [Sales Taxes and Charges Template](/docs/user/manual/en/selling/sales-taxes-and-charges-template) page to know more about taxes.
+Visite a pagina [Modelo de Impostos e Taxas de Vendas](/docs/user/manual/pt/vendas/modelo-impostos-taxas-vendas) para saber mais sobre Impostos.
 
-The total taxes and charges will be displayed below the table.
+O total de impostos e taxas será mostrado na tabela em baixo.
 
-To add taxes automatically via a Tax Category, visit [this page](/docs/user/manual/en/accounts/tax-category).
+Para adicionar impostos automaticos via a Categora de Imposto, visite [esta pagina](/docs/user/manual/pt/contabilidade/categoria-imposto).
 
-Make sure to mark all your taxes in the Taxes and Charges table correctly for an accurate valuation.
+Tenha a certeza de marcar todos os seus impostos na tabela Impostos e Taxas correctamento para uma Valuação correcta.
 
-![SI Tax](/docs/assets/img/accounts/si-tax.png)
+![Imposto FV](/docs/assets/img/accounts/si-tax.png)
 
-#### Shipping Rule
-A Shipping Rule helps set the cost of shipping an Item. The cost will usually increase with the distance of shipping. To know more, visit the [Shipping Rule](/docs/user/manual/en/selling/shipping-rule) page.
+#### Regra de Envio
+Uma Regra de Envio ajuda a definir o custo de evnio de um Item. O custo normalmente ir+a aumentar com a distancia do envio. Para saber mais, visite a painga [Regra de Envio](/docs/user/manual/pt/vendas/regra-envio).
 
-### 3.10 Loyalty Points Redemption
+### 3.10 Redenção a Lealdade de Pontos
 
-If the Customer is enrolled in a Loyalty Program, they can choose to redeem it. To know more, visit the [Loyalty Program](/docs/user/manual/en/accounts/loyalty-program) page.
+Se um Cliente estiver no Programa de Lealdade, eles pode escolher se redimir. Para saber mais, visite a pagina [Programa de Lealdade](/docs/user/manual/pt/contabilidade/programa-lealdade).
 
-### 3.11 Additional Discount
-Any additional discounts to the whole Invoice can be set in this section. This discount could be based on the Grand Total i.e., post tax/charges or Net total i.e., pre tax/charges. The additional discount can be applied as a percentage or an amount.
-Visit the [Applying Discount](/docs/user/manual/en/selling/articles/applying-discount) page for more details.
+### 3.11 Descontos Adicionais
+Qualquer desconto adicional para a Factura completa pode ser definido nesta secção. Este desconto pode ser baseado no Total Geral ex. imposto/taxas ou Valor Liquido ex. pre imposto/taxas. O desconto adicional pode ser aplicado como uma percentagem ou valor.
+Visite a pagina [Aplicando Desconto](/docs/user/manual/pt/vendas/artigos/aplicando-desconto) para mais informações.
 
-![SI Add Discount](/docs/assets/img/accounts/si-add-discount.png)
+![FV e Desconto](/docs/assets/img/accounts/si-add-discount.png)
 
-### 3.12 Advance Payment
-For high-value Items, the seller can request an advance payment before processing the order. The **Get Advances Received** button opens a popup from where you can fetch the orders where the advance payment was made. To know more, visit the [Advance Payment Entry](/docs/user/manual/en/accounts/advance-payment-entry) page.
+### 3.12 Adiantamento de Pagamento
+Para Itens de grande valor, o vendedor pode pedir uma adiantamento de pagamento antes de processar o pedido. O botão **Obter Adiantamentos Recebidos** abre uma janela aonde voçê pode procurar as ordens aonde o pagamento foi feito. Para saber mais, visite a pagina [Registo de Adiantamento de Pagamento](/docs/user/manual/pt/contabilidade/adiantamento-pagamento).
 
-### 3.13 Payment Terms
-The payment for an invoice may be made in parts depending on your understanding with the Supplier. This is fetched if set in the Sales Order. To know more, visit the [Payment Terms](/docs/user/manual/en/accounts/payment-terms) page.
+### 3.13 Termos de Pagamento
+O pagamento para uma factura pode ser feito em partes depdendendo do entendimento com o Fornecedor. Este é procurado caso definido na Ordem de Venda. Para saber mais, visite a pagina [Termos de Pagamento](/docs/user/manual/pt/contabilidade/termos-pagamento).
 
 ### 3.14 Write Off
-Write off happens when the Customer pays an amount less than the invoice amount. This may be a small difference like 0.50. Over several orders, this might add up to a big number. For accounting accuracy, this difference amount is 'written off'. To know more, visit the [Payment Terms](/docs/user/manual/en/accounts/payment-entry#25-deductions-or-loss) page.
+Write off acontece quando o Cliente paga um valor inferior ao valor da factura. Isto pode ser uma diferença pequena de 0.50. Juntando muitas ordens, isto pode ser um valor muito grande. Para accuracy contabilistico, esta diferença de valor é 'written off'. Para saber mais, visite a pagina [Termos de Pagamento](/docs/user/manual/pt/contabilidade/registo-pagamento#25-deduções-ou-percas).
 
-### 3.15 Terms and Conditions
-There may be certain terms and conditions on the Item you're selling, these can be applied here. To know about adding Terms and Conditions, [click here](/docs/user/manual/en/setting-up/print/terms-and-conditions).
+### 3.15 Termos e Condições
+Poderá existe um certo termo e condição no Item que estiver a vender, este pode pode ser aplicado aqui. Para saer mais sobre adicionando Termos e Condições, [clique aqui](/docs/user/manual/pt/configuração/imprimir/termos-e-condições).
 
-### 3.16 Transporter Information
+### 3.16 Informação de Transporte
 
-If you outsource transporting Items to their delivery location, the transporter details can be added. This is not the same as [drop shipping](/docs/user/manual/en/selling/articles/drop-shipping).
+Se voçê aluga o transporte de Itens para a sua localização, os detalhes de transporte podem ser incluidos aqui. Isto não é o mesmo que [Envio de Descarga](/docs/user/manual/pt/vendas/artigos/drop-shipping).
 
-* **Transporter**: The Supplier who will transport the Item to your Customer. The transporter feature should be enabled in the Supplier master to select the [Supplier](/docs/user/manual/en/buying/supplier) here.
-* **Driver**: You can add a Driver here who will drive the mode of transport.
+* **Transportador**: O Fornecedor que irá transporta os Item do seu Cliente. A funcionalidad de transportador deve ser activada na ficha do Fornecedor, para selecionar o [Fornecedor](/docs/user/manual/pt/comprar/fornecedor) aqui.
+* **Motorista**: Voçê pode adicionar o Motorista aqui que irá levar o modo de transportar.
 
-The details are usually fetched from the Delivery Note.
+Os detalhes são normalmente procurados apartir da Guia de Remessa.
 
- ![Delivery Note Transport](/docs/assets/img/accounts/si-transporter.png)
+ ![Guia de Transporte](/docs/assets/img/accounts/si-transporter.png)
 
-The following details can be recorded:
+Os seguintes detalhes podem ser guardados:
 
-* Distance in km
-* Mode of Transport whether road, air, rail, or ship.
+* Distancia em km
+* Modeo de Transporte quer seja carro, avião, comboio ou navio.
 
-For India, GST:
+Para India, GST:
 
 * GST Transporter ID
 * Transport Receipt No
 * Vehicle No
  The GST Vehicle Type can be changed
 
-The Transport Receipt Date and Driver Name will be fetched.
+A Data do Recibo de Transporte e Nome do Motorista será procurada.
 
-### 3.17 Printing Settings
+### 3.17 Configurações de Impressão
 
-#### Letterhead
-You can print your Sales Invoice on your Company's letterhead. Know more [here](/docs/user/manual/en/setting-up/print/letter-head).
+#### Cabeçalho de Carta
+Voçê pode imprimir a sua Factura de Venda com o Cabeçalho de Carta da sua Empresa. Saiba mais [aqui](/docs/user/manual/pt/configuração/impressão/cabeçalho-carta).
 
-'Group same items' will group the same items added multiple times in the Items table. This can be seen when your print.
+'Agrupar os mesmos itens' irá agrupar os itens iguais adicionados multiplas vezes na tabela de Itens. Isto pode ser visto ao imprimir.
 
-#### Print Headings
-Sales Invoice headings can also be changed when printing the document. You can do this by selecting a **Print Heading**. To create new Print Headings go to: Home > Settings > Printing > Print Heading. Know more [here](/docs/user/manual/en/setting-up/print/print-headings).
+#### Imprimir Cabeçalhos
+Cabeçalhos de Factura de Vendas pode tambem ser alterado ao imprimir o documento. Voçẽ pode fazer isto selecionando o **Imprimir Cabeçalhos**. Para criar um novo Imprimir Cabeçalhos va para: Home > Configurações > Imprimir > Imprimir Cabeçalho. Saiba mais [aqui](/docs/user/manual/pt/configuração/imprimir/imprimir-cabeçalhos).
 
-There are additional checkboxes for printing the Sales Invoice without the amount, this might be useful when the Item is of high value. You can also group the same Items in one row when printing.
+Tem caixas adicionais para imprimir Factura de Vendas sem o valor, este pode ser util quando o Item é de grande valor. Voçê pode tambem agrupar os Itens iguais numa unica linha ao imprimir.
 
 ### 3.18 GST Details (for India)
 
@@ -243,102 +242,101 @@ The following details can be set for GST:
 * E-commerce GSTIN
 * Print Heading
 
-### 3.19 More Information
-The following Sales details can be recorded:
+### 3.19 Mais Informação
+Os seguintes detalhes de Vendas são guardados:
 
-* **Campaign**: If this invoice is a part of on ongoing sales Campaign, it can be linked. To know more, visit the [Campaign page](/docs/user/manual/en/CRM/campaign).
-* **Source**: A Lead Source can be tagged here to know the source of sales. To know more, visit the [Lead Source](/docs/user/manual/en/CRM/lead_source) page.
+* **Campanha**: Se esta factura faz parte de uma Campanha de Vendas continua, pode ser ligada. Para saber mais, visite a pagina [Pagina de Campanha](/docs/user/manual/pt/CRM/campanha).
+* **Fonte**: Uma Fonte Lead pode ser marcado aqui para saber a fonte da Venda. Para saber mais, visite a pagina [Fonte Lead](/docs/user/manual/pt/CRM/lead_source).
 
- ![SI More info](/docs/assets/img/accounts/si-more-info.png)
+ ![FV Mais info](/docs/assets/img/accounts/si-more-info.png)
 
-### 3.20 Accounting Details
+### 3.20 Detalhes Contabilisticos
 
-* **Debit To**: The account against which receivable will be booked for this Customer.
-* **Is Opening Entry**: If this is an opening entry to affect your accounts select 'Yes'. i.e. if you're migrating from another ERP to ERPNext mid year, you might want to use an Opening Entry to update account balances in ERPNext.
+* **Debitar em**: A conta no qual os recebimentos serão booked para este Cliente.
+* **É Registo de Abertura**: Se este for um registo de abertura que afecta as suas contas selecione 'Sim'. ex. Se voçê estiver a migrar de um ERP para o ERPNext no meio do ano, voçê pode querer usar o Registo de Abertura para actualizar as suas contas de balanço no ERPNext.
 <!-- deprecated * **C-Form Applicable**: A C Form is used for the reduction of applicable taxes, select yes if applicable to your transaction. Note: C Form is not applicable in India since GST. -->
-* **Remarks**: Any additional remarks about the Sales Invoice can be added here.
+* **Observações**: Qualquer observação adiconal sobre a Factura de Venda pode ser adicionada aqui.
 
- ![SI Accounting Details](/docs/assets/img/accounts/si-acc-details.png)
+ ![Detalhes Contabilisticos FV](/docs/assets/img/accounts/si-acc-details.png)
 
-### 3.21 Commission
+### 3.21 Comissão
 
-If the sale took place via one of your Sales Partners, you can add their commission details here. This is usually fetched from the Sales Order/Delivery Note.
+Se a venda foi feita por via de um dos seus Parceiros de Venda, voçê pode adicionar os detalhes de comissão aqui. Este é procurado apartir da Ordem de Venda/Guia de Remessa.
 
-### 3.22 Sales Team
+### 3.22 Grupo de Vendas
 
-**Sales Persons:** ERPNext allows you to add multiple Sales Persons who may have worked on this deal. This is also fetched from the Sales Order/Delivery Note.
+**Revendedores:** O ERPNext permite adicionar varios Revendedores que tenham trabalhado neste negocio. Este tambem é procurado apartir da Ordem de Venda/Guia de Remessa.
 
-### 3.23 Automatically Fetching Item Batch Numbers
+### 3.23 Procurando Automaticamente os Numeros de Lote do Item
 
-If you are selling an Item from a [Batch](/docs/user/manual/en/stock/batch),
-ERPNext will automatically fetch a batch number for you if "Update Stock"
-is checked. The batch number will be fetched on a First Expiring First Out
-(FEFO) basis. This is a variant of First In First Out (FIFO) that gives the highest priority to the soonest to expire Items.
+Se voçẽ vende Item apartir de um [Lote](/docs/user/manual/pt/inventario/lote),
+o ERPNext irá automaticamente procurra o numero do lote para si se o "Actualizar Stock"
+estiver activo. O numero do lote será procurado pela ordem de Primeiro a Expirar primeiro a Sair
+(FEFO). Este é uma variante do Primeiro a Entrar Primeiro a Sair (FIFO) que dá prioridade aos Itens que vão expirar primeiro.
 
-Note that if the first batch in the queue cannot satisfy the order on the invoice,
-the next batch in the queue that can satisfy the order will be selected. If no batch can satisfy the order, ERPNext will cancel its attempt to automatically fetch a suitable batch number.
+Note que se a o primeiro lote na fila não satisfazer o pedido na factura,
+o proximo lote na fila pode ser usado e selecionado. Se não tiver um lote que satisfaça o pedido, o ERPNext irá cancelar a tentativa de inserir automaticamente o numero de lote.
 
-### 3.24 POS Invoices
+### 3.24 Facturas POS
 
-Consider a scenario where the retail transaction is carried out. For e.g: A retail shop.
-If you check the **Is POS** checkbox, then all your **POS Profile** data is fetched
-into the Sales Invoice and you can easily make payments.
+Considere o cenario aonde a transação a retalh é feita. Por ex. Loja de retalho.
+Se voçê selecionar a caixa **É POS**, então todo o seu **Perfirl POS** de usuário será inserido
+na Factura de Venda e poderá fazer o pagamento facilmente.
 
-Also, if you check the **Update Stock** the stock will also update automatically,
-without the need for a Delivery Note.
+Tambem, se voçê selecionar **Actualizar Stock** o stock será actualizado automaticamente,
+sem que voçê precisar criar uma Guia de Remessa.
 
 <img class="screenshot" alt="POS Invoice" src="{{docs_base_url}}/assets/img/accounts/pos-sales-invoice.png">
 
-### 3.25 After Submitting
+### 3.25 Depois de Submeter
 
-On submitting a Sales Invoice, the following documents can be created against it:
+A submeter uma Factura de Venda, os seguintes documentos são criados:
 
-1. [Journal Entry](/docs/user/manual/en/accounts/journal-entry)
-1. [Payment Entry](/docs/user/manual/en/accounts/payment-entry)
-1. [Payment Request](/docs/user/manual/en/accounts/payment-request)
-1. [Invoice Discounting](/docs/user/manual/en/accounts/invoice_discounting)
-1. [Delivery Note](/docs/user/manual/en/stock/delivery-note)
+1. [Lançamento Contabilistico](/docs/user/manual/pt/contabilidade/lançamento-contabilistico)
+1. [Registo de Pagamento](/docs/user/manual/pt/contabilidade/registo-pagamento)
+1. [Solicitação de Pagamento](/docs/user/manual/pt/contabilidade/solicitação-pagamento)
+1. [Desconto da Factura](/docs/user/manual/pt/contabilidade/desconto-da-factura)
+1. [Guia de Remessa](/docs/user/manual/pt/inventario/guia-remessa)
 
-![SI Submit](/docs/assets/img/accounts/si-submit.png)
+![Submeter FV](/docs/assets/img/accounts/si-submit.png)
 
 
-## 4. More
-### Accounting Impact
+## 4. Mais
+### Impacto na Contabilidade
 
-All Sales must be booked against an “Income Account”. This refers to an
-Account in the “Income” section of your Chart of Accounts. It is a good
-practice to classify your income by type (like product income, service income, etc). The Income Account must be set for each row of the Items table.
+Todas as vendas deve ser alocadas contra uma "Conta de Recebimento". isto refere a uma
+Conta na secção de "Recebimentos" do seu Plano de Contas. É de boa practica
+classificar o recebimento por tipo (de produto, serviço, etc). A Conta de Recebimento deve ser definida para cada linha da tabela de Itens.
 
-> Tip: To set default Income Accounts for Items, you can set it in the Item or
-Item Group.
+> Dica: Para definir as Contas de Recebimentos dos Itens, voçê pode definir no Item ou
+Grupo de Item.
 
-The other account that is affected is the Account of the Customer. That is
-automatically set from “Debit To” in the heading section.
+A outra conta que é afectada é a Conta de Cliente. Isto é 
+automaticamente definido apartir de "Debitar em" na secção de cabeçalho.
 
-You can also mention the Cost Centers in which your Income must be booked.
-Remember that your Cost Centers tell you the profitability of the different
-lines of business or product. You can also set a default Cost Center in the
-Item master. See also: [Accounting Dimensions](/docs/user/manual/en/accounts/accounting-dimensions).
+Voçê pode tambem mencionar o Centro de Custo no qual a Recebimento foi alocado.
+Lembre-se que os seus Centros de Custo dizem-lhe os Lucros de diferentes linhas
+de negocio ou produto. Voçê pode definir o Centro de Custo default na 
+tabela Item. Veja tambem: [Dimensões Contabil](/docs/user/manual/pt/contabilidade/dimensão-contabil).
 
-### Accounting entries (GL Entry) for a typical double entry “Sale”:
-When booking a sale (accrual):
+### Lançamento Contabil (GL Entry) para um entrada dupla de "Vendas":
+Ao fazer a alocação da venda (accrual):
 
-* **Debit:** Customer (grand total)
-* **Credit:** Income (net total, minus taxes for each Item)
-* **Credit:** Taxes (liabilities to be paid to the government)
+* **Debito:** Cliente (total geral)
+* **Credito:** Recebimentos (total liquido, menos impostos para cada Item)
+* **Credito:** Impostos (responsabilidades a serem pagas ao governo)
 
- ![SI Ledger](/docs/assets/img/accounts/si-ledger.png)
+ ![Razão FV](/docs/assets/img/accounts/si-ledger.png)
 
-> To see entries in your Sales Invoice after you “Submit”, click on “View
-Ledger”.
+> Para ver as entradas na sua Factura de Vendas depois de "Submeter", clique em "Ver Razão".
 
-## 5. Related Topics
-1. [Cost Center](/docs/user/manual/en/accounts/cost-center)
-1. [Journal Entry](/docs/user/manual/en/accounts/journal-entry)
-1. [Payment Entry](/docs/user/manual/en/accounts/payment-entry)
-1. [Purchase Invoice](/docs/user/manual/en/accounts/purchase-invoice)
-1. [Purchase Receipt](/docs/user/manual/en/stock/purchase-receipt)
-1. [Item Wise Taxation](/docs/user/manual/en/accounts/item-tax-template)
-1. [Sales Order](/docs/user/manual/en/selling/sales-order)
-1. [Quotation](/docs/user/manual/en/selling/quotation)
-1. [Delivery Note](/docs/user/manual/en/stock/delivery-note)
+## 5. Topicos Relacionados
+1. [Centro de Custo](/docs/user/manual/pt/contabilidade/centro-custo)
+1. [Lançamento Contabilistico](/docs/user/manual/pt/contabilidade/lançamento-contabilistico)
+1. [Registo de Pagamento](/docs/user/manual/pt/contabilidade/registo-pagamento)
+1. [Factura de Compra](/docs/user/manual/pt/contabilidade/factura-compra)
+1. [Recibo de Compra](/docs/user/manual/pt/inventario/recibo-compra)
+1. [Imposto de Item Inteligente](/docs/user/manual/pt/contabilidade/modelo-imposto-item)
+1. [Ordem de Vendas](/docs/user/manual/pt/vendas/ordem-vendas)
+1. [Proforma](/docs/user/manual/pt/vendas/proforma)
+1. [Guia de Remessa](/docs/user/manual/pt/inventario/guia-remessa)
