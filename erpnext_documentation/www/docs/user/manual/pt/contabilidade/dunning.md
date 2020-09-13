@@ -49,4 +49,4 @@ Um Registo de Pagamento pode ser criado apartir de um Dunning. Será puxado em c
 
 ## 4. Topicos Relacionados
 1. [Registo de Pagamento](/docs/user/manual/pt/contabilidade/registo-pagamento)
-1. [Factura de Vendas](/docs/user/manual/pt/accounts/factura-vendas)
+1. [Factura de Vendas](/docs/user/manual/pt/contabilidade/factura-vendas)

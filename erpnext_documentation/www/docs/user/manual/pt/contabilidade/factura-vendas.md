@@ -71,7 +71,7 @@ Irá afectar os balanços neste periodo contabil.
 O limite de credito pode ser definido na tabela [Cliente](/docs/user/manual/pt/CRM/cliente#25-limite-de-credito-e-termos-de-pagamento).
 
 ### 3.2 Dimensão Contabil
-Dimensão Contabil permite que marque as transações baseadas num Territorio especifico, Branch, Cliente, etc. Isto ajuda a ver os extractos de contabilidade separados baseados na dimensão selecionada. Para saber mais, verifique a ajuda da funcionalidade [Dimensão Contabil](/docs/user/manual/pt/contabilidade/dimensão-contabil).
+Dimensão Contabil permite que marque as transações baseadas num Territorio especifico, Branch, Cliente, etc. Isto ajuda a ver os extractos de contabilidade separados baseados na dimensão selecionada. Para saber mais, verifique a ajuda da funcionalidade [Dimensão Contabil](/docs/user/manual/pt/contabilidade/dimensao-contabil).
 
 > Nota: Projecto e Centros de Custo são tratados como Dimensões por defeito.
 
@@ -317,7 +317,7 @@ automaticamente definido apartir de "Debitar em" na secção de cabeçalho.
 Voçê pode tambem mencionar o Centro de Custo no qual a Recebimento foi alocado.
 Lembre-se que os seus Centros de Custo dizem-lhe os Lucros de diferentes linhas
 de negocio ou produto. Voçê pode definir o Centro de Custo default na 
-tabela Item. Veja tambem: [Dimensões Contabil](/docs/user/manual/pt/contabilidade/dimensão-contabil).
+tabela Item. Veja tambem: [Dimensões Contabil](/docs/user/manual/pt/contabilidade/dimensao-contabil).
 
 ### Lançamento Contabil (GL Entry) para um entrada dupla de "Vendas":
 Ao fazer a alocação da venda (accrual):
