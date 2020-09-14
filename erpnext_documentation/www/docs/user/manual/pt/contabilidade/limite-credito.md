@@ -1,62 +1,62 @@
 <!-- add-breadcrumbs -->
-# Credit Limit
+# Limite de Credito
 
-**Credit Limit is the maximum amount of credit you are willing to offer to a Customer.**
+**Limite de Credito é o valor maximo de credito que voçê está disposto a oferecer a um Cliente.**
 
-A Credit Limit is the maximum amount of credit that a financial institution or
-other lender will extend to a debtor for a particular line of credit. From a
-Customer's perspective, it is the maximum amount of goods or services they can get without paying money upfront.
+Um Limite de Credito é o valor maximo de credito que a instituição financeira or 
+ou outro emprestador irá extender a um devedor para uma linha de credito em particular. Do ponto de vista
+de um Cliente, é o valor maxiom de bens ou serviços que les podem ter sem fazer qualquer pagamento adiantado.
 
-You can set the Credit Limit in Customer, Customer Group, and in the Company.
-When a Sales Order or a Sales Invoice is submitted, the Credit Limit will be checked.
+Voçê pode definir o Limite de Credito no Cliente, Grupo de Cliente e na Empresa.
+Quando uma Ordem de Venda ou uma Factura de Venda é submetida, o Limite de Credito será verificado.
 
-The order of precedence for checking Credit Limit is as follows:
+A ordem de precedencia para verificar o Limite de Credito é da seguinte forma:
 
-* Credit Limit set in Customer
-* Credit Limit set in Customer Group
-* Credit Limit set in Company
+* Limite de Credito é definido no Cliente
+* Limite de Credito é definido no Grupo de Cliente
+* Limite de Credito é definido na Empresa
 
 
-## 1. How to Set Credit Limit
-1. Go to: **Selling > Sales > Customer > Customer**.
-1. Under Credit Limit and Payment Terms section, set the Credit Limit.
-1. If you leave the Credit Limit as the default, i.e., 0, it has no effect.
-1. Save.
+## 1. Como Definir o Limite de Credito
+1. Vá para: **Vendas > Vendas > Cliente > Cliente**.
+1. Na secção Limite de Credito e Termos de Pagamento, defina o Limite de Credito.
+1. Se voçê deixar o Limite de Credito como defeito, ex. 0, não tem efeito.
+1. Salvar.
 
     <img class="screenshot" alt="Credit Limit" src="{{docs_base_url}}/assets/img/accounts/customer-credit-limit.png">
 
-## 2. Features
-### 2.1 Credit Controller
-You can allow users with a specific role to override the Credit Limit validation and submit a Sales Order or Sales Invoice even when a Customer's Credit Limit is fully utilized.
+## 2. Funcionalidades
+### 2.1 Controlador de Credito
+Voçê pode permitir os usuário com um papel especifico de passar por cima da validação do Limite de Credito ao submter a Ordem de VEnda ou a Factura de Vendas mesmo quando o Limite de Credito do Cliente já foi utilizado por completo.
 
-To set the Credit Controller role:
+Para definir o papel de Controlador de Credito:
 
-1. Go to: **Accounting > Settings > Accounts Settings**
-1. Set the role in Credit Controller field.
+1. Vá para: **Contabilidade > Configuraçãoes > Configurações de Contabilidade**
+1. Defina o papel no campo Controlador de Credito.
 
 <img class="screenshot" alt="Credit Limit" src="{{docs_base_url}}/assets/img/accounts/credit_controller_role.png">
 
-### 2.2 Bypass Credit Limit Check for Sales Order
+### 2.2 Bypass o Verificador do Controlador de Credito para Ordens de Venda
 
-For specific customers, you can set the credit limit to be checked against the cumulative amount of the outstanding sales invoices and not the sales orders. You can do so by ticking 'Bypass credit limit check at Sales Order' checkbox in 'Credit Limit and Payment Terms' section of the customer.
+Para clientes especificos, voçê pode definir o limite de credito para ser vificado sobre o montante acumulado de uma factura de vendas em falta e não e na Ordem de Venda. Voçê pode fazer selecionando a caixa 'Bypass o Verificador do Controlador de Credito para Ordens de Venda' na secção 'Limite de Credito e Termos de Pagamento' do cliente.
 
 <img class="screenshot" alt="Customer Credit Limit" src="{{docs_base_url}}/assets/img/accounts/customer-credit-limit-bypass.png">
 
 
-### 2.3 Credit Limit for Customer Groups
-To set Credit Limit at Customer Group Level:
+### 2.3 Limite de Credito para Grupo de Clientes
+Para definir o Limite de Credito a nivel de Grupo de Clientes:
 
-1. Go to **Selling > Customers > Customer Group**.
-1. Open the Customer Group and set the Credit Limit.
+1. Vá para **Vendas > Clientes > Grupo de Clientes**.
+1. Abra o Grupo de Cliente e defina o Limite de Credito.
 
-### 2.4 Credit Limit for Company
-On setting Credit Limit at the Company level, all the Customers will have this Credit Limit applied globally.
+### 2.4 Limite de Credito para Empresa
+Ao definir o Limite de Credito a nivel de Empresa, todos os Clientes irão ter este Limite de Credito aplicado.
 
-To set Credit Limit at Company level:
+Para definir o Limite de Credito a nivel da Empresa:
 
-1. Go to **Accounting > Masters and Accounts > Company**.
-1. Open the Company and set the Credit Limit.
+1. Vá para **Contabilidade > Mestres Contabeis > Empresa**.
+1. Abra a Empres e defina o Limite de Credito.
 
-### 3. Related Topics
-1. [Payment Entry](/docs/user/manual/en/accounts/payment-entry)
-1. [Customer](/docs/user/manual/en/CRM/customer)
+### 3. Topicos Relacionados
+1. [Registo de Pagamento](/docs/user/manual/pt/contabilidade/registo-pagamento)
+1. [Cliente](/docs/user/manual/pt/CRM/cliente)

@@ -1,16 +1,16 @@
 <!-- add-breadcrumbs -->
-# Finance Book
+# Livro Financeiro
 
-**A Finance Book is a *book* against which all the accounting entries are booked.**
+**Um Livro Financeiro é um *livro* no qual todos os lançamentos contabilisticos são alocados.**
 
-You can have multiple finance books. For example, one book for tax authorities and another for stockholders. This is useful if you have to report depreciation and other values in different ways based on regulatory requirements. You can also use this to post alternate balance sheets for your internal reporting.
+Voçê pode ter varios Livros Financeiros. Por exemplo, um livro para autoridades fiscais e outra para Acionistas. Este é util se voçê tiver que fazer relatorio de depreciação e outros valores de diferentes formas baseado nos requesitos de regulamentação. Voçê pode tambem usar para inserir balanços alternativos para o seu relario interno.
 
-Finance Book is **not** a mandatory setup. But if you choose to create multiple Finance Books, then you can make entries against a specific Finance Book by selecting that book in Journal Entry. If a Finance Book field is blank in a Journal Entry that means the entry will be available in all finance books.
+Livro Financeiro **não** é uma configuração obrigatoria. Mas se voçê escolher criar varioa Livros Financeiros, então poderá fazer registo contra Livros Financeiros especificos ao selecionar o Livro Financeiro no Lançamento Contabilistico. Se o campo Livro Financeiro estiver em branco no Lançamento Contabilistico significa que o registo ficará disponivel para todos os Livros Financeiros.
 
-Many a times, for fixed asset depreciation, a Company may use different depreciation methods (Straight Line / Written Down Value / Double Declining Balance) for different finance books. You can set up different [depreciation schedules](/docs/user/manual/en/asset/asset-depreciation) for each Finance Book. Then, automatic depreciations will booked against that Finance Book according to the schedule.
+Muita das vezes, para a depreciação de activos, a Empresa poderá usar metodos de depreciação diferentes (Linha Reta / Written Down Value / Double Declining Balance) para os diferentes Livros Financeiros. Voçê pode configurar o [Cronograma de Depreciação](/docs/user/manual/pt/activos/depreciação-activo) para cada Livro Financeiro. Depois, depreciações automaticas serão alocadas contra este Livro Financeiro de acordo o Cronograma.
 
 <img class="screenshot" alt="Finance Book" src="{{docs_base_url}}/assets/img/accounts/finance-book.png">
 
-#### Related Topics
-1. [Cost Center](/docs/user/manual/en/accounts/cost-center)
-1. [Budgeting](/docs/user/manual/en/accounts/budgeting)
+#### Topicos Relacionados
+1. [Centro de Custo](/docs/user/manual/pt/contabilidade/centro-custo)
+1. [Orçamento](/docs/user/manual/pt/contabilidade/orcamento)

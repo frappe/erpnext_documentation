@@ -1,94 +1,94 @@
 <!-- add-breadcrumbs -->
-# Item Tax Template
+# Modelo de Imposto do Item
 
-**Item Tax Template is useful for item wise taxation.**
+**Modelo de Imposto do Item é util para taxação inteligente de Itens.**
 
-If some of your Items have tax rates different from the standard tax rate assigned in the Taxes and Charges table, then you can create an Item Tax Template and assign it to an [Item](/docs/user/manual/en/stock/item) or [Item Group](/docs/user/manual/en/stock/item-group). The rate assigned in the Item Tax Template will get preference over the standard tax rate assigned in the Taxes and Charges table.
+Se alguns dos seu itens tem atribuidos taxa de impostos diferentes da taxa de impostos normal na tabela de Impostos e Taxas, então voçê pode criar um Modelo de Imposto de Item e atribuir a um [Item](/docs/user/manual/pt/inventario/item) ou [Grupo de Item](/docs/user/manual/pt/inventario/grupo-item). A taxa atribuida no Modelo de Imposto de Item será a principal em vez da taxa normal atribuida na tabela de Impostos e Taxas.
 
-For example, if tax GST 18% is added in the Taxes and Charges table in Sales Order, then it will be applied on all the items in that Sales Order. However, if you need to have different tax rate applied on some of the items, the steps are given below
+Por exemplo, se a taxa GST é de 18% e foi adicionada na tabela de Impostos e Taxas na Ordem de Vendas, então será aplicado para todos os itens da Ordem de Vendas. Contudo, se voçê precisa de ter uma taxa de imposto diferente para alguns itens, os passos são os seguintes
 
-To access the Item Tax Template list, go to
-> Home > Accounting > Taxes > Item Tax Template
+Para aceder a lista de Modelo de Imposto do Item, vá para
+> Home > Contabilidade > Impostos > Modelo de Imposto do Item
 
-Let's assume that we are creating a Sales Order. We have the [Sales Taxes and Charges Template](/docs/user/manual/en/selling/sales-taxes-and-charges-template) master for GST 9%. Out of all the Sales Items, on one Item, only 5% GST will be applied, while another item is exempted from tax (non taxable). You need to select the Account Head of the tax and set its overriding rate.
+Vamos assumir que estamos a criar um Ordem de Vendas. Nós temos o [Modelo de Impostos e Taxas de Vendas](/docs/user/manual/pt/vendas/modelo-impostos-taxas-vendas) com GST 9%. Fora todos os itens de Venda, num Item em particular, somente 5% GST será aplicado, enquanto que outro item está exempto do Imposto (não taxavel). Voçê precisa selecionar o Numero da Conta para o Imposto e definir a taxa a aplicar.
 
-## 1. Prerequisites
-Before creating and using an Item Tax Template, it is advised to create the following first:
+## 1. Pre-requisitos
+Antes de cirar e usar o Modelo de Imposto de Item, é aconselhado criar os seguintes primeiro:
 
-1. [Item](/docs/user/manual/en/stock/item)
-1. Enable 'Automatically add Taxes and Charges from Item Tax Template' in [Account Settings](/docs/user/manual/en/accounts/accounts-settings)
+1. [Item](/docs/user/manual/pt/inventario/item)
+1. Ativar 'Adicionar Automenticamente Imposto e Taxas apartir do Modelo de Imposto de Item' nas [Configurações de Contabilidade](/docs/user/manual/pt/contabilidade/configurações-contabilidade)
 
-## 2. How to create an Item Tax Template
-1. Go to the Item Tax Template list and click on New.
-1. Enter a title for the Item Tax Template.
-1. Select an account and set the overriding rate. Add more rows if required.
-1. Save.
+## 2. Como criar um Modelo de Imposto de Item
+1. Vá para a lista de Modelo de Imposto de Item e clique em Novo.
+1. Digite o titulo do Modelo de Imposto de Item.
+1. Selecione uma conta e defina a taxa. Adicione mais linhas se necessário.
+1. Salvar.
 
-Now the Item Tax Template is ready to be assigned to an Item. To do this, go the Item, Item Tax section and select an Item Tax Template:
+Agora o Modelo de Imposto de Item está pronto para ser atribuido a um Item. Para fazer isto, vá par ao Item, Secção de Imposto do Item e selecione o Modelo de Imposto de Item:
 
-![Item Tax In Item](/docs/assets/img/accounts/item-tax-in-item.png)
+![Imposto do Item no Item](/docs/assets/img/accounts/item-tax-in-item.png)
 
-> Note: It is advised to not use the Sales/Purchase Template selected here in [Tax Rule](/docs/user/manual/en/accounts/tax-rule), it may cause interference. If you want to use same tax rates for Tax Rule and Item Tax Template, use a different name for the Sales/Purchase Tax Templates.
+> Nota: É aconselhavel não usar o Modelo de Vendas/Compras selecionado aqui nas [Regras de Imposto](/docs/user/manual/pt/contabilidade/regras-imposto), pode causar interferencia. Se voçê quiser usar as mesmas taxas para as Regras de Imposto e o Modelo de Imposto de Item, utilize um nome diferente para o Modelo de Imposto de Vendas/Compras.
 
-### 2.1 Mention Tax Applicable in the Item master
+### 2.1 Mencione se é Aplicavel a Imposto na tabela de Item
 
-Tax templates are preset with values. For items which have a different tax rate than the others, you need to change it in the Item master. Go to the tax table in the Item, add a row, select the tax type and change the rate. Now, this new rate will over ride the template when creating an order/invoice. For example, in the below screenshot you can see that the tax rate is set as 5 and that's the rate which will be applied in transactions.
+Os Modelos de Impostos são pre-criados com valores. Para itens que um valor de imposto diferente dos outros, voçê pode trocar na tabela do Item. Vá para a tabela de Imposto no Item, adicione uma linha, selecione um tipo de imposto e altere taxa. Agora, esta nova taxa irá passar por cima do modelo ao criar uma Ordem/Factura. Por exemplo, no screenshot me baixo voçê pode ver que o valor do imposto definido como 5 e será a taxa utilizada nas transações.
 
 <img class="screenshot" alt="Opening Account" src="{{docs_base_url}}/assets/img/accounts/item-wise-tax.png">
 
-For the Item which is exempted from tax entirely, mention 0% as tax rate in the Item master.
+Para um Item que está exempto de impostos, mencione 0% como valor do imposto na tabela do Item.
 
 <img class="screenshot" alt="Opening Account" src="{{docs_base_url}}/assets/img/accounts/exempted-item.png">
 
-> Note: For Item Tax Template to work, you need to ensure that the tax types (accounts) set in Item Tax Template (with changed tax rates) are present in the Sales Taxes and Charges Template.
+> Nota: Para o Modelo de Imposto do Item funcionar, voçê precisa ter a certeza que o tipo de imposto (contas) definido no Modelo de Imposto de Item (que alterou o valor do imposto) esteja presente no Modelo de Impostos e Taxas de Vendas.
 
-> If you want to include multiple items with different tax rates, you need to have record them under different tax heads. For example, VAT 14%, VAT 5% etc.
+> Se voçê quiser incluir varios itens com taxas diferentes, voçê precisa registar eles com contas de imposto diferentes. Por exemplo, VAT 14%, VAT 5% etc.
 
-### 2.2 Tax Calculation in transaction
+### 2.2 Calculos de Imposto em Transações
 
-For example, in the following screenshot, the Item has an Item Tax Template assigned to it with 5% on two tax heads.
+Por exemplo, no screenshot seguinte, o Item tem um Modelo de Imposto de Item atribuido com 5% em duas contas de Imposto.
 
 <img class="screenshot" alt="Opening Account" src="{{docs_base_url}}/assets/img/accounts/tax-calculation.png">
 
-The tax is fetched from the Item Tax Template and calculated:
+O valor procurado apartir do Modelo de Imposto do Item e calculado:
 <img class="screenshot" alt="Opening Account" src="{{docs_base_url}}/assets/img/accounts/tax-calculation1.png">
 
-### 2.3 Item Tax Template for each Items
-You can also manually select a different Item Tax Template for each Item in a transaction:
+### 2.3 Modelo de Imposto de Item para cada Item
+Voçê pode manualmente selecionar um Modelo de Imposto de Item para cada Item na transação:
 
-![Item Tax individual](/docs/assets/img/accounts/item-tax-each.png)
+![Imposto de Item individual](/docs/assets/img/accounts/item-tax-each.png)
 
 
-### 2.4 Item wise tax on an Item Group
-You can assign the Item Tax Template to an Item Group by modifying the Item Tax table in the Item Tax section within the Item Group document.
+### 2.4 Imposto de Item inteligente em Grupo de Itens
+Voçê pode atribuir o Modelo de Imposto de Item a um Grupo de Itens modificando a tabela de Imposto do Item na secção do Imposto do Item dentro do documento do Grupo do Item.
 <img class="screenshot" alt="Item Tax in Item Group" src="{{docs_base_url}}/assets/img/accounts/item-group-tax.png">
 
-Item Tax Template applied on an Item Group will apply to all Items in that group unless an individual Item in the Item Group has its own Item Tax Template assigned to it.
+Modelo de Imposto do Item aplicado num Grupo de Item será aplicado em todos os Itens deste mesmo grupo a não ser que um Item individual no Grupo de Itens tenha o seu proprio Modelo de Imposto de Item atribuido.
 
 
-### 2.5 Validity of Item Taxes
+### 2.5 Validade dos Imposto de Item
 
 <img class="screenshot" alt="Item Tax in Item Group" src="{{docs_base_url}}/assets/img/accounts/item-tax-in-item.png">
 
-You can also assign validity to tax templates as shown in the image above.
+Voçê pode atribuir validade aos Modelos de Impostos como mostra a imagem em baixo.
 
-* Based on the posting date of the transaction, a valid tax template will be automatically fetched.
-* If there are more than one valid tax templates then the first valid tax template from Item Tax table will be fetched.
-* In case when there are no valid tax templates then the first tax template with no 'Valid From' date in the Item Tax table will be fetched.
+* Baseado na data de postagem da transação, um modelo de imposto valido será automaticamente procurado.
+* Se houver mais que um modelo de impostos validos o primeiro modelo de imposto valido apartir da tabela de Imposto de Item será procurado.
+* No caso de não haver um modelo de impostos validos então o primeiro modelo de imposto sem a data de 'Valido Apartir' na tabela de Imposto do Item será procurado.
 
-> Note: While adding items in Purchase Invoice first preference will be given to 'Supplier Invoice Date' instead of 'Posting Date' for fetching valid Item Tax Template.
+> Nota: Enquanto estiver a adicionar Itens na Factura de Compras a prioridade será para 'Data de Factura de Fornecedor' em vez de 'Data de Postagem' para procurar o Modelo de Imposto de Item valido.
 
-### 2.6 Some points to note
+### 2.6 Alguns pontos para anotar
 
-- If you set the Tax Category as empty, the default Item Tax Template will be applied to Items in transactions.
+- Se voçẽ definir a Categoria de Imposto em branco, o Modelo de Imposto de Item será aplicado para os Itens na transação.
 
-- You can apply different Item Tax Templates for different Tax Categories.
+- Voçẽ pode aplicar Modelos de Imposto de Itens diferentes para Categoria de Impostos diferentes.
 
-- For an Item Tax Template to override taxes, there must be a row in the Taxes and Charges table with the same tax Account Head with a standard tax rate.
+- Para um Modelo de Imposto de Item passar por cima das taxas, deve ter uma linha na tabela de Impostos e Taxas com a mesma Conta de Imposto e com a taxe de imposto normal.
 
-- If you wish to apply taxes only on the Items with an Item Tax Template then you can set the standard tax rate as 0.
+- Se voçê quiser aplicar impostos somente aos Itens com um Modelo de Imposto de Item então voçê pode definir a taxa de imposto normal para 0.
 
-### 3. Related Topics
-1. [Tax Rule](/docs/user/manual/en/accounts/tax-rule)
-1. [Sales Invoice](/docs/user/manual/en/accounts/sales-invoice)
-1. [Purchase Invoice](/docs/user/manual/en/accounts/purchase-invoice)
+### 3. Topicos Relacionados
+1. [Regra de Impostos](/docs/user/manual/pt/contabilidade/regra-imposto)
+1. [Factura de Vendas](/docs/user/manual/pt/contabilidade/factura-vendas)
+1. [Factura de Compras](/docs/user/manual/pt/contabilidade/factura-compra)

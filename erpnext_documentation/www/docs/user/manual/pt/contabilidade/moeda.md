@@ -1,16 +1,16 @@
 <!-- add-breadcrumbs -->
-# Currency
+# Moeda
 
-In ERPNext, the Currency list stores the currency value, it's symbol and fraction unit. Most of the commonly used currencies are already present in ERPNext. The exchange rates are fetched automatically according to the current market rate. You can also configure the system to use older fixed exchange rates by creating them in the [Currency Exchange](/docs/user/manual/en/accounts/currency-exchange) form.
+No ERPNext, a lista de Moedas guarda o valor, o seu simbolo e unidade de fracção. Muitas das moedas usadas estão presentes no ERPNext. As taxas de cambio são inseridas automaticamente de acordo o mercado de cambios. Voçê pode tambem configurar o sistema para usar cambios antigos fixos criando no formulario [Taxa de Cambio](/docs/user/manual/pt/contabilidade/taxa-cambio).
 
-To access the Currency list, go to:
-> Home > Accounting > Multi Currency > Currency
+Para aceder a list de Moedas, vá para:
+> Home > Contabilidade > Multi Moeda > Moeda
 
-For example, this is how the Currency page for Euro:
+Por exemplo, está é a pagina da Moeda EURO:
 
-![Currency](/docs/assets/img/accounts/currency.png)
+![Moeda](/docs/assets/img/accounts/currency.png)
 
-## Related Topics
-1. [Exchange Rate Revaluation](/docs/user/manual/en/accounts/exchange-rate-revaluation)
-1. [Multi Currency Accounting](/docs/user/manual/en/accounts/multi-currency-accounting)
-1. [Currency Exchange](/docs/user/manual/en/accounts/currency-exchange)
+## Topicos Relacionados
+1. [Reavaluação da Taxa de Cambio](/docs/user/manual/pt/contabilidade/reavaliação-taxa-cambio)
+1. [Contabilidade Multi Moeda](/docs/user/manual/pt/contabilidade/contabilidade-multi-moedas)
+1. [Taxa de Cambio](/docs/user/manual/pt/contabilidade/taxa-cambio)

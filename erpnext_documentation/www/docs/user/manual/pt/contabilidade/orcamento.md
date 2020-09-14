@@ -1,75 +1,75 @@
 <!-- add-breadcrumbs -->
-# Budgeting
+# Orçamento
 
-**Budgeting is a financial plan that helps controlling Company expenses.**
+**Orçamento é um plano financeiro que ajuda a controlar as despesas da Empresa.**
 
-In ERPNext, you can set and manage budgets against a Cost Center or a Project. This is useful in controlling your expenses. With version 12, you can also create separate [Accounting Dimensions](/docs/user/manual/en/accounts/accounting-dimensions) to tag transactions with different fields.
+No ERPNext, voçê pode gerir os Orçamentos contra um Centro de Custo ou Projecto. Isto é util em controlar as suas despesas. Na versão 12, voçê pode tambem criar [Dimensões Contabil](/docs/user/manual/pt/contabilidade/dimensao-contabil) separados para marcar transações com campos diferentes.
 
-For example, if you are doing online sales, you can set a budget for search advertisements and configure ERPNext to stop or warn you from overspending beyond a set budget.
+Por exemplo, se voçê faz vendas online, voçê pode definir o Orçamento para cada anuncio e configurar o ERPNext para parar ou avisar quando passar o valor disponivel definido no Orçamento.
 
-Budgets are also great for planning purposes. When you are making plans for the next Financial Year, you would typically target a revenue based on which you would set your expenses. Setting a budget will ensure that your expenses do not get out of hand at any point.
+Orçamentos são tambem bons para motivos de planeamento. Quando voçê estiver a fazer planos para o proximo Ano Financeiro, voçê iria marcar lucros baseados no qual iria definir as suas despesas. Configurando um orçamento irá dar a certeza de que as suas despesas não saiam do controle a qualquer momento.
 
-To access the Budget list, go to:
-> Home > Accounting > Cost Center and Budgeting > Budget
+Para aceder a lista de Orçamento, vá para:
+> Home > Contabilidade > Centros de Custo e Orçamento > Orçamento
 
-## 1. How to Create a new Budget
-1. Go to the Budget list and click on New.
-1. Select what to budget against, Cost Center, Project, or an [Accounting Dimensions](/docs/user/manual/en/accounts/accounting-dimensions).
-1. In the accounts table, select an income/expense account for which a budget is to be set. Let's set a budget for telephone expenses for the year.
+## 1. Como Criar um novo Orçamento
+1. Vá para a lista de Orçamento e clique em Novo.
+1. Selecione o que vai orçamentar, Centro de Custo, Projecto ou uma [Dimensão Contabil](/docs/user/manual/pt/contabilidade/dimensao-contabil).
+1. Na tabela de contas, selecione a conta de recebimentos/despesas pelo qual o orçamento será definido. Vamos definir um orçamento para as despesas de telefone para o ano.
  <img class="screenshot" alt="Budget" src="{{docs_base_url}}/assets/img/accounts/budget-account.png">
-1. Enter the budget amount for that account.
-1. Save and Submit.
+1. Digite o valor do Orçamento para essa conta.
+1. Salvar e Submeter.
 
 
-## 2. Features
-### 2.1 Monthly Distribution
+## 2. Funcionalidades
+### 2.1 Distribuição Mensal
 
-You can also define a Monthly Distribution record to distribute the budget between months. If you don't set the monthly distribution, ERPNext will calculate the budget yearly or in equal proportion for every month.
+Voçê pode definir o registo de Distribuição Mensal para distribuir o orçamento entre meses. Se voçê não definir a distribuição mensal, o ERPNext irá calcular o orçamento anual ou em proporções iguais para cada mês.
 
 <img class="screenshot" alt="Monthly Distribution" src="{{docs_base_url}}/assets/img/accounts/monthly-budget-distribution.png">
 
-### 2.2 Control Actions (Alerts)
+### 2.2 Acções de Controle (Alertas)
 
-Control actions can be triggered when:
+Acções de Controle podem ser activadas quando:
 
-* A [Material Request](/docs/user/manual/en/stock/material-request) is being submitted
-* A [Purchase Order](/docs/user/manual/en/buying/purchase-order) is being submitted 
-* When an actual expense is being posted (through a journal entry or a purchase invoice).
+* Uma [Solicitação de Material](/docs/user/manual/pt/inventario/solicitação-material) está a ser submetida
+* Uma [Ordem de Compra](/docs/user/manual/pt/compras/ordem-de-compra) está a ser submetida
+* Quando uma despesa actual está a ser criada (por um lançamento contabilistico ou factura de compra).
 
-You can set a control action in the Budget based on Material Requests, Purchase Orders, or on actual expenses. Further, you can set a control action for annual or monthly budgets.
+Voçê pode definir a acção de controle no Orçamento baseado na Solicitação de Material, Ordens de Compra ou em despesas actuais. Poderá tambem definir a acção de controle para orçamentos anuais ou mensais.
 
-![Control Actions](/docs/assets/img/accounts/control-actions.png)
+![Acções de Controle](/docs/assets/img/accounts/control-actions.png)
 
-There are three types of control actions.
+Exitem trẽs tipos de acção de controle.
 
-* **Stop**: This will not allow users to submit the transaction.
-* **Warn**: This will show a warning message but lets the user submit the transaction.
-* **Ignore**: This will neither prevent the user from submitting transactions nor show an error message.
+* **Parar**: Este não irá permitir os usuários em submeter a transação.
+* **Aviso**: Este irá mostra uma mensagem de aviso mas deixa o usuário submeter a transação.
+* **Ignorar**: Este não irá nem prevenir o usuário de submeter as transações nem mostrar a mensagem de erro.
 
-You can set separate actions for monthly and annual budgets. If you exceed the budget, a warning will be shown:
+Voçê pode definir acções separadas para orçamentos mensais e anuais. Se voçê exceder o orçamento, um aviso será mostrado:
 
 <img class="screenshot" alt="Monthly Distribution" src="{{docs_base_url}}/assets/img/accounts/budget-warning.png">
 
-Note that a similar warning will be triggered for any type of transactions set in the budget for the particular Account heads.
+Note que aviso similar é acionado para qualquer tipo de transação definida no orçamento para uma Conta em particular.
 
-## 3. Budget Variance Report
+## 3. Relatorio de Variação de Orçamento
 
-At any point in time, you can check the Budget Variance Report to analyze the actual expense incurred vs budget allocated against a cost center or a project.
+A qualquer momento, voçê poderá verificar o Relatorio de Variação de Orçamento para analizar a despesa actual ocorrida vs o orçamento alocadocontra o centro de custo ou projecto.
 
-To check the Budget Variance report, go to:
+Para verificar o Relatorio de Variação de Orçamento, vá para:
 
-> Home > Accounting > Cost Center and Budgeting > Budget Variance Report
+> Home > Contabilidade > Centro de Custo e Orçamento > Relatorio de Variação de Orçamento
 
 <img class="screenshot" alt="Budget Variance Report" src="{{docs_base_url}}/assets/img/accounts/budget-variance-report.png">
 
 ## 4. Video
-Here is a video demonstration:
+Aqui está um video de demonstração:
 <div class="embed-container">
  <iframe src="https://www.youtube.com/embed/wWHkB0jlXNk?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen>
  </iframe>
 </div>
 
-## 5. Related Topics
-1. [Cost Center](/docs/user/manual/en/accounts/cost-center)
-1. [Sales Invoice](/docs/user/manual/en/accounts/sales-invoice)
-1. [Purchase Invoice](/docs/user/manual/en/accounts/purchase-invoice)
+## 5. Topicos Relacionados
+1. [Centro de Custo](/docs/user/manual/pt/contabilidade/centro-custo)
+1. [Factura de Vendas](/docs/user/manual/pt/contabilidade/factura-vendas)
+1. [Factura de Compra](/docs/user/manual/pt/contabilidade/factura-compra)

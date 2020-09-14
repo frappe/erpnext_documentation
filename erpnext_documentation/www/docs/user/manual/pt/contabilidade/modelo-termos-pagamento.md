@@ -1,33 +1,33 @@
 <!-- add-breadcrumbs -->
-# Payment Terms Template
+# Modelo Termos de Pagamento
 
-**Payment Terms Template allow you to club multiple payment terms together and fetch in transactions.**
+**Modelo Termos de Pagamento permite que voçê ter varios Modelo Termos de Pagamento juntos e adicionar em transações.**
 
-After creation, the Payment Terms Table can be set to a specific Customer/Supplier. On selecting the Customer/Supplier in a transaction, the Payment Terms Template will be fetched automatically into the transaction. 
+Depois de criar, a Tabela Termos de Pagamento pode sre definido para um Cliente/Fornecedor especifico. Ao selecionar o Cliente/Fornecedor numa transação, o Modelo Termos de Pagamento irá inserido automaticamente na transação. 
 
-For example:
+Por exemplo:
 
-If you receive payment in the slab of 30-70, then you can define Payment Term for each slab, i.e. 30% and 70%.
+Se voçê receber um pagamento de 30-70, então pode definir os Termos de Pagamento para cada laje, ex. 30% e 70%.
 
-In the Payment Terms Template, you can select all the Payment Terms and define a template which can be easily applied in the sales and purchase transactions.
+No Modelo Termos de Pagamento, voçê pode selecionar todos os Termos de Pagamento e definir o modelo no qual pode ser rapidamente aplicado na transação de Venda ou Compra.
 
-![Payment Terms Template](/docs/assets/img/accounts/payment-terms-template.png)
+![Modelo Termos de Pagamento](/docs/assets/img/accounts/payment-terms-template.png)
 
-## 1. Prerequisites
-Before creating and using Payment Request, it is advisable to create the following first:
+## 1. Pre-requisitos
+Antes de criar e utilizar a Solicitação de Pagamento, é aconselhavel criar primeiro estes:
 
-1. [Payment Terms](/docs/user/manual/en/accounts/payment-terms)
+1. [Termos de Pagamento](/docs/user/manual/pt/contabilidade/termos-pagamento)
 
-## 2. How to create a Payment Terms Template
-A Payment Terms Template tells ERPNext how to populate the table in the 'Payment Terms Schedule' section of the sales/purchase document.
+## 2. Como criar um Modelo Termos de Pagamento
+Um Modelo Termos de Pagamento diz ao ERPNext como preencher a tabela na secção 'Cronograma de Termos de Pagamento' do documente de Vendas/Compras.
 
-You should use it if you have a set of standard Payment Terms or for ease of use.
+Voçê deve usar se voçê tiver definido um Termo de Pagamento normal ou para um uso facil.
 
-1. Go to the Payment Term Template list and click on New.
-1. Enter a name for the template.
-1. Add the created Payment Terms in the table rows.
-1. Make sure that the total Invoice Portion adds up to 100.
-1. Save.
+1. Vá para a lista de Modelo Termos de Pagamento e clique em Novo.
+1. Digite o nome do Modelo.
+1. Adicione o Termo de Pagamento criado nas linhas da tabela.
+1. Tenha a certeza que o Total da Factura seja 100%.
+1. Salvar.
 
 ## 3. Video
 

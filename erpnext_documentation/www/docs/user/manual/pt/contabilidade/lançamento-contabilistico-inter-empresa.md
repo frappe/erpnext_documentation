@@ -1,64 +1,64 @@
 <!-- add-breadcrumbs -->
-# Inter Company Journal Entry
+# Lançamento Contabilistico Inter Empresa
 
-**An Inter Company Journal Entry is done between organizations that belong to the same group.**
+**Um Lançamento Contabilistico Inter Empresa é feito entre organizações que pertencem ao mesmo grupo.**
 
-You can create Inter Company Journal Entry if you are making transactions with multiple Companies.
-You can select the Accounts which you wish to use in the Inter Company transactions. A possible use case would be a company buying goods on behalf of another company.
+Voçê pode criar Lançamento Contabilistico Inter Empresa se estiver a fazer transações com multiplas Empresas.
+Voçê pode selecionar as Contas que voçê deseja usar nas transações de Inter Empresa. Um possivel uso seria uma empresa comprando bens em nome de outra empresa.
 
-Before creating an Inter Company Journal Entry, you need to set up your Chart of accounts.
+Antes de criar Lançamento Contabilistico Inter Empresa, voçê precisa de definir o seu Plano de Contas.
 
-1. Go to: **Accounts > Company and Accounts > Chart Of Accounts**.
-1. Select the Account which you would like to set as an Internal Account for the transaction, and check the 'Inter Company Account' checkbox. This account can now be used for Inter Company Journal Entry transactions. It is recommended to create a new account for inter company transactions.
+1. Go to: **Contabilidade > Emppresa e Contas > Plano de Contas**.
+1. Selecione a Conta que deseja definir como Conta Interna para as transações, e selecione a caixa 'Conta Inter Empresa'. Esta conta pode agora ser usado para transações de Lançamento Contabilistico Inter Empresa. É recomendado criar uma nova conta para transações Inter Empresa.
     <img class="screenshot" alt="Internal Account" src="{{docs_base_url}}/assets/img/accounts/internal-account.png">
-You need to do the same for all the Companies' Accounts which you want to use for Inter Company Journal Entry transactions.
+Voçê precisa fazer o memso para todas as Contas das Empresas que pretende usar em transações de Lançamento Contabilistico Inter Empresa.
 
-In case of parent-child companies, when an account is created in the parent company, it gets added in the child company. This works only if you've selected the option to create Chart of Accounts for child Company based on the parent Company.
+No caso de empresas mãe-filho, quando uma conta é criada na empresa mãe, é adicionado na empresa filho. Isto funciona somente se voçê selecionou a opção para cirar o Plano de Contas para empresas filho baseado no Empresa mãe.
 
-Inter company Journal Entries are created using the Journal Entry form in ERPNext. To access the Journal Entry list, go to:
+Lançamento Contabilistico Inter Empresa são criados usando o formulario de Lançamento Contabilistico no ERPNext. Para ter acesso a lista de Lançamento Contabilistico, vá para:
 
-> Home > Accounting > Company and Accounts > Journal Entry
+> Home > Contabilidade > Empresa e Contas > Lançamento Contabilistico
 
-## 1. Prerequisites
-Before creating an Inter Company Journal Entry, you need the following:
+## 1. Pre-requisitos
+Antes de criar o Lançamento Contabilistico Inter Empresa, voçê deve seguir:
 
-* At least two [Companies](/docs/user/manual/en/setting-up/company-setup)
-* Setting inter company accounts in [Chart of Accounts](/docs/user/manual/en/accounts/chart-of-accounts)
+* Pelo menos ter duas [Empresas](/docs/user/manual/pt/configuração/configuração-empresa)
+* Configurando Contas Inter Empresa no [Plano de Contas](/docs/user/manual/pt/contabilidade/plano-de-contas)
 
-## 2. How to create an Inter Company Journal Entry
-1. Go to the Journal Entry list, and click on New.
-1. Select Entry Type as 'Inter Company Journal Entry'.
-1. Set the Company that is buying Items on behalf of another company.
-1. Add rows for the individual accounting entries. Only inter company accounts can be fetched here.
-1. In each row, you must specify:
-  * The Internal account that will be affected. 
-  * The amount to Debit or Credit.
-  * The Cost Center (If it is an Income or Expense).
-1. On submitting the Journal Entry, you will find a button on the top right corner, **Make Inter Company Journal Entry**.
+## 2. Como criar Lançamento Contabilistico Inter Empresa
+1. Vá para a lista de Lançamento Contabilistico, e clique em Novo.
+1. Selecione o Tipo de Registo como 'Lançamento Contabilistico Inter Empresa'.
+1. Defina a Empresa que está a comprar Itens em nome da outra empresa.
+1. Adicione linhas para os registos de contas individuais. Somente contas inter Empresa podem ser inseridas aqui.
+1. Em cada linha, voçê deve especificar:
+  * A Conta Interna que será afectada. 
+  * O valor do Debito ou Credito.
+  * O Centro de Custo (Se for um Recebimento ou Despesa).
+1. Ao submeter o Lançamento Contabilistico, voçê irá ver um botão no topo em cima no lado direito, **Criar Lançamento Contabilistico Inter Empresa**.
 
    <img class="screenshot" alt="Submitted Inter Company Journal Entry" src="{{docs_base_url}}/assets/img/accounts/inter-company-jv-submit.png">
 
-1. Click on the button. Now, you will be asked to select the Company against which you wish to create the linked Journal Entry.
+1. Clique no botão. Agora, voçê irá perguntado para selecionar a Empresa contra o qual deseja criar o Lançamento Contabilistico.
 
     <img class="screenshot" alt="Select Company" src="{{docs_base_url}}/assets/img/accounts/select-company-jv.png">
 
-1. On selecting the Company, you will be routed to another Journal Entry where the relevant fields will be mapped, i.e. Company, Voucher Type, Inter Company Journal Entry Reference etc. 
+1. Ao selecionar a Empresa, voçê irá ser enviado para o Lançamento Contabilistico aonde os campos relativos serão mapeaddo, ex. Empresa, Tipo de Voucher, Referencia do Lançamento Contabilistico Inter Empresa etc. 
 
     <img class="screenshot" alt="Linked Journal Entry" src="{{docs_base_url}}/assets/img/accounts/linked-jv.png">
 
-1. Select the Internal accounts for the second Company in the table.
-1. Submit the Journal Entry.
-1. Make sure the total Debit and Credit Amounts are same as the previously created Journal Entry's total Credit and Debit Amounts respectively but the debits and credits will be opposite.
+1. Selecione a Conta Interna para a segunda Empresa na Tabela.
+1. Submter o Lançamento Contabilistico.
+1. Tenha a certeza que o total do Debito e Credito são iguais como os Valores dos Lançamentos Contabilisticos anteriores de Debito e Credito mas os debitos e creditos serão o oposto.
 
-**Note:** The accounts in second Journal Entry should be the opposite of what you did in the first Journal Entry.
-For example, Company A is buying something from Company B. This is how the payment cycle between the two companies will look like using Inter Company Journal Entry.
+**Nota:** As contas no segundo Lançamento Contabilistico devem ser o oposto do que fez no primeiro Lançamento.
+Por exemplo, Empresa A comprou algo da Empresa B. Assim deverá ser o ciclo de pagamento entre as duas empresa usando o Lançamento Contabilistico Inter Empresa.
 
-1. Debit Bank Account by 500 and credit Debtors account of Company B by 500.
-1. Now, in the Inter Company Journal Entry, debit Creditors account of Company A by 500 and credit Bank Account by 500. 
-1. You also need to select the parties for Creditors and Debtors account before proceeding with the Journal Entry.
+1. Debitar Conta Banco 500 e creditar 500 na conta Devedor da Empresa B.
+1. Agora, no Lançamento Contabilistico Inter Empresa, debitar 500 na conta Credor da Empresa A e creditar 500 na conta Banco. 
+1. Voçê tambem precisa selecionar as partes da conta Credor e Devedor antes de proceder com o Lançamento Contabilistico.
 
-You can also find the reference link at the bottom, which will be added in both the linked Journal Entries and will be removed if any of the Journal Entries are cancelled.
+Voçê vai encontrar o botão de ligação, no qual será adiconado em ambos Lançamentos Contabilisticos e será removido caso alguns dos registos seja cancelado.
 
-### 3. Related Topics
-1. [Journal Entry](/docs/user/manual/en/accounts/journal-entry)
-1. [Inter Company Invoices](/docs/user/manual/en/accounts/inter-company-invoices)
+### 3. Topicos Relacionados
+1. [Lançamento Contabilistico](/docs/user/manual/pt/contabilidade/lançamento-contabilistico)
+1. [Facturas Inter Empresa](/docs/user/manual/pt/accounts/factura-inter-empresa)

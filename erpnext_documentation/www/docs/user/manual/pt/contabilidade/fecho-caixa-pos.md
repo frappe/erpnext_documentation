@@ -1,20 +1,20 @@
 <!-- add-breadcrumbs -->
-# Cashier Closing
+# Fecho do Caixa
 
-A retail counter may have multiple people operating it throughout the day in different shifts. Cashier closing in POS allows a cashier to record the sales and details at the end of his/her shift.
+Um balcão a retalho pode ter multiplas pessoas a atender com varios turnos durante o dia. Fecho de Caixa no POS permite o Balconista registar as vendas e detalhes no fim do seu turno.
 
-To access the Cashier Closing list, go to:
-> Home > Retail > Retail Operations > POS
+Para acessar a lista de Fecho do Balcão, vá para:
+> Home > Retalho > Operações de Retalho > POS
 
-## 1. How to create a Cashier Closing
-1. Go to the Cashier Closing list and click on New.
-1. Enter the shift start and end time.
-1. Enter any expenses incurred during the shift like refershments, tea, coffee, etc.
-1. In the Payments table, enter the mode of Payment and the amount received.
-1. Save and Submit.
-    ![POS Cashier Closing](/docs/assets/img/accounts/pos-cashier-closing.png)
+## 1. Como criar um Fecho de Caixa
+1. Vá para a lista de Fecho do Balcão e clique em Novo.
+1. Digite o inicio e termino do Turno.
+1. Digite as despesas que ocorreram durante o turno como refrescos, chá, café, etc.
+1. Na tabela de Pagamento, digite o modo de Pagamento e o valor recebido.
+1. Salvar e Submeter.
+    ![Fecho de Caixa POS](/docs/assets/img/accounts/pos-cashier-closing.png)
 
-* **Custody**: The amount in the cash drawer.
-* **Returns**: The amount for the Items returned by Customers.
+* **Custody**: O valor no gaveta do caixa.
+* **Devoluções**: Valor para os Itens devolvidos pelos Clientes.
 
-From here, the accountant or concerned person can collect, tally the cash and make the necessary [Journal Entries](/docs/user/manual/en/accounts/journal-entry) to update the Company ledgers.
+Apartir daqui, o contabilista ou pessoa concernente fará a recolha, recibos de caixa e fazer os [Lançamentos Contabilisticos](/docs/user/manual/pt/contabilidade/lançamento-contabilistico) para actualizar os Livros-Razão da Empresa.

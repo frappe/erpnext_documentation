@@ -1,31 +1,31 @@
 <!-- add-breadcrumbs -->
-# Mode of Payment
+# Modo de Pagamento
 
-**The Mode of Payment stores the medium through which payments are made or received.**
+**O Modo de Pagamento guarda a forma como serão feitos os pagamentos ou recebidos.**
 
-To access the Mode of Payment list, go to:
-> Home > Accounting > Settings > Mode of Payment
+Para aceder a lista do Modo de Pagamento, vá para:
+> Home > Contabilidade > Configurações > Modo de Pagamento
 
-## 1. How to create a Mode of Payment
-1. Go to the Mode of Payment list and click on New.
-1. Enter a name for the Mode of Payment.
-1. Set a type whether Cash, Bank, or General. This is useful for knowing the mode of payment used in [Point Of Sales (PoS)](/docs/user/manual/en/accounts/point-of-sales).
-1. Set a default payment Account for all the companies.
-1. Save.
+## 1. Como criar um Modo de Pagamento
+1. Vá para a lista de Modo de Pagamento e clique em Novo.
+1. Digite o nome do Modo de Pagamento.
+1. Defina o Tipo se é Dinheiro, Banco ou Geral. Isto é util para saber o modo de pagamento usado em [Ponto de Vendas (PoS)](/docs/user/manual/pt/contabilidade/ponto-de-vendas).
+1. Defina a Conta de Pagamento por defeito para todas as Empresas.
+1. Salvar.
 
-    ![Mode of Payment]({{docs_base_url}}/assets/img/accounts/mode-of-payment.png)
+    ![Modo de Pagamento]({{docs_base_url}}/assets/img/accounts/mode-of-payment.png)
 
-> **Tip**: Setting the default Account will this account fetched into [Payment Entries](/docs/user/manual/en/accounts/payment-entry).
+> **Dica**: Definindo a Conta por defeito será esta conta inserida nos [Registo de Pagamentos](/docs/user/manual/pt/contabilidade/registo-pagamento).
 
-![Mode of Payment](/docs/assets/img/accounts/mode-of-payment-pe.gif)
+![Modo de Pagamento](/docs/assets/img/accounts/mode-of-payment-pe.gif)
 
-> **Note**: When making Payment Entries, the default bank account will be fetched in the following order if set:
+> **Nota**: Quando fizer Registo de Pagamentos, a conta do banco por defeito será inserida da seguinte forma caso foi definida:
 
->       * Company form
->       * Mode of Payment default account
->       * Customer/Supplier default bank account
->       * Select manually in Payment Entry
+>       * Formulario Empresa
+>       * Conta por defeito para Modo de Pagamento
+>       * Conta do banco por defeito para Cliente/Fornecedor
+>       * Selecione manualmente o Registo de Pagamento
 
-## 2. Related Topics
-1. [Payment Entry](/docs/user/manual/en/accounts/payment-entry)
-1. [Payment Request](/docs/user/manual/en/accounts/payment-request)
+## 2. Topicos Relacionados
+1. [Registo de Pagamento](/docs/user/manual/pt/contabilidade/registo-pagamento)
+1. [Solicitação de Pagamento](/docs/user/manual/pt/contabilidade/solicitação-pagamento)

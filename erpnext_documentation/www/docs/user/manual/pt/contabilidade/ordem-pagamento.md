@@ -1,29 +1,29 @@
 <!-- add-breadcrumbs -->
-# Payment Order
+# Ordem de Pagamento
 
-**A Payment Order is an internal document to record bulk payments against Suppliers.**
+**Uma Ordem de Pagamento é um documento interno para registar pagamentos em massa a favor de Fornecedores.**
 
-In big corporations, the decision of making payment to Suppliers is done by someone like the Purchase Manager. The action of making the payments is done by an Accountant (Accounts User). 
+Em grandes corporações, a decisão em fazer pagamento a Fornecedores é feito por alguem como o Gesto de Compras. Esta acção em fazer os pagamentos é feita pelo Contabilista (Usuário de Contabilidade). 
 
-The Payment Order is the communication between the Purchase Manager and the Account notifying the Accountant to proceed with the Payment.
+A Ordem de Pagamento é a comunicação entre o Gestor de Compras e o Contabilista notificando para prosseguir com o Pagamento.
 
-In ERPNext, using the Payment Order, you can fetch multiple Payment Requests created against a Supplier.
+No ERPNext, usando a Ordem de Pagamento, voçê pode incluir varias Solicitações de Pagamento a favor do Fornecedor.
 
-## 1. Prerequisites
-Before creating and using the Payment Order, it is advisable to create the following first:
+## 1. Pre-requisitos
+Antes de criar e usar a Ordem de Pagamento, é aconselhavel criar primeiro estes:
 
-1. [Purchase Order](/docs/user/manual/en/buying/purchase-order)
+1. [Ordem de Compra](/docs/user/manual/pt/compras/ordem-de-compra)
 
- Or
+ Ou
 
-1. [Purchase Invoice](/docs/user/manual/en/accounts/purchase-invoice)
+1. [Factura de Compra](/docs/user/manual/pt/contabilidade/factura-compra)
 
-## 2. How to create a Payment Order
-1. Go to the Payment Order list and click on New.
-1. Select the Company bank account.
-1. Click on the **Get from** button and select Payment Request. Apply filters if needed and select the Payment Requests.
- ![Payment Order Fetch](/docs/assets/img/accounts/payment-order-fetch.png)
-1. The Payment Requests will be fetched into the Payment Order.
- ![Payment Order Fetch](/docs/assets/img/accounts/payment-order.png)
-1. Save and Submit the Payment Order. Now, you'll see a button to make the Payment Entries in bulk.
- ![Payment Order Fetch](/docs/assets/img/accounts/payment-order-submit.png)
+## 2. Como criar uma Ordem de Pagamento
+1. Vá para a lista de Ordem de Pagamento e clique em Novo.
+1. Selecione a Empresa e conta bancária.
+1. Clique no botão **Obter de** e selecione Solicitação de Pagamento. Aplique os filtros se necessario e selecione as Solicitações de Pagamento.
+ ![Procurar Ordem de Pagamento](/docs/assets/img/accounts/payment-order-fetch.png)
+1. A Solicitação de Pagamento será inserida na Ordem de Pagamento.
+ ![Procurar Ordem de Pagamento](/docs/assets/img/accounts/payment-order.png)
+1. Salvar e Submeter a Ordem de Pagamento. Agora, voçê irá ver um botão para fazer o Registo de Pagamento em massa.
+ ![Procurar Ordem de Pagamento](/docs/assets/img/accounts/payment-order-submit.png)

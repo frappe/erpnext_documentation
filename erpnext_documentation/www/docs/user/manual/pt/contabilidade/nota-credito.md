@@ -1,43 +1,43 @@
 <!-- add-breadcrumbs -->
-# Credit Note
+# Nota de Credito
 
-**A Credit Note is a document sent by a seller to the Customer, notifying that a credit has been made to their account against the goods returned by the buyer.**
+**Uma Nota de Credito é um documento enviado pelo vendedor para um Cliente, notificando que um credito foi feito na conta deles a favor dos bens devolvidos pelo comprador.**
 
-A Credit Note is issued for the value of goods returned by the Customer, it may be less than or equal to the total amount of the order. 
+Uma Nota de Credito é criada para o valor de bens devolvidos pelo Cliente, pode ser menos ou igual ao valot total da ordem. 
 
-## 1. How to make a Credit Note
+## 1. Como criar uma Nota de Credito
 
-The user can make a Credit Note against the Sales Invoice or they can directly make Credit Note from the Sales Invoice without reference. Note that to create a Credit Note, the invoice must be paid using a [Payment Entry](/docs/user/manual/en/accounts/payment-entry).
+O usuário pode criar uma Nota de Credito contra a Factura de Venda ou ele podem criar directamente a Nota de Credito apartir da Factura de Venda sem Refenrencia. De notar que para criar uma Nota de Credito, a factura deve estar paga usando o [Registo de Pagamento](/docs/user/manual/pt/contabilidade/registo-pagamento).
 
-1. Go to the respective Sales Invoice and click on **Create > Return / Credit Note**.
-    ![Credit Note from Invoice](/docs/assets/img/accounts/credit-note-from-invoice.png)
-1. The Customer and Item details will be fetched as set in the Sales Invoice.
-1. If the Customer had paid partially or fully, make a Payment Entry against the original Sales Invoice.
-1. Save and Submit.
+1. Vá para a Factura de Venda respectiva e clique em **Criar > Retorno / Nota de Credito**.
+    ![Nota de Credito apartir da Factura](/docs/assets/img/accounts/credit-note-from-invoice.png)
+1. O Cliente e detalhes do Item serão inseridos como foram criados na Factura de Vendas.
+1. Se o Cliente fez o pagamento parcial ou completo, faça um Registo de Pagamento contra a Factura de Venda original.
+1. Salvar e Submeter.
     <img class="screenshot" alt="Sales Invoice" src="{{docs_base_url}}/assets/img/accounts/credit-note.png">
 
-The Item quantity and Payment amount will be negative since it's a return.
+A quantidade do Item e valor de Pagamento será negativo vendo tratar-se de uma devolução.
 
-### 1.1 How does Credit Note affect ledger
-Once a Payment Entry is created against the original Sales Invoice, the amount will be added to the Customer's account in negative so that the next time they make a purchase, this amount will be adjusted. 
+### 1.1 Como uma Nota de Credito afecta o razão
+Uma vez o Registo de Pagamento for criado contra a Factura de Venda original, o valor será adicionado a conta do Cliente a negativo para que da proxima vez que fizer uma compra, o valor será ajustado. 
 
-This is how the ledger is affected after a payment entry against a returned invoice:
-![Credit Note Ledger](/docs/assets/img/accounts/credit-note-ledger.png)
+Aqui está como o Razão é afectado depois do registo de pagamento contra a devolução da factura:
+![Razão Nota de Credito](/docs/assets/img/accounts/credit-note-ledger.png)
 
-Refer the [Sales Invoice](/docs/user/manual/en/accounts/sales-invoice) page for any other details.
+Veja a página [Factura de Vendas](/docs/user/manual/pt/contabilidade/factura-vendas) para qualquer outro detalhe.
 
-### 1.2 No payment was made against Sales Invoice
-In case **no payment** was made against the original invoice, you could just cancel the Sales Invoice. But, if only 5 out of 10 Items are being returned from an invoice, creating a Credit Note is useful for updating the ledger.
+### 1.2 Nenhum pagamento foi feito contra a Factura de Venda
+No caso de **nenhum pagamento** ter sido feito contra a factura original, voçê pode simplesmente cancelar a Factura de Venda. Mas, se somente 5 dos 10 Itens estão a ser devolvidos da factura, criando uma Nota de Credito é util para actualizar o razão.
 
-## 2. Example
+## 2. Exemplo
 
-Customer Rohan had purchased PVC pipes worth Rs 300 + taxes and at the time of delivery, Customer found that the products were damaged. Now Rohan has returned the product a Credit Note will be issued.
+O Cliente Rohan comprou tubos de PVC no valor de Rs 300 + impostos e na altura da entrega, o Cliente encontrou que os produtos estavam danificados. Agora o Rohan devolveu os produtos e uma Nota de Credito será criada.
 
-Credit Note with payment entry in ERPNext for above example is as below:
+Nota de Credito com registo de pagamento no ERPNext para o exemplo acima será assim:
 
 <img class="screenshot" alt="Sales Invoice" src="{{docs_base_url}}/assets/img/accounts/credit_note_example1.gif">
 
-### 3. Related Topics
-1. [Payment Entry](/docs/user/manual/en/accounts/payment-entry)
-1. [Debit Note](/docs/user/manual/en/accounts/debit-note)
-1. [Sales Return](/docs/user/manual/en/stock/sales-return)
+### 3. Topicos Relacionados
+1. [Registo de Pagamento](/docs/user/manual/pt/contabilidade/registo-pagamento)
+1. [Nota de Debito](/docs/user/manual/pt/contabilidade/nota-debito)
+1. [Retorno de Vendas](/docs/user/manual/pt/inventario/retorno-vendas)
