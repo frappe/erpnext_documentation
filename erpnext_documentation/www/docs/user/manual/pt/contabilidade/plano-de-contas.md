@@ -1,192 +1,186 @@
 <!-- add-breadcrumbs -->
-# Chart Of Accounts
+# Plano de Contas
 
-**The Chart of Accounts is the blueprint of the accounts in your organization.**
+**O Plano de Contas é o blueprint das contas nas suas empresas.**
 
-The overall structure of your Chart of Accounts is based on a system of double entry
-accounting that has become a standard all over the world to quantify how a
-company is doing financially.
+A estrutura geral do seu Plano de Contas é basead num sistema duplo de registo de contabilidade que se tornou
+normal em todo o mundo para quantificar como uma 
+empresa está financeiramente.
 
-Chart of Accounts is a tree view of the names of the Accounts (Ledgers and
-Groups) that a Company requires to manage its books of accounts. ERPNext sets
-up a simple chart of accounts for each Company you create, but you can
-modify it according to your needs and legal requirements.
+O Plano de Contas é uma arvore dos nomes das Contas (Livros-razão e Grupos) que a Empresa
+precisa para gerir os seus Livros de Contas. O ERPNext define um simples Plano de Contas
+para cada Empresa que voçê criar, mas voçê pode modificar de acordo as 
+suas necessidade e requesitos legais.
 
-For each company, Chart of Accounts signifies the way to classify the accounting entries, mostly
-based on statutory (tax, compliance to government regulations) requirements.
+Para cada empresa, Plano de Contas significa a maneira de classificar os registos contabilisticos, principalmente
+baseados nos requesitos do estatuto (imposto, compliance aos regulamentos necessarios do governo).
 
-![CoA Tree](/docs/assets/img/accounts/chart-of-accounts-tree.png)
+![Arvore PdC](/docs/assets/img/accounts/chart-of-accounts-tree.png)
 
-The Chart of Accounts helps you to answer questions like:
+O Plano de Contas ajuda-lhe a responder perguntas como:
 
- * What is your organization worth?
- * How much debt have you taken?
- * How much profit are you making (and hence paying tax)?
- * How much are you selling?
- * What is your expense break-up?
+ * O que vale a sua empresa?
+ * Quanto debito voçê tem?
+ * Quanto lucro está a fazer (e claro pagar imposto)?
+ * Quanto está a vender?
+ * Qual o seu break-up de despesas?
 
-As someone managing a business, it is very valuable to see how well
-your business is doing.
+Como alguem que gere um negocio, é de muito valor ver o quão bem
+o seu negocio anda.
 
-> **Tip**: If you can’t read a Balance Sheet it's a good opportunity to start learning about this. It will be worth the effort. You can also take the help of your accountant to set up your Chart of Accounts.
+> **Dica**: Se voçê não pode ler um Balanço é uma boa oportunidade para começar a aprender. Irá valer o esforço. Voçê pode tambem ter a ajuda dos seus contabilistas para configurar o seu Plano de Contas.
 
-To access the Chart of Accounts list, go to:
-> Home > Accounting > Accounting Masters > Chart of Accounts
+Para aceder a lista do Plano de Contas, vá para:
+> Home > Contabilidade > Mestre Contabil > Plano de Contas
 
-## 1. How to Create/Edit Accounts
-ERPNext comes with a standard set Chart of Accounts. Instead of creating/modifying, you can also use the [Chart of Accounts Importer](/docs/user/manual/en/setting-up/chart-of-accounts-importer) tool. Note that the existing Chart of Accounts will be overwritten when this tool is used.
+## 1. Como Criar/Editar Contas
+O ERPNext vem com um Plano de Contas normal definido. Em vez de criar/modificar, voçê pode usar a ferramenta [Importador de Plano de Contas](/docs/user/manual/pt/configurações/importar-plano-de-contas). Note que o Plano de Contas existente irá passar por cima quando utilizar esta ferramenta.
 
-1. Go to the Chart of Accounts list.
+1. Vá para a lista de Plano de Contas.
  
- Here you can open group accounts which contain other accounts. There are options to “Add Child” in an account, Edit or Delete the account.
+ Aqui voçê pode abrir um grupo de contas que contem contas. Tem opções para "Adicionar Contas Filhas" ao plano, Editar ou Apagar a conta.
 
  <img class="screenshot" alt="Chart of Accounts" src="{{docs_base_url}}/assets/img/accounts/chart-of-accounts-add.gif">
 
-1. The option to create a child account will only appear if you click on a Group (folder) type
-Account. 
-1. Enter a name for the account.
-1. Enter a number for the account.
-1. Tick 'Is Group' if you want this to be a group account which can contain other accounts.
-1. Select the Account Type. Selecting this is important as some fields allow selecting only specific type of accounts.
-1. Change the currency if this account will be used for transactions with different currency. By default, it's the Company's currency. To know more, visit the [Multi Currency Accounting](/docs/user/manual/en/accounts/multi-currency-accounting) page.
-1. Click on **Create New**.
+1. A opção para criar uma conta filha apenas irá aparecer quando voçê fizer o clique na Conta do Tipo de Grupo (pasta).
+1. Digite o nome da conta.
+1. Digite o numero para a conta.
+1. Selecione 'É um Grupo' se voçê quiser que esta seja uma conta de grupo que pode conter outras contas.
+1. Selecione o Tipo de Conta. Selecionando este é importante pois alguns campos permitem selecionar apenas um tipo especifico de contas.
+1. Altere a moeda se esta conta irá ser utilizada em transações com moedas diferentes. Por defeito, é a moeda da Empresa. Para saber mais, visite a pagina [Contabilidade Multi Moedas](/docs/user/manual/pt/contabilidade/contabilidade-multi-moedas).
+1. Clique em **Criar Novo**.
 
-Typically, you might want to create Accounts for:
+Tipicamente, voçê poderá querer criar Contas para:
 
- * Travel, salaries, telephone, etc. under **Expenses**.
- * Value Added Tax (VAT), Sales Tax, Equity, etc. under **Current Liabilities**.
- * Product Sales, Service Sales, etc. under **Income**.
- * Building, machinery, furniture, etc. under **Fixed Assets**.
+ * Viagem, salários, tefefone, etc. em **Despesas**.
+ * Imposto de Valor Acrescentado (IVA), Imposto de Vendas, Equidade, etc. em **Responsabilidades Correntes**.
+ * Venda de Produtos, Venda de Serviços, etc. em **Recebimentos**.
+ * Predios, equipamentos, mobiliario, etc. em **Activos**.
 
 <img class="screenshot" alt="Chart of Accounts" src="{{docs_base_url}}/assets/img/accounts/chart-of-accounts-1.png">
 
-> Tip: Accounts with different currencies are created when you receive or make payments to or from different currencies. For example if you are based in India and transact with USA, you may need to create accounts like 'Debtors US', 'Creditors US', etc.
+> Dica: Contas com moedas diferentes são criadas quando voçê recebe or faz pagamentos para ou apartir de diferentes moedas. Por exemplo se voçê esta na India e fizer transações com USA, voçê poderá precisar criar contas como 'US Debitos', 'US Creditos', etc.
 
-Let us understand the main groups of the Chart of Accounts.
+Vamos entender os grupos principais do Plano de Contas.
 
-## 2. Account Types
-Account types are mainly classified as income, expense, asset, or liability.
+## 2. Tipo de Contas
+Tipo de Contas são classificadas principalmente como recebimentos, despesas, activos ou reponsabilidade.
 
-### 2.1 Balance Sheet Accounts
+### 2.1 Contas de Balanço
 
-Balance Sheet accounts are 'Application of Funds (Assets)' and 'Sources of Funds
-(Liabilities)' that signifies the net-worth of your company at any given time.
-When you begin or end a financial period, all the Assets are equal to the
-Liabilities.
+Contas de Balanço são 'Aplicação de Fundos (Activos)' ou 'Fonte de Fundos (Responsabilidades)
+que significam o valor net-worth da sua empresa em qualquer momento.
+Quando voçê começa ou termina o periodo financeiro, todas os Activos são iguais as 
+Responsabilidades.
 
-> **A note on Accounting**: If you are new to accounting, you might be wondering, how can
-Assets be equal to Liabilities? That would mean the company has nothing of its
-own. That's correct! All the “investments” made in the company to buy assets (like
-land, furniture, machines) is made by the owners. The owners are a liability to the
-company since the profits belong to the owners.
+> **Uma nota na Contabilidade**: Se voçê for novo em contabilidade, voçê pode ficar pensando, como pode
+Activo ser igual a Responsabilidades? Isto significaria que a empresa não tem nada que seja dela.
+Isto é correcto! Todos os "investimentos" feito na empresa para comprar activos (como terra, mobiliario, equipamento)
+percente aos donos. Os são uma responsabilidade para com a empresa vendo que os lucros pertencem aos donos.
 
-> If a company were to shut down, it would need to sell all the
-assets and pay back all the liabilities (including profits) to the owners,
-leaving itself with nothing.
+> Se a empresa tiver que fechar, seria necessario vender todos os activos
+e pagar de volta todas as responsabilidades (incluindo lucros) aos donos,
+deixando ela sem nada.
 
-All the accounts under Balance Sheet accounts represent an asset owned by the company like "Bank
-Account", "Land and Property", "Furniture" or a liability (funds that the
-company owes to others) like "Owners funds", "Debt" etc.
+Todas as contas no Balanço representam um activo pretencente a empresa como "Conta Bancária",
+"Terra e Propriedade", "Mobiliario" ou uma responsabilidade (fundos qua a empresa deve a outros)
+como "Dono dos fundos", "Debito" etc.
 
-Two special accounts to note here are Accounts Receivable (money you have to
-collect from your Customers) and Accounts Payable (money you have to pay to
-your Suppliers) under Assets and Liabilities respectively.
-
-
-### 2.2 Profit and Loss Accounts
-
-Profit and Loss is the group of 'Income' and 'Expense' accounts that represent
-your accounting transactions over a period.
-
-Unlike Balance Sheet accounts, Profit and Loss accounts (or PL accounts) do
-not represent net worth (Assets), but rather represent the amount of money
-spent and collected in servicing customers during the period. Hence, at the
-beginning and end of your Fiscal Year, they become zero.
-
-In ERPNext it is easy to keep track of Profit and Loss via the Profit and Loss chart.
-
-![Profit and Loss Report]({{docs_base_url}}/assets/img/accounts/profit_n_loss_report_1.png)
+Duas contas especiais para notar aqui são Contas de Recebimento (dinnheiro que voçê tem que recolher dos seus
+Clientes) e Contas a Pagar (dinheiro que voçê tem que pagar aos seus Fornecedores) respectivamente
+dentro dos Activos e Responsabilidades.
 
 
-Note that, on the first day of the year you have not made any profit or loss, but you
-still have assets, hence balance sheet accounts never become zero at the
-beginning or end of a period.
+### 2.2 Conta de Lucros e Percas
 
-### 2.3 Groups and Ledgers
+Lucros e Percas é um grupo de contas de 'Recebimentos' e 'Despesas' que representam as suas
+transações de contabilidade dentro de um periodo.
 
-There are two main kinds of Accounts in ERPNext - Group and Ledger. Groups can
-have sub-groups and ledgers within them, whereas ledgers are the leaf nodes of
-your chart and cannot contain more accounts in them.
+Não como as contas de Balanço, Contas de Lucro e Percas (ou Contas PL) não representam liquido (Activos)
+net worth (Assets), mas representam sim o montante de dinheiro gasto e recolhido em servir os
+clientes durante o periodo. Assim, sendo no inicio e fim do seu Ano Fiscal, eles passam para zero.
 
-Accounting Transactions can only be made against Ledger Accounts (not Groups)
+No ERPNext é bastante facil manter registo dos Lucros e Percas usando o Grafico de Lucros e Percas.
 
-> Info: The term "Ledger" means a page in an accounting book where entries are
-made. There is usually one ledger for each account (like a Customer or a
-Supplier).
+![Relatorio de Lucros e Percas]({{docs_base_url}}/assets/img/accounts/profit_n_loss_report_1.png)
 
-> Note: An Account “Ledger” is also sometimes called as Account “Head”.
+
+Note que, no primeiro dia do ano voçê não tem nenhum lucro ou perca, mas voçê ainda tem
+activos, daí as contas de balanço nunca ficarem zero no inicio ou fim do periodo.
+
+### 2.3 Grupos e Livros-Razão
+
+Exitem dois tipos principais de Contas no ERPNext - Grupos e Livros-Razão. Grupos podem ter sub-grupos e 
+Livros-Razão dentro deles, aonde os Livros-Razão são os nodulos de folhas do seu Grafico e não podem ter
+mais contas dentro delas.
+
+Transações de Contabilidade podem ser feitas apenas a favor de Contas de Livros-Razão (não Grupos)
+
+> Info: O termo "Livros-Razão" significam uma folha num livro de contabilidade aonde os registos são feitos.
+Existe normalmente um Livros-Razão para cada conta (como um Cliente ou um Fornecedor).
+
+> Nota: Uma Conta "Livros-Razão" é tambem as vezes chamado de Conta "Cabeça".
 
 <img class="screenshot" alt="Chart of Accounts" src="{{docs_base_url}}/assets/img/accounts/chart-of-accounts-2.png">
 
 
-### 2.4 Other Account Types
+### 2.4 Outro Tipo de Contas
 
-In ERPNext, you can also specify more information when you create a new
-Account, this is there to help you select that particular account in a scenario like 'Bank Account' or a 'Tax Account' and has no effect on the Chart
-itself.
+No ERPNext, voçê pode tambem especificar mais informação quando voçê cria uma nova Conta, está lá para o ajudar a selecionar
+aquela conta em particular num cenario como 'Conta Bancária' ou uma 'Conta de Imposto' e não tem efeito no Grafico em si.
 
-Explanation of account types:
+Explicação do Tipo de Contas:
 
-* **Accumulated Depreciation**: To store the total accumulated depreciation information of the Company Assets. Accumulated depreciation appears on the balance sheet.
-* **Asset Received But Not Billed**: A temporary liability account which holds the value of Asset received but not billed yet.
-* **Bank**: The account type under which bank accounts will be created. There must be at least one group account of type "Bank" in the CoA.
-* **Cash**: The account type under which cash account will be created. There must be at least one group account of type "Cash" in the CoA.
-* **Chargeable**: Additional charges applied to Items can be stored in accounts of this type. For example, "Freight and Forwarding Charges".
-* **Capital Work in Progress**: Current charges when creating Fixed Assets are stored in CWIP accounts. For example, construction costs when constructing a building. In ERPNext Assets are booked against CWIP accounts when they are not yet being used. 
-* **Cost of Goods Sold**: An account under this type is used to book the accumulated total of all costs incurred while manufacturing/purchasing a product or service, sold by a Company.
-* **Depreciation**: The expense account to book the depreciation of the fixed assets. This appears on the Income statement.
-* **Equity**: These type of accounts represent transactions with people that own the business, i.e. the shareholders/owners.
-* **Expenses Included In Asset Valuation**: The account to book the expenses (apart from the direct material costs of Assets) included in the landed cost of an Asset.
-* **Expenses Included In Valuation**: The account to book the expenses (apart from direct material costs) included in the landed cost of an item/product, used in Perpetual Inventory.
-* **Fixed Asset**: The account to maintain the costs of fixed assets.
-* **Income Account**: This type of accounts represents any source of income or revenue booked for the Company.
-* **Payable**: The account type represents the amount owed by a company to its creditors (Suppliers).
-* **Receivable**: The account type represents the amount owed to a company by its debtors (Customers).
-* **Round Off**: In many Invoices there can be some [rounding off](/docs/user/manual/en/accounts/articles/round-off-account-validation) in the final amount. For accurate tracking, those amounts can be booked to accounts of this type.
-* **Stock**: The account group under which [Warehouse accounts](/docs/user/manual/en/accounts/articles/round-off-account-validation) will be created. 
-* **Stock Adjustment**: An expense account to book any adjustment entry of stock/inventory. Generally comes at the same level of Cost of Goods Sold.
-* **Stock Received But Not Billed**: A temporary liability account which holds the value of stock received but not billed yet and used in Perpetual Inventory.
-* **Tax**: All tax accounts like VAT, TDS, GST, etc. come under this type.
-* **Temporary**: A Temporary account is useful for balancing incomes, expenses and nullifying them when shifting to ERPNext mid-year with outstanding accounting entries.
+* **Depreciação Acumulada**: Para guardar a informação do total acumulado da depreciação dos activos da Empresa. Depreciação Acumulada aparece na folha de Balanço.
+* **Activos Recebidos Mas Não Cobrados**: Uma conta temporaria de responsabilidade aonde guarda o valor dos Activos recebidos mas não cobrados ainda.
+* **Banco**: O tipo de conta aonde as Contas Bancárias serão criadas. Deve existir pelo menos um grupo de Contas to tipo "Banco" na PdC.
+* **Caixa**: O tipo de conta aonde as Contas de Dinheiro serão criadas. Deve existir pelo menos um grupo de Contas to tipo "Dinheiro" no PdC.
+* **Chargeable**: Taxas adicionais aplicadas a Itens podem ser guardas neste tipo de contas. Por exemplo, "Frete e Forwarding Taxas".
+* **Trabalho Capital em Progresso**: Taxas correntes ao criar os Activos são guardados em contas CWIP. Por exemplo, custos de construção ao construir um predio. No ERPNext os Activos são alocados contra contas CWIP quando não estão a ser utilizadas. 
+* **Custo dos Bens Vendidos**: Uma conta deste tipo é usada para alocar o total acumulado de todos os custos incorridos enquanto o fabrico/compra de produtos ou serviços, vendidos por uma empresa.
+* **Depreciação**: A conta de despesa para alocar a depreciação de um Activo. Este aparece como um extracto de Recebimento.
+* **Equidade**: Este tipo de contas representam transações com pessoas que detem o negocio, ex. os acionistas/donos.
+* **Despesas Incluidas na Valuação de Activos**: A conta para alocar as despesas (para alem do custo directo de material dos Activos) incluidas no custo landed de um Activo.
+* **Despesas Incluidas na Valuacao**: A conta para alocar as despesas (para alem do custo directo de material) incuida no custo landed de um item/produto, usado no Inventario Perpetual.
+* **Activos Fixos**: A conta para manter o custo dos Activos fixos.
+* **Conta de Recebimentos**: Este tipo de conta representa todo a fonte de recebimento ou rendimento alocado para a Empresa.
+* **Pagaveis**: O tipo de conta representa o valor devido pela empresa aos seus credores (Fornecedores).
+* **Recebimentos**: O tipo de conta representa o valor devido a uma empresa pelos seus devedores (Clientes).
+* **Round Off**: Em muitas Facturas podem haver [rounding off](/docs/user/manual/pt/contabilidade/argtigos/round-off-account-validation) no montante final. Para melhor rastreio, estes valores são alocados em contas deste tipo.
+* **Stock**: O grupo de contas no qual [Contas de Armazem](/docs/user/manual/pt/contabilidade/artigos/round-off-account-validation) são criadas. 
+* **Ajuste de Stock**: Uma conta de despesa para alocar qualquer registo de ajuste de stock/inventario. Normalmente vem ao mesmo nivel que o Custo de Bens Vendidos.
+* **Stock Recebido Mas Não Cobrado**: Uma conta de responsabilidade temporaria para alocar o valor do stock recebido mas não foi cobrado ainda e é usado no Perpetual Inventory.
+* **Impostos**: Todas as contas de Imposto como IVA, Retenção na fonte, etc. vão para estes tipo de contas.
+* **Temporario**: Uma conta Temporaria é util para balancear recebimentos, despesas e anular quando estiver a mudar para o ERPNext no meio do ano com Lançamentos Contabilisticos pendentes.
 
-> **Note**: When making Payment Entries, the default bank account will be fetched in the following order if set:
+> **Nota**: Ao fazer um Registo de Pagamento, a conta por defeito do banco será inserida na seguinte ordem se foi definido:
     
->       * Company form
->       * Mode of Payment default account
->       * Customer/Supplier default bank account
->       * Select manually in Payment Entry
+>       * Formulario da Empresa
+>       * Conta defeito para Modo de Pagamento
+>       * Conta Bancária de Cliente/Fornecedor
+>       * Selecione manualmente no Registo de Pagamento
 
-### 2.5 Financial statements
-Financial statements for your company are easily viewable in ERPNext. You can view financial statements
-such as Balance Sheet, Profit and Loss statement, and Cash flow statement.
+### 2.5 Extractos Financeiros
+Extractos Financeiros para uma empresa são facilmente visiveis no ERPNext. Voçê pode ver os extractos da folha de Balanço, Lucros e Percas, 
+e Fluxo de Caixa.
 
-An Example of various financial statement are given below:
+Um Exemplo de varios extractos financeiros estão aqui em baixo:
 
-1. Cash Flow Report:
+1. Relatorio de Fluxo de Caixa:
  <img class="screenshot" alt="Cash Flow Report" src="{{docs_base_url}}/assets/img/accounts/cash_flow_report.png">
 
-1. Profit and Loss Report:
+1. Relatorio de Lucros e Percas:
  <img class="screenshot" alt="Profit and Loss Report" src="{{docs_base_url}}/assets/img/accounts/profit_n_loss_report.png">
  
-1. Balance Sheet Report:
+1. Relatorio da Folha de Balanço:
  <img class="screenshot" alt="Balance Sheet Report" src="{{docs_base_url}}/assets/img/accounts/balance_sheet_report.png">
 
-### 2.6 Account Number
-A standard Chart of Accounts is organized according to a numerical system. Each major category will begin with a certain number, and then the sub-categories within that major category will all begin with the same number. For example, if assets are classified by numbers starting with the digit 1000, then cash accounts might be labeled 1100, bank accounts might be labeled 1200, accounts receivable might be labeled 1300, and so on. A gap between account numbers is generally maintained for adding accounts in the future.
+### 2.6 Numero de Conta
+Um Plano de Contas normal está organizado de acordo um sistema numerico. Cada categoria começa com um certo numero, e a sub-categoria dentro irá iniciar com o mesmo numero. Por exemplo, se os activos estão classificado por numeros começando pelo digito 1000, então as contas de caixa podem ser 1100, contas bancárias pode ser 1200, contas de recebimentos pode ser 1300 e assim sucessivamente. Uma falha entre os numeros normalmente existe para adicionar contas futuras.
 
-You can assign a number while creating an account from Chart of Accounts page. You can also edit a number from account record, by clicking **Update Account Name / Number** button. On updating account number, the system renames the account name automatically to embed the number in the account name.
+Voçê pode atribuir um numero enquanto estiver a criar a conta no Plano de Contas. Voçê pode tambem ediar o numero da conta, fazendo o clique no botão **Actualizar Nome da Conta / Numero**. Ao actualizar o numero da conta, o sistema renomeia automaticamente o nome da conta para incluir o numero no nome.
 
-![Account Number]({{docs_base_url}}/assets/img/accounts/acc-no.png)
+![Numero de Conta]({{docs_base_url}}/assets/img/accounts/acc-no.png)
 
 ## 3. Video
 
@@ -197,10 +191,10 @@ You can assign a number while creating an account from Chart of Accounts page. Y
  </div>
 </div>
 
-### 4. Related Topics
-1. [Opening Balance](/docs/user/manual/en/accounts/opening-balance)
-1. [Accounts Settings](/docs/user/manual/en/accounts/accounts-settings)
-1. [Journal Entry](/docs/user/manual/en/accounts/journal-entry)
-1. [Inter Company Journal Entry](/docs/user/manual/en/accounts/inter-company-journal-entry)
-1. [Accounting Reports](/docs/user/manual/en/accounts/accounting-reports)
-1. [Multi Currency Accounting](/docs/user/manual/en/accounts/multi-currency-accounting)
+### 4. Topicos Relacionados
+1. [Saldo de Abertura](/docs/user/manual/pt/contabilidade/saldo-abertura)
+1. [Configurações de Contabilidade](/docs/user/manual/pt/contabilidade/configurações-contabilidade)
+1. [Lançamento Contabilistico](/docs/user/manual/pt/contabilidade/lançamento-contabilistico)
+1. [Lançamento Contabilistico Inter Empresa](/docs/user/manual/pt/contabilidade/lançamento-contabilistico-inter-empresa)
+1. [Relatorio de Contabilidade](/docs/user/manual/pt/contabilidade/relatorios-contabilidade)
+1. [Contabilidade Multi Moeda](/docs/user/manual/pt/contabilidade/contabilidade-multi-moedas)

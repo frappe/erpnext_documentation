@@ -1,24 +1,24 @@
 <!-- add-breadcrumbs -->
-# Accounting Period
+# Periodo Contabil
 
-**An Accounting Period defines a period of time in which financial statements are recorded.**
+**Um Periodo Contabil define um periodo de tempo em que os extractos finaneiros são registados.**
 
-In ERPNext, defining an Accounting Period freezes the entries for the selected transactions in the selected time frame. This means that the selected transactions will not be submittable in the defined Accounting Period.
+No ERPNext, definindo um Periodo Contabil congela os registos das transações num certo perido de tempo. Isto significa que as transações selecionadas não poderam ser submetidas no Periodo Contabil definido.
 
-Consider that you want to generate financial reports for business in Quarter 3 and you want to allow submitting only specific entries in that period. Or you want to freeze all entries that affect the General Ledger. Accounting Period in ERPNext allows doing exactly this.
+Considere que voçê quer gerar relatorios financeiros do negocio no 3 Quarto e voçê quer permitir submeter somente alguns registos especificos neste periodo. Ou voçê quer congelar todos os registos que afectem o Razão Geral. Periodo Contabil no ERPNext permite fazer isto.
 
-## 1. How to create an Accounting Period
-1. Enter a name for the Accounting Period.
-1. Define a time frame by  setting Start and End Dates.
-1. Add or remove transactions from the table. Note that all transactions listed in the table will be frozen.
-1. Save.
-    ![Accounting Period](/docs/assets/img/accounts/accounting-period.png)
+## 1. Como criar um Periodo Contabil
+1. Digite o nome do Periodo Contabil.
+1. Defina o tempo configurando as Datas de Inicio e Fim.
+1. Adicone ou remova transações da tabela. Note que todas as transações listadas na tabela ficaram congeladas.
+1. Salvar.
+    ![Periodo Contabil](/docs/assets/img/accounts/accounting-period.png)
 
 
-You will see a prompt if you try to submit a transaction defined in the Accounting Period.
-![Accounting Period](/docs/assets/img/accounts/accounting-period-1.png)
+Voçê irá ver uma janel se voçê tentar submeter uma transação deinida no Periodo Contabil.
+![Periodo Contabil](/docs/assets/img/accounts/accounting-period-1.png)
 
-> Note: No role can submit transactions defined in the Accounting Period, even the Role set in 'Role Allowed to Set Frozen Accounts & Edit Frozen Entries' in [Account Settings](/docs/user/manual/en/accounts/accounts-settings).
+> Nota: Nenhum perfil pode submter transações definidas no Periodo Contabil, até mesmo a Perfil definido em 'Perfil Permitido a Congelar Contas & Editar Registos Congelados' em [Configurações de Contabilidade](/docs/user/manual/pt/contabilidade/configurações-contabilidade).
 
-## 2. Related Topics
-* [Period Closing Voucher](/docs/user/manual/en/accounts/period-closing-voucher)
+## 2. Topicos Relacionados
+* [Voucher de Termino de Periodo](/docs/user/manual/pt/contabilidade/voucher-termino-periodo)
