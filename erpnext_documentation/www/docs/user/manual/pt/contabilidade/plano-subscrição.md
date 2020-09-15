@@ -1,22 +1,22 @@
 <!-- add-breadcrumbs -->
-# Subscription Plan
+# Plano de Subscrição
 
-A Subscription Plan stores information about the Item being subscribed, its price, and billing interval.
+Um Plano de Subscrição guarda a informação sobre a subscrição de um Item, o seu preço, e o intervalo de cobrança.
 
-To access the Subscription Plan list, go to:
-> Home > Accounting > Subscription Management > Subscription Plan
+Para aceder a lista de Plano de Subscrição, vá para:
+> Home > Contabilidad > Gestão de Subscrição > Plano de Subscrição
 
-## 1. How to create a Subscription Plan
-Before you can set a Subscription, you need a Subscription Plan.
+## 1. Como criar um Plano de Subscrição
+Antes de voçê definir uma Subscrição, voçê precisa de um Plano de Subscrição.
 
-1. Go to the Subscription Plan list and click on New.
-1. Select the item that will be subscribed.
-1. Select a Price Determination whether Fixed or based on a [Price List](/docs/user/manual/en/stock/price-lists).
-1. Set a Billing Interval whether Daily, Weekly, Monthly, or Yearly.
-1. Set a Billing Interval Count. If you select Year as your interval and count as 5, the billing will be done for every 5 years.
-1. Save.
-    ![Subscription Plan](/docs/assets/img/accounts/subscription-plan.png)
+1. Vá para a lista de Plano de Subscrição e clique em Novo.
+1. Selecione o item que queira subscrever.
+1. Selecione um Preço Determinado aonde poderá ser Fixo ou baseado na [Lista de Preços](/docs/user/manual/pt/inventario/lista-preços).
+1. Defina o Intervalo de Cobrança aonde poderá ser Diario, Semanal, Mensal ou Anual.
+1. Defina o Contador de Intervalo de Cobrança. Se voçê selecion o Ano como o seu intervalo e o contador 5, a cobrança será feita a cada 5 anos.
+1. Salvar.
+    ![Plano de Subscrição](/docs/assets/img/accounts/subscription-plan.png)
 
-You can also set up additional payment details and link a Payment Gateway.
+Voçe pode tambem definir detalhes de pagamento adicional e uma ligação para Gateway de Pagamentos.
 
-A Subscription Plan is linked to an Item, for which a Sales Invoice is created.
+Um Plano de Subscrição é ligado a um Item, para o qual a Factura de Vendas é criada.
