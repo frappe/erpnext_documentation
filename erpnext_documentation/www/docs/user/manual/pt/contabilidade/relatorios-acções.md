@@ -1,24 +1,24 @@
 <!-- add-breadcrumbs -->
-# Share Reports
-There are two types of reports in ERPNext for shares. Share Balance and Share ledger.
+# Relatorios de Acções
+Exitem dois tipos de relatorios no ERPNext para acções. Balanço de Acções e Razão de Acções.
 
-## 1. Share Balance
-This is a report view which gives the list of all the shares held by a given Shareholder and its value.
+## 1. Balanço de Acções
+Este é um relatorio que dá a lista de todas acções pertencentes a um Acionista e o seu valor.
 
-To access the Share Balance report, go to:
-> Home > Accounting > Share Management > Share Balance
+Para aceder ao Relario de Balanço de Accções, vá para:
+> Home > Contabilidade > Gestão de Acionistas > Balanço de Acções
 
 <img class="screenshot" alt="Create Shareholder" src="/docs/assets/img/accounts/shareholder/sharebalance_1.png">
 
-## 2. Share Ledger
+## 2. Razão de Acções
 
-This is a report view which gives the list of all the transactions made by a given Shareholder.
+Este é um relatorio que mostra a lista de todas as transações feitas por um Acionista.
 
-To access the Share Ledger report, go to:
-> Home > Accounting > Share Management > Share Ledger
+Para aceder ao relatorio de Razão de Acções, vá para:
+> Home > Contabilidade > Gestão de Acionistas > Razão de Acções
 
 <img class="screenshot" alt="Create Shareholder" src="/docs/assets/img/accounts/shareholder/shareledger_1.png">
 
-### 3. Related Topics
-1. [Shareholder](/docs/user/manual/en/accounts/shareholder)
-1. [Share Transfer](/docs/user/manual/en/accounts/share-transfer)
+### 3. Topicos Relacionados
+1. [Acionistas](/docs/user/manual/pt/contabilidade/acionistas)
+1. [Transferencia de Acções](/docs/user/manual/pt/contabilidade/transferir-acção)
