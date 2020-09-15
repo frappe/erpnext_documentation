@@ -1,265 +1,264 @@
 <!-- add-breadcrumbs -->
-# Payment Entry
+# Registo de Pagamento
 
-**A Payment Entry is a record indicating that payment has been made for an invoice.**
+**Um Registo de Pagamento é um registo indicando que o pagamento de uma factura foi feito.**
 
-Payment Entry can be made against the following transactions.
+Registo de Pagamento pode ser contra as seguintes transaçãoes.
 
-* Sales Invoice
-* Purchase Invoice
-* Sales Order (Advance Payment)
-* Purchase Order (Advance Payment)
-* Expense Claim
-* Internal Transfer
+* Factura de Vendas
+* Factura de Compras
+* Ordens de Venda (Adiantamento de Pagamento)
+* Ordem de Compra (Adiantamento de Pagamento)
+* Reembolso de Despesas
+* Transferencia Interna
 
-In ERPNext, there are two options through which User can capture the payment:
+No ERPNext, tem duas opções no qual o Usuario pode capturar o pagamento:
 
-* Payment Entry (Default)
-* Journal Entry
+* Registo de Pagamento (Default)
+* Lançamento Contabilistico
 
-Here are diagrams to understand the flow:
+Aqui estão os diagramas para entender o fluxo:
 
-In Sales:
-![Payment Sales]({{docs_base_url}}/assets/img/accounts/pe-sales.png)
+Em Vendas:
+![Pagamento de Vendas]({{docs_base_url}}/assets/img/accounts/pe-sales.png)
 
-In Purchase:
-![Payment Purchase]({{docs_base_url}}/assets/img/accounts/pe-purchase.png)
-
-
-To access the Payment Entry list, go to:
-> Home > Accounting > Accounts Receivable/Payable > Payment Entry
-
-## 1. Prerequisites
-A Payment Entry can also be created directly then linked to an order/invoice later. Before creating and using Payment Entry, it is advised to create the following first:
-
-1. [Customer](/docs/user/manual/en/CRM/customer)
-1. [Supplier](/docs/user/manual/en/buying/supplier)
-1. [Bank Account](/docs/user/manual/en/accounts/bank-account)
-
-If you're following the Sales/Purchase Cycle, you'd need the following:
-
-1. [Sales Order](/docs/user/manual/en/selling/sales-order) (Advance Payment)
-1. [Purchase Order](/docs/user/manual/en/buying/purchase-order) (Advance Payment)
-1. [Sales Invoice](/docs/user/manual/en/accounts/sales-invoice)
-1. [Purchase Invoice](/docs/user/manual/en/accounts/purchase-invoice)
+Em Compras:
+![Pagamento de Compras]({{docs_base_url}}/assets/img/accounts/pe-purchase.png)
 
 
-Set up:
+Para aceder a lista de Registo de Pagamento, vá para:
+> Home > Contabilidade > Contas de Recebimentos/Pagamentos > Registo de Pagamento
 
-1. [Chart Of Accounts](/docs/user/manual/en/accounts/chart-of-accounts)
-1. [Company](/docs/user/manual/en/setting-up/company-setup) (for default accounts)
+## 1. Pre-requisitos
+Um  Registo de Pagamento pode tambem criado directamento e depois ligado a uma Ordem/Factura. Antes de criar e usar o Registo de Pagamento, é aconselhado criar as seguintes:
 
-## 2. How to create a Payment Entry
-On submitting a document against which Payment Entry can be made, you will find the Payment option under the **Create** button.
+1. [Cliente](/docs/user/manual/pt/CRM/cliente)
+1. [Fornecedor](/docs/user/manual/pt/compras/fornecedor)
+1. [Conta Bancária](/docs/user/manual/pt/contabilidade/conta-bancária)
 
-![Payment Entry from SO]({{docs_base_url}}/assets/img/accounts/payment-entry-so.png)
+Se voçê estiver a seguir o Ciclo das Vendas/Compras, voçê precisa fazer o seguinte:
 
-1. Change the posting date.
-1. The Payment Type will be set based on the transaction you're coming from. The types are 'Receive', 'Pay', and 'Internal Transfer'.
-1. The Party Type, Party, Party Name will be fetched automatically.
-1. The Account Paid To and Account Paid From will be fetched as set in the [Company form](/docs/user/manual/en/setting-up/company-setup).
-1. The Amount Paid will be fetched from the Invoice.
-1. Save and Submit.
- ![Payment Entry from SO]({{docs_base_url}}/assets/img/accounts/payment-entry-so.gif)
-
-### 2.1 Creating a Payment Manually
-A Payment Entry created manually will have no order/invoice linked to it. Payments made this will be recorded in the Customer's/Supplier's account and can be reconciled later using the [Payment Reconciliation Tool](/docs/user/manual/en/accounts/payment-reconciliation).
-
-1. Go to the Payment Entry list and click on New.
-1. Select the Party Type and the respective Customer/Supplier.
-1. Select the Bank Account/Cash Account Paid To and Paid From. Enter the Cheque Number and date if bank transfer.
-1. Enter the Amount Paid.
-1. Save and Submit.
+1. [Ordem de Vendas](/docs/user/manual/pt/vendas/ordem-vendas) (Adiantamento de Pagamento)
+1. [Ordem de Compras](/docs/user/manual/pt/compras/ordem-de-compras) (Adiantamento de Pagamento)
+1. [Factura de Vendas](/docs/user/manual/pt/contabilidade/factura-vendas)
+1. [Factura de Compras](/docs/user/manual/pt/contabilidade/factura-compra)
 
 
-## 3. Features
+Para Configurar:
 
-### 3.1 Setting Mode of Payment
+1. [Plano de Contas](/docs/user/manual/pt/contabilidade/plano-de-contas)
+1. [Empresa](/docs/user/manual/pt/configuração/configuração-empresa) (para as contas padrão)
 
-**Mode of Payment**: Entering this helps classify Payment Entries based on the payment mode used. Modes of Payment can be Bank, Cash, Wire Transfer, etc.
+## 2. Como criar um Registo de Pagamento
+Ao submeter o documento no qual o Registo de Pagmento pode ser feito, voçê irá encontrar a opção de Pagamento debaixo do botão **Criar**.
 
-> **Tip**: In the [Mode of Payment](/docs/user/manual/en/accounts/mode-of-payment) master, default Account can be set. This default payment Account will be fetched into Payment Entries.
+![Registo de Pagamento apartir da OV]({{docs_base_url}}/assets/img/accounts/payment-entry-so.png)
 
-### 3.2 Payment From/To
+1. Altere a data de postagem.
+1. O Tipo de Pagamento será definido com base na transação que fez, 'Recebimento', 'Pagamento' e 'Transferencia Interna'.
+1. No Tipo de Parte, Parte, o Nome da Parte será inserido automanticamente.
+1. A Conta Paga a Favor e Pago De será inserido como definido no [Formulario Empresa](/docs/user/manual/pt/configuração/configuração-empresa).
+1. O Valor Pago será inserido apartir da Factura.
+1. Salvar e Submeter.
+ ![Registo de Pagamento apartir da OV]({{docs_base_url}}/assets/img/accounts/payment-entry-so.gif)
 
-![Payment Party]({{docs_base_url}}/assets/img/accounts/payment-party.png)
+### 2.1 Criando um Pagamento Manual
+Um Registo de Pagamento criado manual não terá uma ordem/factura ligada ao mesmo. Pagamentos feitos desta forma serão guardados na conta do Cliente/Fornecedor e pode ser reconciliados depois usnado a [Ferramenta de Reconciliação de Pagamento](/docs/user/manual/pt/contabilidade/reconciliação-pagamento).
 
-* **Party Type**: Whether Customer, Supplier, Employee, Shareholder, Student, or NGO Member.
-* **Party**: The specific party for which the Payment Entry is made.
-* **Party Name**: The name of the party, this is fetched automatically.
-* **Company Bank Account**: Your Company's [Bank Account](/docs/user/manual/en/accounts/bank-account).
-* **Party Bank Account**: The Party's [Bank Account](/docs/user/manual/en/accounts/bank-account).
-* **Contact**: If the Party is an organization, a Contact person can be stored here.
+1. Vá para a lista de Registo de Pagamento e clique em Novo.
+1. Selecione o Tipo de Parte e o respectivo Cliente/Fornecedor.
+1. Selecione a Conta Bancária/Dinheiro Pago a Favor e Pago De. Digite o Numero do Cheque e a data se foi transferencia Bancária.
+1. Digite o Valor Pago.
+1. Salvar e Submeter.
 
-### 3.3 Accounts
 
-![Payment Accounts]({{docs_base_url}}/assets/img/accounts/payment-accounts.png)
+## 3. Funcionalidades
 
-* **Party Balance**: The overall amount receivable or payable from Customer or Supplier from Invoices set in the current Payment Entry. Paid amounts will be positive and if advance payments are made, they will be negative.
-* **Account Paid From**: The [Account](/docs/user/manual/en/accounts/chart-of-accounts) from which the amount will be deducted when Payment is submitted.
-* **Account Paid To**: The [CoA account](/docs/user/manual/en/accounts/chart-of-accounts) from which the amount will be added when Payment Entry is submitted.
+### 3.1 Definindo o Modo de Pagamento
 
-* **Account Currency**: The Currencies of these accounts will be fetched as set in the [Account](/docs/user/manual/en/accounts/chart-of-accounts) and cannot be edited here. To know about more about transactions in multiple currencies, [visit this page](/docs/user/manual/en/accounts/articles/managing-transactions-in-multiple-currency).
-* **Account Balance**: The total amount balance from all the invoices of the selected accounts.
+**Modo de Pagamento**: Criando este ajuda a classificar os Registos de Pagamento baseados no modo de pagamento usado. Modos de Pagamento podem ser Banco, Dinheiro, Cartões, etc.
 
-**Paid Amount**: The **total amount** paid for the current Payment Entry is shown in this field.
+> **Dica**: No [Modo de Pagamento](/docs/user/manual/pt/contabilidade/modo-de-pagamento), a Conta padrão pode ser definida. Esta conta de Pagamento padrão será inserida nos Registos de Pagamento.
 
-> **Note**: When making Payment Entries, the default bank account will be fetched in the following order if set:
+### 3.2 Pagamento Apartir/Para
 
-> * Company form
-> * Mode of Payment default account
-> * Customer/Supplier default bank account
-> * Select manually in Payment Entry
+![Partes de Pagamento]({{docs_base_url}}/assets/img/accounts/payment-party.png)
 
-### 3.4 Reference
+* **Tipo de Parte**: Quer seja Cliente, Fornecedor, Funcionário, Acionista, Estudante ou Membro de uma NGO.
+* **Parte**: A parte especifica no qual o Registo de Pagamento é feito.
+* **Nome da Parte**: O nome da parte, é inserido automaticamente.
+* **Conta Bancária da Empresa**: Sua Empresa [Conta Bancária](/docs/user/manual/pt/contabilidade/conta-bancária).
+* **Conta Bancária da Parte**: A Parte [Conta Bancária](/docs/user/manual/pt/contabilidade/conta-bancária).
+* **Contacto**: Se a Parte for uma organização, a Pessoa de Contacto será guardada aqui.
 
-#### Fetching outstanding Invoices
+### 3.3 Contas
 
-This can be used to make payments to multiple Sales Invoices using one Payment Entry. When creating a new Payment Entry, on clicking the **Get Outstanding Invoice** button all the outstanding Invoices and open Orders will be fetched for the party. You need to enter the 'Paid Amount' to see this button. From here a date range and invoices to be fetched can be selected.
+![Registo de Pagamentos]({{docs_base_url}}/assets/img/accounts/payment-accounts.png)
 
-![Outstanding Invoice]({{docs_base_url}}/assets/img/accounts/outstanding-pe.png)
+* **Balanço da Parte**: O valor geral recebido ou pago de um Cliente ou Fornecedor das Factura definidas no Registo de Pagamento corrente. Valores Pagos serão positivos e se foi feito adiantamento de pagamento, serão negativos.
+* **Conta Paga Apartir de**: A [Conta](/docs/user/manual/pt/contabilidade/plano-de-contas) no qual o valor será deduzido quando o Pagamento for submetido.
+* **Conta Paga Para**: A [Conta PdC](/docs/user/manual/pt/contabilidade/plano-de-contas) no qual o valor será adiconado quando o Pagamento for submetido.
 
-If the Party has not made full payment, enter the amount paid in the 'Allocated' field.
+* **Conta da Moeda**: As Moedas destas contas serão inseridas como definidas na [Conta](/docs/user/manual/pt/contabilidade/plano-de-contas) e não podem ser modificadas aqui. Para saber mais sobre transações em multiplas moedas, [visite esta pagina](/docs/user/manual/pt/contabilidade/artigos/gerir-transações-multiplas-moedas).
+* **Conta de Balanço**: O valor do balanço total de todas as facturas das contas selecionadas.
 
-If creating Payment Entry for a Customer, the Payment Amount will be allocated against a Sales Invoice. On the same lines, when creating Payment Entry for a Supplier, Payment Amount will be allocated against a Purchase Invoice.
+**Valor Pago**: O **valor total** pago para o Registo de Pagamento corrente é mostrado neste campo.
 
-#### Payment References table
+> **Nota**: Quando fizer Registo de Pagamntos, a conta de Banco padrão será inserida nas seguintes ordens se foi definida:
 
-* **Type**: Whether the payment is being made against a Sales Order, Sales Invoice, or a Journal Entry.
-* **Name**: The particular transaction ID is fetched/selected here.
-* **Total Amount**: The total amount of one Invoice/Journal Entry in the row.
-* **Outstanding**: The amount to receive/to pay for this invoice.
-* **Allocated**: If the Paid Amount is less than the invoice amount only the paid amount will be allocated to the invoice(s) fetched in the Payment Entry. The payment may be made in parts, for example, if there are three invoices of amounts 20, 20, 20, the Paid Amount is 60 then this Paid Amount will be distributed equally. [Payment Terms](/docs/user/manual/en/accounts/payment-terms) may also be involved.
+> * Formulario Empresa
+> * Conta padrão do Modo de Pagamento
+> * Conta Bancária Cliente/Fornecedor
+> * Selecionar manualmente no Registo de Pagamento
 
- ![Outstanding Invoice]({{docs_base_url}}/assets/img/accounts/outstanding-pe.png)
+### 3.4 Referencia
 
-#### What is Unallocated Amount?
-When a Payment Entry is made in ERPNext and the Paid Amount is more than the total invoice amount, it is stored in the Customer's/Supplier's account. This amount is hence currently 'Unallocated'. Unallocated amount can be used against future invoices.
+#### Procurando Facturas Não Pagas
 
-For example, you create a Sales Invoice totaling 1,000 and the Customer paid 1,500. When another invoice is created for this Customer in the future for 1,000 again, the previously paid 500 can be used.
+Este pode ser usado para fazer pagamentos a varias Facturas de Venda usando o Registo de Pagamento. Quando ao criar um Novo Registo de Pagamento, ao fazer o clique no botão **Obter Facturas Pendentes** todas as Factura Pendentes e Ordens abertas serão inseridas. Voçê precisa digitar o 'Valor Pago' para ver este botão. Apartir daqui o limite de datas e as facturas para serem procuradas e selecionadas.
+
+![Factura Pendente]({{docs_base_url}}/assets/img/accounts/outstanding-pe.png)
+
+Se a Parte não fez pagamento completo, digite o valor pago no campo 'Alocado'.
+
+Se ao criar o Registo de Pagamento para um Cliente, o valor de pagamento será alocado contra a Factura de Venda. Da mesma forma, ao criar um Registo de Pagamento para o Fornecedor, Valor Pago será alocado contra a Factura de Compra
+
+#### Tabela de Referencia de Pagamentos
+
+* **Tipo**: Quer o pagamento seja feito contra a Ordem de Vendas, Factura de Vendas ou Lançamento Contabilistico.
+* **Nome**: O ID particular da transação é inserido/selecionado aqui.
+* **Valor Total**: O Valor total de uma Factura/Lançamento Contabilistico na linha.
+* **Em Falta**: O valor a receber/pagar para esta factura.
+* **Alocado**: Se o Valor Pago for menos que o valor da factura somente o valor pago será alocado para as facturas inseridas no Registo de Pagamento. O pagamento pode ser feito em partes, por exemplo, se houver trê facturas no valor de 20, 20, 20, o Valor Pago é de 60 então esta Valor Pago será distribuido equitativamente. [Termos de Pagamento](/docs/user/manual/pt/contabilidade/termos-pagamento) podem tambem ser incluidos.
+
+ ![Factura Pendente]({{docs_base_url}}/assets/img/accounts/outstanding-pe.png)
+
+#### O que é um Valor Não Alocado?
+Quando um Registo de Pagamento é feito no ERPNext e o Valor Pago é maior que o total da factura, é guardado na conta do Cliente/Fornecedor. Este valor está correntemente 'Não Alocado'. Valor não alocado pode ser usado contra futuras facturas.
+
+Por exemplo, voçê cria uma Factura de Vendas no total de 1,000 e o Cliente paga 1,500. Quando fizer outra factura em nome do mesmo Cliente outra vez por 1,000, o valor pago de 500 previamente pode será ser usado.
 
 ### 3.5 Dedução ou Perca
 
-When a Payment Entry is created against an invoice, there could be some difference in the actual Paid Amount and the invoice outstanding amount. This difference could be due to rounding errors or changes in the currency exchange rate. You can set an Account here where this difference amount will be booked.
+Quano um Registo de Pagamento é criado contra um factura, pode haver alguma diferente no Valor Pago actual e o valor pendente da factura. Esta diferença pode ser devido a erros de arredondamento ou mudanças de taxa de cambio. Voçẽ pode definir uma Conta aqui aonde esta diferença será alocada.
 
-![Outstanding Invoice]({{docs_base_url}}/assets/img/accounts/pe-get-outstanding.gif)
+![Factura Pendente]({{docs_base_url}}/assets/img/accounts/pe-get-outstanding.gif)
 
-The loss/deductions can be written off:
-![Payment Deductions]({{docs_base_url}}/assets/img/accounts/payment-deductions.png)
+As percas/deduções pode ser written off:
+![Deduções de Pagamento]({{docs_base_url}}/assets/img/accounts/payment-deductions.png)
 
-Let's see an example here where the paid amount is 25 but the allocated amount is 30 since 30 is the amount to be collected as per the invoice. The 'Difference Amount' will be 5 in this case. This difference amount can occur due to discounts or Currency Exchange. The Difference Amount needs to be 0 in order to submit the Payment Entry. This can be adjusted using the **Make Difference Entry** button. The amount will be adjusted in the Write Off account.
+Vejamos um exemplo aqui aonde o valor pago é de 25 mas o valor alocado é de 30 vendo que 30 é o valor a ser recebido pela factura. O 'Valor da Diferença' será de 5 neste caso. Este valor da diferença pode acontecer devido a descontos ou Taxas d Cambio. O Valor da Diferença precisa ser 0 para poder submeter o Registo de Pagmento. Este pode ser ajustado usando o botão **Criar Registo de Diferença**. O valor será ajustado na Conta Write Off.
 
 <img class="screenshot" alt="Making Payment" src="{{docs_base_url}}/assets/img/accounts/payment-entry-5.gif">
 
 ### 3.6 Write Off
 
-Write off happens when the paid amount is less than the allocated amount. I.e. the remaining amount is considered as lost in miscellaneous charges or that amount isn't going to be paid. This is considered as loss.
+Write off pode acontecer quando o valor pago +e enos que o valor alocado. ex. o valor em falta é considerado perdido nas taxas mistas ou esse valor não será pago. É considerado uma perca.
 
-![Payment Write Off]({{docs_base_url}}/assets/img/accounts/payment-write-off-1.png)
+![Pagamento Write Off]({{docs_base_url}}/assets/img/accounts/payment-write-off-1.png)
 
-In this table, the deductions or loss from payments can be adjusted as explained in the example in the previous section.
+Nesta tabela, a dedução ou perca nos pagamentos pode ser ajustados como explicado no exemplo anterior da secção.
 
-![Payment Write Off]({{docs_base_url}}/assets/img/accounts/payment-write-off.png)
+![Pagamento Write Off]({{docs_base_url}}/assets/img/accounts/payment-write-off.png)
 
-### 3.5 After Submitting
-Save and Submit Payment Entry. On submission, outstanding will be updated in the Invoices.
+### 3.5 Depois de Submeter
+Salvar e Submeter um Registo de Pagamento. Ao submeter, valores pendentes serão actualizados nas Facturas.
 
 <img class="screenshot" alt="Making Payment" src="{{docs_base_url}}/assets/img/accounts/payment-entry-8.png">
 
-If payment entry was created against Sales Order or Purchase Order, the field 'Advance Paid' will be updated in them. When creating Invoice against those transactions, Payment Entry will be auto-updated in that Invoice so that you can allocate invoice amount against advance payment entry.
+Se o registo de pagamento foi criado contra a Ordem de Venda ou Ordem de Compra, a campo 'Adiantamento Pago' será actualizado. Ao criar a Factura contra estras transações, Registo de Pagmento será auto-actualizado para que voçê aloque o valor da factura contra o adiantamento de pagamento feito.
 
-For incoming payment, the accounts posting will be done as follows.
+Para os pagamentos de recebimentos, as contas ficam desta forma.
 
- * Debit: Bank or Cash Account
- * Credit: Customer (Debtor)
+ * Debito: Conta de Banco ou Dinheiro
+ * Credito: Cliente (Devedor)
 
-For outgoing payment:
+Para pagamentos de saida:
 
- * Debit: Supplier (Creditor)
- * Credit: Bank or Cash Account
+ * Debito: Fornecedor (Credor)
+ * Credito: Conta Banco ou Dinheiro
 
-## 4. Other cases
+## 4. Outros Casos
 
-### 4.1 Multi Currency Payment Entry
+### 4.1 Registo de Pagamento Multi Moedas
 
-If you want to maintain a receivable/payable account in foreign currency, then create accounts with foreign currency (different from Company currency) and link it in the party account. For example:
+Se voçê quer manter as contas dos recebimentos/pagamentos em moeda estrangeira, então as contas em moeda estrangeira (diferenta a moeda da Empresa) e ligue a uma conta de Parte. Por exemplo:
 
-![Foreign Account in Customer]({{docs_base_url}}/assets/img/accounts/cust-foreign-acc.png)
+![Moeda Estrangeira no Cliente]({{docs_base_url}}/assets/img/accounts/cust-foreign-acc.png)
 
-ERPNext allows you maintain accounts and invoicing in [multiple currency](/docs/user/manual/en/accounts/multi-currency-accounting). If an invoice is made in the party currency, Currency Exchange Rate between the Company's base currency and party currency is also entered in the invoice.
+O ERPNext permite que voçẽ mantenha contas e facturas em [multiplas moedas](/docs/user/manual/pt/contabilidade/contabilidade-multi-moedas). Se a factura é feita na moeda da parte, a Taxa de Cambio entre a moeda base da Empresa e da parte são incluidas na factura.
 
-> Note: A separate Debtor/Creditor account needs to be created and selected in the Sales Invoice/Order for currency exchange to work correctly. For example, if the Customer is from the US, create a receivable account called 'Debtors US'.
+> Nota: Uma conta separada Devedor/Credor precisa ser criada e selecionada na Factura de Vendas/Ordem para qua a taxa de cambios funcione correctamente. Por exemplo, se o Cliente é dos US, crie uma conta de recebimento chamada 'Devedor US'.
 
-When creating Payment Entry against that invoice, the current exchange rate will be fetched, but you can set the Currency Exchange Rate at the time of payment to match your records.
+Ao criar o Registo de Pagamento contra esta factura, a taxa de cambio será inserida, mas voçê pode definir a Taxa de Cambio no momento do pagamento para igualar os seis registos.
 
-Click on the **Set Exchange Gain/Loss** button to automatically add a row to write off the difference amount.
+Clique no botão **Definir Cambio de Ganho/Perca** para automaticamente incluir uma linha para write off o valor diferente.
 
 <img class="screenshot" alt="Making Payment" src="{{docs_base_url}}/assets/img/accounts/payment-entry-6.png">
 
-Since Currency Exchange Rate fluctuates all the time, it can lead to a difference in the payment amount against invoice total. This difference amount can be booked in the Currency Exchange Gain/Loss Amount.
+Vendo que a Taxa de Cambio fluctua constantemente, isto pode levar a diferença no valor de pagamento contra o total da factura. Esta diferença do total pode ser alocada no valor da Taxa de Cambio Ganho/Perdido.
 
 <img class="screenshot" alt="Making Payment" src="{{docs_base_url}}/assets/img/accounts/payment-entry-7.png">
 
-Payments can also be made independent of invoices by creating a new Payment Entry.
+Pagamento pode tambem ser feitos independentemente das facturas criando um no Registo de Pagamento.
 
-To know more about managing transactions in multiple currencies [visit this page](/docs/user/manual/en/accounts/articles/managing-transactions-in-multiple-currency).
+Para saber mais sobre gerindo transações em multiplas moedas [visite esta pagina](/docs/user/manual/pt/contabilidade/artigos/gerir-transações-multiplas-moedas).
 
-### 4.2 Internal Transfer
+### 4.2 Transferencia Interna
 
-Internal Transfer is used in cases where the money is transferred between the same Company's accounts. For example, if a customer from the US using PayPal, transferring money from PayPal to a bank account can be considered as Internal Transfer.
+Transferencia Interna é usad em casos aonde o dinheiro é transerido entre contas da mesma Empresa. Por exemplo, se o cliente dos US usando PayPal, transferir dinheiro para uma conta bancária pode ser considerado como Transferencia Interna.
 
-Following internal transfers can be managed from the Payment Entry.
+As seguintes transferencias internas pode ser geridas apartir do Registo de Pagamento.
 
-1. Bank - Cash
-4. Bank - Bank
-3. Cash - Cash
-2. Cash - Bank
+1. Banco - Dinheiro
+4. Banco - Dinheiro
+3. Dinheiro - Dinheiro
+2. Dinheiro - Banco
 
 <img class="screenshot" alt="Making Payment" src="{{docs_base_url}}/assets/img/accounts/payment-entry-9.png">
 
-### 4.3 Managing Different Payment Scenarios
+### 4.3 Gerindo Diferentes Cenarios de Pagamento
 
-For an unpaid invoice, outstanding amount = grand total. When creating Payment Entries, the value in the outstanding amount will reduce.
+Para uma factura não paga, valor pendente = total geral. Ao criar o Registo de Pagamento, o valor pendente será reduzido.
 
-In most cases, apart from retail sales, billing and payments are separate activities. There are several combinations in which these payments are done. These cases apply to both Sales and Purchases.
+Em muito dos casos, para alem das vendas a retalho, cobranças e pagamento são actividades diferentes. Exitem varias combinação no qual estes pagamento são feito. Estes casos aplicam-se quer para Vendas e Compras.
 
- * They can be upfront (100% in advance).
- * Post shipment. Either on delivery or within a few days of delivery.
- * Part in advance and part on or post delivery.
- * Payments can be made together for a bunch of invoices.
- * Advances can be given together for a bunch of invoices (and can be split across invoices).
+ * Eles podem ser adiantados (100% de adiantamento).
+ * Post shipment. Ou na entrega ou dentro de alguns dias da entrega.
+ * Metade em adiantamento e metade durante ou depois da entrega.
+ * Pagamento podem ser feitos em conjunto para um conjunto de facturas.
+ * Adiantamentos pode ser feitos em conjunto para um conjunto de facturas (e podem ser repartidos entre as facturas).
 
-ERPNext allows you to manage all these scenarios. All accounting entries (GL Entry) can be made against a Sales Invoice, Purchase Invoice or Payment Entry of advance payment (in special cases, an invoice can be made via a Sales Invoice too).
+O ERPNext permite que voçê faça a gestão de todos este cenarios. Todas os registos contabilisticos (GL Entry) podem ser feitos contra uma Factura de Vendas, Factura de Compra ou Registo de Pagamento ou Adiantamento de Pagamento (em casos especiais, uma factura pode ser feita via Factura de Vendas tambem).
 
-The total outstanding amount against an invoice is the sum of all the accounting entries that are made “against” (or are linked to) that invoice. This way you can combine or split payments in Payment Entry to manage the
-scenarios.
+O total pendente contra um factura é a soma de todos os registos de pagmaento que foram feitos "contra" (ou estão ligados a) esta factura. Desta forma voçẽ pode combinar ou dividir os pagamentos em Registo de Pagamentos para gerir os cenarios.
 
-### 4.4 Difference between Payment Entry and Journal Entry
+### 4.4 Diferença entre Registo de Pagamento e Lançamento Contabilistico
 
-1. Using Journal Entry requires an understanding of which Account will get Debited or Credited. In the Payment Entry, it is managed in the backend, hence simpler for the User.
-1. Payment Entry is more efficient in managing payments in foreign currencies.
-1. Cheques can be printed from Payment Entries using the Cheque Print Format.
-1. Journal Entry can still be used for:
- - Updating opening balance in Accounts.
- - Fixed Asset Depreciation entry.
- - For adjusting Credit Note against Sales Invoice and Debit Note against Purchase Invoice, in case there is no payment happening at all.
+1. Usando o Lançamento Contabilistico requer um entendimento em que Conta será Debitada ou Creditada. No Registo de Pagamento, é gerido por trás, daí ser simples para o Usuário.
+1. Registo de Pagamento é mais eficiente em gerir pagamentos em moeda estrangeira.
+1. Cheques podem ser imprimidos apartir do Registo de pagamento usnado o Formato de Impressão de Cheques.
+1. Lançamento Contabilistico pode ser usado para:
+ - Actualizar saldo de abertura em Contas.
+ - Registo de Depreciação de Activos Fixos.
+ - Para ajustar a Nota de Credito contra a Factura de Venda e Notas de Debito contra Factura de Compra, em casos que não tenha algum pagamento.
 
-### 4.5 Payments Using Journal Entry
+### 4.5 Pagamentos Usando Lançamento Contabilisto
 
-To make payment using Journal Entry follow these steps:
+Para fazer pagamentos usando o Lançamento Contabilistico siga os passos:
 
-1. Activate Payment via Journal Entry. Go to **Accounting > Accounting Masters > Accounts Settings**, check the box 'Make Payment via Journal Entry'.
+1. Activar Pagamento via Lançamento Contabilistico. Vá para **Contabilidade > Mestre Contabil > Configurações de Contabilidade**, assinale a caixa 'Fazer Pagamentos via Lançamento Contabilistico'.
 
-2. Make the payment. On submitting a document against which Journal Entry can be made, you will find the Payment under the **Create** button.
+2. Faça o pagamento. Ao submeter o documento contra o qual o Lançamento Contabilistico pode ser feito, voçê irá encontrar o Pagamento em baixo do botão **Criar**.
 
  <img class="screenshot" alt="Making Payment" src="{{docs_base_url}}/assets/img/accounts/payment-entry-1.png">
 
-3. Journal Entry. Save and submit the journal entry to record the payment against the invoice
+3. Lançamento Contabilistico. Salvar e submeter o Lançamento contabilistico para registar o pagamento contra a factura
  <img class="screenshot" alt="Making Payment" src="{{docs_base_url}}/assets/img/accounts/journal-entry.png">
 
 
-## 5. Related Topics
-1. [Payment Request](/docs/user/manual/en/accounts/payment-request)
-1. [Payment Terms](/docs/user/manual/en/accounts/payment-terms)
-1. [Sales Invoice](/docs/user/manual/en/accounts/sales-invoice)
-1. [Purchase Invoice](/docs/user/manual/en/accounts/purchase-invoice)
+## 5. Topicos Relacionados
+1. [Solicitação de Pagamento](/docs/user/manual/pt/contabilidade/solicitação-pagamento)
+1. [Termos de Pagamento](/docs/user/manual/pt/contabilidade/termos-pagamento)
+1. [Factura de Vendas](/docs/user/manual/pt/contabilidade/factura-vendas)
+1. [Factura de Compra](/docs/user/manual/pt/contabilidade/factura-compra)

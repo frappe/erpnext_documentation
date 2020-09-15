@@ -1,88 +1,88 @@
 <!-- add-breadcrumbs -->
-# Loyalty Program
+# Programa de Lealdade
 
-**A Loyalty Program allows Customers to earn points by spending a certain amount and lets them redeem the points in future purchases.**
+**Um Programa de Lealdade permite os Clientes ganharem pontos ao gastar um certo valor e deixa eles reclamar os pontos em futuras compras.**
 
-A Customer Loyalty Program is a structured and long-term marketing effort that provides incentives to repeat Customers. Successful programs are designed to motivate Customers in a business's target market to return often, make frequent purchases, and shun competitors.
+Um Programa de Lealdade é um esforço de marketing estruturado de longo termo que dá incentivos ao Cliente para voltarem. Programas com sucesso são desenhados para motivar os Clientes num mercado de negocio para gerar retornos, fazem compras constantes, e ganhar os competidores.
 
-To access the Loyalty Program list, go to:
-> Home > Retail > Retail Operations > Loyalty Program
+Para aceder a lista do Programa de Lealdade, vá para:
+> Home > Retalho > Operações de Retalho > Programa de Lealdade
 
-## 1. Prerequisites
-Before creating and using a Loyalty Program, it is advised to create the following first:
+## 1. Pre-requisitos
+Antes de criar ou usar o Programa de Lealdade, é aconselhavel criar os seguintes:
 
-1. [Customer](/docs/user/manual/en/CRM/customer)
-1. [Sales Invoice](/docs/user/manual/en/accounts/sales-invoice)
+1. [Cliente](/docs/user/manual/pt/CRM/cliente)
+1. [Factura de Vendas](/docs/user/manual/pt/contabilidade/factura-vendas)
 
-## 2. How to Create a Loyalty Program
-1. Go to the Loyalty Program list and click on New.
-1. Enter a Name for the Loyalty Program.
-1. Select whether the program is Single Tiered or Multi Tiered (gold, silver, etc).
-1. Set a start and end date for the program.
-1. Select the Customer Group and Territory for which this program is applicable, the default is all.
-1. For opting in all Customers by default, tick on 'Auto Opt In (For all customers)'. Otherwise, the program needs to be assigned from the [Customer master](/docs/user/manual/en/accounts/loyalty-program#22-loyalty-points-in-customer).
-1. In the table, enter:
- 2. **Tier name**: To be assigned to a Customer based on his eligibility.
- 2. **Collection Factor**: How much amount needs to be spent to gain 1 Loyalty Point in ERPNext.
- 2. **Minimum Amount**: Minimum amount to be spent to qualify into a tier.
-1. Set the Conversion Factor, eg: 10 USD = 1 point.
-1. Save. 
+## 2. Como Criar um Programa de Lealdade
+1. Vá para a lista de Programa de Lealdade e clique em Novo.
+1. Digite o Nome do Programa de Lealdade.
+1. Selecione se o programa é de Camada Unica ou Multiplas Camadas (ouro, prata, etc).
+1. Defina a data de inicio e fim do programa.
+1. Selcione o Grupo de Cliente e o Territorio par ao qual o programa será aplicado, por defeito será para todos.
+1. Para optar por todos os Clientes por defeito, selecione 'Auto Opt In (Para todos os clientes)'. Caso contrario, o programa precisa ser atribuido pelo [Ficha de Cliente](/docs/user/manual/pt/contabilidade/programa-lealdade#22-pontos-de-lealdade-no-cliente).
+1. Na tabela, digite:
+ 2. **Nome do Nivel**: Para ser atribuido ao Cliente baseado na sua elegibilidade.
+ 2. **Fator de Coleta**: Quanto é necessário gastar para ganhar 1 Ponto de Lealdade no ERPNext.
+ 2. **Valor Minimo**: Valor minimo a ser gasto para se qualificar ao Programa/Nivel.
+1. Defina o fator de Conversão, ex: 10 USD = 1 ponto.
+1. Salvar.
 
  <img class="screenshot" alt="Loyalty Program" src="{{docs_base_url}}/assets/img/accounts/loyalty-program.png">
 
-### 2.1 Redemption section
+### 2.1 Secção de Redenção
 
-* **Conversion Factor**: When redeeming loyalty points, this factor decides how much money is 1 Loyalty Point worth. For example, if a Customer has 100 Loyalty Points, and 1 Loyalty Point = 1 USD, then the Customer use Items up to 100 USD with their loyalty points for future purchases.
+* **Fator de Conversão**: Ao redimir os pontos de lealdade, este fator decide quanto dinheiro equivale 1 Ponto de Lealdade. Por exemplo, se o Cliente tem 100 Pontos de Lealdade, e 1 Ponto de Lealdade = 1 USD, então o Cliente soma mais Itens para 100 USD  com os Pontos de Lealdade para futuras compras.
 
-* **Expense Account**: Set an Expense Account from where you'll offer the benefits. This is useful to track the benefits offered separately. 
+* **Conta de Despesa**: Defina a Conta de Despesa apartir do qual serão ofertados os beneficios. Este é util para rastrear os beneficios oferecidos separadamente. 
 
-* **Expiry Duration (in days)**: The collected loyalty points will expire after the number of days set in this field.
+* **Duração de Expiração (em Dias)**: Os Pontos de Lealdade colecionados irão expirar depois do numero de dias definidos aqui neste campo.
 
-### 2.2 Loyalty Points in Customer
+### 2.2 Pontos de Lealdade no Cliente
 
-Set a Loyalty Program section in the Customer master to assign a Loyalty Program to a Customer.
+Defina uma Secção do Programa de Lealdade na ficha do Cliente para atribuir um Programa ao Cliente.
 
 <img class="screenshot" alt="Loyalty Program 1" src="{{docs_base_url}}/assets/img/accounts/loyalty-program-1.png">
 
-**Loyalty points** earned can be viewed in the Customer's dashboard.
+**Pontos de Lealdade** ganhos podem ser vistos no dashboard dos Clientes.
 
 <img class="screenshot" alt="Loyalty Program 2" src="{{docs_base_url}}/assets/img/accounts/loyalty-program-2.png">
 
-### 2.3 Loyalty Point Entry
-Go to: **Accounts > Retail Operations > Loyalty Point Entry**.
-This acts as a log to give an overview of which Customer earned how many points against which Sales Invoice. It holds the data Invoice and Customer.
+### 2.3 Entrada dos Pontos de Lealdade
+Vá para: **Contabilidade > Operações de Retalho > Entrada do Ponto de Lealdade**.
+Este age como um log para dar uma visão de qual Cliente ganhou pontos, quantos em que Factura de Vendas. Guarda os dados da Factura e Cliente.
 
 <img class="screenshot" alt="Loyalty Program 3" src="{{docs_base_url}}/assets/img/accounts/loyalty-program-3.png">
 
-## 3. How does a Loyalty Program work?
+## 3. Como funciona o Programa de Lealdade?
 
-### 3.1 Earning Points
+### 3.1 Ganhar Pontos
 
-* Firstly, a **Loyalty Program** needs to be created as explained in the first section.
-* Assign this **Loyalty Program** to a **Customer**.
-* Create a new Sales Invoice for the **Customer** to whom you have assigned **Loyalty Program**.
-* For this example, an invoice is created with a grand total of 3,000 INR and according to the **Loyalty Program** for a minimum spent of 2,000 INR, the Silver Tier collection factor will be eligible and for each 300 INR spent, the **Customer** will receive 1 point (hence the total points earned on this transaction is 15).
-* Upon submission of the invoice, a **Loyalty Point Entry** will be created for this invoice (as shown above under Loyalty Program Entry section).
-* In our **Loyalty Program** upon minimum spent of 6,000, Gold Tier would be eligible. So, when another invoice is submitted with the same value, the total sales from this Customer becomes 6,000. So now, the **Customer** will be automatically upgraded to the Gold tier.
+*  Primeiro, um **Programa de Lealdade** precisa ser criado como explicado na primeira secção.
+* Atribuir este **Programa de Lealdade** a um **Cliente**.
+* Criar uma nova Factura de Vendas para o **Cliente** no qual voçê atribuiu o **Programa de Lealdade**.
+* Por exemplo, uma factura foi criada como total geral de 3,000 INR e de acordo o **Programa de Lealdade** para o minimo gasto de 2,000 INR, o fator da coleção da Camada de Prata será calculada e para cada 300 INR gastos, o **Cliente** irá receber 1 ponto (daí o total de pontos ganhos nesta transação ser de 15).
+* Após submissão da factura, o **Registo de Pontos de Lealdade** serem criados para esta factura (como mostra em baixo na secção do Registo de Programa de Lealdade).
+* No nosso **Programa de Lealdade** após um minimo gasto de 6,000, seria elegivel para a Camada Prata. Então, quando outra factura for submetida com o mesmo valor, o total das vendas para este Cliente será de 6,000. Então agora, o **Cliente** será automaticamente actualizado para a Camada Ouro.
 
-> Note: The minimum spent in Loyalty Program does not mean a minimum value for a single invoice. Rather it means the sum of amount of invoices for the Customer under a particular Loyalty Program scheme.
+> Nota: O minimo gasto no Programa de Lealdade não significa um valor minimo para uma unica factura. Mas sim a soma do total das Factura do Cliente num esquema particular do Programa de Lealdade.
 
-### 3.2 Redeeming Points
+### 3.2 Redimir os Pontos
 
-* Let's continue from the above example where we created 1 invoice and earned 15 points from it. When creating another invoice for the same Customer, go to the Loyalty Points section and enable the checkbox to 'Redeem Loyalty Points'.
- ![Loyalty Program Invoice](/docs/assets/img/accounts/loyalty-program-inv.png)
-* The fields for 'Loyalty Point', 'Redemption Account' and 'Redemption Cost Center' will become visible under this section. The account and Cost Center will be fetched from the **Loyalty Program** assigned to the **Customer**.
-* Since the Customer has earned 15 points, we can use all of it until expiry. If we try to use more than what we have an error will be thrown.
-* For this example, we'll use all 15 points to be redeemed. Doing so will enable another field that will display the amount calculated using (loyalty point * Conversion Factor). So, '150' INR will be deducted from our the amount since our 'Conversion Factor' was '10'.
- ![Loyalty Invoice](/docs/assets/img/accounts/loyalty-program-inv2.png)
-* When submitted, 2 **Loyalty Point Entries** will be created. One for redeemed, which will be a negative value and one for the current invoice (as the amount is still eligible under a tier). The Customer was also upgraded to Gold since the minimum amount to be spent for Gold was 6,000.
- ![Loyalty Point](/docs/assets/img/accounts/loyalty-point-2.png)
+* Vamos continuar com o exemplo acima aonde nós criamos 1 factura e ganhou 15 pontos. Ao criar outra factura para o mesmo Cliente, vá para a secção de Lealdade de Pontos e active a caixa para 'Redimir Pontos da Lealdade'.
+ ![Factura Programa de Lealdade](/docs/assets/img/accounts/loyalty-program-inv.png)
+* Os campos para 'Pontos de Lealdade', 'Conta de Redenção' e 'Centro de Custo de Redenção' será visivel nesta secção. A conta e Centro de Custo será procurado apartir do **Programa de Lealdade** atribuido ao **Cliente**.
+*  Vendo que o Cliente ganhou 15 pontos, nós podemos usar tudo até expirar. Se nós tentarmos usar mais que tem um erro irá ser mostrado.
+* Para este exemplo, nós vamos usar todos os 15 pontos para ser redimido. Fazendo isto irá activar outro campo que irá mostrar o valor calculado usando (Pontos de Lealdade * Fator de Conversão). Portanto, '150' INR será deduzido apartir do valor vendo que o 'Fator de Conversão' foi '10'.
+ ![Factura de Lealdade](/docs/assets/img/accounts/loyalty-program-inv2.png)
+* Ao submeter, 2 **Registos de Pontos de Lealdade** será criado. Um para redimir, que será um valor negativo e o outro para a factura corrente (vendo que o valor ainda está elegivel por uma das Camadas). O Cliente foi tambem actualizar para Ouro vendo que o valor minino para gastar foi de 6,000.
+ ![Pontos de Lealdade](/docs/assets/img/accounts/loyalty-point-2.png)
 
-> Note: For an invoice on which points have been earned, if a return invoice is created, it will delete the original Loyalty Point Entry and create a new one after subtracting the returned amount from the original amount. Also, when canceling an invoice, its subsequent Loyalty Point Entry will be deleted.
+> Nota: Para uma factura no qual os pontos foram ganhos, se uma factura de devolução for criada, será apagado o Registo de Lealdade de Pontos original e criado uma nova depois de subtrair o valor devolvido do valor original. Tambem, ao cancelar uma factura, os Registos de Lealdade de Pontos subsequentes serão apagados.
 
-### 4. Related Topics
-1. [Cost Center](/docs/user/manual/en/accounts/cost-center)
-1. [Sales Invoice](/docs/user/manual/en/accounts/sales-invoice)
-1. [Customer](/docs/user/manual/en/CRM/customer)
-1. [Customer Group](/docs/user/manual/en/CRM/customer-group)
+### 4. Topicos Relacionados
+1. [Centro de Custo](/docs/user/manual/pt/contabilidade/centro-custo)
+1. [Factura de Vendas](/docs/user/manual/pt/contabilidade/factura-vendas)
+1. [Cliente](/docs/user/manual/pt/CRM/cliente)
+1. [Grupo de Cliente](/docs/user/manual/pt/CRM/grupo-cliente)
 

@@ -1,144 +1,143 @@
 <!-- add-breadcrumbs -->
-# Point of Sale
+# Ponto de Vendas
 
-**A Point of Sale refers to the time and place where a retail transaction takes place.**
+**Um Ponto de Vendas refer a hora e lugar aonde a transação a retalho é feita.**
 
-For retail operations, the delivery of goods, accrual of sale and payment all happens in one event, that is usually called the 'Point of Sale' (POS).
+Para operações a retalho, a entrega de bens, accrual de vendas e pagamentos todos acontecem num unico evento, que é normalmente chamado de 'Ponto de Vendas' (POS).
 
-In ERPNext Sales Invoices can be generated from the POS. There are two steps to set up POS:
+No ERPNext Factura de Vendas podem ser criadas apartir do POS. São dois passos para configurar o POS:
 
-To access POS, go to:
-> Home > Retail > Retail Operations > POS
+Para aceder o POS, vá para:
+> Home > Retalho > Operações de Retalho > POS
 
-## 1. Prerequisites
-Before creating and using Point of Sale, it is advisable to create the following first:
+## 1. Pre-requisitos
+Antes de criar ou usar o Ponto de Vendas, é aconselhavel criar os seguintes:
 
-1. [POS Profile](/docs/user/manual/en/accounts/pos-profile)
+1. [Perfil POS](/docs/user/manual/pt/contabilidade/perfil-pos)
 
-## 2. How to create a POS Invoice
-Once you set up a POS profile, you can start billing on POS.
+## 2. Como criar uma Factura POS
+Uma vez configurado o perfil POS, voçê pode começar a cobrar no POS.
 
-1. Go to POS and select a Customer.
-1. Add Items from the list displayed on the right by clicking on them.
-1. Ensure that the Item has a Selling Price set in the Item Price list.
-1. Edit the quantities as needed.
-1. In order to edit Rate and Discount, you need to enable them in the POS Profile.
-1. A default Warehouse needs to be set to complete the transaction. If Warehouse is set in both Item and POS profile, the one in POS Profile will be given preference.
-1. Do note that you need to have Items in your Warehouse before you can sell. If Items are not available, a red dot will be shown next to the Item when selected.
-  ![POS Screen](/docs/assets/img/accounts/pos-screen.png)
-1. When all Items are added, click on Pay. You'll be asked to submit the Sales Invoice.
-1. Select the payment mode, Submit
-1. You can then print the POS invoice.
-  ![POS Cycle](/docs/assets/img/accounts/pos-cycle.gif)
+1. Vá para o POS e selecione o Cliente.
+1. Adicione Itens apartir da lista mostrada a direita fazendo um clique neles.
+1. Tenha a certeza que o Item tem um Preço de Venda configurado na Lista de Preços.
+1. Modifique as quantidades de acordo a necessidade.
+1. Para modificar o Preço e Desconto, voçê deve activar no Perfil do POS.
+1. Um Armazem por defeito precisa ser configurado para fazer as transações. Se um Armazem foi configurado quer no Item e no Perfil do POS, o do Perfil POS será o preferido.
+1. Note que voçê precisa ter Itens nos seus Armazens antes de poder vender. Se os Itens não estão disponiveis, um ponto a vermelho será mostrado proximo ao Item quando selecionado.
+  ![Ecrão POS](/docs/assets/img/accounts/pos-screen.png)
+1. Quando todos os Itens foram adicionados, clique em Pagar. Será perguntado para submeter a Factura de Venda.
+1. Selecione o Modo de Pagamento, Submeter
+1. Voçê pode depois imprimir a factura POS.
+  ![Ciclo POS](/docs/assets/img/accounts/pos-cycle.gif)
   
-After the Sales Invoice is submitted, you can either print or email it directly to the customer.
+Depois da Factura de Vendas ser submetida, voçê pode imprimir ou enviar por email directamente para o cliente.
 
 
-### 2.2 Adding an Item
-At the billing counter, the retailer needs to select Items which the Customer buys. In the POS interface you can select an Item by two methods. One, is by clicking on the Item image and the other, is through the Barcode / Serial No.
+### 2.2 Adicionando um Item
+No balcão de cobrança, o revendedor precisa selecionar Itens no qual o Cliente comprou. No interface do POS voçê pode selecionar um Item de duas formas. Primeiro, fazendo um clique na imagem do Item e a outra, pelo leitor de Codigo de Barras / Nº de Serie.
 
-* **Select Item**: To select a product click on the Item image and add it into the cart. A cart is an area that prepares a customer for checkout by allowing to edit product information, adjust taxes and add discounts.
+* **Selecionar Item**: Para selecionar o produto faça um clique na imagem do Item para adicionar ao cartão de compras. O cartão é a area que prepara o cliente para sair aonde permite editar informações do produto, ajustar impostos e adicionar descontos.
 
-* **Barcode / Serial No**: A Barcode / Serial No is an optical machine-readable representation of data relating to the object to which it is attached. Enter Barcode / Serial No in the box as shown in the image below and pause for a second, the item will be automatically added to the cart.
+* **Codigo de Barras / Nº de Serie**: Um Codigo de Barras / Nº de Serie é a representação de uma maquina de leitura optica relacionada ao objecto no qual é anexado. Digite o Codigo de Barras / Nº de Serie na caixa como mostra a imagem em baixo e pause por um segunte, o item será automaticamente adicionado ao Cartão de Compras.
 
 <img class="screenshot" alt="POS Item" src="{{docs_base_url}}/assets/img/accounts/pos-item.png">
 
-> Tip: To change the quantity of an Item, enter your desired quantity in the
-quantity box. These are mostly used if the same Item is purchased in bulk.
+> Dica: Para mudar a quantidade de um Item, digite a quantidade desejada na caixa de quantidade.
+São muita das vezes usados se o mesmo Item é comprado em massa.
 
-If your product list is very long use the Search field, type the product name
-in Search box.
+Se a lista do seu produto é muito longa use o campo de Procura, digite o nome do produto na caixa de Procura.
 
-### 2.3  Removing an Item from the Cart
-1. Select row in the cart and click on Delete button in the numeric keypad
+### 2.3  Apagando um Item do Cartão de Compras
+1. Selecione a linha no cartão e clique no botão Apagar que está na caixa numerica
 
     <img class="screenshot" alt="POS Item" src="{{docs_base_url}}/assets/img/accounts/pos_deleted_item.gif">
 
 
-2. Set Qty as zero to remove Item from the POS invoice. There are two ways to remove an Item.
-  * If Item's Qty is 1, click on a minus sign to make it zero.
-  * Manually enter 0 (zero) quantity.
+2. Defina a Qtd como zero para remover o Item da factura POS. Tem duas formas de apagar um Item.
+  * Se a Qtd for 1, clique no sinal menos para tornar zero.
+  * Manualmente digite na quantidade 0 (zero).
 
 
-### 2.4 Change Amount
+### 2.4 Trocos
 
-POS calculates the extra amount paid by the customer, which user can return from the cash account. User has to set the account for the change amount on the POS profile.
+O POS calcula o valor pago extra pelo cliente, no qual o usuário pode devolver pela conta em dinheiro. O Usuário tem que definir a conta para os trocos no Perfil POS.
 
 <img class="screenshot" alt="POS Payment" src="{{docs_base_url}}/assets/img/accounts/change-amount.png">
 
 ### 2.5 Write off Amount
-If you are writing off certain amount. For example when you receive extra cash as a result of not having exact denomination of change, check on ‘Write off Outstanding Amount’ and set the Account.
+Se voçê estiver a writing off algum valor. Por exemplo quando voçê recebe um valor a mais como o resultado de não ter o valor necessário para o troco, clique em ‘Write off Outstanding Amount’ e defina a conta.
 
-Outstanding amount can be write off from the POS, user has to enter the amount under Write Off field on the payment screen.
+Valores em falta pode ser write off no POS, o usuário tem que digitar o valor em baixo do campo Write Off no ecrão de pagamento.
 
-For example, here bill amount is 2,310, but the Customer paid 2,300, then the amount written off will be 10.
+Por exemplo, valor a pagar é 2,310, mas o Cliente pagou 2,300, então valor written off será de 10.
 <img class="screenshot" alt="POS Payment" src="{{docs_base_url}}/assets/img/accounts/write-off.png">
 
-System books the Write Off amount into the General Ledger account which has selected on the POS Profile.
+O Sistema aloca o valor do Write Off na conta do Razão Geral que foi selecionada no Perfil do POS.
 
-### 2.6 Change POS profile
+### 2.6 Alterar o Perfil POS
 
-Change the POS Profile via:
-> Menu > Change POS Profile
+Altere o Perfil POS via:
+> Menu > Alterar Perfil POS
 
-Select the Company and then choose the POS Profile from the list. You can also set the newly selected POS profile as the default for the Company.
+Seleciona a Empresa e escolha o Perfil POS apartir da lista. Voçê pode definir o novo Perfil POS selecionado como o seu por defeito para a Empresa.
 
 <img class="screenshot" alt="Change POS Profile" src="{{docs_base_url}}/assets/img/accounts/Change-POS-Profile.png">
 
-## 3. Features
+## 3. Funcionalidades
 
-### 3.1 Adding a new Customer
-In POS, user can select the existing Customer during making an order or create a new customer. This feature works in the offline mode also. User can also add the customer details like contact number, address details, etc on the form. The Customer which has been created from the POS will be synced when the internet connection is active.
+### 3.1 Adicionando um Cliente
+No POS, o usuário pode selecionar um Cliente existente durante um Ordem ou criar um novo cliente. Esta funcionalidade funciona em modo Offline tambem. O Usuário pode tambem adicionar os detatlhes do cliente como numero de telefone, endereço, etc no formulario. O Cliente que foi criado no POS será sincronizado quando a ligação de Internet restabelecer.
 
 <img class="screenshot" alt="POS Customer" src="{{docs_base_url}}/assets/img/accounts/pos-customer.gif">
 
 ### 3.2 Offline POS
 
-In ERPNext, you can create POS Invoices, even when not connected to the internet. POS Invoices created in the offline mode will be saved locally in the browser (cached). If internet connection is lost which creating POS Invoice, you will still be able can proceed forward. Once internet connection is available again, offline invoices will be synced, and pushed onto your ERPNext account.
+No ERPNext, voçê pode criar Facturas POS, mesmo quando não tem Internet. Factura POS criadas no modo offline serão salvas localmente no seu navegador (cached). Se a ligação de Internet estiver desligada ao criar uma Factura POS, voçê poderá continuar as vendas. Uma vez a ligação restabelecida as facturas serão sincronizadas para o seu ERPNext.
 
-To learn more on how POS Invoices can be created when offline, [check here.](https://frappe.io/blog/blog/erpnext-features/offline-pos-in-erpnext-7)
+Para saber mais sobre como Facturas POS podem ser criadas offline, [verifique aqui.](https://frappe.io/blog/blog/erpnext-features/offline-pos-in-erpnext-7)
 
 ### 3.3 Offline Records
-All the records from the POS stores into the browser's and syncs submitted records after every minute of the interval if system is connected to internet. User can view the offline records by clicking on Menu > View Offline Records.
+Todos os registos do POS são guardados no nevegado, sicronizados e submetidos depois de um minuto de intervalo se o sistema estiver ligado a Internet. O usuário pode ver os registos offline fazendo um clique em Menu > Ver Registos Offline.
 
 <img class="screenshot" alt="POS Payment" src="{{docs_base_url}}/assets/img/accounts/offline-records.png">
 
-### 3.4 Accounting entries (GL Entry) for a Point of Sale:
+### 3.4 Lançamento Contabilistico (Registo GL) para o Ponto de Vendas:
 
-Debits:
+Debitos:
 
-  * Customer (grand total)
-  * Bank/Cash (payment)
+  * Cliente (total geral)
+  * Banco/Dinheiro (pagamento)
 
-Credits:
+Creditos:
 
-  * Income (net total, minus taxes for each Item)
-  * Taxes (liabilities to be paid to the government)
-  * Customer (payment)
-  * Write Off (optional)
-  * Account for Change Amount (optional)
+  * Recebimento (total geral, menos impostos para cada Item)
+  * Impostos (responsabilidades para serem pagas ao governo)
+  * Cliente (pagamento)
+  * Write Off (opcional)
+  * Conta para Trocos (opcional)
 
-To see entries after submitting the [Sales Invoice](/docs/user/manual/en/accounts/sales-invoice), click on **View Ledger**.
+Para ver os registos depois de submeter a [Factura de Vendas](/docs/user/manual/pt/contabilidade/factura-vendas), clique em **Livro Contabilistico**.
 
 ### 3.5 Email
 
-Users can send email from the POS, after submitting an order, user has to click on Menu > Email:
+Os Usuário podem enviar email apartir do POS, depois de submeter um pedido, basta fazer o clique em Menu > Email:
 <img class="screenshot" alt="POS Payment" src="{{docs_base_url}}/assets/img/accounts/pos-email.png">
-After sync of a POS order, email is sent to the Customer with the print of the bill in the attachment.
+Depois de sincronizar um pedido POS, email é enviado para o Cliente com a impressão da factura em anexo.
 
-### 3.6 POS Closing Voucher
+### 3.6 Fechamento do Caixa / POS Closing Voucher
 
-At the end of the day, the cashier can close his/her PoS by creating a POS Closing Voucher.
-Click on the Menu and select 'Close the POS'. Select the period, your POS Profile and your user to retrieve all sales registered.
+No fim do dia, o caixa pode fechar o seu POS selecionando Fechamento do caixa.
+Clique no Menu e selecione 'Fechamento do Caixa'. Selecione o periodo, seu Perfil POS e seu usuario para ir buscar todas as vendas feitas.
 
-For closing shift wise or cashier wise, use the [POS Cashier Closing](/docs/user/manual/en/accounts/pos-cashier-closing).
+Para troca de turno ou fecho de caixa, use [Fechamento do caixa](/docs/user/manual/pt/contabilidade/fecho-caixa-pos).
 
 <img class="screenshot" alt="POS Payment" src="{{docs_base_url}}/assets/img/accounts/pos-closing-voucher.png">
 
-Enter the collected amount for each mode of payment. If you notice any difference between the system amount and the actual physical cash collected, create a Difference Posting.
+Digite o valor recebido para cada modo de pagamento. Se voçê notar diferença entre o valor do sistema e o valor fisico do dinheiro recolhido, crie um registo de Diferença.
 
-### 4. Related Topics
-1. [Sales Invoice](/docs/user/manual/en/accounts/sales-invoice)
-1. [Purchase Order](/docs/user/manual/en/buying/purchase-order)
-1. [Payment Entry](/docs/user/manual/en/accounts/payment-entry)
-1. [Payment Request](/docs/user/manual/en/accounts/payment-request)
+### 4. Topicos Relacionados
+1. [Factura de Vendas](/docs/user/manual/pt/contabilidade/factura-vendas)
+1. [Ordem de Compra](/docs/user/manual/pt/compras/ordem-compra)
+1. [Registo de Pagamento](/docs/user/manual/pt/contabilidade/registo-pagamento)
+1. [Solicitação de Pagamento](/docs/user/manual/pt/contabilidade/solicitação-pagamento)

@@ -1,91 +1,91 @@
 <!-- add-breadcrumbs -->
-# Bank Reconciliation
+# Reconciliação Bancária
 
-**A Bank Reconciliation entry is used to match ERPNext account statements with your bank account statements.**
+**Um registo de Reconciliação Bancária é usado para igualar os extractos de conta do ERPNext com os extractos de conta do seu banco.**
 
-If you are receiving payments or making payments via cheques, the bank statements will not accurately match the dates of your entry, this is because the bank usually takes time to “clear” these payments.
+Se voçê estiver a receber pagamentos ou fazer pagamentos via cheque, os extractos do banco não vão accurately match as datas do registo, isto porque o banco normalmente leva tempo para "liquidar" estes pagamentos.
 
-Also, you may have mailed a cheque to your Supplier and it may be a few days before it is received and deposited by the Supplier. In ERPNext you can synchronize your bank statements and your Journal Entries using the transaction dates.
+Tambem, voçê pode ter enviado um cheque ao seu Fornecedor e que poderá levar alguns dias ante que ele receba e depositado pelo Fornecdor. No ERPNext voçê pode sincronizar os extractos do banco e os seus Lançamentos Contabilisticos usando as datas de transação.
 
-## 1. What is a Bank Reconciliation Statement?
-The Bank Reconciliation Report provides the difference between the bank balance shown in an organization's bank statement, as provided by the bank against the amount shown in the companies Chart of Accounts.
+## 1. O que é um Extracto de Reconciliação Bancária?
+O Relatorio da Reconciliação Bancária mostra a diferença entre o balanço do bano mostrado nos extractos do banco da empresa, enviados pelo banco contra o valor mostrado no Plano de Contas da Empresa.
 
-This is what a Bank Reconciliation statement looks like:
+É desta forma que um extracto de Reconciliação Bancária se parece:
 
 <img class="screenshot" alt="Bank Reconciliation statement" src="{{docs_base_url}}/assets/img/accounts/bank-reconciliation-2.png"> 
 
-In the report, check whether the field 'Balance as per bank' matches the Bank Account Statement. If it is matching, it means that the Clearance Date is correctly updated for all the bank entries. If there is a mismatch, it's because of bank entries for which Clearance Date is not yet updated.
+No relatorio, verifique se o campo 'Balanço por Banco' é igual ao Extracto da Conta Bancária. Se o mesmo for igual, significa que a Data de Liquidação está correctamente actualizada para todos os seus registos de banco. Se não estiver certo, então os registos de banco para o qual a Data de Liquidação ainda não foi actualizada.
 
-To access Bank Reconciliation, go to:
-> Home > Accounting > Banking and Payments > Update Bank Transaction Date
+Para aceder a Reconciliação Bancária, vá para:
+> Home > Contabilidade > Bancos e Pagamentos > Actualizar as Data de Transações Bancárias
 
-## 2. How to Update Bank Transaction Dates
+## 2. Como Actualizar as Datas de Transações Bancárias
 
-1. Go to Update Bank Transaction Dates.
-1. Select your Bank Account.
-1. Select a from and to date.
-1. You can choose to include reconciled entries and POS transactions.
-1. Click on the **Get Payment Entries** button.
-1. Now you will get all the “Bank Voucher” type entries.
-1. In each of the entries, on the rightmost column, update the “Clearance Date” field and click on the **Update Clearance Date** button.
+1. Vá para Actualizar as Datas de Transações Bancárias.
+1. Selecione a sua Conta Bancária.
+1. Selecione a Data apartir e fim.
+1. Voçê pode esclher para incluir registo reconciliados e transações de POS.
+1. Clique no botão **Obter Registos de Pagamento**.
+1. Agora voçê irá ter todos os tipos registo do “Voucher do Banco”.
+1. Em cada um dos registos, no lado mais a direita da coluna, actualize o campo "Data de Liquidação" e faça o clique no botão **Actualizar Data de Liquidação**.
 
-By doing this you will be able to sync your bank statements and entries into the system.
+Fazendo isto voçê poderá sincronizar os extractos do seu banco com os registo no sistema.
 
 <img class="screenshot" alt="Bank Reconciliation" src="{{docs_base_url}}/assets/img/accounts/bank-reconciliation.png">
  
-## 3. Types of reconciliation tools
+## 3. Ferramenta de Tipos de Reconciliação
 
-ERPNext has two reconciliation tools:
+No ERPNext tem duas ferramentas de reconciliação:
 
-1. A manual reconciliation tool allowing to set clearance dates against payment entries, sales invoice payments or journal entries
-2. A semi-automatic reconciliation tool allowing to clear bank transactions against payment entries, sales, and purchase invoices payments, journal entries or expense claims.
+1. Uma ferramenta de reconciliação manual que permite definir a data de liquidação contra os registo de pagamento, pagamento de facturas de venda ou lançamentos contabilisticos
+2. Uma ferramenta de reconciliação semi-automatica que permite limpar as transações bancárias contra os registo de pagamento, vendas, pagamento de facturas de compra, lançamentos contabilisticos ou reembolso de despesas.
 
-### 3.1 Manual Bank Reconciliation Tool
+### 3.1 Ferramenta de Reconciliação Bancária Manual
 
-To view this report, go to **Accounts > Banking and Payments > Bank Reconciliation Statement**. In the report, check whether the field 'Balance as per bank' matches the Bank Account Statement. If it is matching, it means that the Clearance Date is correctly updated for all the bank entries. If there is a mismatch, it's because the Clearance Date is not yet updated for the bank entries.
+Para ver este relatorio, vá para **Contabilidade > Banoc e Pagamentos > Extracto de Reconciliação Bancária**. No relatorio, verifique se o campo 'Balanço por Banco' é igual ao Extracto da Conta Bancária. Se for igual, significa que a Data de Liquidação está correcta e correctamente actualizar para todos os registos de banco. Caso não, é porque a Data de Liquidaçáo ainda não foi actualizada nos registos de bancos.
 
 
-### 3.2 Semi-automatic Bank Reconciliation Tool
+### 3.2 Ferramenta de Reconciliação Bancária Semi-automatica
 
-#### Bank statement upload
+#### Carregar o Extracto do Banco
 
-You can upload a Bank Statement in CSV or XLS format into ERPNext using the Bank Reconciliation tool.
+Voçê pode carrgar o Extracto do Banco em formato CSV ou XLS para o ERPNext usando a Ferramenta de Reconciliação Bancária.
 
-1. Download a bank statement from your bank's website
+1. Descarregue o Extracto Bancária da pagina do seu banco
 
  <img class="screenshot" alt="Reconcile bank transactions" src="{{docs_base_url}}/assets/img/accounts/sample_bank_statement.png">
- Make sure you have at least the date, the debit/credit and the currency on every row of your bank statement.
+ Tenha certeza de que voçê tem pelo menos a data, o debito/credito e a moeda em cada linho do extracto do seu banco.
 
-1. Configure the import format in the Bank DocType
+1. Configura o formato de importação na tabela do Banco
 
  <img class="screenshot" alt="Reconcile bank transactions" src="{{docs_base_url}}/assets/img/accounts/bank_configuration.png">
 
- Your file will be read and then ERPNext will use this mapping to dispatch all information into the corresponding fields in the Bank Transaction DocType.
+ O seu ficheiro será lido e o ERPNext irá usar este mapeamento para enviar toda a informação para os campos correspondentes na tabela de Transação Bancária.
 
-1. Upload your file into ERPNext
+1. Carregue o seu ficheiro no ERPNext
 
  <img class="screenshot" alt="Reconcile bank transactions" src="{{docs_base_url}}/assets/img/accounts/bank_transaction_upload.gif">
 
 
-#### Bank account synchronization
+#### Sincronização da Conta Bancária
 
-You can use Plaid (see [Plaid Integrations page](/docs/user/manual/en/erpnext_integration/plaid_integration)) to automatically synchronize your bank account with ERPNext. All your bank transactions will be automatically imported into ERPNext.
+Voçê pode usar o Plaid (veja [Plaid Integrations page](/docs/user/manual/pt/integração_erpnext/plaid_integration)) para sincronicar automaticamente a sua conta bancária no ERPNext. Todas as suas transações bancarias serão automaticamente importadas para o ERPNext.
 
-Once all your bank transactions are imported into ERPNext, you can reconcile them with your existing payments. If it finds a payment that appears to match with the selected bank transaction, ERPNext will propose you a corresponding payment.
+Uma vez todas as transações importadas no ERPNext, voçê pode reconciliar com os pagamentos existentes. Se encontrar um pagamento que parece ser igual a transação do banco, o ERPNext irá propor um pagamento correspondente.
 
-If that payment matches, just click on reconcile to reconcile it with this bank transaction.
+Se o pagamento for igual, apenas clique em reconciliar para reconciliar com as suas transações bancárias.
 
 <img class="screenshot" alt="Reconcile bank transactions" src="{{docs_base_url}}/assets/img/accounts/auto_reconciliation.gif">
 
-If ERPNext doesn't propose you any payment, you can always select the corresponding payment manually:
+Se O ERPNext não propor qualquer pagamento, voçê sempre pode selecionar os pagamentos correspondentes manualmente:
 
 <img class="screenshot" alt="Reconcile bank transactions manually" src="{{docs_base_url}}/assets/img/accounts/manual_reconciliation.gif">
 
-You can also create a new payment or invoice directly from the bank reconciliation dashboard.
+Voçê pode tambem criar um novo pagamento ou factura directamente apartir do dashboard de Reconciliação Bancária.
 
 <img class="screenshot" alt="New payment entry" src="{{docs_base_url}}/assets/img/accounts/new_payment.gif">
 
-### 4. Related Topics
-1. [Payment Reconciliation](/docs/user/manual/en/accounts/payment-reconciliation)
-1. [Bank Guarantee](/docs/user/manual/en/accounts/bank-guarantee)
-1. [Payment Entry](/docs/user/manual/en/accounts/payment-entry)
+### 4. Topicos Relacionados
+1. [Reconciliação Bancária](/docs/user/manual/pt/contabilidade/reconciliação-banco)
+1. [Garantia Bancária](/docs/user/manual/pt/contabilidade/garantia-bancária)
+1. [Registo de Pagamento](/docs/user/manual/pt/contabilidade/registo-pagamento)

@@ -1,33 +1,33 @@
 <!-- add-breadcrumbs -->
-# Payment Reconciliation
+# Reconciliação de Pagamento
 
-**Payment Reconciliation is used to link payments with invoices.**
+**Reconciliação de Pagamento é usado para ligar pagamentos a facturas.**
 
-In complex scenarios, especially in the capital goods industry, sometimes there is no direct link between payments and invoices. You send invoices to your Customers and your Customer sends you block payments or payments based on some schedule that is not linked to your invoices.
+Em cenarios complexos, especialmente nos bens de capital de industria, não existe ligação directa entre pagamento e facturas. Voçê envia facturas para os seus Clientes e os seus Clientes enviam-lhe pagamentos em fazes ou baseados em algum cronograma que não está ligado as suas facturas.
 
-In such cases, you can match Payments with Invoices using Payment Reconciliation.
+Nestes casos, voçê pode igualar os Pagamentos com as Facturas usando a Reconciliação de Pagamento.
 
-To access Payment Reconciliation, go to:
-> Home > Accounting > Banking and Payments > Match Payments with Invoices
+Para aceder o Reconciliação de Pagamento, vá para:
+> Home > Contabilidade > Bancos e Pagamentos > Combinar Pagamentos com Facturas
 
-## 1. How to Match Payments with Invoices
-1. Go to Payment Reconciliation.
-1. Select a Company.
-1. Select a Party Type and select the Party. The Receivable/Payable account will be selected automatically.
-1. Select the Bank/Cash account against which the payments need to be reconciled.
-1. If you want to filter the records, select a date range for the invoices.
-1. Click on the **Get Unreconciled Entries** button.
-1. This will fetch all un-linked Payment Entry and Sales Invoices from that Customer in a table.
-1. Delete any unwanted entries.
-1. Select the Invoice Number.
-1. Amount is the amount paid by the party, Allocated Amount is the amount you want to allocate for the reconciliation.
-1. Click on **Reconcile**. You will see a message saying 'Successfully Reconciled'.
+## 1. Como Igualar Pagamentos com Facturas
+1. Vá para Reconciliação de Pagamento.
+1. Selecione uma Empresa.
+1. Selecione o Tipo de Parte e selecione a Parte. A conta de Recebimento/Pagamento irá ser selecionada automaticamente.
+1. Selecione a conta de Banco/Caixa contra o qual os pagamentos precisam ser reconciliados.
+1. Se voçê quiser filtras os registos, selecione o periodo de datas para as facturas.
+1. Clique no botão **Obter Registos Não Reconciliados**.
+1. Este irá procurar todos os Registos de Pagamentos Não ligados e Facturas de Venda deste Cliente na tabela.
+1. Apaguqe os registos que não precisa.
+1. Selecione o Numero da Factura.
+1. Valor é o montante pago pela parte, Valor Alocado é o valor que voÇe quer alocar para a reconciliação.
+1. Clique em **Reconciliar**. Voçê irá ver uma mensagem dizendo 'Reconciliação com Sucesso'.
 
-You will get a message that says 'Amount allocated successfully'
+Voçê irá ver uma mensagem dizendo 'Montante Alocado com Sucesso'
 
 <img class="screenshot" alt="Payment Reconciliation" src="{{docs_base_url}}/assets/img/accounts/payment-reconcile-tool.png">
 
-### 2. Related Topics
-1. [Payment Request](/docs/user/manual/en/accounts/payment-request)
-1. [Sales Invoice](/docs/user/manual/en/accounts/sales-invoice)
-1. [Purchase Invoice](/docs/user/manual/en/accounts/purchase-invoice)
+### 2. Topicos Relacionados
+1. [Solicitação de Pagamento](/docs/user/manual/pt/contabilidade/solicitação-pagamento)
+1. [Factura de Vendas](/docs/user/manual/pt/contabilidade/factura-vendas)
+1. [Facturas de Compra](/docs/user/manual/pt/contabilidade/factura-compra)
