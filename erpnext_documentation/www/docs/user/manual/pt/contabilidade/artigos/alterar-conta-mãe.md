@@ -1,35 +1,35 @@
 <!-- add-breadcrumbs -->
-#Changing Parent Account
+#Alterar Conta Mãe
 
-Chart of Account has hierarchical structure. Each account has a parent it is listed under. 
+Plano de Contas tem uma estrutura hierarquica. Cada conta tem o seu parente listado em baxo
 
-There are some accounts which are auto-created. For example, Account for Warehouse is auto-created when new Wareouse is added in the system. These accounts are added under pre-defined account ledger. Warehouse Account is always added under Stock Assets, under Current Assets.
+Existem algumas contas que foram auto-criadas. Por exemplo, Conta de Armazem é auto-criada quando um novo Armazem é adicionado ao sistema. Estas contas são adicionadas sobre uma conta razão pre-definida. Conta de Armazem é sempre adicionada sobre Activos de Inventario, em baixo dos Activos Correntes.
 
-If you wish to place specific Account into another parent Account, you can achieve the same as below.
+Se voçẽ quer pôr um Conta especifica numa outra Conta Mãe, voçê pode conseguir como em baixo.
 
-####1. Go to Chart of Account
+####1. Vá para o Plano de Contas
 
-`Accounts > Setup > Chart of Account`
+`Contabilidade > Configuração > Plano de Contas`
 
-Click on Account for which Parent Account is to be changed.
+Clique na Conta que cuja Conta Parente será alterada.
 
-####2. Edit Account
+####2. Edite a Conta
 
 <img alt="Project Default Cost Center" class="screenshot" src="{{docs_base_url}}/assets/img/articles/change-parent-1.png"> 
 
-####3. Change Parent Account
+####3. Altere a Conta Parente
 
-Search and select preferred Parent Account and save.
+Procure e selecione a Conta Parente preferencial e Salve.
 
 <img alt="Project Default Cost Center" class="screenshot" src="{{docs_base_url}}/assets/img/articles/change-parent-2.png">
 
-Refresh system from Help menu to experience the change.
+Recarregue o sistema apartir do menu Ajuda para ver a modificação.
 
 <img alt="Project Default Cost Center" class="screenshot" src="{{docs_base_url}}/assets/img/articles/change-parent-3.png">
 
 <div class="well"> Note: Parent cannot be customized for the Root Accounts, like Asset, Liability, Income, Expense, Equity.</div>
 
-#### Quick Help
+#### Ajuda Rapida
 
 <img alt="Project Default Cost Center" class="screenshot" src="{{docs_base_url}}/assets/img/articles/change-parent-account-1.gif">
 

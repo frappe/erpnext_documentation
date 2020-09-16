@@ -18,15 +18,15 @@ Voçê pode ver [Este video](https://www.youtube.com/watch?v=5wjollWN0OA) para u
 1. [Configurações de Contabilidade](/docs/user/manual/pt/contabilidade/configurações-contabilidade)
 1. [Empresa](/docs/user/manual/pt/configuração/configuração-empresa)
 1. [Plano de Contas](/docs/user/manual/pt/contabilidade/plano-de-contas)
-1. [Abertura de Balanco em Contabilidade](/docs/user/manual/pt/contabilidade/balanço-abertura)
+1. [Abertura de Balanco em Contabilidade](/docs/user/manual/pt/contabilidade/saldo-abertura)
 1. [Centros de Custo](/docs/user/manual/pt/contabilidade/centro-custo)
 1. [Centros de Custo Distribuidos](/docs/user/manual/pt/contabilidade/centro-custo-distribuido)
 1. [Ano Fiscal](/docs/user/manual/pt/contabilidade/ano-fiscal)
-1. [Periodo Contabil](/docs/user/manual/pt/contabilidade/perido-contabil)
+1. [Periodo Contabil](/docs/user/manual/pt/contabilidade/periodo-contabil)
 1. [Livro Financeiro](/docs/user/manual/pt/contabilidade/livro-financeiro)
 1. [Dimensao Contabil](/docs/user/manual/pt/contabilidade/dimensao-contabil)
 1. [Banco](/docs/user/manual/pt/contabilidade/banco)
-1. [Conta Banco](/docs/user/manual/pt/contabilidade/conta-banco)
+1. [Conta Banco](/docs/user/manual/pt/contabilidade/conta-bancária)
 <!-- (in development) 1. [Bank Transaction](/docs/user/manual/pt/contabilidade/bank-transaction) -->
 
 ### 1.2 Journais e Pagamentos
@@ -39,11 +39,11 @@ Voçê pode ver [Este video](https://www.youtube.com/watch?v=5wjollWN0OA) para u
 1. [Termos de Pagamento](/docs/user/manual/pt/contabilidade/termos-pagamento)
 1. [Modelo de Termo de Pagamento](/docs/user/manual/pt/contabilidade/modelo-termos-pagamento)
 1. [Registo de Adiantamento de Pagamento](/docs/user/manual/pt/contabilidade/adiantamento-pagamento)
-1. [Registo de Lançamento Inter Empresa](/docs/user/manual/pt/contabilidade/registo-lançamento-inter-empresa)
+1. [Lançamento Contabilistico Inter Empresa](/docs/user/manual/pt/contabilidade/lançamento-contabilistico-inter-empresa)
 
 ### 1.3 Cobranças
 1. [Factura de Vendas](/docs/user/manual/pt/contabilidade/factura-vendas)
-1. [Factura de Compras](/docs/user/manual/pt/contabilidade/factura-compras)
+1. [Factura de Compras](/docs/user/manual/pt/contabilidade/factura-compra)
 1. [Facturas Inter Empresa](/docs/user/manual/pt/contabilidade/facturas-inter-empresa)
 1. [Nota de Credito](/docs/user/manual/pt/contabilidade/nota-credito)
 1. [Nota de Debito](/docs/user/manual/pt/contabilidade/nota-debito)
@@ -52,7 +52,7 @@ Voçê pode ver [Este video](https://www.youtube.com/watch?v=5wjollWN0OA) para u
 ### 1.4 Impostos
 1. [Modelo de Imposto de Item](/docs/user/manual/pt/contabilidade/modelo-imposto-item)
 1. [Categoria de Isenção de Imposto](/docs/user/manual/pt/contabilidade/categoria-retenção-imposto)
-1. [Regas de Imposto](/docs/user/manual/pt/contabilidade/regra-imposto)
+1. [Regras de Imposto](/docs/user/manual/pt/contabilidade/regra-imposto)
 1. [Categoria de Imposto](/docs/user/manual/pt/contabilidade/categoria-imposto)
 
 ### 1.5 Preços
@@ -82,11 +82,11 @@ Voçê pode ver [Este video](https://www.youtube.com/watch?v=5wjollWN0OA) para u
 1. [Receita Diferida](/docs/user/manual/pt/contabilidade/receita-diferida)
 1. [Despesa Diferida](/docs/user/manual/pt/contabilidade/despesa-diferida)
 1. [Processo de Contabilidade Diferido](/docs/user/manual/pt/contabilidade/processo-contabilidade-diferido)
-1. [Garantia de Banco](/docs/user/manual/pt/contabilidade/garantia-banco)
+1. [Garantia de Banco](/docs/user/manual/pt/contabilidade/garantia-bancária)
 1. [Programa de Fidelidade](/docs/user/manual/pt/contabilidade/programa-lealdade)
 1. [Orçamento](/docs/user/manual/pt/contabilidade/orcamento)
 1. [Auto Repetição](/docs/user/manual/pt/automação/repetição-automatica)
-1. [Descontando Facturas](/docs/user/manual/pt/contabilidade/descontando-facturas)
+1. [Desconto de Facturas](/docs/user/manual/pt/contabilidade/desconto-de-facturas)
 
 ### 1.10 Subscrição
 1. [Subscrição](/docs/user/manual/pt/contabilidade/subscrição)
@@ -106,7 +106,7 @@ Voçê pode ver [Este video](https://www.youtube.com/watch?v=5wjollWN0OA) para u
 
 ## 2. Artigos
 ### 2.1 Gravar Registos
-1. [Congelar Registos de Contabilidade](/docs/user/manual/pt/contabilidade/artigos/congelar-registo-contabilidade)
+1. [Congelar Registos de Contabilidade](/docs/user/manual/pt/contabilidade/artigos/congelar-lançamento-contabilistico)
 1. [Registo de Cheque Passados Post Dated](/docs/user/manual/pt/contabilidade/artigos/registo-cheque-passados)
 1. [Registo de Ajuste de Valor Pago Retido ](/docs/user/manual/pt/contabilidade/artigos/registo-ajuste-valor-pago-retido)
 1. [Registo de Pagamento em Massa](/docs/user/manual/pt/contabilidade/artigos/registo-pagamento-massa)

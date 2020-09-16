@@ -1,42 +1,42 @@
-# Process Deferred Accounting
+# Processo Contabilidade Diferido
 
-**Process Deferred Accounting is a log which is created on every processing of deferred revenue or expense.**
+**Processo Contabilidade Diferido é um log no qual é criado para todos os processamentos de receita diferida ou despesa diferida.**
 
-Process Deferred Accounting records are automatically created on booking Deferred Revenue or Expense. It is done via a background job but the user can also create a record for manual Deferred Revenue or Expense booking.
+O Processo Contabilidade Diferido guarda é automaticamente criado no livro de Receitas ou Despesas Diferidas. É feito como um trabalho em segundo plano mas o usuario pode criar o registo manual.
 
-To access the Process Deferred Accounting list, go to:
-> Home > Accounting > General Ledger > Process Deferred Accounting
+Para aceder a lista do Processo Contabilidade Diferido, vá para:
+> Home > Contabilidade > Razão Geral > Processo Contabilidade Diferido
 
-## 1. Prerequisites
-Before creating and using a Process Deferred Accounting, it is advised to create and understand the following first:
+## 1. Pre-requisitos
+Antes de criar e usar o Processo Contabilidade Diferido, é aconselhavel criar e entender o seguinte:
 
-* [Deferred Revenue](/docs/user/manual/en/accounts/deferred-revenue)
-* [Deferred Income](/docs/user/manual/en/accounts/deferred-expense)
+* [Receitas Diferidas](/docs/user/manual/pt/contabilidade/receita-diferida)
+* [Despesas Diferidas](/docs/user/manual/pt/contabilidade/despesa-diferida)
 
 
-## 2. How to create a Process Deferred Accounting
-1. Go to Process Deferred Accounting list, click on New.
-1. Enter the Company.
-1. Select the type of deferred accounting process. Select 'Income' for booking deferred revenue or select 'Expense' for booking deferred expense
-1. Expand the posting date.
-1. Enter service Start Date and End Date.
-1. Save and Submit.
+## 2. Como criar um Processo Contabilidade Diferido
+1. Vá para a lista de Processo Contabilidade Diferido, clique em Novo.
+1. Digite a Empresa.
+1. Selecione o tipo de conta de processo diferido. Selcione 'Recebimentos' para alocar receitas ou selecione 'Despesas' para alocar despesas
+1. Escolha a Data de Postagem.
+1. Digite a Data de Inicio e Data de Fim do serviço.
+1. Salvar e Submeter.
 
 <img class="screenshot" alt="Process Deferred Revenue" src="{{docs_base_url}}/assets/img/accounts/process-deferred-accounting.png">
 
-## 3. Features
+## 3. Funcionalidades
 
-### 3.1 On Submitting
+### 3.1 Ao Submeter
 
-On submitting a Process Deferred Accounting document, GL Entries for deferred revenue or expense booking will be created for all the invoices falling between the service Start Date and End Date.
+Ao Submeter um documento de Contabilidade de Processo Contabilidade Diferido, Registos GL para receitas diferidas ou despesas serão criadas para todas as facturas que estejam dentro da Data de Inicio e Fim do serviço.
 
-Enter the account if Deferred Revenue or Expense has to be booked only for specific deferred income or expense account
+Digite a conta se Receita Diferida ou Despesa foi alocada somente para a conta da receita ou despesa diferida
 
-### 3.2 Enabling automatic deferred accounting
+### 3.2 Activando Conta automatica de diferimento
 
-To enable automatic deferred accounting, enable the 'Automatically Process Deferred Account Entry' checkbox by navigating to Accounts Settings.
+Para activar a conta de diferimento automatico, active a caixa 'Automaticamente Processe Contabilidade Diferido' navegando em Configurações de Contabilidade.
 
-To access Accounts Settings go to:
-> Home > Accounting > Accounting Masters > Accounts Settings
+Para aceder as Configurações de Contabilidade vá para:
+> Home > Contabilidade > Mestre Contabil > Configurações de Contabilidade
 
 <img class="screenshot" alt="Process Deferred Revenue" src="{{docs_base_url}}/assets/img/accounts/process-deferred-accounting-settings.png">
