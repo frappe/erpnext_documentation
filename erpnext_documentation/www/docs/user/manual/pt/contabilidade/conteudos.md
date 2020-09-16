@@ -79,9 +79,9 @@ Voçê pode ver [Este video](https://www.youtube.com/watch?v=5wjollWN0OA) para u
 
 ### 1.9 Avançado
 1. [Contabilidade Multi Moedas](/docs/user/manual/pt/contabilidade/contabilidade-multi-moedas)
-1. [Deferred Revenue](/docs/user/manual/pt/contabilidade/deferred-revenue)
-1. [Deferred Expense](/docs/user/manual/pt/contabilidade/deferred-expense)
-1. [Contabilidade Process Deferred Accounting](/docs/user/manual/pt/contabilidade/process-deferred-accounting)
+1. [Receita Diferida](/docs/user/manual/pt/contabilidade/receita-diferida)
+1. [Despesa Diferida](/docs/user/manual/pt/contabilidade/despesa-diferida)
+1. [Processo de Contabilidade Diferido](/docs/user/manual/pt/contabilidade/processo-contabilidade-diferido)
 1. [Garantia de Banco](/docs/user/manual/pt/contabilidade/garantia-banco)
 1. [Programa de Fidelidade](/docs/user/manual/pt/contabilidade/programa-lealdade)
 1. [Orçamento](/docs/user/manual/pt/contabilidade/orcamento)

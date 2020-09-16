@@ -1,17 +1,17 @@
 <!-- add-breadcrumbs -->
-# Update Capital Accounts
+# Actualizar Contas de Capital
 
-Before importing capital accounts, make sure that you have created the required ledgers under **Chart of Accounts > Liabilities > Capital Accounts** group.
+Antes de importar contas de capital, tenha certeza que voçê criou o grupo do razão em **Plano de Contas > Responsabilidades > Contas Capital**.
 
-To import details of capital accounts:
+Para importar os detalhes das contas Capital:
 
-1. Go to: **Accounting > Masters and Accounts > Journal Entry > New**.
-1. Enter Posting Date.
-1. Select the appropriate capital account ledgers in Account column and enter the value in Credit column.
-1. Select 'Temporary Opening' ledger in Account and enter the balancing amount in Debit column.
-1. Set 'Is Opening' to Yes.
+1. Vá para: **Contabilidade > Mestre Contabil > Lançamento Contabilistico > Nov**.
+1. Digite a Data de Postagem.
+1. Selecione a conta apropriada do capital na coluna de contas e digite o valor na coluna de Debito.
+1. Selecione razão 'Abertura Temporaria' em Contas e digite o valor do balanço na coluna Debito.
+1. Defina 'É Abertura' para Sim.
 
-> To know about Journal Enter in detail, [visit this page](/docs/user/manual/en/accounts/journal-entry).
+> Para saber mais sobre o Lançamento Contabilistico, [visite esta pagina](/docs/user/manual/pt/contabilidade/lançamento-contabilistico).
 
 <img class="screenshot" alt="Stock Asset Ledger" src="{{docs_base_url}}/assets/img/accounts/opening_balance_capital_accounts.png">
 

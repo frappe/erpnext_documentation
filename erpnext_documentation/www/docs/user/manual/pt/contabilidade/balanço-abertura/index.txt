@@ -1,6 +1,6 @@
-fixed_assets
-accounts_receivable
-current_assets
-capital_accounts
-current_liabilities
-accounts_payables
+activos_correntes
+conta_de_recebimentos
+activos_fixos
+contas_capital
+responsabilidades_correntes
+contas_de_pagamento

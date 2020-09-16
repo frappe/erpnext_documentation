@@ -1,18 +1,18 @@
 <!-- add-breadcrumbs -->
-# Update Accounts Payables
+# Actualize as Contas de Pagamento
 
-**Accounts Payables is the balance amount you owe your Suppliers towards the invoices they have already sent you.**
+**Contas de Pagamento é o valor que voçê deve aos seus Fornecedores pelas factura enviadas para si.**
 
-You can import the accounts payables details using Opening Invoice Creation Tool. To access it, go to:
-> Home > Accounting > Opening and Closing > Opening Invoice Creation Tool
+Voçê pode importar os detalhes das contas de pagamento usando a Ferramenta de criação de Factura de Abertura. Para aceder, vá para:
+> Home > Contabilidade > Abertura e Fecho > Ferramenta de criação de Factura de Abertura
 
-## 1. How to import outstanding invoices
+## 1. Como importar Facturas pendentes
 
-1. Go to the Opening Invoice Creation Tool. 
-1. Select the Company.
-1. Select Purchase in Invoice Type.
-1. Click on Add Row and select supplier in party, select Posting Date, Due Date, Item Name and add Outstanding Amount.
-1. Click on Create Invoices.
+1. Vá para Ferramenta de criação de Factura de Abertura.
+1. Selecione a Empresa.
+1. Selecione Factura de Compra no Tipo.
+1. Clique adicionar na linha e selecione o fornecedor, selecione a Data de Postagem, Data de Expiração, Nome do Item e valor pendente.
+1. Clique em Criar Factura.
 
 ## 2. Video
 <div>
@@ -22,6 +22,6 @@ You can import the accounts payables details using Opening Invoice Creation Tool
     </div>
 </div>
 
-Purchase Invoices will be created. You can post Payment Entry against these invoices as and when you make the payment.
+Facturas de Compra serão criadas. Voçê pode postar o Lançamento Contabilistico contra estas factura como e quando o pagamento for feito.
 
 {next}

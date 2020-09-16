@@ -1,39 +1,39 @@
 <!-- add-breadcrumbs -->
-# Update Fixed Assets
+# Actualizar Activos Fixos
 
-To import all the existing fixed assets first create the asset record and then create a Journal Entry to update the General Ledger.
+Para importar todos os Activos Fixos existentes primeiro deve criar o registo de activo e depois um Lançamento Contabilistico para Actualizar o Razão Geral.
 
-## 1. Create Asset Records
+## 1. Criar Registo de Activos
 
-Create Asset record for each asset that your company owns which is not fully depreciated.
+Criar registo de Activos para cada activo na sua empresa na qual não estão completamente depreciados.
 
-To create a new Asset:
+Para criar um novo Activo:
 
-1. Create an [Item](/docs/user/manual/en/stock/item) with 'Is fixed Asset' enabled.
-1. Go to **Assets > Assets > New**.
-1. Enter Asset Name.
-1. Enter Item Code.
-1. Enter Location.
-1. Enter the Purchase Date.
-1. Enter Gross Amount.
-1. Tick **Is Existing Asset.**
-1. Save.
+1. Criar em [Item](/docs/user/manual/pt/inventario/item) como o 'É Activo Fixo' activo.
+1. Vá para **Activos > Activo > Novo**.
+1. Digite o Nome do Activo.
+1. Digite o Codigo do Item.
+1. Digite a Localização.
+1. Digite a Data de Compra.
+1. Digite o Valor de Compra.
+1. Selecione **É Activo Existente.**
+1. Salvar.
 
     <img class="screenshot" alt="Stock Asset Ledger" src="{{docs_base_url}}/assets/img/accounts/asset_opening_balance.png">
 
-> To know about Assets in detail, [visit this page](/docs/user/manual/en/asset/asset).
+> Para saber mais sobre Activos em detalhe, [visite esta pagina](/docs/user/manual/pt/activos/activo).
 
-## 2. Create Journal Entry to Update the Ledgers
+## 2. Crie um Lançamento Contabilistico para Actualizar o Razão
 
-When you create an Asset with 'Is Existing Asset' checkbox ticked, the General Ledger is not updated. You will have to update the value via a Journal Entry.
+Quando voçẽ cria um Activo com a opção 'É Activo Existente' activa, o Razão Geral não é actualizado. Voçê tem que actualizar o valor pelo Lançamento Contabilistico.
 
-To create a new Journal Entry:
+Para criar um novo Lançamento Contabilistico:
 
-1. Go to: **Accounting > Masters and Accounts > Journal Entry > New.**
-1. Enter Posting Date.
-1. Select the appropriate fixed asset ledgers in Account column and enter the value in Debit column.
-1. Select 'Temporary Opening' ledger in Account column and enter the balancing amount in Credit column.
-1. Set 'Is Opening' to Yes.
+1. Vá para: **Contabilidade > Razão Geral > Lançamento Contabilistico > Novo.**
+1. Digite a Data de Postagem.
+1. Selecione o razão do Activo Fixo apropriado na coluna Contas e digite o valor do Debito.
+1. Selecione razão 'Abertura Temporaria' na coluna Conta e digite o valor do balanço na coluna Credito.
+1. Defina 'É Abertura' para Sim.
 
 <img class="screenshot" alt="Stock Asset Ledger" src="{{docs_base_url}}/assets/img/accounts/journal_entry_for_fixed_asset_opening_balance.png">
 

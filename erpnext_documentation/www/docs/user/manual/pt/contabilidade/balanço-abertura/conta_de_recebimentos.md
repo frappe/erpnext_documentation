@@ -1,20 +1,20 @@
 <!-- add-breadcrumbs -->
-# Update Accounts Receivables
+# Actualizar Conta de Recebimentos
 
-**Accounts Receivables is the balance amount your Customer owes you towards the Sales Invoices you have already sent to them.**
+**Conta de Recebimentos é o balanço do valor o seu Cliente deve em Factura de Vendas enviadas para eles.**
 
-You can import the accounts receivables details using the Opening Invoice Creation Tool. To access it, go to:
-> Home > Accounting > Opening and Closing > Opening Invoice Creation Tool
+Voçê pode importar os detalhes das contas de Recebimentos usando a Ferramenta de criação de Factura de Abertura. Para aceder, vá para:
+> Home > Contabilidade > Abertura e Fecho > Ferramenta de criação de Factura de Abertura
 
-## 1. How to import outstanding invoices
+## 1. Como importar Facturas pendentes
 
-1. Go to the Opening Invoice Creation Tool.
-1. Select the Company.
-1. Select Sales in Invoice Type.
-1. Click on Add Row and select customer in party, select Posting Date, Due Date, Item Name and add Outstanding Amount.
-1. Click on Create Invoices.
+1. Vá para Ferramenta de criação de Factura de Abertura.
+1. Selecione a Empresa.
+1. Selecione Factura de Vendas no Tipo.
+1. Clique em Adiconar linha e selecione o cliente em parte, selecione a Data de Postagem, Data de Expiraçaõ, Nome do Item e valor pendente.
+1. Clique em Criar Facturas.
 
-Sales Invoices will be created. You can post Payment Entry against these invoices as and when you receive payment from your customer.
+Factura de Vendas serão criadas. Voçê pode postar Registo de Pagamento contra estas facturas como e quando receber pagamento do seu cliente.
 
 ## 2. Video
 <div>

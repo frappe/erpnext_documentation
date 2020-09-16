@@ -15,7 +15,7 @@ livro-de-contas
 modo-de-pagamento
 lançamento-contabilistico-inter-empresa
 registo-pagamento
-deferred-revenue
+despesa-deferida
 subscrição
 auto-repetição
 contabilidade-multi-moedas

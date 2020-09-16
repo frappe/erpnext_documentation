@@ -1,17 +1,17 @@
 <!-- add-breadcrumbs -->
-# Update Current Assets
+# Actualizar Activos Correntes
 
-Before importing current assets, make sure that you have created the required ledgers under **Chart of Accounts > Assets > Current Assets** group.
+Antes de importar activos correntes, tenha a certeza que tem criado o grupo de razão necessarios em **Planos de Contas > Activos > Activos Correntes**.
 
-## 1. How to import details of current assets
+## 1. Como importar detalhes de activos correntes
 
-1. Go to: **Accounting > Company and Accounts > Journal Entry > New**.
-1. Enter Posting Date.
-1. Select the appropriate current asset ledger in the Account column and enter the value in Debit.
-1. Select 'Temporary Opening' ledger in Account and enter the balancing amount in Credit.
-1. Set 'Is Opening' to Yes.
+1. Vá para: **Contabilidade > Empresa e Contas > Lançamento Contabilistico > Novo**.
+1. Digite a Data de Postagem.
+1. Selecione o Razão do Activo Corrente apropriado na coluna de Contas e digite o valor em Debito.
+1. Selecione o razão 'Abertura Temporaria' nas Contas e digite o valor do balanço em Credito.
+1. Defina 'É Abertura' como Sim.
 
-> To know about Journal Enter in detail, [visit this page](/docs/user/manual/en/accounts/journal-entry).
+> Para saber mais sobre Lançamento Contabilistico, [visite esta pagina](/docs/user/manual/pt/contabilidade/lançamento-contabilistico).
 
  <img class="screenshot" alt="Stock Asset Ledger" src="{{docs_base_url}}/assets/img/accounts/opening_balance_current_assets.png">
 

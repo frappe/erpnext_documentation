@@ -1,17 +1,17 @@
 <!-- add-breadcrumbs -->
-# Update Current Liabilities
+# Actualizar Responsabilidades Correntes
 
-Before importing current liabilities, make sure that you have created the required ledgers under **Chart of Accounts > Liabilities > Current Liabilities** group.
+Antes de importar Responsabilidades Correntes, tenha a certeza que voçê criou o grupo do razão em **Plano de Contas > Responsabilidades > Responsabilidades Corrente**.
 
-To import details of current liabilities:
+Para imprtar os detalhes das Responsabilidades Correntes:
 
-1. Go to: **Accounting > Masters and Accounts > Journal Entry > New**.
-1. Enter Posting Date.
-1. Select the appropriate current liability ledgers in the Account column and enter the value in the Credit column.
-1. Select 'Temporary Opening' ledger in Account and enter the balancing amount in Debit column.
-1. Set 'Is Opening' to Yes.
+1. Vá para: **Contabilidade > Mestre Contabil > Lançamento Contabil > Novo**.
+1. Digite a Data de Postagem.
+1. Selecion a Responsabilidade Corrente na coluna Conta e digite o valor do Credito.
+1. Selecione o razão 'Abertura Temporaria' em Contas e digite o valor do balanço em Debito.
+1. Defina 'É Abertura' para Sim.
 
-> To know about Journal Enter in detail, [visit this page](/docs/user/manual/en/accounts/journal-entry).
+> Para saber mais sobre Lançamento Contabilistico, [visite esta pagina](/docs/user/manual/pt/contabilidade/lançamento-contabilistico).
 
 <img class="screenshot" alt="Stock Asset Ledger" src="{{docs_base_url}}/assets/img/accounts/opening_balance_current_liabilities.png">
 
