@@ -1,60 +1,60 @@
 <!-- add-breadcrumbs -->
-# Payment Terms
+# Termos de Pagamento
 
-**A Payment Term helps to set a schedule according to which payments will be made.**
+**Um Termos de Pagamento ajuda a definir o cronograma no qual os pagamentos serão feitos.**
 
-A Payment Term defines a specific payment slab. For example, 50% payment on shipping and 50% on delivery of the item. You can save your business's payment terms on ERPNext and include it in all documents in the sales/purchase cycle. ERPNext will make all the General Ledger entries accordingly.
+Um Termos de Pagamento define uma laje especifica de pagamento. Por exemplo, 50% do pagamento ao enviar e 50% na entrega do item. Voçê pode salvar os seus Termos de Pagamento no ERPNext e incluir em todos os documentos nos ciclos de Vendas/Compras. O ERPNext irá fazer todas os registos do Razão Geral de acordo.
 
-In ERPNext, the Payment Terms form only defines portion percentages. The actual payment schedule can easily be applied using the Payment Terms Template.
+No ERPNext, os Termos de Pagamento somente define porções percentuais. O cronograma actual de pagamento pode ser facilmente aplicado usando o Modelo de Termos de Pagamento.
 
-You can use Payment Terms in the following documents:
+Voçê pode usar o Termos de Pagamento para os seguintes documentos:
 
-- Sales Invoice
-- Purchase Invoice
-- Sales Order
-- Purchase Order
-- Quotation
+- Factura de Vendas
+- Facturas de Compra
+- Ordem de Vendas
+- Ordem de Compra
+- Proformas
 
-To access Payment Term go to:
-> Home > Accounting > Accounting Masters > Payment Term
+Para aceder aos Termos de Pagamento vá para:
+> Home > Contabilidade > Mestre Contabil > Termos de Pagamento
 
-Note that the introduction of Payment Terms removes "Credit Days" and "Credit Days Based On" fields in Customer/Supplier master. Payment Term contains the same information and makes it more flexible to use.
+Note que a introdução dos Termos de Pagamento remove os campos "Dias de Credito" e "Dias de Credito baseados em" na tabela Clientes/Fornecedor. Os Termos de Pagamento tem as mesmas informações e torna mais flexivel de usar.
 
-![Payment Terms]({{docs_base_url}}/assets/img/accounts/payment-terms.png)
+![Termos de Pagamento]({{docs_base_url}}/assets/img/accounts/payment-terms.png)
 
-## 1. How to create a Payment Term
+## 1. Como criar um Termo de Pagamento
 
-1. Go to the Payment Term list and click on New.
-1. Enter a name for the Payment Term (eg: 50% post shipment).
-1. Enter the Invoice portion. If you enter 50, the portion will be 50 percent of the Invoice amount.
-1. Select a Due Date type.
-1. Under Credit Days enter the number of days after which the remaining amount has to be paid.
-1. Save.
+1. Vá para a lista de Termos de Pagamento e clique em Novo.
+1. Digite o nome do Termo de Pagamento (eg: 50% após envio).
+1. Digite a porção da Factura. Se voçê digiar 50, a porção será 50 porcento do valor da Factura.
+1. Selecione o tipo de Data de Expiração.
+1. Em baixo do Dias de Credito digite o nuimero de dias que o valor remanescente deve ser pago.
+1. Salvar.
 
-The fields are explained as follows:
+Os campos são explicados em baixo:
 
-* **Payment Term Name:** The name for this Payment Term.
-* **Due Date Based On:** The basis by which the due date for the Payment Term is to be calculated. This is calculated X number of days from the **posting date** of the invoice/order. There are three options:
- - **Day(s) after invoice date**: Due date should be calculated in days with reference to the posting date of the invoice. For example, if 7 is entered on date 20th, the due date will be 27.
- - **Day(s) after the end of the invoice month**: Due date should be calculated in days with reference to the last day of the month in which the invoice was created. For example, if 7 is entered in the current month and the last day of the month is 30th, the due date will be the 7th of the next month.
- - **Month(s) after the end of the invoice month**: Due date should be calculated in months with reference to the last day of the month in which the invoice was created. For example, if 3 is entered on 20th of January, the due date will be on 20th March.
-* **Invoice Portion:** The portion of the total invoice amount for which this Payment Term should be applied. Value given will be regarded as percentage i.e 50 = 50% of the invoice/orders Grand Total
-* **Credit Days (optional):** The number of days or month credit is allowed depending on the option chosen in the Due Date Based On the field. 0 means no credit allowed.
-* **Description:** (optional) A brief description of the Payment Term.
+* **Nome do Termo de Pagamento:** O nome para este Termo de Pagamento.
+* **Data de Expiração basead Em:** A base no qual a data de expiração para o Termo de Pagamento será calculado. Este é calculado x numero de dias apartir da **data de postagem** da factura/ordem. Exitem três opções:
+ - **Dias depois da data da factura**: Data de expiração deve ser calculado em dias com referencia a data de postagem da factura. Por exemplo, se 7 for digitado no dia 20, a data de expiração será 27.
+ - **Dias depois do fim do mês da factura**: Data de expiração deve ser calculada em dias com referencia ao ultimo dia do mês em que a factura foi criada. Por exemplo se 7 é digitado no mês corrente e o ultimo dia foi 30, a data de expiração será no dia 7 do proximo mês.
+ - **Meses depois do fim do mês da factura**: Data de expiração deve ser calculada em meses com referencia ao ultimo dia do mês no qual a factura foi criada. Por exemplo, se 3 foi digitado no dia 20 de Janeiro, a data de expiração será no dia 20 de Março.
+* **Porção da Factura:** A porção do valor total da factura no qual este Termo de Pagamento deve ser aplicado. Valor dado será visto como percentagem ex. 50 = 50% do Total Geral da Factura/Odens
+* **Dias de Credito (opcional):** O numero de dias ou meses de credito permitido dependendo da opção escolhida no campo Data de Expiração Baseado Em. 0 significa que não tem credito.
+* **Descrição:** (opcional) Uma pequena descrição dos Termos de Pagamento.
 
-### 1.2 Payment Terms in Converted Documents
-When converting or copying documents in the sales/purchase cycle, the attached Payment Term(s) will be copied. When creating a Sales Order from a Quotation, the Due Date in the Payment Terms will be according to the Quotation, this needs to be updated.
+### 1.2 Termos de Pagamento em Documentos Convertidos
+Quando estiver a converter ou copiar documente no ciclo de Vendas/Compras, os Termos de Pagamento anexados serão copiados. Ao criar a Ordem de Venda apartir de uma Proforma, a Data de Expiração nos Termos de Pagamento será de acordo a Data da Proforma. este precisa ser actuaizado.
 
-For ease of use, you can also set a Payment Terms Template and simply reselect it.
+Para facil uso, voçẽ pode definir o Modelo de Termos de Pagamento e simplesmente selecionar.
 
-### 1.3 Adding Payment Terms To Documents
+### 1.3 Adicionando Termos de Pagamento aos Documentos
 
-Once you have composed Payment Terms Template, you can use them in sales and purchase transactions. Based on the value defined for Payment Terms and transaction value, the payment schedule will be defined, with Due Date for each payment slab.
+Uma vez que tenha feito o Modelo de Termos de Pagamento, voçê pode usar nas transações de vendas e compras. Baseados no valor definidos nos Termos de Pagamento e valor de transação, o cronograma de pagamento será definido, com Datas de Expiração para cada laje de pagamento.
 
-![Payment Schedule]({{docs_base_url}}/assets/img/accounts/payment-term-table.png)
+![Cronograma de Pagamento]({{docs_base_url}}/assets/img/accounts/payment-term-table.png)
 
-Note: The Payment Schedule can be shown in the Print View using the [Print Format Builder](/docs/user/manual/en/setting-up/print/print-format-builder).
+Nota: O Cronograma de Pagamento pode ser mostrado na Impressão usando o [Construtor de Formato de Impressão](/docs/user/manual/configuração/imprimir/construtor-formato-impressão).
 
-### 2. Related Topics
-1. [Sales Invoice](/docs/user/manual/en/accounts/sales-invoice)
-1. [Purchase Invoice](/docs/user/manual/en/accounts/purchase-invoice)
+### 2. Topicos Relacionados
+1. [Factura de Vendas](/docs/user/manual/pt/contabilidade/factura-vendas)
+1. [Facturas de Compra](/docs/user/manual/pt/contabilidade/factura-compra)

@@ -1,51 +1,51 @@
 <!-- add-breadcrumbs -->
-# Bank Transaction
+# Transações Bancárias
 
-This form shows bank transactions in ERPNext. 
+Este formulario mostra as transações bancárias no ERPNext. 
 
-## 1. Prerequisites
-Before using Bank Transaction Entry, it is advised that you create the following first:
+## 1. Pre-requisitos
+Antes de usar o Registo Transações Bancárias, é aconselhavel criar os seguintes:
 
-1. [Bank](/docs/user/manual/en/accounts/bank)
-1. [Bank Account](/docs/user/manual/en/accounts/bank-account)
+1. [Banco](/docs/user/manual/pt/contabilidade/banco)
+1. [Conta Bancária](/docs/user/manual/pt/contabilidade/conta-bancária)
 
-## 2. How to use Bank Transaction
-A Bank Transaction Entry is not intended to be created manually. It is automatically created using:
+## 2. Como usar Transações Bancárias
+Um Registo de Transações Bancárias não é para ser criado manualmente. É criado automanticamente usando:
 
-1. [Bank Reconciliation](/docs/user/manual/en/accounts/bank-reconciliation)
-    Or
-1. [Plaid Integration](/docs/user/manual/en/erpnext_integration/plaid_integration) to sync with Banks
+1. [Reconciliação Bancária](/docs/user/manual/pt/contabilidade/reconciliação-banco)
+    Ou
+1. [Integração Plaid](/docs/user/manual/pt/intregação-erpnext/plaid_integration) para sincroniza com os Bancos
 
-### 2.1 Additional fields in Bank Transaction
+### 2.1 Campos Adicionais nas Transações Bancárias
 
-* Date
+* Data
 * Status:
-    * Pending
-    * Settled
-    * Unreconciled
-    * Reconciled
-* **Bank Account**: The Bank Account from which the transactions were made.
+    * Pendente
+    * Resolvido
+    * Não Reconciliado
+    * Reconciliado
+* **Conta Bancária**: A Conta Bancária do qual as transações são feitas.
 
-## 3. Features/Fields 
+## 3. Funcionalidades/Campos
 
-> These fields are updated via Bank Reconciliation and are not intended to be modified from here.
+> Estes campos são actualizados via Reconciliação Bancária e não podem ser modificados apartir daqui.
 
-### 3.1 Currency and debit/credit
+### 3.1 Moeda e debito/credito
 
-* **Debit**: The amount debited.
-* **Credit**: The amount credited.
-* **Currency**: The Currency in which the transaction was done.
-* **Description:** A description for the statement.
+* **Debito**: O valor debitado.
+* **Credito**: O valor creditado.
+* **Moeda**: A Moeda no qual a transação foi feita.
+* **Descrição:** Uma descrição para o extracto.
 
-### 3.2 Reference
+### 3.2 Referencia
 
-**Reference Number**: A cheque or other reference number.
+**Numero de Referencia**: Um cheque ou outro numero de referencia.
 
-### 3.3 Payment Entries
+### 3.3 Registo de Pagamentos
 
-* **Payment Document**: The document against which the transaction was made whether a Sales Invoice, Expense Claim, Purchase Invoice, Payment Entry, or Journal Entry.
-* **Payment Entry**: The specific transaction. 
-* **Allocated Amount**: The amount allocated for this particular transaction.
+* **Documento de Pagamento**: O documento pelo qual as transações foram feitas quer seja Factura de Vendas, Reembolso de Despesas, Facturas de Compra, Registo de Pagamento ou Lançamento Contabilistico.
+* **Registo de Pagamento**: Uma transação especifica. 
+* **Valor Alocado**: O valor alocado para esta transação em particular.
 
-**Allocated Amount**: The total allocated amount.
-**Unallocated Amount**: The total unallocated amount.
+**Valor Total Alocado**: O valor total alocado.
+**Valor Não Alocado**: O valor total não alocado.

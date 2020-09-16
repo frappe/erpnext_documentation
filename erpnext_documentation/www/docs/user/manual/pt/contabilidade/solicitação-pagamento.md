@@ -1,56 +1,56 @@
 <!-- add-breadcrumbs -->
-# Payment Request
+# Solicitação de Pagamento
 
-**A Payment Request is used to request payment from a Customer for a Sales Order or Invoice.**
+**Uma Solicitação de Pagamento é usada para pedir o pagamento a um Cliente de uma Ordem de Venda ou Factura.**
 
-Payment Request is sent via email and will contain a link to a Payment Gateway if set up. You can create a payment request via a Sales Order or a Sales Invoice. A Payment Request can also be set up against a Purchase Order or a Purchase Invoice for internal records. Then, payments can be processed in bulk using a [Payment Order](/docs/user/manual/en/accounts/payment-order).
+A Solicitação de Pagamento é enviada por email e contem uma ligação ao Gateway de Pagamento se for configurado. Voçê pode criar uma Solicitação de Pagamento via Ordem de Vendas ou Factura de Vendas. Uma Solicitação de Pagamento pode tambem ser configurado contra uma Ordem de Compra ou Factura de Compra para registos Internos. Depois, os pagamentos podem ser processados em massa usando a [Ordem de Pagamento](/docs/user/manual/pt/contabilidade/ordem-pagamento).
 
-To access Payment Term go to:
-> Home > Accounting > Accounts Receivable > Payment Term
+Para aceder os Termos de Pagamento vá para:
+> Home > Contabilidade > Contas a Receber > Termos de Pagamento
 
-## 1. Prerequisites
-Before creating and using Payment Request, it is advisable to create the following first:
+## 1. Pre-requisitos
+Antes de criar e usar Solicitação de Pagamento, é aconselhavel criar os seguintes primeiro:
 
-1. [Sales Invoice](/docs/user/manual/en/accounts/sales-invoice)
-1. [Purchase Invoice](/docs/user/manual/en/accounts/purchase-invoice)
-1. [Sales Order](/docs/user/manual/en/selling/sales-order)
-1. [Purchase Order](/docs/user/manual/en/buying/purchase-order)
+1. [Factura de Vendas](/docs/user/manual/pt/contabilidade/factura-vendas)
+1. [Facturas de Compra](/docs/user/manual/pt/contabilidade/facturas-compra)
+1. [Ordem de Vendas](/docs/user/manual/pt/vendas/ordem-vendas)
+1. [Ordem de Compra](/docs/user/manual/pt/compras/ordem-de-compra)
 
-## 2. How to create a Payment Request
-A Payment Request cannot be created manually, it is created from a Sales/Purchase Order or Invoice.
+## 2. Como criar uma Solicitação de Pagamento
+Uma Solicitação de Pagamento não pode ser criada manualmente, é criada apartir de uma Ordem de Venda/Compra ou Factura.
 
-### 2.1 Creating Payment Request via Sales Order
-In a Sales Order, click on Create and then click on Payment to make an advance payment. To know more about advance payment, visit the [Advance Payment Entry](/docs/user/manual/en/accounts/advance-payment-entry) page.
+### 2.1 Criando uma Solicitação de Pagamento via Ordem de Vendas
+Numa Ordem de Venda, clique em Criar e depois clique em Pagamento para fazer um adiantamento de pagamento. Para saber mais sobre adiantamento de pagamento, visite a pagina [Registo de Adiantamento de Pagamento](/docs/user/manual/pt/contabilidade/adiantamento-pagamento).
 
 <img class="screenshot" alt="Payment Request" src="{{docs_base_url}}/assets/img/accounts/pr-from-so.png">
 
-### 2.2 Creating payment Request via Sales Invoice
-In a Sales Invoice, click on Create and then click on Payment to make payment against the invoice. 
+### 2.2 Criando uma Solicitação de Pagamento via Factura de Vendas
+Numa Factura de Vendas, clique em Criar e depois clique em Pagamento para fazer contra a factura. 
 <img class="screenshot" alt="Payment Request" src="{{docs_base_url}}/assets/img/accounts/pr-from-si.png">
 
-Select appropriate Payment Gateway Account on Payment Request for accounts posting. Account head specified on payment gateway will 
-be considered to create a Journal Entry.
+Selecione a Conta do Gateway de Pagamento na Solicitação de Pagamento para as contas. Conta cabeça no gateway de pagmaento será considerada para criar
+um Lançamento Contabilistico.
 
-> Note: Invoice/Order currency and 'Payment Gateway Account' currency should be the same.
+> Nota: Moeda da Factura/Ordem e moeda 'Conta de Gateway Pagamento' devem ser iguais.
 
 <img class="screenshot" alt="Payment Request" src="{{docs_base_url}}/assets/img/accounts/pr-details-1.png">
 
-### 2.3 Notifying the Customer
-You can notify customer from Payment Request using [Print Format](/docs/user/manual/en/setting-up/print/print-format). If the customer contact email is set, it will be fetched automatically. If not so you can set an email address in Payment Request. 
+### 2.3 Notifique o Cliente
+Voçê pode notificar o cliente sobre a Solicitação de Pagamento usando [Formato de Impressão](/docs/user/manual/pt/configuração/imprimir/formato-impressão). Se o contacto de email do cliente foi definido, será inserido automaticamente. Se não foi voçê pode definir o email na Solicitação de Pagamento. 
 
 <img class="screenshot" alt="Payment Request" src="{{docs_base_url}}/assets/img/accounts/pr-details-2.png">
 
 ### 2.4 Request Mail
-Here is an example request email. The URL is generated automatically if you've set up the respective payment integration. To know more about integrations, [visit this page](/docs/user/manual/en/erpnext_integration).
+Here is an example request email. O URL é gerado automaticamente se voçê definiu o respectivo pagamento de integração. Para saber mais sobre integrações, [visite esta pagina](/docs/user/manual/pt/integração-erpnext).
 
 <img class="screenshot" alt="Payment Request" src="{{docs_base_url}}/assets/img/accounts/pr-email.png">
 
-### 2.5 Payment Request without using any Gateway
+### 2.5 Solicitação de Pagamento sem usar qualquer Gateway
 
-In case you don't want to use any integration or payment gateway and only want to send a notification, simply set the Bank Account. You'll have to compose the message accordingly with bank details. The party can then transfer the amount to the mentioned bank account.
+No caso de voçê não quiser usar qualquer integração ou gateway de pagamento e quise somente enviar a notificação, simplesmente defina a Conta Bancária. Voçê irá ter de escrever a mensagem de acordo e com os seus dados bancários. A parte pode depois transferir os valores para a conta bancária mecionada.
 
-## 3. Related Topics
-1. [Payment Entry](/docs/user/manual/en/accounts/payment-entry)
-1. [Payment Terms](/docs/user/manual/en/accounts/payment-terms)
-1. [Sales Invoice](/docs/user/manual/en/accounts/sales-invoice)
-1. [Purchase Invoice](/docs/user/manual/en/accounts/purchase-invoice)
+## 3. Topicos Relacionados
+1. [Registo de Pagamento](/docs/user/manual/pt/contabilidade/registo-pagamento)
+1. [Termos de Pagamento](/docs/user/manual/pt/contabilidade/termos-pagamento)
+1. [Factura de Vendas](/docs/user/manual/pt/contabilidade/factura-vendas)
+1. [Factura de Compra](/docs/user/manual/pt/contabilidade/factura-compra)

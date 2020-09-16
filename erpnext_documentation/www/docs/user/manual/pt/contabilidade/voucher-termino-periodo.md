@@ -1,47 +1,47 @@
 <!-- add-breadcrumbs -->
-# Period Closing Voucher
+# Voucher de Termino de Periodo
 
-**A Period Closing Voucher indicates that the profit/loss for an accounting period has been balanced and the books can start fresh.**
+**Um Voucher de Termino de Periodo indica que o lucro/perca para um periodo contabilistico foi balanciado e os livros pode começar do inicio.**
 
-At the end of every year or (quarterly or maybe even monthly), after completing auditing, you can close your books of accounts. This means that you make all your special entries like:
+No fim de cada ano ou (trimestral ou até mesmo mensal), depois de terminar a auditoria, voçê pode fechar os livros da contabilidade. Isto significa que voçê pode fazer todos os registos especiais como:
 
-  * Depreciation
-  * Change in value of Assets
-  * Defer taxes and liabilities
-  * Update bad debts
+  * Depreciação
+  * Alterar os valores dos Activos
+  * Defer impostos e responsabilidades
+  * Actualizar bad debts
 
-Then book your Profit or Loss.
+Depois alocar os Lucros e Perdas.
 
-By doing this, your balance in your Income and Expense Accounts becomes zero. You start a new Fiscal Year (or period) with a balanced Balance Sheet and fresh Profit and Loss account. In ERPNext after making all the special entries via Journal Entry for the current fiscal year, you should set all your Income and Expense accounts to zero via a Period Closing Voucher.
+Ao fazer isto, o seu balanço nas suas Contas de Recebimento e Despesas ficam zero. Voçẽ pode comerçar um novo Ano Fiscal (ou period) com a folha de Balanço balanciada e nova conta de Lucros e Perdas. No ERPNext depois de fazer todos os registos especiais via Lançamento Contabilistico para o Ano Fisco corrente, voçẽ deve definir todas as Contas de Recebimento e Despesas para Zero usando o Voucher de Termino de Periodo.
 
-To access the Period Closing Voucher list, go to:
-> Home > Accounting > Opening and Closing > Period Closing Voucher
+Para aceder a lista de Voucher de Termino de Periodo, vá para:
+> Home > Contabilidade > Abertura e Fecho > Voucher de Termino de Periodo
 
-## 1. How to create a Period Closing Voucher
+## 1. Para criar um Voucher de Termino de Periodo
 
-1. Go to the Period Closing Voucher list and click on New.
-1. Set a posting date.
-1. Select the account, usually this is the 'Reserves and Surplus' account.
-1. Enter any remarks.
-1. Save and Submit.
-  ![Period Closing Voucher](/docs/assets/img/accounts/period-closing-voucher.png)
+1. Vá para a lista de Voucher de Termino de Periodo e clique em Novo.
+1. Defina a data de postagem.
+1. Selecione a Conta, usualmente esta conta é de 'Reserves and Surplus'.
+1. Digite qualquer observação.
+1. Salvar e Submeter.
+  ![Voucher de Termino de Periodo](/docs/assets/img/accounts/period-closing-voucher.png)
 
-### 1.2 The fields explained
+### 1.2 Os Campos explicados 
 
-* **Transaction Date** will be Period Closing Voucher's creation date.
-* **Posting Date** will be when this entry should be executed. If your Fiscal Year ends on 31st December, then that date should be selected as Posting Date in the Period Closing Voucher.
-* **Closing Fiscal Year** will be an year for which you are closing your financial statement.
+* **Data de Transação** será a Data de criação do Voucher de Termino de Periodo.
+* **Data de Postagem** será quando este registo for executado. Se o seu Ano Fiscal termina em a 31 de Dezembro, então essa data deve ser selecionada como Data de Postagem no Voucher de Termino de Periodo.
+* **Fechando o Ano Fiscal** será o ano no qual voçê esta a fechar o seu extracto Contabilistico.
 
-### 1.3 What happens on submitting?
-The Period Closing Voucher will make accounting entries (GL Entry). This will make all your Income and Expense Accounts zero and transfer Profit/Loss balance to the Closing Account.
+### 1.3 O que acontece ao submeter?
+O Voucher de Termino de Perido irá criar registos de contabilidade (GL Entry). Este irá fazer com que todos as suas contas de Recebimento e Despesas e transferir o Balanço de Lucros/Perdas para a Conta de Termino.
 
-You should select a liability account like Reserves and Surplus, or Any Revenue Reserve account or into Owners Capital account as Closing Account.
+Voçê deve selecionar a conta de Responsabilidade como Reserves and Surplus, ou qualquer conta Revenue Reserve ou nas contas de Capital de Donos como Contas de Termino.
 
-![Period Closing Voucher ledger](/docs/assets/img/accounts/period-closing-voucher-ledger.png)
+![Razão do Voucher de Termino de Periodo](/docs/assets/img/accounts/period-closing-voucher-ledger.png)
 
-> **Note:** If accounting entries are made in a closing Fiscal Year, even after Period Closing Voucher was created for that Fiscal Year, you should create another Period Closing Voucher. Later voucher will only transfer the pending P&L balance into Closing Account Head.
+> **Nota:** Se os registos de contabilidade foram feito num Ano Fiscal a terminar, mesmo que o Voucher do Termino de Periodo tenha sido criado neste Ano Fiscal, voçê dever criar um outro Voucher de Termino de Periodo. Depois o Voucher será somente transferir para o balanço P&L para a Conta de Cabeça.
 
-### 2. Related Topics
-1. [Fiscal Year](/docs/user/manual/en/accounts/fiscal-year)
-1. [Tax Withholding Category](/docs/user/manual/en/accounts/tax-withholding-category)
-1. [Accounting Period](/docs/user/manual/en/accounts/accounting-period)
+### 2. Topicos Relacionados
+1. [Ano Fiscal](/docs/user/manual/pt/contabilidade/ano-fiscal)
+1. [Categoria de Isenção de Impostos](/docs/user/manual/pt/contabilidade/categoria-insenção-impostos)
+1. [Periodo Contabilistico](/docs/user/manual/pt/contabilidade/periodo-contabilistico)

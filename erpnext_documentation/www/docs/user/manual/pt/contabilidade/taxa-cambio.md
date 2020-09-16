@@ -1,21 +1,21 @@
 <!-- add-breadcrumbs -->
-# Currency Exchange
+# Taxa de Cambio
 
-The Currency Exchange form in ERPNext stores exchange rates manually stored by the User. By default, ERPNext automatically fetched the current exchange rates for currencies as per the market. However, you can store fixed exchange rates and use them. You need to enable 'Allow Stale Exchange Rates' in Accounts Settings for using the exchange rates stored in the Currency Exchange form.
+O formulario de Taxa de Cambio no ERPNext guarda as taxas de cambio manualmente criadas pelo Usuario. Por defeito, o ERPNext procura automaticamente a taxa de cambio corrente para as moedsa de acordo o mercado. Contudo, voçẽ pode guardar taxas fixas e usar. Voçê precisa activar 'Permitir Taxas de Cambio Obsoletas' em Configurações de Contabilidade para usar taxa de cambio guardadas no formulario de Taxas de Cambio.
 
-To access the Currency Exchange list, go to:
-> Home > Accounting > Multi Currency > Currency Exchange
+Para aceder a lista de Taxa de Cambio, vá para:
+> Home > Contabilidade > Multi Moedas > Taxa de Cambio
 
-## 1. How to create a Currency Exchange
-1. Go to the Currency Exchange list and click on New.
-1. Enter a date from which this exchange rate will be valid. New Currency Exchange forms saved with newer dates will be used in transactions.
-1. Set the From and To currency.
-1. Enter the Exchange Rate, for example, 1 USD = 65 INR.
-1. Select whether the exchange rate applies to selling, buying, or both transactions.
-1. Save.
+## 1. Como criar uma Taxa de Cambio
+1. Vá para a lista de Taxas de Cambio e clique em Novo.
+1. Digite a data no qual a taxa de cambio será valida. Novas Taxas de Cambio são salvas como novas datas serão usadas em transações.
+1. Defina a Moeda De e Para.
+1. Digite o Valor da Taxa, por exemplo, 1 USD = 65 INR.
+1. Selecione se a taxa de cambio é para vendas, compras ou ambas transações.
+1. Salvar.
 
-    ![Currency Exchange](/docs/assets/img/accounts/currency-exchange.png)
+    ![Taxa de Cambio](/docs/assets/img/accounts/currency-exchange.png)
 
-## 2. Related Topics
-1. [Exchange Rate Revaluation](/docs/user/manual/en/accounts/exchange-rate-revaluation)
-1. [Multi Currency Accounting](/docs/user/manual/en/accounts/multi-currency-accounting)
+## 2. Topicos Relacionados
+1. [Reavaliação da Taxa de Cambio](/docs/user/manual/pt/contabilidade/reavaliação-taxa-cambio)
+1. [Contabilidade Multi Moedas](/docs/user/manual/pt/contabilidade/contabilidade-multi-moedas)

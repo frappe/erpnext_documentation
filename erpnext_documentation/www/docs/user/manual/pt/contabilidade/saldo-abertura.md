@@ -1,56 +1,56 @@
 <!-- add-breadcrumbs -->
-# Opening Balance in Accounts
+# Saldos de Abertura em Contabilidade
 
-**The opening balance is the balance that is brought forward at the beginning of an accounting period from the end of a previous accounting period or when starting out.**
+**O Balanço de Saldo de Abertura é o balanço que é mostrado no inicio de um periodo contabilistico desde o fim do ano contabilistico anterior ou quando começou.**
 
-This also applies when starting a new Company and would like your offline balances to be updated in ERPNext.
+Isto é aplicado tambem quando uma nova Empresa começa e gostaria de actualizar os seu balanços no ERPNext.
 
-## 1. Introduction
+## 1. Introdução
 
-If you are a new company, you will have minimal opening balances to be imported. However, if you are migrating from a legacy accounting system like Tally or a Fox Pro based software you will have considerable data to be imported as opening balance.
+Se voçê esta a começar uma nova Empresa, voçê vai precisar de um balanço minimo de abertura para ser importado. Contudo, se estiver a migrar de um sistema de contabilidade voçê terá muitos dados para serem importados como balanço de abertura.
 
-We recommend that you start using ERPNext for accounting from a new financial year, but you could start midway too. To set up your accounts, you will need the following for the “day” you start using accounting in ERPNext:
+Nós recomendadmos que voçê começe a usar o ERPNext para contabilidade apartir de um novo ano financeiro, mas voçê pode começar no meio do ano tambem. Para definir voçê irá precisar do seguinte para o "dia" em que usar o ERPNext:
 
-### Assets
-1. Stock assets (stock in hand).
-1. Fixed assets like furnitures, computers, etc.
-1. Accounts Receivables (AR) i.e. unpaid invoices which you have sent to your Customers.
-1. Current assets like bank balances, cash in hand, deposits, etc.
+### Activos
+1. Stock dos activos (stock em mão).
+1. Activos Fixos como mobiliarios, computadores, etc.
+1. Contas de Recebimentos (AR) ex. facturas não pagas no qual enviou para os seus Clientes.
+1. Activos Correntes como balanço de banco, dinheiro em mão, depositos, etc.
 
-### Liabilities
+### Responsabilidades
 
-1. Capital accounts like your shareholder’s (or owner’s) capital
-1. Current liabilities like loans, salary payables etc
-1. Accounts Payables(AP) i.e. unpaid invoices which your suppliers have sent you
+1. Contas de Capital como o Capital dos Acionistas (ou Donos)
+1. Responsabilidades Correntes como emprestimos, pagamento de salários, etc
+1. Contas a Pagar (AP) ex. facturas não pagas no qual seus fornecedores enviaram para si
 
 
-If you were using another accounting software before, you should **close** financial statements in that software first. The closing balance of the accounts should be updated as an opening balance in the ERPNext. Before starting to update opening balance, ensure that your [Chart of Accounts](/docs/user/manual/en/accounts/chart-of-accounts) has all the Accounts required.
+Se voçê estiver a usar outro software, voçê deve **fechar** os extractos fianceiros nesse software primeiro. O balanço de encerramento das contas devem ser actualizadas como saldos de abertura no ERPNext. Antes de actualizar o balanço de abertura, tenha a certeza que o seu [Plano de Contas](/docs/user/manual/pt/contabilidade/plano-de-contas) tem todas as Contas necessárias.
 
-Opening entries can be created using the Opening Invoice Creation Tool in ERPNext.
+Registo de Saldos de Abertura podem ser criados usand a ferramenta de Criação de Facturas de Abertura no ERPNext.
 
-> Opening entry is only for Balance Sheet accounts and not for Profit and Loss Accounts.
+> Registo de abertura é somente para contas da Folha de Balanço e para Contas de Lucros e Perdas.
 
-## 2. Opening Balance of Assets
+## 2. Balanço de Abertura de Activos
 
-2.1 [Fixed Assets](/docs/user/manual/en/accounts/opening-balance/fixed_assets)
+2.1 [Activos Fixos](/docs/user/manual/pt/contabilidade/balanço-abertura/activos_fixos)
 
-2.2 [Stock Assets](/docs/user/manual/en/stock/opening-stock)
+2.2 [Activos de Stock](/docs/user/manual/pt/inventario/abertura-stock)
 
-2.3 [Accounts Receivable](/docs/user/manual/en/accounts/opening-balance/accounts_receivable)
+2.3 [Conta de Recebimentos](/docs/user/manual/pt/contabilidade/balanço-abertura/contas_de_recebimentos)
 
-2.4 [Current Assets](/docs/user/manual/en/accounts/opening-balance/current_assets)
+2.4 [Activos Correntes](/docs/user/manual/pt/contabilidade/balanço-abertura/activos_correntes)
 
-## 3. Opening Balance of Liabilities
+## 3. Balanço de Abertura de Responsabilidades
 
-3.1 [Capital Accounts](/docs/user/manual/en/accounts/opening-balance/capital_accounts)
+3.1 [Contas de Capital](/docs/user/manual/pt/contabilidade/balanço-abertura/contas_capital)
 
-3.2 [Current Liabilities](/docs/user/manual/en/accounts/opening-balance/current_liabilities)
+3.2 [Responsabilidades Correntes](/docs/user/manual/pt/contabilidade/balanço-abertura/responsabilidades_correntes)
 
-3.3 [Accounts Payable](/docs/user/manual/en/accounts/opening-balance/accounts_payable)
+3.3 [Contas de Pagamento](/docs/user/manual/pt/contabilidade/balanço-abertura/contas_de_pagamento)
 
-## 4. Verify the Opening Balance
+## 4. Verificando o Balanço de Abertura
 
-Once all assets and liabilities have been imported, the balance of **Temporary Opening** ledger should be zero.
+Uma vez todos os activos e responsabilidades importada, o balanço **Abertura Temporaria** do razão deve ser zero .
 
 ## 5. Video
 <div>
@@ -60,10 +60,10 @@ Once all assets and liabilities have been imported, the balance of **Temporary O
   </div>
 </div>
 
-### 6. Related Topics
-1. [Chart of Accounts](/docs/user/manual/en/accounts/chart-of-accounts)
-1. [Journal Entry](/docs/user/manual/en/accounts/journal-entry)
-1. [Payment Entry](/docs/user/manual/en/accounts/payment-entry)
-1. [Payment Reconciliation](/docs/user/manual/en/accounts/payment-reconciliation)
+### 6. Topicos Relacionados
+1. [Plano de Contas](/docs/user/manual/pt/contabilidade/plano-de-contas)
+1. [Lançamento Contabilistico](/docs/user/manual/pt/contabilidade/lançamento-contabilistico)
+1. [Registo de Pagamento](/docs/user/manual/pt/contabilidade/registo-pagamento)
+1. [Reconciliação de Pagamento](/docs/user/manual/pt/contabilidade/reconciliação-pagamento)
 
 {next}

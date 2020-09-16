@@ -1,152 +1,151 @@
 <!-- add-breadcrumbs -->
-# Accounting Reports
+# Relatorios Contabilisticos
 
-Some of the major accounting reports are:
+Alguns dos maiores Relatorios Contabilisticos são:
 
-## 1. Company and Accounts
-### General Ledger
-Go to: **Accounts > Company and Accounts > General Ledger**.
+## 1. Empresa e Contas
+### Razão Geral
+Vá para: **Contabilidade > Razão Geral > Razão Geral**.
 
-The General Ledger is a detailed report for all transactions posted to each account and for every transaction there is a Credit and Debit account so it lists them all up.
+O Razão Geral é um relatorio detalhado para todas as transações feitas em cada conta e para toda transação tem uma conta de Credito e Debito listada.
 
-The report is based on the table GL Entry and can be filtered by many pre-defined filters like Account, Cost Centers, Party, Project and Period etc. This helps you to get a full update for all entries posted in a period against any account. The result can be grouped by Account, Voucher/Transaction and Party with opening and closing balances for each group. In case of multi-currency accounting, there is also an option to check the amounts in any other currency than company's base currency.
+O relatorio é basedo na tabela GL Entry e pode ser filtrado por muitos filtros pre-definidos como Contas, Centros de Custo, Partes, Projectos e Periodo, etc. Isto ajuda voçê a ter uma actualização completa de todos registos feitos num periodo contra qualquer conta. O resultado pode ser agrupado por Contas, Voucher/Transação e Parte com abertura e fecho de balanços para cada grupo. No caso de contabilidade multi moedas, existe uma opção para verificar os valores em qualquer moeda para alem da moeda base da empresa.
 
 <img alt="General Ledger" class="screenshot"
     src="{{docs_base_url}}/assets/img/accounts/reports/general-ledger.png">
 
-## 2. Accounting Statements
-### 2.1 Accounts Receivable and Accounts Payable (AR / AP)
-Go to: **Accounts > Accounting Statements > Accounts Receivable**.
+## 2. Extractos Bancários
+### 2.1 Contas de Recebimentos e Contas de Pagamentos (AR / AP)
+Vá para: **Contabilidade > Contas a Receber > Contas a Receber**.
 
-These reports help you to track the outstanding amount of Customers and Suppliers. It also provides ageing analysis i.e. a break-up of outstanding amount based on the period for which the amount is outstanding.
+Estes relatorios ajudam a rastrear os valores pendentes de Clientes e Fornecedores. Tambem informa uma analise de tempo ex. distribuindo valores penndentes baseados em periodos no qual os valores estão pendentes.
 
 <img alt="Accounts Receivable" class="screenshot" src="{{docs_base_url}}/assets/img/accounts/reports/accounts-receivable.png">
 
-#### 2.1.1 Accounts Receivables based on Payment terms
-You can also see Accounts Receivables based on [Payment Terms](/docs/user/manual/en/accounts/payment-terms).
+#### 2.1.1 Conta de Recebimentos baseados em Termos de Pagamento
+Voçê pode tambem ver as Contas de Recebimentos baseados em [Termos de Pagamento](/docs/user/manual/pt/contabilidade/termos-pagamento).
 
-Accounts Receivable report based on payment terms can be seen by clicking the checkbox 'Based On Payment Terms' as shown in the following screenshot.
+O relatorio de Contas de Recebimento são baseados em termos de pagamento podem ser vistos fazendo o clique na caixa 'Baseado nos Termos de Pagamento' mostrados na seguinte imagem.
 
 <img alt="Accounts Receivable" class="screenshot"
     src="{{docs_base_url}}/assets/img/accounts/reports/accounts-receivable-1.png">
 
-Outstanding amount against each payment term can be seen. **Invoiced Amount** shows each payment term amount and **Paid Amount** shows paid amount against each payment term. Payment against each term is allocated in FIFO order.
+Valores Pendentes contra cada termo de pagamento pode ser visto. **Valor Facturado** mostra cada valor de termo de pagamento e **Valor Pago** mostra valores pagos contra cada termo de pagamento. Pagamento contra cada termo é alocado de forma FIFO.
 
 <img alt="Accounts Receivable" class="screenshot"
     src="{{docs_base_url}}/assets/img/accounts/reports/accounts-receivable-2.png">
 
-### 2.2 Trial Balance
-Go to: **Accounts > Accounting Statements > Trial Balance**.
+### 2.2 Balancete
+Vá para: **Contabilidade > Declarações Contabilisticas > Balancete**.
 
-A Trial Balance is an accounting report which lists account balances for all your Accounts
-(“Ledger” and “Group”) for any given reporting period. A company prepares a trial balance periodically, usually at the end of every reporting period. The general purpose of producing a trial balance is to ensure the entries in a company's bookkeeping system are mathematically correct. The totals of Debit and Credit columns must be same for any given period, to ensure the entries are correct. In ERPNext, the report shows following columns:
+Um Balancete é um relatorio que mostra contas de balanço de todas as contas
+(“Razão" e "Grupo") para qualquer periodo. Um empresa prepara o balancete periodicamente, normalmente no fim de cada periodo de relatorios. O proposito geral em produzir um balancete é de assegurar que todos os registo na empresa alocados no sistema estejam matematicamente correctos. Os totais das Colunas de Debito e Credito devem sempre iguais a qualquer periodo, para ter a certeza de que os registos estão correctos. No ERPNext, o relatorio mostra as seguintes colunas:
 
-  * Opening (Dr): Opening debit balance as on From Date
-  * Opening (Cr): Opening credit balance as on From Date
-  * Debit: Total Debited amount against the account between the selected period
-  * Credit: Total Credited amount against the account between the selected period
-  * Closing (Dr): Closing debit balance as on To Date
-  * Closing (Cr): Closing credit balance as on To Date
+  * Abertura (Dr): Balanço de Abertura de Debito com a Data de Inicio
+  * Abertura (Cr): Balanço de Abertura de Credito com a Data de Inicio
+  * Debito: Valor Total Debitado contra a conta entre o periodo escolhido
+  * Credito: Valor Total Creditado contra a conta entre o periodo escolhido
+  * Fecho (Dr): Fecho do Balanço de Debito até a Data Final
+  * Fecho (Cr): Fecho do Balanço de Credito até a Data Final
 
-There are some other options as well to include or exclude Period Closing Entries, show / hide accounts with zero balance and to show unclosed previous fiscal year's P&L (Income & Expenses) balances. All the figures in the report are shown in company's base currency.
+Tem algumas outras opções para incluir ou excluir Registo de Fecho de Periodo, mostrar / esconder contas com valores a zero e para mostrar o Balanço dos Anos Fiscais anteriores não encerrados P&L (Recebimentos & Despesas). Todos os dizeres no relatorios são mostrados na moeda base da Empresa.
 
 <img alt="Trial Balance" class="screenshot" src="{{docs_base_url}}/assets/img/accounts/reports/trial-balance.png">
 
-### 2.3 Balance Sheet
-Go to: **Accounts > Accounting Statements > Balance Sheet**.
+### 2.3 Folha de Balanço
+Vá para: **Contabilidade > Declarações Financeiras > Balanço**.
 
-A Balance Sheet is the financial statement of a company which states assets, liabilities and equity at a particular point in time.
+A Folha de Balanço é um extracto financeiro de uma empresa aonde mostra activos, responsabilidades e equidades no periodo de tempo particular.
 
-The Balance Sheet in ERPNext gives you more flexibility to analyse your financial position. You can run the report across multiple year to compare values. You can check values for a specific Finance Book or Cost Center. You can also choose any other currency to display the balances.
+A Folha de Balanço no ERPNext mostra-lhe uma forma de analisar mais flexivel o seu estado financeiro. Voçê pode correr o relatorio para cruzar com varios anos para comparar os valores. Voçê pode verificar os valores para um Livro Especifico ou Centro de Custo. Voçê pode tambem escolher qualquer moeda para mostrar os balanços.
 
 <img alt="Balance Sheet" class="screenshot" src="{{docs_base_url}}/assets/img/accounts/reports/balance-sheet.png">
 
-### 2.4 Cash Flow Statement
-Go to: **Accounts > Accounting Statements > Cash Flow**.
+### 2.4 Extracto do Fluxo de Caixa
+Vá para: **Contabilidade > Declarações Financeiras > Fluxo de Caixa**.
 
-A Cash Flow is a financial statement which shows the incoming and outgoing of cash or cash-equivalents for a company. It is used to analyse the liquidity position of the company.
+Um Fluxo de Caixa é um extracto financeiro no qual mostra os recebimentos e pagamentos de dinheiro ou parecidos para uma empresa. É usado para analizar a posição liquida da Empresa.
 
 <img alt="Cash Flow Statement" class="screenshot" src="{{docs_base_url}}/assets/img/accounts/reports/cash-flow.png">
 
-### 2.5 Profit and Loss Statement
-Go to: **Accounts > Accounting Statements > Profit and Loss Statement**.
+### 2.5 Extracto de Lucro e Percas
+Vá para: **Contabilidade > Declarações Financeiras > Calculo de Lucros e Perdas**.
 
-A Profit and Loss Statement is a financial statement which summarizes all the revenues and expenses in a given period. The report is also known as P&L Statement.
+Um extracto de Calculo de Lucros e Perdas é um extracto financeiro no qual resume todas as revenues e despeas num periodo de tempo. O relatorio é tambem conhecido como Extracto P&L.
 
-In ERPNext, you can run the report across multiple year / period to compare the values. You can also check values for a specific Finance Book, Project or Cost Center. You can also choose any other currency to display the balances. If you are running the report to see quarterly / monthly balances, you can choose whether you want to show accumulated balances or only for each period.
+No ERPNext, voçê pode correr o relatorio para cruzar varios anos / periodos e comparar os valores. Voçê pode tambem verificar os valores de um Livro Financeiro especifico, Projecto ou Centro de Custo. Voçê pode escolher qualquer moeda para mostrar os balanços. Se voçê estiver a correr o relatorio para ver balanços a cada quarto / mensais, voçê precisa escolher se quer mostrar balanços acumulados or somente para cada periodo.
 
 <img alt="Profit and Loss Statement" class="screenshot" src="{{docs_base_url}}/assets/img/accounts/reports/profit-and-loss.png">
 
-### 2.6 Consolidated Financial Statements
-Go to: **Accounts > Accounting Statements > Consolidated Financial Statement**.
+### 2.6 Extractos Financeiros Consolidados
+Vá para: **Contabilidade > Declarações Financeiras > Declaração Financeira Consolidada**.
 
-The report shows a consolidated view of Balance Sheet, Profit and Loss Statement and Cash Flow for a group company, by merging financial statements of all the subsidary companies. It shows balances for all individual company and as well as accumulated balances for a group company.
+O relatorio mostra a Folha de Balanço, Extracto de Lucro e Perdas e Fluxo de Caixa para um grupo de Empresa, by merging extractos financeiros de todas as subsidiarias. Mostra balanços para todas empresas individuais bem como os balanços acumulados para um grupo de Empresas.
 
 <img alt="Consolidated Financial Statement" class="screenshot" src="{{docs_base_url}}/assets/img/accounts/reports/consolidated-financial-statement.png">
 
-## 3. Taxes
-### 3.1 Sales and Purchase Register
-Go to: **Accounts > Taxes > Sales Register *or* Purchase Register**.
+## 3. Impostos
+### 3.1 Registo de Vendas e Compras
+Vá para: **Contabilidade > Impostos > Registo de Vendas *ou* Registo de Compras**.
 
-The Sales and Purchase Register report shows all the Sales and Purchase transactions for a given period with invoiced amount and tax details. In this report, each taxes has a separate column, so you can easily get total taxes collected / paid for a period for each individual tax type, which helps to pay the taxes to government.
+O relatorio de Vendas e Registo de Compras mostra todas transaçõe de Vendas e Compras para um periodo com o valor facturado e detalhes de impostos. Neste relatorio, cada imposto fica numa coluna separada, para que possa facilmente ver o total dos impostos coletados / pagos por um periodo para cada tipo de imposto, no qual ajuda a pagar os impostos ao governo.
 
 <img alt="Sales Register" class="screenshot" src="{{docs_base_url}}/assets/img/accounts/reports/sales-register.png">
 
-## 4. Budget and Cost Center
-### 4.1 Budget Variance
-Go to: **Accounts > Budget and Cost Center > Budget Variance Report**.
+## 4. Orçamento e Centros de Custo
+### 4.1 Desvio de Orçamentos
+Vá para: **Contabilidade > Orçamento e Centros de Custo > Relatorio de Desvios de Orçamento**.
 
-In ERPNext, you can assign expense budget for an expense account against any specific cost center. This report gives a comparison between budgeted and actual expenses and the variance (the difference between the two) in monthly / quarterly / yearly view.
+No ERPNext, voçê pode atribuir uma despesa de orçamento para uma conta de despesas contra qualquer centro de custo. Este relatorio faz a comparação entre o orçamentado e a despesa actual e os desvios (a diferença entre os dois) mensalmente / Trimestral / Anual.
 
 <img alt="Budget Variance" class="screenshot" src="{{docs_base_url}}/assets/img/accounts/reports/budget-variance.png">
 
-## 5. Tax reports for India
+## 5. Relatorio de Impostos para India
 ### 5.1 GSTR-1 (India)
-Go to: **Accounts > Goods and Services Tax (GST India) > GSTR-1**.
+Vá para: **Accounts > Goods and Services Tax (GST India) > GSTR-1**.
 
 The GSTR-1 report helps Indian users to file monthly return of outward supplies. This report shows all the sales transactions of the company in Govt specified format. The output of the report is changed based on the selected type of business (B2B, B2C Large, B2C Small, CDNR and Export).
 
 <img alt="GSTR-1" class="screenshot" src="{{docs_base_url}}/assets/img/accounts/reports/gstr-1.png">
 
 ### 5.2 GSTR-2 (India)
-Go to: **Accounts > Goods and Services Tax (GST India) > GSTR-2**.
+Vá para: **Accounts > Goods and Services Tax (GST India) > GSTR-2**.
 
 The GSTR-2 report helps Indian users to file monthly return of inward supplies. The report gives the details of all inward supplies of goods or services received during a month, in Govt specified format.
 
 <img alt="GSTR-2" class="screenshot" src="{{docs_base_url}}/assets/img/accounts/reports/gstr-2.png">
 
-## 6. Analytics
-### 6.1 Item wise Sales and Purchase Register
-Go to: **Accounts > Analytics > Item-wise Sales Register *or* Item-wise Purchase Register**.
+## 6. Analiticos
+### 6.1 Registo de Vendas e Compras de Item Inteligente
+Vá para: **Contabilidade > Contas a Receber > Registo de Vendas de Item Inteligente *ou* Registo de Compras de Item Inteligente**.
 
-The Item Wise Sales and Purchase Register report shows all the Sales and Purchase transactions for a given period with item rate, quantity, amount and tax details. In this report, taxes has a separate column, so you can easily get individual taxes for each individual item. From this report you can have a look of which items are sold or purchase most.
+O relatorio Registo de Vendas e Compras de Item Inteligente mostra todas as Vendas e Compras para um periodo com preço do item, quantidade, valor e detalhes de imposto. Neste relatorio, impostos tem um coluna separada, para que possa facilmente ver os impostos para cada Item. Apartir deste relatorio voçê pode ver que itens foram mais vendidos ou comprados.
 
 <img alt="Item Wise Sales Register" class="screenshot" src="{{docs_base_url}}/assets/img/accounts/reports/item-wise-sales-report.png">
 
-More detailed analysis can also be done by using the 'Group By' filter which gives sales data for a specific Customer, Supplier, Territory, etc. You can find out which Item is more popular in which region or which Customer is buying which Item more.
+Uma analise mais detalhes pode ser feita usando o filtro 'Agrupar Por' que mostra dados de venda para um Cliente, Fornecedor, Territorio especifico, etc. Voçê pode encontrar que Itens são mais populares e em que região ou que Cliente mais compra e que Item.
 
 <img alt="Group By Sales Register" class="screenshot" src="{{docs_base_url}}/assets/img/accounts/reports/group-by-sales-register.png">
 
-### 6.2 Sales or Purchase Invoice Trends
-Go to: **Accounts > Analytics > Sales Invoice Trends *or* Purchase Invoice Trends**.
+### 6.2 Tendências de Factura de Vendas e Compras
+Vá para: **Contabilidade > Rentabilidade > Tendências de Factura de Vendas *ou* Tendências de Facturas de Compra**.
 
-Another very useful report is invoice trends, From this report you can easily get the trending items on monthly, quaterly, half yearly or yearly basis. You will get the idea of sales and purchase both in quantity and amount.
+Outro relatorio muito util são as Tendências de facturação, apartir des relatorio voçê pode facilmente obeter as tendências dos Itens mensalmente, trimestral ou anual. Voçê pode ter uma udea das quantidades e valores de Vendas e Compras.
 
 <img alt="Sales Invoice Trends" class="screenshot" src="{{docs_base_url}}/assets/img/accounts/reports/sales-invoice-trends.png">
 
-## 7. To Bill
-- **Ordered Items To Be Billed:** The report shows the items which has been ordered by customers, against which Sales
-Invoice has not been created / partially been created.
-- **Delivered Items To Be Billed:** The items which has been delivered to the customers, but Sales Invoice has not been created / partially been created.
-- **Purchase Order Items To Be Billed:** The report shows the items which has been ordered from the suppliers, but Purchase Invoice has not been created / partially been created.
-- **Received Items To Be Billed:** The items which has been received from the suppliers, but Purchase Invoice has not been created / partially been created.
+## 7. Para Cobrar
+- **Itens Pedidos a serem Cobradas:** Este relatorio mostra os itens que foram pedidos pelos cliente, contra as Facturas de Venda que ainda não foram criadas / parcialmente criadas.
+- **Itens Entregues a serem Cobrados:** Os itens no qual foram entregues aos clientes, mas as Facturas de Venda não foram criadas / parcialmente criadas.
+- **Itens da Ordem de Compra a Facturar:** O relatior mostra os itens que foram feitas a ordem apartir do fornecedor, mas não foi feita ainda a Factura de Compra.
+- **Itens Recebidos a serem Cobrados:** Os itens que foram recebidos apartir dos fornecedores, mas a Factura de Compra ainda não foi criada.
 
-## 8. Other Reports
-### 8.1 Party Wise Trial Balance
-Go to: **Accounts > Other Reports > Trial Balance for Party**.
-Usually you might need to see the trial balance for your customesrs and suppliers. You can easily get for all of your customers or suppliers and also for individual.
+## 8. Outros Relatorios
+### 8.1 Balancete para a Parte
+Vá para: **Contabilidade > Relatorios > Balancete para a Parte**.
+Normalmente voçêo precisar ver o balanço dos seus cliente e fornecdores. Voçẽ facilmente ver todos clientes ou fornecedores e individuais.
 
 <img alt="Sales Invoice Trends" class="screenshot" src="{{docs_base_url}}/assets/img/accounts/reports/party-wise-trail-balance.png">
 
-### 8.2 Customer Credit Balance
-The report shows the credit limit, outstanding and credit balance for each customer.
+### 8.2 Saldo Credito de Cliente
+O relatorio mostra o limite de credito, pendentes e balanço de credito para cada cliente.

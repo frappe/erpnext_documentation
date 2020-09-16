@@ -1,46 +1,46 @@
 <!-- add-breadcrumbs -->
-# Share Transfer
+# Transferencia de Acção
 
-**A Share Transfer is the Issue, Transfer, or Purchase of Company shares from one party to another.** 
+**Uma Transferencia de Acção é um Pedido, Transferencia ou Compra das Acções da Empresa de uma Parte para Outra.** 
 
-There may be times when you want to change the share structure of your Company; either by adding new Shareholders or by changing the existing proportion of shares between Shareholders. A Share Transfer is the process of transferring existing shares from one person to another; either by sale or gift.
+Pode haver tempos em que voçê queria mudar a estrutura de acções da sua Empresa; ou adicionando novos Acionistas ou alterando a proporção exitente das acções entre Acionistas. Uma Transferencia de Acção é um processo de transferencia de acções existentes de uma pessoa para outra; ou pela venda ou presente.
 
-When creating a new Shareholder, they need to be issued shares first. Only then a Folio Number is visible and further transfer can be done using that Shareholder.
+Ao criar um novo Acionista, eles precisam ser atribuidos uma acção primeiro. Somente depois um Numero Folio fica visivel e futuras transferencias pode ser feitas usando esse Acionista.
 
-To access the Share Transfer list, go to:
-> Home > Accounting > Share Management > Share Transfer
+Para aceder a lista de Transferencia de Acção, vá para:
+> Home > Contabilidade > Gestão de Acionistas > Transferencia de Acção
 
-## 1. How to create a Share Transfer
-1. Go to the Share Transfer list and click on New.
-1. Select the Transfer Type, for first ever Shareholder transaction this will be 'Issue'.
-1. Set a date for the transfer.
-1. Select the From and To Shareholders.
-1. Select the from and to Folio Numbers.
-1. Set the Liability and Asset accounts.
-1. Select the share type whether Preference or Equity (more share types can be added if needed).
-1. Select the number of shares to be transferred.
-1. Select the From and To number of shares. For example 1 to 3,000.
-1. Set the rate of one share, the amount will be calculated based on the number of shares.
-1. Save and Submit.
+## 1. Como criar uma Transferencia de Acção
+1. Vá para a lista de Transferencia de Acção e clique em Novo.
+1. Selcione o Tipo de Transferencia, para a primeira transação do Acionista este ficará 'Issue'.
+1. Defina a Data para a Transferencia.
+1. Selecione Acionista De e Para que Acionista.
+1. Selecione o Numero de Folio De e Para.
+1. Defina as Contas de Responsabilidade e Activos.
+1. Selecione o tipo de acção aonde é uma Preferencia ou Equidade (mais tipos de acções podem ser adicionados aqui se necessário).
+1. Selecione o numero de acções a serem transferidos.
+1. Selecione o numero de acções De e Para. Por exemplo de 1 para 3,000.
+1. Defina a taxa de uma das acções, o valor será calculado com base no numero de acções.
+1. Salvar e Submeter.
 
  <img class="screenshot" alt="Create Shareholder" src="/docs/assets/img/accounts/shareholder/sharetransfer_issue.png">
 
-After submitting, a Journal Entry can be created to update the ledger using the **Create Journal Entry** button.
+Depois de submeter, o Lançamento Contabilistico pode ser criado para actulizar o razão usando o botão **Criar Lançamento Contabilistico**.
 
-> Note: Before you can Purchase or Transfer shares between shareholders, shares need to be issued.
+> Nota: Antes de voçê Comprar ou Transferir acções entre Acionistas, acções devem ser criadas.
 
-### 1.1 Terminology
+### 1.1 Terminlogia
 
-Transfer Types:
+Tipo de Transferencias:
 
-* **Issue**: Shares are being issued to an existing Shareholder by the Company.
-* **Purchase**: The Company is purchasing back shares from an existing Shareholder.
-* **Transfer**: Shares are being transferred from one Shareholder to another.
+* **Atribuir**: Acções estão a ser atribuidas a um Acionista existente pela Empresa.
+* **Comprar**: A Empresa está a comprar acções de volta apartir de um Acionista existente.
+* **Transferir**: Acções estão a ser transferidas de um Acionista para outro.
 
-**Folio Number**: This is a number used to uniquely identify a Shareholder and their transaction.
+**Numero do Folio**: Este é um numero usado para indentificar um Acionista e as suas transações.
 
-**Share Type**: The two default options in ERPNext are Preference and Equity. This only indicates the type of share, more can be added as per your Company structure. 
+**Tipo de Acção**: As duas opções padrão no ERPNext são Preferencia e Equidade. Este indica somente o tipo de Acção, mas pode ser adiconado mais de acordo a sua estrutura da Empresa. 
 
-### 2. Related Topics
-1. [Shareholder](/docs/user/manual/en/accounts/shareholder)
-1. [Share Reports](/docs/user/manual/en/accounts/share-reports)
+### 2. Topicos Relacionados
+1. [Acionista](/docs/user/manual/pt/contabildade/acionistas)
+1. [Relatorio de Acções](/docs/user/manual/pt/contabilidade/relatorios-acções)
