@@ -1,35 +1,35 @@
 <!-- add-breadcrumbs -->
-#How To Freeze Accounting Ledger?
+#Como Congelar Contas Razão?
 
-If you want to discontinue using specific Account, you can freeze it.
+Se voçẽ quer discontinuar usando uma conta especifica, voçê pode congelar.
 
->Account can be Frozen by the User having specific Role. This Role for set in the Account Settings, in the field "Role Allowed to Set Frozen Accounts & Edit Frozen Entries".
+>Contas podem ser congeladas pelo Usuario que tenha o Papel certo. Vá para Configuraçóes de Contabilidade, no campo "Papel Permite definifir Contas Congeladas e Editar Registos Congelados".
 
-Please check following steps to freeze an Account from the Chart of Accounts master.
+Por favor verifique os seguintes passos para congelar um Conta apartir do Plano de Contas.
 
-####Step 1: Chart of Accounts
+####Passo 1: Plano de Contas
 
-To edit an Account, go to Chart of Accounts:
+Para edicar uma conta, vá para o Planode Contas:
 
-`Explore > Accounting > Chart of Accounts`
+`Explorar > Contabilidade > Plano de Contas`
 
 <img class="screenshot" alt="Freeze Account" src="{{docs_base_url}}/assets/img/articles/freeze-account-1.png">
 
-Click on Account in which Frozen Date is to be updated.
+Clique na Conta no qual Data de Congelamento será actualizada.
 
-####Step 2: Set Account as Frozen
+####Passo 2: Defina a Conta como Congelada
 
-In the Account form, you will find a field called **Frozen**. Set value in this field as 'Yes'
+No formulario de Contas, voçê irá encontra um campo **Congelado**. Defina o valor para este campo 'Sim'
 
 <img class="screenshot" alt="Freeze Account" src="{{docs_base_url}}/assets/img/articles/freeze-account-2.png">
 
-####Step 3: Save
+####Passo 3: Salvar
 
-After update Save an Account.  
+Depois de actualizar Salve a Conta.
 
-On saving, this Account will be frozen and will not be selectable in any accounting transaction.
+Ao salvar, esta Conta ficará congelada e não será selecionada em qualquer transação de contabilidade.
 
-<div class ="well"> Note: In future, if you want to make an accounting transaction against this Account, then you can unfreeze this account by setting values in the Frozen field as 'No'.</div>
+<div class ="well"> Nota: No futuro, se voçê quiser fazer uma transação de contabilidade contra esta Conta, primeiro deve descongelar indo ao campo Congelar e pondo 'Não'.</div>
 
 
 

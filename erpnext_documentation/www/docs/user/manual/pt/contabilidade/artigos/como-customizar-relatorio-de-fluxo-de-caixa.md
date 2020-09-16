@@ -1,100 +1,96 @@
 <!-- add-breadcrumbs -->
-# How To Customise Cash Flow Report
+# Como Customizar o Relatorio Fluxo de Caixa
 
-As your chart of accounts begins to get more complex and reporting standards change and evolve, the default cash flow 
-report might no longer suffice. This is because ERPNext might not be able to accurately guess the classification and 
-purpose of all accounts in the charts of accounts. Another gripe you might have is the inability to adjust the report 
-format to fit your needs.
+Como o seu Plano de Contas começa a ficar mais complexo e normas de relatorios mudam constantemente, o relatorio fluxo de caixa padrão pode não ser suficiente. Isto porque o ERPNext pode não consiguir adivinhar a classificação e proposito de todas as contas no plano de contas. Por outra voçê pode ter de ajustar o relatorio para ir de acordo as suas necessidades.
 
-This will no longer be a problem because ERPNext now allows users to customise the cash flow report.
+Isto já não é um problema porque o ERPNext permite ao usuario customizar o relatorio de fluxo de caixa.
 
 
-## Technical Overview
-Customisation is made possible by the introduction of two new doctypes - Cash Flow Mapper and Cash Flow Mapping. Both 
-doctypes contain the information required to generate a cash flow report.
+## Revisão Tecnica
+Customização é possivel devido a introdução de dois novos tipo de doctypes - Cash Flow Mapper e Cash Flow Mapping. Ambos
+contem a informação necessario para gerar um relatorio do fluxo de caixa.
 
-Cash Flow Mapping shows how accounts in your charts of accounts map to a line item in your cash flow report while 
-Cash Flow Mapper gets all the Cash Flow Mappings that relate to the three sections of a cash flow statement.
+O Cash Flow Mapping mostra como as contas no plano de contas estã mapeadas a linha de itens no seu relatorio fluxo de caixa enquanto 
+que Cash Flow Mapper obtem todos os Cash Flow Mappings que se relacionam as três secções do extracto do fluxo de caixa.
 
-With this, you generate detailed cash flow reports to your requirements. This might not make a lot of sense but it will 
-after we go through an example.
+Com isto, voçê gera relatorios de fluxo de caixa detalhados de acordo os seus requesitos. Pode não fazer muito sentido mas depois irá quando passarmos
+por um exemplo.
 
-## Example
-### Background information
-Let's assume we have a fictitious company for which we want to generate a cash flow report.
-This is what the cash flow report looks like at the moment:
+## Exemplo
+### Informação Background
+Vamos assumir que temos uma empresa ficticia para o qual queremos gerar o relatorio de fluxo de caixa.
+Este é como o relatorio de fluxo de caixa fica no momento:
 <img alt="Default cash flow report" class="screenshot" src="{{docs_base_url}}/assets/img/articles/default-cash-flow-report.png">
 
-We don't like the report for the following reasons:
-- The reporting format is too scant.
-- The 'Net Cash From Operations' figure is wrong
+Nós não gostamos do relatorio pelas seguintes razões:
+- O formato do relatorio é feio.
+- Os numeros do 'Caixa Liquido das Operações' estão errados
 
-### Customisation Process
+### Processo de Customização
 
-We wants the Cash Flow Report to look something similar to the format in the images below:
+Nós queremos que o relatorio de Fluxo de Caixa se pareça ao formato em baixo:
 <img alt="cash flow format 1" class="screenshot" src="{{docs_base_url}}/assets/img/articles/format-1.png">
 <img alt="cash flow format 1" class="screenshot" src="{{docs_base_url}}/assets/img/articles/format-2.png">
 
-#### Activate Customised Cash Flow Report
-Do this in Accounts Settings by checking the 'Use Custom Cash Flow Format' checkbox. This will cause ERPNext to only 
-use your custom format for cash flow reports.
+#### Activar o Relatorio Customizado do Fluxo de Caixa
+Faça isto nas configurações de Contabilidade fazendo o clique na caixa 'Usar Formato Customizado do Fluxo de Caixa'. Isto fará o ERPNext usar
+somente o seu formato customizado para este relatorio.
 
-After doing that, your cash flow report should look like this:
+Depois disto, o seu relatorio de fluxo de caixa irá se parecer assim:
 <img alt="custom cash flow statement" class="screenshot" src="{{docs_base_url}}/assets/img/articles/no-mappers.png">
 
-Move to the next section to build the report.
+Mova para a proxima secção para construir o relatorio.
 
-#### Create Cash Flow Mappings
-For each line, we need to create a Cash Flow Mapping document to represent it.
+#### Criar Mapeamento do Fluxo de Caixa
+Para cada linha, nós precisamos criar um mapeamento do documento.
 
 <img alt="new cash flow mapping form" class="screenshot" src="{{docs_base_url}}/assets/img/articles/new-cash-flow-mapping.png">
 
-You can think of the Cash Flow Mapping as a representation of each line in the cash flow report. A Cash Flow Mapping 
-is a child of a Cash Flow Mapper which will be explained later. 
+Voçê pode pensar no Mapeamento do Fluxo de Caixa como a representação de cada linha no relatorio. Um Mapeamento do Fluxo de Caixa
+é um filho do Cash Flow Mapper que será explicado depois. 
 
-Let's start by creating Cash Flow Mappings that will represent the add back of non cash expenses already recodgnised in
-the Profit or Loss statement. We want them to appear on the cash statement as:
-- Income taxes recognised in profit or loss
-- Finance costs recognised in profit or loss
-- Depreciation of non-current assets
+Vamos começar por criar o Mapeamento Fluxo de Caixa que ira representar despesas de caixa reconhecidas no extracto
+de Lucros e Perdas. Nós queremos que apareçam no extracto de caixa como:
+- Recebimentos de Impostos reconhecidos nos lucros ou perdas
+- Custos Financeiros reconhecidos no lucros ou perdas
+- Depreciação de activos não correntes
 
-Start by opening a new Cash Flow Mapping form.
+Começe por abrir um novo formulario Mapeamento Fluxo de Caixa.
 
-The fields in the Cash Flow Mapping doctype are:
-- **Name**: This something to identify this document. Name it something related to the label
-- **Label**: This is what will show in the cash flow statement
-- **Accounts**: This table contains all the accounts which this line relates to.
+Os campos no doctype Mapeados do Fluxo de Caixa são:
+- **Nome**: É algo para identificar o documento. Nome é algo relacionado ao label
+- **Label**: Este é o que irá aparecer no extracto do fluxo de caixa
+- **Contas**: Esta tabela contem todas as contas que esta linha se relaciona com.
 
-With this information, let's go ahead and create the Cash Flow Mapping Document for the line 'Income taxes recognised in profit or loss'
+Com esta informação, vamos em frente e criar o Documento Mapeamento Fluxo de Caixa para a linha 'Recebimentos de Impostos reconhecidos em lucro ou perdas'
 
 <img alt="custom cash flow statement" class="screenshot" src="{{docs_base_url}}/assets/img/articles/cash-flow-mapping-1.png">
 
-I have named it 'Income Tax Charge' and given it a label 'Income taxes recognised in profit or loss'. We want this 
-line to reflect income tax charges from our profit or loss statement. The account where this happens in our chart 
-of account is named 'Income Taxes' (an expense) so I have added 'Income Taxes' into the accounts table. If you have 
-more accounts representing income tax expenses, you should add all of them here.
+Eu dei o nome de 'Taxa de Imposto de Recebimentos' e dei o label 'Recebimentos de Impostos reconhecidos em lucro ou perdas'. Nós queremos esta
+linha para reflectir Taxas de Impostos de Recebimentos dos extractos dos nossos lucros ou perdas. A conta aonde acontece no nosso grafico plano de
+contas é 'Imposto de Recebimentos' (uma despesa) que i adicionei 'Imposto de Recebimentos' na tabela de contas. Se voçẽ tiver mais
+contas representando Imposto de despesas de recebimentos, voçê deve adicionar todos aqui.
 
-Because Income Tax expense needs to be adjusted further in the cash flow statement, check the 'Is Income Tax Expense' 
-checkbox. This is what will help ERPNext properly calculate the adjustments to be made.
+Porque Imposto de Despeas de Recebimento precisa ser ajustado no extracto de fluxo de caixa, verifique a caixa 'É um Imposto de Despesa de Recebimento'.
+Assim será o que irá ajudar o ERPNext a calcular correctamente os ajustamentos a serem feitos.
 
-*For best results, let parent accounts have child accounts that have the same treatment for cash flow reporting 
-purposes because ERPNext will calculate net change of all children accounts in a situation where the selected account 
-is a parent account.* 
+*Para melhores resultados, deixe as contas mãe ter contas filho que tem o mesmo tratamento para o relatorio fluxo de caixa
+porque o ERPNext irá calcular a alteração liquida de todas as contas filho numa situação aonde as contas selecionadas são contas mãe.* 
 
-In the same way, I have created for the remaining two mappings.
+Da mesma forma, que eu criei os outros dois mapeamentos em falta.
 
 <img alt="custom cash flow statement" class="screenshot" src="{{docs_base_url}}/assets/img/articles/cash-flow-mapping-2.png">
 
-Finance costs also need to be adjusted so make sure to check the 'Is Finance Cost' checkbox.
+Custo Financeiro tambem precisa de ser ajustado portanto tenha a certeza de marcar a caixa 'É Custo Financeiro'.
 
 <img alt="custom cash flow statement" class="screenshot" src="{{docs_base_url}}/assets/img/articles/cash-flow-mapping-3.png">
 
-Next let's add Cash Flow Mapping for items that show changes in working capital:
-- Increase/(decrease) in other liabilities
-- (Increase)/decrease in trade and other receivables
-- Increase/(decrease) in trade and other payables
-- VAT payable
-- (Increase)/decrease in inventory
+Proximo iremos adicionar o Mapeamento Fluxo de Caixa para itens que mostram alterações no Capital Corrente:
+- Aumento/(redução) em outras responsabilidades
+- (Aumento)/redução em trocas e outros recebimentos
+- Aumento/(redução) em trocas e outros pagamentos
+- Pagamento IVA
+- (Aumento)/redução em inventario
 
 <img alt="custom cash flow statement" class="screenshot" src="{{docs_base_url}}/assets/img/articles/cash-flow-mapping-4.png">
 
@@ -106,44 +102,42 @@ Next let's add Cash Flow Mapping for items that show changes in working capital:
 
 <img alt="custom cash flow statement" class="screenshot" src="{{docs_base_url}}/assets/img/articles/cash-flow-mapping-8.png">
 
-Don't forget to tell ERPNext that these mappings represent changes in working capital by checking the 'Is Working 
-Capital' checkbox.
+Não se esqueça de dizer ao ERPNext que estes mapeamentos representam alterações ao long do capital em curso selecionando a caixa 'É Captial em Curso´.
 
-At this point we have created all the mappings necessary for the Operating Activities section of our cash flow 
-statement. However, ERPNext doesn't know that yet until we create Cash Flow Mapper documents. We'll create Cash Flow 
-Mapper documents next.
+Neste momento nós criamos todos os mapeamentos necessários para a secção de Operações de Actividades para o nosso extracto dofluxo de caixa.
+Contudo, o ERPNext não sabe que criamos documentos de Mapeamento de Fluxo de Caixa. Nós iremos criar os documentos de Fluxo de Caixa a seguir.
 
 
-#### Create Cash Flow Mappers
-Cash Flow Mappers represents the sections of the cash flow statement. A standard cash flow statement has only three 
-sections so when you view the Cash Flow Mapper list, you will that three have been created for you named:
-- Operating Activities
-- Financing Activities 
-- Investing Activities 
+#### Criar Mapeamentos Fluxo de Caixa
+Mapeamento Fluxo de Caixa representam secções no extracto de fluxo de caixa. Um extracto normal do fluxo de caixa tem trê secções
+portanto quando vir a lista de Mapeamentto, irá ver que foram criados três :
+- Actividades de Operações
+- Actividades Financeiras
+- Actividades de Investimento
 
-You will not be able to add or remove any of them but they are editable and can be renamed.
+Voçẽ não poderá adiconar ou remover qualquer um mas eles podem ser editados e renomeados.
 <img alt="cash flow mapper list" class="screenshot" src="{{docs_base_url}}/assets/img/articles/cash-flow-mapper-2.png">
 
 
-Open the Operating Activities Cash Flow Mapper so we can add the Cash Flow Mappings we have created.
+Abra Operação de Actividades de Mapeamento de Fluxo de Caixa para que possamos adiconar os mapeamentos criados.
 
 
-- **Section Name**: This is the heading of the section.
-- **Section Leader**: This is the first sub-header immediately after the profit figure. Relates only to Operating 
-Activities Cash Flow Mapper
-- **Section Subtotal**: This is the label for subtotal in the cash flow statement section. Relates only to Operating 
-Activities Cash Flow Mapper
-- **Section Footer**: This is the label for the total in the cash flow statement section.
-- **Mapping**: This table contains all the Cash Flow Mappings related to the Cash Flow Mapper.
+- **Nome da Secção**: Este é o cabeçalho da secção.
+- **Leader da Secção**: Este é o primeiro Sub-cabeçalho depois dos numeros de lucro. Referentes somente as Operações de Actividades do Mapeamento
+Fluxo de Caixa
+- **Secçao Subtotal**: Este é o label para o subtotal na secção do extracto do fluxo de caixa. Referente somente as Operações de Actividades
+do Mapeamento do Fluxo de Caixa
+- **Secção do Rodapé**: Este é o label para o total na secção do extracto do fluxo de caixa.
+- **Mapeamento**: Esta tabela contem todos os Mapeamentos de Fluxo de Caixa referentes ao Cash Flow Mapper.
 
-Now add all the Cash Flow Mappings you have created and Save. You should have something like this:
+Agora todos os Mapeamentos foram criados e salvos. Voçẽ deve ter algo assim:
 <img alt="cash flow mapper for operating activities" class="screenshot" src="{{docs_base_url}}/assets/img/articles/cash-flow-mapper-4.png">
 
- Refresh the cash flow statement and view the changes.
+ Recarregue o extracto de fluxo de caixa e verifique as modificações.
 <img alt="updated cash flow report" class="screenshot" src="{{docs_base_url}}/assets/img/articles/cash-flow-mapper-3.png">
 
-Looks close to our requirements but we are not done yet. Create new mappings for 'Investing Activities' and 'Financing 
-Activities' sections of the cash flow statement.
+Esta proximo as requesitos mas ainda falta. Crie um novo mapeamento para as secções 'Actividades de Investimento' e 'Actividades de Financiamento' 
+para o extracto do fluxo de caixa.
 
 <img alt="cash flow mapping" class="screenshot" src="{{docs_base_url}}/assets/img/articles/cash-flow-mapping-9.png">
 
@@ -153,5 +147,5 @@ Activities' sections of the cash flow statement.
 
 <img alt="cash flow mapper for operating activities" class="screenshot" src="{{docs_base_url}}/assets/img/articles/cash-flow-mapper-6.png">
 
-Here's what our cash flow statement now looks like:
+Aqui esta como o nosso extracto de fluxo de caixa se parece:
 <img alt="final cash flow statement" class="screenshot" src="{{docs_base_url}}/assets/img/articles/final-cash-flow.png">

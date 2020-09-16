@@ -1,17 +1,17 @@
 <!-- add-breadcrumbs -->
-# Exchange Rate Field Frozen
+# Campo Taxa de Cambio Congelado
 
-In ERPNext, you can fetch Exchange Rates between currencies in real-time, or save specific exchange rates as well. In ERPNext, saved exchange rates are also referred as Stale Exchange Rate.
+No ERPNext, voçê pode procurar a Taxa de Cambio entre moedas, ou salvar a taxa de cambio especifica. No ERPNext, taxas de cambio salvas são referenciadas como Taxas de Cambio Obsoletas.
 
-In your sales and purchase transactions, if the field of Currency Exchange Rate is frozen, that is because the feature of allowing stale exchange rates in transactions is enabled. To you wish to make Currency Exchange Rate field editable again, then disable the feature of Stale Exchange Rate from:
+Nas suas transações de venda e compra, se o campo da Taxa de Cambio é obsoleta, quer dizer que a funcionalidade de taxas de cambio obsoletas em transações está activa. Se quiser activar o campo Taxa de Cambio novamente, então desactive a opção Taxa de Cambio Obsoleta em:
 
-* Accounts > Setup > Accounts Settings
-* Uncheck field "Allow Stale Exchange Rates".
+* Contabilidade > Configurações > Configurações de Contabilidade
+* Desmarque o campo "Permitir Taxas de Cambio Obsoletas".
     <img class="screenshot" alt="Exchange Rate Frozen" src="{{docs_base_url}}/assets/img/accounts/exchange-rate-frozen.png">
-* Save Account Settings
-* Refresh your ERPNext account
-* Check Sales / Purchase transaction once again
+* Salvar Configurações de Contabilidade
+* Recaregue o seu Plano de Contas
+* Verifique as transações de Venda / Compras novamente
 
-After this setting, the Exchange Rate field in the transactions should become editable once again.
+Depois desta configuração, o campo Taxa de Cambio em transações ficará disponivel para edição novamente.
 
 {next}
