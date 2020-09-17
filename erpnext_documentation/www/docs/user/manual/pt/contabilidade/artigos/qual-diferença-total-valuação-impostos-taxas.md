@@ -1,36 +1,36 @@
 <!-- add-breadcrumbs -->
-#Purchase Tax or Charges Categories
+# Categoria de Impostos e Taxas para Compras
 
-Consider Tax or Charge field in Purchase Taxes and Charges master has three values.
+Considere que o campo Impostos ou Taxas em Compras Impostos e Taxas tenha trê valores.
 
 - Total
-- Valuation
-- Total and Valuation
+- Avaliação
+- Total e Avaliação
 
 <img alt="Purchase Tax and Charges Categories" class="screenshot" src="{{docs_base_url}}/assets/img/articles/purchase-other-charges-1.png">
 
-Let's consider an example to understand an effect of each charge type. We purchase ten units of item, at the rate of 800. total purchase amount is 800. Purchased item has 4% VAT applied on it, and INR 100 was incurred in transportation.
+Vamos considerar o exemplo para entender o efeito do tipo de cada taxa. Vamos comprar dez unidades de um item, ao preço de 800. Valor total da compra é de 800. Itens comprados tem IVA de 4%, e INR 100 de taxa de transporte.
 
 ####Total:
 
-Tax or Charge categorized as **Total** will be included in the total of purchase transactions. But it will not have impact on the valuation of item purchased.
+Imposto ou Taxas categorizadas como **Total** será incluido no total das transações de compra. Mas não terá impacto no preço de Avaliação do item comprado.
 
-If VAT 4% is applied on item, it will amount to INR 32 (at item's based rate is 800). Since VAT is the consumption tax, its should be added value of Purchase Order/Invoice, since it will be included in payable towards supplier. But its should not be added to the value of Purchased item.
+Se o IVA 4% é aplicado a um item, terá uma valor de INR 32 (o preço base de 800). Então o IVA é a taxa de consumo, dever ser valor adicionado da Ordem de Compra/Factura, vendo que será incluido nos a pagar para o fornecedor. Mas não deve ser adicionado ao valor do item comprado.
 
-When Purchase Invoice is submitted, general ledger posting will be done for tax/charge categorized as Total.
+Quando uma Factura de Compra é submetida, o razão geral postado sera feito para categorizar o Total do Imposto/Taxa.
 
-####Valuation:
+####Avaliação:
 
-Tax or charge categorized as **Valuation** will be added in the value of purchased item, but not in the total of that purchase transaction.
+Imposto ou Taxa categorizada como **Avaliação** será adicionada ao valor do item comprado, mas não no total da transação da compra.
 
-Transportation charge of INR 100 should be categorized as valuation. With this, the value of purchased item will be increased from 800 to 900. Also, this charge will be not be added to the total of purchase transaction, because it your expense, and should not be reflected to the supplier.
+Taxas de transporte de INR 100 deve ser categorizado como avaliação. Com isto, o valor do item comprado irá aumentar de 800 para 900. Tambem, a taxa não será adiconada ao total das transações da compra, porque a sua despesa, não deve ser reflectida ao fornecedor.
 
-Check [here](/docs/user/manual/en/stock/perpetual-inventory) to learn general posting done for expense categorized as Valuation.
+Verique [aqui](/docs/user/manual/pt/inventario/perpetual-inventory) para aprender sobre despesa categorizada como Avaliação.
 
-####Total and Valuation:
+####Total e Avaliação:
 
-Tax or Charge categorized as for **Total and Valuation** will be added in the valuation of item, as well as in the totals of purchase transactions.
+Imposto ou Taxa categorizadas como **Total e Avaliação** será adicionada a avaliação do item, vem como nos totais de transação de compras.
 
-Let's assume that transportion is arranged by our supplier, but we need to pay transportation charges to them. In that case, for transportation charges, category selected should be Total and Valuation. With this, INR 100 transportation charge will be added to the actual purchase amount 800. Also, INR 100 will reflect in the total, as it will be payable for us towards supplier.
+Vamos assumir que o transporte foi arranjado pelo fornecedor, mas nós precisamos pagar as taxas a eles. Neste caso, taxa de transporte, categoria selecionada deve ser Total e Avaliação. Com isto,  INR 100 taxa de transporte será adiconado ao valor da compra de 800. Tambem, INR 100 irá reflectir no total, como será a pagar para nós para com o fornecedor.
 
 {next}

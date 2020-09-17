@@ -1,31 +1,31 @@
 <!-- add-breadcrumbs -->
-# Merging Accounts
+# Unir Contas
 
-For an account, if you have two records that are identical, and are meant for a common purpose, you can merge them into one record.
+Para uma conta, se voçê tiver dois registos iguais, e são para o mesmo fim, voçê pode juntar/mesclar num unico registo.
 
-Following are steps to merge two accounts.
+De seguida os passos para unir duas contas.
 
-#### Step 1: Go to Chart of Accounts
+#### Passo 1: Vá para o Plano de Contas
 
-Accounts > Documents > Chart of Accounts
+Contabilide > Mestre Contabil > Plano de Contas
 
-#### Step 2: Go to Account 
+#### Passo 2: Vá para a Conta
 
-Click on the account that you wish to merge with another document, and then click on the 'Edit' option.
+Selecione a conta que pretende juntar com a outra, e depois faça Editar.
 
-![Merging Documents](/docs/assets/img/using-erpnext/using-merge-documents-1.png)
+![Juntandos Documentos](/docs/assets/img/using-erpnext/using-merge-documents-1.png)
 
-#### Step 3: Merge Account
+#### Passo 3: Unir/Mesclar Conta
 
-The document will open with different options present on the top. Click on 'Merge Account'. Enter the name of the account with which you want to merge the existing account.
+O documento será aberto com opções diferentes no top. Clique em 'Mesclar Contas'. Digite o nome da conta que deseja unir com a existente.
 
-![Merging Documents](/docs/assets/img/using-erpnext/using-merge-documents-2.gif)
+![Juntando Documentos](/docs/assets/img/using-erpnext/using-merge-documents-2.gif)
 
-### Effect of Merging
+### Efeitos ao Unir/Mesclar
 
-After Account is merged, the new name is updated in the existing transactions where an old account was selected.
+Depois da Conta unida, a nova conta será actualizada as transações aonde a antiga estava.
 
-> Group Account cannot be merged into Child Account and vice versa.
+> Grupo de Contas não pode ser unida para Contas Filho e vice versa.
 
 {next}
 <!-- markdown -->

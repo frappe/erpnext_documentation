@@ -1,107 +1,98 @@
 <!-- add-breadcrumbs -->
-# How To Manage Subscriptions With ERPNext
+# Como Gerir Subscrições com o ERPNext
 
-ERPNext now allows you to manage your subscriptions easily. A single subscription can contain multiple plans. At 
-the same time, A single subscriber can also have multiple subscriptions. ERPNext also automatically manages your 
-subscriptions for you by generating new invoices when due and changing the subscription status for you.
+O ERPNext agora permite gerir as suas subscriçãoes de forma facil. Uma simples subscrição pode conter varios planos. Ao mesmo tempo, 
+uma unica subscrição pode ter varias subscrições. O ERPNext tambem gere automaticamente as suas subscrições gerando novas facturas 
+quando proximo de expirar e alterando o Status para voçê.
 
-## Related Doctypes
-### Subscriber
-Like its name suggests, the Subscriber Doctype represents your subscribers and each record is linked to a single
-Customer.
+## Doctypes Relacionados
+### Subscritor
+Como o nome sugere, o Doctype subscritor representa os seu subscritores e cada regist está ligado a um unico Cliente.
 
 <img alt="Subscriber form" class="screenshot" src="{{docs_base_url}}/assets/img/articles/subscriber.png">
 
-### Subscription Plan
-Each Subscription Plan is linked to a single Item and contains billing and pricing information on the Item. You can have 
-multiple Subscription Plans for a single Item. An example of a situation where you would want this is where you have 
-different prices for the same Item like when you have a basic option and premium option for a service.
+### Plano de Subscrição
+Cada Plnao de Subscrição esta ligado a um unito Item e contem cobranças e informação de preços em cada Item. Voçê pode ter varios planos
+ de subscrição para um unico Item. Um exemplo é a situação aonde voçê quer isto e quer preços diferentes para o mesmo Item como quando voçê 
+ tem um opção basica e uma opção Premio para um serviço.
 
 <img alt="Subscription Plan Form" class="screenshot" src="{{docs_base_url}}/assets/img/articles/subscription-plan.png">
 
-### Subscription Settings
-Subscription Settings is where you tweak the behaviour of the Subscription Doctype. For example, you can set a grace 
-period for overdue invoices from it. You can also elect to have a subscription cancelled if an overdue invoice is not 
-paid after the grace period.
+### Configurações de Subscrição
+Configurações de Subscrição é aonde voçê mexe com o comportamento do Dcotype da Subscrição. Por exemplo, voçê pode definir o tempo de graça para um factura.
+Voçê pode tambem eleger ter uma subscrição cancelada se o periodo de tempo da factura expirou e não está paga..
 
 <img alt="Subscription Settings Form" class="screenshot" src="{{docs_base_url}}/assets/img/articles/subscription-settings.png">
 
-## Creating A Subscription
-To create a Subscription, go to the Subscription creation form
-`Explore > Accounting > Subscriptions`
+## Criando uma Subcrição
+Para criar uma subcrição, vá para o formulario de Subscrição
+`Explorar > Contabilidade > Subscrições`
 
 <img alt="Subscription form" class="screenshot" src="{{docs_base_url}}/assets/img/articles/subscription-1.png">
 
-Select a Subscriber.
+Selecione um Subscritor.
 
-If you want to cancel a subscription at the end of the present billing cycle, check the 'Cancel At End Of Period' 
-check box.
+Se voçê quer cancel a Subscrição no fim do present ciclo de cobrança, verifique a caixa 'Cancelar no Fim do Periodo'.
 
-Select the start date for the subscription. By default, the start date is today's date. (Optional).
+Selecione a Data de Inicio da subscrição. Por defeito, a data de inicio será a de hoje. (Opcional).
 
-If you are giving the subscriber a trial, enter the Trial Period Start Date and Trial Period End Date.
+Se voçê estiver a dar uma subscrição de borla, digite o periodo de borla, Data de Inicio e Fim.
 
-If your invoice is not payable immediately, you can set the number of days before the invoice will be due in the 
-'Days Until Due' field.
+Se a sua factura não estiver paga, voçê pode definir o numero de dias antes da factura expirar no campo 'Dias Até Expirar'.
 
-If you require more than one unit of a plan, set it in the 'Quantity' field. For instance, a web developer is subscribed 
-to your web hosting service. The developer buys a plan for each customer. Instead of having multiple subscriptions for 
-the same plan, you can simply increase the quantity as needed.
+Se voçê precisa mais do que um plano, defina a 'Quantidade' no campo. Por exemplo, um desenvolvedor de Pagina está subscrito no seu serviço de hospedagem.
+O desenvolvedor compra o plano para cliente. Em vez de ter varias subscrições para o mesmo plano, voçê pode simplesmente autmentar a quantidade necessaria.
 
-In the 'Plan' table, add Subscription Plans as required. You may have multiple Subscription Plans in a single 
-Subscription as long as they all have the same billing period cycle. If the same Subscriber needs to subscribe to 
-plans with different billing cycles, you will have to use a separate subscription.
+Na table 'Plano', adicione os Planos de Subscrição necessarios. Voçê poide ter varios Planos de Subscrição numa unica Subscrição o tempo que durar o seu 
+ciclo de cobrança. Se o mesmo Subscritor precisar de planos diferentes com ciclos de cobrança diferente, voçê terá de usar uma subscrição separada.
 
-Select a Sales Taxes and Charges Template if you need to charge tax in your invoices.
+Selecione o Modelo de Impostos e Taxas de Venda se voçê precisa cobrar impostos nas suas facturas.
 
-Fill the relevant fields in the 'Discounts' section if you need to add discounts to your invoices.
+Preencha os campos necessarios na secção 'Descontos' se voçê precisa adicionar descontos as suas facturas.
 
-Click Save.
+Clique em Salvar.
 
-### Subscription Status
-ERPNext Subscription has five status values:
-- **Trialling** - A subscription that is in trial period
-- **Active** - A subscription that does not have any unpaid invoice
-- **Past Due** -  A subscription whose most recent invoice is unpaid but is still within the grace period
-- **Unpaid** - A subscription whose most recent invoice is unpaid and past the grace period
-- **Canceled** - A subscription whose most recent invoice is unpaid and past the grace period. In this state, ERPNext no longer monitors the subscription.
+### Status das Subscrições
+As Subscrições no ERPNext tem cinco valores de estado:
+- **Testando** - Uma subscrição que está em modo de testes
+- **Activo** - Uma subscrição que não tem facturas não pagas
+- **Expirada** - Uma subscrição na qual maioria das facturas não está paga mas dentro do periodo da data de expiração
+- **Não Paga** - Uma subscrição no qual as facturas mais recentes não estão pagas e passou do periodo da data de expiração
+- **Cancelada** - Uma subscrição na qual as factura mais recentes não estão pagas e passou do periodo da data de expiração. Neste estado, o ERPNext já não monotoriza a subscrição.
 
-### Subscription Processing In The Background
-Every one hour interval, ERPNext processes all Subscriptions and updates each for any change in status. It will 
-create new invoices if need be. When an outstanding invoice is paid, ERPNext updates the subscription accordingly.
+### Processamento da Subscrição no Background
+A cada hora de intervalo, o ERPNext processa todas as Subscrições e actualiza cada alteração no estado. Irá criar facturas caso necessário. Quando facturas pendenntes são pagas, o ERPNext actualiza o estado das subscrições de acordo.
 
-### Manually Updating Subscriptions
-Once you have saved a subscription, you can change the 'Days Until Due', 'Quantity', 'Plans', 'Sales Taxes and Charges 
-Template', 'Apply Additional Discount On', 'Additional Discount Percentage' and 'Additional Discount Amount' fields.
+### Actualizar Subscrições Manualmente
+Uma vez que salvou as subscrições, voçê pode alterar os campos 'Dias Até Expirar', 'Quantidade', 'Planos', 'Modelo de Impostos e Taxas de Vendas', 
+'Aplicar Desconto Adiconal Em', 'Percentagem de Desconto Adicional' e 'Valor de Desconto Adicional'.
 
-Note that changing any of the values will reflect in newly generated invoices only. Previously generated invoices will 
-not be changed.
+De notar que alterar qualquer valor irá reflectir somente nas novas Facturas. As facturas geradas anteriormente não sofrem qualquer alteração.
 
-### Cancelling Subscriptions
-To cancel a Subscription, simply click the 'Cancel Subscription' button. The subscription will update its 'Cancellation 
-Date' field and the subscription will no longer be monitored.
+### Cancelando Subscrições
+Para cancelar uma subscrição, simplesmente clique no botão 'Cancelar Subscrição'. A subscrição irá actualizar o seu campo 'Data de Cancelamento'
+e a subscrição já não será monotorizada.
 
-If you are cancelling an active subscription, an invoice will immediately be generated. The generated invoice will be on 
-pro-rata basis by default. If you want ERPNext always create an invoice for the full amount, uncheck the 'Prorate' field 
-in Subsciption Settings.
+Se voçê cancelou uma subscrição activa, a factura será gerada imediatamente. A factura gerara será feita na base 
+pro-rata por defeito. Se voçê quer que o ERPNext sempre crie as facturas pelo valor completo, remova a seleção no campo 'Prorate'
+nas Configurações de Subscrição.
 
-### Restarting Subscriptions
-To restart a canceled subscription, simply click the 'Restart Subscription' button. Note the Subscription will empty 
-its invoices table. Note that the invoices will still exist but the Subscription will no longer track them. The start 
-date of the subscription will also be changed to the date the Subscription is restarted. The start of the billing 
-cycle will also be set to the date the Subscription is restarted.
+### Recomeçando as Subscrições
+Para recomeçar uma subscrição cancelada, basta simplesmente fazer o clique no botão 'Recomeçar a Subscrição'. De notar que a subscrição irá apagar a tabela de facturas. 
+Note que as factura ainda existiram mas a Subscrição já não irá restrear. A Data de inicio da subscrição tambem irá mudar para a data em a Subscrição foi reiniciada.
+O inicio do ciclo de cobrança tambem será definido para a Data de reinicio da Subscrição.
 
-### Recalculating Subscriptions
-Some times, a Subscription's status might have changed but might not yet be reflected in the Subscription. You can force 
-ERPNext to update the subscription by clicking 'Fetch Subscription Updates'.
+### Recalculando a Subscrição
+Algumas vezez, o estado da Subscrição pode ser altarado mas pode não ser reflectido na Subscrição. Voçê pode forçar o ERPNext a actualizar a subscrição fazer o clique 
+'Obter Actualização das Subscrições'.
 
-### Subscription Settings
-**Grace Period** represents the number of days after a subscriber's invoice becomes overdue that ERPNext should delay 
-before changing the Subscription status to 'Canceled' or 'Unpaid'.
+### Configurações de Subscrição
+**Periodo de Graça** representa o numero de dias após uma factura de subscrição expirar que o ERPNext deve atrasar antes de mudar o estado da subscrição para 
+'Cancelado' ou 'Não Paga'.
 
-**Cancel Invoice After Grace Period** would cause ERPNext to automatically cancel a subscription if it is not paid before the grace period elapses. This setting is off by default.
+**Cancelar uma Factura Depois do Periodo de Graça** irá fazar com que o ERPNext automaticamente cancele uma subscrição caso não esteja paga antes dos termino do periodo. Esta configuração está desactiva por defeito.
 
-**Prorate** would cause ERPNext to generate a prorated invoice when an active subscription is canceled by default. 
-If you would prefer a full invoice, uncheck the setting.
+**Pro rata** irá fazer com que o ERPNext gere uma factura pro rata quando uma subscrição activa é cancelada por defeito.
+Se preferir uma factura completa, desactive esta opção nas configurações.
 
 {next}

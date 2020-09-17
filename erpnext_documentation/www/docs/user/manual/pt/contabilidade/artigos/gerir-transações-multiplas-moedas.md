@@ -1,34 +1,34 @@
 <!-- add-breadcrumbs -->
-#Managing Transactions In Multiple Currency
+# Gerindo Transações em Mutlipla Moedas
 
-In ERPNext, transactions can be created in the base currency as well as in parties' (customer or supplier) currency. If the transaction is created in the parties' currency, their currency symbol is updated in the print format as well.
+No ERPNext, transações podem ser criadas na moeda base como das partes (clientes ou fornecedores). Se a transação foi criada na moeda da parte, o simbolo da moeda é actualizado no formato de impressão.
 
-If you are quoting to a Customer in a different currency, you will have to update the conversion rates to enable ERPNext to save the information in your standard currency. This will help you to analyze the value of your Quotations in your currency.
+Se voçê estiver a fazer uma proforma pra um Cliente em moeda diferente, voçêo irá ter que actualizar a taxa da cambio para permitir o ERPNext salvar a informação na sua moeda base. Isto irá ajudar a analizar as suas Proformas na sua moeda.
 
-Let's consider a Sales Invoice, where your base currency is USD and party currency is EUR.
+Vamos confiderar a Factura de Venda, aonde a sua moeda base é USD e da parte é EUR.
 
-1. Create a new Sales Invoice: **Home > Accounting > Billing > Sales Invoice > New**.
+1. Crie a nova Factura de Venda: **Home > Contabilidade > Contas a Receber > Factura de Vendas > Nova**.
 
-1. Select Customer from the Customer master. If default Currency is updated in the Customer master, it'll be fetched here.
+1. Selecione o Clinte. Se tiver moeda padrão na ficha do Cliente será usada.
 
-1. Currency Exchange between base currency and customer currency will auto-fetched.
+1. Taxa de Cambio entre a moeda base e do cliente serão inseridos.
 
     <img alt="Accounts Frozen Date" class="screenshot" src="{{docs_base_url}}/assets/img/articles/multiple-currency-1.png">
 
-1. Update other details like Item, Taxes, Terms. In the Taxes and other Charges table. Charges of type Actual should be updated in the Customer's currency.
+1. Actualize os detalhes como Item, Impostos, Termos. Em impostos e outras taxas. Taxas serão actualizadas de acordo a moeda do Cliente.
 
-1. Save Sales Invoice and then check Print Format. For all the Currency field (rate, amount, totals) Customer's Currency symbol will be updated as well.
+1. Salvar a Factura de Venda e verificar a impressão. para todos os campos de Moeda (preço, valor totais) irá mostrar na moeda do Cliente.
 
     <img alt="Accounts Frozen Date" class="screenshot" src="{{docs_base_url}}/assets/img/articles/multiple-currency-2.png">
 
-## Currency Exchange Masters
+## Ficha de Taxa de Cambios
 
-If you have come to terms with party to follow standard exchange rate throughout, you can capture it by creating a Currency Exchange master. To create one, go to:
+Se voçê chegou a condições com a parte para usar taxa de cambio normal, voçê pode guardar na tabela de Taxa de Cambios. Para criar, vá para:
 
-> Home > Accounting > Settings > Currency Exchange
+> Home > Contabilidade > Multiplas Moedas > Taxa de Cambio
 
-In ERPNext, real-time exchange rates are fetched.
+No ERPNext, taxas de cambio real são inseridas.
 
-**Note**: If you create a Currency Exchange master with a specific rate, it will be given preference over real-time exchange rates. For example, if you set $1 = ₹65 in Currency Exchange, then even if live rate is ₹69, ₹65 will be used in transactions.
+**Nota**: Se voçê criar uma Taxa de Cambio com um valor especifico, será usado em vez das taxas de cambio online. Por exemplo, se definir que $1 = ₹65 na Taxa de Cambio, e se online for ₹69, ₹65 será usado nas transações.
 
 {next}

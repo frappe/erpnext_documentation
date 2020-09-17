@@ -1,23 +1,23 @@
 <!-- add-breadcrumbs -->
-#Freeze Accounting Entries
+#Congelar os Lançamentos Contabilisticos
 
-To freeze accounting entries upto a certain date, follow below given steps.
+Para congelar os lançamentos Contabilisticos até uma certa data, siga os passos.
 
-#### Step 1: Go to:
+#### Passo 1: Vá para:
 
-`Accounts > Setup > Accounts Settings`
+`Contabilidade > Configuração > Configurações de Contabilidade`
 
-#### Step 2: Set Date
+#### Passo 2: Defina a Data
 
-Set date in the **Accounts Frozen Upto** field.
+Defina a data no campo **Contas congeladas Até**.
 
 <img alt="Accounts Frozen Date" class="screenshot" src="{{docs_base_url}}/assets/img/articles/frozen-date-1.png">
 
-Now, the system will not allow to make any accounting entries before set date. If at all someone tries creating entries, system will show error message as below.
+Agora, o sistema não irá permitir fazer qualquer transação antes desta data. Se por acaso alguem tentar criar lançamento contabilisticos, o sistema irá mostra uma mensagem de erro.
 
 <img alt="Frozen Date Error" class="screenshot" src="{{docs_base_url}}/assets/img/articles/frozen-date-2.png">
 
-You can still allow user with certain role to create/edit entries within accounts frozen date. You can set that Role in the Account Settings itself.
+Voçê pode permitir o usuario com o papel para criar/ediar registo dentro das datas congeladas. Pode definir esse Papel nas Configurações de Contabilidade.
 
 <img alt="Frozen Date Error" class="screenshot" src="{{docs_base_url}}/assets/img/articles/frozen-date-3.png">
 

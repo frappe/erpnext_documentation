@@ -1,25 +1,25 @@
 <!-- add-breadcrumbs -->
-# Manage Foreign Exchange Difference
+# Gerir a Diferença de Cambio de Moedas
 
-In ERPNext, you can create transactions in the foriegn currency as well. When creating transaction in the foreign currency, system updates current exchanage rate with respect to customer/supplier's currency and base currency on your Company. Since Exchange Rate is always flucuating, on might receive payment from the client on exchange rate different from one mentioned in the Sales/Purchase Invoice. Following is the intruction on how to manage different amount avail in payment entry due to exchange rate change.
+No ERPNext, voçẽ pode gerir transações em moeda estrangeira tambem. Quando criar uma transação em moeda estrangeira, o sistema actualiza a taxa de cambio com a moeda do respectivo cliente/fornecedor e a moeda base da empresa. Vendo que a taxa de cambio esta sempre a mudar, pode receber um pagamento de um cliente num cambio diferente do que foi mencionado na factura de Vendas/Compras. De seguidas as instruções de como gerir valores diferentes no registo de pagamento devido a taxa de cambio.
 
-#### Add Expense Account
+#### Adicione Conta de Despesa
 
-To mange currency difference, create Account **Foreign Exchange Gain/Loss**. This account is generally created on the Expense side of P&L statement. However, you can place it under another group as per your accounting requirement.
+Para gerir a diferença de moeda, crie a Conta **Moeda Estrangeira Ganho/Perda**. Esta conta é geralmente criada no extracto de Despesas ao lado P&L. Contudo, voçê pode posicionar em qualquer grupo de acordo o requesito de contabildade.
 
 <img alt="Accounts Frozen Date" class="screenshot" src="{{docs_base_url}}/assets/img/articles/exchange-rate-difference-1.png">
 
-#### Book Payment Entry
+#### Alocar Registo de Pagamento
 
-In the payment voucher, update invoice amount against Customer or Supplier account, then update actual payment amount against Bank/Cash account. Add new row and select Foreign Exchange Gain/Loss to update currency difference amount.
+No voucher do pagamento, actualize o valor contra a conta do Cliente ou Fornecedor, depois actualize o valor do pagamento actual contra a conta Banco/Dinheiro. Adicione uma linha e selecione Moeda Extrangeira Ganho/Perda para actualizar a diferença do valor da moeda.
 
-In the below scenario, Sales Invoice was made EUR, at the exchange rate of 1.090. As per this rate, Sales Invoice amount in USD (base currency) was $1000.
+No cenario seguinte, Factura de Venda foi feita em EUR, ao cambio de 1.090. A este cambio, o valor da Factura de Venda em USD (moeda base) foi $1000.
 
-One receipt of payment, exchange rate changed. As per the new exchange rate, payment received in the base currency was $1080. This means gain of $80 due to change in exchange rate. Following is how Foreign Exchange Gain will be booked in this scenerio.
+Um recibo de pagamento, taxa de cambio alterou. De acordo a nova taxa de cambio, pagamento recebido na moeda base foi de $1080. Isto significa que o ganho foi de $80 devido a taxa de cambio. De seguinda como Ganho de Taxa de Cambio será alocada.
 
 <img alt="Accounts Frozen Date" class="screenshot" src="{{docs_base_url}}/assets/img/articles/exchange-rate-difference-2.gif">
 
-In case you incur loss due to change foriegn exchnage rate, then different amount about be updated in the debit of Foreign Exchange Gain/Loss account. Also you can add another row to update another expenses like bank charges, remittance charges etc.
+No caso de perda devido a taxa de cambio, o valor de diferença será actualizado na Conta a debito de Taxa de Cambio Ganho/Perda. Voçê pode adicionar outra linha para actualizar despesas como taxas de banco, taxas de envio, etc.
 
 <!-- markdown -->
 

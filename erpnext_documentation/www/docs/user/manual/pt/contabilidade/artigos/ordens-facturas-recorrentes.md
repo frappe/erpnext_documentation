@@ -1,41 +1,41 @@
 <!-- add-breadcrumbs -->
-# Recurring Orders and Invoices
+# Ordens e Facturas Recorrentes
 
-If you have a contract with a **Customer** where you bill the Customer on a monthly, quarterly, half-yearly or annual basis, you should use recurring feature in orders and invoices.
+Se voçẽ tiver um contracto com um **Cliente** aonde voçê cobra o Cliente mensalmente, trimestral ou anual, voçẽ pode usar esta funcionalidade de Ordens e Facturas Recorrentes.
 
-## 1. Consider a scenario
+## 1. Considere o cenario
 
-Subscription for your hosted ERPNext account requires yearly renewal. We use Sales Order for generating proforma invoices. To automate proforma invoicing for renewal, we set original Sales Order as recurring. Recurring proforma invoice is created automatically just before customer's account is about to expire, and requires renewal. This recurring Proforma Invoice is also emailed automatically to the customer.
+Subscrição para o seu ERPNext requer uma renovação anual. Nós geramos uma Ordem de Venda para criar uma Proforma. Para automatizar a renovação da proforma, nós definimos a Ordem de Venda original como recorrente. Ordens e Facturas Recorrentes são criados automaticamente antes da conta do cliente expirar, que precisa renovar. Estas Ordens e Facturas Recorrentes são tambem enviadas por email automaticamente para o Cliente.
 
-Feature of setting document as recurring is available in Sales Order, Sales Invoice, Purchase Order and Purchase Invoice.
+Funcionalidade para definir o documento como Recorrente está disponivel em Ordens de Venda, Factura de Vendas, Ordens de Compra e Facturas de Compra.
 
-## 2. How to create recurring orders/invoices
-Option to set document as recurring will be visible only after it's submitted. This is the **Auto Repeat** option.
+## 2. Como criar Ordens e Facturas Recorrentes
+Opção para definir o documento recorrente fica visivel somente depois de submeter. Está é a opção **Auto Repetir**.
 
-1. Click on the + button next to Auto Repeat.
-1. Select the Reference Doctype.
-1. Select the Reference Document.
-1. Set the Start Date and End Date(optional).
-1. Select the frequency whether daily, weekly, etc,.
-1. Save.
+1. Clique no botão + proximo ao Auto Repetir.
+1. Selecione a Referencia do Doctype.
+1. Selecione o Documento.
+1. Defina a Data de Inicio e Data de Fim(opcional).
+1. Selecione a frequencia diaria, semanal, etc,.
+1. Salvar.
 
-Here is a explanation of the fields:
+Aqui esta a explicação dos campos:
 
-* **From Date and To Date:** This defines contract period with the customer.
-* **Repeat on the Day of Month:** If recurring type is set as Monthly, then it will be day of the month on which recurring invoice will be generated.
-* **Repeat on Last Day of the Month:** Recurring invoices will be created on the last day of every month.
-* **Notify by Email:** Email Addresses (separated by comma) on which recurring invoice will be emailed when auto-generated.
+* **Da Data e Até a Data:** Este define o periodo do contracto com o cliente.
+* **Repetir no Dia do Mês:** Se este tipo de recorrencia for Mensal, então será num dia do Mês no qual a factura recorrente será gerada.
+* **Repetir no Ultimo dia do Mês:** Factura Recorrentes serâo criadas no ultimo dia de cada Mẽs.
+* **Notificar por Email:** Endereço de Emails (separados por virgula) no qual as factura recorrentes serão enviadas depois de serem auto-geradas.
 
-For more details about Auto Repeat [Click Here](/docs/user/manual/en/automation/auto-repeat)
+Para mais detalhes sobre Auto Repetir [Clique aqui](/docs/user/manual/pt/automação/repetição-automatica)
 
-## 3. Exception Handling
+## 3. Gerindo Excepções
 
-In a situation where recurring invoice is not created successfully, user with System Manager role is notified about it via email. Failure in creation of recurring invoice could be due to multiple reasons like wrong Email Address mentioned in the Email Notification field in Recurring section etc.
+Numa situação aonde facturas recorrentes não são criadas como sucesso, o usuario com Papel Gestor de Sitema é notificado via email. Falha ao criar a factura de recorrencia pode ter varios motivos como Email errado etc.
 
-On receipt of notification, if cause of failure is fixed (like correcting Email Address) within 24 hours, then recurring invoice will be generated automatically. If issue is not fixed within the said time, then document should be created for that month/year manually.
+Ao receber a notificação, se a causa da falha for fixa (como email errado) dentro de 24 horas, então as factura recorrentes serão geradas automaticamente. Se o problema não foi arranjada dentro deste periodo, o documento dever ser criado manualmente.
 
-### 4. Related Topics
-1. [Sales Invoice](/docs/user/manual/en/accounts/sales-invoice)
-1. [Purchase Invoice](/docs/user/manual/en/accounts/purchase-invoice)
-1. [Sales Order](/docs/user/manual/en/selling/sales-order)
-1. [Purchase Order](/docs/user/manual/en/buying/purchase-order)
+### 4. Topicos Relacionados
+1. [Factura de Vendas](/docs/user/manual/pt/contabilidade/factura-vendas)
+1. [Facturas de Compra](/docs/user/manual/pt/contabilidade/factura-compra)
+1. [Ordens de Venda](/docs/user/manual/pt/vendas/ordem-vendas)
+1. [Ordens de Compra](/docs/user/manual/pt/compras/ordem-de-compra)

@@ -1,35 +1,35 @@
 <!-- add-breadcrumbs -->
-# Fixing Fiscal Year Error
+# Arranjando o Erro do Ano Fiscal
 
-While creating any entry, system validates if dates (like Posting Date, Transaction Date etc.) belongs to Fiscal Year selected. If not, system through an error message saying:
+Ao criar um registo, o sistema valida se as datas (Data de Postagem, Data de Transação, etc) pertencem ao Ano Fiscal corrente. Caso não, o sistema mostra uma mensagem de erro:
 
-`Date ##-##-#### not in fiscal year`
+`Data ##-##-#### não está no ano fiscal`
 
-You are more likely to receive this error message if your Fiscal Year has changes, but new Fiscal Year still not set a default. To ensure new Fiscal Year is auto updated in the transactions, you should setup your master as instructed below.
+Voçê poderá receber esta mensagem se o seu Ano Fiscal mudou, e o novo Ano Fiscal ainda não esta por defeito. Para ter a certeza que o novo Ano Fiscal é atualizado nas transações, voçê deve configurar de acordo as instruções.
 
-#### Create New Fiscal Year
+#### Criar uma Novo Ano Fiscal
 
-Only User with System Manager's Role Assigned has permission to create new Fiscal Year. To create new Fiscal Year, go to:
+Somente o Usuario com Papel atribuido de Gestor de Sistema tem permissão para criar um Novo Ano Fiscal. Para criar, vá para:
 
-`Accounts > Setup > Fiscal Year`
+`Contabilidade > Configuração > Ano Fiscal`
 
-Click [here](/docs/user/manual/en/accounts/fiscal-year) to learn more about Fiscal Year.
+Clique [aqui](/docs/user/manual/pt/contabilidad/ano-fiscal) para aprender mais sobre o Ano Fiscal.
 
-#### Set Fiscal Year as Default
+#### Definir o Ano Fiscal como Padrão
 
-After Fiscal Year is saved, you will find option to set that Fiscal year as Default.
+Depois do Ano Fiscal ser salvo, voçê irá encontrar a opção para definir o Ano Fiscal como Padrão.
 
 <img alt="Debit Credit Not Equal" class="screenshot" src="{{docs_base_url}}/assets/img/articles/fiscal-year-error-1.png">
 
-Default Fiscal Year will be updated in the Global Default setting as well. You can manually update Default Fiscal Year from:
+Ano Fiscal Padrão será actualizado nas Configurações Gerais tambem. Voçê pode manualmente actulizar o Ano Fiscal Padrão aqui:
 
-`Setup > Settings > Global Default`
+`Configurações > Configurações > Padrões Gerais`
 
 <img alt="Debit Credit Not Equal" class="screenshot" src="{{docs_base_url}}/assets/img/articles/fiscal-year-error-2.png">
 
-Save Global Default, and Reload your ERPNext account. Then, default Fiscal Year will be auto-updated in your transactions.
+Salve os Padrões Gerais, e Recarregue o seu ERPNext. Depois, o Ano Fiscal padrão será auto-actualizado nas transações.
 
-Note: In transactions, you can manually select required Fiscal Year, from More Info section.
+Nota: Nas transações, voçê pode manualmente selcionar o Ano Fiscal que precisa, apartir da secção Mais Info.
 
 <!-- markdown -->
 
