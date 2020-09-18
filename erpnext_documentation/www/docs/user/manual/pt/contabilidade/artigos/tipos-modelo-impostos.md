@@ -1,20 +1,20 @@
 <!-- add-breadcrumbs -->
-# Types in Sales and Purchase Tax Template
+# Tipos de Modelo de Impostos em Vendas e Compras
 
-In the Sales Taxes and Purchase Taxes master, you will find a column called Type. Following a brief on a meaning of each Type and how you can use it.
+Nos Impostos de Vendas e Compras, voçê pode encontrar uma coluna Tipo. De seguinda uma pequena explicação do significado de cada uma e como usar.
 
 <img alt="Role Desk Permission" class="screenshot" src="{{docs_base_url}}/assets/img/articles/types-in-tax-masters.png">
 
-**Actual:** This allows you to enter expense amount directly. For example, Rs. 500 incurred for Shipping.
+**Actual:** Este permite voçê digitar o valor directamente. Por exemplo, Rs. 500 usado em Envio - Shipping.
 
-**On Net Total:** If you want to apply any tax or charges on Net Total, select this option. For example, 18% GST applied to all the item in the Sales Order.
+**No Total Liquido:** Se voçê quiser aplicar qualquer imposto ou taxa no Total Liquido, selecione esta opção. Por exemplo, 18% GST aplicado em todos os itens da Ordem de Vendas.
 
-**On Previous Row Amount:** This option helps you want to calculate tax amount calculated based on another tax amount.
+**No Valor da Linha Anterior:** Está opção ajuda voçê a calcular o valor do imposto com base em outro imposto.
 
-Example: Education Cess is calculated based on the amount of GST tax.
+Exemplo: Educação é calculado com base no valor do Imposto GST.
 
-**On Previous Row Total:** For each Tax row, a cumulative tax is calculated in the Total column. For the first row, total tax is calculated as Net Total + Tax amount at first row. If you want to apply a tax on the Total Amount of another tax row, then use this option.
+**No Total Geral da Linha Anterior:** Para cada linha de Imposto, um imposto acumludao é calculado na coluna Total. Para a primeira linha, total do imposto é calculaod como Total Liquido + valor do imposto. Se voçê quiser aplicar imposto no Valor Total da outra linha do imposto, use esta opção.
 
-If you select Type as Previous Row Amount or Previous Row Total, then you must also specify a Row No. whose Amount or Total should be considered for the calculation.
+Se voçê selecionar o Tipo cmo Valor da Linha Anterior ou Total da Linha Anterioro, então voçê deve especificar o numero da Linha cujo Valor ou Total deva ser considerado para o calculo.
 
 {next}

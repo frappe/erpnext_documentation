@@ -1,15 +1,15 @@
 <!-- add-breadcrumbs -->
-# Bulk Payment Entry
+# Registo de Pagamento em Massa
 
-If you want to create a single payment entry adjusting against multiple invoices, follow the steps given below.
+Se voçê quiser criar um unico registo de pagamento ajustando varias facturas, siga os passos seguintes.
 
-* Make a "New Payment Entry".
-* Select a Party Type and Party. On selection of a Party, all the outstanding invoices will be fetched for that Customer/Supplier.
-* Enter the Payment Amount.
-* Allocate the amount against invoices/orders as needed.
-* Save and Submit Payment Entry.
+* Faça "Um Novo Registo de Pagamento".
+* Selecione o Tipo de Parte e a Parte. Ao selecionar a Parte, todos os pagamentos pendentes irão ser inseridos para o Cliente/Fornecedor.
+* Digite o Valor do Pagamento.
+* Aloque o valor contra as facturas/compras de acordo.
+* Salvar e Submeter o Registo de Pagamento.
 
-### Demo of Bulk Payment Entry
+### Demonstração do Registo de Pagamento em Massa
 
 <img class="screenshot" alt="Bulk Payment" src="{{docs_base_url}}/assets/img/accounts/bulk-payment.gif">
 

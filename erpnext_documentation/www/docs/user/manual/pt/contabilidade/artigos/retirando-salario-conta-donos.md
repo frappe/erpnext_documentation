@@ -1,23 +1,23 @@
 <!-- add-breadcrumbs -->
-#Withdrawing Salary from Owner's Equity Account
+#Retirando Salário da Conta de Equidade do Dono
 
-### Question
+### Pergunta
 
-After meeting with my accountant here in the US, I was informed that with my company being a sole member, I should not pay myself a salary that would hit the direct expenses account but instead should take a "draw" that hits the balance sheet and not the expenses. Can you please advise how I should set this up in ERP Next please?
+Depois da reunião com o contabilista aqui nos US, eu fui informado que a minha empresa como sendo o unico membro, eu não devia pagar a mim mesmo um salario que atinga directamente as contas de despesas mas em vez disso fazer um "draw" que atinga as folhas de balanço e não as despesas. Pode me aconselhar como eu devo fazer esta configuração no ERPNext?
 
-### Answer
+### Resposta
 
-1. Create an account for **Owner's Equity** under Liabilities if you already do not have. This account will be your investment in the business and the accumulated profits (or losses). It will have a "Credit" type balance.
-2. In an Version 5, Equity will be a new head (not under Liabilities). (In either case Assets = Owner's Equity + Liabilities, so your balance sheet will be okay [Learn more about owner's equity account](http://www.accountingcoach.com/blog/what-is-owners-equity)).
-3. Create an account for **Owner's Draws** under **Owner's Equity**.
-4. Note that the balance of **Owner's Draws** will always be negative since you are reducing money from your total equity / profits.
+1. Criar uma Conta em Responsabilidades para **Equidade do Dono** se ainda não o tem. Esta conta será o seu investimento no negocio e o lucro acumulado (ou perda). Será do tipo de balanço "Credito".
+2. Na versão 15, Equidade será um novo head (não em baixo de Responsabilidades). (Em qualquer um dos casos de ACtivos = Equidade do Dono + Responsabilidades,  para verificar a sua folha de balanço [Aprenda mais sobre a conta de equidade do dono](http://www.accountingcoach.com/blog/what-is-owners-equity)).
+3. Criar uma conta **Draws do Dono** em **Equidade do Dono**.
+4. De notar que o balanço do **Draws do Dono** será sempre negativo vendo que voçê esta a retirar dinheiro do total da sua equidade / lucros.
 
-### Example
+### Exemplo
 
-Example journal entry (using Journal Voucher in ERPNext) for a withdrawal of $1000 would be:
+Exemplo de um Lançamento Contabilistico (usando o Registo de Jornal no ERPNext) para o withdrawal de $1000 seria:
 
-1. Credit **Cash** $1000
-2. Debit **Owner's Draws** $1000
+1. Credito **Dinheiro** $1000
+2. Debito **Draws do Dono** $1000
 
 <!-- markdown -->
 

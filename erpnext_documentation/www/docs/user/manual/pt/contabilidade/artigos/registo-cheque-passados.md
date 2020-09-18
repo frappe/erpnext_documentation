@@ -1,35 +1,35 @@
 <!-- add-breadcrumbs -->
-#Post Dated Cheque Entry
+# Registo de Cheques com Datas Anteriores
 
-Post Dated Cheque is a cheque dated on future date. Party generally give post dated cheque, as advance payment. This cheque would be cleared only when cheque date arrives.
+Cheque com Datas Anteriores são cheques datados em datas futuras. As Partes normalmente dão cheques com datas avançadas, como Adiantamento de Pagamento. Este cheque será liquidado somente na data do cheque.
 
-In ERPNext, create Payment Entry for post dated cheque.
+No ERPNext, crie Registo de Pagamento para cheques com data anterior.
 
-####New Payment Entry
+####Novo Registo de Pagamento
 
-To open new journal voucher go to 
+Para abrir um novo Lançamento Contabilisticos vá para
 
-`Explore > Accounting > Payment Entry > New`
+`Explorar > Contabilidade > Lançamento Contabilistico > Novo`
 
-#### Set Posting Date
+#### Defina a Data de Postagem
 
-Assuming your Cheque Date is 31st December, 2016 (or any future date). As a result, this posting in your bank ledger will appear on Posting Date updated.
+Assumindo que a Data do Cheque serja 31 de Dezembro, 2016 (ou qualquer data futura). Como resultado, este registo no seu razão do banco irá aparecer na Data de Postagem actualizada.
 
 <img alt="JE Posting Date" class="screenshot" src="{{docs_base_url}}/assets/img/articles/post-dated-1.png">
 
-Note: Payment Entry Reference Date should equal to or less than Posting Date.
+Nota: Data de Referencia do Registo de Pagamento deve ser igual ou menor que a Data de Postagem.
 
-####Step 3: Save and Submit
+####Step 3: Salvar e Submeter
 
-After entering required details, Save and Submit the Payment Entry.
+Depois de digitar os detalhes necessários, Salve e Submete o Registo de Pagamento.
 
-####Adjusting Post Dated  Cheque Entry
+####Ajustar a Data de Postagem do Registo do Cheque
 
-You can adjust Post Dated Payment Entry against an invoice via [Payment Reconciliation Tool](/docs/user/manual/en/accounts/payment-reconciliation).
+Voçê pode ajustar a Data de Postagem do Registo de Pagmento contra uma Factura [Ferramenta de Reconciliação de Pagamento](/docs/user/manual/pt/contabilidade/reconcialiação-pagamento).
 
-When cheque is cleared, i.e. on actual date on the cheque, you can update its Clearance Date via [Bank Reconciliation Tool](/docs/user/manual/en/accounts/bank-reconciliation).
+Quando o cheque for liquidado, ex. na data actual do cheque, voçê pode actualizar a Data de Liquidação via [Ferramentoa de Reconciliação de Pagamento](/docs/user/manual/pt/contabilidade/reconciliação-pagamento).
 
-In the Chart of Accounts, you might find value of this Payment Entry already reflecting against bank Account. You should check **Bank Reconciliation Statement**, a report in the account module to know difference of bank balance as per system, and actual balance in the bank's statement.
+No Plano de Contas, voçê pode encontrar o valor do Registo de Pagamento já a reflectir a Conta do Banco. Voçê deve verificar **Extracto de Reconciliaçáo Bancaria**, um relatorio no modulo de contas para verificar a diferença do balanço do banco e do sistema, e o balanço actual nos extractos do banco.
 <!-- markdown -->
 
 {next}

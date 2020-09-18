@@ -1,20 +1,20 @@
 <!-- add-breadcrumbs -->
-# Stock and Accounting Module Integration
+# Integração do Stock e Modulo de Contabilidade
 
-The value of stock stored in the warehouses needs to be tracked.
+O valor de stock guardado no armazem precisa ser controlado.
 
-Each warehouse is linked to a ledger in chart of accounts through the 'Account' field in the warehouse.
+Cada armazem está ligado a um razão no Plano de Contas atravez do campo Conta no armazem.
 
 <img class="screenshot" alt="Opening Account" src="{{docs_base_url}}/assets/img/accounts/stock_asset_ledger_in_warehouse.png">
 
-If the Account field is empty in a warehouse, then the Account mentioned in the parent of that warehouse is considered. If an Account could not be determined by tracing the hierarchy, then the Default Inventory Account mentioned in the Company record is considered.
+Se o campo da Conta estiver vazio no armazem, então a Conta mencionada como Mãe deste armazem será usado. Se uma Conta não foi encontrada pela hiearquia, então a Conta do Inventário Padrão no formulario da Empresa será usado.
 
 <img class="screenshot" alt="Opening Account" src="{{docs_base_url}}/assets/img/accounts/default_inventory_account.png">
 
-When a company is created, a ledger named 'Stock In Hand' is created by default in Chart of Accounts.
+Quando uma Empresa é criada, o razão 'Stock Em Mão' é criado por defeito no Plano de Contas.
 
-**Chart of Accounts > Assets > Current Assets > Stock Assets > Stock In Hand.**
+**Plano de Contas > Activos > Activo Currente > Activo de Stock > Stock Em Mão.**
 
-If required, you can create additional ledgers under 'Stock Assets' group.
+Se necessário, voçê pode criar razões adicionais no grupo 'Activos de Stock'.
 
 <img class="screenshot" alt="Stock Asset Ledger" src="{{docs_base_url}}/assets/img/accounts/stock_asset_ledger.png">

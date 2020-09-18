@@ -1,31 +1,31 @@
 <!-- add-breadcrumbs -->
-# Immutable Ledger In ERPNext
+# Razão Imudavel no ERPNext
 
-> Introduced in Version 13
+> Introduzido na Versão 13
 
-A major change has been introduced in ERPNext from version 13 onwards. This changes the way Accounting Ledger (General Ledger) and Stock Ledger works in ERPNext. There are multiple reasons why ledgers should be immutable. To list a few:
+Um mudança grande foi feita no ERPNext apartir da vesão 13. Isto muda a forma como as Contas do Razão (Razão Geral) e Razão do Stcok funcionam no ERPNext. Existem varias razões do porquê que os razões devem ser imudaveis. Para lista algumas:
 
-* Reposting future entries is computationally expensive. To post a backdated transaction, all future entries need to be reposted.
-* In Stock Ledger, where the valuations are based on First-in-first-out (FIFO) method, the entire sequence may get regenerated which may upset valuations and profit for subsequent transactions.
-* Taxes paid for a period may also get changed.
+* Registo de Futuras reposições são computacionamente despendiosas. Para postar datas anteriores em transações, todas os fututos registo tem de ser re-feitos.
+* No Razão do Stock, aonde as avaliações são com base no metodo First-in-first-out (FIFO), a sequencia inteira pode ser refeita de forma a afectar as avaliações e lucros em transações futuras.
+* Impostos pagos por um periodo tambem podem ter de ser alterados.
 
-## Following are the impacts on day to day transactions
+## De seguida são os impactos no dia a dia de transações
 
-### 1. Reverse Entries on cancellation of transactions
+### 1. Voltar Registos ao cancelar transações
 
 <img alt="General Ledger" class="screenshot" src="{{docs_base_url}}/assets/img/articles/general-ledger.png">
 
-On cancellation of any transaction instead of deleting the GL Entries for that transactions reverse entries will pe passed to cancel the effect of that transaction on the date of cancellation.
+Ao cancelar qualquer transação em vez de apagar o Registo do GL para aquela transação, registos reversos serão feitos para cancelar o efeito dessa transação no dia de cancelamento.
 
 <img alt="Document Delete" class="screenshot" src="{{docs_base_url}}/assets/img/articles/document-delete.png">
 
-Since GL Entries linked to a transaction will never be deleted this also means that cancelled transactions and their linked documents can no longer be deleted.
+Vendo que os Registo de GL estão ligados a uma transação nunca serão apagados o que significa que a transação cancelada e seus documentos não podem ser apagados.
 
-### 2. Restriction on posting backdated stock entries
+### 2. Restrições ao postar datas anteriores em transações de stock
 
-Since the ledgers are immutable now this means future transactions cannot be updated or reposted.
-So users will no longer be able to post backdated stock transactions.
+Vendo que os razões são imudaveis agora significa que as futuras transações não podem ser actualizadas ou re-feitas.
+Portanto os usuarios não irão poder inserir transações de stock com datas anteriores.
 
 <img alt="Back Dated Entry" class="screenshot" src="{{docs_base_url}}/assets/img/articles/backdated-entry.png">
 
-For Eg: Suppose a Stock Transaction has been made for **Item A** with posting time as `19-06-2020 23:00:10` then after this transaction you cannot post a transaction for **Item A** with posting time before this timestamp.
+Por ex. Suponhamos que a Transação do Stock foi feita para o **Item A** como a data de postagem `19-06-2020 23:00:10` depois desta transação voçê não pode postar uma transação para o **Item A** como uma data de postagem anterior a primeira.

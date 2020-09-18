@@ -1,82 +1,82 @@
 <!-- add-breadcrumbs -->
-#Tracking Project Profitability using Cost Center
+# Rastreando Lucros de Projecto usando Centro de Custo
 
-To track expenses and profibility for a project, you can use Cost Centers. You should create separate Cost Center for each Project. This will allow you to.
+Para rastrear despesas e lucros por projecto, voçẽ pode usar os Centro de Custo. Voçê deve criar a uma Centro de Custo separado para cada Projecto. Isto irá ajudar-lhe.
 
-- Allocating budget on expense for Projects.
-- Tracking Profitability of Project.
+- Alocação de Orçamento de despesas para Projectos.
+- Restreando Lucros de Projectos.
 
-Let's check steps on how Project and Cost Center should be linked, and used in the sales and purchase transactions.
+Vamos verificar os passos em Projectos e Centros de Custo de como devem estar ligados, e usar as transações de vendas e compras.
 
-### 1. Linking Project and Cost Center
+### 1. Ligando Projectos e Centros de Custo
 
-#### 1.1 Create Project
+#### 1.1 Crie um Projecto
 
-To create new Project, go to:
+Para criar um novo Projecto, vá para:
 
-`Projects > Project > New`
+`Projectos > Projecto > Novo`
 
 <img alt="Project Default Cost Center" class="screenshot" src="{{docs_base_url}}/assets/img/articles/project-cost-center-4.png">
 
-#### 1.2 Create Cost Center
+#### 1.2 Criar um Centro de Custo
 
-Since budgeting and costing for each Project will be managed separately, you should create separate Cost Center for each Project.
+Vendo que orçamento e Centro de Custo para cada Projecto irá ser gerido separado, voçê deve criar um Centro de Custo separado para cada Projecto.
 
-To create new Cost Center, go to:
+Para criar um Novo Centro de Custo, vá para:
 
-`Accounts > Setup > Cost Center`
+`Contabilidade > Configuração > Centro de Custo`
 
-[Click here to learn how to manage Cost Centers.](/docs/user/manual/en/accounts/cost-center)
+[Clique aqui para aprender como usar os Centros de Custo.](/docs/user/manual/pt/contabilidade/centro-custo)
 
-#### 1.3 Update Cost Center in the Project
+#### 1.3 Actualizar os Centros de Custo em Projectos
 
-Update Cost Center in the Project master.
+Actualizar Centros de Custo em Projectos.
 
 <img alt="Project Default Cost Center" class="screenshot" src="{{docs_base_url}}/assets/img/articles/project-cost-center-1.png">
 
-In the sales and purchase transactions, if Project is selected, then Cost Center will fetched from the Project master.
+Nas transações de vendas e compras, se o Projecto for selecionado, então o Centro de Custo irá ser inserido apartir da ficha do Projecto.
 
-Let's check how this setting will affect your sales and purchase entries.
+Vamos verificar como esta configuração vai afectar os registos de venda e compra.
 
-### 2. Project and Cost Center in Sales & Purchase Transactions
+### 2. Projecto e Centros de Custo nas Transações de Vendas e Compras
 
-#### 2.1 Project in the Sales Transactions
+#### 2.1 Projectos em Transações de Vendas
 
-In the sales transactions (which are Sales Order, Delivery Note and Sales Invoice), Project will be selected in the More Info section. On selection of a Project, respective Cost Center will be updated for all the items in that transaction. Cost Center will be updated on in the transactions which has Cost Center field.
+Em transações de vendas (no qual a Ordem de Venda, Guia de Remessa e Factura de Vendas), Projectos serão selecionados na secão Mais Info. Ao selecionar um Projecto, o respectivo Centro de Custo irá ser actualizado para todos os Itens naquela transação. Centros de Custo serão actualizados em todas as transações que tenham o campo Centro de CUsto.
 
 <img alt="Project Default Cost Center" class="screenshot" src="{{docs_base_url}}/assets/img/articles/project-cost-center-2.png">
 
-#### 2.2 Project in the Purchase Transactions
+#### 2.2 Projectos em Transações de Compras
 
-In the purchase transactions, Project is define for each line item. This is because you can create a consolidated purchase entry for various projects. On selection of Project, its default cost center will auto-fetch.
+Em transações de compras, Projectos são definidos para cada linha do item. Isto porque voçê pode criar um registo consolidade de compras para varios projectos. Ao selecionar o Projecto, o seu centro de custo padrão será inserido.
 
-As per perpetual inventory valuation system, expense for the purchased item will be booked when raw-materials are consumed. On consumption of goods, if you are creating Material Issue (stock) entry, then Expense Cost (says Cost of Goods Sold) and Project's Cost Center should be updated in that entry.
+Como no sistem de avaliação perpetual inventory, despesas para os itens comprados serão alocados em materia prima quando consumidos. Ao consumir bens, se voçê criar registo de Pedido de Material (stock), então o Custo da Despesa (digamos Custo de Bens Vendidos) e Centro de Custo de Projectos deve ser actualizado no registo.
 
 <img alt="Project Default Cost Center" class="screenshot" src="{{docs_base_url}}/assets/img/articles/project-cost-center-3.png">
 
-### 3. Accounting Report for a Project
+### 3. Relatorio de Contabilidade para um Projecto
 
-#### 3.1 Projectwise Profitability
+#### 3.1 Lucros Projectwise
 
-Since Project's Cost Center is updated in both sales and purchase entries, you can check Project Profitability based on report on Cost Center.
+Vendo que Centro de Custo de Projectos é actualizado quer nos registos de Vendas e Compras, voçê pode verificar os Lucros dos Projectos baseados em Centros de Custo.
 
-**Monthly Project Analysis**
+**Analise Mensal do Projecto**
 
 <img alt="Project Default Cost Center" class="screenshot" src="{{docs_base_url}}/assets/img/articles/project-cost-center-5.png">
 
-**Overall Profitability**
+**Lucros Gerais - Overall Profitability**
 
 <img alt="Project Default Cost Center" class="screenshot" src="{{docs_base_url}}/assets/img/articles/project-cost-center-6.png">
 
-#### 3.2 Projectwise Budgeting
+#### 3.2 Orçamento Projectwise
 
-You can define budgets against the Cost Center associated with a Project. At any point of time, you can refer Budget Variance Report to analysis the expense vs budget against a cost center.
+Voçê pode definir orçamentos a favor de Centros de Custo associados a um Projecto. Em qualquer momento, voçê pode ver o Relatorio de Variação de Orçamento para analizar as despesas vs orçamentos contra um Centro de Custo.
 
-To check Budget Variance report, go to:
+Para verificar o relatorio de Variação de Orçamento, vá para:
 
-`Accounts > Budget and Cost Center > Budget Variance Report`
+`Contabilidade > Orçamento e Centro de Custo > Relatorio de Variaçãio de Orçamento`
 
-[Click here to learn how to do budgeting from Cost Center](/docs/user/manual/en/accounts/budgeting.html).
+[Clique aqui para aprender mais sobre o orçamento apartir do Centro de Custo](/docs/user/manual/pt/contabilidade/orcamento.html).
 
 <!-- markdown -->
 

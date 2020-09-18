@@ -1,40 +1,40 @@
 <!-- add-breadcrumbs -->
-#Adjust Withhold Amount in the Payment Entry
+# Ajustar o Valor da Retenção num Registo de Pagamento
 
-###Question
+###Pergunta
 
-Let's assume that outstanding against a Sales Invoice is 20,000. When client makes payment, they will only pay 19,600. Rest 400 will be booked under Withhold account. How to manage this scenario in the Payment Entry.
+Vamos assumir que o pendenten de um Factura de Vendas é 20,000. Então o cliente faz o pagamento, eles somente vão pagar 19,600. Os restantes 400 serão alocados na conta Retenção. Como gerir este cenario no Registo de Pagamento.
 
-###Answer
+###Resposta
 
-In the Payment Entry, you can mention Withhold Account in the Deductions or Loss table. Detailed steps below.
+No Registo de Pagamento, voçê deve mencionar a Conta da Retenção na tabela Deduções ou Perdas. Passos detalhados a seguir.
 
-####Step 1: Setup Withhold Account
+####Passo 1: Configurar a Conta Retenção
 
-Create a Withhold Account in your Chart of Accounts master.
+Criar a Conta Retenção no seu Plano de Contas.
 
-`Accounts > Chart of Accounts'
+`Contabilidade > Plano de Contas'
 
-####Step 2: Payment Entry
+####Passo 2: Registo de Pagament
 
-To create Payment Entry, go to unpaid Sales Invoice and create click on Make Payment button.
+Para criar um Regiso de Pagamento, vá para Facturas Não Pagas e faça um clique no botão Fazer Pagamento.
 
-#####Step 2.1: Enter Payment Amount
+#####Passo 2.1: Digite o Valor do Pagamento
 
-Enter Payment Amount as 19,600.
+Digite o Valor do Pagamento 19,600.
 
 <img alt="Sales Invoice Payment Amount" class="screenshot" src="{{docs_base_url}}/assets/img/articles/withhold-1.png">
 
-#####Step 2.2: Allocate Against Sales Invoice
+#####Passo 2.2: Alocar contra a Factura de Vendas
 
-Against Sales Invoice, allocate 20,000 (explained in GIF below).
+Contra a Factura de Vendas, aloque 20,000 (explixado no GIF em baixo).
 
-#####Step 2.3: Add Deduction/Loss Account
+#####Passo 2.3: Adicione a Conta Dedução/Perda
 
-You can notice that there is a difference of 400 in the Payment Amount and the Amount Allocated against Sales Invoice. You can book this difference account under Withhold Account.
+Voçê pode notar que existe uma diferença de 400 no Valor do Pagamento e no Valor Alocado contra a Factura de Vendas. Voçê poide alocar esta diferença na conta Retenção.
 
 <img alt="Deduction/Loss Account" class="screenshot" src="{{docs_base_url}}/assets/img/articles/withhold-2.gif">
 
- Following same steps, you can also manage difference availed due to Currency Exchange Gain/Loss.
+Seguindo os mesmos passos, voçê pode tambem gerir a diferença em falta devido a Taxa de Cambio Ganhos/Perdas.
  
 {next}
