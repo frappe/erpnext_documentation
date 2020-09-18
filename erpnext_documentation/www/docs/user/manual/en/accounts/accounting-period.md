@@ -15,6 +15,8 @@ the integrity of the corresponding reports.
 
 ## 2. What is the "Closed" option for the selected transactions used for?
 
+![Accounting Period Child Table](/docs/assets/img/accounts/accounting-period-closed.png)
+
 The "Closed" option in the childtable for transaction doctypes is to select which of them are to be restricted after the end of the Accounting Period.
 
 Do note that if the Accounting Period ends and if any of the selected transactions in the child table don't have "Closed" checked, then they won't be restricted after the accounting period ends.
