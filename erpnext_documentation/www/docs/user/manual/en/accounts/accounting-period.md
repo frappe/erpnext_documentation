@@ -19,7 +19,7 @@ the integrity of the corresponding reports.
 
 The "Closed" option in the childtable for transaction doctypes is used to select which of them are to be restricted after the end of the Accounting Period.
 
-Do note that if the Accounting Period ends and if any of the selected transactions in the child table don't have "Closed" checked, then they won't be restricted after the accounting period ends.
+Do note that if the Accounting Period ends and if any of the selected transactions in the child table don't have "Closed" checked, then they won't be restricted after the Accounting Period ends.
 
 ## 3. How to create an Accounting Period
 1. Enter a name for the Accounting Period.
