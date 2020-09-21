@@ -3,7 +3,7 @@
 
 **An Accounting Period defines a time period in which financial statements are recorded.**
 
-In ERPNext, Accounting Period is a timeframe outside which selected submittable transactions (like Sales/Purchase Invoice, Stock Entry, Payroll Entry, Journal Entry etc) are not allowed to be created. In other words, the selected transactions are only allowed to be created within the Accounting Period.
+In ERPNext, Accounting Period is a timeframe outside which selected submittable transactions (like Sales/Purchase Invoice, Stock Entry, Payroll Entry, Journal Entry etc) are not allowed to be created. In other words, the selected transactions are only allowed to be created within the defined Accounting Period.
 
 ## 1. Why is Accounting Period needed?
 
