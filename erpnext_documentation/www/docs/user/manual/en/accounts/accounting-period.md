@@ -7,7 +7,7 @@ In ERPNext, Accounting Period is a timeframe outside which selected submittable 
 
 ## 1. Why is Accounting Period needed?
 
-When transactions are submitted they affect the ledgers and hence the reports which process the ledger data.
+When transactions are submitted, they affect the ledgers and the reports which process the ledger data.
 This can cause issues when financial reports have to be generated for audit by authorities or for closing the accounting books for the financial year.
 
 Here Accounting Period can be used to limit the time period within which transactions can be submitted to preserve
