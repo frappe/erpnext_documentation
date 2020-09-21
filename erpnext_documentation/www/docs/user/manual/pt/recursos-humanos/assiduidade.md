@@ -1,68 +1,66 @@
 <!-- add-breadcrumbs -->
-# Attendance
+# Assiduidade
 
-**Attendance is a record stating whether an Employee has been present on a particular
-day or not.**
+**Assiduidade é o registo que mostra se um Funcionário tem estado presente num dia em particular ou não.**
 
-In ERPNext, you can mark and record attendance of an Employee on a daily basis using the Attendance doctype.
+No ERPNext, voçẽ pode marcar o registo de Assiduidade para um Funcionário no dia a dia usando o doctype Assiduidade.
 
-To access Attendance, go to:
+Para aceder Assiduidade, vá para:
 
-> Home > Human Resources > Attendance
+> Home > Recursos Humanos > Assiduidade
 
-## 1. Prerequisites
+## 1. Pre-requisitos
 
-Before creating an Attendance record, it is advised that you create the following first:
+Antes de criar o registo da Assiduidade, é aconselhavel ter o seguinte:
 
-* [Employee](/docs/user/manual/en/human-resources/employee)
-* [Shift Type](/docs/user/manual/en/human-resources/shift-management)
+* [Funcionário](/docs/user/manual/pt/recursos-humanos/funcionário)
+* [Tipo de Turno](/docs/user/manual/pt/recursos-humanos/gestão-de-turnos)
 
-## 2. How to create an Attendance
+## 2. Como criar uma Assiduidade
 
-1. Go to the Attendance list, click on New.
-1. Select the Employee.
-1. Select the Attendance Date.
-1. Select the Shift (optional).
-1. Select the Status (Present, Absent, On Leave, Half Day).
-1. Save and Submit.
+1. Vá para a lista de Assiduidade, clique em Novo.
+1. Selecion o Funcionário.
+1. Selecione a Data de Assiduidade.
+1. Selecione o Turno (opcional).
+1. Selecione o Status (Presente, Ausente, De Ferias, Meio Dia).
+1. Salvar e Submeter.
 
     <img class="screenshot" alt="Attendance" src="{{docs_base_url}}/assets/img/human-resources/attendance.png">
 
 
-> **Note:** Attendance cannot be marked for future dates.
+> **Nota:** Assiduidade não pode ser marcada pra datas futuras.
 
 
-You can get a monthly report of your Attendance data by going to the **Monthly
-Attendance Details** report.
+Voçê pode ter um relatorio mensal das suas Assiduidade indo para o relatorio **Detalhes da Assiduidade Mensal**.
 
-You can easily set attendance for Employees using the [Employee Attendance Tool](/docs/user/manual/en/human-resources/employee-attendance-tool).
+Voçê pode facilmente definir a Assiduidade dos Funcionários usando a [Ferramenta de Assiduidade do Funcionário](/docs/user/manual/pt/recursos-humanos/ferramente-assiduidade-funcionário).
 
-You can also bulk upload attendance using the [Upload Attendance](/docs/user/manual/en/human-resources/upload-attendance).
+Voçê pode tambel carregar assiduidade em massa usando o [Carregar Assiduidade](/docs/user/manual/pt/recursos-humanos/carregar-assiduidade).
 
-## 3. Features
-### 3.1 Marking Unmarked Attendance
-In case the attendance for some employees is not marked, you can mark them as present, absent, or half-day.
+## 3. Funcionalidades
+### 3.1 Marcar Assiduidade não Marcada
+No caso da assiduidade de alguns funcionários não ter sido marcada, voçê pode marcar as presenças, ausencias ou meio dia.
 
-#### How to Mark Attendance
-1. Go to the Attendance list.
-1. Click on the **Mark Attendance** button.
-1. A dialog will appear.
-1. Select the Employee and Month.
-1. Select the Status whether Present, Absent, or Half Day.
-1. Select the dates on which you want to mark attendance for a selected Employee.
-1. Click on the **Mark Attendance** button and click on **Yes**.
+#### Como Marcar Assiduidade
+1. Vá para a lista de Assiduidade.
+1. Clique no botão  **Marcar Assiduidade**.
+1. Uma caixa de dialogo irá aparecer.
+1. Selecione o Funcionário e o Mês.
+1. Selecione o Status se é Present, Ausente ou Meio Dia.
+1. Selecion as datas que voçê quer marcar a assiduidade para o funcionário selecionado.
+1. Clique no botão **Marcar Assiduidade** e clique em **Sim**.
 
     <img class="screenshot" alt="Attendance" src="{{docs_base_url}}/assets/img/human-resources/marking_unmarked_attendance.gif">
 
-## 4. Related Topics
+## 4. Topicos Relacionados
 
-1. [Employee Attendance Tool](/docs/user/manual/en/human-resources/employee-attendance-tool)
-1. [Shift Management](/docs/user/manual/en/human-resources/shift-management)
-1. [Auto Attendance](/docs/user/manual/en/human-resources/auto-attendance)
-1. [Upload Attendance](/docs/user/manual/en/human-resources/upload-attendance)
-1. [Attendance Request](/docs/user/manual/en/human-resources/attendance-request)
+1. [Ferramenta de Assiduidade do Funcionário](/docs/user/manual/pt/recursos-humanos/ferramenta-assiduidade-funcionário)
+1. [Gestão de Turnos](/docs/user/manual/pt/recursos-humanos/gestão-de-turnos)
+1. [Auto Assiduidade](/docs/user/manual/pt/recursos-humanos/auto-assiduidade)
+1. [Carregar Assiduidade](/docs/user/manual/pt/recursos-humanos/carregar-assiduidade)
+1. [Solicitação de Assiduidade](/docs/user/manual/pt/recursos-humanos/solicitação-assiduidade)
 
 
-It is also, possible to set up marking of attendance automatically based on check-in/check-out logs from Biometric/RFID Devices (or any other similar mechanisms that produce IN/OUT logs of the employee). Please refer to [Auto Attendance](/docs/user/manual/en/human-resources/auto-attendance) feature for more information.
+É tambem, possivel definir a marcação da assiduidade automaticamente com base nos logs check-in/check-out logs dos Aparelhos Biometric/RFID (ou qualquer mecanismo similar que providencie logs de Entrada/SAIDAdo funcionário). Por favor refira a funcionalidade [Auto Assiduidade](/docs/user/manual/pt/recursos-humanos/auto-assiduidade) para mais informações.
 
 {next}

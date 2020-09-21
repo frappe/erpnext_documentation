@@ -2,7 +2,7 @@ funcionário-assiduidade
 gestão-ferias
 pagamento
 viagem-e-reembolso-despesas
-appraisal
+avaliação
 gestão-emprestimo
 formação
 recrutamento

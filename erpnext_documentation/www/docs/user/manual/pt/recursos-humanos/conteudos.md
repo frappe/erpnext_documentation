@@ -2,7 +2,7 @@
 # Recursos Humanos
 
 O modulos de Recursos Humanos (RH) cobre o processo relacionado com o departamento de RH da empresa. Matem uma base de dados completa dos funcionários incluindo informação de contacto,
-detalhes de salário, assiduidade, avaliação de performance, ferias e registo de appraisal.
+detalhes de salário, assiduidade, avaliação de performance, ferias e registo de avaliação.
 
 A funcionalidade mais importante aqui é o processamento do salário usando a Entrada de Folha de Pagamento para gerar os Recibos de Salário. Muitos Países tem regras de imposto complexas dizendo quais as despesas que a empresa deve fazer em nome dos seus Funcionários.
 
@@ -86,8 +86,8 @@ Exitem conjuntos de regras que a empresa deve deduzir impostos e segurança soci
 1. [Reembolso de Despesas de Funcionário](/docs/user/manual/pt/recursos-humanos/reembolso-despesas)
 
 
-### 1.9 Performance
-1. [Appraisal](/docs/user/manual/pt/recursos-humanos/appraisal)
+### 1.9 Desempenho
+1. [Avaliação](/docs/user/manual/pt/recursos-humanos/avaliação)
 1. [Sistema de Pontos de Energia](/docs/user/manual/pt/configuração/sistema-pontos-energia)
 
 

@@ -1,13 +1,13 @@
 <!-- add-breadcrumbs -->
-# Employee Lifecycle Management
+# Gestão Ciclo de Vida do Funionário
 
-Employee Lifecycle Management relates to the various stages an Employee goes through during the employment with an organization. It is important for most enterprises' HR departments to keep records of these changes that the employees go through across the company. ERPNext simplifies these HR activities, read the following sections to understand how.
+Gestão Ciclo de Vida do Funionário está relacionado com as varias etapas um Funcionário passa durante o periodo de trabalho numa empresa. É importante para muitas areas do do Departamento do RH das empresas manter registos de todas as alterações que o funcionário tem dentro da empresa. O ERPNext simplifica estas actividades do RH, leia as seguintes secções para entender como.
 
 
-## 1. Topics
-1. [Employee Onboarding](/docs/user/manual/en/human-resources/employee-onboarding)
-1. [Employee Promotion](/docs/user/manual/en/human-resources/employee_promotion)
-1. [Employee Separation](/docs/user/manual/en/human-resources/employee-separation)
-1. [Employee Transfer](/docs/user/manual/en/human-resources/employee_transfer)
-1. [Employee Skill Map](/docs/user/manual/en/human-resources/employee_skill_map)
+## 1. Topicos
+1. [Funcionário Onboarding](/docs/user/manual/pt/recursos-humanos/employee-onboarding)
+1. [Promoção do Funcionário](/docs/user/manual/pt/recursos-humanos/promoção-funcionário)
+1. [Demissão do Funcionário](/docs/user/manual/pt/recursos-humanos/despedimento-funcionário)
+1. [Transferencia do Funcionário](/docs/user/manual/pt/recursos-humanos/transferencia-funcionários)
+1. [Mapa de Habilidades do Funcionário](/docs/user/manual/pt/recursos-humanos/mapa-habilidades-funcionários)
 

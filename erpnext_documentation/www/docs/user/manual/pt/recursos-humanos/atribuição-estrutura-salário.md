@@ -1,10 +1,10 @@
 <!-- add-breadcrumbs -->
-# Salary Structure Assignment
+# Atribuição de Estrutura de Salário
 
-**Salary Structure Assignment form allows you to assign a particular Salary Structure to the employee.**
+**Formulario de Atribuição de Estrutura de Salário permite que voçẽ atribua uma Estrutura de Salário para o Funcionário.**
 
 
-In ERPNext, you can create multiple Salary Structure Assignments for the same Employee for different periods. 
+No ERPNext, voçê pode criar multiplas atribuições de Estrutura Salárial  you can create multiple Salary Structure Assignments for the same Employee for different periods. 
 
 To access Salary Structure Assignment, go to:
 > Home > Human Resources > Payroll > Salary Structure Assignment
