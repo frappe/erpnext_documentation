@@ -1,55 +1,55 @@
 <!-- add-breadcrumbs -->
-# Job Applicant
+# Canditado a Emprego
 
-**A Job Applicant is a person who applies for a job in your Company against a particular Job Opening.** 
+**Canditado a Emprego é a pessoa que aplica para um trabalho na sua Empresa com base numa Vaga de Trabalho.** 
 
-In ERPNext, you can maintain a list of people who have applied against a particular [Job Opening](/docs/user/manual/en/human-resources/job-opening).
+No ERPNext, voçê pode manter uma lista de pessoas que fizeram a aplicação para uma [Vaga de Trabalho](/docs/user/manual/pt/recursos-humanos/vagas-emprego) em particular.
 
-To create a Job Applicant, go to:
+Para criar uma Candidatura a Emprego, vá para:
 
-> Home > Human Resource > Recruitment > Job Applicant 
+> Home > Recursos Humanos > Recrutamento > Candidato a Emprego
 
 
-## 1. Prerequisites
+## 1. Pre-requisitos
 
-Before creating a Job Applicant, it is advisable you create the following:
+Antes de criar a Candidatura a Emprego, é aconselhavel voçê criar os seguintes:
 
-* [Staffing Plan](/docs/user/manual/en/human-resources/staffing-plan)
-* [Department](/docs/user/manual/en/human-resources/department)
-* [Job Opening](/docs/user/manual/en/human-resources/job-opening)
+* [Plano de Pessoal](/docs/user/manual/pt/recursos-humanos/plano-de-pessoal)
+* [Departamento](/docs/user/manual/pt/recursos-humanos/departamento)
+* [Vaga de Trabalho](/docs/user/manual/pt/recursos-humanos/vagas-emprego)
 
-## 2. How to Create a Job Applicant
+## 2. Como criar uma Candidatura a Emprego
 
-1. Go to Job Applicant list, click on New.
-1. Enter Applicant Name and Email Address.
-1. Select Job Opening.
-1. Select Source (Campaign, Employee Referral, Walk In, Website Listing).
+1. Vá para a lista de Candidatura a Emprego, clique em Novo.
+1. Digite o Nome do Candidato e o Endereço de Email.
+1. Selecione a Vaga de Trabalho.
+1. Selecone a Fonte (Campanha, Referencia do Funcionário, Listado na Pagina Web).
 
-> **Note:** If you select the Source as Employee Referral, you will have to select the Employee name in the Source Name Field.
+> **Nota:** Se voçê selecionar a Fonte domo Referencia do Funcionário, terá de selecionar o nom do Funcionário no campo Fonte.
 
 <img class="screenshot" alt="Job Applicant" src="{{docs_base_url}}/assets/img/human-resources/job-applicant.png">
 
-## 3. Features
+## 3. Funcionalidades
 
-### 3.1 Linking with an Email Account
+### 3.1 Ligando como a Conta de Email
 
-You can link Job Application with an Email account.
-Suppose you link Job Application with an email job@example.com, the 
-system will create a New Job Applicant against each email received on the mailbox.
+Voçê pode ligar a Candidatura de Emprego a uma Conta de Email.
+Suponhamos que ligou a Candidatura de Emprego como email job@example.com, o sistema
+irá criar uma Nova Candidatura de Emprego com base no email recebido na caixa de entrada.
 
-* To link Email Account with Job Applicant, go to:
+* Para ligar a Conta de Email a Canditadura de Emprego, vá para:
 
-> Settings > Email Account > New Email Account
+> Configurações > Conta de Email > Nova Conta de Email
 
-* Enter the Email Address and the password, and select 'Enable Incoming'
+* Digite o Endereço de Email e a senha, e selecione 'Activar Receber'
 
-* In 'Append To' select 'Job Applicant'
+* No 'Agregar A' selecione 'Candidatura de Emprego'
 
 <img class="screenshot" alt="Email Account" src="{{docs_base_url}}/assets/img/human-resources/email-account.png">
 
-## 4. Related Topics
+## 4. Topicos Relacionados
 
-1. [Job Offer](/docs/user/manual/en/human-resources/job-offer)
-1. [Employee](/docs/user/manual/en/human-resources/employee)
+1. [Oferta de Trabalho](/docs/user/manual/pt/recursos-humanos/oferta-trabalho)
+1. [Funcionário](/docs/user/manual/pt/recursos-humanos/funcionário)
 
 {next}

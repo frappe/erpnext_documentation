@@ -12,7 +12,7 @@ Exitem conjuntos de regras que a empresa deve deduzir impostos e segurança soci
 ### 1.1 Funcionário
 1. [Funcionário](/docs/user/manual/pt/recursos-humanos/funcionário)
 1. [Tipo de Contracto](/docs/user/manual/pt/recursos-humanos/tipo-de-contracto)
-1. [Branch](/docs/user/manual/pt/recursos-humanos/branch)
+1. [Filial](/docs/user/manual/pt/recursos-humanos/filial)
 1. [Departamento](/docs/user/manual/pt/recursos-humanos/departamento)
 1. [Designação](/docs/user/manual/pt/recursos-humanos/designação)
 1. [Employee Grade](/docs/user/manual/pt/recursos-humanos/employee-grade)

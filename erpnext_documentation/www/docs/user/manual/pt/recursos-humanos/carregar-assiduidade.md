@@ -1,43 +1,43 @@
 <!-- add-breadcrumbs -->
-# Upload Attendance
+# Carregar Assiduidade
 
-**This tool helps you to upload bulk attendance from a csv file.**
+**Esta ferramenta ajuda a Carregar Assiduidade em massa apartir de um ficheiro csv.**
 
-To upload the attendance go to:
+Para Carregar Assiduidade, vá para:
 
-> Home > Human Resources > Attendance > Upload Attendance
-
-
-## 1. Prerequisites
-
-Before uploading bulk Attendance record, it is advised that you create the following first:
-
-* [Employee](/docs/user/manual/en/human-resources/employee)
+> Home > Recursos Humanos > Assiduidade > Carregar Assiduidade
 
 
-## 2. How to upload attendance in bulk
+## 1. Pre-requisitos
 
-1. Enter Attendance From Date and Attendance To Date.
-1. Click on 'Get Template' button. It will download a csv file with the Employee Details as shown.
+Antes de Carregar Assiduidade em massa, é aconselhavel criar:
+
+* [Funcionário](/docs/user/manual/pt/recursos-humanos/funcionário)
+
+
+## 2. Como Carregar Assiduidade em massa
+
+1. Digite a Data de Inicio e Fim da Assiduidade.
+1. Clique no botão 'Obeter Modelo'. Irá baixar um ficheiro csv com os detalhes do Funcionário como mostra em baixo.
 
     <img class="screenshot" alt="Attendance Template" src="{{docs_base_url}}/assets/img/human-resources/upload-attendance1.png">
 
-1. Enter the Status (Present / Absent) of the Employee for the selected dates.
-1. Save the file.
-1. Upload the saved file.
+1. Digite o Status (Presente / Ausente) do Funcionário para as datas escolhidas.
+1. Salvar o Ficheiro.
+1. Carregar o ficheio salvo.
 
 
     <img class="screenshot" alt="Attendance upload" src="{{docs_base_url}}/assets/img/human-resources/upload-attendance.png">
 
 
-Once the bulk attendance is uploaded, respective attendance records will be created. 
+Uma vez carregado o ficheiro, os registos respecitivos serão criados. 
 
 
-## 3. Related Topics
+## 3. Topicos Relacionados
 
 
-1. [Employee Attendance Tool](/docs/user/manual/en/human-resources/employee-attendance-tool)
-1. [Shift Management](/docs/user/manual/en/human-resources/shift-management)
-1. [Auto Attendance](/docs/user/manual/en/human-resources/auto-attendance)
-1. [Attendance Request](/docs/user/manual/en/human-resources/attendance-request)
-1. [Attendance](/docs/user/manual/en/human-resources/attendance)
+1. [Ferramenta de Assiduidade do Funcionário](/docs/user/manual/pt/recursos-humanos/ferramenta-assiduidade-funcionário)
+1. [Gestão de Turnos](/docs/user/manual/pt/recursos-humanos/gestão-de-turnos)
+1. [Auto Assiduidade](/docs/user/manual/pt/recursos-humanos/auto-assiduidade)
+1. [Solicitação de Assiduidade](/docs/user/manual/pt/recursos-humanos/solicitação-assiduidade)
+1. [Assiduidade](/docs/user/manual/pt/recursos-humanos/assiduidade)

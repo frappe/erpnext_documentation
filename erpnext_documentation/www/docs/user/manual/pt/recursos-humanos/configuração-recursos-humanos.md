@@ -1,42 +1,42 @@
 <!-- add-breadcrumbs -->
-# Human Resource Setup
+# Configuração Recursos Humanos
 
-The HR module has a setup process where you create the masters for all the major activities.
+O modulo RH tem um processo de configuração aonde voçê cria os padrõe para a maioria das actividades.
 
-### Organization Setup
+### Configuração da Empresa
 
-To setup your Employee master you must first create:
+Para configura a ficha do seu Fucnionário voçê deve primeiro criar:
 
-* Employment Type (like Permanent, Temp, Contractor, Intern etc).
-* Branch (if there are multiple offices).
-* Department (if any, like Accounting, Sales etc).
-* Designation (CEO, Sales Manager etc).
-* Grade (A, B, C etc, usually based on seniority).
+* Tipo de Contracto (Como Permanente, Temporario, Interno etc).
+* Filial (caso tenha varios escritórios).
+* Departamento (case algum, como Contabilidade, Vendas, etc).
+* Designação (CEO, Gestor de Vendas, etc).
+* Categoria (A, B, C etc, normalmente com base na antiguidade).
 
-Check [Setup](/docs/user/manual/en/setting-up) for more details on each of masters, global _HR Settings_ and other configurations.
+Verifique [Configuração](/docs/user/manual/pt/configuração) para mais detalhes de cada ficha, global  _Configurações RH_ e outras configurações.
 
-### Leave Setup
+### Configuração de Licenças
 
-To setup Leaves, create:
+Par configurar as Licenças, crie:
 
-* Leave Type (like Sick Leave, Travel Leave etc)
-* Holiday List (list of annual holidays for the year - these days will not be considered in Leave Applications)
-* Leave Policy to effectively track and manage Employee leaves across the company
+* Tipo de Licença (como Doença, Viagem, etc)
+* Lista de Feriados (lista de feriados anuais para o ano - estes dias não serão considerados na aplicação de Licenças)
+* Politica de Licença para gestão efectiva e gestão de licenças de funcionário dentro da empresa
 
-You can read [Leaves](/docs/user/manual/en/human-resources/leave-management-intro/) for a detailed description about how you can configure and manage Leaves.
+Voçê pode ler [Licenças](/docs/user/manual/pt/recursos-humanos/gestão-ferias/) para uma descrição destalhada sobre como voçê pode configurar e gerir as Licenças.
 
-### Payroll (Salary) Setup
+### Configuração da Folha de Pagamento (Salário)
 
-In ERPNext, salaries have two types of components, earnings (basic salary, expenses paid by the company, like telephone bill, travel allowance etc) and deductions (amounts deducted for taxes, social security etc). You can create and assign salary structures to employees and ERPNext simplifies most of the payroll processing for you.
+No ERPNext, salários tem dois tipos de componentes, remunerações (salário base, despesas pagas pela empresa, como conta de telefone, viagens, etc) e deduções (valores deduzidos para impostos, segurança social, etc). Voçê pode criar e atribuir estruturas saláriais a funcionários e o ERPNext simplifica muitas das tarefas de processamento para si.
 
-Read more about setting up your payroll and how ERPNext simplifies payroll processing in [Salary and Payroll](/docs/user/manual/en/human-resources/payroll-intro).
+Leia mais sobre a configuração da Folha de Pagamento e como o ERPNext simplifica o processamento em [Salário e Folha de Pagamento](/docs/user/manual/pt/recursos-humanos/folha-de-pagamento).
 
-If you intend to configure ERPNext to calculate Income Tax deductions automatically based on multiple Salary Slabs, [Setting Up Income Tax Deduction](/docs/user/manual/en/human-resources/setting-up-tax) will help you understand how you can set this up properly.
+Se voçê pretende configura o ERPNext para calcular as deduções da Taxa de Renda automaticamente com base varias lajes do salário, [Configuração do Imposto da Taxa de Renda](/docs/user/manual/pt/recursos-humanos/configurando-impostos) irá ajudar a entender como pode configurar correctamente.
 
-### Recruitment
+### Recrutamento
 
-It is important for enterprises to plan their manpower recruitment for future periods. ERPNext allows you to define recruitment plans at group company level. Subsidiary companies can create and publish job openings based on the group company plans, making it easy to manage your hiring process. To understand how you can set this up, check [Staffing Plan](/docs/user/manual/en/human-resources/staffing-plan)
+É importante para as empresa fazer um plano da sua mão de obra para periodos futurus. O ERPNext permite que voçê defina o plano de recrutamento a nivel de grupo das empresas. Subsidiarias podem criar e publicar vagas de empresa com base nos planos da empresa, tornando facil a gestão de contractação. Para entender como voçê pode configuraru, verifique [Plano de Pessoal](/docs/user/manual/pt/recursos-humanos/plano-de-pessoal)
 
-If you have an active Staffing Plan, every time you create a new _Job Opening_ ERPNext will validate the open positions and current employment count with the Staffing Plan.
+Se voçê tiver um Plano de Pessoal activo, que que voçê criar uma nova _Vaga de Emprego_ o ERPNext irá validar a as vagas e a contagem de funcionários correntes com o seu Plano de Pessoas.
 
 {next}
