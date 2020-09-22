@@ -46,6 +46,7 @@ These are the statuses a Delivery Note can be in:
 * **Draft**: A draft is saved but yet to be submitted to the system.
 * **To Bill**: Yet to be billed using a [Sales Invoice](/docs/user/manual/en/accounts/sales-invoice).
 * **Completed**: Submitted and sent all the Items.
+* **Return Issued**: All the Items have been returned.
 * **Canceled**: Canceled the Delivery Note.
 * **Closed**: The purpose of the Close is to manage short-closing. For example, your Customer ordered for 20 qty but closed at 15 qty. The remaining 5 is not to be sent or billed.
 
