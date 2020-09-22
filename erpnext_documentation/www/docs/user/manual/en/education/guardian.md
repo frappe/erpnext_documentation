@@ -13,7 +13,7 @@ To access Guardian, go to:
 
 ## 1. Prerequisites
 
-Before creating a student, it is advised to create the following first:
+Before creating a Guardian, it is advised to create the following first:
 
 * Student
 * User 
