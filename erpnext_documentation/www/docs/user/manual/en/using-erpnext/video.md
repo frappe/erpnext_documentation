@@ -46,11 +46,11 @@ The YouTube Interactions Report provides a consolidated view of all the videos' 
 You can filter the report data by the Published Date range.
 ![Video](/docs/assets/img/education/youtube-interactions.png)
 
-> **Note** : The quota for the number of **non-billable** requests to the YouTube Data API is 10,000 requests per day. The system automatically updates upto 50 videos in 1 request. Similarly, for 100 videos it would take 2 requests.<br>
+> **Note** : The quota for the number of **non-billable** requests to the YouTube Data API is 10,000 requests as of September 2020. ERPNext automatically updates upto 50 videos in 1 request. Similarly, for 100 videos it would take 2 requests.<br>
 Assuming 100 videos are updated **every hour** (frequency = 1 hour):<br>
 >
 - 2 requests will be sent per hour<br>
-- 48 requests will be sent in a day<br>
+- 48 requests will be sent per a day<br>
 
 > Please set the frequency accordingly.
 
