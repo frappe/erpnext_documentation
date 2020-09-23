@@ -35,11 +35,10 @@ imports `frappe/public/scss/website` and `erpnext/public/scss/website`. These
 are the default theme files for `frappe` and `erpnext` app. If you have any other
 apps installed, they might also provide their own `website.scss` file.
 
-You can ignore any app's SCSS import if it doesn't fit your style. To do this,
-enter `[app]/public/scss/website` into the field "Imports to Ignore" (replace
-`[app]` with the name of the respective app). If you want to ignore multiple SCSS
-imports you can also enter a second path, separated from the first by a comma:
-`[app_1]/public/scss/website, [app_2]/public/scss/website`
+The section "Included Theme Files" lists all installed apps. Each app can bring
+it's own theme. A theme might be complete, providing styles for the entire website,
+or just an add-on. For example, it might style only the elements it introduces. By
+checking the boxes you can choose which theme should be included in your website.
 
 ### 2.2 Custom JS
 
