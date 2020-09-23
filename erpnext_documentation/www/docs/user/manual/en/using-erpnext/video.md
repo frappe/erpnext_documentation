@@ -42,7 +42,7 @@ Once you enable this, the **API Key** and **Frequency** fields will be visible.
 Apart from automatic updation, the statistics are updated on Save. So, all the Videos created/updated **after** enabling YouTube tracking, will have statistics updated on Save.
 ![Video](/docs/assets/img/education/video-stats.png)
 
-#### 2.1.1 YouTube Interactions Report
+### 2.2 YouTube Interactions Report
 
 The YouTube Interactions Report provides a consolidated view of all the videos' engagements. The bar chart provides visual analysis of Likes vs Views.
 
