@@ -1,61 +1,60 @@
 <!-- add-breadcrumbs -->
-# Setting Up Income Tax Deduction
-Calculating Tax deductions for employees every month is a time-consuming activity for most businesses, especially for large enterprises. If set up properly, ERPNext simplifies most of the tax-related calculations by automatically calculating tax deductions while generating Salary Slips. Here's how you can configure ERPNext to ease your payroll processing -
+# Configurando Dedução de Imposto de Renda
+Calculando Dedução de Imposto de Renda para vários funcionários todos os meses é um consumo de tempo enorme para muitas empresas, especialmente as grandes empresas. Se bem configurado, o ERPNext simplifica muito dos calculos de Imposto automaticamente calculando as deduçoes de imposto ao gerar o salario. Aqui esta como configurar o ERPNext para facilitar o seu processamento de salario -
 
-# Income Tax Exemption
-In many countries, especially in India, regulations allow exempting a part (or all) of some type of spendings by individuals from being added to their annual taxable income. Examples of such spendings could be contributions to charitable institutions, the amount spent on the education of children, specific investments, etc. To
-avail the exemption from their taxable income, individuals are required to submit proof of such spendings.
+# Isenção de Imposto de Renda
+Em muitos países, especialmente na India, as leis permitem isenção de uma parte (ou toda) de alguns gastos por individuos para que não seja adicionado ao Imposto de Renda anual. Exemplos de tais gastos podem ser contribuições para Obras de caridade, o valor gasto na educação das crianças, investimentos especificos, etc. Para retirar a isenção do Imposto de Renda, os indivíduos devem submeter provas de tais gastos.
 
-ERPNext allows you to configure Income Tax Slabs and the tax is calculated based on the projected annual earnings of the employee. For this, employees are required to declare the exemption amount they plan to claim at the start of the financial year so that the payroll deductions for tax will be calculated based on the projected annual earnings minus the exemption. Employees can declare this through [Employee Tax Exemption Declaration](/docs/user/manual/en/human-resources/employee-tax-exemption-declaration).
+O ERPNext pmerite voce configurar as Lajes de Imposto de Renda e o imposto é calculado com base nos rendimentos anuais projectados do funcionario. Para isto, os fucnionarios devem clarar o valor da isenção que eles planeam reivindicar no inicio do ano financeiro para que as deduções do salario para o imposto seja calculado. Funcionarios pode declarar por aqui [Declaração de Isenção de Imposto Funcionário](/docs/user/manual/pt/recursos-humanos/declaração-de-isenção-de-imposto-funcionário).
 
-If no declaration is submitted by the employee, the monthly deductions will be calculated without any exemption from the employee's annual earnings. However, if the employee submits a declaration in between the payroll period, the tax exemption will be applied from the next payroll onwards. Any additional tax collected in earlier payrolls will be adjusted in the last payroll or when using _Deduct Tax For Unsubmitted Tax Exemption Proof_ in Payroll Entry or Salary Slip.
+Se não tiver uma declaracao submetida pelo funcionario, as deduções do mês serão calculadas sem qualquer isenção apartir dos ganhos anuais do funcionario. Contudo, se for submetida a declaracao entre o periodo de salario, a isenção de iposto será aplicada no proximo processamento de salario. Qualquer imposto coletado nos processamentos anteriores serão ajustados no ultimo processmento quando usar Deduzir Imposto para Prova de Isenção de Imposto não submetido_ no processamento do salario ou Recibo de salario.
 
-Also, at the end of the year employees submit the actual proof of the spendings for filing via [Employee Tax Exemption Proof Submission](/docs/user/manual/en/human-resources/employee-tax-exemption-proof-submission). In the last payroll of the Payroll Period, ERPNext checks for proof submissions of employees, and if not found, tax for the exempted income will be added to the standard deduction component.
+Tambem, no fim do ano o funcionario submete a prova actual dos gastos para aquivar via [Submissão da Prova de Isenção de Imposto do Funcioario](/docs/user/manual/pt/recursos-humanos/submissão-prova-isenção-imposto-funcionário). NO ultimo processamento do Periodo da Folha de Pagamento, o ERPNext irá verificar as provas de submissão dos funcionarios e se não encontrar, imposto para os rendimentos isentos serao adicionados ao componente norma de dedução.
 
-### Employee Tax Exemption Category
-Exemptions from taxable salary are usually restricted to spendings on particular categories decided by government or regulatory agencies. ERPNext allows you to configure various categories which are allowed to be exempted. Examples of this could be, for India, 80G, 80C, B0CC, etc.
+### Categoria de Isenção de Imposto de Funcionario
+Isenções de Salario Tributavel são normalmente restritos para certas categorias decididas pelo governo ou orgão regulador. O ERPNext permite configura varias categorias no qual estao autorizadas a isenção. Exemplo podem ser, para India, 80G, 80C, B0CC, etc.
 
-You can configure Employee Tax Exemption Category by going to,
-> Human resources > Payroll Setup > Employee Tax Exemption Category > New Employee Tax Exemption Category
+Voce pode configurar a Categoria de Isenção de Imposto do Funcionario indo em ,
+> Recursos Humanos > Configuração Folha de Pagamento > Categoria de Isenção de Imposto de Funcionario > Nova Categoria de Isenção de Imposto do Funcionario
 
 <img class="screenshot" alt="Employee Tax Exemption Category" src="/docs/assets/img/human-resources/employee-tax-exemption-category.png">
 
-### Employee Tax Exemption Sub Category
-Under each category, there could be many heads for which the exemptions are allowed. For example, in India, subcategories under 80C could be Life Insurance Premium
+### Subcategoria de Isenção de Imposto do Funcionario
+Em baixa de cada categoria, pode haver muitas mais no qual a isenção é permitida. Por exemplo, na India, subcategorias em baixa de 80C pode ser Premio de Seguro de Vida
 
-You can configure Employee Tax Exemption Sub Category by going to,
-> Human resources > Payroll Setup > Employee Tax Exemption Sub Category > New Employee Tax Sub Exemption Category
+Voce pode configurar a Subcategoria indo em ,
+> Recursos Humanos > Configuração Folha de Pagamento > Subcategoria de Isenção de Imposto do Funcionario > Nova Subcategoria
 
 <img class="screenshot" alt="Employee Tax Exemption Sub Category" src="/docs/assets/img/human-resources/employee-tax-exemption-subcategory.png">
 
-### HRA Exemption - Regional, India
-For the fiscal year 2018-19, in India, House Rent Allowance (HRA) exemption from taxable earnings is the minimum of:
- * The actual amount allotted by the employer as the HRA.
- * Actual rent paid less 10% of the basic salary.
- * 50% of the basic salary, if the employee is staying in a metro city (40% for a non-metro city).
+### Isenção HRA - Regional, India
+Para o ano fiscal 2018-19, na India, isenção de Renda de Casa (HRA) apartir dos rendimentos é no mínimo:
+ * O valor actual dado empregado como HRA.
+ * Renda actual paga menos de 10% do salario base.
+ * 50% do salario base, se o funcionario fica numa cidade de metro (40% para fora da cidade).
 
- As part of the Employee Tax Exemption Declaration, employees shall also fill out the HRA Exemption. ERPNext will calculate the exemption eligible for HRA and exempt it while calculating the taxable earnings.
+ Como parte da Declaração de Isenção de Imposto do Funcionario, os mesmo podem preencher a Isenção HRA. O ERPNext irá calcular a isenção elegivel para o HRA e isentar quando estiver a calcular os rendimentos tributaveis.
 
- > Note: Basic and HRA salary component shall be configured in Company for HRA exemption to work
+ > Nota: Componente Basico e HRA de salario podem ser configurados na Empresa para isenção HRA de trabalho
 
-### Options in Payroll Entry and Salary Slip
-ERPNext simplifies payroll processing by automatically processing payroll in bulk via [Payroll Entry](/docs/user/manual/en/human-resources/payroll-entry).
+### Opções na Folha de Pagamento e Recibo de Salario
+O ERPNext simplifica a Folha de Pagamento processando automaticamente o mesmo em massa [Folha de Pagamento](/docs/user/manual/pt/recursos-humanos/folha-de-pagamento).
 
-* Deduct Tax For Unclaimed Employee Benefits: Flexible benefits (Salary Components which are _Is Flexible Benefit_) are not included in the taxable income of the employee. However, the amount received for these components will be included in the taxable earnings of the employee if she fails to submit [Employee Benefit Claim](/docs/user/manual/en/human-resources/employee-benefit-claim) while calculating tax in the last payroll of the Payroll Period.
+* Dedução do Imposto para Beneficios de Funcionario não reivindicados: Beneficios flexiveis (Componentes de Salario que são _É Beneficio Flexivel_) não são incluidos no rendimento tributavel do funcionario. Contudo, o valore recebido para estes componentes irão ser incluidos nos rendimentos tributaveis se o funcionario falhar no envio do [Reivindicação de Beneficio do Funcionario](/docs/user/manual/pt/recursos-humanos/reivindicação-beneficio-funcionário) enquanto estiver a calcular o imposto no ultimo processamento do periodo do salario.
 
-If you wish to collect tax for benefits before the last payroll, check this option and ERPNext will recalculate the tax and add the tax for all untaxed benefits while generating the Salary Slip.
+Se voce quiser coletar os impostos para os beneficios antes do ultimo processamento, selecione esta opção e o ERPNext irá calcular o imposto e adicionar para todos os beneficios não taxados ao processar o recibo de salario.
 
-* Deduct Tax For Unsubmitted Tax Exemption Proof: This option allows you to deduct taxes for the earnings which were exempted in previous payrolls as declared in [Employee Tax Exemption Declaration](/docs/user/manual/en/human-resources/employee-tax-exemption-declaration) but the Employee has not submitted sufficient proof via  [Employee Tax Exemption Proof Submission](/docs/user/manual/en/human-resources/employee-tax-exemption-proof-submission). It is to be noted that if this option is checked ERPNext does not consider the Employee Tax Exemption Declaration by employees and will only take into account _Employee Tax Exemption Proof Submission_ instead while calculating exemption from employees' annual earnings.
+* Deduzir Imposto para Prova de Isenção de Funcionario não Submetida: Esta opção permite que voce faça a dedução de impostos para os ganho no qual estava isento no processamento anterior como declarado na [Declaração de Isenção de Imposto to Funcionario](/docs/user/manual/pt/recursos-humanos/declaração-de-isenção-de-imposto-funcionário) mas o Funcionario fez a submissão via [Submissão da Prova de Isenção de Imposto do Funcionario](/docs/user/manual/pt/recursos-humanos/submissão-prova-isenção-imposto-funcionário). É de notar que se a opção estiver activa o ERPNext não considera a Declaração e não irá levar em conta _Submissão de Prova de Isenção de Imposto de Funcionario_ ao processar isenção anual dos rendimentos do funcionario.
 
-> Note: If required, you can still process payroll for employees individually, by manually creating a new Salary Slip and both these options are made available in the Salary Slip
+> Nota: Caso necessario, voce pode processar o salario para os funcionarios individuais, criando manualmente o Recibo de Salario
 
-# Income Tax Slab
-[Income Tax Slab](/docs/user/manual/en/human-resources/income-tax-slab) helps you define Tax slabs applicable for the period, making it easier to manage changing laws. You can add multiple tax slabs for the payroll period depending on the tax regulations. Note that you can use fields in Employee document in the _Condition_ field to apply tax slabs based on attributes of employees.
+# Laje de Rendimento Tributável
+[Laje de Rendimento Tributável](/docs/user/manual/pt/recursos-humanos/income-tax-slab) ajuda voce definir as lajes de Imposto aplicaveis para um certo periodo, tornando facil a gestão devido as alterações de lei. Voce pode adicionar varias lajes de impostos para o periodo dependendo dos regulamentos de impostos. Note que voce pode usar campos no documento Funcionario no campo _Condição_ para aplicar as lajes de imposto com base nos atributos dos funcionarios.
 
-# Salary Component
-To enable automatic tax deduction based on Tax slabs configured in Income Tax Slab, you have to configure a Salary Component of type _Deduction_ with _Variable Based On Taxable Salary_ option enabled. This checkbox enables auto calculation of Income Tax considering the tax slabs and declaration submitted by an employee. The tax will be calculated annually on the remaining taxable salary and equally divide it in 12 months.
+# Componente do Salario
+Para a dedução de imposto automatico com base na laje de impostos configurados na Laje de Rendimento Tributavel, voce tem que configurar o Componente de Salario do tipo _Dedução_ com a opção _Variavel com Base no Rendimento Tributavel_ activa. Esta caixa permite auto calcular o Rendimento Tributavel considerando as lajes de imposto e declarações submetidas pelo funcionario. O imposto será calculado anualmente sobre o salario dedutivel e igualmente dividido em 12 meses.
 
->**Important Note:** If you configure condition and formula for this Deduction component, the condition and formula will be considered for calculating the Salary Component and the Tax Slabs configured in Income Tax Slab will be ignored. However, you can still use _Deduct Tax For Unsubmitted Tax Exemption Proof_ option in Payroll Entry / Salary Slip to deduct taxes based on the Tax Slabs configured in Income Tax Slab, exempting [Employee Tax Exemption Proof Submission](/docs/user/manual/en/human-resources/employee-tax-exemption-proof-submission) which will give precedence to the Tax Slab based tax deduction.
-This is particularly helpful if you need to deduct a fixed amount as a deduction in each payroll rather than ERPNext automatically calculating the deductions based on the projected annual salary of the employee after exemption as declared by the employee via [Employee Tax Exemption Declaration](/docs/user/manual/en/human-resources/employee-tax-exemption-declaration). At the end of the fiscal year, you can still use _Deduct Tax For Unsubmitted Tax Exemption Proof_ to deduct the remaining tax liability of the employee for the whole period.
+>**Nota Impostante:** Se voce configurar a condição e formula para o componente Dedução, a condição e formula serão consideradas para calcular o Componente de Salario e Lajes de Imposto configuradas na Laje de Rendimento Tributavel sera ignorado. Contudo, voce pode ainda usar a opção _Dedução de Imposto para Prova de Isenção de Imposto para Funcionario não Submetida_ na Folha de Pagamento / Recibo de Salar para deduzir os impostos com base nas Lajes de Imposto configuradas nas Lajes de Rendimento Tributavel, isentando [Submissão da Prova de Isenção do Imposto do Funcinario](/docs/user/manual/pt/recursos-humanos/submissão-prova-isenção-imposto-funcionário) que irá proceder a Laje de Imposto com base nas Deduções de imposto.
+É bastante util se voce quer deduzir um valor fixo como dudução para cada processamento em vez do ERPNext fazer os calculos automaticos com base nos salario anual projectados do funcionario depois isenção declarada pelo funcionario via [Declaração de Insenção de Imposto de Funcionario](/docs/user/manual/pt/recursos-humanos/declaração-de-isenção-de-imposto-funcionário). No fim do ano fiscal, voce pode usar _Dedução de Imposto da Prova de Isenção de Imposto não Submetida_ para deduzir o restante do imposto de responsabilidade do funcionario para o periodo todo.
 
 {next}
