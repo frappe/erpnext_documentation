@@ -7,7 +7,7 @@ To access Videos, go to:
 
 > Home > Tools > Video
 
-## How to create a new Video
+## 1. How to create a new Video
 
 1. Go to the Video list and click on New.
 2. Enter the title for the Video.
@@ -23,7 +23,9 @@ After Saving, you will get a provision to add an image/thumbnail for the Video.
 You can also watch the Video in the Document itself after saving it.
 ![Video](/docs/assets/img/education/video-watch.gif)
 
-## Tracking Video Analytics via YouTube
+## 2. Features
+
+### 2.1 Tracking Video Analytics via YouTube
 
 YouTube Video statistics can be tracked and analysed. This is useful to track the view count and engagement of a Video you published.
 
@@ -40,9 +42,10 @@ Once you enable this, the **API Key** and **Frequency** fields will be visible.
 Apart from automatic updation, the statistics are updated on Save. So, all the Videos created/updated **after** enabling YouTube tracking, will have statistics updated on Save.
 ![Video](/docs/assets/img/education/video-stats.png)
 
-### YouTube Interactions Report
+#### 2.1.1 YouTube Interactions Report
 
 The YouTube Interactions Report provides a consolidated view of all the videos' engagements. The bar chart provides visual analysis of Likes vs Views.
+
 You can filter the report data by the Published Date range.
 ![Video](/docs/assets/img/education/youtube-interactions.png)
 
