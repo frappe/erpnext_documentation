@@ -1,14 +1,14 @@
 <!-- add-breadcrumbs -->
 # Declaração de Isenção de Imposto do Funcionário
 
-**Isenção de Imposto é isenção monetaria do rendimento, propriedade ou transação a partir de impostos que de outra forma seria cobrada a um Funcionario.**
+**Isenção de Imposto é isenção monetária do rendimento, propriedade ou transação a partir de impostos que de outra forma seria cobrada a um Funcionario.**
 
-No inicio do Periodo da Folha de Pagamento, funcionarios podem declarar o valor da isenção que eles quere reivindicar dos seus salarios tributaveis. O ERPNext permite que voce especifique a categoria/subcategoria da isenção do imposto, valor da isenção do imposto e outras informações relacionadas na Declaração de Isenção de Imposto do Funcionário.
+No inicio do Período da Folha de Pagamento, funcionários podem declarar o valor da isenção que eles querem reivindicar dos seus salários tributáveis. O ERPNext permite que você especifique a categoria/subcategoria da isenção do imposto, valor da isenção do imposto e outras informações relacionadas na Declaração de Isenção de Imposto do Funcionário.
  
 
 Para aceder a Declaração de Isenção de Imposto do Funcionário:
 
-> Home > Recursos Humanos > Imposto de Funcionarios e Beneficios > Declaração de Isenção de Imposto do Funcionário
+> Home > Recursos Humanos > Imposto de Funcionários e Beneficios > Declaração de Isenção de Imposto do Funcionário
 
 
 ## 1. Pre-requisitos

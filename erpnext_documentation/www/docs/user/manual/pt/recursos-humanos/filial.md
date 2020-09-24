@@ -33,6 +33,6 @@ Voçê pode ligar a Filial a ficha do [Funcionário](/docs/user/manual/pt/recurs
 1. [Tipo de Contracto](/docs/user/manual/pt/recursos-humanos/tipo-de-contracto)
 1. [Departamento](/docs/user/manual/pt/recursos-humanos/departamento)
 1. [Designação](/docs/user/manual/pt/recursos-humanos/designação)
-1. [Employee Grade](/docs/user/manual/pt/recursos-humanos/employee-grade)
+1. [Grau de Funcionario](/docs/user/manual/pt/recursos-humanos/grau-funcionario)
 1. [Grupo de Funcionário](/docs/user/manual/pt/recursos-humanos/grupo-de-funcionário)
 

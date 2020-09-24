@@ -1,87 +1,87 @@
 <!-- add-breadcrumbs -->
-# Salary Structure
+# Estrutura de Salário
 
-**Salary Structure is the details of the salary being offered to an Employee, in terms of the breakup of the different components constituting the compensation.**
+**Estrutura de Salário são os detalhes dos salarios oferecidos a um Funcionario, dos diferentes componentes que constituem a sua compensação.**
 
-Any changes to the Salary Structure i.e. among the components can have a major impact on what the Employee does, such as the kind of tax exemptions claimed.
+Qualquer alteração a Estrutura de Salário i.e. entre os componentes pode ter grande impacto no que o Funcionario faz, como as Isenções Reivindicadas de Impostos.
 
-ERPNext allows you to define the Earnings and Deductions of a Salary Structure, Payroll frequency, and Payment Mode among other features.
+O ERPNext permite que voce defina as Remunerações e Deduções de uma Estrutura de Salario, Frequencia do Processamento, Modo do Pagamento e outras funcionalidades.
 
-To access Salary Structure, go to:
-> Home > Human Resources > Payroll > Salary Structure
-
-
-## 1. Prerequisites
-
-Before you create a Salary Structure, it is advisable you have the following:
-
-* [Salary Component](/docs/user/manual/en/human-resources/salary-component)
+Para aceder a Estrutura de Salário, vá para:
+> Home > Recursos Humanos > Folha de Pagamento > Estrutura de Salário
 
 
-## 2. How to create a Salary Structure
+## 1. Pre-requisitos
 
-1. Go to the Salary Structure list, click on New.
-2. Enter the Salary Structure Name.
-3. Select the Company Name and Payroll Frequency.
-3. Save and Submit.
+Antes de voce criar a Estrutura de Salário, é aconselhavel ter os seguintes:
 
-
-## 2. Features
-
-### 2.1 Earnings and Deductions
-
-Earnings specify the Salary Components that are earned by an Employee. These components typically include basic, allowances, bonuses, and incentives that are added to the employee's Total Salary. On the other hand, Deductions specify the Salary Components that are deducted from the employee's Total Salary. These typically include the taxes.
-
->**Note:** Only Salary Components set as 'Earnings' will be shown in the Earnings table and components set as 'Deductions' will be shown in the Deductions table.
+* [Componentes de Salario](/docs/user/manual/pt/recursos-humanos/componente-de-salário)
 
 
-To create Earnings and Deductions, select the Salary Component in the Component column. Enter the Formula/Condition if not previously specified while creating the [Salary Component](/docs/user/manual/en/human-resources/salary-component). Additionally, you can also enter a pre-defined amount in the Amount column.
+## 2. Como criar uma Estrutura de Salário
+
+1. Vá para a lista de Estrutura de Salário, clique em Novo.
+2. Digite o Nome da Estrutura de Salário.
+3. Selecione o Nome da Empresa e a Frequencia do Processamento.
+3. Salvar e Submeter.
+
+
+## 2. Funcionalidades
+
+### 2.1 Remunerações e Deduções
+
+Remunerações especificam Componentes de Salario que são ganhos pelo Funcionario. Estas componentes tipicamente incluem base, premios, bonus e incentivos que são adicionados ao Total do Salario. Nisto, Deduções especificam os Componentes de Salario que são deduzidos do Total do Salario do Funcionario. Normalmente inclui Impostos.
+
+>**Nota:** Somente os Componente de Salario definidos como 'Remunerações' são mostrados na tabela Remunerações e componentes definidos como 'Deduções' na tabela de Deduções.
+
+
+Para criar Remunerações e Deduções, selecione o Componente de Salario na coluna de Componentes. Digite a Formula/Condição se não foi especificado ao criar o [Componente de Salario](/docs/user/manual/pt/recursos-humanos/componente-de-salário). Adicionalmente, voce pode tambem digitar o valor pre-definido na coluna Valor.
 
 
 
 <img class="screenshot" alt="Salary Structure" src="{{docs_base_url}}/assets/img/human-resources/salary-structure.png">
 
 
-> **Note:** Make sure to click on the downward arrow and enable the 'Amount based on formula' checkbox in case the Salary Component is calculated using a formula.
+> **Nota:** Tenha a certeza de fazer o clique em ceta para baixo e activar a caixa 'Valor com base na Formula' no caso do componente de salario for calculado usando uma formula.
 
 
-### 2.2 Account
+### 2.2 Conta
 
-In this section, the [Mode of Payment](/docs/user/manual/en/accounts/mode-of-payment) and the [Payment Account](/docs/user/manual/en/accounts/chart-of-accounts) that is used to pay the salary can be specified.
+Nesta secção, o [Modo de Pagamento](/docs/user/manual/pt/contabilidade/modo-de-pagamento) e [Conta de Pagamento](/docs/user/manual/pt/contabilidade/plano-de-contas) é usado para pagar o salario pode ser especificado.
 
-### 2.3 Salary Structure for Salary based on Timesheets
+### 2.3 Estrutura de Salario para Salario com base em Timesheets
 
-In ERPNext you can also define the Salary Structure for Salary Slip based on Timesheet, which allows the Company to pay there Employee as per working hours.
+No ERPNext voce pode definir a Estrutura de Salario para o Recibo de Salario com base no Timesheet, no qual permite a Empresa pagar os Funcionarios por Horas trabalhadas.
 
-Steps for creating Salary Structure based on Timesheets:
+Passos para criar a Estrutura de Salario com base em Timesheets:
 
-1. Go to Salary Structure List, click on New.
-1. Select checkbox **Salary Slip Based on Timesheet**.
-1. Select the Salary Component. 
-1. Enter the Hour Rate. Based on the Rate entered, the amount for Working hours for the selected Salary Component will be calculated accordingly.
-1. Save and Submit.
+1. Vá para a lista de Estrutura de Salario, cliquem em Novo.
+1. Selecione a caixa **Recibo de Salario com base em Timesheet**.
+1. Digite o Componente de Salario. 
+1. Digite o Valor Hora. Com base no valor digitado, o valor para horas de trabalho para o Componente de Salario selecionado será calculado de acordo.
+1. Salvar e Submeter.
 
  <img class="screenshot" alt="Create Salary Slip based on Timesheets" src="{{docs_base_url}}/assets/img/human-resources/salary-structure-for-salary-based-on-timesheets.png">
 
 
-### 2.4 Leave Encashment Amount Per Day 
+### 2.4 Licença com Subsidio de Pagamento Por Dia
 
-In case there are encashable leaves for an Employee, you can define the leave encashment amount per day in this field for this particular Salary Structure. Based on the 'Earning Component' set in the encashed [Leave Type](/docs/user/manual/en/human-resources/leave-type) and the amount per day, the value for the Salary component will be calculated accordingly in the Salary Slip.
-
-
-### 2.5 Max Benefits (Amount)
-
-In this field, the Max Benefits Amount for the Salary Structure can be specified. If this field is filled, make sure the Salary Structure has a [Salary Component](/docs/user/manual/en/human-resources/salary-component) with the "Is Flexible Benefits" checked, against which this amount will be paid.
+Caso exista Licenças com Subsidio de Pagamento para um Funcionario, voce pode definiar o valor da licença / Subsidio de licença por dia nesta campo para esta estrutura de salario em particular. Com base na definição 'Componente de Remuneração' no [Tipo de Licença](/docs/user/manual/pt/recursos-humanos/tipo-de-licença) e o valor por dia, o valor do componente de salario será calculado de acordo no recibo de salario.
 
 
+### 2.5 Maximo de Beneficios (Valor)
 
-Once all the information is saved and submitted, you can assign the Salary Structure to an Employee either through the **Assign Salary Structure** button or by creating a new [Salary Structure Assignment](/docs/user/manual/en/human-resources/salary-structure-assignment) through the dashboard.
+Neste campo, o Valor Maximo de Beneficios para a Estrutura de Salario pode ser especificado. Se este campo for preenchido, tenha a certeza que a Estrutura de Salario tenha na [Componente de Salario](/docs/user/manual/pt/recursos-humanos/componente-de-salário) "É Beneficio Flexivel" activo, contra o qual este valor será pago.
 
-You can also assign the created Salary Structure to several employees based on the [Employee Grade](/docs/user/manual/en/human-resources/employee-grade), [Department](/docs/user/manual/en/human-resources/department), [Designation](/docs/user/manual/en/human-resources/designation), etc. through the 'Assign to Employees' button.
-Additionally, Salary Slip can also be directly created through the dashboard.
 
-## 3. Related Topics
 
-1. [Salary Component](/docs/user/manual/en/human-resources/salary-component)
-1. [Salary Structure Assignment](/docs/user/manual/en/human-resources/salary-structure-assignment)
-1. [Payroll Entry](/docs/user/manual/en/human-resources/payroll-entry)
+Uma vez toda a informação preenchida e salva e submetida, voce pode atribuir a Estrutura de Salario a um Funcionario pelo Botão **Atribuir Estrutura de Salario** ou criando uma nova [Atribuição de Estrutura de Salario](/docs/user/manual/pt/recursos-humanos/atribuição-estrutura-salário) pelo dashboard.
+
+Voce pode tambem atribuir a Estrutura de Salario criad para varios funcionarios com no [Grau do Funcionario](/docs/user/manual/pt/recursos-humanos/grau-funcionario), [Departamento](/docs/user/manual/pt/recursos-humanos/departamento), [Designação](/docs/user/manual/pt/recursos-humanos/designação), etc. pelo botão 'Atribuir a Funcionarios'.
+Adicionalmente, o Recibo de Salario pode ser criado directamente pelo dashboard.
+
+## 3. Topicos Relacionados
+
+1. [Componente de Salario](/docs/user/manual/pt/recursos-humanos/componente-de-salário)
+1. [Atribuição da Estrutura de Salario](/docs/user/manual/pt/recursos-humanos/atribuição-estrutura-salário)
+1. [Entrada da Folha de Pagamento](/docs/user/manual/pt/recursos-humanos/folha-de-pagamento)

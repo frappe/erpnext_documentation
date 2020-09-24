@@ -1,121 +1,121 @@
 <!-- add-breadcrumbs -->
-# Employee
+# Funcionário
 
-**An individual who works part-time or full-time under a contract of employment, and has recognized rights and duties of your company is your Employee.**
+**Um individuo que trabalha meio-periodo ou tempo inteiro sobre um contracto de trabalho, e tem os seu direitos e deveres reconhecidos da sua empresa é seu Funcionário.**
 
-In ERPNext, you can manage the Employee master. It captures the demographic, personal and professional details, joining and leave details, etc. of the Employee. 
+No ERPNext, voce pode gerir a ficha Funcionários. Captura a demografia, detalhes pessoais e profissionais, detalhes de admissão de demissão, etc. do Funcionário.
 
 
-To access the Employee master, go to:
+Para aceder a ficha do Funcionário, vá para:
 
-> Home > Human Resources > Employee
+> Home > Recursos Humanos > Funcionário
 
-## 1. Prerequisites
+## 1. Pre-requisitos
 
-Before creating an Employee, it is advised to create the following:
+Antes de criar o Funcionário, é aconselhavel criar o seguinte:
 
-* [Employment Type](/docs/user/manual/en/human-resources/employment-type)
-* [Job Applicant](/docs/user/manual/en/human-resources/job-applicant) 
-* [Employee Department](/docs/user/manual/en/human-resources/department)
-* [Employee Grade](/docs/user/manual/en/human-resources/employee-grade)
-* [Employee Branch](/docs/user/manual/en/human-resources/branch)
-* [Employee Designation](/docs/user/manual/en/human-resources/designation)
-* [Leave Policy](/docs/user/manual/en/human-resources/leave-policy)
-* [Holiday List](/docs/user/manual/en/human-resources/holiday-list)
-* [Leave Encashment](/docs/user/manual/en/human-resources/leave-encashment)
-* [Shift Type](/docs/user/manual/en/human-resources/shift-management)
-* [Employee Health Insurance](/docs/user/manual/en/human-resources/health-insurance)
+* [Tipo de Contrato](/docs/user/manual/pt/recursos-humanos/tipo-de-contracto)
+* [Candidato a Emprego](/docs/user/manual/pt/recursos-humanos/candidato-emprego) 
+* [Departamento](/docs/user/manual/pt/recursos-humanos/departamento)
+* [Grau do Funcionario](/docs/user/manual/pt/recursos-humanos/grau-funcionario)
+* [Filial](/docs/user/manual/pt/recursos-humanos/filial)
+* [Designação do Funcionario](/docs/user/manual/pt/recursos-humanos/designação)
+* [Politica de Licença](/docs/user/manual/pt/recursos-humanos/politica-de-licença)
+* [Lista de Feriados](/docs/user/manual/pt/recursos-humanos/lista-de-feriados)
+* [Leave Encashment](/docs/user/manual/pt/recursos-humanos/leave-encashment)
+* [Tipo de Turno](/docs/user/manual/pt/recursos-humanos/gestão-de-turnos)
+* [Seguro de Saude do Funcionário](/docs/user/manual/pt/recursos-humanos/seguro-saúde)
 
-## 2. How to create an Employee
+## 2. Como criar um Funcionário
   
-1. Go to the Employee list, click on New.
-1. Enter the Employee's personal details such as Name, Gender, Date of Birth, and Date of Joining.
-1. Save.
+1. Vá pra a lista de Funcionário, clique em Novo.
+1. Digite os dados pessoais do Funcionário como Nome, Genero, Data de Nascimento e Data de Admissão.
+1. Salvar.
 
-As shown below, all the mandatory fields are highlighted.
-
-
-## 3. Features 
-
-Apart from the aforementioned mandatory details, some additional details that can be captured in the Employee master are as follows:
-
-### 3.1 Employment Type
-
-You can set an [Employment Type](/docs/user/manual/en/human-resources/employment-type) such as Intern, Contract, Full-time, Part-time, Probation, etc. for an Employee.
+Como mostra em baixao, todos os campos obrigatorios estão carregados.
 
 
-### 3.2 Create ERPNext User
+## 3. Funcionalidades
 
-The User ID can be linked to the Employee. In case the User ID is not created, you can click on 'Create a New User' in the dropdown to create one. 
+Para alem dos campos obrigatorios, alguns dados adicionais que podem ser capturados na ficha do Funcionário são:
+
+### 3.1 Tipo de Contrato
+
+Voce pode definir um [Tipo de Contrato](/docs/user/manual/pt/recursos-humanos/tipo-de-contracto) como Interno, Contracto, Tempo Inteiro, Meio-Periodo, Testes, etc.
+
+
+### 3.2 Criar um Usuario ERPNext
+
+O ID do Usuario pode ser ligado ao Funcionario. No cao do ID do Usuario não tenha sido criado, pode fazer o clique no 'Criar Novo Usuario' para criar um. 
  
-By clicking on the 'Create User Permission' checkbox, the Employee's access to other records can be restricted. Check [Adding Users](/docs/user/manual/en/setting-up/users-and-permissions/adding-users) to learn how to create users and add permissions.
+Ao fazer o clique na caixa 'Criar Permissão do Usuario', o acesso do Funcionario a outros registos pode ser restrito. Verifique [Adicionando Usuarios](/docs/user/manual/pt/configuração/usuarios-e-permissões/adicionar-usuarios) para aprender como criar usuarios e adicionar permissões.
 
 
-### 3.3 Joining Details
+### 3.3 Detalhes de Adesão
 
-The Joining Details of the Employee such as the Offer Date, Confirmation Date, Contract End Date, Notice (Days), and Date of Retirement can be captured. 
-
-
-### 3.4 Department and Grade
-
-In a company, the Employees are usually grouped on the basis of [Department](/docs/user/manual/en/human-resources/department), [Grade](/docs/user/manual/en/human-resources/employee-grade), [Designation](/docs/user/manual/en/human-resources/designation), and [Branch](/docs/user/manual/en/human-resources/branch). 
-
-In the Department and Grade section, these details of the Employee can be saved. In the 'Reports to' field, the person to whom the Employee has to report his duties to can be captured.
+Os Detalhes de Adesão do Funcionario como Data de Oferta, Data de Confirmação, Fim de Contracto, Dias de Notificação (Dias), e Data de Aposentadoria podem ser capturados. 
 
 
-### 3.5 Leave Details
+### 3.4 Departamento e Grau
 
-In Leave Details, you can save the [Leave Policy](/docs/user/manual/en/human-resources/leave-policy) and [Holiday List](/docs/user/manual/en/human-resources/holiday-list) details. Leave Policy specifies the type and number of leaves an Employee is entitled to, and Holiday List is a list which contains the dates of holidays and weekly offs.
+Num empresa, os Funcionarios são agrupados com base em [Departamentos](/docs/user/manual/pt/recursos-humanos/departamento), [Gray](/docs/user/manual/pt/recursos-humanos/grau-funcionario), [Designação](/docs/user/manual/pt/recursos-humanos/designação), e [Filial](/docs/user/manual/pt/recursos-humanos/filial). 
 
-
-### 3.6 Salary Details
-
-Here, the mode of salary payment, i.e. through Bank, Cheque or Cash can be selected.
+Na secção do Departamento e Grau, estes detalhes do Funcionario podem ser salvos. No campo 'Reporta a', a pessoa para quem o Funcionario tem que reportar as suas tarefas pode ser capturado.
 
 
-### 3.7 Contact Details
+### 3.5 Detalhes de Licença
 
-Employee's Contact information such as Mobile Number, Current and Permanent Address, Personal and Company Email ID can be captured here. In the Preferred Email ID field, either the the Company Email, Personal Email or User ID of the Employee can be selected depending on the user's preference.
+Nos Detalhes de Licença, voce pode salvar a [Politica de Licença](/docs/user/manual/pt/recursos-humanos/politica-de-licença) e [Lista de Feriados](/docs/user/manual/pt/recursos-humanos/lista-de-feriados. Politica de Licença especifica o tipo e numero de ferias um Funcionario pode ter, e Lista de Feriados é a lista que contem as datas de Feriados e Fins de semana.
+
+
+### 3.6 Detalhes de Salario
+
+Aqui, o modo de pagamento do salario, i.e. pelo Banco, Cheque ou Dinheiro pode ser selecionado.
+
+
+### 3.7 Detalhes de Contacto
+
+Informação de Contacto do Funcionario tais como Numero de Telefone, Endereço Corrente e Permanente, Email Pessoal e da Empresa podem ser guardados aqui. No campo Email Preferencial, ou o Email da Empresa, Email Pessoal ou ID do Usuario podem ser escolhidos de acordo a preferencia do funcionario.
  
 
-### 3.8 Personal Details
+### 3.8 Detalhes Pessoais
 
-Personal Details of the Employee such as Family Background details like name and occupation of parent, spouse and children, Passport Details including date and place of issue, Health Details like height, weight, allergies, medical concerns, etc. can be saved. 
+Detalhes Pessoais de um Funcionario como Detalhes da Familia como nome ocupação dos parentes, mulher e filhos, detalhes de passporte, etc, pode ser salvos. 
 
-### 3.9 Educational Qualification
+### 3.9 Qualificação Educacional
 
-Here, the Educational Details such as School/University, Qualification, Level and Year of Passing of the Employee can be saved as shown below:
+Aqui, os Detalhes de Qualificação Educacional como as Escolas/Universidades, Qualificação, Nivel e Ano que passou do Funcionario pode ser salvo como mostra em baixo:
 
 <img class="screenshot" alt="Educational Qualification" src="{{docs_base_url}}/assets/img/human-resources/educational-qualification.png">
 
-Additionally, details such as Class/Percentage and Subjects can also be saved by clicking on the downward arrow in the Education table.
+Adicionalmente, detalhes como Classe/Percentagem e Disciplinas podem tambem ser incluidas ao fazer a seta para baixo na tabela de Educação.
 
-### 3.10 Previous Work Experience
+### 3.10 Experiência Laboral Anterior
 
-Just like Educational Qualification, an Employee's Previous Work Experience can also be captured in the External Work History table as shown below:
+Como na Qualificação Educacional, Experiência Laboral Anterior de um Funcionario pode tambem ser capturada na tabela Historico de Trabalho Externo como mostra:
 
 <img class="screenshot" alt="Previous Work Experience" src="{{docs_base_url}}/assets/img/human-resources/previous-work-experience.png">
 
-Additionally, details such as Contact of the previous company and Total Experience in years can also be saved in the External Work History table.
+Adicionalmente, detalhes como Contacto da empresa anterior e o Total de Experiencia no Ano pode ser salvo tambem.
 
-### 3.11 Exit
+### 3.11 Saida
 
-Exit details of the employee (if any) such as Resignation, Exit Interview and [Leave Encashment](/docs/user/manual/en/human-resources/leave-encashment) details can be saved. When the status of the Employee is set to 'Left', it is mandatory to fill the Relieving Date. 
+Detalhes da Saída do funcionario como Demissão, Entrevista de Saida e detalhes do [Subsidio de Ferias](/docs/user/manual/pt/recursos-humanos/leave-encashment) podem ser incluidos. Quano status do Funcionario é 'Despedido', é obrigatorio preencher a Data de Demissão. 
 
-> **Note:** Once the Employee status is set to 'Left', that particular Employee master won't be accessible in further transactions.
+> **Nota:** Uma vez o status do Funcionario 'Despedido', esta ficha do Funcionario não estará disponivel para futuras transações.
 
-### 3.12 Additional Features
-Some additional features included in the Employee master are as follows:
+### 3.12 Funcionalidades Adicionais
+Alguma funcionalidades adicionais incluidas na ficha do Funcionario são:
 
-* Emergency Contact
-* Health Insurance
-* Personal Bio
-* History in the Company
+* Contacto de Emergencia
+* Seguro de Saude
+* Biografia Pessoal
+* Historico na Empresa
 
-## 3. Related Topics
+## 3. Topicos Relacionados
 
-1. [Leave Management](/docs/user/manual/en/human-resources/leave-management-intro)
-1. [Payroll Management](/docs/user/manual/en/human-resources/payroll-intro) 
+1. [Gestão de Licenças](/docs/user/manual/pt/recursos-humanos/gestão-ferias)
+1. [Gestão de Folha de Pagamento](/docs/user/manual/pt/recursos-humanos/folha-de-pagamento) 
 
 
 

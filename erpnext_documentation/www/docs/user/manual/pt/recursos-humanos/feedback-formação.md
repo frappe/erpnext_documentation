@@ -1,32 +1,32 @@
-# Training Feedback
+# Feedback da Formação
 
-**Once the Training is complete, employees can share their feedback via Training Feedback.**
+**Uma vez completa a Formação, funcionarios podem partilhar os seus comentarios via Feedback da Formação.**
 
-To access Training Feedback, go to:
-> Human Resources > Training > Training Feedback
-
-
-## 1. Prerequisites
-
-Before creating a Training Event, it is advisable you create the following documents:
-
-* [Training Program](/docs/user/manual/en/human-resources/training-program)
-* [Training Event](/docs/user/manual/en/human-resources/training-event)
-* [Employee](/docs/user/manual/en/human-resources/employee)
+Para aceder o Feedback da Formação, vá para:
+> Recursos Humanos > Formação > Feedback da Formação
 
 
-## 2. How to create a Training Feedback
+## 1. Pre-requisitos
 
-1. Go to the Training Feedback list, click on New.
-1. Select the Employee.
-1. Select the Training Event. Based on that, the corresponding Event Name, Course and Trainer Name will get fetched.
-1. Enter the feedback in the Feedback box.
-1. Save and Submit.
+Antes de criar um Evento de Formação, é aconselhavel criar os seguintes documentos:
+
+* [Programa de Formação](/docs/user/manual/pt/recursos-humanos/programa-formação)
+* [Evento de Formação](/docs/user/manual/pt/recursos-humanos/evento-formação)
+* [Funcionario](/docs/user/manual/pt/recursos-humanos/funcionario)
+
+
+## 2. Como criar um Feedback de Formação
+
+1. Vá para a lista de Feedback de Formação, clique em Novo.
+1. Selecione o Funcionario.
+1. Selecione o Evento de Formação. Com base nisto, o Nome do Evento correspondente, Curso e Nome do Formador será inserido.
+1. Digite o Comentario na caixa de Feedback.
+1. Salvar e Submeter.
 
     <img class="screenshot" alt="Employee" src="{{docs_base_url}}/assets/img/human-resources/training-feedback.png">
 
-> Note: You can also access Training Feedback directly through the Training Event dashboard. 
+> Nota: Voce pode tambem aceder o Feedback de Formação directamente pelo dashboard. 
 
-## 3. Related Topics
+## 3. Topicos Relacionados
 
-1. [Training Result](/docs/user/manual/en/human-resources/training-result)
+1. [Resultado da Formação](/docs/user/manual/pt/recursos-humanos/resultado-formação)

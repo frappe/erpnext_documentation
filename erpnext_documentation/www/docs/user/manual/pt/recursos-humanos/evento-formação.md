@@ -1,52 +1,52 @@
-# Training Event
+# Evento de Formação
 
-**Training Event allows you to schedule seminars, workshops, conferences, etc. under a Training Program.** 
+**Evento de Formação permite que voce programe seminarios, workshops, conferencias, etc. sobre um Programa de Formação.** 
 
-You can also invite your employees to attend the event using this feature.
+Voce pode tambem convidar os seus funcionarios para aternder os eventos usando esta funcionalidade.
 
-To access Training Event, go to:
+Para aceder o Evento de Formação, vá para:
 
-> Home > Human Resources > Training > Training Event
+> Home > Recursos Humanos > Formação > Evento de Formação
 
-## 1. Prerequisites
+## 1. Pre-requisitos
 
-Before creating a Training Event, it is advisable you create the following documents:
+Antes de criar o Evento de Formação, deve primeiro criar os seguintes:
 
-* [Training Program](/docs/user/manual/en/human-resources/training-program)
-* [Employee](/docs/user/manual/en/human-resources/employee)
+* [Programa de Formação](/docs/user/manual/pt/recursos-humanos/programa-formação)
+* [Funcionario](/docs/user/manual/pt/recursos-humanos/funcionario)
 
-## 2. How to create a Training Event
+## 2. Como criar um Evento de Formação
 
-1. Go to the Training Event list, click on New.
-1. Enter the Event Name.
-1. Select the Event Type.
-1. Select Event Level (Beginner, Intermediate, Expert).
-1. Enter the Trainer Name, Email and Contact Number.
-1. Select the Event [Course](/docs/user/manual/en/education/course). Enter the Start Time, End Time and Location of the Training Event.
-1. Additionally, you can also write a short description of the Event in the Description box.
-1. Save and Submit.
+1. Vá para a lista de Evento de Formação, clique em Novo.
+1. Digite o Nome do Evento.
+1. Selecione o Tipo de Evento.
+1. Selecione o Nivel de Evento (Principiante, Intermédio, Perito).
+1. Digite o Nome do Formador, Email e Numero de Telefone.
+1. Selecione o Evento [Curso](/docs/user/manual/pt/educação/curso). Digite a Hora de Inicio e Fim e o Local do Evento de Formação.
+1. Adicionalmente, voce pode tambem escrever uma pequena descrição do Evento na caixa Descrição.
+1. Salvar e Submeter.
 
     <img class="screenshot" alt="Employee" src="{{docs_base_url}}/assets/img/human-resources/training-event.png">
 
-> **Note:**  Check the 'Has Certificate' checkbox if the Training Event is a certified course.
+> **Nota:**  Selecione a caixa 'Tem Certificado' se o Evento de Formação é um Curso Certificado.
 
 
-## 3. Features
+## 3. Funcionalidades
 
-### 3.1 Inviting Employees for the Event
+### 3.1 Convidando Funcionarios para o Evento
 
-You can invite your employees to attend the Training Event. You can do so by selecting the employees to be invited in the Employees table.
+Voce pode convidar os seus funcionarios para atender o Evento de Formação. Voce pode fazer selecionando os funcionarios a serem convidades na tabela de Funcionarios.
 
-By default the status of the employee will be 'Open'.
+Por defeito o status dos funcionarios será 'Aberto'.
 
 <img class="screenshot" alt="Employee" src="{{docs_base_url}}/assets/img/human-resources/training-event-employee.png">
 
-When you submit the Training Event, a notification will be sent to the employee notifying that the Training has been scheduled. This is sent via Email Alert "Training Scheduled". You can modify this Email Alert to customize the message.
+Quando submeter o Evento de Formação, uma notificação será enviada para o funcionario dizendo que foi agendado uma Formação. Este é enviado via Alerta de Email "Formação Agendada". Voce pode modificar o Alerta de Email para customizar uma mensagem.
 
 
-## 4. Related Topics
+## 4. Topicos Relacionados
 
-1. [Training Result](/docs/user/manual/en/human-resources/training-result)
-1. [Training Feedback](/docs/user/manual/en/human-resources/training-feedback)
-1. [Course](/docs/user/manual/en/education/course)
+1. [Resultado da Formação](/docs/user/manual/pt/recursos-humanos/resultado-formação)
+1. [Feedback da Formação](/docs/user/manual/pt/recursos-humanos/feedback-formação)
+1. [Curso](/docs/user/manual/pt/educação/curso)
 `

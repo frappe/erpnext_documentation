@@ -1,88 +1,88 @@
-# Employee Separation
+# Despedimento do Funcionário
 
-**Employee Separation is a situation when the service agreement of an Employee with his/her organization comes to an end and the Employee leaves the organization.**
+**Despedimento do Funcionário é a situação em que o acordo de trabalho de um Funcionario para com a empresa termina e Funcionario deixa a Empresa.**
 
-Employee Separation is created for an Employee who has resigned or terminated from the organization.
+Despedimento do Funcionário é criado para um Funcionario que tenha sido despedido ou terminado com a Empresa.
 
-**Use Case:** Let's assume that following are the activities which need to be performed as soon as an Employee needs to be separated from the organization.
+**Caso pratico:** Vamos assumir que as seguntes actividade no qual precisam ser feitas o  mais rapido possivel assim que um Funcionario deixa a Empresa.
 
-- Collect laptop
-- Clear dues
-- Delete Employee Email Account
-- Collect identity card
+- Obter o Laptop
+- Liquidar dividas 
+- Apagar a Conta de Email do Funcionario
+- Obter o Cartão de identidade
 
 
-In ERPNext, these standard activities can be tracked in the Employee Separation Template. To access Employee Separation, go to: 
+No ERPNext, estas atividades normais podem ser rastreadas no Modelo de Despedimento do Funcionario. Para aceder vá para: 
 
-> Human Resources > Employee Lifecycle > Employee Separation
+> Recursos Humanos > Ciclo de Vida do Funcionario > Separação do Funcionario
 
-## 1.  Prerequisites
+## 1.  Pre-requisitos
 
-Before creating an Employee Separation, it is advisable that you create the following documents:
+Antes de criar uma Separação de Funcionario, é aconselhavel criar os seguintes documentos:
 
-* [Employee](/docs/user/manual/en/human-resources/employee)
-* [Department](/docs/user/manual/en/human-resources/department)
-* [Designation](/docs/user/manual/en/human-resources/designation)
-* [Employee Grade](/docs/user/manual/en/human-resources/employee-grade)
+* [Funcionario](/docs/user/manual/pt/recursos-humanos/funcionario)
+* [Departamento](/docs/user/manual/pt/recursos-humanos/departamento)
+* [Designação](/docs/user/manual/pt/recursos-humanos/designação)
+* [Grau de Funcionario](/docs/user/manual/pt/recursos-humanos/employee-grade)
 
-## 2. How to create an Employee Separation
+## 2. Como criar uma Separação de Funcionário
 
-1. Go to: Employee Separation > New.
-1. Select the Employee. Once the Employee is selected, the corresponding Employee information such as Department, Designation and Employee Grade will automatically get fetched.
-1. Select the [Employee Separation Template](#31-employee-separation-template). Based on the template selected, information such as Department, Designation and Employee grade will be automatically fetched (if already mentioned in the Separation Template).
-1. Enter the Resignation Letter Date.
-1. Additionally, you can also enter the Exit Interview Summary.
-1. Save and Submit.
+1. Vá para: Separação de Funcionario > Novo.
+1. Selecione o Funcionario. Uma vez selecionado, a Informação do Funcionario correspondente tal como, Departamento, Designação e Grau de Funcionario serão inseridos.
+1. Selecione o [Modelo de Separação de Funcionario](#31-modelo-de-separação-de-funcionário). Com base no modelo selecionado, informações como Departamento, Designação e Grau de Funcionario serão inseridos (se ja foi mencionado no Modelo de Separação).
+1. Digite a Data da Carta de Despedimento.
+1. Adicionalmente, voce pode tambem digitar o Sumario da Entrevista de Despedimento.
+1. Salvar e Submeter.
 
 
   <img class="screenshot" alt="Separation Template" src="{{docs_base_url}}/assets/img/human-resources/employee-separation.png">
 
 
 
-> Note 1: If an Employee Separation Template isn't created, you can directly fill the separation information in the Employee Separation doctype itself.
+> Nota 1: Se um Modelo de Separação de Funcionario não foi criado, voce pode directamente preencher a informação no formulario de Separação..
 
-> Note 2: The 'Status' of the Employee Separation will change to Completed once all the associated Activities are complete.
+> Nota 2: O 'Status' da Separação do Funcionario irá mudar para Completado uma vez todas as actividades associadas estiverem completas.
 
 
-## 3. Features
+## 3. Funcionalidades
 
-### 3.1 Employee Separation Template
+### 3.1 Modelo de Separação de Funcionario
 
-The Employee Separation Template is a blueprint which contains a predefined list of Activities for Employee Separation. An Employee Separation Template can be created for a particular Department, Designation and Employee Grade. 
+O Modelo de Separação de Funcionario é um blueprint no qual contem uma lista de actividades pre-definidas para a Separação do Funcionario. Um Modelo de Separação de Funcionario pode ser cirado para um Departamento, Designação e Grau de Funcionario em Particular. 
 
-To create a new Employee Separation Template:
+Para criar um novo Modelo de Separação de Funcionario:
 
-1. Go to: Human Resources > Employee Lifecycle > Employee Separation Template > New.
-1. Enter the Department, Designation and Employee Grade (optional).
-1. Mention the Activities for separation. For each Activity, you can also mention the User or Role, or one of it, to whom this Activity will be assigned.
+1. Vá para: Recursos Humanos > Ciclo de Vida do Funcionario > Modelo de Separação de Funcionario > Novo.
+1. Digite o Departamento, Designação e Grau do Funcionario (opcional).
+1. Mencione as Actividades para separação. Para cada Actividade, voce pode tambem mencionar o Usuario ou Papel, para quem as actividades serão atribuidas.
   
   <img class="screenshot" alt="Onboarding Template" src="{{docs_base_url}}/assets/img/human-resources/employee-separation-template.png">
 
 
-### 3.2 Tasks and Assignments
+### 3.2 Tarefas e Atribuições
 
-On submission of the Employee Separation, a [Project](/docs/user/videos/learn/project-and-task) will be created. Within the Project, [Tasks](/docs/user/videos/learn/project-and-task) will also be created for each Activity. 
+Ao submeter a Separação do Funcionario, um [Projecto](/docs/user/videos/learn/project-and-task) será criado. Dentro do Projecto, [Tarefas](/docs/user/videos/learn/project-and-task) tambem serão criadas para cada Actividade. 
 
-You can view the created Projects and Tasks through View > Project/ Tasks.
+Voce pode visualizar os Projectos e Tarefas criadas pelo Visão > Projetos / Tarefas.
 
 
-Additionally, each Activity can be assigned weights based on its importance.
+Adicionalmente, cada Actividade pode ser atribuida pesos com base na sua importancia.
 
 <img class="screenshot" alt="Tasks and Assignments" src="{{docs_base_url}}/assets/img/human-resources/employee-sep1.png">
 
-Based on the progress on the Tasks, progress can be updated in the Employee Separation process.
+Com base no progresso das Tarefas, progresso pode ser actualizado no processo de Separação do Funcionario.
 
 
-### 3.3 Employee Status
+### 3.3 Status Funcionario
 
-You can directly view the separated Employee through the Employee Separation doctype through View > Employee once the form is submitted.
+Voce pode directamente visualizar os Funcionarios separadas pelo formulario Separação de Funcionarios indo em Visão > Funcionario uma vez o formulario submetido.
 
 
-## 4. Related Topics
+## 4. Topicos Relacionados
 
-1. [Employee Onboarding](/docs/user/manual/en/human-resources/employee-onboarding)
-1. [Employee Promotion](/docs/user/manual/en/human-resources/employee_promotion)
-1. [Employee Separation](/docs/user/manual/en/human-resources/employee-separation)
+1. [Employee Onboarding](/docs/user/manual/pt/recursos-humanos/employee-onboarding)
+1. [Promoção de Funcionario](/docs/user/manual/pt/recursos-humanos/promoção-funcionário)
+1. [Separação de Funcionario](/docs/user/manual/pt/recursos-humanos/despedimento-funcionário)
 
 
 

@@ -1,19 +1,19 @@
 <!-- add-breadcrumbs -->
-# Fleet Management
+# Gestão de Frotas
 
-Fleet Management section of Human Resources helps your Organization manage their fleet of vehicles and track their expenses.
+A secção de Gestão de Frotas dos Recursos Humanos ajuda a sua empresa gerir a frota de veiculos e rastrear as despesas.
 
-To use Fleet Management in ERPNext, you can do the following:
+Para usa a Gestão de Frotas no ERPNext, voce pode fazer o seguinte:
 
-  1. Set Up a Vehicle.
-  2. Enter Vehicle Logs regularly.
-  3. Make Expense Claims for Vehicle Expenses.
-  4. View Reports for Vehicle Expenses.
+  1. Definir o Veiculo.
+  2. Digitar os Logs do Veiculo regularmente.
+  3. Fazer Reembolso de Despesas para as Despesas dos Veiculos.
+  4. Visualizar os Relatorios para as Despesas de Veiculos.
 
 
-## Related Topics
+## Topicos Relacionados
 
-1. [Vehicle](/docs/user/manual/en/human-resources/vehicle)
-1. [Vehicle Log](/docs/user/manual/en/human-resources/vehicle-log)
+1. [Veiculo](/docs/user/manual/pt/recursos-humanos/veiculo)
+1. [Log do Veiculo](/docs/user/manual/pt/recursos-humanos/log-do-veiculo)
 
 

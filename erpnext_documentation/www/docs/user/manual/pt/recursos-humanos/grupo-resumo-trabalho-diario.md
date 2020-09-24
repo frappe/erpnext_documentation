@@ -1,37 +1,37 @@
 <!-- add-breadcrumbs -->
-#Daily Work Summary Group
+#Grupo de Resumo de Trabalho Diario
 
-**In order to facilitate daily reporting of employees, you can configure ERPNext to request employees to send their work summaries through email. Daily Work Summary is an automated way of getting the daily work reporting of employees in an organization.**
+**Para poder facilitar os relatorios diarios dos funcionarios, voce pode configurar o ERPNext para pedir aos funcionarios que enviem os seu Resumos de Trabalho Diario via email. Resumo de Trabalho Diario é uma forma automatica de ter os relatorios de Resumo de Trabalho Diario dos funcionarios da sua empresa.**
 
-To configure a new Daily Work Summary Group, go to:
+Para configura o Grupo de Resumo de Trabalho Diario, vá para:
 
-> Human Resources > Settings > Daily Work Summary Group
+> Recursos Humanos > Configurações > Grupo de Resumo de Trabalho Diario
 
-You can set multiple groups with different set of 'Users' from your user list with different 'Send Emails At' time and with separate 'Holiday List' for each. 
+Voce pode definir varios grupos com diferentes conjuntos de 'Usuarios' a partir da lista de usuarios com 'Enviar Emails as' horas e com 'Lista de Feriados' separados para cada um. 
 
-You can also choose to customize the 'Message' you send to users.
+Voce pode tambem escolher em customizar a 'Mensagem' que quer enviar para os seus usuarios.
 
-## 1. Prerequisites
+## 1. Pre-requisitos
     
-Before creating a Daily Work Summary Group, it is necessary you create the following:
+Antes de criar um  Grupo de Resumo de Trabalho Diario, é necessario criar os seguintes:
 
-* [Email Account](/docs/user/manual/en/setting-up/email/email-account)
+* [Conta de Email](/docs/user/manual/pt/configuração/email/conta-email)
 
-## 2. How to create a Daily Work Summary Group
+## 2. Como criar um Grupo de Resumo de Trabalho Diario
 
-1. Go to: Daily Work Summary Group > New.
-1. Enter the name of the Daily Work Summary Group.
-1. Enter the User's names in the 'Users' table.
-1. Set the 'Send Emails At' time. This is the time the Daily Work Summary email will be sent.
-1. Select Holiday List (optional). On these days, the Daily Work Summary email won't be sent.
-1. In the Reminder section, enter the mail Subject and type in the Message.
-1. Save. 
+1. Vá para: Grupo de Resumo de Trabalho Diario > Novo.
+1. Digite o nome do Grupo de Resumo de Trabalho Diario.
+1. Digite os nomes do 'Usuarios' na tabela de 'Usuarios'.
+1. Defina a Hora para 'Enviar Email as'. Esta é a hora que o Grupo de Resumo de Trabalho Diario será enviado.
+1. Selecione a Lista de Feriados (opcional). Nestes dias, o Resumo de Trabalho Diario não será enviado.
+1. Na secção de Lembrete, digite o Titulo do Email e digite a Mensagem.
+1. Salvar.
 
->**Note:**
+>**Nota:**
 
->1. If no Holiday List is selected, then the email will be sent every day.
->2. Name of the "Daily Work Summary Group" will be sent as the title for daily summary email.
->3. Mail will not be sent to the users of a disabled Daily Work Summary Group.
+>1. Se não for selecionada uma Lista de Feriados, então o email será enviado todos os dias.
+>2. Nome do "Grupo de Resumo de Trabalho Diario" irá ser enviado como titulo para email do resumo.
+>3. Email não será enviado para os usuarios que estejam num Grupo de Resumo de Trabalho Diario desactivo.
 
 
 <img class="screenshot" alt="Daily Work Summary Group" src="{{docs_base_url}}/assets/img/human-resources/daily-work-summary-group.png">

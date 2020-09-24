@@ -1,57 +1,57 @@
 <!-- add-breadcrumbs -->
-# Department
+# Departamento
 
-**A Department is a specialized functional area or a division within an organization.**
+**Um Departamento é uma area funcional especializada para uma divsisão dentro da empresa.**
 
-You can configure the Departments in your organization, set Leave Block List, and also Leave and Expense Approvers for the same.
+Voce pode configurar o Departamento na sua organização, defina a lista de Bloqueio de Ferias, e tambem Ferias e Aprovador de Despesas para o mesmo.
 
-To access Department, go to:
+Para o acesso do Departamento, vá para:
 
-> Home > Human Resources > Employee > Department
+> Home > Recursos Humanos > Funcionario > Departamento
 
-Department is a tree-structured master, which means you can create parent departments and sub-departments as shown below:
+Departamento é uma estrutura em arvore, que significa que voce pode criar departamentos principais e sub-departamentos como mostra em baixo:
 
 <img class="screenshot" alt="Department Tree" src="{{docs_base_url}}/assets/img/human-resources/department-tree.png">
 
-> **Note:** The 'Is Group' checkbox needs to be checked if the Department is a parent department.
+> **Nota:** A caixa 'É Grupo' precisa ser selecionada se o Departamento é um departamento principal.
 
 
-## 1. Prerequisites
+## 1. Pre-requisitos
 
-Before creating a Department, it is advisable you create the following documents:
+Antes de criar um Departamento, é aconselhavel criar os seguintes:
 
-* [Company](/docs/user/manual/en/setting-up/company-setup)
-* [Leave Block List](/docs/user/manual/en/human-resources/leave-block-list)
+* [Empresa](/docs/user/manual/pt/configuração/configuração-empresa)
+* [Lista de Bloqueio de Licenças](/docs/user/manual/pt/recursos-humanos/lista-de-bloqueio-licenças)
 
-## 2. How to create a Department
+## 2. Como criar um Departamento
 
-1. Go to the Department list, click on New.
-1. Enter Department name.
-1. Select Company name.
-1. Select Leave Block List (optional) applicable for this department.
-1. Save.
+1. Vá para a lista de Departamento, clique em Novo.
+1. Digite o nome do Departamento aqui.
+1. Selecione o Nome da Empresa.
+1. Selecione a Lista de Bloqueio de Licenças (opcional) aplicavel para este departamento.
+1. Salvar.
 
     <img class="screenshot" alt="Department" src="{{docs_base_url}}/assets/img/human-resources/department.png">
 
 
-## 3. Features
+## 3. Funcionalidades
 
-### 3.1 Leave and Expense Approvers
+### 3.1 Licenças e Aprovadores de Despesas
 
-You can set Leave and Expense Approvers for a particular Department in the 'Leave Approver' and 'Expense Approver' table respectively.
+Voce pode definir Licenças e Aprovador de Despesas para um Departamento em particular na tabela 'Aprovador de Licenças' e 'Aprovador de Despesas' respectivamente.
 
 <img class="screenshot" alt="Leave and Expense Approver" src="{{docs_base_url}}/assets/img/human-resources/leave-and-expense.png">
 
 
-> **Note:** Multiple Leave and Expense Approvers can be set for a particular Department. However, the first  Approver in the list will be set as the default Approver.
+> **Nota:** Licenças Multiplas e Aprovadores de Licenças Multiple podem ser definidos para um Departamento em particular. Contudo, o primeiro Aprovador da lista será o Aprovador padrão.
 
 
 
 
 
-## 4. Related Topics
+## 4. Topicos Relacionados
 
-1. [Employment Type](/docs/user/manual/en/human-resources/employment-type)
-1. [Employee Grade](/docs/user/manual/en/human-resources/employee-grade)
-1. [Employee Branch](/docs/user/manual/en/human-resources/branch)
-1. [Employee Designation](/docs/user/manual/en/human-resources/designation)
+1. [Tipo de Contracto](/docs/user/manual/pt/recursos-humanos/tipo-de-contracto)
+1. [Grau de Funcionario](/docs/user/manual/pt/recursos-humanos/employee-grade)
+1. [Filiais do Funcionario](/docs/user/manual/pt/recursos-humanos/filial)
+1. [Designação do Funcionario](/docs/user/manual/pt/recursos-humanos/designação)

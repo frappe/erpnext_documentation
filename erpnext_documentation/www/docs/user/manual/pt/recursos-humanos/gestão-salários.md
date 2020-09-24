@@ -1,18 +1,18 @@
 <!-- add-breadcrumbs -->
-# Payroll Management
+# Gestão da Folha de Pagamento
 
-Payroll processing is an important function of every enterprise HR. ERPNext greatly simplifies this process by offering an array of features that you can utilize from Salary Structure management to bulk processing Payroll of employees. Read the following documentation to understand how to configure and use ERPNext Human Resources to super power your Payroll processing.
+Processamento do Salario é uma função importante para qualquer reponsavel do RH. O ERPNext simplifica este processo oferecendo uma lista de funcionalidades que pode ser utilizadas a partir da Gestão da Estrutura de Salario para o processamento de salario em massa dos funcionarios. Leia as seguintes documentações para entender como configurar e utilizar os Recursos Humanos do ERPNext para melhorar os seu Processamento de Salario.
 
-## Related Topics
+## Topicos Relacionados
 
-1. [Payroll Period](/docs/user/manual/en/human-resources/payroll-period)
-1. [Salary Component](/docs/user/manual/en/human-resources/salary-component)
-1. [Salary Structure](/docs/user/manual/en/human-resources/salary-structure)
-1. [Salary Structure Assignment](/docs/user/manual/en/human-resources/salary-structure-assignment)
-1. [Payroll Entry](/docs/user/manual/en/human-resources/payroll-entry)
-1. [Additional Salary](/docs/user/manual/en/human-resources/additional-salary)
-1. [Retention Bonus](/docs/user/manual/en/human-resources/retention-bonus)
-1. [Employee Incentive](/docs/user/manual/en/human-resources/employee-incentive)
+1. [Periodo de Folha de Pagamento](/docs/user/manual/pt/recursos-humanos/periodo-folha-de-pagamento)
+1. [Componente de Salario](/docs/user/manual/pt/recursos-humanos/componente-de-salário)
+1. [Estrutura de Salario](/docs/user/manual/pt/recursos-humanos/estrutura-salário)
+1. [Atribuição da Estrutura de Salario](/docs/user/manual/pt/recursos-humanos/atribuição-estrutura-salário)
+1. [Entrada da Folha de Pagamento](/docs/user/manual/pt/recursos-humanos/folha-de-pagamento)
+1. [Salario Adicional](/docs/user/manual/pt/recursos-humanos/salário-adicional)
+1. [Retenção de Bonus](/docs/user/manual/pt/recursos-humanos/bonus-de-retenção)
+1. [Incentivo do Funcionario](/docs/user/manual/pt/recursos-humanos/incentivo-funcionário)
 
 
 {next}

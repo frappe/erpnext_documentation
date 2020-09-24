@@ -1,80 +1,80 @@
 <!-- add-breadcrumbs -->
-# Payroll Entry
+# Entrada de Folha de Pagamento
 
-**Payroll is the sum total of all compensation a business must pay to its employees for a set period of time or on a given date.**
+**Folha de Pagamento é a soma total de todas as compensações que um negocio deve pagar aos seu funcionarios por uma periodo de horas ou dias.**
 
-In ERPNext, Payroll Entry enables bulk processing of payroll for employees. In other words, processing salary slips of all employees in one go. The bulk processing can be Company-wide or based on these categories: Branch, Department, or Designation. 
+No ERPNext, Entrada de Folha de Pagamento possibilita o processamento em massa de funcionarios. Em outras palavras, processar recibo de salario para todos os funcionarios de uma só vez. O processamento em massa pode ser para empresa completa ou com base nas seguintes categorias: Filiais, Departamentos ou Designações. 
 
-To access Payroll Entry, go to:
+Para aceder a Entrada de Folha de Pagamento, vá para:
 
-> Home > Human Resources > Payroll > Payroll Entry 
-
-
-
-## 1. How to create a Payroll Entry
+> Home > Recursos Humanos > Folha de Pagamento > Entrada de Folha de Pagamento
 
 
-1. Go to to Payroll Entry list, click on New.
-1. Select the Payroll Frequency.
-1. Select Branch, Designation and Department to filter out employees (optional).
-1. Select Project (optional) if you want to run the payroll against a project.
-1. Select 'Validate Attendance' and 'Salary Slip Based on Timesheet' checkboxes in case you want to deduct the salary based on attendance and if you want to also consider the timesheets of the employees respectively.
-1. Select the Payment Account to make the Bank Entry.
-1. Save. 
+
+## 1. Como criar uma Entrada de Folha de Pagamento
 
 
-Once the information is saved, click on the **Get Employees** button to get a list of Employees for which the Salary Slips will be created based on the selected criteria.
+1. Vá para a lista de Entrada de Folha de Pagamento, clique em Novo.
+1. Selecione a Frequencia de Pagamento.
+1. Selecione a Filial, Designação e Departamento para filtrar os funcionarios (opcional).
+1. Selecione Projeto (opcional) se voce quer correr contra um projecto.
+1. Selcione 'Validar Assiduidade' e 'Recibo de Salario com base no Timesheet' caso queira deduzir o salario com base na assiduidade e se voce quer considerar os timesheets dos funcionarios.
+1. Selecione a Conta de Pagamento para criar o Registo Bancário.
+1. Salvar.
 
-Once the list of Employees is fetched, click on the **Create Salary Slips** button to generate Salary Slips.
+
+Uma vez a informação salva. Clique no botão **Obter Funcionários** para obter a lista de Funcionarios para o qual o Recibo de Salario será criado com base nos criterios selecionados.
+
+Uma vez a Lista de Funcionarios inserida, clique no botão **Criar Recibos de Salario** para gerar os Recibos de Salario.
 
 <img class="screenshot" alt="Payroll Entry" src="/docs/assets/img/human-resources/payroll-entry-get-employees.png">
 
-> **Note:** If the Salary Slips are already created, the system will not create any more Salary Slips. You can also just save the form as Draft and create the Salary Slips later.
+> **Nota:** Se os Recibos de Salario já foram criados, o sistema não irá criar novamente os recibos. Voce pode salvar o formulario em rascunho e criar os Recibos de Salario depois.
 
 
-## 2. Features 
+## 2. Funcionalidades
 
-### 2.1 Salary Accrual 
+### 2.1 Accrual do Salario
 
-After verifying the Salary Slips, you can Submit them all together by clicking on the **Submit Salary Slip** button.
+Depois de verificar os Recibos de Salario, voce pode submeter todos de uma só vez fazendo o clique no botão **Submeter Recibos de Salario**.
 
 <img class="screenshot" alt="Payroll Entry" src="/docs/assets/img/human-resources/payroll-entry.png">
 
-This will also book the default Payroll Payable account against respective Expense Heads (as configured in Salary Components) to record the accrual of salary to employees.
+Este irá tambem alocal nas contas Padrão a Pagar da Contabilidade contra as respectivas contas de despesas (como configuradas nos Componentes de Salario) para registar o accrual dos salarios dos funcionarios.
 
-**Cost Center:**
-You can select Cost Center in the Payroll Entry against which the expenses will be posted.
+**Centro de Custo:**
+Voce pode selecionar o Centro de Custo na Entrada de Folha de Pagamento contra as despesas no qual serão criadas.
 
-If you want to book expenses against multiple cost centers based on Employee/Department, you can do so by setting Payroll Cost Center in Employee/Department master. Cost Center assigned in Employee/Department master will get priority over the selected Cost Center in Payroll Entry.
+Se voce quiser alocar despesas contra varios centros de custo com base no Funcionario/Departamento, voce pode fazer configurando o Centro de Custo na ficha do Funcionario/Departamento. Centro de Custo atribuido ao Funcionario/Departamenteo irá ter prioridade em relação ao Centro de Custo selecionado na Entrada de Folha de Pagamento.
 
 <img class="screenshot" alt="Payroll Entry" src="/docs/assets/img/human-resources/payroll-make-accrual-entry.png">
 
-> **Note:** Submitting Salary Slips one by one manually will not create the Journal Entry to record salary accrual.
+> **Nota:** Submetendo Recibos de Salario um por um manualmente não irá criar o Lançamento Contabilistico para o registo do accrual do Salario.
 
-### 2.2 Salary Payment
+### 2.2 Pagamento do Salario
 
-The final step is to book the Salary Payment.
+O passo final é alocar o Pagamento do Salario.
 
-Salaries in businesses are usually dealt with extreme privacy. In most cases, companies issue a single payment to the bank combining all salaries and the bank distributes the salaries to each employee’s salary account. 
+Salarios no negocioas são normalmente geridos com extram privacidade. Em muito dos casos, as empresa fazem um unico pagamento ao Banco combinando todos os salarios e o Banco faz a ditribuição para cada conta de salario dos Funcionarios. 
 
-This way there is only one payment entry in the company’s books of accounts and anyone with access to the company’s accounts will not have access to the individual salaries.
+Desta forma somente tera uma registo de pagamento nas contas da empresa e qualquer com acesso não irá ver os valores individuais .
 
-The salary payment entry is a Journal Entry that debits the total of the Earnings type salary component and credits the total of Deductions type salary component of all Employees to the default account set at Salary Component level for each component.
+O registo de pagamento de salario é um Lançamento Contabilistico que debita o total de Remunerações e credita o total de Deduções para todos os Funcionarios para a conta padrão definida em cada componente de salario.
 
-To generate your salary payment voucher from Payroll Entry, click on the **Make Bank Entry** button.
+Para gerar o seu registo de pagamento de salario a partir da Entrada da Folha de Pagamento, clique no botão **Criar Lançamento Bancário / Make Bank Entry**.
 
-Payroll Entry will route you to Journal Entry with relevant filters to view the draft Journal Vouchers created. You will have to set the reference number and date for the transactions and Submit the Journal Entry.
+Registo de Pagamento irá reenviar para o Lançamento Contabilístico com os filtros necessarios para visualizar em rascunho o Jornal criado. Voce irá ter de definir o Numero de Referencia e Data para as transações e Submeter o Lançamento Contabilístico.
 
 <img class="screenshot" alt="Payroll Entry" src="/docs/assets/img/human-resources/payroll-make-bank-entry.png">
 
-> **Note:** For Salary Components which are Flexible Benefits and has _Create Separate Payment Entry Against Benefit Claim_ checked, ERPNext will book separate draft Journal Entries.
+> **Nota:** Para os Componentes de Salario no qual são Beneficios Flexivies e tem selecionado _Criar Pagamento Separado contra a Reivindicação de Benefícios_, o ERPNext irá alocar Registos de Jornal separados.
 
 
-## 3. Related Topics
+## 3. Topicos Relacionados
 
-1. [Salary Component](/docs/user/manual/en/human-resources/salary-component)
-1. [Salary Structure](/docs/user/manual/en/human-resources/salary-structure)
-1. [Payroll Period](/docs/user/manual/en/human-resources/payroll-period)
-1. [Journal Entry](/docs/user/manual/en/accounts/journal-entry)
+1. [Componente de Salario](/docs/user/manual/pt/recursos-humanos/componente-de-salário)
+1. [Estrutura de Salario](/docs/user/manual/pt/recursos-humanos/estrutura-salário)
+1. [Periodo da Folha de Pagamento](/docs/user/manual/pt/recursos-humanos/periodo-folha-de-pagamento)
+1. [Lançamento Contabilístico](/docs/user/manual/pt/contabilidade/lançamento-contabilistico)
 
 {next}

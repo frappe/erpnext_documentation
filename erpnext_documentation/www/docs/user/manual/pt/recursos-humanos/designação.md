@@ -1,36 +1,36 @@
 <!-- add-breadcrumbs -->
-# Designation
+# Designação
 
-**Designations are the official job titles given to employees.**
+**Designações são titulos de trabalho oficiais dados aos funcionarios.**
 
-With reference to company management, there are various stakeholders like directors, officers, managers and shareholders who guide a company towards the fulfillment of its business objectives.
+Com referencia a gestão de empresas, existem varios acionistas como directores, oficiais, gestores que guiam a empresa pa cumprir os objectivos do negocio.
 
-ERPNext allows you to create various designations and also mention the skills required for the same.
+O ERPNext permite que voce crie varias designações e tambem mencione as habilidades necessarias para o mesmo.
 
-To access Designation, go to:
+Para aceder a Desginação, vá para:
 
-> Home > Human Resources > Employee > Designation
+> Home > Recursos Humanos > Funcionario > Designação
 
-## 1. How to create a Designation
+## 1. Como criar uma Designação
 
-1. Go to Designation list, click on New.
-1. Enter the Designation name.
-1. Enter Description and Required Skills (optional).
-1. Save.
+1. Vá para a lista de Designação, clique em Novo.
+1. Digite o Nome da Designação.
+1. Digite a Descrição e as habilidades necessarias (opcional).
+1. Salvar.
 
 
     <img class="screenshot" alt="Designation" src="{{docs_base_url}}/assets/img/human-resources/designation.png">
 
 
 
-> **Note:** The skills required for an Employee of a particular Designation that are specified in the "Required Skills" section of the Designation doctype can be directly fetched in the [Employee Skill Map](/docs/user/manual/en/human-resources/employee_skill_map) to evaluate an employee's performance based on his skills.
+> **Nota:** As habilidades necessarias para um Funcionaro de uma determinada Designação que foram especificadas na secção "Habilidades Necessarias" da ficha Designação pode ser inseridas no [Mapa de Habilidades de Funcionario](/docs/user/manual/pt/recursos-humanos/mapa-habilidades-funcionários) para avaliar o desempenho do funcionario com base nas suas habilidades.
 
 
-## 3. Related Topics
+## 3. Topicos Relacionados
 
-1. [Employee](/docs/user/manual/en/human-resources/employee)
-1. [Employment Type](/docs/user/manual/en/human-resources/employment-type)
-1. [Branch](/docs/user/manual/en/human-resources/branch)
-1. [Department](/docs/user/manual/en/human-resources/department)
-1. [Employee Grade](/docs/user/manual/en/human-resources/employee-grade)
-1. [Employee Skill Map](/docs/user/manual/en/human-resources/employee_skill_map)
+1. [Funcionario](/docs/user/manual/pt/recursos-humanos/funcionario)
+1. [Tipo de Contracto](/docs/user/manual/pt/recursos-humanos/tipo-de-contracto)
+1. [Filial](/docs/user/manual/pt/recursos-humanos/filial)
+1. [Departamento](/docs/user/manual/pt/recursos-humanos/departamento)
+1. [Grau de Funcionario](/docs/user/manual/pt/recursos-humanos/employee-grade)
+1. [Mapa de Habilidades de Funcionario](/docs/user/manual/pt/mapa-habilidades-funcionários/)

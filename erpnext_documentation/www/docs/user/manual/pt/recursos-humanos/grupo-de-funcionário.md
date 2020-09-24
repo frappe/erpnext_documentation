@@ -1,40 +1,40 @@
 <!-- add-breadcrumbs -->
 
-# Employee Group
+# Grupo de Funcionário
 
-**Employee Group is grouping of Employees based on some attributes such as Designation, Grade, Branch, etc.**
+**Grupo de Funcionário é um grupo de Funcionarios com base em alguns atributos como Designação, Grau, Filial, etc.**
 
-To access Employee Group, go to:
+Para aceder Grupo de Funcionário, vá para:
 
-> Home > Human Resources > Employee > Employee Group
+> Home > Recursos Humanos > Funcionario > Grupo de Funcionário
 
-## 1. Prerequisites
+## 1. Pre-requisitos
 
-Before creating an Employee Group, it is advisable you create the following documents:
+Antes de criar o Grupo de Funcionário, é aconselhavel criar os seguintes:
 
-* [Employee](/docs/user/manual/en/human-resources/employee)
+* [Funcionario](/docs/user/manual/pt/recursos-humanos/funcionario)
 
 
-## 2. How to create an Employee Group
+## 2. Como criar um Grupo de Funcionário
 
-1. Go to Employee Group list, click on New.
-1. Enter the Name.
-1. Select and add Employee ID to the group. The Employee Name will get automatically fetched.
-1. Save.
+1. Vá a lista do Grupo de Funcionário, clique em Novo.
+1. Digite o Nome.
+1. Selecione e adicione o ID do Funcionario ao grupo. O Nome do Funcionario irá ser inserido automaticamente.
+1. Salvar.
 
     <img class="screenshot" alt="Employee Group" src="{{docs_base_url}}/assets/img/human-resources/employee-group.png">
 
-## 3. Features
+## 3. Funcionalidades
 
-### 3.1 Service Level Agreement
+### 3.1 Acordo de Nivel de Serviço
 
-An Employee Group can be added to the [Service Level Agreement](/docs/user/manual/en/support/service-level-agreement) doctype, where the Service Level can be specified for a particular Employee Group.
+Um Grupo de Funcionário pode ser adicionado a um [Acordo de Nivel de Serviço](/docs/user/manual/pt/suporte/acordo-nivel-serviço), aonde o Nivel de Serviço pode ser especificado para um Grupo de Funcionario em particular.
 
 
-## 4. Related Topics
+## 4. Topicos Relacionados
 
-1. [Employment Type](/docs/user/manual/en/human-resources/employment-type)
-1. [Branch](/docs/user/manual/en/human-resources/branch)
-1. [Department](/docs/user/manual/en/human-resources/department)
-1. [Designation](/docs/user/manual/en/human-resources/designation)
-1. [Employee Grade](/docs/user/manual/en/human-resources/employee-grade)
+1. [Tipo de Contrato](/docs/user/manual/pt/recursos-humanos/tipo-de-contracto)
+1. [Filial](/docs/user/manual/pt/recursos-humanos/filial)
+1. [Departamento](/docs/user/manual/pt/recursos-humanos/departamento)
+1. [Designação](/docs/user/manual/pt/recursos-humanos/designação)
+1. [Grau de Funcionario](/docs/user/manual/pt/recursos-humanos/grau-funcionario)

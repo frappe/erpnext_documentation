@@ -1,20 +1,20 @@
 <!-- add-breadcrumbs -->
-# Leaves
+# Licenças
 
-This section will help you understand how ERPNext enables you to efficiently manage the leave schedule of your organization. It also explains how employees can apply for leaves.
+Esta secção irá ajudar a entender como o ERPNext permite voce gerir o cronograma de licenças para sua empresa. Tambem explica como funcionarios podem aplicar para licenças.
 
-The number and type of leaves an Employee can apply is controlled by Leave Allocation. You can create Leave Allocation for a Leave Period based on the Company's Leave Policy. You can also allocate Additional Leaves to your employees and generate reports to track leaves taken by Employees.
+O numero e o tipo de licenças um Funcionario pode aplicar é controlado pelas Alocação de licenças. Voce pode criar Alocação de licenças para um Periodo de licenças com base na Politica de licenças da Empresa. Voce tambem alocar licenças Adicionais para os seus funcionarios e gerar relatorios para rastrear licenças tiradas pelos Funcionarios.
 
-Employees can also create leave requests, which their respective managers (leave approvers) can approve or reject. An Employee can select leaves from a number of leave types such as Sick Leave, Casual Leave, Privilege Leave and so on. 
+Funcionarios pode tambem criar em pedidos de licenças, no qual o respectivo gestor (aprovador de licenças) pode aprovar ou rejeitar. Um Funcionario pode selecionar licenças a partir de um numero de tipo de licenças Licença por Doença, Licença Casual, etc. 
 
-## Related Topics 
+## Topicos Relacionados
 
-1. [Holiday List](/docs/user/manual/en/human-resources/holiday-list)
-1. [Leave Type](/docs/user/manual/en/human-resources/leave-type)
-1. [Leave Period](/docs/user/manual/en/human-resources/leave-period)
-1. [Leave Policy](/docs/user/manual/en/human-resources/leave-policy)
-1. [Leave Allocation](/docs/user/manual/en/human-resources/leave-allocation)
-1. [Leave Application](/docs/user/manual/en/human-resources/leave-application)
-1. [Compensatory Leave Request](/docs/user/manual/en/human-resources/compensatory-leave-request)
-1. [Leave Encashment](/docs/user/manual/en/human-resources/leave-encashment)
-1. [Leave Block List](/docs/user/manual/en/human-resources/leave-block-list)
+1. [Lista de Feriados](/docs/user/manual/pt/recursos-humanos/lista-de-feriados)
+1. [Tipo de Licenças](/docs/user/manual/pt/recursos-humanos/tipo-de-ferias)
+1. [Periodo de Licenças](/docs/user/manual/pt/recursos-humanos/periodo-ferias)
+1. [Politica de Licença](/docs/user/manual/pt/recursos-humanos/politica-de-licença)
+1. [Alocação de Licença](/docs/user/manual/pt/recursos-humanos/alocação-ferias)
+1. [Pedido de Licença](/docs/user/manual/pt/recursos-humanos/pedido-licença)
+1. [Solicitação de Licença Compensatoria](/docs/user/manual/pt/recursos-humanos/solicitação-licenças-compensatoria)
+1. [Leave Encashment](/docs/user/manual/pt/recursos-humanos/leave-encashment)
+1. [Lista de Bloqueio de Licença](/docs/user/manual/pt/recursos-humanos/lista-de-bloqueio-licenças)

@@ -1,47 +1,47 @@
 <!-- add-breadcrumbs -->
-# Employee Attendance Tool
+# Ferramenta de Assiduidade do Funcionário
 
-**Employee Attendance Tool allows you to mark attendance of multiple employees for a particular date.**
+**Ferramenta de Assiduidade do Funcionário permite que voce marque a assiduidade de varios funcionarios para um periodo em particular.**
 
-To access the Employee Attendance Tool, go to:
+Para aceder a Ferramenta de Assiduidade do Funcionário, vá para:
 
-> Home > Human Resources > Attendance > Employee Attendance Tool
+> Home > Recursos Humanos > Assiduidade > Ferramenta de Assiduidade do Funcionário
 
-This tool allows you to add attendance records for multiple employees based on their Department and Branch for a given day quickly.
+Esta ferramenta permite adicionar registos de assiduidade para varios funcionarios com base no Departamento, filial para um certo dia rapidamente.
 
-## 1. Prerequisites
+## 1. Pre-requisitos
 
 
-Before creating an Employee Attendance, it is advised that you create the following first:
+Antes de criar Assiduidade do Funcionário, é aconselhavel criar os seguintes:
 
-* [Employee](/docs/user/manual/en/human-resources/employee)
-* [Department](/docs/user/manual/en/human-resources/department)
-* [Branch](/docs/user/manual/en/human-resources/branch)
+* [Funcionario](/docs/user/manual/pt/recursos-humanos/funcionario)
+* [Departamento](/docs/user/manual/pt/recursos-humanos/departamento)
+* [Filiar](/docs/user/manual/pt/recursos-humanos/filial)
 
-## 2. How to mark attendance using Employee Attendance Tool
+## 2. Como marcar assiduidade usando Ferramenta de Assiduidade do Funcionário
 
-1. Enter the Date.
-1. Select the Department and Branch (optional).
-1. Select the Employees.
-1. Mark Present, Absent or Half Day as required.
+1. Digite a Data.
+1. Selecione o Departamento e Filial (opcional).
+1. Selecione os Funcionarios.
+1. Marcar Presente, Ausente ou Meio Dia como necessario.
 
 
     <img class="screenshot" alt="Attendance upload" src="{{docs_base_url}}/assets/img/human-resources/employee-attendance-tool.gif">
 
-> **Note:** Attendance cannot be marked for future dates.
+> **Nota:** Assiduidade não pode ser marcada para datas futuras.
 
-Once the attendance is marked using the Employee Attendance Tool, the employee attendance is saved in the [Attendance](/docs/user/manual/en/human-resources/attendance) record as shown:
+Uma vez a assiduidade marcada usando a  Ferramenta de Assiduidade do Funcionário, o funcionario pode salvar [Assiduidade](/docs/user/manual/pt/recursos-humanos/assiduidade) o registo como mostra:
 
 <img class="screenshot" alt="Attendance" src="{{docs_base_url}}/assets/img/human-resources/attendance_tool1.png">
 
 
-## 3. Related Topics
+## 3. Topicos Relacionados
 
-1. [Attendance](/docs/user/manual/en/human-resources/attendance)
-1. [Attendance Request](/docs/user/manual/en/human-resources/attendance-request)
-1. [Upload Attendance](/docs/user/manual/en/human-resources/upload-attendance)
-1. [Shift Management](/docs/user/manual/en/human-resources/shift-management)
-1. [Auto Attendance](/docs/user/manual/en/human-resources/auto-attendance)
+1. [Assiduidade](/docs/user/manual/pt/recursos-humanos/assiduidade)
+1. [Pedido de Assiduidade](/docs/user/manual/pt/recursos-humanos/pedido-licença)
+1. [Carregar Assiduidade](/docs/user/manual/pt/recursos-humanos/carregar-assiduidade)
+1. [Gestão de Turno](/docs/user/manual/pt/recursos-humanos/gestão-de-turnos)
+1. [Auto Assiduidade](/docs/user/manual/pt/recursos-humanos/auto-assiduidade)
 
 
 {next}
