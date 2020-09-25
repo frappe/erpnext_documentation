@@ -1,4 +1,4 @@
-# Loan Application
+# Solicitação de Emprestimo
 
 **Loan Application is a document which contains the information regarding the Loan Applicant, Loan Type, Repayment Method, Loan Amount and Rate of Interest.**
 
