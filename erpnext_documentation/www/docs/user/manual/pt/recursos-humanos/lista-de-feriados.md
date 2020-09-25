@@ -1,81 +1,81 @@
 <!-- add-breadcrumbs -->
-#Holiday List
+#Lista de Feriados
 
-**Holiday List is a list which contains the dates of holidays.**
+**Lista de Feriados é uma lista no qual contem as datas dos feriados.**
 
-Most organizations have a standard Holiday List for their employees. However, some of them may have different holiday lists based on different Locations or Departments. In ERPNext, you can configure multiple Holiday Lists and assign them to your employees based on your requirements.
+Muita das empresas tem uma Lista de Feriados padrão para os seu funcionarios. Contudo, alguns tem feriados diferentes com base na Localização ou Departamento. No ERPNext, voce pode configurar varias Lista de Feriados e atribuir aos seu funcionarios com base nos requisitos.
 
-To access Holiday List, go to:
+Para aceder Lista de Feriados, vá para:
 
-> Home > Human Resources > Leaves > Holiday List
+> Home > Recursos Humanos > Sai > Lista de Feriados
 
 
 
-## 1. How to create a Holiday List
+## 1. Como criar uma Lista de Feriados
 
-1. Go to Holiday List, click on New.
-2. Enter Holiday List Name. It can be based on the Fiscal Year or Location or Department as per the requirement. 
-3. Select From Date and To Date for the Holiday List.
+1. Vá para Lista de Feriados, clique em Novo.
+2. Digite o Nome da Lista. Pode ser com base no Ano Fiscal, Localização, Departamento ou de acordo a sua necessidade. 
+3. Selecione a Data de Inicio e Fim para a Lista de Feriados.
 
 
     <img class="screenshot" alt="Holiday List" src="{{docs_base_url}}/assets/img/human-resources/holiday-list-1.png">
 
-## 2. Features 
+## 2. Funcionalidades
 
-Some of the additional features in the Holiday List are as follows:
+Algumas funcionalidades adicionais na Lista de Feriados são:
 
-### 2.1 Adding Weekly Holidays 
+### 2.1 Adicionar Fins de Semana
 
-You can quickly add Weekly Offs in the Holiday List as follows:
+Voce pode rapidamente adicionar Fins de Semana na Lista de Feriados:
 
-1. In the 'Add Weekly Holidays' section, select the day in the Weekly Off field.
-2. Click on the 'Add to Holidays' button.
-3. Save.
+1. Na secção 'Adicionar Fins de Semana', selecione o dia no campo Semanas de Folga.
+2. Clique no botão 'Adicionar aos Feriados'.
+3. Salvar.
 
-Once the Weekly Offs are added, it is reflected in the Holidays table.
+Uma vez as Semanas de Folga adicionadas, irão reflectir na tabela de Feriados.
 
-> **Note:** You can add multiple days in the Weekly Offs.
+> **Nota:** Voce pode adicionar varios dias nas Semanas de Folga.
 
 <img class="screenshot" alt="Holiday List" src="{{docs_base_url}}/assets/img/human-resources/holiday-list-2.gif">
 
 
-You can also add specific days (like festival holidays) manually by clicking on the 'Add row' option in the Holidays table.
+Voce pode tambem adicinar dias especificos (como feriados de festivais) manualmente fazendo o clique na opção 'Adicionar Linha' na tabela de Feriados.
 
 <img class="screenshot" alt="Holiday List" src="{{docs_base_url}}/assets/img/human-resources/holiday-list-3.png">
 
-> **Note:** Each time a new holiday is updated in the Holidays table, the Total Holidays field gets updated.
+> **Nota:** Cada vez que um novo feriado é actualizado na tabela de feriados, o campo Total de Feriados tambem.
 
-### 2.2 Holiday List in Company
+### 2.2 Lista de Feriados na Empresa
 
-You can set a default Holiday List at the company-level in the Company master in the 'Default Holiday List' field.
+Voce pode definiar a Lista de Feriados Padrão a nivel da Empresa na ficha da Empresa no campo 'Lista de Feriados Padrão'.
 
 
 <img class="screenshot" alt="Holiday List" src="{{docs_base_url}}/assets/img/human-resources/default-holiday-list-company.png">
 
 
-### 2.3 Holiday List in Employee 
+### 2.3 Lista de Feriados No Funcionario
 
-If you have created multiple Holiday List, select a specific Holiday List for an Employee in the respective master.
+Se voce criou varias Listas de Feriados, selecione a Lista de Feriados especifica para o Funcionario na ficha de Funcionarios.
 
-When an Employee applies for Leave, the days mentioned in the Holiday List will not be counted, as they are holidays already. 
+Quando o Funcionario fizer uma pedido de Licença, os dias mencionados na Lista de Feriados não serão contados, pois já são feriados. 
 
-> **Note:** If you have specified a Holiday List in the Employee master, then that Holiday List will be given priority as compared to the default Holiday List of the Company.
-You can form as many holiday lists as you wish. For example, if you have a factory, you can have one list for the factory workers and another list for office staff. You can manage between many lists by linking a Holiday List to the respective Employee.
+> **Nota:** Se voce especificou uma Lista de Feriados na ficha do Funcionario, etnão essa Lista terá prioridade a Lista definida na ficha da Empresa.
+Voce pode criar quantas listas quiser. Por exemplo, se voce tem uma fabrica, voce pode ter uma lista para os funcionarios da fabrica e outra para os funcionarios do escritorio. Voce pode gerir entre as varias listas ligando a Lista ao respectivo Funcionario.
 
-### 2.4 Holiday List in Workstation
+### 2.4 Lista de Feriados em Postos de Trabalho
 
-You can also set a Holiday List at workstation-level as shown in the screenshot below. 
+Voce pode definir Listas a nivel de Postos de Trabalho como mostra a tabela em baixo. 
 
 <img class="screenshot" alt="Holiday List" src="{{docs_base_url}}/assets/img/human-resources/holiday-list-workstation.png">
 
-The dates in the Holiday List tagged in the [Workstation](/docs/user/manual/en/manufacturing/workstation) master will be considered as the days the Workstation will remain closed.
+As datas na Lista de Feriados marcadas na ficha [Postos de Trabalho](/docs/user/manual/pt/fabrico/postos-de-trabalho) irão ser considerados como os que os postos ficaram fechados.
 
 
-## 3. Related Topics
+## 3. Topicos Relacionados
 
-1. [Leave Allocation](/docs/user/manual/en/human-resources/leave-allocation)
-1. [Leave Period](/docs/user/manual/en/human-resources/leave-period)
-1. [Leave Policy](/docs/user/manual/en/human-resources/leave-policy)
-1. [HR Settings](/docs/user/manual/en/human-resources/hr-settings)
+1. [Alocação de Licença](/docs/user/manual/pt/recursos-humanos/alocação-ferias)
+1. [Periodo de Licença](/docs/user/manual/pt/recursos-humanos/periodo-ferias)
+1. [Politica de Licença](/docs/user/manual/pt/recursos-humanos/politica-de-licença)
+1. [Configurações do RH](/docs/user/manual/pt/recursos-humanos/configuração-recursos-humanos)
 
 

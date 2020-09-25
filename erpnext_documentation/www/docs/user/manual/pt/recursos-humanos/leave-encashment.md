@@ -1,50 +1,50 @@
 <!-- add-breadcrumbs -->
-# Leave Encashment
+# Pagamento de Ferias
 
 
 
-**Leave Encashment refers to an amount of money received in exchange for Leaves not availed by an Employee. You can submit Leave Encashment for Leave Types which are encashable.**
+**Pagamento de Ferias refere-se a um valor em dinheiro recebido em troca de Ferias não tiradas pelo Funcionario. Voce pode submeter o Pagamento de Ferias para o Tipo de Licenças que podem ser pagas.**
 
-To access Leave Encashment, go to:
+Para aceder o Pagamento de Ferias, vá para:
 
-> Home > Human Resources > Leaves > Leave Encashment 
+> Home > Recursos Humanos > Licenças > Pagamento de Ferias / Sai
 
 
-## 1. Prerequisites
+## 1. Pre-requisitos
 
-Before creating Leave Encashment, it is advisable you create the following documents:
+Antes de criar Pagamento de Ferias, é aconselhavel criar estes:
 
-1. [Employee](/docs/user/manual/en/human-resources/leave-allocation)
-1. [Leave Type](/docs/user/manual/en/human-resources/leave-type)
-1. [Leave Policy](/docs/user/manual/en/human-resources/leave-policy)
-1. [Leave Period](/docs/user/manual/en/human-resources/leave-period)
-1. [Salary Structure](/docs/user/manual/en/human-resources/salary-structure)
-1. [Salary Structure Assignment](/docs/user/manual/en/human-resources/salary-structure-assignment)
+1. [Alocação de Licença](/docs/user/manual/pt/recursos-humanos/alocação-ferias)
+1. [Tipo de Licença](/docs/user/manual/pt/recursos-humanos/tipo-de-ferias)
+1. [Politica de Licença](/docs/user/manual/pt/recursos-humanos/politica-de-licença)
+1. [Periodo de Licença](/docs/user/manual/pt/recursos-humanos/periodo-ferias)
+1. [Estrutura de Salario](/docs/user/manual/pt/recursos-humanos/estrutura-salário)
+1. [Atribuição de Estrutura de Salario](/docs/user/manual/pt/recursos-humanos/atribuição-estrutura-salário)
 
-## 2. How to create a Leave Encashment
+## 2. Como criar um Pagamento de Ferias
 
-1. Go to Leave Encashment list, click on New.
-1. Select Leave Period.
-1. Select the Employee. Once the Employee is selected, the Employee's Department is automatically fetched.
-1. Select Leave Type for which the Leave is encashed. Make sure the Leave Type is encashable (the 'Allow Encashment' checkbox in the Leave Type is checked).
-1. Select Encashment Date. Based on the date selected, the amount will be encashed in that particular Payroll Entry.
-1. Save and Submit.
+1. Vá para a lista de Pagamento de Ferias, clique em Novo.
+1. Selecione o Periodo da Licença.
+1. Selecione o Funcionario. Uma vez o Funcionario selecionado, o Departamento será incluido automaticamente.
+1. Selecione o Tipo de Licença para quem será entregue o pagamento. Tenha a certeza que o Tipo de Licença é para ser paga (A caixa 'Permitir Pagamento' no Tipo de Licença esta activo).
+1. Selecione a Data de Pagamento. Com base na data selecionada, o valor será pago para aquela Entrada de Folha de Pagamento.
+1. Salvar e Submeter.
 
 	<img class="screenshot" alt="Leave Encashment"
 	src="{{docs_base_url}}/assets/img/human-resources/leave-encashment-new.png">
 
 
-> **Note:** As you select Employee and Leave Type, Leave Balance and Encashable Days (which is total leave balance minus the threshold days set in Leave Type) will be shown along with the Encashment Amount based on the Leave Encashment per day as configured in the Employee's assigned Salary Structure.
+> **Nota:** Ao selecionar o Funcionario e o Tipo de Licença, Banlanço de Ferias e Dias de Pagamento (que é o balanço de total de ferias menos o maximo de dias definido no Tipo de Licença) será mostrado com o Valor do Pagamento com base no Pagamento por Dia configurado na Estrutura de Salario atribuida ao Funcionario.
 
 
-On submitting a Leave Encashment for an Employee, ERPNext automatically creates an [Additional Salary](/docs/user/manual/en/human-resources/additional-salary) which will get added to the Salary Slip of the Employee when processing the payroll.
+Ao submeter o Pagamento de Ferias para um Funcionario, o ERPNext automaticamente cria um [Salario Adicional](/docs/user/manual/pt/recursos-humanos/salário-adicional) que será adicionado ao Recibo de Salario do Funcionario ao processar os Salarios.
 
 
 
-## 3. Related Topics
+## 3. Topicos Relacionados
 
-1. [Payroll Period](/docs/user/manual/en/human-resources/payroll-period)
-1. [Payroll Entry](/docs/user/manual/en/human-resources/payroll-entry)
-1. [Additional Salary](/docs/user/manual/en/human-resources/additional-salary)
+1. [Periodo da Folha de Pagamento](/docs/user/manual/pt/recursos-humanos/periodo-folha-de-pagamento)
+1. [Entrada da Folha de Pagamento](/docs/user/manual/pt/recursos-humanos/folha-de-pagamento)
+1. [Salario Adicional](/docs/user/manual/pt/recursos-humanos/salário-adicional)
 
 

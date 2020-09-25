@@ -1,66 +1,66 @@
 <!-- add-breadcrumbs -->
-# Income Tax Slab
+# Laje de Imposto de Renda - Income Tax Slab
 
-**Income Tax Slab is a document to define income tax rates based on different taxable income slab.** 
+**Laje de Imposto de Renda é um documento para definir a taxa do Imposto de Renda com base em diferentes Lajes de Imposto de Renda.** 
 
-In many countries, income tax is levied on individual taxpayers based on a slab system where different tax rates have been prescribed for different slabs and such tax rates keep increasing with an increase in the income slab. In ERPNext, you can define multiple Income Tax Slabs and link them to individual employee's salary structure via Salary Structure Assignment.
+Em muitos países, imposto de renda é atribuido a contribuintes individuais com base num sistema de Lajes com diferentes taxas de imposto pre-escritas e tais taxas continuam a aumentar. No ERPNext, voce pode definir varias Lajes de Imposto de Renda e ligar a estrutura salarial dos funcionario via a Atribuição da Estrutura Salarial.
 
-To access Income Tax Slab, go to:
-> Home > Human Resources > Payroll > Income Tax Slab
+Para aceder a Laje de Imposto de Renda, vá para:
+> Home > Recursos Humanos > Folha de Pagamento > Laje de Imposto de Renda
 
-## 1. How to create an Income Tax Slab
+## 1. Como criar uma Laje de Imposto de Renda
 
-To create a new Income Tax Slab:
+Para criar uma nova Laje de Imposto de Renda:
 
-1. Enter a Name for the IT Slab, Company and the date from which it will be Effective From.
-1. Enable the checkbox 'Allow Tax Exemption' if applicable.
-1. Save and Submit.
+1. Digite o Nome para a Laje IT, Empresa e data no qual terá inicio.
+1. Active a caixa 'Permitir Isenção de Imposto' se for aplicavel.
+1. Salvar e Submeter.
 
-## 2. Features
+## 2. Funcionalidades
 
-### 2.1 Tax Slabs
+### 2.1 Lajes de Imposto
 
-In the Tax Slab table, you can define the rate for different income slabs. To define slab, From Amount and To Amount should be entered. For the first slab, From Amount is optional and for the last slab, To Amount is optional. Both the amount is inclusive while evaluating tax based on taxable income.
+Na tabela Laje de Imposto, voce pode definiar a taxa para as diferentes lajes. Para definir a laje, o valor De e Para deve ser digitado. Para primeira laje, o Valor De é opcional e para a ultima laje, o Valor Para é opcional. Ambos são incluídos quando estiver a avaliar a taxa com base no rendimento tributavel. 
 
 
 <img class="screenshot" alt="Income Tax Slab" src="/docs/assets/img/human-resources/income-tax-slab.png">
 
-The tax slab can be applicable based on specific conditions. Conditions can be written using all field names of Employee, Salary Structure, Salary Structure Assignment, and Salary Slip documents.
+A laje de imposto é aplicada com base em condições especificas. Conditções podem ser escritas usando todos os campos de Funcionario, Estrutura de Salario, Atribuição de Estrutura de Salario e Recibo de Salario.
 
-Examples:
+Exemplos:
 
 ```
-// Apply tax if employee born between 31-12-1937 and 01-01-1958 (Employees aged 60 to 80)
+// Aplique a taxa se o funcionario nascido entre 31-12-1937 e 01-01-1958 (Idade entre 60 e 80)
 date_of_birth > date(1937, 12, 31) and date_of_birth < date(1958, 01, 01)
 
-// Apply tax by employee gender
+// Aplicar taxa pelo Genero
 gender == "Male"
 
-// Apply tax by Salary Component
+// Aplicar taxa pelo Componente de Salario
 base > 10000
 
-// Annual Taxable income is greater than 5 lakhs
+// Rendimento Tributavel Anual é maior que 5 lakhs
 annual_taxable_earning > 500000
 ```
 
-### 2.2 Other Taxes and Charges on Income Tax
+### 2.2 Outrs Impostos e Taxas no Imposto de Renda
 
-If other taxes are applicable on calculated income tax, you can enter those using this table. You can also define the min and max taxable amount for which this tax will be applicable.
-For example, Health and Education Cess is applied additionally on income tax to everyone in India.
+Se outros impostos são aplicaveis a calcular o Imposto de Renda, voce pode digitar nesta tabela. Voce pode tambem definir o valor minumo e maximo do imposto pelo qual a Taxa será aplicada.
+Por exemplo, Saude e Educação são aplicados no Imposto de Renda adicionalmente para todos na India.
 
 <img class="screenshot" alt="Other Charged on Income Tax" src="/docs/assets/img/human-resources/other-taxes-on-income-tax.png">
 
 
-### 2.3 Other Properties
+### 2.3 Outras Propriedades
 
-- **Allow Tax Exemptions:** Tax exemptions can be allowed for a specific Income Tax Slab. If enabled, while calculating taxes based on this tax slab, Employee Tax Exemption Declaration and Proof Submission are considered for calculating taxable income.
-- **Standard Tax Exemption Amount:** If exemption is allowed, the Standard Tax Exemption Amount defined by the government can be added here. This exemption generally does not need any kind of document proof and applicable to all employees linked to this income tax slab.
+- **Permitir Isenção de Imposto:** Isenção de Imposto pode ser permitido para uma Laje de Imposto de Renda especifica. Se activo, ao calcular os impostos com base nesta laje, Declaração de Isenção de Imposto do Funcionario e Prova de Submissão são considerados para calcular Rendimentos Tributaveis.
+- **Valor de Isenção de Imposto Padrão:** Se a isenção é permitida, o Valor de Isenção de Imposto Padrão definido pelo Governo pode ser adicionado aqui. Esta isenção geralmente não precisa de qualquer documento para provar e é aplicavel para todos os funcionarios ligado a esta laje de imposto de renda.
 
-## 3. Related Topics
+## 3. Topicos Relacionados
 
-1. [Salary Component](/docs/user/manual/en/human-resources/salary-component)
-1. [Salary Structure](/docs/user/manual/en/human-resources/salary-structure)
-1. [Salary Structure Assignment](/docs/user/manual/en/human-resources/salary-structure-assignment)
-1. [Payroll Entry](/docs/user/manual/en/human-resources/payroll-entry)
-1. [Employee Tax Exemption Declaration](/docs/user/manual/en/human-resources/employee-tax-exemption-declaration) 
-1. [Employee Tax Exemption Proof Submission](/docs/user/manual/en/human-resources/employee-tax-exemption-proof-submission)
+1. [Componente de Salario](/docs/user/manual/pt/recursos-humanos/componente-de-salário)
+1. [Estrutura de Salario](/docs/user/manual/pt/recursos-humanos/estrutura-salário)
+1. [Atribuição de Estrutura de Salario](/docs/user/manual/pt/recursos-humanos/atribuição-estrutura-salário)
+1. [Entrada de Folha de Pagamento](/docs/user/manual/pt/recursos-humanos/folha-de-pagamento)
+1. [Declaração de Isenção de Imposto de Funcionario](/docs/user/manual/pt/recursos-humanos/declaração-de-isenção-de-imposto-funcionário) 
+1. [Submissão de Prova de Isenção de Imposto de Funcionario](/docs/user/manual/pt/recursos-humanos/submissão-prova-isenção-imposto-funcionário)
