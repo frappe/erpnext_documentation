@@ -1,17 +1,17 @@
-# Solicitação de Emprestimo
+# Solicitação de Empréstimo
 
-**Loan Application is a document which contains the information regarding the Loan Applicant, Loan Type, Repayment Method, Loan Amount and Rate of Interest.**
+**Solicitação de Empréstimo é um documento que contem a informação sobre o Pedido de Emprestimo, Tipo de Emprestimo, Metodo de Pagamento, Valor do Emprestimo e Taxa de Juro.**
 
-Employee can apply for loan by going to:
+O Funcionario pode aplicar para um Emprestimo indo em:
 
-> Human Resources > Loan > Loan Application
+> Recursos Humanos > Emprestimo > Solicitação de Empréstimo
 
-## 1. Prerequisites
+## 1. Pre-requisitos
 
-Before creating a Loan Application, it is advisable to create the following documents:
+Antes de criar uma Solicitação de Empréstimo, é aconselhavel criar os seguintes:
 
-* [Employee](/docs/user/manual/en/human-resources/employee)
-* [Loan Type](/docs/user/manual/en/human-resources/loan-type)
+* [Funcionario](/docs/user/manual/pt/recursos-humanos/funcionario)
+* [Tipo de Emprestimo](/docs/user/manual/pt/recursos-humanos/tipo-emprestimo)
 
   
 
@@ -51,6 +51,6 @@ There are two types of Repayment Methods in Loan Application:
 
 ## 4. Related Topics
 
-1. [Loan Type](/docs/user/manual/en/human-resources/loan-type)
-1. [Loan](/docs/user/manual/en/human-resources/loan)
+1. [Loan Type](/docs/user/manual/pt/recursos-humanos/loan-type)
+1. [Loan](/docs/user/manual/pt/recursos-humanos/loan)
 
