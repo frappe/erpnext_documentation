@@ -1,106 +1,106 @@
 <!-- add-breadcrumbs -->
-# Leave Application
+# Pedido de Licença
 
-**Leave Application is a formal document created by an Employee to apply for Leaves for a particular time period.**
+**Pedido de Licença é um documento formal criado por um Funcionario a pedir Ferias por um periodo determinado.**
 
-ERPNext allows your employees to apply for leaves via Leave Applications and get them approved by the Leave Approvers.
+O ERPNext permite que os seus funcionarios façam o pedido de ferias via Pedido de Ferias e ser aprovadas pelo Aprovador de Licenças.
 
-To access Leave Application, go to:
+Para aceder o Pedido de Licença, vá para:
 
-> Home > Human Resources > Leaves > Leave Application
+> Home > Recursos Humanos > Sai > Pedido de Licença
 
-## 1. Prerequisites
+## 1. Pre-requisitos
 
-Before you create a Leave Application, it is advisable you have the following documents:
+Antes de criar o Pedido de Licença, é aconselhavel ter os seguintes:
 
-* [Department](/docs/user/manual/en/human-resources/department)
-* [Leave Period](/docs/user/manual/en/human-resources/leave-period)
-* [Holiday List](/docs/user/manual/en/human-resources/holiday-list)
-* [Leave Type](/docs/user/manual/en/human-resources/leave-type)
-* [Leave Policy](/docs/user/manual/en/human-resources/leave-policy)
-* [Leave Allocation](/docs/user/manual/en/human-resources/leave-allocation)
+* [Departamento](/docs/user/manual/pt/recursos-humanos/departamento)
+* [Periodo de Licença](/docs/user/manual/pt/recursos-humanos/periodo-ferias)
+* [Lista de Feriados](/docs/user/manual/pt/recursos-humanos/lista-de-feriados)
+* [Tipo de Licença](/docs/user/manual/pt/recursos-humanos/tipo-de-ferias)
+* [Politica de Licença](/docs/user/manual/pt/recursos-humanos/politica-de-licença)
+* [Alocação de Licença](/docs/user/manual/pt/recursos-humanos/alocação-ferias)
 
-## 2. How to create a Leave Application
+## 2. Como criar um Pedido de Licença
 
-1. Go to Leave Application list, click on New.
-1. A table of Allocated Leaves will be shown. Based on the Leaves taken, the available leaves are displayed for each Leave Type.
+1. Vá para Pedido de Licença, clique em Novo.
+1. A tabela de Licenças Alocadas será mostrada. Com base nas licenças tiradas, as licenças disponiveis são mostradas para cada Tipo de Licença.
 
      <img class="screenshot" alt="Leave Application" src="{{docs_base_url}}/assets/img/human-resources/leave-app.png">
 
 
-1. Select the Employee Name and Leave Type.
-1. Set the Leave duration using From Date and To Date. Based on the dates selected, the 'Total Leave Days' and the 'Leave Balance Before Application' fields will be displayed.
-1. If the Leave applied is for a half-day, select the 'Half Day' checkbox.
-1. Enter the Reason for Leave.
+1. Selecione o Nome do Funcionario e o Tipo de Licença.
+1. Defina a duração da Licença usando a Data de Inicio e Fim. Com base nas datas selecionadas, o campo 'Total de Dias de Licença' e 'Balanço de Licença Antes do Pedido' serão mostrados.
+1. Se as Licenças aplicadas são para meio-dia, selecione a caixa 'Meio Dia'.
+1. Digite a Razão para a Licença.
 
     <img class="screenshot" alt="Leave Application" src="{{docs_base_url}}/assets/img/human-resources/leave-app1.png">
 
 
-1. Select Leave Approver.
-1. Select the Posting Date of the Leave Application.
-1. Check the 'Follow via Email' checkbox to send notification of the Leave Application to the Leave Approver.
-1. You can also link the Salary Slip of the Employee in the Leave Application for the record.
+1. Selecione o Aprovador de Licença.
+1. Selecione a Data de Postagem do Pedido de Licença.
+1. Verifique a caixa 'Seguir por Email' para enviar a notificação do Pedido de Licença para o Aprovador.
+1. Voce pode tambem ligar ao Recibo de Salario do Funcionario no registo do Pedido de Licença.
 
     <img class="screenshot" alt="Leave Application" src="{{docs_base_url}}/assets/img/human-resources/leave-app3.png">
 
-1. Click on Save. Once the Employee saves the Leave Application, the status of the Leave Application changes to 'Open', and an email is sent to the Leave Approver for approval. The Leave Approval Notification Template can be configured in [HR Settings](/docs/user/manual/en/human-resources/hr-settings) under the Leave Settings section.
-1. Once the Leave Approver receives the email, they can Approve, Reject, or Cancel the Leave Application. Once this is done, the Leave Approver can submit the Leave Application. On submission, the status of the document changes accordingly, and an email is sent to the Employee notifying them the same.
+1. Clique em Salvar. Um vez salvo o registo, o status do Pedido de Licença muda para 'Aberto', e um email é enviado para o Aprovador de Licença para aprovação. O Modelo de Notificação da Aprovação de Licença pode ser configurado em [Configurações RH](/docs/user/manual/pt/recursos-humanos/configuração-recursos-humanos) em baixo da secção Configurações de Licença.
+1. Quando o Aprovador de Licença receber o email, ele pode Aprovar, Rejeitar ou Cancelar o Pedido de Licença. Uma vez feito, o Aprovador pode submeter o Pedido. Ao submeter, o status do documento muda de acordo e um email é enviado para o Funcionario notificando.
 
 
-> **Note:** Leave Application cannot be submitted if the Salary is already processed for the leave period.
+> **Nota:** Pedido de Licença não pode ser Submetido se o Salario já foi processado para o mesmo periodo.
 
-The Leave Application process flow is summarized below:
+O sumario do processo do Pedido de Licença:
 
-- The employee applies for leave through Leave Application.
-- Approver gets notification via email. For this, the "Follow via Email" checkbox should be checked.
-- Approver reviews Leave Application.
-- Approver approves/rejects/cancels Leave Application
-- The employee gets the notification on the status of his/her Leave Application
+- O funcionario aplica a licença pelo Pedido de Licença.
+- Aprovador receber a notificação via email. Para isto, a caixa "Seguir por Email" deve estar activa.
+- Aprovador revê o Pedido de Licença.
+- Aprovador aprova/rejeita/cancela o Pedido de Licença
+- O funcionario recebe a notificação do status do seu Pedido de Licença
 
-## 3. Features
+## 3. Funcionalidades
 
-### 3.1 Setting Leave Approver
+### 3.1 Configurando Aprovador de Licença
 
-A leave approver is a user who can approve a Leave Application of an Employee. In ERPNext version 12, Leave Approvers can be set at two levels:
+Um aprovador de Licença é um usuario que pode aprovar o Pedido de Licença de um Funcionario. No ERPNext versão 12, Aprovadores de Licença pode ser definido em dois niveis:
 
-* **Department Level:** Leave Approvers for each department can be configured in the [Department](/docs/user/manual/en/human-resources/department) master. Multiple Leave Approvers can be set in a Department. The first Leave Approver in the list will be considered as the default Leave Approver.
+* **Nivel de Departamento:** Aprovadores de Licença para cada departamento pode ser configurado na ficha [Departamento](/docs/user/manual/pt/recursos-humanos/departamento). Varios Aprovadores de Licença podem ser definidos num Departamento. O primeiro Aprovador na lista será considerado como o principal Aprovador de Licenças.
 
 
     <img class="screenshot" alt="Leave Application - Leave Approvers" src="{{docs_base_url}}/assets/img/human-resources/leave-app4.png">
 
-    When an Employee belonging to a particular department applies for leave, the Leave Approvers set in that Employee's department master will be considered as his Leave Approvers.
+    Quando um Funcionario pertencente a um departamento em particular aplica para licença, o Aprovador de Licença definido nesse departamento ir+a ser considerado como o seu Aprovador.
 
 
-* **Employee Level:**
-Leave Approvers can also be set Employee-wise in the employee master.
+* **Nivel de Funcionario:**
+Aprovadores de Licença podem tambem ser definidos na ficha do Funcionario para todos.
 
 
  <img class="screenshot" alt="Leave Application - Leave Approvers" src="{{docs_base_url}}/assets/img/human-resources/employee-level-approvers.png">
 
 
-If Leave Approvers are set at both Employee-level and Department-level, the Employee-level Leave Approver will be considered as the default Leave Approver in this case.
+Se o Aprovador de Licença foi definido para ambos Nivel de Funcionario e Nivel de Departamento, o Aprovador Nivel de Funcionario será considerado o principal para Aprovação.
 
- **Tip:** If you want all users to create their own Leave Applications, you can set
-their “Employee ID” as a match rule in the Leave Application Permission
-settings. Check [Setting Up Permissions](/docs/user/manual/en/setting-up/users-and-permissions/user-permissions.html)
-for more information.
+ **Dica:** Se voce quer que todos os usuarios criem o seu Pedido de Licença, voce pode definir os seus 
+“ID de Funcionario" como o que deve ser igual nas Configurações de Permissões de Pedido de Licenças.
+Verifique [Configurações de Permissão](/docs/user/manual/pt/configuração/usuarios-e-permissões/permissões-usuario.html)
+para mais informações.
 
-> **Additional Notes:**
+> **Notas Adicionais:**
 
->* Leave Application period must be within a single Leave Allocation period. In case, you are applying for leave across the leave allocation period, you have to create two Leave Application records.
->* Leave Application period must be in the latest Leave Allocation period.
->* Employee cannot apply for leave on the dates which are added in the [Leave Block List](/docs/user/manual/en/human-resources/leave-block-list).
+>* O Periodo de Pedido de Licença deve ser dentro do period da Alocação de Licença. No caso, voce aplicar para licença entre o periodo de alocação, voce tem que criar dois registos de Pedido de Licença.
+>* O Periodo Pedido de Liccença deve estar no ultimo periodo de Alocação de Licença.
+>* O Funcionario não pode aplicar para licença nas data adicionadas na [Lista de Bloqueio de Licença](/docs/user/manual/pt/recursos-humanos/lista-de-bloqueio-licenças).
 
-To understand how ERPNext allows you configure leaves for employees, check [Leaves](/docs/user/manual/en/human-resources/leave-management-intro/).
+Para entender como o ERPNext permite voce configurar as licenças para funcionarios, verifique [Licenças](/docs/user/manual/pt/recursos-humanos/gestão-ferias/).
 
 
-## 3. Related Topics
+## 3. Topicos Relacionados
 
-1. [Leave Type](/docs/user/manual/en/human-resources/leave-type)
-1. [Leave Period](/docs/user/manual/en/human-resources/leave-period)
-1. [Leave Policy](/docs/user/manual/en/human-resources/leave-policy)
-1. [Leave Allocation](/docs/user/manual/en/human-resources/leave-allocation)
-1. [Leave Block List](/docs/user/manual/en/human-resources/leave-block-list)
+1. [Tipo de Licença](/docs/user/manual/pt/recursos-humanos/tipo-de-ferias)
+1. [Periodo de Licença](/docs/user/manual/pt/recursos-humanos/periodo-ferias)
+1. [Politica de Licença](/docs/user/manual/pt/recursos-humanos/politica-de-licença)
+1. [Alocação de Licença](/docs/user/manual/pt/recursos-humanos/alocação-ferias)
+1. [Lista de Bloqueio de Licença](/docs/user/manual/pt/recursos-humanos/lista-de-bloqueio-licenças)
 
 
 

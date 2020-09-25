@@ -1,25 +1,25 @@
-# Employee Skill Map
+# Mapa de Habilidades de Funcionário
 
-Employee Skill Map is a record which helps your organization track your Employee's skill sets and trainings. It can be used to rate each skill of the Employee and track their growth after each internal training. This data can be used at the time of appraisals.
+Mapa de Habilidades de Funcionário é um registo que ajuda a sua empresa a rastrear as habilidades e formação do Funcionario. Pode ser usado para dar pontos a cada habilidade ao Funcionario e gerir o seu crescimento apois cada intervalo de formação. Estes dados podem ser usados na altura da promoção.
 
-To record an Employee Skill Map go to:
+Para registar o Mapa de Habilidades de Funcionário:
 
-> Home > Human Resource > Employee Lifecycle > Employee Skill Map
+> Home > Recursos Humanos > Ciclo de Vida do Funcionario > Mapa de Habilidades de Funcionário
 
-Make sure you have set the required Skills for designations from the Skill doctype.
+Tenha certeza que tem definido as Habilidades para a descrição na tabela Habilidade.
 
-Example of Skills for a Designation:
-![Designation Skills]({{docs_base_url}}/assets/img/human-resources/designation-skills.png)
+Exemplo de Habilidade para Designação:
+![Designação de Habilidades]({{docs_base_url}}/assets/img/human-resources/designation-skills.png)
 
-## 1. How to create an Employee Skill Map
+## 1. Como criar Mapa de Habilidades de Funcionário
 
-1. Go to the Employee Skill Map list, click on New.
-1. Select the Employee.
-1. Based on the designation of the Employee system will pull the Skills. Set the Proficiency level out of 5, and the Evaluation Date.
-1. If the Employee is lacking in any skill, you can schedule trainings for the Employee.
-1. Under the Trainings table, select the Training Event and the Training Date.
-1. Save.
+1. Vá para o Mapa de Habilidades de Funcionário, clique em Novo.
+1. Selecione o Funcionario.
+1. Com base na Designação do Funcionario o sistema irá inserir as Habilidades. Defina o nivel de proficiência até 5, e a Data de Avaliação.
+1. Se o Funcionario não tiver a habilidade, voce pode agendar formações para o Funcionario.
+1. Em baixo da tabela Formação, selecione o Evento de Formação e a Data da Formação.
+1. Salvar.
 
-![Employee Skill Map]({{docs_base_url}}/assets/img/human-resources/employee-skill-map.png)
+![Mapa de Habilidades de Funcionário]({{docs_base_url}}/assets/img/human-resources/employee-skill-map.png)
 
 {next}

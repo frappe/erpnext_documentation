@@ -1,29 +1,29 @@
 <!-- add-breadcrumbs -->
-# Employee Other Income
+# Outras Remunerações do Funcionario
 
 
-**Employee Other Income is a document to declare other income of an employee from different sources.**
+**Outras Remunerações do Funcionario é um documento para declarar outras remunerações de um funcionario de fontes diferentes.**
 
 
-Other income of an employee is also important to calculate the income tax liability of an employee. In ERPNext, an employee can declare their other income using this document.
+Outras remunerações de um funcionario é importante para calcular responsabilidades de Imposto de Rendimento de um funcionario. No ERPNext, um funcionario pode declara os seus outros rendimentos neste documento.
 
-To access Employee Other Income, go to:
-> Home > Human Resources > Employee Tax and Benefits > Employee Other Income
+Para aceder Outras Remunerações do Funcionario, vá para:
+> Home > Recursos Humanos > Beneficios e Imposto de Funcionario > Outras Remunerações do Funcionario
 
-## 1. How to create an Employee Other Income
+## 1. Como criar Outras Remunerações do Funcionario
 
-1. Go to: Employee Other Income > New.
-1. Select the Employee and Company.
-1. Select the Payroll Period.
-1. Enter the Amount and its Source.
-1. Save and Submit.
+1. Vá para: Outras Remunerações do Funcionario > Novo.
+1. Selecione o Funcionario e Empresa.
+1. Selecione o Periodo da Folha de Pagamento.
+1. Digite o Valor e a sua Fonte.
+1. Salvar e Submeter.
 
 <img class="screenshot" alt="Employee Other Income" src="/docs/assets/img/human-resources/employee-other-income.png">
 
-## 2. Related Topics
+## 2. Topicos Relacionados
 
-1. [Salary Structure](/docs/user/manual/en/human-resources/salary-structure)
-1. [Salary Structure](/docs/user/manual/en/human-resources/salary-slip)
-1. [Payroll Entry](/docs/user/manual/en/human-resources/payroll-entry)
+1. [Estrutura de Salario](/docs/user/manual/pt/recursos-humanos/estrutura-salário)
+1. [Recibo de Salario](/docs/user/manual/pt/recursos-humanos/recibo-salário)
+1. [Entrada de Folha de Pagamento](/docs/user/manual/pt/recursos-humanos/folha-de-pagamento)
 
 {next}

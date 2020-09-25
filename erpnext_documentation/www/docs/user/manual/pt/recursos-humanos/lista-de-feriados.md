@@ -47,7 +47,7 @@ Voce pode tambem adicinar dias especificos (como feriados de festivais) manualme
 
 ### 2.2 Lista de Feriados na Empresa
 
-Voce pode definiar a Lista de Feriados Padrão a nivel da Empresa na ficha da Empresa no campo 'Lista de Feriados Padrão'.
+Voce pode definir a Lista de Feriados Padrão a nivel da Empresa na ficha da Empresa no campo 'Lista de Feriados Padrão'.
 
 
 <img class="screenshot" alt="Holiday List" src="{{docs_base_url}}/assets/img/human-resources/default-holiday-list-company.png">
