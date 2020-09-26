@@ -1,22 +1,22 @@
 # ERPNext Manual: Table of Contentsº
 
 ## 1. Basics
-1. [Introduction](/docs/user/manual/en/introduction)
+1. [Introducción](/docs/user/manual/en/introduction)
 1. [Setting Up](/docs/user/manual/en/setting-up)
-1. [Automation](/docs/user/manual/en/automation)
-1. [Using ERPNext](/docs/user/manual/en/using-erpnext)
+1. [Automatización](/docs/user/manual/en/automation)
+1. [Usando ERPNext](/docs/user/manual/en/using-erpnext)
 
 ## 2. Core Modules
-1. [Accounts](/docs/user/manual/en/accounts)
-1. [Stock](/docs/user/manual/en/stock)
+1. [Contabilidad](/docs/user/manual/en/accounts)
+1. [Almacén](/docs/user/manual/en/stock)
 1. [CRM](/docs/user/manual/en/CRM)
-1. [Selling](/docs/user/manual/en/selling)
-1. [Buying](/docs/user/manual/en/buying)
-1. [Human Resources](/docs/user/manual/en/human-resources)
-1. [Projects](/docs/user/manual/en/projects)
-1. [Support](/docs/user/manual/en/support)
+1. [Ventas](/docs/user/manual/en/selling)
+1. [Compras](/docs/user/manual/en/buying)
+1. [Recursos Humanos](/docs/user/manual/en/human-resources)
+1. [Proyectos](/docs/user/manual/en/projects)
+1. [Soporte](/docs/user/manual/en/support)
 1. [Asset](/docs/user/manual/en/asset)
-1. [Quality](/docs/user/manual/en/quality-management)
+1. [Calidad](/docs/user/manual/en/quality-management)
 
 ## 3. Industry Specific Modules
 1. [Manufacturing](/docs/user/manual/en/manufacturing)
