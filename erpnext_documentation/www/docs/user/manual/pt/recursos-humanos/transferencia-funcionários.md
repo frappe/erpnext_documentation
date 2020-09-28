@@ -1,41 +1,41 @@
 <!-- add-breadcrumbs -->
-# Employee Transfer
+# Transferência de Funcionário
 
-**Employee Transfer is a form of internal mobility, in which the Employee is shifted from one job to another usually at a different location, department, or unit.**
+**Transferência de Funcionário é um formulario de mobilidade interna, no qual os Funcionarios são trocados de um trabalho para outro normalmente para localização diferente, departamento ou unidade.**
 
-In ERPNext, you can record Employee transfers to different Company or Department by using the Employee Transfer document.
+No ERPNext, voce pode registar a Transferência de Funcionário para Empresa ou Departamentos diferentes usando o documento Transferência de Funcionário.
 
-To access Employee Transfer go to:
+Para aceder Transferência de Funcionário, vá para:
 
-> Human Resource > Employee Lifecycle > Employee Transfer
+> Recursos Humanos > Ciclo de Vida do Funcionario > Transferência de Funcionário
 
-## 1. Prerequisites
+## 1. Pre-requisitos
 
-* [Employee](/docs/user/manual/en/human-resources/employee)
-* [Department](/docs/user/manual/en/human-resources/department)
+* [Funcionario](/docs/user/manual/pt/recursos-humanos/funcionario)
+* [Departamento](/docs/user/manual/pt/recursos-humanos/departamento)
 
 
-## 2. How to create a Employee Transfer
+## 2. Como criar Transferência de Funcionário
 
-1. Select the Employee.
-1. Select the Transfer Date.
-1. Select the New Company in case the Employee is transferred to a different company (optional). 
-1. In the Employee Transfer Details table, select the Property and set the Current and New value.
-1. Additionally, 'Create New Employee' checkbox can be checked to create a new Employee ID for the transferred Employee.
+1. Selecione o Funcionario.
+1. Selecione a Data de Transferencia.
+1. Selecione a Nova Empresa caso o Funcionario esta a ser transferido para outra empresa (opcional). 
+1. Nos detalhes de Transferência de Funcionário, selecione a Propriedade e defina o Valor Corrente e Novo.
+1. Adicionalmente, a caixa 'Criar Novo Funcionario' pode ser usada para criar um novo ID de Funcionario para os Funcionarios Transferidos.
 
-> Note: If Create New Employee ID is checked, a new Employee will be created with property changes in Transfer Details table and old Employee will be marked as relieved. Leave allocations for the new Employee has to be manually created from Leave Period.
+> Nota: Se criar um novo ID do Funcionario estiver activo, um Novo Funcionario será criado com as propriedades alteradas na tabela de Detalhes da Transferencia e o Antigo Funcionario será marcado como Despedido. Alocação de Licenças para o Novo Funcionario tem que ser manualmente criada para o Periodo de Licença.
 
 <img class="screenshot" alt="Employee Transfer" src="{{docs_base_url}}/assets/img/human-resources/employee-transfer.png">
 
 
 
-> Note: Transfer document can be submitted on or after Transfer Date. Once submitted all the changes added to Transfer Details table will applied to Employee.
+> Nota: Documento de Transferencia pode ser submetido na ou depois da Data de Transferencia. Uma vez submetido todas as alterações adicionadas a tabela de transferencia serão aplicadas ao Funcionario.
 
-## 3. Related Topics
+## 3. Topicos Relacionados
 
-1. [Employee Onboarding](/docs/user/manual/en/human-resources/employee-onboarding)
-1. [Employee Separation](/docs/user/manual/en/human-resources/employee-separation)
-1. [Employee Promotion](/docs/user/manual/en/human-resources/employee_transfer)
+1. [Employee Onboarding](/docs/user/manual/pt/recursos-humanos/employee-onboarding)
+1. [Separação do Funcionario](/docs/user/manual/pt/recursos-humanos/despedimento-funcionário)
+1. [Promoção do Funcionario](/docs/user/manual/pt/recursos-humanos/transferencia-funcionários)
 
 
 

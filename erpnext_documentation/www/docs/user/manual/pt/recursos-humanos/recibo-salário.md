@@ -1,41 +1,41 @@
 <!-- add-breadcrumbs -->
-# Salary Slip
+# Recibo de Salário
 
-**A salary slip is a document issued to an employee. It contains a detailed description of the employee’s salary components and amounts.**
+**Um  Recibo de Salário é um documento gerado para um funcionario. Contem uma descrição detalhada dos componentes de salario e valores.**
 
-To access Salary Slip, go to:
-> Home > Human Resources > Payroll > Salary Slip
+Para aceder Recibo de Salário, vá para:
+> Home > Recursos Humanos > Folha de Pagamento > Recibo de Salário
 
-## 1. Prerequisites
-Before creating Salary Slip, it is advised that you create the following first:
+## 1. Pre-requisitos
+Antes de criar Recibo de Salário, é aconselhavel criar estes:
 
-* [Employee](/docs/user/manual/en/human-resources/employee)
-* [Salary Structure](/docs/user/manual/en/human-resources/salary-structure)
-* [Salary Structure Assignment](/docs/user/manual/en/human-resources/salary-structure-assignment)
+* [Funcionario](/docs/user/manual/pt/recursos-humanos/funcionario)
+* [Estrutura de Salario](/docs/user/manual/pt/recursos-humanos/estrutura-salário)
+* [Atribuição de Estrutura de Salario](/docs/user/manual/pt/recursos-humanos/atribuição-estrutura-salário)
 
-## 2. How to create a Salary Slip
+## 2. Como criar um Recibo de Salário
 
 
-1. Go to Salary Slip, Click on New.
-1. Select Employee. On selecting Employee all details of the Employee will be fetched from Salary Structure which is assigned to that Employee. This includes details such as Payroll Frequency, Earnings, Deductions, etc.
-1. Select Start Date and End Date.
-1. Save.
+1. Vá para Recibo de Salário, clique em Novo.
+1. Selecion o Funcionario. Ao selecionar o Funcionario todos os detalhes do Funcionario serão inseridos a partir da Estrutura de Salario no qual foi atribuido. Isto incluid detalhes como Frequencia de Processamento, Remunerações, Deduções, etc.
+1. Selecione a Data de Inicio e Fim.
+1. Salvar.
 
-## 3. Feature
+## 3. Funcionalidades
 
-### 3.1. Salary Slip based on Attendance/Leave
+### 3.1. Recibo de Salário com base na Assiduidade/Licença
 
-HR users can create Salary Slip based on Attendance or leave.
-The Working days will calculated on basis of leave/Attendance, depending on the field **Calculate Payroll Working Days Based On** in [HR Settings](/docs/user/manual/en/human-resources/hr-settings). If Payroll is based on Attendance then, the **Leave without pay** will be considered as absent and **half-day** will be considered as half-day absent.
+Usuarios do RH podem criar Recibo de Salário com base na Assiduidade ou Licença.
+Os dias Trabalhados serão calculados com base da Licença/Assiduidade, dependendo do campo **Calcular Dias de Trabalho Com Base em** nas [Configurações do RH](/docs/user/manual/pt/recursos-humanos/configuração-recursos-humanos). Se a Folha de Pagamento for com base em Assiduidade então, o **Licença sem pagamento** será considerado como ausencia e **meio-dia** irá ser considerado como meio-dia de ausencia.
 
-### 3.2. Salary Slip based on Timesheet
+### 3.2. Recibo de Salário com base em Timesheet
 
-For creating Salary Slip based on timesheet you need to create Salary Structure for Timesheets.
+Para criar Recibo de Salário como base em timesheet voce precisa criar a Estrutura de Salario para Timesheets.
 
-ERPNext also provides an option to create Salary slip based on working hours based on [Timesheet](/docs/user/manual/en/projects/timesheets).
-You can create Salary Slip after submitting the Timesheet by clicking directly on **Create Salary Slip** button on the top right.
+O ERPNext tambem providencia uma opção para criar os Recibos de Salário com base em Horas Trabalhadas [Timesheet](/docs/user/manual/pt/projectos/timesheets).
+Voce pode criar Recibo de Salario depois de submeter a Timesheet fazendo o clique directamente no botão **Criar Recibo de Salario** no topo a direita.
 
 <img class="screenshot" alt="Create Salary Slip based on Timesheets" src="{{docs_base_url}}/assets/img/human-resources/create-salary-slip-based-on-timesheets.png">
 
-The Payment Amount is calculated based on Hour Rate defined in Salary Structure and is reflected in the Earnings table.
+O Valor de Pagamento é calculado com base na Taxa Hora definida na Estrutura de Salario e é reflectida na tabela de Remunerações.
 

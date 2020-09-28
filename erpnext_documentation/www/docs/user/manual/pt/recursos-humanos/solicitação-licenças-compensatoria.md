@@ -1,51 +1,51 @@
 <!-- add-breadcrumbs -->
-# Compensatory Leave Request
+# Solicitação de Licença Compensatório
 
 
-**Compensatory Leave is a leave that is granted to an Employee as compensation for working overtime or on holidays.**
+**Solicitação de Licença Compensatório é uma Licença dada a um Funcionario como compensação por trabalho extra ou para ferias.**
 
- ERPNext allows Employees to request for Compensatory Leaves through the Compensatory Leave Request document. It is necessary that the dates mentioned in the Compensatory Leave Request should be in default Holiday List and also that the Employee should have their attendance marked Present. 
+ O ERPNext permite Funcionarios fazerem a Solicitação de Licença Compensatório pelo formulario. É necessario que as Datas mencionadas na Solicitação de Licença Compensatório estejam dentro da Lista de Feriados e tambem que o Funcionario tenha a sua assiduidade marcada omo Presente. 
  
- > **Note:** Only Leave Types which are marked as 'Is Compensatory' can be selected in the Compensatory Leave Request.
+ > **Nota:** Somente o Tipo de Licenças no qual tem marcadas 'É Compensatoria' podem ser selecionadas na Solicitação de Licença Compensatório.
 
-To access Compensatory Leave Request, go to:
+Para aceder Solicitação de Licença Compensatório, vá para:
 
-> Home > Human Resources > Leaves > Compensatory Leave Request 
-
-
-## 1. Prerequisites
-
-Before creating a Compensatory Leave Request, it is necessary to create the following documents:
-
-* [Employee](/docs/user/manual/en/human-resources/employee)
-* [Leave Period](/docs/user/manual/en/human-resources/leave-period)
-* [Leave Type](/docs/user/manual/en/human-resources/leave-type)
-* [Leave Policy](/docs/user/manual/en/human-resources/leave-policy)
-* [Leave Allocation](/docs/user/manual/en/human-resources/leave-allocation)
-* [Holiday List](/docs/user/manual/en/human-resources/holiday-list)
-* [Attendance](/docs/user/manual/en/human-resources/attendance)
+> Home > Recursos Humanos > Licenças > Solicitação de Licença Compensatório
 
 
-## 2. How to create a Compensatory Leave Request
+## 1. Pre-requisitos
 
-1. Go to Compensatory Leave Request list, click on New.
-1. Select the Employee ID. Once selected, The Employee Name and Department will get automatically fetched.
-1. Select Leave Type.
-1. Select Work From Date and Work End Date. This is the date of the day(s) the Employee has worked on, during a Holiday.
-1. Enter the Reason.
-1. Save and Submit.
+Antes de criar uma Solicitação de Licença Compensatório, é necessario criar os seguintes:
+
+* [Funcionario](/docs/user/manual/pt/recursos-humanos/funcionario)
+* [Periodo de Licença](/docs/user/manual/pt/recursos-humanos/periodo-ferias)
+* [Tipo de Licença](/docs/user/manual/pt/recursos-humanos/tipo-de-ferias)
+* [Politica de Licença](/docs/user/manual/pt/recursos-humanos/politica-de-licença)
+* [Alocação de Licença](/docs/user/manual/pt/recursos-humanos/alocação-ferias)
+* [Lista de Feriados](/docs/user/manual/pt/recursos-humanos/lista-de-feriados)
+* [Assiduidade](/docs/user/manual/pt/recursos-humanos/assiduidade)
+
+
+## 2. Como criar uma Solicitação de Licença Compensatória
+
+1. Vá para Solicitação de Licença Compensatória, clique em Nova.
+1. Selecion o ID do Funcionario. Uma veze selecionado, o Noms do Funcionario e Departamento será automaticamente inserido.
+1. Selecione o Tipo de Licença.
+1. Selecione a Data de Inicio e Fim. Esta é a data dos dias que o Funcionario trabalhou, durante o Feriado.
+1. Digit o Motivo.
+1. Salvar e Submeter.
 
     <img class="screenshot" alt="Compensatory Leave Request"
     src="{{docs_base_url}}/assets/img/human-resources/compensatory-leave.png">
 
 
 
-On submitting the Compensatory Leave Request, ERPNext updates the Leave Allocation record for the Compensatory leave type, allowing the Employee to apply for leaves of this type later on depending upon the number of leaves left.
+Ao submeter a Solicitação de Licença Compensatória, o ERPNext actualiza o registo de Alocação de Licença para tipo de Licença Compensatoria, permitindo o Funcionario aplicar para licenças deste tipo dependendo do numero de licenças que tem disponível.
 
 
-## 3. Related Topics
+## 3. Topicos Relacionados
 
-1. [Leave Application](/docs/user/manual/en/human-resources/leave-application)
-1. [Leave Encashment](/docs/user/manual/en/human-resources/leave-encashment)
-1. [Leave Block List](/docs/user/manual/en/human-resources/leave-block-list)
+1. [Pedido de Licença](/docs/user/manual/pt/recursos-humanos/pedido-licença)
+1. [Leave Encashment](/docs/user/manual/pt/recursos-humanos/leave-encashment)
+1. [Lista de Bloqueio de Licença](/docs/user/manual/pt/recursos-humanos/lista-de-bloqueio-licenças)
 

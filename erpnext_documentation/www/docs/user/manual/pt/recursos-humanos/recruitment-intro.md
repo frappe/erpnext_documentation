@@ -1,4 +1,4 @@
 <!-- add-breadcrumbs -->
-# Recruitment
-It is important for enterprises to create and manage vacant positions, job applicants and also create and manage recruitment plans. ERPNext helps you create recruitment plans and create and publish job openings accordingly, making it easy to manage your hiring process. To understand how you can do configure this, check [Staffing Plan](/docs/user/manual/en/human-resources/staffing-plan)
+# Recrutamento
+É importanten para as empresas criarem e gerir as vagas, candidatos a empregro, e tambem criar e gerir planos de recrutamento. O ERPNext ajuda voce a criar planos de recrutamento e criar e publicar vagas de emprego, tornando facil gerir o processo de contratação. Para entender como configurar, verifique [Plano de Pessoal](/docs/user/manual/pt/recursos-humanos/plano-de-pessoal)
 

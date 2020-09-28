@@ -1,29 +1,29 @@
 <!-- add-breadcrumbs -->
 
-# Payroll Period
+# Periodo Folha de Pagamento
 
-**A Payroll Period is a period for which Employees get paid for their occupation with the Company.** 
+**Periodo Folha de Pagamento é o periodo pelo o qual Funcionarios são pagos pela sua ocupação na Empresa.** 
 
-Payroll Period helps you define Salary Structures and to calculate tax for a specific period based on applicable Income Tax Slab.
+Periodo Folha de Pagamento ajuda definir as Estruturas de Salario e a calcular impostos para um periodo especifico com base na Laje de Rendimento Tributavel.
 
-To access Payroll Period, go to:
+Para aceder Periodo Folha de Pagamento, vá para:
 
-> Home > Human Resources > Payroll > Payroll Period 
+> Home > Recursos Humanos > Folha de Pagamento > Periodo Folha de Pagamento
 
-## 1. How to create a Payroll Period
+## 1. Como criar um Periodo Folha de Pagamento
 
-1. Go to Payroll Period list, click on New.
-1. Enter Name.
-1. Select Start Date and End Date of Payroll Period.
-1. Save.
+1. Vá para Periodo Folha de Pagamento, clique em Novo.
+1. Digite o Nome.
+1. Selecione a Data de Inicio e Data de Fim do Periodo Folha de Pagamento.
+1. Salvar.
 
-## 2. Related Topics
+## 2. Topicos Relacionados
 
-1. [Salary Component](/docs/user/manual/en/human-resources/salary-component)
-1. [Salary Structure](/docs/user/manual/en/human-resources/salary-structure)
-1. [Income Tax Slab](/docs/user/manual/en/human-resources/income-tax-slab)
-1. [Payroll Entry](/docs/user/manual/en/human-resources/payroll-entry)
-1. [Employee Tax Exemption Proof Submission](/docs/user/manual/en/human-resources/employee-tax-exemption-proof-submission)
-1. [Employee Tax Exemption Declaration](/docs/user/manual/en/human-resources/employee-tax-exemption-declaration) 
+1. [Componente de Salario](/docs/user/manual/pt/recursos-humanos/componente-de-salário)
+1. [Estrutura de Salario](/docs/user/manual/pt/recursos-humanos/estrutura-salário)
+1. [Laje de Rendimento Tributavel](/docs/user/manual/pt/recursos-humanos/income-tax-slab)
+1. [Entrada da Folha de Pagamento](/docs/user/manual/pt/recursos-humanos/folha-de-pagamento)
+1. [Submissão da Prova de Isenção de Imposto do Funcionario](/docs/user/manual/pt/recursos-humanos/submissão-prova-isenção-imposto-funcionário)
+1. [Declaração de Isenção de Imposto do Funcionario](/docs/user/manual/pt/recursos-humanos/declaração-de-isenção-de-imposto-funcionário) 
 
 {next}

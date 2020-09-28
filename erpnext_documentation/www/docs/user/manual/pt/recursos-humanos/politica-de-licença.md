@@ -1,34 +1,34 @@
-# Leave Policy
+# Política de Licença
 
-**The amount of entitled leaves in a Company for an Employee in a Leave Period is known as Leave Policy.** 
+**O valor das licenças atribuidas na Empresa para um Funcionario no Periodo de Licenças é conhecida como Política de Licença.** 
 
-It is a practice for many enterprises to enforce a general Leave Policy to effectively track and manage Employee leaves. ERPNext allows you to create and manage multiple Leave Policies and allocate leaves to Employees as defined by the policy.
+É practica para muitas empresas reforçar uma Política de Licença geral para efectivamente rastrear e gerir as licenças dos Funcionarios. O ERPNext permite voce criar e gerir varias Políticas de Licença e alocar licenças a Funcionarios como definidos na politica.
 
-To access Leave Policy, go to:
+Para aceder Política de Licença, vá para:
 
-> Home > Human Resources > Leaves > Leave Policy 
+> Home > Recursos Humanos > Sai > Política de Licença
 
-## 1. How to create a Leave Policy
+## 1. Como criar Política de Licença
 
-1. Go to Leave Policy list, click on New.
-1. Select the Leave Type and enter its Annual Allocation.
-1. Save and Submit.
+1. Vá para Política de Licença, clique em Novo.
+1. Selecione o Tipo de Licença e digite a Alocação Anual.
+1. Salvar e Submeter.
 
 
 	<img class="screenshot" alt="Leave Policy"
 	src="{{docs_base_url}}/assets/img/human-resources/leave-policy.png">
 
 
-Once submitted, you can enforce the Leave Policy through the dashboard, either to an Employee or an Employee Grade. 
+Uma vez submetido, voce pode reforçar a Política de Licença pelo dashboard, para um Funcionario ou para um Grau de Funcionario. 
 
-When a Leave Policy is assigned to an [Employee Grade](/docs/user/manual/en/human-resources/employee-grade), it will ensure that all leave allocations for employees of this grade will be as per the Leave Policy. In case you need to selectively update the Leave Policy for a particular Employee, you can do so by tagging the Leave Policy in the [Employee](/docs/user/manual/en/human-resources/employee) master under the 'Attendance and Leave Details' section.
-
-
+Quando a Política de Licença é atribuida a um [Grau de Funcionario](/docs/user/manual/pt/recursos-humanos/grau-funcionario), irá fazer com que todas as alocações de licenças para os funcionarios deste grau sejam de acordo a Política de Licença. No caso de precisar de selectivamente actualizar a Política de Licença para um Funcionario em particular, voce pode fazer marcando a Política de Licença na ficha do [Funcionarion](/docs/user/manual/pt/recursos-humanos/funcionario) em baixo da secção 'Assiduidade e Detalhes de Licença'.
 
 
-## 2. Related Topics
 
-1. [Leave Period](/docs/user/manual/en/human-resources/leave-period)
-1. [Leave Type](/docs/user/manual/en/human-resources/leave-type)
-1. [Employee](/docs/user/manual/en/human-resources/employee)
-1. [Employee Grade](/docs/user/manual/en/human-resources/employee-grade)
+
+## 2. Topicos Relacionados
+
+1. [Periodo de Licença](/docs/user/manual/pt/recursos-humanos/periodo-ferias)
+1. [Tipo de Licença](/docs/user/manual/pt/recursos-humanos/tipo-de-ferias)
+1. [Funcionario](/docs/user/manual/pt/recursos-humanos/funcionario)
+1. [Grau de Funcionario](/docs/user/manual/pt/recursos-humanos/grau-funcionario)

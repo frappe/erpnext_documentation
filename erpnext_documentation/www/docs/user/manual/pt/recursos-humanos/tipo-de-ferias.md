@@ -1,95 +1,95 @@
-# Leave Type
+# Tipo de Licença
 
-**Leave Type refers to the types of leaves allocated to an Employee which they can use while making Leave Applications.** 
+**Tipo de Licença refere-se a tipo de Licenças atribuidasa a um Funcionario no qual eles podem usar para a Solicitação de Licença.** 
 
 
-You can create any number of Leave Types based on your company’s requirements.
+Voce pode criar qualquer quantidade de Tipo de Licença com base nas necessidades da sua Empresa.
 
-To access Leave Type, go to:
+Para aceder Tipo de Licença, vá para:
 
-> Home > Human Resources > Leaves > Leave Type 
+> Home > Recursos Humanos > Licenças > Tipo de Licença
 
-## 1. How to create a Leave Type
+## 1. Como criar Tipo de Licença
 
-1. Go to Leave Type list, click on New.
-1. Enter Leave Type Name.
-1. Enter Max Leaves Allowed, Applicable After (Working Days), Maximum Continuous Days Applicable (optional).
-1. Save.
+1. Vá para Tipo de Licença, clique em Novo.
+1. Digite o Nome do Tipo de Licença.
+1. Digite o Maximo de Licenças Permitidas, Aplicadas Depois (Dias de Trabalho), Maximo de Dias Continuos Aplicaveis (opcional).
+1. Salvar.
 
     <img class="screenshot" alt="New Leave Type"
     src="{{docs_base_url}}/assets/img/human-resources/new-leave-type.png">
 
-Below is a detailed explanation of all the fields and checkboxes in Leave Type.
+Em baixo uma explanação detalhada de todos os campos e caixa no Tipo de Licença.
 
-* **Max Leaves Allowed:** This field allows you to set the maximum number of the annual allocation of this Leave Type while creating the Leave Policy. 
+* **Max de Licenças Permitidas:** Este campo permite definir o numero maximo de alocações anuais para o Tipo de Licença ao criar a Politica de Licença. 
 
-* **Applicable After (Working Days):** Enter the minimum number of working days here. Only the employees who have worked for this number of days or more will be allowed to apply for this particular leave type. Any other leaves (such as Casual Leave, Sick Leave.etc.) availed by the Employees after their joining date will also be considered while calculating working days of the Employee.
+* **Aplicavel Depois (Dias de Trabalho):** Digite o numero minimo de dias de trabalho aqui. Somente os funcionarios que trabalharam para este numero de dias ou mais são permitidos aplicar este Tipo de Licença. Qualquer outra licença (como Licença Casual, Doença, etc.) atribuida aos Funcionarios depois da sua data de admissão serão tambem consideradas ao calcular os dias de trabalho para o Funcionario.
 
-* **Maximum Continuous Days Applicable:** It refers to the maximum number of days this particular Leave Type can be availed at a stretch. If an employee exceeds the maximum number of days, their extended leave will be considered as ‘Leave Without Pay'.
+* **Maximo de Dias Continuos Aplicavel:** Refere-se ao numero maximo de dias este Tipo de Licença em particular pode ser atribuida ao maximo. Se o funcionario passar o numero maximo de dias, a licença estendida será considerada como ‘Licença Sem Pagamento'.
 
-* **Is Carry Forward:** If checked, the balance leaves of this Leave Type will be carried forward to the next allocation period.    
+* **É para Continuar:** Se selecionada, o balanço de licenças para este Tipo de Licença será transportado para o proximo periodo de alocação.    
 
-* **Is Leave Without Pay:** This ensures that the Leave Type will be treated as leaves without pay and salary will get deducted for this Leave Type.
+* **É Licença Sem Pagamento:** Este da a certeza que o Tipo de Licença será tratado como licença sem pagamento e o salario será deduzido para este Tipo de Licença.
 
-* **Is Optional:** Optional Leaves are holidays that Employees can choose to avail from a list of holidays published by the company. The Holiday List for Optional Leaves can have any number of holidays, but you can restrict the number of such leaves by setting the Max Days Leave Allowed field.
+* **É Opcional:** Licenças Opcionais são os feriados que os Funcionarios escolhem ter de uma lista de Feriados publicados pela Empresa. A Lista de Feriados para Licenças Opcionais podem ter uma numero de feriados, mas voce pode restringir o numero de tais licenças definindo o Maximo de Dias de Licença Permitida no campo.
 
-* **Allow Negative Balance:** If checked, the system will always allow to apply and approve [Leave Applications](/docs/user/manual/en/human-resources/leave-application) for the Leave Type, even if there is no leave balance.
-
-
-* **Include holidays within leaves as leaves:** Check this option if you wish to count holidays within leaves as a ‘leave’. For example, if an Employee has applied for leave on Friday and Monday, and Saturday and Sunday are weekly offs, if the 'Include holidays within leaves as leaves' checkbox for the Leave Type is checked, the system will consider Saturday as Sunday as leaves too. Such holidays will be deducted from the total number of leaves.
+* **Permitir Balanço Negativo:** Se selecionado, o sistema irá sempre permitir aplicar e selecionar [Pedido de Licença](/docs/user/manual/pt/recursos-humanos/pedido-licença) para este Tipo de Licença, mesmo se não tenha balanço positivo.
 
 
-* **Is Compensatory:** Compensatory leaves are leaves granted for working overtime or on holidays, normally compensated as an encashable leave. You can check this option to mark the Leave Type as compensatory. An Employee can request for compensatory leaves using [Compensatory Leave Request](/docs/user/manual/en/human-resources/compensatory-leave-request).
+* **Incluir feriados dentro das Licenças como Licenças:** Assinale esta opção se voce quer contar os feriados dentro das licenças como ‘licença’. Por exemplo, se um Funcionario aplicou para uma licença na Sexta para Segunda, e Sabado para Domingo são dias de descanso, se a caixa 'Incluir feriados dentro das licenças como licenças' para este Tipo de Licença estiver selecionado, o sistema irá considerar Sabado e Domingo como Licenças tambem. Tais feriados serão deduzidos do numero total de licenças.
+
+
+* **É Compensatoria:** Licenças Compensatorias são as licenças dadas por trabalhar hora extras ou em feriados, normalmente compensadas como licenças pagas. Voce pode assinalar esta opção para marcar o Tipo de Licença como compensatoria. Um Funcionario pode pedir para licenças compensatorias usando [Solicitação de Licença Compensatoria](/docs/user/manual/pt/recursos-humanos/solicitação-licenças-compensatoria).
 
 
 
-## 2. Features
+## 2. Funcionalidades
 
-### 2.1 Leave Encashment
+### 2.1 Licença Paga
 
-It is possible that Employees can receive cash from their Employer for unused leaves granted to them in a Leave Period. Not all Leave Types need to be encashable, so, you should set "Allow Encashment" for only those Leave Types which are encashable. 
+É possivel que funcionarios recebam dinheiro dos Empregadores para licenças não usadas num Periodo de Folha de Pagamento. Nem todos os Tipos de Licença precisam ser pagas, portanto, deve definir "Permitir Pagamento" somente para o Tipo de Licenças que são ou devem ser pagas. 
 
-> **Note:** Leave encashment is allowed only in the last month of the Leave Period.
+> **Nota:** Licença Paga é permitida somente no ultimo mes do Periodo da Folha de Pagamento.
 
 <img class="screenshot" alt="Leave Encashment"
         src="{{docs_base_url}}/assets/img/human-resources/leave-encashment.png">
 
-**Encashment Threshold Days:**  This field indicates the number of leave days the Employees won't be able to encash. Above the mentioned days, the Employee is eligible to encash leaves. 
+**Dias de Limite de Pagamento:** Este campo indica o numero de dias de licença o Funcionario não será possivel ser pago. Acima dos dias mencionados, o Funcionario pode receber o pagamento das licenças. 
 
-For example, if there are 10 leaves of a particular Leave Type which is encashable, and the Employee has 8 leaves left. If Encashment Threshold Days = 5, the Employee is given encashment of only 8 - 5 = 3 leaves.
+Por exemplo, se tem 10 licenças para um Tipo de Licenças em particular que é paga, e o Funcionario tem 8 dias. Se os Dias de Limite de Pagamento = 5, o Funcionario é dado pagamento somente para 8 - 5 = 3 licenças.
 
-**Earning Component:** This field allows you to specify the Salary Component that will be encashed to Employees as a part of their Salary in the Salary Slip.
+**Componente de Remuneração:** Este campo permite voce especificar o Componente de Salario que será paga aos Funcionarios como parte do seu Salario no Recibo de Salario.
 
-> **Note:** On submitting a [Leave Encashment](/docs/user/manual/en/human-resources/leave-encashment) for an Employee, ERPNext automatically creates an [Additional Salary](/docs/user/manual/en/human-resources/additional-salary) which will get added to the Salary Slip of the Employee when processing the next payroll.
+> **Nota:** Ao submeter uma [Licença Paga](/docs/user/manual/pt/recursos-humanos/leave-encashment) para um Funcionario, o ERPNext automaticamente cria um [Salario Adicional](/docs/user/manual/pt/recursos-humanos/salário-adicional) que será adicionado ao Recibo de Salario do Funcionario ao processar a proxima Folha de Pagamento.
 
-### 2.2 Earned Leave
+### 2.2 Licença Ganha
 
-Earned Leaves are leaves earned by an Employee after working with the company for a certain amount of time. Checking "Is Earned Leave" will allot leaves pro-rata basis by automatically updating Leave Allocation for leaves of this type at intervals set by 'Earned Leave Frequency'. 
+Licenças Ganhas são as licenças ganhas por um Funcionario depois de trabalhar com a empresa por um certo periodo d tempo. Assinalando "É Licença Ganha" irá alocar licenças pro-rata automaticamente atualizando a Alocação de Licença para as licenças deste tipo em intervalos definidos 'Frequencia das Licenças Ganhas'. 
 
 
-For example, an Employee is allotted 24 Privilege Leaves in a year, wherein the Privilege Leave is set as Earned Leave with Monthly allotment. In this case, the Employee will earn 2 (24 leaves/12 months) Privilege Leaves at the end of every month. The leave allotment process (background job) will only allot leaves considering the max leaves for the leave type and will round to 'Rounding' for fractions.
+Por exemplo, um Funcionario é alocado 24 Licenças de Privilegio num ano, aonde a Licença de Privilegio esta definida como Licença Ganha com Alocação Mensal. Neste caso, o Funcionario ganha 2 (24 licenças/12 meses) Licenças Privilegiadas no fim de cada mês. O processo de alocação da licença somente irá alocar licenças considerando o maximo de licenças para o tipo de licença e arredondar para frações.
 
 <img class="screenshot" alt="Earned Leave"
         src="{{docs_base_url}}/assets/img/human-resources/earned-leave.png">
 
-> **Note:** The initial allocation of this Leave Tye will be 0. Leaves will be updated at the end of the Month (or as per the 'Earned Leave Frequency' set). 
+> **Nota:** A alocação inicial para este Tipo de Licença será 0. Licenças serã atualizados no fim do Mes (ou pela definição 'Frequencia de Licença Ganha'). 
 
-### 2.3 Default Leave Types
+### 2.3 Tipo de Licenças Padrão
 
-There are some pre-loaded Leave Types in the system, as below:
+Tem alguns Tipos de Licença pre-carregadas no sistema, como pode ver em baixo:
 
-- **Leave Without Pay:** You can avail these leaves for different purposes, such as extended medical issues, educational purposes, or unavoidable personal reasons. The 'Leave Without Pay' checkbox for this Leave Type is checked by default. The employee does not get paid for such leaves.
-- **Privilege leave:** These are like earned leaves that can be availed for travel, family vacation, and so on.
-- **Sick leave:** You can avail of these leaves if you are unwell.
-- **Compensatory off:** These are compensatory leaves allotted to employees for overtime work. The 'Is Compensatory' checkbox for this Leave Type is checked by default.
-- **Casual leave:** You can avail of this leave to take care of urgent and unseen matters.
+- **Licença Sem Pagamento:** Voce pode atribuir esta licenças para varias razões, como assuntos de saude, educação ou razões não evitaveis. A caixa 'Licença Sem Pagamento' para este Tipo de Licença é selecionado por Padrão. O funcionario não é pago por tais licenças.
+- **Licença de Privilegio:** Estas são tipo licenças ganhas que podem ser atribuidas por viagens, ferias de familia, etc.
+- **Licença por Doença:** Voce pode atribuir este tipo de licenças de não estiver bem de saude.
+- **Compensatoria off:** Estas são as licenças compensatorias alocadas a funcionarios por hora extra. A caixa 'É Compensatoria' para este Tipo de Licença esta activa por defeito.
+- **Licença Casual:** Pode atribuir esta licença para tratar de assuntos urgentes.
 
-## 3. Related Topics
+## 3. Topicos Relacionados
 
-1. [Leave Period](/docs/user/manual/en/human-resources/leave-period)
-1. [Leave Policy](/docs/user/manual/en/human-resources/leave-policy)
-1. [Leave Allocation](/docs/user/manual/en/human-resources/leave-allocation)
-1. [Leave Application](/docs/user/manual/en/human-resources/leave-application)
-1. [Compensatory Leave Request](/docs/user/manual/en/human-resources/compensatory-leave-request)
-1. [Leave Encashment](/docs/user/manual/en/human-resources/leave-encashment)
+1. [Periodo de Licença](/docs/user/manual/pt/recursos-humanos/periodo-ferias)
+1. [Politica de Licença](/docs/user/manual/pt/recursos-humanos/politica-de-licença)
+1. [Alocação de Licença](/docs/user/manual/pt/recursos-humanos/alocação-ferias)
+1. [Pedido de Licença](/docs/user/manual/pt/recursos-humanos/pedido-licença)
+1. [Solicitação de Licença Compensatoria](/docs/user/manual/pt/recursos-humanos/solicitação-licenças-compensatoria)
+1. [Licença Paga](/docs/user/manual/pt/recursos-humanos/leave-encashment)
 

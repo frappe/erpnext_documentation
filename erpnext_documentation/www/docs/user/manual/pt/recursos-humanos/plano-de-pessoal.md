@@ -1,60 +1,60 @@
 <!-- add-breadcrumbs -->
-# Staffing Plan
+# Plano de Pessoal
 
-**Staffing Plan helps you to plan manpower requirements for your Company.**
+**Plano de Pessoal ajuda voce a planear requisitos de mão de obra para a sua Empresa.**
 
- ERPNext allows you to do this at a company level helping you efficiently plan and budget new hirings for a period. Job Openings can only be created as per the number of vacancies and budget as per the active Staffing Plan. 
+ O ERPNext permite fazer a nivel de empresa ajudando eficientemente a planificar e orçamento para contratações dentro de um periodo. Oferta de Trabalho pode somente ser criado como parte do numero de vagas e orçamento de acordo ao Plano de Pessoal activo. 
 
- To access Staffing, go to:
+ Para aceder Plano de Pessoal, vá para:
 
-> Home > Human Resources > Recruitment > Staffing Plan 
+> Home > Recursos Humanos > Recrutamento > Plano de Pessoal
 
-## 1. Prerequisites
+## 1. Pre-requisitos
 
-Before creating a Staffing Plan, it is necessary you create the following:
+Antes de criar Plano de Pessoal, é necessario criar os seguintes:
 
-* [Department](/docs/user/manual/en/human-resources/department)
-* [Designation](/docs/user/manual/en/human-resources/designation)
+* [Departamento](/docs/user/manual/pt/recursos-humanos/departamento)
+* [Designação](/docs/user/manual/pt/recursos-humanos/designação)
 
 
-## 2. How to create a Staffing Plan
+## 2. Como criar Plano de Pessoal
 
-1. Go to Staffing Plan list, click on New.
-1. Enter the Name, From and To Date and select the Department  for which you want to create the Staffing Plan.
-1. Enter the Staffing Plan Details such as Designation, Vacancies, Estimated Cost Per Position, Total Estimated Cost and Number of Positions.
-1. Save and Submit.
+1. Vá para a Plano de Pessoal, clique em Novo.
+1. Digite o Nome, Data de Inicio e Fim e selecione o Departamento no qual quer criar o Plano de Pessoal.
+1. Digite os detalhes do Plano de Pessoal tais como Designação, Vagas, Custo Estimado por Posição, Total do Custo Estimado e Numero de Vagas.
+1. Salvar e Submeter.
 
 
 	<img class="screenshot" alt="Staffing Plan"
 	src="{{docs_base_url}}/assets/img/human-resources/staffing-plan.png">
 
-## 3. Features
+## 3. Funcionalidades
 
-Some of the additional features in the Staffing Plan doctype are explained below:
+Algumas das funcionalidades no Plano de Pessoal são explicadas em baixo:
 
-* **Designation:** The designations for which the Staffing Plan is created.
+* **Designação:** As Designações pelo o qual o Plano de Pessoal foi criado.
 
-* **Number of Positions:** The number of positions you plan to recruit for between the  From and To Dates of the Staffing Plan.
+* **Numero de Vagas:** O numero de vagas que planeia recrutar entre as Datas de Inicio e Fim para o Plano de Pessoal.
 
-* **Current Count:** This is the number of Employees already hired against the particular Designation.
+* **Contagem Corrente:** Este é o numero de Funcionarios existentes numa Designação em particular.
 
-* **Vacancies:** The number of vacancies based on the Number of Positions you wish to recruit and the current Employee count.
+* **Vagas:** O numero de vagas com base no Numero de Posições que pretende recrutar e a Contagem Corrente de Funcionarios.
 
-* **Estimated Cost Per Position:** You can specify the cost to company per position so that hiring officials can stick to the budget.
+* **Custo Estimado por Posicção:** Voce pode especificar o custo para a empresa por posição para que ao contratar seja feita de acordo o orçamento.
 
 
 	<img class="screenshot" alt="Staffing Plan Detail"
 	src="{{docs_base_url}}/assets/img/human-resources/staffing-plan-detail.png">
 
-* **Total Estimated Budget:** Once you enter the recruitment plan for all the designations, Staffing Plan will draw up the total estimated budget as per the plan.
+* **Total Estimado de Orçamento:** Uma vez digitado o plano de recrutamento para todas as designações, o Plano de Pessoal irá mostrar o total estimado do orçamento de acordo o plano.
 
 
 
-## 4. Related Topics
+## 4. Topicos Relacionados
 
-1. [Job Opening](/docs/user/manual/en/human-resources/job-opening)
-1. [Job Applicant](/docs/user/manual/en/human-resources/job-applicant)
-1. [Job Offer](/docs/user/manual/en/human-resources/job-offer)
+1. [Vagas de Trabalho](/docs/user/manual/pt/recursos-humanos/vagas-emprego)
+1. [Canditado a Trabalho](/docs/user/manual/pt/recursos-humanos/candidato-emprego)
+1. [Oferta de Trabalho](/docs/user/manual/pt/recursos-humanos/oferta-trabalho)
 
 
 

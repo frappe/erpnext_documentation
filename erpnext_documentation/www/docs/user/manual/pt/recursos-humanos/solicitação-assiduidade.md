@@ -1,55 +1,55 @@
-# Attendance Request
+# Solicitação de Assiduidade
 
-**Using the Attendance Request, employees can submit their attendance request for the days when their attendance wasn't marked due to various reasons such as on-site duty or work from home.**
+**Usando a Solicitação de Assiduidade, os funcionarios podem submeter os seus pedidos de assiduidade para os dias em não estavam marcados por varias razões como tarefas no trabalho ou trabalhar a partir de casa.**
 
-To access Attendance Request, go to:
+Para aceder Solicitação de Assiduidade, vá para:
 
-> Home > Human Resources > Attendance > Attendance Request 
+> Home > Recursos Humanos > Assiduidade > Solicitação de Assiduidade
 
-## 1. Prerequisites
+## 1. Pre-requisitos
 
-Before creating an Attendance Request, it is advised that you create the following first:
+Antes de criar uma Solicitação de Assiduidade, é aconselhavel criar:
 
-* [Employee](/docs/user/manual/en/human-resources/employee)
+* [Funcionario](/docs/user/manual/pt/recursos-humanos/funcionario)
 
 
-## 2. How to create an Attendance Request
+## 2. Como criar uma Solicitação de Assiduidade
 
-1. Go to Attendance Request list, click on New.
-1. Select Employee who wants to submit the Attendance Request.
-1. Select From Date and To Date of Attendance Request.
-1. Select Reason and enter Explanation (optional).
-1. Save and Submit.
+1. Vá para Solicitação de Assiduidade, clique em Novo.
+1. Selecione o Funcionario que quer submeter a Solicitação de Assiduidade.
+1. Selecione a Data de Inicio e Fim da Solicitação de Assiduidade.
+1. Selecione o Motivo e digite a Explicação (opcional).
+1. Salvar e Submeter.
 
 
     <img class="screenshot"  alt="Attendance Request" src="{{docs_base_url}}/assets/img/human-resources/attendance-request.png">
 
-> **Note 1:** You can check the 'Half Day' checkbox and enter the Date in case the attendance is for Half Day.
+> **Nota 1:** Voce pode selecionar a caixa 'Meio Dia' e digitar a Data caso a assiduidade seja para meio dia.
 
-> **Note 2:** On submission of the same, Attendance documents will be created for the days you mentioned as shown.
+> **Nota 2:** Ao submeter, os documentos de Assiduidade serão criados para os dias que mencionou.
 
-> **Note 3:** You can submit Attendance Request of only unmarked Attendance.
+> **Nota 3:** Voce pode submeter a Solicitação de Assiduidade somente de Assiduidades não marcadas.
 
 
 
 <img class="screenshot"  alt="Attendance Request Submit" src="{{docs_base_url}}/assets/img/human-resources/attendance-request-submission.png">
 
-As seen below, respective Attendance records are linked with the submitted Attendance Request.
+Como se vê em baixo, registos da Assiduidade estão ligado com a Solicitação de Assiduidade submetida.
 
  <img class="screenshot"  alt="Attendance Request Linked" src="{{docs_base_url}}/assets/img/human-resources/attendance-request-link.png">
 
-If you cancel the Attendance Request, the linked Attendance documents created will be cancelled as well.
+Se voce cancelar a Solicitação de Assiduidade, os documentos ligados criados tambem serão cancelados.
 
  <img class="screenshot"  alt="Attendance Request Cancelled" src="{{docs_base_url}}/assets/img/human-resources/attendance-request-cancelled.png">
 
 
-## 3. Related Topics
+## 3. Topicos Relacionados
 
-1. [Employee Attendance Tool](/docs/user/manual/en/human-resources/employee-attendance-tool)
-1. [Shift Management](/docs/user/manual/en/human-resources/shift-management)
-1. [Auto Attendance](/docs/user/manual/en/human-resources/auto-attendance)
-1. [Upload Attendance](/docs/user/manual/en/human-resources/upload-attendance)
-1. [Attendance](/docs/user/manual/en/human-resources/attendance)
+1. [Ferramente de Assiduidade de Funcionario](/docs/user/manual/pt/recursos-humanos/ferramenta-assiduidade-funcionário)
+1. [Gestão de Turno](/docs/user/manual/pt/recursos-humanos/gestão-de-turnos)
+1. [Auto Assiduidade](/docs/user/manual/pt/recursos-humanos/auto-assiduidade)
+1. [Carregar Assiduidade](/docs/user/manual/pt/recursos-humanos/carregar-assiduidade)
+1. [Assiduidade](/docs/user/manual/pt/recursos-humanos/assiduidade)
 
 
 {next}

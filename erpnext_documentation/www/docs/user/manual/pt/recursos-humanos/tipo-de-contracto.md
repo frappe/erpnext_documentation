@@ -1,32 +1,32 @@
 <!-- add-breadcrumbs -->
-# Employment Type
+# Tipo de Contracto
 
-**You can employ people under a number of categories each having their own wage and leave entitlements. This is called an Employment Type.** 
+**Voce pode empregar pessoas sobre um numero de categorias onde cada um tem seu salario e licenças atribuídas. A Este é chamado de Tipo de Contracto.** 
 
-ERPNext allows you to select an Employment Type from a pre-defined list or even create a new Employment Type based on your requirements.
+O ERPNext permite voce selecionar o Tipo de Contracto de uma pre-lista definida ou ate criar um novo Tipo de Contracto com base nos seus requisitos.
 
-To access the Employment Type, go to:
+Para aceder o Tipo de Contracto, vá para:
 
-> Home > Human Resources > Employee > Employment Type
+> Home > Recursos Humanos > Funcionario > Tipo de Contracto
 
-## 1. How to create an Employment Type
+## 1. Como criar um Tipo de Contracto
 
 
-1. Go to the Employment Type list, click on New.
-2. Enter the Name of the Employment Type.
-3. Save.
+1. Vá para Tipo de Contracto, clique em Novo.
+2. Digite o Nome do Tipo de Contracto.
+3. Salvar.
 
     <img class="screenshot" alt="Employment Type" src="{{docs_base_url}}/assets/img/human-resources/employment-type.png">
 
-The Employment Type can be linked to the [Employee](/docs/user/manual/en/human-resources/employee) master.
+O Tipo de Contracto pode ser ligado a ficha do [Funcionario](/docs/user/manual/pt/recursos-humanos/funcionario).
 
 
-## 2. Related Topics
+## 2. Topicos Relacionados
 
-1. [Employee](/docs/user/manual/en/human-resources/employee)
-1. [Employment Type](/docs/user/manual/en/human-resources/employment-type)
-1. [Branch](/docs/user/manual/en/human-resources/branch)
-1. [Department](/docs/user/manual/en/human-resources/department)
-1. [Designation](/docs/user/manual/en/human-resources/designation)
-1. [Employee Grade](/docs/user/manual/en/human-resources/employee-grade)
+1. [Funcionario](/docs/user/manual/pt/recursos-humanos/funcionario)
+1. [Tipo de Contracto](/docs/user/manual/pt/recursos-humanos/tipo-de-contracto)
+1. [Filial](/docs/user/manual/pt/recursos-humanos/filial)
+1. [Departamento](/docs/user/manual/pt/recursos-humanos/departamento)
+1. [Designação](/docs/user/manual/pt/recursos-humanos/designação)
+1. [Grau do Funcionario](/docs/user/manual/pt/recursos-humanos/grau-funcionario)
 

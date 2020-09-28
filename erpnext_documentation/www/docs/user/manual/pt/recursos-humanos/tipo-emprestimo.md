@@ -1,25 +1,25 @@
-# Loan Type
+# Tipo de Empréstimo
 
-**Loans can be categorized into different types based on their specific characteristics.**
+**Emprestimos podem ser categorizado em tipos diferentes com base nas suas caracteristicas especificas.**
 
-In ERPNext, you can define different Loan Types, their Rate of Interest and other related information in the Loan Type doctype.
+No ERPNext, voce pode definir Tipo de Empréstimo diferentes, Taxa de Juros e outras informações relacionadas para o Tipo de Empréstimo.
 
-To access Loan Type go to:
+Para aceder Tipo de Empréstimo, vá para:
 
-> Human Resources > Loans > Loan Type 
+> Recursos Humanos > Emprestimos > Tipo de Empréstimo
 
-## 1. How to create a Loan Type
+## 1. Como criar Tipo de Empréstimo
 
-1. Go to: Loan Type.
-1. Enter the Loan Name.
-1. Enter the Rate of Interest (%) Yearly.
-1. Optionally, you can also enter the Maximum Loan Amount and Description of the Loan Type.
-1. Save.
+1. Vá para: Tipo de Empréstimo.
+1. Digite o Nome do Emprestimo.
+1. Digite a Taxa de Juros (%) Anuais.
+1. Opcionalmente, voce pode tambem digitar o Valor Maximo do Emprestimo e Descrição para o Tipo de Empréstimo.
+1. Salvar.
 
     <img class="screenshot" alt="Loan Type" src="{{docs_base_url}}/assets/img/human-resources/loan-type.png">
 
-## 2. Related Topics
+## 2. Topicos Relacionados
 
-1. [Loan Application](/docs/user/manual/en/human-resources/loan-application)
-1. [Loan](/docs/user/manual/en/human-resources/loan)
+1. [Solicitação de Emprestimo](/docs/user/manual/pt/recursos-humanos/solicitação-emprestimo)
+1. [Emprestimo](/docs/user/manual/pt/recursos-humanos/emprestimo)
 

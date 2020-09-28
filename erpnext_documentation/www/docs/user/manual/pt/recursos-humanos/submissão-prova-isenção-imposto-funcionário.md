@@ -1,44 +1,44 @@
 <!-- add-breadcrumbs -->
-# Employee Tax Exemption Proof Submission
+# Submissão de Prova de Isenção de Imposto de Funcionário
 
-**Employees are required to submit proofs for all the spendings they claim tax exemption for. This can be done through the Employee Tax Exemption Proof Submission document**
+**Funcionarios precisam submeter provas de todos os gastos que eles reclamam isenção de impostos. Isto pode ser feito pela Submissão de Prova de Isenção de Imposto de Funcionário.**
 
- This is usually done at the end of a Payroll Period, but employees can submit any number of proofs unlike Employee Tax Exemption Declaration.
+ Este é feito normalmente no fim do Periodo da Folha de Pagamento, mas os funcionarios podem submeter qualquer numero de Declaração de Isenção de Imposto de Funcionário.
 
-> **Note:** Create an Employee Tax Exemption Declaration before creating an Employee Tax Exemption Proof Submission 
+> **Nota:** Crie uma Declaração de Isenção de Imposto de Funcionário antes de criar uma Submissão de Prova de Isenção de Imposto de Funcionário 
 
-To access Employee Tax Exemption Proof Submission, go to:
+Para aceder Submissão de Prova de Isenção de Imposto de Funcionário, vá para:
 
-> Home > Human resources > Employee Tax Exemption Proof Submission
+> Home > Recursos Humanos > Submissão de Prova de Isenção de Imposto de Funcionário
 
-## 1. How to create an Employee Tax Exemption Proof Submission
+## 1. Como criar uma Submissão de Prova de Isenção de Imposto de Funcionário
 
-The details are already fetched if you click on 'Submit Proof' from [Employee Tax Exemption Declaration](/docs/user/manual/en/human-resources/employee-tax-exemption-declaration). However, if you want to create an 'Employee Tax Exemption Proof Submission' manually, follow these steps.
+Os detalhes são inserido se voce fizer o clique em 'Submeter a Prova' a partir da [Declaração de Isenção de Imposto do Funcionario](/docs/user/manual/pt/recursos-humanos/declaração-de-isenção-de-imposto-funcionário). Contudo, se voce quiser criar uma 'Submissão de Prova de Isenção de Imposto de Funcionário' manual, siga estes passos.
 
-1. Go to the Employee Tax Exemption Proof Submission list, click on New.
-1. Enter the details as needed.
-1. Additionally, enter the 'Type of Proof' (documents, receipts, etc.).
-1. Attach the proofs in by clicking on the **Attach** button at the bottom.
-1. Enter House Rent Payment Amount, Rented From Date and Rented To Date.
-1. Save and Submit.
+1. Vá para Submissão de Prova de Isenção de Imposto de Funcionário, clique em Novo.
+1. Digite os detalhes necessarios.
+1. Adiconalmente, digite o 'Tipo de Prova' (documentos, recibos, etc.).
+1. Anexe as provas fazendo o clique no botão **Anexar** em baixo.
+1. Digite o Valor de Pagamento da Renda, Data de Inicio e Fim do Arrendamento.
+1. Salvar e Submeter.
 
     <img class="screenshot" alt="Employee Tax Exemption Proof Submission" src="{{docs_base_url}}/assets/img/human-resources/employee-tax-exemption-proof-submission.png">
 
  
 
-The _Total Exemption Amount_ will be exempted from annual taxable earnings of the employee while calculating the tax deductions in the last payroll.
+O _Valor Total de Isenção_ será isento das remunerações tributavei anuais para o funcionario ao calcular os impostos de dedução no ultimo processamento.
 
-> Note: Even if employees submit exemption proofs anytime during the payroll period, ERPNext will only consider this in the last payroll of the Payroll Period for adjusting the final taxes based on the proof submitted. If you need to adjust any additional tax collected or consider proof submission of employees anytime before the last payroll, while processing Payroll Entry (or in the Salary Slip of the employee) check the _Deduct Tax For Unsubmitted Tax Exemption Proof_ option.
+> Nota: Mesmo que os funcionario façam a submissaõ das provas durante o periodo de processamento, o ERPNext irá somente considerar este no ultimo processamento do Periodo da Folha de Pagamento para ajustar os impostos finais com base nas provas submetidas. Se voce precisa ajustar qualquer imposto adicional ou considerar a submissão da prova dos funcionarios a qualquer altura antes do ultimo processamento, ao fazer o registo da Folha de Pagamento (ou no Recibo de Salario do funcionario) selecione a opção _Deduzir Imposto para Prova de Isenção de Imposto Não Submetido_.
 
 ### Regional - India
-For the current fiscal year, in India, House Rent Allowance (HRA) exemption from taxable earnings is the minimum of:
+Para o ano fiscal corrente, na India, Isenção da Mensalidade para Renda de Casa (HRA) das remunerações tributaveis é no minimo de:
 
-* The actual amount allotted by the employer as the HRA.
-* Actual rent paid less 10% of the basic salary.
-* 50% of the basic salary, if the employee is staying in a metro city (40% for a non-metro city).
+* O valor actual alocado pelo funcionario como HRA.
+* Valor actual pago de renda menos 10% do salario base.
+* 50% do salario base, se o funcionario esta dentro da cidade metro (40% se for fora da cidade metro).
 
-As part of the Employee Tax Exemption Proof Submission, employees shall also submit proof for HRA Exemption. ERPNext will calculate the exemption eligible for HRA and exempt it while calculating the taxable earnings in the last payroll of the Payroll Period.
+Como parte da Submissão da Prova de Isenção de Imposto do Funcionario, os funcionarios deve tambem submeter a prova de isenção do HRA. O ERPNext irá calcular a isenção elegível para HRA e isentar ao calcular os rendimentos tributaveis no ultimo processamento do Periodo da Folha de Pagamento.
 
-> Note: HRA component shall be configured in Company for HRA exemption to work
+> Nota: Componente HRA deve ser configurado na Empresa para isenção de HRA funcionar
 
 {next}

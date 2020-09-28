@@ -1,35 +1,35 @@
 <!-- add-breadcrumbs -->
-# Training Program
+# Programa de Formação
 
-**Training Program defines programs designed for training employees or other individuals in specific skills.** 
+**Programa de Formação define programas feitos para dar formação aos funcionarios ou outros individuos em habilidades especificas.** 
 
-In ERPNext, you can create a Training Program and schedule [Training Events](/docs/user/manual/en/human-resources/training-event) under it. 
+No ERPNext, voce pode criar um Programa de Formação e cronograma [Eventos de Formação](/docs/user/manual/pt/recursos-humanos/evento-formação). 
 
-To access Training Program, go to:
+Para aceder Programa de Formação, vá para:
 
-> Home > Human Resources > Training > Training Program
+> Home > Recursos Humanos > Formação > Programa de Formação
 
 
-## 1. How to create a Training Program
+## 1. Como criar um Programa de Formação
 
-1. Go to Training Program list, click on New.
-1. Enter the Training Program name.
-1. Enter the Trainer Name, Trainer Email and Contact Number.
-1. Select the Supplier n(optional) in case an outside vendor/expert was called to conduct the training.
-1. Additionally, you can also write a short description of the Training Program in the Description box (optional).
+1. Vá para Programa de Formação, clique em Novo.
+1. Digite o nome do Programa de Formação.
+1. Digite o Nome do Formador, Email e Numero de Telefone do Formador.
+1. Selecione o Fornecedor (opcional) em caso seja um vendedor/perito externo foi chamado para conduzir a formação.
+1. Adicionalmente, voce pode tambem escrever uma pequena descrição do Programa de Formação na caixa Descrição (opcional).
 
     <img class="screenshot" alt="Training Program" src="{{docs_base_url}}/assets/img/human-resources/training-program.png">
 
-> **Note:** By default, the Status of the Training Program is 'Scheduled'. However, you can change the status to 'Completed' or 'Cancelled' as per the requirement.
+> **Nota:** Por defeito, o Status do Programa de Formação fica 'Programado'. Contudo, voce pode mudar o status para 'Completado' ou 'Cancelado' de acordo a necessidade.
 
-Once the Training Program is saved, you can create Training Events under the same.
+Uma vez o Programa de Formação salvo, voce pode criar o Evento de Formação em baixo do mesmo.
 
 
-## 2. Related Topics
+## 2. Topicos Relacionados
 
-1. [Training Event](/docs/user/manual/en/human-resources/training-event)
-1. [Training Result](/docs/user/manual/en/human-resources/training-result)
-1. [Training Feedback](/docs/user/manual/en/human-resources/training-feedback)
+1. [Evento de Formação](/docs/user/manual/pt/recursos-humanos/evento-formação)
+1. [Resultado de Formação](/docs/user/manual/pt/recursos-humanos/resultado-formação)
+1. [Feedback da Formação](/docs/user/manual/pt/recursos-humanos/feedback-formação)
 
 
 

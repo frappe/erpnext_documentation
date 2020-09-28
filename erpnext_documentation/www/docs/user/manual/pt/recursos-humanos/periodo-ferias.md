@@ -1,47 +1,47 @@
-# Leave Period
+# Periodo de Licença
 
-**A Leave Period is a duration of time for which leaves are allocated.**
+**Periodo de Licença é a duração de tempo pelo qual as Licenças são alocadas.**
 
-Most companies manage leaves based on a Leave Period, corresponding to a calendar year or the fiscal year. To access Leave Period, go to:
+Muitas das empresas fazem a gestão de Licença com base no Periodo de Licenças, correspondente ao calendario do ano ou ano fiscal. Para aceder o Licença, vá para:
 
-> Home > Human Resources > Leaves > Leave Period 
+> Home > Recursos Humanos > Licenças > Periodo de Licença
 
-## 1. Prerequisites
+## 1. Pre-requisitos
 
-Before creating a Leave Period, it is advisable to create the following:
+Antes de criar um Periodo de Licença é aconselhavel criar os seguintes:
 
-* [Company](/docs/user/manual/en/setting-up/company-setup)
-* [Holiday List](/docs/user/manual/en/human-resources/holiday-list)
+* [Empresa](/docs/user/manual/pt/configuração/configuração-empresa)
+* [Lista de Feriados](/docs/user/manual/pt/recursos-humanos/lista-de-feriados)
 
-## 2. How to create a Leave Period
+## 2. Como criar um Periodo de Licença
 
-1. Go to Leave Period list, click on New.
-1. Enter the From Date and To Date of the Leave Period.
-1. Select the Company name for which the Leave Period is applicable.
-1. Save.
+1. Vá para Periodo de Licença, clique em Novo.
+1. Digite a Data de Inicio e Fim do Periodo de Licença.
+1. Selecione a Empresa no qual o Periodo de Licença será alocado.
+1. Salvar.
 
-The Leave Period also allows you to select a [Holiday List for Optional Leaves](/docs/user/manual/en/human-resources/holiday-list) (optional) which will be considered for allocating Optional Leaves for the period.
+O Periodo de Licença tambem permite selecionar a [Lista de Feriados para Licenças Opcionais](/docs/user/manual/pt/recursos-humanos/lista-de-feriados) (opcional) que será considerado para alocar Licenças Opcionais para o periodo.
 
-> **Note:** The 'Holiday List for Optional Leaves' is not the same as the usual 'Holiday List'. This list will contain a list of optional holidays only. 'Holiday List for Optional Leaves' can be created from the [Holiday List](/docs/user/manual/en/human-resources/holiday-list) document. You can create two Holiday Lists for a Leave Period; one containing the usual set of holidays and the other for optional holidays.
+> **Nota:** A 'Lista de Feriados para Licenças Opcionais' não é igual a 'Lista de Feriados' usual. Esta lista irá conter uma lista opcional de feriados. 'Lista de Feriados para Licenças Opcionais' pode ser criada a partir do documento [Lista de Feriados](/docs/user/manual/pt/recursos-humanos/lista-de-feriados). Voce pode criar duas Listas de Feriados para um Periodo de Licença; um contendo o conjunto usual de feriados e o outro feriados opcionais.
 
-Additionally, you can check the 'Is Active' checkbox if you want to enable this particular Leave Period.
+Adicionalmente, voce pode selecionar a caixa 'É Activo' se voce quer activar um Periodo de Licença particular.
 
 
 <img class="screenshot" alt="Leave Period"
 	src="{{docs_base_url}}/assets/img/human-resources/leave-period.png">
 
-Once the information is saved, the Leave Period will also be used as a tool to help you grant leaves for a category of employees. 
+Uma vez a informação salva, o Periodo de Licença irá ser usdo como uma ferramenta que permite atribuir licenças para uma categoria de funcionarios. 
 
-The **Grant** button will generate Leave Allocations based on the [Leave Policy](/docs/user/manual/en/human-resources/leave-policy) applicable to each Employee. You can allocate leaves based on [Employee Grade](/docs/user/manual/en/human-resources/employee-grade), [Department](/docs/user/manual/en/human-resources/department) or [Designation](/docs/user/manual/en/human-resources/designation) as shown below.
+O botão **Atribuir** irá gerar Alocações de Licenças com base [Politica de Licenças](/docs/user/manual/pt/recursos-humanos/politica-de-licença) aplicada a cada Funcionario. Voce pode alocar licenças com base no [Grau do Funcionario](/docs/user/manual/pt/recursos-humanos/grau-funcionario), [Departamento](/docs/user/manual/pt/recursos-humanos/departamento) ou [Designação](/docs/user/manual/pt/recursos-humanos/designação) como mostra em baixo.
 
 
 <img class="screenshot" alt="Leave Period"
 	src="{{docs_base_url}}/assets/img/human-resources/grant-button.gif">
 
 
-## 3. Related Topics
+## 3. Topicos Relacionados
 
-1. [Leave Allocation](/docs/user/manual/en/human-resources/leave-allocation)
-1. [Leave Policy](/docs/user/manual/en/human-resources/leave-policy)
-1. [Leave Type](/docs/user/manual/en/human-resources/leave-type)
+1. [Alocação de Licenças](/docs/user/manual/pt/recursos-humanos/alocação-ferias)
+1. [Politica de Licença](/docs/user/manual/pt/recursos-humanos/politica-de-licença)
+1. [Tipo de Licença](/docs/user/manual/pt/recursos-humanos/tipo-de-ferias)
 

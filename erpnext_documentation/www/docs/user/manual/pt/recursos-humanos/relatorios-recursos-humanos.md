@@ -1,54 +1,54 @@
 <!-- add-breadcrumbs -->
-# Human Resources Reports
+# Relatórios de Recursos Humanos
 
-## Employee Leave Balance
+## Balanço de Licenças do Funcionario
 
-These key reports can be found under:
+Estes são relatorios chaves que pode ser encontrados aqui:
 
 <img alt="Employee Leave Balance" class="screenshot" src="{{docs_base_url}}/assets/img/human-resources/employee-leave-balance-report.png">
 
-## Employee Birthday
+## Aniversario do Funcionário
 
 
-## 1. Employee Birthday
+## 1. Aniversario do Funcionário
 
-## Employee Information
+## Informação do Funcionario
 
-Employee Birthday Report shows month-wise birthdays of your Employees.
+Relatorio da Data de Aniversario do Funcinario mostra os aniversarios de todos os seus Funcionarios.
 
 <img alt="Employee Birthday" class="screenshot" src="{{docs_base_url}}/assets/img/human-resources/employee-birthday-report.png">
 
-## Employee Holiday Attendance
+## Assiduidade Funcionarios em Feriados
 
-Employee Holiday Attendance shows the list of Employees who attended on Holidays.
+Assiduidade de Funcionarios em Feriados mostra a lista de Funcionarios que estiverem presentes em Feriados.
 
 <img alt="Employee Information" class="screenshot" src="{{docs_base_url}}/assets/img/human-resources/employee-holiday-report.png">
 
-## Monthly Salary Register
+## Registo Mensal de Salario
 
-Monthly Salary Register shows net pay and its components of employee(s) at a glance.
+Registo Mensal de Salario mostra o valor liquido e componentes dos funcionarios.
 
 <img alt="Monthly Salary Register" class="screenshot" src="{{docs_base_url}}/assets/img/human-resources/monthly-salary-register-report.png">
 
-## 8. Vehicle Expenses Report
+## 8. Relatorio de Despesas de Veiculo
 
-To track and monitor Vehicle Expenses you can use the Vehicle Expenses report. This report gives a one-stop view of all your Vehicle Expenses month-wise.
+Para rastrear e monitorizar as Despesas do Veiculo voce pode usar este relatorio. Este relatorio da-lhe uma visão unica de todas as despesas dos Veiculos Mensal.
 
 <img class="screenshot" alt="Vehicle Log" src="{{docs_base_url}}/assets/img/human-resources/vehicle-expenses.png">
 
-## Monthly Attendance Sheet
+## Folha de Assiduidade Mensal
 
 
 
-## Bank Remittance Report
+## Relatorio de Remessa Bancaria
 
-This report helps you to track bank transactions of payroll entries between companie(s) and employees. It shows the transaction between the bank accounts of the Company and the Employee with the Payment Date.
+Este relatorio ajuda voce a rastrear transações bancarias dos registos de processamento de salario entre as empresas e funcionarios. Mostra as transações entre oa conta Bancaria da Empresa e Funcionario com a Data de Pagamento.
 
 <img alt="Monthly Salary Register" class="screenshot" src="{{docs_base_url}}/assets/img/human-resources/bank_remittance_report.png">
 
-## Loan Repayment Report
+## Relatorio de Pagamento de Emprestimo
 
-Loan Repayment Report allows you to keep a track of loans by showing the loan amount, interest, payable amount, and EMI. It also shows the paid and outstanding amount.
+Relatorio de Pagamento de Emprestimo permite manter um rastreio dos emprestimos mostrando o valor do emprestimo, juros, valores pagos. Mostra tambem o valor pago  em falta.
 
 <img alt="Monthly Salary Register" class="screenshot" src="{{docs_base_url}}/assets/img/human-resources/loan_repayment.png">
 

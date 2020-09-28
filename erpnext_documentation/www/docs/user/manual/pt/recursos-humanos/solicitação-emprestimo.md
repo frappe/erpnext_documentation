@@ -15,42 +15,42 @@ Antes de criar uma Solicitação de Empréstimo, é aconselhavel criar os seguin
 
   
 
-## 2. How to create a Loan Application
+## 2. Como criar Solicitação de Empréstimo
 
-1. Go to: Loan Application > New.
-1. Enter the Applicant name.
-1. Enter loan information such as a Loan Type, Loan Amount and Required by Date.
-1. Select the [Repayment Method](#31-repayment-method) and based on loan information, information such as Total Payable Amount and Interest will be calculated.
-1. Save and Submit.
+1. Vá para: Solicitação de Empréstimo > Novo.
+1. Digite o Nome do Solicitante.
+1. Digite a informação do emprestimo coo Tipo de Emprestimo, Valor do Emprestimo e Data de pedido.
+1. Selecione o [Metodo de Reembolso](#31-metodo-de-reembolso) e com base na informação do emprestimo, como Total do Valor do Pagamento e Juros serão calculados.
+1. Salvar e Submeter.
    
   <img class="screenshot" alt="Loan Application" src="{{docs_base_url}}/assets/img/human-resources/loan-application.png">
 
-## 3. Features
+## 3. Funcionalidades
 
-### 3.1 Repayment Method
+### 3.1 Metodo de Reembolso
 
-There are two types of Repayment Methods in Loan Application:
+Existem dois tipo de Metodos de Reembolso na Solicitação de Emprestimo:
 
-#### 1. Repay Fixed Amount Per Period
+#### 1. Pagar Valor Fixo por Periodo
 
-* Enter the Monthly Payment Amount.
-* Save.
-* Once saved, based on the Rate of Interest, the Total Payable Interest and Total Payable Amount will be calculated along with Period in Months.
-* Submit.
+* Digite o Valor de Pagamento Mensal.
+* Salvar.
+* Uma vez salvo, com base na Taxa dos Juros, o Total a Pagar de Juros e o Valor Total a Pagar serão calculado ao do Periodo em Meses.
+* Submeter.
 
   <img class="screenshot" alt="Repayment Fixed Amount Per Period" src="{{docs_base_url}}/assets/img/human-resources/repayment1.png">
 
-#### 2. Repay Over Number Of Periods
+#### 2. Pagar em Numero de Periodos
 
-* Enter the Repayment Period in Months.
-* Save.
-* Once saved, based on the Rate of Interest, the Total Payable Interest and Total Payable Amount will be calculated along with Monthly Repayment Amount.
-* Submit.
+* Digite o Periodo de Pagamento em Meses.
+* Salvar.
+* Uma vez salvo, com base na Taxa de Juros, o Total de Juros a Pagar e Valor Total a Pagamento será calculado com o Valor Mensal a Pagar.
+* Submeter.
 
   <img class="screenshot" alt="Repayment Fixed Amount Per Period" src="{{docs_base_url}}/assets/img/human-resources/repayment2.png">
 
-## 4. Related Topics
+## 4. Topicos Relacionados
 
-1. [Loan Type](/docs/user/manual/pt/recursos-humanos/loan-type)
-1. [Loan](/docs/user/manual/pt/recursos-humanos/loan)
+1. [Tipo de Emprestimo](/docs/user/manual/pt/recursos-humanos/tipo-emprestimo)
+1. [Emprestimo](/docs/user/manual/pt/recursos-humanos/emprestimo)
 

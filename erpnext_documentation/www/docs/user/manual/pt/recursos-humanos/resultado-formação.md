@@ -1,37 +1,37 @@
-# Training Result
+# Resultado da Formação
 
-**After completion of the training event, employee-wise training results can be stored based on the evaluation done by the trainer.**
+**Depois de terminado o evento de formação, os Resultado da Formação por funcionario pode ser guardados com base na avaliação feita pelo Formador.**
 
-ERPNext allows you to create training results and share it with the employees with the Training Result doctype.
+O ERPNext permite que voce crie Resultado da Formação e partilhe com os Funcionarios o resultado.
 
-To access Training Result, go to:
+Para aceder Resultado da Formação, vá para:
 
-> Home > Human Resources > Training > Training Result
-
-
-## 1. Prerequisites
-
-Before creating a Training Result, it is advisable you create the following documents:
-
-* [Training Program](/docs/user/manual/en/human-resources/training-program)
-* [Training Event](/docs/user/manual/en/human-resources/training-event)
-* [Employee](/docs/user/manual/en/human-resources/employee)
+> Home > Recursos Humanos > Formação > Resultado da Formação
 
 
-## 2. How to create a Training Result
+## 1. Pre-requisitos
 
-1. Go to the Training Result list, click on New.
-1. Select Training Event.
-1. Enter the Hours, Grade and Comments against the Employee Name.
-1. Save and Submit
+Antes de criar Resultado da Formação, deve criar os seguines:
+
+* [Programa de Formação](/docs/user/manual/pt/recursos-humanos/programa-formação)
+* [Evento de Formação](/docs/user/manual/pt/recursos-humanos/evento-formação)
+* [Funcionario](/docs/user/manual/pt/recursos-humanos/funcionario)
+
+
+## 2. Como criar um Resultado de Formação
+
+1. Vá para Resultado de Formação, clique em Novo.
+1. Selecione o Evento de Formação.
+1. Digite as Horas, Nota e Comentarios contra o Nome do Funcionario.
+1. Salvar e Submeter
 
     <img class="screenshot" alt="Employee" src="{{docs_base_url}}/assets/img/human-resources/training-result.png">
 
-When the Training Result is submitted, all the employees will receive an email notifying them that they must share their feedback via [Training Feedback](/docs/user/manual/en/human-resources/training-feedback). This is also managed via an Email Alert, so you can customize this alert too.
+Quando o Resultado de Formação for submetido, todos os funcionarios iram receber um email notificando eles que podem partilhar o feedback via [Feedback da Formação](/docs/user/manual/pt/recursos-humanos/feedback-formação). Este tambem é gerido via Alerta de Email, para que possa customizar esta alerta tambem.
 
 
-> **Note:** You can also access Training Result directly from the Training Event dashboard. 
+> **Nota:** Voce pode tambem aceder os Resultados de Formação directamente do dashboard Evento de Formação. 
 
-## 3. Related Topics
+## 3. Topicos Relacionados
 
-1. [Training Feedback](/docs/user/manual/en/human-resources/training-feedback)
+1. [Feedback da Formação](/docs/user/manual/pt/recursos-humanos/feedback-formação)

@@ -1,7 +1,7 @@
 <!-- add-breadcrumbs -->
-# Leave Ledger Entry
+# Entrada de Lançamento de Licença
 
-A unified ledger for all leave related transactions for an employee. This maintains all the leaves related transactions, this includes the leave allocations, leave applications and leave encashments of your employees.
+Um lançamento unico para todas as transações de licença para um funcionario. Este mantem todas as transações relacionadas com licenças, que inclui as alocações, pedido de licença e licença com subsidio dos seu funcionarios.
 
 <img alt="Leave Ledger Entry" class="screenshot" src="{{docs_base_url}}/assets/img/human-resources/leave-ledger-entry.png">
 

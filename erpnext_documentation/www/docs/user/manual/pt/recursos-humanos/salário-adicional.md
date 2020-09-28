@@ -1,52 +1,52 @@
 <!-- add-breadcrumbs -->
-# Additional Salary
+# Salário Adicional
 
-**Additional Salary is something that an Employee receives from the company they work for, other than their usual pay.**
-
-
-ERPNext offers you a feature called Additional Salary to add or deduct ad hoc salary for a particular Employee while processing the Payroll. Some examples of Additional Salary could be Performance Bonus, Deputation Allowance, Arrears, Incentives, or other adjustments.
-
-To access Additional Salary, go to:
-
-> Home > Human Resources > Payroll > Additional Salary
-
-## 1. Prerequisites
-
-Before creating an Additional Salary, it is advisable to create the following:
-
-* [Employee](/docs/user/manual/en/human-resources/employee)
-* [Salary Component](/docs/user/manual/en/human-resources/salary-component)
+**Salário Adicional é algo que um Funcionario recebe pela empresa em que trabalha, outro pagamento fora do habitual.**
 
 
-## 2. How to create an Additional Salary
+O ERPNext oferece uma funcionalidade chamada Salário Adicional para adicionar ou reduzir salario para um Funcionario durante o processamento. Alguns exemplo para Salário Adicional pode ser Bonus de Desempenho, Mesada por Mandato, Atrasos, Incentivos ou outros ajustes.
+
+Para aceder Salário Adicional, vá para:
+
+> Home > Recursos Humanos > Folha de Pagamento > Salário Adicional
+
+## 1. Pre-requisitos
+
+Antes de criar Salário Adicional, crie os seguintes:
+
+* [Funcionario](/docs/user/manual/pt/recursos-humanos/funcionario)
+* [Componente de Salario](/docs/user/manual/pt/recursos-humanos/componente-de-salário)
 
 
-1. Go to the Additional Salary list, click on New.
-2. Select Employee.
-3. Select Salary Component.
-4. Enter the Amount.
-1. Enter the Payroll Date. If Payroll Date for Additional Salary is in the interval when the salary is processed, it will be added to the earnings/deduction.
-1. Save and Submit.
+## 2. Como criar um Salário Adicional
 
-Select the 'Overwrite Salary Structure Amount' checkbox to overwrite the Additional Salary component on the Salary Structure amount. Additionally, the 'Deduct Full Tax on Selected Payroll Date' checkbox can be selected if full tax needs to be deducted on the Additional Salary component for that particular payroll date.
+
+1. Vá para Salário Adicional, clique em Novo.
+2. Selecione o Funcionario.
+3. Selecione o Componente de Salario.
+4. Digite o Valor.
+1. Digite a Data do Processamento. Se a Data de Processamento para o Salário Adicional estiver no intervalo ao processar o salario, irá adicionar aos Remunerações/Deduções.
+1. Salvar e Submeter.
+
+Selecione a caixa 'Subscreva o Valor da Estrutura de Salario' para subscrever o componente Salário Adicional no valor da Estrutura de Salario. Adicionalmente, a caixa 'Deduzir Imposto Completo na Data da Folha de Pagamento' pode ser selecionada se o Imposto completo precisa ser reduzido no componente Salário Adicional para aquela data em particular do Processamento.
 
 <img class="screenshot" alt="Additional Salary" src="{{docs_base_url}}/assets/img/human-resources/additional-salary.png">
 
-## 3.Features
+## 3. Funcionalidades
 
-### 3.1 Recurring Additional Salary
-This feature allows users to create an Additional Salary for a fixed interval.
-When 'Is Recurring' is checked you need to fill 'To Date' and 'From Date'. 
-This will add or deduct the additional salary amount for this employee within the selected date range and it will be reflected in the Salary Slip for the employee. The Additional Salary will be repeated every month between 'From Date' and 'To Date' interval.
+### 3.1 Salário Adicional Recorrente
+Esta funcionalidade permite os usuarios em criar um Salário Adicional para um período fixo.
+Quando 'É Recorrente' é selecionado voce precisa preencher 'Até a Data' e 'A partir da Data'. 
+Este irá adicionar ou deduzir o valor do Salário Adicional para este funcionario dentro do periodo da data e irá reflectir no Recibo de Salario do Funcionario. O Salário Adicional irá repetir todos os entre o intervalo 'A partir da Data' e 'Até a Data'.
 
-## 4. Related Topics
+## 4. Topicos Relacionados
 
-1. [Retention Bonus](/docs/user/manual/en/human-resources/retention-bonus)
-1. [Employee Incentive](/docs/user/manual/en/human-resources/employee-incentive)
-1. [Salary Structure](/docs/user/manual/en/human-resources/salary-structure)
-1. [Salary Structure Assignment](/docs/user/manual/en/human-resources/salary-structure-assignment)
-1. [Payroll Entry](/docs/user/manual/en/human-resources/payroll-entry)
-1. [Payroll Period](/docs/user/manual/en/human-resources/payroll-period)
+1. [Bonus de Retenção](/docs/user/manual/pt/recursos-humanos/bonus-de-retenção)
+1. [Incentivo do Funcionario](/docs/user/manual/pt/recursos-humanos/incentivo-funcionário)
+1. [Estrutura de Salario](/docs/user/manual/pt/recursos-humanos/estrutura-salário)
+1. [Atribuição de Estrutura de Salario](/docs/user/manual/pt/recursos-humanos/atribuição-estrutura-salário)
+1. [Entrada de Folha de Pagamento](/docs/user/manual/pt/recursos-humanos/folha-de-pagamento)
+1. [Periodo de Folha de Pagamento](/docs/user/manual/pt/recursos-humanos/periodo-folha-de-pagamento)
 
 
 {next}

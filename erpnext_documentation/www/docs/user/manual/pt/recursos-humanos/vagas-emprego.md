@@ -1,44 +1,44 @@
 <!-- add-breadcrumbs -->
-# Job Opening
+# Vagas de Emprego
 
-**A Job Opening is a job vacancy in your Company. You can make a record of the open vacancies in your company using Job Opening.**
+**Uma Vaga de Emprego é uma vaga de trabalho na sua Empresa. Voce pode criar o registo das Vagas de Emprego na sua empresa usando o formulario Vagas de Emprego.**
 
-ERPNext allows to plan recruitments for your company. The number of Job Openings you can create for a Designation is restricted according to the vacancies planned by the Staffing Plan defined for the company or one of its parent group companies in the hierarchy. 
+O ERPNext permite fazer plano de recrutamento para sua empresa. O numero de Vagas que voce pode criar para um Designação é restringida de acordo as vagas planeadas pelo Plano de Pessoal definido para a Empresa ou para um grupo de de empresa na hierarquia. 
 
-> **Note:** Make sure the "Check Vacancies On Job Offer Creation" checkbox is checked in the Hiring Settings section of the HR Settings.
+> **Nota:** Tenha a certeza que a caixa "Verificar Vagas na Criação da Oferta de Emprego" esta selecionada nas Configurações do RH na secção de Contratação    .
 
-To access Job Opening, go to:
+Para aceder Vagas de Emprego, vá para:
 
-> Home > Human Resource > Recruitment > Job Opening 
+> Home > Recursos Humanos > Recrutamento > Vagas de Emprego
 
 
-## 1. Prerequisites
+## 1. Pre-requisitos
 
-Before creating a Job Opening, it is advisable you create the following:
+Antes de criar uma Vagas de Emprego, aconselhavel criar os seguintes:
 
-* [Staffing Plan](/docs/user/manual/en/human-resources/staffing-plan)
-* [Department](/docs/user/manual/en/human-resources/department)
+* [Plano de Pessoal](/docs/user/manual/pt/recursos-humanos/plano-de-pessoal)
+* [Departamento](/docs/user/manual/pt/recursos-humanos/departamento)
 
-## 2. How to create a Job Opening
+## 2. Como criar Vagas de Emprego
 
-1. Go to Job Opening list, click on New.
-1. Enter the Job Title.
-1. Select the Designation and Department. Based on Designation selected, appropriate Staffing Plan and Planned Number of Positions will be fetched.
-1. Save.
+1. Vá para Vagas de Emprego, clique em Novo.
+1. Digite o Titulo do Emprego.
+1. Selecione a Designação e Departamento. Com base na Designação selecionada, o Plano de Pessoal apropriado e Numero de Posições Planeadas sera inserida.
+1. Salvar.
 
 
     <img class="screenshot" alt="Job Opening" src="{{docs_base_url}}/assets/img/human-resources/job-opening.png">
 
-Once the Job Opening is saved, you can directly create a new [Job Applicant](/docs/user/manual/en/human-resources/job-opening) from the dashboard.
+Uma vez a Vagas de Emprego salva, voce pode criar directamente um novo [Candidatura a Emprego](/docs/user/manual/pt/recursos-humanos/candidato-emprego) pelo dashboard.
 
-> **Note:** You can set the Status of the Job Opening as Open/Closed. Once a Job Opening is Closed, you cannot create a Job Applicant against it.  
-
-
-## 3. Related Topics
-
-1. [Job Applicant](/docs/user/manual/en/human-resources/job-applicant)
-1. [Job Offer](/docs/user/manual/en/human-resources/job-offer)
+> **Nota:** Voce pode definir o Status da Vaga de Emprego como Aberta/Fechada. Uma vez a Vaga Fechada, voce não pode criar uma Candidatura de Emprego.  
 
 
-ERPNext allows to plan your recruitment at a group company level. The number of Job Openings you can create for a Designation is restricted according to the Vacancies planned by the Staffing Plan defined for the company or one of it's parent group companies in the hierarchy. To understand how you can do configure this, check [Staffing Plan](/docs/user/manual/en/human-resources/staffing-plan)
+## 3. Topicos Relacionados
+
+1. [Candidatura a Emprego](/docs/user/manual/pt/recursos-humanos/candidato-emprego)
+1. [Oferta de Trabalho](/docs/user/manual/pt/recursos-humanos/oferta-trabalho)
+
+
+O ERPNext permite fazer o seu plano de recrutamento a nivel de Empresa. O numero de Vagas de Emprego podem ser criadas para Designação é restrito de acordo as vagas planeadas pelo Plano do Pessoal definido para a empresa ou grupo de empresas. Para entender como configurar, verifique [Plano de Pessoal](/docs/user/manual/pt/recursos-humanos/plano-de-pessoal)
 

@@ -1,17 +1,17 @@
 <!-- add-breadcrumbs -->
-#Employee Benefit Claim
+#Reivindicação de Beneficio do Funcionário
 
-Employee Benefit Claim allows Employees to -
- 1. Claim flexible benefits which are to be received lump-sum (if Salary Component is _Pay Against Benefit Claim_)
- 2. Claim tax exemption for flexible benefits received pro-rata, as part of salary when _Deduct Tax For Unclaimed Employee Benefits_ is checked in Payroll Entry / Salary Slip
+Reivindicação de Beneficio do Funcionário permite os Funcionario em -
+ 1. Reivindicar beneficios flexiveis no qual serão recebidos lump-sum (se o Componente de Salario é _Pagar contra Reivindicação de Beneficio_)
+ 2. Reivindicar a isenção de imposto para beneficios flexiveis recebidos pro-rata, como parte do salario quando _Deduzir Imposto para Beneficios não Reclamados do Funcioario_ for selecionado na Folha de Pagamento / Recibo de Salario.
 
-You can create a new Employee Benefit Claim by going to,
-> Human Resources > Payroll > Employee Benefit Claim > New Employee Benefit Claim
+Para criar um novo Reivindicação de Beneficio do Funcionário va para,
+> Recursos Humanos > Imposto e Beneficio de Funcionario > Reivindicação de Beneficio do Funcionário > Novo Reivindicação de Beneficio do Funcionário
 
 <img class="screenshot" alt="Employee Benefit Claim" src="{{docs_base_url}}/assets/img/human-resources/employee-benefit-claim.png">
 
-Here, Employee can view the eligible amount as per their Salary Structure Assignment and claim for the amount which they wish to receive as part of their next Salary. Any remaining amount which the employee did not claim for, in a Payroll Period, will be disbursed as part of the last payroll Salary.
+Aqui, o Funcionario pode verificar o valor elegivel bem com a Estrutura de Salario e reivindicar o valor do qual ele prefere receber como parte do seu proximo Salario. Todos valores não reivindicados pelo funcionario, no Perido da Folha de Pagamento, será desembolsado como parte da ultima Folha de Pagamento.
 
-> Note: Normal Tax calculation does not include Flexible Benefits as in most cases these are exempted from Tax. To tax these components anytime before the last payroll, use _Deduct Tax For Unclaimed Employee Benefits_ in Payroll Entry / Salary Slip while processing the Salary.
+> Nota: Calculos de Imposto Normal não inclui Beneficios Flexiveis como em muitos casos este estão isentos de Impostos. Para cobrar imposto nestes componentes a qualquer momento antes do ultimo processamento, utilize _Deduzir Imposto para Beneficios de Funcionario não Reivindicados_ na Folha de Pagamento / Recibo de Salario a quando do processamento do Salario.
 
 {next}
