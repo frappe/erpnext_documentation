@@ -3,7 +3,7 @@
 
 ### 1. Setting up Tax Registration No for customer, supplier and company
 
-Set tax registation number in the field tax id for the customer, supplier and company
+Set tax registration number in the field tax id for the customer, supplier and company
 
 1. For Customer
 <img class="screenshot" alt="TRN in Customer" src="{{docs_base_url}}/assets/img/regional/uae/tax-id-customer.png">
@@ -37,7 +37,7 @@ For **Sales Invoice**,
 
 ### 4. Print Tax Invoice
 
-ERPNext provides 2 default print foramt
+ERPNext provides 2 default print format
 
 1. Simplified Tax Invoice
 <img class="screenshot" alt="Simplified Tax Invoice" src="{{docs_base_url}}/assets/img/regional/uae/simplified-invoice.png">
