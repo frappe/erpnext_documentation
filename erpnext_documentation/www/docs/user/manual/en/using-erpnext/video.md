@@ -3,7 +3,7 @@
 
 **Videos can be added from both Vimeo and YouTube, using the Video DocType.**
 
-You can add Videos with their URLs, descriptions, thumbnails, etc. Some of its uses are, to maintain educational course material and to track personal YouTube video engagement.
+You can add Videos with their URLs, descriptions, thumbnails, etc. Some of its uses are to maintain educational course material and to track personal YouTube video engagement.
 
 To access Videos, go to:
 
