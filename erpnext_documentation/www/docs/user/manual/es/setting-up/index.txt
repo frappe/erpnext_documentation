@@ -1,0 +1,14 @@
+# Cambiar contraseña de usuario
+
+Cada usuario de ERPNext puede personalizar la contraseña de su cuenta ERPNext. También el usuario con el rol de administrador del sistema será capaz de restablecer la contraseña para sí mismo, así como para otros usuarios. A continuación se muestran los pasos para cambiar la contraseña.
+
+
+### Paso 1: Ir a Mi configuración
+
+![Change Password](/docs/assets/img/articles/change-password-1.png)
+
+### Paso 2: Ingresar la nueva contraseña
+
+![Change Password](/docs/assets/img/articles/change-password-2.png)
+
+Ingresar la nueva contraseña y guardar los cambios
