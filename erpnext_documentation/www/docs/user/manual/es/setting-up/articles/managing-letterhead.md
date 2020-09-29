@@ -1,13 +1,13 @@
 <!-- add-breadcrumbs -->
-# Letterhead
+# Membrete
 
-#### Creating Letter Head in ERPNext:
+#### Creación de membretes en ERPNext:
 
 <img class="screenshot" alt="Letter Head" src="{{docs_base_url}}/assets/img/setup/managing-letterhead-te.png">
 
-#### Customize Letter Head: 
+#### Personalizar membrete:
 
-We can customise the Letter Head so that we can use HTML content as well, check out the GIF to learn more:
+Podemos personalizar el membrete para que también podamos usar contenido HTML, consulte el GIF para obtener más información:
 
 <img class="screenshot" alt="Letter Head - " src="{{docs_base_url}}/assets/img/setup/managing-letterhead-1.gif">
 
