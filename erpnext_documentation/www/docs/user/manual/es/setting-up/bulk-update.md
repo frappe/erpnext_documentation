@@ -18,12 +18,12 @@ ir a actualización masiva
 1. Ingresar un nuevo valor**valido** para ser actualizado.
  status "Borrador" sólo afectará a los documentos en la fase Borrador
 1. Introduzca las condiciones que se apliquen, por ejemplo, estado="Borrador" Sólo afectarán a documentos en estado de borrador.
-1. Select the limit, i.e. number of documents (Quotations) to be updated.
-1. Click on Update.
+1. Seleccionar limite, i.e. número de documentos (presupuestos) para ser actualizados.
+1. Click en actualizar.
 
     ![Bulk Update](/docs/assets/img/setup/bulk-update.png)
 
-> Note: You can only update fields that can be updated normally in a particular stage. For example, valid till date cannot be updated for submitted Quotations.
+> Note: Sólo puede actualizar campos que se puedan actualizar normalmente en una etapa determinada. Por ejemplo, válido hasta la fecha no se puede actualizar para los presupuestos enviados.
 
-### Related Topics
-1. [Bulk Rename](/docs/user/manual/es/setting-up/settings/bulk-rename)
+### Temas relacionados
+1. [Cambio de nombre masivo](/docs/user/manual/es/setting-up/settings/bulk-rename)
