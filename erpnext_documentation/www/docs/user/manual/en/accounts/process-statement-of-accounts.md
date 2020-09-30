@@ -7,7 +7,9 @@
 **Process Statement Of Accounts is a tool which helps you send Statement Of Account (General Ledger Report) and Ageing (Accounts Receivable Summary) Report as a PDF to your customers in bulk via email either manually or automated periodically.**
 
 <br>
-To access *Process Statement Of Accounts* list you can search "Process Statement of Accounts" in the navbar.
+To access *Process Statement Of Accounts* list you can either search in the navbar or go to:
+
+> Home > Accounting > Tools > Process Statement Of Accounts
 
 ## 1. Prerequisites
 
