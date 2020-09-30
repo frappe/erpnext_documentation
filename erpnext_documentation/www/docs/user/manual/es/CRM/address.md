@@ -14,54 +14,55 @@ Para acceder a la lista de direcciones, ir a:
 1. Seleccionar tipo de dirección.
 1. Ingresar los detalles en **Dirección línea 1**,**Dirección línea 2**, **Ciudad / Provincia**, **País**, **Estado**, **País**.
 1. Ingresar **Dirección de correo**, **Teléfono** y **Fax**
-1. Ingrese Link DocType y Link Name para vincular esta dirección al cliente, proveedor, etc.
+1. Ingrese Link DocType y Link Name para vincular esta dirección al **cliente**, **proveedor**, **etc**.
 4. Guardar
-    <img class="screenshot" alt="Contact" src="{{docs_base_url}}/assets/img/crm/address.png">
 
-You can also add an Address from the Customer or Supplier record by clicking on “New Address" button as shown below.
+    <img class="screenshot" alt="Contacto" src="{{docs_base_url}}/assets/img/crm/address.png">
 
-<img class="screenshot" alt="Contact" src="{{docs_base_url}}/assets/img/crm/address-from-supp.png">
+También puede agregar una dirección del registro de cliente o proveedor haciendo clic en el botón "Nueva dirección" como se muestra a continuación.
 
-To Import multiple addresses from a spreadsheet, use the [Data Import Tool](/docs/user/manual/en/setting-up/data/data-import).
+<img class="screenshot" alt="Contacto" src="{{docs_base_url}}/assets/img/crm/address-from-supp.png">
+
+Para importar varias direcciones desde una hoja de cálculo, use la [Herramienta de importación de datos](/docs/user/manual/en/setting-up/data/data-import).
 
 ---
-## 2. Features
+## 2. Características
 
-### 2.1 Link an Address to Multiple Entities
+### 2.1 Vincular una dirección a varias entidades
 
-An address may be linked to multiple customers or multiple suppliers.
+Una dirección puede estar vinculada a varios clientes o proveedores.
 
-An address can also be linked to customers and suppliers at the same time.
+Una dirección también se puede vincular a clientes y proveedores al mismo tiempo.
 
-<img class="screenshot" alt="Contact" src="{{docs_base_url}}/assets/img/crm/link_address_to_multipl_entities.png">
+<img class="screenshot" alt="Contacto" src="{{docs_base_url}}/assets/img/crm/link_address_to_multipl_entities.png">
 
-### 2.2 Address Title
+### 2.2 Título Dirección
 
-If the address is not linked to any entity you need to manually add a title.
+Si la dirección no está vinculada a ninguna entidad, debe agregar un título manualmente.
 
-If the address is linked to an entity like a customer or supplier, the title is generated automatically in 'Entity Name-Address Type' format.
+Si la dirección está vinculada a una entidad como un cliente o proveedor, el título se genera automáticamente en formato 'Nombre de entidad-Tipo de dirección'.
 
-<img class="screenshot" alt="Contact" src="{{docs_base_url}}/assets/img/crm/address_title_generation.png">
+<img class="screenshot" alt="Contacto" src="{{docs_base_url}}/assets/img/crm/address_title_generation.png">
 
-### 2.3 Preferred Billing Address and Shipping Address
+### 2.3 Dirección de facturación y dirección de envío preferidas
 
-If you check 'Preferred Shipping Address', the address would be automatically added in the Shipping Address in Sales Order, Sales Invoice and Delivery Note transactions.
+Si marca 'Dirección de envío preferida', la dirección se agregará automáticamente en la Dirección de envío en las transacciones de Orden de venta, Factura de venta y Nota de entrega.
 
-Similarly, if you check 'Preferred Billing Address', the address would be automatically added in the Billing Address in Sales Order, Sales Invoice and Delivery Note transactions.
+De manera similar, si marca 'Dirección de facturación preferida', la dirección se agregará automáticamente en la Dirección de facturación en las transacciones de Orden de venta, Factura de venta y Nota de entrega.
 
-### 2.4 GST Localization for India
-If the customer/supplier has registered for GST, enter Party GSTIN and GST State.Make sure GSTIN entered is in valid format.
+### 2.4 Localización de GST para India
+Si el cliente / proveedor se ha registrado para GST, ingrese Party GSTIN y GST State. Asegúrese de que GSTIN ingresado esté en formato válido.
 
-In sales transactions along with address, GSTIN is also fetched.
+En las transacciones de ventas junto con la dirección, también se obtiene GSTIN.
 
-<img class="screenshot" alt="Contact" src="{{docs_base_url}}/assets/img/crm/gstin_in_so.png">
+<img class="screenshot" alt="Contacto" src="{{docs_base_url}}/assets/img/crm/gstin_in_so.png">
 
-You can also add addresses of your own company's facilities. Check 'Is Your Company Address', select Company in Link DocType, and Company Name in Link Name for such addresses and you can select them in GST Sales Invoice to print your own address.
+También puede agregar direcciones de las instalaciones de su propia empresa. Marque "Es la dirección de su empresa", seleccione Empresa en Link DocType y Nombre de la empresa en Link Name para dichas direcciones y puede seleccionarlas en GST Sales Invoice para imprimir su propia dirección.
 
-<img class="screenshot" alt="Contact" src="{{docs_base_url}}/assets/img/crm/own_company_address.png">
+<img class="screenshot" alt="Contacto" src="{{docs_base_url}}/assets/img/crm/own_company_address.png">
 
 
->GSTIN is to be added in Address and not in Customer/Supplier, as one Customer/Supplier may have multiple GSTIN (one for each state where he conducts his business).
+>GSTIN debe agregarse en Dirección y no en Cliente / Proveedor, ya que un Cliente / Proveedor puede tener múltiples GSTIN (uno para cada estado donde realiza su negocio).
 
 
 ### 3. Related Topics
