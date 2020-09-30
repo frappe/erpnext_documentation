@@ -8,6 +8,8 @@
 
 This feature is useful when you want to send email updates to customers periodically about their transactions (like Sales Invoices). In the PDF attachment sent via emails sent to the customers, for each customer, there will be details like invoice posting date, Sales Invoice number, debit and credit details, etc relevant to their account.
 
+The purpose of this feature is remind multiple customers that they have pending unpaid invoices.
+
 <br>
 To access *Process Statement Of Accounts* list you can either search in the navbar or go to:
 
