@@ -4,9 +4,10 @@
 
 > Introduced in Version 13
 
-**Process Statement Of Accounts is a tool which helps you send Statement Of Account (General Ledger Report) and Ageing (Accounts Receivable Summary) Report as a PDF to your customers in bulk via email either manually or automated periodically.**
+**Process Statement Of Accounts is a tool which helps you send Statement Of Accounts (General Ledger Report) and Ageing (Accounts Receivable Summary) Report as a PDF to your customers in bulk via email either manually or automated periodically.**
 
-This feature is useful when you want to send email updates to customers periodically about their transactions (like Sales Invoices).
+This feature is useful when you want to send email updates to customers periodically about their transactions (like Sales Invoices). In the PDF attachment sent via emails sent to the customers, for each customer, there will be details like invoice posting date, Sales Invoice number, debit and credit details, etc relevant to their account.
+
 <br>
 To access *Process Statement Of Accounts* list you can either search in the navbar or go to:
 
@@ -62,7 +63,9 @@ To access *Process Statement Of Accounts* list you can either search in the navb
     
     <img class="screenshot" src="{{docs_base_url}}/assets/img/accounts/psoa-email-default-content.png">
 
-7. Review your settings and click on "Save"
+7. Review your settings and click on "Save".
+
+Now, wait for the emails to get sent if you've enabled "Enable Auto Email" or click on Send Emails to send them immediately.
 
 ## 3. Features
 
