@@ -2,7 +2,9 @@
 
 # Process Statement Of Accounts
 
-###Process Statement Of Accounts is a tool which helps you send Statement Of Account (General Ledger Report) and Ageing (Accounts Receivable Summary) Report as a PDF to your customers in bulk via email either manually or automated periodically.
+> Introduced in Version 13
+
+**Process Statement Of Accounts is a tool which helps you send Statement Of Account (General Ledger Report) and Ageing (Accounts Receivable Summary) Report as a PDF to your customers in bulk via email either manually or automated periodically.**
 
 <br>
 To access *Process Statement Of Accounts* list you can search "Process Statement of Accounts" in the navbar.
@@ -11,10 +13,10 @@ To access *Process Statement Of Accounts* list you can search "Process Statement
 
 1. The tool needs to use the email-ids of customers to send them the reports. On not finding the below email entries in the Customer contacts the tool won't allow you to select the respective customer, so please make sure the following details are filled in the customer documents.
 
-    - Billing Email of Customer: This is mandatory and can be set within the [customer contact](https://docs.erpnext.com/docs/user/manual/en/CRM/contact#1-how-to-create-a-contact) with "Is Billing Contact" option checked.
+    - Billing Email of Customer: This is mandatory and can be set within the [customer contact](/docs/user/manual/en/CRM/contact#1-how-to-create-a-contact) with "Is Billing Contact" option checked.
     - Primary Email of Customer: This is not mandatory, unless you select the "Send To Primary Contact" in the form.
 
-2. Email Account setup with outgoing enabled. Learn more about this [here](https://docs.erpnext.com/docs/user/manual/en/setting-up/email/email-account).
+2. Email Account setup with outgoing enabled. Learn more about this [here](/docs/user/manual/en/setting-up/email/email-account).
 
 
 ## 2. How to create a Process Statement Account entry
@@ -74,7 +76,7 @@ On creating an entry, there is a button seen at the top called "Download" which 
 
 On creating an entry, there is a button seen at the top called "Send Emails" which lets you trigger email sending manually to the customers. The emails are queued via a background job, which you can track in the "Email Queue" doctype with the DocType and Document references.
 
-## 3.3 Using dynamic values in the Email Subject and Body
+### 3.3 Using dynamic values in the Email Subject and Body
 
 You can use Jinja tags to enter dynamic values from:
 
@@ -93,3 +95,8 @@ Resulting Email:
 Report PDF:
 
 <img class="screenshot" src="{{docs_base_url}}/assets/img/accounts/process-statement-of-accounts/report.png">
+
+## 4. Related Topics
+1. [Setting up an Email Account](/docs/user/manual/en/setting-up/email/email-account.md)
+1. [Creating Customer Contact](/docs/user/manual/en/CRM/contact#1-how-to-create-a-contact)
+1. [Contact](/docs/user/manual/en/CRM/contact.md)
