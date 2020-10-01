@@ -9,23 +9,23 @@ Debe de encontrar el botón de cancelar en la esquina superior derecha del docum
 
 <img alt="Delete Doc" class="screenshot" src="{{docs_base_url}}/erpnext_documentation/www/docs/assets/img/articles/cancel-delete-submitted-doc-1.png">
 
-#### Paso 2: Delete the document
+#### Paso 2: Eliminar el documento
 
-On cancellation of submitted document, Amend button becomes visible with the document status set to Cancelled. This means that the document has been cancelled successfully.
+Al cancelar el documento enviado, el botón Modificar se vuelve visible con el estado del documento establecido en Cancelado. Esto significa que el documento se ha cancelado correctamente.
 
-To delete the document, now click on Menu, then Delete. This will delete the selected document.
+Para eliminar el documento, ahora haga clic en Menú, luego en Eliminar. Esto eliminará el documento seleccionado.
 
-<img alt="Delete Doc" class="screenshot" src="{{docs_base_url}}/erpnext_documentation/www/docs/assets/img/articles/cancel-delete-submitted-doc-2.png">
+<img alt="Eliminar documento" class="screenshot" src="{{docs_base_url}}/erpnext_documentation/www/docs/assets/img/articles/cancel-delete-submitted-doc-2.png">
 
-<div class="well"><b>Note:</b> To delete multiple submitted documents in one go, you can select them in the list view and proceed to cancel and delete.
+<div class="well"><b>Nota:</b> Para eliminar varios documentos enviados de una vez, puede seleccionarlos en la vista de lista y proceder a cancelar y eliminar.
 
-<img alt="Cancel Doc" class="screenshot" src="{{docs_base_url}}/erpnext_documentation/www/docs/assets/img/articles/cancel-list-view.giff">
+<img alt="Cancelar documento" class="screenshot" src="{{docs_base_url}}/erpnext_documentation/www/docs/assets/img/articles/cancel-list-view.giff">
 
 
-If your document is linked with other documents, then you will need to cancel dependent document before trying to delete the parent document.
+Si su documento está vinculado con otros documentos, deberá cancelar el documento dependiente antes de intentar eliminar el documento principal.
 
 <br><br>
 	
-Example: If you have created Delivery Note and Sales Invoice against Sales Order, which you need to amend, then you should first Cancel Delivery Note and Sales Invoice made for that Sales Order. Then amend Sales Order, re-save and re-submit it.
+Ejemplo: si ha creado una nota de entrega y una factura de venta contra una orden de venta, que debe modificar, primero debe cancelar la nota de entrega y la factura de venta para esa orden de venta. Luego modifique la orden de venta, vuelva a guardarla y vuelva a enviarla.
 </div>
 <!-- markdown -->
