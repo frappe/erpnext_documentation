@@ -17,4 +17,4 @@ Ejemplo de roles de usuario del sitio web son Cliente y Proveedores.
 
 En el maestro de roles, si se marca el campo "Acceso de escritorio", ese rol es para el usuario del sistema. Si el campo Acceso a escritorio está desactivado, ese rol es para el usuario del sitio web.
 
-<img alt="Role Desk Permission" class="screenshot" src="{{docs_base_url}}/assets/img/articles/role-deskperm.png">
+<img alt="Permiso de roles de escritorio" class="screenshot" src="{{docs_base_url}}/assets/img/articles/role-deskperm.png">
