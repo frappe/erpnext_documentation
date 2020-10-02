@@ -10,6 +10,8 @@ metatags:
 
 # Social Media Post
 
+> Introduced in Version 13
+
 Social Media Post is used to create and schedule the post for LinkedIn and Twitter, it can be also linked with a [Campaign](/docs/user/manual/en/CRM/campaign).
 
 To access Social Media Post, go to:
