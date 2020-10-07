@@ -15,36 +15,36 @@ Before creating an Event Producer, a common user needs to be created on both the
 
 ## 2. How to set up Event Streaming
 
-Let's take 2 sites for explaining the process. http://test_site:8000 (Consumer site) and http://test_site_producer:8000 (Producer site)
+Let's take two sites for explaining the process. http://test_site:8000 (Consumer site) and http://test_site_producer:8000 (Producer site)
 
-### 2.1 Obtain the Event Subscriber's keys from the producer site
+### 2.1 Obtain the Event Subscriber's keys from the Producer Site
 
 1. On http://test_site_producer:8000 (producer site), go to the User list.
-2. Open the user document you are going to use as an event subscriber. Scroll down to the section labelled "API access". In that section, generate keys for the user by clicking on **Generate Keys** button. You will get a prompt with the user secret, copy the user secret and save it with you. It will also generate an API key.
+2. Open the user document you are going to use as an Event Subscriber. Scroll down to the section labelled "API Access". In that section, generate keys for the user by clicking on **Generate Keys** button. You will get a prompt with the user secret, copy the user secret and save it with you. It will also generate an API key.
 
-### 2.2 Generate Keys for the Event Subscriber on the consumer site
+### 2.2 Generate Keys for the Event Subscriber on the Consumer Site
 
 1. On http://test_site:8000 (consumer site), go to the User list and follow the same process specified in the previous step.
 
-### 2.3 Create an Event Producer on the consumer site
+### 2.3 Create an Event Producer on the Consumer Site
 
 1. The site which you want to subscribe to, is called as the Event Producer. Create an Event Producer document for the site you wish to get the updates from.
 2. On http://test_site:8000 (consumer site), go to **Home > Automation > Event Streaming > Event Producer**.
-3. Enter the site URL of the site you want to subscribe to (in this case http://test_site_producer:8000), in the Producer URL field.
-4. Add all the Document Types you want to subscribe to, in the Event Producer Document Types child table.
-5. If you want to have the created documents with the same name as it is on the remote Event Producer site, check the 'Use Same Name' checkbox in the child table against the required Document Type.
-6. Set the Event Subscriber field to the user that will be used to create the documents fetched from the Event Producer. You need to create the same user both ways, i.e on the Event Consumer as well as the Event Producer site before creating the Event Producer.
-7. Paste the API key and secret you generated in the first step (2.1) in the API key and API secret fields respectively.
+3. Enter the URL of the site you want to subscribe to (in this case http://test_site_producer:8000), in the Producer URL field.
+4. Add all the Document Types you want to subscribe to, in the Event Producer Document Types table.
+5. If you want to have the created documents with the same name as it is on the remote Event Producer site, check the 'Use Same Name' checkbox in the  table against the required Document Type.
+6. Set the Event Subscriber field to the user that will be used to create the documents fetched from the Event Producer. You need to create the same user both ways, i.e. on the Event Consumer as well as the Event Producer site before creating the Event Producer.
+7. Paste the API key and API Secret you generated in the first step (2.1) in the API key and API secret fields respectively.
 8. Save.
 9. After saving, an Event Consumer is created on the producer site (http://test_site_producer:8000). The keys of the user on the consumer site are automatically copied to the Event Consumer document on the producer site in this process.
 
     ![Event Producer](/docs/assets/img/automation/event-producer-doc.png)
 
->**Note**: If at all the API Secret is changed for the users on any of these sites, you will have to manually update the keys in Event Producer as well as the Event Consumer on both the sites.
+>**Note**: If at all the API Secret is changed for the users on any of these sites, you will have to manually update the keys in the Event Producer as well as the Event Consumer on both the sites.
 
 ### 2.4 Approve Event Consumer on the Event Producer site
 
-1. After the Event Producer has been created, an Event Consumer automatically gets created on the producer site. By default all the Subscribed Document Types have the status as 'Pending'. In order to enable the Event Consumer to consume the documents of these Document Types, their Status needs to be updated to 'Approved'.
+1. After the Event Producer has been created, an Event Consumer automatically gets created on the producer site. By default, all the Subscribed Document Types have the status as 'Pending'. In order to enable the Event Consumer to consume the documents of these Document Types, their Status needs to be updated to 'Approved'.
 2. Go to: **Home > Automation > Event Streaming > Event Consumer**.
 3. Once you open the Event Consumer document you will see all the Document Types that the consumer has subscribed to. Change the status from 'Pending' to 'Approved' for all the Document Types that you want to approve to be consumed. You can change the status to 'Rejected' if you do not want the documents of that Document Type to be consumed.
 4. Save.
@@ -67,12 +67,12 @@ If you have some places where internet connectivity is low, for example, a store
 
 ### 3.1 Unsubscribe from the updates
 
-As an event consumer, if you wish to unsubscribe from the updates for any doctypes you had previously subscribed to, check unsubscribe against the doctype. You will not receive any more updates from the producer site for that particular doctype once you have unsubscribed.
+As an Event Consumer, if you wish to unsubscribe from the updates for any doctypes you had previously subscribed to, check unsubscribe against the doctype. You will not receive any more updates from the producer site for that particular doctype once you have unsubscribed.
 
 ![Unsubscribe](/docs/assets/img/automation/unsubscribe-event.png)
 
 ### 3.2 Event Update Log
-Event Update Log logs every create, update, and delete for documents that have consumers on the Event Producer site.
+"Event Update Log" logs every create, update, and delete action for documents that have consumers on the Event Producer site.
 In order to view the Event Update Log:
 
 Go to: **Home > Automation > Event Streaming > Event Update Log**.
