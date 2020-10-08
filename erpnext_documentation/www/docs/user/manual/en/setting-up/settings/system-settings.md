@@ -70,7 +70,7 @@ If the Apply Strict User Permissions checkbox is ticked, documents, where Territ
     * 4 is very strong
 
     The complexity is based on the number of characters, capitalization, special characters, etc.
-* **Password Reset Link Generation Limit**: The number of attempts allowed in an hour to a user to reset the password
+* **Password Reset Link Generation Limit**: This is a allows limiting the number of password reset requests per hour, defaults to 3. Setting it to 0 will allow unlimited password reset link generation requests.
 
 ### 1.7 Brute Force Security
 
