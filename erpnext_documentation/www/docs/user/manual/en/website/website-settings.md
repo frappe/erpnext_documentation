@@ -137,7 +137,7 @@ web crawlers to decide which pages to index and which to skip.
 
 You can define a mapping of route redirects here. The mappings in the following
 screenshot makes sure that if a user visits `https://apple.erpnext.com/iphone`,
-he will be redirected to `https://apple.erpnext.com/products/iphone`.
+they will be redirected to `https://apple.erpnext.com/products/iphone`.
 
 ERPNext will raise a `301 Permanent Redirect` response for these routes.
 
