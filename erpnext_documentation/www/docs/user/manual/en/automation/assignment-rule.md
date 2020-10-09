@@ -29,9 +29,9 @@ To set up an automatic assignment:
     * **Round Robin**: Assign each document to a User in sequence.
     * **Load Balancing**: Assign new documents to the User who has the least number of assignments.
 
-    ![Assignment Rule](/docs/assets/img/automation/assignment-rule-select.png)
+    ![Assignment Rule](../../../../assets/img/automation/assignment-rule-select.png)
 1. Select the list of Users to whom this Assignment Rule will apply.
-    <img class="screenshot" alt="Assign" src="{{docs_base_url}}/assets/img/automation/auto-assign-2.png">
+    <img class="screenshot" alt="Assign" src="../../../../assets/img/automation/auto-assign-2.png">
 
 1. Save.
 
@@ -48,7 +48,22 @@ You can also set up multiple auto assignments for each Document Type, the one wi
 Here is an example of an Assignment Rule.
 
 Set Document Type, Descriptions and Conditions.
-<img class="screenshot" alt="Assign" src="{{docs_base_url}}/assets/img/automation/auto-assign-1.png">
+<img class="screenshot" alt="Assign" src="../../../../assets/img/automation/auto-assign-1.png">
+
+### 1.2 Setting Dues Dates
+
+You can auto set due dates for assignments based on the date field in the reference document.
+
+Example:
+
+If you want to set a due date on Issue assignment based on the "Resolution By" date of the Issue, you can do so by selecting "Resolution By" field in `due_date_based_on` option in Assignment Rule.
+
+![Due Date Based On](../../../../assets/img/automation/assignment-rule-due-date-based-on.png)
+
+**Note:**
+
+- `Due Date Based On` field will not be available if `Document Type` is not yet selected or if the selected Docuement Type does not have any `Date` or `Datetime` field.
+- Due Date in the assignment/ToDo will be updated whenever the `due_date_based_on` field value is updated in the reference document.
 
 ### 2. Related Topics
 1. [Workflows](/docs/user/manual/en/setting-up/workflows)
