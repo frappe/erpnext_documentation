@@ -56,14 +56,14 @@ You can auto set due dates for assignments based on the date field in the refere
 
 Example:
 
-If you want to set a due date on Issue assignment based on the "Resolution By" date of the Issue, you can do so by selecting "Resolution By" field in `due_date_based_on` option in Assignment Rule.
+If you want to set a due date on Issue assignment based on the "Resolution By" date of the Issue, you can do so by selecting "Resolution By" field in `Due Date Based On` option in Assignment Rule.
 
 ![Due Date Based On](/docs/assets/img/automation/assignment-rule-due-date-based-on.png)
 
 **Note:**
 
-- `Due Date Based On` field will not be available if `Document Type` is not yet selected or if the selected Docuement Type does not have any `Date` or `Datetime` field.
-- Due Date in the assignment/ToDo will be updated whenever the `due_date_based_on` field value is updated in the reference document.
+- `Due Date Based On` option will not be available if `Document Type` is not yet selected or if the selected Document Type does not have any `Date` or `Datetime` field.
+- Due Date in the assignment/ToDo will be updated whenever the `Due Date Based On` field value is updated in the reference document.
 
 ### 2. Related Topics
 
