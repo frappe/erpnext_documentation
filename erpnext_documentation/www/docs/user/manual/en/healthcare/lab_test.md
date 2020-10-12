@@ -12,7 +12,7 @@ To create a Lab Test, go to:
 > Home > Healthcare > Laboratory > Lab Test > New Lab Test
 
 1. Set the Naming Series.
-2. Select the Lab Test Template. Medical Department will automatically be fetched from the template.
+2. Select the [Lab Test Template](/docs/user/manual/en/healthcare/lab_test_template). Medical Department will automatically be fetched from the template.
 3. Select the Patient. The patient details will be auto-fetched.
 4. You can optionally select the Requesting Practitioner and the Lab Technician.
 5. Save.
@@ -23,21 +23,21 @@ To create a Lab Test, go to:
 
 8. As the results get ready, you can enter the details of the results in the Lab Test document. All presets, Normal Values etc. as configured in the Lab Test Template are made available Lab Test for easy data capture.
 
-For example: Grouped Test
+For example, Grouped Test:
     ![Lab Result](/docs/assets/img/healthcare/lab_test_2.png)
 
-Descriptive Test
+Descriptive Test:
     ![Lab Result](/docs/assets/img/healthcare/lab-result.png)
 
 Components for which _Allow Blank_ is not checked, will throw a validation if left blank on submit.
 
-![Lab Result](/docs/assets/img/healthcare/result-mandatory.png)
+    ![Lab Result](/docs/assets/img/healthcare/result-mandatory.png)
 
 ## 2. Features
 
 ### 2.1 Create multiple Lab Tests
 
-It is also possible to use the "Create Multiple" option from the Lab Test list view to create all the lab tests ordered or billed for a patient. You can create multiple lab tests from a previously created Sales Invoice or Patient Encounter
+It is also possible to use the "Create Multiple" option from the Lab Test list view to create all the lab tests ordered or billed for a patient. You can create multiple lab tests from a previously created Sales Invoice or Patient Encounter.
 
 ![Lab Test Multiple](/docs/assets/img/healthcare/lab_test_3.png)
 
