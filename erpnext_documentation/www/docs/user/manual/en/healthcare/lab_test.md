@@ -1,6 +1,8 @@
 <!-- add-breadcrumbs -->
 # Lab Test
 
+**Lab Test allows recording multiple laboratory test details including organism, sensitivity, etc.**
+
 ERPNext Healthcare allows you to manage a clinical laboratory efficiently by allowing you to enter lab tests and print or email test results, manage samples collected, create invoices, etc. You can configure Lab Test Templates for each Test and its result format or create new ones as explained in [Setting Up Laboratory](/docs/user/manual/en/healthcare/setup_laboratory)
 
 Once you have all the necessary Lab Test Templates configured, you can start creating Lab Tests by selecting a Test Template every time you create a Test.
