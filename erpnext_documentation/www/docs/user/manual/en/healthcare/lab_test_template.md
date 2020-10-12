@@ -1,7 +1,9 @@
 <!-- add-breadcrumbs -->
 # Lab Test Template
 
-The healthcare module in ERPNext allows you to create all types of Lab Tests rapidly with the help of Lab Test Template DocType. You can pre-configure the events and result components for Single, Compound, Descriptive or Grouped tests, so that, you don't have to fill in redundant data every single time.
+**Lab Test Template in ERPNext allows you to create all types of Lab Tests rapidly.**
+
+You can pre-configure the events and result components for Single, Compound, Descriptive, or Grouped tests, so that, you don't have to fill in redundant data every single time.
 
 ## 1. How to create a Lab Test Template
 
@@ -16,14 +18,14 @@ The following are the common fields in the Template of every result format.
 3. **Item Group**: You can group the lab tests based on different criteria using this field. Create an Item Group or choose from the existing ones.
 4. **Department**: Medical department for which this lab test is conducted.
 5. **Result Format**: Specify the result format for the lab test:
-- Single: In this type of lab test only one result value is interpreted.
-- Compound: In compound lab tests, the sample is tested for multiple events.
-- Descriptive: These types of tests are used for testing multiple result components and you can also configure checking the sensitivity of the sample for various antibiotics here.
-- Grouped: These are a group of other test templates.
-- No Result: These are the tests that have no result values.
+  - Single: In this type of lab test only one result value is interpreted.
+  - Compound: In compound lab tests, the sample is tested for multiple events.
+  - Descriptive: These types of tests are used for testing multiple result components and you can also configure checking the sensitivity of the sample for various antibiotics here.
+  - Grouped: These are a group of other test templates.
+  - No Result: These are the tests that have no result values.
 6. **Description**: You can provide a detailed description of the test here.
 7. **Is Billable**: Check this if the test is billable.
-8. **Rate**: If _Is Billable_ is checked, then you have to specify the rate for the lab test in this field. In this case, Item Price will be configured automatically on saving the template.
+8. **Rate**: If _Is Billable_ is checked, then you have to specify the rate for the lab test in this field. In this case, Item Price will be configured automatically upon saving the template.
 
 ### 1.1 Single Result Format
 
@@ -33,7 +35,7 @@ In this result format, only one result value is interpreted. After filling up th
 
 ### 1.2 Compound Result Format
 
-In this result format, the sample is tested for multiple events. These events need to be configured in the "Compound" table. You can set the Events and specify the UOM, Secondary UOM, Conversion Factor and Normal Range for each event. If at all some event's result need not be specified in the Lab Test, you can check "Allow Blank" for that event. If this is not checked, the system will not let you submit the Lab Test unless all the result values are set.
+In this result format, the sample is tested for multiple events. These events need to be configured in the "Compound" table. You can set the Events and specify the UOM, Secondary UOM, Conversion Factor, and Normal Range for each event. If at all some event's result need not be specified in the Lab Test, you can check "Allow Blank" for that event. If this is not checked, the system will not let you submit the Lab Test unless all the result values are set.
 
 ![Compound Result Format](/docs/assets/img/healthcare/compound-result.png)
 
@@ -46,7 +48,8 @@ These types of tests are used for testing multiple result components. You can al
 ### 1.4 Grouped Result Format
 
 A grouped result format is used to create a Lab Test result as a group of other tests or events eg: Complete Haemogram. The Complete haemogram test is a group of tests performed on a sample of blood. Haemogram serves as a broad screening panel that checks for the presence of any diseases and infections in the body. Haemogram tests mainly the three components of blood:
-- The haemoglobin test is often used to check for anemia, usually along with a hematocrit or as part of a complete blood count (CBC).
+
+- The hemoglobin test is often used to check for anemia, usually along with a hematocrit or as part of a complete blood count (CBC).
 - A DLC blood test is one that measures the percentage of every single type of WBCs in the body.
 - TLC is a test that determines the number of WBCs in our bodies.
 - Neutrophils (Event)
@@ -89,6 +92,8 @@ You can configure the instructions for Lab Technicians here. These instructions 
 
 ### 2.6 Result Legend Print
 
+> This Form has been Changed in Version 13
+
 You can configure the sample that has to be collected while creating the Lab Test. Select the Lab Test Sample, set the UOM and quantity required. Select the position where you want to print this legend and configure the legend in the "Result Legend" field.
 
 ![Result Legend](/docs/assets/img/healthcare/result-legend.png)
@@ -96,8 +101,6 @@ You can configure the sample that has to be collected while creating the Lab Tes
 Lab Test Print format:
 
 ![Result Legend Print](/docs/assets/img/healthcare/result-legend-print.png)
-
-> This Form has been Changed in Version 13
 
 ## 3. Related Topics
 
