@@ -64,6 +64,8 @@ Click on Create > Purchase Receipt from the Purchase Order. Set the Accepted and
 ### 1.5 Supplier Sourced Raw Material
 While creating a BOM for subcontracting, there might be raw material which Supplier will have to procure themselves like nuts and bolts.
 
+While creating a BOM for subcontracting, there might be raw material which Supplier will have to procure themselves like nuts and bolts. While creating a Stock Entry for Transfer from Purchase Order, these items can be excluded one by one but it is impossible to do so if you have more than 100 items. 
+
 If some raw material is sourced by the Supplier directly, such raw material has to be marked in the BOM.
 
 * It will have zero value in BOM
