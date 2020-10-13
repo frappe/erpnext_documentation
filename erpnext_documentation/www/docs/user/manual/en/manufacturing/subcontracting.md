@@ -74,6 +74,8 @@ If some raw material is sourced by the Supplier directly, such raw material has 
 
 <img class="screenshot" alt="Supplier Sourced Raw Material" src="{{docs_base_url}}/assets/img/manufacturing/supplier_sourced_subcontracting.png">
 
+However, the Supplier may choose to include the supplier provided items in thier Sales Order sent to you.
+
 ## 2. Notes
 * Make sure that the “Rate” of processed Item is the processing rate
 (excluding the raw material rate).
