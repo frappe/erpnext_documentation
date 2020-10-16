@@ -62,11 +62,11 @@ Click on Create > Purchase Receipt from the Purchase Order. Set the Accepted and
 <img class="screenshot" alt="Sub-Contracting" src="{{docs_base_url}}/assets/img/manufacturing/subcontract5.png">
 
 ### 1.5 Supplier Sourced Raw Material
-While creating a BOM for subcontracting, there might be raw material which Supplier will have to procure themselves like nuts and bolts.
+While creating a BOM for subcontracting, there might be few raw materials like nuts and bolts which the Suppliers will have to procure themselves.
 
-While creating a BOM for subcontracting, there might be raw material which Supplier will have to procure themselves like nuts and bolts. While creating a Stock Entry for Transfer from Purchase Order, these items can be excluded one by one but it is impossible to do so if you have more than 100 items. 
+While creating a Stock Entry for "Transfer" from Purchase Order, these items can be excluded one by one, but it is impossible to do so if you have more than 100 items. 
 
-If some raw material is sourced by the Supplier directly, such raw material has to be marked in the BOM.
+If some raw material is sourced by the Supplier directly, then such raw material has to be included in the BOM.
 
 * It will have zero value in BOM
 * In Purchase Order, this raw material will not appear in Supplied Items since it is not supplied
@@ -74,7 +74,7 @@ If some raw material is sourced by the Supplier directly, such raw material has 
 
 <img class="screenshot" alt="Supplier Sourced Raw Material" src="{{docs_base_url}}/assets/img/manufacturing/supplier_sourced_subcontracting.png">
 
-However, the Supplier may choose to include the supplier provided items in thier Sales Order sent to you.
+However, the Supplier may choose to include the supplier-provided items in their Sales Order sent to you.
 
 ## 2. Notes
 * Make sure that the “Rate” of processed Item is the processing rate
