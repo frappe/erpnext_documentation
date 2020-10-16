@@ -15,6 +15,9 @@ patient_encounter
 vital_signs
 complaint_and_diagnosis
 fee_validity
+inpatient_record
+inpatient_medication_order
+inpatient_medication_entry
 exercise_type
 therapy_type
 therapy_plan
@@ -27,4 +30,3 @@ lab_test
 sample_collection
 patient_history
 patient_appointment_analytics
-inpatient_record
