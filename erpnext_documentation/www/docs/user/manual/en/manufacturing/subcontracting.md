@@ -70,7 +70,7 @@ If some raw material is sourced by the Supplier directly, then such raw material
 
 * It will have zero value in BOM
 * In Purchase Order, this raw material will not appear in Supplied Items since it is not supplied
-* And also while creating a Transfer, such items will be excluded from Stock Entry
+* Also, while creating a "Transfer", such items will be excluded from the Stock Entry
 
 <img class="screenshot" alt="Supplier Sourced Raw Material" src="{{docs_base_url}}/assets/img/manufacturing/supplier_sourced_subcontracting.png">
 
