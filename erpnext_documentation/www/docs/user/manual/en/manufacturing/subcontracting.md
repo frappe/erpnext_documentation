@@ -66,7 +66,7 @@ While creating a BOM for subcontracting, there might be few raw materials like n
 
 While creating a Stock Entry for "Transfer" from Purchase Order, these items can be excluded one by one, but it is impossible to do so if you have more than 100 items. 
 
-If some raw material is sourced by the Supplier directly, then such raw material has to be included in the BOM.
+If some raw material is sourced by the Supplier directly, then such raw materials have to be included in the BOM.
 
 * It will have zero value in BOM
 * In Purchase Order, this raw material will not appear in Supplied Items since it is not supplied
