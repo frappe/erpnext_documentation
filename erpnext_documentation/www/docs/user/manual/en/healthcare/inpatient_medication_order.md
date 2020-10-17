@@ -23,12 +23,12 @@ You can create an Inpatient Medication Order in two ways.
 1. Go to Inpatient Medication Order list view and click on New.
 2. Select the Patient. The patient list is filtered to only have inpatients as options here.
 3. Optionally select the Healthcare Practitioner.
-4. Set the start date for the order. The schedule for the prescribed drugs will be created starting from this date.
-5. In the Medication Orders table, there is a **Add Medication Orders** button. Click on the button. A dialog box will be shown to fill up the prescription details.
-6. Select the drug(item), dosage, period, and dosage form. Then click on **Add**.
+4. Set the Start Date for the order. The schedule for the prescribed drugs will be created starting from this date.
+5. In the Medication Orders table, there is an **Add Medication Orders** button. Click on the button. A dialog box will be shown to fill up the prescription details.
+6. Select the drug (item), dosage, period, and dosage form. Then click on **Add**.
 7. Detailed schedule entries for the order beginning from the Start Date are added to the table. Close the dialog.
-8. Save and Submit. The end date will be set automatically based on the prescription duration.
-9. You can see Total Orders and Completed Orders in the Other Details section.
+8. Save and Submit. The End Date will be set automatically based on the prescription duration.
+9. You can see the Total Orders and Completed Orders in the Other Details section.
 
 <img class="screenshot" alt="IPMO-PE" src="{{docs_base_url}}/assets/img/healthcare/ipmo-manual.gif">
 
@@ -47,7 +47,7 @@ The statuses for IPMO are governed by the total completed order entries. The ord
 * **Pending**: No order entry in the Medication Orders table has been completed.
 * **In Progress**: Some order entries in the Medication Orders table have been completed.
 * **Completed**: All order entries in the Medication Orders table have been completed.
-* **Cancelled**: The inpatient medication order has been cancelled due to some reason.
+* **Cancelled**: The Inpatient Medication Order has been cancelled.
 
 <img class="screenshot" alt="IPMO-PE" src="{{docs_base_url}}/assets/img/healthcare/ipmo-status.png">
 

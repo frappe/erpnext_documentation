@@ -1,7 +1,7 @@
 <!-- add-breadcrumbs -->
 # Inpatient Medication Entry
 
-**An Inpatient Medication Entry(IPME) is created to process Inpatient Medication Orders in bulk based on some filters and to optionally update Stock on dispensing the drugs.**
+**An Inpatient Medication Entry (IPME) is created to process Inpatient Medication Orders in bulk based on some filters and to optionally update stock on dispensing the drugs.**
 
 To access the Inpatient Medication Entry list, go to:
 
@@ -18,11 +18,11 @@ Before creating an Inpatient Medication Entry, you need to create the following 
 ## 2. How to Create an Inpatient Medication Entry
 
 1. Go to the Inpatient Medication Entry list and click on New.
-2. Select the company.
-3. Set the posting date.
+2. Select the Company.
+3. Set the Posting Date.
 4. There are various filters available to fetch the pending Inpatient Medication Orders:
 
-    - **Item Code(Drug)**
+    - **Item Code (Drug)**
     - **Assigned To**: You can select the user who is assigned for the Inpatient Medication Order completion.
     - **Patient**
     - **Healthcare Practitioner** who has prescribed the drugs.
@@ -31,8 +31,8 @@ Before creating an Inpatient Medication Entry, you need to create the following 
 
     <img class="screenshot" alt="IPMO-PE" src="{{docs_base_url}}/assets/img/healthcare/ime-filters.png">
 
-5. After setting the filters, click on the **Get Pending Medication Orders** button to fetch pending orders which fall under selected filters.
-6. Optionally check/uncheck _Update Stock_. If checked, specify the warehouse from where drugs should be consumed.
+5. After setting the filters, click on the **Get Pending Medication Orders** button to fetch the pending orders which fall under the selected filters.
+6. Optionally, check/uncheck _Update Stock_. If checked, specify the Warehouse from where drugs should be consumed.
 
     <img class="screenshot" alt="IPMO-PE" src="{{docs_base_url}}/assets/img/healthcare/ime-stock.png">
 
@@ -42,8 +42,8 @@ On submission corresponding Inpatient Medication Order Entries are marked as com
 
 <img class="screenshot" alt="IPMO-PE" src="{{docs_base_url}}/assets/img/healthcare/imoe-completed.png">
 
-If _Update Stock_ is checked then stock validations are made and orders are processed to make Stock Entry with references to each entry.
-You can check the references in Stock Entry for Inpatient Medication Entry and in Stock Entry Detail table for the Patient and corresponding Entry.
+If _Update Stock_ is checked, then stock validations are made and orders are processed to make Stock Entry with references updated against each entry.
+You can check the references for Inpatient Medication Entry in the Stock Entry, and in Stock Entry Detail table for the Patient and corresponding Entry.
 
 <img class="screenshot" alt="IPMO-PE" src="{{docs_base_url}}/assets/img/healthcare/ime-stock-entry.png">
 
