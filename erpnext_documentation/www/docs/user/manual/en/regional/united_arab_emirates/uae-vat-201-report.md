@@ -1,7 +1,7 @@
 # UAE VAT 201 Report in ERPNext
 
 To generate UAE VAT 201 Report in ERPNext go to:
-**Accounting > Value-Added Tax (VAT UAE) > UAE VAT 201** <br>
+> Accounting > Value-Added Tax (VAT UAE) > UAE VAT 201
 or simply search for UAE VAT 201 in the awesomebar.
 
 <img class="screenshot" alt="UAE VAT 201 Report" src="{{docs_base_url}}/assets/img/regional/uae/uae-vat-21-report.png">
