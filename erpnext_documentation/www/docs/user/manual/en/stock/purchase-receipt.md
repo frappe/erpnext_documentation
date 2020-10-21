@@ -48,7 +48,7 @@ These are the statuses a Purchase Receipt can be in:
 * **To Bill**: Yet to be billed using a [Purchase Invoice](/docs/user/manual/en/accounts/purchase-invoice).
 * **Completed**: Submitted and received all the Items.
 * **Return Issued**: All the Items have been returned.
-* **Canceled**: Canceled the Purchase Receipt.
+* **Cancelled**: Cancelled the Purchase Receipt.
 * **Closed**: The purpose of the Close is to manage short-closing. For example, you ordered 20 qty, but closing at 15 qty. The remaining 5 is not to be received or billed.
 
 ## 3. Features

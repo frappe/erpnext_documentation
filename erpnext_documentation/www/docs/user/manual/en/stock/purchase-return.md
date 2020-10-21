@@ -42,10 +42,10 @@ On Creating a Purchase Return against a Purchase Receipt:
 
 * The **Returned Quantity** in the original Purchase Receipt along with any Purchase Order linked to it, is updated.
 
-* The original Purchase Receipt's status is changed to **Return Issued** if 100% returned.
+* The original Purchase Receipt's status is changed to **Return Issued** if 100% returned:
   ![Return Issued](/docs/assets/img/stock/purchase-return-issue.png)
 
-* The Returned Amount % is visible via the List View as well
+* The Returned Amount % is visible via the List View as well:
   ![Purchase Receipt List View](/docs/assets/img/stock/purchase-receipt-list.png)
 
 ### 4. Related Topics

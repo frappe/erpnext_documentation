@@ -3,7 +3,7 @@
 
 **A sold Item being returned is known as a Sales Return.**
 
-Goods sold being returned happens commonly in business. They could be returned by the customer due to quality issues, non-delivery on the agreed date, or any other reason.
+Businesses often return goods that are already sold. They could be returned by the customer due to quality issues, non-delivery on the agreed date, or any other reason.
 
 ## 1. Prerequisites
 Before creating and using a Sales Return, it is advised that you create the following first:
@@ -44,11 +44,11 @@ On Creating a Sales Return against a Delivery Note:
 
 * The **Returned Quantity** in the original Delivery Note along with any Sales Order linked to it, is updated.
 
-* The original Delivery Note's status is changed to **Return Issued** if 100% returned.
+* The original Delivery Note's status is changed to **Return Issued** if 100% returned:
   ![Return Issued](/docs/assets/img/stock/sales-return-issue.png)
 
-* The Returned Amount % is visible via the List View as well
-  ![Purchase Receipt List View](/docs/assets/img/stock/delivery-note-list.png)
+* The Returned Amount % is visible via the List View as well:
+  ![Delivery Note List View](/docs/assets/img/stock/delivery-note-list.png)
 
 ## 4. Related Topics
 1. [Purchase Return](/docs/user/manual/en/stock/purchase-return)
