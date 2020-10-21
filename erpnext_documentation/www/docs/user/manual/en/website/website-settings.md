@@ -115,6 +115,11 @@ You can enable Google Analytics on your website. Just get your [Google Analytics
 ID](https://support.google.com/analytics/answer/1008080?hl=en) from your Google
 Console and set it here.
 
+By default, Google Analytics will collect the full IP address of your website visitors.
+By checking "Google Analytics Anonymize IP", ERPNext will instruct Google Analytics to
+anonymize the IP address before it is sent to Google servers. You can find out more about
+the effect of this setting in [Google's documentation](https://support.google.com/analytics/answer/2763052).
+
 ## 8. HTML Header
 
 You can use this section to set meta tags across all of your web pages. A common
