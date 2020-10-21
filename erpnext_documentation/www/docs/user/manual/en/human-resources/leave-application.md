@@ -77,7 +77,6 @@ Leave Approvers can also be set Employee-wise in the employee master.
 
  <img class="screenshot" alt="Leave Application - Leave Approvers" src="{{docs_base_url}}/assets/img/human-resources/employee-level-approvers.png">
 
-
 If Leave Approvers are set at both Employee-level and Department-level, the Employee-level Leave Approver will be considered as the default Leave Approver in this case.
 
  **Tip:** If you want all users to create their own Leave Applications, you can set
@@ -93,6 +92,13 @@ for more information.
 
 To understand how ERPNext allows you configure leaves for employees, check [Leaves](/docs/user/manual/en/human-resources/leave-management-intro/).
 
+
+### 3.2 Remaining Half Day Status
+> Introduced in Version 13
+
+After Version 12, ERPNext started tracking the remaining half day status. On checking Half Day, Field **Remaining Half day Status** will appear, where you can select the Present or Absent Attendance Status for the remaining half day. During Approval of Leave Application, Attendance for Half Day Date with Remaining Half Day Status Will be created Automatically.
+
+ <img class="screenshot" alt="Leave Application - Leave Approvers" src="{{docs_base_url}}/assets/img/human-resources/remianing-half-day_status-for-leave-apllication.png">
 
 ## 3. Related Topics
 

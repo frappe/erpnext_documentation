@@ -23,7 +23,7 @@ Before creating an Attendance record, it is advised that you create the followin
 1. Select the Employee.
 1. Select the Attendance Date.
 1. Select the Shift (optional).
-1. Select the Status (Present, Absent, On Leave, Half Day).
+1. Select the Status.
 1. Save and Submit.
 
     <img class="screenshot" alt="Attendance" src="{{docs_base_url}}/assets/img/human-resources/attendance.png">
@@ -53,6 +53,17 @@ In case the attendance for some employees is not marked, you can mark them as pr
 1. Click on the **Mark Attendance** button and click on **Yes**.
 
     <img class="screenshot" alt="Attendance" src="{{docs_base_url}}/assets/img/human-resources/marking_unmarked_attendance.gif">
+
+> Introduced in Version 13
+
+### 3.2 Remaining Half-day Status
+After Version 12, ERPNext started tracking the remaining half day status. On selecting Half Day [Attendance Status](/docs/user/manual/en/human-resources/attendance-status). Field **Remaining Half day Status** will appear, where you can select the Present or Absent Attendance Status for the remaining half day.
+
+<img class="screenshot" alt="Attendance" src="{{docs_base_url}}/assets/img/human-resources/remaining-half-day-status.png">
+
+> Note: If payroll is based on Attendance, Remaining Half Day Status will also contribute to your salary.
+
+
 
 ## 4. Related Topics
 

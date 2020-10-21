@@ -4,7 +4,7 @@
 
 To access Attendance Request, go to:
 
-> Home > Human Resources > Attendance > Attendance Request 
+> Home > Human Resources > Attendance > Attendance Request
 
 ## 1. Prerequisites
 
@@ -18,13 +18,13 @@ Before creating an Attendance Request, it is advised that you create the followi
 1. Go to Attendance Request list, click on New.
 1. Select Employee who wants to submit the Attendance Request.
 1. Select From Date and To Date of Attendance Request.
-1. Select Reason and enter Explanation (optional).
+1. Select Status and enter Explanation (optional).
 1. Save and Submit.
 
 
     <img class="screenshot"  alt="Attendance Request" src="{{docs_base_url}}/assets/img/human-resources/attendance-request.png">
 
-> **Note 1:** You can check the 'Half Day' checkbox and enter the Date in case the attendance is for Half Day.
+> **Note 1:** You can check the 'Half Day' checkbox and enter the Date in case the attendance is for Half Day and Select Attendance Status for remaining Half day.
 
 > **Note 2:** On submission of the same, Attendance documents will be created for the days you mentioned as shown.
 
