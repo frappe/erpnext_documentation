@@ -9,11 +9,6 @@ These key reports can be found under:
 
 ## Employee Birthday
 
-
-## 1. Employee Birthday
-
-## Employee Information
-
 Employee Birthday Report shows month-wise birthdays of your Employees.
 
 <img alt="Employee Birthday" class="screenshot" src="{{docs_base_url}}/assets/img/human-resources/employee-birthday-report.png">
@@ -30,14 +25,25 @@ Monthly Salary Register shows net pay and its components of employee(s) at a gla
 
 <img alt="Monthly Salary Register" class="screenshot" src="{{docs_base_url}}/assets/img/human-resources/monthly-salary-register-report.png">
 
-## 8. Vehicle Expenses Report
+## Vehicle Expenses Report
 
 To track and monitor Vehicle Expenses you can use the Vehicle Expenses report. This report gives a one-stop view of all your Vehicle Expenses month-wise.
 
 <img class="screenshot" alt="Vehicle Log" src="{{docs_base_url}}/assets/img/human-resources/vehicle-expenses.png">
 
+## Employee Information
+
+This Report Provide you the basic information for Employees like status, Branch, Designation etc.
+
+<img class="screenshot" alt="Vehicle Log" src="{{docs_base_url}}/assets/img/human-resources/employee-information.png">
+
 ## Monthly Attendance Sheet
 
+This report will provide you information like Attendance Status and Leaves of Employee between selected date interval represented by their respective Abbreviation as defined in Leave type and Attendance Status master.
+
+<img class="screenshot" alt="Vehicle Log" src="{{docs_base_url}}/assets/img/human-resources/monthly-attendance-sheet.png">
+
+>Note: Abbreviation for Leave Type and Attendance Status master is added in version 13
 
 
 ## Bank Remittance Report
@@ -45,11 +51,5 @@ To track and monitor Vehicle Expenses you can use the Vehicle Expenses report. T
 This report helps you to track bank transactions of payroll entries between companie(s) and employees. It shows the transaction between the bank accounts of the Company and the Employee with the Payment Date.
 
 <img alt="Monthly Salary Register" class="screenshot" src="{{docs_base_url}}/assets/img/human-resources/bank_remittance_report.png">
-
-## Loan Repayment Report
-
-Loan Repayment Report allows you to keep a track of loans by showing the loan amount, interest, payable amount, and EMI. It also shows the paid and outstanding amount.
-
-<img alt="Monthly Salary Register" class="screenshot" src="{{docs_base_url}}/assets/img/human-resources/loan_repayment.png">
 
 {next}
