@@ -1,7 +1,7 @@
 <!-- add-breadcrumbs -->
 # Opening Invoice Creation Tool
 
-The Opening Invoice Creation Tool allows importing data of outstanding purchase or sales invoices into ERPNext. This specific tool is used in place of Data Import Tool for cases where item data is irrelevant and outstanding balances against customer/supplier is to be imported into ERPNext.
+The Opening Invoice Creation Tool allows importing data of outstanding Purchase or Sales Invoices into ERPNext. This specific tool is used in place of the Data Import Tool for cases where the Item data is irrelevant and outstanding balances against Customers/Suppliers are to be imported into ERPNext.
 
 To access the tool, go to:
 
