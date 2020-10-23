@@ -36,6 +36,7 @@ The following are the detailed guides on each of the functionalities ready to us
 ### 4. Rehabilitation and Physiotherapy
 1. [Exercise Type](/docs/user/manual/en/healthcare/exercise_type)
 1. [Therapy Type](/docs/user/manual/en/healthcare/therapy_type)
+1. [Therapy Plan Template](/docs/user/manual/en/healthcare/therapy_plan_template)
 1. [Therapy Plan](/docs/user/manual/en/healthcare/therapy_plan)
 1. [Therapy Session](/docs/user/manual/en/healthcare/therapy_session)
 1. [Patient Assessment Template](/docs/user/manual/en/healthcare/patient_assessment_template)
