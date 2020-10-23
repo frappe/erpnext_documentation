@@ -13,12 +13,12 @@ To access the Opening Invoice Creation Tool, go to:
 
 2. Select the Invoice Type. Selecting Sales or Purchase will generate Sales Invoices or Purchase Invoices respectively.
 
-3. Checking Create Missing Party will automatically create customers or suppliers if missing according to the name provided in Party column.
+3. Checking the "Create Missing Party" checkbox will automatically create customers or suppliers if missing according to the name provided in the Party column.
 
     <img class="screenshot" alt="Opening Invoice Creation Tool" src="{{docs_base_url}}/assets/img/setup/opening-invoice-creation-tool.png">
 
-4. Fill up the Invoices table. It consists of following fields:
-    - **Party**: You can select a customer/supplier or enter name of a new one which will be automatically created.
+4. Fill up the Invoices table. It consists of the following fields:
+    - **Party**: You can select an existing Customer/Supplier or enter the name of a new one which will be automatically created.
     - **Posting Date**: The date at which the invoice will be posted.
     - **Due Date**: The date after which the invoice will be overdue.
     - **Item Name**: (Optional) The item name entered here will be shown in the invoice item table.
