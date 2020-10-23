@@ -24,4 +24,4 @@ To access the Opening Invoice Creation Tool, go to:
     - **Item Name**: (Optional) The item name entered here will be shown in the invoice item table.
     - **Outstanding Amount**: The outstanding amount of the invoice.
 
-> **Tip**: You can click the download button to download an excel sheet which you can fill up easily with appropriate data. If you have downloaded the excel sheet, then use the upload button to upload it. Once you upload the sheet, the table will be filled with appropriate data rows.
+> **Tip**: You can click the download button to download an excel sheet that you can fill up easily with appropriate data. If you have downloaded the excel sheet, then use the Upload button to upload it. Once you upload the sheet, the table will be filled with appropriate data rows.
