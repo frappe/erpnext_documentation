@@ -9,7 +9,7 @@ To access Attendance Status, go to:
 
 > Home > Human Resources > Attendance
 
-## 1. How to Create Attendance status:
+## 1. How to create an Attendance Status:
 
 1. Go to the Attendance Status list, click on New.
 1. Name your Attendance Status.
