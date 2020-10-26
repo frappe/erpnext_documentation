@@ -3,7 +3,7 @@
 
 The Attendance Status of an employee conveys whether the employee is Present, Absent, or is on leave on a particular day.
 
-In ERPNext You can create multiple Status for Attendance. Suppose, Employee is on visit to other place or working remotely in that case we allow you to create custom status for tracking Attendance.
+In ERPNext, you can create multiple statuses for attendance. Suppose, an employee is on a visit to another place or working remotely, then you can create a custom status for tracking Attendance.
 
 To access Attendance Status, go to:
 
