@@ -20,7 +20,7 @@ To access Attendance Status, go to:
 
 <img class="screenshot" alt="Attendance Status" src="{{docs_base_url}}/assets/img/human-resources/attendance-status.png">
 
-Below are detailed explanation of all checkbox in Attendance Status.
+Below is a detailed explanation of all the checkboxes in Attendance Status.
 
 * **IS Half Day:** If Checked, The Attendance Status will represent Half Day Status During Attendance Creation.
 
