@@ -59,7 +59,7 @@ In case the attendance for some employees is not marked, you can mark them as pr
 ### 3.2 Remaining Half Day Status
 After Version 12, ERPNext started tracking the remaining half day status. On selecting Half Day [Attendance Status](/docs/user/manual/en/human-resources/attendance-status). Field **Remaining Half day Status** will appear, where you can select the Present or Absent Attendance Status for the remaining half day.
 
-<img class="screenshot" alt="Attendance" src="{{docs_base_url}}/assets/img/human-resources/remaining-half-day-status.png">
+<img class="screenshot" alt="Remaining Half Day Status" src="{{docs_base_url}}/assets/img/human-resources/remaining-half-day-status.png">
 
 > Note: If the Payroll is based on Attendance, the Remaining Half Day Status will also contribute to your salary.
 
