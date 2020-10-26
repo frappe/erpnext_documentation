@@ -16,7 +16,7 @@ To access Attendance Status, go to:
 1. Set an Abbreviation for your status which will be used in the Monthly Attendance Sheet.
 1. Click on Save.
 
-> Note: if None of the property Is Half Day, Is Leave or Is Present is checked status will be treated as Absent
+> Note: If none of the properties, i.e. "Is Half Day", "Is Leave" or "Is Present" is checked, then the status will be treated as Absent.
 
 <img class="screenshot" alt="Attendance" src="{{docs_base_url}}/assets/img/human-resources/attendance-status.png">
 
