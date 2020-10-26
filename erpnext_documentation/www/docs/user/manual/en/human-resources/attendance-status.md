@@ -14,7 +14,7 @@ To access Attendance Status, go to:
 1. Go to the Attendance Status list, click on New.
 1. Enter a name for the Attendance Status.
 1. Set an Abbreviation for your status which will be used in the Monthly Attendance Sheet.
-1. Click on save.
+1. Click on Save.
 
 > Note: if None of the property Is Half Day, Is Leave or Is Present is checked status will be treated as Absent
 
