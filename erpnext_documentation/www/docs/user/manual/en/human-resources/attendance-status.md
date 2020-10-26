@@ -12,7 +12,7 @@ To access Attendance Status, go to:
 ## 1. How to create an Attendance Status:
 
 1. Go to the Attendance Status list, click on New.
-1. Name your Attendance Status.
+1. Enter a name for the Attendance Status.
 1. Write Abbreviation for your status. Which is used in Monthly Attendance Sheet.
 1. Click on save.
 
