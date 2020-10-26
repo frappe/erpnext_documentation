@@ -61,7 +61,7 @@ After Version 12, ERPNext started tracking the remaining half day status. On sel
 
 <img class="screenshot" alt="Attendance" src="{{docs_base_url}}/assets/img/human-resources/remaining-half-day-status.png">
 
-> Note: If payroll is based on Attendance, Remaining Half Day Status will also contribute to your salary.
+> Note: If the Payroll is based on Attendance, the Remaining Half Day Status will also contribute to your salary.
 
 
 
