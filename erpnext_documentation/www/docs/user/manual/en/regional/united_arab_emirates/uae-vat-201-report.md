@@ -11,7 +11,7 @@ To print the report, go to Menu > Print as shown in the screenshot below.
 
 Note: To make sure the calculations in the report are correct, check the following:
 
-1. Correct Emirate is selected for each Address.
+1. Correct Emirate is selected in Sales Invoice.
 
 2. Zero Rated or Exempted Items have "Is Zero Rated" or "Is Exempt" checkbox checked in the item master.
 
