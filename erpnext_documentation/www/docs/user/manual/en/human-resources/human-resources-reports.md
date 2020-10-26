@@ -33,7 +33,7 @@ To track and monitor Vehicle Expenses you can use the Vehicle Expenses report. T
 
 ## Employee Information
 
-This Report Provide you the basic information for Employees like status, Branch, Designation etc.
+This report provides you with the basic information of the Employees like their Status, Branch, Designation, etc.
 
 <img class="screenshot" alt="Employee Information" src="{{docs_base_url}}/assets/img/human-resources/employee-information.png">
 
