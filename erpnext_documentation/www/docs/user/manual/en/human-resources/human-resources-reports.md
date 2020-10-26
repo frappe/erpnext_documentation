@@ -39,7 +39,7 @@ This Report Provide you the basic information for Employees like status, Branch,
 
 ## Monthly Attendance Sheet
 
-This report will provide you information like Attendance Status and Leaves of Employee between selected date interval represented by their respective Abbreviation as defined in Leave type and Attendance Status master.
+This report shows the Attendance Status of Employees and the Leaves taken by them between the selected date range.  The status and leaves are represented by their respective Abbreviations as defined in Leave Type and the Attendance Status master.
 
 <img class="screenshot" alt="Vehicle Log" src="{{docs_base_url}}/assets/img/human-resources/monthly-attendance-sheet.png">
 
