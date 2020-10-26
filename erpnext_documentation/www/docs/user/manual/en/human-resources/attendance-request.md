@@ -24,7 +24,7 @@ Before creating an Attendance Request, it is advised that you create the followi
 
     <img class="screenshot"  alt="Attendance Request" src="{{docs_base_url}}/assets/img/human-resources/attendance-request.png">
 
-> **Note 1:** You can check the 'Half Day' checkbox and enter the Date in case the attendance is for Half Day and Select Attendance Status for remaining Half day.
+> **Note 1:** You can check the 'Half Day' checkbox and enter the Date in case the attendance is for Half Day and select the Attendance Status for the remaining half day.
 
 > **Note 2:** On submission of the same, Attendance documents will be created for the days you mentioned as shown.
 
