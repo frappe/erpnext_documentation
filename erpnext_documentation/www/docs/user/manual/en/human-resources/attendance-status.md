@@ -30,7 +30,7 @@ Below is a detailed explanation of all the checkboxes in Attendance Status.
 
 * **Applicable for Leave Application**: This checkbox is visible only if **Is Half Day** or **Is leave** property for Attendance Status is enable. If this property is enabled then it will be taken as default Leave or Half Day Status for Attendance created while Leave approval.
 
->Note: Only one Half Day and Leave Status with property Applicable for Leave Application is allowed at a time.
+> Note: Only one "Half Day" and Leave Status with property, "Applicable for Leave Application" is allowed at a time.
 
 * **Applicable for Employee Checkins**: This Property works for Auto Attendance Creation through Employee Checkin. If Checked the status will be taken as default status for Present, Half day, or Leave during automatic attendance creation.
 
