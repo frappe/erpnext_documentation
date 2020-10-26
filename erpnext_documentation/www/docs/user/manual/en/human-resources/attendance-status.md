@@ -18,7 +18,7 @@ To access Attendance Status, go to:
 
 > Note: If none of the properties, i.e. "Is Half Day", "Is Leave" or "Is Present" is checked, then the status will be treated as Absent.
 
-<img class="screenshot" alt="Attendance" src="{{docs_base_url}}/assets/img/human-resources/attendance-status.png">
+<img class="screenshot" alt="Attendance Status" src="{{docs_base_url}}/assets/img/human-resources/attendance-status.png">
 
 Below are detailed explanation of all checkbox in Attendance Status.
 
