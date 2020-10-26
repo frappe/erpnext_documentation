@@ -1,7 +1,7 @@
 <!-- add-breadcrumbs -->
 # Attendance Status
 
-Attendance Status the status of an employee, Which represent That wether Employee is Present, Absent, or is on leave on particular day.
+The Attendance Status of an employee conveys whether the employee is Present, Absent, or is on leave on a particular day.
 
 In ERPNext You can create multiple Status for Attendance. Suppose, Employee is on visit to other place or working remotely in that case we allow you to create custom status for tracking Attendance.
 
