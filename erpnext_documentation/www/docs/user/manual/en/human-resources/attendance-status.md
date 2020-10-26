@@ -32,7 +32,7 @@ Below is a detailed explanation of all the checkboxes in Attendance Status.
 
 > Note: Only one "Half Day" and Leave Status with property, "Applicable for Leave Application" is allowed at a time.
 
-* **Applicable for Employee Checkins**: This Property works for Auto Attendance Creation through Employee Checkin. If Checked the status will be taken as default status for Present, Half day, or Leave during automatic attendance creation.
+* **Applicable for Employee Checkins**: This property works for Auto Attendance Creation through Employee Checkin. If checked, the status will be taken as a default status for "Present", "Half Day", or "Leave" during the automatic attendance creation.
 
 >Note:
 It is mandatory to create the Attendance Status wil this property to make Auto Attendance Functional.
