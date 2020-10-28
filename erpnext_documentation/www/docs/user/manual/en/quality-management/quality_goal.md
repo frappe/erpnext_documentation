@@ -31,7 +31,7 @@ The Revision field shows The number of times the document was saved.
 
 Creating a Quality Goal:
 
-<img class="screenshot" alt="Quality mangement" src="{{docs_base_url}}/assets/img/quality-management/creating-quality-goal.gif">
+<img class="screenshot" alt="Quality management" src="{{docs_base_url}}/assets/img/quality-management/creating-quality-goal.gif">
 
 ## 2. Related Topics
 

@@ -32,12 +32,12 @@ The 'Parent Procedure' is linked to the child procedure. For example 'Demo prepa
 ### 2.1 Using Quality Procedure in Quality Goal
 Once a Quality Procedure is created, it can be used in a [Quality Goal](/docs/user/manual/en/quality-management/quality_goal):
 
-<img class="screenshot" alt="Quality mangement" src="{{docs_base_url}}/assets/img/quality-management/procedure.gif">
+<img class="screenshot" alt="Quality management" src="{{docs_base_url}}/assets/img/quality-management/procedure.gif">
 
 ### 2.2 Sub Procedures
 
 Process can either be just a instruction or a different Quality Procedure. You can link a Quality Procedure as a sub-procedure to another one:
-<img class="screenshot" alt="Quality mangement" src="{{docs_base_url}}/assets/img/quality-management/procedure-1.gif">
+<img class="screenshot" alt="Quality management" src="{{docs_base_url}}/assets/img/quality-management/procedure-1.gif">
 
 ### 2.3 Hierarchical View
 
