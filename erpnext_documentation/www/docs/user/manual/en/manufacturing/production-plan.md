@@ -88,7 +88,7 @@ There could be occurrences where a Production Plan is partially complete and is 
 
 In cases like these, Users can set the Production Plan status to **Closed**, so that no new Work Orders or Material Requests are created against it.
 
-<img class="screenshot" alt="Make PO or MR" src="{{docs_base_url}}/assets/img/manufacturing/production_plan_status.gif">
+<img class="screenshot" alt="Closing a Production Plan" src="{{docs_base_url}}/assets/img/manufacturing/production_plan_status.gif">
 
 The same can be **Re-opened**.
 
