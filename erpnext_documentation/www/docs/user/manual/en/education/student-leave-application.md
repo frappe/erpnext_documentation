@@ -16,7 +16,7 @@ To access Student Leave Application list, go to:
 
     * **Course Schedule**: If attendance is taken for every lecture (in colleges/universities), then the leave application can be created for that particular course schedule slot.
 
-    * **Student Group**: If attendance is taken for the entire day then student group (class/division) is used to mark attendance so leave is for the entire day
+    * **Student Group**: If attendance is taken for the entire day then student group (class/division) is used to mark attendance so that leave is calculated for the entire day
 
 5. Based on the Attendance field, select the Student Group or Course Schedule. Optionally enter the reason.
 6. In case the student is not attending the institute to participate or represent the institute in any event, he/she can be marked as "Present" from the Leave Application itself by checking _Mark as Present_.
