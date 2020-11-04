@@ -50,10 +50,10 @@ Similar to the Customer Warehouse shown above, the first step is to enable the S
 
 ### Select Warehouses
 
-When creating a Purchase Receipt for Material Transfer, for an Item, select target Warehouse as Accepted Warehouse.
+When creating a Purchase Receipt for Material Transfer, for an Item, select the target Warehouse as Accepted Warehouse.
 
 In the Supplier Warehouse, select a Warehouse from where Material is to be transferred.
 
-<img class="screenshot" alt="Delivery Note Material Transfer" src="{{docs_base_url}}/assets/img/stock/supplier-warehouse.png">
+<img class="screenshot" alt="Purchase Receipt Material Transfer" src="{{docs_base_url}}/assets/img/stock/supplier-warehouse.png">
 
 On submission of the Purchase Receipt, item's stock will be deducted from "Supplier Warehouse" and added to the "Accepted Warehouse".
