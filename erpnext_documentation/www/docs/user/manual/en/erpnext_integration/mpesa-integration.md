@@ -35,6 +35,22 @@ It will also create a Mode of Payment with the same name and account as the paym
 
 After configuring the Payment Gateway Account, you will be able to accept online payments via M-Pesa.
 
-## 3.Supporting transaction currencies
+
+## 3. M-Pesa POS Payments
+
+On setting up the POS profile with M-Pesa mode of payment, POS checkout would show a additional information section. This section contains two fields which were automatically set-up on adding M-Pesa settings.
+
+<img class="screenshot" alt="POS Additional Information" src="{{docs_base_url}}/assets/img/setup/integrations/additional-information.png">
+
+As soon a POS user fills the mobile no of the customer. They can initiate a request for payment from the customer. A request is sent to the customer's M-Pesa mobile application linked with the specified mobile number. Once the payment is processed by the user. The user is prompted by a confirmation dialog to submit the payment.
+
+## 4. M-Pesa Account Balance
+
+Account balance linked with an individual M-Pesa till can be fetched via the Get Account Balance button. This will load the M-Pesa account balance details in the dashboard.
+
+<img class="screenshot" alt="POS Account Balance" src="{{docs_base_url}}/assets/img/setup/integrations/mpesa_account_balance.png">
+
+
+## 5. Supporting transaction currencies
 
 M-Pesa will only work for the Company which has KSH (Kenyan Shilling) as the Company Currency.
