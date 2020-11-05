@@ -46,7 +46,7 @@ Following are the steps to use Purchase Receipt for creating Material Transfer E
 
 Similar to the Customer Warehouse shown above, the first step is to enable the Supplier Warehouse from [Stock Settings](/docs/user/manual/en/stock/stock-settings.md) as shown above.
 
-<img class="screenshot" alt="Delivery Note Material Transfer" src="{{docs_base_url}}/assets/img/stock/supplier-warehouse-enable.png">
+<img class="screenshot" alt="Delivery Note Material Transfer" src="{{docs_base_url}}/assets/img/stock/supplier-warehouse-enable.gif">
 
 ### Select Warehouses
 
