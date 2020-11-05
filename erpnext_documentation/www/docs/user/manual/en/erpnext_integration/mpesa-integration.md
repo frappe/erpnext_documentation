@@ -22,7 +22,7 @@ To set up M-Pesa, go to:
 To enable M-Pesa Express, you need to configure all the mandatory parameters which you have received from M-Pesa. If you want to use the staging environment of the integration, you can select the staging option and use the staging credentials provided by M-Pesa by creating a separate application for the same.
 <img class="screenshot" alt="Mpesa Settings" src="{{docs_base_url}}/assets/img/setup/integrations/mpesa_settings.png">
 
-On enabling the M-Pesa integration in ERPNext, the system will create a Payment Gateway record and an Account Head in the Chart of Accounts with the Account type as Bank as seen in the following screenshot.
+On enabling the M-Pesa integration in ERPNext, the system will create a Payment Gateway record and an Account head in the Chart of Accounts with the Account type as Bank as seen in the following screenshot.
 
 <img class="screenshot" alt="Mpesa COA" src="{{docs_base_url}}/assets/img/setup/integrations/mpesa_coa.png">
 
