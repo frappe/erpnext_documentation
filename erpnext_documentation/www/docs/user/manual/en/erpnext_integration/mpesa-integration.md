@@ -38,7 +38,7 @@ After configuring the Payment Gateway Account, you will be able to accept online
 
 ## 3. M-Pesa POS Payments
 
-On setting up the POS profile with M-Pesa mode of payment, POS checkout would show a additional information section. This section contains two fields which were automatically set-up on adding M-Pesa settings.
+On setting up the POS profile with M-Pesa mode of payment, the POS checkout would show an additional information section. This section contains two fields that were automatically set-up on adding M-Pesa settings.
 
 <img class="screenshot" alt="POS Additional Information" src="{{docs_base_url}}/assets/img/setup/integrations/additional-information.png">
 
