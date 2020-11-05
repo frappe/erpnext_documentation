@@ -42,7 +42,7 @@ On setting up the POS profile with M-Pesa mode of payment, the POS checkout woul
 
 <img class="screenshot" alt="POS Additional Information" src="{{docs_base_url}}/assets/img/setup/integrations/additional-information.png">
 
-As soon a POS user fills the mobile no of the customer. They can initiate a request for payment from the customer. A request is sent to the customer's M-Pesa mobile application linked with the specified mobile number. Once the payment is processed by the user. The user is prompted by a confirmation dialog to submit the payment.
+As soon as a POS user fills the mobile number of the customer, they can initiate a request for payment from the customer. A request is sent to the customer's M-Pesa mobile application linked with the specified mobile number. Once the payment is processed by the user, the user is prompted by a confirmation dialog to submit the payment.
 
 ## 4. M-Pesa Account Balance
 
