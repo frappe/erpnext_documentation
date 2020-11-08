@@ -93,6 +93,26 @@ Then if someone applied for leave for less than 5 days, only that particular tra
 
 This can be extended to any property of the document.
 
+> Introduced in Version 13
+
+In Version 13, you can use date/time, session, get_value and get_list functions in your condition expressions.
+
+Allowed functions:
+
+* frappe.db.get_value
+* frappe.db.get_list
+* frappe.session
+* frappe.utils.now_datetime
+* frappe.utils.get_datetime
+* frappe.utils.add_to_date
+* frappe.utils.now
+
+Examples:
+
+```
+doc.creation > frappe.utils.add_to_date(frappe.utils.now_datetime(), days=-5, as_string=True, as_datetime=True) 
+```
+
 ## 4. Example of a Leave Application Process
 
 When a Leave Application is saved by Employee, the status of the document changes to "Applied":
