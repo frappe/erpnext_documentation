@@ -1,7 +1,7 @@
 <!-- add-breadcrumbs -->
 # Project Update
 
-**A Project Update is the Status of the Project which can be sent to all the Stakeholders of the Project.** 
+**A Project Update is the status of the Project which can be sent to all the stakeholders of the Project.**
 
 Each time you want to update the stakeholders about the project, you can send a Project Update to them.
 
@@ -14,11 +14,11 @@ To access Project Update, go to:
 ## 1. How to Create a Project Update
 
   1. Go to the Project Update List and click on New.
-  2. Add the name of the Project for which you want to send an Update.
+  2. Add the name of the Project for which you want to send an update.
   3. Add the name of the Users to whom you want to send the Project Update in the Child Table. These Users could be your Customers or any other Internal or External Stake Holders.
   4. Save and Submit.
 
-Once you have submitted the Project Update, an email is shot out to the selected Stakeholders on the updatation of the project.
+Once you have submitted the Project Update, an email is sent to the selected stakeholders with project updates.
 
 ### 1.1. Additional Details
 

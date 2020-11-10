@@ -98,7 +98,7 @@ For India, the following details can be recorded for GST purposes. You can captu
 * Company GSTIN
 
 ### 3.5 Currency
-You can set the currency in which the Sales Invoice order is to be sent. This can be fetched from the Customer master or preceding transactions like Sales Order. 
+You can set the currency in which the Sales Invoice order is to be sent. This can be fetched from the Customer master or preceding transactions like Sales Order.
 
 * Wish to select Customer's currency just for the reference of the Customer, whereas accounts posting will be done in the Company's base currency only. Learn more [here](/docs/user/manual/en/accounts/articles/managing-transactions-in-multiple-currency).
 * Maintain separate receivable account in the Customer's currency. The Receivable for this invoice should be posted in that currency itself. [Click here](/docs/user/manual/en/accounts/multi-currency-accounting) to learn more about Multi Currency Accounting.
@@ -111,6 +111,8 @@ To know about Price Lists, [click here](/docs/user/manual/en/stock/price-lists).
 
 
 ### 3.7 The Items table
+
+> Note: From version-13 onwards we have introduced immutable ledger which changes the rules for cancellation of stock entries and posting backdated stock transactions in ERPNext. [Learn more here](/docs/user/manual/en/accounts/articles/immutable-ledger-in-erpnext).
 
 #### Update Stock
 Ticking this checkbox will update the Stock Ledger on submitting the Sales Invoice. If you've created a Delivery Note, the Stock Ledger will be changed. If you're **skipping** the creation of Delivery Note, tick this checkbox.

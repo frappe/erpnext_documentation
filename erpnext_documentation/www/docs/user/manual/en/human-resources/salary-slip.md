@@ -9,9 +9,9 @@ To access Salary Slip, go to:
 ## 1. Prerequisites
 Before creating Salary Slip, it is advised that you create the following first:
 
-* [Employee](/docs/user/manual/en/human-resource/employee)
-* [Salary Structure](/docs/user/manual/en/human-resource/salary-structure)
-* [Salary Structure Assignment](/docs/user/manual/en/human-resource/salary-structure-assignment)
+* [Employee](/docs/user/manual/en/human-resources/employee)
+* [Salary Structure](/docs/user/manual/en/human-resources/salary-structure)
+* [Salary Structure Assignment](/docs/user/manual/en/human-resources/salary-structure-assignment)
 
 ## 2. How to create a Salary Slip
 
@@ -26,7 +26,7 @@ Before creating Salary Slip, it is advised that you create the following first:
 ### 3.1. Salary Slip based on Attendance/Leave
 
 HR users can create Salary Slip based on Attendance or leave.
-The Working days will calculated on basis of leave/Attendance, depending on the field **Payroll based on** in [HR Settings](/docs/user/manual/en/human-resource/hr-settings). If Payroll is based on Attendance then, the **Leave without pay** will be considered as absent and **half-day** will be considered as half-day absent.
+The Working days will calculated on basis of leave/Attendance, depending on the field **Calculate Payroll Working Days Based On** in [HR Settings](/docs/user/manual/en/human-resources/hr-settings). If Payroll is based on Attendance then, the **Leave without pay** will be considered as absent and **half-day** will be considered as half-day absent.
 
 ### 3.2. Salary Slip based on Timesheet
 

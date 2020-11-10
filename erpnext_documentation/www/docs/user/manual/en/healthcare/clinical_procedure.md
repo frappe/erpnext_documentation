@@ -2,7 +2,7 @@
 
 # Clinical Procedure
 
-ERPNext helps you create and map Clinical Procedures for patients like Wound Cleaning or a Cataract Surgery. The system allows you to preconfigure [Clinical Procedure Templates](/docs/user/manual/en/Healthcare/sample_collection), so that you do not have to set the default properties like the consumables, rates, items every time you conduct a Clinical Procedure.
+ERPNext helps you create and map Clinical Procedures for patients like Wound Cleaning or a Cataract Surgery. The system allows you to preconfigure [Clinical Procedure Templates](/docs/user/manual/en/healthcare/sample_collection), so that you do not have to set the default properties like the consumables, rates, items every time you conduct a Clinical Procedure.
 
 ## 1. How to Create a Clinical Procedure
 
@@ -25,7 +25,7 @@ To create a Clinical Procedure go to:
 
 ### 1.2 Create a Clinical Procedure from an Appointment
 
-You can lookup and book [Patient Appointment](/docs/user/manual/en/Healthcare/patient_appointment) from the procedures that have been ordered for a patient in the previous [Patient Encounter](/docs/user/manual/en/Healthcare/patient_encounter) by using the **Get Prescribed Procedures** button available in Patient Appointment.
+You can lookup and book [Patient Appointment](/docs/user/manual/en/healthcare/patient_appointment) from the procedures that have been ordered for a patient in the previous [Patient Encounter](/docs/user/manual/en/healthcare/patient_encounter) by using the **Get Prescribed Procedures** button available in Patient Appointment.
 
 <img class="screenshot" alt="ERPNext Healthcare" src="{{docs_base_url}}/assets/img/healthcare/prescribed_procedures.png">
 
@@ -64,7 +64,7 @@ If the _Invoice Consumables Separately_ option is turned on, the charges for the
 
 ## 3. Related Topics
 
-1. [Clinical Procedure Template](/docs/user/manual/en/Healthcare/clinical_procedure_template)
-1. [Sample Collection](/docs/user/manual/en/Healthcare/sample_collection)
+1. [Clinical Procedure Template](/docs/user/manual/en/healthcare/clinical_procedure_template)
+1. [Sample Collection](/docs/user/manual/en/healthcare/sample_collection)
 
 {next}

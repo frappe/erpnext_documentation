@@ -48,9 +48,17 @@ Quotations to the customer are valid only for certain days. In the Quotation, yo
 
 If you wish to make Sales Order creation mandatory before the creation of a Sales Invoice, then you should set the 'Sales Order Required' field as 'Yes'. By default, this will be 'No'.
 
+This configuration can be overridden for a particular customer by enabling the "Allow Sales Invoice Creation Without Sales Order" checkbox in customer master
+
+<img alt="Sales Order Required" class="screenshot" src="{{docs_base_url}}/assets/img/selling/so-required.png">
+
 ### 3.2 Delivery Note Required
 
 To make Delivery Note creation as mandatory before Sales Invoice creation, you should set this field as 'Yes'. By default, this will be 'No'.
+
+This configuration can be overridden for a particular customer by enabling the "Allow Sales Invoice Creation Without Delivery Note" checkbox in customer master
+
+<img alt="Delivery Note Required" class="screenshot" src="{{docs_base_url}}/assets/img/selling/dn-required.png">
 
 ### 3.3 Sales Update Frequency
 The frequency at which project progress and company transaction details will be updated. By default it is for Each Transaction, you can also set it to Daily or Monthly if you have a lot of transactions every day.

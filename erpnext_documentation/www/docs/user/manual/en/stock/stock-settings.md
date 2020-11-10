@@ -69,12 +69,26 @@ The quantity of items will be set according to the serial numbers. For example, 
 ### 9.1 Raise Material Request when the stock reaches re-order level
 
 This option is useful if you want to ensure a constant supply of raw materials/products and avoid shortage.
-A [Material Request](/docs/user/manual/en/stock/material-request) will be raised automatically when stock reached the re-order level defined in the [Item form](/docs/user/manual/en/stock/item#34-automatic-reordering). 
+A [Material Request](/docs/user/manual/en/stock/material-request) will be raised automatically when stock reached the re-order level defined in the [Item form](/docs/user/manual/en/stock/item#34-automatic-reordering).
 
 ### 9.2 Notify by Email on the creation of automatic Material Request
-An email will be sent to notify the User with the role 'Purchase Manager' when an automatic Material Request is created. 
+An email will be sent to notify the User with the role 'Purchase Manager' when an automatic Material Request is created.
 
-## 10. Freeze Stock Entries
+## 10. Inter Warehouse Transfer Settings
+
+<img class="screenshot" alt="Delivery Note Material Transfer" src="{{docs_base_url}}/assets/img/stock/inter-warehouse.png">
+
+### 10.1 Enable customer warehouse for material transfer from Delivery Note and Sales Invoice
+
+This option is useful when material transfer needs to be presented as a Delivery Note. For example, if there are statutory requirements where taxes are to be applied on each transfer of Material. It is easier to manage in a transaction like Delivery Note, than in the Stock Entry
+
+### 10.2 Enable supplier warehouse for material transfer from Purchase Receipt and Purchase Invoice
+
+Similar to above option this option is useful when material transfer needs to be presented as Purchase Receipt.
+
+To know more about inter warehouse material transfer via Delivery Note and Purchase Invoice please refer this article [Material Transfer From Delivery Note](/docs/user/manual/en/stock/articles/material-transfer-from-delivery-note)
+
+## 11. Freeze Stock Entries
 
 The User will not be allowed to make stock postings beyond this date.
 
@@ -84,5 +98,5 @@ The User will not be allowed to make stock postings beyond this date.
 * **Freeze Stocks Older Than [Days]**: Stocks older than x days will be frozen. This is calculated based on the creation date of the item.
 * **Role Allowed to edit frozen stock**: The role you choose here will be allowed to edit frozen stock.
 
-## 11. Batch identification
+## 12. Batch identification
 Global setting for batches of stocks to be identified by a [Naming Series](/docs/user/manual/en/setting-up/settings/naming-series). You can override this in the Item DocType.

@@ -242,7 +242,7 @@
             <span class="text-muted pull-right">14:26</span>
         </li>
         <li>
-            <a href="/docs/user/videos/learn/manufacturing-enigneer-to-order.html">
+            <a href="/docs/user/videos/learn/manufacturing-engineer-to-order.html">
               ERPNext for Manufacturers (Engineer to Order)</a>
             <span class="text-muted pull-right">44:40</span>
         </li>

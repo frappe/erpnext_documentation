@@ -16,6 +16,8 @@ Before creating and using a Purchase Receipt, it is advised that you create the 
 
 * [Purchase Order](/docs/user/manual/en/buying/purchase-order)
 
+> Note: From version-13 onwards we have introduced immutable ledger which changes the rules for cancellation of stock entries and posting backdated stock transactions in ERPNext. [Learn more here](/docs/user/manual/en/accounts/articles/immutable-ledger-in-erpnext).
+
 
 ## 2. How to create a Purchase Receipt
 A Purchase Receipt is usually created from a [Purchase Order](/docs/user/manual/en/buying/purchase-order). In the Purchase Order, click on Create > Purchase Receipt.
@@ -64,7 +66,7 @@ The following Warehouses set will apply to all Items in the Items table of the P
 
 #### Subcontracting
 
-**Raw Materials Supplied**: In case you're subcontracting, select 'Yes' to supply the Raw Materials to the vendor. To know more about subcontracting, [click here](/docs/user/manual/en/manufacturing/subcontracting).
+* **Raw Materials Consumed**: In case you're subcontracting, select 'Yes' to consume the Raw Materials from the vendor. To know more about subcontracting, [click here](/docs/user/manual/en/manufacturing/subcontracting).
 
 ### 3.3 Items table
 
@@ -114,8 +116,10 @@ To know more, visit the [Quality Inspection](/docs/user/manual/en/stock/quality-
 ![Quality Inspection](/docs/assets/img/stock/quality-inspection.png)
 
 
-### 3.5 Pricing Rules
-The **Get Current Stock** button will fetch the current number of stock Items from the selected Target Warehouse.
+### 3.5 Raw Materials Consumed
+* The **Consumed Items** table contains the Raw Materials consumed by the Supplier in order to receive the Finished Item.
+* The **Get Current Stock** button will fetch the current stock of the Consumed Items from the Supplier Warehouse.
+    <img class="screenshot" alt="Purchase Receipt" src="{{docs_base_url}}/assets/img/stock/purchase-receipt-consumed-items.png">
 
 ### 3.6 Taxes and Valuation
 The Taxes and Charges will be fetched from the [Purchase Order](/docs/user/manual/en/buying/purchase-order).

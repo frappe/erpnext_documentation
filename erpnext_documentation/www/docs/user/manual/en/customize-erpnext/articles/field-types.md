@@ -97,7 +97,7 @@ Currency field holds numeric value, like Item Price, Amount, etc. Currency field
 
 #### Data
 
-The data field will be a simple text field. It allows you to enter a value of up to 140 characters, making this the most generic field type. To enable validations for Email or Phone Number inputs, set options to "Email" or "Phone" in Settings > DocType.
+The data field will be a simple text field. It allows you to enter a value of up to 140 characters, making this the most generic field type. To enable validations for Email, Name, or Phone Number inputs, set options to "Email", "Name", "Phone" in Settings > DocType.
 
 <img alt="Field Types" class="screenshot" src="{{docs_base_url}}/assets/img/customize/customize-data-field.png">
 
@@ -129,13 +129,13 @@ Image field will render an image file selected in another attach field.
 
 For the Image field, under Option (in Doctype), a field name should be provided where the image file is attached. By referring to the value in that field, the image will be a reference in the Image field.
 
-<img alt="Field Types" class="screenshot" src="{{docs_base_url}}/assets/img/customize/cutomize-image-field.png">
+<img alt="Field Types" class="screenshot" src="{{docs_base_url}}/assets/img/customize/customize-image-field.png">
 
 #### Int (Integer)
 
 The integer field holds numeric value, without decimal place.
 
-<img alt="Field Types" class="screenshot" src="{{docs_base_url}}/assets/img/customize/cuxtomize-int-field.png">
+<img alt="Field Types" class="screenshot" src="{{docs_base_url}}/assets/img/customize/customize-int-field.png">
 
 #### Small Text
 
@@ -206,6 +206,19 @@ This is a combination of 'Link' type and 'Table' type fields. Instead of a child
 This is a Time field where you can define the Time in the field.
 
 <img alt="Field Types" class="screenshot" src="{{docs_base_url}}/assets/img/customize/customize-field-type-time.png">
+
+#### Duration
+
+You can use the Duration field if you want to define a timespan.
+
+<img alt="Field Types" class="screenshot" src="{{docs_base_url}}/assets/img/customize/duration-fieldtype.png">
+
+If you don't want to track duration in terms of days or seconds, you can enable "Hide Days" and "Hide Seconds" options respectively in your Form.
+
+<img alt="Field Types" class="screenshot" src="{{docs_base_url}}/assets/img/customize/duration-options.png">
+
+For example, here in the SLA DocType, option is present to choose hours and minutes only.
+<img alt="Field Types" class="screenshot" src="{{docs_base_url}}/assets/img/customize/duration-options-2.png">
 
 {next}
 

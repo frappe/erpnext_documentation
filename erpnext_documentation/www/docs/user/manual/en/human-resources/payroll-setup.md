@@ -8,6 +8,7 @@ Payroll is the administration of financial records of employees' salaries, wages
 To process Payroll in ERPNext,
 
 1. Define [Payroll Period](/docs/user/manual/en/human-resources/payroll-period.html) (optional)
+1. Define [Income Tax Slab](/docs/user/manual/en/human-resources/income-tax-slab.html) (optional)
 2. Create Salary Structure with Salary Components (Earnings and Deductions)
 3. Assign Salary Structures to each Employee via Salary Structure Assignment
 4. Generate Salary Slips via [Payroll Entry](/docs/user/manual/en/human-resources/payroll-entry.html).
@@ -36,7 +37,7 @@ pay in proportion of LWP days divided by the total working days for the month (b
 
 * Is Additional Component: This option specify that the component can only be paid as Additional Salary. Examples of this component could be Performance Bonus or pay received for on-site deputation etc. Such components are not considered to be part of normal Salary Structure. Instead, Additional Salary with these components can be submitted as required which will be added to the Salary Slip automatically.
 
-* Is Tax Applicable: If a component needs to be considered for Tax calculations specified as per the Payroll Period you may want to enable this option. It would be required that you have a Payroll Period configured with valid Tax Slabs for payroll processing.
+* Is Tax Applicable: If a component needs to be considered for Tax calculations specified as per the Payroll Period you may want to enable this option. It would be required that you have a Payroll Period and Income Tax Slab configured with valid Tax Slabs for payroll processing.
 
 * Is Payable: Such components can be booked against separate payable accounts and the Accounts shall be configured in the Accounts table
 
@@ -60,7 +61,7 @@ pay in proportion of LWP days divided by the total working days for the month (b
 <img class="screenshot" alt="Salary Component Deduction"
 	src="{{docs_base_url}}/assets/img/human-resources/salary-component-2.png">
 
-* Variable Based On Taxable Salary: If you enable this, the component will be considered as the standard Tax deduction component. Tax will be calculated based on the Tax slabs configured in Payroll Period on all the total taxable salary.
+* Variable Based On Taxable Salary: If you enable this, the component will be considered as the standard Tax deduction component. Tax will be calculated based on the Income Tax Slab linked to the employee.
 
 ## Salary Structure
 

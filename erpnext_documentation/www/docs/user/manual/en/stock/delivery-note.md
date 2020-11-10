@@ -18,6 +18,8 @@ Before creating and using a Delivery Note, it is advised that you create the fol
 
 * [Sales Order](/docs/user/manual/en/selling/sales-order)
 
+> Note: From version-13 onwards we have introduced immutable ledger which changes the rules for cancellation of stock entries and posting backdated stock transactions in ERPNext. [Learn more here](/docs/user/manual/en/accounts/articles/immutable-ledger-in-erpnext).
+
 ## 2. How to create a Delivery Note
 The entry of the Delivery Note is very similar to a Purchase Receipt. It is usually created from a “Submitted” Sales Order (that is not shipped) by clicking on Create > Delivery.
 
@@ -239,6 +241,6 @@ If you don't want to create a Delivery Note after a Sales Order and directly wan
 ### 4. Related Topics
 1. [Warehouse](/docs/user/manual/en/stock/warehouse)
 1. [Delivery Note Stock Error](/docs/user/manual/en/stock/articles/delivery-note-stock-error)
-1. [Material Transfer From Delivery Note](/docs/user/manual/en/stock/articles/material-transfer-from-delivery-note)
+1. [Material Transfer From Delivery Note and Purchase Receipt](/docs/user/manual/en/stock/articles/material-transfer-from-delivery-note)
 1. [Installation Note](/docs/user/manual/en/stock/installation-note)
 1. [Delivery Trip](/docs/user/manual/en/stock/delivery-trip)

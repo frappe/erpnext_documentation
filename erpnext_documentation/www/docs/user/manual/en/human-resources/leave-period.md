@@ -1,6 +1,6 @@
 # Leave Period
 
-**A Leave period is a duration of time for which leaves are allocated.**
+**A Leave Period is a duration of time for which leaves are allocated.**
 
 Most companies manage leaves based on a Leave Period, corresponding to a calendar year or the fiscal year. To access Leave Period, go to:
 
@@ -20,8 +20,9 @@ Before creating a Leave Period, it is advisable to create the following:
 1. Select the Company name for which the Leave Period is applicable.
 1. Save.
 
-The Leave Period also allows you to select a [Holiday List](/docs/user/manual/en/human-resources/holiday-list)
- which will be considered for allocating Optional Leaves for the period.
+The Leave Period also allows you to select a [Holiday List for Optional Leaves](/docs/user/manual/en/human-resources/holiday-list) (optional) which will be considered for allocating Optional Leaves for the period.
+
+> **Note:** The 'Holiday List for Optional Leaves' is not the same as the usual 'Holiday List'. This list will contain a list of optional holidays only. 'Holiday List for Optional Leaves' can be created from the [Holiday List](/docs/user/manual/en/human-resources/holiday-list) document. You can create two Holiday Lists for a Leave Period; one containing the usual set of holidays and the other for optional holidays.
 
 Additionally, you can check the 'Is Active' checkbox if you want to enable this particular Leave Period.
 
@@ -31,7 +32,7 @@ Additionally, you can check the 'Is Active' checkbox if you want to enable this 
 
 Once the information is saved, the Leave Period will also be used as a tool to help you grant leaves for a category of employees. 
 
-The **Grant** button will generate Leave Allocations based on the Leave Policy applicable to each Employee. You can allocate leaves based on Employee Grade, Department or Designation as shown below.
+The **Grant** button will generate Leave Allocations based on the [Leave Policy](/docs/user/manual/en/human-resources/leave-policy) applicable to each Employee. You can allocate leaves based on [Employee Grade](/docs/user/manual/en/human-resources/employee-grade), [Department](/docs/user/manual/en/human-resources/department) or [Designation](/docs/user/manual/en/human-resources/designation) as shown below.
 
 
 <img class="screenshot" alt="Leave Period"

@@ -1,7 +1,7 @@
 <!-- add-breadcrumbs -->
 # Buying Settings
 
-Buying Settings is where you can define properties which will be applied in the Buying module's transactions. 
+Buying Settings is where you can define properties which will be applied in the Buying module's transactions.
 You can find Buying Settings at:
 > Home > Buying > Settings > Buying Settings
 
@@ -31,11 +31,19 @@ Configure what should be the default Price List when creating a new Buying trans
 
 ### 2.2 Purchase Order Required
 
-If this option is configured "Yes", ERPNext will prevent you from creating a Purchase Invoice or a Purchase Receipt directly without creating a Purchase Order first. If retail transactions are involved where the order happens offline, then Purchase Orders can be skipped. If you're accepting sample Items, you can directly create a Purchase Receipt to receive the Items to your Warehouse. 
+If this option is configured "Yes", ERPNext will prevent you from creating a Purchase Invoice or a Purchase Receipt directly without creating a Purchase Order first. If retail transactions are involved where the order happens offline, then Purchase Orders can be skipped. If you're accepting sample Items, you can directly create a Purchase Receipt to receive the Items to your Warehouse.
+
+This configuration can be overridden for a particular supplier by enabling the "Allow Purchase Invoice Creation Without Purchase Order" checkbox in supplier master
+
+<img alt="Purchase Order Required" class="screenshot" src="{{docs_base_url}}/assets/img/buying/po-required.png">
 
 ### 2.3 Purchase Receipt Required
 
 If this option is configured "Yes", ERPNext will prevent you from creating a Purchase Invoice without creating a Purchase Receipt first. In case the Item being transacted is a service, it'll not require a receipt, you can directly create an Invoice.
+
+This configuration can be overridden for a particular supplier by enabling the "Allow Purchase Receipt Creation Without Purchase Receipt" checkbox in supplier master
+
+<img alt="Purchase Receipt Required" class="screenshot" src="{{docs_base_url}}/assets/img/buying/pr-required.png">
 
 ### 2.4 Maintain Same Rate Throughout Purchase Cycle
 

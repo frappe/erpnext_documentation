@@ -14,9 +14,6 @@ The CRM module has the following features:
 1. [Customer](/docs/user/manual/en/CRM/customer)
 1. [Contact](/docs/user/manual/en/CRM/contact)
 1. [Address](/docs/user/manual/en/CRM/address)
-1. [Campaign](/docs/user/manual/en/CRM/campaign)
-1. [Email Campaign](/docs/user/manual/en/CRM/email-campaign)
-1. [Newsletter](/docs/user/manual/en/CRM/newsletter)
 1. [Appointment](/docs/user/manual/en/CRM/appointment)
 
 ### 1.2 Reports
@@ -31,6 +28,15 @@ The CRM module has the following features:
 1. [Email Group](/docs/user/manual/en/CRM/email_group)
 1. [Contract](/docs/user/manual/en/CRM/contract)
 1. [Appointment Booking Settings](/docs/user/manual/en/CRM/appointment-booking-settings)
+
+### 1.4 Marketing
+
+1. [Campaign](/docs/user/manual/en/CRM/campaign)
+1. [Email Campaign](/docs/user/manual/en/CRM/email-campaign)
+1. [Newsletter](/docs/user/manual/en/CRM/newsletter)
+1. [LinkedIn Settings](/docs/user/manual/en/CRM/linkedin-settings)
+1. [Twitter Settings](/docs/user/manual/en/CRM/twitter-settings)
+1. [Social Media Post](/docs/user/manual/en/CRM/social-media-post)
 
 ## 2. Articles
 1. [Automate Lead Capturing](/docs/user/manual/en/CRM/articles/automate_lead_capturing)

@@ -14,10 +14,11 @@ effectively manage your data and collaborate with your co-workers.
 ## 1. Tools
 1. [To Do](/docs/user/manual/en/using-erpnext/to-do)
 1. [Notes](/docs/user/manual/en/using-erpnext/notes)
+1. [Video](/docs/user/manual/en/using-erpnext/video)
 1. [Calendar](/docs/user/manual/en/using-erpnext/calendar)
 1. [Chat](/docs/user/manual/en/using-erpnext/chat)
 1. [Dashboard](/docs/user/manual/en/using-erpnext/dashboard)
-1. [Global Search](/docs/user/manual/en/using-erpnext/global-search)
+1. [Global Search](/docs/user/manual/en/using-erpnext/Global-search)
 1. [Desktop](/docs/user/manual/en/using-erpnext/desktop)
 
 ## 2. Collaboration Tools

@@ -13,7 +13,7 @@ Create a Custom Script (you must have System Manager role for this):
 
   1. Go to Custom Script List and click on New.
   2. You will be redirected to a page wherein you will be asked to enter the DocType for which you wish to create a Custom Script.
-  3. Type your Custom Script.
+  3. Type your Custom Script and make sure it is enabled.
   4. Save.
 
 ## 2. Notes

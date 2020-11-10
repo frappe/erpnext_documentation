@@ -105,14 +105,14 @@ To generate webhook URLs, you need to create a new Slack App:
     <img class="screenshot" alt="Set Message" src="{{docs_base_url}}/assets/img/setup/notifications/slack_notification_1.png">
 
 3. Give your App a name and choose the right workspace.
-    Once your app is created, go to the "Incoming Webhooks" section and add a new Webhook to Workspace.  
+    Once your app is created, go to the "Incoming Webhooks" section and add a new Webhook to Workspace.
     <img class="screenshot" alt="Set Message" src="{{docs_base_url}}/assets/img/setup/notifications/slack_notification_2.png">
 
 4. Copy the created link, go back to ERPNext and use it to create a new Slack Webhook URL in Integrations > Slack Webhook URL.
     <img class="screenshot" alt="Set Message" src="{{docs_base_url}}/assets/img/setup/notifications/slack_notification_3.png">
 
 5. Select Slack and your Slack channel in the channel and Slack channel fields within your notification
-    
+
 
 ### 2.2 Message Format
 
@@ -139,6 +139,56 @@ Example:
 
 <img class="screenshot" alt="Set Message" src="{{docs_base_url}}/assets/img/setup/notifications/slack_notification_4.png">
 
-### 3. Related Topics
+
+---
+
+## 3. System Notifications
+
+In **Version 12** we introduced System notifications for **Assignments**, **mentions**, **documents shared**, and **Energy Points**. These notifications show up in the notifications dropdown on the the navigation bar's top right corner.
+
+In **Version 13** we have introduced an additional channel to send alerts - **System Notifications**:
+
+<img class="screenshot" alt="Notifications Dropdown" src="{{docs_base_url}}/assets/img/setup/notifications/system-notifications-channel.png">
+
+Choosing this channel will send a system notification when a notification is triggered, instead of an Email or a Slack notification.
+
+<img class="screenshot" height=400 alt="Notifications Dropdown" src="{{docs_base_url}}/assets/img/setup/notifications/system-notification.png">
+
+Clicking on the notification routes to the **Notification Log** document which contains the configured subject, message as well as the attached file, if Attach Print is set:
+
+<img class="screenshot" alt="Notifications Dropdown" src="{{docs_base_url}}/assets/img/setup/notifications/notification-log.png">
+
+If Email/Slack alerts and System Notifications both are required, the main channel can be set as Email or Slack and this option can be checked:
+
+<img class="screenshot" alt="Notifications Dropdown" src="{{docs_base_url}}/assets/img/setup/notifications/send-system-notification.png">
+
+## 4. WhatsApp
+In **Version 13** we have introduced an additional channel to send alerts - **WhatsApp**:
+<img class="screenshot" alt="Notifications WhatsApp Channel" src="{{docs_base_url}}/assets/img/setup/notifications/twilio-channel.png">
+
+If you prefer to have your notifications sent to a WhatsApp number, you can also choose the option "WhatsApp" in the channel options and select the appropriate Twilio Number. Twilio Numbers can be added to Twilio settings in Frappe. WhatsApp messages can only be sent to numbers which have country codes in them.
+
+<img class="screenshot" alt="Twilio Settings" src="{{docs_base_url}}/assets/img/setup/notifications/twilio-settings.png">
+
+### 4.1 Twilio Settings
+
+In order to configure Twilio settings, you need to first obtain Twilio credentials from your Twilio Account's account settings. You can only add those phone numbers that have been activated in your Twilio Account with WhatsApp access.
+<img class="screenshot" alt="Twilio Credentials" src="{{docs_base_url}}/assets/img/setup/notifications/twilio-credentials.png">
+
+### 4.2 Message Format
+
+WhatsApp allows their users to only send those message templates that are pre-approved by them to your customers. Failure to do so might result in restrictions on you Twilio account.
+<img class="screenshot" alt="Pre Approved Message Template" src="{{docs_base_url}}/assets/img/setup/notifications/twilio-pre-approved-message.png">
+
+
+## 5. SMS
+
+In **Version 13** we have introduced an additional channel to send alerts - **SMS**:
+<img class="screenshot" alt="SMS Channel" src="{{docs_base_url}}/assets/img/setup/notifications/sms-notification-channel.png">
+
+In order to use this channel, you would need to complete the configuration of [SMS Settings](/docs/user/manual/en/setting-up/sms-setting).
+
+
+### 6. Related Topics
 1. [SMS Settings](/docs/user/manual/en/setting-up/sms-setting)
 1. [Document Follow](/docs/user/manual/en/setting-up/email/document-follow)

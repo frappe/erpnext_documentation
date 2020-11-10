@@ -18,7 +18,7 @@ To make accurate Purchase Requests, you must always maintain correct BOMs.
 To access the BOM list, go to:
 > Home > Manufacturing > Bill of Materials > Bill of Materials
 <p></p>
-> Note that once a BOM is submitted, it cannot be edited. You can only cancel the existing, duplicate it and submit another one. A BOM is also linked to multiple places in the Manufacturing module, so making changes to it can be time-consuming and tedious. Hence it is a good practice to carefully think and fill out the BOMs before submitting. 
+> Note that once a BOM is submitted, it cannot be edited. You can only cancel the existing, duplicate it and submit another one. A BOM is also linked to multiple places in the Manufacturing module, so making changes to it can be time-consuming and tedious. Hence it is a good practice to carefully think and fill out the BOMs before submitting.
 
 ## 1. Prerequisites
 Before creating and using a BOM, it is advised that you create the following first:
@@ -45,7 +45,7 @@ Before creating and using a BOM, it is advised that you create the following fir
 
 1. Save and Submit.
 
-In the Items table, you'll see an option 'Include Item in Manufacturing'. Raw Materials need to have this checkbox ticked. In case there are Operations or services you need to include in the BOM that are not necessarily an Item used for manufacturing, untick this checkbox. For example, treating the plastic with a chemical involves some cost but it is not an Item and the cost needs to be tracked.
+In the Items table, you'll see an option 'Include Item in Manufacturing'. Raw Materials need to have this checkbox ticked. In case there are Operations or services you need to include in the BOM that are not necessarily an Item used for manufacturing, uncheck this checkbox. For example, treating the plastic with a chemical involves some cost but it is not an Item and the cost needs to be tracked.
 
   <img class="screenshot" alt="Task" src="{{docs_base_url}}/assets/img/manufacturing/bom-item-include.png">
 
@@ -54,7 +54,7 @@ To add [Operations](/docs/user/manual/en/manufacturing/operation) tick the 'With
 
 <img class="screenshot" alt="Task" src="{{docs_base_url}}/assets/img/manufacturing/bom-operations.png">
 
-1. In the “Operations” table, add the operations that need to be performed to manufacture this particular Item. 
+1. In the “Operations” table, add the operations that need to be performed to manufacture this particular Item.
 1. For each operation, you will be asked to enter a [Workstation](/docs/user/manual/en/manufacturing/workstation) where the Operation will be performed. A default Workstation can be set from the [Operation](/docs/user/manual/en/manufacturing/operation) document.
 1. Enter the Operating Hourly Rate, Operation Time in minutes, and the Batch Size created with the Operation. The Operating Cost will be calculated based on these values.
 
@@ -66,12 +66,12 @@ Transfer Material Against needs to be set for a BOM With Operations. Materials c
 
 ### 2.2 Additional options when creating a Bill of Materials
 
-* **Is Active**: An Item could also be manufactured using an alternate set of materials/operations. In that case, untick this checkbox to disable this BOM and use another one.
+* **Is Active**: An Item could also be manufactured using an alternate set of materials/operations. In that case, uncheck this checkbox to disable this BOM and use another one.
 * **Is Default**: This BOM will be selected by default in Work Orders etc. when the Item selected.
 * **Inspection Required**: This will make 'Quality Inspection' mandatory for raw materials and the finished goods. Select the Quality Inspection Template after ticking this checkbox.
 * **Allow Alternative Item**: Sometimes when manufacturing a finished good, specific materials may not be available. If you tick this, you can create and select an alternative item from the Item Alternative list. For example, using plastic beads instead of plastic crystals. For more details visit [this page](/docs/user/manual/en/manufacturing/item-alternative).
 * **Allow Same Item Multiple Times**: In some manufacturing cases, the same item needs to be added twice. For example, two metal pipes of length 0.5m each to form another shape. Here the quantity cannot be simply set to 2 and be done since the UoM will show 1m as total but we need 0.5m + 0.5m in the form of two pipes for production. Ticking this checkbox allows you to select the same item multiple times.
-* **Set rate of sub-assembly item based on BOM**: Enabling this checkbox will set the rate of sub-assembly items based on their BOMs. If unticked, the rate will be fetched from the Valuation Rate of the sub-assembly Item.
+* **Set rate of sub-assembly item based on BOM**: Enabling this checkbox will set the rate of sub-assembly items based on their BOMs. If unchecked, the rate will be fetched from the Valuation Rate of the sub-assembly Item.
 
 * **Rate Of Materials Based On**: The Rate of raw materials used can be calculated based on different parameters.
  * **Valuation Rate**: The Valuation Rate set in the [Item master](/docs/user/manual/en/stock/item).
@@ -83,7 +83,7 @@ Transfer Material Against needs to be set for a BOM With Operations. Materials c
 ### 3.1 BOM Costing
 The Costing section in a BOM gives an approximate cost of manufacturing the Item.
 
-The costing is calculated from the Valuation Rate of the raw materials/sub-assemblies involved and the Operation costs. 
+The costing is calculated from the Valuation Rate of the raw materials/sub-assemblies involved and the Operation costs.
 
 <img class="screenshot" alt="Costing" src="{{docs_base_url}}/assets/img/manufacturing/bom-costing.png">
 
@@ -93,11 +93,11 @@ In case the BOM was submitted when the costs for Items/Operations were not updat
 
 The BOM cost can also be set to be updated automatically via Manufacturing Settings, 'Update BOM Cost Automatically' option.
 
-### 3.2 Materials Required (Exploded) 
+### 3.2 Materials Required (Exploded)
 
 This table lists down all the raw materials required to manufacture an Item. It also fetches raw materials for the sub-assemblies along with the quantities. The non-exploded table will not list the raw materials required for producing the sub-assemblies.
 
-For example, to manufacture a plastic shaving brush you need some raw materials and the bristles as a sub-assembly. For the handle, you manufacture your own plastic, but for the bristles, you use raw plastic crystals. 
+For example, to manufacture a plastic shaving brush you need some raw materials and the bristles as a sub-assembly. For the handle, you manufacture your own plastic, but for the bristles, you use raw plastic crystals.
 
 <img class="screenshot" alt="Exploded Section" src="{{docs_base_url}}/assets/img/manufacturing/bom-exploded.png">
 
@@ -106,7 +106,25 @@ The BOM can be linked to a [Project](/docs/user/manual/en/projects) to track pro
 
 The BOM can also be shown in the [Website](/docs/user/manual/en/website) for Open-source hardware products. Open-source hardware is similar to open-source where the product specifications are listed publicly.
 
-### 3.4 After Submitting
+### 3.4 BOM Template
+
+<img class="screenshot" alt="BOM Template" src="{{docs_base_url}}/assets/img/manufacturing/bom-template.png">
+
+With BOM template you can create BOMs for template items (against which you create variant items). These BOMs can be used as the default BOM while making Work Orders against the template Item's variants. You can also add the template items as raw materials in the template BOM. While making Work Order from the BOM Template, ERPNext gives provision to select the Item Variant against the template Item, for more details check following screenshot.
+
+<img class="screenshot" alt="Variant Selection" src="{{docs_base_url}}/assets/img/manufacturing/variant-selection-against-template.png">
+
+The user can also make the BOM for the variant item using the template BOM. To make the variant BOM:
+1. Go to the BOM Template.
+2. Click on **Create** button.
+3. Click on Variant BOM.
+4. Select the Variant Item for which you want to make the BOM.
+5. If the raw materials in the BOM is a template Item, then system gives provision to select the Item Variant.
+
+<img class="screenshot" alt="Variant BOM" src="{{docs_base_url}}/assets/img/manufacturing/variant-bom.png">
+
+
+### 3.5 After Submitting
 Once the BOM is submitted, the following document types can be created against the BOM from the Dashboard:
 
 ![BOM submit](/docs/assets/img/manufacturing/bom-submit.png)

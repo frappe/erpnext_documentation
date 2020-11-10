@@ -27,6 +27,19 @@ If you use a separate server for files or use online services like Dropbox or Do
 
 Attachment of too many files to documents may affect the performance of your ERPNext account. You can set a limit towards the maximum number of attachments that can be added to a document. Click [here](/docs/user/manual/en/customize-erpnext/articles/changing-attachment-limits) to learn more about it.
 
+### Import Zip
+
+You can also bulk import multiple files at once using the Import Zip feature.
+
+1. Go to **File List > Menu > Import Zip**.
+1. Upload a zip file.
+1. After the zip file is uploaded, it's contents will be extracted and each file
+   will be created as a new File record.
+
+![Importing files from zip](/docs/assets/img/using-erpnext/import-files-from-zip.gif)
+
+> Note: Hidden files (files starting with `.`) are not extracted when importing from a zip file.
+
 ## File Manager
 
 All the files attached to any of the documents in your account are listed in the File Manager. You can access the same by:
