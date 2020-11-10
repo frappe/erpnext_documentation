@@ -21,11 +21,11 @@ To create a Therapy Plan, go to:
 5. In order to add therapies to the plan, click on **Add Row** button in the child table. Select the Therapy Type and set the number of sessions required to complete it.
 6. Save.
 
-<img class="screenshot" alt="ERPNext Healthcare" src="{{docs_base_url}}/assets/img/healthcare/therapy-plan.png">
+<img class="screenshot" alt=Therapy Plan" src="{{docs_base_url}}/assets/img/healthcare/therapy-plan.png">
 
 ## 1.2 Therapy Plan from Therapy Plan Template
 
-Therapy Plan Templates are used by some healthcare facilities for prescribing therapy plans as packages. In such cases, the no. of sessions to be conducted and the total cost is fixed. The Therapy Plan created using the Therapy Plan Template will not be billed for individual sessions but for the package as a whole.
+Therapy Plan Templates are used by some healthcare facilities for prescribing therapy plans as packages. In such cases, the number of sessions to be conducted, and the total cost is fixed. The Therapy Plan created using the Therapy Plan Template will not be billed for individual sessions but for the package as a whole.
 
 1. Select the Naming Series.
 2. Select the Patient.
@@ -34,11 +34,11 @@ Therapy Plan Templates are used by some healthcare facilities for prescribing th
 5. The Therapy Types, and No. of Sessions will be fetched automatically.
 6. Save.
 
-<img class="screenshot" alt="ERPNext Healthcare" src="{{docs_base_url}}/assets/img/healthcare/therapy-plan-from-template.gif">
+<img class="screenshot" alt="Therapy Plan from Therapy Template" src="{{docs_base_url}}/assets/img/healthcare/therapy-plan-from-template.gif">
 
-While fetching healthcare services for invoicing, the Therapy Plan is only available for billing if the plan is created using a Therapy Plan Template. If the Therapy Plan is not created from a Therapy Plan Template, individual Therapy Sessions are fetched during billing.
+While fetching Healthcare Services for invoicing, the Therapy Plan is only available for billing if the plan is created using a Therapy Plan Template. If the Therapy Plan is not created from a Therapy Plan Template, individual Therapy Sessions are fetched during billing.
 
-<img class="screenshot" alt="ERPNext Healthcare" src="{{docs_base_url}}/assets/img/healthcare/therapy-plan-template-invoice.gif">
+<img class="screenshot" alt="Therapy Plan Template Invoice" src="{{docs_base_url}}/assets/img/healthcare/therapy-plan-template-invoice.gif">
 
 ## 2. Features
 
@@ -60,7 +60,7 @@ Once the Therapy Session is submitted, the count for _Sessions Completed_ for th
 
 If the Therapy Plan is created from Therapy Plan Template and is not invoiced yet, it will give you an option to create a Sales Invoice from the Therapy Plan.
 
-<img class="screenshot" alt="ERPNext Healthcare" src="{{docs_base_url}}/assets/img/healthcare/sales-invoice-from-therapy-plan.png">
+<img class="screenshot" alt="Sales Invoice from Therapy Plan" src="{{docs_base_url}}/assets/img/healthcare/sales-invoice-from-therapy-plan.png">
 
 ## 3. Related Topics
 1. [Therapy Type](/docs/user/manual/en/healthcare/therapy_type)
