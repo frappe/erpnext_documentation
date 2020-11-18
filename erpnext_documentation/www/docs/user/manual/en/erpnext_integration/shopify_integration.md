@@ -42,6 +42,30 @@ Integrations > Shopify Settings
 
 After setting up all the configurations, enable the Shopify sync and save the settings. This will register the API's to Shopify and the system will start Order sync between Shopify and ERPNext.
 
+
+### Syncing Old Orders From Shopify
+
+Once you are done with the shopify configuration and enabled Shopify Syncing you also get a provision to sync your old orders from Shopify into ERPNext. Maximum of 250 orders will be synced every hour via a background job until all the orders with in the mentioned range are synced.
+
+Invoices can be synced based in the following two criteria
+
+#### 1. Sync old orders based on date
+
+1. Enable "Sync Missing Old Shopify Orders"
+1. Select "Date" in the "Sync Based On" field and enter the From and To dates between which the orders needs to be synced
+
+<img class="screenshot" alt="Sync Order By Date" src="{{docs_base_url}}/assets/img/erpnext_integrations/shopify-order-sync-date.png">
+
+
+#### 2. Sync old orders based on shopify order id
+
+1. Enable "Sync Missing Old Shopify Orders"
+1. Select "Shopify Order Id" in the "Sync Based On" field and enter the From and To order ids between which the orders needs to be synced. The easiest way to get a shopify order id if from the URL of the order as shown in the image below
+
+<img class="screenshot" alt="Shopify Order Id" src="{{docs_base_url}}/assets/img/erpnext_integrations/shopify-order-id.png">
+
+<img class="screenshot" alt="Sync Order Id" src="{{docs_base_url}}/assets/img/erpnext_integrations/shopify-order-sync-id.png">
+
 ### Note:
 The connector won't handle Order cancellation. If you cancelled any order in Shopify then manually you have to cancel respective Sales Order and other documents in ERPNext.
 
