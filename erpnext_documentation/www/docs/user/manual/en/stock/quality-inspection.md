@@ -4,30 +4,46 @@
 In ERPNext, you can mark your incoming or outgoing products for Quality
 Inspection.
 
-To enable this feature go to:
-> Home > Stock > Tools > Quality Inspection 
+To access this feature go to:
+> Home > Stock > Tools > Quality Inspection
 
 ## 1. Prerequisites
-Before creating and using a Quality Inspection, it is advised that you create the following first:
+Before creating and using a Quality Inspection, it is advised that you do the following first:
 
-* [Item](/docs/user/manual/en/stock/item)
-* Enable Quality Inspection Criteria in the Item master:
-    ![Enable Quality Inspection](/docs/assets/img/stock/enable-quality-inspection.png)
+* **Create an [Item](/docs/user/manual/en/stock/item)**.
+* **Enable Quality Inspection Criteria in the Item master**. On enabling either checkboxes, **submission** of a stock delivery/receipt document will be allowed only after a Quality Inspection is done against it:
+    ![Enable Quality Inspection](/docs/assets/img/stock/quality-inspection-pre-requisite.png)
+* (Optional) **Create a Quality Inspection Template**. You can add inspection parameters and acceptance criteria in the template, which can be easily fetched into any Quality Inspection. After saving the template, you can set this template in the Item Master (as shown above).
+    ![Quality Inspection Template](/docs/assets/img/stock/quality-inspection-template.png)
 
-## 2. How to create a new Quality Inspection 
+## 2. How to create a new Quality Inspection
 
-1. From a Purchase Receipt/Delivery note in the Draft stage, go the Item table's Quality Inspection field and click on Create a New Quality Inspection.
+1. From a **Draft** Purchase Receipt/Delivery Note, go the Item table's Quality Inspection field and click on Create a New Quality Inspection.
 1. Select the inspection type whether Incoming (Purchase), Outgoing (Sales), or In Process (Manufacturing).
-1. Select the Reference document type whether Purchase Receipt, Purchase Invoice, Delivery Note, Sales Invoice, or, Stock Entry.
-1. Select the Item and set the sample size which will be inspected. Note that only Items for which Inspection Criteria is enabled in the Item master will be fetched.
+1. Select the Reference Document Type whether Purchase Receipt, Purchase Invoice, Delivery Note, Sales Invoice, or, Stock Entry.
+1. Select the Item and set the sample size which will be inspected. Note that only Items having Inspection Criteria enabled in the Item master, will be fetched.
 1. The Quality Inspection Template set in the Item master will be fetched.
 1. You can change who it's inspected by and also add who it's verified by.
 1. Any additional Remarks about the Inspection can be added.
-1. Save and Submit.
+1. Save. Set the Status. Submit.
 
 <img class="screenshot" alt="Quality Inspection" src="{{docs_base_url}}/assets/img/stock/quality-inspection.png">
 
-## 3. Video
+## 3. Features
+### 3.1 Formula Based Quality Checks
+The acceptance of a parameter/check, in a Quality Inspection, can depend on a certain formula in many cases. The Readings table has a field called **Acceptance Criteria Formula** where you can specify a formula that determines whether a certain check is Accepted or Rejected.
+
+<img class="screenshot" alt="Acceptance Criteria Formula" src="{{docs_base_url}}/assets/img/stock/acceptance-criteria-formula.png">
+
+This formula depends on the many Reading fields in the Readings table. It can be set manually or via a template.
+
+After setting it, update the readings and Save. The status, in the Readings table rows, is set automatically based on the formula for acceptance.
+
+<img class="screenshot" alt="Acceptance Criteria Formula" src="{{docs_base_url}}/assets/img/stock/qi-formula-based.gif">
+
+The status for the entire Quality Inspection can then be decided by the user.
+
+## 4. Video
 <div class="embed-container">
     <iframe src="https://www.youtube.com/embed/WmtcF3Y40Fs?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen>
     </iframe>
