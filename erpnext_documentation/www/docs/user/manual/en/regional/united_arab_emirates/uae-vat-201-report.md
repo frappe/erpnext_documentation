@@ -12,7 +12,7 @@ To print the report, go to Menu > Print as shown in the screenshot below.
 
 Note: To make sure the calculations in the report are correct, check the following:
 
-1. Correct Emirate is selected in Sales Invoice.
+1. Correct Emirate is selected in Company Address and Sales Invoice. The Sales Invoice Emirate field is auto filled using the selected Company Address but is editable.
 
 2. Zero Rated or Exempted Items have "Is Zero Rated" or "Is Exempt" checkbox checked in the item master.
 
