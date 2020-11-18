@@ -88,7 +88,7 @@ This is the time upto which attendance is marked based on the Employee Checkin r
 To create a Shift Request, these need to be created first:
 
 * [Employee](/docs/user/manual/en/human-resources/employee)
-* [Shift Type](docs/user/manual/en/human-resources/shift-management#1-shift-type)]
+* [Shift Type](docs/user/manual/en/human-resources/shift-management#1-shift-type)
 
 Shift Request is used by an employee to request for a particular Shift Type.
 
@@ -133,4 +133,4 @@ Shift Request Approver can also be set Employee-wise in the employee master.
 
 If Shift Request Approver are set at both Employee-level and Department-level, the Employee-level Shift Request Approver will be considered as the default Leave Approver in this case.
 
-	{next}
+{next}

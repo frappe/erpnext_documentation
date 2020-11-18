@@ -9,7 +9,7 @@ To access the Production Plan list, go to:
 
 > Home > Manufacturing > Production > Production Plan
 
-## 1. Prerequisites 
+## 1. Prerequisites
 Before creating and using a Production Plan, it is advised that you create the following first:
 
 * [Item](/docs/user/manual/en/stock/item)
@@ -71,13 +71,26 @@ Use the following checkboxes to perform certain actions:
   * <b>For Warehouse</b>: User can set the Warehouse for which they want to create the material request. When creating Stock Entries during the production process, the system will look for raw material stock in this Warehouse.
   * <b>Download Materials Required</b>:- When this checkbox is ticked, the User will get the Excel sheet with the raw materials that are needed to complete this Production Plan. User can select the Warehouse to check the available quantity in the respective Warehouse. If the User has kept the 'For Warehouse' field as blank then the system will give the Excel sheet with raw materials and Warehouse-wise available quantity of the respective raw materials. Excel sheet will look similar to:
 
- <img class="screenshot" alt="Material Request Plan" src="{{docs_base_url}}/assets/img/manufacturing/material_request_excel.png"> 
+ <img class="screenshot" alt="Material Request Plan" src="{{docs_base_url}}/assets/img/manufacturing/material_request_excel.png">
 
 ### 2.4 After Submitting
 
-Once the Production Plan is submitted, the User gets an option to make Work Orders for the production items and Material Requests for the raw materials.
+Once the Production Plan is submitted, the User gets an option to make Work Orders for the production items and Material Requests for the raw materials. Users can also set the Status as **Closed** in the Production Plan.
 
-<img class="screenshot" alt="Make PO or MR" src="{{docs_base_url}}/assets/img/manufacturing/make_po_mr.png">
+<img class="screenshot" alt="Make PO or MR" src="{{docs_base_url}}/assets/img/manufacturing/make_prod_mr_wo.png">
+
+#### 2.4.1 Closing a Production Plan
+
+There could be occurrences where a Production Plan is partially complete and is going to be discontinued. This could happen due to reasons such as:
+
+- One of the items was independently produced outside the Production Plan.
+- A change in plans occurred and pending items will not be produced.
+
+In cases like these, Users can set the Production Plan status to **Closed**, so that no new Work Orders or Material Requests are created against it.
+
+<img class="screenshot" alt="Closing a Production Plan" src="{{docs_base_url}}/assets/img/manufacturing/production_plan_status.gif">
+
+The same can be **Re-opened**.
 
 ### 2.5 Making work order for the sub-assembly items
 

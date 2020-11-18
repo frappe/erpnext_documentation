@@ -17,11 +17,13 @@ complaint_and_diagnosis
 fee_validity
 exercise_type
 therapy_type
+therapy_plan_template
 therapy_plan
 therapy_session
 patient_assessment_template
 patient_assessment
 healthcare_settings
+lab_test_template
 lab_test
 sample_collection
 patient_history

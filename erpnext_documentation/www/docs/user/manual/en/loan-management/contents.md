@@ -19,6 +19,7 @@ In ERPNext, a single loan cycle involves the following transactions:
 1. [Loan Disbursement](/docs/user/manual/en/loan-management/loan-disbursement)
 1. [Loan Interest Accrual](/docs/user/manual/en/loan-management/loan-interest-accrual)
 1. [Loan Repayment](/docs/user/manual/en/loan-management/loan-repayment)
+1. [Loan Write Off](/docs/user/manual/en/loan-management/loan-write-off)
 1. [Loan Security Unpledge](/docs/user/manual/en/loan-management/loan-security-unpledge)
 
 ## 3. Advanced
