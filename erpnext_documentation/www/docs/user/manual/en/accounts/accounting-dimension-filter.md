@@ -30,7 +30,7 @@ Based on the restrictions applied on the account, only allowed dimensions will b
 
 ### 2.2 Validations for Invalid and Mandatory Dimensions
 
-In case any mandatory dimension is missing or a restricted dimension is tagged against any applicable account, the system won't allow submitting that transaction until the correct accounting dimension is not selected.
+In case any mandatory dimension is missing or a restricted dimension is tagged against any applicable account, the system won't allow submitting that transaction until the correct accounting dimension is selected.
 
 <img alt="Invalid Dimension" class="screenshot" src="{{docs_base_url}}/assets/img/accounts/invalid-dimension.png">
 
