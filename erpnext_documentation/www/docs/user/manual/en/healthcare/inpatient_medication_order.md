@@ -1,7 +1,7 @@
 <!-- add-breadcrumbs -->
 # Inpatient Medication Order
 
-**An Inpatient Medication Order(IPMO) is created to make the nursing process easier. When patients are admitted to the hospital, there are medications that need to be provided to them according to the prescribed schedule. An Inpatient Medication Order is created to prescribe the medications to the admitted patient with the service unit where they have been admitted, the drug, dosage, dosage form, and the date and time when the drug has to be consumed.**
+**An Inpatient Medication Order (IPMO) is created to make the nursing process easier. When patients are admitted to the hospital, there are medications that need to be provided to them according to the prescribed schedule. An Inpatient Medication Order is created to prescribe the medications to the admitted patient with the service unit information, the drug, dosage, dosage form, and the date and time when the drug has to be consumed.**
 
 To access the Inpatient Medication Order list, go to:
 
