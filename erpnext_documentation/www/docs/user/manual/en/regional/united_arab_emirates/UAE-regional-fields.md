@@ -12,5 +12,5 @@
 
 ## 3. Purchase Invoice
 * **Recoverable Standard Rated Expense**: Enter the Tax Amount that can be recovered. 
-* **Reverse Charge Applicable**: Choose 'Y' if Reverse Charge is applicable. Taxes would made zero and reverse GL Entry will be made.
+* **Reverse Charge Applicable**: Choose 'Y' if Reverse Charge is applicable. Taxes would be made zero and a reverse GL Entry will be created.
 * **Recoverable Reverse Charge (Percentage)**: Enter the percentage for which the Tax Paid under Reverse Charge is recoverable.
