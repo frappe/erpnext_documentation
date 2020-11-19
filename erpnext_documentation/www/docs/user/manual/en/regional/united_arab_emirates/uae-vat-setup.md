@@ -44,3 +44,8 @@ ERPNext provides two default print format
 
 2. Detailed Tax Invoice
 <img class="screenshot" alt="Detailed Tax Invoice" src="{{docs_base_url}}/assets/img/regional/uae/detailed-invoice.png">
+
+### 5. Set-up VAT Accounts
+Select the accounts that will be used for creating VAT invoices here.
+
+<img class="screenshot" alt="UAE VAT Account Settings" src="{{docs_base_url}}/assets/img/regional/uae/uae-vat-account-settings.png">
