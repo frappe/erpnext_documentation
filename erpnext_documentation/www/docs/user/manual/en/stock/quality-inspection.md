@@ -37,7 +37,7 @@ The acceptance of a parameter/check, in a Quality Inspection, can depend on a ce
 
 This formula depends on the many Reading fields in the Readings table. It can be set manually or via a template.
 
-After setting it, update the readings and Save. The status, in the Readings table rows, is set automatically based on the formula for acceptance.
+After setting it, update the readings and Save. The Status field in the Readings table rows is set automatically based on the formula for acceptance.
 
 <img class="screenshot" alt="Acceptance Criteria Formula" src="{{docs_base_url}}/assets/img/stock/qi-formula-based.gif">
 
