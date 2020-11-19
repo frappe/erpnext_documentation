@@ -16,6 +16,6 @@ Note: To make sure the calculations in the report are correct, check the followi
 
 2. Zero Rated or Exempted Items have "Is Zero Rated" or "Is Exempt" checkbox checked in the item master.
 
-3. ALL VAT accounts are selected in UAE VAT Settings.
+3. All VAT accounts are selected in UAE VAT Settings.
 
 <img class="screenshot" alt="UAE VAT Account Settings" src="{{docs_base_url}}/assets/img/regional/uae/uae-vat-account-settings.png">
