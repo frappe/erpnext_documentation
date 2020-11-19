@@ -12,7 +12,7 @@ To access the Inpatient Medication Entry list, go to:
 Before creating an Inpatient Medication Entry, you need to create the following records first:
 
 * [Patient](/docs/user/manual/en/healthcare/patient)
-* [Inpatient Record](/docs/user/manual/en/healthcare/healthcare_practitioner)
+* [Inpatient Record](/docs/user/manual/en/healthcare/inpatient_record)
 * [Inpatient Medication Order](/docs/user/manual/en/healthcare/inpatient_medication_order)
 
 ## 2. How to Create an Inpatient Medication Entry
@@ -36,9 +36,9 @@ Before creating an Inpatient Medication Entry, you need to create the following 
 
     <img class="screenshot" alt="IPMO-PE" src="{{docs_base_url}}/assets/img/healthcare/ime-stock.png">
 
-### 2.2 On Submission
+### 2.2 On Submission of Inpatient Medication Entry
 
-On submission corresponding Inpatient Medication Order Entries are marked as completed.
+The corresponding Inpatient Medication Order Entries are marked as completed.
 
 <img class="screenshot" alt="IPMO-PE" src="{{docs_base_url}}/assets/img/healthcare/imoe-completed.png">
 
@@ -49,7 +49,7 @@ You can check the references for Inpatient Medication Entry in the Stock Entry, 
 
 <img class="screenshot" alt="IPMO-PE" src="{{docs_base_url}}/assets/img/healthcare/ime-stock-entry-detail.png">
 
-## 2.3 On Cancellation
+## 2.3 On Cancellation of Inpatient Medication Entry
 
 The corresponding Stock Entry is cancelled and the linked Inpatient Medication Order Entry is marked as incomplete again.
 

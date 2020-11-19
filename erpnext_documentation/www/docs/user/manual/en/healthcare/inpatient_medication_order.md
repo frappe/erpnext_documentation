@@ -12,7 +12,7 @@ To access the Inpatient Medication Order list, go to:
 Before creating an Inpatient Medication Order, you need to create the following records first:
 
 * [Patient](/docs/user/manual/en/healthcare/patient)
-* [Inpatient Record](/docs/user/manual/en/healthcare/healthcare_practitioner)
+* [Inpatient Record](/docs/user/manual/en/healthcare/inpatient_record)
 
 ## 2. How to Create an Inpatient Medication Order
 
