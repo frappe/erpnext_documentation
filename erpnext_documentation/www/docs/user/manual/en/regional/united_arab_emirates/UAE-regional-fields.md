@@ -4,7 +4,7 @@
 
 ## 1. Item Master
 * **Is Zero Rated**: Tick this checkbox for items that are Zero Rated.
-* **Is Exempt**: Tick this checkbox for items that are Exempt.
+* **Is Exempt**: Tick this checkbox for items that are tax exempted.
 
 ## 2. Sales Invoice
 * **VAT Emirate**: Select the Emirate of Place of Supply.
