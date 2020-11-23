@@ -31,7 +31,7 @@ In the following example, we have selected TDS category as 'TDS - 194D - Individ
 
 <img class="screenshot" alt="Tax Withholding Category" src="{{docs_base_url}}/assets/img/regional/india/tds-supplier-master.png">
 
-1. Let's create an invoice for 20,000. Saving the invoice automatically calculates tax and appends it in the Purchase Taxes and Charges table. Although the tax category assigned to the supplier has a tax rate of 5% the prevailing tax rate is 1% which is mentioned in the Lower Deduction Certificate.
+1. Let's create an invoice for 20,000. Saving the invoice automatically calculates tax and appends it in the Purchase Taxes and Charges table. Although the tax category assigned to the supplier has a tax rate of 5%, the prevailing tax rate is 1% which is mentioned in the Lower Deduction Certificate.
 
 <img class="screenshot" alt="Tax Withholding Category" src="{{docs_base_url}}/assets/img/regional/india/ltds-purchase-invoice.png">
 
