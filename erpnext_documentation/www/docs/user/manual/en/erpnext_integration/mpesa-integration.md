@@ -26,7 +26,6 @@ On enabling the M-Pesa integration in ERPNext, the system will create a Payment 
 
 <img class="screenshot" alt="Mpesa COA" src="{{docs_base_url}}/assets/img/setup/integrations/mpesa_coa.png">
 
-It will also create a mode of payment with same name and account as the payment gateway, along with certain custom fields in pos settings to handle pos payments.
 <img class="screenshot" alt="Mpesa POS Settings" src="{{docs_base_url}}/assets/img/setup/integrations/mpesa_pos_settings.png">
 
 It will also create a Mode of Payment with the same name and account as the payment gateway's, along with certain custom fields in POS Settings to handle the POS payments.
