@@ -18,9 +18,9 @@ Before creating and using a Quality Inspection, it is advised that you do the fo
 
 ## 2. How to create a new Quality Inspection
 
-1. From a **Draft** Purchase Receipt/Delivery Note, go the Item table's Quality Inspection field and click on Create a New Quality Inspection.
+1. From a **Draft** Purchase Receipt/Delivery Note, go the Item table's Quality Inspection field and click on Create a New Quality Inspection. You can also create Quality Inspection for Job Card in order to monitor the quality of in-process items. In this case, you can create a Quality Inspection for the Production Item in Job Card.
 1. Select the inspection type whether Incoming (Purchase), Outgoing (Sales), or In Process (Manufacturing).
-1. Select the Reference Document Type whether Purchase Receipt, Purchase Invoice, Delivery Note, Sales Invoice, or, Stock Entry.
+1. Select the Reference Document Type whether Purchase Receipt, Purchase Invoice, Delivery Note ,Sales Invoice, Stock Entry, or Job Card.
 1. Select the Item and set the sample size which will be inspected. Note that only Items having Inspection Criteria enabled in the Item master, will be fetched.
 1. The Quality Inspection Template set in the Item master will be fetched.
 1. You can change who it's inspected by and also add who it's verified by.
@@ -55,3 +55,4 @@ The status for the entire Quality Inspection can then be decided by the user.
 1. [Stock Entry](/docs/user/manual/en/stock/stock-entry)
 1. [Sales Invoice](/docs/user/manual/en/accounts/sales-invoice)
 1. [Purchase Invoice](/docs/user/manual/en/accounts/purchase-invoice)
+1. [Job Card](/docs/user/manual/en/accounts/job-card)

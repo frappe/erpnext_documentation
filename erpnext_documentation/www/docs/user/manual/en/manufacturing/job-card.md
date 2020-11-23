@@ -38,7 +38,7 @@ To use a Job Card follow these steps:
 1. Add more rows in the Time Logs table and record time using the Start/Completed buttons.
 1. Click on Submit.
 
-In a Work Order, the Operations and Workstations are fetched from the BOM of an Item. For ease of use, you should ensure that the [Routing](/docs/user/manual/en/manufacturing/routing) is configured in the BOM. 
+In a Work Order, the Operations and Workstations are fetched from the BOM of an Item. For ease of use, you should ensure that the [Routing](/docs/user/manual/en/manufacturing/routing) is configured in the BOM.
 
 Each Job Card created will have Workstation & Operations assigned. The raw material required from each Source Warehouse will be calculated based on quantity required for production.
 
@@ -71,5 +71,19 @@ Track the Manufacturing Progress in The Work Order by The Completion of Each Ope
 Job Card completion allows you to track the manufacturing progress inside the Work Order by looking at the completion of each Operation related to the Work Order.
 
 <img class="screenshot" alt="Create Shareholder" src="/docs/assets/img/manufacturing/work-order-job-card-completion.png">
+
+## 3. Features
+
+### 3.1 Tracking Quality Inspection
+
+> Introduced in Version 13
+
+For production orders, the quality of in-process(semi-finished) goods also needs to be tracked. It is defined by the process(operation) done on it which is in turn defined in the Job Card. In-process tests are different than incoming and outgoing material tests. Monitoring quality during manufacturing helps to make sure that the finished product produced is of the desired quality. You can create Quality Inspection for the Production Item against Job Card.
+
+<img class="screenshot" alt="Create Shareholder" src="/docs/assets/img/manufacturing/qi-against-job-card.png">
+
+<img class="screenshot" alt="Create Shareholder" src="/docs/assets/img/manufacturing/qi-link-in-job-card.png">
+
+For more details, refer the [Quality Inspection](/docs/user/manual/en/stock/quality-inspection) page.
 
 {next}
