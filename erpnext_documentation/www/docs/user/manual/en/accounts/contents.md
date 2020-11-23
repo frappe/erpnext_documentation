@@ -104,6 +104,7 @@ You can check out [this video](https://www.youtube.com/watch?v=5wjollWN0OA) for 
 1. [GST Reminders](/docs/user/manual/en/regional/india/gst-reminders)
 1. [GST 3B](/docs/user/manual/en/regional/india/gst-3b-report)
 1. [Auto generating e-Way Bill](/docs/user/manual/en/regional/india/auto-generate-e-way-bill-JSON)
+1. [Lower Deduction Certificate](/docs/user/manual/en/regional/india/lower-deduction-certificate)
 
 ## 2. Articles
 ### 2.1 Record Entries
