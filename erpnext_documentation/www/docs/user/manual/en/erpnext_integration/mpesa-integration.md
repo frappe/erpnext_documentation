@@ -45,7 +45,7 @@ As soon as a POS user fills the mobile number of the customer, they can initiate
 
 ## 4. M-Pesa Account Balance
 
-Account balance linked with an individual M-Pesa till can be fetched via the Get Account Balance button. This will load the M-Pesa account balance details in the dashboard.
+Account balance linked with an individual M-Pesa can be fetched via the Get Account Balance button. This will load the M-Pesa account balance details in the dashboard.
 
 <img class="screenshot" alt="POS Account Balance" src="{{docs_base_url}}/assets/img/setup/integrations/mpesa_account_balance.png">
 
