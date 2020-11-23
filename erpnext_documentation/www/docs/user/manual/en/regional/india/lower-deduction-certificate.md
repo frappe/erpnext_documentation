@@ -16,7 +16,7 @@ Before creating and using a Lower Deduction Certificate, it is advised to create
 1. Select the Section Code.
 1. Enter the [Fiscal Year](/docs/user/manual/en/accounts/fiscal-year).
 1. Select the Supplier having a valid PAN number. PAN number will be auto fetched on the selection of Supplier.
-1. Enter Valid From and Valid Up to dates.
+1. Enter Valid From and Valid Up To dates.
 1. Enter rate of TDS as per the certificate and the certificate limit.
 1. Click on Save.
 
@@ -37,4 +37,3 @@ In the following example, we have selected TDS category as 'TDS - 194D - Individ
 
 ### 4. Related Topics
 1. [Tax Withholding Category](/docs/user/manual/en/accounts/tax-withholding-category)
-
