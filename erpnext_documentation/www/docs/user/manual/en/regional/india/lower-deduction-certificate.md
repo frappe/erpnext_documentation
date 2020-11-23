@@ -29,7 +29,7 @@ In the following example, we have selected TDS category as 'TDS - 194D - Individ
 
 1. Set the Tax Withholding Category for the Supplier in the supplier master. Then upon selecting that Supplier, a checkbox will become visible in the Purchase Invoice to select whether to apply tax or not and the TDS category will be auto-fetched.
 
-<img class="screenshot" alt="Tax Withholding Category" src="{{docs_base_url}}/assets/img/regional/india/tds-supplier-master.png">
+<img class="screenshot" alt="TDS Supplier Master" src="{{docs_base_url}}/assets/img/regional/india/tds-supplier-master.png">
 
 1. Let's create an invoice for 20,000. Saving the invoice automatically calculates tax and appends it in the Purchase Taxes and Charges table. Although the tax category assigned to the supplier has a tax rate of 5%, the prevailing tax rate is 1% which is mentioned in the Lower Deduction Certificate.
 
