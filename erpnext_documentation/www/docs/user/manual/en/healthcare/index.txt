@@ -31,3 +31,4 @@ lab_test
 sample_collection
 patient_history
 patient_appointment_analytics
+inpatient_medication_orders_report
