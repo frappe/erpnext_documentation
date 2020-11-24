@@ -70,7 +70,7 @@ Track the Manufacturing Progress in The Work Order by The Completion of Each Ope
 
 Job Card completion allows you to track the manufacturing progress inside the Work Order by looking at the completion of each Operation related to the Work Order.
 
-<img class="screenshot" alt="Create Shareholder" src="/docs/assets/img/manufacturing/work-order-job-card-completion.png">
+<img class="screenshot" alt="Work Order Job Card Completion" src="/docs/assets/img/manufacturing/work-order-job-card-completion.png">
 
 ## 3. Features
 
@@ -78,11 +78,11 @@ Job Card completion allows you to track the manufacturing progress inside the Wo
 
 > Introduced in Version 13
 
-For production orders, the quality of in-process(semi-finished) goods also needs to be tracked. It is defined by the process(operation) done on it which is in turn defined in the Job Card. In-process tests are different than incoming and outgoing material tests. Monitoring quality during manufacturing helps to make sure that the finished product produced is of the desired quality. You can create Quality Inspection for the Production Item against Job Card.
+For production orders, the quality of in-process (semi-finished) goods also needs to be tracked. It is defined by the process (operation) performed on it which is in turn defined in the Job Card. In-process tests are different than incoming and outgoing material tests. Monitoring quality during manufacturing helps to make sure that the finished product produced is of the desired quality. You can create a Quality Inspection for the Production Item against the Job Card.
 
-<img class="screenshot" alt="Create Shareholder" src="/docs/assets/img/manufacturing/qi-against-job-card.png">
+<img class="screenshot" alt="Quality Inspection Against Job Card" src="/docs/assets/img/manufacturing/qi-against-job-card.png">
 
-<img class="screenshot" alt="Create Shareholder" src="/docs/assets/img/manufacturing/qi-link-in-job-card.png">
+<img class="screenshot" alt="Quality Inspection link in Job Card" src="/docs/assets/img/manufacturing/qi-link-in-job-card.png">
 
 For more details, refer the [Quality Inspection](/docs/user/manual/en/stock/quality-inspection) page.
 
