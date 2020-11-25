@@ -32,31 +32,31 @@ Before creating and using a Putaway Rule, it is advised that you create the foll
 ## 2. How to create a Putaway Rule
 
 1. Go to the Putaway Rule list, click on New.
- <img class='screenshot' alt='Unsaved Pick List' src='{{docs_base_url}}/assets/img/stock/unsaved-putaway-rule.png'>
+ <img class='screenshot' alt='Unsaved Putaway Rule' src='{{docs_base_url}}/assets/img/stock/unsaved-putaway-rule.png'>
 
 1. Set the Company and Select an Item.
-1. Set the Warehouse on which this rule is applicable.
+1. Select the Warehouse on which this rule is applicable.
 1. Set the Capacity. You can also select a UOM if you want to set the Capacity in a different UOM. The Capacity in Stock UOM will be set automatically.
- <img class='screenshot' alt='Unsaved Pick List' src='{{docs_base_url}}/assets/img/stock/multi-uom-putaway-rule.png'>
+ <img class='screenshot' alt='Multi UOM Putaway Rule' src='{{docs_base_url}}/assets/img/stock/multi-uom-putaway-rule.png'>
 
 1. Set the Priority. This can begin from 1 onwards, 1 being the highest priority.
 1. Save.
- <img class='screenshot' alt='Unsaved Pick List' src='{{docs_base_url}}/assets/img/stock/saved-putaway-rule.png'>
+ <img class='screenshot' alt='Saved Putaway Rule' src='{{docs_base_url}}/assets/img/stock/saved-putaway-rule.png'>
 
 1. You can additionally Disable a Putaway Rule as well.
 
 ## 3. How does it work
 
-As mentioned above the Putaway Rules are applied on the creation of a **Purchase Receipt** from a **Purchase Order**. Let us see that in action:
+As mentioned above, the Putaway Rules are applied on the creation of a **Purchase Receipt** from a **Purchase Order**. Let us see that in action:
 
-1. We have a Purchase Order with a requirement of 2 Bags (2000 Kgs) of Rice:
- <img class='screenshot' alt='Unsaved Pick List' src='{{docs_base_url}}/assets/img/stock/po-putaway-demo.png'>
+1. We have a Purchase Order with a requirement of 2 Bags (2000 Kgs) of Rice.
+ <img class='screenshot' alt='Putaway Rule in Purchase Order' src='{{docs_base_url}}/assets/img/stock/po-putaway-demo.png'>
 
-1. We have 2 active Putaway Rules below. One has more priority than the other:
- <img class='screenshot' alt='Unsaved Pick List' src='{{docs_base_url}}/assets/img/stock/active-putaway-rules-list.png'>
+1. We have 2 active Putaway Rules below. One has a higher priority than the other.
+ <img class='screenshot' alt='Active Putaway Rules List' src='{{docs_base_url}}/assets/img/stock/active-putaway-rules-list.png'>
 
-1. On creating a Purchase Receipt from this Purchase Order, one row of 2 Bags is split and assigned according to the rules. First, the Item is accommodated in 'Stores - HUL'. Once this Warehouse is at capacity, it assigns the rest to 'Finished Goods - HUL':
- <img class='screenshot' alt='Unsaved Pick List' src='{{docs_base_url}}/assets/img/stock/putaway-po-to-pr.gif'>
+1. On creating a Purchase Receipt from this Purchase Order, one row of 2 Bags is split and assigned according to the rules. First, the Item is accommodated in the 'Stores - HUL' warehouse. Once this warehouse is at capacity, it assigns the rest to the 'Finished Goods - HUL' warehouse.
+ <img class='screenshot' alt='Putaway Rules in Purchase Order to Purchase Receipt' src='{{docs_base_url}}/assets/img/stock/putaway-po-to-pr.gif'>
 
 > **Note:** When two rules having the same priority are to be applied, the Warehouse with a greater amount of vacant space will be considered first.
 
