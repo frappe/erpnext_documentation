@@ -99,7 +99,7 @@ To understand how ERPNext allows you configure leaves for employees, check [Leav
 
  <img class="screenshot" alt="Leave Application - Leave Dashboard" src="{{docs_base_url}}/assets/img/human-resources/leave-dashboard.png">
 
-Leave Application Dashboard in Leave Application form allow user to view there leave balance during application and also provide information like Carry forward, Expired leaves, Used Leaves and, Pending Leaves.
+The Leave Application Dashboard in the Leave Application form allows the Employee to view the total number of leaves allocated to them along with the current balance of other allocated leave types such as Carry Forward leaves, Expired leaves, Used Leaves and, Pending Leaves.
 
 
 ## 3. Related Topics
