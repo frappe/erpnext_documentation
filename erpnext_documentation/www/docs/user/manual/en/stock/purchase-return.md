@@ -45,9 +45,6 @@ On Creating a Purchase Return against a Purchase Receipt:
 * The original Purchase Receipt's status is changed to **Return Issued** if 100% returned:
   ![Return Issued](/docs/assets/img/stock/purchase-return-issue.png)
 
-* The Returned Amount % is visible via the List View as well:
-  ![Purchase Receipt List View](/docs/assets/img/stock/purchase-receipt-list.png)
-
 ### 4. Related Topics
 1. [Sales Return](/docs/user/manual/en/stock/sales-return)
 1. [Perpetual Inventory](/docs/user/manual/en/stock/perpetual-inventory)

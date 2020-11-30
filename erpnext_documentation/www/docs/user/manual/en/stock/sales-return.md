@@ -47,9 +47,6 @@ On Creating a Sales Return against a Delivery Note:
 * The original Delivery Note's status is changed to **Return Issued** if 100% returned:
   ![Return Issued](/docs/assets/img/stock/sales-return-issue.png)
 
-* The Returned Amount % is visible via the List View as well:
-  ![Delivery Note List View](/docs/assets/img/stock/delivery-note-list.png)
-
 ## 4. Related Topics
 1. [Purchase Return](/docs/user/manual/en/stock/purchase-return)
 1. [Perpetual Inventory](/docs/user/manual/en/stock/perpetual-inventory)
