@@ -29,6 +29,7 @@ healthcare_settings
 lab_test_template
 lab_test
 sample_collection
+patient_history_settings
 patient_history
 patient_appointment_analytics
 inpatient_medication_orders_report
