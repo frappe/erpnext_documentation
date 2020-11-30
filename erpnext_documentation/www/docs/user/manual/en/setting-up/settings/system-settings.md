@@ -59,7 +59,7 @@ If the Apply Strict User Permissions checkbox is ticked, documents, where Territ
 
 * **Allow Login using User Name**: Allow user login via their username set in the [User master](/docs/user/manual/en/setting-up/users-and-permissions/adding-users).
 * **Show Full Error and Allow Reporting of Issues to the Developer**: This will display the whole error on the screen and allow reporting issues. If you have technical knowledge in this area, you can get a better idea of the error by reading the whole message.
-* **Remove EXIF tags from uploaded images**: Metadata stored in image files in the EXIF file format can be exploired to get sensitive user information. This option lets users remove that data from the images before uploading.
+* **Remove EXIF tags from uploaded images**: Metadata stored in image files in the EXIF file format can be exploited to get sensitive user information. This option lets users remove that data from the images before uploading.
 
 ### 1.6 Password
 
