@@ -18,7 +18,7 @@ Before creating a Leave Policy Assignment, it is advisable to create the followi
 1. Go to Leave Policy Assignment, click on New.
 1. Select Employee and Leave Policy.
 1. Select Assignment based on the following as needed:
-    * If an assignment is based on Leave period, You need to select Leave period. The Effective From and Effective To will be set automatically.
+    * If "Assignment based on" is set to Leave Period, you need to select the applicable Leave Period. The Effective From and Effective To dates will be set automatically based on the Leave Period selected.
     * If an assignment is based on Joining Date, The Effective From date will be set to Employee's Date of Joining.
     * If an assignment is based on is blank, You need to set Effective From and Effective To Manually.
 1. Save and Submit.
