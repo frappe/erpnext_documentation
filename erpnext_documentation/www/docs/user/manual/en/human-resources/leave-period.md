@@ -30,7 +30,7 @@ Additionally, you can check the 'Is Active' checkbox if you want to enable this 
 <img class="screenshot" alt="Leave Period"
 	src="{{docs_base_url}}/assets/img/human-resources/leave-period.png">
 
-## 3. Granting leave using Leave period
+## 3. Granting leave using Leave Period
 
 > In version 12, leaves could be granted via Leave Period through the "Grant Leaves" button. In version 13, leaves will be granted using [Leave Policy Assignment](/docs/user/manual/en/human-resources/leave-policy-assignment).
 
