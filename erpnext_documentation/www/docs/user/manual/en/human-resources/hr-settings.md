@@ -95,7 +95,7 @@ If checked, the system will not allow making a backdated leave application.
 > Introduced in version 13
 
 ### 3.7 Automatic Allocate Leaves Based On Leave Policy
-If checked, The leave will be granted to employee automatically on Effective From Date as per present Leave Policy Assignment.
+If checked, leaves will be granted to the employees automatically based on the Effective From date as per the present Leave Policy Assignment.
 
 ## 4. Hiring Settings
 
