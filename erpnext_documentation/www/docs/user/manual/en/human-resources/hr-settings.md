@@ -30,7 +30,7 @@ An email is sent to all the employees of the company when an employee has a birt
 ### 1.4 Expense Approver Mandatory In Expense Claim
 In Expense Claim Document the 'Expense Approver' field is set to mandatory on checking this option.
 
-> Payroll Settings will be part of HR Settings till version 12. In version 13, Payroll Settings will be part of our new Module Payroll.
+> Payroll Settings will be part of HR Settings till version 12. In version 13, Payroll Settings will be part of the new module, Payroll.
 
 ## 2. Payroll Settings
 
