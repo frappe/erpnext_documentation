@@ -32,7 +32,7 @@ Additionally, you can check the 'Is Active' checkbox if you want to enable this 
 
 ## 3. Granting leave using Leave period
 
-> It was the part of ERPNext till version 12 now, from version 13 leave will be granted using [Leave Policy Assignment](/docs/user/manual/en/human-resources/leave-policy-assignment).
+> In version 12, leaves could be granted via Leave Period through the "Grant Leaves" button. In version 13, leaves will be granted using [Leave Policy Assignment](/docs/user/manual/en/human-resources/leave-policy-assignment).
 
 Once the information is saved, the Leave Period will also be used as a tool to help you grant leaves for a category of employees.
 
@@ -48,4 +48,3 @@ The **Grant** button will generate Leave Allocations based on the [Leave Policy]
 1. [Leave Allocation](/docs/user/manual/en/human-resources/leave-allocation)
 1. [Leave Policy](/docs/user/manual/en/human-resources/leave-policy)
 1. [Leave Type](/docs/user/manual/en/human-resources/leave-type)
-
