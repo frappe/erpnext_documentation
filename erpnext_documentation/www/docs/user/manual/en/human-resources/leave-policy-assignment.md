@@ -57,7 +57,7 @@ Our System also allow to create multiple Leave Policy Assignment for multiple em
 1. Select Leave Policy and Effective From and Effective To.
 1. Click on Assign.
 
-<img class="screenshot" alt="Leave Allocations"
+<img class="screenshot" alt="Bulk Leave Policy Assignment" src="{{docs_base_url}}/assets/img/human-resources/bulk-leave-policy-assignment.png">
 	src="{{docs_base_url}}/assets/img/human-resources/bulk-leave-policy-assignment.png">
 
 ### 5.2 Granting leaves to multiple employees
