@@ -62,7 +62,7 @@ Our System also allow to create multiple Leave Policy Assignment for multiple em
 
 ### 5.2 Granting leaves to multiple employees
 
-Our System also allow to Grant Leaves based on multiple Leave Policy Assignment for multiple employees.
+Leaves can be granted based on multiple Leave Policy Assignments to multiple employees.
 
 1. Go to Leave Policy Assignment list, click on Grant Leaves.
 1. A dialog will be shown. Select the Leave Policy Assignments. You can filter the assignments based on Company and Employee or you can also use standard filters by clicking on the Add Filters button.
