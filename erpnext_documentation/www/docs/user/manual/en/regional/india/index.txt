@@ -3,3 +3,4 @@ gst-reminders
 gst-3b-report
 auto-generate-e-way-bill-JSON
 setup-e-invoicing
+lower-deduction-certificate

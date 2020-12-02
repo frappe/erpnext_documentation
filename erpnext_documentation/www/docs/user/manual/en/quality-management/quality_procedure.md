@@ -15,6 +15,7 @@ To access the Quality Procedure list, go to:
 > Home > Quality > Goal and Procedure > Quality Procedure
 
 ## 1. How to create a Quality Procedure
+
 1. Go to the Quality Procedure list, click on New.
 1. Enter a name for the Quality Procedure.
 1. In the Processes table, enter Process Descriptions.
@@ -31,11 +32,18 @@ The 'Parent Procedure' is linked to the child procedure. For example 'Demo prepa
 ### 2.1 Using Quality Procedure in Quality Goal
 Once a Quality Procedure is created, it can be used in a [Quality Goal](/docs/user/manual/en/quality-management/quality_goal):
 
-<img class="screenshot" alt="Quality mangement" src="{{docs_base_url}}/assets/img/quality-management/procedure.gif">
+<img class="screenshot" alt="Quality management" src="{{docs_base_url}}/assets/img/quality-management/procedure.gif">
 
-### 2.2 Linking Quality Procedures
+### 2.2 Sub Procedures
+
 Process can either be just a instruction or a different Quality Procedure. You can link a Quality Procedure as a sub-procedure to another one:
-<img class="screenshot" alt="Quality mangement" src="{{docs_base_url}}/assets/img/quality-management/procedure-1.gif">
+<img class="screenshot" alt="Quality management" src="{{docs_base_url}}/assets/img/quality-management/procedure-1.gif">
+
+### 2.3 Hierarchical View
+
+You can you also view Quality Procedures in a tree view for easy organization and navigation
+
+<img class="screenshot" alt="Quality Procedure Tree" src="{{docs_base_url}}/assets/img/quality-management/Quality-Tree.gif">
 
 ## 2. Related Topics
 1. [Quality Goal](/docs/user/manual/en/quality-management/quality_goal)

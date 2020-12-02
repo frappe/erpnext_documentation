@@ -29,6 +29,12 @@ To access the Routing list, go to:
 Once created, a Routing can be selected in a BOM to fetch the Operations stored in the Routing.
 ![Routing BOM](/docs/assets/img/manufacturing/routing-bom.png)
 
+## 3. Sequence ID in Routing
+![Routing Sequence ID](/docs/assets/img/manufacturing/sequence-id-routing.png)
+Sequence ID enforces the users to complete the operations sequentially via Job Card. In case a user tries to complete an operation before completing any of its precedent operations as per the Sequence ID, the system throws a validation error as shown in the screenshot below.
+
+![Error](/docs/assets/img/manufacturing/sequence-id-error.png)
+
 ## 2. Related Topics
 1. [Work Order](/docs/user/manual/en/manufacturing/work-order)
 1. [Bill Of Materials](/docs/user/manual/en/manufacturing/bill-of-materials)

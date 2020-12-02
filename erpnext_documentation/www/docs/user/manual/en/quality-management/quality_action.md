@@ -15,6 +15,7 @@ To access Quality Action, go to:
 > Home > Quality > Review and Action > Quality Action
 
 ## 1. Prerequisites
+
 Before creating and using a Quality Action it is advised to create the following first:
 * [Quality Review](/docs/user/manual/en/quality-management/quality_review)
 
@@ -22,8 +23,8 @@ Before creating and using a Quality Action it is advised to create the following
 
 * [Quality Feedback](/docs/user/manual/en/quality-management/quality_feedback)
 
-
 ## 2. How to create a Quality Action
+
 1. Go to the Quality Action list, click on New.
 1. Select whether it's a Corrective or Preventive action. This indicates whether the action is being scheduled for Corrective or for Preventive Purpose.
 1. Select the Document Type whether a Quality Review or a Quality Feedback.
@@ -33,9 +34,12 @@ Before creating and using a Quality Action it is advised to create the following
 
 The Status field indicates whether the Quality Action is Open and ongoing or Closed.
 
-<img class="screenshot" alt="Quality mangement" src="{{docs_base_url}}/assets/img/quality-management/action.gif">
+<img class="screenshot" alt="Quality management" src="{{docs_base_url}}/assets/img/quality-management/action.gif">
 
 ## 3. Related Topics
+
+* [Quality Goal](/docs/user/manual/en/quality-management/quality_goal)
+* [Quality Review](/docs/user/manual/en/quality-management/quality_review)
 * [Quality Procedure](/docs/user/manual/en/quality-management/quality_procedure)
 
 
