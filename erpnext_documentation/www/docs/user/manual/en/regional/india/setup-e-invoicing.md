@@ -1,26 +1,26 @@
 <!-- add-breadcrumbs -->
 # E Invoicing under GST
 
-Under GST, all small and large businesses are supposed to generate IRNs for all sales invoices that falls under one of the following categories:
+Under GST, all small and large businesses are supposed to register all sales invoices onto GST portal that falls under one of the following categories:
 - Business to Business
 - Supply to SEZ
 - Exports
 - Deemed Exports
 
-To help automate the E Invoicing process, we have setup API integration in ERPNext so you can now generate IRNs and signed E Invoices for your Sales Invoices.
+To help automate the E Invoicing process, we have setup API integration in ERPNext so you can generate IRNs and signed E Invoices from your EPNext Sales Invoices.
 
 ## Prerequisites
 
-- GST Accounts must be set in the GST Settings DocType.
+- GST Accounts must be set in the **GST Settings** DocType.
 
 ## Setting up
 
 Go to E Invoice Settings and click on **Enable** checkbox. This will allow you to enter credentials which are used for connecting with GSP.
 
 1. **Client ID and Client Secret**: These will be generated per customer by the GSP which ERPNext have been integrated with. Contact ERPNext support for getting your credentials.
-1. **GSTIN**: Set it to your company GSTIN.
-1. **Username**: Username by which you have registered on e-invoice portal.
-1. **Password**: Password for the logging into e-invoice portal.
+1. **GSTIN**: GSTIN by which your company is registered on e-invoice portal.
+1. **Username**: Username by which you are registered on e-invoice portal.
+1. **Password**: Password used to login into e-invoice portal.
 
 ### Generating IRN
 
