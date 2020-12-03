@@ -24,7 +24,7 @@ The fieldnames you can use in your email template are the fields in the document
 
 ### 1.3 Using HTML to build the template
 
-There's a `Use HTML` check that you can toggle to switch from the Text Editor to a code editor. This allows finer control over the body of the email and makes it easier use for features like loops in Jinja.
+There's a `Use HTML` check that you can toggle to switch from the text editor to a code editor. This allows finer control over the body of the email and makes it easier to use for features like loops in Jinja.
 
 ### 1.4 Templating
 Templates are compiled using the Jinja. To learn more about Jinja, [visit this page](https://jinja.palletsprojects.com/en/2.10.x/).
