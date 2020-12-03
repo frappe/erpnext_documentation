@@ -7,19 +7,20 @@ Under GST, all small and large businesses are supposed to register all sales inv
 - Exports
 - Deemed Exports
 
-To help automate the E Invoicing process, we have setup API integration in ERPNext so you can generate IRNs and signed E Invoices from your EPNext Sales Invoices.
+To help automate the E Invoicing process, we have integrated ERPNext with a GSP so you can easily generate IRNs and signed E Invoices from your ERPNext Sales Invoices.
 
 ## Prerequisites
 
+- You must have your GSTIN registered on E Invoice [portal](https://einvoice1.gst.gov.in/)
 - GST Accounts must be set in the **GST Settings** DocType.
 
 ## Setting up
 
-Go to E Invoice Settings and click on **Enable** checkbox. This will allow you to enter credentials which are used for connecting with GSP.
+Go to **E Invoice Settings** and click on **Enable** checkbox. This will allow you to enter credentials which are used for connecting with GSP.
 
-1. **Client ID and Client Secret**: These will be generated per customer by the GSP which ERPNext have been integrated with. Contact ERPNext support for getting your credentials.
+1. **Client ID and Client Secret**: You will have to obtain these credentials from GSP which ERPNext has been integrated with. Contact ERPNext support for getting your credentials.
 1. **GSTIN**: GSTIN by which your company is registered on e-invoice portal.
-1. **Username**: Username by which you are registered on e-invoice portal.
+1. **Username**: Username used to login into e-invoice portal.
 1. **Password**: Password used to login into e-invoice portal.
 
 ### Generating IRN
