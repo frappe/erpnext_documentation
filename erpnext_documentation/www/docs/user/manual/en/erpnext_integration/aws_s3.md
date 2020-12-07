@@ -26,6 +26,8 @@
 
     4. Copy the user's access key and secret.
 
+To automatically delete old backups or move them to a cheaper storage class, have a look at [lifecycle management](https://docs.aws.amazon.com/AmazonS3/latest/dev/object-lifecycle-mgmt.html).
+
 ## Set up ERPNext
 
 - Open **S3 Backup Settings**.
