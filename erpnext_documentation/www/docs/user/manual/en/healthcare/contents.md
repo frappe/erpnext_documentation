@@ -33,23 +33,29 @@ The following are the detailed guides on each of the functionalities ready to us
 1. [Complaints and Diagnosis](/docs/user/manual/en/healthcare/complaint_and_diagnosis)
 1. [Fee Validity](/docs/user/manual/en/healthcare/fee_validity)
 
-### 4. Rehabilitation and Physiotherapy
+### 4. Inpatient
+1. [Inpatient Record](/docs/user/manual/en/healthcare/inpatient_record)
+2. [Inpatient Medication Order](/docs/user/manual/en/healthcare/inpatient_medication_order)
+3. [Inpatient Medication Entry](/docs/user/manual/en/healthcare/inpatient_medication_entry)
+
+### 5. Rehabilitation and Physiotherapy
 1. [Exercise Type](/docs/user/manual/en/healthcare/exercise_type)
 1. [Therapy Type](/docs/user/manual/en/healthcare/therapy_type)
+1. [Therapy Plan Template](/docs/user/manual/en/healthcare/therapy_plan_template)
 1. [Therapy Plan](/docs/user/manual/en/healthcare/therapy_plan)
 1. [Therapy Session](/docs/user/manual/en/healthcare/therapy_session)
 1. [Patient Assessment Template](/docs/user/manual/en/healthcare/patient_assessment_template)
 1. [Patient Assessment](/docs/user/manual/en/healthcare/patient_assessment)
 
-### 5. Settings
+### 6. Settings
 1. [Healthcare Settings](/docs/user/manual/en/healthcare/healthcare_settings)
 
-### 6. Laboratory
+### 7. Laboratory
 1. [Lab Test Template](/docs/user/manual/en/healthcare/lab_test_template)
 1. [Lab Test](/docs/user/manual/en/healthcare/lab_test)
 1. [Sample Collection](/docs/user/manual/en/healthcare/sample_collection)
 
-### 7. Records, History and Reports
+### 8. Records, History and Reports
 1. [Patient History](/docs/user/manual/en/healthcare/patient_history)
 1. [Patient Appointment Analytics](/docs/user/manual/en/healthcare/patient_appointment_analytics)
-1. [Inpatient Record](/docs/user/manual/en/healthcare/inpatient_record)
+1. [Inpatient Medication Orders Report](/docs/user/manual/en/healthcare/inpatient_medication_orders_report)
