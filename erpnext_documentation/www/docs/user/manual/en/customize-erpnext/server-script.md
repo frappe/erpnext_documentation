@@ -13,7 +13,7 @@ To create a Server Script
 	In case of self-hosted accounts, set `server_script_enabled` as true in site_config.json of your site.
 2. To add/edit Server Script, ensure your role is System Manager.
 3. Create a new server script via "New Server Script" in the toolbar.
-4. Set the type of server script (Document Event / API).
+4. Select the type of server script: Document Event, API, Permission Query.
 5. Set the document type and event name, or method name, script and save.
 
 ## 2. Features
@@ -50,7 +50,27 @@ If you want the guest user to access the API, you must check on "Allow Guest"
 
 The response can be set via `frappe.response["message"]` object
 
-### 2.3 Security
+### 2.4 Permission Query
+
+This type of script allows you to add custom conditions in where clause for a DocType list query.
+
+For example, let's say you want to show the list of ToDo records to a user only
+if they assigned the record or it was assigned to them. This can implemented by
+the following script:
+
+```py
+conditions = 'owner = {user} or assigned_by = {user}'.format(user=frappe.db.escape(user))
+```
+
+The resulting `select` query will look something like this:
+```sql
+select * from `tabToDo` where owner = 'faris@erpnext.com' or assigned_by = 'faris@erpnext.com'
+```
+
+Now, the list view of ToDo will show restricted records. This will also restrict
+the results shown in Link fields.
+
+### 2.5 Security
 
 Frappe Framework uses the RestrictedPython library to restrict access to methods available for server scripts. Only the safe methods, listed below are available in server scripts
 
