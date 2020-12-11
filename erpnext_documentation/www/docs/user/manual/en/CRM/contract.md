@@ -47,7 +47,22 @@ If the Contract requires some fulfilment from the Supplier's (your) end, their d
 * **Requirement**: Enter a requirement that needs to be fulfiled. For example, 'installation'.
 * **Notes**: Any notes about the requirement can be entered here.
 
-### 2.5 References
+### 2.5 Contract Template
+A contract template is a standardized outline of a contract without the specifics involved. You can create a new template by going to:
+
+> Home > CRM > Contract Template
+
+You can create templates by using Jinja. Eg:
+
+```
+The parties enter into this contract on {{ start_date }}.
+```
+
+When you create a new contract using this template, the `{{ start_date }}` is replaced by the date entered into the field of the same name. 
+
+![Contract Template](/docs/assets/img/crm/contract-template-jinja.gif)
+
+### 2.6 References
 If the Contract can be linked to a transaction in ERPNext. Select the transaction type and the specific transaction. The documents that can be linked are:
 
 * Quotation
