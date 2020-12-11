@@ -9,9 +9,6 @@
 To access the Loan Disbursement list, go to:
 > Home > Loan Management > Disbursement and Repayment > Loan Repayment
 
-
-<img class="screenshot" alt="Loan Repayment" src="{{docs_base_url}}/assets/img/loan-management/loan-repayment.png">
-
 ## 1. Prerequisites
 Before creating a Loan Disbursement, you must create the following first:
 
@@ -26,6 +23,8 @@ Before creating a Loan Disbursement, you must create the following first:
 4. Enter Posting Date. On entering the Posting Date, all the payable amounts like pending principal amount, interest payable, penalty amount, and payable amount will be automatically fetched.
 7. Click "Save" to save the draft of the Loan Repayment Entry
 8. Click "Submit" to submit the Loan Repayment Entry.
+
+<img class="screenshot" alt="Loan Repayment" src="{{docs_base_url}}/assets/img/loan-management/loan-repayment.png">
 
 ### 2.1. Other ways to create a Loan Repayment
 You can also create a Loan Repayment from a disbursed Loan via the **Create** button on the top right of a Loan.

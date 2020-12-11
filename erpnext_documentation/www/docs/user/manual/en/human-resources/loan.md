@@ -4,7 +4,7 @@
 
 To access Loan, go to:
 
-> Human Resources > Loans > Loan 
+> Human Resources > Loans > Loan
 
 
 ## 1. Prerequisites
@@ -19,14 +19,13 @@ Before creating a Loan record, it is necessary that you create the following doc
 
 1. Go to: Loan > New.
 1. Select the Applicant name.
-1. Select the Loan Application. Once selected, loan information such as Loan Type, Loan Amount, Rate of Interest, Repayment Method, Repayment Period in Months and Monthly Repayment Amount will be fetched. 
+1. Select the Loan Application. Once selected, loan information such as Loan Type, Loan Amount, Rate of Interest, Repayment Method, Repayment Period in Months and Monthly Repayment Amount will be fetched.
 1. Enter Repayment Start Date.
 
   <img class="screenshot" alt="Loan" src="{{docs_base_url}}/assets/img/human-resources/loan1.png">
 
 1. Enter Account Information such as Mode of Payment, Payment Account, Loan Account and Interest Income Account.
 1. Save. Once saved, a Repayment Schedule is automatically generated. The first repayment payment date would be set as per the "Repayment Start Date". The
- 
 
   <img class="screenshot" alt="Repayment Schedule" src="{{docs_base_url}}/assets/img/human-resources/loan2.png">
 
@@ -58,4 +57,4 @@ Loan amount is deducted from the salary. If the employee is on leave without pay
 ## 4. Related Topics
 
 1. [Journal Entry](/docs/user/manual/en/accounts/journal-entry)
-1. [Payroll Entry](/docs/user/manual/en/human-resources/payroll-entry)
+1. [Payroll Entry](/docs/user/manual/en/payroll/payroll-entry)

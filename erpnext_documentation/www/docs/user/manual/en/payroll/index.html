@@ -1,0 +1,50 @@
+{% set doc=[
+	{
+		"links": [
+			{
+				"content": "The different components that make up the Salary Structure are called as Salary Components.",
+				"link": "/docs/user/manual/en/payroll/salary-component",
+				"title": "Salary Component"
+			},
+			{
+				"content": "Salary Structure is the details of the salary being offered to an Employee.",
+				"link": "/docs/user/manual/en/payroll/salary-structure",
+				"title": "Salary Structure"
+			},
+			{
+				"content": "Payroll Entry enables bulk processing of payroll for employees company wide or employees of a particular branch, department or designation.",
+				"link": "/docs/user/manual/en/payroll/payroll-entry",
+				"title": "Payroll Entry"
+			},
+			{
+				"content": "A salary slip is a document issued to an employee. It contains a detailed description of the employee’s salary components and amounts.",
+				"link": "/docs/user/manual/en/payroll/salary-slip",
+				"title": "Salary Slip"
+			}
+		],
+	"title": "Payroll"
+	},
+	{
+		"links": [
+			{
+				"content": "ERPNext allows you to add additional Salary Components to Salary Slips while processing the payroll.",
+				"link": "/docs/user/manual/en/payroll/payroll-period",
+				"title": "Payroll Period"
+			},
+			{
+				"content": "ERPNext allows you to add additional Salary Components to Salary Slips while processing the payroll.",
+				"link": "/docs/user/manual/en/payroll/income-tax-slab",
+				"title": "Income Tax Slab"
+			},
+			{
+				"content": "ERPNext allows you to add additional Salary Components to Salary Slips while processing the payroll.",
+				"link": "/docs/user/manual/en/payroll/employee-tax-exemption-declaration",
+				"title": "Employee Tax Exemption Declaration"
+			},
+		],
+	"title": "Taxation"
+	},
+] %}
+
+{% from 'erpnext_documentation/templates/includes/macros.html' import doc_page %}
+{{ doc_page('Payroll', 'Salary and Payroll, Compensation, Income Tax and more (Seperated from Human Resources in version 13)', doc, '/docs/user/manual/en/payroll/contents') }} 

@@ -16,6 +16,7 @@ The Shift Type document allows you to define the different types of Shifts in yo
 To access Shift Type, go to:
 > Home > Human Resources > Shift Management > Shift Type
 
+### 1.1 To create a new Shift Type
 1. Go to Shift Type List, Click on New.
 2. Enter Name, Start Time and End Time
 3. Save
@@ -26,24 +27,24 @@ To access Shift Type, go to:
 In addition to defining the different shifts in your organization, the Shift Type document also has the setting for auto attendance. Auto attendance marks the attendance for the employees assigned to this shift based on records in the 'Employee Checkin' Document. Auto Attendance for all shift type records are attempted to be marked every hour. You can also trigger the auto attendance manually for a single shift type by pressing the 'Mark Attendance' button in the shift type document.
 <img class="screenshot" alt="Shift Type" src="{{docs_base_url}}/assets/img/human-resources/shift-type.png">
 
-### 2.1 Start Time
+#### 2.1 Start Time
 The time of the day when this shift starts. The time is to be entered in 24Hrs format.
 
-### 2.2 End Time
+#### 2.2 End Time
 The time of the day when this shift ends. The time is to be entered in 24Hrs format.
 
 > Note: For cases where the 'End Time' is less that 'Start Time', the shift is assumed to be a night shift that starts on one calendar date and end on the next calendar date.
 
-### 2.3 Holiday List
+#### 2.3 Holiday List
 The Applicable Holidays for this shift can be selected here. If left blank then the default holiday list from the employee or the company document is taken in to account.
 
-### 2.4 Enable Auto Attendance
+#### 2.4 Enable Auto Attendance
 You can use this option to enable marking attendance for the employees assigned to this shift based on their 'Employee Checkin' records.
 
-### 2.5 Auto Attendance Settings
+#### 2.5 Auto Attendance Settings
 You can use the following settings to configure the Auto Attendance as per your requirements.
 
-### Determine Check-in and Check-out
+##### 2.5.1 Determine Check-in and Check-out
 Employee Check-in may not always have an IN/OUT log type. For, such scenarios you could use this option to get appropriate results from the auto attendance system.
 
 1. Alternating entries as IN and OUT during the same shift:
@@ -51,7 +52,7 @@ Employee Check-in may not always have an IN/OUT log type. For, such scenarios yo
 2. Strictly based on Log Type in Employee Checkin:
 	- The check-in is determined as IN or OUT strictly based on the 'Log Type' in the Employee Checkin record.
 
-### Working Hours Calculation Based On
+##### 2.5.2 Working Hours Calculation Based On
 Working hours can be calculated either by including the breaks in between the shift or by excluding the breaks.
 
 This can be configured using the following options:
@@ -63,22 +64,22 @@ This can be configured using the following options:
 	- Selecting this option excludes the time during which the Employee is checked out.
 	- i.e. Only the time during which the employee is checked in is calculated as working hours.
 
-### Begin check-in before shift start time
+##### 2.5.3 Begin check-in before shift start time
 Often employees would check-in a few minutes before the shift start time. To consider these check-ins as part of the shift during the calculation of attendance, you could setup this value accordingly.
 
-### Allow check-out after shift end time
+##### 2.5.4 Allow check-out after shift end time
 Often employees would check-out after the shift end time. To consider these check-outs as part of the shift during the calculation of attendance, you could setup this value accordingly.
 
-### Working Hours Threshold for Half Day
+##### 2.5.5 Working Hours Threshold for Half Day
 If the actual number of working hours is less than the given value in this field then the employee attendance is marked as 'Half Day'. If you never want to mark Half Day based on working hours, you should set this value to zero.
 
-### Working Hours Threshold for Absent
+##### 2.5.6 Working Hours Threshold for Absent
 If the actual number of working hours is less than the given value in this field then the employee attendance is marked as 'Absent'. If you never want to mark Absent based on working hours, you should set this value to zero.
 
-### Process Attendance After
+##### 2.5.7 Process Attendance After
 The date from which 'Auto Attendance' should start marking attendance. You should set it to a date after which you have Employee Checkin Records for this shift.
 
-### Last Sync of Checkin
+##### 2.5.8 Last Sync of Checkin
 This is the time upto which attendance is marked based on the Employee Checkin records. You should set this to a date and time upto which the Employee Checkin has been synced. Otherwise an employee might be marked as absent due to the lack of check-in records.
 
 # Shift Request
@@ -121,7 +122,7 @@ A Shift Request Approver is a user who can approve a Shift Request of an Employe
 
     <img class="screenshot" alt="Shift Request Approvers" src="{{docs_base_url}}/assets/img/human-resources/shift-request-approvers.png">
 
-    When an Employee belonging to a particular department request for Shift Type, the Shift Request Approver set in that Employee's department master will be considered as his Shift Type Approvers.
+    When any Employee belonging to a particular department request for Shift Type, the Shift Request Approver set in that Employee's department master will be considered as their Shift Type Approvers.
 
 
 * **Employee Level:**

@@ -18,13 +18,16 @@ To access Employee Advance, go to:
 ## 2. How to create an Employee Advance
 1. Go to: Employee Advance > New.
 1. Select Employee to whom you need to give the advance.
+1. The Currency field is auto fetched from the Salary Structure assigned to the Employee. If the Currency is different than companies default Currency, a field for Exchange Rate will be visible where the Expense Approver is expected to set desired value for Exhange Rate. (Currency field is introduced in version 13)
 1. Enter the Purpose and Advance Amount.
 1. Select the Advance Account and Mode of Payment.
 1. Save.
 
     <img class="screenshot" alt="Expense Claim" src="{{docs_base_url}}/assets/img/human-resources/employee-advance.png">
 
-> Note: The Employee can only Save the Employee Advance but cannot Submit it. It can be only submitted by the Expense Approver.
+> Note 1: For Advance Account, an account with either Employee's Currency or Company's default Currency as account currency can be selected.
+
+> Note 2: The Employee can only Save the Employee Advance but cannot Submit it. It can be only submitted by the Expense Approver.
 
 ## 3. Features
 

@@ -33,12 +33,10 @@ Once the Job Opening is saved, you can directly create a new [Job Applicant](/do
 
 > **Note:** You can set the Status of the Job Opening as Open/Closed. Once a Job Opening is Closed, you cannot create a Job Applicant against it.  
 
-
+ERPNext allows to plan your recruitment at a group company level. The number of Job Openings you can create for a Designation is restricted according to the Vacancies planned by the Staffing Plan defined for the company or one of it's parent group companies in the hierarchy. To understand how you can do configure this, check [Staffing Plan](/docs/user/manual/en/human-resources/staffing-plan)
 ## 3. Related Topics
 
 1. [Job Applicant](/docs/user/manual/en/human-resources/job-applicant)
 1. [Job Offer](/docs/user/manual/en/human-resources/job-offer)
 
-
-ERPNext allows to plan your recruitment at a group company level. The number of Job Openings you can create for a Designation is restricted according to the Vacancies planned by the Staffing Plan defined for the company or one of it's parent group companies in the hierarchy. To understand how you can do configure this, check [Staffing Plan](/docs/user/manual/en/human-resources/staffing-plan)
 

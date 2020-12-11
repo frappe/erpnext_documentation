@@ -11,9 +11,6 @@ During a loan process, the first step a customer or employee has to do is submit
 To access the Loan Application list, go to:
 > Home > Loan Management > Loan > Loan Application
 
-
-<img class="screenshot" alt="Loan Application" src="{{docs_base_url}}/assets/img/loan-management/loan-application.png">
-
 ## 1. Prerequisites
 Before creating and using a Loan Security, it is advised that you create the following first:
 
@@ -31,6 +28,8 @@ Before creating and using a Loan Security, it is advised that you create the fol
 7. You can also mention the proposed securities that will be pledged against a loan. For that, first tick the "Is Secure Loan" checkbox. Then in the proposed pledges table, you can enter the securities and their quantities.
 8. Click "Save" to save the draft of the Loan Application.
 9. Click "Submit" to submit the loan application.
+
+<img class="screenshot" alt="Loan Application" src="{{docs_base_url}}/assets/img/loan-management/loan-application.png">
 
 ## 3. Features
 

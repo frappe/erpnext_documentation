@@ -9,9 +9,6 @@
 To access the Loan Security Pledge list, go to:
 > Home > Loan Management > Loan > Loan Security Pledge
 
-
-<img class="screenshot" alt="Loan Application" src="{{docs_base_url}}/assets/img/loan-management/loan-security-pledge.png">
-
 ## 1. Prerequisites
 Before creating and using a Loan Security, it is advised that you create the following first:
 
@@ -28,6 +25,8 @@ Before creating and using a Loan Security, it is advised that you create the fol
 6. Click "Save" to save the draft of the Loan Security Pledge.
 7. Click "Submit" to submit the Loan Security Pledge.
 8. Once the Loan Security Pledge is Submitted it is ready to be Pledged Against a Loan.
+
+<img class="screenshot" alt="Loan Application" src="{{docs_base_url}}/assets/img/loan-management/loan-security-pledge.png">
 
 ### 2.1. Other ways to create a Loan Security Pledge
 1. You can also create a Loan Security Pledge from an approved Loan Application via the **Create** button on the top right

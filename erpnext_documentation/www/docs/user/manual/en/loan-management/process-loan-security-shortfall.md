@@ -9,9 +9,6 @@
 To access the Process Loan Security Shortfall list, go to:
 > Home > Loan Management > Loan Processes > Process Loan Security Shortfall
 
-
-<img class="screenshot" alt="Loan Security Shortfall" src="{{docs_base_url}}/assets/img/loan-management/process-loan-security-shortfall.png">
-
 ## 1. Prerequisites
 Before creating a Loan Security Unpledge, you must create the following first:
 
@@ -26,6 +23,9 @@ Before creating a Loan Security Unpledge, you must create the following first:
 3. Enter Loan Security Type if only the prices of a specific [Loan Security Type](/docs/user/manual/en/loan-management/loan-security-type) needs to be updated.
 4. Click "Save" to save the draft of the Loan Disbursement.
 5. Click "Submit" to submit the Loan Security Pledge.
+
+<img class="screenshot" alt="Loan Security Shortfall" src="{{docs_base_url}}/assets/img/loan-management/process-loan-security-shortfall.png">
+
 
 {next}
 

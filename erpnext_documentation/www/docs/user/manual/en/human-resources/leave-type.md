@@ -1,13 +1,13 @@
 # Leave Type
 
-**Leave Type refers to the types of leaves allocated to an Employee which they can use while making Leave Applications.** 
+**Leave Type refers to the types of leaves allocated to an Employee which they can use while making Leave Applications.**
 
 
 You can create any number of Leave Types based on your company’s requirements.
 
 To access Leave Type, go to:
 
-> Home > Human Resources > Leaves > Leave Type 
+> Home > Human Resources > Leaves > Leave Type
 
 ## 1. How to create a Leave Type
 
@@ -21,13 +21,13 @@ To access Leave Type, go to:
 
 Below is a detailed explanation of all the fields and checkboxes in Leave Type.
 
-* **Max Leaves Allowed:** This field allows you to set the maximum number of the annual allocation of this Leave Type while creating the Leave Policy. 
+* **Max Leaves Allowed:** This field allows you to set the maximum number of the annual allocation of this Leave Type while creating the Leave Policy.
 
 * **Applicable After (Working Days):** Enter the minimum number of working days here. Only the employees who have worked for this number of days or more will be allowed to apply for this particular leave type. Any other leaves (such as Casual Leave, Sick Leave.etc.) availed by the Employees after their joining date will also be considered while calculating working days of the Employee.
 
 * **Maximum Continuous Days Applicable:** It refers to the maximum number of days this particular Leave Type can be availed at a stretch. If an employee exceeds the maximum number of days, their extended leave will be considered as ‘Leave Without Pay'.
 
-* **Is Carry Forward:** If checked, the balance leaves of this Leave Type will be carried forward to the next allocation period.    
+* **Is Carry Forward:** If checked, the balance leaves of this Leave Type will be carried forward to the next allocation period.
 
 * **Is Leave Without Pay:** This ensures that the Leave Type will be treated as leaves without pay and salary will get deducted for this Leave Type.
 
@@ -47,24 +47,24 @@ Below is a detailed explanation of all the fields and checkboxes in Leave Type.
 
 ### 2.1 Leave Encashment
 
-It is possible that Employees can receive cash from their Employer for unused leaves granted to them in a Leave Period. Not all Leave Types need to be encashable, so, you should set "Allow Encashment" for only those Leave Types which are encashable. 
+It is possible that Employees can receive cash from their Employer for unused leaves granted to them in a Leave Period. Not all Leave Types need to be encashable, so, you should set "Allow Encashment" for only those Leave Types which are encashable.
 
 > **Note:** Leave encashment is allowed only in the last month of the Leave Period.
 
 <img class="screenshot" alt="Leave Encashment"
         src="{{docs_base_url}}/assets/img/human-resources/leave-encashment.png">
 
-**Encashment Threshold Days:**  This field indicates the number of leave days the Employees won't be able to encash. Above the mentioned days, the Employee is eligible to encash leaves. 
+**Encashment Threshold Days:**  This field indicates the number of leave days the Employees won't be able to encash. Above the mentioned days, the Employee is eligible to encash leaves.
 
 For example, if there are 10 leaves of a particular Leave Type which is encashable, and the Employee has 8 leaves left. If Encashment Threshold Days = 5, the Employee is given encashment of only 8 - 5 = 3 leaves.
 
 **Earning Component:** This field allows you to specify the Salary Component that will be encashed to Employees as a part of their Salary in the Salary Slip.
 
-> **Note:** On submitting a [Leave Encashment](/docs/user/manual/en/human-resources/leave-encashment) for an Employee, ERPNext automatically creates an [Additional Salary](/docs/user/manual/en/human-resources/additional-salary) which will get added to the Salary Slip of the Employee when processing the next payroll.
+> **Note:** On submitting a [Leave Encashment](/docs/user/manual/en/human-resources/leave-encashment) for an Employee, ERPNext automatically creates an [Additional Salary](/docs/user/manual/en/payroll/additional-salary) which will get added to the Salary Slip of the Employee when processing the next payroll.
 
 ### 2.2 Earned Leave
 
-Earned Leaves are leaves earned by an Employee after working with the company for a certain amount of time. Checking "Is Earned Leave" will allot leaves pro-rata basis by automatically updating Leave Allocation for leaves of this type at intervals set by 'Earned Leave Frequency'. 
+Earned Leaves are leaves earned by an Employee after working with the company for a certain amount of time. Checking "Is Earned Leave" will allot leaves pro-rata basis by automatically updating Leave Allocation for leaves of this type at intervals set by 'Earned Leave Frequency'.
 
 
 For example, an Employee is allotted 24 Privilege Leaves in a year, wherein the Privilege Leave is set as Earned Leave with Monthly allotment. In this case, the Employee will earn 2 (24 leaves/12 months) Privilege Leaves at the end of every month. The leave allotment process (background job) will only allot leaves considering the max leaves for the leave type and will round to 'Rounding' for fractions.
@@ -72,7 +72,7 @@ For example, an Employee is allotted 24 Privilege Leaves in a year, wherein the 
 <img class="screenshot" alt="Earned Leave"
         src="{{docs_base_url}}/assets/img/human-resources/earned-leave.png">
 
-> **Note:** The initial allocation of this Leave Tye will be 0. Leaves will be updated at the end of the Month (or as per the 'Earned Leave Frequency' set). 
+> **Note:** The initial allocation of this Leave Tye will be 0. Leaves will be updated at the end of the Month (or as per the 'Earned Leave Frequency' set).
 
 ### 2.3 Default Leave Types
 

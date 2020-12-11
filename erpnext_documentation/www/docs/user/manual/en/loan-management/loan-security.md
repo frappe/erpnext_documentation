@@ -12,9 +12,6 @@ To access the Loan Security list, go to:
 > Home > Loan Management > Loan Security > Loan Security
 
 
-<img class="screenshot" alt="Loan Security" src="{{docs_base_url}}/assets/img/loan-management/loan-security.png">
-
-
 ## 1. Prerequisites
 Before creating and using a Loan Security, it is advised that you create the following first:
 
@@ -28,6 +25,8 @@ Before creating and using a Loan Security, it is advised that you create the fol
 5. Enter current Loan Security Price.
 6. Enter Unit of Measurement
 7. Click on Save.
+
+<img class="screenshot" alt="Loan Security" src="{{docs_base_url}}/assets/img/loan-management/loan-security.png">
 
 {next}
 

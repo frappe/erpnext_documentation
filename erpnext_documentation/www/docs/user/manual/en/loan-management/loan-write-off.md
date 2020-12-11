@@ -7,8 +7,6 @@
 To access the Loan Write Off list, go to:
 > Home > Loan Management > Disbursement and Repayment > Loan Write Off
 
-<img class="screenshot" alt="Loan Write Off" src="{{docs_base_url}}/assets/img/loan-management/loan-write-off.png">
-
 ## 1. Prerequisites
 Before creating a Loan Write Off, you must create the following first:
 
@@ -23,6 +21,8 @@ Before creating a Loan Write Off, you must create the following first:
 5. Enter the write off amount.
 6. Click "Save" to save the transaction
 8. Click "Submit" to submit the Loan Write Off entry.
+
+<img class="screenshot" alt="Loan Write Off" src="{{docs_base_url}}/assets/img/loan-management/loan-write-off.png">
 
 ## 3. Features
 

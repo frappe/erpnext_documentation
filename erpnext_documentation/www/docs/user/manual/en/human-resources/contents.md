@@ -1,14 +1,7 @@
 <!-- add-breadcrumbs -->
 # Human Resources
 
-The Human Resources (HR) module covers the processes related to the HR department of a company. It maintains a complete employee database including contact information,
-salary details, attendance, performance evaluation, leaves, and appraisal records.
-
-The most important feature here is processing the payroll by using Payroll Entry to generate Salary Slips. Most countries have complex tax rules stating which expenses the company can make on behalf of its Employees.
-
-There are a set of rules for the company to deduct taxes and social security
-from employee payroll. ERPNext accommodates all types of taxes and
-their calculation.
+The Human Resources (HR) module covers the processes related to the HR department of a company. It maintains a complete employee database including contact information, attendance, performance evaluation, leaves, and appraisal records.
 
 ## 1. Topics
 ### 1.1 Employee
@@ -64,67 +57,39 @@ their calculation.
 1. [Employee Transfer](/docs/user/manual/en/human-resources/employee_transfer)
 1. [Employee Skill Map](/docs/user/manual/en/human-resources/employee_skill_map)
 
-
-### 1.7 Payroll
-1. [Payroll Management](/docs/user/manual/en/human-resources/payroll-intro)
-1. [Payroll Period](/docs/user/manual/en/human-resources/payroll-period)
-1. [Income Tax Slab](/docs/user/manual/en/human-resources/income-tax-slab)
-1. [Salary Component](/docs/user/manual/en/human-resources/salary-component)
-1. [Salary Structure](/docs/user/manual/en/human-resources/salary-structure)
-1. [Salary Structure Assignment](/docs/user/manual/en/human-resources/salary-structure-assignment)
-1. [Salary Slip](/docs/user/manual/en/human-resources/salary-slip)
-1. [Payroll Entry](/docs/user/manual/en/human-resources/payroll-entry)
-1. [Additional Salary](/docs/user/manual/en/human-resources/additional-salary)
-1. [Retention Bonus](/docs/user/manual/en/human-resources/retention-bonus)
-1. [Employee Incentive](/docs/user/manual/en/human-resources/employee-incentive)
-
-
-
-### 1.8 Employee Tax and Benefits
-1. [Employee Tax Exemption Declaration](/docs/user/manual/en/human-resources/employee-tax-exemption-declaration)
-1. [Employee Tax Exemption Proof Submission](/docs/user/manual/en/human-resources/employee-tax-exemption-proof-submission)
-1. [Employee Other Income](/docs/user/manual/en/human-resources/employee-other-income)
-1. [Employee Benefit Application](/docs/user/manual/en/human-resources/employee-benefit-application)
-1. [Employee Benefit Claim](/docs/user/manual/en/human-resources/employee-benefit-claim)
-
-
-### 1.9 Performance
+### 1.7 Performance
 1. [Appraisal](/docs/user/manual/en/human-resources/appraisal)
 1. [Energy Point System](/docs/user/manual/en/setting-up/energy-point-system)
 
-
-### 1.10 Expense Claims
+<!-- payroll/employee-other-income -->
+### 1.8 Expense Claims
 1. [Expense Claim](/docs/user/manual/en/human-resources/expense-claim)
 1. [Employee Advance](/docs/user/manual/en/human-resources/employee-advance)
 
-### 1.11 Loans
+### 1.9 Loans
 1. [Loan Management](/docs/user/manual/en/loan-management)
 1. [Loan Type](/docs/user/manual/en/loan-management/loan-type)
 1. [Loan Application](/docs/user/manual/en/loan-management/loan-application)
 1. [Loan](/docs/user/manual/en/loan-management/loan)
 
-### 1.12 Shift Management
+### 1.10 Shift Management
 1. [Shift Management](/docs/user/manual/en/human-resources/shift-management)
 
-### 1.13 Fleet Management
+### 1.11 Fleet Management
 1. [Fleet Management](/docs/user/manual/en/human-resources/fleet-management)
 1. [Vehicle](/docs/user/manual/en/human-resources/vehicle)
 1. [Vehicle Log](/docs/user/manual/en/human-resources/vehicle-log)
 
 
-### 1.14 Settings
+### 1.12 Settings
 1. [HR Settings](/docs/user/manual/en/human-resources/hr-settings)
 1. [Daily Work Summary Group](/docs/user/manual/en/human-resources/daily-work-summary-group)
 
 
-### 1.15 Reports
+### 1.13 Reports
 1. [Human Resources Reports](/docs/user/manual/en/human-resources/human-resources-reports)
 
-## 2. Articles
-1. [Leave Calculation In Salary Slip](/docs/user/manual/en/human-resources/articles/leave-calculation-in-salary-slip)
-1. [Working Days In Salary Slip](/docs/user/manual/en/human-resources/articles/working-days-in-salary-slip)
-
-## 3. Videos
+## 2. Videos
 1. [Employees](/docs/user/videos/learn/employee)
 1. [Leave Management](/docs/user/videos/learn/leave-management)
 1. [Expense Claims](/docs/user/videos/learn/expense-claim)

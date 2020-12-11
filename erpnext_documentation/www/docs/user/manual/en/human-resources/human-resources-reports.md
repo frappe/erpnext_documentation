@@ -1,55 +1,47 @@
 <!-- add-breadcrumbs -->
 # Human Resources Reports
 
-## Employee Leave Balance
+## 1. Monthly Attendance Sheet
+
+Report Shows monthly attendance on setting mandatory filters. There are different abbreviation for different Attendance status:
+
+1. P - Present
+2. A - Absent
+3. WFH - Work From Home
+4. L - Leave
+5. H - Holiday
+6. WO - Weekly Off
+
+<img alt="Employee Leave Balance" class="screenshot" src="{{docs_base_url}}/assets/img/human-resources/monthly-attendance-sheet-report.png">
+
+ERPNext also allows us to view monthly attendance sheet Summary. Check Summarized View Checkbox to view a summary of the report. It provides information such as Total Present, Total Absent, Total Leaves, Unmarked days, etc.
+
+
+It also provides Group by filters which allow the user to view records grouped by Branch, department, Grade, and designation.
+
+## 2. Employee Leave Balance
 
 These key reports can be found under:
 
 <img alt="Employee Leave Balance" class="screenshot" src="{{docs_base_url}}/assets/img/human-resources/employee-leave-balance-report.png">
 
-## Employee Birthday
-
-
-## 1. Employee Birthday
-
-## Employee Information
+## 3. Employee Birthday
 
 Employee Birthday Report shows month-wise birthdays of your Employees.
 
 <img alt="Employee Birthday" class="screenshot" src="{{docs_base_url}}/assets/img/human-resources/employee-birthday-report.png">
 
-## Employee Holiday Attendance
+## 4. Employee Holiday Attendance
 
 Employee Holiday Attendance shows the list of Employees who attended on Holidays.
 
 <img alt="Employee Information" class="screenshot" src="{{docs_base_url}}/assets/img/human-resources/employee-holiday-report.png">
 
-## Monthly Salary Register
-
-Monthly Salary Register shows net pay and its components of employee(s) at a glance.
-
-<img alt="Monthly Salary Register" class="screenshot" src="{{docs_base_url}}/assets/img/human-resources/monthly-salary-register-report.png">
-
-## 8. Vehicle Expenses Report
+## 5. Vehicle Expenses Report
 
 To track and monitor Vehicle Expenses you can use the Vehicle Expenses report. This report gives a one-stop view of all your Vehicle Expenses month-wise.
 
 <img class="screenshot" alt="Vehicle Log" src="{{docs_base_url}}/assets/img/human-resources/vehicle-expenses.png">
 
-## Monthly Attendance Sheet
-
-
-
-## Bank Remittance Report
-
-This report helps you to track bank transactions of payroll entries between companie(s) and employees. It shows the transaction between the bank accounts of the Company and the Employee with the Payment Date.
-
-<img alt="Monthly Salary Register" class="screenshot" src="{{docs_base_url}}/assets/img/human-resources/bank_remittance_report.png">
-
-## Loan Repayment Report
-
-Loan Repayment Report allows you to keep a track of loans by showing the loan amount, interest, payable amount, and EMI. It also shows the paid and outstanding amount.
-
-<img alt="Monthly Salary Register" class="screenshot" src="{{docs_base_url}}/assets/img/human-resources/loan_repayment.png">
 
 {next}

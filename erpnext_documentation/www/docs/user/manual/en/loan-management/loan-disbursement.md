@@ -9,9 +9,6 @@
 To access the Loan Disbursement list, go to:
 > Home > Loan Management > Disbursement and Repayment > Loan Disbursement
 
-
-<img class="screenshot" alt="Loan Disbursement" src="{{docs_base_url}}/assets/img/loan-management/loan-disbursement.png">
-
 ## 1. Prerequisites
 Before creating a Loan Disbursement, you must create the following first:
 
@@ -24,7 +21,9 @@ Before creating a Loan Disbursement, you must create the following first:
 3. Enter Disbursement Date.
 4. Enter Disbursed Amount.
 7. Click "Save" to save the draft of the Loan Disbursement.
-8. Click "Submit" to submit the Loan Security Pledge.
+8. Click "Submit" to submit the Loan Disbursement.
+
+<img class="screenshot" alt="Loan Disbursement" src="{{docs_base_url}}/assets/img/loan-management/loan-disbursement.png">
 
 ### 2.1. Other ways to create a Loan Disbursement
 You can also create a Loan Disbursement from a sanctioned Loan via the **Create** button on the top right

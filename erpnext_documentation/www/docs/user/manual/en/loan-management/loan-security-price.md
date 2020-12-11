@@ -10,10 +10,6 @@ price for updation.
 To access the Loan Security Price list, go to:
 > Home > Loan Management > Loan Security > Loan Security Price
 
-
-<img class="screenshot" alt="Loan Security Price" src="{{docs_base_url}}/assets/img/loan-management/loan-security-price.png">
-
-
 ## 1. Prerequisites
 Before creating and using a Loan Security Price, it is advised that you create the following first:
 
@@ -26,6 +22,9 @@ Before creating and using a Loan Security Price, it is advised that you create t
 3. Enter Loan Security Price.
 4. Enter the Valid From and Valid Up to timestamps.
 7. Click on Save.
+
+<img class="screenshot" alt="Loan Security Price" src="{{docs_base_url}}/assets/img/loan-management/loan-security-price.png">
+
 
 {next}
 

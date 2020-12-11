@@ -25,7 +25,7 @@ Before creating and using a Loan, it is advised that you create the following fi
 1. Select Loan Application if Loan Application is created against that Applicant. All the details in loan application will be automatically fetched in the Loan record.
 1. Select Company.
 1. Enter posting date.
-1. If applicant type is Employee then check "Repay from Salary" if loan will be repaid from salary.
+1. If applicant type is Employee and Currency in Salary Structure assigned to that Employee is same as Company's Default Currency, then check "Repay from Salary" if loan will be repaid from salary.
 
   <img class="screenshot" alt="Make Loan" src="{{docs_base_url}}/assets/img/loan-management/loan-details.png">
 
@@ -64,6 +64,8 @@ If the loan is fully or partially disbursed and "Repay from Salary" is unchecked
 To auto deduct the Loan repayment from Salary, check "Repay from Salary" in Loan. It will appear as Loan Repayment in Salary Slip and a [Loan Repayment](/docs/user/manual/en/loan-management/loan-repayment) record will also be automatically created for the it.
 
 <img class="screenshot" alt="Salary Slip Loan" src="{{docs_base_url}}/assets/img/loan-management/salary-slip-loan.png">
+
+>Note: This applies only to Employees whose Currency in Salary Structure assigned to them is same as Company's Default Currency.
 
 {next}
 
