@@ -1,4 +1,5 @@
 amazon_integration
+aws_s3
 shopify_integration
 woocommerce_integration
 plaid_integration

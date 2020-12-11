@@ -35,13 +35,18 @@ Below is a detailed explanation of all the fields and checkboxes in Leave Type.
 
 * **Allow Negative Balance:** If checked, the system will always allow to apply and approve [Leave Applications](/docs/user/manual/en/human-resources/leave-application) for the Leave Type, even if there is no leave balance.
 
-
 * **Include holidays within leaves as leaves:** Check this option if you wish to count holidays within leaves as a ‘leave’. For example, if an Employee has applied for leave on Friday and Monday, and Saturday and Sunday are weekly offs, if the 'Include holidays within leaves as leaves' checkbox for the Leave Type is checked, the system will consider Saturday as Sunday as leaves too. Such holidays will be deducted from the total number of leaves.
-
 
 * **Is Compensatory:** Compensatory leaves are leaves granted for working overtime or on holidays, normally compensated as an encashable leave. You can check this option to mark the Leave Type as compensatory. An Employee can request for compensatory leaves using [Compensatory Leave Request](/docs/user/manual/en/human-resources/compensatory-leave-request).
 
+> Introduced in version 13
 
+* **Is Partially Paid Leaves:** This checkbox ensures that Leave Type will be treated as partially paid and some part of daily earnings will be paid through salary slip. If this checkbox is enabled then a field "Fraction of Daily Salary Per Leave" appears where you can define the fraction of daily salary paid on the partial leave day.
+
+    <img class="screenshot" alt="New Leave Type"
+    src="{{docs_base_url}}/assets/img/human-resources/is-partially-paid-leaves.png">
+
+> **Note:** The Leave Type can be either Leave Without pay or Partially Paid.
 
 ## 2. Features
 
