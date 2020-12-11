@@ -57,11 +57,11 @@ The corresponding Stock Entry is cancelled and the linked Inpatient Medication O
 
 ### 3.1 Make Stock Entry for Drug Shortage
 
-If _Update Stock_ is checked, and the required qty of drugs is not available for consumption in the selected warehouse, on submission you will see a summary of all the drugs and the shortage qty.
+If _Update Stock_ is checked, and the required quantity of drugs is not available for consumption in the selected warehouse, on submission, you will see a summary of all the drugs and the shortage quantity.
 
 <img class="screenshot" alt="Drug Shortage Dialog" src="{{docs_base_url}}/assets/img/healthcare/drug-shortage-dialog.gif">
 
-A **Make Stock Entry** button will be visible when the doc is in the draft state and _Update Stock_ is checked. On clicking this button, the system will check for drug shortage and create a new Stock Entry for Material Transfer by mapping all the drugs and the shortage qty for each. The "To Warehouse" for this Stock Entry will be the Medication Warehouse that you have selected in the Inpatient Medication Entry. You can then set the "Source Warehouse", save, and submit the Stock Entry to proceed with the Medication Entry.
+A **Make Stock Entry** button will be visible when the document is in the draft state and _Update Stock_ is checked. On clicking this button, the system will check for drug shortage and create a new Stock Entry for Material Transfer by mapping all the drugs and the shortage quantity for each. The "To Warehouse" for this Stock Entry will be the Medication Warehouse that you have selected in the Inpatient Medication Entry. You can then set the "Source Warehouse", save, and submit the Stock Entry to proceed with the Medication Entry.
 
 <img class="screenshot" alt="Make Stock Entry for Drug Shortage" src="{{docs_base_url}}/assets/img/healthcare/make-stock-entry.gif">
 
