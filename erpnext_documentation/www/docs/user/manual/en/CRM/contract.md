@@ -58,7 +58,7 @@ You can create templates by using Jinja. Eg:
 The parties enter into this contract on {{ start_date }}.
 ```
 
-When you create a new contract using this template, the `{{ start_date }}` is replaced by date entered into the field of the same name. 
+When you create a new contract using this template, the `{{ start_date }}` is replaced by the date entered into the field of the same name. 
 
 ![Contract Template](/docs/assets/img/crm/contract-template-jinja.gif)
 
