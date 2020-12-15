@@ -1,14 +1,18 @@
 <!-- add-breadcrumbs -->
 
-All GL Entries can easily be exported in DATEV-Format for your tax advisor.
+All **GL Entries** can be exported in DATEV-Format for your tax advisor.
+
+## DATEV-Format
+
+The german DATEV eG is a registered cooperative of the tax, accountancy and legal professions. The DATEV format is a CSV-based file interface for importing data into DATEV Accounting. The interface documentation is available in the DATEV developer portal:
+
+- [DATEV format v7.0](https://developer.datev.de/portal/system/files/files/book/datev_format_v7.0.zip).
 
 ## Prerequisites
 
 To use the DATEV Export, these need to be created first:
 
 - [DATEV Settings](/docs/user/manual/en/regional/germany/datev-settings)
-
-The export assumes that you have created a dedicated receivable **Account** for each **Customer** and a dedicated payable **Account** for each **Supplier**.
 
 ## Filters
 
@@ -24,10 +28,20 @@ From the menu you can open the [DATEV Settings](/docs/user/manual/en/regional/ge
 
 ## Exported Data
 
-Currently, you can export **GL Entries** in the way ERPNext creates them. For example, booking a **Sales Invoice** will result in three **GL Entries** and three rows in the DATEV Export:
+Currently, you can export **GL Entries** in the way ERPNext creates them. For example, booking a **Sales Invoice** will result in three **GL Entries**:
 
-1. Debtors against Sales (gross amount),
-2. Tax against Customer (tax amount) and
-3. Sales against Customer (net amount).
+| Debit amount | Credit amount | Account | Against         |
+|--------------|---------------|---------|-----------------|
+| Gross amount |               | Debtors | Revenue Account |
+|              | Tax amount    | Tax     | Customer        |
+|              | Net amount    | Sales   | Customer        |
 
-Please consult your tax advisor about if and how you can use this data.
+However, in ERPNext the right side is not necessarily an **Account**. It could also be multiple accounts, a **Customer** or a **Supplier**. Therefore, we use a temporary against account that can be specified in [DATEV Settings](/docs/user/manual/en/regional/germany/datev-settings.md). All GL Entries are made against this account. The rows in the DATEV Export will look something like this:
+
+| Amount       | Debit or Credit | Account | Against Account |
+|--------------|-----------------|---------|-----------------|
+| Gross amount | Debit           | Debtors | Temporary       |
+| Tax amount   | Credit          | Tax     | Temporary       |
+| Net amount   | Credit          | Sales   | Temporary       |
+
+> Please consult your tax advisor about if and how you can use this data.
