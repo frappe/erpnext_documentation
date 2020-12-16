@@ -3,14 +3,14 @@
 
 **A sold Item being returned is known as a Sales Return.**
 
-Goods sold being returned happens commonly in business. They could be returned by the customer due to quality issues, non-delivery on the agreed date, or any other reason. 
+Businesses often return goods that are already sold. They could be returned by the customer due to quality issues, non-delivery on the agreed date, or any other reason.
 
 ## 1. Prerequisites
 Before creating and using a Sales Return, it is advised that you create the following first:
 
 * [Item](/docs/user/manual/en/stock/item)
 * [Sales Invoice](/docs/user/manual/en/accounts/sales-invoice)
-    
+
     Or
 
     [Delivery Note](/docs/user/manual/en/stock/delivery-note)
@@ -39,6 +39,14 @@ Before creating and using a Sales Return, it is advised that you create the foll
 
 If Perpetual Inventory is enabled, the system will also post accounting entry against warehouse account to sync warehouse account balance with stock balance as per Stock Ledger.
 
-## 3. Related Topics
+## 3. Impact on Stock Return via Delivery Note
+On Creating a Sales Return against a Delivery Note:
+
+* The **Returned Quantity** in the original Delivery Note along with any Sales Order linked to it, is updated.
+
+* The original Delivery Note's status is changed to **Return Issued** if 100% returned:
+  ![Return Issued](/docs/assets/img/stock/sales-return-issue.png)
+
+## 4. Related Topics
 1. [Purchase Return](/docs/user/manual/en/stock/purchase-return)
 1. [Perpetual Inventory](/docs/user/manual/en/stock/perpetual-inventory)

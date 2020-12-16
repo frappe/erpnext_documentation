@@ -12,7 +12,7 @@ Before creating and using a Purchase Return, it is advised that you create the f
 
 * [Item](/docs/user/manual/en/stock/item)
 * [Purchase Invoice](/docs/user/manual/en/accounts/purchase-invoice)
-    
+
     Or
 
     [Purchase Receipt](/docs/user/manual/en/stock/purchase-receipt)
@@ -37,6 +37,14 @@ Before creating and using a Purchase Return, it is advised that you create the f
 
 If Perpetual Inventory enabled, the system will also post accounting entry against warehouse account to sync warehouse account balance with stock balance as per Stock Ledger.
 
-### 3. Related Topics
+## 3. Impact on Stock Return via Purchase Receipt
+On Creating a Purchase Return against a Purchase Receipt:
+
+* The **Returned Quantity** in the original Purchase Receipt along with any Purchase Order linked to it, is updated.
+
+* The original Purchase Receipt's status is changed to **Return Issued** if 100% returned:
+  ![Return Issued](/docs/assets/img/stock/purchase-return-issue.png)
+
+### 4. Related Topics
 1. [Sales Return](/docs/user/manual/en/stock/sales-return)
 1. [Perpetual Inventory](/docs/user/manual/en/stock/perpetual-inventory)

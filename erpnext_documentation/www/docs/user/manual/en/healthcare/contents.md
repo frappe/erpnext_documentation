@@ -58,3 +58,4 @@ The following are the detailed guides on each of the functionalities ready to us
 ### 8. Records, History and Reports
 1. [Patient History](/docs/user/manual/en/healthcare/patient_history)
 1. [Patient Appointment Analytics](/docs/user/manual/en/healthcare/patient_appointment_analytics)
+1. [Inpatient Medication Orders Report](/docs/user/manual/en/healthcare/inpatient_medication_orders_report)

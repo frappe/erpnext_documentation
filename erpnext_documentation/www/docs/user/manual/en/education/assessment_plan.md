@@ -47,7 +47,7 @@ Apart from the mandatory fields, you may also add the following details to the a
 1. **Examiner**: Add the name of the Examining Instructor for this assessment.
 1. **Supervisor**: Add the name of the Supervising Instructor for this assessment.
 
-![Assessment Plan](/docs/assets/img/education/education-assessment-plan-2)
+![Assessment Plan](/docs/assets/img/education/education-assessment-plan-2.png)
 
 ### 3.2. Evaluate
 
