@@ -72,7 +72,7 @@ If the frequency is set as Monthly, Quarterly, Half-yearly or Yearly, then it wi
 
 > Introduced in version 13
 
-Auto Repeat with Weekly frequency allows you to select on which all days you want the recurring documents to be created.
+Auto Repeat with Weekly frequency allows you to select the days on which you want the recurring documents to be created.
 
 <img class="screenshot" alt="Auto Repeat Weekdays" src="/docs/assets/img/automation/auto-repeat-weekdays.png">
 
