@@ -68,16 +68,25 @@ If the frequency is set as Monthly, Quarterly, Half-yearly or Yearly, then it wi
 - **Repeat on Day**: Day of the month on which recurring document will be created. For example, if frequency is Monthly and you enter 7 then it will generate recurring document on 7th of the respective month.
 - **Repeat on Last Day of the Month**: This option is available as the last day of every month is different. For example, in a leap year last day of Feb is 29th, and it is 28th otherwise. If you check this option, it will create recurring documents on the last day of the respective months.
 
-### 2.4 Dashboard
+### 2.4 Ability to select weekdays for Auto Repeat
+
+> Introduced in version 13
+
+Auto Repeat with Weekly frequency allows you to select the days on which you want the recurring documents to be created.
+
+<img class="screenshot" alt="Auto Repeat Weekdays" src="/docs/assets/img/automation/auto-repeat-weekdays.png">
+
+### 2.5 Dashboard
+
 You can see the Auto Repeat schedule in the Dashboard of Auto Repeat document. If you don't specify the End Date then the schedule will show only the Next Schedule Date.
 
 <img class="screenshot" alt="Allow Auto Dashboard" src="/docs/assets/img/automation/auto-repeat-dashboard.png">
 
-### 2.5 Auto Repeat Frequency on the sidebar
+### 2.6 Auto Repeat Frequency on the sidebar
 When a document is set on Auto Repeat you can see the Auto Repeat frequency on the sidebar.
 You can click on the status to see the linked Auto Repeat document.
 
 <img class="screenshot" alt="Auto Repeat Frequency" src="/docs/assets/img/automation/auto-repeat-frequency.png">
 
-### 2.6 Disable Auto Repeat
+### 2.7 Disable Auto Repeat
 If you check this field it will stop creating recurring documents and unlink the Auto Repeat document from the Reference Document.
