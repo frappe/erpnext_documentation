@@ -56,7 +56,7 @@ The following additional details can be added when editing a new task:
 * **Is Milestone**: This box can be checked in the cases where a particular task is a Milestone in a Project.
 * **Description**: You can add a description of the task here.
 
-**Note**: Based on the values of **Begin** and **Duration** field, the **Expected Start Date** and **Expected End Date** gets calculted for Project Tasks created using Project Template.
+**Note**: Based on the values of **Begin** and **Duration** field, the **Expected Start Date** and **Expected End Date** gets calculated for Project Tasks created using Project Template.
 
   <img class="screenshot" alt="Task" src="{{docs_base_url}}/assets/img/project/projects-task-timeline.png">
 
