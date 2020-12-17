@@ -17,7 +17,7 @@ To access Project Template, go to:
   2. Add the following details: 
       * **Project Template Name**: Title of the Project Template
       * **Project Type**: Project Templates, just like projects can be classified into different project types, e.g., Internal or External. 
-      * **Tasks**: Each Project Template will have a set of predefined sequence of tasks. In this table, you can select the tasks you want for this template.
+      * **Tasks**: Each Project Template will have a set of a predefined sequence of tasks. In this table, you can select the tasks you want for this template.
 
 ## 2. Related Topics
   1. [Project](/docs/user/manual/en/projects/project)

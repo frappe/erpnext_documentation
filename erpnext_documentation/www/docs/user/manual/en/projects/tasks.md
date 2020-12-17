@@ -38,7 +38,7 @@ The following additional details can be added when editing a new task:
   * **Type**: If your task can be defined under a particular Task Type, say, User Training or User Demo, you can enter the Task Type here. It can be used to filter the Tasks based on Task Types.
   * **Color**: Each task can be recognized by a different color. This helps in identifying a task while creating Gantt Charts.
   * **Is Group**: This box can be checked to indicate that a task is a parent task, and can be further divided into multiple sub-tasks.
-  * **Is Template**: This box can be checked to indicate that this task is a template task, and is meant to be used by a Project Template.
+  * **Is Template**: This box can be checked to indicate that this task is a template task, and is meant to be used in a Project Template.
   * **Parent Task**: If a particular task is a part of a group task, the parent task can be linked to the task from this field.
   
   <img class="screenshot" alt="Task" src="{{docs_base_url}}/assets/img/project/timesheet/project-task.png">
