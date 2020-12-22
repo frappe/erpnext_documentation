@@ -1,13 +1,11 @@
 <!-- add-breadcrumbs -->
 # E Invoicing under GST
 
-Under GST, all small and large businesses are supposed to register all sales invoices onto GST portal that falls under one of the following categories:
-- Business to Business
-- Supply to SEZ
-- Exports
-- Deemed Exports
+E Invoicing has been introduced to standardized the invoicing process. All ERPs and softwares has to accommodate to the invoice format defined by GSTN. It also provide a level of automation in filling GSTR reports.
 
-To help automate the E Invoicing process, we have integrated ERPNext with a GSP so you can easily generate IRNs and signed E Invoices from your ERPNext Sales Invoices.
+Under the new e-invoicing system, businesses with turnover higher than 100Cr are supposed to get all business to business (B2B) invoices electronically authenticated with GSTN by generating unique Invoice Referece Number (IRN).
+
+To help automate the E Invoicing process, we have integrated ERPNext with a GST Suvidha Provider (GSP) so you can easily authenticate ERPNext Sales Invoices with GSTN.
 
 ## Prerequisites
 
@@ -15,7 +13,6 @@ To help automate the E Invoicing process, we have integrated ERPNext with a GSP 
 - GST Accounts must be set in the **GST Settings** DocType.
 
 ## Setting up
-
 
 ### Getting Credentials
 
@@ -40,21 +37,27 @@ Create a sales invoice and keep it under Draft state. Click on **E Invoicing** b
 
 <img class="screenshot" src="/docs/assets/img/regional/india/einv_gen_irn_button.png">
 
+Once IRN is generation process is successful, QRCode and IRN will be stored in the sales invoice. Once these are generated sales invoice fields cannot be edited.
+
 <img class="screenshot" src="/docs/assets/img/regional/india/einv_generated_irn.png">
+
+You can print the E-Invoice using default GST E-Invoice Print Format. Or you can manually edit your own print format to include e-invoice fields.
 
 <img class="screenshot" src="/docs/assets/img/regional/india/einv_print_format.png">
 
 ### Cancel IRN
 
-Once you generate IRN for an invoice and submit it, you will have **Cancel IRN** button in the E Invoicing button group. Clicking on it will open up a popup which will ask for reason of cancellation and remark. Once you cancel the IRN, invoice will look something like this.
+If you have generated IRN for an invoice with faulty data then, you can cancel it with **Cancel IRN** button under the E Invoicing button group. Clicking on it will open up a popup which will ask for reason of cancellation and remark.
 
 <img class="screenshot" src="/docs/assets/img/regional/india/einv_cancel_irn_button.png">
+
+Once you cancel the IRN, invoice will look something like this.
 
 <img class="screenshot" src="/docs/assets/img/regional/india/einv_cancelled_irn.png">
 
 ### Generating E Way Bill
 
-E Way Bill can be generated along with IRN if Transporter Info is provided. You can find Transporter Info section in the bottom part of the invoice. You must select transporter, mode of transport and distance to generate E Way Bill. You can also generate E Way Bill after generating IRN and submitting the invoice. 
+E Way Bill can also be generated along with IRN if **Transporter Info** is provided. You can find Transporter Info section in the bottom part of the invoice. You must select **Transporter**, **Mode of Transport** and **Distance** to generate E Way Bill. You can also generate E Way Bill after generating IRN and submitting the invoice.
 
 <img class="screenshot" src="/docs/assets/img/regional/india/einv_gen_ewaybill_button.png">
 
@@ -62,7 +65,7 @@ E Way Bill can be generated along with IRN if Transporter Info is provided. You 
 
 ### Cancelling E Way Bill
 
-The process is similar to cancelling of IRN. Click on Cancel E Way Bill and then enter reason and remarks for cancellation.
+The process is similar to the cancellation of IRN. Click on Cancel E Way Bill and then enter reason and remarks for cancellation.
 
 <img class="screenshot" src="/docs/assets/img/regional/india/einv_cancel_ewaybill_button.png">
 
