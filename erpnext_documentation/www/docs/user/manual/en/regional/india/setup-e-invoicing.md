@@ -11,17 +11,28 @@ To help automate the E Invoicing process, we have integrated ERPNext with a GSP 
 
 ## Prerequisites
 
-- You must have your GSTIN registered on E Invoice [portal](https://einvoice1.gst.gov.in/)
+- You must have a registered account on E Invoice [portal](https://einvoice1.gst.gov.in/)
 - GST Accounts must be set in the **GST Settings** DocType.
 
 ## Setting up
 
-Go to **E Invoice Settings** and click on **Enable** checkbox. This will allow you to enter credentials which are used for connecting with GSP.
 
-1. **Client ID and Client Secret**: You will have to obtain these credentials from GSP which ERPNext has been integrated with. Contact ERPNext support for getting your credentials.
+### Getting Credentials
+
+1. Login into E Invoice [portal](https://einvoice1.gst.gov.in/) with your username & password.
+1. Click on **API registration** on the sidebar.
+1. Click on **User Credentials** from the expanded list.
+1. Click on **Create API User**.
+1. Click on **Through GSP** and select **Adequare Info Private Limited**.
+1. Create a username and password which will be used to authenticate with GSP.
+
+### Setting Up ERPNext
+
+Go to **E Invoice Settings** and click on **Enable** checkbox.
+
 1. **GSTIN**: GSTIN by which your company is registered on e-invoice portal.
-1. **Username**: Username used to login into e-invoice portal.
-1. **Password**: Password used to login into e-invoice portal.
+1. **Username**: Username created in previous step.
+1. **Password**: Password created in previous step.
 
 ### Generating IRN
 
