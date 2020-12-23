@@ -56,6 +56,7 @@ In case the attendance for some employees is not marked, you can mark them as pr
 
 
 It is also, possible to set up marking of attendance automatically based on check-in/check-out logs from Biometric/RFID Devices (or any other similar mechanisms that produce IN/OUT logs of the employee). Please refer to [Auto Attendance](/docs/user/manual/en/human-resources/auto-attendance) feature for more information.
+
 ## 4. Related Topics
 
 1. [Employee Attendance Tool](/docs/user/manual/en/human-resources/employee-attendance-tool)
