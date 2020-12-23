@@ -1,5 +1,5 @@
 <!-- add-breadcrumbs -->
-# E Invoicing under GST
+# E-Invoicing under GST
 
 E-Invoicing has been introduced to standardize the invoicing process. All ERPs and software have to accommodate the invoice format defined by GSTN. It also provides a level of automation in filling GSTR reports.
 
