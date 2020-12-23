@@ -1,43 +1,45 @@
 <!-- add-breadcrumbs -->
 # E-Invoicing under GST
 
+> Introduced in version 13
+
 E-Invoicing has been introduced to standardize the invoicing process. All ERPs and software have to accommodate the invoice format defined by GSTN. It also provides a level of automation in filling GSTR reports.
 
-Under the new e-invoicing system, businesses with turnover higher than 100Cr are supposed to get all business to business (B2B) invoices electronically authenticated with GSTN by generating a unique Invoice Reference Number (IRN).
+Under the new e-invoicing system, businesses with turnover higher than ₹100Cr are supposed to get all business to business (B2B) invoices electronically authenticated with GSTN by generating a unique Invoice Reference Number (IRN).
 
 To help automate the E-Invoicing process, we have integrated ERPNext with a GST Suvidha Provider (GSP) so you can easily authenticate ERPNext Sales Invoices with GSTN.
 
-## Prerequisites
+## 1. Prerequisites
 
 - You must have a registered account on E-Invoice [portal](https://einvoice1.gst.gov.in/)
-- GST Accounts must be set in the **GST Settings** DocType.
+- GST Accounts must be set in the "GST Settings" DocType.
 
-## Setting up
+## 2. Setting up E-Invoicing
 
-### Getting Credentials
+### 2.1 Getting Credentials
 
-1. Login into E-Invoice [portal](https://einvoice1.gst.gov.in/) with your username & password.
-1. Click on **API registration** on the sidebar.
-1. Click on **User Credentials** from the expanded list.
-1. Click on **Create API User**.
-1. Click on **Through GSP** and select **Adequare Info Private Limited**.
+1. Login into E-Invoice [portal](https://einvoice1.gst.gov.in/) with your username and password. Register with a username and password if you haven't created an account already.
+1. Click on "API registration" on the sidebar.
+1. Click on "User Credentials" from the expanded list.
+1. Click on "Create API User".
+1. Click on "Through GSP" and select "Adequare Info Private Limited".
 1. Create a username and password which will be used to authenticate with GSP.
 
-### Setting Up ERPNext
+### 2.2 Setting Up ERPNext
 
-Go to **E-Invoice Settings** and click on the **Enable** checkbox.
+Go to "E-Invoice Settings" and click on the "Enable" checkbox.
 
 1. **GSTIN**: GSTIN by which your company is registered on the e-invoice portal.
-1. **Username**: Username created in the previous step.
-1. **Password**: Password created in the previous step.
+1. **Username**: Username created in the previous step for authenticating with GSP.
+1. **Password**: Password created in the previous step for authenticating with GSP.
 
-### Generating IRN
+### 2.3 Generating IRN
 
-Create a sales invoice and keep it under the Draft state. Click on the **E-Invoicing** button group and then on **Generate IRN**. If the Sales Invoice doesn't have any validation errors, IRN will be generated and updated in the Sales Invoice. You can now submit the invoice and print the E-Invoice with QRCode image by selecting **GST E-Invoice** Print Format while printing.
+Create a Sales Invoice and keep it in the Draft state. Click on the **E-Invoicing** button group and then on **Generate IRN**. If the Sales Invoice doesn't have any validation errors, IRN will be generated and updated in the Sales Invoice. You can now submit the invoice and print the E-Invoice with QRCode image by selecting "GST E-Invoice" Print Format while printing.
 
 <img class="screenshot" src="/docs/assets/img/regional/india/einv_gen_irn_button.png">
 
-Once IRN is generation process is successful, QRCode and IRN will be stored in the sales invoice. Once these are generated sales invoice fields cannot be edited.
+Once IRN is generation process is successful, QRCode and IRN will be stored in the Sales Invoice. Once these are generated, Sales Invoice fields cannot be edited.
 
 <img class="screenshot" src="/docs/assets/img/regional/india/einv_generated_irn.png">
 
@@ -45,7 +47,7 @@ You can print the E-Invoice using the default GST E-Invoice Print Format. Or you
 
 <img class="screenshot" src="/docs/assets/img/regional/india/einv_print_format.png">
 
-### Cancel IRN
+### 2.4 Cancel IRN
 
 If you have generated IRN for an invoice with faulty data then, you can cancel it with the **Cancel IRN** button under the E-Invoicing button group. Clicking on it will open up a popup which will ask for the reason for cancellation and remark.
 
@@ -55,18 +57,22 @@ Once you cancel the IRN, the invoice will look something like this.
 
 <img class="screenshot" src="/docs/assets/img/regional/india/einv_cancelled_irn.png">
 
-### Generating E Way Bill
+## 3. E-Way bill
 
-E Way Bill can also be generated along with IRN if **Transporter Info** is provided. You can find the Transporter Info section in the bottom part of the invoice. You must select **Transporter**, **Mode of Transport**, and **Distance** to generate E Way Bill. You can also generate E Way Bill after generating IRN and submitting the invoice.
+### 3.1 Generating E-Way Bill
+
+E-Way Bill can also be generated along with IRN if **Transporter Info** is provided. You can find the Transporter Info section in the bottom part of the invoice. You must select **Transporter**, **Mode of Transport**, and **Distance** to generate E-Way Bill. You can also generate E Way Bill after generating IRN and submitting the invoice.
 
 <img class="screenshot" src="/docs/assets/img/regional/india/einv_gen_ewaybill_button.png">
 
+You will see a popup with relevant info before submitting:
 <img class="screenshot" src="/docs/assets/img/regional/india/einv_gen_ewaybill_dialog.png">
 
-### Cancelling E Way Bill
+### 3.2 Cancelling-E Way Bill
 
-The process is similar to the cancellation of IRN. Click on Cancel E Way Bill and then enter reason and remarks for cancellation.
+The process is similar to the cancellation of IRN. Click on Cancel E-Way Bill and then enter reason and remarks for cancellation.
 
 <img class="screenshot" src="/docs/assets/img/regional/india/einv_cancel_ewaybill_button.png">
 
+The cancelled E-Way bill will look like this:
 <img class="screenshot" src="/docs/assets/img/regional/india/einv_cancelled_ewaybill.png">
