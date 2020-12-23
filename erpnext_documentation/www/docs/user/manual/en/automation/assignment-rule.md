@@ -62,8 +62,8 @@ If you want to set a due date on Issue assignment based on the "Resolution By" d
 
 **Note:**
 
-- `Due Date Based On` option will not be available if `Document Type` is not yet selected or if the selected Document Type does not have any `Date` or `Datetime` field.
-- Due Date in the assignment/ToDo will be updated whenever the `Due Date Based On` field value is updated in the reference document.
+- "Due Date Based On" option will not be available if "Document Type" is not yet selected or if the selected Document Type does not have any "Date" or "Datetime" field.
+- Due Date in the assignment/ToDo will be updated whenever the "Due Date Based On" field value is updated in the reference document.
 
 ### 2. Related Topics
 
