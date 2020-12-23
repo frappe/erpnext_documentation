@@ -3,7 +3,7 @@
 
 The various reports in the Support module help understand data on how quickly support staff responded to customer issues, the issue types, issue priorities, timelines, and more.
 
-## First Response Time for Issues
+## 1. First Response Time for Issues
 
 This report provides a date-wise summary of Average First Response Time for Issues reported during the selected time frame. It will display the date and the "Average First Response Time" taken to respond to all the issues created on the respective date.
 
@@ -12,7 +12,7 @@ To access the First Response Time for Issues report, go to:
 
 <img class="screenshot" alt="First Response Time for Issues" src="{{docs_base_url}}/assets/img/support/first-response-time.png">
 
-## Issue Summary
+## 2. Issue Summary
 
 This report provides a detailed summary of issues reported based on the filters. You can view the summary based on the following parameters:
 
@@ -35,7 +35,7 @@ To access the Issue Summary report, go to:
 
 <img class="screenshot" alt="Issue Summary" src="{{docs_base_url}}/assets/img/support/issue-summary-report.png">
 
-## Issue Analytics
+## 3. Issue Analytics
 
 This report provides a count of issues according to weekly, monthly, quarterly, and yearly time series based on the following parameters:
 
