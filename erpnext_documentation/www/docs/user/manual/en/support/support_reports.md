@@ -1,6 +1,8 @@
 <!-- add-breadcrumbs -->
 # Support Reports
 
+The various reports in the Support module help understand data on how quickly support staff responded to customer issues, the issue types, issue priorities, timelines, and more.
+
 ## First Response Time for Issues
 
 This report provides a date-wise summary of Average First Response Time for Issues reported during the selected time frame. It will display the date and the "Average First Response Time" taken to respond to all the issues created on the respective date.
