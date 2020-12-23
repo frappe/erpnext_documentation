@@ -61,6 +61,8 @@ Once you cancel the IRN, the invoice will look something like this.
 
 ### 3.1 Generating E-Way Bill
 
+Previously E-Way bills were generated separately, now they can be generated when doing e-Invoicing.
+
 E-Way Bill can also be generated along with IRN if **Transporter Info** is provided. You can find the Transporter Info section in the bottom part of the invoice. You must select **Transporter**, **Mode of Transport**, and **Distance** to generate E-Way Bill. You can also generate E Way Bill after generating IRN and submitting the invoice.
 
 <img class="screenshot" src="/docs/assets/img/regional/india/einv_gen_ewaybill_button.png">
