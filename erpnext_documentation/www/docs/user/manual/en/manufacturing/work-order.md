@@ -60,9 +60,9 @@ The Source Warehouse can be changed for the raw material items used here. The de
 * **Transferred Quantity**: Once the Work Order starts and Job Cards are run, items are transferred from the Source Warehouse to Work In Progress Warehouse. This field shows the quantity in the WIP Warehouse. Note that if you tick on 'Skip Material Transfer to WIP Warehouse', this column will not be updated.
 * **Consumed Quantity**: When the Item from the WIP Warehouse is consumed and the finished product is manufactured, this field will be updated.
 * **Allow Alternative Item**: If a particular Item (raw material or sub-assembly) is not available, ticking this checkbox will allow you to select an alternative item defined in the Item Alternative list.
-* **Include Item in Manufacturing**: Raw Materials need to have this checkbox ticked. This checkbox appears in the Item master, the BOM, and the Work Order. In case there are Operations or services you need to include in the BOM that are not necessarily an Item used for manufacturing, untick this checkbox. For example, treating the plastic with a chemical involves some cost but it is not an Item and the cost needs to be tracked.
+* **Skip Material Transfer**: If you don't want to transfer the specific raw material to the work in progress warehouse then you need enable this checkbox.
 
-  On unticking this checkbox for an Item, you can still select it in the BOM and Work Order, but no Stock Entries will be created against it.
+  Once uncheck this checkbox for an Item, you can still select it in the BOM and Work Order, but no Stock Entries will be created against it.
 
 Once the Work Order is saved the following two fields will also show the availability in the respective Warehouses in the Required Items table:
 
@@ -161,14 +161,30 @@ To know more about Job Cards, visit [this page](/docs/user/manual/en/manufacturi
 
 > Tip: You can also partially complete a Work Order by updating the Finished Goods stock creating a Stock Entry.
 
-### 3.9 Stopping a Work Order
-When you stop a Work Order its status is changed to Stopped indicating that all production process against that Work Order has stopped.
+### 3.9 Return Non Consumed Materials
+
+In some case user sends extra raw materials to the manufacturing stations, but sometime the operator not consume all the raw materials to complete the Finished Goods or sometime the quantity to manufacture gets reduce. In this case, the unconsumed raw materials are needs to be transfer back to the store. In ERPNext, to transfer the raw materials back to the store from the work in progress warehouse user has to click on the button Return Non Consumed Materials. On click of button, system open the stock entry to transfer the raw materials from work in progress warehouse to the store warehouse.
+<img class="screenshot" alt="Return Unconsumed Materials" src="{{docs_base_url}}/assets/img/manufacturing/return_unconsumed_materials.png">
+
+Stock Entry to return raw materials is as below
+
+<img class="screenshot" alt="Return Unconsumed Materials Stock Entry" src="{{docs_base_url}}/assets/img/manufacturing/return_unconsumed_materials_stock_entry.png">
+
+### 4.0 Stopping a Work Order
+When you stop a Work Order its status is changed to Stopped indicating that all production process against that Work Order has stopped. But before stopping the work order user has to make sure that the raw materials which was transferred to the Work In Progress warehouse has returned or not. In case, if user has try to stop the work order without returning the raw materials then system will throw the error and not allow user to stop the work order.
 
 To stop a Work Order, click on the 'Stop' button.
 
 <img class="screenshot" alt="PO - stop" src="{{docs_base_url}}/assets/img/manufacturing/PO-stop.png">
 
-You can also re-start a stopped Work Order.
+If raw materials has not returned and still available in the Work In Progress warehouse. Then on click of Stop button system will throw the below error.
+
+<img class="screenshot" alt="Work Order Stop Error" src="{{docs_base_url}}/assets/img/manufacturing/work_order_cannot_stop.png">
+
+You can also re-open the stopped Work Order.
+
+<img class="screenshot" alt="Reopen Work Order" src="{{docs_base_url}}/assets/img/manufacturing/reopen-work-order.png">
+
 
 ### 3.10 Capacity Planning in Work Order
 
