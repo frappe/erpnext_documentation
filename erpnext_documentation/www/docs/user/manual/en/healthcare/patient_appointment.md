@@ -85,7 +85,6 @@ Status indicates the state of the Patient Appointment. The various Statuses are:
 - **Scheduled**: When the Patient Appointment has not yet started but scheduled on a future date.
 - **Open**: When the Patient Appointment has been scheduled for today.
 - **Closed**: When a Patient Encounter or Clinical Procedure has been created for the Patient Appointment.
-- **Expired**: When the Appointment date has passed and no Patient Encounter or Clinical Procedure has been created against it.
 - **Cancelled**: When the Appointment is Cancelled.
 
 <img class="screenshot" alt="ERPNext Healthcare" src="{{docs_base_url}}/assets/img/healthcare/status.png">
