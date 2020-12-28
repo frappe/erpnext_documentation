@@ -49,7 +49,7 @@ If you want to book expenses against multiple cost centers based on Employee/Dep
 
 <img class="screenshot" alt="Payroll Entry" src="/docs/assets/img/payroll/payroll-make-accrual-entry.png">
 
-> **Note:** Only Salary Slips in Draft mode will be considered while making the Journal Entry to record salary accrual. For each Submitted Salary Slips Journal Entry has to be made manually.
+> **Note:** Only Salary Slips in Draft mode will be considered while making the Journal Entry to record salary accrual. For each Submitted Salary Slip, Journal Entry has to be made manually.
 
 ### 2.2 Salary Payment
 
