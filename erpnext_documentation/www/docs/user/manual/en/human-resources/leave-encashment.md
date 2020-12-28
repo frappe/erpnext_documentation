@@ -25,7 +25,7 @@ Before creating Leave Encashment, it is advisable you create the following docum
 
 1. Go to Leave Encashment list, click on New.
 1. Select Leave Period.
-1. Select the Employee. Once the Employee is selected, the Employee's Department and Currency is automatically fetched.
+1. Select the Employee. Once the Employee is selected, the Employee's Department and Currency are automatically fetched.
 1. Select Leave Type for which the Leave is encashed. Make sure the Leave Type is encashable (the 'Allow Encashment' checkbox in the Leave Type is checked).
 1. Select Encashment Date. Based on the date selected, the amount will be encashed in that particular Payroll Entry.
 1. Save and Submit.
@@ -46,5 +46,4 @@ On submitting a Leave Encashment for an Employee, ERPNext automatically creates 
 1. [Payroll Period](/docs/user/manual/en/payroll/payroll-period)
 1. [Payroll Entry](/docs/user/manual/en/payroll/payroll-entry)
 1. [Additional Salary](/docs/user/manual/en/payroll/additional-salary)
-
 
