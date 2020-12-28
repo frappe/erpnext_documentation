@@ -18,7 +18,7 @@ Before creating Salary Slip, it is advised that you create the following first:
 
 To access Employee Tax Exemption Proof Submission, go to:
 
-> Home > payroll > Taxation > Employee Tax Exemption Proof Submission
+> Home > Payroll > Taxation > Employee Tax Exemption Proof Submission
 
 The details are already fetched if you click on 'Submit Proof' from [Employee Tax Exemption Declaration](/docs/user/manual/en/payroll/employee-tax-exemption-declaration). However, if you want to create an 'Employee Tax Exemption Proof Submission' manually, follow these steps.
 
