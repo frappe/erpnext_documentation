@@ -16,7 +16,7 @@ The Shift Type document allows you to define the different types of Shifts in yo
 To access Shift Type, go to:
 > Home > Human Resources > Shift Management > Shift Type
 
-### 1.1 To create a new Shift Type
+### 1.1 How to create a new Shift Type
 1. Go to Shift Type List, Click on New.
 2. Enter Name, Start Time and End Time
 3. Save
