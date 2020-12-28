@@ -8,7 +8,7 @@ At the beginning of a Payroll Period, employees can declare the amount of exempt
 
 To access Employee Tax Exemption Declaration, go to:
 
-> Home > payroll > Taxation > Employee Tax Exemption Declaration 
+> Home > Payroll > Taxation > Employee Tax Exemption Declaration 
 
 
 ## 1. Prerequisites
