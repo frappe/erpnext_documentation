@@ -22,7 +22,7 @@ Before you create a Salary Structure, it is advisable you have the following:
 
 1. Go to the Salary Structure list, click on New.
 2. Enter the Salary Structure Name.
-3. Select the Company Name, Payroll Frequency and *Currency(Added in version 13)*.
+3. Select the Company Name, Payroll Frequency and *Currency(Added in version 13)*. You can pay salary in different currencies, i.e. multi-currency payroll.
 4. Enter Earnings and Deductions details.
 5. Save and Submit.
 
