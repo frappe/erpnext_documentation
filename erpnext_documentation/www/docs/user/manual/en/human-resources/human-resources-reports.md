@@ -3,7 +3,7 @@
 
 ## 1. Monthly Attendance Sheet
 
-Report Shows monthly attendance on setting mandatory filters. There are different abbreviation for different Attendance status:
+Report Shows monthly attendance on setting mandatory filters. There are different abbreviations for different Attendance statuses:
 
 1. P - Present
 2. A - Absent
