@@ -122,7 +122,7 @@ A Shift Request Approver is a user who can approve a Shift Request of an Employe
 
     <img class="screenshot" alt="Shift Request Approvers" src="{{docs_base_url}}/assets/img/human-resources/shift-request-approvers.png">
 
-    When any Employee belonging to a particular department request for Shift Type, the Shift Request Approver set in that Employee's department master will be considered as their Shift Type Approvers.
+    When any Employee belonging to a particular department requests for Shift Type, the Shift Request Approver set in that Employee's department master will be considered as their Shift Type Approvers.
 
 
 * **Employee Level:**
