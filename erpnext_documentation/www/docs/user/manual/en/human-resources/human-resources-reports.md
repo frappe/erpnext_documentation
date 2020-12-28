@@ -14,7 +14,7 @@ Report Shows monthly attendance on setting mandatory filters. There are differen
 
 <img alt="Employee Leave Balance" class="screenshot" src="{{docs_base_url}}/assets/img/human-resources/monthly-attendance-sheet-report.png">
 
-ERPNext also allows us to view monthly attendance sheet Summary. Check Summarized View Checkbox to view a summary of the report. It provides information such as Total Present, Total Absent, Total Leaves, Unmarked days, etc.
+ERPNext also allows us to view monthly attendance sheet Summary. Check the "Summarized View" Checkbox to view a summary of the report. It provides information such as Total Present, Total Absent, Total Leaves, Unmarked days, etc.
 
 
 It also provides Group by filters which allow the user to view records grouped by Branch, department, Grade, and designation.
