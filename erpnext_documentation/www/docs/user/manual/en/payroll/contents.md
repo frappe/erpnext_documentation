@@ -23,7 +23,7 @@ Payroll is one of the key modules in ERPNext. It is used to calculate the remune
 1. [Employee Tax Exemption Category And Sub Categories](/docs/user/manual/en/payroll/employee-exemption-categories-and-sub-categories)
 1. [Setting up Tax](/docs/user/manual/en/payroll/setting-up-tax)
 
-### 1.3 Compensations
+### 1.3 Compensation
 1. [Additional Salary](/docs/user/manual/en/payroll/additional-salary)
 1. [Retention Bonus](/docs/user/manual/en/payroll/retention-bonus)
 1. [Employee Incentive](/docs/user/manual/en/payroll/employee-incentive)
@@ -41,4 +41,3 @@ Payroll is one of the key modules in ERPNext. It is used to calculate the remune
 ## 2. Articles
 1. [Leave Calculation In Salary Slip](/docs/user/manual/en/payroll/articles/leave-calculation-in-salary-slip)
 1. [Working Days In Salary Slip](/docs/user/manual/en/payroll/articles/working-days-in-salary-slip)
-
