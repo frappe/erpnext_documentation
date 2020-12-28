@@ -6,7 +6,7 @@
  This is usually done at the end of a Payroll Period, but employees can submit any number of proofs unlike Employee Tax Exemption Declaration.
 
 ## 1. Prerequisites
-Before creating Salary Slip, it is advised that you create the following first:
+Before creating a Salary Slip, it is advised that you create the following first:
 
 * [Employee](/docs/user/manual/en/human-resources/employee)
 * [Salary Structure](/docs/user/manual/en/payroll/salary-structure)
