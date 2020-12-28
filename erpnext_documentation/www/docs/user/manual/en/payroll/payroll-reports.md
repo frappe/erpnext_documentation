@@ -6,7 +6,7 @@ Salary Register shows net pay and its components of employee(s) at a glance.
 
 <img alt="Salary Register" class="screenshot" src="{{docs_base_url}}/assets/img/payroll/salary-register-report.png">
 
-## 2.Salary Payments Based On Payment Mode
+## 2. Salary Payments Based On Payment Mode
 Salary Payments Based On Payment mode shows the distribution of salary payment by different payment Modes.
 
 <img alt="Monthly Salary Register" class="screenshot" src="{{docs_base_url}}/assets/img/payroll/salary-payments-based-on-payment-mode.png">
