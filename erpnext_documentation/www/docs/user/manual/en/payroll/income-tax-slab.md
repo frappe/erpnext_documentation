@@ -12,7 +12,7 @@ To access Income Tax Slab, go to:
 
 To create a new Income Tax Slab:
 
-1. Enter a Name for the IT Slab, Company, Currency and the date from which it will be Effective From.
+1. Enter a Name for the IT Slab, Company, Currency, and the date from which it will be Effective From.
 1. Enable the checkbox 'Allow Tax Exemption' if applicable.
 1. Save and Submit.
 
