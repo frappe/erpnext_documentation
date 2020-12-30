@@ -37,7 +37,7 @@ Similar to the course, Topic has a table where you can add the content. You can 
 
 ![LMS Setting](/docs/assets/img/education/education-lms-13.png)
 
-Learn more about topics [here](/docs/user/manual/en/education/topic.md).
+Learn more about topics [here](/docs/user/manual/en/education/topic).
 
 ---
 
@@ -78,6 +78,8 @@ You need to set a passing score, max attempts as well as a grading basis for the
 1. **Grading Basis**: Once the max number of attempts are exhausted, the final score is taken based on the grading basis. The following are the available options:
     - Latest Highest Score: Highest Score from all attempts
     - Latest Attempt: Score from the last attempts
+1. **Is Time-Bound**: If checked, the quiz will have a time limit.
+1. **Duration** If the quiz is time-bound, this field can be used to set the time-limit.
 
 ![LMS Setting](/docs/assets/img/education/education-lms-10.png)
 
