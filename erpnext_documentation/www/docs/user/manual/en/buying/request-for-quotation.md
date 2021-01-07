@@ -23,7 +23,7 @@ Before creating and using a Request for Quotation, it is advised that you create
 5. Save and submit.
 
 A Request for Quotation (RFQ) can also be created from a submitted Material Request. Once an RFQ is created, you can print and send suppliers the PDF which will have all the details you entered relevant to the RFQ. You can also get their reply (Supplier Quotation) in ERPNext itself, see section [4.1 Supplier Quotation by User](#41-supplier-quotation-by-user).
-However, for a large number of items, your supplier may be more comfortable with an Excel sheet etc.
+However, for a large number of items, your supplier may be more comfortable with an Excel sheet, etc.
 
 ## 3. Features
 
@@ -37,9 +37,9 @@ The items in the items table can be fetched from other documents. The options ar
 * **Possible Supplier**: Select a possible supplier. Then if you have any submitted Material Requests against this supplier, items can be fetched from that.
 
 ### 3.2 Get Suppliers
-Instead of entering the suppliers manually in the table, you can also fetch them using the 'Get Suppliers' button. When you click on **Tools > Get Suppliers**, you will see the field 'Get Suppliers By'. There are two options to fetch suppliers: by tags or by groups.
+Instead of entering the suppliers manually in the table, you can also fetch them using the 'Get Suppliers' button. When you click on **Tools > Get Suppliers**, you will see the field 'Get Suppliers By'. There are two options to fetch suppliers: By Tag or By Group.
 
-* **By tag**: Go to 'Tag Category' via searching from the search bar. You must have created tags here first and assigned them to a Supplier in the Buying module. Then you can select by Tag and enter a get. On clicking Add 'All Suppliers', suppliers with matching tags will be fetched.
+* **By tag**: Go to 'Tag Category' via searching from the search bar. You must have created tags here first and assigned them to a Supplier in the Buying module. Then you can select 'By Tag'. On clicking Add 'All Suppliers', suppliers with matching tags will be fetched.
 
 * **By Group**: Select 'Supplier Group' and choose the supplier group from which suppliers need to be added. For example, if you select Hardware, all your hardware suppliers will be added so that you can get a quote from all of them.
 
@@ -94,12 +94,12 @@ After creation of Request for Quotation, there are two ways to generate Supplier
 
 2. Click on **Tools > Send Emails to Suppliers**.
 
-    **If the Supplier's account is not present**: The system will create the Supplier's account and send details to the Supplier. The Supplier will need to click on the link(Password Update) present in the email. After the password update, the Supplier can access their portal with the 'Request for Quotation' form. The Supplier will be created as a Website User.
+    **If the Supplier's account is not present**: The system will create the Supplier's account and send details to the Supplier. The Supplier will need to click on the link (Password Update) present in the email. After the password update, the Supplier can access their portal with the 'Request for Quotation' form. The Supplier will be created as a Website User.
 
     ![Supplier email if account not present]({{docs_base_url}}/assets/img/buying/supplier-email-with-update-password.png)
 
 
-    **If Supplier's account is present**: System will send Request for Quotation link to Supplier, Supplier has to login using his credentials to view the Request for Quotation form on portal.
+    **If Supplier's account is present**: The system will send a Request for Quotation link to the Supplier. The Supplier must log in using his credentials to view the Request for Quotation form on the portal.
 
     ![Supplier email if account present]({{docs_base_url}}/assets/img/buying/supplier-email-normal.png)
 
@@ -107,9 +107,9 @@ After creation of Request for Quotation, there are two ways to generate Supplier
 
     ![Supplier Quotation Screen]({{docs_base_url}}/assets/img/buying/rfq-supplier-quotation.png)
 
-    The supplier has to enter the amount and notes (payment terms) on the form and click on Submit. In the Quotations section, previous quotations will be visible.
+    The Supplier has to enter the amount and notes (payment terms) on the form and click on Submit. In the Quotations section, previous quotations will be visible.
 
-4. On submission, ERPNext will create a Supplier Quotation (draft mode) against the Supplier. The user has to review the Supplier Quotation and submit it. When all items from the Request for Quotation have been quoted by a Supplier, the quote status is updated to 'Received' in the 'Suppliers' table of Request for Quotation.
+4. On submission, ERPNext will create a Supplier Quotation (draft mode) against the Supplier. The user has to review the Supplier Quotation and submit it. When all the items from the Request for Quotation have been quoted by a Supplier, the quote status is updated to 'Received' in the 'Suppliers' table of the Request for Quotation.
 
     ![RFQ status after supplier quote]({{docs_base_url}}/assets/img/buying/rfq-supplier-quoted.png)
 
