@@ -29,7 +29,7 @@ To view and change the settings, go to:
 
 ## 2. Inpatient Settings
 
-* **Allow Discharge Despite Unbilled Healthcare Services**: If this is checked then while discharging a patient, the system will not validate unbilled invoices against the patient. Some healthcare facilities discharge the patient to make the room vacant for new admissions and then generate the bill later.
+* **Allow Discharge Despite Unbilled Healthcare Services**: Some healthcare facilities discharge the patient to make the room vacant for new admissions and then generate the bill later. If this is checked then while discharging a patient, the system will not validate unbilled services against the patient.
 
 <img class="screenshot" alt="ERPNext Healthcare" src="{{docs_base_url}}/assets/img/healthcare/inpatient-settings.png">
 
@@ -77,7 +77,7 @@ You can enable sending SMS alerts on Patient appointment Booking, Patient Regist
 
 <img class="screenshot" alt="ERPNext Healthcare" src="{{docs_base_url}}/assets/img/healthcare/healthcare_settings_5.png">
 
-## 7. Laboratory SMS ALerts
+## 7. Laboratory SMS Alerts
 
 You can configure ERPNext Healthcare to alert Patients via SMS when the Lab Test result gets ready (Submit) and when you Email the result. You can configure the templates for the SMS as registered with your provider here.
 
