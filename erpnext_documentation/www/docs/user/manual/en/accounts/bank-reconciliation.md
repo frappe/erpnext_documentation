@@ -32,7 +32,7 @@ To access Bank Reconciliation, go to:
 By doing this you will be able to sync your bank statements and entries into the system.
 
 <img class="screenshot" alt="Bank Reconciliation" src="{{docs_base_url}}/assets/img/accounts/bank-reconciliation.png">
- 
+
 ## 3. Types of reconciliation tools
 
 ERPNext has two reconciliation tools:
@@ -47,43 +47,58 @@ To view this report, go to **Accounts > Banking and Payments > Bank Reconciliati
 
 ### 3.2 Semi-automatic Bank Reconciliation Tool
 
-#### Bank statement upload
+It is a two step process
+1. Add Bank Transactions into ERPNext via Bank Statement Import or Bank account synchronization
+1. Reconcile the Bank Statement
 
-You can upload a Bank Statement in CSV or XLS format into ERPNext using the Bank Reconciliation tool.
+#### 3.2.1 Bank Statement Import
+
 
 1. Download a bank statement from your bank's website
 
  <img class="screenshot" alt="Reconcile bank transactions" src="{{docs_base_url}}/assets/img/accounts/sample_bank_statement.png">
  Make sure you have at least the date, the debit/credit and the currency on every row of your bank statement.
 
-1. Configure the import format in the Bank DocType
+To Upload Your Bank Statement, go to:
+> Accounting > Bank Statement > Bank Statement Import
+or simply search for 'Bank Statement Import' in the awesomebar.
 
- <img class="screenshot" alt="Reconcile bank transactions" src="{{docs_base_url}}/assets/img/accounts/bank_configuration.png">
-
- Your file will be read and then ERPNext will use this mapping to dispatch all information into the corresponding fields in the Bank Transaction DocType.
-
-1. Upload your file into ERPNext
+1. Select your Company and Bank Account
+1. Click Save
+1. Attach the Bank Statement
+1. Click on 'Map Columns' to enter the Mappping between columns in the uploaded Bank Statement and the Bank Transaction Doctype
+1. Click on Start Import to start the Import Process. The Bank Transactions will be created via a background job, although the progress will be shown here
 
  <img class="screenshot" alt="Reconcile bank transactions" src="{{docs_base_url}}/assets/img/accounts/bank_transaction_upload.gif">
 
+1. The Mapping that is done is stored in the Bank Document linked in the corresponding Bank Account. At the next upload the Mapping is taken from here but it is allowed to change it. The changed Mapping is updated in the Bank Document too.
+ <img class="screenshot" alt="Reconcile bank transactions" src="{{docs_base_url}}/assets/img/accounts/bank_configuration.png">
 
-#### Bank account synchronization
+
+#### 3.2.2 Bank account synchronization
 
 You can use Plaid (see [Plaid Integrations page](/docs/user/manual/en/erpnext_integration/plaid_integration)) to automatically synchronize your bank account with ERPNext. All your bank transactions will be automatically imported into ERPNext.
 
-Once all your bank transactions are imported into ERPNext, you can reconcile them with your existing payments. If it finds a payment that appears to match with the selected bank transaction, ERPNext will propose you a corresponding payment.
+#### 3.2.3 Reconcile the Bank Statement
 
-If that payment matches, just click on reconcile to reconcile it with this bank transaction.
+Once all your bank transactions are imported into ERPNext, you can reconcile them with your existing Vouchers. Go To
+> Accounting > Bank Statement > Bank Reconciliation Tool
+or simply search for 'Bank Reconciliation Tool' in the awesomebar.
 
-<img class="screenshot" alt="Reconcile bank transactions" src="{{docs_base_url}}/assets/img/accounts/auto_reconciliation.gif">
+1. Select your Company, Bank Account, Bank Statement Start and End Date.
+1. Make sure that the Opening Balance from ERPNext Matches the Opening Balance of your Bank Statement.
+1. Enter the Closing Balance of the Bank Statement.
+1. Saving the Document will create the Tool.
+ <img class="screenshot" alt="Reconcile bank transactions" src="{{docs_base_url}}/assets/img/accounts/bank_reconciliation_tool.png">
 
-If ERPNext doesn't propose you any payment, you can always select the corresponding payment manually:
-
-<img class="screenshot" alt="Reconcile bank transactions manually" src="{{docs_base_url}}/assets/img/accounts/manual_reconciliation.gif">
-
-You can also create a new payment or invoice directly from the bank reconciliation dashboard.
-
-<img class="screenshot" alt="New payment entry" src="{{docs_base_url}}/assets/img/accounts/new_payment.gif">
+1. The Final goal of Bank Reconciliation is to make the Difference amount zero (Green) by either matching to an existing Voucher or creating a new voucher.
+1. For All bank Transactions which are present in the Bank Statement but clearance date is not updated click on the Actions Button you want to Match/ Create Vouchers
+1. For Matching Choose 'Match Against Voucher' in 'Action', The Vouchers that ERPNext found related will be displayed. They will be ranked on the basis of maximum number of fields matched. You can match one or multiple Vouchers against the same Bank Transaction using the checkboxes.
+<img class="screenshot" alt="Reconcile bank transactions" src="{{docs_base_url}}/assets/img/accounts/match_voucher.png">
+1. To create a new voucher, choose Create Voucher in the Actions and then choose the Document Type. Fill the details that were not available in the Bank Transaction. Clicking on Submit will create the corresponding voucher and update it's clearance date.
+ <img class="screenshot" alt="Reconcile bank transactions" src="{{docs_base_url}}/assets/img/accounts/create_voucher.png">
+1. It is also possible to update the Bank Transaction so that ERPNext can do a better job at finding related Vouchers. Choose Update Bank Transaction in Action, FIll the required details and click on Submit to Save the Bank Transaction.
+ <img class="screenshot" alt="Reconcile bank transactions" src="{{docs_base_url}}/assets/img/accounts/update_bank_transaction.png">
 
 ### 4. Related Topics
 1. [Payment Reconciliation](/docs/user/manual/en/accounts/payment-reconciliation)
