@@ -61,6 +61,7 @@ It is a two step process
 
 To Upload Your Bank Statement, go to:
 > Accounting > Bank Statement > Bank Statement Import
+
 or simply search for 'Bank Statement Import' in the awesomebar.
 
 1. Select your Company and Bank Account
@@ -83,6 +84,7 @@ You can use Plaid (see [Plaid Integrations page](/docs/user/manual/en/erpnext_in
 
 Once all your bank transactions are imported into ERPNext, you can reconcile them with your existing Vouchers. Go To
 > Accounting > Bank Statement > Bank Reconciliation Tool
+
 or simply search for 'Bank Reconciliation Tool' in the awesomebar.
 
 1. Select your Company, Bank Account, Bank Statement Start and End Date.
