@@ -27,13 +27,19 @@ To view and change the settings, go to:
 
 * **Enable Free Follow-ups**: Many healthcare facilities do not charge for follow up consultations within a time period after the first visit (Patient Registration). Check this if you want to enable free follow-ups. After this is checked, configure the number of free follow-ups (_Patient Encounters in Valid Days_) allowed as well as the time period (_Valid number of days_) for free consultations here.
 
-## 2. Default Healthcare Service Items
+## 2. Inpatient Settings
+
+* **Allow Discharge Despite Unbilled Healthcare Services**: Some healthcare facilities discharge the patient to make the room vacant for new admissions and then generate the bill later. If this is checked then while discharging a patient, the system will not validate unbilled services against the patient.
+
+<img class="screenshot" alt="ERPNext Healthcare" src="{{docs_base_url}}/assets/img/healthcare/inpatient-settings.png">
+
+## 3. Default Healthcare Service Items
 
 ERPNext Healthcare utilizes the Accounts module for billing Patients. You can configure default "Items" for billing consultation charges, procedure consumption items, etc. here. Make sure that the "Inpatient Visit Charge Item" and "Out-Patient Consulting Charge Item" are service items i.e they have _Maintain Stock_ checkbox disabled.
 
 <img class="screenshot" alt="ERPNext Healthcare" src="{{docs_base_url}}/assets/img/healthcare/healthcare_settings_2.png">
 
-## 3. Default Accounts
+## 4. Default Accounts
 
 If you wish to override default accounts settings and configure the Income and Receivable accounts for Healthcare, you can do so here.
 
@@ -43,7 +49,7 @@ If you wish to override default accounts settings and configure the Income and R
 
 <img class="screenshot" alt="ERPNext Healthcare" src="{{docs_base_url}}/assets/img/healthcare/healthcare_settings_3.png">
 
-## 4. Out-Patient SMS Alerts
+## 5. Out-Patient SMS Alerts
 
 You can enable sending SMS alerts on Patient appointment Booking, Patient Registration, etc. and also configure a message in this section.
 
@@ -59,7 +65,7 @@ You can enable sending SMS alerts on Patient appointment Booking, Patient Regist
 
 <img class="screenshot" alt="ERPNext Healthcare" src="{{docs_base_url}}/assets/img/healthcare/healthcare_settings_4.png">
 
-## 4. Laboratory Settings
+## 6. Laboratory Settings
 
 * **Create Lab Test(s) on Sales Invoice Submit**: If your facility creates Invoices and collects payments from Patients before performing the Lab Test, you can enable this option to create Lab tests automatically for all the Tests that are billed. If you have enabled the "Create Sample Collection document for Lab Test" and the Lab Test has a _Sample_ configured in the Lab Test Template, a Sample Collection document will also be created.
 
@@ -71,7 +77,7 @@ You can enable sending SMS alerts on Patient appointment Booking, Patient Regist
 
 <img class="screenshot" alt="ERPNext Healthcare" src="{{docs_base_url}}/assets/img/healthcare/healthcare_settings_5.png">
 
-## 5. Laboratory SMS ALerts
+## 7. Laboratory SMS Alerts
 
 You can configure ERPNext Healthcare to alert Patients via SMS when the Lab Test result gets ready (Submit) and when you Email the result. You can configure the templates for the SMS as registered with your provider here.
 
