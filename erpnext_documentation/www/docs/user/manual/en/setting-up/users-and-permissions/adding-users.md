@@ -69,9 +69,15 @@ Subscribe the user to different mailing lists of your company from this section.
 
 ### 2.7 Allow Module Access
 
-Users will have access to all modules for which they have role-based access. If you want to restrict access of certain modules for this user, un-check the modules from this list. 
+Users will have access to all modules for which they have role-based access. If you want to restrict access of certain modules for this user, un-check the modules from this list.
 
 <img class="screenshot" src="{{docs_base_url}}/assets/img/setup/users/user-3.png" alt="User Block Module">
+
+#### 2.7.1 Module Profiles
+
+Role Profiles act as a template to store and select access to multiple modules. This Role Profile can then be assigned to a User. For example, a HR Users will have access to multiple modules like HR, Payroll etc. Role Profiles are useful to provide access to multiple modules at once when adding multiple users.
+
+<img class="screenshot" src="{{docs_base_url}}/assets/img/setup/users/module-profile.png" alt="Module Profile">
 
 ### 2.8 Security Settings
 
