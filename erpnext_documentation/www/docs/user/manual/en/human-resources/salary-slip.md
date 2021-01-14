@@ -50,6 +50,6 @@ For every salary slip, 'Year to Date' and 'Month to Date' are computed.
 
 Year to Date is also computed for every component in the earnings and deduction tables. The "Salary Slip with Year to Date" print format is available with Year to Date and Month to Date computations.
 
-<img class="screenshot" alt="Year to Date for Salary Slip Components" src="{{docs_base_url}}/assets/img/human-resources/ytd-compinent.png">
+<img class="screenshot" alt="Year to Date for Salary Slip Components" src="{{docs_base_url}}/assets/img/human-resources/ytd-component.png">
 
 
