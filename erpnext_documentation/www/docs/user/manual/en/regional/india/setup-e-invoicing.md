@@ -29,6 +29,8 @@ To help automate the E-Invoicing process, we have integrated ERPNext with a GST 
 
 Go to "E-Invoice Settings" and click on the "Enable" checkbox.
 
+1. **Sandbox Mode**: Enabling this checkbox will use GSP's API in the testing environment. 
+1. **Generate IRN Only on Submission**: Enabling this checkbox will allow the user to generate IRN after invoice submission.
 1. **GSTIN**: GSTIN by which your company is registered on the e-invoice portal.
 1. **Username**: Username created in the previous step for authenticating with GSP.
 1. **Password**: Password created in the previous step for authenticating with GSP.
