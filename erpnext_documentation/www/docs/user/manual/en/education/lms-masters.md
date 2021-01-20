@@ -37,7 +37,7 @@ Similar to the course, Topic has a table where you can add the content. You can 
 
 ![LMS Setting](/docs/assets/img/education/education-lms-13.png)
 
-Learn more about topics [here](/docs/user/manual/en/education/topic.md).
+Learn more about topics [here](/docs/user/manual/en/education/topic).
 
 ---
 
