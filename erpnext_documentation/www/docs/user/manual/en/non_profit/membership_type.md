@@ -16,4 +16,6 @@ To create new Membership Type go to:
 
 **Amount:** If your memberships are free you should enter 0 (zero) in this field. Otherwise you should enter the amount that must be paid for this membership type.
 
+**Linked Item**: If you have checked _Enable Invoicing_ in Membership Settings, you will get an option to configure a billable service item for your Membership Type.
+
 {next}
