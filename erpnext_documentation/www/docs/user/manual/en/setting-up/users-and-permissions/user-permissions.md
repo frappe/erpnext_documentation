@@ -31,14 +31,30 @@ To access User Permissions, go to:
 ## 2. More User Permission actions
 ### 2.1 Advanced control
 
+In Advanced control, you can have better command over where the User Permission is applied.
+
+### 2.1.1. Applicable For
+
 You can optionally apply user permissions only for specific document type by setting the Document Type after unticking the Apply To All Document Types checkbox.
 Setting **Applicable For** option will make the current user permission applicable only under the selected Document Type master.
 
-<img src="{{docs_base_url}}/assets/img/users-and-permissions/user-perms/advanced-control.png" class="screenshot" alt="Advance control">
+<img src="{{docs_base_url}}/assets/img/users-and-permissions/user-perms/advanced-control.png" class="screenshot" alt="Applicable For">
 
 In the above User Permission, the user will be able to access only Sales Orders of the selected company.
 
 **Note:** If **Applicable For** is not set, User Permission will apply across all related Document Types.
+
+### 2.1.2. Hide Descendants
+
+The value of **Allow** could be a DocType with a Tree View, which will have records with a parent-child or ancestor-descendant relationship.
+
+Let's assume **For Value**, 'Unico Plastics Inc.', has a child company 'Unico Toys'. When a User Permission is created for 'Unico Plastics Inc.', permissions for it's descendants are granted as well.
+
+**Hide Descendants** is visible only on selecting a Tree View DocType. By enabling this checkbox, permissions for descendants of **For Value** will not be granted.
+
+<img src="{{docs_base_url}}/assets/img/users-and-permissions/user-perms/hide-descendant-permissions.png" class="screenshot" alt="Hide Descendant Permissions">
+
+A user that can view records of 'Unico Plactics' will not be able to view those of 'Unico Toys'.
 
 ### 2.2 Ignoring User Permissions on Certain Fields
 
