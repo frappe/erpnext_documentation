@@ -22,7 +22,7 @@ To access User Permissions, go to:
 1. Select the user for which the rule has to be applied.
 2. Select the type of document to be allowed (for example "Company").
 3. Under For Value, select the specific item that you want to allow (the name of the "Company).
-4. If you check 'Is Default', the value selected in 'For Value' will be used as default for any future transactions by this user. That is, if company Unico Plastics Inc. is selected as 'For Value', this Company will be set as default for all future transactions by this user.
+4. If you check 'Is Default', the value selected in 'For Value' will be used by default for any future transactions by this user. That is, if company 'Unico Plastics Inc.' is selected as 'For Value', this Company will be set as default for all future transactions by this user.
 
     <img src="{{docs_base_url}}/assets/img/users-and-permissions/user-perms/new-user-permission.png" class="screenshot" alt="Creating a new user permission">
 
@@ -35,7 +35,7 @@ In Advanced control, you can have better command over where the User Permission 
 
 ### 2.1.1. Applicable For
 
-You can optionally apply user permissions only for specific document type by setting the Document Type after unticking the Apply To All Document Types checkbox.
+You can optionally apply user permissions only for specific document type by setting the Document Type after unchecking the Apply To All Document Types checkbox.
 Setting **Applicable For** option will make the current user permission applicable only under the selected Document Type master.
 
 <img src="{{docs_base_url}}/assets/img/users-and-permissions/user-perms/advanced-control.png" class="screenshot" alt="Applicable For">
@@ -54,7 +54,7 @@ Let's assume **For Value**, 'Unico Plastics Inc.', has a child company 'Unico To
 
 <img src="{{docs_base_url}}/assets/img/users-and-permissions/user-perms/hide-descendant-permissions.png" class="screenshot" alt="Hide Descendant Permissions">
 
-A user that can view records of 'Unico Plactics' will not be able to view those of 'Unico Toys'.
+A user that can view records of 'Unico Plastics Inc.' will not be able to view those of 'Unico Toys'.
 
 ### 2.2 Ignoring User Permissions on Certain Fields
 
@@ -81,7 +81,7 @@ Ticking on the Show Permissions checkbox will show the read/write/submit and oth
 
 Note: If you cannot access Sales Order or any other document type in this list, make sure you've set the [roles](/docs/user/manual/en/setting-up/users-and-permissions/role-based-permissions) correctly.
 
-For example, User Bruce is restricted to Company Unico Plastics Inc.
+For example, User Bruce is restricted to Company 'Unico Plastics Inc.'
 ![User restricted to Company](/docs/assets/img/users-and-permissions/user-perms/user-restricted-to-company.png)
 
 ### 3. Related Topics
