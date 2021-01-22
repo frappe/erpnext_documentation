@@ -41,8 +41,6 @@ Screenshot of the email with link to open the email on the web.
 
 <img class="screenshot" alt="Lead" src="{{docs_base_url}}/assets/img/crm/newsletter-doc-web-link.png">
 
-1. 
-
 ## 2. Features
 
 ### 2.1 Create Subscriber Groups
