@@ -47,6 +47,7 @@ You can also go to the list view of any DocType and select Customize from the Me
   <img alt="Customize Form select doctype" class="screenshot" src="{{docs_base_url}}//assets/img/customize/customize-sort-field.png">
 
 1. **Sort Order**: You can select whether you want the Sorting to be done in Ascending Order or Descending Order. To get more understanding on Sort Field and Sort Order, check out [Customizing Sorting Order in the List View](/docs/user/manual/en/customize-erpnext/articles/customizing-sorting-order-in-the-list-view).
+1. **Default Email Template**: For a single DocType, there could be multiple [Email Templates](/docs/user/manual/en/setting-up/email/email-template). Here you can set the default Email Template for the selected DocType. For example, you can set a different Default Email Template for a Sales Order and an Appointment Letter.
 
 ### 1.3. More Properties
 

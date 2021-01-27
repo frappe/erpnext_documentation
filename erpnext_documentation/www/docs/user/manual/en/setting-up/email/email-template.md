@@ -19,8 +19,10 @@ To access the Email Template list, go to:
 ### 1.1 How to use Email Template
 You can use this Email Template in the Emails that are sent from ERPNext in the "CC, BCC & Email Template" field of the email section of the document. ERPNext will fetch the subject and response as per the template selected.
 
+You can set a Default Email Template for each document type via [Customize Form](/docs/user/manual/en/customize-erpnext/customize-form).
+
 ### 1.2 How to get fieldnames
-The fieldnames you can use in your email template are the fields in the document from which you are sending the email. You can find out the fields of any documents via Setup > Customize Form View and selecting the document type (e.g. Sales Order)
+The fieldnames you can use in your email template are the fields in the document from which you are sending the email. You can find out the fields of any documents via [Customize Form](/docs/user/manual/en/customize-erpnext/customize-form) and selecting the document type (e.g. Sales Order)
 
 ### 1.3 Templating
 Templates are compiled using the Jinja. To learn more about Jinja, [visit this page](https://jinja.palletsprojects.com/en/2.10.x/).
