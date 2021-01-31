@@ -8,6 +8,7 @@ To access the Email Template list, go to:
 ## 1. How to create an Email Template
 1. Go to the Email Template list, click on New.
 1. Enter a name for this Email Template.
+1. (Optional) Select a DocType for which this email template is exclusive.
 1. Enter a Subject for this Email Template.
 1. Response is the standard content of the email that will be a part of this template. 
 1. Save.
@@ -17,7 +18,7 @@ To access the Email Template list, go to:
 **DocType Associated:** (optional) The DocType associated with this template.
 
 ### 1.1 How to use Email Template
-You can use this Email Template in the Emails that are sent from ERPNext in the "CC, BCC & Email Template" field of the email section of the document. ERPNext will fetch the subject and response as per the template selected.
+You can use this Email Template in the Emails that are sent from ERPNext in the "CC, BCC & Email Template" field of the email section of the document. ERPNext will fetch the subject and response as per the template selected. Only Email Templates which are linked to the current DocType or which are not exclusive to any DocType will be shown in the "Email Template" field. Also make sure that the template is enabled.
 
 ### 1.2 How to get fieldnames
 The fieldnames you can use in your email template are the fields in the document from which you are sending the email. You can find out the fields of any documents via Setup > Customize Form View and selecting the document type (e.g. Sales Order)
