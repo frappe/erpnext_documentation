@@ -173,7 +173,7 @@ Visit the [Applying Discount](/docs/user/manual/en/selling/articles/applying-dis
 For high-value Items, the seller can request an advance payment before processing the order. The **Get Advances Received** button opens a popup from where you can fetch the orders where advance payment was made. To know more, visit the [Advance Payment Entry](/docs/user/manual/en/accounts/advance-payment-entry) page.
 
 ### 3.11 Payment Terms
-The payment for an invoice may be made in parts depending on your understanding with the Supplier. This is fetched if set in the Sales Order.
+The payment for an invoice may be made in parts depending on your understanding with the Supplier. This is fetched if set in the Purchase Order.
 
 ![PI Payment Terms](/docs/assets/img/accounts/pi-pay-terms.png)
 
@@ -214,11 +214,11 @@ The following details can be set for GST:
 ### 3.16 More Information
 
 * **Is Opening Entry**: If this is an opening entry to affect your accounts select 'Yes'. i.e. if you're migrating from another ERP to ERPNext mid year, you might want to use an Opening Entry to update account balances in ERPNext.
-* **Remarks**: Any additional remarks about the Sales Invoice can be added here.
+* **Remarks**: Any additional remarks about the Purchase Invoice can be added here.
 
 ### 3.17 After Submitting
 
-On submitting a Sales Invoice, the following documents can be created against it:
+On submitting a Purchase Invoice, the following documents can be created against it:
 
 1. [Journal Entry](/docs/user/manual/en/accounts/journal-entry)
 1. [Payment Entry](/docs/user/manual/en/accounts/payment-entry)
