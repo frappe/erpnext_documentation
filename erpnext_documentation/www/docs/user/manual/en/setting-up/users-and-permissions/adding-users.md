@@ -75,7 +75,7 @@ Users will have access to all modules for which they have role-based access. If 
 
 #### 2.7.1 Module Profiles
 
-Role Profiles act as a template to store and select access to multiple modules. This Role Profile can then be assigned to a User. For example, a HR Users will have access to multiple modules like HR, Payroll etc. Role Profiles are useful to provide access to multiple modules at once when adding multiple users.
+Role Profiles act as a template to store and select access to multiple modules. This Role Profile can then be assigned to a User. For example, HR Users will have access to multiple modules like HR, Payroll, etc. Role Profiles are useful to provide access to multiple modules at once when adding multiple users.
 
 <img class="screenshot" src="{{docs_base_url}}/assets/img/setup/users/module-profile.png" alt="Module Profile">
 
