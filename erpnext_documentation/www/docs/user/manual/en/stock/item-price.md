@@ -42,7 +42,7 @@ This is the minimum quantity of items to be transacted for this price to be appl
 If you select a Selling Price list, a customer field will appear where you can assign this Item Price to a specific customer. Likewise, if you select a Buying Price List, a Supplier field will appear where you can select a specific Supplier
 
 ### 2.4 Applying Price List to a specific Batch
-You can also link a specific batch to an Item Price and on selection of that batch in the transaction item price for that specific batch will be applied.
+You can also link a specific batch to an Item Price and on the selection of that batch in the transaction, the item price for that specific batch will be applied.
 
 ### 2.5 Validity
 There are two fields here—'Valid From' and 'Valid Upto'. Valid from is set to the date you created the Item Price, you can also set the Valid Upto date on which the Item Price will expire.
