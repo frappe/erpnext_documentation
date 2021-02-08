@@ -39,6 +39,7 @@ The Stock module is tightly integrated with Purchase, Manufacturing and Accounti
 1. [Retaining Sample Stock](/docs/user/manual/en/stock/retain-sample-stock)
 1. [Landed Cost Voucher](/docs/user/manual/en/stock/landed-cost-voucher)
 1. [Pick List](/docs/user/manual/en/stock/pick-list)
+1. [Putaway Rule](/docs/user/manual/en/stock/putaway-rule)
 
 ### 1.5 Serial and Batch Number
 1. [Serial Number](/docs/user/manual/en/stock/serial-no)
@@ -49,7 +50,6 @@ The Stock module is tightly integrated with Purchase, Manufacturing and Accounti
 1. [Quality Inspection](/docs/user/manual/en/stock/quality-inspection)
 1. [Stock Reconciliation](/docs/user/manual/en/stock/stock-reconciliation)
 1. [Quick Stock Balance](/docs/user/manual/en/stock/quick-stock-balance)
-1. [Putaway Rule](/docs/user/manual/en/stock/putaway-rule)
 
 ### 1.7 Return
 1. [Sales Return](/docs/user/manual/en/stock/sales-return)
