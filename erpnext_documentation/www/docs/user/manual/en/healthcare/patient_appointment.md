@@ -70,9 +70,14 @@ Optionally, you can configure [Healthcare Settings](/docs/user/manual/en/healthc
 <img class="screenshot" alt="ERPNext Healthcare" src="{{docs_base_url}}/assets/img/healthcare/outpatient_sms_alert.png">
 
 ### 3.6 Automate Appointment Invoicing
-ERPNext Healthcare automatically creates a Sales Invoice as soon as you book a Patient Appointment. To enable this, you can check "Automate Appointment Invoicing" in Healthcare Settings.
 
-If enabled, the Patient Appointment will prompt you to select the **Mode of Payment** and enter the **Amount** collected as the Consultation Charge.
+In order to automatically create a Sales Invoice as soon as you book a Patient Appointment, you can enable _Automate Appointment Invoicing_ configuration in the [Healthcare Settings](/docs/user/manual/en/healthcare/healthcare_settings).
+
+You can set up default charges for appointment booking in the Appointment Type master or in the Healthcare Practitioner master.
+
+If the Appointment type is selected in the Patient Appointment and there are charges set up in the Appointment type master, then that charge and billing item is considered over the one set up in the Healthcare Practitioner master. While booking the appointment, the appropriate billing item, and the paid amount is fetched as per the above configuration.
+
+The Patient Appointment will also prompt you to select the **Mode of Payment** for invoicing.
 
 <img class="screenshot" alt="ERPNext Healthcare" src="{{docs_base_url}}/assets/img/healthcare/automate_invoicing.png">
 
