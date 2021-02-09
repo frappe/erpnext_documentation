@@ -40,7 +40,7 @@ You can also go to the list view of any DocType and select Customize from the Me
 
   <img alt="Customize Form select doctype" class="screenshot" src="{{docs_base_url}}/assets/img/setup/customize-form-2.png">
 
-1. **Max Attachments**: You can enter the maximum number of attachments that could be added to this DocType. Check out [Increase Max Attachments](/docs/user/manual/en/customize-erpnext/articles/changing-attachment-limits) for more information.
+1. **Max Attachments**: You can enter the maximum number of attachments that could be added to this DocType.
 1. **Search Fields**: While creating any DocType, you may want to link a particular field to another DocType. For ease in selection, you can also ensure that you are able to see the value of another field of the latter DocType in the search result. For more information [click here](/docs/user/manual/en/customize-erpnext/articles/search-record-by-specific-field).
 1. **Sort Field**: Records in any DocType List are generated based on the Field that you set at the Sort Field over here. E.g., for Items, if you want your list to be generated as per Item Name, you can configure the same here.
 
