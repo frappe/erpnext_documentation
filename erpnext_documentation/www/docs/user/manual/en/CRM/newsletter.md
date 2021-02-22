@@ -17,27 +17,15 @@ To access the Newsletter list, go to:
 1. Select the Email Group in RECIPIENT table.
 1. Enter 'Subject'.
 1. Enter 'Message'.
+1. 'Publish' the newsletter to make it available on the web.
 1. Tick 'Send Unsubscribe Link' if you would like to include unsubscribe link in the email.
-1. 'Full Width' will make your newsletter email occupy the complete width of the screen. If this is unchecked then the newsletter email will have some margin on both its side.
-1. 'Send Web View Link' will include a link in the email to open the newsletter on the web.
+1. 'Send Web View Link' will include a link in the email to open the newsletter on the web. This option is only visible when the newsletter is published.
 
 <img class="screenshot" alt="Newsletter" src="{{docs_base_url}}/assets/img/crm/newsletter-doc.png">
 
 <img class="screenshot" alt="Newsletter" src="{{docs_base_url}}/assets/img/crm/newsletter-doc-2.png">
 
-Below is the screenshot of the email received with link to unsubscribe.
-
-<img class="screenshot" alt="Lead" src="{{docs_base_url}}/assets/img/crm/newsletter.png">
-
-Screenshot of the email with Full Width checked.
-
-<img class="screenshot" alt="Lead" src="{{docs_base_url}}/assets/img/crm/newsletter-doc-full-width.png">
-
-Screenshot of the email with Full Width unchecked.
-
-<img class="screenshot" alt="Lead" src="{{docs_base_url}}/assets/img/crm/newsletter-doc-half-width.png">
-
-Screenshot of the email with link to open the email on the web.
+Below is the screenshot of the email received with link to unsubscribe and a link to open the email on the web.
 
 <img class="screenshot" alt="Lead" src="{{docs_base_url}}/assets/img/crm/newsletter-doc-web-link.png">
 
