@@ -18,9 +18,7 @@ You can use Payment Terms in the following documents:
 To access Payment Term go to:
 > Home > Accounting > Accounting Masters > Payment Term
 
-Note that the introduction of Payment Terms removes "Credit Days" and "Credit Days Based On" fields in Customer/Supplier master. Payment Term contains the same information and makes it more flexible to use.
-
-![Payment Terms]({{docs_base_url}}/assets/img/accounts/payment-terms.png)
+<img class="screenshot" alt="Payment Terms" src="{{docs_base_url}}/assets/img/accounts/payment-terms.png">
 
 ## 1. How to create a Payment Term
 
@@ -41,6 +39,19 @@ The fields are explained as follows:
 * **Invoice Portion:** The portion of the total invoice amount for which this Payment Term should be applied. Value given will be regarded as percentage i.e 50 = 50% of the invoice/orders Grand Total
 * **Credit Days (optional):** The number of days or month credit is allowed depending on the option chosen in the Due Date Based On the field. 0 means no credit allowed.
 * **Description:** (optional) A brief description of the Payment Term.
+
+### 1.1 Setting up Discount on Early Payments
+
+You can setup a discounted payment terms such that if payment is done within the specified period then some amount/percentage of invoice value will be discounted. Following fields defines the discount configuration:
+
+* **Discount Type:** Default is Percentage. You can also change it to Amount.
+* **Discount:** In terms of Percentage or Amount (eg. 10% or ₹ 5,000)
+* **Discount Validity Based On:** This field acts similar as the Due Date Based On field in previous section.
+* **Discount Validity:** The number of days or month the discount is valid with respect to invoice date. (eg. 10 days after invoice date)
+
+<img class="screenshot" alt="Payment Terms" src="{{docs_base_url}}/assets/img/accounts/payment-terms-with-discount.png">
+
+You can now link the Payment Terms with an Invoice and on creating the payment against such invoice, the discount will be applied automatically.
 
 ### 1.2 Payment Terms in Converted Documents
 When converting or copying documents in the sales/purchase cycle, the attached Payment Term(s) will be copied. When creating a Sales Order from a Quotation, the Due Date in the Payment Terms will be according to the Quotation, this needs to be updated.
