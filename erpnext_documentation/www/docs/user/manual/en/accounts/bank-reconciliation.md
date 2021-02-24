@@ -94,12 +94,12 @@ or simply search for 'Bank Reconciliation Tool' in the awesomebar.
  <img class="screenshot" alt="Reconcile bank transactions" src="{{docs_base_url}}/assets/img/accounts/bank_reconciliation_tool.png">
 
 1. The final goal of Bank Reconciliation is to make the difference amount zero (green) by either matching to an existing voucher or creating a new voucher.
-1. For All bank Transactions which are present in the Bank Statement but clearance date is not updated click on the Actions Button you want to Match/ Create Vouchers
+1. For All bank Transactions which are present in the Bank Statement but clearance date is not updated click on the Actions Button to Match/ Create Vouchers
 1. For matching, choose 'Match Against Voucher' in 'Action'. The vouchers that are related to this transaction will be displayed. They will be ranked on the basis of the maximum number of fields matched. You can match one or multiple vouchers against the same Bank Transaction using the checkboxes.
 <img class="screenshot" alt="Reconcile bank transactions" src="{{docs_base_url}}/assets/img/accounts/match_voucher.png">
 1. To create a new voucher, choose 'Create Voucher' in the 'Action' and then choose the document type. Fill in the details that were not available in the Bank Transaction. Clicking on Submit will create the corresponding voucher and update its clearance date.
  <img class="screenshot" alt="Reconcile bank transactions" src="{{docs_base_url}}/assets/img/accounts/create_voucher.png">
-1. It is also possible to update the Bank Transaction so that ERPNext can do a better job at finding related Vouchers. Choose Update Bank Transaction in Action, FIll the required details and click on Submit to Save the Bank Transaction.
+1. It is possible to update the Bank Transaction. Updating the Bank Transaction might help ERPNext in finding better matches. To Update a Bank transaction, choose 'Update Bank Transaction' in 'Action', fill the required details and click on Submit to save the Bank Transaction.
  <img class="screenshot" alt="Reconcile bank transactions" src="{{docs_base_url}}/assets/img/accounts/update_bank_transaction.png">
 
 ### 4. Related Topics
