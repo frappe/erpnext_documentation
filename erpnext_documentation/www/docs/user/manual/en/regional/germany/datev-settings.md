@@ -7,5 +7,6 @@
 - Client ID. This is your company's customer number at your tax advisor.
 - Consultant ID. This is you tax advisor's identification assigned by DATEV.
 - Consultant. A link to your tax advisor's **Supplier** record.
+- Temporary Against Account Number. To DATEV it will look as if all your **GL Entries** were made against this account. It is needed to resolve differences between the two accounting systems.
 
 {next}
