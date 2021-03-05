@@ -59,7 +59,7 @@ ERPNext, while being a system which is extremely easy to use, is also highly cus
 
 ### 2.5 Other Actions
 1. [Disable Rounded Total](/docs/user/manual/en/customize-erpnext/articles/disable-rounded-total)
-1. [Changing Attachment Limits](/docs/user/manual/en/customize-erpnext/articles/changing-attachment-limits)
+1. [Attachment Limits](https://www.frappeframework.com/docs/user/en/desk/attachments#limits)
 1. [Fetching Data From a Document](/docs/user/manual/en/customize-erpnext/articles/fetching-data-from-a-document)
 
 ## 3. Videos
