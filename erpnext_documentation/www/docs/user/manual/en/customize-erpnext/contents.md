@@ -13,6 +13,7 @@ ERPNext, while being a system which is extremely easy to use, is also highly cus
 1. [Server Scripts](/docs/user/manual/en/customize-erpnext/server-script)
 1. [Custom Translations](/docs/user/manual/en/setting-up/print/custom-translations)
 1. [Dashboard](/docs/user/manual/en/using-erpnext/dashboard)
+1. [Desk Page](/docs/user/manual/en/customize-erpnext/desk-page)
 
 ### 1.2 Documents and Reports
 1. [Print Format](/docs/user/manual/en/customize-erpnext/print-format)
