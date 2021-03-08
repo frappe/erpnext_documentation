@@ -43,12 +43,12 @@ ERPNext, while being a system which is extremely easy to use, is also highly cus
 1. [Geolocation Field](/docs/user/manual/en/customize-erpnext/articles/geolocation-field)
 1. [Table Multiselect Field](/docs/user/manual/en/customize-erpnext/articles/table-multiselect-field)
 
-### 2.2. Custom Permissions
+### 2.2 Custom Permissions
 1. [Perm Level Error In Permission Manager](/docs/user/manual/en/customize-erpnext/articles/perm-level-error-in-permission-manager)
 1. [User Restriction](/docs/user/manual/en/customize-erpnext/articles/user-restriction)
 1. [Deleting Custom Reports](/docs/user/manual/en/customize-erpnext/articles/deleting-custom-reports)
 
-### 2.3. Global Configuration
+### 2.3 Global Configuration
 1. [Set Language](/docs/user/manual/en/customize-erpnext/articles/set-language)
 1. [Set Precision](/docs/user/manual/en/customize-erpnext/articles/set-precision)
 
