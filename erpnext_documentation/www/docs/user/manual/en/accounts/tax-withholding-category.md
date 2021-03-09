@@ -10,7 +10,9 @@ To access the Tax Withholding Category list, go to:
 
 ## 1. Prerequisites
 Before creating and using a Tax Withholding Category, it is advised to create the following first:
+
 1. [Supplier](/docs/user/manual/en/buying/supplier)
+1. [Customer](/docs/user/manual/en/CRM/customer)
 
 ## 2. How to create a Tax Withholding Category
 In ERPNext, Tax Withholding Categories for most cases are available by default, however, you can create more if needed.
@@ -64,8 +66,24 @@ In the following example, we have selected 'TDS - 194C - Individual' which has a
 >1. Second for credit in Creditors account
 >1. Third for credit in the account selected in Tax Withholding Category.
 
-![Tax Withholding Ledger](/docs/assets/img/accounts/tax-withholding-ledger.png)
+### 3.2 Setting up TCS - Section 20C(1H) for eligible customers
+In the following example, we have create a Tax Withholding Category for [TCS - Section 20C(1H)](https://taxguru.in/income-tax/faqs-tcs-sales-goods-section-206c1h.html) and set it up against an eligble customer. 
+
+1. We will first create a Tax Withholding Category named **TCS - Section 20C(1H)** and we set cumulative threshold to 50 Lakhs as per the scheme.
+
+ <img class="screenshot" alt="Tax Withholding Category" src="{{docs_base_url}}/assets/img/accounts/tax-withholding-category-for-tcs.png">
+
+1. If a **Customer** is expected to crosses the sales threshold of 50 Lakh in current Fiscal Year, then we can set the Tax Withholding Category of the customer to TCS - Section 20C(1H) for automatically calculation TCS on sale of goods against the customer's invoices.
+
+ <img class="screenshot" alt="Tax Withholding Category" src="{{docs_base_url}}/assets/img/accounts/tcs-eligible-customer.png">
+
+1. Let's create an invoice for 50 Lakhs against the eligible customer. Saving the invoice automatically calculates tax and appends it in the taxes table.
+
+ <img class="screenshot" alt="Tax Withholding Category" src="{{docs_base_url}}/assets/img/accounts/tcs-invoice.png">
+
+ Since the invoice cross the Cumulative threshold (50 Lakhs), we see that tax has been charged. Hence, tax based on the rate provided in the **Tax Withholding Category** is applied accordingly. Note that, as per the scheme, the TCS is calculated on the amount exceeding the threshold i.e 0.075 % of 10 Lakhs.
 
 ### 4. Related Topics
 1. [Tax Rule](/docs/user/manual/en/accounts/tax-rule)
 1. [Supplier](/docs/user/manual/en/buying/supplier)
+1. [Customer](/docs/user/manual/en/CRM/customer)
