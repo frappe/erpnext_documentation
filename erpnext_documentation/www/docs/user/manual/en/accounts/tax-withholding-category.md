@@ -67,7 +67,7 @@ In the following example, we have selected 'TDS - 194C - Individual' which has a
 >1. Third for credit in the account selected in Tax Withholding Category.
 
 ### 3.2 Setting up TCS - Section 20C(1H) for eligible customers
-In the following example, we have create a Tax Withholding Category for [TCS - Section 20C(1H)](https://taxguru.in/income-tax/faqs-tcs-sales-goods-section-206c1h.html) and set it up against an eligble customer. 
+In the following example, we have created a Tax Withholding Category for [TCS - Section 20C(1H)](https://taxguru.in/income-tax/faqs-tcs-sales-goods-section-206c1h.html) and set it up against an eligible customer. 
 
 1. We will first create a Tax Withholding Category named **TCS - Section 20C(1H)** and we set cumulative threshold to 50 Lakhs as per the scheme.
 
@@ -77,11 +77,11 @@ In the following example, we have create a Tax Withholding Category for [TCS - S
 
  <img class="screenshot" alt="Tax Withholding Category" src="{{docs_base_url}}/assets/img/accounts/tcs-eligible-customer.png">
 
-1. Let's create an invoice for 12,000 against the eligible customer. Saving the invoice automatically calculates tax and appends it in the taxes table.
+1. Let's create an invoice for 12,000 against the eligible customer. Saving the invoice automatically calculates the tax and appends it in the taxes table.
 
  <img class="screenshot" alt="Tax Withholding Category" src="{{docs_base_url}}/assets/img/accounts/tcs-invoice.png">
 
- Since the invoice cross the Cumulative threshold (50 Lakhs), we see that tax has been charged. Hence, tax based on the rate provided in the **Tax Withholding Category** is applied accordingly. Note that, as per the scheme, the TCS is calculated on the amount exceeding the threshold i.e 0.075 % of 10 Lakhs.
+ Since the invoice crosses the cumulative threshold (50 Lakhs), we see that tax has been charged. Hence, tax based on the rate provided in the **Tax Withholding Category** is applied accordingly. Note that as per the scheme, the TCS is calculated on the amount exceeding the threshold i.e. 0.075 % of 10 Lakhs.
 
 ### 4. Related Topics
 1. [Tax Rule](/docs/user/manual/en/accounts/tax-rule)

@@ -53,7 +53,7 @@ If the "Delivery Note Required" or "Sales Order Required" option is configured a
 
 ### 2.3 Set Tax Withholding Category
 
-You can set Tax Withholding Category to setup TCS against eligible customers. For more information, visit the [Tax Withholding Category](/docs/user/manual/en/accounts/tax-withholding-category) page.
+You can set the Tax Withholding Category to set up TCS against eligible customers. For more information, visit the [Tax Withholding Category](/docs/user/manual/en/accounts/tax-withholding-category) page.
 
 ### 2.4 Default Currency and Price List
 ERPNext supports [Multiple Currencies](/docs/user/manual/en/accounts/multi-currency-accounting) and [Price Lists](/docs/user/manual/en/stock/price-lists).
