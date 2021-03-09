@@ -43,16 +43,16 @@ ERPNext, while being a system which is extremely easy to use, is also highly cus
 1. [Geolocation Field](/docs/user/manual/en/customize-erpnext/articles/geolocation-field)
 1. [Table Multiselect Field](/docs/user/manual/en/customize-erpnext/articles/table-multiselect-field)
 
-### 2.2. Custom Permissions
+### 2.2 Custom Permissions
 1. [Perm Level Error In Permission Manager](/docs/user/manual/en/customize-erpnext/articles/perm-level-error-in-permission-manager)
 1. [User Restriction](/docs/user/manual/en/customize-erpnext/articles/user-restriction)
 1. [Deleting Custom Reports](/docs/user/manual/en/customize-erpnext/articles/deleting-custom-reports)
 
-### 2.3. Global Configuration
+### 2.3 Global Configuration
 1. [Set Language](/docs/user/manual/en/customize-erpnext/articles/set-language)
 1. [Set Precision](/docs/user/manual/en/customize-erpnext/articles/set-precision)
 
-### 2.2 Some Basic Customizations
+### 2.4 Some Basic Customizations
 1. [Customizing Data Visibility In Child Table](/docs/user/manual/en/customize-erpnext/articles/customizing-data-visibility-in-child-table)
 1. [Customizing Sorting Order in List View](/docs/user/manual/en/customize-erpnext/articles/customizing-sorting-order-in-the-list-view)
 1. [Customizing Field Visibility in Print Format](/docs/user/manual/en/customize-erpnext/articles/making-fields-visible-in-print-format)
