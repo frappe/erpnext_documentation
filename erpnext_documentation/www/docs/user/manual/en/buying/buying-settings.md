@@ -47,7 +47,12 @@ This configuration can be overridden for a particular supplier by enabling the "
 
 ### 2.4 Maintain Same Rate Throughout Purchase Cycle
 
-If this is checked, ERPNext will stop you from changing an Item's price in a Purchase Invoice or Purchase Receipt created by a Purchase Order, i.e. it will maintain the same price throughout the purchase cycle. If there is a requirement where the Item's price can change, you should uncheck this option.
+If this is enabled, ERPNext will validate whether an Item's price is changing in a Purchase Invoice or Purchase Receipt created from a Purchase Order, i.e. it will help you maintain the same rate throughout the purchase cycle.
+
+You can configure the action that system should take if the same rate is not maintained in the "Action If Same Rate is Not Maintained" field:
+
+- **Stop**: ERPNext will stop you from changing the price by throwing a validation error.
+- **Warn**: The system will let you save the transaction but warn you with a message if the rate is changed.
 
 ## 3. Allow Item to be added multiple times in a transaction
 
