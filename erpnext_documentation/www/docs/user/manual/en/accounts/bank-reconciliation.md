@@ -90,7 +90,7 @@ or simply search for 'Bank Reconciliation Tool' in the awesomebar.
 1. Select your Company, Bank Account, Bank Statement Start and End Date.
 1. Make sure that the opening balance from ERPNext matches the opening balance of your Bank Statement.
 1. Enter the Closing Balance of the Bank Statement.
-1. Saving the Document will create the Tool.
+1. Saving the Document will show the matching Bank Transactions.
  <img class="screenshot" alt="Reconcile bank transactions" src="{{docs_base_url}}/assets/img/accounts/bank_reconciliation_tool.png">
 
 1. The final goal of Bank Reconciliation is to make the difference amount zero (green) by either matching to an existing voucher or creating a new voucher.
