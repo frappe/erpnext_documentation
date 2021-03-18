@@ -42,14 +42,14 @@ The fields are explained as follows:
 
 ### 1.1 Setting up Discount on Early Payments
 
-You can setup a discounted payment terms such that if payment is done within the specified period then some amount/percentage of invoice value will be discounted. Following fields defines the discount configuration:
+You can set up a discounted payment terms such that if payment is done within the specified period then some amount/percentage of the invoice value will be discounted. The following fields define the discount configuration:
 
 * **Discount Type:** Default is Percentage. You can also change it to Amount.
 * **Discount:** In terms of Percentage or Amount (eg. 10% or ₹ 5,000)
-* **Discount Validity Based On:** This field acts similar as the Due Date Based On field in previous section.
-* **Discount Validity:** The number of days or month the discount is valid with respect to invoice date. (eg. 10 days after invoice date)
+* **Discount Validity Based On:** This field acts similar to the Due Date Based On the field in the previous section.
+* **Discount Validity:** The number of days or months the discount is valid with respect to the invoice date. (eg. 10 days after the invoice date)
 
-<img class="screenshot" alt="Payment Terms" src="{{docs_base_url}}/assets/img/accounts/payment-terms-with-discount.png">
+<img class="screenshot" alt="Payment Terms with Discount" src="{{docs_base_url}}/assets/img/accounts/payment-terms-with-discount.png">
 
 You can now link the Payment Terms with an Invoice and on creating the payment against such invoice, the discount will be applied automatically.
 
