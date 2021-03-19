@@ -4,7 +4,7 @@
 
 To access Loan, go to:
 
-> Human Resources > Loans > Loan 
+> Human Resources > Loans > Loan
 
 
 ## 1. Prerequisites
@@ -19,14 +19,14 @@ Before creating a Loan record, it is necessary that you create the following doc
 
 1. Go to: Loan > New.
 1. Select the Applicant name.
-1. Select the Loan Application. Once selected, loan information such as Loan Type, Loan Amount, Rate of Interest, Repayment Method, Repayment Period in Months and Monthly Repayment Amount will be fetched. 
+1. Select the Loan Application. Once selected, loan information such as Loan Type, Loan Amount, Rate of Interest, Repayment Method, Repayment Period in Months and Monthly Repayment Amount will be fetched.
 1. Enter Repayment Start Date.
 
   <img class="screenshot" alt="Loan" src="{{docs_base_url}}/assets/img/human-resources/loan1.png">
 
 1. Enter Account Information such as Mode of Payment, Payment Account, Loan Account and Interest Income Account.
 1. Save. Once saved, a Repayment Schedule is automatically generated. The first repayment payment date would be set as per the "Repayment Start Date". The
- 
+
 
   <img class="screenshot" alt="Repayment Schedule" src="{{docs_base_url}}/assets/img/human-resources/loan2.png">
 
@@ -39,7 +39,7 @@ You can alternatively create a Loan record directly from [Loan Application](/doc
 
 ### 3.1 Creation of Disbursement Entry
 
-After submitting the Loan document, if the status is "Sanctioned" and "Repay from Salary" is unchecked, you can click on "Create Disbursement Entry" to create a Journal Entry of the Loan.
+After submitting the Loan document, if the status is "Sanctioned", you can click on "Create Disbursement Entry" to create a Journal Entry of the Loan.
 
 
 <img class="screenshot" alt="Disbursement Entry" src="{{docs_base_url}}/assets/img/human-resources/disbursement-entry.png">
