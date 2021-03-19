@@ -5,7 +5,7 @@
 
 E-Invoicing has been introduced to standardize the invoicing process. All ERPs and software have to accommodate the invoice format defined by GSTN. It also provides a level of automation in filling GSTR reports.
 
-Under the new e-invoicing system, businesses with turnover higher than ₹100Cr are supposed to get all business to business (B2B) invoices electronically authenticated with GSTN by generating a unique Invoice Reference Number (IRN).
+Under the new e-invoicing system, businesses with turnover higher than ₹50Cr are supposed to get all business to business (B2B) invoices electronically authenticated with GSTN by generating a unique Invoice Reference Number (IRN).
 
 To help automate the E-Invoicing process, we have integrated ERPNext with a GST Suvidha Provider (GSP) so you can easily authenticate ERPNext Sales Invoices with GSTN.
 
@@ -76,4 +76,4 @@ The process is similar to the cancellation of IRN. Click on Cancel E-Way Bill an
 
 <img class="screenshot" src="/docs/assets/img/regional/india/einv_cancelled_ewaybill.png">
 
-> Note: Using these integration for automatic process involves additional charges. Contact ERPNext Support for more information.
+> Note: Using this integration for automatic process involves additional charges. Contact ERPNext Support for more information.
