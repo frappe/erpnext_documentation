@@ -64,6 +64,6 @@ Following is the list of all the documents that can be renamed.
 
 ## See also
 
-1. [Bulk Rename](/docs/user/manual/en/using-erpnext/articles/bulk-rename.md)
+1. [Bulk Rename](/docs/user/manual/en/using-erpnext/articles/bulk-rename)
 
 <!-- markdown -->
