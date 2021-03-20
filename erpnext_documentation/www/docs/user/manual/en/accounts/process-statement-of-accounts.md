@@ -102,6 +102,6 @@ Report PDF:
 <img class="screenshot" src="{{docs_base_url}}/assets/img/accounts/psoa-report.png">
 
 ## 4. Related Topics
-1. [Setting up an Email Account](/docs/user/manual/en/setting-up/email/email-account.md)
+1. [Setting up an Email Account](/docs/user/manual/en/setting-up/email/email-account)
 1. [Creating Customer Contact](/docs/user/manual/en/CRM/contact#1-how-to-create-a-contact)
-1. [Contact](/docs/user/manual/en/CRM/contact.md)
+1. [Contact](/docs/user/manual/en/CRM/contact)
