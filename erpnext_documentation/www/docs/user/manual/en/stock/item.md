@@ -90,7 +90,7 @@ Barcodes can be recorded in Items to quickly scan and add them in transactions. 
 * **Weight UOM**: The Unit of Measure for the item. This can be Nos, Kilo, etc. The Weight UoM which you use internally can be different from the purchase UoM.
 * **Weight Per Unit**: The actual weight per unit of the item. Eg: 1 kilo biscuits or 10 biscuits per pack.
 * **Default Material Request Type**: When you create a new Material Request for this item, the field set here will be selected by default in the new Material Request. This is also known as an 'indent'.
-* **Valuation Method**: Select the Valuation Method whether FIFO or Moving Average. To know more about Valuation Methods, [click here](/docs/user/manual/en/stock/articles/item-valuation-fifo-and-moving-average).
+* **Valuation Method**: Select the Valuation Method whether FIFO or Moving Average. Read [Item Valuation methods](/docs/user/manual/en/stock/articles/item-valuation-fifo-and-moving-average) to know more.
 
 ### 3.4 Automatic Reordering
 When the stock of an item dips under a certain quantity, you can set an automatic reorder under 'Auto Reorder' section. This should be enabled in [Stock Settings](/docs/user/manual/en/stock/stock-settings#9-automatic-material-request). This will raise a [Material Request](/docs/user/manual/en/stock/material-request) for the Item. The user with roles Purchase Manager and Stock Manager will be **notified** when the Material Request is created.
@@ -234,7 +234,7 @@ You can also set a [Tax Category](/docs/user/manual/en/accounts/tax-category) fo
 
 Quality Inspection can be done with Quick View and you need not go to a different page to update the details inspection in ERPNext.
 
-To know more about Quality Inspection, [click here](/docs/user/manual/en/stock/quality-inspection).
+Read [Quality Inspection](/docs/user/manual/en/stock/quality-inspection) to know more.
 
 ### 3.18 Manufacturing
 

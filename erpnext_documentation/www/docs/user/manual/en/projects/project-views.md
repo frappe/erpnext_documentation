@@ -27,7 +27,7 @@ Kanban in Japanese means "billboard" or "signboard" as the task management metho
 
 ERPNext renders the Kanban view for tasks based on its status. You can update the status of a task by moving the representative card from one column to the next. You can also assign colors to these columns for visual reference.
 
-To learn more about customizing the Kanban boards, [click here](/docs/user/manual/en/customize-erpnext/kanban-board).
+Read [customizing Kanban board](/docs/user/manual/en/customize-erpnext/kanban-board) to learn more.
 
 ## Calendar View
 

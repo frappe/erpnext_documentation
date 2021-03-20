@@ -101,9 +101,9 @@ You can set the currency in which the Purchase Invoice order is to be sent. This
 
 ![PI Price List](/docs/assets/img/accounts/pi-price-list.png)
 
-To know about Price Lists, [click here](/docs/user/manual/en/stock/price-lists).
-
-To know about managing transactions in multiple currencies, [click here](/docs/user/manual/en/accounts/articles/managing-transactions-in-multiple-currency).
+Read about [Price Lists](/docs/user/manual/en/stock/price-lists)
+and [Multi-Currency Transactions](/docs/user/manual/en/accounts/articles/managing-transactions-in-multiple-currency)
+to know more.
 
 ### 3.6 Subcontracting or 'Supply Raw Materials'
 
@@ -111,7 +111,7 @@ Setting 'Supply Raw Materials' option is useful for subcontracting where you pro
 
 ### 3.7 Items table
 
-* **Scan Barcode**: You can add Items in the Items table by scanning their barcodes if you have a barcode scanner. Know how to track them [here](/docs/user/manual/en/stock/articles/track-items-using-barcode)
+* **scan barcode**: You can add Items in the Items table by scanning their barcodes if you have a barcode scanner. Read documentation for [tracking items using barcode](/docs/user/manual/en/stock/articles/track-items-using-barcode) to know more.
 
 * The Item Code, name, description, Image, and Manufacturer will be fetched from the [Item master](/docs/user/manual/en/stock/item).
 

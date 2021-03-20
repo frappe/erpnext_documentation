@@ -113,7 +113,7 @@ After creation of Request for Quotation, there are two ways to generate Supplier
 
     ![RFQ status after supplier quote]({{docs_base_url}}/assets/img/buying/rfq-supplier-quoted.png)
 
-To know about creating a Supplier Quotation, [click here](/docs/user/manual/en/buying/supplier-quotation).
+Read [Supplier Quotation](/docs/user/manual/en/buying/supplier-quotation) to know more.
 
 ## 5. Video
 <div class="embed-container">
