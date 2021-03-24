@@ -1,4 +1,4 @@
-FROM frappe/frappe-worker:develop
+FROM frappe/frappe-worker:develope
 
 RUN install_app erpnext_documentation https://github.com/frappe/erpnext_documentation
 
