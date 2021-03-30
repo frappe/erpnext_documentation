@@ -15,7 +15,7 @@ There are various settings available in the HR Settings.
 <img class="screenshot" alt="Previous Work Experience" src="{{docs_base_url}}/assets/img/human-resources/hr-settings1.png">
 
 ### 1.1. Retirement Age:
-You can enter the retirement age (in years) for your employees. 
+You can enter the retirement age (in years) for your employees.
 
 ### 1.2 Employee Records to be created by
 The naming for employee documents is based on the value selected in this field.
@@ -29,6 +29,8 @@ An email is sent to all the employees of the company when an employee has a birt
 
 ### 1.4 Expense Approver Mandatory In Expense Claim
 In Expense Claim Document the 'Expense Approver' field is set to mandatory on checking this option.
+
+> Payroll Settings will be part of HR Settings till version 12. In version 13, Payroll Settings will be part of the new module, Payroll.
 
 ## 2. Payroll Settings
 
@@ -89,6 +91,11 @@ If checked, the system generates a draft Leave Encashment record on the expiry o
 
 ### 3.6 Restrict Backdated Leave Application
 If checked, the system will not allow making a backdated leave application.
+
+> Introduced in version 13
+
+### 3.7 Automatic Allocate Leaves Based On Leave Policy
+If checked, leaves will be granted to the employees automatically based on the Effective From date as per the present Leave Policy Assignment.
 
 ## 4. Hiring Settings
 

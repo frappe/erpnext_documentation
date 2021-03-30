@@ -35,6 +35,7 @@ their calculation.
 1. [Leave Type](/docs/user/manual/en/human-resources/leave-type)
 1. [Leave Period](/docs/user/manual/en/human-resources/leave-period)
 1. [Leave Policy](/docs/user/manual/en/human-resources/leave-policy)
+1. [Leave Policy Assignment](/docs/user/manual/en/human-resources/leave-policy-assignment)
 1. [Leave Allocation](/docs/user/manual/en/human-resources/leave-allocation)
 1. [Leave Application](/docs/user/manual/en/human-resources/leave-application)
 1. [Compensatory Leave Request](/docs/user/manual/en/human-resources/compensatory-leave-request)

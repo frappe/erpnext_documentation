@@ -4,7 +4,7 @@
 
 Most companies manage leaves based on a Leave Period, corresponding to a calendar year or the fiscal year. To access Leave Period, go to:
 
-> Home > Human Resources > Leaves > Leave Period 
+> Home > Human Resources > Leaves > Leave Period
 
 ## 1. Prerequisites
 
@@ -30,7 +30,11 @@ Additionally, you can check the 'Is Active' checkbox if you want to enable this 
 <img class="screenshot" alt="Leave Period"
 	src="{{docs_base_url}}/assets/img/human-resources/leave-period.png">
 
-Once the information is saved, the Leave Period will also be used as a tool to help you grant leaves for a category of employees. 
+## 3. Granting leave using Leave Period
+
+> In version 12, leaves could be granted via Leave Period through the "Grant Leaves" button. In version 13, leaves will be granted using [Leave Policy Assignment](/docs/user/manual/en/human-resources/leave-policy-assignment).
+
+Once the information is saved, the Leave Period will also be used as a tool to help you grant leaves for a category of employees.
 
 The **Grant** button will generate Leave Allocations based on the [Leave Policy](/docs/user/manual/en/human-resources/leave-policy) applicable to each Employee. You can allocate leaves based on [Employee Grade](/docs/user/manual/en/human-resources/employee-grade), [Department](/docs/user/manual/en/human-resources/department) or [Designation](/docs/user/manual/en/human-resources/designation) as shown below.
 
@@ -44,4 +48,3 @@ The **Grant** button will generate Leave Allocations based on the [Leave Policy]
 1. [Leave Allocation](/docs/user/manual/en/human-resources/leave-allocation)
 1. [Leave Policy](/docs/user/manual/en/human-resources/leave-policy)
 1. [Leave Type](/docs/user/manual/en/human-resources/leave-type)
-
