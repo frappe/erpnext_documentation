@@ -49,6 +49,7 @@ The following are the detailed guides on each of the functionalities ready to us
 
 ### 6. Settings
 1. [Healthcare Settings](/docs/user/manual/en/healthcare/healthcare_settings)
+1. [Patient History Settings](/docs/user/manual/en/healthcare/patient_history_settings)
 
 ### 7. Laboratory
 1. [Lab Test Template](/docs/user/manual/en/healthcare/lab_test_template)
