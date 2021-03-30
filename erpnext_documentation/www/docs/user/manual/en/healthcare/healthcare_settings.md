@@ -25,7 +25,7 @@ To view and change the settings, go to:
 
 * **Automate Appointment Invoicing**: If you wish to automatically create a Sales Invoice (with the selected Practitioner's consultation charges), you can enable this option. This feature is particularly helpful if your facility collects payment while booking an appointment. The Patient Appointment form will allow you to select the Payment Method and Amount Received. Also, the invoices will be canceled automatically on Appointment cancellation.
 
-* **Enable Free Follow-ups**: Many healthcare facilities do not charge for follow up consultations within a time period after the first visit (Patient Registration). Check this if you want to enable free follow-ups. After this is checked, configure the number of free follow-ups (_Patient Encounters in Valid Days_) allowed as well as the time period (_Valid number of days_) for free consultations here.
+* **Enable Free Follow-ups**: Many healthcare facilities do not charge for follow-up consultations within a time period after the first visit (Patient Registration). Check this if you want to enable free follow-ups. After this is checked, configure the number of free follow-ups (_Patient Encounters in Valid Days_) allowed as well as the time period (_Valid number of days_) for free consultations here.
 
 ## 2. Inpatient Settings
 
@@ -53,7 +53,7 @@ If you wish to override default accounts settings and configure the Income and R
 
 ## 5. Out-Patient SMS Alerts
 
-You can enable sending SMS alerts on Patient appointment Booking, Patient Registration, etc. and also configure a message in this section.
+You can enable sending SMS alerts on Patient appointment Booking, Patient Registration, etc., and also configure a message in this section.
 
 <img class="screenshot" alt="ERPNext Healthcare" src="{{docs_base_url}}/assets/img/healthcare/healthcare_settings_4.png">
 
@@ -63,7 +63,7 @@ You can enable sending SMS alerts on Patient appointment Booking, Patient Regist
 
 * **Avoid Confirmation**: Check this if you don't want to send the Appointment Booking message when the Appointment is booked on the same day.
 
-* **Appointment Reminder**: This message will be sent on the day of the Appointment as a reminder.
+* **Appointment Reminder**: This message will be sent on the day of the appointment as a reminder.
 
 * **Remind Before**: You can configure the time before all reminder messages should be sent.
 
