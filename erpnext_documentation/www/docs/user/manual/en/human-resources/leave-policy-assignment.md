@@ -19,33 +19,33 @@ Before creating a Leave Policy Assignment, it is advisable to create the followi
 1. Select Employee and Leave Policy.
 1. Select Assignment based on the following as needed:
     * If "Assignment based on" is set to Leave Period, you need to select the applicable Leave Period. The Effective From and Effective To dates will be set automatically based on the Leave Period selected.
-    * If an assignment is based on Joining Date, The Effective From date will be set to Employee's Date of Joining.
-    * If an assignment is based on is blank, You need to set Effective From and Effective To Manually.
+    * If "Assignment based on" is set to Joining Date, the Effective From date will be set to the employee's Date of Joining.
+    * If "Assignment based on" is left blank, then you will have to set the Effective From and Effective To date manually.
 1. Save and Submit.
 
 <img class="screenshot" alt="Leave Policy Assignment"
 	src="{{docs_base_url}}/assets/img/human-resources/leave-policy-assignment.png">
 
-## 3. Granting Leave
+## 3. Granting Leaves
 
-Once the information is saved, the Leave Policy Assignment will also be used as a tool to help you grant leaves for employees. The **Grant Leave** button will appear at the right top corner.
+Once the information is saved, the Leave Policy Assignment will also be used as a tool to help you grant leaves to employees. The **Grant Leave** button will appear at the right top corner.
 
 
 <img class="screenshot" alt="Grant Leaves"
 	src="{{docs_base_url}}/assets/img/human-resources/leave-policy-assignment-grant-leave.png">
 
-On click, The Leave allocation will be created automatically based on [Leave Policy](/docs/user/manual/en/human-resources/leave-policy) as shown below.
+On clicking the "Grant Leave" button, Leave Allocation will be automatically created based on the [Leave Policy](/docs/user/manual/en/human-resources/leave-policy) as shown below.
 
 <img class="screenshot" alt="Leave Allocations"
 	src="{{docs_base_url}}/assets/img/human-resources/granted-leaves.png">
 
->**Note:** The Grant Leave button will appear only then if, No leaves are granted or there is no allocation against current Leave Policy Assignment.
+>**Note:** The Grant Leave button will appear only if there are no leaves granted or there is no allocation against a current Leave Policy Assignment.
 
-## 4. Automatic Allocate Leaves Based On Leave Policy
+## 4. Automatically Allocate Leaves Based On Leave Policy
 
-To enable Automatic allocation for your Leave Policy Assignment you need to Enable [Automatic Allocate Leaves Based On Leave Policy ](/docs/user/manual/en/human-resources/hr-settings#37-automatic-allocate-leaves-based-on-leave-policy) checkbox in HR Settings. Our Scheduler Run background Job and check the Effective From Date in Leave Policy Assignment and create Leave allocation automatically.
+To enable automatic allocation of leaves based on the Leave Policy Assignment, enable [Automatic Allocate Leaves Based On Leave Policy ](/docs/user/manual/en/human-resources/hr-settings#37-automatic-allocate-leaves-based-on-leave-policy) checkbox in HR Settings. The scheduler then runs a background job and checks the Effective From date in the Leave Policy Assignment to create leave allocations automatically.
 
->**Note:** The Leave will be automatically granted only if, No leave is granted against that Leave Policy Assignment till Effective From date.
+>**Note:** Leaves will be automatically granted only if, there are no leaves granted against that Leave Policy Assignment till Effective From date.
 
 ## 5. Features
 ### 5.1 Bulk Leave Policy Assignment
@@ -54,7 +54,7 @@ ERPNext also allows creating multiple Leave Policy Assignment for multiple emplo
 
 1. Go to Leave Policy Assignment list, click on Bulk Leave Policy Assignment.
 1. Dialog Will appear, Select Employee. You can filter Employee based on Company and Department or You can also use standard filters by clicking Add Filters.
-1. Select Leave Policy and Effective From and Effective To.
+1. Select Leave Policy and Effective From and Effective To dates.
 1. Click on Assign.
 
 <img class="screenshot" alt="Bulk Leave Policy Assignment" src="{{docs_base_url}}/assets/img/human-resources/bulk-leave-policy-assignment.png">
