@@ -40,7 +40,8 @@ Different types of manufacturing like make to stock, make to order, and engineer
 
 ### 2.2 Work Order, Quality Inspection & Job Card
 1. [Work Order Summary](/docs/user/manual/en/manufacturing/reports/work-order-summary)
-1. [Consumed Materials in Production](/docs/user/manual/en/manufacturing/reports/consumed-materials-in-production)
+1. [Work Order Wise Consumed Materials](/docs/user/manual/en/manufacturing/reports/work-order-consumed-materials)
+1. [Returned Materials Against Work Order](/docs/user/manual/en/manufacturing/reports/returned_materials_against_work_order)
 1. [Job Card Summary](/docs/user/manual/en/manufacturing/reports/job-card-summary)
 1. [Quality Inspction Summary](/docs/user/manual/en/manufacturing/reports/quality-inspction-summary)
 1. [Production Analytics](/docs/user/manual/en/manufacturing/reports/production-analytics)

@@ -86,4 +86,12 @@ For production orders, the quality of in-process (semi-finished) goods also need
 
 For more details, refer the [Quality Inspection](/docs/user/manual/en/stock/quality-inspection) page.
 
+### 3.2 Scrap Items
+
+While completing the operations, there might be chances that scrap materials will be produced. This scrap materials are required to be added in the inventory. For that user needs to put the details of the scrap items in the job card.
+
+<img class="screenshot" alt="Scrap Items" src="/docs/assets/img/manufacturing/job-card-scrap-item.png">
+
+On completion of the work order, system will add this scrap items in the respective scrap warehouse.
+
 {next}
