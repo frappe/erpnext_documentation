@@ -40,7 +40,7 @@ Go to your **Chart of Accounts**, under the Duties and Taxes head of your accoun
 
 ### 4. Add GST Accounts in GST Settings
 
-Add all the GST Accounts in GST Settings. Adding these accounts in GST Settings will help the system identify all the GST accounts and generate GST reports
+Add all the GST Accounts in GST Settings. Adding these accounts in GST Settings will help the system identify all the GST accounts and generate GST reports.
 
 You can also enable the "Round Off GST Values" in case you want to round off individual GST components in the invoices.
 
@@ -85,4 +85,3 @@ ERPNext comes with most of your reports you need to prepare your GST Returns. Go
 You can check the impact of your invoice in the **GST Sales Register** and **GST Itemised Sales Register**
 
 <img class="screenshot" alt="GST Itemised Sales Register" src="{{docs_base_url}}/assets/img/regional/india/gst-itemised.png">
-
