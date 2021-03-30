@@ -88,7 +88,7 @@ For more details, refer the [Quality Inspection](/docs/user/manual/en/stock/qual
 
 ### 3.2 Scrap Items
 
-While completing the operations, there might be chances that the scrap materials will be produce. This scrap materials are required to add in the inventory. For that user needs to put the details of the scrap items in the job card.
+While completing the operations, there might be chances that scrap materials will be produced. This scrap materials are required to be added in the inventory. For that user needs to put the details of the scrap items in the job card.
 
 <img class="screenshot" alt="Scrap Items" src="/docs/assets/img/manufacturing/job-card-scrap-item.png">
 
