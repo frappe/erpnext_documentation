@@ -9,7 +9,7 @@ An 80G certification is the one that is granted to certain **Indian** not-for-pr
 
 Before creating a Tax Exemption 80G Certificate, you need to create a [Donation](/docs/user/manual/en/non_profit/donation) or a [Membership](/docs/user/manual/en/non_profit/membership) first.
 
-Also, for generating the 80G Certificates, you will need to set up some details in the Company master under the "Non Profit Settings" section.
+Also, for generating the 80G Certificates, you will need to set up some details in the Company master under the "Non-Profit Settings" section.
 
 - **80G Number**: The 80G Number granted to your NGO by the Income Tax Department.
 - **80G With Effect From**: The Date from which your NGO is 80G certified.
