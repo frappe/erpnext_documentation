@@ -18,7 +18,7 @@ If not configured otherwise, ERPNext uses the Supplier's Name as the unique name
 
 You can define or select the Naming Series pattern from: **Settings > Data > Naming Series**
 
-[Click here](/docs/user/manual/en/setting-up/settings/naming-series) to know more about defining a Naming Series.
+Read [Naming Series](/docs/user/manual/en/setting-up/settings/naming-series) to know more about defining a Naming Series.
 
 ### 1.2 Default Supplier Group
 

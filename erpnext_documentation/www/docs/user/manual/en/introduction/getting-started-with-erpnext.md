@@ -28,8 +28,7 @@ To avoid the trouble of installing an instance, ERPNext is available as a
 Virtual Image (a full loaded operating system with ERPNext installed). You can
 use this on **any** platform including Microsoft Windows.
 
-[Click here to see instructions on how to use the Virtual
-Image](https://erpnext.com/download)
+[Instructions on how to use the Virtual Image](https://erpnext.com/download)
 
 ### 4\. Install ERPNext on your Unix/Linux/Mac machine
 

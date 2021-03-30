@@ -57,7 +57,9 @@ The currency of the Purchase Receipt is shown in this section, it is fetched fro
 
 Since the incoming Item affects the value of your inventory, it is important to convert it into your base currency if you have ordered in another Currency. You will need to update the Currency Conversion Rate if applicable.
 
-To know about Price Lists, [click here](/docs/user/manual/en/stock/price-lists).
+Read about [Price Lists](/docs/user/manual/en/stock/price-lists) 
+and [Multi-Currency Transactions](/docs/user/manual/en/accounts/articles/managing-transactions-in-multiple-currency)
+to know more.
 
 ### 3.2 Warehouse details
 The following Warehouses set will apply to all Items in the Items table of the Purchase Receipt. You can change the Warehouses for individual Items via the table.
@@ -67,13 +69,13 @@ The following Warehouses set will apply to all Items in the Items table of the P
 
 #### Subcontracting
 
-* **Raw Materials Consumed**: In case you're subcontracting, select 'Yes' to consume the Raw Materials from the vendor. To know more about subcontracting, [click here](/docs/user/manual/en/manufacturing/subcontracting).
+* **Raw Materials Consumed**: In case you're subcontracting, select 'Yes' to consume the Raw Materials from the vendor. Read [Subcontracting](/docs/user/manual/en/manufacturing/subcontracting) to know more.
 
 ### 3.3 Items table
 
 * **Barcode**: You can track Items using [barcodes](/docs/user/manual/en/stock/articles/track-items-using-barcode).
 
-* **Scan Barcode**: You can add Items in the Items table by scanning their barcodes if you have a barcode scanner. Know how to track them [here](/docs/user/manual/en/stock/articles/track-items-using-barcode)
+* **Scan Barcode**: You can add Items in the Items table by scanning their barcodes if you have a barcode scanner. Read documentation for [tracking items using barcode](/docs/user/manual/en/stock/articles/track-items-using-barcode) to know more.
 
 * The Item Code, name, description, Image, and Manufacturer will be fetched from the Item master.
 

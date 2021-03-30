@@ -11,7 +11,7 @@ You can find the Discount field in the Item table of a transaction, click on the
 
 The feature of Discount (%) is available in all sales and purchase transactions.
 
-If you want to apply a discount (as a Percentage) regularly for certain quantities you'd rather use a "Pricing Rule" [Click here to learn more about Pricing Rule  functionality](/docs/user/manual/en/accounts/pricing-rule).
+If you want to apply a discount (as a Percentage) regularly for certain quantities you'd rather use a "Pricing Rule". Read [Pricing Rule](/docs/user/manual/en/accounts/pricing-rule) documentation to learn more.
 
 ## 2. Discount on Net Total or Grand Total
 

@@ -13,7 +13,7 @@ Only User with System Manager's Role Assigned has permission to create new Fisca
 
 `Accounts > Setup > Fiscal Year`
 
-Click [here](/docs/user/manual/en/accounts/fiscal-year) to learn more about Fiscal Year.
+Read [Fiscal Year](/docs/user/manual/en/accounts/fiscal-year) to learn more.
 
 #### Set Fiscal Year as Default
 

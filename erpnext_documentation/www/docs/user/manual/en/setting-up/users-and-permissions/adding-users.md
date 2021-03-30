@@ -9,7 +9,7 @@ There are two main types of users:
 **Website users**: Customers, Suppliers, Students, etc., who have access only to the portal and not to any modules.
 **System Users**: People using ERPNext in the Company with access to modules, company data, etc.
 
-To know more about these two type of users, [click here](/docs/user/manual/en/setting-up/articles/difference-between-system-user-and-website-user).
+Read more about [difference between system and website user](/docs/user/manual/en/setting-up/articles/difference-between-system-user-and-website-user).
 
 Under User, a lot of info can be entered. For the sake of usability, the information entered for web users is minimal: First Name and Email.
 

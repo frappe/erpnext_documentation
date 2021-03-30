@@ -101,13 +101,13 @@ For India, the following details can be recorded for GST purposes. You can captu
 You can set the currency in which the Sales Invoice order is to be sent. This can be fetched from the Customer master or preceding transactions like Sales Order.
 
 * Wish to select Customer's currency just for the reference of the Customer, whereas accounts posting will be done in the Company's base currency only. Learn more [here](/docs/user/manual/en/accounts/articles/managing-transactions-in-multiple-currency).
-* Maintain separate receivable account in the Customer's currency. The Receivable for this invoice should be posted in that currency itself. [Click here](/docs/user/manual/en/accounts/multi-currency-accounting) to learn more about Multi Currency Accounting.
+* Maintain separate receivable account in the Customer's currency. The Receivable for this invoice should be posted in that currency itself. Read [Multi Currency Accounting](/docs/user/manual/en/accounts/multi-currency-accounting) to learn more.
 
 ### 3.6 Price list
 
 If you select a Price List, then the item prices will be fetched from that list. Ticking on 'Ignore Pricing Rule' will ignore the [Pricing Rules](/docs/user/manual/en/accounts/pricing-rule) set in Accounts > Pricing Rule.
 
-To know about Price Lists, [click here](/docs/user/manual/en/stock/price-lists).
+Read [Price List documentation](/docs/user/manual/en/stock/price-lists) to know more.
 
 
 ### 3.7 The Items table
@@ -117,7 +117,7 @@ To know about Price Lists, [click here](/docs/user/manual/en/stock/price-lists).
 #### Update Stock
 Ticking this checkbox will update the Stock Ledger on submitting the Sales Invoice. If you've created a Delivery Note, the Stock Ledger will be changed. If you're **skipping** the creation of Delivery Note, tick this checkbox.
 
-* **Scan Barcode**: You can add Items in the Items table by scanning their barcodes if you have a barcode scanner. Know how to track them [here](/docs/user/manual/en/stock/articles/track-items-using-barcode)
+* **scan barcode**: You can add Items in the Items table by scanning their barcodes if you have a barcode scanner. Read documentation for [tracking items using barcode](/docs/user/manual/en/stock/articles/track-items-using-barcode) to know more.
 
 * The Item Code, name, description, Image, and Manufacturer will be fetched from the [Item master](/docs/user/manual/en/stock/item).
 
@@ -194,7 +194,7 @@ The payment for an invoice may be made in parts depending on your understanding 
 Write off happens when the Customer pays an amount less than the invoice amount. This may be a small difference like 0.50. Over several orders, this might add up to a big number. For accounting accuracy, this difference amount is 'written off'. To know more, visit the [Payment Terms](/docs/user/manual/en/accounts/payment-entry#25-deductions-or-loss) page.
 
 ### 3.15 Terms and Conditions
-There may be certain terms and conditions on the Item you're selling, these can be applied here. To know about adding Terms and Conditions, [click here](/docs/user/manual/en/setting-up/print/terms-and-conditions).
+There may be certain terms and conditions on the Item you're selling, these can be applied here. Read [Terms and Condition documentation](/docs/user/manual/en/setting-up/print/terms-and-conditions) to know how to add them.
 
 ### 3.16 Transporter Information
 

@@ -15,7 +15,7 @@ Product Page is built for an Item. If you haven't created any Item go to:
 1. Click on Save.
 1. View your Product Page by clicking on **Show on Website** in the sidebar.
 
-> Learn more about creating an Item [here](/docs/user/manual/en/stock/item).
+> Read [Item documentation](/docs/user/manual/en/stock/item) to learn more.
 
 ### 1.1 Items with Variants
 

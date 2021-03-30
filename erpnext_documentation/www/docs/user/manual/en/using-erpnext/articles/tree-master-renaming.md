@@ -3,7 +3,7 @@
 
 **There are various documents in ERPNext which are maintained in a tree structure.**
 
-Click [here](/docs/user/manual/en/setting-up/articles/managing-tree-structure-masters.html) to learn more about tree-structured masters in ERPNext.
+Read about [managing tree structures](/docs/user/manual/en/setting-up/articles/managing-tree-structure-masters.html) to learn more.
 
 Following are the steps to be followed for renaming the ID of a master which is maintained in a tree structure. Let's rename an Account for the instance.
 

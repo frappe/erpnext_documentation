@@ -11,7 +11,7 @@ You can create a new Batch from:
 
 `Stock > Documents > Batch > New`
 
-To learn more about batch, click [here.](/docs/user/manual/en/stock/batch.html)
+Read [Stock batch](/docs/user/manual/en/stock/batch.html) to learn more.
 
 For the Batch item, updating Batch No. in the stock transactions (Purchase Receipt & Delivery Note) is mandatory.
 

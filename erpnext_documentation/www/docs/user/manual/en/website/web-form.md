@@ -104,8 +104,8 @@ You can write custom scripts for your Web Form for things like validating your
 inputs, auto-filling values, showing a success message, or any arbitrary
 action.
 
-Learn how to write custom scripts for your Web Forms
-[here](https://frappe.io/docs/user/en/web-forms#custom-script).
+To learn how to write custom scripts for your Web Forms, read
+[Custom Scripts documentation](https://frappe.io/docs/user/en/web-forms#custom-script).
 
 ### 2.6 Custom CSS
 
