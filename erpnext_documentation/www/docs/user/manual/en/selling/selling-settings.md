@@ -66,7 +66,12 @@ The frequency at which project progress and company transaction details will be 
 ## 4. Other checks
 ### 4.1 Maintain Same Rate Throughout Sales Cycle
 
-The system by default validates that item price will be the same throughout the sales cycle (Sales Order -> Delivery Note -> Sales Invoice). If your item price will be changing within the cycle and you need to bypass validation of the same rate maintained in the cycle, let this checkbox be unchecked.
+If this is enabled, ERPNext will validate whether an Item's price is changing in a Delivery Note or Sales Invoice created from a Sales Order, i.e. it will help you maintain the same rate throughout the sales cycle.
+
+You can configure the action that system should take if the same rate is not maintained in the "Action If Same Rate is Not Maintained" field:
+
+- **Stop**: ERPNext will stop you from changing the price by throwing a validation error.
+- **Warn**: The system will let you save the transaction but warn you with a message if the rate is changed.
 
 ### 4.2 Allow User to Edit Price List Rate in Transaction
 
