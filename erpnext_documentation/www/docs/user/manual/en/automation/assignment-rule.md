@@ -25,13 +25,20 @@ To set up an automatic assignment:
     - `status == "Open"`
     - `issue_type == "Technical" and priority=="High" and status == "Open"`
 
-1. Select the assignment rule (**Round Robin** or **Load Balancing**).
+1. Select the assignment rule.
+    ![Assignment Rule](/docs/assets/img/automation/assignment-rule-select.png)
+
     * **Round Robin**: Assign each document to a User in sequence.
     * **Load Balancing**: Assign new documents to the User who has the least number of assignments.
 
-    ![Assignment Rule](/docs/assets/img/automation/assignment-rule-select.png)
-1. Select the list of Users to whom this Assignment Rule will apply.
-    <img class="screenshot" alt="Assign" src="{{docs_base_url}}/assets/img/automation/auto-assign-2.png">
+        Select the list of Users to whom this Assignment Rule will apply:
+        <img class="screenshot" alt="Assign" src="{{docs_base_url}}/assets/img/automation/auto-assign-2.png">
+
+    * **Based on Field**: Introduced in v13, this rule can be used to assign a document to the User that is set in the configured field.
+
+        Select the User link field which will determine to whom this Assignment Rule will apply:
+        <img class="screenshot" alt="Field Assign" src="{{docs_base_url}}/assets/img/automation/field-auto-assign.png">
+
 
 1. Save.
 
