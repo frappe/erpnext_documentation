@@ -32,7 +32,7 @@ On submitting a donation, you can create a Payment Entry against it using the **
 
 You can set up RazorPay for capturing donations. You can find instructions on setting up razorpay [here](/docs/user/manual/en/erpnext_integration/razorpay-integration).
 
-You can follow the steps listed below to setup razorpay for donations.
+You can follow the steps listed below to setup Razorpay for donations.
 
 1. Setup RazorPay
 1. Setup RazorPay Webhook
@@ -53,11 +53,11 @@ If _Automate Donation Payment Entries_ is enabled, you will have to set the defa
 
 #### 3.2.2 Setting up webhook
 
-You can setup webhook from the RazorPay dashboard in Settings. You can read more about webhooks in RazorPay [here](https://razorpay.com/docs/webhooks/). This webhook will notify your ERPNext site whenever a new donation is created.
+You can set up a webhook from the RazorPay dashboard in Settings. You can read more about webhooks in RazorPay [here](https://razorpay.com/docs/webhooks/). This webhook will notify your ERPNext site whenever a new donation is created.
 
 <img class="screenshot" alt="Donation Webhook" src="{{docs_base_url}}/assets/img/non_profit/donation-webhook.png">
 
-You will need the following details to setup the webhook.
+You will need the following details to set up the webhook.
 
 1. **Webhook URL**: The following is the URL for your ERPNext site. This is the endpoint RazorPay will utilize to notify of any new donations created.
 
