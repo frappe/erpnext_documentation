@@ -2,7 +2,7 @@
 
 # Appointment Type
 
-You can create masters for various types of Appointments. Appointment Type allows you to predefine the duration of the appointment, specify whether its inpatient and set colors to differentiate between different Appointment Types for analysis.
+You can create masters for various types of Appointments. Appointment Type allows you to predefine the duration of the appointment, specify whether it's inpatient, and set colors to differentiate between different Appointment Types for analysis.
 
 ## 1. How to Create an Appointment Type
 
@@ -25,7 +25,7 @@ The color will help you identify the appointments of a particular type in the Ca
 
 ### 2.1 Medical Department wise Billing Items and Charges
 
-From version 13 onwards, you can set up department wise appoinment/consultation charges in the Appointment Type.
+From version 13 onwards, you can set up department-wise appointment/consultation charges in the Appointment Type.
 
 <img class="screenshot" alt="Appointment Type Wise Charge" src="{{docs_base_url}}/assets/img/healthcare/appointment-type-wise-charge.png">
 
