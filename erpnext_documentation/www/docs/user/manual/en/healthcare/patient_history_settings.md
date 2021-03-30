@@ -21,9 +21,9 @@ The following Standard Document Types are pre-configured in Patient History Sett
 - [Vital Signs](/docs/user/manual/en/healthcare/vital_signs)
 - [Inpatient Medication Order](/docs/user/manual/en/healthcare/inpatient_medication_order)
 
-You can add or edit what all fields you want to record in the Patient Medical Record and Patient History. Click on the **Add/Edit Fields** button against the doctype you want to edit the config for. A dialog will be shown with all the currently configured fields checked. You can then select what all fields (including custom) should be a part of the Patient Medical Record and click on Save. Then save the settings.
+You can add or edit all fields you want to record in the Patient Medical Record and Patient History. Click on the **Add/Edit Fields** button against the doctype you want to edit the config for. A dialog will be shown with all the currently configured fields checked. You can then select what all fields (including custom) should be a part of the Patient Medical Record and click on Save. Then save the settings.
 
-Depending upon your selection, a Patient Medical Record with the configured fields and values will be created on document submission, and deleted on document cancellation. If you update the document, the corresponding medical record will also be updated.
+Depending upon your selection, a Patient Medical Record with the configured fields and values will be created on document submission and deleted on document cancellation. If you update the document, the corresponding medical record will also be updated.
 
 ## 2. Custom Document Types
 
