@@ -36,7 +36,7 @@ Currently, you can export **GL Entries** in the way ERPNext creates them. For ex
 |              | Tax amount    | Tax     | Customer        |
 |              | Net amount    | Sales   | Customer        |
 
-However, in ERPNext the right side is not necessarily an **Account**. It could also be multiple accounts, a **Customer** or a **Supplier**. Therefore, we use a temporary against account that can be specified in [DATEV Settings](/docs/user/manual/en/regional/germany/datev-settings.md). All GL Entries are made against this account. The rows in the DATEV Export will look something like this:
+However, in ERPNext the right side is not necessarily an **Account**. It could also be multiple accounts, a **Customer** or a **Supplier**. Therefore, we use a temporary against account that can be specified in [DATEV Settings](/docs/user/manual/en/regional/germany/datev-settings). All GL Entries are made against this account. The rows in the DATEV Export will look something like this:
 
 | Amount       | Debit or Credit | Account | Against Account |
 |--------------|-----------------|---------|-----------------|

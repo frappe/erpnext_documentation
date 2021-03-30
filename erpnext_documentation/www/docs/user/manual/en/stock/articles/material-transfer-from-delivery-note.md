@@ -18,7 +18,7 @@ Considering these scenarios, the provision of Material Transfer has been added i
 
 #### Enable Customer Warehouse
 
-Delivery Note Item doctype has a hidden field of Customer Warehouse. You can enable it from [Stock Settings](/docs/user/manual/en/stock/stock-settings.md) by enabling "Allow Material Transfer From Delivery Note and Sales Invoice"
+Delivery Note Item doctype has a hidden field of Customer Warehouse. You can enable it from [Stock Settings](/docs/user/manual/en/stock/stock-settings) by enabling "Allow Material Transfer From Delivery Note and Sales Invoice"
 
 <img class="screenshot" alt="Delivery Note Material Transfer" src="{{docs_base_url}}/assets/img/stock/customer-warehouse.gif">
 
@@ -44,7 +44,7 @@ Following are the steps to use Purchase Receipt for creating Material Transfer E
 
 #### Enable Supplier Warehouse
 
-Similar to the Customer Warehouse shown above, the first step is to enable the Supplier Warehouse from [Stock Settings](/docs/user/manual/en/stock/stock-settings.md) as shown above.
+Similar to the Customer Warehouse shown above, the first step is to enable the Supplier Warehouse from [Stock Settings](/docs/user/manual/en/stock/stock-settings) as shown above.
 
 <img class="screenshot" alt="Delivery Note Material Transfer" src="{{docs_base_url}}/assets/img/stock/supplier-warehouse-enable.gif">
 
