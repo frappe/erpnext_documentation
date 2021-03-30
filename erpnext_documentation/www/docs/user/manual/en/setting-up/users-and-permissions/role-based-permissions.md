@@ -52,7 +52,8 @@ Leave Application is a good example that encompasses all areas of a Permission S
 
   <img class="screenshot" alt="Limiting access to Leave Applications for a user with Employee Role via User Permissions Manager" src="/docs/assets/img/users-and-permissions/setting-up-permissions-employee-user-permissions.png">
 
-*If you want an **Employee** to only select a document in another document and not have read access to that document as a whole, then grant only `Select` perm to the role, Employee.
+* If you want an **Employee** to only select a document in another document and not have read access to that document as a whole, then grant only Select perm to the role, Employee.
+
   <img class="screenshot" alt="Limiting access to Leave Applications for a user with Employee Role via User Permissions Manager" src="/docs/assets/img/users-and-permissions/setting-up-select-permissions-employee.png">
 
 * **HR Manager** should be able to see all Leave Applications.
