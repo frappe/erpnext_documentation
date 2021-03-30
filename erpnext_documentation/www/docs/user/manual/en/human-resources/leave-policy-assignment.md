@@ -2,7 +2,7 @@
 
 > Introduced in Version 13
 
-Leave Policy Assignment in ERPNext is used to grant leaves to employees. To access Leave policy assignment, go to:
+Leave Policy Assignment in ERPNext is used to assign leaves to employees based on created policies. To access Leave policy assignment, go to:
 
 > Home > Human Resources > Leaves > Leave Policy Assignment
 
@@ -50,10 +50,10 @@ To enable Automatic allocation for your Leave Policy Assignment you need to Enab
 ## 5. Features
 ### 5.1 Bulk Leave Policy Assignment
 
-Our System also allow to create multiple Leave Policy Assignment for multiple employees.
+ERPNext also allows creating multiple Leave Policy Assignment for multiple employees.
 
 1. Go to Leave Policy Assignment list, click on Bulk Leave Policy Assignment.
-1. Dialog Will appear, Select Employee. You can filter Employee based on Company and Department or You can also use standard filters on clicking Add Filters.
+1. Dialog Will appear, Select Employee. You can filter Employee based on Company and Department or You can also use standard filters by clicking Add Filters.
 1. Select Leave Policy and Effective From and Effective To.
 1. Click on Assign.
 
