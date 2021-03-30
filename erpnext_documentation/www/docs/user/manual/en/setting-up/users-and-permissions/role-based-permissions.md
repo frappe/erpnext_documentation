@@ -52,7 +52,7 @@ Leave Application is a good example that encompasses all areas of a Permission S
 
   <img class="screenshot" alt="Limiting access to Leave Applications for a user with Employee Role via User Permissions Manager" src="/docs/assets/img/users-and-permissions/setting-up-permissions-employee-user-permissions.png">
 
-* If you want that an **Employee** should only have select right on **Leave Type** then grant only `Select` perm to role Employee
+*If you want an **Employee** to only select a document in another document and not have read access to that document as a whole, then grant only `Select` perm to the role, Employee.
   <img class="screenshot" alt="Limiting access to Leave Applications for a user with Employee Role via User Permissions Manager" src="/docs/assets/img/users-and-permissions/setting-up-select-permissions-employee.png">
 
 * **HR Manager** should be able to see all Leave Applications.
@@ -81,4 +81,3 @@ In case you have correctly assigned the roles but still you're getting errors wh
 1. [Role Based Permissions](/docs/user/manual/en/setting-up/users-and-permissions/role-based-permissions)
 1. [User Permissions](/docs/user/manual/en/setting-up/users-and-permissions/user-permissions)
 1. [Role Permission For Page And Report](/docs/user/manual/en/setting-up/users-and-permissions/role-permission-for-page-and-report)
-
