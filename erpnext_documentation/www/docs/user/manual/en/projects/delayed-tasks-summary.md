@@ -1,12 +1,12 @@
 <!-- add-breadcrumbs -->
 
-# Delayed Deliverables Summary
+# Delayed Tasks Summary
 
-The Delayed Deliverables Summary report helps identify the tasks which have exceeded their Expected End Dates.
+The Delayed Tasks Summary report helps identify the tasks which have exceeded their Expected End Dates.
 
 To view this report, you can go to:
 
-> Home > Projects > Reports > Delayed Deliverables Summary
+> Home > Projects > Reports > Delayed Tasks Summary
 
 The report is generated based on the Task Doctype.
 
