@@ -3,7 +3,7 @@
 
 The Member doctype allows you to record the Member details for a **Membership**.
 
-Members are simply contacts in your ERPNext database with one or more memberships. The contact may be an individual, a household, an organisation, or some other contact sub-type, but it is always a contact to which a membership is applied.
+Members are simply contacts in your ERPNext database with one or more memberships. The contact may be an individual, a household, an organization, or some other contact sub-type, but it is always a contact to which a membership is applied.
 
 To create new Member go to:
 
@@ -13,7 +13,7 @@ To create new Member go to:
 
 <img class="screenshot" alt="Member" src="{{docs_base_url}}/assets/img/non_profit/membership/member.png">
 
-**Email Address:** You can capture the member's email address here. This will be used while sending membership acknowledgements.
+**Email Address:** You can capture the member's email address here. This will be used while sending membership acknowledgments.
 
 **Membership Type:** Select the Membership Type here.
 
