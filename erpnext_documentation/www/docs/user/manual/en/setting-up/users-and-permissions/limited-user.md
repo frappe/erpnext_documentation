@@ -17,7 +17,7 @@ Website User and System User will be standard user types and these cannot be del
 
 ## Non-Standard User Type
 
-1) For the non standard user type, user has to select the Custom Role, document on which they want to apply the user permission and the fieldname of the user.
+1) For the non standard user type, user has to select the Custom Role, document on which they want to apply the user permission, and the fieldname of the user.
 
 <img class="screenshot" alt="User Type" src="{{docs_base_url}}/assets/img/users-and-permissions/user-type-role.png">
 
