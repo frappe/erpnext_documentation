@@ -36,6 +36,6 @@ For each non-quiz type content in a course, a course activity is created every t
 
 ## Quiz Activity
 
-For each quiz attempt, till the student is allowed to attempt the quiz, a quiz activity is created. This doctype has all the information about the attempt viz. The selected options for each question, attempt date, as well as the result of the quiz.
+For each quiz attempt, till the student is allowed to attempt the quiz, a quiz activity is created. This doctype has all the information about the attempt viz. the selected options for each question, attempt date, the result of the quiz, and the time taken to complete, if the quiz is time-bound.
 
 <img class="screenshot" alt="Quiz Activity" src="{{docs_base_url}}/assets/img/education/lms/desk-quiz-activity.png">
