@@ -5,7 +5,7 @@
 
 ERPNext has a role-based permission system. It means that you can assign Roles to Users, and Permissions can be set on Roles. The Role Permissions Manager allows you to set which roles can access which documents and with what permissions (read, write, submit, etc.).
 
-Once roles are assigned to a user, their access can be limited to specific documents. The permission structure allows you to define different permission rules for different fields using a concept called **Permission Level** of a field. 
+Once roles are assigned to a user, their access can be limited to specific documents. The permission structure allows you to define different permission rules for different fields using a concept called **Permission Level** of a field.
 
 ## 1. How to use the Role Permissions Manager
 To start using the Role Permission Manager, go to:
@@ -30,7 +30,7 @@ Permissions are applied on a combination of:
   * **Document Stages:** Permissions are applied on each stage of the document like Creation, Saving, Submission, Cancellation, and Amendment. A role can be permitted to Print, Email, Import or Export data, access Reports, or define User Permissions.
 
   * **User Permissions:** Using User Permissions in ERPNext a user can be restricted to access only specific Documents for that Document Type. Eg: Only one Territory from all Territories. User Permissions defined for other Document Types also get applied if they are related to the current Document Type through Link Fields.
-  
+
     For example, a Customer is a link field in a Sales Order or Quotation. In the Role Permissions Manager, User Permissions can be set using the 'Set User Permissions' button.
 
     To set User Permissions based on documents/fields go to:
@@ -51,7 +51,11 @@ Leave Application is a good example that encompasses all areas of a Permission S
   Hence, User Permissions record should be created for each User-Employee combination.
 
   <img class="screenshot" alt="Limiting access to Leave Applications for a user with Employee Role via User Permissions Manager" src="/docs/assets/img/users-and-permissions/setting-up-permissions-employee-user-permissions.png">
-  
+
+* If you want an **Employee** to only select a document in another document and not have read access to that document as a whole, then grant only Select perm to the role, Employee.
+
+  <img class="screenshot" alt="Limiting access to Leave Applications for a user with Employee Role via User Permissions Manager" src="/docs/assets/img/users-and-permissions/setting-up-select-permissions-employee.png">
+
 * **HR Manager** should be able to see all Leave Applications.
   Create a Permission Rule for HR Manager at Level 0, with Read permissions. Apply User Permissions should be disabled.
 
@@ -78,4 +82,3 @@ In case you have correctly assigned the roles but still you're getting errors wh
 1. [Role Based Permissions](/docs/user/manual/en/setting-up/users-and-permissions/role-based-permissions)
 1. [User Permissions](/docs/user/manual/en/setting-up/users-and-permissions/user-permissions)
 1. [Role Permission For Page And Report](/docs/user/manual/en/setting-up/users-and-permissions/role-permission-for-page-and-report)
-
