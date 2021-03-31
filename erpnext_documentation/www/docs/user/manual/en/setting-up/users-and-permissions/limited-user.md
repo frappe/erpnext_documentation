@@ -3,7 +3,9 @@
 
 **The user will get limited access to the system.**
 
-The limited users can access only specific documents of the specific modules. Certain users don't use all the modules and required specific modules. For example, In the company to record the daily attendance or leave application, every employee required system access. But assume 500 people are working in the company out of which only 100 uses all documents and the remaining 400 needs to access the document of daily attendance or leave application. The User Type document plays an important role to handle this use case. There are default User Types, "System User" and "Website User",  the System User can access the desk and website portal whereas the Website User can only access the website portal. To handle the case of limited access of documents for the employees by default ERPNext has added a new user type 'ESS User'.
+Limited users can access only specific documents of the specific modules. Certain users don't use all the modules and need only specific modules. For example, in the company, to record the daily attendance or leave application every employee was given required system access. But assume 500 people are working in the company out of which only 100 use all documents and the remaining 400 need only documents for daily attendance or leave applications. Such users are limited users.
+
+The User Type document plays an important role to handle this use case. There are default User Types, "System User" and "Website User",  the System User can access the desk and website portal whereas the Website User can only access the website portal. To handle the case of limited access of documents for the employees by default ERPNext has added a new user type 'ESS User'.
 
 ## User Type
 
@@ -33,13 +35,13 @@ The above table also acts as the Role Permission Manager for this particular Use
 
 3) Document Types (Select Permissions Only):
 
-In this table, you need to list down all the doctypes that you want the ESS user to have SELECT access to. There is no limit to the no. of doctypes you can add here. Users will not be able to create the records for the documents to which they have Select perm access.
+In this table, you need to list down all the doctypes that you want the ESS user to have SELECT access to. There is no limit to the number of doctypes you can add here. Users will not be able to create the records for the documents to which they have Select perm access.
 
 <img class="screenshot" alt="User Type" src="{{docs_base_url}}/assets/img/users-and-permissions/user-type-select-perm.png">
 
 ## Adding non-standard User
 
-While adding the new user, the user needs to select the user type. In the case of a non-standard user type, the respective user should be linked to the document which has been set in the field "Apply User Permission On".
+While adding the new user, the user needs to select the user type. In case of a non-standard user type, the respective user should be linked to the document which has been set in the field "Apply User Permission On".
 
 
 <img class="screenshot" alt="User Type" src="{{docs_base_url}}/assets/img/users-and-permissions/limited-access-user.png">
