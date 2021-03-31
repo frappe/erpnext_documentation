@@ -79,6 +79,7 @@ The Shipment Information section is an **optional** section where a user can man
 ### 3.3 Automation
 
 You can also automate rate comparison, label generation, tracking, etc. using our [Shipping Integration](/docs/user/manual/en/erpnext_integration/erpnext_shipping).
+
 ### 4. Related Topics
 1. [Delivery Note](/docs/user/manual/en/stock/delivery-note)
 1. [Packing Slip](/docs/user/manual/en/stock/packing-slip)
