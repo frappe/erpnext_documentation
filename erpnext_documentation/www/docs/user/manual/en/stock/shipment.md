@@ -12,6 +12,8 @@ metatags:
 
 **A Shipment is a document that keeps track of real-world Shipments created against a Delivery Note or independently.**
 
+> Introduced in version 13
+
 Shipments are particularly useful for shippers who want to track all their Shipment information such as AWB Number, Shipment Status, Carrier, etc. within ERPNext.
 
 To access the Shipment list, go to:
@@ -30,6 +32,7 @@ A Shipment can be created manually or from a Delivery Note:
 To create a Shipment manually, follow these steps:
 
 1. Go to the Shipment list, click on New.
+
  <img class="screenshot" alt="Unsaved Shipment" src="{{docs_base_url}}/assets/img/stock/unsaved-shipment.png">
 1. Select an option in the **Pickup from** field. On selecting one of the three options, you will be prompted to select a Company/Supplier/Customer based on your selection.
 1. If you select 'Company' in the **Pickup from** field, along with the Address you must also select a **Pickup Contact Person** who will be a user from your organization, in ERPNext. Make sure the Last Name, Email Address and Phone Number are set for this user.
@@ -40,31 +43,42 @@ To create a Shipment manually, follow these steps:
 1. Add a Description of Contents in this Shipment.
 1. You can optionally fill the Shipment Information section if you are tracking Shipments manually.
 1. Save and Submit.
+
  <img class="screenshot" alt="Submitted Shipment" src="{{docs_base_url}}/assets/img/stock/shipment-submitted.png">
 
 ### 2.1. Shipment from Delivery Note
-To create a Shipment from a Delivery Note, click on **Create > Shipment**.
+To create a Shipment from a Delivery Note:
+
+1. Click on **Create** > **Shipment** in the Delivery Note.
+
  <img class="screenshot" alt="Submitted Shipment" src="{{docs_base_url}}/assets/img/stock/shipment-from-delivery-note.png">
+
+1. Fill the form as mentioned in the previous section.
 
 ## 3. Features
 
 ### 3.1. Shipment Parcel
 
-You can specify the length, width, height and weight of a parcel in the Shipment. If there are multiple parcels of the same dimensions, the **count** field can be set accordingly.
+You can specify the length, width, height and, weight of a parcel in the Shipment. If there are multiple parcels with identical dimensions, the **count** field can be set accordingly.
 
-To automatically fetch frequently used parcel dimensions, a Parcel Template can be created and set in the **Parcel Template** field. After setting the template, click on **Add template**.
+To automatically fetch frequently used parcel dimensions, a Parcel Template can be created and set in the **Parcel Template** field. After adding the template, click on the **Add template** button.
+
  <img class="screenshot" alt="Submitted Shipment" src="{{docs_base_url}}/assets/img/stock/shipment-parcel.png">
 
-### 3.2. Shipment Information Section
+### 3.2. Shipment Information / Details
 The Shipment Information section is an **optional** section where a user can manually track Shipment information. Here are some of the fields:
 
-1. **Service Provider**: A Service Provider can be a third party service that provides shipping services from various carriers.
+1. **Service Provider** (optional): A Service Provider can be a third-party service that provides shipping services from various carriers.
 1. **Shipment ID**: The unique Shipment ID on your Shipping platform.
 1. **Shipment Amount**: Total cost incurred on Shipment
 1. **Carrier**: The Carrier that handles your Shipment and delivers it.
-1. **Carrier Service**: The type/category of service provided by the carrier. For e.g. some carriers have categories such as Economy, Express, etc.
-1. **AWB Number**: For International Shipments. Air Waybill (AWB) gets a unique number, to make it easy to identify and track your Shipment.
+1. **Carrier Service** (optional): The type/category of service provided by the carrier. E.g. some carriers have categories such as Economy, Express, etc.
+1. **AWB Number**: An air waybill (AWB) accompanies **international** air cargo. It usually has a unique **AWB Number**, that makes it easy to identify and track an air courier.
+1. **Incoterm**: They are a set of internationally recognized rules which define the responsibilities of sellers and buyers. [Know more about it here.](https://iccwbo.org/resources-for-business/incoterms-rules/incoterms-2020/)
 
+### 3.3 Automation
+
+You can also automate rate comparison, label generation, tracking, etc. using our [Shipping Integration](/docs/user/manual/en/erpnext_integration/erpnext_shipping).
 ### 4. Related Topics
 1. [Delivery Note](/docs/user/manual/en/stock/delivery-note)
 1. [Packing Slip](/docs/user/manual/en/stock/packing-slip)

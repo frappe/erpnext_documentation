@@ -12,10 +12,13 @@
 ### Bank Integration
 1. [Plaid Integration](/docs/user/manual/en/erpnext_integration/plaid_integration)
 
-### ECommerce Integration
+### E-commerce Integration
 1. [Shopify Integration](/docs/user/manual/en/erpnext_integration/shopify_integration)
 2. [Woocommerce Integration](/docs/user/manual/en/erpnext_integration/woocommerce_integration)
 3. [Amazon Integration](/docs/user/manual/en/erpnext_integration/amazon_integration)
+
+### Shipping Integration
+1. [ERPNext Shipping](/docs/user/manual/en/erpnext_integration/erpnext_shipping)
 
 ### Google Integration
 1. [Google Settings](/docs/user/manual/en/erpnext_integration/google_settings)
