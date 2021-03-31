@@ -14,6 +14,8 @@ To help automate the E-Invoicing process, we have integrated ERPNext with a GST 
 - You must have a registered account on E-Invoice [portal](https://einvoice1.gst.gov.in/)
 - GST Accounts must be set in the "GST Settings" DocType.
 
+> Note: Using this integration for automatic process involves additional charges. Contact ERPNext Sales Team for more information.
+
 ## 2. Setting up E-Invoicing
 
 ### 2.1 Getting Credentials
@@ -75,5 +77,3 @@ The process is similar to the cancellation of IRN. Click on Cancel E-Way Bill an
 <img class="screenshot" src="/docs/assets/img/regional/india/einv_cancel_ewaybill_button.png">
 
 <img class="screenshot" src="/docs/assets/img/regional/india/einv_cancelled_ewaybill.png">
-
-> Note: Using this integration for automatic process involves additional charges. Contact ERPNext Support for more information.
