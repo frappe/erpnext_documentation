@@ -5,7 +5,7 @@
 
 Limited users can access only specific documents of the specific modules. Certain users don't use all the modules and need only specific modules. For example, in the company, to record the daily attendance or leave application every employee was given required system access. But assume 500 people are working in the company out of which only 100 use all documents and the remaining 400 need only documents for daily attendance or leave applications. Such users are limited users.
 
-The User Type document plays an important role to handle this use case. There are default User Types, "System User" and "Website User",  the System User can access the desk and website portal whereas the Website User can only access the website portal. To handle the case of limited access of documents for the employees by default ERPNext has added a new user type 'ESS User'.
+The User Type document plays an important role to handle this use case. There are default User Types, "System User" and "Website User",  the System User can access the desk and website portal whereas the Website User can only access the website portal. To handle the case of limited access of documents for the employees by default ERPNext has added a new user type 'Employee Self Service'.
 
 ## User Type
 
@@ -31,11 +31,11 @@ The non-standard user type users can only access the documents which have been m
 
 <img class="screenshot" alt="User Type" src="{{docs_base_url}}/assets/img/users-and-permissions/user-type-document-type.png">
 
-The above table also acts as the Role Permission Manager for this particular User Type (ESS User in our case). ESS User as a role won't be accessible in the general Role Permission Manager.
+The above table also acts as the Role Permission Manager for this particular User Type (Employee Self Service in our case). Employee Self Service as a role won't be accessible in the general Role Permission Manager.
 
 3) Document Types (Select Permissions Only):
 
-In this table, you need to list down all the doctypes that you want the ESS user to have SELECT access to. There is no limit to the number of doctypes you can add here. Users will not be able to create the records for the documents to which they have Select perm access.
+In this table, you need to list down all the doctypes that you want the Employee Self Service User to have SELECT access to. There is no limit to the number of doctypes you can add here. Users will not be able to create the records for the documents to which they have Select perm access.
 
 <img class="screenshot" alt="User Type" src="{{docs_base_url}}/assets/img/users-and-permissions/user-type-select-perm.png">
 
