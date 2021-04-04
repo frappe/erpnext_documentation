@@ -11,8 +11,7 @@ To share a document, open the document, click on the "+" icon under sharing and 
 
 In the popup window, you can either select all users or one particular user.
 
-Read, write, and share access can be granted to the user for this document.
-Ticking 'Notify by Email' will send an email notifying the user that this document has been shared with them.
+Read, write, submit, and share access can be granted to the user for this document.
 
 ### Related Topics
 1. [Role and Role Profile](/docs/user/manual/en/setting-up/users-and-permissions/role-and-role-profile)

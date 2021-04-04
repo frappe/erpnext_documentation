@@ -97,10 +97,10 @@ To create a new Shift Request go to:
 
 
 1. Go to Shift Request List, Click on New.
-1. Select Employee and Shift Type
+1. Select Employee and Shift Type.
 1. Set the Shift duration using From Date and To Date.
-1. Select Approver
-1. Save
+1. Select the Approver. If the selected approver does not have access to the Shift Request document, it is shared with the approver with "submit" permission.
+1. Save.
 
 	<img class="screenshot" alt="Shift Request" src="{{docs_base_url}}/assets/img/human-resources/shift-request.png">
 
