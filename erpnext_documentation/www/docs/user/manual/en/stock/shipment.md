@@ -1,6 +1,5 @@
 ---
 title: Shipment
-add_breadcrumbs: 1
 show_sidebar: 0
 
 metatags:
@@ -8,6 +7,7 @@ metatags:
  keywords: Shipment, Shipping, frappe, Delivery, erpnext new features, erp, open source erp, free erp, stock
 ---
 
+<!-- add-breadcrumbs -->
 # Shipment
 
 **A Shipment is a document that keeps track of real-world Shipments created against a Delivery Note or independently.**
