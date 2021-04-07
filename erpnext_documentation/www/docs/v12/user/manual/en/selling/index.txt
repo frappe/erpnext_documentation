@@ -1,0 +1,11 @@
+quotation
+sales-order
+blanket-order
+sales-analytics
+sales-partner
+selling-settings
+item-price
+shipping-rule
+product-bundle
+sales-person-target-allocation
+sales-taxes-and-charges-template
