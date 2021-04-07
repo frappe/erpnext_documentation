@@ -7,7 +7,7 @@ For example, if they take a customer out for lunch, they can make a request for 
 
 To access an Expense Claim, go to:
 
-> Human Resources > Expense Claims > Expense Claim 
+> Human Resources > Expense Claims > Expense Claim
 
 ## 1. Prerequisites
 
@@ -41,6 +41,8 @@ Expense claim workflow
 ### Approving Expenses
 
 Approver for the Expense Claim is selected by an Employee himself. Employee can choose from the list of users who are configured as _Expense Approvers_ for their [Department](/docs/user/manual/en/human-resources/department).
+
+When a new Expense Claim is created, if the selected expense approver does not have access to it, the document is shared with the approver with "submit" permission.
 
 After saving Expense Claim, Employee should [Assign document to Approver](/docs/user/manual/en/using-erpnext/assignment). On assignment, approving user will also receive email notification. To automate email notification, you can also setup Email Alert
 
