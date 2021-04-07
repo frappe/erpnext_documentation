@@ -12,7 +12,7 @@ To access the Quality Feedback Template, go to:
 1. In the Parameters table, list down the various processes/parameters on which you want the user to rate and give the feedback.
 1. Save.
 
-    <img class="screenshot" alt="Quality mangement" src="{{docs_base_url}}/assets/img/quality-management/template.gif">
+    <img class="screenshot" alt="Quality mangement" src="{{docs_base_url}}/v12/assets/img/quality-management/template.gif">
 
 ## 2. Related Topics
 * [Quality Feedback](/docs/v12/user/manual/en/quality-management/quality_feedback)

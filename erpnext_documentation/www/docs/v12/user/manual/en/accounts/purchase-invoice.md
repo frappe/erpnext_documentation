@@ -36,7 +36,7 @@ For manual creation, follow these steps:
 1. The Rate and Amount will be fetched.
 1. Save and Submit.
 
- <img class="screenshot" alt="Purchase Invoice" src="{{docs_base_url}}/assets/img/accounts/purchase-invoice.png">
+ <img class="screenshot" alt="Purchase Invoice" src="{{docs_base_url}}/v12/assets/img/accounts/purchase-invoice.png">
 
 ### 2.1 Additional options when creating a Purchase Invoice
 
@@ -303,7 +303,7 @@ that the hold on the document expires.
 
 After the invoice has been saved, you can change the release date by clicking on the "Hold Invoice" drop down button and then "Change Release Date". This action will cause a dialog to appear.
 
-<img class="screenshot" alt="Purchase Invoice on hold" src="{{docs_base_url}}/assets/img/accounts/purchase-invoice-hold.png">
+<img class="screenshot" alt="Purchase Invoice on hold" src="{{docs_base_url}}/v12/assets/img/accounts/purchase-invoice-hold.png">
 
 Select the new release date and click "Save". You should also enter a comment
 in the "Reason For Putting On Hold" field.

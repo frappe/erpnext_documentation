@@ -4,13 +4,13 @@
 
 **Loan Security Pledge contains the loan security and the quantity pledged against a Loan.**
 
-<img class="screenshot" alt="Make Loan Security Pledge" src="{{docs_base_url}}/assets/img/loan-management/loan-security-pledge-flow.png">
+<img class="screenshot" alt="Make Loan Security Pledge" src="{{docs_base_url}}/v12/assets/img/loan-management/loan-security-pledge-flow.png">
 
 To access the Loan Security Pledge list, go to:
 > Home > Loan Management > Loan > Loan Security Pledge
 
 
-<img class="screenshot" alt="Loan Application" src="{{docs_base_url}}/assets/img/loan-management/loan-security-pledge.png">
+<img class="screenshot" alt="Loan Application" src="{{docs_base_url}}/v12/assets/img/loan-management/loan-security-pledge.png">
 
 ## 1. Prerequisites
 Before creating and using a Loan Security, it is advised that you create the following first:
@@ -32,11 +32,11 @@ Before creating and using a Loan Security, it is advised that you create the fol
 ### 2.1. Other ways to create a Loan Security Pledge
 1. You can also create a Loan Security Pledge from an approved Loan Application via the **Create** button on the top right
 
-	<img class="screenshot" alt="Loan Application" src="{{docs_base_url}}/assets/img/loan-management/create-loan-security-pledge.png">
+	<img class="screenshot" alt="Loan Application" src="{{docs_base_url}}/v12/assets/img/loan-management/create-loan-security-pledge.png">
 
 2. Or you can also create a Loan Security Pledge from the [Loan Security Shortfall](/docs/v12/user/manual/en/loan-management/loan-security-shortfall) in case of a loan security to value shortfall by clicking on the **Add Loan Security** button on the top right
 
-	<img class="screenshot" alt="Loan Application" src="{{docs_base_url}}/assets/img/loan-management/shortfall-security.png">
+	<img class="screenshot" alt="Loan Application" src="{{docs_base_url}}/v12/assets/img/loan-management/shortfall-security.png">
 
 {next}
 

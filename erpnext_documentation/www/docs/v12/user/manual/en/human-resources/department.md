@@ -11,7 +11,7 @@ To access Department, go to:
 
 Department is a tree-structured master, which means you can create parent departments and sub-departments as shown below:
 
-<img class="screenshot" alt="Department Tree" src="{{docs_base_url}}/assets/img/human-resources/department-tree.png">
+<img class="screenshot" alt="Department Tree" src="{{docs_base_url}}/v12/assets/img/human-resources/department-tree.png">
 
 > **Note:** The 'Is Group' checkbox needs to be checked if the Department is a parent department.
 
@@ -31,7 +31,7 @@ Before creating a Department, it is advisable you create the following documents
 1. Select Leave Block List (optional) applicable for this department.
 1. Save.
 
-    <img class="screenshot" alt="Department" src="{{docs_base_url}}/assets/img/human-resources/department.png">
+    <img class="screenshot" alt="Department" src="{{docs_base_url}}/v12/assets/img/human-resources/department.png">
 
 
 ## 3. Features
@@ -40,7 +40,7 @@ Before creating a Department, it is advisable you create the following documents
 
 You can set Leave and Expense Approvers for a particular Department in the 'Leave Approver' and 'Expense Approver' table respectively.
 
-<img class="screenshot" alt="Leave and Expense Approver" src="{{docs_base_url}}/assets/img/human-resources/leave-and-expense.png">
+<img class="screenshot" alt="Leave and Expense Approver" src="{{docs_base_url}}/v12/assets/img/human-resources/leave-and-expense.png">
 
 
 > **Note:** Multiple Leave and Expense Approvers can be set for a particular Department. However, the first  Approver in the list will be set as the default Approver.

@@ -85,7 +85,7 @@ Barcodes can be recorded in Items to quickly scan and add them in transactions. 
 
   A warranty period is a time period in which a purchased product may be returned or exchanged.
 
-  <img class="screenshot" alt="Item Warranty" src="{{docs_base_url}}/assets/img/stock/item-inventory.png">
+  <img class="screenshot" alt="Item Warranty" src="{{docs_base_url}}/v12/assets/img/stock/item-inventory.png">
 
 * **Weight UOM**: The Unit of Measure for the item. This can be Nos, Kilo, etc. The Weight UoM which you use internally can be different from the purchase UoM.
 * **Weight Per Unit**: The actual weight per unit of the item. Eg: 1 kilo biscuits or 10 biscuits per pack.
@@ -104,7 +104,7 @@ When the stock of an item dips under a certain quantity, you can set an automati
 
 * **Material Request Type**: The [Material Request](/docs/v12/user/manual/en/stock/material-request) type with which the stock will be reordered. This depends whether you buy the Item, manufacture it yourself or transfer it between Warehouses.
 
-  <img alt="Item Reorder" class="screenshot" src="{{docs_base_url}}/assets/img/stock/item-reorder.png">
+  <img alt="Item Reorder" class="screenshot" src="{{docs_base_url}}/v12/assets/img/stock/item-reorder.png">
 
 > **Note**: The Material Request is created at 12 midnight depending on the set reorder level.
 
@@ -119,7 +119,7 @@ Please note that if you sell your items in thousands, and if the items are very 
 
 In ERPNext, you will have to mention the Serial Number in some accounting entries. If your product is not a big consumer durable Item, if it has no warranty and has no chances of being recalled, avoid giving serial numbers.
 
-<img alt="Serial No modal" class="screenshot" src="{{docs_base_url}}/assets/img/stock/serial_no_modal.gif">
+<img alt="Serial No modal" class="screenshot" src="{{docs_base_url}}/v12/assets/img/stock/serial_no_modal.gif">
 
 ### 3.7 Batches
 
@@ -139,7 +139,7 @@ A set of Items can be manufactured in batches. This is useful for moving the bat
 
 > Tip: While entering an Item Code in an Items table, if the table requires inventory details, then depending on whether the entered item is batched or serialized, you can enter serial or batch numbers right away in a pop-up dialog.
 
-<img alt="Batch No modal" class="screenshot" src="{{docs_base_url}}/assets/img/stock/batch_no_modal.png">
+<img alt="Batch No modal" class="screenshot" src="{{docs_base_url}}/v12/assets/img/stock/batch_no_modal.png">
 
 > **Note**: Once you mark an item as serialized or batched or neither, you cannot change it after you have made a Stock Entry.
 
@@ -175,7 +175,7 @@ In this section, you can define Company-wide transaction-related defaults for th
 * **Is Customer Provided Item:** Checked if Item is provided by a customer and received through **Stock Entry > Material Receipt**. If Checked, **Customer** field is Mandatory as the default customer for **Material Request**. To know more visit [this page](/docs/v12/user/manual/en/manufacturing/articles/customer-provided-items).
 * **Lead time days:** Lead time days are the number of days between ordering the Item and it to reach the Warehouse.
 
-  <img class="screenshot" alt="Purchase details" src="{{docs_base_url}}/assets/img/stock/item-purchase-details.png">
+  <img class="screenshot" alt="Purchase details" src="{{docs_base_url}}/v12/assets/img/stock/item-purchase-details.png">
 
 ### 3.11 Supplier Details
 
@@ -257,7 +257,7 @@ Read [Quality Inspection](/docs/v12/user/manual/en/stock/quality-inspection) to 
 
 * **Show in Website**: Choose if you want to show this Item on your website. Once you tick this, additional options will be visible to configure the item on your website. To view the item on the website click on the 'See on Website' link on the top left just above the item image. Visit the [Website module](/docs/v12/user/manual/en/website) to know more.
 
-  <img class="screenshot" alt="Manufaturing details" src="{{docs_base_url}}/assets/img/stock/item-manufacturing-website.png">
+  <img class="screenshot" alt="Manufaturing details" src="{{docs_base_url}}/v12/assets/img/stock/item-manufacturing-website.png">
 
 * **Weightage**: Items with higher weight will be displayed first on the website. The limit for the number you can enter here is very high.
 

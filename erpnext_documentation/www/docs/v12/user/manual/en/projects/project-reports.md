@@ -8,15 +8,15 @@
 
 Note that details form only those Timesheets which have been specified as billable by ticking the 'Bill' checkbox will be reflected here.
 
-<img class="screenshot" alt="Billable Time Sheets" src="{{docs_base_url}}/assets/img/project/projects-project-billing-summary.png">
+<img class="screenshot" alt="Billable Time Sheets" src="{{docs_base_url}}/v12/assets/img/project/projects-project-billing-summary.png">
 
 ## 2. Daily Timesheet Summary
 
-**This report gives you the details of all the Timesheets submitted by the Users.** 
+**This report gives you the details of all the Timesheets submitted by the Users.**
 
 You can select a specific project and date range in the filters. Details of the Timesheets logged by any Employee for the selected Project between the range specified will be shown.
 
-<img class="screenshot" alt="Project Billing Summary" src="{{docs_base_url}}/assets/img/project/projects-daily-timesheet-summary.png">
+<img class="screenshot" alt="Project Billing Summary" src="{{docs_base_url}}/v12/assets/img/project/projects-daily-timesheet-summary.png">
 
 ## 3. Project Wise Stock Tracking
 
@@ -24,4 +24,4 @@ You can select a specific project and date range in the filters. Details of the 
 
 The Report will also contain the costing details of these stock movements. You can filter the details by Project Name, Customer, Project Start Date or End Date.
 
-<img class="screenshot" alt="Employee Billing Summary" src="{{docs_base_url}}/assets/img/project/projects-project-wise-stock-tracking.png">
+<img class="screenshot" alt="Employee Billing Summary" src="{{docs_base_url}}/v12/assets/img/project/projects-project-wise-stock-tracking.png">

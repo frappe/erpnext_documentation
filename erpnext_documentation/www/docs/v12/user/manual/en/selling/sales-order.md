@@ -5,7 +5,7 @@
 
 It is usually a binding Contract with your Customer. Once your customer confirms the Quotation you can convert your Quotation into a Sales Order.
 
-<img class="screenshot" alt="Make Quotation from Opportunity" src="{{docs_base_url}}/assets/img/selling/selling-flow-so.png">
+<img class="screenshot" alt="Make Quotation from Opportunity" src="{{docs_base_url}}/v12/assets/img/selling/selling-flow-so.png">
 
 To access Sales Order, go to:
 > Home > Selling > Sales > Sales Order
@@ -29,11 +29,11 @@ Before creating and using a Sales Order, it is advised that you create the follo
 ### 2.1 Other ways to create a Sales Order
 1. You can also create a Sales Order from a submitted Quotation via the Create button on the top right.
 
-  <img class="screenshot" alt="Make Sales Order from Quotation" src="{{docs_base_url}}/assets/img/selling/make-SO-from-quote.png">
+  <img class="screenshot" alt="Make Sales Order from Quotation" src="{{docs_base_url}}/v12/assets/img/selling/make-SO-from-quote.png">
 
 1. Or you can create a new Sales Order and pull details from a Quotation.
 
-  <img class="screenshot" alt="Make Sales Order from Quotation" src="{{docs_base_url}}/assets/img/selling/so-from-quote.gif">
+  <img class="screenshot" alt="Make Sales Order from Quotation" src="{{docs_base_url}}/v12/assets/img/selling/so-from-quote.gif">
 
 To allow for per-Customer, per-Item Pricing Rules, ("Customer A" pays $1.00 for "Item 1" but "Customer B" pays $1.25 for "Item 1"), there's a check box called 'Allow User to Edit Price List Rate in Transaction' in [Selling Settings](/docs/v12/user/manual/en/selling/selling-settings). This enables saving the specific item price per customer when you change a price in the Sales Order.
 
@@ -77,14 +77,14 @@ You will be asked to select a Delivery Warehouse even for a product bundle item,
 
 Here is what a Packing List looks like:
 
-<img class="screenshot" alt="Packing List" src="{{docs_base_url}}/assets/img/selling/so-packing-list.png">
+<img class="screenshot" alt="Packing List" src="{{docs_base_url}}/v12/assets/img/selling/so-packing-list.png">
 
 ### 3.4 Taxes and Charges
 To add taxes to your Quotation, you can select a [Sales Taxes and Charges Template](/docs/v12/user/manual/en/selling/sales-taxes-and-charges-template) or add the taxes manually in the Sales Taxes and Charges table.
 
 The total taxes and charges will be displayed below the table. Clicking on Tax Breakup will show all the components and amounts.
 
-<img class="screenshot" alt="Taxes in Quotation" src="{{docs_base_url}}/assets/img/selling/sales-order-taxes.png">
+<img class="screenshot" alt="Taxes in Quotation" src="{{docs_base_url}}/v12/assets/img/selling/sales-order-taxes.png">
 
 #### Shipping Rule
 A Shipping Rule helps set the cost of shipping an Item. The cost will usually increase with the distance of shipping. To know more, visit the [Shipping Rule](/docs/v12/user/manual/en/selling/shipping-rule) page.
@@ -131,7 +131,7 @@ If the sale took place via one of your Sales Partners, you can add their commiss
 ### 3.12 Sales Team
 **Sales Persons:** ERPNext allows you to add multiple Sales Persons who may have worked on this deal. You can change the contribution percentage of the Sales Persons and track how much incentives they earned on this deal.
 
-<img class="screenshot" alt="Sales Team in Sales Order" src="{{docs_base_url}}/assets/img/selling/so-sales-team.png">
+<img class="screenshot" alt="Sales Team in Sales Order" src="{{docs_base_url}}/v12/assets/img/selling/so-sales-team.png">
 
 ### 3.13 Auto Repeat Section
 Auto repeating Sales Orders is like a subscription. Set a start and end date for the auto-repeat. Select the Auto Repeat created. To know more about auto repeat [click here](/docs/v12/user/manual/en/automation/auto-repeat).
@@ -159,7 +159,7 @@ Once you “Submit” your Sales Order, you can trigger actions from the Sales O
 
 These actions can also be seen at the top of the Dashboard. You can also make an accounting Journal Entry based on the Sales Order from the dashboard.
 
-<img class="screenshot" alt="Actions from Submitted Sales Order" src="{{docs_base_url}}/assets/img/selling/submit-so.png">
+<img class="screenshot" alt="Actions from Submitted Sales Order" src="{{docs_base_url}}/v12/assets/img/selling/submit-so.png">
 
 ### 3.15 Sales Order with Order type 'Maintenance'
 When the 'Order Type' of the Sales Order is 'Maintenance' follow these steps:

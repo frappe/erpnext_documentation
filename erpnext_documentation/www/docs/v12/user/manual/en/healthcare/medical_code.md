@@ -17,19 +17,19 @@ To create a Medical Code, go to:
 3. Enter the standard description for the code.
 4. Save.
 
-<img class="screenshot" alt="ERPNext Healthcare" src="{{docs_base_url}}/assets/img/healthcare/medical_code.png">
+<img class="screenshot" alt="ERPNext Healthcare" src="{{docs_base_url}}/v12/assets/img/healthcare/medical_code.png">
 
 ### 1.2 Data Import
 
 Medical Codes and Descriptions can also be imported to create the "Medical Code" documents, after ensuring that you have created the Medical Code Standards appropriately.
 
-<img class="screenshot" alt="ERPNext Healthcare" src="{{docs_base_url}}/assets/img/healthcare/medical_code_1.png">
+<img class="screenshot" alt="ERPNext Healthcare" src="{{docs_base_url}}/v12/assets/img/healthcare/medical_code_1.png">
 
 ## 2. Features
 
 In the Patient Encounter, a practitioner can easily search and select appropriate ones from preconfigured Medical Codes to enable codification based on each of the services your facility offers. In many regions this is mandatory for processing Patient Insurance eligibility, claim processing and billing.
 
-<img class="screenshot" alt="ERPNext Healthcare" src="{{docs_base_url}}/assets/img/healthcare/encounter_4.png">
+<img class="screenshot" alt="ERPNext Healthcare" src="{{docs_base_url}}/v12/assets/img/healthcare/encounter_4.png">
 
 ## 3. Related Topics
 

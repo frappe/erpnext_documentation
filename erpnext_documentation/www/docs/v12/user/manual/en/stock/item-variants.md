@@ -25,10 +25,10 @@ Variants can be based on two things:
 1. The Item then shall be referred to as a so-called 'Template'. Such a Template is not identical to a regular 'Item' any longer. For example, it (the Template) cannot be used directly in any transaction (Sales Order, Delivery Note, Purchase Invoice) itself.
 
 1. Only the Variants of the Item (_blue_ t-shirt in size _small)_ can be practically used. Therefore it would be ideal to decide whether an item 'Has Variants' or not directly when creating it.
-    <img class="screenshot" alt="Has Variants" src="{{docs_base_url}}/assets/img/stock/item-has-variants.png">
+    <img class="screenshot" alt="Has Variants" src="{{docs_base_url}}/v12/assets/img/stock/item-has-variants.png">
 
 1. On selecting 'Has Variants' a table will appear. Specify the variant attributes for the Item in the table. In case the attribute has Numeric Values, you can specify the range and create intervals based on the increment values.
-    <img class="screenshot" alt="Valid Attributes" src="{{docs_base_url}}/assets/img/stock/item-attributes.png">
+    <img class="screenshot" alt="Valid Attributes" src="{{docs_base_url}}/v12/assets/img/stock/item-attributes.png">
 > Note: You cannot make Transactions against a 'Template'.
 
 ### 1.2 Creating the Item Variants Based on Item Attributes
@@ -36,7 +36,7 @@ To create 'Item Variants' against a 'Template' click on 'Create'. From there, ch
 
 Creating multiple variants in ERPNext:
 
-<img class="screenshot" alt="Make Variants" src="{{docs_base_url}}/assets/img/stock/make-multiple-variants.png">
+<img class="screenshot" alt="Make Variants" src="{{docs_base_url}}/v12/assets/img/stock/make-multiple-variants.png">
 
 To learn more about setting attributes check out [Item Attributes](/docs/v12/user/manual/en/stock/item-attribute)
 
@@ -45,7 +45,7 @@ To learn more about setting attributes check out [Item Attributes](/docs/v12/use
 To setup variants based on Manufacturers, in your Item template, set "Variants Based On" as "Manufacturers"
 In this case, to create variants, click on Create > Make Variant. The system will prompt you to select a Manufacturer. You can also optionally put in a Manufacturer Part Number.
 
-<img class='screenshot' alt='Setup Item Variant by Manufacturer' src='{{docs_base_url}}/assets/img/stock/select-mfg-for-variant.png'>
+<img class='screenshot' alt='Setup Item Variant by Manufacturer' src='{{docs_base_url}}/v12/assets/img/stock/select-mfg-for-variant.png'>
 
 The naming of the variant will be based on the name (ID) of the template Item with a number suffix. e.g. "Screwdriver" will have variant "Screwdriver-1".
 

@@ -30,7 +30,7 @@ Before creating and using a Pick List, it is advised that you create the followi
 ## 2. How to create Pick List
 
 1. Go to the Pick List list, click on New.
- <img class='screenshot' alt='Unsaved Pick List' src='{{docs_base_url}}/assets/img/stock/pick-list-unsaved-doc.png'>
+ <img class='screenshot' alt='Unsaved Pick List' src='{{docs_base_url}}/v12/assets/img/stock/pick-list-unsaved-doc.png'>
 
 1. Set the Company.
 1. Select the Purpose of Pick List. These are the options under Purpose:
@@ -48,13 +48,13 @@ Before creating and using a Pick List, it is advised that you create the followi
 1. **Get Item Locations:** Once items to be picked is finalized you can click on the **Get Item Locations** button to get Warehouse selection for each item. Since Warehouse will be automatically fetched if you get an Item from any reference document, this button can be useful to manually add additional Items or change the quantity of existing Items in the Item Locations table.
 
 1. **Item Locations:** This will have the information of the item location (Warehouse), Serial Number for serialized items and batch no for batched items.
- <img class='screenshot' alt='Item Locations' src='{{docs_base_url}}/assets/img/stock/pick-list-item-locations.png'>
+ <img class='screenshot' alt='Item Locations' src='{{docs_base_url}}/v12/assets/img/stock/pick-list-item-locations.png'>
 
  If Serial Numbers are involved, the Item row will look like this:
- <img class='screenshot' alt='Item Location Detail' src='{{docs_base_url}}/assets/img/stock/pick-list-item-location-detail.png'>
+ <img class='screenshot' alt='Item Location Detail' src='{{docs_base_url}}/v12/assets/img/stock/pick-list-item-location-detail.png'>
 
 1. Save and Submit.
- <img class='screenshot' alt='Submitted Pick List' src='{{docs_base_url}}/assets/img/stock/pick-list-submitted-doc.png'>
+ <img class='screenshot' alt='Submitted Pick List' src='{{docs_base_url}}/v12/assets/img/stock/pick-list-submitted-doc.png'>
 
 ### 2.1 Create Pick List from a Sales Order
 
@@ -77,7 +77,7 @@ Before creating and using a Pick List, it is advised that you create the followi
 1. Go to a [Work Order](/docs/v12/user/manual/en/manufacturing/work-order).
 1. Click **Create Pick List** button.
 1. You'll see the dialog box asking for the quantity of Finished Goods Item. This is required to calculate the number of raw material items required to manufacture the entered quantity of Finished Goods Item.
-<img class='screenshot' alt='Dialog For qty' src='{{docs_base_url}}/assets/img/stock/pick-list-dialog-for-qty.png'>
+<img class='screenshot' alt='Dialog For qty' src='{{docs_base_url}}/v12/assets/img/stock/pick-list-dialog-for-qty.png'>
 
 1. You should be able to see the Item locations table with the Warehouse selected for each raw material item.
 1. Save this document and then this document can be forwarded to the person who is picking the stock.

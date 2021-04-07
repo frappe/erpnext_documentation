@@ -5,7 +5,7 @@
 
 Each time you want to update the stakeholders about the project, you can send a Project Update to them.
 
-<img class="screenshot" alt="Project Template" src="{{docs_base_url}}/assets/img/project/projects-project-update.png">
+<img class="screenshot" alt="Project Template" src="{{docs_base_url}}/v12/assets/img/project/projects-project-update.png">
 
 To access Project Update, go to:
 

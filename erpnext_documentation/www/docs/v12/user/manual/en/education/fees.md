@@ -76,6 +76,6 @@ To facilitate that smoothly, you can add your Accounts details in the fee struct
 ### Payment
 Directly make a payment from fee, select Mode of Payment in payment entry and submit the payment.
 
-<img class="screenshot" alt="Fee Payment" src="{{docs_base_url}}/assets/img/education/fees/fee-payment.png">
+<img class="screenshot" alt="Fee Payment" src="{{docs_base_url}}/v12/assets/img/education/fees/fee-payment.png">
 
 {next}

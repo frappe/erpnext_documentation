@@ -8,7 +8,7 @@ In order to create Medical Code Standards, go to:
 
 > Home > Healthcare > Masters > Medical Code Standard
 
-<img class="screenshot" alt="ERPNext Healthcare" src="{{docs_base_url}}/assets/img/healthcare/medical_code_standard.png">
+<img class="screenshot" alt="ERPNext Healthcare" src="{{docs_base_url}}/v12/assets/img/healthcare/medical_code_standard.png">
 
 Two common medical coding classification systems are in use — the International Classification of Diseases (ICD) and the Current Procedural Terminology (CPT).
 

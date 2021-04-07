@@ -14,7 +14,7 @@ Apart from these core transactions, there are other documents available in ERPNe
 
 Here's a view of Item Stock Summary in ERPNext.
 
-<img class="screenshot" alt="ERPNext Stock" src="{{docs_base_url}}/assets/img/stock/stock-hero.png">
+<img class="screenshot" alt="ERPNext Stock" src="{{docs_base_url}}/v12/assets/img/stock/stock-hero.png">
 
 ## 2. A Distributor talks about ERPNext Implementation
 

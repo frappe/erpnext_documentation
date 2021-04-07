@@ -29,7 +29,7 @@ Before creating and using a Promotional Scheme, it is advisable to create the fo
 1. In the Price Discount Slabs table, set the price discount, product discount.
 1. Users can also apply the discount on the other Item Code / Item Group / Brand by selecting the value for Apply Rule On Other field.
 
- <img alt="Promotional Scheme" class="screenshot" src="{{docs_base_url}}/assets/img/accounts/promotional-schemes.png">
+ <img alt="Promotional Scheme" class="screenshot" src="{{docs_base_url}}/v12/assets/img/accounts/promotional-schemes.png">
 1. Save.
 
 > Note: On saving a Promotional Scheme, a new Pricing Rule is created.
@@ -114,13 +114,13 @@ The additional options are:
 
 In this type of promotional scheme, the user gets an option to set the discount in terms of percentage or amount based on the min quantity, max quantity, min amount and max amount on the products. Users can also configure the scheme where they can set the flat rate for the product based on the quantity or the amount of the product.
 
-<img alt="Promotional Scheme" class="screenshot" src="{{docs_base_url}}/assets/img/accounts/promotional-schemes-price-discount.png">
+<img alt="Promotional Scheme" class="screenshot" src="{{docs_base_url}}/v12/assets/img/accounts/promotional-schemes-price-discount.png">
 
 ### 4.2 Product Discount
 
 In this type of promotional scheme, the user gets an option to give a free product on purchase of the same or different product with conditions like min quantity, max quantity, min amount, max amount.
 
-<img alt="Promotional Scheme" class="screenshot" src="{{docs_base_url}}/assets/img/accounts/promotional-schemes-product-discount.png">
+<img alt="Promotional Scheme" class="screenshot" src="{{docs_base_url}}/v12/assets/img/accounts/promotional-schemes-product-discount.png">
 
 ## 5. How to configure a Promotional Scheme (Examples)
 
@@ -140,7 +140,7 @@ To configure this in ERPNext the steps are as follows:
 1. In the price discount table, set the min qty, max qty as 15.
 1. Set the discount type as Discount Percentage and rate as 10.
 
-<img alt="Promotional Scheme" class="screenshot" src="{{docs_base_url}}/assets/img/accounts/promotional-schemes-mixed-conditions.png">
+<img alt="Promotional Scheme" class="screenshot" src="{{docs_base_url}}/v12/assets/img/accounts/promotional-schemes-mixed-conditions.png">
 
 ### 5.2 To apply a discount on other Item
 
@@ -156,7 +156,7 @@ To configure this in ERPNext the steps are as follows
 1. In the price discount table, set the min qty as 30.
 1. Set the discount type as Rate and rate as 12.
 
-<img alt="Promotional Scheme" class="screenshot" src="{{docs_base_url}}/assets/img/accounts/promotional-schemes-discount-on-other.png">
+<img alt="Promotional Scheme" class="screenshot" src="{{docs_base_url}}/v12/assets/img/accounts/promotional-schemes-discount-on-other.png">
 
 ## 6. Related Topics
 1. [Pricing Rule](/docs/v12/user/manual/en/accounts/pricing-rule)

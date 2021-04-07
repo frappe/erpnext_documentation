@@ -29,7 +29,7 @@ Or via a document.
 ### 1.2 Via a document
 1. Open the document for which you want to make a Print Format. Click the Printer icon, or go to Menu > Print and click on the Customize... button. Note: You must have System Manager permission to do this.
 
-  <img class="screenshot" alt="Send Email" src="{{docs_base_url}}/assets/img/setup/print/print-format-builder-1.gif">
+  <img class="screenshot" alt="Send Email" src="{{docs_base_url}}/v12/assets/img/setup/print/print-format-builder-1.gif">
 
 1. To add a field, just drag it from the left sidebar and add it in your layout. You can edit the layouts in sections or individual fields by clicking on the settings <i class="octicon octicon-gear"></i> icon.
 

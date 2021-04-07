@@ -27,11 +27,11 @@ Before creating an Employee Grade, it is advisable you create the following docu
 3. Enter the Default [Leave Policy](/docs/v12/user/manual/en/human-resources/leave-policy) and Default [Salary Structure](/docs/v12/user/manual/en/human-resources/salary-structure) for that Grade.
 3. Save.
 
-    <img class="screenshot" alt="Employee Grade" src="{{docs_base_url}}/assets/img/human-resources/employee-grade.png">
+    <img class="screenshot" alt="Employee Grade" src="{{docs_base_url}}/v12/assets/img/human-resources/employee-grade.png">
 
 Shown below are the different Employee Grades created.
 
-<img class="screenshot" alt="New Employee Grade" src="{{docs_base_url}}/assets/img/human-resources/employee-grade1.png">
+<img class="screenshot" alt="New Employee Grade" src="{{docs_base_url}}/v12/assets/img/human-resources/employee-grade1.png">
 
 You also can access [Employee](/docs/v12/user/manual/en/human-resources/employee), [Leave Period](/docs/v12/user/manual/en/human-resources/leave-type), [Employee Onboarding Template](/docs/v12/user/manual/en//human-resources/employee-onboarding) and [Employee Separation Template](/docs/v12/user/manual/en//human-resources/employee-separation).
 

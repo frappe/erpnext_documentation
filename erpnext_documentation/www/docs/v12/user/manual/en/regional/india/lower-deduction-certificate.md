@@ -25,15 +25,15 @@ Before creating and using a Lower Deduction Certificate, it is advised to create
 ## 3. Using Lower Deduction Certificate
 ### 3.1 Use in Purchase Invoice
 In the following example, we have selected TDS category as 'TDS - 194D - Individual' which has a rate of 5%.
-<img class="screenshot" alt="Tax Withholding Category" src="{{docs_base_url}}/assets/img/regional/india/tds-rate.png">
+<img class="screenshot" alt="Tax Withholding Category" src="{{docs_base_url}}/v12/assets/img/regional/india/tds-rate.png">
 
 1. Set the Tax Withholding Category for the Supplier in the supplier master. Then upon selecting that Supplier, a checkbox will become visible in the Purchase Invoice to select whether to apply tax or not and the TDS category will be auto-fetched.
 
-<img class="screenshot" alt="TDS Supplier Master" src="{{docs_base_url}}/assets/img/regional/india/tds-supplier-master.png">
+<img class="screenshot" alt="TDS Supplier Master" src="{{docs_base_url}}/v12/assets/img/regional/india/tds-supplier-master.png">
 
 1. Let's create an invoice for 20,000. Saving the invoice automatically calculates tax and appends it in the Purchase Taxes and Charges table. Although the tax category assigned to the supplier has a tax rate of 5%, the prevailing tax rate is 1% which is mentioned in the Lower Deduction Certificate.
 
-<img class="screenshot" alt="LTDS in Purchase Invoice" src="{{docs_base_url}}/assets/img/regional/india/ltds-purchase-invoice.png">
+<img class="screenshot" alt="LTDS in Purchase Invoice" src="{{docs_base_url}}/v12/assets/img/regional/india/ltds-purchase-invoice.png">
 
 ### 4. Related Topics
 1. [Tax Withholding Category](/docs/v12/user/manual/en/accounts/tax-withholding-category)

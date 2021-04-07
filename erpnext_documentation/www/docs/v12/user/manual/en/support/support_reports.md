@@ -10,7 +10,7 @@ This report provides a date-wise summary of Average First Response Time for Issu
 To access the First Response Time for Issues report, go to:
 > Home > Support > Reports > First Response Time for Issues
 
-<img class="screenshot" alt="First Response Time for Issues" src="{{docs_base_url}}/assets/img/support/first-response-time.png">
+<img class="screenshot" alt="First Response Time for Issues" src="{{docs_base_url}}/v12/assets/img/support/first-response-time.png">
 
 ## 2. Issue Summary
 
@@ -33,7 +33,7 @@ The stacked chart shows the number of issues classified by status for each custo
 To access the Issue Summary report, go to:
 > Home > Support > Reports > Issue Summary
 
-<img class="screenshot" alt="Issue Summary" src="{{docs_base_url}}/assets/img/support/issue-summary-report.png">
+<img class="screenshot" alt="Issue Summary" src="{{docs_base_url}}/v12/assets/img/support/issue-summary-report.png">
 
 ## 3. Issue Analytics
 
@@ -47,4 +47,4 @@ This report provides a count of issues according to weekly, monthly, quarterly, 
 To access the Issue Analytics report, go to:
 > Home > Support > Reports > Issue Analytics
 
-<img class="screenshot" alt="Issue Analytics" src="{{docs_base_url}}/assets/img/support/issue-analytics.png">
+<img class="screenshot" alt="Issue Analytics" src="{{docs_base_url}}/v12/assets/img/support/issue-analytics.png">

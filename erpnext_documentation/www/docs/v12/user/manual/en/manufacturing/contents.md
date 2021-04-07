@@ -5,7 +5,7 @@ The Manufacturing module in ERPNext covers all necessary features a Manufacturin
 
 Different types of manufacturing like make to stock, make to order, and engineer to order can be managed in the ERPNext Manufacturing module.
 
-<img class="screenshot" alt="Manufacturing Desk" src="{{docs_base_url}}/assets/img/manufacturing/manufacturing-desk.png">
+<img class="screenshot" alt="Manufacturing Desk" src="{{docs_base_url}}/v12/assets/img/manufacturing/manufacturing-desk.png">
 
 ## 1. Topics
 

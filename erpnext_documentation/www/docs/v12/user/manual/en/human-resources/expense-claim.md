@@ -26,11 +26,11 @@ To access an Expense Claim, go to:
 1. In Accounting Details, select the Company's Default Payable Account.
 1. Save and Submit.
 
-<img class="screenshot" alt="Expense Claim" src="{{docs_base_url}}/assets/img/human-resources/expense_claim.png">
+<img class="screenshot" alt="Expense Claim" src="{{docs_base_url}}/v12/assets/img/human-resources/expense_claim.png">
 
 Set the Employee ID, date, the list of expenses, and corresponding taxes that are to be claimed and “Submit” the record.
 
-<img class="screenshot" alt="Expense Claim" src="{{docs_base_url}}/assets/img/human-resources/expense-claim-expenses.png">
+<img class="screenshot" alt="Expense Claim" src="{{docs_base_url}}/v12/assets/img/human-resources/expense-claim-expenses.png">
 
 Expense claim workflow
 <div class="embed-container">
@@ -51,10 +51,10 @@ Expense Claim Approver can update the “Sanctioned Amounts” against Claimed A
 ### Booking the Expense
 
 On submission of Expense Claim, system books an expense against the expense account and the employee account
-<img class="screenshot" alt="Expense Claim" src="{{docs_base_url}}/assets/img/human-resources/expense_claim_book.png">
+<img class="screenshot" alt="Expense Claim" src="{{docs_base_url}}/v12/assets/img/human-resources/expense_claim_book.png">
 
 User can view unpaid expense claim using report "Unclaimed Expense Claims"
-<img class="screenshot" alt="Expense Claim" src="{{docs_base_url}}/assets/img/human-resources/unclaimed_expense_claims.png">
+<img class="screenshot" alt="Expense Claim" src="{{docs_base_url}}/v12/assets/img/human-resources/unclaimed_expense_claims.png">
 
 ### Payment for Expense Claim
 
@@ -68,7 +68,7 @@ To make payment against the expense claim, user has to click on Create > Payment
 
 > Note: This amount should not be clubbed with Salary because the amount will then be taxable to the Employee.
 
-<img class="screenshot" alt="Expense Claim" src="{{docs_base_url}}/assets/img/human-resources/expense_claim_payment_entry.png">
+<img class="screenshot" alt="Expense Claim" src="{{docs_base_url}}/v12/assets/img/human-resources/expense_claim_payment_entry.png">
 
 Alternatively, a Payment Entry can be made for an employee and all outstanding Expense Claims will be pulled in.
 
@@ -80,10 +80,10 @@ Set the Payment Type to "Pay", the Party Type to Employee, the Party to the empl
 
 * To Link Expense Claim with Task or Project specify the Task or the Project while making an Expense Claim
 
-<img class="screenshot" alt="Expense Claim - Project Link" src="{{docs_base_url}}/assets/img/project/project-expense-claim-1.png">
+<img class="screenshot" alt="Expense Claim - Project Link" src="{{docs_base_url}}/v12/assets/img/project/project-expense-claim-1.png">
 
 This will update the Project cost with the Expense claim amounts
 
-<img class="screenshot" alt="Expense Claim - Project Link" src="{{docs_base_url}}/assets/img/project/project-expense-claim-2.png">
+<img class="screenshot" alt="Expense Claim - Project Link" src="{{docs_base_url}}/v12/assets/img/project/project-expense-claim-2.png">
 
 {next}

@@ -13,7 +13,7 @@ To import details of current liabilities:
 
 > To know about Journal Enter in detail, [visit this page](/docs/v12/user/manual/en/accounts/journal-entry).
 
-<img class="screenshot" alt="Stock Asset Ledger" src="{{docs_base_url}}/assets/img/accounts/opening_balance_current_liabilities.png">
+<img class="screenshot" alt="Stock Asset Ledger" src="{{docs_base_url}}/v12/assets/img/accounts/opening_balance_current_liabilities.png">
 
 
 {next}

@@ -32,12 +32,12 @@ To set up an automatic assignment:
     * **Load Balancing**: Assign new documents to the User who has the least number of assignments.
 
         Select the list of Users to whom this Assignment Rule will apply:
-        <img class="screenshot" alt="Assign" src="{{docs_base_url}}/assets/img/automation/auto-assign-2.png">
+        <img class="screenshot" alt="Assign" src="{{docs_base_url}}/v12/assets/img/automation/auto-assign-2.png">
 
     * **Based on Field**: Introduced in v13, this rule can be used to assign a document to the User that is set in the configured field.
 
         Select the User link field which will determine to whom this Assignment Rule will apply:
-        <img class="screenshot" alt="Field Assign" src="{{docs_base_url}}/assets/img/automation/field-auto-assign.png">
+        <img class="screenshot" alt="Field Assign" src="{{docs_base_url}}/v12/assets/img/automation/field-auto-assign.png">
 
 
 1. Save.
@@ -55,7 +55,7 @@ You can also set up multiple auto assignments for each Document Type, the one wi
 Here is an example of an Assignment Rule.
 
 Set Document Type, Descriptions and Conditions.
-<img class="screenshot" alt="Assign" src="{{docs_base_url}}/assets/img/automation/auto-assign-1.png">
+<img class="screenshot" alt="Assign" src="{{docs_base_url}}/v12/assets/img/automation/auto-assign-1.png">
 
 ### 1.2 Setting Due Date for assignment
 

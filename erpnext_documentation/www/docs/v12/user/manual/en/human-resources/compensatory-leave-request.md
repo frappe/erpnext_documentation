@@ -36,7 +36,7 @@ Before creating a Compensatory Leave Request, it is necessary to create the foll
 1. Save and Submit.
 
     <img class="screenshot" alt="Compensatory Leave Request"
-    src="{{docs_base_url}}/assets/img/human-resources/compensatory-leave.png">
+    src="{{docs_base_url}}/v12/assets/img/human-resources/compensatory-leave.png">
 
 
 

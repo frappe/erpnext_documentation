@@ -7,7 +7,7 @@ In addition to user and role permissions, you can also share a document with ano
 
 To share a document, open the document, click on the "+" icon under sharing and select the user with whom you want to share:
 
-<img class="screenshot" src="{{docs_base_url}}/assets/img/setup/users/share.png">
+<img class="screenshot" src="{{docs_base_url}}/v12/assets/img/setup/users/share.png">
 
 In the popup window, you can either select all users or one particular user.
 

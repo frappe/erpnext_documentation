@@ -4,18 +4,18 @@
 To setup Stripe,
 `Explore > Integrations > Stripe Settings`
 
-#### Setup  Stripe 
+#### Setup  Stripe
 
 To enable Stripe payment service, you need to configure parameters like Publishable Key, Secret Key
-<img class="screenshot" alt="Razorpay Settings" src="{{docs_base_url}}/assets/img/setup/integrations/stripe_setting.png">
+<img class="screenshot" alt="Razorpay Settings" src="{{docs_base_url}}/v12/assets/img/setup/integrations/stripe_setting.png">
 
 On enabling service, the system will create Payment Gateway record and Account head in chart of account with account type as Bank.
 
-<img class="screenshot" alt="Stripe COA" src="{{docs_base_url}}/assets/img/setup/integrations/stripe_coa.png">
+<img class="screenshot" alt="Stripe COA" src="{{docs_base_url}}/v12/assets/img/setup/integrations/stripe_coa.png">
 
 Also it will create Payment Gateway Account entry. Payment Gateway Account is configuration hub from this you can set account head from existing COA, default Payment Request email body template.
 
-<img class="screenshot" alt="Payment Gateway Account" src="{{docs_base_url}}/assets/img/setup/integrations/payment_gateway_account_stripe.png">
+<img class="screenshot" alt="Payment Gateway Account" src="{{docs_base_url}}/v12/assets/img/setup/integrations/payment_gateway_account_stripe.png">
 
 After configuring Payment Gateway Account your system is able to accept online payments.
 
@@ -25,12 +25,12 @@ If you need to bill a recurring amount instead of a one-time charge, you can use
 
 Once you have created your billing plans in Stripe, add one or several new "Payment Plan" in Frappe.
 
-<img class="screenshot" alt="Payment Plan" src="{{docs_base_url}}/assets/img/setup/integrations/payment_plan.png">
+<img class="screenshot" alt="Payment Plan" src="{{docs_base_url}}/v12/assets/img/setup/integrations/payment_plan.png">
 
 
 Afterwards, when you create your payment request, click the check field "Is a subscription" and add the system will fetch the corresponding susbscription plans from within the corresponding subscription.
 
-<img class="screenshot" alt="Payment Request" src="{{docs_base_url}}/assets/img/setup/integrations/subscription_payment_request.png">
+<img class="screenshot" alt="Payment Request" src="{{docs_base_url}}/v12/assets/img/setup/integrations/subscription_payment_request.png">
 
 ERPNext will automatically create a new subscription for this customer in Stripe.
 

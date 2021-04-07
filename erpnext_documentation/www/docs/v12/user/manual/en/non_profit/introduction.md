@@ -2,7 +2,7 @@
 
 Here is what a member page of a non-profit would look like in ERPNext:
 
-<img class="screenshot" alt="Non Profit" src="{{docs_base_url}}/assets/img/non_profit/non-profit-hero-linus.png">
+<img class="screenshot" alt="Non Profit" src="{{docs_base_url}}/v12/assets/img/non_profit/non-profit-hero-linus.png">
 
 ## Manager Members, Donors, Voluteers and More
 
@@ -10,7 +10,7 @@ This is a centralized system, which maintains and updates all the activities rel
 
 This will track all activity related to Memberships, Chapters, Volunteer Management, Donor Management, Event and Grant etc.
 
-<img class="screenshot" alt="Non Profit" src="{{docs_base_url}}/assets/img/non_profit/chapter.png">
+<img class="screenshot" alt="Non Profit" src="{{docs_base_url}}/v12/assets/img/non_profit/chapter.png">
 
 ## Demonstration of ERPNext Non-Profit Domain
 

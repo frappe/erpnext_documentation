@@ -15,7 +15,7 @@ To access Shipping Rule, go to:
 4. Under Calculate Based On, you can also change the calculation on which the Shipping Rule will be applied like net total quantity or net total weight, by default it is "Fixed".
 5. Save.
 
-    <img class="screenshot" alt="Shipping Rule" src="{{docs_base_url}}/assets/img/selling/shipping-rule.png">
+    <img class="screenshot" alt="Shipping Rule" src="{{docs_base_url}}/v12/assets/img/selling/shipping-rule.png">
 
 ## 2. Features
 ### 2.1 Shipping Rule Conditions

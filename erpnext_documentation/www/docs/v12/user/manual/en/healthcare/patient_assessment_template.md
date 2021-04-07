@@ -19,7 +19,7 @@ To create a Patient Assessment Template, go to:
 5. You can optionally add some Assessment Descriptions and instructions about the scoring rules.
 6. Save.
 
-<img class="screenshot" alt="ERPNext Healthcare" src="{{docs_base_url}}/assets/img/healthcare/patient-assessment-template.png">
+<img class="screenshot" alt="ERPNext Healthcare" src="{{docs_base_url}}/v12/assets/img/healthcare/patient-assessment-template.png">
 
 ## 3. Related Topics
 1. [Patient Assessment](/docs/v12/user/manual/en/healthcare/patient_assessment)

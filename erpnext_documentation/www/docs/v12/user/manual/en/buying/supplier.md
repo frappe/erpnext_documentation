@@ -11,7 +11,7 @@ To access the Supplier list, go to:
 2. Enter a name for the supplier.
 4. Select the supplier group whether Pharmaceutical, Hardware etc.
 5. Save.
-    <img class="screenshot" alt="Supplier Master" src="{{docs_base_url}}/assets/img/buying/supplier-master.png">
+    <img class="screenshot" alt="Supplier Master" src="{{docs_base_url}}/v12/assets/img/buying/supplier-master.png">
 
 The options to Warn RFQs, POs, Prevent RFQs, POs will be available once you create a [Supplier Scorecard](/docs/v12/user/manual/en/buying/supplier-scorecard) and transactions are made.
 
@@ -38,7 +38,7 @@ For India:
 
 If the "Purchase Order Required" or "Purchase Receipt Required" option is configured as "Yes" in [Buying Settings](/docs/v12/user/manual/en/buying/buying-settings), it can be overridden for a particular supplier by enabling the "Allow Purchase Invoice Creation Without Purchase Order" or "Allow Purchase Invoice Creation Without Purchase Receipt" in the Supplier Master.
 
-<img class="screenshot" alt="Supplier Master" src="{{docs_base_url}}/assets/img/buying/supplier-po-pr-required.png">
+<img class="screenshot" alt="Supplier Master" src="{{docs_base_url}}/v12/assets/img/buying/supplier-po-pr-required.png">
 
 ### 2.3 Currency and Price List
 **Billing Currency**: Your supplier's currency can be different from your company currency. If you choose USD for a supplier, then the currency will be filled as USD and the exchange rate shown for future purchase transactions.
@@ -68,7 +68,7 @@ You can **integrate** a supplier with an account. For all Suppliers, "Creditor" 
 
 If you want to customize payable account for the Supplier, you should first add a payable Account in the Chart of Account, and then select that Payable Account in the Supplier master.
 
-<img class="screenshot" alt="Supplier Master" src="{{docs_base_url}}/assets/img/buying/supplier-payable-account.png">
+<img class="screenshot" alt="Supplier Master" src="{{docs_base_url}}/v12/assets/img/buying/supplier-payable-account.png">
 
 If you don't want to customize payable account, and proceed with default payable account "Creditor", then do not update any value in the Default Supplier Account's table.
 
@@ -82,7 +82,7 @@ You can add the supplier's website and any additional details about your supplie
 ### 2.7 Address and Contacts
 Contacts and Addresses in ERPNext are stored separately so that you can create multiple Contacts and Addresses for one Supplier. Once Supplier is saved, you will find the option to create Contact and Address for that Supplier.
 
-<img class="screenshot" alt="Supplier Master" src="{{docs_base_url}}/assets/img/buying/supplier-new-address-contact.png">
+<img class="screenshot" alt="Supplier Master" src="{{docs_base_url}}/v12/assets/img/buying/supplier-new-address-contact.png">
 
 > Tip: When you select a Supplier in any transaction, Contact for which "Is Primary" field id checked, it will auto-fetch with the Supplier details.
 

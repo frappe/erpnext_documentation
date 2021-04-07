@@ -26,13 +26,13 @@ Before creating an Employee Attendance, it is advised that you create the follow
 1. Mark Present, Absent or Half Day as required.
 
 
-    <img class="screenshot" alt="Attendance upload" src="{{docs_base_url}}/assets/img/human-resources/employee-attendance-tool.gif">
+    <img class="screenshot" alt="Attendance upload" src="{{docs_base_url}}/v12/assets/img/human-resources/employee-attendance-tool.gif">
 
 > **Note:** Attendance cannot be marked for future dates.
 
 Once the attendance is marked using the Employee Attendance Tool, the employee attendance is saved in the [Attendance](/docs/v12/user/manual/en/human-resources/attendance) record as shown:
 
-<img class="screenshot" alt="Attendance" src="{{docs_base_url}}/assets/img/human-resources/attendance_tool1.png">
+<img class="screenshot" alt="Attendance" src="{{docs_base_url}}/v12/assets/img/human-resources/attendance_tool1.png">
 
 
 ## 3. Related Topics

@@ -22,7 +22,7 @@ Before creating and using a Tax Rule, it is advised to create the following firs
 1. Under Tax Type select whether the tax will be applied at Sales or Purchase.
 1. Select the Tax Template to be applied.
 1. Save.
- <img class="screenshot" alt="Tax Rule" src="{{docs_base_url}}/assets/img/accounts/tax-rule.png">
+ <img class="screenshot" alt="Tax Rule" src="{{docs_base_url}}/v12/assets/img/accounts/tax-rule.png">
 
 You can list Items online using the Website module. Selecting 'Use for Shopping Cart' will use this Tax Rule for Shopping Cart transactions also. To know more, visit the [Shopping Cart](/docs/v12/user/manual/en/website/shopping-cart) page.
 
@@ -60,9 +60,9 @@ While creating a new transaction the system will select and apply tax template b
 
 Let us consider a scenario to understand Tax Rule Better. Suppose we define two Tax Rules as below.
 
-<img class="screenshot" alt="Tax Rule" src="{{docs_base_url}}/assets/img/accounts/tax-rule-1.png">
+<img class="screenshot" alt="Tax Rule" src="{{docs_base_url}}/v12/assets/img/accounts/tax-rule-1.png">
 
-<img class="screenshot" alt="Tax Rule" src="{{docs_base_url}}/assets/img/accounts/tax-rule-2.png">
+<img class="screenshot" alt="Tax Rule" src="{{docs_base_url}}/v12/assets/img/accounts/tax-rule-2.png">
 
 Here In State GST has Billing Country as India and VAT 14% has Billing Country as Germany.
 

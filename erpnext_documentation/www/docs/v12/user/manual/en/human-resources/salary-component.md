@@ -18,7 +18,7 @@ To create a new Salary Component:
 1. Enter the Company name and the Default Account of the Salary Component in the Accounts table.
 3. Save.
 
- <img class="screenshot" alt="Salary Component" src="{{docs_base_url}}/assets/img/human-resources/salary-component1.png">
+ <img class="screenshot" alt="Salary Component" src="{{docs_base_url}}/v12/assets/img/human-resources/salary-component1.png">
 
 ## 2. Features
 
@@ -28,7 +28,7 @@ Apart from the above mentioned mandatory fields, some of the additional features
 
 In this section, the Condition and Formula required for the calculation of the Salary Component can be specified. To specify the formula, enable the 'Amount based on formula' checkbox.
 
-<img class="screenshot" alt="Salary Component" src="{{docs_base_url}}/assets/img/human-resources/salary-component2.png">
+<img class="screenshot" alt="Salary Component" src="{{docs_base_url}}/v12/assets/img/human-resources/salary-component2.png">
 
 In case the Salary Component is based on a pre-defined amount, ERPNext allows you to directly enter the amount in the Amount field (disable the 'Amount based on formula' checkbox).
 
@@ -53,7 +53,7 @@ Some of the additional attributes of the Salary Component that can be enabled us
 
 This section is shown if the Salary Component is an Earning Component. Flexible Benefit plans allow employees to avail the benefits they want or need from a package of programs offered by an employer. They may include health insurance, pension plans, telephone expenses, etc. To set a Salary Component as a Flexible Benefit, check the 'Is Flexible Benefit' checkbox.
 
-<img class="screenshot" alt="Flexible Benefit" src="{{docs_base_url}}/assets/img/human-resources/flexible-ben.png">
+<img class="screenshot" alt="Flexible Benefit" src="{{docs_base_url}}/v12/assets/img/human-resources/flexible-ben.png">
 
 Enter the maximum yearly amount for this flexible benefit in the 'Max Benefit Amount (Yearly)' field. Some of the additional attributes of the Flexible Benefits that can be enabled using checkboxes are as follows:
 

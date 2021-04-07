@@ -3,7 +3,7 @@
 
 There are various account settings in ERPNext to restrict and configure actions in the Accounting module.
 
-![Account Settings]({{docs_base_url}}/assets/img/accounts/account-settings.png)
+![Account Settings]({{docs_base_url}}/v12/assets/img/accounts/account-settings.png)
 
 ## 1. Accounts Frozen Up to
 Freeze accounting transactions up to specified date, nobody can make/modify entry except the specified Role.
@@ -50,7 +50,7 @@ Enabling this will automatically fetch the Payment Terms based on the Supplier.
 
 ## 15. Print Settings
 
-![Account Settings]({{docs_base_url}}/assets/img/accounts/account-settings-1.png)
+![Account Settings]({{docs_base_url}}/v12/assets/img/accounts/account-settings-1.png)
 
 * **Show Inclusive Tax In Print**: The applied taxes will be shown in the print view.
 * **Show Payment Schedule in Print**: The Payment Schedule table is visible on using [Payment Terms](/docs/v12/user/manual/en/accounts/payment-terms). Enabling this will show this table in print view.

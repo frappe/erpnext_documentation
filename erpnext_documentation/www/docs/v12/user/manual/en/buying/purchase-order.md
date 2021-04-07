@@ -26,7 +26,7 @@ A Purchase Order can be automatically created from a Material Request or Supplie
 1. Set the quantity and the price will be fetched automatically if set in the Item master.
 1. Set taxes.
 1. Save and Submit.
-    <img class="screenshot" alt="Purchase Order" src="{{docs_base_url}}/assets/img/buying/purchase-order.png">
+    <img class="screenshot" alt="Purchase Order" src="{{docs_base_url}}/v12/assets/img/buying/purchase-order.png">
 
 ### 2.1 Setting Warehouses
 
@@ -39,7 +39,7 @@ Items can be fetched into the Purchase Order automatically from open [Material R
 1. Set default Supplier in the Item form under [Item Defaults](/docs/v12/user/manual/en/stock/item#39-item-defaults).
 1. A [Material Request](/docs/v12/user/manual/en/stock/material-request) needs to present of type 'Purchase'.
 1. Click on the **Get Items from open Material Requests** button below the Supplier name. Now a dialog will appear with Material Requests containing Items for which the default Supplier is the same as the one selected in the Purchase Order. On selecting the Material Requests and clicking on **Get Items**, the Items will be fetched from the Material Requests.
-<img class="screenshot" alt="Get Items from Open Material Requests" src="{{docs_base_url}}/assets/img/buying/get-items-from-open-mr.png">
+<img class="screenshot" alt="Get Items from Open Material Requests" src="{{docs_base_url}}/v12/assets/img/buying/get-items-from-open-mr.png">
 
 > **Note:** The **Get Items from Open Material Requests** button is visible as long as the Items table is empty.
 
@@ -110,13 +110,13 @@ For example, If you have bought your raw material in large quantities with UOM -
 
 3. In the Warehouse and Reference section, the UOM will be pulled in as Nos (from the Item form):
 
- <img class="screenshot" alt="Purchase Order - UOM" src="{{docs_base_url}}/assets/img/buying/purchase-order-uom.png">
+ <img class="screenshot" alt="Purchase Order - UOM" src="{{docs_base_url}}/v12/assets/img/buying/purchase-order-uom.png">
 
 4. Mention the UOM conversion factor. For example, (1); If one box has 1 kilo.
 
 5. Notice that the stock quantity will be updated accordingly.
 
- <img class="screenshot" alt="Purchase Order - UOM" src="{{docs_base_url}}/assets/img/buying/po-stock-uom.png">
+ <img class="screenshot" alt="Purchase Order - UOM" src="{{docs_base_url}}/v12/assets/img/buying/po-stock-uom.png">
 
 ### 3.8 Taxes and Charges
 
@@ -136,7 +136,7 @@ Make sure to mark all your taxes in the Taxes and Charges table correctly for an
 #### Shipping Rule
 A Shipping Rule helps set the cost of shipping an Item. The cost will usually increase with the distance of shipping. To know more, visit the [Shipping Rule](/docs/v12/user/manual/en/selling/shipping-rule) page.
 
-<img class="screenshot" alt="Purchase Order Taxes" src="{{docs_base_url}}/assets/img/buying/po-taxes.png">
+<img class="screenshot" alt="Purchase Order Taxes" src="{{docs_base_url}}/v12/assets/img/buying/po-taxes.png">
 
 For example, you buy Items worth X and sell them for 1.3X. So your Customer
 pays 1.3 times the tax you pay your Supplier. Since you have already paid tax

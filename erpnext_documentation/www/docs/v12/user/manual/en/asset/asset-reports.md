@@ -23,4 +23,4 @@ Types of records based on depreciation:
 
 * ** Disposed: All the assets that are currently sold or scrapped come under this category.
 
-<img class="screenshot" alt="Asset" src="{{docs_base_url}}/assets/img/asset/fixed-asset-register.png">
+<img class="screenshot" alt="Asset" src="{{docs_base_url}}/v12/assets/img/asset/fixed-asset-register.png">

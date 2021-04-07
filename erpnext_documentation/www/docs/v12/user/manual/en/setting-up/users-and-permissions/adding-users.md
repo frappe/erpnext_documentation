@@ -21,7 +21,7 @@ An Email address is the unique key (ID) identifying the Users.
 1. Add an Email address and name of the user.
 1. Save.
 
-    <img class="screenshot" src="{{docs_base_url}}/assets/img/users-and-permissions/add-user-details.png" alt="Add User Details">
+    <img class="screenshot" src="{{docs_base_url}}/v12/assets/img/users-and-permissions/add-user-details.png" alt="Add User Details">
 
 Details like Username and Language can also be changed.
 
@@ -31,7 +31,7 @@ Details like Username and Language can also be changed.
 
 After saving, you will see a list of roles and checkboxes next to them. Just check the roles you want the user to have and save the document. The roles have pre-defined permissions, to know more about roles, [click here](/docs/v12/user/manual/en/setting-up/users-and-permissions/role-based-permissions). You can set [Role profiles](/docs/v12/user/manual/en/setting-up/users-and-permissions/role-and-role-profile) to use as a template which selects multiple roles together.
 
-<img class="screenshot" src="{{docs_base_url}}/assets/img/setup/users/user-2.png" alt="User Roles">
+<img class="screenshot" src="{{docs_base_url}}/v12/assets/img/setup/users/user-2.png" alt="User Roles">
 
 ### 2.2 More Information
 More information about the employee can be set from this section:
@@ -71,13 +71,13 @@ Subscribe the user to different mailing lists of your company from this section.
 
 Users will have access to all modules for which they have role-based access. If you want to restrict access of certain modules for this user, un-check the modules from this list.
 
-<img class="screenshot" src="{{docs_base_url}}/assets/img/setup/users/user-3.png" alt="User Block Module">
+<img class="screenshot" src="{{docs_base_url}}/v12/assets/img/setup/users/user-3.png" alt="User Block Module">
 
 #### 2.7.1 Module Profiles
 
 Role Profiles act as a template to store and select access to multiple modules. This Role Profile can then be assigned to a User. For example, HR Users will have access to multiple modules like HR, Payroll, etc. Role Profiles are useful to provide access to multiple modules at once when adding multiple users.
 
-<img class="screenshot" src="{{docs_base_url}}/assets/img/setup/users/module-profile.png" alt="Module Profile">
+<img class="screenshot" src="{{docs_base_url}}/v12/assets/img/setup/users/module-profile.png" alt="Module Profile">
 
 ### 2.8 Security Settings
 
@@ -118,11 +118,11 @@ In System Settings, under the Security section, if you check the 'Allow Login us
 
 Login with Email:
 
-<img class="screenshot" src="{{docs_base_url}}/assets/img/setup/users/user-login-email.png" alt="Email Login">
+<img class="screenshot" src="{{docs_base_url}}/v12/assets/img/setup/users/user-login-email.png" alt="Email Login">
 
 Login with Email or Mobile:
 
-<img class="screenshot" src="{{docs_base_url}}/assets/img/setup/users/user-login-mobile.png" alt="Mobile No Login">
+<img class="screenshot" src="{{docs_base_url}}/v12/assets/img/setup/users/user-login-mobile.png" alt="Mobile No Login">
 
 After adding these details, save the user.
 

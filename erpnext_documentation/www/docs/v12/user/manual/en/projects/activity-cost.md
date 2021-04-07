@@ -5,7 +5,7 @@
 
 The system pulls this rate while making Timesheets. It is used to determine the [Project Cost](/docs/v12/user/manual/en/projects/project-costing).
 
-<img class="screenshot" alt="Activity Cost" src="{{docs_base_url}}/assets/img/project/projects-activity-cost.png">
+<img class="screenshot" alt="Activity Cost" src="{{docs_base_url}}/v12/assets/img/project/projects-activity-cost.png">
 
 To access Activity Cost, go to,
 
@@ -20,6 +20,6 @@ To access Activity Cost, go to,
 
 Alternatively, an Activity Cost can also be created via the [Activity List](/docs/v12/user/manual/en/projects/activity-type).
 
-<img class="screenshot" alt="Activity Cost" src="{{docs_base_url}}/assets/img/project/projects-activity-cost-activity-type.png">
+<img class="screenshot" alt="Activity Cost" src="{{docs_base_url}}/v12/assets/img/project/projects-activity-cost-activity-type.png">
 
 {next}

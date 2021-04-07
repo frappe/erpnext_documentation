@@ -16,6 +16,6 @@ To access the Lead Source list, go to:
 
 Typical lead sources are contact forms on your website, marketing campaigns, events, references, ads on social media etc.
 
-<img class="screenshot" alt="Lead" src="{{docs_base_url}}/assets/img/crm/lead_source.png">
+<img class="screenshot" alt="Lead" src="{{docs_base_url}}/v12/assets/img/crm/lead_source.png">
 
 {next}

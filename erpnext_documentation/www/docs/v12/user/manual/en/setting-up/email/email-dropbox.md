@@ -10,19 +10,19 @@ When enabled, each record in ERPNext will have it's own unique email address to 
 
 In [Email Account](/docs/v12/user/manual/en/setting-up/email/email-account), check 'Enable Email Dropbox'.
 
-<img class="screenshot" alt="Enable Email Dropbox" src="{{docs_base_url}}/assets/img/setup/email/enable_email_dropbox.png">
+<img class="screenshot" alt="Enable Email Dropbox" src="{{docs_base_url}}/v12/assets/img/setup/email/enable_email_dropbox.png">
 
 ## 2. Copy Unique Email Address in Any Record
 
 Once the Email Dropbox feature is enabled, the unique email address becomes visible in all the records. You can click on the same and the address is copied to your clipboard. You can directly paste it in 'To', 'Cc' or 'Bcc' and send the email.
 
-<img class="screenshot" alt="Unique Email Address" src="{{docs_base_url}}/assets/img/setup/email/unique_email_address_dropbox.png">
+<img class="screenshot" alt="Unique Email Address" src="{{docs_base_url}}/v12/assets/img/setup/email/unique_email_address_dropbox.png">
 
 ## 3. Email in Timeline
 
 Once the email is received, ERPNext attaches it to the appropriate record and it will be visible in that record's timeline.
 
-<img class="screenshot" alt="Email in Timeline" src="{{docs_base_url}}/assets/img/setup/email/email_in_timeline.png">
+<img class="screenshot" alt="Email in Timeline" src="{{docs_base_url}}/v12/assets/img/setup/email/email_in_timeline.png">
 
 ### Related Topics
 1. [Email Domain](/docs/v12/user/manual/en/setting-up/email/email-domain)

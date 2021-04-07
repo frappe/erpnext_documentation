@@ -33,7 +33,7 @@ To create a Purchase Receipt _manually_ (not recommended), follow these steps:
 1. You can expand the item row to change the Accepted Warehouse for an Item.
 1. Save and submit.
 
-    <img class="screenshot" alt="Purchase Receipt" src="{{docs_base_url}}/assets/img/stock/purchase-receipt.png">
+    <img class="screenshot" alt="Purchase Receipt" src="{{docs_base_url}}/v12/assets/img/stock/purchase-receipt.png">
 
 You can also add a 'Supplier Delivery Note' to the Purchase Receipt if your Supplier has added some notes.
 Using the 'Edit Posting Date and Time' checkbox you can edit the posting time and date of the Purchase Receipt. By default, the date and time are set when you click on the New button.
@@ -122,7 +122,7 @@ To know more, visit the [Quality Inspection](/docs/v12/user/manual/en/stock/qual
 ### 3.5 Raw Materials Consumed
 * The **Consumed Items** table contains the Raw Materials consumed by the Supplier in order to receive the Finished Item.
 * The **Get Current Stock** button will fetch the current stock of the Consumed Items from the Supplier Warehouse.
-    <img class="screenshot" alt="Purchase Receipt" src="{{docs_base_url}}/assets/img/stock/purchase-receipt-consumed-items.png">
+    <img class="screenshot" alt="Purchase Receipt" src="{{docs_base_url}}/v12/assets/img/stock/purchase-receipt-consumed-items.png">
 
 ### 3.6 Taxes and Valuation
 The Taxes and Charges will be fetched from the [Purchase Order](/docs/v12/user/manual/en/buying/purchase-order).

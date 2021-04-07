@@ -5,7 +5,7 @@ To access the Production Planning Report, go to:
 
 > Home > Manufacturing > Reports > Production Planning Report
 
-<img class="screenshot" alt="Task" src="{{docs_base_url}}/assets/img/manufacturing/production-planning-report.png">
+<img class="screenshot" alt="Task" src="{{docs_base_url}}/v12/assets/img/manufacturing/production-planning-report.png">
 
 This report will help users plan the finished good as well as the raw materials against the Sales Order / Work Order / Material Request (with the request type as Manufactured) data. Mostly, in the case of make to order, this report helps you plan the production of the finished goods as well the raw materials.
 

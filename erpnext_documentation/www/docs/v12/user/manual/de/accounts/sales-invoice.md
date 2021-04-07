@@ -10,7 +10,7 @@ Sie können eine Ausgangsrechnung direkt erstellen über:
 
 oder indem Sie in der rechten Ecke des Lieferscheins auf "Rechnung erstellen" klicken.
 
-<img class="screenshot" alt="Ausgangsrechnung" src="{{docs_base_url}}/assets/img/accounts/sales-invoice.png">
+<img class="screenshot" alt="Ausgangsrechnung" src="{{docs_base_url}}/v12/assets/img/accounts/sales-invoice.png">
 
 ### Auswirkung auf die Buchhaltung
 
@@ -26,9 +26,9 @@ Sie müssen auch die Kostenstelle angeben, auf die Ihr Ertrag gebucht wird. Erin
 
 So verbuchen Sie einen Verkauf aufgeschlüsselt:
 
-**Soll:** Kunde (Gesamtsumme) 
+**Soll:** Kunde (Gesamtsumme)
 
-**Haben:** Ertrag (Nettosumme, abzüglich Steuern für jeden Artikel) 
+**Haben:** Ertrag (Nettosumme, abzüglich Steuern für jeden Artikel)
 
 **Haben:** Steuern (Verbindlichkeiten gegenüber dem Staat)
 

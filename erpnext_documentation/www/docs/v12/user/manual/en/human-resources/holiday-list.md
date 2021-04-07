@@ -18,7 +18,7 @@ To access Holiday List, go to:
 3. Select From Date and To Date for the Holiday List.
 
 
-    <img class="screenshot" alt="Holiday List" src="{{docs_base_url}}/assets/img/human-resources/holiday-list-1.png">
+    <img class="screenshot" alt="Holiday List" src="{{docs_base_url}}/v12/assets/img/human-resources/holiday-list-1.png">
 
 ## 2. Features
 
@@ -36,12 +36,12 @@ Once the Weekly Offs are added, it is reflected in the Holidays table.
 
 > **Note:** You can add multiple days in the Weekly Offs.
 
-<img class="screenshot" alt="Holiday List" src="{{docs_base_url}}/assets/img/human-resources/holiday-list-2.gif">
+<img class="screenshot" alt="Holiday List" src="{{docs_base_url}}/v12/assets/img/human-resources/holiday-list-2.gif">
 
 
 You can also add specific days (like festival holidays) manually by clicking on the 'Add row' option in the Holidays table.
 
-<img class="screenshot" alt="Holiday List" src="{{docs_base_url}}/assets/img/human-resources/holiday-list-3.png">
+<img class="screenshot" alt="Holiday List" src="{{docs_base_url}}/v12/assets/img/human-resources/holiday-list-3.png">
 
 > **Note:** Each time a new holiday is updated in the Holidays table, the Total Holidays field gets updated.
 
@@ -50,7 +50,7 @@ You can also add specific days (like festival holidays) manually by clicking on 
 You can set a default Holiday List at the company-level in the Company master in the 'Default Holiday List' field.
 
 
-<img class="screenshot" alt="Holiday List" src="{{docs_base_url}}/assets/img/human-resources/default-holiday-list-company.png">
+<img class="screenshot" alt="Holiday List" src="{{docs_base_url}}/v12/assets/img/human-resources/default-holiday-list-company.png">
 
 
 ### 2.3 Holiday List in Employee
@@ -66,7 +66,7 @@ You can form as many holiday lists as you wish. For example, if you have a facto
 
 You can also set a Holiday List at workstation-level as shown in the screenshot below.
 
-<img class="screenshot" alt="Holiday List" src="{{docs_base_url}}/assets/img/human-resources/holiday-list-workstation.png">
+<img class="screenshot" alt="Holiday List" src="{{docs_base_url}}/v12/assets/img/human-resources/holiday-list-workstation.png">
 
 The dates in the Holiday List tagged in the [Workstation](/docs/v12/user/manual/en/manufacturing/workstation) master will be considered as the days the Workstation will remain closed.
 

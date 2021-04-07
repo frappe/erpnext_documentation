@@ -34,14 +34,14 @@ When Batches are enabled for an Item, the option to [retain sample stock](/docs/
 ### 2.1 Batch Auto Creation
 If you want automatic batch creation at the time of Purchase Receipt, you must tick 'Automatically Create New Batch' in the Item master:
 
-<img class="screenshot" alt="Item Setup for Batches" src="{{docs_base_url}}/assets/img/stock/item_setup_for_batch.png">
+<img class="screenshot" alt="Item Setup for Batches" src="{{docs_base_url}}/v12/assets/img/stock/item_setup_for_batch.png">
 
 ## 3. Features
 ### 3.1 Splitting and Moving Batches
 
 When you open a batch, you will see all the quantities that belong to that batch on the page.
 
-<img class="screenshot" alt="Batch View" src="{{docs_base_url}}/assets/img/stock/batch_view.png">
+<img class="screenshot" alt="Batch View" src="{{docs_base_url}}/v12/assets/img/stock/batch_view.png">
 
 * To move the batch from one Warehouse to another, you can click on the **Move** button.
 

@@ -32,7 +32,7 @@ To access the Fiscal Year list, go to:
 1. To set the Fiscal Year as default, click on the **Set as Default** button.
 1. In case you have multiple companies sharing the same Fiscal Year, you can add
 it as shown in the following screenshot:
-    <img class="screenshot" alt="Fiscal Year" src="{{docs_base_url}}/assets/img/accounts/fiscal-year.png">
+    <img class="screenshot" alt="Fiscal Year" src="{{docs_base_url}}/v12/assets/img/accounts/fiscal-year.png">
 
 ### 2. Related Topics
 1. [Finance Book](/docs/v12/user/manual/en/accounts/finance-book)

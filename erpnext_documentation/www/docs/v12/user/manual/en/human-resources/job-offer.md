@@ -26,7 +26,7 @@ Before creating a Job Offer, it is advisable to create the following:
 1. Save and Submit.
 
 
-    <img class="screenshot" alt="Job Offer" src="{{docs_base_url}}/assets/img/human-resources/job-offer.png">
+    <img class="screenshot" alt="Job Offer" src="{{docs_base_url}}/v12/assets/img/human-resources/job-offer.png">
 
 > **Note:** A Job Offer can be made only against a [Job Applicant](/docs/v12/user/manual/en/human-resources/job-applicant)
 
@@ -45,7 +45,7 @@ All the Terms and Conditions related to the Job Offer can be specified in this s
 
 You can create a pre-designed print format to print you Job Offer. To do so, select the Letter Head and Print Heading in the Printing Details section.
 
-<img class="screenshot" alt="Job Offer" src="{{docs_base_url}}/assets/img/human-resources/job-offer-print.png">
+<img class="screenshot" alt="Job Offer" src="{{docs_base_url}}/v12/assets/img/human-resources/job-offer-print.png">
 
 
 

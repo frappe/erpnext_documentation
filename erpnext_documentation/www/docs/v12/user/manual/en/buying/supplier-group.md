@@ -28,7 +28,7 @@ Before creating and using a Supplier Group, it is advised that you create the fo
 1. You can also assign a default Payment Terms Template to the Supplier Group. Useful in a case where all your hardware suppliers take half payment on sales order and half post shipment.
 1. Save.
 
-<img class="screenshot" alt="Supplier Group" src="{{docs_base_url}}/assets/img/buying/supplier-group.png">
+<img class="screenshot" alt="Supplier Group" src="{{docs_base_url}}/v12/assets/img/buying/supplier-group.png">
 
 You can classify your suppliers from a range of choices available in ERPNext.
 Choose from a set of given options like Distributor, Electrical, Hardware, Local, Pharmaceutical, Raw Material, Services etc. Classifying your supplier into different types facilitates accounting and payments.
@@ -41,7 +41,7 @@ to Chart of Accounts.
 To view the Tree structure, click on **Tree** from the sidebar. To go back to the
 list view, simply select: **Menu > View List**.
 
-<img class="screenshot" alt="Supplier Group" src="{{docs_base_url}}/assets/img/buying/supplier-group-tree.png">
+<img class="screenshot" alt="Supplier Group" src="{{docs_base_url}}/v12/assets/img/buying/supplier-group-tree.png">
 
 With the new [User Permissions](/docs/v12/user/manual/en/setting-up/users-and-permissions)
 in place, you can now apply hierarchy based permissions.

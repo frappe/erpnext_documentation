@@ -22,13 +22,13 @@ Before creating a Loan record, it is necessary that you create the following doc
 1. Select the Loan Application. Once selected, loan information such as Loan Type, Loan Amount, Rate of Interest, Repayment Method, Repayment Period in Months and Monthly Repayment Amount will be fetched.
 1. Enter Repayment Start Date.
 
-  <img class="screenshot" alt="Loan" src="{{docs_base_url}}/assets/img/human-resources/loan1.png">
+  <img class="screenshot" alt="Loan" src="{{docs_base_url}}/v12/assets/img/human-resources/loan1.png">
 
 1. Enter Account Information such as Mode of Payment, Payment Account, Loan Account and Interest Income Account.
 1. Save. Once saved, a Repayment Schedule is automatically generated. The first repayment payment date would be set as per the "Repayment Start Date". The
 
 
-  <img class="screenshot" alt="Repayment Schedule" src="{{docs_base_url}}/assets/img/human-resources/loan2.png">
+  <img class="screenshot" alt="Repayment Schedule" src="{{docs_base_url}}/v12/assets/img/human-resources/loan2.png">
 
 > Note: Check "Repay from Salary" if the loan repayment will be deducted from the salary
 
@@ -42,13 +42,13 @@ You can alternatively create a Loan record directly from [Loan Application](/doc
 After submitting the Loan document, if the status is "Sanctioned", you can click on "Create Disbursement Entry" to create a Journal Entry of the Loan.
 
 
-<img class="screenshot" alt="Disbursement Entry" src="{{docs_base_url}}/assets/img/human-resources/disbursement-entry.png">
+<img class="screenshot" alt="Disbursement Entry" src="{{docs_base_url}}/v12/assets/img/human-resources/disbursement-entry.png">
 
 ### 3.2 Loan repayment deduction from Salary
 
 To auto deduct the Loan repayment from Salary, check "Repay from Salary" in Loan. It will appear as Loan Repayment in Salary Slip.
 
-<img class="screenshot" alt="Salary Slip" src="{{docs_base_url}}/assets/img/human-resources/loan-repayment-salary-slip.png">
+<img class="screenshot" alt="Salary Slip" src="{{docs_base_url}}/v12/assets/img/human-resources/loan-repayment-salary-slip.png">
 
 ### 3.3 Extending the Loan
 Loan amount is deducted from the salary. If the employee is on leave without pay for some period, the existing loan can be extended without the need for creating a new loan. This can be done be editing the Repayment Schedule table even after submitting the loan.

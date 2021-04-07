@@ -3,7 +3,7 @@
 
 **A Work Order is a document given to the manufacturing shop floor by the Production Planner as a signal to manufacture a certain quantity of a certain Item.**
 
-<img class="screenshot" alt="Work Order" src="{{docs_base_url}}/assets/img/manufacturing/manufacturing-flow-wo.png">
+<img class="screenshot" alt="Work Order" src="{{docs_base_url}}/v12/assets/img/manufacturing/manufacturing-flow-wo.png">
 
 The Work Order also helps generate the material requirements (Stock Entry) for the Item to be produced from its **Bill of Materials**.
 
@@ -27,7 +27,7 @@ Before creating and using a Work Order, it is advised that you create the follow
 1. Enter the quantity to manufacture. Raw material Items will be fetched only when this is set.
 1. If the selected BOM has Operations mentioned in it, the system will fetch all Operations from BOM, these values can be changed. Refer [section 3.2](/docs/v12/user/manual/en/manufacturing/work-order#32-operations-table) to know more.
 1. Set the Planned Start Date (an Estimated Date at which you want the Production to begin).
-  <img class="screenshot" alt="Work Order" src="{{docs_base_url}}/assets/img/manufacturing/work-order.png">
+  <img class="screenshot" alt="Work Order" src="{{docs_base_url}}/v12/assets/img/manufacturing/work-order.png">
 1. **Use Multi-Level BOM**: This is enabled by default. If you want to plan materials for sub-assemblies of the Item you're manufacturing leave this enabled. If you plan and manufacture the sub-assemblies separately, you can disable this checkbox. To know more, visit [this page](/docs/v12/user/manual/en/manufacturing/articles/managing-multi-level-bom).
 1. Select Warehouses:
   1. **Source Warehouses**: Select this Warehouse in the Item row. The warehouse where you store your raw materials. Each required item can have a separate source warehouse. Group warehouse also can be selected as source warehouse. On submission of the Work Order, the raw materials will be reserved in these warehouses for production usage.
@@ -78,10 +78,10 @@ Materials can be transferred against a Work Order or a Job Card. This is usually
 The following will be fetched from the BOM:
 
 * In the Operations table: The Workstations where the Operations will be performed
-  <img class="screenshot" alt="PO Opeartions" src="{{docs_base_url}}/assets/img/manufacturing/PO-operations.png">
+  <img class="screenshot" alt="PO Opeartions" src="{{docs_base_url}}/v12/assets/img/manufacturing/PO-operations.png">
 
 * In the Items table: The Operations which will be performed on the Items
-  <img class="screenshot" alt="PO reassigning Operations" src="{{docs_base_url}}/assets/img/manufacturing/PO-reassigning-operations.png">
+  <img class="screenshot" alt="PO reassigning Operations" src="{{docs_base_url}}/v12/assets/img/manufacturing/PO-reassigning-operations.png">
 
 These values can also be changed.
 
@@ -121,17 +121,17 @@ When a Work Order is created from a [Material Request](/docs/v12/user/manual/en/
 
 * Click on 'Start'. Once you click on Start, Job Cards will be created for the [Operations](/docs/v12/user/manual/en/manufacturing/job-card) involved.
 
-  <img class="screenshot" alt="Transfer Materials" src="{{docs_base_url}}/assets/img/manufacturing/PO-material-transfer.png">
+  <img class="screenshot" alt="Transfer Materials" src="{{docs_base_url}}/v12/assets/img/manufacturing/PO-material-transfer.png">
 
 * Mention the quantity of materials to be transferred in this run.
 
-  <img class="screenshot" alt="Material Transfer Qty" src="{{docs_base_url}}/assets/img/manufacturing/PO-material-transfer-qty.png">
+  <img class="screenshot" alt="Material Transfer Qty" src="{{docs_base_url}}/v12/assets/img/manufacturing/PO-material-transfer-qty.png">
 
 * You'll be taken to a Stock Entry for 'Material Transfer for Manufacture'. Submit it.
 
 * Material Transferred for Manufacturing will be updated in the Work Order based on the Stock Entry.
 
-  <img class="screenshot" alt="Stock Entry for PO" src="{{docs_base_url}}/assets/img/manufacturing/PO-material-transfer-updated.png">
+  <img class="screenshot" alt="Stock Entry for PO" src="{{docs_base_url}}/v12/assets/img/manufacturing/PO-material-transfer-updated.png">
 
 ### 3.6 Material Transfer through Stock Entry
 Use cases for this option are:
@@ -155,7 +155,7 @@ To know more about Job Cards, visit [this page](/docs/v12/user/manual/en/manufac
 * This will create a Stock Entry that will deduct all the items and sub-assemblies from the WIP Warehouse and add them to the Finished Goods Warehouse.
 * Click on 'Finish'.
 
-  <img class="screenshot" alt="Update Finished Goods" src="{{docs_base_url}}/assets/img/manufacturing/PO-FG-update.png">
+  <img class="screenshot" alt="Update Finished Goods" src="{{docs_base_url}}/v12/assets/img/manufacturing/PO-FG-update.png">
 
 * Mention the quantity of materials to be transferred.
 
@@ -164,26 +164,26 @@ To know more about Job Cards, visit [this page](/docs/v12/user/manual/en/manufac
 ### 3.9 Return Non Consumed Materials
 
 In some cases, the user sends extra raw materials to the manufacturing stations, but sometimes the operator does not consume all the raw materials to complete the Finished Goods, or sometimes the quantity to manufacture gets reduce. In this case, the unconsumed raw materials are transferred back to the store. In ERPNext, to transfer the raw materials back to the store from the work in progress warehouse user has to click on the button Return Non Consumed Materials. On click of a button, the system opens the stock entry to transfer the raw materials from work in progress warehouse to the Stores warehouse.
-<img class="screenshot" alt="Return Unconsumed Materials" src="{{docs_base_url}}/assets/img/manufacturing/return_unconsumed_materials.png">
+<img class="screenshot" alt="Return Unconsumed Materials" src="{{docs_base_url}}/v12/assets/img/manufacturing/return_unconsumed_materials.png">
 
 Stock Entry to return raw materials is as below
 
-<img class="screenshot" alt="Return Unconsumed Materials Stock Entry" src="{{docs_base_url}}/assets/img/manufacturing/return_unconsumed_materials_stock_entry.png">
+<img class="screenshot" alt="Return Unconsumed Materials Stock Entry" src="{{docs_base_url}}/v12/assets/img/manufacturing/return_unconsumed_materials_stock_entry.png">
 
 ### 4.0 Stopping a Work Order
 When you stop a Work Order its status is changed to Stopped indicating that all production process against that Work Order has stopped. But before stopping the work order user has to make sure that the raw materials which were transferred to the Work In Progress warehouse have been returned or not. In case, if the user has tried to stop the work order without returning the raw materials then the system will throw the error and not allow the user to stop the work order.
 
 To stop a Work Order, click on the 'Stop' button.
 
-<img class="screenshot" alt="PO - stop" src="{{docs_base_url}}/assets/img/manufacturing/PO-stop.png">
+<img class="screenshot" alt="PO - stop" src="{{docs_base_url}}/v12/assets/img/manufacturing/PO-stop.png">
 
 If raw materials have not returned and still available in the Work In Progress warehouse. Clicking the Stop button system will throw the below error.
 
-<img class="screenshot" alt="Work Order Stop Error" src="{{docs_base_url}}/assets/img/manufacturing/work_order_cannot_stop.png">
+<img class="screenshot" alt="Work Order Stop Error" src="{{docs_base_url}}/v12/assets/img/manufacturing/work_order_cannot_stop.png">
 
 You can also re-open the stopped Work Order.
 
-<img class="screenshot" alt="Reopen Work Order" src="{{docs_base_url}}/assets/img/manufacturing/reopen-work-order.png">
+<img class="screenshot" alt="Reopen Work Order" src="{{docs_base_url}}/v12/assets/img/manufacturing/reopen-work-order.png">
 
 
 ### 3.10 Capacity Planning in Work Order

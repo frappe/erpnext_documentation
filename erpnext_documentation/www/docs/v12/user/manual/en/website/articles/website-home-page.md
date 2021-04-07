@@ -16,9 +16,9 @@ To Open website settings page go to: `Website > Setup > Website Settings`
 
 #### **Step 3: Set Home page**
 
-Enter the same value you entered for the `route` field in the previous section to the `Home Page` field. ERPNext will set this route to be the same as /index for your page.      
+Enter the same value you entered for the `route` field in the previous section to the `Home Page` field. ERPNext will set this route to be the same as /index for your page.
 
-![Website Setting Home]({{docs_base_url}}/assets/img/articles/Selection_021.png)
+![Website Setting Home]({{docs_base_url}}/v12/assets/img/articles/Selection_021.png)
 
 #### **Step 4: Save Website Settings Form.**
 

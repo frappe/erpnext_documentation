@@ -26,7 +26,7 @@ In ERPNext you can create Distributed Cost Center and use them in transactions a
 1. Enable the checkbox, **Enable Distributed Cost Center**: On enabling this, the distributed Cost Center table will show. Here, select the Cost Centers and allocate the corresponding percentage.
 1. Once you are done click on Save.
 
-  <img class="screenshot" alt="Distributed Cost Center" src="{{docs_base_url}}/assets/img/accounts/distributed_cost_center.png">
+  <img class="screenshot" alt="Distributed Cost Center" src="{{docs_base_url}}/v12/assets/img/accounts/distributed_cost_center.png">
 
 The following reports will be automatically updated when Cost Center filter is added:
 

@@ -8,7 +8,7 @@ Employee Benefit Claim allows Employees to -
 You can create a new Employee Benefit Claim by going to,
 > Human Resources > Payroll > Employee Benefit Claim > New Employee Benefit Claim
 
-<img class="screenshot" alt="Employee Benefit Claim" src="{{docs_base_url}}/assets/img/human-resources/employee-benefit-claim.png">
+<img class="screenshot" alt="Employee Benefit Claim" src="{{docs_base_url}}/v12/assets/img/human-resources/employee-benefit-claim.png">
 
 Here, Employee can view the eligible amount as per their Salary Structure Assignment and claim for the amount which they wish to receive as part of their next Salary. Any remaining amount which the employee did not claim for, in a Payroll Period, will be disbursed as part of the last payroll Salary.
 

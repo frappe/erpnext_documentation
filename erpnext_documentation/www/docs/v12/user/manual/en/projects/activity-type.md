@@ -3,7 +3,7 @@
 
 **Activity Type is a list of different types of activities against which a Timesheet can be made.**
 
-<img class="screenshot" alt="Activity Type" src="{{docs_base_url}}/assets/img/project/projects-activity-type.png">
+<img class="screenshot" alt="Activity Type" src="{{docs_base_url}}/v12/assets/img/project/projects-activity-type.png">
 
 To access Activity Type, go to,
 

@@ -16,11 +16,11 @@ Email Aggregation takes place in Contact, Customer, and Supplier. All the Emails
 
 1. In a Contact, add Links for the Customer or Supplier respectively.
 
-    <img class="screenshot" alt="Add Customer/Supplier in Contact" src="{{docs_base_url}}/assets/img/setup/email/contact-link.png">
+    <img class="screenshot" alt="Add Customer/Supplier in Contact" src="{{docs_base_url}}/v12/assets/img/setup/email/contact-link.png">
 
 1. Now when an Email is sent to or received from the Contact associated with Customer or Supplier, that email is linked to the Customer or Supplier mentioned in the Links section of the Contact.
 
-    <img class="screenshot" alt="With Filters" src="{{docs_base_url}}/assets/img/setup/email/email_aggregation.gif">
+    <img class="screenshot" alt="With Filters" src="{{docs_base_url}}/v12/assets/img/setup/email/email_aggregation.gif">
 
 ## 2. Automatic Email Linking to a Document
 
@@ -28,13 +28,13 @@ Automatic Email Linking links an Email to the Document specified in the unique E
 
 1. Enable Automatic Email Linking in Email Account. This feature can be used only with one Email Account at a time.
 
-    <img class="screenshot" alt="Add Customer/Supplier in Contact" src="{{docs_base_url}}/assets/img/setup/email/enable_email_link.png">
+    <img class="screenshot" alt="Add Customer/Supplier in Contact" src="{{docs_base_url}}/v12/assets/img/setup/email/enable_email_link.png">
 
 1. Once this feature has been enabled, you will see a unique Email ID generated using the Email ID mentioned in the Email Account.
 
 1. Now you can copy the Email ID by clicking on it and you can send or receive Emails using the unique Email ID. If an Email contains this unique Email ID either in the Recipients, Cc or Bcc, section, the system will link that Email to the specified Document.
 
-    <img class="screenshot" alt="Add Customer/Supplier in Contact" src="{{docs_base_url}}/assets/img/setup/email/email_link.gif">
+    <img class="screenshot" alt="Add Customer/Supplier in Contact" src="{{docs_base_url}}/v12/assets/img/setup/email/email_link.gif">
 
 ### 3. Related Topics
 1. [Auto Email Reports](/docs/v12/user/manual/en/setting-up/email/auto-email-reports)

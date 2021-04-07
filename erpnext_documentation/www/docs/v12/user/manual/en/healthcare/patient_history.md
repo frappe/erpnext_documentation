@@ -22,7 +22,7 @@ From version 13 onwards, you can configure what all document types and fields sh
 - **Documents for Patient Interactions**: A timeline of documents fetched from the Patient Medical Records is shown in this section. You can see the doctype name, link to the document, and the date on which the record was created. On load, a summary of each document is shown. You can use the arrow below each document to get a detailed view.
 - **Filters**: From version 13 onwards, you can also filter what all doctypes you want to see the interactions of using a multi-select list filter. Using the date range filter you can get the history feed between any two dates.
 
-<img class="screenshot" alt="Patient History" src="{{docs_base_url}}/assets/img/healthcare/patient-history-1.gif">
+<img class="screenshot" alt="Patient History" src="{{docs_base_url}}/v12/assets/img/healthcare/patient-history-1.gif">
 
 ## 2. Adding Medical Records Manually
 
@@ -30,7 +30,7 @@ Medical Record automatically keeps track of all Complaints, Diagnosis, and other
 
 In the Patient document, **Create > Medical Record** will allow you to record notes manually. You can also attach files when doing this, and the Medical Record will display links to the attached file alongside the notes. It's also possible to add Medical Records from the Patient Encounter.
 
-<img class="screenshot" alt="Patient Medical Record" src="{{docs_base_url}}/assets/img/healthcare/medical_record_2.png">
+<img class="screenshot" alt="Patient Medical Record" src="{{docs_base_url}}/v12/assets/img/healthcare/medical_record_2.png">
 
 ## 3. Related Topics
 

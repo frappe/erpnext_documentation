@@ -12,7 +12,7 @@ Using the Cheque Print Template you can generate a new Print Format for cheques.
 
 A sample cheque:
 
-<img class="screenshot" alt="Sample Cheque" src="{{docs_base_url}}/assets/img/setup/print/sample-cheque.jpg">
+<img class="screenshot" alt="Sample Cheque" src="{{docs_base_url}}/v12/assets/img/setup/print/sample-cheque.jpg">
 
 
 ## 1. How to create a Cheque Print Template
@@ -22,7 +22,7 @@ A sample cheque:
 
 In the Cheque Print Template, for each value (say Payee, Date), exact coordinates are provided based on where that value should be printed on a cheque. Co-ordinates are provided in centimeters. Here is a representation the structure:
 
-<img class="screenshot" alt="Sample Cheque" src="{{docs_base_url}}/assets/img/setup/print/cheque-1.png">
+<img class="screenshot" alt="Sample Cheque" src="{{docs_base_url}}/v12/assets/img/setup/print/cheque-1.png">
 
 ### 1.1 New Format by Scanning
 
@@ -36,13 +36,13 @@ You can manually provide the co-ordinate for each value based on where you want 
 #### Preview
 Based on coordinates provided for all the values, a preview will be shown as to how the values will be printed on the cheque.
 
-<img class="screenshot" alt="Sample Cheque" src="{{docs_base_url}}/assets/img/setup/print/cheque-2.png">
+<img class="screenshot" alt="Sample Cheque" src="{{docs_base_url}}/v12/assets/img/setup/print/cheque-2.png">
 
 ### 1.3 Printing Cheques
 
 New print format generated for the cheque will be visible in the Payment Entry form. After creating the payment entry, you will be able to print transaction details on the cheque.
 
-<img class="screenshot" alt="Sample Cheque" src="{{docs_base_url}}/assets/img/setup/print/cheque-3.gif">
+<img class="screenshot" alt="Sample Cheque" src="{{docs_base_url}}/v12/assets/img/setup/print/cheque-3.gif">
 
 ### 2. Related Topics
 1. [Address Template](/docs/v12/user/manual/en/setting-up/print/address-template)

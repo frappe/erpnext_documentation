@@ -18,7 +18,7 @@ Let's say you have two drop-down fields named State and City. State has two valu
       }
       });
 
-  <img class="screenshot" alt="Opening Account" src="{{docs_base_url}}/assets/img/customize/filter_dropdown.gif">
+  <img class="screenshot" alt="Opening Account" src="{{docs_base_url}}/v12/assets/img/customize/filter_dropdown.gif">
 
 
   {next}

@@ -59,7 +59,7 @@ To access the Chart of Cost Centers, go to:
 
 Selecting a different Company will display the Cost Centers for that Company.
 
-<img class="screenshot" alt="Cost Center" src="{{docs_base_url}}/assets/img/accounts/chart-of-cost-center.png">
+<img class="screenshot" alt="Cost Center" src="{{docs_base_url}}/v12/assets/img/accounts/chart-of-cost-center.png">
 
 ### 3. Related Topics
 1. [Budgeting](/docs/v12/user/manual/en/accounts/budgeting)

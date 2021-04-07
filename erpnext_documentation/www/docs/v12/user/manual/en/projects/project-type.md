@@ -5,7 +5,7 @@
 
 Internal Projects, External Projects could be examples of Project types and are already created in the system. You can choose to add more Project Types. This comes handy when you are reviewing the Projects, and you want to filter the information based on Project Types.
 
-<img class="screenshot" alt="Project Template" src="{{docs_base_url}}/assets/img/project/projects-project-type1.png">
+<img class="screenshot" alt="Project Template" src="{{docs_base_url}}/v12/assets/img/project/projects-project-type1.png">
 
 To access Project Type, go to:
 

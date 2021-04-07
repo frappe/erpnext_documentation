@@ -34,7 +34,7 @@ Before creating and using a Quality Action it is advised to create the following
 
 The Status field indicates whether the Quality Action is Open and ongoing or Closed.
 
-<img class="screenshot" alt="Quality management" src="{{docs_base_url}}/assets/img/quality-management/action.gif">
+<img class="screenshot" alt="Quality management" src="{{docs_base_url}}/v12/assets/img/quality-management/action.gif">
 
 ## 3. Related Topics
 

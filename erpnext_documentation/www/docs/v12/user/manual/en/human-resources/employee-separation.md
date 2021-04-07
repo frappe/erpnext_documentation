@@ -35,7 +35,7 @@ Before creating an Employee Separation, it is advisable that you create the foll
 1. Save and Submit.
 
 
-  <img class="screenshot" alt="Separation Template" src="{{docs_base_url}}/assets/img/human-resources/employee-separation.png">
+  <img class="screenshot" alt="Separation Template" src="{{docs_base_url}}/v12/assets/img/human-resources/employee-separation.png">
 
 
 
@@ -56,7 +56,7 @@ To create a new Employee Separation Template:
 1. Enter the Department, Designation and Employee Grade (optional).
 1. Mention the Activities for separation. For each Activity, you can also mention the User or Role, or one of it, to whom this Activity will be assigned.
 
-  <img class="screenshot" alt="Onboarding Template" src="{{docs_base_url}}/assets/img/human-resources/employee-separation-template.png">
+  <img class="screenshot" alt="Onboarding Template" src="{{docs_base_url}}/v12/assets/img/human-resources/employee-separation-template.png">
 
 
 ### 3.2 Tasks and Assignments
@@ -68,7 +68,7 @@ You can view the created Projects and Tasks through View > Project/ Tasks.
 
 Additionally, each Activity can be assigned weights based on its importance.
 
-<img class="screenshot" alt="Tasks and Assignments" src="{{docs_base_url}}/assets/img/human-resources/employee-sep1.png">
+<img class="screenshot" alt="Tasks and Assignments" src="{{docs_base_url}}/v12/assets/img/human-resources/employee-sep1.png">
 
 Based on the progress on the Tasks, progress can be updated in the Employee Separation process.
 

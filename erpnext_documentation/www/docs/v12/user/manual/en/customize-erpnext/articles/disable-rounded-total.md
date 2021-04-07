@@ -5,7 +5,7 @@ All the sales transactions like Sales Order, Sales Invoice have Rounded Total in
 
 > Note: The Rounded Total is a feature present in **Sales** transactions.
 
-<img alt="Print Preview" class="screenshot" src="{{docs_base_url}}/assets/img/customize/customize-disable-rounded-total-2.png">
+<img alt="Print Preview" class="screenshot" src="{{docs_base_url}}/v12/assets/img/customize/customize-disable-rounded-total-2.png">
 
 However, if you wish to disable the same, you may follow the steps given below to hide the rounded total from Standard Print Formats, for all the sales transactions.
 
@@ -17,7 +17,7 @@ From the Awesome Bar search for Global Defaults
 
 Check Disable Rounded Total, and click on save.
 
-<img alt="Print Preview" class="screenshot" src="{{docs_base_url}}/assets/img/customize/customize-disable-rounded-total.png">
+<img alt="Print Preview" class="screenshot" src="{{docs_base_url}}/v12/assets/img/customize/customize-disable-rounded-total.png">
 
 To verify the changes, you should clear the cache and/or refresh your ERPNext account. Then your print formats shall not render value for the Rounded Total.
 

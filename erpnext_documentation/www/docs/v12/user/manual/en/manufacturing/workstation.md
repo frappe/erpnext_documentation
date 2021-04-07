@@ -37,7 +37,7 @@ After saving the Workstation, the following actions can be performed against it:
 ### 2.1 Production Capacity
 Production Capacity is the total number of jobs can be executed at the same time in the respective workstation.
 
-<img class="screenshot" alt="Work Order" src="{{docs_base_url}}/assets/img/manufacturing/work_station_capacity.png">
+<img class="screenshot" alt="Work Order" src="{{docs_base_url}}/v12/assets/img/manufacturing/work_station_capacity.png">
 
 ### 2.2 Working Hours
 Under Working Hours table, you can add start and end times for a Workstation. For example, a Workstation may be active from 9 am to 1 pm, then 2 pm to 5 pm. You can also specify the working hours based on shifts. While scheduling a [Work Order](/docs/v12/user/manual/en/manufacturing/work-order), the system will check for the availability of the Workstation based on the working hours specified.
