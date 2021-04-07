@@ -36,6 +36,7 @@ The Stock module is tightly integrated with Purchase, Manufacturing and Accounti
 1. [Delivery Note](/docs/user/manual/en/stock/delivery-note)
 1. [Stock Entry](/docs/user/manual/en/stock/stock-entry)
 1. [Packing Slip](/docs/user/manual/en/stock/packing-slip)
+1. [Shipment](/docs/user/manual/en/stock/shipment)
 1. [Retaining Sample Stock](/docs/user/manual/en/stock/retain-sample-stock)
 1. [Landed Cost Voucher](/docs/user/manual/en/stock/landed-cost-voucher)
 1. [Pick List](/docs/user/manual/en/stock/pick-list)
