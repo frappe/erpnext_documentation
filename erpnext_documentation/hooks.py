@@ -53,7 +53,7 @@ website_context = {
 # get_website_user_home_page = "erpnext_documentation.utils.get_home_page"
 
 base_template_map = {
-	r'docs/user/manual.*': 'templates/erpnext_docs.html'
+	r'docs/v\d{1,3}/user/manual.*': 'templates/erpnext_docs.html'
 }
 
 # Generators
