@@ -34,7 +34,7 @@ Before creating a Workflow, it is advised to create these first:
 1. Enter a name for the **Workflow** and select the DocType on which to be applied.
 1. Enter the different states of the Workflow. Enter Doc Status for them, select which field to update from the Update Field column, enter what the value will be updated to under Update Value.
 
-    The Workflow States can have different colors according to the state. Eg: Green for success. Document statuses: Saved = 0, Submitted = 1, Cancelled = 3.
+    The Workflow States can have different colors according to the state. Eg: Green for success. Document statuses: Saved = 0, Submitted = 1, Cancelled = 2.
 
     <img class="screenshot" alt="Workflow" src="{{docs_base_url}}/assets/img/setup/workflow-1.png">
 
@@ -92,6 +92,26 @@ doc.total_leave_days <= 5
 Then if someone applied for leave for less than 5 days, only that particular transition will apply. Here, `total_leave_days` is the field name of the field 'Total Leave Days' of Leave Application. To see the field name of a field go to Menu > Customize.
 
 This can be extended to any property of the document.
+
+> Introduced in Version 13
+
+In Version 13, you can use date/time, session, get_value and get_list functions in your condition expressions.
+
+Allowed functions:
+
+* frappe.db.get_value
+* frappe.db.get_list
+* frappe.session
+* frappe.utils.now_datetime
+* frappe.utils.get_datetime
+* frappe.utils.add_to_date
+* frappe.utils.now
+
+Examples:
+
+```
+doc.creation > frappe.utils.add_to_date(frappe.utils.now_datetime(), days=-5, as_string=True, as_datetime=True) 
+```
 
 ## 4. Example of a Leave Application Process
 

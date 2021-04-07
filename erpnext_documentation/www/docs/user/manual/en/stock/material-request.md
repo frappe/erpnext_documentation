@@ -60,7 +60,7 @@ These are the statuses a Material Request can be in:
 
 * The Item Code, name, description, Image, and Manufacturer will be fetched from the Item master.
 
-* **Scan Barcode**: You can add Items in the Items table by scanning their barcodes if you have a barcode scanner. Know how to track them [here](/docs/user/manual/en/stock/articles/track-items-using-barcode)
+* **Scan Barcode**: You can add Items in the Items table by scanning their barcodes if you have a barcode scanner. Read documentation for [tracking items using barcode](/docs/user/manual/en/stock/articles/track-items-using-barcode) to know more.
 
 * The UoM, Conversion Factor, and Amount will be fetched. You change the Warehouse for which the material is being requested.
 
@@ -76,7 +76,8 @@ In the 'Requested For' field, you can set a Reference from where Material Reques
 
 ### 2.4 Printing Details
 #### Letterhead
-You can print your Material Request on your company's letterhead. [Click here](/docs/user/manual/en/setting-up/print/letter-head) to learn more.
+You can print your Material Request on your company's letterhead. 
+Read [Letter head documentation](/docs/user/manual/en/setting-up/print/letter-head) to learn more.
 
 #### Print Headings
 Purchase Receipt headings can also be changed when printing the document. You can do this by selecting a **Print Heading**. To create new Print Headings go to: Home > Settings > Printing > Print Heading. Know more [here](/docs/user/manual/en/setting-up/print/print-headings).

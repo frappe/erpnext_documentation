@@ -26,7 +26,7 @@ You can book appointments for a registered Patient by searching for Patient by P
 
 1. Go to the Patient Appointment list, click on New.
 2. Select the [Patient](/docs/user/manual/en/healthcare/patient) for which you want to set up an Appointment. The Patient Name, Gender, and Patient Age will be auto-fetched on selecting the Patient. If the patient is an Inpatient (Admitted) then the Inpatient Record will also be auto-fetched for them.
-3. You can optionally select the [Service Unit](/docs/user/manual/en/healthcare/healthcare_service_unit) where you would want to schedule the appointment.
+3. You can optionally select the [Service Unit](/docs/user/manual/en/healthcare/healthcare_service_unit) where you would want to schedule the appointment. If you are booking an appointment for an inpatient, then you can also select the service unit where the patient has been admitted apart from the service units which have _Allow Appointments_ configuration enabled.
 4. If you need to book Appointment for Clinical Procedure select a [Clinical Procedure Template](/docs/user/manual/en/healthcare/clinical_procedure_template). If you want to select a Clinical Procedure which has been prescribed for the patient in the previous Patient Encounter click on **Get Prescribed Clinical Procedures** button to select from a list of Clinical Procedures that are prescribed for the selected Patient. The same process applies to fetch the prescribed Therapy Types using the **Get Prescribed Therapies** button or just selecting a [Therapy Type](/docs/user/manual/en/healthcare/therapy_type).
 5. You can optionally select the "Appointment Type" and the "Duration (in minutes)". Note that, selecting the "Appointment Type" will automatically set the duration of the appointment as configured in the Appointment Type. This will allow you to override the duration of appointments set by the Practitioner Schedule and the time slots will adjust to the next available time automatically.
 6. If you have checked "Automate Appointment Invoicing" in [Healthcare Settings](/docs/user/manual/en/healthcare/healthcare_settings), setting the "Mode of Payment" and "Amount" fields in Patient Appointment is mandatory.
@@ -70,9 +70,14 @@ Optionally, you can configure [Healthcare Settings](/docs/user/manual/en/healthc
 <img class="screenshot" alt="ERPNext Healthcare" src="{{docs_base_url}}/assets/img/healthcare/outpatient_sms_alert.png">
 
 ### 3.6 Automate Appointment Invoicing
-ERPNext Healthcare automatically creates a Sales Invoice as soon as you book a Patient Appointment. To enable this, you can check "Automate Appointment Invoicing" in Healthcare Settings.
 
-If enabled, the Patient Appointment will prompt you to select the **Mode of Payment** and enter the **Amount** collected as the Consultation Charge.
+In order to automatically create a Sales Invoice as soon as you book a Patient Appointment, you can enable _Automate Appointment Invoicing_ configuration in the [Healthcare Settings](/docs/user/manual/en/healthcare/healthcare_settings).
+
+You can set up default charges for appointment booking in the Appointment Type master or in the Healthcare Practitioner master.
+
+If the Appointment type is selected in the Patient Appointment and there are charges set up in the Appointment type master, then that charge and billing item is considered over the one set up in the Healthcare Practitioner master. While booking the appointment, the appropriate billing item, and the paid amount is fetched as per the above configuration.
+
+The Patient Appointment will also prompt you to select the **Mode of Payment** for invoicing.
 
 <img class="screenshot" alt="ERPNext Healthcare" src="{{docs_base_url}}/assets/img/healthcare/automate_invoicing.png">
 
@@ -85,7 +90,6 @@ Status indicates the state of the Patient Appointment. The various Statuses are:
 - **Scheduled**: When the Patient Appointment has not yet started but scheduled on a future date.
 - **Open**: When the Patient Appointment has been scheduled for today.
 - **Closed**: When a Patient Encounter or Clinical Procedure has been created for the Patient Appointment.
-- **Expired**: When the Appointment date has passed and no Patient Encounter or Clinical Procedure has been created against it.
 - **Cancelled**: When the Appointment is Cancelled.
 
 <img class="screenshot" alt="ERPNext Healthcare" src="{{docs_base_url}}/assets/img/healthcare/status.png">

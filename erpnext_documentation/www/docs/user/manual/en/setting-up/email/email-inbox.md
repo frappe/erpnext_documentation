@@ -46,7 +46,7 @@ If you are creating an Email Account for your colleague who's Email Password is 
 
 > If you are creating an Email Account for Email Inbox of a User, then leave Append To field as blank.
 
-For more details on how to setup an Email Account, [click here](/docs/user/manual/en/setting-up/email/email-account).
+Read [Email Account documentation](/docs/user/manual/en/setting-up/email/email-account) for more details on how to setup.
 
 ## 4. Linking Email Account in the User master
 

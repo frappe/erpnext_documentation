@@ -115,7 +115,7 @@ The setting will be applicable on all the float field.
 
 Use Geolocation field to store GeoJSON <a href="https://tools.ietf.org/html/rfc7946#section-3.3">feature_collection</a>. Stores polygons, lines, and points. Internally it uses the following custom properties for identifying a circle.
 
-For more understanding, [click here](/docs/user/manual/en/customize-erpnext/articles/geolocation-field)
+Read [Geolocation field](/docs/user/manual/en/customize-erpnext/articles/geolocation-field) for more understanding.
 
 #### HTML
 
@@ -193,7 +193,7 @@ Section Break is used to divide the form into multiple sections.
 
 #### Signature
 
-You can define the field to be a Signature field wherein you can add the Digital Signature in this field. To know more, [click here](/docs/user/manual/en/customize-erpnext/articles/signature-field)
+You can define the field to be a Signature field wherein you can add the Digital Signature in this field. Read documentation for [Signature Field](/docs/user/manual/en/customize-erpnext/articles/signature-field) to know more.
 
 #### Table MultiSelect
 

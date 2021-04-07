@@ -118,7 +118,7 @@ You can also set a date interval for when the Pricing Rule will be valid. This i
 
 * **Margin Rate or Amount**: The margin set can be based on Percentage or Amount, eg: 5% margin or $50 fixed margin.
 
-For more details about adding margins [Click Here](/docs/user/manual/en/selling/articles/adding-margin)
+Read [adding margin](/docs/user/manual/en/selling/articles/adding-margin) for more details.
 
 ### 3.6 Price Discount Scheme
 The actual rule to be applied is set in this section.

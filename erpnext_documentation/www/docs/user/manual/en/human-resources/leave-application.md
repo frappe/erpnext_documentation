@@ -80,6 +80,8 @@ Leave Approvers can also be set Employee-wise in the employee master.
 
 If Leave Approvers are set at both Employee-level and Department-level, the Employee-level Leave Approver will be considered as the default Leave Approver in this case.
 
+When a new Leave Application is created, if the selected leave approver does not have access to it, the document is shared with the approver with "submit" permission.
+
  **Tip:** If you want all users to create their own Leave Applications, you can set
 their “Employee ID” as a match rule in the Leave Application Permission
 settings. Check [Setting Up Permissions](/docs/user/manual/en/setting-up/users-and-permissions/user-permissions.html)

@@ -41,7 +41,7 @@ effectively manage your data and collaborate with your co-workers.
 1. [Auto-Creation of ToDo Based on Assignment](/docs/user/manual/en/using-erpnext/articles/todo-auto-creation)
 1. [Document Versioning](/docs/user/manual/en/using-erpnext/document-versioning)
 1. [Deleting and Restoring Documents](/docs/user/manual/en/using-erpnext/restore-deleted-docs)
-1. [Attachment of Files](/docs/user/manual/en/using-erpnext/articles/attachment-of-files)
+1. [Attachment of Files](https://www.frappeframework.com/docs/user/en/desk/attachments)
 1. [Bulk Rename](/docs/user/manual/en/using-erpnext/articles/bulk-rename)
 1. [Renaming Documents](/docs/user/manual/en/using-erpnext/articles/renaming-documents)
 1. [Tree Master Renaming](/docs/user/manual/en/using-erpnext/articles/tree-master-renaming)

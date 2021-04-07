@@ -31,6 +31,7 @@ You'll find the global configuration options here, for module-wise setup, visit 
 1. [User Permissions](/docs/user/manual/en/setting-up/users-and-permissions/user-permissions)
 1. [Role Permission For Page And Report](/docs/user/manual/en/setting-up/users-and-permissions/role-permission-for-page-and-report)
 1. [Sharing](/docs/user/manual/en/setting-up/users-and-permissions/sharing)
+1. [Limited User](/docs/user/manual/en/setting-up/users-and-permissions/limited-user)
 1. [Administrator](/docs/user/manual/en/setting-up/users-and-permissions/administrator)
 
 ### 1.4 Printing

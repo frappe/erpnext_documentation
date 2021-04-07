@@ -3,25 +3,23 @@
 
 All the sales transactions like Sales Order, Sales Invoice have Rounded Total in it. It is calculated based on the value of Grand Total. Moreover, Rounded Total is also visible in the Standard Print Formats.
 
-> Note: The Rounded Total is a feature on present in **Sales** transactions.
+> Note: The Rounded Total is a feature present in **Sales** transactions.
 
 <img alt="Print Preview" class="screenshot" src="{{docs_base_url}}/assets/img/customize/customize-disable-rounded-total-2.png">
 
-However, if you wish to disable the same, you may follow steps given below to hide rounded total from Standard Print Formats, for all the sales transactions.
+However, if you wish to disable the same, you may follow the steps given below to hide the rounded total from Standard Print Formats, for all the sales transactions.
 
-#### Step 1: Go to ERPNext Settings
+#### Step 1: Go to Global Defaults
 
-> Home > Settings > Settings > ERPNext Settings
-
-<img alt="Print Preview" class="screenshot" src="{{docs_base_url}}/assets/img/customize/customize-disable-rounded-total-1.png">
+From the Awesome Bar search for Global Defaults
 
 #### Step 2: Disable Rounded Total
 
-Check Disable Rounded Total, and Save Global Defaults.
+Check Disable Rounded Total, and click on save.
 
 <img alt="Print Preview" class="screenshot" src="{{docs_base_url}}/assets/img/customize/customize-disable-rounded-total.png">
 
-To be able to view this setting, you should clear cache and/or refresh your ERPNext account. Then your print formats shall not render value for the Rounded Total.
+To verify the changes, you should clear the cache and/or refresh your ERPNext account. Then your print formats shall not render value for the Rounded Total.
 
 > Note: This setting will only affect Standard print formats.
 

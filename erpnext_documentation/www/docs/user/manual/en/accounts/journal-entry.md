@@ -129,7 +129,7 @@ You can do this by selecting a **Print Heading**. To create new Print Headings g
 
 Home > Settings > Printing > Print Heading
 
-Know more [here](/docs/user/manual/en/setting-up/print/print-headings).
+Read [Print Headings](/docs/user/manual/en/setting-up/print/print-headings) to know more.
 
 ### 2.7 More Information
 

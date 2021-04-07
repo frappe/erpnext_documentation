@@ -76,9 +76,9 @@ For India, the following details can be added for GST:
 ### 3.3 Currency and Price List
 You can set the currency in which the Deliver Note is to be sent. This is usually fetched if set in the Sales Order. If you set a Pricing List, then the item prices will be fetched from that list. Ticking on Ignore Pricing Rule will ignore the Pricing Rules set in Accounts > Pricing Rule.
 
-To know about Price Lists, [click here](/docs/user/manual/en/stock/price-lists).
-
-To know about managing transactions in multiple currencies, [click here](/docs/user/manual/en/accounts/articles/managing-transactions-in-multiple-currency).
+Read about [Price Lists](/docs/user/manual/en/stock/price-lists) 
+and [Multi-Currency Transactions](/docs/user/manual/en/accounts/articles/managing-transactions-in-multiple-currency)
+to know more.
 
 ### 3.4 Warehouses
 
@@ -90,7 +90,7 @@ To know about managing transactions in multiple currencies, [click here](/docs/u
 
 * The Item Code, name, description, Image, and Manufacturer will be fetched from the [Item master](/docs/user/manual/en/stock/item).
 
-* **Scan Barcode**: You can add Items in the Items table by scanning their barcodes if you have a barcode scanner. Know how to track them [here](/docs/user/manual/en/stock/articles/track-items-using-barcode)
+* **Scan Barcode**: You can add Items in the Items table by scanning their barcodes if you have a barcode scanner. Read documentation for [tracking items using barcode](/docs/user/manual/en/stock/articles/track-items-using-barcode) to know more.
 
 * **Discount and Margin**: You can apply a discount on individual Items percentage-wise or the total amount of the Item. Read [Applying Discount](/docs/user/manual/en/selling/articles/applying-discount) for more details.
 

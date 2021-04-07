@@ -17,42 +17,45 @@ Users with this Role are allowed to set frozen accounts and create/modify accoun
 ## 4. Over Billing Allowance Percentage
 The percentage by which you can overbill transactions. For example, if the order value is $100 for an Item and percentage here is set as 10% then you are allowed to bill for $110.
 
-## 5. Credit Controller
+## 5. Role Allowed to Over Bill
+Users with this role are allowed to over bill above the allowance percentage.
+
+## 6. Credit Controller
 Select the role that is allowed to submit transactions that exceed credit limits set. The credit limit can be set in the Customer form.
 
-## 6. Check Supplier Invoice Number Uniqueness
-When checked, Purchase Invoices with same 'Supplier Invoice No' will not be allowed. This is useful to avoid duplicate entries. 
+## 7. Check Supplier Invoice Number Uniqueness
+When checked, Purchase Invoices with same 'Supplier Invoice No' will not be allowed. This is useful to avoid duplicate entries.
 
-## 7. Make Payment via Journal Entry
+## 8. Make Payment via Journal Entry
 When checked, if user proceeds to make payment from an invoice, the system will open a Journal Entry instead of a Payment Entry.
 
-## 8. Unlink Payment on Cancellation of Invoice
+## 9. Unlink Payment on Cancellation of Invoice
 If checked, system will unlink the payment against the respective invoice. By default, if a Payment Entry is submitted, the linked invoice cannot be canceled until the Payment Entry is also canceled. On unlinking, you can now cancel and amend the invoices. But the payments not be linked and considered as advance payments.
 
-## 9. Unlink Advance Payment on Cancellation of Order
-Similar to the previous option, this unlinks any advance payments made against Purchase/Sales Orders. 
+## 10. Unlink Advance Payment on Cancellation of Order
+Similar to the previous option, this unlinks any advance payments made against Purchase/Sales Orders.
 
 
-## 10. Book Asset Depreciation Entry Automatically
+## 11. Book Asset Depreciation Entry Automatically
 When checked, an automatic entry for an asset depreciation will be created based on the first date set. For example, yearly depreciation for an item will be scheduled for the next 3/4 years based on the Number of Depreciations Booked set in the Asset master. For more details, visit the [Asset Depreciation](/docs/user/manual/en/asset/asset-depreciation) page.
 
-## 11. Allow Cost Center in Entry of Balance Sheet Account
+## 12. Allow Cost Center in Entry of Balance Sheet Account
 If checked, system will allow user to tag entries in Balance Sheet Accounts against a Cost Center. By default Cost Center is available only for Profit/Loss account.
 
-## 12. Automatically Add Taxes and Charges from Item Tax Template
+## 13. Automatically Add Taxes and Charges from Item Tax Template
 Enabling this will populate the Taxes table in transactions if an [Item Tax Template](/docs/user/manual/en/accounts/item-tax-template) is set for an Item and that Item is selected in the transaction.
 
-## 13. Automatically Fetch Payment Terms
-Enabling this will automatically fetch the Payment Terms based on the Supplier. 
+## 14. Automatically Fetch Payment Terms
+Enabling this will automatically fetch the Payment Terms based on the Supplier.
 
-## 14. Print Settings
+## 15. Print Settings
 
 ![Account Settings]({{docs_base_url}}/assets/img/accounts/account-settings-1.png)
 
 * **Show Inclusive Tax In Print**: The applied taxes will be shown in the print view.
 * **Show Payment Schedule in Print**: The Payment Schedule table is visible on using [Payment Terms](/docs/user/manual/en/accounts/payment-terms). Enabling this will show this table in print view.
 
-## 15. Allow Stale Exchange Rate
+## 16. Allow Stale Exchange Rate
 This should be unchecked if you want ERPNext to check the age of records fetched from Currency Exchange in foreign currency transactions. If it is unchecked, the exchange rate field will be read-only in documents.
 
 Stale Days is the number of days to use when deciding if a Currency Exchange record is stale. This is valid when 'Allow Stale Rates' is **disabled**. So, if the Stale Days is set as 10, stale rates that are 10 days will be allowed. If Allow Stale Rates is enabled, there is no time limit on the age of stale rates.
@@ -68,5 +71,5 @@ If stale rates are disabled, the order of fetching is:
 * If no Currency Exchange is found Latest rate as per market is fetched automatically
 
 
-## 16. Use Custom Cash Flow Format
+## 17. Use Custom Cash Flow Format
 You may choose to use Custom Cash Flow Formats to customize what the Cash Flow report looks like. To know more, [visit this page](/docs/user/manual/en/accounts/articles/how-to-customise-cash-flow-report).

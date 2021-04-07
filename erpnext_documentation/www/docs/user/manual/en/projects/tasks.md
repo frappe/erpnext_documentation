@@ -38,6 +38,7 @@ The following additional details can be added when editing a new task:
   * **Type**: If your task can be defined under a particular Task Type, say, User Training or User Demo, you can enter the Task Type here. It can be used to filter the Tasks based on Task Types.
   * **Color**: Each task can be recognized by a different color. This helps in identifying a task while creating Gantt Charts.
   * **Is Group**: This box can be checked to indicate that a task is a parent task, and can be further divided into multiple sub-tasks.
+  * **Is Template**: This box can be checked to indicate that this task is a template task, and is meant to be used in a Project Template.
   * **Parent Task**: If a particular task is a part of a group task, the parent task can be linked to the task from this field.
   
   <img class="screenshot" alt="Task" src="{{docs_base_url}}/assets/img/project/timesheet/project-task.png">
@@ -50,8 +51,12 @@ The following additional details can be added when editing a new task:
 * **Expected End Date**: You can enter the date on which you expect this Task to be finished.
 * **Expected Time**: You can enter the number of hours which you expect are going to be spent on this task.
 * **Progress**: You can enter the Progress Percentage of a Task.
+* **Begin**: If the task is a template task, this field can be used to specify the day on which this task should begin after the project is commenced.
+* **Duration**: If the task is a template task, this field can be used to assign a specific number of days to this task.
 * **Is Milestone**: This box can be checked in the cases where a particular task is a Milestone in a Project.
 * **Description**: You can add a description of the task here.
+
+**Note**: Based on the values of **Begin** and **Duration** field, the **Expected Start Date** and **Expected End Date** gets calculated for Project Tasks created using Project Template. This calculation skips holidays based on the holiday list of your company.
 
   <img class="screenshot" alt="Task" src="{{docs_base_url}}/assets/img/project/projects-task-timeline.png">
 

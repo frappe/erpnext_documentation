@@ -3,7 +3,7 @@
 
 In ERPNext, you can create multiple users and assign them different roles.
 
-A role is a set of permissions assigned to a user so that they can access the documents they need to. For example, a sales employee will need access to sales transactions but will not have access to approve leaves. 
+A role is a set of permissions assigned to a user so that they can access the documents they need to. For example, a sales employee will need access to sales transactions but will not have access to approve leaves.
 
 Some users can only access the public-facing part of ERPNext (i.e. a portal view). Such users are called "Website Users". "System Users" will have access to modules and can access documents as per the roles set.
 
@@ -24,4 +24,5 @@ ERPNext implements permission control at the User and Role level. Each user in t
 1. [User Permissions](/docs/user/manual/en/setting-up/users-and-permissions/user-permissions)
 1. [Role Permission For Page And Report](/docs/user/manual/en/setting-up/users-and-permissions/role-permission-for-page-and-report)
 1. [Sharing](/docs/user/manual/en/setting-up/users-and-permissions/sharing)
+1. [Limited User](/docs/user/manual/en/setting-up/users-and-permissions/limited-user)
 1. [Administrator](/docs/user/manual/en/setting-up/users-and-permissions/administrator)

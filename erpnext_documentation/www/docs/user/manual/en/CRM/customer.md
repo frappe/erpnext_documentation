@@ -51,14 +51,18 @@ If the "Delivery Note Required" or "Sales Order Required" option is configured a
 
 <img class="screenshot" alt="Supplier Master" src="{{docs_base_url}}/assets/img/selling/customer-so-dn-required.png">
 
-### 2.3 Default Currency and Price List
+### 2.3 Set Tax Withholding Category
+
+You can set the Tax Withholding Category to set up TCS against eligible customers. For more information, visit the [Tax Withholding Category](/docs/user/manual/en/accounts/tax-withholding-category) page.
+
+### 2.4 Default Currency and Price List
 ERPNext supports [Multiple Currencies](/docs/user/manual/en/accounts/multi-currency-accounting) and [Price Lists](/docs/user/manual/en/stock/price-lists).
 
 You can set the default currency to be used for this customer in sales orders and sales invoices by selecting the appropriate currency in Billing Currency.
 
 Similarly, you can set the default price list to be used for this customer in sales orders and sales invoices by selecting the appropriate currency in Default Price List.
 
-### 2.4 Integration with Accounts
+### 2.5 Integration with Accounts
 
 Unlike many accounting software, you need not create a separate accounting ledger for each customer.
 By default a unified ledger named **Debtors** is created.
@@ -68,13 +72,13 @@ Accounts Receivable in the [Chart of Accounts](/docs/user/manual/en/accounts/cha
 
 >Advanced Tip: ERPNext supports [Multi-company Accounting](/docs/user/manual/en/accounts/inter-company-journal-entry). You can use the same customer records in multiple companies. Since an accounting ledger is company specific, you need to select the company and the corresponding ledger in ACCOUNTING section if you decide have separate accounting ledger for a customer.
 
-### 2.5 Credit Limit and Payment Terms
+### 2.6 Credit Limit and Payment Terms
 
 You can set the credit limit by entering the amount in 'Credit Limit' field. Read [Credit Limit](/docs/user/manual/en/accounts/credit-limit) for more details.
 
 You can select the default [Payment Terms](/docs/user/manual/en/accounts/payment-terms) to be applied in sales orders and sales invoices in 'Default Payment Terms Template' field.
 
-### 2.6 Sales Team and Sales Partner
+### 2.7 Sales Team and Sales Partner
 
 If you have one or more [Sales Person](/docs/user/manual/en/CRM/sales-person) to manage the sales to the customer, you can add them in SALES TEAM section. If multiple sales person are involved you can split the contribution among them. Make sure that the sum of all sales persons contribution equals to 100%.
 
@@ -84,17 +88,17 @@ A [Sales Partner](/docs/user/manual/en/selling/sales-partner) is a third party d
 affiliate / reseller who facilitates your  products/services sales, for a commission.
 If you sell your products/services to the customer through a sales partner you can set it in 'Sales Partner' field and mention the 'Commission Rate' for calculation of commission.
 
-### 2.7 Loyalty Program
+### 2.8 Loyalty Program
 
 If you would like offer a [Loyalty Program](/docs/user/manual/en/accounts/loyalty-program) to the customer, select the same in Loyalty Program field.
 
-### 2.8 View Accounting Ledger and Accounts Receivable
+### 2.9 View Accounting Ledger and Accounts Receivable
 
 Click on Accounting Ledger button to view all accounting transactions with the customer.
 
 Click on Accounts Receivable button to view the details of all outstanding invoices.
 
-### 2.9 Set Customer Id, Default Customer Group, Territory, and Price List
+### 2.10 Set Customer Id, Default Customer Group, Territory, and Price List
 
 You can set how a unique id should be generated each the customer in [Selling Settings](/docs/user/manual/en/selling/selling-settings).
 

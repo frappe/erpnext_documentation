@@ -7,7 +7,7 @@ It describes the Model and the View of your data. It contains what fields are st
 
 DocType allows you to insert custom forms in ERPNext as per your requirement. 
 
-For more understanding on DocTypes, [click here](https://frappe.io/docs/user/en/understanding-doctypes)
+Read [DocType documentation](https://frappe.io/docs/user/en/understanding-doctypes) for more understanding.
 
 To create a new DocType, go to:
 

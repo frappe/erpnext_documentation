@@ -18,7 +18,7 @@ If not configured otherwise, ERPNext uses the Supplier's Name as the unique name
 
 You can define or select the Naming Series pattern from: **Settings > Data > Naming Series**
 
-[Click here](/docs/user/manual/en/setting-up/settings/naming-series) to know more about defining a Naming Series.
+Read [Naming Series](/docs/user/manual/en/setting-up/settings/naming-series) to know more about defining a Naming Series.
 
 ### 1.2 Default Supplier Group
 
@@ -41,13 +41,18 @@ This configuration can be overridden for a particular supplier by enabling the "
 
 If this option is configured "Yes", ERPNext will prevent you from creating a Purchase Invoice without creating a Purchase Receipt first. In case the Item being transacted is a service, it'll not require a receipt, you can directly create an Invoice.
 
-This configuration can be overridden for a particular supplier by enabling the "Allow Purchase Receipt Creation Without Purchase Receipt" checkbox in supplier master
+This configuration can be overridden for a particular supplier by enabling the "Allow Purchase Invoice Creation Without Purchase Receipt" checkbox in the supplier master
 
 <img alt="Purchase Receipt Required" class="screenshot" src="{{docs_base_url}}/assets/img/buying/pr-required.png">
 
 ### 2.4 Maintain Same Rate Throughout Purchase Cycle
 
-If this is checked, ERPNext will stop you from changing an Item's price in a Purchase Invoice or Purchase Receipt created by a Purchase Order, i.e. it will maintain the same price throughout the purchase cycle. If there is a requirement where the Item's price can change, you should uncheck this option.
+If this is enabled, ERPNext will validate whether an Item's price is changing in a Purchase Invoice or Purchase Receipt created from a Purchase Order, i.e. it will help you maintain the same rate throughout the purchase cycle.
+
+You can configure the action that system should take if the same rate is not maintained in the "Action If Same Rate is Not Maintained" field:
+
+- **Stop**: ERPNext will stop you from changing the price by throwing a validation error.
+- **Warn**: The system will let you save the transaction but warn you with a message if the rate is changed.
 
 ## 3. Allow Item to be added multiple times in a transaction
 

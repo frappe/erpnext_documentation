@@ -25,10 +25,11 @@ Before creating a New Topic, it is advisable that you create the following first
 
 ## 2. How to create a Topic
 
-1. Click on New Topic and add the name of the Topic.
-2. Select the Content Type for the topic. It could be an Article, a Video or a Quiz.
-3. Select the Content for the Topic. You can create a New Article, Video or a Quiz from here itself.
-1. Optionally add a description and Save.
+1. Click on New Topic and add the title of the Topic.
+2. Add the related course (optionally).
+3. Select the Content Type for the topic. It could be an Article, a Video or a Quiz.
+4. Select the Content for the Topic. You can create a New Article, Video or a Quiz from here itself.
+5. Optionally add a description and Save.
 
     ![Topic](/docs/assets/img/education/education-topic-3.gif)
 

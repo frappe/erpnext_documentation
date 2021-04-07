@@ -63,9 +63,9 @@ In this section there are four fields:
 ### 3.2 Currency and Price List
 You can set the currency in which the quotation/sales order is to be sent. If you set a Pricing List, then the item prices will be fetched from that list. Ticking on Ignore Pricing Rule will ignore the Pricing Rules set in Accounts > Pricing Rule.
 
-To know about Price Lists, [click here](/docs/user/manual/en/stock/price-lists).
-
-To know about managing transactions in multiple currencies, [click here](/docs/user/manual/en/accounts/articles/managing-transactions-in-multiple-currency).
+Read about [Price Lists](/docs/user/manual/en/stock/price-lists) 
+and [Multi-Currency Transactions](/docs/user/manual/en/accounts/articles/managing-transactions-in-multiple-currency)
+to know more.
 
 ### 3.3 The Items Table
 This table can be expanded by clicking on the inverted triangle present rightmost of the table.
@@ -106,7 +106,7 @@ Sometimes payment is not done all at once. Depending on the agreement, half of t
 
 <img class="screenshot" alt="Payment Terms in Quotation" src="{{docs_base_url}}/assets/img/selling/quotation-payment-terms.png">
 
-To know more about Payment Terms, [click here](/docs/user/manual/en/accounts/payment-terms).
+Read [Payment Terms](/docs/user/manual/en/accounts/payment-terms) to know more.
 
 ### 3.7 Terms and Conditions
 In Sales/Purchase transactions there might be certain Terms and Conditions based on which the Supplier provides goods or services to the Customer. You can apply the Terms and Conditions to transactions to transactions and they will appear when printing the document. To know about Terms and Conditions, [click here](/docs/user/manual/en/setting-up/print/terms-and-conditions)

@@ -42,9 +42,9 @@ To allow for per-Customer, per-Item Pricing Rules, ("Customer A" pays $1.00 for 
 ### 3.1 Currency and Price List
 You can set the currency in which the quotation/sales order is to be sent. If you set a Pricing List, then the item prices will be fetched from that list. Ticking on 'Ignore Pricing Rule' will ignore the [Pricing Rules](/docs/user/manual/en/accounts/pricing-rule) set in Accounts > Pricing Rule.
 
-To know about Price Lists, [click here](/docs/user/manual/en/stock/price-lists).
-
-To know about managing transactions in multiple currencies, [click here](/docs/user/manual/en/accounts/articles/managing-transactions-in-multiple-currency).
+Read about [Price Lists](/docs/user/manual/en/stock/price-lists) 
+and [Multi-Currency Transactions](/docs/user/manual/en/accounts/articles/managing-transactions-in-multiple-currency)
+to know more.
 
 ### 3.1 Set Source Warehouse
 If you have the same stock in multiple warehouses, setting a warehouse here will cause all the items from the item table to be fetched from this warehouse. You need to have stock available in this 'source warehouse' you're setting. Note that this option will override the 'Default Warehouse' you've set in the Item master.
@@ -55,7 +55,7 @@ If you have the same stock in multiple warehouses, setting a warehouse here will
 
     A Sales Order displays the billed amount, valuation rate, and gross profit in the items table when you click on the inverted triangle to expand a row.
 
-    You can also add Items in the Items table by scanning their barcodes if you have a barcode scanner. Know how to track them [here](/docs/user/manual/en/stock/articles/track-items-using-barcode)
+    You can also add Items in the Items table by scanning their barcodes if you have a barcode scanner. Read documentation for [tracking items using barcode](/docs/user/manual/en/stock/articles/track-items-using-barcode) to know more.
 
 * **Delivery Warehouse**: This is the warehouse from where the stock will be picked to be delivered to your customer.
 
@@ -63,7 +63,7 @@ If you have the same stock in multiple warehouses, setting a warehouse here will
 
     Further, if you create a purchase order from this sales order, it'll be created for the supplier you selected here and only the items which are valid for drop shipping.
 
-* **Planning**: To know about the fields under planning [click here](/docs/user/manual/en/stock/projected-quantity).
+* **Planning**: Read [Projected Quantity](/docs/user/manual/en/stock/projected-quantity) to know about the fields under planning.
 
 The other fields in the item table are similar as explained in [Quotation](/docs/user/manual/en/selling/quotation#23-the-items-table).
 
@@ -99,7 +99,7 @@ Read [Applying Discount](/docs/user/manual/en/selling/articles/applying-discount
 ### 3.6 Payment Terms
 Sometimes payment is not done all at once. Depending on the agreement, half of the payment may be made before shipment and the other half after receiving the goods/services. You can add a Payment Terms template or add the terms manually in this section.
 
-To know more about Payment Terms, [click here](/docs/user/manual/en/accounts/payment-terms).
+Read [Payment Terms](/docs/user/manual/en/accounts/payment-terms) to know more.
 
 ### 3.7 Terms and Conditions
 In Sales/Purchase transactions there might be certain Terms and Conditions based on which the Supplier provides goods or services to the Customer. You can apply the Terms and Conditions to transactions to transactions and they will appear when printing the document. To know about Terms and Conditions, [click here](/docs/user/manual/en/setting-up/print/terms-and-conditions)

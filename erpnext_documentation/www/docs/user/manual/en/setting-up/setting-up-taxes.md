@@ -16,19 +16,19 @@ Select an account and click on edit. Select the 'Account Type' as 'Tax' for the 
 
 ## 2. Sales Taxes and Charges Template
 Sales Taxes and Charges Template fetched taxes for your sales transactions like [Sales Order](/docs/user/manual/en/selling/sales-order) and [Sales Invoice](/docs/user/manual/en/accounts/sales-invoice).
-[Click here](/docs/user/manual/en/selling/sales-taxes-and-charges-template) to know about this.
+Read [Sales Taxes and Charges Template](/docs/user/manual/en/selling/sales-taxes-and-charges-template) to know more.
 
 ## 3. Purchase Taxes and Charges Template
 Purchase Taxes and Charges Template fetched taxes for your sales transactions like [Purchase Order](/docs/user/manual/en/buying/purchase-order) and [Purchase Invoice](/docs/user/manual/en/accounts/purchase-invoice).
-[Click here](/docs/user/manual/en/buying/purchase-taxes-and-charges-template) to know about this.
+Read [Purchase Taxes and Charges Template](/docs/user/manual/en/buying/purchase-taxes-and-charges-template) to know more.
 
 ## 4. Item Tax Template
 The tax set in Item Tax Template applies specifically to an [Item](/docs/user/manual/en/stock/item) or an [Item Group](/docs/user/manual/en/stock/item-group). It is given preference over the Sales/Purchase Tax Template.
-[Click here](/docs/user/manual/en/accounts/item-tax-template) to know about this.
+Read [Item Tax Template](/docs/user/manual/en/accounts/item-tax-template) to know more.
 
 ## 5. Tax Category
 Tax category helps in automatically applying sales/purchase tax templates in your transactions based on the customer/supplier chosen.
-[Click here](/docs/user/manual/en/accounts/tax-category) to know about this.
+Read [Tax Category](/docs/user/manual/en/accounts/tax-category) to know more.
 
 ## 6. Video
 

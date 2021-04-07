@@ -25,6 +25,7 @@ You can check out [this video](https://www.youtube.com/watch?v=5wjollWN0OA) for 
 1. [Accounting Period](/docs/user/manual/en/accounts/accounting-period)
 1. [Finance Book](/docs/user/manual/en/accounts/finance-book)
 1. [Accounting Dimensions](/docs/user/manual/en/accounts/accounting-dimensions)
+1. [Accounting Dimensions Filter](/docs/user/manual/en/accounts/accounting-dimension-filter)
 1. [Bank](/docs/user/manual/en/accounts/bank)
 1. [Bank Account](/docs/user/manual/en/accounts/bank-account)
 <!-- (in development) 1. [Bank Transaction](/docs/user/manual/en/accounts/bank-transaction) -->
@@ -104,6 +105,7 @@ You can check out [this video](https://www.youtube.com/watch?v=5wjollWN0OA) for 
 1. [GST Reminders](/docs/user/manual/en/regional/india/gst-reminders)
 1. [GST 3B](/docs/user/manual/en/regional/india/gst-3b-report)
 1. [Auto generating e-Way Bill](/docs/user/manual/en/regional/india/auto-generate-e-way-bill-JSON)
+1. [Setup E-Invoicing](/docs/user/manual/en/regional/india/setup-e-invoicing)
 1. [Lower Deduction Certificate](/docs/user/manual/en/regional/india/lower-deduction-certificate)
 
 ## 2. Articles

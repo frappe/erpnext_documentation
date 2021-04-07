@@ -38,7 +38,7 @@ You can alternatively create a Loan record directly from [Loan Application](/doc
 
 ### 3.1 Creation of Disbursement Entry
 
-After submitting the Loan document, if the status is "Sanctioned" and "Repay from Salary" is unchecked, you can click on "Create Disbursement Entry" to create a Journal Entry of the Loan.
+After submitting the Loan document, if the status is "Sanctioned", you can click on "Create Disbursement Entry" to create a Journal Entry of the Loan.
 
 
 <img class="screenshot" alt="Disbursement Entry" src="{{docs_base_url}}/assets/img/human-resources/disbursement-entry.png">

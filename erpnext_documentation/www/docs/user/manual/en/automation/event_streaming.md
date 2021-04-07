@@ -193,3 +193,35 @@ Like in this case it is: `eval:frappe.db.get_value('Global Defaults', None, 'cou
 Lastly, enable the 'Has Mapping' option in the Event Configuration child table in Event Producer against the required Document Type and select the Document Type Mapping you just created.
 
 ![Mapping Configuration](/docs/assets/img/automation/event-mapping-conf.png)
+
+### 3.6 Conditional Events Configuration
+
+If you are in scenario when you do not want to send over all the documents in a doctype over to the consumer, you can specify the conditions for them.
+
+For example, if you would like to emit only those `Note` documents that are public, you can specify them within the Producer/Consumer document.
+
+![Child Table Mapping Link](/docs/assets/img/automation/event-streaming-conditions.png)
+
+> If a document satisfies a condition down the line in its lifetime, all the old `Event Update Logs` are synced to the consumer
+
+Let's consider another example. You want to sync only those Sales Invoices that are submitted.
+You can specify `doc.docstatus == 1` as the condition. The invoices will not be synced until they are submitted.
+
+For each update log, you can see its Consumers within the Update Log document.
+
+If you need more fine control over the conditions, you can hook up a custom function. Your function will be executed with parameters `consumer`, `doc` & `update_log`. For example, you want to sync only those Notes that are `odd`
+
+```py
+def is_odd_note(consumer, doc, update_log):
+    return frappe.db.sql("""
+        SELECT
+            COUNT(*)
+        FROM `tabNote`
+        WHERE creation <= %(creation)s
+    """, { "creation": doc.creation })[0][0] % 2 != 0
+```
+
+Then, you could specify the condition:
+```js
+cmd: my_custom_app.note.is_odd_note
+```

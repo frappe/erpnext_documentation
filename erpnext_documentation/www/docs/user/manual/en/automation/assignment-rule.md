@@ -25,13 +25,20 @@ To set up an automatic assignment:
     - `status == "Open"`
     - `issue_type == "Technical" and priority=="High" and status == "Open"`
 
-1. Select the assignment rule (**Round Robin** or **Load Balancing**).
+1. Select the assignment rule.
+    ![Assignment Rule](/docs/assets/img/automation/assignment-rule-select.png)
+
     * **Round Robin**: Assign each document to a User in sequence.
     * **Load Balancing**: Assign new documents to the User who has the least number of assignments.
 
-    ![Assignment Rule](/docs/assets/img/automation/assignment-rule-select.png)
-1. Select the list of Users to whom this Assignment Rule will apply.
-    <img class="screenshot" alt="Assign" src="{{docs_base_url}}/assets/img/automation/auto-assign-2.png">
+        Select the list of Users to whom this Assignment Rule will apply:
+        <img class="screenshot" alt="Assign" src="{{docs_base_url}}/assets/img/automation/auto-assign-2.png">
+
+    * **Based on Field**: Introduced in v13, this rule can be used to assign a document to the User that is set in the configured field.
+
+        Select the User link field which will determine to whom this Assignment Rule will apply:
+        <img class="screenshot" alt="Field Assign" src="{{docs_base_url}}/assets/img/automation/field-auto-assign.png">
+
 
 1. Save.
 
@@ -50,6 +57,22 @@ Here is an example of an Assignment Rule.
 Set Document Type, Descriptions and Conditions.
 <img class="screenshot" alt="Assign" src="{{docs_base_url}}/assets/img/automation/auto-assign-1.png">
 
+### 1.2 Setting Due Date for assignment
+
+You can auto set due dates for assignments based on the date field in the reference document.
+
+Example:
+
+If you want to set a due date on Issue assignment based on the "Resolution By" date of the Issue, you can do so by selecting "Resolution By" field in `Due Date Based On` option in Assignment Rule.
+
+![Due Date Based On](/docs/assets/img/automation/assignment-rule-due-date-based-on.png)
+
+**Note:**
+
+- "Due Date Based On" option will not be available if "Document Type" is not yet selected or if the selected Document Type does not have any "Date" or "Datetime" field.
+- Due Date in the assignment/ToDo will be updated whenever the "Due Date Based On" field value is updated in the reference document.
+
 ### 2. Related Topics
+
 1. [Workflows](/docs/user/manual/en/setting-up/workflows)
 1. [Workflow Actions](/docs/user/manual/en/setting-up/workflow-actions)

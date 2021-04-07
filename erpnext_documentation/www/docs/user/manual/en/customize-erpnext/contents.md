@@ -13,6 +13,7 @@ ERPNext, while being a system which is extremely easy to use, is also highly cus
 1. [Server Scripts](/docs/user/manual/en/customize-erpnext/server-script)
 1. [Custom Translations](/docs/user/manual/en/setting-up/print/custom-translations)
 1. [Dashboard](/docs/user/manual/en/using-erpnext/dashboard)
+1. [Desk Page](/docs/user/manual/en/customize-erpnext/desk-page)
 
 ### 1.2 Documents and Reports
 1. [Print Format](/docs/user/manual/en/customize-erpnext/print-format)
@@ -42,16 +43,16 @@ ERPNext, while being a system which is extremely easy to use, is also highly cus
 1. [Geolocation Field](/docs/user/manual/en/customize-erpnext/articles/geolocation-field)
 1. [Table Multiselect Field](/docs/user/manual/en/customize-erpnext/articles/table-multiselect-field)
 
-### 2.2. Custom Permissions
+### 2.2 Custom Permissions
 1. [Perm Level Error In Permission Manager](/docs/user/manual/en/customize-erpnext/articles/perm-level-error-in-permission-manager)
 1. [User Restriction](/docs/user/manual/en/customize-erpnext/articles/user-restriction)
 1. [Deleting Custom Reports](/docs/user/manual/en/customize-erpnext/articles/deleting-custom-reports)
 
-### 2.3. Global Configuration
+### 2.3 Global Configuration
 1. [Set Language](/docs/user/manual/en/customize-erpnext/articles/set-language)
 1. [Set Precision](/docs/user/manual/en/customize-erpnext/articles/set-precision)
 
-### 2.2 Some Basic Customizations
+### 2.4 Some Basic Customizations
 1. [Customizing Data Visibility In Child Table](/docs/user/manual/en/customize-erpnext/articles/customizing-data-visibility-in-child-table)
 1. [Customizing Sorting Order in List View](/docs/user/manual/en/customize-erpnext/articles/customizing-sorting-order-in-the-list-view)
 1. [Customizing Field Visibility in Print Format](/docs/user/manual/en/customize-erpnext/articles/making-fields-visible-in-print-format)
@@ -59,7 +60,7 @@ ERPNext, while being a system which is extremely easy to use, is also highly cus
 
 ### 2.5 Other Actions
 1. [Disable Rounded Total](/docs/user/manual/en/customize-erpnext/articles/disable-rounded-total)
-1. [Changing Attachment Limits](/docs/user/manual/en/customize-erpnext/articles/changing-attachment-limits)
+1. [Attachment Limits](https://www.frappeframework.com/docs/user/en/desk/attachments#limits)
 1. [Fetching Data From a Document](/docs/user/manual/en/customize-erpnext/articles/fetching-data-from-a-document)
 
 ## 3. Videos

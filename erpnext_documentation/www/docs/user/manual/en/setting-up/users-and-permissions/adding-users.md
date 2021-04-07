@@ -9,7 +9,7 @@ There are two main types of users:
 **Website users**: Customers, Suppliers, Students, etc., who have access only to the portal and not to any modules.
 **System Users**: People using ERPNext in the Company with access to modules, company data, etc.
 
-To know more about these two type of users, [click here](/docs/user/manual/en/setting-up/articles/difference-between-system-user-and-website-user).
+Read more about [difference between system and website user](/docs/user/manual/en/setting-up/articles/difference-between-system-user-and-website-user).
 
 Under User, a lot of info can be entered. For the sake of usability, the information entered for web users is minimal: First Name and Email.
 
@@ -69,9 +69,15 @@ Subscribe the user to different mailing lists of your company from this section.
 
 ### 2.7 Allow Module Access
 
-Users will have access to all modules for which they have role-based access. If you want to restrict access of certain modules for this user, un-check the modules from this list. 
+Users will have access to all modules for which they have role-based access. If you want to restrict access of certain modules for this user, un-check the modules from this list.
 
 <img class="screenshot" src="{{docs_base_url}}/assets/img/setup/users/user-3.png" alt="User Block Module">
+
+#### 2.7.1 Module Profiles
+
+Role Profiles act as a template to store and select access to multiple modules. This Role Profile can then be assigned to a User. For example, HR Users will have access to multiple modules like HR, Payroll, etc. Role Profiles are useful to provide access to multiple modules at once when adding multiple users.
+
+<img class="screenshot" src="{{docs_base_url}}/assets/img/setup/users/module-profile.png" alt="Module Profile">
 
 ### 2.8 Security Settings
 

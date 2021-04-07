@@ -38,7 +38,15 @@ Go to your **Chart of Accounts**, under the Duties and Taxes head of your accoun
 
 <img class="screenshot" alt="GST in Customer" src="{{docs_base_url}}/assets/img/regional/india/gst-in-coa.png">
 
-### 4. Make Tax Templates
+### 4. Add GST Accounts in GST Settings
+
+Add all the GST Accounts in GST Settings. Adding these accounts in GST Settings will help the system identify all the GST accounts and generate GST reports.
+
+You can also enable the "Round Off GST Values" in case you want to round off individual GST components in the invoices.
+
+<img class="screenshot" alt="GST Settings" src="{{docs_base_url}}/assets/img/regional/india/gst-settings-new.png">
+
+### 5. Make Tax Templates
 
 You will have have to make two tax templates for both your sales and purchase, one for in state sales and other for out of state sales.
 
@@ -48,7 +56,7 @@ In your **In State GST** template, select 2 accounts, SGST and CGST
 
 In your **Out of State GST** template, select IGST
 
-### 5. Making GST Ready Invoices
+### 6. Making GST Ready Invoices
 
 If you have setup the GSTIN of your Customers and Suppliers, and your tax template, you are ready to go for making GST Ready Invoices!
 
@@ -62,7 +70,7 @@ For **Sales Invoice**,
 
 <img class="screenshot" alt="GST Invoice" src="{{docs_base_url}}/assets/img/regional/india/gst-invoice.gif">
 
-### 6. Print GST Tax Invoice
+### 7. Print GST Tax Invoice
 
 To print Tax Invoice as per GSTN guidelines, please select **GST Tax Invoice** print format. This print format includes company address, GSTIN numbers, HSN/SAC Code and item-wise tax breakup. And while printing select correct value of Invoice Copy field, to mention whether it is for the Customer, Supplier or Transporter.
 
@@ -77,5 +85,3 @@ ERPNext comes with most of your reports you need to prepare your GST Returns. Go
 You can check the impact of your invoice in the **GST Sales Register** and **GST Itemised Sales Register**
 
 <img class="screenshot" alt="GST Itemised Sales Register" src="{{docs_base_url}}/assets/img/regional/india/gst-itemised.png">
-
-
