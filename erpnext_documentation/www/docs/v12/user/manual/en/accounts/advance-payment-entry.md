@@ -35,7 +35,7 @@ accounting system], $5000 is debited against the Company's cash account.
 
 When creating an invoice, you can check if there is an Advance Payment against that Party.
 
-<img class="screenshot" alt="Advace Payment" src="{{docs_base_url}}/assets/img/accounts/advance-payment-3.png">
+<img class="screenshot" alt="Advace Payment" src="{{docs_base_url}}/v12/assets/img/accounts/advance-payment-3.png">
 
 On clicking **Get Advance Received** button, it will fetch the Advance Payment Entries found for that party. Once Advance Payment Entries are fetched, you can allocate the Amount of advance against this invoice. The allocation will reduce the Outstanding Amount for that invoice right-away.
 

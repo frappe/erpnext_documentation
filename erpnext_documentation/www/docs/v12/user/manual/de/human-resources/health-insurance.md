@@ -7,10 +7,10 @@ Um Krankenversicherungssätze anzulegen:
 
 > Personalwesen > Krankenversicherung > Neu
 
-<img class="screenshot" alt="Employee" src="{{docs_base_url}}/assets/img/human-resources/health-insurance.png">
+<img class="screenshot" alt="Employee" src="{{docs_base_url}}/v12/assets/img/human-resources/health-insurance.png">
 
 Im Datensatz Mitarbeiter können Sie den Leistungserbringer anhängen und die Krankenkassennummer eingeben.
 
-<img class="screenshot" alt="Employee" src="{{docs_base_url}}/assets/img/human-resources/insurance-no.gif">
+<img class="screenshot" alt="Employee" src="{{docs_base_url}}/v12/assets/img/human-resources/insurance-no.gif">
 
 {next}

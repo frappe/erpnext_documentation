@@ -4,13 +4,13 @@
 
 **Loan Repayment entry is used to track repayments against loans.**
 
-<img class="screenshot" alt="Make Loan Repayment" src="{{docs_base_url}}/assets/img/loan-management/loan-repayment-flow.png">
+<img class="screenshot" alt="Make Loan Repayment" src="{{docs_base_url}}/v12/assets/img/loan-management/loan-repayment-flow.png">
 
 To access the Loan Disbursement list, go to:
 > Home > Loan Management > Disbursement and Repayment > Loan Repayment
 
 
-<img class="screenshot" alt="Loan Repayment" src="{{docs_base_url}}/assets/img/loan-management/loan-repayment.png">
+<img class="screenshot" alt="Loan Repayment" src="{{docs_base_url}}/v12/assets/img/loan-management/loan-repayment.png">
 
 ## 1. Prerequisites
 Before creating a Loan Disbursement, you must create the following first:
@@ -30,7 +30,7 @@ Before creating a Loan Disbursement, you must create the following first:
 ### 2.1. Other ways to create a Loan Repayment
 You can also create a Loan Repayment from a disbursed Loan via the **Create** button on the top right of a Loan.
 
-<img class="screenshot" alt="Create Loan Repayment" src="{{docs_base_url}}/assets/img/loan-management/create-loan-repayment.png">
+<img class="screenshot" alt="Create Loan Repayment" src="{{docs_base_url}}/v12/assets/img/loan-management/create-loan-repayment.png">
 {next}
 
 

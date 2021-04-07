@@ -15,7 +15,7 @@ For example, you can create a Purchase Invoice for a company say 'Company ABC', 
 1. Select the Customer who you would want to choose for the inter-linked invoice.
 1. Enable the checkbox, **Is Internal Customer** shown as follows:
 
- <img class="screenshot" alt="Internal Customer" src="{{docs_base_url}}/assets/img/accounts/make-internal-customer.png">
+ <img class="screenshot" alt="Internal Customer" src="{{docs_base_url}}/v12/assets/img/accounts/make-internal-customer.png">
 
 1. Add the company which the Customer represents in the **Represents Company** field. This the company for which the Sales Invoice will be created.
 1. In the **Allowed To Transact With** table, add the company against which you will be creating a Purchase Invoice. 
@@ -27,14 +27,14 @@ For example, you can create a Purchase Invoice for a company say 'Company ABC', 
 1. In the table **Allowed To Transact With** for the Supplier, add the company which the Customer represents. This is the company against which you are going to make an inter-linked Purchase Invoice.
 1. Here is a screenshot of the Supplier company to avoid any confusion:
 
- <img class="screenshot" alt="Internal Supplier" src="{{docs_base_url}}/assets/img/accounts/make-internal-supplier.png">
+ <img class="screenshot" alt="Internal Supplier" src="{{docs_base_url}}/v12/assets/img/accounts/make-internal-supplier.png">
 
 ### 1.2 Creating the Invoice
 1. Now, create a new [Sales Invoice](/docs/user/manual/en/accounts/sales-invoice), fill up the fields.
 1. Remember to select the Customer who is an internal customer and company from which he's buying.
 1. Save and Submit the Invoice.
 
- <img class="screenshot" alt="Inter company invoice" src="{{docs_base_url}}/assets/img/accounts/make-inter-company-invoice.png">
+ <img class="screenshot" alt="Inter company invoice" src="{{docs_base_url}}/v12/assets/img/accounts/make-inter-company-invoice.png">
 
 1. Before you make an *Inter Company Invoice* you need to do the following:
  1. The selling and buying price between the companies should be in sync.

@@ -21,7 +21,7 @@ Member Certificates are generated at the end of the Financial Year with all the 
 
 > Non Profit > Tax Exemption 80G Certificate > New
 
-<img class="screenshot" alt="Member 80G Certificate" src="{{docs_base_url}}/assets/img/non_profit/member-80g-certificate.png">
+<img class="screenshot" alt="Member 80G Certificate" src="{{docs_base_url}}/v12/assets/img/non_profit/member-80g-certificate.png">
 
 1. Set the Naming Series and the Certificate Recipient as Member.
 2. Select the Member. The Member Name, Email, and PAN Number will be fetched automatically.
@@ -29,12 +29,12 @@ Member Certificates are generated at the end of the Financial Year with all the 
 4. Select the Company. The 80G Number, PAN, and other details will be fetched automatically.
 5. Select the Company Address you want to print on the certificate. If not set, the default company address will be set on Save.
 6. Click on **Get Memberships** button. This will fetch all the Memberships for the selected Member in the specified Fiscal Year and set the total amount. It will fetch the Date, Amount, Invoice ID, Membership, and RazorPay Payment ID (if set) for each entry. Save.
-    <img class="screenshot" alt="Member Payments" src="{{docs_base_url}}/assets/img/non_profit/member-payments.png">
+    <img class="screenshot" alt="Member Payments" src="{{docs_base_url}}/v12/assets/img/non_profit/member-payments.png">
 
 
 A Print Format **80G Certificate for Membership** is available:
 
-<img class="screenshot" alt="Member Certificate" src="{{docs_base_url}}/assets/img/non_profit/member-certificate.png">
+<img class="screenshot" alt="Member Certificate" src="{{docs_base_url}}/v12/assets/img/non_profit/member-certificate.png">
 
 
 ## 2.2 Tax Exemption 80G Certificate for Donor
@@ -43,7 +43,7 @@ The Donor Certificate is generated for each Donation. To create a new certificat
 
 > Non Profit > Tax Exemption 80G Certificate > New
 
-<img class="screenshot" alt="Donor 80G Certificate" src="{{docs_base_url}}/assets/img/non_profit/donor-80g-certificate.png">
+<img class="screenshot" alt="Donor 80G Certificate" src="{{docs_base_url}}/v12/assets/img/non_profit/donor-80g-certificate.png">
 
 1. Set the Naming Series and the Certificate Recipient as Donor.
 2. Select the Donor. The Donor Name, Email, and PAN Number will be fetched automatically.
@@ -51,10 +51,10 @@ The Donor Certificate is generated for each Donation. To create a new certificat
 4. Select the Company. The 80G Number, PAN, and other details will be fetched automatically.
 5. Select the Company Address you want to print on the certificate. If not set, the default company address will be set on Save.
 6. Select the Donation for which you want to generate the certificate. The donation details like the Date, Amount, and RazorPay Payment ID (if set), Mode of Payment will be fetched for the selected donation. Save.
-    <img class="screenshot" alt="Donation Details" src="{{docs_base_url}}/assets/img/non_profit/donation-details.png">
+    <img class="screenshot" alt="Donation Details" src="{{docs_base_url}}/v12/assets/img/non_profit/donation-details.png">
 
 A Print Format **80G Certificate for Donations** is available:
 
-<img class="screenshot" alt="Donor Certificate" src="{{docs_base_url}}/assets/img/non_profit/donor-certificate.png">
+<img class="screenshot" alt="Donor Certificate" src="{{docs_base_url}}/v12/assets/img/non_profit/donor-certificate.png">
 
 {next}

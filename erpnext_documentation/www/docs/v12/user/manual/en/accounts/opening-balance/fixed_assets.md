@@ -19,7 +19,7 @@ To create a new Asset:
 1. Tick **Is Existing Asset.**
 1. Save.
 
-    <img class="screenshot" alt="Stock Asset Ledger" src="{{docs_base_url}}/assets/img/accounts/asset_opening_balance.png">
+    <img class="screenshot" alt="Stock Asset Ledger" src="{{docs_base_url}}/v12/assets/img/accounts/asset_opening_balance.png">
 
 > To know about Assets in detail, [visit this page](/docs/user/manual/en/asset/asset).
 
@@ -35,6 +35,6 @@ To create a new Journal Entry:
 1. Select 'Temporary Opening' ledger in Account column and enter the balancing amount in Credit column.
 1. Set 'Is Opening' to Yes.
 
-<img class="screenshot" alt="Stock Asset Ledger" src="{{docs_base_url}}/assets/img/accounts/journal_entry_for_fixed_asset_opening_balance.png">
+<img class="screenshot" alt="Stock Asset Ledger" src="{{docs_base_url}}/v12/assets/img/accounts/journal_entry_for_fixed_asset_opening_balance.png">
 
 {next}

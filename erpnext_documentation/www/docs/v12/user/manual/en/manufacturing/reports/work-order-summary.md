@@ -6,7 +6,7 @@ To access the Work Order Summary, go to:
 > Home > Manufacturing > Reports > Work Order Summary
 
 
-<img class="screenshot" alt="Task" src="{{docs_base_url}}/assets/img/manufacturing/work-order-summary.png">
+<img class="screenshot" alt="Task" src="{{docs_base_url}}/v12/assets/img/manufacturing/work-order-summary.png">
 
 This report will give information about the Work Order. Using this report user will understand the number of produced quantity against each Work Order as well the status of the Work Order.
 

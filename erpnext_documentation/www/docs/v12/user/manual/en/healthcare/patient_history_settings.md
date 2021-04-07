@@ -33,7 +33,7 @@ Similar to the Standard Document Type configuration, you can configure the Custo
 - Enter the fieldname for the date field of the DocType. This will be used while filtering medical records in Patient History according to dates. For example, the date fieldname for Patient Encounter is encounter_date.
 - Then, click on **Add / Edit Fields** button to configure the fields.
 
-<img class="screenshot" alt="ERPNext Healthcare" src="{{docs_base_url}}/assets/img/healthcare/patient-history-settings.gif">
+<img class="screenshot" alt="ERPNext Healthcare" src="{{docs_base_url}}/v12/assets/img/healthcare/patient-history-settings.gif">
 
 ## 3. Related Topics
 

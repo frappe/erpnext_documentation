@@ -15,6 +15,6 @@ To access Sales Stage, go to:
 1. Go to the Sales Stage and click on New.
 1. Enter the Stage Name.
 
-<img class="screenshot" alt="Sales Stage" src="{{docs_base_url}}/assets/img/crm/sales_stage.png">
+<img class="screenshot" alt="Sales Stage" src="{{docs_base_url}}/v12/assets/img/crm/sales_stage.png">
 
 {next}

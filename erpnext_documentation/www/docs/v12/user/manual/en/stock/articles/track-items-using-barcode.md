@@ -7,11 +7,11 @@ A barcode is a value decoded into vertical spaced lines. Barcode scanners are th
 
 To set the barcode of a particular item, you will have to open the Item record. You can also enter barcode while creating a new item.
 
-<img alt="Material Transfer" class="screenshot" src="{{docs_base_url}}/assets/img/articles/barcode-item-master.png">
+<img alt="Material Transfer" class="screenshot" src="{{docs_base_url}}/v12/assets/img/articles/barcode-item-master.png">
 
 Once barcode field is updated in item master, items can be fetched using barcode. This feature will be available in Delivery Note, Sales Invoice, Purchase Receipt, and Stock Reconciliation transactions only.
 
-<img alt="Material Transfer" class="screenshot" src="{{docs_base_url}}/assets/img/articles/barcode-item-selection.gif">
+<img alt="Material Transfer" class="screenshot" src="{{docs_base_url}}/v12/assets/img/articles/barcode-item-selection.gif">
 
 ## Using mobile phone / smartphone to scan and add items
 

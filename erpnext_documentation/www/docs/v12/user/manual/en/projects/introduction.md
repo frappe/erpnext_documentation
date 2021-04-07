@@ -7,14 +7,14 @@ A services company needs a lot more features than a project module to operate at
 - Attend customer's support queries better with the [Support](/docs/user/manual/en/support.html) module of ERPNext.
 
 
-<img class="screenshot" alt="Gannt" src="{{docs_base_url}}/assets/img/project/services-hero.png">
+<img class="screenshot" alt="Gannt" src="{{docs_base_url}}/v12/assets/img/project/services-hero.png">
 
 ## Project Management in ERPNext
 
 ERPNext helps you manage your Projects by breaking them into Tasks and
 allocating them to different people.
 
-<img class="screenshot" alt="Project" src="{{docs_base_url}}/assets/img/project/projects.png">
+<img class="screenshot" alt="Project" src="{{docs_base_url}}/v12/assets/img/project/projects.png">
 
 Projects can be used to manage internal projects, manufacturing jobs or
 service jobs. For service jobs, Time Sheets can also be created that can be used to bill Customers if billing is done on a Time & Money basis.
@@ -23,7 +23,7 @@ service jobs. For service jobs, Time Sheets can also be created that can be used
 
 Purchasing and selling can also be tracked against Projects and this can help the company keep tabs on its budget, delivery and profitability for a Project.
 
-<img class="screenshot" alt="Non Profit" src="{{docs_base_url}}/assets/img/project/support.png">
+<img class="screenshot" alt="Non Profit" src="{{docs_base_url}}/v12/assets/img/project/support.png">
 
 ### Demo on ERPNext For The Service Business
 

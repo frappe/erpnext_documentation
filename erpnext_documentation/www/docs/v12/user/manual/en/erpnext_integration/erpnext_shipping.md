@@ -21,7 +21,7 @@ For the app to work smoothly, you will have to generate an API key from **at lea
 1. Add the **API Key** to the Packlink DocType, check the 'Enabled' field.
 1. Save.
 
-<img class="screenshot" alt="Packlink API" src="{{docs_base_url}}/assets/img/erpnext_integrations/packlink_api.png">
+<img class="screenshot" alt="Packlink API" src="{{docs_base_url}}/v12/assets/img/erpnext_integrations/packlink_api.png">
 
 ### 1.1 Sendcloud API
 
@@ -32,7 +32,7 @@ For the app to work smoothly, you will have to generate an API key from **at lea
 1. Check the **Enabled** field.
 1. Save.
 
-<img class="screenshot" alt="Sendcloud API" src="{{docs_base_url}}/assets/img/erpnext_integrations/sendcloud_api.png">
+<img class="screenshot" alt="Sendcloud API" src="{{docs_base_url}}/v12/assets/img/erpnext_integrations/sendcloud_api.png">
 
 ### 1.1 LetMeShip API
 
@@ -42,7 +42,7 @@ For the app to work smoothly, you will have to generate an API key from **at lea
 1. Add the **API ID** and **API Password** to the LetMeShip DocType. Check the **Enabled** field.
 1. Save.
 
-<img class="screenshot" alt="LetMeShip API" src="{{docs_base_url}}/assets/img/erpnext_integrations/letmeship_api.png">
+<img class="screenshot" alt="LetMeShip API" src="{{docs_base_url}}/v12/assets/img/erpnext_integrations/letmeship_api.png">
 
 ## 2. Features
 
@@ -50,13 +50,13 @@ For the app to work smoothly, you will have to generate an API key from **at lea
 
 Once a [Shipment](/docs/user/manual/en/stock/shipment) is submitted, if the app is installed, the button **Fetch Shipping Rates** will appear. On clicking, you will get a list of services along with their service providers and rates.
 
-<img class="screenshot" alt="Fetch Rates" src="{{docs_base_url}}/assets/img/erpnext_integrations/fetch_rates.png">
+<img class="screenshot" alt="Fetch Rates" src="{{docs_base_url}}/v12/assets/img/erpnext_integrations/fetch_rates.png">
 
 You can also add frequently used services to your **Preferred Services** using **Parcel Service Type**:
 
 1. Assuming the highlighted service is our frequently used service, let us add it to our **Preferred Services**
 
- <img class="screenshot" alt="Highlight Service" src="{{docs_base_url}}/assets/img/erpnext_integrations/service_highlight.png">
+ <img class="screenshot" alt="Highlight Service" src="{{docs_base_url}}/v12/assets/img/erpnext_integrations/service_highlight.png">
 
 1. Go to **Parcel Service Type** > **New**. Create a new **Parcel Service**. In our case, it is 'TNT'.
 1. Add a **Parcel Service Type**. In our case, it will be 'Economy'.
@@ -66,7 +66,7 @@ You can also add frequently used services to your **Preferred Services** using *
 
 Now when you click on the **Fetch Shipping Rates** button, you will always see the previously highlighted service under **Preferred Services**.
 
-<img class="screenshot" alt="Preferred Service" src="{{docs_base_url}}/assets/img/erpnext_integrations/preferred_service.png">
+<img class="screenshot" alt="Preferred Service" src="{{docs_base_url}}/v12/assets/img/erpnext_integrations/preferred_service.png">
 
 ### 2.2 Creation of Shipment
 
@@ -74,21 +74,21 @@ After comparing rates, you can proceed with any one of the services by clicking 
 
 You will notice that the **Shipment Information** section is updated automatically, based on the Shipment created.
 
-<img class="screenshot" alt="Shipment Creation" src="{{docs_base_url}}/assets/img/erpnext_integrations/create_shipment.gif">
+<img class="screenshot" alt="Shipment Creation" src="{{docs_base_url}}/v12/assets/img/erpnext_integrations/create_shipment.gif">
 
 You can also search for your transaction on your service provider's platform using the **Shipment ID** field.
 
-<img class="screenshot" alt="Packlink Shipment" src="{{docs_base_url}}/assets/img/erpnext_integrations/packlink_shipment.png">
+<img class="screenshot" alt="Packlink Shipment" src="{{docs_base_url}}/v12/assets/img/erpnext_integrations/packlink_shipment.png">
 
 ### 2.3 Printing Labels
 
 To avail the **Print Shipping Label** button, the **Shipment ID** must be generated in the current record.
 
-<img class="screenshot" alt="Print Label Button" src="{{docs_base_url}}/assets/img/erpnext_integrations/print_label_button.png">
+<img class="screenshot" alt="Print Label Button" src="{{docs_base_url}}/v12/assets/img/erpnext_integrations/print_label_button.png">
 
 You can then click on it and generate your shipping label.
 
-<img class="screenshot" alt="Dummy Shipping Label" src="{{docs_base_url}}/assets/img/erpnext_integrations/dummy_shipping_label.png">
+<img class="screenshot" alt="Dummy Shipping Label" src="{{docs_base_url}}/v12/assets/img/erpnext_integrations/dummy_shipping_label.png">
 
 
 You can also track your shipment's status by clicking on **View** > **Track Status**.

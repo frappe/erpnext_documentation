@@ -9,7 +9,7 @@ For example, if you have customers from Germany and France who want quotations i
 
 In the Customer master, select the default Language. Say, the default language for the Customer is **Spanish**.
 
-<img src="{{docs_base_url}}/assets/img/setup/multilingual_print_format/set_customer_default_lang.png" class="screenshot">
+<img src="{{docs_base_url}}/v12/assets/img/setup/multilingual_print_format/set_customer_default_lang.png" class="screenshot">
 
 Same way, you can also set default language in the Supplier master.
 
@@ -19,7 +19,7 @@ In the Print Preview of a transaction, values will be translated into the party'
 
 Customer Quotation print preview in customer's default language.
 
-<img src="{{docs_base_url}}/assets/img/setup/multilingual_print_format/customer_quotation.png" class="screenshot">
+<img src="{{docs_base_url}}/v12/assets/img/setup/multilingual_print_format/customer_quotation.png" class="screenshot">
 
 Supplier Quotation print preview in supplier's default language.
 
@@ -27,7 +27,7 @@ Supplier Quotation print preview in supplier's default language.
 
 User has the option to select an alternate language on print view.
 
-<img src="{{docs_base_url}}/assets/img/setup/multilingual_print_format/alternate_language.png" class="screenshot">
+<img src="{{docs_base_url}}/v12/assets/img/setup/multilingual_print_format/alternate_language.png" class="screenshot">
 
 ## 2. Custom Translation
 
@@ -35,11 +35,11 @@ Users can set their custom translations using Custom Translations form. For exam
 
 > Home > Customization > Other > Custom Translations > New
 
-<img src="{{docs_base_url}}/assets/img/setup/multilingual_print_format/translation.png" class="screenshot">
+<img src="{{docs_base_url}}/v12/assets/img/setup/multilingual_print_format/translation.png" class="screenshot">
 
 The translation is applied when the user selects the language as Spanish on supplier Quotation's print preview. Note that no translation is applied for the second item's description since it wasn't created in the Translation list.
 
-<img src="{{docs_base_url}}/assets/img/setup/multilingual_print_format/custom_translation.png" class="screenshot">
+<img src="{{docs_base_url}}/v12/assets/img/setup/multilingual_print_format/custom_translation.png" class="screenshot">
 
 ### 3. Related Topics
 1. [Address Template](/docs/user/manual/en/setting-up/print/address-template)

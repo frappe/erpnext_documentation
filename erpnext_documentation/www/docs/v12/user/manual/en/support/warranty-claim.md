@@ -23,7 +23,7 @@ Before creating and using Warranty Claim, it is advised that you create the foll
 1. Select the Serial Number of the Item on which Warranty Claim is to be recorded. The system will then automatically fetch the Serial No’s details and indicate whether this is under warranty or AMC.
 1. Enter a description of the Issue. User can upload and image and create a table.
 1. Save.
-    ![Warranty Claim]({{docs_base_url}}/assets/img/support/warranty-claim.png)
+    ![Warranty Claim]({{docs_base_url}}/v12/assets/img/support/warranty-claim.png)
 
 ### 2.1 Additional Options when Creating a Warranty Claim
 

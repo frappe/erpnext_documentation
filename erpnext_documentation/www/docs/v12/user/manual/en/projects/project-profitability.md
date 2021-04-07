@@ -11,7 +11,7 @@ You can link a Project in all sales transactions like Sales Order, Delivery Note
 
 In sales transactions, Project field is generally available in the More Information section.
 
-<img class="screenshot" alt="Project in Sales" src="{{docs_base_url}}/assets/img/project/projects-sales-order.png">
+<img class="screenshot" alt="Project in Sales" src="{{docs_base_url}}/v12/assets/img/project/projects-sales-order.png">
 
 #### Project in Purchase Transactions
 
@@ -19,13 +19,13 @@ You can also link your project to the purchase transactions like Purchase Order,
 
 In the purchase transactions, the option to link a project is available in the Item table. This is because you could be procuring material for multiple projects from the same purchase entry.
 
-<img class="screenshot" alt="Project in Purchases" src="{{docs_base_url}}/assets/img/project/projects-purchase-order.png">
+<img class="screenshot" alt="Project in Purchases" src="{{docs_base_url}}/v12/assets/img/project/projects-purchase-order.png">
 
 ### Budgeting against Project
 
 You can create a [Budget](/docs/user/manual/en/accounts/budgeting) for a project as well. The expense limit defined in the Budget will be validated in the expense transactions.
 
-<img class="screenshot" alt="Project Budgeting" src="{{docs_base_url}}/assets/img/project/project-budgeting.png">
+<img class="screenshot" alt="Project Budgeting" src="{{docs_base_url}}/v12/assets/img/project/project-budgeting.png">
 
 ### Project Profitability
 
@@ -35,4 +35,4 @@ Based on all the income and expense entries created for the Project, you can get
 
 You can filter the report by Project to check Project-wise Profitability.
 
-<img class="screenshot" alt="Project Profitability" src="{{docs_base_url}}/assets/img/project/projects-profitability.png">
+<img class="screenshot" alt="Project Profitability" src="{{docs_base_url}}/v12/assets/img/project/projects-profitability.png">

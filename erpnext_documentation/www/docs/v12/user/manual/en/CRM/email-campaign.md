@@ -26,11 +26,11 @@ Before creating and using Email Campaign, these need to be created first:
 6. In 'Sender', select the user of the system who should be the sender of the emails.
 7. Save
 
-    <img class="screenshot" alt="Email Campaign" src="{{docs_base_url}}/assets/img/crm/email-campaign.png">
+    <img class="screenshot" alt="Email Campaign" src="{{docs_base_url}}/v12/assets/img/crm/email-campaign.png">
 
     The above Email Campaign is for the following Campaign:
 
-    <img class="screenshot" alt="Campaign Schedule" src="{{docs_base_url}}/assets/img/crm/campaign-email-schedule.png">
+    <img class="screenshot" alt="Campaign Schedule" src="{{docs_base_url}}/v12/assets/img/crm/campaign-email-schedule.png">
 
     **Note**: The **Send After (days)** field in Campaign specifies the day on which email is to be sent relative to the **Start Date** of **Email Campaign**. Notice the 'End Date' in the above Email Campaign. It is '26-07-2019', which is 4 days after the 'Start Date', '22-07-2029', as the Campaign Schedule ends on day 4.
 
@@ -41,7 +41,7 @@ You can also create new Email Campaigns for different Leads or Contacts for the 
 1. Go to the Campaign for which you want to create Email Campaigns.
 2. Click on + in front of Email Campaigns to create a new Email Campaign for the Campaign.
 
-    <img class="screenshot" alt="Email Campaigns from Dashboard" src="{{docs_base_url}}/assets/img/crm/email-campaigns-from-dash.png">
+    <img class="screenshot" alt="Email Campaigns from Dashboard" src="{{docs_base_url}}/v12/assets/img/crm/email-campaigns-from-dash.png">
 
 ## 3. Features
 
@@ -49,28 +49,28 @@ You can also create new Email Campaigns for different Leads or Contacts for the 
 
 When emails are sent to the respective leads or contacts, Communication is linked to the Email Campaign document. You can view all the emails sent in your document.
 
-<img class="screenshot" alt="Linked Communication" src="{{docs_base_url}}/assets/img/crm/email-campaign-linked-comm.png">
+<img class="screenshot" alt="Linked Communication" src="{{docs_base_url}}/v12/assets/img/crm/email-campaign-linked-comm.png">
 
 ### 3.2 Unsubscribe from Email Campaign
 
 If a lead or contact does not want to continue getting emails regarding the campaign, he or she can unsubscribe from the Email Campaign via the unsubscribe link sent with the email.
 
-<img class="screenshot" alt="Unsubscribe link" src="{{docs_base_url}}/assets/img/crm/unsubscribe-link.png">
+<img class="screenshot" alt="Unsubscribe link" src="{{docs_base_url}}/v12/assets/img/crm/unsubscribe-link.png">
 
 When the lead or contact unsubscribes, the status of the Email Campaign document changes to 'Unsubscribed'.
 
-<img class="screenshot" alt="Unsubscribed" src="{{docs_base_url}}/assets/img/crm/email-campaign-unsubscribed.png">
+<img class="screenshot" alt="Unsubscribed" src="{{docs_base_url}}/v12/assets/img/crm/email-campaign-unsubscribed.png">
 
 ### 3.3 Use Lead or Contact fields in Email Template
 
  The Email Template has the context of the document you have specified in the 'Email Campaign For' field. If you want to display the fields from your Lead or Contact document in your Email Template you will have to use `doc.fieldname` for the same.
  For example, if 'Email Campaign For' is 'Contact', you can mention the 'first name' of your Contact as `doc.first_name` in the Email Template as shown below:
 
-<img class="screenshot" alt="Email Template Document" src="{{docs_base_url}}/assets/img/crm/email-template-doc.png">
+<img class="screenshot" alt="Email Template Document" src="{{docs_base_url}}/v12/assets/img/crm/email-template-doc.png">
 
 Then the emails sent would look like this:
 
-<img class="screenshot" alt="Email Campaign Doc Data" src="{{docs_base_url}}/assets/img/crm/email-campaign-doc-data.png">
+<img class="screenshot" alt="Email Campaign Doc Data" src="{{docs_base_url}}/v12/assets/img/crm/email-campaign-doc-data.png">
 
 ### 3.4 Status indication
 
@@ -81,7 +81,7 @@ Status indicates the state of the Email Campaign, the various Statuses are:
 - **Completed**: After the 'End Date' of the campaign, the status will be changed to 'Completed'.
 - **Unsubscribed**: When the Lead or Contact unsubscribes from the Campaign.
 
-    <img class="screenshot" alt="Email Campaign Status" src="{{docs_base_url}}/assets/img/crm/email-campaign-status.png">
+    <img class="screenshot" alt="Email Campaign Status" src="{{docs_base_url}}/v12/assets/img/crm/email-campaign-status.png">
 
 ## 4. Related Topics
 1. [Campaign](/docs/user/manual/en/CRM/campaign)

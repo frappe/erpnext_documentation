@@ -25,13 +25,13 @@ To create a Therapy Session, go to:
 9. You can then increase the number of Counts Completed, and once a particular exercise has been completed, select the Level of Assistance required for that exercise. The count indicators are shown on the dashboard of the document. Green indicates completion, Orange indicates unreached goals.
 10. Once you have recorded the entire session with the counts, you can submit the document. The Therapy Plan will then be updated with the number of sessions.
 
-<img class="screenshot" alt="ERPNext Healthcare" src="{{docs_base_url}}/assets/img/healthcare/therapy-session.png">
+<img class="screenshot" alt="ERPNext Healthcare" src="{{docs_base_url}}/v12/assets/img/healthcare/therapy-session.png">
 
 ### 1.2 Create Therapy Session from Patient Appointment
 
 After booking an appointment for a Therapy Type, click on **Create > Therapy Session** to create a session from Patient Appointment.
 
-<img class="screenshot" alt="ERPNext Healthcare" src="{{docs_base_url}}/assets/img/healthcare/therapy-session-from-appointment.png">
+<img class="screenshot" alt="ERPNext Healthcare" src="{{docs_base_url}}/v12/assets/img/healthcare/therapy-session-from-appointment.png">
 
 Refer [Therapy Plan](/docs/user/manual/en/healthcare/therapy_plan) to understand the creation of Therapy Sessions from Therapy Plan.
 
@@ -48,7 +48,7 @@ In order to invoice Therapy Sessions:
 5. You can also manually add items in the "Items" child table for billing.
 6. Save and Submit.
 
-<img class="screenshot" alt="ERPNext Healthcare" src="{{docs_base_url}}/assets/img/healthcare/therapy-invoicing.png">
+<img class="screenshot" alt="ERPNext Healthcare" src="{{docs_base_url}}/v12/assets/img/healthcare/therapy-invoicing.png">
 
 ## 3. Related Topics
 1. [Therapy Type](/docs/user/manual/en/healthcare/therapy_type)

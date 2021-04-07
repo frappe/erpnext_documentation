@@ -32,7 +32,7 @@ A parent company is a larger organization which consists of one or more child co
 
 The company tree view displays the overall structure of your companies.
 
-<img class="screenshot" alt="Company Tree" src="{{docs_base_url}}/assets/img/accounts/company-tree.png">
+<img class="screenshot" alt="Company Tree" src="{{docs_base_url}}/v12/assets/img/accounts/company-tree.png">
 
 Once you build a company tree, ERPNext will validate if the accounts of the child companies match the accounts in the parent company. All the accounts can be combined in a consolidated chart of accounts statement.
 
@@ -45,14 +45,14 @@ Once you build a company tree, ERPNext will validate if the accounts of the chil
 ### 1.3 Chart of Accounts
 For each Company, the master for Chart of Accounts is maintained separately. This allows you to maintain separate accounting for each company as per the legal requirements. You can also import chart of accounts using the [Charts Of Accounts Importer](/docs/user/manual/en/setting-up/chart-of-accounts-importer).
 
-<img class="screenshot" alt="Company Chart of Accounts" src="{{docs_base_url}}/assets/img/accounts/company-coa.png">
+<img class="screenshot" alt="Company Chart of Accounts" src="{{docs_base_url}}/v12/assets/img/accounts/company-coa.png">
 
 ERPNext has localized Chart of Accounts readily available for some countries. When creating a new Company, you can choose to set up the Chart of Account for it from one of the following options.
 
 * Standard Chart of Accounts
 * Based on Existing Company's Chart of Account
 
-<img class="screenshot" alt="Company Chart of Accounts" src="{{docs_base_url}}/assets/img/accounts/company-coa-2.png">
+<img class="screenshot" alt="Company Chart of Accounts" src="{{docs_base_url}}/v12/assets/img/accounts/company-coa-2.png">
 
 Note that, if the Parent Company is selected when creating a new Company, the Chart of Accounts will be created based on the existing Parent Company.
 

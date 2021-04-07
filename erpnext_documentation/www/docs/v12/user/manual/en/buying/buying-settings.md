@@ -5,7 +5,7 @@ Buying Settings is where you can define properties which will be applied in the 
 You can find Buying Settings at:
 > Home > Buying > Settings > Buying Settings
 
-![Buying Settings]({{docs_base_url}}/assets/img/buying/buying-settings.png)
+![Buying Settings]({{docs_base_url}}/v12/assets/img/buying/buying-settings.png)
 
 Let us look at the various options that can be configured:
 
@@ -35,7 +35,7 @@ If this option is configured "Yes", ERPNext will prevent you from creating a Pur
 
 This configuration can be overridden for a particular supplier by enabling the "Allow Purchase Invoice Creation Without Purchase Order" checkbox in supplier master
 
-<img alt="Purchase Order Required" class="screenshot" src="{{docs_base_url}}/assets/img/buying/po-required.png">
+<img alt="Purchase Order Required" class="screenshot" src="{{docs_base_url}}/v12/assets/img/buying/po-required.png">
 
 ### 2.3 Purchase Receipt Required
 
@@ -43,7 +43,7 @@ If this option is configured "Yes", ERPNext will prevent you from creating a Pur
 
 This configuration can be overridden for a particular supplier by enabling the "Allow Purchase Invoice Creation Without Purchase Receipt" checkbox in the supplier master
 
-<img alt="Purchase Receipt Required" class="screenshot" src="{{docs_base_url}}/assets/img/buying/pr-required.png">
+<img alt="Purchase Receipt Required" class="screenshot" src="{{docs_base_url}}/v12/assets/img/buying/pr-required.png">
 
 ### 2.4 Maintain Same Rate Throughout Purchase Cycle
 

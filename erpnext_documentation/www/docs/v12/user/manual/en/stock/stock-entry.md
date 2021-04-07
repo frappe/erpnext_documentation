@@ -40,7 +40,7 @@ Stock Entries for Manufacturing purposes are usually created from a [Work Order]
 1. The basic rate will be fetched and the amount will be calculated automatically.
 1. Save and Submit.
 
-    <img class="screenshot" alt="Stock Entry" src="{{docs_base_url}}/assets/img/stock/stock-entry.png">
+    <img class="screenshot" alt="Stock Entry" src="{{docs_base_url}}/v12/assets/img/stock/stock-entry.png">
 
 Usually, "Source Warehouse" and "Target Warehouse" both are set for recording a movement.
 
@@ -74,12 +74,12 @@ To add additional costs:
 1. Select the Expense Account to which the expense from this Stock Entry will be recorded.
 1. Enter the description and amount of the cost in the Additional Costs table.
 
-<img class="screenshot" alt="Stock Entry Additional Costs" src="{{docs_base_url}}/assets/img/stock/additional-costs-table.png">
+<img class="screenshot" alt="Stock Entry Additional Costs" src="{{docs_base_url}}/v12/assets/img/stock/additional-costs-table.png">
 
 The added Additional Costs will be distributed among the receiving items (where the Target Warehouse mentioned) proportionately based on the Basic Amount of the items. And the distributed additional cost will be added to the basic rate of the item, to calculate Valuation Rate.
 
 Quantity and Rate is shown as follows when you expand the Items table.
-<img class="screenshot" alt="Stock Entry Item Valuation Rate" src="{{docs_base_url}}/assets/img/stock/stock-entry-item-valuation-rate.png">
+<img class="screenshot" alt="Stock Entry Item Valuation Rate" src="{{docs_base_url}}/v12/assets/img/stock/stock-entry-item-valuation-rate.png">
 
 ### 3.3 Accounting Dimensions
 You can tag different transactions based on different dimensions. By default, [Projects](/docs/user/manual/en/projects/project) can be considered as a dimension as it is a common practice to track costs of different projects. To know more about Accounting Dimensions, [visit this page](/docs/user/manual/en/accounts/accounting-dimensions).
@@ -103,14 +103,14 @@ Purchase Receipt headings can also be changed when printing the document. You ca
 
 If the perpetual inventory system is enabled, additional costs will be booked in Expense Account mentioned in the Additional Costs table .
 
-<img class="screenshot" alt="Additional Costs General Ledger" src="{{docs_base_url}}/assets/img/stock/stock-entry-additional-cost.png">
+<img class="screenshot" alt="Additional Costs General Ledger" src="{{docs_base_url}}/v12/assets/img/stock/stock-entry-additional-cost.png">
 
-<img class="screenshot" alt="Additional Costs General Ledger" src="{{docs_base_url}}/assets/img/stock/additional-costs-general-ledger.png">
+<img class="screenshot" alt="Additional Costs General Ledger" src="{{docs_base_url}}/v12/assets/img/stock/additional-costs-general-ledger.png">
 
 ### 3.7 After Submitting
 After submitting a Stock Entry, you can go to the stock ledger or the accounting ledger from the dashboard.
 
-<img class="screenshot" alt="Additional Costs General Ledger" src="{{docs_base_url}}/assets/img/stock/stock-entry-submit.png">
+<img class="screenshot" alt="Additional Costs General Ledger" src="{{docs_base_url}}/v12/assets/img/stock/stock-entry-submit.png">
 
 ## 4. Video
 

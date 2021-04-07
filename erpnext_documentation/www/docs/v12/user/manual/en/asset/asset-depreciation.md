@@ -3,7 +3,7 @@
 
 The system automatically creates a schedule for depreciation based on depreciation method and other related inputs like 'Available to Use Date' in the Asset record. It is also possible to create multiple depreciation schedules for different Finance Books. You need to tick the 'Calculate Depreciation' checkbox while creating an asset for calculating its depreciation and adding entries to the depreciation table in the Asset record.
 
-<img class="screenshot" alt="Asset" src="{{docs_base_url}}/assets/img/asset/depreciation-schedule.png">
+<img class="screenshot" alt="Asset" src="{{docs_base_url}}/v12/assets/img/asset/depreciation-schedule.png">
 
 Types of depreciations in ERPNext:
 
@@ -28,7 +28,7 @@ Types of depreciations in ERPNext:
 ## 1. Scheduled depreciation
 On the scheduled date, system creates a depreciation entry by creating a Journal Entry and the same Journal Entry is shown in the depreciation table for reference. Next Depreciation Date and Current Value are also updated on submission of depreciation entry.
 
-<img class="screenshot" alt="Asset" src="{{docs_base_url}}/assets/img/asset/depreciation-entry.png">
+<img class="screenshot" alt="Asset" src="{{docs_base_url}}/v12/assets/img/asset/depreciation-entry.png">
 
 ## 2. Accounting entries on depreciation
 In the depreciation entry:
@@ -48,7 +48,7 @@ The system will automatically set the Fiscal Year end date as the next depreciat
 ## 4. An example
 For better understanding, net value of the asset on different depreciation dates are shown in a line graph.
 
-<img class="screenshot" alt="Asset" src="{{docs_base_url}}/assets/img/asset/asset-graph.png">
+<img class="screenshot" alt="Asset" src="{{docs_base_url}}/v12/assets/img/asset/asset-graph.png">
 
 ### 5. Related Topics
 1. [Asset Maintenance](/docs/user/manual/en/asset/asset-maintenance)

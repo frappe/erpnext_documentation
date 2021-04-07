@@ -2,11 +2,11 @@
 #Amending Purchase Order after Submit
 Rate and Qty in Purchase Order can now be amended after Submit using the `Update Items` button.
 
-<img alt="Update Items" class="screenshot" src="{{docs_base_url}}/assets/img/articles/po-update-items.png">
+<img alt="Update Items" class="screenshot" src="{{docs_base_url}}/v12/assets/img/articles/po-update-items.png">
 
 To Update Rate and Qty in a Submitted Purchase Order, click on the `Update Items` button. A dialog will pop up to let you make the change.
 
-<img alt="Update Items" class="screenshot" src="{{docs_base_url}}/assets/img/articles/po-update-items-rate-and-qty.gif">
+<img alt="Update Items" class="screenshot" src="{{docs_base_url}}/v12/assets/img/articles/po-update-items-rate-and-qty.gif">
 
 Please Note the following validations and usecases:
 

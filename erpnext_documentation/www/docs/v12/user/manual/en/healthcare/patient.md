@@ -16,13 +16,13 @@ To create a new Patient:
 5. For the "Customer" field you can create a customer and select it here. If you don't create select a Customer and you have enabled "Link Customer to Patient" in [Healthcare Settings](/docs/user/manual/en/healthcare/healthcare_settings), a customer will be automatically created and linked as soon as you save the document.
 6. Save.
 
-<img class="screenshot" alt="ERPNext Healthcare" src="{{docs_base_url}}/assets/img/healthcare/patient_1.png">
+<img class="screenshot" alt="ERPNext Healthcare" src="{{docs_base_url}}/v12/assets/img/healthcare/patient_1.png">
 
 > Note: Linking a Customer to the Patient is necessary for billing and invoicing.
 
 Switch to "Image" view from the list sidebar to view and edit multiple patients along with their photos.
 
-<img class="screenshot" alt="ERPNext Healthcare" src="{{docs_base_url}}/assets/img/healthcare/patient-repo.png">
+<img class="screenshot" alt="ERPNext Healthcare" src="{{docs_base_url}}/v12/assets/img/healthcare/patient-repo.png">
 
 ## 2. Features
 
@@ -32,25 +32,25 @@ Switch to "Image" view from the list sidebar to view and edit multiple patients 
 
 You can optionally capture Personal History like Occupation and Marital Status along with Patient's Relations with existing patients.
 
-<img class="screenshot" alt="ERPNext Healthcare" src="{{docs_base_url}}/assets/img/healthcare/patient_personal_history.png">
+<img class="screenshot" alt="ERPNext Healthcare" src="{{docs_base_url}}/v12/assets/img/healthcare/patient_personal_history.png">
 
 #### 2.1.2 Capture Medical History
 
 Optionally capture Medical History like Allergies, Medications, Medical History and Surgical History.
 
-<img class="screenshot" alt="ERPNext Healthcare" src="{{docs_base_url}}/assets/img/healthcare/patient_surgical_history.png">
+<img class="screenshot" alt="ERPNext Healthcare" src="{{docs_base_url}}/v12/assets/img/healthcare/patient_surgical_history.png">
 
 #### 2.1.3 Capture Risk Factors and More
 
 Capture Risk Factors like Tobacco and Alcohol consumption habits, etc.
 
-<img class="screenshot" alt="ERPNext Healthcare" src="{{docs_base_url}}/assets/img/healthcare/patient_risk_factors.png">
+<img class="screenshot" alt="ERPNext Healthcare" src="{{docs_base_url}}/v12/assets/img/healthcare/patient_risk_factors.png">
 
 ### 2.2 Patient as a Customer
 
 ERPNext, especially the Accounts module, makes use of **Customer** document for booking all transactions. So, you may want to associate every Patient with a Customer. By default, the system creates a Customer alongside a Patient and links to it. If for some reason you do not intend to use the ERPNext Accounts module you can turn this behavior off by disabling the flag "Link Customer to Patient" in [Healthcare Settings](/docs/user/manual/en/healthcare/healthcare_settings).
 
-<img class="screenshot" alt="ERPNext Healthcare" src="{{docs_base_url}}/assets/img/healthcare/patient_link_customer.png">
+<img class="screenshot" alt="ERPNext Healthcare" src="{{docs_base_url}}/v12/assets/img/healthcare/patient_link_customer.png">
 
 In many cases, you may want to associate multiple Patients to a single Customer against whom you want to book the transactions. For instance, a Veterinarian would require the care services provided to different pets of an individual invoiced against a single Customer. In that case, select the same Customer in all these patients while creation.
 
@@ -58,11 +58,11 @@ In many cases, you may want to associate multiple Patients to a single Customer 
 
 Many clinical facilities collect a registration fee during Patient Registration. You can enable this feature by checking the "Collect Registration Fee" in Healthcare Settings and set the registration fee amount.
 
-<img class="screenshot" alt="ERPNext Healthcare" src="{{docs_base_url}}/assets/img/healthcare/patient_registration_fee.png">
+<img class="screenshot" alt="ERPNext Healthcare" src="{{docs_base_url}}/v12/assets/img/healthcare/patient_registration_fee.png">
 
 If you have this option enabled, all new Patients you create will be in the "Disabled" state by default and will only be enabled after Invoicing the Registration Fee. To create Invoice and record the payment receipt, you can use the **Invoice Patient Registration** button in the Patient document.
 
-<img class="screenshot" alt="ERPNext Healthcare" src="{{docs_base_url}}/assets/img/healthcare/patient_disabled.png">
+<img class="screenshot" alt="ERPNext Healthcare" src="{{docs_base_url}}/v12/assets/img/healthcare/patient_disabled.png">
 
 > Note: "Disabled" Patients are filtered out in all ERPNext Healthcare documents.
 

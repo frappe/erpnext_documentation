@@ -34,6 +34,6 @@ Before creating a Daily Work Summary Group, it is necessary you create the follo
 >3. Mail will not be sent to the users of a disabled Daily Work Summary Group.
 
 
-<img class="screenshot" alt="Daily Work Summary Group" src="{{docs_base_url}}/assets/img/human-resources/daily-work-summary-group.png">
+<img class="screenshot" alt="Daily Work Summary Group" src="{{docs_base_url}}/v12/assets/img/human-resources/daily-work-summary-group.png">
 
 {next}

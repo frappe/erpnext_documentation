@@ -16,7 +16,7 @@ An Installation Note is usually created from a Delivery Note. You can also creat
 1. The date and time are set to when the note is created.
 1. Save and submit.
 
-    <img class="screenshot" alt="Installation Note" src="{{docs_base_url}}/assets/img/stock/installation-note.png">
+    <img class="screenshot" alt="Installation Note" src="{{docs_base_url}}/v12/assets/img/stock/installation-note.png">
 
 Any additional remarks about the installation can be added. If the Item is serialized, the serial numbers can be added in Items table.
 

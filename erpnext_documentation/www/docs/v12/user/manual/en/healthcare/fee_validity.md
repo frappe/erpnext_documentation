@@ -19,13 +19,13 @@ To enable free follow-ups go to:
 For example, as shown below, a patient can have 3 free follow-ups within 30 days:
 
 
-<img class="screenshot" alt="ERPNext Healthcare" src="{{docs_base_url}}/assets/img/healthcare/fee_validity_settings.png">
+<img class="screenshot" alt="ERPNext Healthcare" src="{{docs_base_url}}/v12/assets/img/healthcare/fee_validity_settings.png">
 
 
 After this is configured, as soon as you create an Appointment for a new patient, a Fee Validity document will be created.
 
 
-<img class="screenshot" alt="ERPNext Healthcare" src="{{docs_base_url}}/assets/img/healthcare/fee_validity.png">
+<img class="screenshot" alt="ERPNext Healthcare" src="{{docs_base_url}}/v12/assets/img/healthcare/fee_validity.png">
 
 
 This Fee Validity document will be updated with every appointment:
@@ -39,7 +39,7 @@ This Fee Validity document will be updated with every appointment:
 - **Reference Appointments**: Links to all the appointments covered under the Fee Validity document.
 
 
-<img class="screenshot" alt="ERPNext Healthcare" src="{{docs_base_url}}/assets/img/healthcare/fee_validity_completed.png">
+<img class="screenshot" alt="ERPNext Healthcare" src="{{docs_base_url}}/v12/assets/img/healthcare/fee_validity_completed.png">
 
 
 > This Form has been Changed in Version 13

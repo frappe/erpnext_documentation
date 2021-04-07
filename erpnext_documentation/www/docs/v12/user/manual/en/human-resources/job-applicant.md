@@ -27,7 +27,7 @@ Before creating a Job Applicant, it is advisable you create the following:
 
 > **Note:** If you select the Source as Employee Referral, you will have to select the Employee name in the Source Name Field.
 
-<img class="screenshot" alt="Job Applicant" src="{{docs_base_url}}/assets/img/human-resources/job-applicant.png">
+<img class="screenshot" alt="Job Applicant" src="{{docs_base_url}}/v12/assets/img/human-resources/job-applicant.png">
 
 ## 3. Features
 
@@ -45,7 +45,7 @@ system will create a New Job Applicant against each email received on the mailbo
 
 * In 'Append To' select 'Job Applicant'
 
-<img class="screenshot" alt="Email Account" src="{{docs_base_url}}/assets/img/human-resources/email-account.png">
+<img class="screenshot" alt="Email Account" src="{{docs_base_url}}/v12/assets/img/human-resources/email-account.png">
 
 ## 4. Related Topics
 

@@ -4,12 +4,12 @@
 
 **If loan to security value ratio falls below a specific value, a Loan Security Shortfall is automatically created for that specific loan.**
 
-<img class="screenshot" alt="Loan Security Shortfall" src="{{docs_base_url}}/assets/img/loan-management/loan-security-shortfall-flow.png">
+<img class="screenshot" alt="Loan Security Shortfall" src="{{docs_base_url}}/v12/assets/img/loan-management/loan-security-shortfall-flow.png">
 
 To access the Loan Security Shortfall list, go to:
 > Home > Loan Management > Loan Security > Loan Security Shortfall
 
-<img class="screenshot" alt="Loan Application" src="{{docs_base_url}}/assets/img/loan-management/loan-security-shortfall.png">
+<img class="screenshot" alt="Loan Application" src="{{docs_base_url}}/v12/assets/img/loan-management/loan-security-shortfall.png">
 
 
 A Loan Security Shortfall contains the details about:
@@ -25,7 +25,7 @@ A Loan Security Shortfall contains the details about:
 
 Additional Loan Security can be pledged against a loan from the Loan Security Shortfall itself via the **Add Loan Security** button on the top right.
 
-<img class="screenshot" alt="Loan Application" src="{{docs_base_url}}/assets/img/loan-management/shortfall-security.png">
+<img class="screenshot" alt="Loan Application" src="{{docs_base_url}}/v12/assets/img/loan-management/shortfall-security.png">
 
 {next}
 

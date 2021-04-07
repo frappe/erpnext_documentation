@@ -15,11 +15,11 @@ To access Health Insurance Provider document, go to:
 1. Enter the Health Insurance Name.
 1. Save.
 
-    <img class="screenshot" alt="Employee" src="{{docs_base_url}}/assets/img/human-resources/health-insurance.png">
+    <img class="screenshot" alt="Employee" src="{{docs_base_url}}/v12/assets/img/human-resources/health-insurance.png">
 
 Additionally, in the Employee master, you can attach the Health Insurance Provider Name and fill in the Health Insurance No.
 
-<img class="screenshot" alt="Employee" src="{{docs_base_url}}/assets/img/human-resources/employee-health-insurance.png">
+<img class="screenshot" alt="Employee" src="{{docs_base_url}}/v12/assets/img/human-resources/employee-health-insurance.png">
 
 ## 2. Related Topics
 

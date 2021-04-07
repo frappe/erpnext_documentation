@@ -13,11 +13,11 @@ A Delivery Trip can be created from a [Delivery Note](/docs/user/manual/en/stock
 1. Set the date, departure date and time.
 1. Add customers for delivery stops, the address will be fetched if already set. Customers can also be fetched by clicking on 'Get customers from > Delivery Note'. Additional Delivery Stops can be added by clicking on the Add Row button before submitting:
 
-    <img class="screenshot" alt="Delivery" src="{{docs_base_url}}/assets/img/stock/delivery_stops.png">
+    <img class="screenshot" alt="Delivery" src="{{docs_base_url}}/v12/assets/img/stock/delivery_stops.png">
 
 1. Save and submit.
 
-    <img class="screenshot" alt="Delivery" src="{{docs_base_url}}/assets/img/stock/delivery_trip.png">
+    <img class="screenshot" alt="Delivery" src="{{docs_base_url}}/v12/assets/img/stock/delivery_trip.png">
 
 ## 2. Features
 ### 2.1 Calculate Estimated Arrival Times

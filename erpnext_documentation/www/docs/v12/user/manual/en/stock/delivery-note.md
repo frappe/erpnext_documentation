@@ -30,7 +30,7 @@ To create a Delivery Note _manually_ (not recommended), follow these steps:
 1. The UOM and Rates will be fetched automatically.
 1. Save and Submit.
 
-    <img class="screenshot" alt="Delivery Note" src="{{docs_base_url}}/assets/img/stock/delivery-note.png">
+    <img class="screenshot" alt="Delivery Note" src="{{docs_base_url}}/v12/assets/img/stock/delivery-note.png">
 
 To fetch Items from a Sales Order, click on Get Items from > Sales Order. This will open a popup from where you can search for Sales Orders and select one.
 
@@ -196,7 +196,7 @@ If the sale took place via one of your Sales Partners, you can add their commiss
 
 This is usually fetched from a Sales Order, for example:
 
-<img class="screenshot" alt="Sales Team in Sales Order" src="{{docs_base_url}}/assets/img/selling/so-sales-team.png">
+<img class="screenshot" alt="Sales Team in Sales Order" src="{{docs_base_url}}/v12/assets/img/selling/so-sales-team.png">
 
 ### 3.15 Shipping Packets or Items with Product Bundle
 

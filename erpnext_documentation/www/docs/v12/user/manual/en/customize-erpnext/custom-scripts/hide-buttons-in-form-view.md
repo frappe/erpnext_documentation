@@ -3,7 +3,7 @@
 
 In a submitted Sales Order, you can see buttons like **Update Items**, **Status**. Also there are many options under 'Create' button.
 
-<img alt="Custom Script" class="screenshot" src="{{docs_base_url}}/assets/img/customize/sales_order_buttons.png">
+<img alt="Custom Script" class="screenshot" src="{{docs_base_url}}/v12/assets/img/customize/sales_order_buttons.png">
 
 You can write custom script as shown below to hide these buttons.
 

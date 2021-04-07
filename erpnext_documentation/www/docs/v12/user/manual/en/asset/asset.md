@@ -24,7 +24,7 @@ There are two use cases for creating an asset record. The asset can be an existi
 ### 2.1 Existing Asset
 For an existing asset, you can create the asset record directly checking "Is Existing Asset" field. In this case, you also need to enter already booked depreciation amount and number of booked depreciation. And based on the input, the system will create a schedule for remaining depreciation.
 
-<img class="screenshot" alt="Existing Asset" src="{{docs_base_url}}/assets/img/asset/existing-asset.png">
+<img class="screenshot" alt="Existing Asset" src="{{docs_base_url}}/v12/assets/img/asset/existing-asset.png">
 
 ### 2.2 New Asset
 
@@ -34,7 +34,7 @@ When you're buying new assets, an asset ID is created when you make a Purchase R
 
 When you're buying new assets, assets can be created automatically when you make a Purchase Receipt, if you have 'Auto Create Assets on Purchase' ticked in the Item master of the Asset. On submitting the Purchase Receipt for an Asset, you'll see a message like '5 Assets created for Office Phone'. If you don't want to auto create assets, after Purchase Receipt submission you will have to manually create assets and link the Purchase Receipt to the Asset.
 
-<img class="screenshot" alt="Asset" src="{{docs_base_url}}/assets/img/asset/asset.png">
+<img class="screenshot" alt="Asset" src="{{docs_base_url}}/v12/assets/img/asset/asset.png">
 
 After submitting a Purchase Receipt/Invoice for such an Item, in case of asset auto creation, a number of Asset records will be created in the Draft stage. You can then go to these Assets and submit them.
 
@@ -60,7 +60,7 @@ An Asset Category needs to be assigned to that Item. Now the Asset can be create
 ### 3.1 Additional options when creating an Asset
 
 1. **Item Code**: An Item for the Asset must be a non-stock item, with "Is Asset" field checked.
-    <img class="screenshot" alt="Asset Item" src="{{docs_base_url}}/assets/img/asset/asset-item.png">
+    <img class="screenshot" alt="Asset Item" src="{{docs_base_url}}/v12/assets/img/asset/asset-item.png">
 1. **Custodian**: The employee you're giving/assigning the asset to.
 1. **Department**: The department of the Custodian.
 1. **Is Existing Asset**: Check if you already own the asset, not purchased recently. The asset could also have been carried forward from the previous Fiscal Year. The existing assets which are partially/fully depreciated can also be created/maintained for future reference.

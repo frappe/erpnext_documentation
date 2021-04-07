@@ -6,13 +6,13 @@
 
 During a loan process, the first step a customer or employee has to do is submit a Loan Application for review. In case of a secured loan, a Loan Application can also contain proposed loan securities.
 
-<img class="screenshot" alt="Make Loan Application" src="{{docs_base_url}}/assets/img/loan-management/loan-application-flow.png">
+<img class="screenshot" alt="Make Loan Application" src="{{docs_base_url}}/v12/assets/img/loan-management/loan-application-flow.png">
 
 To access the Loan Application list, go to:
 > Home > Loan Management > Loan > Loan Application
 
 
-<img class="screenshot" alt="Loan Application" src="{{docs_base_url}}/assets/img/loan-management/loan-application.png">
+<img class="screenshot" alt="Loan Application" src="{{docs_base_url}}/v12/assets/img/loan-management/loan-application.png">
 
 ## 1. Prerequisites
 Before creating and using a Loan Security, it is advised that you create the following first:
@@ -37,12 +37,12 @@ Before creating and using a Loan Security, it is advised that you create the fol
 ### 3.1 Creating the Loan Security Pledge
 A [Loan Security Pledge](/docs/user/manual/en/loan-management/loan-security-pledge) based on the proposed securities can be created from the Loan Application itself via **Create** button on the top right. This Loan Security Pledge can then be pledged against a loan as an initial Loan Security Pledge.
 
-<img class="screenshot" alt="Loan Application" src="{{docs_base_url}}/assets/img/loan-management/create-loan-security-pledge.png">
+<img class="screenshot" alt="Loan Application" src="{{docs_base_url}}/v12/assets/img/loan-management/create-loan-security-pledge.png">
 
 ### 3.2 Submitting the Loan Application
 Once a Loan Application is submitted and approved, you can create a Loan from the Loan Application using the **Create** button and all the required details from the Loan Application will be automatically mapped in the loan.
 
-<img class="screenshot" alt="Loan Application" src="{{docs_base_url}}/assets/img/loan-management/create-loan.png">
+<img class="screenshot" alt="Loan Application" src="{{docs_base_url}}/v12/assets/img/loan-management/create-loan.png">
 
 {next}
 

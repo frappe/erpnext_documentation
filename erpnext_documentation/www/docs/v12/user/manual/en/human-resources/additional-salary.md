@@ -30,7 +30,7 @@ Before creating an Additional Salary, it is advisable to create the following:
 
 Select the 'Overwrite Salary Structure Amount' checkbox to overwrite the Additional Salary component on the Salary Structure amount. Additionally, the 'Deduct Full Tax on Selected Payroll Date' checkbox can be selected if full tax needs to be deducted on the Additional Salary component for that particular payroll date.
 
-<img class="screenshot" alt="Additional Salary" src="{{docs_base_url}}/assets/img/human-resources/additional-salary.png">
+<img class="screenshot" alt="Additional Salary" src="{{docs_base_url}}/v12/assets/img/human-resources/additional-salary.png">
 
 ## 3.Features
 

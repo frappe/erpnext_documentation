@@ -13,7 +13,7 @@ Before importing current assets, make sure that you have created the required le
 
 > To know about Journal Enter in detail, [visit this page](/docs/user/manual/en/accounts/journal-entry).
 
- <img class="screenshot" alt="Stock Asset Ledger" src="{{docs_base_url}}/assets/img/accounts/opening_balance_current_assets.png">
+ <img class="screenshot" alt="Stock Asset Ledger" src="{{docs_base_url}}/v12/assets/img/accounts/opening_balance_current_assets.png">
 
 
 {next}

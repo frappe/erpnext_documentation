@@ -6,7 +6,7 @@ You can also consider creating multiple POS Profiles for each Pharmacy user. ERP
 
 ERPNext Healthcare adds a few custom fields to `Item` document so that you can effectively configure medicines. Also read [Healthcare Settings](/docs/user/manual/en/healthcare/healthcare_settings) for setting up default Items, Accounts etc.
 
-<img class="screenshot" alt="ERPNext Healthcare" src="{{docs_base_url}}/assets/img/healthcare/item_custom_fields.png">
+<img class="screenshot" alt="ERPNext Healthcare" src="{{docs_base_url}}/v12/assets/img/healthcare/item_custom_fields.png">
 
 >Note that these fields are made available only if your setup has Healthcare domain enabled.
 

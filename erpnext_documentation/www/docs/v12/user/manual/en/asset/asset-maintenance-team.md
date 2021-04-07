@@ -22,7 +22,7 @@ Before creating and using Asset Maintenance Team, it is advised to create the fo
 1. In the Maintenance Team Members table, add the team members and select their maintenance [roles](/docs/user/manual/en/setting-up/users-and-permissions/role-and-role-profile).
 1. Save.
 
-    <img class="screenshot" alt="Asset" src="{{docs_base_url}}/assets/img/asset/asset_maintenance_team.png">
+    <img class="screenshot" alt="Asset" src="{{docs_base_url}}/v12/assets/img/asset/asset_maintenance_team.png">
 
 ## 3. Related Topics
 1. [Asset Maintenance](/docs/user/manual/en/asset/asset-maintenance)

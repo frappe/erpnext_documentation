@@ -25,7 +25,7 @@ Before creating a Training Result, it is advisable you create the following docu
 1. Enter the Hours, Grade and Comments against the Employee Name.
 1. Save and Submit
 
-    <img class="screenshot" alt="Employee" src="{{docs_base_url}}/assets/img/human-resources/training-result.png">
+    <img class="screenshot" alt="Employee" src="{{docs_base_url}}/v12/assets/img/human-resources/training-result.png">
 
 When the Training Result is submitted, all the employees will receive an email notifying them that they must share their feedback via [Training Feedback](/docs/user/manual/en/human-resources/training-feedback). This is also managed via an Email Alert, so you can customize this alert too.
 

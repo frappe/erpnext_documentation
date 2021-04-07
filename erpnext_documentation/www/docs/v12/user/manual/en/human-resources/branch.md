@@ -23,7 +23,7 @@ Before creating a Branch, it is mandatory you create the following documents:
 2. Enter the name of the Branch.
 3. Save.
 
-<img class="screenshot" alt="Branch" src="{{docs_base_url}}/assets/img/human-resources/branch.png">
+<img class="screenshot" alt="Branch" src="{{docs_base_url}}/v12/assets/img/human-resources/branch.png">
 
 You can link the Branch to the [Employee](/docs/user/manual/en/human-resources/employee) master.
 

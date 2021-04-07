@@ -9,7 +9,7 @@ To access the Journal Entry Template, go to:
 
 ## 1. How to Create and use a Journal Entry Template:
 
-<img class="screenshot" alt="Journal Entry Template" src="{{docs_base_url}}/assets/img/accounts/journal-entry-template-1.png">
+<img class="screenshot" alt="Journal Entry Template" src="{{docs_base_url}}/v12/assets/img/accounts/journal-entry-template-1.png">
 
   1. Go to the Journal Entry Template List and click on New.
   2. Add the following details:
@@ -26,7 +26,7 @@ To access the Journal Entry Template, go to:
   3. Save and go to [Journal Entry](/docs/user/manual/en/accounts/journal-entry#1-how-to-create-a-journal-entry) and click on new.
   4. In the 'From Template' field when you select the template, it will load the accounts and other options set in it. Please note it will clear the Accounting Entries table first, but you can add more accounts to the table apart from those fetched from the template.
 
-<img class="screenshot" alt="Journal Entry Template" src="{{docs_base_url}}/assets/img/accounts/journal-entry-template-2.gif">
+<img class="screenshot" alt="Journal Entry Template" src="{{docs_base_url}}/v12/assets/img/accounts/journal-entry-template-2.gif">
 
 ## 3. Related Topics
   1. [Journal Entry](/docs/user/manual/en/accounts/journal-entry)

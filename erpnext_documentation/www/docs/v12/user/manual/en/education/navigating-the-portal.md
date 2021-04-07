@@ -33,27 +33,27 @@ The topic page lists all the content as well as their completion status. Clickin
 
 Each type of content has its own view and common navigation based on the content type.
 
-<img alt="Portal Contents" src="{{docs_base_url}}/assets/img/education/lms/content.png">
+<img alt="Portal Contents" src="{{docs_base_url}}/v12/assets/img/education/lms/content.png">
 
 When a student visits a particular content page, he/she can navigate using buttons at the bottom of the content.
 
 > Note: The activity of the student is only recorded after the student clicks on the Next button.
 
-<img class="screenshot" alt="Portal Contents" src="{{docs_base_url}}/assets/img/education/lms/content-navigation.png">
+<img class="screenshot" alt="Portal Contents" src="{{docs_base_url}}/v12/assets/img/education/lms/content-navigation.png">
 
 ### Navigating Quizzes
 
 In the case of a quiz, the student has to first submit the quiz, following which the result is computed and displayed, after which the student can navigate to the next content.
 
-<img class="screenshot" alt="Quiz Pass" src="{{docs_base_url}}/assets/img/education/lms/quiz-pass.png">
+<img class="screenshot" alt="Quiz Pass" src="{{docs_base_url}}/v12/assets/img/education/lms/quiz-pass.png">
 
 The next time a student visits the quiz page, based on the previous attempts, the portal may or may not allow any quiz attempts.
 In case the student has reached max limits, the quiz will be locked. The previous score based on the quiz grading basis will be displayed
-<img class="screenshot" alt="Quiz Limit" src="{{docs_base_url}}/assets/img/education/lms/quiz-fail-no-attempt.png">
+<img class="screenshot" alt="Quiz Limit" src="{{docs_base_url}}/v12/assets/img/education/lms/quiz-fail-no-attempt.png">
 *Max attempt limit reached*
 
 In case the student has cleared the quiz already, the quiz will be closed and the score will be displayed.
-<img class="screenshot" alt="Quiz Already Cleared" src="{{docs_base_url}}/assets/img/education/lms/quiz-pass-cleared.png">
+<img class="screenshot" alt="Quiz Already Cleared" src="{{docs_base_url}}/v12/assets/img/education/lms/quiz-pass-cleared.png">
 *Quiz already cleared*
 
 {next}

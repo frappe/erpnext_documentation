@@ -13,7 +13,7 @@ To access the Mode of Payment list, go to:
 1. Set a default payment Account for all the companies.
 1. Save.
 
-    ![Mode of Payment]({{docs_base_url}}/assets/img/accounts/mode-of-payment.png)
+    ![Mode of Payment]({{docs_base_url}}/v12/assets/img/accounts/mode-of-payment.png)
 
 > **Tip**: Setting the default Account will this account fetched into [Payment Entries](/docs/user/manual/en/accounts/payment-entry).
 

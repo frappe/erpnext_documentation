@@ -12,7 +12,7 @@ To access the Email Template list, go to:
 1. Response is the standard content of the email that will be a part of this template. 
 1. Save.
 
-<img class="screenshot" alt="Email Template" src="{{docs_base_url}}/assets/img/setup/email/email-template-example.png">
+<img class="screenshot" alt="Email Template" src="{{docs_base_url}}/v12/assets/img/setup/email/email-template-example.png">
 
 **DocType Associated:** (optional) The DocType associated with this template.
 

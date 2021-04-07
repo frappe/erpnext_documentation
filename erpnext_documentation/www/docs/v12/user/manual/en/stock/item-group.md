@@ -13,7 +13,7 @@ To access the Item Group list, go to:
 > Home > Stock > Items and Pricing > Item Group
 
 This is what the Item Group tree looks like:
-<img class="screenshot" alt="Item Group Tree" src="{{docs_base_url}}/assets/img/stock/item-group-tree.png">
+<img class="screenshot" alt="Item Group Tree" src="{{docs_base_url}}/v12/assets/img/stock/item-group-tree.png">
 
 ## 1. How to create an Item Group
 
@@ -23,7 +23,7 @@ This is what the Item Group tree looks like:
 1. To make this child a category/group node, tick on Group Node.
 1. Click on Create New. 
 
-<img class="screenshot" alt="Add Item Group" src="{{docs_base_url}}/assets/img/stock/item-group-new.gif">
+<img class="screenshot" alt="Add Item Group" src="{{docs_base_url}}/v12/assets/img/stock/item-group-new.gif">
 
 ### 1.2 Delete an Item Group
 

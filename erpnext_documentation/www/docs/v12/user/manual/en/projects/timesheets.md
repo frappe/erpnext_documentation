@@ -7,7 +7,7 @@ The Timesheet can also be used to calculate the billable towards an employee, to
 
 In ERPNext, a Timesheet can have an account of a particular employee working on multiple Tasks or Projects in a tabular format.
 
-<img class="screenshot" alt="Timesheet" src="{{docs_base_url}}/assets/img/project/projects-timesheet.png">
+<img class="screenshot" alt="Timesheet" src="{{docs_base_url}}/v12/assets/img/project/projects-timesheet.png">
 
 To access Timesheet, go to,
 
@@ -33,7 +33,7 @@ To access Timesheet, go to,
   2. Go to 'Timesheet' under the Activity section on the Dashboard. The plus icon '+' here would re-direct you to the Timesheet creation page.
   3. Follow the steps to create a Time Sheet.
 
-  <img class="screenshot" alt="Timesheet" src="{{docs_base_url}}/assets/img/project/projects-timesheet-from-task.gif">
+  <img class="screenshot" alt="Timesheet" src="{{docs_base_url}}/v12/assets/img/project/projects-timesheet-from-task.gif">
 
 ### 1.2. Timer in Timesheet
 
@@ -47,13 +47,13 @@ To access Timesheet, go to,
     * **Task**: The Task for which you are recording the time in the Timesheet.
     * **Expected Hrs**: Enter the number of hours that you expect the Task to finish in.
 
-<img class="screenshot" alt="Timer in Progress" src="{{docs_base_url}}/assets/img/project/projects-timer-in-timesheet.gif">
+<img class="screenshot" alt="Timer in Progress" src="{{docs_base_url}}/v12/assets/img/project/projects-timer-in-timesheet.gif">
 
 - Once you have completed the Task, click on Complete. A new entry will be created in the Timesheet, and the time will get recorded as a Time Sheet in the Time Sheets Table in the Timesheet.
 
 - If the time exceeds the 'Expected Hrs', an alert box appears.
 
-<img class="screenshot" alt="Timer Exceeded" src="{{docs_base_url}}/assets/img/project/projects-timer-time-exceed.png">
+<img class="screenshot" alt="Timer Exceeded" src="{{docs_base_url}}/v12/assets/img/project/projects-timer-time-exceed.png">
 
 
 ### 1.3. Additional Options while creating the Timesheet
@@ -69,8 +69,13 @@ The Time Sheet when expanded, allows you to enter the following details to it:
    * **Costing Rate**: This is the actual cost of work done. It is fetched from the activity cost (per employee) or from activity type and can be edited.
    * **Billing Amount**: The billing amount gets auto-calculated based on the billable number of hours and the billing Rate.
    * **Costing Amount**: The costing amount gets auto-calculated based on the number of hours and the costing rate.
+<<<<<<< HEAD
    
    <img class="screenshot" alt="Timesheet" src="{{docs_base_url}}/assets/img/project/projects-time-sheet-expansion.png">
+=======
+
+   <img class="screenshot" alt="Timesheet" src="{{docs_base_url}}/v12/assets/img/project/projects-time-sheet-expansion.png">
+>>>>>>> e9d4ee18... docs: Fix assets URL
 
 ## 2. Features
 
@@ -83,7 +88,7 @@ The Time Sheet when expanded, allows you to enter the following details to it:
 * **Total Costing Amount**: Based on the Timesheet, the Total Costing Amount, as specified by the Employee gets tagged here.
 * **% Amount Billed**: Once the Timesheet is submitted, and a [Sales Invoice](/docs/user/manual/en/projects/sales-invoice-from-timesheet) is created from the Timesheet, the percentage of the Amount out of the Total Billable Amount which has been amounted for the Total Billed Amount gets calculated and is reflected here.
 
-<img class="screenshot" alt="Timesheet" src="{{docs_base_url}}/assets/img/project/projects-timesheet-billing-details.png">
+<img class="screenshot" alt="Timesheet" src="{{docs_base_url}}/v12/assets/img/project/projects-timesheet-billing-details.png">
 
 ## 3. After Saving the Time Sheet
  

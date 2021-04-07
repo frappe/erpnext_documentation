@@ -17,26 +17,26 @@ To access Role Permission for Page and Report, go to:
 
 If developer mode is disabled, the user can assign the roles to the page and report, using "Role Permission for Page and Report" page.
 
-<img alt="Tools to assign custom roles to the page" class="screenshot" src="{{docs_base_url}}/assets/img/users-and-permissions/role-permission-for-page-and-report.png">
+<img alt="Tools to assign custom roles to the page" class="screenshot" src="{{docs_base_url}}/v12/assets/img/users-and-permissions/role-permission-for-page-and-report.png">
 
 ### 1.1 Reset to defaults
 
 Using the "Reset to Defaults" button, the user can remove the custom permissions applied on a page or report. Then default permissions will be applicable on that page or report.
 
-<img alt="Reset the default roles" class="screenshot" src="{{docs_base_url}}/assets/img/users-and-permissions/reset-roles-permission-for-page-report.png">
+<img alt="Reset the default roles" class="screenshot" src="{{docs_base_url}}/v12/assets/img/users-and-permissions/reset-roles-permission-for-page-report.png">
 
 ## Setting Role Permissions from the Page/Report as a Developer
 ### Role Permissions For Page
 1. Go to: Home > Developer > Page.
 1. Add a row and select which other roles can access the Page.
 
-    <img alt="Assign roles to the page" class="screenshot" src="{{docs_base_url}}/assets/img/users-and-permissions/roles-for-page.png">
+    <img alt="Assign roles to the page" class="screenshot" src="{{docs_base_url}}/v12/assets/img/users-and-permissions/roles-for-page.png">
 
 ### Role Permissions For Report
 1. Go to: Home > Developer > Report.
 1. Add rows with roles who can access the Report.
 
-    <img alt="Assign roles to the report" class="screenshot" src="{{docs_base_url}}/assets/img/users-and-permissions/roles-for-report.png">
+    <img alt="Assign roles to the report" class="screenshot" src="{{docs_base_url}}/v12/assets/img/users-and-permissions/roles-for-report.png">
 
 ### 3. Related Topics
 1. [Role and Role Profile](/docs/user/manual/en/setting-up/users-and-permissions/role-and-role-profile)

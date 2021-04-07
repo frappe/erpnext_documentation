@@ -12,7 +12,7 @@ To access Custom Field, go to:
 
 You can also go to the list view of any DocType and select Customize from the Menu options.
 
-<img alt="Custom Field" class="screenshot" src="{{docs_base_url}}/assets/img/customize/customize-custom-field-01.png">
+<img alt="Custom Field" class="screenshot" src="{{docs_base_url}}/v12/assets/img/customize/customize-custom-field-01.png">
 
 ## 1. How to create a Custom Field
 
@@ -26,31 +26,31 @@ You can also go to the list view of any DocType and select Customize from the Me
 
 You can also go to [Customize Form](/docs/user/manual/en/customize-erpnext/customize-form) and add, edit or remove a Field in a particular Form.
 
-<img alt="Custom Field" class="screenshot" src="{{docs_base_url}}/assets/img/setup/customize-erpnext-custom-field-from-customize-form.gif">
+<img alt="Custom Field" class="screenshot" src="{{docs_base_url}}/v12/assets/img/setup/customize-erpnext-custom-field-from-customize-form.gif">
 
 ### 1.1. Additional Details
 
 1. **Options**: This Field comes into picture when you would want your data to be specific or specify the data. E.g., when you have selected the Field to be a 'Select Field', you would be required to enter the selection options here.
 
-  <img alt="Custom Field" class="screenshot" src="{{docs_base_url}}/assets/img/customize/custom-field-2.png">
+  <img alt="Custom Field" class="screenshot" src="{{docs_base_url}}/v12/assets/img/customize/custom-field-2.png">
 
 1. **Fetch From**: When you want your Custom Field to be 'Link Field', you would be required to specify the Form to which this Field is to be linked. E.g., you want to create a Custom Field 'Project' in the DocType 'Item'. You would be required to enter to specify your Field Type as 'Link' and enter 'Project' in the Fetch From Field to ensure that the Field is updated with the list of all the required DocTypes.
 1. **Fetch If Empty**: This check-box will ensure that this Field will be not overwritten based on Fetch From if a value already exists.
 1. **Default Value**: Enter the default value of the Field which you would want to be fetched for this Field.
 1. **Depends On**: You can define a condition here for the Field to be displayed. E.g., in the DocType Item, two fields 'Asset Category' and 'Asset Naming Series' will only appear if the Field 'Is Fixed Asset' is checked. The dependency condition here would be `is_fixed_asset`.
 
-  <img alt="Custom Field" class="screenshot" src="{{docs_base_url}}/assets/img/customize/custom-field-dpends-on.png">
+  <img alt="Custom Field" class="screenshot" src="{{docs_base_url}}/v12/assets/img/customize/custom-field-dpends-on.png">
 
 1. **Field Description**: You can add the description of the Field here which can be displayed below this Field.
 
-   <img alt="Custom Field" class="screenshot" src="{{docs_base_url}}/assets/img/customize/custom-field-description-1.png">
+   <img alt="Custom Field" class="screenshot" src="{{docs_base_url}}/v12/assets/img/customize/custom-field-description-1.png">
 
 1. **Permission Level**: This will allow you to specify which roles within your organization will be able to edit this Field. You can go through [Role Based Permissions](/docs/user/manual/en/setting-up/users-and-permissions/role-based-permissions) for more understanding on this.
 1. **In Preview**: If [Show Preview Popup](/docs/user/manual/en/customize-erpnext/customize-form#13-more-properties) for the document type is checked, the Field will be included in the popup that appears on hovering over links of the document type (in list view and other link fields).
 1. **Width**: This will define the width allocated to this Field while viewing the Form in a Grid View.
 1. **Columns**: You can define the number of Columns in the grid view of the DocType.
 
-  <img alt="Custom Field" class="screenshot" src="{{docs_base_url}}/assets/img/customize/cutom-field-changes.png">
+  <img alt="Custom Field" class="screenshot" src="{{docs_base_url}}/v12/assets/img/customize/cutom-field-changes.png">
 
 ### 1.2. More Properties
 

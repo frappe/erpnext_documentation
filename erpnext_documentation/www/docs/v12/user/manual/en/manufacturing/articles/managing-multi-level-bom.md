@@ -18,7 +18,7 @@ In the exploded view only the raw materials are shown:
 
 To use multi-level BOM in a Work Order, enable the 'Use Multi-Level BOM' checkbox. This is enabled by default. If you want to plan materials for sub-assemblies of the Item you're manufacturing leave this enabled. If you plan and manufacture the sub-assemblies separately disable this checkbox.
 
-<!-- <img alt="Nested BOM" class="screenshot" src="{{docs_base_url}}/assets/img/articles/nested-bom-1.png"> -->
+<!-- <img alt="Nested BOM" class="screenshot" src="{{docs_base_url}}/v12/assets/img/articles/nested-bom-1.png"> -->
 
 Let's consider another example to understand this better where a computer is being assembled. The hard disk and DVD drive are also being manufactured and are the sub-assemblies. The multi-level or nested BOM will look like this:
 

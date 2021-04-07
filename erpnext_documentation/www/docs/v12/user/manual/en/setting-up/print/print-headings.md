@@ -16,7 +16,7 @@ To access Print Headings go to:
 1. Enter the heading that will appear on the document.
 1. Save.
 
-  <img class="screenshot" alt="Print Heading" src="{{docs_base_url}}/assets/img/setup/print/print-heading.png">
+  <img class="screenshot" alt="Print Heading" src="{{docs_base_url}}/v12/assets/img/setup/print/print-heading.png">
 
 To use the print heading, select the created print heading in the 'Print Heading' field transaction, shown as follows:
 
@@ -24,7 +24,7 @@ To use the print heading, select the created print heading in the 'Print Heading
 
 Example of a change in print heading is shown as follows:
 
-<img class="screenshot" alt="Print Heading" src="{{docs_base_url}}/assets/img/setup/print/print-heading-1.png">
+<img class="screenshot" alt="Print Heading" src="{{docs_base_url}}/v12/assets/img/setup/print/print-heading-1.png">
 
 ## 2. Video
 <div class="embed-container">

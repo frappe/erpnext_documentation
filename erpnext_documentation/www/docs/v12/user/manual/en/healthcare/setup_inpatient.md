@@ -10,13 +10,13 @@ You can define the standard properties of `Healthcare Service Units` you create 
 
 `Healthcare > Setup > Healthcare Service Unit Type > New Healthcare Service Unit Type`
 
-<img class="screenshot" alt="ERPNext Healthcare" src="{{docs_base_url}}/assets/img/healthcare/healthcare_service_unit_type.png">
+<img class="screenshot" alt="ERPNext Healthcare" src="{{docs_base_url}}/v12/assets/img/healthcare/healthcare_service_unit_type.png">
 
 ERPNext automatically creates an Item with the details you provide here, for the billing to function.
 
 You can also create Healthcare Service Units to map consulting rooms and other areas where appointment scheduling is possible by checking the `Allow Appointments` option. Such service units are not linked to Item master as billing will make use of the Item selected in the [Healthcare Practitioner](/docs/user/manual/en/healthcare/healthcare_practitioner.html) master or the ones configured in [Healthcare Settings](/docs/user/manual/en/healthcare/healthcare_settings)
 
-<img class="screenshot" alt="ERPNext Healthcare" src="{{docs_base_url}}/assets/img/healthcare/healthcare_service_unit_type_1.png">
+<img class="screenshot" alt="ERPNext Healthcare" src="{{docs_base_url}}/v12/assets/img/healthcare/healthcare_service_unit_type_1.png">
 
 Note that turning on the `Allow Overlap` will allow overlapping appointments for the Healthcare Practitioner available at service unit. This will be handy when you create service units where multiple Patients can be treated at the same time, for instance a yoga center or a physiotherapy room.
 

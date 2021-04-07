@@ -22,7 +22,7 @@ A default Print Style, can be set from [Print Settings](/docs/user/manual/en/set
 
 All Print Format styles are based on Bootstrap (Version 3) CSS Framework.
 
-<img class="screenshot" alt="Print Style" src="{{docs_base_url}}/assets/img/setup/print/print-style.png">
+<img class="screenshot" alt="Print Style" src="{{docs_base_url}}/v12/assets/img/setup/print/print-style.png">
 
 If you have enabled developer mode and tick on Standard then system will generate the JSON file for the Print Style. You can contribute a default print style with this.
 

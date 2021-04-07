@@ -4,7 +4,7 @@
 
 **A Loan Type is where you can define various loan types and their properties like rate of interest, loan account details, etc.**
 
-<img class="screenshot" alt="Make Loan Type" src="{{docs_base_url}}/assets/img/loan-management/loan-type-flow.png">
+<img class="screenshot" alt="Make Loan Type" src="{{docs_base_url}}/v12/assets/img/loan-management/loan-type-flow.png">
 
 To access the Loan Type list, go to:
 > Home > Loan Management > Loan > Loan Type
@@ -18,7 +18,7 @@ To access the Loan Type list, go to:
 1. Click "Save" to save the draft  of the loan type.
 1. Click "Submit" to submit the loan type
 
-<img class="screenshot" alt="Loan Type" src="{{docs_base_url}}/assets/img/loan-management/loan-type.png">
+<img class="screenshot" alt="Loan Type" src="{{docs_base_url}}/v12/assets/img/loan-management/loan-type.png">
 
 ## 2. Feature
 ### 2.1 Creating Term Loans and Demand Loans

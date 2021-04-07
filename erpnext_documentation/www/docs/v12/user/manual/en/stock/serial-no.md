@@ -47,7 +47,7 @@ Stock transaction (Stock Entry, Purchase Receipt, Delivery Note, Sales
 Invoice). When a new Serial No is created directly, its Warehouse cannot be
 set.
 
-<img class="screenshot" alt="Serial Number" src="{{docs_base_url}}/assets/img/stock/serial-no.png">
+<img class="screenshot" alt="Serial Number" src="{{docs_base_url}}/v12/assets/img/stock/serial-no.png">
 
 ### 2.1 Notes about Serial Number
 

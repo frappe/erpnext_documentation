@@ -11,7 +11,7 @@ To access the Loan Security Price list, go to:
 > Home > Loan Management > Loan Security > Loan Security Price
 
 
-<img class="screenshot" alt="Loan Security Price" src="{{docs_base_url}}/assets/img/loan-management/loan-security-price.png">
+<img class="screenshot" alt="Loan Security Price" src="{{docs_base_url}}/v12/assets/img/loan-management/loan-security-price.png">
 
 
 ## 1. Prerequisites

@@ -16,7 +16,7 @@ To access Loan Type go to:
 1. Optionally, you can also enter the Maximum Loan Amount and Description of the Loan Type.
 1. Save.
 
-    <img class="screenshot" alt="Loan Type" src="{{docs_base_url}}/assets/img/human-resources/loan-type.png">
+    <img class="screenshot" alt="Loan Type" src="{{docs_base_url}}/v12/assets/img/human-resources/loan-type.png">
 
 ## 2. Related Topics
 

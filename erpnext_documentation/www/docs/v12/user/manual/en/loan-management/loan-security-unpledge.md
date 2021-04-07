@@ -4,7 +4,7 @@
 
 **Once all the loan amount is paid, a Loan Security Unpledge is created for unpledging the securities.**
 
-<img class="screenshot" alt="Make Loan Security Unpledge" src="{{docs_base_url}}/assets/img/loan-management/loan-security-unpledge-flow.png">
+<img class="screenshot" alt="Make Loan Security Unpledge" src="{{docs_base_url}}/v12/assets/img/loan-management/loan-security-unpledge-flow.png">
 
 To access the Loan Security Unpledge list, go to:
 > Home > Loan Management > Loan Security > Loan Security Unpledge
@@ -26,13 +26,13 @@ Before creating a Loan Security Unpledge, you must create the following first:
 6. Click "Save" to save the draft of the Loan Security Unpledge.
 7. Click "Submit" to unpledge the loan securities
 
-<img class="screenshot" alt="Loan Application" src="{{docs_base_url}}/assets/img/loan-management/loan-security-unpledge.png">
+<img class="screenshot" alt="Loan Application" src="{{docs_base_url}}/v12/assets/img/loan-management/loan-security-unpledge.png">
 
 
 ### 2.1. Other ways to create a Loan Security Unpledge
 You can also create a Loan Security Unpledge from a Loan on which loan closure is requested via the **Create** button on the top right
 
-<img class="screenshot" alt="Loan Application" src="{{docs_base_url}}/assets/img/loan-management/create-loan-security-unpledge.png">
+<img class="screenshot" alt="Loan Application" src="{{docs_base_url}}/v12/assets/img/loan-management/create-loan-security-unpledge.png">
 
 ## 3. Features
 

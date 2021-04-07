@@ -4,7 +4,7 @@ Selling Settings is where you can define properties and validations which will b
 
 Let's see each option available under Selling Settings in ERPNext.
 
-<img class="screenshot" alt="Selling Settings" src="{{docs_base_url}}/assets/img/selling/selling-settings.png">
+<img class="screenshot" alt="Selling Settings" src="{{docs_base_url}}/v12/assets/img/selling/selling-settings.png">
 
 To access Selling Settings, go to:
 > Home > Selling > Settings > Selling Settings
@@ -50,7 +50,7 @@ If you wish to make Sales Order creation mandatory before the creation of a Sale
 
 This configuration can be overridden for a particular customer by enabling the "Allow Sales Invoice Creation Without Sales Order" checkbox in customer master
 
-<img alt="Sales Order Required" class="screenshot" src="{{docs_base_url}}/assets/img/selling/so-required.png">
+<img alt="Sales Order Required" class="screenshot" src="{{docs_base_url}}/v12/assets/img/selling/so-required.png">
 
 ### 3.2 Delivery Note Required
 
@@ -58,7 +58,7 @@ To make Delivery Note creation as mandatory before Sales Invoice creation, you s
 
 This configuration can be overridden for a particular customer by enabling the "Allow Sales Invoice Creation Without Delivery Note" checkbox in customer master
 
-<img alt="Delivery Note Required" class="screenshot" src="{{docs_base_url}}/assets/img/selling/dn-required.png">
+<img alt="Delivery Note Required" class="screenshot" src="{{docs_base_url}}/v12/assets/img/selling/dn-required.png">
 
 ### 3.3 Sales Update Frequency
 The frequency at which project progress and company transaction details will be updated. By default it is for Each Transaction, you can also set it to Daily or Monthly if you have a lot of transactions every day.

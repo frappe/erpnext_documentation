@@ -14,7 +14,7 @@ maintained to serve unexpected demands.
 Having tight control of the projected inventory is crucial to determine
 shortages and to calculate the right order quantity.
 
-<img class="screenshot" alt="Projected Quantity" src="{{docs_base_url}}/assets/img/stock/projected_quantity.png">
+<img class="screenshot" alt="Projected Quantity" src="{{docs_base_url}}/v12/assets/img/stock/projected_quantity.png">
 
 The formula to calculate projected quantity is as follows:
 

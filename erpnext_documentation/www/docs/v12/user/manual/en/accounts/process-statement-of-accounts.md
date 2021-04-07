@@ -36,34 +36,48 @@ To access *Process Statement Of Accounts* list you can either search in the navb
     - "From Date" and "To Date" filters will be hidden and auto-filled dynamically when "Enable Auto Email" option is selected.
     - "Project" and "Cost Center" are [Table MultiSelect](/docs/user/manual/en/customize-erpnext/articles/table-multiselect-field) fields. Meaning you can select multiple Projects and Cost Centers in the General Ledger filters.
 
+<<<<<<< HEAD
     <img class="screenshot" src="{{docs_base_url}}/assets/img/accounts/psoa-name_and_filters.png">
     
 4. In the "Customers" section, you have an option to select customers in the child table and fetch their primary and billing emails. 
+=======
+    <img class="screenshot" src="{{docs_base_url}}/v12/assets/img/accounts/psoa-name_and_filters.png">
+>>>>>>> e9d4ee18... docs: Fix assets URL
 
     - The "Select Customer By" field lets you select customers in bulk, by grouping them based on "Customer Group", "Territory", "Sales Partner", and "Sales Person" by entering the selection and clicking on "Fetch Customers". 
     - In tree doctypes like "Territory", "Sales Person", and "Customer Group" on selecting group values, the customers having the child values of these fields will also be fetched. So when you select "India" as territory in the form, all customers with "Territory" values under India in the Territory tree will get selected.
     - The "Send To Primary Contact" option will send the Statement Of Account to the primary contact email IDs of the customers too apart from the billing email.
 
-    <img class="screenshot" src="{{docs_base_url}}/assets/img/accounts/psoa-customers.png"><br>
+    <img class="screenshot" src="{{docs_base_url}}/v12/assets/img/accounts/psoa-customers.png"><br>
 
 5. In "Print Preferences" section you can select 2 things:
 
     - Print orientation of the PDF file, either "Landscape" or "Portrait".
     - Whether you want to see the ageing report (Accounts Receivable Summary report), which shows the ageing amount for 30/60/90/120 days for vouchers (like Sales Invoice), based on either "Due Date" or "Posting Date".
 
-    <img class="screenshot" src="{{docs_base_url}}/assets/img/accounts/psoa-print.png">
+    <img class="screenshot" src="{{docs_base_url}}/v12/assets/img/accounts/psoa-print.png">
 
 6. The "Email Settings" section lets you configure how you want the emails to be sent. There are two subsections in this:
 
+<<<<<<< HEAD
     <img class="screenshot" src="{{docs_base_url}}/assets/img/accounts/psoa-auto-email.png">
     
+=======
+    <img class="screenshot" src="{{docs_base_url}}/v12/assets/img/accounts/psoa-auto-email.png">
+
+>>>>>>> e9d4ee18... docs: Fix assets URL
     - On selecting "Enable Auto Email" you will see the options to send automated periodic reports to the customers in the entry.
     - You can select the "Frequency" at which the emails will be sent after the "Start Date" to the customers. The available options are weekly, monthly, and quarterly.
     - You can also select the "Filter Duration" in months. For example, if you set "Filter Duration" as '3', you'll get the reports for the last three months counting from the current date. Here, current date refers to the date on which the emails are sent.
     - These mails are not sent right away, but at midnight as a background process.
     - After this you can select the "Subject", "CC To", and "Body" fields of the email. If you don't set values to this field, default values will be set like shown below.
+<<<<<<< HEAD
     
     <img class="screenshot" src="{{docs_base_url}}/assets/img/accounts/psoa-email-default-content.png">
+=======
+
+    <img class="screenshot" src="{{docs_base_url}}/v12/assets/img/accounts/psoa-email-default-content.png">
+>>>>>>> e9d4ee18... docs: Fix assets URL
 
 7. Review your settings and click on "Save".
 
@@ -79,7 +93,7 @@ On creating an entry, there is a button seen at the top called "Download" which 
 
 On creating an entry, there is a button seen at the top called "Send Emails" which lets you trigger email sending manually to the customers. The emails are queued via a background job, which you can track in the "Email Queue" doctype with the DocType and Document references. You can do this even if "Enable Auto Email" is on.
 
-<img class="screenshot" src="{{docs_base_url}}/assets/img/accounts/psoa-buttons.png">
+<img class="screenshot" src="{{docs_base_url}}/v12/assets/img/accounts/psoa-buttons.png">
 
 ### 3.3 Using dynamic values in the Email Subject and Body
 
@@ -91,15 +105,15 @@ You can use Jinja tags to enter dynamic values from:
 
 They can be used as shown below:
 
-<img class="screenshot" src="{{docs_base_url}}/assets/img/accounts/psoa-template.png">
+<img class="screenshot" src="{{docs_base_url}}/v12/assets/img/accounts/psoa-template.png">
 
 Resulting Email:
 
-<img class="screenshot" src="{{docs_base_url}}/assets/img/accounts/psoa-email.png">
+<img class="screenshot" src="{{docs_base_url}}/v12/assets/img/accounts/psoa-email.png">
 
 Report PDF:
 
-<img class="screenshot" src="{{docs_base_url}}/assets/img/accounts/psoa-report.png">
+<img class="screenshot" src="{{docs_base_url}}/v12/assets/img/accounts/psoa-report.png">
 
 ## 4. Related Topics
 1. [Setting up an Email Account](/docs/user/manual/en/setting-up/email/email-account)

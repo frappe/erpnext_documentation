@@ -9,7 +9,7 @@ To open System Settings, go to:
 
 > Home > Settings > System Settings
 
-<img class="screenshot" alt="System Settings" src="{{docs_base_url}}/assets/img/setup/settings/system-settings.png">
+<img class="screenshot" alt="System Settings" src="{{docs_base_url}}/v12/assets/img/setup/settings/system-settings.png">
 
 
 ## 1. Sections in System Settings
@@ -90,7 +90,7 @@ On ticking 'Enable Two Factor Auth', the following two options will be seen.
 * **Expiry time of QR Code Image Page**: Expiry time for QRCode image if "OTP App" is selected in the method.
 * OTP Issuer Name of the One Time Password.
 
-    <img class="screenshot" alt="Two Factor Auth" src="{{docs_base_url}}/assets/img/setup/settings/twofactor-settings.png">
+    <img class="screenshot" alt="Two Factor Auth" src="{{docs_base_url}}/v12/assets/img/setup/settings/twofactor-settings.png">
 
 
 ### 1.9 Email

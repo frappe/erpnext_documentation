@@ -21,4 +21,4 @@ In order to submit an Asset Maintenance Log, the Asset Maintenance status has to
 * The status of the Asset Maintenance Log can be 'Planned', 'Completed', 'Canceled', or 'Overdue'.
 * Additional notes can be added in the Actions performed section to describe the activity in detail.
 
-<img class="screenshot" alt="Asset" src="{{docs_base_url}}/assets/img/asset/asset_maintenance_log.png">
+<img class="screenshot" alt="Asset" src="{{docs_base_url}}/v12/assets/img/asset/asset_maintenance_log.png">

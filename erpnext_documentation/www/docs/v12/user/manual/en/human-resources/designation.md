@@ -19,7 +19,7 @@ To access Designation, go to:
 1. Save.
 
 
-    <img class="screenshot" alt="Designation" src="{{docs_base_url}}/assets/img/human-resources/designation.png">
+    <img class="screenshot" alt="Designation" src="{{docs_base_url}}/v12/assets/img/human-resources/designation.png">
 
 
 

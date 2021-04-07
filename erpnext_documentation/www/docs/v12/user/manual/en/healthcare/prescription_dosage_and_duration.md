@@ -4,7 +4,7 @@
 
 The Prescription Dosage and Duration are used while prescribing medications to Patients in Patient Encounter
 
-<img class="screenshot" alt="ERPNext Healthcare" src="{{docs_base_url}}/assets/img/healthcare/prescription_dosage_duration.png">
+<img class="screenshot" alt="ERPNext Healthcare" src="{{docs_base_url}}/v12/assets/img/healthcare/prescription_dosage_duration.png">
 
 ## Prescription Dosage
 
@@ -12,7 +12,7 @@ You can configure different dosages to be used while prescribing medication to p
 
 This master is pre-configured in ERPNext.
 
-<img class="screenshot" alt="ERPNext Healthcare" src="{{docs_base_url}}/assets/img/healthcare/prescription_dosage.png">
+<img class="screenshot" alt="ERPNext Healthcare" src="{{docs_base_url}}/v12/assets/img/healthcare/prescription_dosage.png">
 
 To Create a new Prescription Dosage, go to:
 
@@ -20,7 +20,7 @@ To Create a new Prescription Dosage, go to:
 
 You can name the Prescription Dosage in any way you want (for example, BID or I-0-I), and then set the strength of the drug and the times at which it should be consumed.
 
-<img class="screenshot" alt="ERPNext Healthcare" src="{{docs_base_url}}/assets/img/healthcare/prescription_dosage_1.png">
+<img class="screenshot" alt="ERPNext Healthcare" src="{{docs_base_url}}/v12/assets/img/healthcare/prescription_dosage_1.png">
 
 ## Prescription Duration
 
@@ -28,7 +28,7 @@ You can configure the duration for which the Patient has to consume the dosages 
 
 This master is pre-configured in ERPNext.
 
-<img class="screenshot" alt="ERPNext Healthcare" src="{{docs_base_url}}/assets/img/healthcare/prescription_duration.png">
+<img class="screenshot" alt="ERPNext Healthcare" src="{{docs_base_url}}/v12/assets/img/healthcare/prescription_duration.png">
 
 To Create a new Prescription Duration, go to:
 
@@ -36,7 +36,7 @@ To Create a new Prescription Duration, go to:
 
 You have to specify the number and the period for the duration
 
-<img class="screenshot" alt="ERPNext Healthcare" src="{{docs_base_url}}/assets/img/healthcare/prescription_duration_1.png">
+<img class="screenshot" alt="ERPNext Healthcare" src="{{docs_base_url}}/v12/assets/img/healthcare/prescription_duration_1.png">
 
 ## Related Topics
 

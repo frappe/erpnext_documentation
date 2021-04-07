@@ -25,7 +25,7 @@ Before creating and using a Product Bundle, it is advised that you create the fo
 1. You can enter a description for internal use.
 3. Enter the products to be bundled in the Items table and enter their quantities.
 4. Save.
-<img class="screenshot" alt="Product Bundle" src="{{docs_base_url}}/assets/img/selling/product-bundle.png">
+<img class="screenshot" alt="Product Bundle" src="{{docs_base_url}}/v12/assets/img/selling/product-bundle.png">
 
 ### 2.1 Selecting Parent Item
 
@@ -47,7 +47,7 @@ Remember: The "Parent Item" is just virtual, so your main product (a smartphone 
 
 When making Sales transactions (Sales Invoice, Sales Order, Delivery Note) the Parent Item will be selected in the main item table.
 
-<img class="screenshot" alt="Product Bundle" src="{{docs_base_url}}/assets/img/selling/product-bundle.gif">
+<img class="screenshot" alt="Product Bundle" src="{{docs_base_url}}/v12/assets/img/selling/product-bundle.gif">
 
 On selection of a Parent Item in the main item table, its child items will be fetched in Packing List table of the transaction. If child item is the serialized item, you will be able to specify its Serial No. 
 in packing List table itself. On submission of the transaction, the system will reduce the stock level of child items from warehouse specified in Packing List table.

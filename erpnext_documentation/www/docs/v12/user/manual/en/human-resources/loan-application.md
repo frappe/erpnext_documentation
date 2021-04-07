@@ -22,8 +22,13 @@ Before creating a Loan Application, it is advisable to create the following docu
 1. Enter loan information such as a Loan Type, Loan Amount and Required by Date.
 1. Select the [Repayment Method](#31-repayment-method) and based on loan information, information such as Total Payable Amount and Interest will be calculated.
 1. Save and Submit.
+<<<<<<< HEAD
    
   <img class="screenshot" alt="Loan Application" src="{{docs_base_url}}/assets/img/human-resources/loan-application.png">
+=======
+
+  <img class="screenshot" alt="Loan Application" src="{{docs_base_url}}/v12/assets/img/human-resources/loan-application.png">
+>>>>>>> e9d4ee18... docs: Fix assets URL
 
 ## 3. Features
 
@@ -38,7 +43,7 @@ There are two types of Repayment Methods in Loan Application:
 * Once saved, based on the Rate of Interest, the Total Payable Interest and Total Payable Amount will be calculated along with Period in Months.
 * Submit.
 
-  <img class="screenshot" alt="Repayment Fixed Amount Per Period" src="{{docs_base_url}}/assets/img/human-resources/repayment1.png">
+  <img class="screenshot" alt="Repayment Fixed Amount Per Period" src="{{docs_base_url}}/v12/assets/img/human-resources/repayment1.png">
 
 #### 2. Repay Over Number Of Periods
 
@@ -47,7 +52,7 @@ There are two types of Repayment Methods in Loan Application:
 * Once saved, based on the Rate of Interest, the Total Payable Interest and Total Payable Amount will be calculated along with Monthly Repayment Amount.
 * Submit.
 
-  <img class="screenshot" alt="Repayment Fixed Amount Per Period" src="{{docs_base_url}}/assets/img/human-resources/repayment2.png">
+  <img class="screenshot" alt="Repayment Fixed Amount Per Period" src="{{docs_base_url}}/v12/assets/img/human-resources/repayment2.png">
 
 ## 4. Related Topics
 

@@ -15,7 +15,7 @@ To create a new Donation go to:
 
 > Non Profit > Donation > New
 
-<img class="screenshot" alt="Donation" src="{{docs_base_url}}/assets/img/non_profit/donation.png">
+<img class="screenshot" alt="Donation" src="{{docs_base_url}}/v12/assets/img/non_profit/donation.png">
 
 1. Select the Donor. The Donor Name and Email will be fetched automatically.
 2. Set the Date of Donation.
@@ -49,13 +49,13 @@ In order to capture the donations, you need to set certain defaults in the Donat
 
 If _Automate Donation Payment Entries_ is enabled, you will have to set the default Debit Account and Donation Payment Account for Payment Entry.
 
-<img class="screenshot" alt="Donation Settings" src="{{docs_base_url}}/assets/img/non_profit/donation-settings.png">
+<img class="screenshot" alt="Donation Settings" src="{{docs_base_url}}/v12/assets/img/non_profit/donation-settings.png">
 
 #### 3.2.2 Setting up webhook
 
 You can set up a webhook from the RazorPay dashboard in Settings. You can read more about webhooks in RazorPay [here](https://razorpay.com/docs/webhooks/). This webhook will notify your ERPNext site whenever a new donation is created.
 
-<img class="screenshot" alt="Donation Webhook" src="{{docs_base_url}}/assets/img/non_profit/donation-webhook.png">
+<img class="screenshot" alt="Donation Webhook" src="{{docs_base_url}}/v12/assets/img/non_profit/donation-webhook.png">
 
 You will need the following details to set up the webhook.
 

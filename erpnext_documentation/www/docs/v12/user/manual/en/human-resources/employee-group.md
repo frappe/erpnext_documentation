@@ -22,7 +22,7 @@ Before creating an Employee Group, it is advisable you create the following docu
 1. Select and add Employee ID to the group. The Employee Name will get automatically fetched.
 1. Save.
 
-    <img class="screenshot" alt="Employee Group" src="{{docs_base_url}}/assets/img/human-resources/employee-group.png">
+    <img class="screenshot" alt="Employee Group" src="{{docs_base_url}}/v12/assets/img/human-resources/employee-group.png">
 
 ## 3. Features
 

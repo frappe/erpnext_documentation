@@ -18,7 +18,7 @@ In order to give ERPNext access to Plaid, you need to add the following three pa
 
 In order to activate Plaid on an instance, click on the button "Enable" in the Plaid Settings DocType.
 
-<img class="screenshot" alt="Enable Plaid" src="{{docs_base_url}}/assets/img/erpnext_integrations/plaid_enable.gif">
+<img class="screenshot" alt="Enable Plaid" src="{{docs_base_url}}/v12/assets/img/erpnext_integrations/plaid_enable.gif">
 
 Once activated, you can create a new account directly from the Bank Reconciliation dashboard.
 
@@ -27,14 +27,14 @@ Once activated, you can create a new account directly from the Bank Reconciliati
 
 In order to link one of your existing bank accounts to ERPNext, click on "Link a new bank account" and follow the steps proposed by Plaid.
 
-<img class="screenshot" alt="Link your bank account" src="{{docs_base_url}}/assets/img/erpnext_integrations/new_account_creation.gif">
+<img class="screenshot" alt="Link your bank account" src="{{docs_base_url}}/v12/assets/img/erpnext_integrations/new_account_creation.gif">
 
 
 ## Bank synchronization
 
 In order to synchronize a bank account with ERPNext, select an account and click on the "Action" button to select "Synchronize this account".
 
-<img class="screenshot" alt="Synchronize your bank account" src="{{docs_base_url}}/assets/img/erpnext_integrations/plaid_synchronization.gif">
+<img class="screenshot" alt="Synchronize your bank account" src="{{docs_base_url}}/v12/assets/img/erpnext_integrations/plaid_synchronization.gif">
 
 The synchronization is based on the "Last integration date" available in the "Bank Account" doctype.
 

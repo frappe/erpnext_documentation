@@ -16,27 +16,27 @@ To access Sales Partner, go to:
 3. You can also select the type of Sales Partner you're creating to identify if they're a Reseller or Retailer, and so on.
 4. Save.
 
-<img class="screenshot" alt="Sales Partner" src="{{docs_base_url}}/assets/img/selling/sales-partner.png">
+<img class="screenshot" alt="Sales Partner" src="{{docs_base_url}}/v12/assets/img/selling/sales-partner.png">
 
 ## 2. Features
 ### 2.1 Address and Contact
 You can add and track a Sales Partner's Addresses and Contact details. These can be added in the Address & Contacts section in a Sales Partner:
 
-<img class="screenshot" alt="Sales Partner Address" src="{{docs_base_url}}/assets/img/selling/sales-partner-address.png">
+<img class="screenshot" alt="Sales Partner Address" src="{{docs_base_url}}/v12/assets/img/selling/sales-partner-address.png">
 
 ### 2.2 Sales Partner Target
 You can allocate a Sales Partner for each Item Group, based on Qty and Amount. You can allocate targets Territory- or Month-wise, to know more see *Related Topics*.
-<img class="screenshot" alt="Sales Partner Target" src="{{docs_base_url}}/assets/img/selling/sales-partner-target.png">
+<img class="screenshot" alt="Sales Partner Target" src="{{docs_base_url}}/v12/assets/img/selling/sales-partner-target.png">
 
 ### 2.3 Including Sales Partners in Your Website
 To include the name of your Partner on your website, tick the "Show in Website" checkbox. When you click on "Show in Website", you will see a field where you can attach the logo of your partner's company and enter a brief introduction of the partner, and optionally add a description for internal purposes/references.
-<img class="screenshot" alt="Sales Partner" src="{{docs_base_url}}/assets/img/selling/sales-partner-website.png">
+<img class="screenshot" alt="Sales Partner" src="{{docs_base_url}}/v12/assets/img/selling/sales-partner-website.png">
 
 To see the listing of partners, go to:
 
 https://yourCompanyName.erpnext.com/partners
 
-<img class="screenshot" alt="Sales Partner" src="{{docs_base_url}}/assets/img/crm/sales-partner-listing.png">
+<img class="screenshot" alt="Sales Partner" src="{{docs_base_url}}/v12/assets/img/crm/sales-partner-listing.png">
 
 ### 2.4 Track Sales via Sales Partner
 
@@ -46,24 +46,24 @@ URL as shown below should be sent to the sales partner to use in their website/c
 
 e.g. A URL having "sp" as parameter like this http://xyz.erpnext.com?sp=speed will capture the Sales Partner Information in the Sales Order generated via Shopping Cart.
 
-<img class="screenshot" alt="Sales Partner Referral Code" src="{{docs_base_url}}/assets/img/selling/sales-partner-refrral-code.png">
+<img class="screenshot" alt="Sales Partner Referral Code" src="{{docs_base_url}}/v12/assets/img/selling/sales-partner-refrral-code.png">
 
 ## 3. Sales Partner Reports
 ### 3.1 Sales Partner Commission Summary
 
 To get Sales Order wise Sales Partner commission data.
 
-<img class="screenshot" alt="Sales Partner Target" src="{{docs_base_url}}/assets/img/selling/sales-partner-commission.png">
+<img class="screenshot" alt="Sales Partner Target" src="{{docs_base_url}}/v12/assets/img/selling/sales-partner-commission.png">
 
 ### 3.2 Sales Partner Transaction Summary
 To get Sales Order item-wise Sales Partner commission data.
 
-<img class="screenshot" alt="Sales Partner Target" src="{{docs_base_url}}/assets/img/selling/sales-partner-commission-item.png">
+<img class="screenshot" alt="Sales Partner Target" src="{{docs_base_url}}/v12/assets/img/selling/sales-partner-commission-item.png">
 
 ### 3.3 Sales Partner Target Variance based on Item Group
 This report will provide you variance between target and actual performance of the Sales Partner based on the Sales Order / Sales Invoice / Delivery Note data. User can view this report period wise like Monthly, Quarterly, Half-Yearly, or Yearly.
 
-<img class="screenshot" alt="Sales Partner Target" src="{{docs_base_url}}/assets/img/selling/sales-partner-target-variance.png">
+<img class="screenshot" alt="Sales Partner Target" src="{{docs_base_url}}/v12/assets/img/selling/sales-partner-target-variance.png">
 
 ## Related Topics
 1. [Sales Person Target Allocation](/docs/user/manual/en/selling/sales-person-target-allocation)

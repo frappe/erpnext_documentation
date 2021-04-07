@@ -11,7 +11,7 @@ To create new Member go to:
 
 ## 1. How to Create a Member
 
-<img class="screenshot" alt="Member" src="{{docs_base_url}}/assets/img/non_profit/membership/member.png">
+<img class="screenshot" alt="Member" src="{{docs_base_url}}/v12/assets/img/non_profit/membership/member.png">
 
 **Email Address:** You can capture the member's email address here. This will be used while sending membership acknowledgments.
 
@@ -24,7 +24,7 @@ To create new Member go to:
 
 ### 2.1 Member linking with Customer or Supplier
 
-<img class="screenshot" alt="Member" src="{{docs_base_url}}/assets/img/non_profit/membership/member-details.png">
+<img class="screenshot" alt="Member" src="{{docs_base_url}}/v12/assets/img/non_profit/membership/member-details.png">
 
 ERPNext gives you the provision to link your members to customers or suppliers or both.
 

@@ -3,7 +3,7 @@ The Education domain in ERPNext is designed to meet requirements of any organiza
 
 It helps you to effectively manage administration and allows you to focus on what is most important for your institute, **to educate!**
 
-<img class="screenshot" alt="School Hero" src="{{docs_base_url}}/assets/img/education/school-hero.png">
+<img class="screenshot" alt="School Hero" src="{{docs_base_url}}/v12/assets/img/education/school-hero.png">
 
 ## Contents of ERPNext Education Domain
 
@@ -21,7 +21,7 @@ Using Education module of ERPNext, you can effectively manage operations like:
 
 For an online demonstration on each functionality of ERPNext Education module, [click here.](https://www.youtube.com/watch?v=f6foQOyGzdA&list=PL3lFfCEoMxvxyjnARY_C1zLoOE55LcMKB)
 
-<img class="screenshot" alt="Fees Section" src="{{docs_base_url}}/assets/img/education/assessment.png">
+<img class="screenshot" alt="Fees Section" src="{{docs_base_url}}/v12/assets/img/education/assessment.png">
 
 ## Who Uses ERPNext Education?
 

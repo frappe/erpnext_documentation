@@ -13,11 +13,11 @@ A major change has been introduced in ERPNext from version 13 onwards. This chan
 
 ### 1. Reverse Entries on cancellation of transactions
 
-<img alt="General Ledger" class="screenshot" src="{{docs_base_url}}/assets/img/articles/general-ledger.png">
+<img alt="General Ledger" class="screenshot" src="{{docs_base_url}}/v12/assets/img/articles/general-ledger.png">
 
 On cancellation of any transaction instead of deleting the GL Entries for that transactions reverse entries will be passed to cancel the effect of that transaction on the date of cancellation.
 
-<img alt="Document Delete" class="screenshot" src="{{docs_base_url}}/assets/img/articles/document-delete.png">
+<img alt="Document Delete" class="screenshot" src="{{docs_base_url}}/v12/assets/img/articles/document-delete.png">
 
 Since GL Entries linked to a transaction will never be deleted this also means that cancelled transactions and their linked documents can no longer be deleted.
 
@@ -26,6 +26,6 @@ Since GL Entries linked to a transaction will never be deleted this also means t
 Since the ledgers are immutable now this means future transactions cannot be updated or reposted.
 So users will no longer be able to post backdated stock transactions.
 
-<img alt="Back Dated Entry" class="screenshot" src="{{docs_base_url}}/assets/img/articles/backdated-entry.png">
+<img alt="Back Dated Entry" class="screenshot" src="{{docs_base_url}}/v12/assets/img/articles/backdated-entry.png">
 
 For Eg: Suppose a Stock Transaction has been made for **Item A** with posting time as `19-06-2020 23:00:10` then after this transaction you cannot post a transaction for **Item A** with posting time before this timestamp.

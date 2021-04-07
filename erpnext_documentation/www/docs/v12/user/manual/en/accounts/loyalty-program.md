@@ -28,7 +28,7 @@ Before creating and using a Loyalty Program, it is advised to create the followi
 1. Set the Conversion Factor, eg: 10 USD = 1 point.
 1. Save. 
 
- <img class="screenshot" alt="Loyalty Program" src="{{docs_base_url}}/assets/img/accounts/loyalty-program.png">
+ <img class="screenshot" alt="Loyalty Program" src="{{docs_base_url}}/v12/assets/img/accounts/loyalty-program.png">
 
 ### 2.1 Redemption section
 
@@ -42,17 +42,17 @@ Before creating and using a Loyalty Program, it is advised to create the followi
 
 Set a Loyalty Program section in the Customer master to assign a Loyalty Program to a Customer.
 
-<img class="screenshot" alt="Loyalty Program 1" src="{{docs_base_url}}/assets/img/accounts/loyalty-program-1.png">
+<img class="screenshot" alt="Loyalty Program 1" src="{{docs_base_url}}/v12/assets/img/accounts/loyalty-program-1.png">
 
 **Loyalty points** earned can be viewed in the Customer's dashboard.
 
-<img class="screenshot" alt="Loyalty Program 2" src="{{docs_base_url}}/assets/img/accounts/loyalty-program-2.png">
+<img class="screenshot" alt="Loyalty Program 2" src="{{docs_base_url}}/v12/assets/img/accounts/loyalty-program-2.png">
 
 ### 2.3 Loyalty Point Entry
 Go to: **Accounts > Retail Operations > Loyalty Point Entry**.
 This acts as a log to give an overview of which Customer earned how many points against which Sales Invoice. It holds the data Invoice and Customer.
 
-<img class="screenshot" alt="Loyalty Program 3" src="{{docs_base_url}}/assets/img/accounts/loyalty-program-3.png">
+<img class="screenshot" alt="Loyalty Program 3" src="{{docs_base_url}}/v12/assets/img/accounts/loyalty-program-3.png">
 
 ## 3. How does a Loyalty Program work?
 

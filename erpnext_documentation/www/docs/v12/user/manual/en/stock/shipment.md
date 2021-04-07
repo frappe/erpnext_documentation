@@ -33,7 +33,7 @@ To create a Shipment manually, follow these steps:
 
 1. Go to the Shipment list, click on New.
 
- <img class="screenshot" alt="Unsaved Shipment" src="{{docs_base_url}}/assets/img/stock/unsaved-shipment.png">
+ <img class="screenshot" alt="Unsaved Shipment" src="{{docs_base_url}}/v12/assets/img/stock/unsaved-shipment.png">
 1. Select an option in the **Pickup from** field. On selecting one of the three options, you will be prompted to select a Company/Supplier/Customer based on your selection.
 1. If you select 'Company' in the **Pickup from** field, along with the Address you must also select a **Pickup Contact Person** who will be a user from your organization, in ERPNext. Make sure the Last Name, Email Address and Phone Number are set for this user.
 1. You can similarly fill the **Delivery To** section.
@@ -44,14 +44,14 @@ To create a Shipment manually, follow these steps:
 1. You can optionally fill the Shipment Information section if you are tracking Shipments manually.
 1. Save and Submit.
 
- <img class="screenshot" alt="Submitted Shipment" src="{{docs_base_url}}/assets/img/stock/shipment-submitted.png">
+ <img class="screenshot" alt="Submitted Shipment" src="{{docs_base_url}}/v12/assets/img/stock/shipment-submitted.png">
 
 ### 2.1. Shipment from Delivery Note
 To create a Shipment from a Delivery Note:
 
 1. Click on **Create** > **Shipment** in the Delivery Note.
 
- <img class="screenshot" alt="Submitted Shipment" src="{{docs_base_url}}/assets/img/stock/shipment-from-delivery-note.png">
+ <img class="screenshot" alt="Submitted Shipment" src="{{docs_base_url}}/v12/assets/img/stock/shipment-from-delivery-note.png">
 
 1. Fill the form as mentioned in the previous section.
 
@@ -63,7 +63,7 @@ You can specify the length, width, height and, weight of a parcel in the Shipmen
 
 To automatically fetch frequently used parcel dimensions, a Parcel Template can be created and set in the **Parcel Template** field. After adding the template, click on the **Add template** button.
 
- <img class="screenshot" alt="Submitted Shipment" src="{{docs_base_url}}/assets/img/stock/shipment-parcel.png">
+ <img class="screenshot" alt="Submitted Shipment" src="{{docs_base_url}}/v12/assets/img/stock/shipment-parcel.png">
 
 ### 3.2. Shipment Information / Details
 The Shipment Information section is an **optional** section where a user can manually track Shipment information. Here are some of the fields:

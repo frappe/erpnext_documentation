@@ -34,9 +34,15 @@ To access Projects, go to:
   4. **Priority**: You can select the priority level of the Project based on how crucial it is. You can also add more priority levels.
   5. **Department**: If the project belongs to, or is owned by a [Department](/docs/user/manual/en/human-resources/department) in the organization, you can add that here.
   6. **Is Active**: A Yes/No tab, which lets you change the active status of the project at any later stage.
+<<<<<<< HEAD
   7. **Completion Method**: You can track the % completion of your project based on one of the three methods, viz. **Manual, Task Completion, Task Progress and Task Weight**. 
   
   <img class="screenshot" alt="Project 2" src="{{docs_base_url}}/assets/img/project/project-proj.png">
+=======
+  7. **Completion Method**: You can track the % completion of your project based on one of the three methods, viz. **Manual, Task Completion, Task Progress and Task Weight**.
+
+  <img class="screenshot" alt="Project 2" src="{{docs_base_url}}/v12/assets/img/project/project-proj.png">
+>>>>>>> e9d4ee18... docs: Fix assets URL
 
   Some examples of how the Percentage Completion is calculated based on Tasks:
 
@@ -72,14 +78,14 @@ For example, if the total of task weights is 70, then percentage completed = (70
 
 * **Notes**: You can add any additional notes to the project.
 
-  <img class="screenshot" alt="Project - Costing" src="{{docs_base_url}}/assets/img/project/projects-customer-users-notes.png">
+  <img class="screenshot" alt="Project - Costing" src="{{docs_base_url}}/v12/assets/img/project/projects-customer-users-notes.png">
 
 ### 2.2. Start and End Dates
 
 * **Actual Start Date**: Basis the Actual Start of the project, tracked via Timesheets, the Actual Start Date and Time of the Project will get recorded automatically. 
 * **Actual End Date**: Basis the Actual End of the project, tracked via the last update of the Timesheet, the Actual End Date and Time of the Project will get recorded automatically. To know more about Timesheets, [click here](/docs/user/manual/en/projects/timesheets/).
 
-  <img class="screenshot" alt="Project - Costing" src="{{docs_base_url}}/assets/img/project/projects-start-time-end-time.png">
+  <img class="screenshot" alt="Project - Costing" src="{{docs_base_url}}/v12/assets/img/project/projects-start-time-end-time.png">
 
 ### 2.3. Costing and Billing
 
@@ -103,7 +109,7 @@ For example, if the total of task weights is 70, then percentage completed = (70
 
   **((Total Sales Amount + Total Billable Amount) - Total Costing Amount + Total Billable Amount + Total Expense Claim + Total Purchase Cost + Total Consumed Material Cost) / Total Sales Amount)* 100**
 
-  <img class="screenshot" alt="Project - Costing" src="{{docs_base_url}}/assets/img/project/projects-costing-and-billing.png">
+  <img class="screenshot" alt="Project - Costing" src="{{docs_base_url}}/v12/assets/img/project/projects-costing-and-billing.png">
 
 ### 2.5. Monitor progress
 
@@ -112,7 +118,7 @@ When you enable the 'Collect Progress' option by checking the box, it will enabl
 * **Holiday List**: You can select the [Holiday List](/docs/user/manual/en/human-resources/holiday-list) for your company. This will allow you to collect the Progress Reports only on the Working Days.
 * **Frequency**: You can set the frequency at which you wish to get the reports. It can be set to an hourly, twice daily, daily or on a weekly frequency.
 
-  <img class="screenshot" alt="Project - Costing" src="{{docs_base_url}}/assets/img/project/projects-monitor-progress.png">
+  <img class="screenshot" alt="Project - Costing" src="{{docs_base_url}}/v12/assets/img/project/projects-monitor-progress.png">
 
 ## 3. Related Topics
   1. [Task](/docs/user/manual/en/projects/tasks)

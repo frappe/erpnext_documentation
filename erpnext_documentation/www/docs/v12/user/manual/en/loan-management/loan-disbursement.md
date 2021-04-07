@@ -4,13 +4,13 @@
 
 **Once a Loan is sanctioned, the loan amount is ready to be disbursed. For that, a Loan Disbursement entry is created.**
 
-<img class="screenshot" alt="Make Loan Disbursement" src="{{docs_base_url}}/assets/img/loan-management/loan-disbursement-flow.png">
+<img class="screenshot" alt="Make Loan Disbursement" src="{{docs_base_url}}/v12/assets/img/loan-management/loan-disbursement-flow.png">
 
 To access the Loan Disbursement list, go to:
 > Home > Loan Management > Disbursement and Repayment > Loan Disbursement
 
 
-<img class="screenshot" alt="Loan Disbursement" src="{{docs_base_url}}/assets/img/loan-management/loan-disbursement.png">
+<img class="screenshot" alt="Loan Disbursement" src="{{docs_base_url}}/v12/assets/img/loan-management/loan-disbursement.png">
 
 ## 1. Prerequisites
 Before creating a Loan Disbursement, you must create the following first:
@@ -29,7 +29,7 @@ Before creating a Loan Disbursement, you must create the following first:
 ### 2.1. Other ways to create a Loan Disbursement
 You can also create a Loan Disbursement from a sanctioned Loan via the **Create** button on the top right
 
-<img class="screenshot" alt="Create Loan Disbursement" src="{{docs_base_url}}/assets/img/loan-management/create-loan-disbursement.png">
+<img class="screenshot" alt="Create Loan Disbursement" src="{{docs_base_url}}/v12/assets/img/loan-management/create-loan-disbursement.png">
 
 ## 3. Features
 

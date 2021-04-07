@@ -37,7 +37,7 @@ Here is the default Jinja template:
 
 Here is an example:
 
-<img class="screenshot" alt="Print Heading" src="{{docs_base_url}}/assets/img/setup/print/address-format.png">
+<img class="screenshot" alt="Print Heading" src="{{docs_base_url}}/v12/assets/img/setup/print/address-format.png">
 
 ### 2. Related Topics
 1. [Terms and Conditions Template](/docs/user/manual/en/setting-up/print/terms-and-conditions)

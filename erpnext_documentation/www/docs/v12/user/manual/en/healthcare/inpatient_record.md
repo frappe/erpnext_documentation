@@ -6,7 +6,7 @@ Inpatient Record is automatically created when a practitioner order an admission
 
 `Healthcare > Patient Care > Inpatient Record`
 
-<img class="screenshot" alt="ERPNext Healthcare" src="{{docs_base_url}}/assets/img/healthcare/ip_admission_order.png">
+<img class="screenshot" alt="ERPNext Healthcare" src="{{docs_base_url}}/v12/assets/img/healthcare/ip_admission_order.png">
 
 Healthcare Practitioner can order a patient admission from the Patient Encounter document using the `Schedule Admission` button. This will automatically create an Inpatient Record for the Patient in _Admission Scheduled_ status. The IP admission officer can then allot a vacant room to the Patient as recommended by the referring practitioner in the admission order.
 

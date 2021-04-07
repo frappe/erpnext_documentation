@@ -22,7 +22,7 @@ The details are already fetched if you click on 'Submit Proof' from [Employee Ta
 1. Enter House Rent Payment Amount, Rented From Date and Rented To Date.
 1. Save and Submit.
 
-    <img class="screenshot" alt="Employee Tax Exemption Proof Submission" src="{{docs_base_url}}/assets/img/human-resources/employee-tax-exemption-proof-submission.png">
+    <img class="screenshot" alt="Employee Tax Exemption Proof Submission" src="{{docs_base_url}}/v12/assets/img/human-resources/employee-tax-exemption-proof-submission.png">
 
  
 

@@ -18,7 +18,7 @@ To create an Exercise Type, go to:
 4. You can also select the Body Parts for which the Exercise will be prescribed. This linking will help you add exercises automatically to a Therapy Type.
 5. Save.
 
-<img class="screenshot" alt="ERPNext Healthcare" src="{{docs_base_url}}/assets/img/healthcare/exercise-type.png">
+<img class="screenshot" alt="ERPNext Healthcare" src="{{docs_base_url}}/v12/assets/img/healthcare/exercise-type.png">
 
 ## 2. Features
 
@@ -26,15 +26,15 @@ To create an Exercise Type, go to:
 
 You can attach a document for Exercise Instructions or also create a Video document and link it in Exercise Type.
 
-<img class="screenshot" alt="ERPNext Healthcare" src="{{docs_base_url}}/assets/img/healthcare/exercise-video.png">
+<img class="screenshot" alt="ERPNext Healthcare" src="{{docs_base_url}}/v12/assets/img/healthcare/exercise-video.png">
 
 You can also add instructions with images and descriptions for detailed demonstrations using the **Add** button under the "Exercise Steps" section.
 
-<img class="screenshot" alt="ERPNext Healthcare" src="{{docs_base_url}}/assets/img/healthcare/exercise-type-steps.png">
+<img class="screenshot" alt="ERPNext Healthcare" src="{{docs_base_url}}/v12/assets/img/healthcare/exercise-type-steps.png">
 
 Click on the edit button on each card to edit the content.
 
-<img class="screenshot" alt="ERPNext Healthcare" src="{{docs_base_url}}/assets/img/healthcare/edit-exercise-step.png">
+<img class="screenshot" alt="ERPNext Healthcare" src="{{docs_base_url}}/v12/assets/img/healthcare/edit-exercise-step.png">
 
 ## 3. Related Topics
 1. [Therapy Type](/docs/user/manual/en/healthcare/therapy_type)

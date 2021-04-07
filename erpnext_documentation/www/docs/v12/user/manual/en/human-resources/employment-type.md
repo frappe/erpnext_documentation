@@ -16,7 +16,7 @@ To access the Employment Type, go to:
 2. Enter the Name of the Employment Type.
 3. Save.
 
-    <img class="screenshot" alt="Employment Type" src="{{docs_base_url}}/assets/img/human-resources/employment-type.png">
+    <img class="screenshot" alt="Employment Type" src="{{docs_base_url}}/v12/assets/img/human-resources/employment-type.png">
 
 The Employment Type can be linked to the [Employee](/docs/user/manual/en/human-resources/employee) master.
 

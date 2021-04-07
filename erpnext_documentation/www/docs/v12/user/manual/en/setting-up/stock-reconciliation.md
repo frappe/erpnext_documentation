@@ -69,33 +69,33 @@ If you have lot of items, you can upload the details via a spreadsheet.
 
   Open new Stock Reconciliation and click on Download button to download the template in CSV format.
 
-  <img class="screenshot" alt="Stock Reconciliation" src="{{docs_base_url}}/assets/img/stock/stock-recon-1.png">
+  <img class="screenshot" alt="Stock Reconciliation" src="{{docs_base_url}}/v12/assets/img/stock/stock-recon-1.png">
 
 2. Enter Data in CSV Template.
 
   The CSV format is case-sensitive. Do not edit the headers which are preset in the template. In the Item Code and Warehouse column, enter exact Item Code and Warehouse as created in your ERPNext account. For quantity, enter stock level you wish to set for that item, in a specific warehouse.
 
-  <img class="screenshot" alt="Stock Reconciliation" src="{{docs_base_url}}/assets/img/stock/stock-reco-data.png">
+  <img class="screenshot" alt="Stock Reconciliation" src="{{docs_base_url}}/v12/assets/img/stock/stock-reco-data.png">
 
 
 3. Upload the CSV file with the data by clicking on 'Upload' button.
 
-  <img class="screenshot" alt="Stock Reconciliation" src="{{docs_base_url}}/assets/img/stock/stock-recon-2.png">
+  <img class="screenshot" alt="Stock Reconciliation" src="{{docs_base_url}}/v12/assets/img/stock/stock-recon-2.png">
 
 
 4. Review, Save, and Submit.
 
-  <img class="screenshot" alt="Stock Reconciliation" src="{{docs_base_url}}/assets/img/stock/stock-reco-upload.gif">
+  <img class="screenshot" alt="Stock Reconciliation" src="{{docs_base_url}}/v12/assets/img/stock/stock-reco-upload.gif">
 
 5. Check Stock Ledger Report for updated stock balance.
 
-  <img class="screenshot" alt="Stock Reconciliation" src="{{docs_base_url}}/assets/img/stock/stock-reco-ledger.png">
+  <img class="screenshot" alt="Stock Reconciliation" src="{{docs_base_url}}/v12/assets/img/stock/stock-reco-ledger.png">
 
 ##3.2 Get Stock Balance and Valuation as of Specific Date and Time
 
 You can import the stock balance and valuation as of specific date and time by clicking on 'Items' button. You can update the Quantity and Valuation Rate as needed.
 
-<img class="screenshot" alt="Stock Reconciliation Items Button" src="{{docs_base_url}}/assets/img/stock/stock_reconciliation_items_button.gif">
+<img class="screenshot" alt="Stock Reconciliation Items Button" src="{{docs_base_url}}/v12/assets/img/stock/stock_reconciliation_items_button.gif">
 
 #4. How Stock Reconciliation Works
 
@@ -198,28 +198,28 @@ For item ITEM-00225 has the 6 serial nos HJF00020, HJF00021, HJF00022, HJF00023,
 Select the item ITEM-00225 in the stock reconciliation, on selection of the item system will auto pull the existing serials nos. Then set qty as 3, valuation rate as 530 and serial no as HJF00026, HJF00027, HJF00028.
 
 
-<img class="screenshot" alt="Stock Reconciliation" src="{{docs_base_url}}/assets/img/setup/stock-recon-for-serialized.png">
+<img class="screenshot" alt="Stock Reconciliation" src="{{docs_base_url}}/v12/assets/img/setup/stock-recon-for-serialized.png">
 
 Before reconciliation, the valuation rate was 530 and available qty was 6, so the total stock value was 3,180. After reconciliation, the valuation rate has changed to 620 and available qty changed to 3, so the new stock value becomes 1,860. To adjust the stock value in the accounting, the system has credited extra amount 3,180 - 1,860 = 1,320 to warehouse's account and debited to stock adjustment account. The GL entries for the above entry is as follows:
 
 To view gl entries, click on button View > Accounting Ledger
 
-<img class="screenshot" alt="Stock Reconciliation" src="{{docs_base_url}}/assets/img/setup/gl_entry_for_serialized_items.png">
+<img class="screenshot" alt="Stock Reconciliation" src="{{docs_base_url}}/v12/assets/img/setup/gl_entry_for_serialized_items.png">
 
 The stock balance after submission of the stock reconciliation:
-<img class="screenshot" alt="Stock Reconciliation" src="{{docs_base_url}}/assets/img/setup/stock_balance_after_stock_reco_submission.png">
+<img class="screenshot" alt="Stock Reconciliation" src="{{docs_base_url}}/v12/assets/img/setup/stock_balance_after_stock_reco_submission.png">
 
 The general ledger for the warehouse account Nagpur after submission of the stock reconciliation:
-<img class="screenshot" alt="Stock Reconciliation" src="{{docs_base_url}}/assets/img/setup/general_ledger_after_stock_reco_submission.png">
+<img class="screenshot" alt="Stock Reconciliation" src="{{docs_base_url}}/v12/assets/img/setup/general_ledger_after_stock_reco_submission.png">
 
 ##4.3 For Batch Items
 
 Stock reconciliation for batch items will be used to add a new batch or to update the quantity of the existing batch. For example, the batch JHGJH00003 has the current quantity as 60 but if the user wants to make it 100 then by using stock reconciliation, user can update the batch quantity.
 
-<img class="screenshot" alt="Stock Reconciliation" src="{{docs_base_url}}/assets/img/setup/for_batch_item_after_stock_reco_submission.png">
+<img class="screenshot" alt="Stock Reconciliation" src="{{docs_base_url}}/v12/assets/img/setup/for_batch_item_after_stock_reco_submission.png">
 
 Batch-Wise Balance History report after submission of the stock reconciliation:
-<img class="screenshot" alt="Stock Reconciliation" src="{{docs_base_url}}/assets/img/setup/batchwise_balance_history_after_stock_reco_submission.png">
+<img class="screenshot" alt="Stock Reconciliation" src="{{docs_base_url}}/v12/assets/img/setup/batchwise_balance_history_after_stock_reco_submission.png">
 
 ### 5. Related Topics
 1. [Stock Entry](/docs/user/manual/en/stock/stock-entry)

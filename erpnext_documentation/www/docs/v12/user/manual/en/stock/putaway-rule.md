@@ -32,16 +32,16 @@ Before creating and using a Putaway Rule, it is advised that you create the foll
 ## 2. How to create a Putaway Rule
 
 1. Go to the Putaway Rule list, click on New.
- <img class='screenshot' alt='Unsaved Putaway Rule' src='{{docs_base_url}}/assets/img/stock/unsaved-putaway-rule.png'>
+ <img class='screenshot' alt='Unsaved Putaway Rule' src='{{docs_base_url}}/v12/assets/img/stock/unsaved-putaway-rule.png'>
 
 1. Set the Company and Select an Item.
 1. Select the Warehouse on which this rule is applicable.
 1. Set the Capacity. You can also select a UOM if you want to set the Capacity in a different UOM. The Capacity in Stock UOM will be set automatically.
- <img class='screenshot' alt='Multi UOM Putaway Rule' src='{{docs_base_url}}/assets/img/stock/multi-uom-putaway-rule.png'>
+ <img class='screenshot' alt='Multi UOM Putaway Rule' src='{{docs_base_url}}/v12/assets/img/stock/multi-uom-putaway-rule.png'>
 
 1. Set the Priority. This can begin from 1 onwards, 1 being the highest priority.
 1. Save.
- <img class='screenshot' alt='Saved Putaway Rule' src='{{docs_base_url}}/assets/img/stock/saved-putaway-rule.png'>
+ <img class='screenshot' alt='Saved Putaway Rule' src='{{docs_base_url}}/v12/assets/img/stock/saved-putaway-rule.png'>
 
 1. You can additionally Disable a Putaway Rule as well.
 
@@ -58,22 +58,22 @@ The rule is unique to each Item-Warehouse combination.
 As mentioned before, the Putaway Rules are applied on **Purchase Receipts** and **Stock Entries** (Material Receipt & Material Transfer).
 
 A checkbox called **Apply Putaway Rule** will allocate items to Warehouses based on the Putaway Rules.
- <img class='screenshot' alt='Apply Putaway Rule checkbox' src='{{docs_base_url}}/assets/img/stock/apply-putaway-rule.png'>
+ <img class='screenshot' alt='Apply Putaway Rule checkbox' src='{{docs_base_url}}/v12/assets/img/stock/apply-putaway-rule.png'>
 
 Putaway Rules are applied on checking this checkbox. They are also re-applied on save if this checkbox is enabled.
 
 Let us see the same in action:
 
 1. Here is a Purchase Order with a requirement of 5 Cartons (60 Nos) of Mineral Water.
- <img class='screenshot' alt='Purchase Order' src='{{docs_base_url}}/assets/img/stock/po-putaway-demo.png'>
+ <img class='screenshot' alt='Purchase Order' src='{{docs_base_url}}/v12/assets/img/stock/po-putaway-demo.png'>
 
 1. Two active Putaway Rules have been created below with capacity 4 Cartons (48 Nos) each. One has a higher priority than the other.
- <img class='screenshot' alt='Active Putaway Rules List' src='{{docs_base_url}}/assets/img/stock/active-putaway-rules-list.png'>
+ <img class='screenshot' alt='Active Putaway Rules List' src='{{docs_base_url}}/v12/assets/img/stock/active-putaway-rules-list.png'>
 
 1. A Purchase Receipt is created from this Purchase Order.
 
 1. On checking **Apply Putaway Rule**, one row of 5 Cartons is split and assigned according to the rules.
- <img class='screenshot' alt='Putaway Rules applied in a Purchase Receipt' src='{{docs_base_url}}/assets/img/stock/pr-putaway-apply.gif'>
+ <img class='screenshot' alt='Putaway Rules applied in a Purchase Receipt' src='{{docs_base_url}}/v12/assets/img/stock/pr-putaway-apply.gif'>
 
 1. First, 4 out of 5 Cartons are accommodated in the 'Finished Goods - UPI' Warehouse. Once this Warehouse is at capacity, it assigns the rest (1 Carton) to the 'Stores - UPI' Warehouse.
 
@@ -83,7 +83,7 @@ The **Warehouse Capacity Summary** Report shows Warehouse capacities and their r
 
 Only Warehouses having Putaway Rules will be listed here. The **Edit Capacity** button gives provision to edit the Putaway Rule capacity.
 
- <img class='screenshot' alt='Warehouse Capacity Summary' src='{{docs_base_url}}/assets/img/stock/warehouse-capacity-summary.png'>
+ <img class='screenshot' alt='Warehouse Capacity Summary' src='{{docs_base_url}}/v12/assets/img/stock/warehouse-capacity-summary.png'>
 
 
 ## 6. Types of Putaway Application

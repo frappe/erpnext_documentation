@@ -15,7 +15,7 @@
 1. Go to any document, you'll see an option to follow the document.
 1. Click on 'Follow'.
 
-<img class="screenshot" alt="Defining Criteria" src="{{docs_base_url}}/assets/img/setup/email/document-follow-how-to-follow.png">
+<img class="screenshot" alt="Defining Criteria" src="{{docs_base_url}}/v12/assets/img/setup/email/document-follow-how-to-follow.png">
 
 1. After following, you can also unfollow a document.
 
@@ -32,7 +32,7 @@ Cases where the document will be __automatically__ followed after activating Doc
 
 This is what an email notification for Document Follow will look like:
 
-<img class="screenshot" alt="Defining Criteria" src="{{docs_base_url}}/assets/img/setup/email/document-follow-email.png">
+<img class="screenshot" alt="Defining Criteria" src="{{docs_base_url}}/v12/assets/img/setup/email/document-follow-email.png">
 
 ### 2. Related Topics
 1. [Linking Emails to Document](/docs/user/manual/en/setting-up/email/linking-emails-to-document)

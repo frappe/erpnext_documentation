@@ -36,14 +36,14 @@ Before creating and using Landed Cost Voucher, it is advised that you create the
 1. Enter the Expense Account and the Amount for Additional Costs in the Taxes and Charges table. The amount will be distributed equally based on the quantity or amount as per your selection.
 1. Save and Submit.
 
-    <img class="screenshot" alt="Landed Cost Voucher" src="{{docs_base_url}}/assets/img/stock/landed-cost-voucher.png">
+    <img class="screenshot" alt="Landed Cost Voucher" src="{{docs_base_url}}/v12/assets/img/stock/landed-cost-voucher.png">
 
 
 In the document, you can select multiple Purchase Receipts/Invoices and fetch all items from those Purchase Receipts. Then you should add applicable charges in “Taxes and Charges” table. You can easily delete an item if the added charges do not apply to that item.
 
 The added charges are proportionately distributed among all the items based their amount or quantity. If you selected based on the amount, the Item with the highest amount will be allocated the highest proportion of the charges. In case of quantity, Item with the highest quantity will be allocated most of the charges and the other Items will be allocated lesser amounts. This is shown in the following screenshot:
 
-<img class="screenshot" alt="Landed Cost Voucher" src="{{docs_base_url}}/assets/img/stock/landed-cost-distribution.png">
+<img class="screenshot" alt="Landed Cost Voucher" src="{{docs_base_url}}/v12/assets/img/stock/landed-cost-distribution.png">
 
 ## 3. Related Actions
 ### 3.1 Adding Landed Cost in the Purchase Receipt itself

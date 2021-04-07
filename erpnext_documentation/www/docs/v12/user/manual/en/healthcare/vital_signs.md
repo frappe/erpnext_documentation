@@ -12,11 +12,11 @@ To create Vital Signs, go to:
 
 Select the Patient, enter Date and Time and Save. You can capture various Vital Signs as shown below:
 
-<img class="screenshot" alt="ERPNext Healthcare" src="{{docs_base_url}}/assets/img/healthcare/vital_signs_1.png">
+<img class="screenshot" alt="ERPNext Healthcare" src="{{docs_base_url}}/v12/assets/img/healthcare/vital_signs_1.png">
 
 Normal values or ranges are provided for ease of assessment. An automated BMI calculator is also made available.
 
-<img class="screenshot" alt="ERPNext Healthcare" src="{{docs_base_url}}/assets/img/healthcare/vitals_bmi.png">
+<img class="screenshot" alt="ERPNext Healthcare" src="{{docs_base_url}}/v12/assets/img/healthcare/vitals_bmi.png">
 
 You can also create and record Vitals for a Patient from Patient Appointment, Patient Encounter or the Patient master documents by using the **Create > Vital Signs** button.
 

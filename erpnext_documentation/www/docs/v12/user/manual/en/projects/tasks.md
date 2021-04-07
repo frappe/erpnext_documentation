@@ -3,7 +3,7 @@
 
 **In project management, a task is an actionable unit or activity which needs to be completed.**
 
-<img class="screenshot" alt="Task" src="{{docs_base_url}}/assets/img/project/projects-task.png">
+<img class="screenshot" alt="Task" src="{{docs_base_url}}/v12/assets/img/project/projects-task.png">
 
 To access Tasks, go to,
 
@@ -14,8 +14,13 @@ To access Tasks, go to,
   1. Go to the Task List and click on New.
   2. Add the subject of the task.
   3. Save.
+<<<<<<< HEAD
   
   <img class="screenshot" alt="Task" src="{{docs_base_url}}/assets/img/project/projects-task-creation-main.gif">
+=======
+
+  <img class="screenshot" alt="Task" src="{{docs_base_url}}/v12/assets/img/project/projects-task-creation-main.gif">
+>>>>>>> e9d4ee18... docs: Fix assets URL
 
 Alternatively, a task can also be created from a Project in the following way:
 
@@ -23,8 +28,13 @@ Alternatively, a task can also be created from a Project in the following way:
   2. Go to Task under the Project section on the Dashboard. The plus icon '+' here would direct you to the task creation page.
   3. Add the subject of the task.
   4. Save.
+<<<<<<< HEAD
   
   <img class="screenshot" alt="Task" src="{{docs_base_url}}/assets/img/project/projects-task-creation.gif">
+=======
+
+  <img class="screenshot" alt="Task" src="{{docs_base_url}}/v12/assets/img/project/projects-task-creation.gif">
+>>>>>>> e9d4ee18... docs: Fix assets URL
 
 ### 1.1 Additional Options while creating a Project
 
@@ -40,8 +50,13 @@ The following additional details can be added when editing a new task:
   * **Is Group**: This box can be checked to indicate that a task is a parent task, and can be further divided into multiple sub-tasks.
   * **Is Template**: This box can be checked to indicate that this task is a template task, and is meant to be used in a Project Template.
   * **Parent Task**: If a particular task is a part of a group task, the parent task can be linked to the task from this field.
+<<<<<<< HEAD
   
   <img class="screenshot" alt="Task" src="{{docs_base_url}}/assets/img/project/timesheet/project-task.png">
+=======
+
+  <img class="screenshot" alt="Task" src="{{docs_base_url}}/v12/assets/img/project/timesheet/project-task.png">
+>>>>>>> e9d4ee18... docs: Fix assets URL
 
 ## 2. Features
 
@@ -58,7 +73,7 @@ The following additional details can be added when editing a new task:
 
 **Note**: Based on the values of **Begin** and **Duration** field, the **Expected Start Date** and **Expected End Date** gets calculated for Project Tasks created using Project Template. This calculation skips holidays based on the holiday list of your company.
 
-  <img class="screenshot" alt="Task" src="{{docs_base_url}}/assets/img/project/projects-task-timeline.png">
+  <img class="screenshot" alt="Task" src="{{docs_base_url}}/v12/assets/img/project/projects-task-timeline.png">
 
 ### 2.2. Dependencies and Actual Time
 
@@ -66,12 +81,12 @@ The following additional details can be added when editing a new task:
 
   Task dependencies can be viewed in the Gantt Charts in the following way.
 
-  <img class="screenshot" alt="Task" src="{{docs_base_url}}/assets/img/project/projects-task-gantt.png">
+  <img class="screenshot" alt="Task" src="{{docs_base_url}}/v12/assets/img/project/projects-task-gantt.png">
 
 * **Actual Start Date**: The actual date and time on which the Task is started get recorded basis the [Timesheets](/docs/user/manual/en/projects/timesheets/).
 * **Actual End Date**: The actual date and time on which the task was finished get recorded here via the Timesheets.
 
-  <img class="screenshot" alt="Task" src="{{docs_base_url}}/assets/img/project/projects-task-dependencies.png">
+  <img class="screenshot" alt="Task" src="{{docs_base_url}}/v12/assets/img/project/projects-task-dependencies.png">
 
 ### 2.3. Costing
 
@@ -84,7 +99,7 @@ The following additional details can be added when editing a new task:
 * **Department**: You can enter the Owner Department for the task. Irrespective of the Owner department of the Project, each task can be carried out by a different department.
 * **Company**: You can change the Company for which this Task is being carried out. This can be used in cases where A company is carrying out the Task for its Sister Company or its Parent Company or a Subsidiary.
 
-  <img class="screenshot" alt="Task" src="{{docs_base_url}}/assets/img/project/projects-task-costing.png">
+  <img class="screenshot" alt="Task" src="{{docs_base_url}}/v12/assets/img/project/projects-task-costing.png">
 
 ## 3. Video
 

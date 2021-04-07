@@ -21,12 +21,12 @@ Before creating a Vehicle Log, it is necessary that you create the following doc
 1. Enter Odometer Reading information such as Date and Odometer (reading).
 1. Enter Refueling Details [optional] such as Fuel Qty, Fuel Price, Supplier and Invoice Ref.
 
-    <img class="screenshot" alt="Vehicle Log" src="{{docs_base_url}}/assets/img/human-resources/vehicle-log1.png">
+    <img class="screenshot" alt="Vehicle Log" src="{{docs_base_url}}/v12/assets/img/human-resources/vehicle-log1.png">
 
 
 1. Additionally, Vehicle Service Details can also be added as shown (optional).
 
-    <img class="screenshot" alt="Vehicle Log" src="{{docs_base_url}}/assets/img/human-resources/vehicle-log2.png">
+    <img class="screenshot" alt="Vehicle Log" src="{{docs_base_url}}/v12/assets/img/human-resources/vehicle-log2.png">
 
 1. Save. Once the information is saved, the Model and Make values will be automatically fetched.
 
@@ -41,7 +41,7 @@ Fleet Management in ERPNext allows you to automatically create an [Expense Claim
 
 Click on Make Expense Claim button. This button appears only in case of Submitted Vehicle Logs.
 
-<img class="screenshot" alt="Expense Claim Button" src="{{docs_base_url}}/assets/img/human-resources/vehicle-log-expense-claim-button.png">
+<img class="screenshot" alt="Expense Claim Button" src="{{docs_base_url}}/v12/assets/img/human-resources/vehicle-log-expense-claim-button.png">
 
 When you click on 'Make Expense Claim',
 
@@ -49,7 +49,7 @@ When you click on 'Make Expense Claim',
   2. The sum of Fuel Expenses and Service Expenses is calculated and fetched over to Expense Claim Amount.
   3. Employee can submit the Expense Claim for further processing.
 
-	<img class="screenshot" alt="Vehicle Log" src="{{docs_base_url}}/assets/img/human-resources/vehicle-log-expense-claim.png">
+	<img class="screenshot" alt="Vehicle Log" src="{{docs_base_url}}/v12/assets/img/human-resources/vehicle-log-expense-claim.png">
 
 ## 4. Related Topics
 

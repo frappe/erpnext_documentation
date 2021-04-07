@@ -46,7 +46,7 @@ To access the Lead list, go to:
 1. Enter email ID for communication.
 1. Click on 'Save'.
 
-<img class="screenshot" alt="Lead" src="{{docs_base_url}}/assets/img/crm/lead.png">
+<img class="screenshot" alt="Lead" src="{{docs_base_url}}/v12/assets/img/crm/lead.png">
 
 You can also record the details of the conversation in the NOTES section.
 
@@ -69,7 +69,7 @@ It is important to reach out to leads from time to time and build the relationsh
 In Busines-to-business(B2B) scenario, in order to close a sales deal, you will have to contact multiple people working in the prospective company.
 You can add the details of all such people in the same lead. Once you save a Lead, you will get the option to add [Contact](/docs/user/manual/en/CRM/contact) details by clicking on 'New Contact' button. Similarly, you can add the [Address](/docs/user/manual/en/CRM/address) details by clicking on 'New Address'.
 
-<img class="screenshot" alt="Lead" src="{{docs_base_url}}/assets/img/crm/multiple_address_contacts_in_lead.png">
+<img class="screenshot" alt="Lead" src="{{docs_base_url}}/v12/assets/img/crm/multiple_address_contacts_in_lead.png">
 
 ### 2.3 Recording Comments, Emails and Events
 
@@ -89,7 +89,7 @@ You can create an Opportunity, Customer or a Quotation from the Make dropdown. R
 
 You can define [Assignment Rules](/docs/user/manual/en/automation/assignment-rule) to automatically assign the leads to sales executives.
 
-<img class="screenshot" alt="Lead" src="{{docs_base_url}}/assets/img/crm/lead_assignment_rule.png">
+<img class="screenshot" alt="Lead" src="{{docs_base_url}}/v12/assets/img/crm/lead_assignment_rule.png">
 
 ## 3. Adding Custom Fields
 
