@@ -11,6 +11,9 @@ To enable Shopping Cart, go to:
 ![Shopping Cart Settings](/docs/assets/img/website/shopping-cart-settings.png)
 *Shopping Cart Settings*
 
+You can even build a **landing page** for your store at a custom route (eg. /*store*).
+Read the [documentation](/docs/user/manual/en/website/store-landing-page) to learn how to do so!
+
 Here are some configuration options:
 
 1. **Show Price**: Show Item Price on the product page.
