@@ -56,6 +56,10 @@ base_template_map = {
 	r'docs/v\d{1,3}/user/manual.*': 'templates/erpnext_docs.html'
 }
 
+website_redirects = [
+	{"source": r"/docs/user(.*)", "target": r"/docs/v13/user\1"},
+]
+
 # Generators
 # ----------
 
