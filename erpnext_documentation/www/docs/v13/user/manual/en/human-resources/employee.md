@@ -87,6 +87,7 @@ Personal Details of the Employee such as Family Background details like name and
 Here, the Educational Details such as School/University, Qualification, Level and Year of Passing of the Employee can be saved as shown below:
 
 <img class="screenshot" alt="Educational Qualification" src="{{docs_base_url}}/assets/img/human-resources/educational-qualification.png">
+<img class="screenshot" alt="Educational Qualification" src="{{docs_base_url}}/assets/img/human-resources/educational-qualification.png">
 
 Additionally, details such as Class/Percentage and Subjects can also be saved by clicking on the downward arrow in the Education table.
 
