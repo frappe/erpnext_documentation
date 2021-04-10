@@ -5,7 +5,7 @@
 
 This allows institutes to publish their programs on their website. Programs can contain rich text articles, videos, and even quizzes. The progress of individual students can be tracked through ERPNext as well as the portal.
 
-<img class="screenshot" alt="LMS Home" src="{{docs_base_url}}/assets/img/education/lms/home.png">
+<img class="screenshot" alt="LMS Home" src="{{docs_base_url}}/v13/assets/img/education/lms/home.png">
 
 LMS is disabled by default and can be enabled from [Education Settings](/docs/v13/user/manual/en/education/education-settings).
 

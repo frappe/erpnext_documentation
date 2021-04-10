@@ -14,11 +14,11 @@ Wenn einige Ihrer Artikel einer anderen Besteuerung unterliegen als andere, gebe
 
 Die Tabelle zu den Artikelsteuern ist ein Abschnitt in den Artikelstammdaten.
 
-<img class="screenshot" alt="Artikelsteuer" src="{{docs_base_url}}/assets/img/taxes/item-tax.png">
+<img class="screenshot" alt="Artikelsteuer" src="{{docs_base_url}}/v13/assets/img/taxes/item-tax.png">
 
 * **Inklusive oder Exklusive Steuer:** ERPNext erlaubt es Ihnen Artikelpreise inklusive Steuer einzugeben.
 
-<img class="screenshot" alt="Steuer inklusive" src="{{docs_base_url}}/assets/img/taxes/inclusive-tax.png">
+<img class="screenshot" alt="Steuer inklusive" src="{{docs_base_url}}/v13/assets/img/taxes/inclusive-tax.png">
 
 * **Ausnahme von der Regel:** Die Einstellungen zur Artikelsteuer werden nur dann benötigt, wenn sich der Steuersatz eines bestimmten Artikels von demjenigen, den Sie im Standard-Steuerkonto definiert haben, unterscheidet.
 * **Die Artikelsteuer kann überschrieben werden:** Sie können den Artikelsteuersatz überschreiben oder ändern, wenn Sie in der Artikelsteuertabelle zu den Artikelstammdaten gehen.
@@ -35,7 +35,7 @@ Um eine neue Vorlage zu einer Verkaufssteuer z. B. mit dem Namen Vorlage für Ve
 
 > Einstellungen > Rechnungswesen > Vorlage für Verkaufssteuern und -abgaben
 
-<img class="screenshot" alt="Vorlage für Verkaufssteuern" src="{{docs_base_url}}/assets/img/taxes/sales-tax-master.png">
+<img class="screenshot" alt="Vorlage für Verkaufssteuern" src="{{docs_base_url}}/v13/assets/img/taxes/sales-tax-master.png">
 
 Wenn Sie eine neue Vorlage erstellen, müssen Sie für jeden Steuertyp eine neue Zeile einfügen.
 
@@ -49,7 +49,7 @@ In jeder Zeile müssen Sie folgendes angeben:
     * Auf vorherige Zeilensumme/vorherigen Zeilenbetrag: Sie können Steuern auf Basis der vorherigen Zeilensumme/des vorherigen Zeilenbetrags ermitteln. Wenn Sie diese Option auswählen, wird die Steuer als Prozenzsatz der vorherigen Zeilensumme/des vorherigen Zeilenbetrags (in der Steuertabelle) angewandt. "Vorheriger Zeilenbetrag" meint hierbei einen bestimmten Steuerbetrag. Und "Vorherige Zeilensumme" bezeichnet die Nettosumme zuzüglich der zutreffenden Steuern in dieser Zeile. Geben Sie über das Feld "Zeile eingeben" die Zeilennummer an auf die die aktuell ausgewählte Steuer angewendet werden soll. Wenn Sie die Steuer auf die dritte Zeile anwenden wollengeben Sie im Eingabefeld "3" ein.
 
     * Geben Sie in die Spalte "Satz" den aktuellen Wert für den Steuersatz ein.
- 
+
 * Kontenbezeichnung: Die Bezeichnung des Kontos, unter dem diee Steuer verbucht werden soll.
 * Kostenstelle: Wenn es sich bei der Steuer/Abgabe um einen Ertrag handelt (wie z. B. die Versandgebühren) muss sie zu einer Kostenstelle gebucht werden.
 * Beschreibung: Beschreibung der Steuer (wird in Rechnungen und Angeboten angedruckt)

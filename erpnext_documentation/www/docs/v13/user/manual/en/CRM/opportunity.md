@@ -13,15 +13,15 @@ To access the Opportunity list, go to:
 1. Go to the Opportunity list and click on New.
 1. In 'Opportunity From', select Lead if opportunity is from a lead.
 
-   <img class="screenshot" alt="Opportunity" src="{{docs_base_url}}/assets/img/crm/new-opportunity.gif">
+   <img class="screenshot" alt="Opportunity" src="{{docs_base_url}}/v13/assets/img/crm/new-opportunity.gif">
 
 1. You can also go to an “Open” Lead and select “Opportunity” from the **Make** dropdown as shown below.
 
-    <img class="screenshot" alt="Opportunity" src="{{docs_base_url}}/assets/img/crm/lead-to-opportunity.png">
+    <img class="screenshot" alt="Opportunity" src="{{docs_base_url}}/v13/assets/img/crm/lead-to-opportunity.png">
 
 1. In 'Opportunity From', select Customer if opportunity is from a customer.
 
-    <img class="screenshot" alt="Opportunity" src="{{docs_base_url}}/assets/img/crm/requirement-gathering.png">
+    <img class="screenshot" alt="Opportunity" src="{{docs_base_url}}/v13/assets/img/crm/requirement-gathering.png">
 
 1. Select Opportunity Type. This indicates the broad category of opportunity like Sales, Support, Maintenance etc.
 
@@ -42,7 +42,7 @@ It is important to reach out to opportunities from time to time and build the re
 
 You can define [Assignment Rules](/docs/v13/user/manual/en/automation/assignment-rule) to automatically assign the opportunities to sales executives.
 
-<img class="screenshot" alt="Lead" src="{{docs_base_url}}/assets/img/crm/opportunity_assignment.png">
+<img class="screenshot" alt="Lead" src="{{docs_base_url}}/v13/assets/img/crm/opportunity_assignment.png">
 
 ### 2.3 Auto-close Opportunities
 
@@ -50,12 +50,12 @@ If you do not receive a response from an opportunity for a certain number of day
 
 You can set the number of days in [Selling Settings](/docs/v13/user/manual/en/selling/selling-settings).
 
-<img class="screenshot" alt="Opportunity" src="{{docs_base_url}}/assets/img/crm/autoclose_opportunities.png">
+<img class="screenshot" alt="Opportunity" src="{{docs_base_url}}/v13/assets/img/crm/autoclose_opportunities.png">
 
 ### 2.4 Create a Quotation
 You can create a [Quotation](/docs/v13/user/manual/en/selling/quotation) from the **Make** dropdown. Relevant field values will be copied over.
 
-<img class="screenshot" alt="Opportunity" src="{{docs_base_url}}/assets/img/crm/make-sq-from-opportunity.png">
+<img class="screenshot" alt="Opportunity" src="{{docs_base_url}}/v13/assets/img/crm/make-sq-from-opportunity.png">
 
 ### 2.5 Create a Supplier Quotation
 
@@ -70,7 +70,7 @@ able to track what is coming in order to adjust your resources.
 
 When an opportunity is lost, you can capture the reasons for losing. This will help you to analyse the trends over a long period of time and identify the insights needed for improvements at various areas in the organisation.
 
-<img class="screenshot" alt="Quotation Lost Reason" src="{{docs_base_url}}/assets/img/crm/quotation_lost_reason.png">
+<img class="screenshot" alt="Quotation Lost Reason" src="{{docs_base_url}}/v13/assets/img/crm/quotation_lost_reason.png">
 
 ### 2.7 Minutes to First Response
 

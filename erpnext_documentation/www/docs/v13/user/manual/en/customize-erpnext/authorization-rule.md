@@ -7,7 +7,7 @@ Example: If a Sales Order's Grand Total exceeds $1,000, then it should be verifi
 
 On the same lines, you can define Authorization Rule based on the fields like Net Total, Grand Total, Discount % and specify who would be the document approver if the authorization condition is matched.
 
-<img class="screenshot" alt="Authorization Rule" src="{{docs_base_url}}/assets/img/customize/customize-authorization-rule-1.png">
+<img class="screenshot" alt="Authorization Rule" src="{{docs_base_url}}/v13/assets/img/customize/customize-authorization-rule-1.png">
 
 
 To access Authorization Rule, go to:
@@ -30,11 +30,11 @@ Assume that the Sales Manager needs to authorize Sales Orders, only if it's Gran
 1. You can also select a specific Sales Manager.
 1. Save.
 
-<img class="screenshot" alt="Authorization Rule" src="{{docs_base_url}}/assets/img/customize/auth-rule.png">
+<img class="screenshot" alt="Authorization Rule" src="{{docs_base_url}}/v13/assets/img/customize/auth-rule.png">
 
 If the Sales User tries submitting the Sales Order of value higher than 10,000, then he will get an error message.
 
-<img class="screenshot" alt="Authorization Rule" src="{{docs_base_url}}/assets/img/customize/customize-authorization-rule-2.png">
+<img class="screenshot" alt="Authorization Rule" src="{{docs_base_url}}/v13/assets/img/customize/customize-authorization-rule-2.png">
 
 > If you wish to restrict Sales User from submitting Sales Orders, then instead of creating Authorization Rule, you should remove submit privilege for Sales User from [Role Permission Manager](/docs/v13/user/manual/en/setting-up/users-and-permissions/role-based-permissions).
 

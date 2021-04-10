@@ -21,7 +21,7 @@ To access the Bank Guarantee list, go to:
 1. Select a Bank and the Bank Account.
 1. Enter a Bank Guarantee number and name of the beneficiary.
 1. Save and Submit.
- <img class="screenshot" alt="Bank Guarantee" src="{{docs_base_url}}/assets/img/accounts/bank-guarantee.png">
+ <img class="screenshot" alt="Bank Guarantee" src="{{docs_base_url}}/v13/assets/img/accounts/bank-guarantee.png">
 
 This document allows you to track Bank Guarantees given to Suppliers and received from Customers. You can set Email Alerts as the Bank Guarantee expiry date approaches to remind yourself to get the Bank Guarantee back from your client.
 

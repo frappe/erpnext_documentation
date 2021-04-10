@@ -26,7 +26,7 @@ Before creating an Gratuity Rule, it is advised to create the following:
 1. Define Gratuity Rule
 1. Save
 
-<img class="screenshot" alt="Gratuity Rule" src="{{docs_base_url}}/assets/img/human-resources/gratuity-rule.png">
+<img class="screenshot" alt="Gratuity Rule" src="{{docs_base_url}}/v13/assets/img/human-resources/gratuity-rule.png">
 
 ## 3. Additional Properties
 
@@ -43,7 +43,7 @@ ERPNext provide two different method for calculation of Work experience.
 
 Let's consider the following example to understand the calculation.
 
-<img class="screenshot" alt="gratuity-rule-example" src="{{docs_base_url}}/assets/img/human-resources/gratuity-rule-example.png">
+<img class="screenshot" alt="gratuity-rule-example" src="{{docs_base_url}}/v13/assets/img/human-resources/gratuity-rule-example.png">
 
 1. **Current slab:** If Gratuity Amount calculation is based on Current Slab, then amount will be the product of Work Experience (in years), Fraction of Applicable Earnings and summation of the Applicable Earnings Components. Based on above Gratuity Rules/slab, if an employee has an experience of 5 years, then it falls in third slab. The calculation of Gratuity Amount will be as follows:
 

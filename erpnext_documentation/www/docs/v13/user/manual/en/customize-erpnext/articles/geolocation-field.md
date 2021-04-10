@@ -4,6 +4,6 @@ Geolocation is a field type offered by Frappe Framework. This field allows you t
 
 This is a field type, majority of the times used in the [Agriculture](/docs/v13/user/manual/en/agriculture) module, in the Land and Land Unit master.
 
-<img alt="geolocation field" class="screenshot" src="{{docs_base_url}}/assets/img/articles/geolocation-field.gif">
+<img alt="geolocation field" class="screenshot" src="{{docs_base_url}}/v13/assets/img/articles/geolocation-field.gif">
 
 {next}

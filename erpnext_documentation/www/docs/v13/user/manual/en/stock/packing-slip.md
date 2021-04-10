@@ -29,7 +29,7 @@ Usually, you should create a Packing Slip from a Delivery Note when it is in the
 
 Most of these details will be fetched if you create the Packing Slip from the Delivery Note.
 
-<img class="screenshot" alt="Packing Slip" src="{{docs_base_url}}/assets/img/stock/packing-slip.png">
+<img class="screenshot" alt="Packing Slip" src="{{docs_base_url}}/v13/assets/img/stock/packing-slip.png">
 
 
 ### 1.1 Additional options when creating a Packing Slip

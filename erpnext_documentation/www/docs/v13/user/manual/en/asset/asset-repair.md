@@ -24,7 +24,7 @@ Before creating and using Asset Repair, it is advised to create the following fi
 1. Change the Repair Status from 'Pending', 'Completed', or 'Canceled'.
 1. Save and Submit.
 
-    <img class="screenshot" alt="Asset" src="{{docs_base_url}}/assets/img/asset/asset_repair.png">
+    <img class="screenshot" alt="Asset" src="{{docs_base_url}}/v13/assets/img/asset/asset_repair.png">
 
 ## 3. Related Topics
 1. [Asset Maintenance](/docs/v13/user/manual/en/asset/asset-maintenance)

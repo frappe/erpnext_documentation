@@ -7,7 +7,7 @@ To create a new Employee Benefit Application,
 
 > Human Resources > Payroll > Employee Benefit Application > New Employee Benefit Application
 
-<img class="screenshot" alt="Employee Benefit Application" src="{{docs_base_url}}/assets/img/human-resources/employee-benefit-application.png">
+<img class="screenshot" alt="Employee Benefit Application" src="{{docs_base_url}}/v13/assets/img/human-resources/employee-benefit-application.png">
 
 Here, Employee can view the Max Benefits as per the Salary Structure Assignment and then chose from the Earning Components which are part of the employee's assigned Salary Structure. They can also enter the amount which they wish to receive as part of their Salary Slip.
 

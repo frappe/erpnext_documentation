@@ -11,7 +11,7 @@ The "Gain/Loss Account on Asset Disposal" account mentioned in the Company is de
 
 A Journal Entry will be created if you scrap an asset:
 
-<img class="screenshot" alt="Asset" src="{{docs_base_url}}/assets/img/asset/scrap-journal-entry.png">
+<img class="screenshot" alt="Asset" src="{{docs_base_url}}/v13/assets/img/asset/scrap-journal-entry.png">
 
 After scrapping, you can also restore the asset using "Restore Asset" button from the asset master.
 

@@ -16,7 +16,7 @@ You can create new Clinical Procedure Templates by going to:
 4. Check "Is Billable" if you want to bill the procedure like a Knee Surgery. If you check this, set a rate for the Procedure. You may not want to bill procedures like Wound Cleaning.
 5. Save.
 
-<img class="screenshot" alt="ERPNext Healthcare" src="{{docs_base_url}}/assets/img/healthcare/clinical_procedure_template.png">
+<img class="screenshot" alt="ERPNext Healthcare" src="{{docs_base_url}}/v13/assets/img/healthcare/clinical_procedure_template.png">
 
 ## 2. Features
 
@@ -24,7 +24,7 @@ You can create new Clinical Procedure Templates by going to:
 
 Templates allow you to manage the billable Item, rate, etc. for a particular procedure. The system automatically creates an Item linked to the template when it is saved.
 
-<img class="screenshot" alt="ERPNext Healthcare" src="{{docs_base_url}}/assets/img/healthcare/clinical_procedure_item.png">
+<img class="screenshot" alt="ERPNext Healthcare" src="{{docs_base_url}}/v13/assets/img/healthcare/clinical_procedure_item.png">
 
 You can change the Item Code linked to the Procedure if needed using the **Change Item Code** button.
 
@@ -32,19 +32,19 @@ You can change the Item Code linked to the Procedure if needed using the **Chang
 
 The Consumables section lets you set the consumable Stock Items with default quantities etc. which will be needed during the Procedure so that these items will be preloaded in the Clinical Procedures created based on the template. This allows the performing practitioner to easily input the consumed quantities or add additional items that have been consumed during the actual procedure.
 
-<img class="screenshot" alt="ERPNext Healthcare" src="{{docs_base_url}}/assets/img/healthcare/procedure_consumables.png">
+<img class="screenshot" alt="ERPNext Healthcare" src="{{docs_base_url}}/v13/assets/img/healthcare/procedure_consumables.png">
 
 ### 2.3 Invoice Consumables Separately
 
 If the "Invoice Consumables Separately" option is checked, the charges for the consumable Items will be added to the Sales Invoice separately in addition to the "Billing Rate" of the procedure.
 
-<img class="screenshot" alt="ERPNext Healthcare" src="{{docs_base_url}}/assets/img/healthcare/invoice_separately.png">
+<img class="screenshot" alt="ERPNext Healthcare" src="{{docs_base_url}}/v13/assets/img/healthcare/invoice_separately.png">
 
 ### 2.4 Configure Sample Collection
 
 Note that you can also enable "Sample Collection" for a Clinical Procedure if applicable.
 
-<img class="screenshot" alt="ERPNext Healthcare" src="{{docs_base_url}}/assets/img/healthcare/sample_collection.png">
+<img class="screenshot" alt="ERPNext Healthcare" src="{{docs_base_url}}/v13/assets/img/healthcare/sample_collection.png">
 
 > This Form has been Changed in Version 13
 

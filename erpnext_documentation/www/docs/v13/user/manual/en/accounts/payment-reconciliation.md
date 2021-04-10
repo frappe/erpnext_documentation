@@ -25,7 +25,7 @@ To access Payment Reconciliation, go to:
 
 You will get a message that says 'Amount allocated successfully'
 
-<img class="screenshot" alt="Payment Reconciliation" src="{{docs_base_url}}/assets/img/accounts/payment-reconcile-tool.png">
+<img class="screenshot" alt="Payment Reconciliation" src="{{docs_base_url}}/v13/assets/img/accounts/payment-reconcile-tool.png">
 
 ### 2. Related Topics
 1. [Payment Request](/docs/v13/user/manual/en/accounts/payment-request)

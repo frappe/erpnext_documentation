@@ -15,7 +15,7 @@
 1. Select the Price List whether Selling/Buying price or any other price list you may have created.
 1. Enter the actual rate in the Rate field.
 1. Save.
-    <img class="screenshot" alt="Item Price list" src="{{docs_base_url}}/assets/img/stock/item-price-1.png">
+    <img class="screenshot" alt="Item Price list" src="{{docs_base_url}}/v13/assets/img/stock/item-price-1.png">
 
 
 ### 1.1 Selecting the Price List

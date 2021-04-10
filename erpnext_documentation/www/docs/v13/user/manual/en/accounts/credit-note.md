@@ -14,7 +14,7 @@ The user can make a Credit Note against the Sales Invoice or they can directly m
 1. The Customer and Item details will be fetched as set in the Sales Invoice.
 1. If the Customer had paid partially or fully, make a Payment Entry against the original Sales Invoice.
 1. Save and Submit.
-    <img class="screenshot" alt="Sales Invoice" src="{{docs_base_url}}/assets/img/accounts/credit-note.png">
+    <img class="screenshot" alt="Sales Invoice" src="{{docs_base_url}}/v13/assets/img/accounts/credit-note.png">
 
 The Item quantity and Payment amount will be negative since it's a return.
 
@@ -35,7 +35,7 @@ Customer Rohan had purchased PVC pipes worth Rs 300 + taxes and at the time of d
 
 Credit Note with payment entry in ERPNext for above example is as below:
 
-<img class="screenshot" alt="Sales Invoice" src="{{docs_base_url}}/assets/img/accounts/credit_note_example1.gif">
+<img class="screenshot" alt="Sales Invoice" src="{{docs_base_url}}/v13/assets/img/accounts/credit_note_example1.gif">
 
 ### 3. Related Topics
 1. [Payment Entry](/docs/v13/user/manual/en/accounts/payment-entry)

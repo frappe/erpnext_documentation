@@ -18,7 +18,7 @@ Home > CRM > Settings > Sales Person
 4. Tick 'Group Node' checkbox, if you would like to add more Sales Person under this Sales Person.
 5. Click on 'Create New'.
 
-<img class="screenshot" alt="Sales Person Tree" src="{{docs_base_url}}/assets/img/crm/sales-person-tree.gif">
+<img class="screenshot" alt="Sales Person Tree" src="{{docs_base_url}}/v13/assets/img/crm/sales-person-tree.gif">
 
 ## 2. Features
 ### 2.1 Sales Person in Transactions

@@ -25,11 +25,11 @@ The following option shows up if you check "Allow Appointments":
 
 For example, Physical Activity Centres will allow Appointments with overlap:
 
-<img class="screenshot" alt="ERPNext Healthcare" src="{{docs_base_url}}/assets/img/healthcare/healthcare_service_unit_type_1.png">
+<img class="screenshot" alt="ERPNext Healthcare" src="{{docs_base_url}}/v13/assets/img/healthcare/healthcare_service_unit_type_1.png">
 
 However, Consultation rooms will only allow Appointments without overlap:
 
-<img class="screenshot" alt="ERPNext Healthcare" src="{{docs_base_url}}/assets/img/healthcare/healthcare_service_unit_type_2.png">
+<img class="screenshot" alt="ERPNext Healthcare" src="{{docs_base_url}}/v13/assets/img/healthcare/healthcare_service_unit_type_2.png">
 
 The following option shows up if you check "Inpatient Occupancy":
 
@@ -37,7 +37,7 @@ The following option shows up if you check "Inpatient Occupancy":
 
 For example, Operation Theatres will have Inpatient Occupancy which will be billed. If you check "Inpatient Occupancy" and "Is Billable" the system asks for Item Details to create an item for the Service Unit Type which will be used for billing:
 
-<img class="screenshot" alt="ERPNext Healthcare" src="{{docs_base_url}}/assets/img/healthcare/healthcare_service_unit_type.png">
+<img class="screenshot" alt="ERPNext Healthcare" src="{{docs_base_url}}/v13/assets/img/healthcare/healthcare_service_unit_type.png">
 
 The item is automatically created and linked to the document on save.
 
@@ -45,7 +45,7 @@ If the Healthcare Service Unit Type is not being used, you can disable it. Disab
 
 If you want to change the Item Code of the item created for the billable Healthcare Service Unit Type, click on **Change Item Code** button.
 
-<img class="screenshot" alt="ERPNext Healthcare" src="{{docs_base_url}}/assets/img/healthcare/healthcare_service_unit_type_3.png">
+<img class="screenshot" alt="ERPNext Healthcare" src="{{docs_base_url}}/v13/assets/img/healthcare/healthcare_service_unit_type_3.png">
 
 > This Form has been Changed in Version 13
 

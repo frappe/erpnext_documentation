@@ -27,7 +27,7 @@ Before creating and using a Quality Inspection, it is advised that you do the fo
 1. Any additional Remarks about the Inspection can be added.
 1. Save. Set the Status. Submit.
 
-<img class="screenshot" alt="Quality Inspection" src="{{docs_base_url}}/assets/img/stock/quality-inspection.png">
+<img class="screenshot" alt="Quality Inspection" src="{{docs_base_url}}/v13/assets/img/stock/quality-inspection.png">
 
 ## 3. Features
 
@@ -40,7 +40,7 @@ E.g. checking if a reading is in a certain range.
 
 By default the checks are numeric. There are two fields: **Minimum Value** and **Maximum Value**, to define a range that **each** reading must be in. These fields can be set in the Quality Inspection Template once and be simply fetched into the Quality Inspection.
 
-<img class="screenshot" alt="Numeric Quality Check" src="{{docs_base_url}}/assets/img/stock/quality-inspection-numeric-reading.png">
+<img class="screenshot" alt="Numeric Quality Check" src="{{docs_base_url}}/v13/assets/img/stock/quality-inspection-numeric-reading.png">
 
 If any of the readings entered are not within this range, the status on the row will be set to 'Rejected' automatically on Save.
 
@@ -53,7 +53,7 @@ For Non-numeric checks, enable the 'Non-numeric' checkbox. You will notice the f
 
 Enter the field Reading Value. The Acceptance Criteria Value can be set in the Quality Inspection Template once and then be fetched into the Quality Inspection.
 
-<img class="screenshot" alt="Non-numeric Quality Check" src="{{docs_base_url}}/assets/img/stock/quality-inspection-non-numeric-reading.png">
+<img class="screenshot" alt="Non-numeric Quality Check" src="{{docs_base_url}}/v13/assets/img/stock/quality-inspection-non-numeric-reading.png">
 
 If the Reading Value does not match the Acceptance Criteria Value, the status on the row will be set to 'Rejected' automatically on Save.
 
@@ -67,7 +67,7 @@ Formula-Based Quality Checks are applicable to Numeric and Non-numeric Quality C
 Enable the 'Formula Based Criteria' checkbox to perform a Formula-Based Quality Check. You will then notice a field called **Acceptance Criteria Formula** where you can specify a formula that determines whether a certain check is Accepted or Rejected.
 This formula can be set in the Quality Inspection Template once and then be fetched into the Quality Inspection.
 
-<img class="screenshot" alt="Acceptance Criteria Formula" src="{{docs_base_url}}/assets/img/stock/acceptance-criteria-formula.png">
+<img class="screenshot" alt="Acceptance Criteria Formula" src="{{docs_base_url}}/v13/assets/img/stock/acceptance-criteria-formula.png">
 
 This formula depends on the many Reading fields in the Readings table.
 
@@ -96,7 +96,7 @@ So far, all the Quality Checks have automatic acceptance/rejection on Save. In t
 
 Such cases will require the user to determine the row-level status. To avoid any system interference in such checks, enable the 'Manual Inspection' checkbox. You can now set the status manually and it will be untouched on Save.
 
-<img class="screenshot" alt="Manual Inspection" src="{{docs_base_url}}/assets/img/stock/quality-inspection-manual-reading.png">
+<img class="screenshot" alt="Manual Inspection" src="{{docs_base_url}}/v13/assets/img/stock/quality-inspection-manual-reading.png">
 
 Here Reading 1 is outside the defined range, this check would be rejected. But, since it is not very far from 0.153 we accept it manually.
 

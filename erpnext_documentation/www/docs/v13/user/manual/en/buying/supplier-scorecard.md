@@ -22,12 +22,12 @@ Before creating and using a Supplier Scorecard, it is advised that you create th
 3. Select the evaluating period whether weekly, monthly, or yearly.
 4. Setup the scoring function (details in next section).
 5. A supplier scorecard is created for each supplier individually. Only one supplier scorecard can be created for each supplier.
-<img class="screenshot" alt="Purchase Order" src="{{docs_base_url}}/assets/img/buying/supplier-scorecard.png">
+<img class="screenshot" alt="Purchase Order" src="{{docs_base_url}}/v13/assets/img/buying/supplier-scorecard.png">
 
 ## 2. Features
 ### 2.1 Scoring Setup
 The supplier scorecard consists of a set evaluation periods, during which the performance of a supplier is evaluated. This period can be weekly, monthly or yearly. The current score is calculated from the score of each evaluation period based on the weighting function. The default formula is linearly weighed over the previous 12 scoring periods.
-<img class="screenshot" alt="Purchase Order" src="{{docs_base_url}}/assets/img/buying/supplier-scorecard-weighing.png">
+<img class="screenshot" alt="Purchase Order" src="{{docs_base_url}}/v13/assets/img/buying/supplier-scorecard-weighing.png">
 This formula is customizable.
 
 #### Supplier Standings
@@ -35,13 +35,13 @@ This formula is customizable.
 The supplier standing is used to quickly sort suppliers based on their performance. These are customizable for each supplier.
 
 The scorecard standing of a supplier can also be used to restrict suppliers from being included in Request for Quotations or being issued Purchase Orders. The following screen can be seen on expanding a row in the 'Scoring Standings' table, click on the downward facing arrow.
-<img class="screenshot" alt="Purchase Order" src="{{docs_base_url}}/assets/img/buying/supplier-scorecard-standing.png">
+<img class="screenshot" alt="Purchase Order" src="{{docs_base_url}}/v13/assets/img/buying/supplier-scorecard-standing.png">
 
 ### 2.2 Criteria Setup
 A supplier can be evaluated on several individual evaluation criteria, including (but not limited to) quotation response time, delivered item quality, and delivery timeliness. These criteria are weighed to determine the final period score.
 
 To create a  new Criteria, go to Buying > Supplier Scorecard > Supplier Scorecard Criteria:
-<img class="screenshot" alt="Purchase Order" src="{{docs_base_url}}/assets/img/buying/supplier-scorecard-criteria.png">
+<img class="screenshot" alt="Purchase Order" src="{{docs_base_url}}/v13/assets/img/buying/supplier-scorecard-criteria.png">
 
 Note: Criteria weights for a scorecard should add up to 100.
 

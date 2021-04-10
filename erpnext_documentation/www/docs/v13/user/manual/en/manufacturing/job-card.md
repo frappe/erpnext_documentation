@@ -9,7 +9,7 @@ Job Card allows each Operation's workstation to issue a “Material Request” a
 
 Job Card completion will change the production status in Work Order, we can track the completion of production progress for each of the Operations defined in the Work Order.
 
-<img class="screenshot" alt="Work Order" src="{{docs_base_url}}/assets/img/manufacturing/manufacturing-flow-jc.png">
+<img class="screenshot" alt="Work Order" src="{{docs_base_url}}/v13/assets/img/manufacturing/manufacturing-flow-jc.png">
 
 To access the Job Card list, go to:
 > Home > Manufacturing > Production > Job Card

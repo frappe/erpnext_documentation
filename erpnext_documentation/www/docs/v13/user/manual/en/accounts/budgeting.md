@@ -16,7 +16,7 @@ To access the Budget list, go to:
 1. Go to the Budget list and click on New.
 1. Select what to budget against, Cost Center, Project, or an [Accounting Dimensions](/docs/v13/user/manual/en/accounts/accounting-dimensions).
 1. In the accounts table, select an income/expense account for which a budget is to be set. Let's set a budget for telephone expenses for the year.
- <img class="screenshot" alt="Budget" src="{{docs_base_url}}/assets/img/accounts/budget-account.png">
+ <img class="screenshot" alt="Budget" src="{{docs_base_url}}/v13/assets/img/accounts/budget-account.png">
 1. Enter the budget amount for that account.
 1. Save and Submit.
 
@@ -26,7 +26,7 @@ To access the Budget list, go to:
 
 You can also define a Monthly Distribution record to distribute the budget between months. If you don't set the monthly distribution, ERPNext will calculate the budget yearly or in equal proportion for every month.
 
-<img class="screenshot" alt="Monthly Distribution" src="{{docs_base_url}}/assets/img/accounts/monthly-budget-distribution.png">
+<img class="screenshot" alt="Monthly Distribution" src="{{docs_base_url}}/v13/assets/img/accounts/monthly-budget-distribution.png">
 
 ### 2.2 Control Actions (Alerts)
 
@@ -48,7 +48,7 @@ There are three types of control actions.
 
 You can set separate actions for monthly and annual budgets. If you exceed the budget, a warning will be shown:
 
-<img class="screenshot" alt="Monthly Distribution" src="{{docs_base_url}}/assets/img/accounts/budget-warning.png">
+<img class="screenshot" alt="Monthly Distribution" src="{{docs_base_url}}/v13/assets/img/accounts/budget-warning.png">
 
 Note that a similar warning will be triggered for any type of transactions set in the budget for the particular Account heads.
 
@@ -60,7 +60,7 @@ To check the Budget Variance report, go to:
 
 > Home > Accounting > Cost Center and Budgeting > Budget Variance Report
 
-<img class="screenshot" alt="Budget Variance Report" src="{{docs_base_url}}/assets/img/accounts/budget-variance-report.png">
+<img class="screenshot" alt="Budget Variance Report" src="{{docs_base_url}}/v13/assets/img/accounts/budget-variance-report.png">
 
 ## 4. Video
 Here is a video demonstration:

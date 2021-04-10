@@ -21,8 +21,8 @@ To create a Patient Assessment, go to:
 7. You can also add Time and Comments while evaluating individual parameters in the Assessment table.
 8. Submit.
 
-<img class="screenshot" alt="ERPNext Healthcare" src="{{docs_base_url}}/assets/img/healthcare/patient-assessment.png">
-<img class="screenshot" alt="ERPNext Healthcare" src="{{docs_base_url}}/assets/img/healthcare/assessment-parameter.png">
+<img class="screenshot" alt="ERPNext Healthcare" src="{{docs_base_url}}/v13/assets/img/healthcare/patient-assessment.png">
+<img class="screenshot" alt="ERPNext Healthcare" src="{{docs_base_url}}/v13/assets/img/healthcare/assessment-parameter.png">
 
 ## 2. Related Topics
 1. [Patient Assessment Template](/docs/v13/user/manual/en/healthcare/patient_assessment_template)

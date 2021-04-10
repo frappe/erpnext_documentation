@@ -16,7 +16,7 @@ The user can make a Debit Note against the Purchase Invoice or they can directly
 1. The Supplier and Item details will be fetched as set in the Purchase Invoice.
 1. If you had paid partially or fully, make a Payment Entry against the original Purchase Invoice.
 1. Save and Submit.
- <img class="screenshot" alt="Sales Invoice" src="{{docs_base_url}}/assets/img/accounts/debit-note.png">
+ <img class="screenshot" alt="Sales Invoice" src="{{docs_base_url}}/v13/assets/img/accounts/debit-note.png">
 
 The other steps are similar to a [Purchase Invoice](/docs/v13/user/manual/en/accounts/purchase-invoice).
 
@@ -37,7 +37,7 @@ From Supplier Blue Mills, you had purchased Cotton worth Rs 2400 + taxes and at 
 
 Debit Note with payment entry in ERPNext for above example is as below:
 
-<img class="screenshot" alt="Sales Invoice" src="{{docs_base_url}}/assets/img/accounts/debit_note_example1.gif">
+<img class="screenshot" alt="Sales Invoice" src="{{docs_base_url}}/v13/assets/img/accounts/debit_note_example1.gif">
 
 ### 3. Related Topics
 1. [Payment Entry](/docs/v13/user/manual/en/accounts/payment-entry)

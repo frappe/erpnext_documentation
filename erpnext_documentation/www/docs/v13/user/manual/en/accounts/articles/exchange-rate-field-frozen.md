@@ -7,7 +7,7 @@ In your sales and purchase transactions, if the field of Currency Exchange Rate 
 
 * Accounts > Setup > Accounts Settings
 * Uncheck field "Allow Stale Exchange Rates".
-    <img class="screenshot" alt="Exchange Rate Frozen" src="{{docs_base_url}}/assets/img/accounts/exchange-rate-frozen.png">
+    <img class="screenshot" alt="Exchange Rate Frozen" src="{{docs_base_url}}/v13/assets/img/accounts/exchange-rate-frozen.png">
 * Save Account Settings
 * Refresh your ERPNext account
 * Check Sales / Purchase transaction once again

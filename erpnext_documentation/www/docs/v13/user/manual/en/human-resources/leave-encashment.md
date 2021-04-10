@@ -31,7 +31,7 @@ Before creating Leave Encashment, it is advisable you create the following docum
 1. Save and Submit.
 
 	<img class="screenshot" alt="Leave Encashment"
-	src="{{docs_base_url}}/assets/img/human-resources/leave-encashment-new.png">
+	src="{{docs_base_url}}/v13/assets/img/human-resources/leave-encashment-new.png">
 
 
 > **Note:** As you select Employee and Leave Type, Leave Balance and Encashable Days (which is total leave balance minus the threshold days set in Leave Type) will be shown along with the Encashment Amount based on the Leave Encashment per day as configured in the Employee's assigned Salary Structure.

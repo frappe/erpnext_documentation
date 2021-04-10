@@ -6,13 +6,13 @@
 
 During a loan process, if the loan for which the applicant is applying is a secured loan then some kind of security needs to be pledged against that loan. In Loan Security Type master you can define that type of security.
 
-<img class="screenshot" alt="Make Loan Security Type" src="{{docs_base_url}}/assets/img/loan-management/loan-security-type-flow.png">
+<img class="screenshot" alt="Make Loan Security Type" src="{{docs_base_url}}/v13/assets/img/loan-management/loan-security-type-flow.png">
 
 To access the Loan Security Type list, go to:
 > Home > Loan Management > Loan Security > Loan Security Type
 
 
-<img class="screenshot" alt="Loan Security Type" src="{{docs_base_url}}/assets/img/loan-management/loan-security-type.png">
+<img class="screenshot" alt="Loan Security Type" src="{{docs_base_url}}/v13/assets/img/loan-management/loan-security-type.png">
 
 
 A Loan Security Type contains details about:

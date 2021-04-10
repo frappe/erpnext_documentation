@@ -26,7 +26,7 @@ Before creating a Staffing Plan, it is necessary you create the following:
 
 
 	<img class="screenshot" alt="Staffing Plan"
-	src="{{docs_base_url}}/assets/img/human-resources/staffing-plan.png">
+	src="{{docs_base_url}}/v13/assets/img/human-resources/staffing-plan.png">
 
 ## 3. Features
 
@@ -44,7 +44,7 @@ Some of the additional features in the Staffing Plan doctype are explained below
 
 
 	<img class="screenshot" alt="Staffing Plan Detail"
-	src="{{docs_base_url}}/assets/img/human-resources/staffing-plan-detail.png">
+	src="{{docs_base_url}}/v13/assets/img/human-resources/staffing-plan-detail.png">
 
 * **Total Estimated Budget:** Once you enter the recruitment plan for all the designations, Staffing Plan will draw up the total estimated budget as per the plan.
 

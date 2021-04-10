@@ -45,7 +45,7 @@ For the users who are currently following periodic inventory valuation system, a
 
 1. Go to: **Home > Accounting > Company**
 
-    <img class="screenshot" alt="Perpetual Inventory" src="{{docs_base_url}}/assets/img/accounts/perpetual-1.png">
+    <img class="screenshot" alt="Perpetual Inventory" src="{{docs_base_url}}/v13/assets/img/accounts/perpetual-1.png">
 
 #### 2. Related Topics
 1. [Accounting Of Inventory Stock](/docs/v13/user/manual/en/stock/accounting-of-inventory-stock)

@@ -8,7 +8,7 @@ Der **Arbeitsauftrag** wird aus dem **Werkzeug zur Fertigungsplanung** generiert
 
 > Fertigung > Dokumente > Arbeitsauftrag > Neu
 
-<img class="screenshot" alt="Arbeitsauftrag" src="{{docs_base_url}}/assets/img/manufacturing/work-order.png">
+<img class="screenshot" alt="Arbeitsauftrag" src="{{docs_base_url}}/v13/assets/img/manufacturing/work-order.png">
 
 ### Einen Arbeitsauftrag erstellen
 
@@ -24,11 +24,11 @@ Der **Arbeitsauftrag** wird aus dem **Werkzeug zur Fertigungsplanung** generiert
 
 * Als Voreinstellung zieht das System Arbeitsplätze und die Dauer von Arbeitsgängen aus der gewählten Stückliste.
 
-<img class="screenshot" alt="Arbeitsauftrag - Arbeitsgänge" src="{{docs_base_url}}/assets/img/manufacturing/PO-operations.png">
+<img class="screenshot" alt="Arbeitsauftrag - Arbeitsgänge" src="{{docs_base_url}}/v13/assets/img/manufacturing/PO-operations.png">
 
 * Wenn Sie den Arbeitsplatz für einen bestimmten Arbeitsgang im Arbeitsauftrag neu zuordnen möchten, können Sie das tun, bevor Sie den Arbeitsauftrag übertragen.
 
-<img class="screenshot" alt="Arbeitsauftrag - Arbeitsgänge neu zuordnen" src="{{docs_base_url}}/assets/img/manufacturing/PO-reassigning-operations.png">
+<img class="screenshot" alt="Arbeitsauftrag - Arbeitsgänge neu zuordnen" src="{{docs_base_url}}/v13/assets/img/manufacturing/PO-reassigning-operations.png">
 
 * Wählen Sie den betreffenden Arbeitsgang aus und ändern Sie seinen Arbeitsplatz.
 * Sie können auch die Dauer des Arbeitsgangs ändern.
@@ -43,28 +43,28 @@ Der **Arbeitsauftrag** wird aus dem **Werkzeug zur Fertigungsplanung** generiert
 * Das erstellt eine Lagerbuchung mit allen Artikeln, die benötigt werden, um diesen Arbeitsauftrag abzuschliessen. Die Artikel werden an das Fertigungslager übertragen (dieser Prozess fügt basierend auf Ihren Einstellungen Unterbaugruppen mit Stückliste als EINEN Artikel hinzu oder löst die Unterpunkte auf).
 * Klicken Sie auf "Material der Fertigung übergeben".
 
-<img class="screenshot" alt="Materialübertrag" src="{{docs_base_url}}/assets/img/manufacturing/PO-material-transfer.png">
+<img class="screenshot" alt="Materialübertrag" src="{{docs_base_url}}/v13/assets/img/manufacturing/PO-material-transfer.png">
 
 * Geben Sie die Menge des Materials an, das übertragen werden soll.
 
-<img class="screenshot" alt="Materialübertrag - Menge" src="{{docs_base_url}}/assets/img/manufacturing/PO-material-transfer-qty.png">
+<img class="screenshot" alt="Materialübertrag - Menge" src="{{docs_base_url}}/v13/assets/img/manufacturing/PO-material-transfer-qty.png">
 
 * Übertragen Sie die Lagerbuchung.
 
-<img class="screenshot" alt="Lagerbuchung zum Kundenauftrag" src="{{docs_base_url}}/assets/img/manufacturing/PO-SE-for-material-transfer.png">
+<img class="screenshot" alt="Lagerbuchung zum Kundenauftrag" src="{{docs_base_url}}/v13/assets/img/manufacturing/PO-SE-for-material-transfer.png">
 
 * Das an die Fertigung übertragene Material wird basierend auf der Lagerbuchung im Arbeitsauftrag aktualisiert.
 
-<img class="screenshot" alt="Lagerbuchung zum Arbeitsauftrag" src="{{docs_base_url}}/assets/img/manufacturing/PO-material-transfer-updated.png">
+<img class="screenshot" alt="Lagerbuchung zum Arbeitsauftrag" src="{{docs_base_url}}/v13/assets/img/manufacturing/PO-material-transfer-updated.png">
 
 ### Zeitprotokoll erstellen
 
-* Der Fortschritt des Arbeitsauftrages kann über ein [Zeitprotokoll]<img class="screenshot" alt="Make TL against PO" src="{{docs_base_url}}/assets/img/manufacturing/PO-operations-make-tl.png"> mitprotokolliert werden.
+* Der Fortschritt des Arbeitsauftrages kann über ein [Zeitprotokoll]<img class="screenshot" alt="Make TL against PO" src="{{docs_base_url}}/v13/assets/img/manufacturing/PO-operations-make-tl.png"> mitprotokolliert werden.
 * Zeitprotokolle werden zu den Arbeitsgängen des Arbeitsauftrages erstellt.
 * Vorlagen für Zeitprotokolle werden für die eingeplanten Arbeitsgänge zum Zeitpunkt des Übertragens des Arbeitsauftrages erstellt.
 * Um weitere Zeitprotokolle zu einem Arbeitsgang zu erstellen, wählen Sie "Zeitprotokoll erstellen" im betreffenden Arbeitsgang aus.
 
-<img class="screenshot" alt="Zeitprotokoll zum Arbeitsauftrag erstellen" src="{{docs_base_url}}/assets/img/manufacturing/PO-operations-make-tl.png">
+<img class="screenshot" alt="Zeitprotokoll zum Arbeitsauftrag erstellen" src="{{docs_base_url}}/v13/assets/img/manufacturing/PO-operations-make-tl.png">
 
 ### Fertige Erzeugnisse aktualisieren
 
@@ -72,11 +72,11 @@ Der **Arbeitsauftrag** wird aus dem **Werkzeug zur Fertigungsplanung** generiert
 * Das erstellt eine Lagerbuchung, welche alle Unterartikel vom Fertigungslager abzieht und dem Lager "Fertige Erzeugnisse" gutschreibt.
 * Klicken Sie auf "Fertige Erzeugnisse aktualisieren".
 
-<img class="screenshot" alt="Fertigerzeugnisse aktualiseren" src="{{docs_base_url}}/assets/img/manufacturing/PO-FG-update.png">
+<img class="screenshot" alt="Fertigerzeugnisse aktualiseren" src="{{docs_base_url}}/v13/assets/img/manufacturing/PO-FG-update.png">
 
 * Geben Sie die Menge des übertragenen Materials an.
 
-<img class="screenshot" alt="Menge der Fertigerzeugnisse aktualisieren" src="{{docs_base_url}}/assets/img/manufacturing/PO-FG-update-qty.png">
+<img class="screenshot" alt="Menge der Fertigerzeugnisse aktualisieren" src="{{docs_base_url}}/v13/assets/img/manufacturing/PO-FG-update-qty.png">
 
 >Tipp: Sie können einen Arbeitsauftrag auch teilweise fertig stellen, indem Sie über eine Lagerbuchung das Lager Fertige Erzeugnisse aktualisieren.
 
@@ -91,7 +91,7 @@ Der **Arbeitsauftrag** wird aus dem **Werkzeug zur Fertigungsplanung** generiert
 4. Fertigerzeugnisse aktualisieren: Dieser Schritt erstellt eine Lagerbuchung, welche alle Unterartikel vom Fertigungslager abzieht und dem Lager Fertige Erzeugnisse hinzufügt.
 5. Um die zum Arbeitsauftrag erstellten Zeitprotokolle anzusehen, klicken Sie auf "Zeitprotokolle anzeigen".
 
-<img class="screenshot" alt="Arbeitsauftrag anhalten" src="{{docs_base_url}}/assets/img/manufacturing/PO-stop.png">
+<img class="screenshot" alt="Arbeitsauftrag anhalten" src="{{docs_base_url}}/v13/assets/img/manufacturing/PO-stop.png">
 
 * Sie können auch einen angehaltenen Arbeitsauftrag wieder weiter laufen lassen.
 

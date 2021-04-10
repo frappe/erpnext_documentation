@@ -1,9 +1,9 @@
 <!-- add-breadcrumbs -->
 # Scheduling Tool
 
-This tool can be used to create 'Course Schedules'. 
+This tool can be used to create 'Course Schedules'.
 
-<img class="screenshot" alt="Scheduling Tool" src="{{docs_base_url}}/assets/img/education/schedule/scheduling-tool.png">
+<img class="screenshot" alt="Scheduling Tool" src="{{docs_base_url}}/v13/assets/img/education/schedule/scheduling-tool.png">
 
 ## 1. Creating Course Schedules
 
@@ -28,6 +28,6 @@ This tool can be used to create 'Course Schedules'.
         <iframe src='https://www.youtube.com/embed/iy-DBV9jI-A?start=114' frameborder='0' allowfullscreen>
         </iframe>
     </div>
-</div>    
+</div>
 
 {next}

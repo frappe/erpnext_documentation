@@ -5,7 +5,7 @@
 
 > Home > Customization > Form Customization > Custom Script
 
-<img alt="Custom Script" class="screenshot" src="{{docs_base_url}}/assets/img/customize/customize-erpnext-custom-scripts.png">
+<img alt="Custom Script" class="screenshot" src="{{docs_base_url}}/v13/assets/img/customize/customize-erpnext-custom-scripts.png">
 
 ## 1. How to Create a Custom Script
 

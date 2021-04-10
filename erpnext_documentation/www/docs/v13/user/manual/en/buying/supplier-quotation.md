@@ -21,7 +21,7 @@ Before creating and using a Supplier Quotation, it is advised that you create th
 ### 2.1 Supplier Quotation from Material Request
 
 You can make a supplier quotation from a Material Request:
-![Supplier Quotation from Material Receipt]({{docs_base_url}}/assets/img/buying/supplier-quotation-from-mr.png)
+![Supplier Quotation from Material Receipt]({{docs_base_url}}/v13/assets/img/buying/supplier-quotation-from-mr.png)
 
 Or:
 
@@ -38,7 +38,7 @@ The supplier can submit you a quotation himself via ERPNext. To know more about 
 1. Select the Supplier who sent you the quotation.
 1. The Address and Contact will be fetched if you've saved it in the supplier master.
 1. Enter the Item code, select the quantity. Rate will be fetched if you've set the Standard Buying rate for the item in [Item Price](/docs/v13/user/manual/en/stock/item-price).
-    <img class="screenshot" alt="Supplier Quotation" src="{{docs_base_url}}/assets/img/buying/supplier-quotation.png">
+    <img class="screenshot" alt="Supplier Quotation" src="{{docs_base_url}}/v13/assets/img/buying/supplier-quotation.png">
 
 If you have multiple Suppliers who supply you with the same Item, you
 usually send out a [Request for Quotation](/docs/v13/user/manual/en/buying/request-for-quotation) to various Suppliers. In

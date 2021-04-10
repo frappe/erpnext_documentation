@@ -19,7 +19,7 @@ To access Letter Head, go to:
   * Logo Image: Click on the Attach button to attach an image. Once the image is inserted, HTML for it will be generated automatically.
   * Other information (like Address, tax ID, etc.) that you want to put on your Letter Head.
 
-    <img class="screenshot" alt="Print Heading" src="{{docs_base_url}}/assets/img/setup/print/letter-head.png">
+    <img class="screenshot" alt="Print Heading" src="{{docs_base_url}}/v13/assets/img/setup/print/letter-head.png">
 
   > If you want to make this the default Letter Head, click on "Default Letter Head".
 
@@ -31,7 +31,7 @@ You can set the Letter Head based on HTML to make changes to it:
 
 This is how the Letter Head looks in a document's print.
 
-<img class="screenshot" alt="Print Heading" src="{{docs_base_url}}/assets/img/setup/print/letter-head-1.png">
+<img class="screenshot" alt="Print Heading" src="{{docs_base_url}}/v13/assets/img/setup/print/letter-head-1.png">
 
 > Note that Footer will be visible only when the document's print is seen in the PDF. Footer will not be visible in the HTML based print preview.
 

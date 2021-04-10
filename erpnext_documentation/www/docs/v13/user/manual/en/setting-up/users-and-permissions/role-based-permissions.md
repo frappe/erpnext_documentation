@@ -11,7 +11,7 @@ Once roles are assigned to a user, their access can be limited to specific docum
 To start using the Role Permission Manager, go to:
 > Home > Users and Permissions > Role Permissions Manager
 
-<img alt="Manage Read, Write, Create, Submit, Amend access using the Role Permissions Manager" class="screenshot" src="{{docs_base_url}}/assets/img/users-and-permissions/setting-up-permissions-leave-application.png">
+<img alt="Manage Read, Write, Create, Submit, Amend access using the Role Permissions Manager" class="screenshot" src="{{docs_base_url}}/v13/assets/img/users-and-permissions/setting-up-permissions-leave-application.png">
 
 Permissions are applied on a combination of:
 
@@ -45,7 +45,7 @@ Leave Application is a good example that encompasses all areas of a Permission S
 * It should be created by an Employee.
   For this, Employee Role should be given Read, Write, Create permissions.
 
-  <img class="screenshot" alt="Giving Read, Write and Create Permissions to Employee for Leave Application"  src="{{docs_base_url}}/assets/img/users-and-permissions/setting-up-permissions-employee-role.png">
+  <img class="screenshot" alt="Giving Read, Write and Create Permissions to Employee for Leave Application"  src="{{docs_base_url}}/v13/assets/img/users-and-permissions/setting-up-permissions-employee-role.png">
 
 * An **Employee** should only be able to access his/her Leave Application.
   Hence, User Permissions record should be created for each User-Employee combination.
@@ -59,12 +59,12 @@ Leave Application is a good example that encompasses all areas of a Permission S
 * **HR Manager** should be able to see all Leave Applications.
   Create a Permission Rule for HR Manager at Level 0, with Read permissions. Apply User Permissions should be disabled.
 
-  <img class="screenshot" alt="Giving Submit and Cancel permissions to HR Manager for Leave Applications. 'Apply User Permissions' is unchecked to give full access." src="{{docs_base_url}}/assets/img/users-and-permissions/setting-up-permissions-hr-manager-role.png">
+  <img class="screenshot" alt="Giving Submit and Cancel permissions to HR Manager for Leave Applications. 'Apply User Permissions' is unchecked to give full access." src="{{docs_base_url}}/v13/assets/img/users-and-permissions/setting-up-permissions-hr-manager-role.png">
 
 * **Leave Approver** should be able to see and update Leave Applications of employees under him/her.
   Leave Approver is given Read and Write access at Level 0. Relevant Employee Documents should be enlisted in the User Permissions of Leave Approvers. (This effort is reduced for Leave Approvers mentioned in Employee Documents, by programmatically creating User Permission records).
 
-  <img class="screenshot" alt="Giving Read, Write and Submit permissions to Leave Approver for Leave Applications.'Apply User Permissions' is checked to limit access based on Employee." src="{{docs_base_url}}/assets/img/users-and-permissions/setting-up-permissions-leave-approver-role.png">
+  <img class="screenshot" alt="Giving Read, Write and Submit permissions to Leave Approver for Leave Applications.'Apply User Permissions' is checked to limit access based on Employee." src="{{docs_base_url}}/v13/assets/img/users-and-permissions/setting-up-permissions-leave-approver-role.png">
 
 * It should be Approved/Rejected only by HR User or Leave Approver.
   The Status field of a Leave Application is set at Level 1. HR User and Leave Approver are given Read and Write permissions for Level 0, while everyone else (All) are given Read permission for Level 1.
@@ -74,7 +74,7 @@ Leave Application is a good example that encompasses all areas of a Permission S
 * **HR User** should be able to delegate Leave Applications to his/her subordinates.
   HR User is given the right to Set User Permissions. A User with HR User role would be able to define User Permissions on Leave Application for other users.
 
-  <img class="screenshot" alt="Let HR User delegate access to Leave Applications by checking 'Set User Permissions'. This will allow HR User to access User Permissions Manager for 'Leave Application'" src="{{docs_base_url}}/assets/img/users-and-permissions/setting-up-permissions-hr-user-role.png">
+  <img class="screenshot" alt="Let HR User delegate access to Leave Applications by checking 'Set User Permissions'. This will allow HR User to access User Permissions Manager for 'Leave Application'" src="{{docs_base_url}}/v13/assets/img/users-and-permissions/setting-up-permissions-hr-user-role.png">
 
 In case you have correctly assigned the roles but still you're getting errors when accessing documents, refer [this page](/docs/v13/user/manual/en/setting-up/articles/report-permission-error).
 

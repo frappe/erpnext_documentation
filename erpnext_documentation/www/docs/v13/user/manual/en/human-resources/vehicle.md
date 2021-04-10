@@ -15,7 +15,7 @@ To access the Vehicle master, go to:
 1. Save.
 
 
-	<img class="screenshot" alt="Vehicle" src="{{docs_base_url}}/assets/img/human-resources/vehicle-mandatory.png">
+	<img class="screenshot" alt="Vehicle" src="{{docs_base_url}}/v13/assets/img/human-resources/vehicle-mandatory.png">
 
 
 ## 2. Features
@@ -26,14 +26,14 @@ Apart from the aforementioned mandatory features, some additional features that 
 
 Additional Vehicle details such as Chassis No., Acquisition Date, Vehicle Value (Amount), Location, Employee managing the Vehicle and Insurance details can be captured in the Vehicle master.
 
-<img class="screenshot" alt="Vehicle" src="{{docs_base_url}}/assets/img/human-resources/vehicle1.png">
+<img class="screenshot" alt="Vehicle" src="{{docs_base_url}}/v13/assets/img/human-resources/vehicle1.png">
 
 
 ### 2.2 Vehicle Attributes
 
 Additionally, Vehicle attributes like Color, Wheels, Door, Last Carbon Check, Fuel Type and UOM can be saved in the Vehicle master.
 
-<img class="screenshot" alt="Vehicle" src="{{docs_base_url}}/assets/img/human-resources/vehicle2.png">
+<img class="screenshot" alt="Vehicle" src="{{docs_base_url}}/v13/assets/img/human-resources/vehicle2.png">
 
 
 

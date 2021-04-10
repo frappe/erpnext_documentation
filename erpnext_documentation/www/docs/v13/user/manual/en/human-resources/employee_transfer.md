@@ -25,7 +25,7 @@ To access Employee Transfer go to:
 
 > Note: If Create New Employee ID is checked, a new Employee will be created with property changes in Transfer Details table and old Employee will be marked as relieved. Leave allocations for the new Employee has to be manually created from Leave Period.
 
-<img class="screenshot" alt="Employee Transfer" src="{{docs_base_url}}/assets/img/human-resources/employee-transfer.png">
+<img class="screenshot" alt="Employee Transfer" src="{{docs_base_url}}/v13/assets/img/human-resources/employee-transfer.png">
 
 
 

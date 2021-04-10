@@ -22,7 +22,7 @@ Before creating and using Asset Maintenance, it is advised to create the followi
 
 1. [Asset](/docs/v13/user/manual/en/asset/asset)
 1. Go to an Asset master and check the 'Maintenance Required' checkbox in Asset to enable Asset Maintenance.
-<img class="screenshot" alt="Asset" src="{{docs_base_url}}/assets/img/asset/maintenance_required.png">
+<img class="screenshot" alt="Asset" src="{{docs_base_url}}/v13/assets/img/asset/maintenance_required.png">
 1. [Asset Maintenance Team](/docs/v13/user/manual/en/asset/asset-maintenance-team)
 
 ## 2. How to create Asset Maintenance
@@ -36,7 +36,7 @@ For each asset, create an Asset Maintenance record listing all the associated ma
   1. Select a periodicity for which the task needs to be carried out. The next due date will be calculated.
 1. Save.
 1. After saving, you can assign the task to a user.
-  <img class="screenshot" alt="Asset" src="{{docs_base_url}}/assets/img/asset/asset_maintenance.png">
+  <img class="screenshot" alt="Asset" src="{{docs_base_url}}/v13/assets/img/asset/asset_maintenance.png">
 
 If the Item is serialized, the Serial Number can be entered.
 

@@ -21,10 +21,10 @@ To access the POS Profile list, go to:
 1. Select a [Naming Series](/docs/v13/user/manual/en/setting-up/settings/naming-series).
 1. Set a Write Off Account and Write Off Cost Center to which the transactions will be recorded.
 1. Set up payment modes in the table, the default will be cash if nothing is set here. Only the modes set here will be available when using POS. After adding payment modes, set one of them as the default payment method by ticking the checkbox.
- <img class="screenshot" alt="POS Setting" src="{{docs_base_url}}/assets/img/pos-setting/default_mop.png">
+ <img class="screenshot" alt="POS Setting" src="{{docs_base_url}}/v13/assets/img/pos-setting/default_mop.png">
 1. Set the default amounts for the payment methods (recommended: 0).
 1. Save.
- <img class="screenshot" alt="POS Setting" src="{{docs_base_url}}/assets/img/pos-setting/pos_profile.png">
+ <img class="screenshot" alt="POS Setting" src="{{docs_base_url}}/v13/assets/img/pos-setting/pos_profile.png">
 
 ### 1.1 Additional options when creating a POS Profile
 
@@ -58,7 +58,7 @@ be set for all users. To understand how POS works, visit the [Point of Sale](/do
 ### 2.2 Setting Item Group and Customer Group
 On setting an Item Group/Customer Group in a POS Profile, the group will be automatically selected when making transactions with the POS Profile.
 
-<img class="screenshot" alt="POS Setting" src="{{docs_base_url}}/assets/img/pos-setting/item_customer_group.png">
+<img class="screenshot" alt="POS Setting" src="{{docs_base_url}}/v13/assets/img/pos-setting/item_customer_group.png">
 
 ### 2.3 Print Settings
 

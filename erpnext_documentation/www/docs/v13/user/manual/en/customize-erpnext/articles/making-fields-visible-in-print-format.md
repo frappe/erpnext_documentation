@@ -13,13 +13,13 @@ Let's assume in the Sales order, we need to make Shipping Address field visible 
 
 As per our scenario, Sales Order will be selected as Document Type.
 
-<img alt="Document Type" class="screenshot" src="{{docs_base_url}}/assets/img/customize/customize-make-fields-visible.png">
+<img alt="Document Type" class="screenshot" src="{{docs_base_url}}/v13/assets/img/customize/customize-make-fields-visible.png">
 
 #### Step 3: Disable Print Hide
 
 Click to open field to be made visible in the Standard Print Format. Disable **Print Hide** field.
 
-<img alt="Uncheck Print Hide " class="screenshot" src="{{docs_base_url}}/assets/img/customize/customize-visible in print.gif">
+<img alt="Uncheck Print Hide " class="screenshot" src="{{docs_base_url}}/v13/assets/img/customize/customize-visible in print.gif">
 
 #### Step 4: Update
 

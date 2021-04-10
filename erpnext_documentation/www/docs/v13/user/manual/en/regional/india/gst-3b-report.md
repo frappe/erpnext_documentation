@@ -12,7 +12,7 @@ Enter the following details to generate the report:
 3. Year
 4. Month
 
-<img class="screenshot" alt="GST Settings" src="{{docs_base_url}}/assets/img/regional/india/gstr-3b-input.png">
+<img class="screenshot" alt="GST Settings" src="{{docs_base_url}}/v13/assets/img/regional/india/gstr-3b-input.png">
 
 Click Save to generate the report. An existing report can also be updated/regenerated on clicking
 save.
@@ -20,11 +20,11 @@ save.
 After saving you can see the JSON output in the text field below which can also be downloaded by
 using the Download JSON button in the top right corner as shown in the image below.
 
-<img class="screenshot" alt="GST Settings" src="{{docs_base_url}}/assets/img/regional/india/gstr-3b-report.png">
+<img class="screenshot" alt="GST Settings" src="{{docs_base_url}}/v13/assets/img/regional/india/gstr-3b-report.png">
 
 If you want to print the report it can also be printed and viewed in GSTR3B Form by clicking on View Form as shown below
 
-<img class="screenshot" alt="GST Settings" src="{{docs_base_url}}/assets/img/regional/india/gstr-3b-download.png">
+<img class="screenshot" alt="GST Settings" src="{{docs_base_url}}/v13/assets/img/regional/india/gstr-3b-download.png">
 
 Note: To make sure the report is calculated accurately and correctly please make sure of the following things.
 
@@ -32,7 +32,7 @@ Note: To make sure the report is calculated accurately and correctly please make
 
 2. Nil rated, exempted or non-gst items have Is nill rated or Is Non GST checkbox is checked in the item master.
 
-<img class="screenshot" alt="GST Settings" src="{{docs_base_url}}/assets/img/regional/india/gst-item.png">
+<img class="screenshot" alt="GST Settings" src="{{docs_base_url}}/v13/assets/img/regional/india/gst-item.png">
 
 3. Proper account heads are entered in GST Settings.
 

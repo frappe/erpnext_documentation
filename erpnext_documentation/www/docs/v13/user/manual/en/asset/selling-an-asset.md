@@ -10,7 +10,7 @@ On submission of the Sales Invoice, following accounting entries will take place
 - "Accumulated Depreciation Account" will be debited by the total depreciated amount till now.
 - "Gain/Loss Account on Asset Disposal" will be credited/debited based on gain/loss amount. The Gain/Loss account can be set in Company record.
 
-<img class="screenshot" alt="Asset" src="{{docs_base_url}}/assets/img/asset/asset-sales.png">
+<img class="screenshot" alt="Asset" src="{{docs_base_url}}/v13/assets/img/asset/asset-sales.png">
 
 ### Related Topics
 1. [Asset Value Adjustment](/docs/v13/user/manual/en/asset/asset-value-adjustment)

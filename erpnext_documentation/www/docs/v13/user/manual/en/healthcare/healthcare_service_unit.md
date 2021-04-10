@@ -19,13 +19,13 @@ To create a Healthcare Service Unit, go to:
 
 For Example, Healthcare Service Unit for the type "Healthcare Practitioner Consulting Rooms":
 
-<img class="screenshot" alt="ERPNext Healthcare" src="{{docs_base_url}}/assets/img/healthcare/healthcare_service_unit_1.png">
+<img class="screenshot" alt="ERPNext Healthcare" src="{{docs_base_url}}/v13/assets/img/healthcare/healthcare_service_unit_1.png">
 
 ## 2. Healthcare Service Unit Tree View
 
 It is also possible that you can group and organize all the service units in a hierarchical manner and edit them from the tree view.
 
-<img class="screenshot" alt="ERPNext Healthcare" src="{{docs_base_url}}/assets/img/healthcare/healthcare_service_unit.png">
+<img class="screenshot" alt="ERPNext Healthcare" src="{{docs_base_url}}/v13/assets/img/healthcare/healthcare_service_unit.png">
 
 > This Form has been Changed in Version 13
 

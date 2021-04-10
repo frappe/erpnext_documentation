@@ -48,7 +48,7 @@ After saving a Warehouse, you'll see the following options:
 ### 2.1 Tree View
 You can also switch to 'Tree' View which will show all the group and child Warehouses.
 
-<img class="screenshot" alt="Warehouse" src="{{docs_base_url}}/assets/img/stock/warehouse-tree.png">
+<img class="screenshot" alt="Warehouse" src="{{docs_base_url}}/v13/assets/img/stock/warehouse-tree.png">
 
 ### 2.2 Warehouse Account
 In ERPNext, if you enable [Perpetual Inventory](/docs/v13/user/manual/en/stock/perpetual-inventory), every Warehouse must belong to a specific company to maintain

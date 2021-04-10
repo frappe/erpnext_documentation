@@ -11,7 +11,7 @@ A Material Request can have the following purposes:
 * **Manufacture:** If the material being requested is to be produced.
 * **Customer Provided**: If the material being requested is to be provided by Customer. To know more about this, visit the [Customer Provided Item](/docs/v13/user/manual/en/manufacturing/articles/customer-provided-items) page.
 
-<img class="screenshot" alt="Material Request" src="{{docs_base_url}}/assets/img/buying/material-request-flowchart.png">
+<img class="screenshot" alt="Material Request" src="{{docs_base_url}}/v13/assets/img/buying/material-request-flowchart.png">
 
 To access the Material Request list, go to:
 > Home > Stock > Stock Transactions > Material Request
@@ -92,7 +92,7 @@ You can create the following documents:
 * [Purchase Order](/docs/v13/user/manual/en/buying/purchase-order)
 * [Supplier Quotation](/docs/v13/user/manual/en/buying/supplier-quotation)
 
-<img class="screenshot" alt="Material Request" src="{{docs_base_url}}/assets/img/stock/material-request.png">
+<img class="screenshot" alt="Material Request" src="{{docs_base_url}}/v13/assets/img/stock/material-request.png">
 
 
 ### 2.7 Automatically generate Material Requests

@@ -22,7 +22,7 @@ Before creating an Attendance Request, it is advised that you create the followi
 1. Save and Submit.
 
 
-    <img class="screenshot"  alt="Attendance Request" src="{{docs_base_url}}/assets/img/human-resources/attendance-request.png">
+    <img class="screenshot"  alt="Attendance Request" src="{{docs_base_url}}/v13/assets/img/human-resources/attendance-request.png">
 
 > **Note 1:** You can check the 'Half Day' checkbox and enter the Date in case the attendance is for Half Day.
 
@@ -32,15 +32,15 @@ Before creating an Attendance Request, it is advised that you create the followi
 
 
 
-<img class="screenshot"  alt="Attendance Request Submit" src="{{docs_base_url}}/assets/img/human-resources/attendance-request-submission.png">
+<img class="screenshot"  alt="Attendance Request Submit" src="{{docs_base_url}}/v13/assets/img/human-resources/attendance-request-submission.png">
 
 As seen below, respective Attendance records are linked with the submitted Attendance Request.
 
- <img class="screenshot"  alt="Attendance Request Linked" src="{{docs_base_url}}/assets/img/human-resources/attendance-request-link.png">
+ <img class="screenshot"  alt="Attendance Request Linked" src="{{docs_base_url}}/v13/assets/img/human-resources/attendance-request-link.png">
 
 If you cancel the Attendance Request, the linked Attendance documents created will be cancelled as well.
 
- <img class="screenshot"  alt="Attendance Request Cancelled" src="{{docs_base_url}}/assets/img/human-resources/attendance-request-cancelled.png">
+ <img class="screenshot"  alt="Attendance Request Cancelled" src="{{docs_base_url}}/v13/assets/img/human-resources/attendance-request-cancelled.png">
 
 
 ## 3. Related Topics

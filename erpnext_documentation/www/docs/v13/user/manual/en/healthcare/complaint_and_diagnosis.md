@@ -8,14 +8,14 @@ You can also configure the masters manually by going to,
 
 > Home > Healthcare > Consultation > Complaint
 
-<img class="screenshot" alt="ERPNext Healthcare" src="{{docs_base_url}}/assets/img/healthcare/complaint.png">
+<img class="screenshot" alt="ERPNext Healthcare" src="{{docs_base_url}}/v13/assets/img/healthcare/complaint.png">
 
 > Home > Healthcare > Consultation > Diagnosis
 
-<img class="screenshot" alt="ERPNext Healthcare" src="{{docs_base_url}}/assets/img/healthcare/diagnosis.png">
+<img class="screenshot" alt="ERPNext Healthcare" src="{{docs_base_url}}/v13/assets/img/healthcare/diagnosis.png">
 
 You can then select the Complaints and Diagnosis in the Patient Encounter Screen:
 
-<img class="screenshot" alt="ERPNext Healthcare" src="{{docs_base_url}}/assets/img/healthcare/patient_encounter_1.png">
+<img class="screenshot" alt="ERPNext Healthcare" src="{{docs_base_url}}/v13/assets/img/healthcare/patient_encounter_1.png">
 
 {next}

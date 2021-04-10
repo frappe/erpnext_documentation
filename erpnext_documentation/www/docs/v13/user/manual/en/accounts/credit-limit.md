@@ -23,7 +23,7 @@ The order of precedence for checking Credit Limit is as follows:
 1. If you leave the Credit Limit as the default, i.e., 0, it has no effect.
 1. Save.
 
-    <img class="screenshot" alt="Credit Limit" src="{{docs_base_url}}/assets/img/accounts/customer-credit-limit.png">
+    <img class="screenshot" alt="Credit Limit" src="{{docs_base_url}}/v13/assets/img/accounts/customer-credit-limit.png">
 
 ## 2. Features
 ### 2.1 Credit Controller
@@ -34,13 +34,13 @@ To set the Credit Controller role:
 1. Go to: **Accounting > Settings > Accounts Settings**
 1. Set the role in Credit Controller field.
 
-<img class="screenshot" alt="Credit Limit" src="{{docs_base_url}}/assets/img/accounts/credit_controller_role.png">
+<img class="screenshot" alt="Credit Limit" src="{{docs_base_url}}/v13/assets/img/accounts/credit_controller_role.png">
 
 ### 2.2 Bypass Credit Limit Check for Sales Order
 
 For specific customers, you can set the credit limit to be checked against the cumulative amount of the outstanding sales invoices and not the sales orders. You can do so by ticking 'Bypass credit limit check at Sales Order' checkbox in 'Credit Limit and Payment Terms' section of the customer.
 
-<img class="screenshot" alt="Customer Credit Limit" src="{{docs_base_url}}/assets/img/accounts/customer-credit-limit-bypass.png">
+<img class="screenshot" alt="Customer Credit Limit" src="{{docs_base_url}}/v13/assets/img/accounts/customer-credit-limit-bypass.png">
 
 
 ### 2.3 Credit Limit for Customer Groups

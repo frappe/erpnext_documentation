@@ -22,7 +22,7 @@ Before creating and using an Operation, it is advised that you create the follow
 1. Save.
 
 Once saved, the following can be created against an Operation:
-<img class="screenshot" alt="Operation" src="{{docs_base_url}}/assets/img/manufacturing/operation.png">
+<img class="screenshot" alt="Operation" src="{{docs_base_url}}/v13/assets/img/manufacturing/operation.png">
 
 ## 3. Video
 

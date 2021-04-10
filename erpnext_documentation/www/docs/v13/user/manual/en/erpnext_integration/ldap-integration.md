@@ -58,7 +58,7 @@ There are many other non-mandatory fields that you can use to map your LDAP user
   * Phone
   * Mobile
 
-<img class="screenshot" alt="LDAP Settings" src="{{docs_base_url}}/assets/img/setup/integrations/ldap_settings.png">
+<img class="screenshot" alt="LDAP Settings" src="{{docs_base_url}}/v13/assets/img/setup/integrations/ldap_settings.png">
 
 Once your settings are correct, you can click the `Enabled` checkbox at the top. When attempting to enable LDAP, ERPNext will try and connect to the LDAP server to ensure the settings are correct.  If it fails, you will not be able to enable LDAP and will receive an error message.
 
@@ -66,7 +66,7 @@ The error message will indicate the issue that needs to be resolved to continue.
 
 After setting enabling LDAP, on the login screen, the system enables **Login Via LDAP** option.
 
-<img class="screenshot" alt="LOGIN via LDAP" src="{{docs_base_url}}/assets/img/setup/integrations/login_via_ldap.png">
+<img class="screenshot" alt="LOGIN via LDAP" src="{{docs_base_url}}/v13/assets/img/setup/integrations/login_via_ldap.png">
 
 ### 2.1 LDAP Security
 
@@ -101,7 +101,7 @@ Open LDAP may need this field to be enabled on your LDAP server. Please see exam
 
 > Note that all ERPNext roles will be checked each time a user logs on and will be removed or added to the user's permissions.
 
-<img class="screenshot" alt="LDAP Group Mappings" src="{{docs_base_url}}/assets/img/setup/integrations/ldap_group_mappings.png">
+<img class="screenshot" alt="LDAP Group Mappings" src="{{docs_base_url}}/v13/assets/img/setup/integrations/ldap_group_mappings.png">
 
 In the LDAP Settings area, there are two dropdowns.
 1. SSL/TLS Mode - set this to **StartTLS** to connect to your LDAP server using StartTLS. If your LDAP server does not support StartTLS, setting this to StartTLS will result in an error `StartTLS is not supported`. Check the configuration on your LDAP server if you receive this error.

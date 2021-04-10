@@ -24,7 +24,7 @@ Before creating a Leave Policy Assignment, it is advisable to create the followi
 1. Save and Submit.
 
 <img class="screenshot" alt="Leave Policy Assignment"
-	src="{{docs_base_url}}/assets/img/human-resources/leave-policy-assignment.png">
+	src="{{docs_base_url}}/v13/assets/img/human-resources/leave-policy-assignment.png">
 
 ## 3. Granting Leaves
 
@@ -32,12 +32,12 @@ Once the information is saved, the Leave Policy Assignment will also be used as 
 
 
 <img class="screenshot" alt="Grant Leaves"
-	src="{{docs_base_url}}/assets/img/human-resources/leave-policy-assignment-grant-leave.png">
+	src="{{docs_base_url}}/v13/assets/img/human-resources/leave-policy-assignment-grant-leave.png">
 
 On clicking the "Grant Leave" button, Leave Allocation will be automatically created based on the [Leave Policy](/docs/v13/user/manual/en/human-resources/leave-policy) as shown below.
 
 <img class="screenshot" alt="Leave Allocations"
-	src="{{docs_base_url}}/assets/img/human-resources/granted-leaves.png">
+	src="{{docs_base_url}}/v13/assets/img/human-resources/granted-leaves.png">
 
 >**Note:** The Grant Leave button will appear only if there are no leaves granted or there is no allocation against a current Leave Policy Assignment.
 
@@ -57,8 +57,8 @@ ERPNext also allows creating multiple Leave Policy Assignment for multiple emplo
 1. Select Leave Policy and Effective From and Effective To dates.
 1. Click on Assign.
 
-<img class="screenshot" alt="Bulk Leave Policy Assignment" src="{{docs_base_url}}/assets/img/human-resources/bulk-leave-policy-assignment.png">
-	src="{{docs_base_url}}/assets/img/human-resources/bulk-leave-policy-assignment.png">
+<img class="screenshot" alt="Bulk Leave Policy Assignment" src="{{docs_base_url}}/v13/assets/img/human-resources/bulk-leave-policy-assignment.png">
+	src="{{docs_base_url}}/v13/assets/img/human-resources/bulk-leave-policy-assignment.png">
 
 ### 5.2 Granting leaves to multiple employees
 
@@ -70,4 +70,4 @@ Leaves can be granted based on multiple Leave Policy Assignments to multiple emp
 1. Click on Grant Leaves.
 
 <img class="screenshot" alt="Leave Allocations"
-	src="{{docs_base_url}}/assets/img/human-resources/granting-leave-to-multiple-employee.png">
+	src="{{docs_base_url}}/v13/assets/img/human-resources/granting-leave-to-multiple-employee.png">

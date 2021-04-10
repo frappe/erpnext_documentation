@@ -2,7 +2,7 @@
 # Konteneinstellungen
 
 
-<img class="screenshot" alt="Konteneinstellungen" src="{{docs_base_url}}/assets/img/accounts/account-settings.png">
+<img class="screenshot" alt="Konteneinstellungen" src="{{docs_base_url}}/v13/assets/img/accounts/account-settings.png">
 
 * Konten gesperrt bis: Sperren Sie Konten-Transaktionen bis zu einem bestimmten Datum. Niemand bis auf die angegebene Rolle kann dann Buchungen zu diesem Konto erstellen oder verändern.
 

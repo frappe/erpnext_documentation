@@ -17,7 +17,7 @@ To access the Accounting Dimension Filter list, go to:
 1. Add accounts on which restriction will be applied in the Accounts table. Optionally you can also check the "Is Mandatory" checkbox if the accounting dimension has to be made mandatory for any specific account.
 1. Add dimension values in the Dimensions table that will be allowed or restricted for the mentioned accounts.
 
-<img alt="Create accounting dimension filter" class="screenshot" src="{{docs_base_url}}/assets/img/accounts/accounting-dimension-filter.png">
+<img alt="Create accounting dimension filter" class="screenshot" src="{{docs_base_url}}/v13/assets/img/accounts/accounting-dimension-filter.png">
 
 
 ## 2. Features
@@ -26,15 +26,15 @@ To access the Accounting Dimension Filter list, go to:
 
 Based on the restrictions applied on the account, only allowed dimensions will be filtered and shown in the transactions.
 
-<img alt="Filter Apply" class="screenshot" src="{{docs_base_url}}/assets/img/accounts/accounting-dimension-filter-apply.png">
+<img alt="Filter Apply" class="screenshot" src="{{docs_base_url}}/v13/assets/img/accounts/accounting-dimension-filter-apply.png">
 
 ### 2.2 Validations for Invalid and Mandatory Dimensions
 
 In case any mandatory dimension is missing or a restricted dimension is tagged against any applicable account, the system won't allow submitting that transaction until the correct accounting dimension is selected.
 
-<img alt="Invalid Dimension" class="screenshot" src="{{docs_base_url}}/assets/img/accounts/invalid-dimension.png">
+<img alt="Invalid Dimension" class="screenshot" src="{{docs_base_url}}/v13/assets/img/accounts/invalid-dimension.png">
 
-<img alt="Mandatory Dimension" class="screenshot" src="{{docs_base_url}}/assets/img/accounts/mandatory-dimension.png">
+<img alt="Mandatory Dimension" class="screenshot" src="{{docs_base_url}}/v13/assets/img/accounts/mandatory-dimension.png">
 
 
 ### Related Topics

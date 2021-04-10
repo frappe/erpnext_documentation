@@ -29,7 +29,7 @@ To create a new Employee Tax Exemption Declaration:
 1. Enter the Maximum Exemption Amount and Declared Amount.
 1. Save and Submit.
 
-    <img class="screenshot" alt="Employee Tax Exemption Declaration" src="{{docs_base_url}}/assets/img/human-resources/employee-tax-exemption-declaration.png">
+    <img class="screenshot" alt="Employee Tax Exemption Declaration" src="{{docs_base_url}}/v13/assets/img/human-resources/employee-tax-exemption-declaration.png">
 
 The Total Exemption Amount will be exempted from annual taxable earnings of the employee while calculating the tax deductions in Payroll.
 
@@ -43,7 +43,7 @@ Exemptions from taxable salary are usually restricted to spendings on particular
 
 You can configure Employee Tax Exemption Category by going to, **Employee Tax and Benefits > Employee Tax Exemption Category**
 
- <img class="screenshot" alt="Employee Tax Exemption Category" src="{{docs_base_url}}/assets/img/human-resources/employee-tax-exemption-sub-category1.png">
+ <img class="screenshot" alt="Employee Tax Exemption Category" src="{{docs_base_url}}/v13/assets/img/human-resources/employee-tax-exemption-sub-category1.png">
 
 
 ### 3.2 Employee Tax Exemption Sub-Category
@@ -52,7 +52,7 @@ Under each category, there could be many heads for which the exemptions are allo
 
 You can configure Employee Tax Exemption Category by going to, **Employee Tax and Benefits > Employee Tax Exemption Sub-Category**
 
- <img class="screenshot" alt="Employee Tax Exemption Category" src="{{docs_base_url}}/assets/img/human-resources/employee-tax-exemption-category1.png">
+ <img class="screenshot" alt="Employee Tax Exemption Category" src="{{docs_base_url}}/v13/assets/img/human-resources/employee-tax-exemption-category1.png">
 
 
 ### 3.3 HRA Exemption (Regional - India)
@@ -70,7 +70,7 @@ Enter the Monthly House Rent and check the 'Rented in Metro City' checkbox if ap
 Once the declaration is submitted, you can submit the proof of your tax exemption by clicking on the _Submit Proof_ button.
 
 
-<img class="screenshot" alt="Employee Tax Exemption Declaration" src="{{docs_base_url}}/assets/img/human-resources/hra-exemption.png">
+<img class="screenshot" alt="Employee Tax Exemption Declaration" src="{{docs_base_url}}/v13/assets/img/human-resources/hra-exemption.png">
 
 > Note: HRA component needs to be configured in Company master under HRA Settings sections for the HRA exemption to work.
 

@@ -10,7 +10,7 @@ support@erpnext.com and it will automatically create an Issue in our system.
 To access the Issue list, go to:
 > Home > Support > Issues > Issue
 
-<img class="screenshot" alt="Issue" src="{{docs_base_url}}/assets/img/support/issue.png">
+<img class="screenshot" alt="Issue" src="{{docs_base_url}}/v13/assets/img/support/issue.png">
 
 ## 1. Prerequisites
 Before creating and using Issues, it is advised that you create the following first:
@@ -58,7 +58,7 @@ User can select the [Service Level Agreement](/docs/v13/user/manual/en/support/s
 * The Priority can be changed to escalate the Issue. The priorities need to be specified in the Service Level Agreement.
 * If needed, the Service Level Agreement can be reset by clicking on the **Reset Service Level Agreement** button in Issues shown as follows:
 
-<img class="screenshot" alt="Issue" src="{{docs_base_url}}/assets/img/support/iss.gif">
+<img class="screenshot" alt="Issue" src="{{docs_base_url}}/v13/assets/img/support/iss.gif">
 
 ### 3.3 Response
 * **Mins to First Response**: Time in minutes from when the Issue was created to when the first reply was sent.
@@ -67,7 +67,7 @@ User can select the [Service Level Agreement](/docs/v13/user/manual/en/support/s
 
 * **Average Response Time**: The average time taken to respond to the Customer. This is calculated by taking the average of all time spans between Received and Sent Communications. This field will be updated on every reply sent to the customer.
 
-<img class="screenshot" alt="Issue" src="{{docs_base_url}}/assets/img/support/response.png">
+<img class="screenshot" alt="Issue" src="{{docs_base_url}}/v13/assets/img/support/response.png">
 
 ### 3.4 Reference
 User can filter the issues based on these fields linked to the Issue:
@@ -90,7 +90,7 @@ User can filter the issues based on these fields linked to the Issue:
 
 The Resolution Time and User Resolution Time metrics are set on "Close". These metrics reset automatically when the Issue reopens or splits.
 
-<img class="screenshot" alt="Issue" src="{{docs_base_url}}/assets/img/support/resolution.png">
+<img class="screenshot" alt="Issue" src="{{docs_base_url}}/v13/assets/img/support/resolution.png">
 
 #### Via Customer Portal
 If the Customer raising the Issue is a Website User (no access to modules), this checkbox will be ticked to indicate that.

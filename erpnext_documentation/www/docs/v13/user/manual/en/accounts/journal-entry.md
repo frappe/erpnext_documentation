@@ -25,7 +25,7 @@ To access the Journal Entry list, go to:
 1. Note that, in the end, total debit and credit amounts should add up to be the same.
 1. Save and Submit.
 
-  <img class="screenshot" alt="Journal Entry" src="{{docs_base_url}}/assets/img/accounts/journal-entry.png">
+  <img class="screenshot" alt="Journal Entry" src="{{docs_base_url}}/v13/assets/img/accounts/journal-entry.png">
 
 **Finance Book**: You can post this entry to a specific [Finance Book](/docs/v13/user/manual/en/accounts/finance-book). On leaving this field blank, this Journal Entry will show up in all Finance Books.
 
@@ -67,7 +67,7 @@ Following are the documents that can be selected in the Journal Entry under Refe
 ### 2.2 Reverse Journal Entry
 In any submitted Journal Entry, there is a dedicated button to reverse the Journal Entry. On clicking the 'Reverse Journal Entry' button, the system creates a new Journal Entry by reversing debit and credit amount against the respective accounts.
 
-<img alt="Reverse Journal Entry" class="screenshot" src="{{docs_base_url}}/assets/img/accounts/reverse-journal-entry.png">
+<img alt="Reverse Journal Entry" class="screenshot" src="{{docs_base_url}}/v13/assets/img/accounts/reverse-journal-entry.png">
 
 ### 2.3 Difference Entry
 The “Difference” is the difference that remains after summing all debit and credit amounts.

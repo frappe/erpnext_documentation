@@ -27,7 +27,7 @@ Before creating a Job Opening, it is advisable you create the following:
 1. Save.
 
 
-    <img class="screenshot" alt="Job Opening" src="{{docs_base_url}}/assets/img/human-resources/job-opening.png">
+    <img class="screenshot" alt="Job Opening" src="{{docs_base_url}}/v13/assets/img/human-resources/job-opening.png">
 
 Once the Job Opening is saved, you can directly create a new [Job Applicant](/docs/v13/user/manual/en/human-resources/job-opening) from the dashboard.
 

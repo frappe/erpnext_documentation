@@ -48,19 +48,19 @@ In the Supplier table, on expanding a row with the inverted triangle, you'll see
 ### 3.3 Link to Material Requests:
 When you click on **Tools > Link to Material Requests**, it links the Request for Quotation to available Material Requests. The items should be the same in the Request for Quotation and the Material Request.
 
-![Link to Material Request]({{docs_base_url}}/assets/img/buying/link-to-material-request.png)
+![Link to Material Request]({{docs_base_url}}/v13/assets/img/buying/link-to-material-request.png)
 
 Now, when the Request for Quotation is saved, you can see in the Dashboard that it is linked to the Material Request.
 If there are multiple Material Requests with the same items, then the link will be created with the newest Material Request.
 
 ### 3.4 Email Preview
 In the 'Email Details' section, of a Draft Request for Quotation, there is a provision to build and preview your email to be sent to the Supplier.
-![Email Details Section]({{docs_base_url}}/assets/img/buying/email-details-section.png)
+![Email Details Section]({{docs_base_url}}/v13/assets/img/buying/email-details-section.png)
 
 Enter any additional messages for the Supplier in the 'Message for Supplier' field. This field can be auto-filled using the 'Email Template' field.
 
 A salutation can be added and the 'Subject' field can be changed as well. Once done, you can click on the 'Preview Email' button and see a preview of the email which will be sent.
-![Preview Email]({{docs_base_url}}/assets/img/buying/email-preview.png)
+![Preview Email]({{docs_base_url}}/v13/assets/img/buying/email-preview.png)
 
 ### 3.5 Terms and Conditions
 
@@ -82,11 +82,11 @@ After creation of Request for Quotation, there are two ways to generate Supplier
 
 1. Open Request for Quotation and click on **Supplier Quotation > Create**.
 
-    ![Supplier Quotation from RFQ]({{docs_base_url}}/assets/img/buying/make-supplier-quotation-from-rfq.png)
+    ![Supplier Quotation from RFQ]({{docs_base_url}}/v13/assets/img/buying/make-supplier-quotation-from-rfq.png)
 
 2. Select the Supplier, click on the supplier again. In this page, click on the + next to 'Supplier Quotation'. A new Supplier Quotation page will be opened, user has to enter the quantity, rate and submit it.
 
-    ![Supplier Quotation from Supplier]({{docs_base_url}}/assets/img/buying/supplier-quotation-from-sup.png)
+    ![Supplier Quotation from Supplier]({{docs_base_url}}/v13/assets/img/buying/supplier-quotation-from-sup.png)
 
 ### 4.2 Supplier Quotation from Supplier
 
@@ -96,22 +96,22 @@ After creation of Request for Quotation, there are two ways to generate Supplier
 
     **If the Supplier's account is not present**: The system will create the Supplier's account and send details to the Supplier. The Supplier will need to click on the link (Password Update) present in the email. After the password update, the Supplier can access their portal with the 'Request for Quotation' form. The Supplier will be created as a Website User.
 
-    ![Supplier email if account not present]({{docs_base_url}}/assets/img/buying/supplier-email-with-update-password.png)
+    ![Supplier email if account not present]({{docs_base_url}}/v13/assets/img/buying/supplier-email-with-update-password.png)
 
 
     **If Supplier's account is present**: The system will send a Request for Quotation link to the Supplier. The Supplier must log in using his credentials to view the Request for Quotation form on the portal.
 
-    ![Supplier email if account present]({{docs_base_url}}/assets/img/buying/supplier-email-normal.png)
+    ![Supplier email if account present]({{docs_base_url}}/v13/assets/img/buying/supplier-email-normal.png)
 
 3. Either way, when the Supplier logs in, the following screen will be shown to them. From here they can send you a quotation:
 
-    ![Supplier Quotation Screen]({{docs_base_url}}/assets/img/buying/rfq-supplier-quotation.png)
+    ![Supplier Quotation Screen]({{docs_base_url}}/v13/assets/img/buying/rfq-supplier-quotation.png)
 
     The Supplier has to enter the amount and notes (payment terms) on the form and click on Submit. In the Quotations section, previous quotations will be visible.
 
 4. On submission, ERPNext will create a Supplier Quotation (draft mode) against the Supplier. The user has to review the Supplier Quotation and submit it. When all the items from the Request for Quotation have been quoted by a Supplier, the quote status is updated to 'Received' in the 'Suppliers' table of the Request for Quotation.
 
-    ![RFQ status after supplier quote]({{docs_base_url}}/assets/img/buying/rfq-supplier-quoted.png)
+    ![RFQ status after supplier quote]({{docs_base_url}}/v13/assets/img/buying/rfq-supplier-quoted.png)
 
 Read [Supplier Quotation](/docs/v13/user/manual/en/buying/supplier-quotation) to know more.
 

@@ -11,7 +11,7 @@ To view and change the settings, go to:
 
 ## 1. Out-Patient Settings
 
-<img class="screenshot" alt="ERPNext Healthcare" src="{{docs_base_url}}/assets/img/healthcare/healthcare_settings_1.png">
+<img class="screenshot" alt="ERPNext Healthcare" src="{{docs_base_url}}/v13/assets/img/healthcare/healthcare_settings_1.png">
 
 * **Patient Name By**: By default Patient document uses naming series for naming but you can also opt to change this to "Patient Name" if required.
 
@@ -29,7 +29,7 @@ To view and change the settings, go to:
 
 ## 2. Inpatient Settings
 
-<img class="screenshot" alt="ERPNext Healthcare" src="{{docs_base_url}}/assets/img/healthcare/inpatient-settings.png">
+<img class="screenshot" alt="ERPNext Healthcare" src="{{docs_base_url}}/v13/assets/img/healthcare/inpatient-settings.png">
 
 * **Allow Discharge Despite Unbilled Healthcare Services**: Some healthcare facilities discharge the patient to make the room vacant for new admissions and then generate the bill later. If this is checked then while discharging a patient, the system will not validate unbilled services against the patient.
 
@@ -37,7 +37,7 @@ To view and change the settings, go to:
 
 ## 3. Default Healthcare Service Items
 
-<img class="screenshot" alt="ERPNext Healthcare" src="{{docs_base_url}}/assets/img/healthcare/healthcare_settings_2.png">
+<img class="screenshot" alt="ERPNext Healthcare" src="{{docs_base_url}}/v13/assets/img/healthcare/healthcare_settings_2.png">
 
 ERPNext Healthcare utilizes the Accounts module for billing Patients. You can configure default "Items" for billing consultation charges, procedure consumption items, etc. here. Make sure that the "Inpatient Visit Charge Item" and "Out-Patient Consulting Charge Item" are service items i.e they have _Maintain Stock_ checkbox disabled.
 
@@ -45,7 +45,7 @@ ERPNext Healthcare utilizes the Accounts module for billing Patients. You can co
 
 If you wish to override default accounts settings and configure the Income and Receivable accounts for Healthcare, you can do so here.
 
-<img class="screenshot" alt="ERPNext Healthcare" src="{{docs_base_url}}/assets/img/healthcare/healthcare_settings_3.png">
+<img class="screenshot" alt="ERPNext Healthcare" src="{{docs_base_url}}/v13/assets/img/healthcare/healthcare_settings_3.png">
 
 * **Income Account**: Default Income Accounts to be used if not set in Healthcare Practitioner to book Appointment charges.
 
@@ -55,7 +55,7 @@ If you wish to override default accounts settings and configure the Income and R
 
 You can enable sending SMS alerts on Patient appointment Booking, Patient Registration, etc., and also configure a message in this section.
 
-<img class="screenshot" alt="ERPNext Healthcare" src="{{docs_base_url}}/assets/img/healthcare/healthcare_settings_4.png">
+<img class="screenshot" alt="ERPNext Healthcare" src="{{docs_base_url}}/v13/assets/img/healthcare/healthcare_settings_4.png">
 
 * **Patient Registration**: This message will be sent when a new Patient is created in your instance.
 
@@ -69,7 +69,7 @@ You can enable sending SMS alerts on Patient appointment Booking, Patient Regist
 
 ## 6. Laboratory Settings
 
-<img class="screenshot" alt="ERPNext Healthcare" src="{{docs_base_url}}/assets/img/healthcare/healthcare_settings_5.png">
+<img class="screenshot" alt="ERPNext Healthcare" src="{{docs_base_url}}/v13/assets/img/healthcare/healthcare_settings_5.png">
 
 * **Create Lab Test(s) on Sales Invoice Submit**: If your facility creates Invoices and collects payments from Patients before performing the Lab Test, you can enable this option to create Lab tests automatically for all the Tests that are billed. If you have enabled the "Create Sample Collection document for Lab Test" and the Lab Test has a _Sample_ configured in the Lab Test Template, a Sample Collection document will also be created.
 
@@ -83,7 +83,7 @@ You can enable sending SMS alerts on Patient appointment Booking, Patient Regist
 
 You can configure ERPNext Healthcare to alert Patients via SMS when the Lab Test result gets ready (Submit) and when you Email the result. You can configure the templates for the SMS as registered with your provider here.
 
-<img class="screenshot" alt="ERPNext Healthcare" src="{{docs_base_url}}/assets/img/healthcare/healthcare_settings_6.png">
+<img class="screenshot" alt="ERPNext Healthcare" src="{{docs_base_url}}/v13/assets/img/healthcare/healthcare_settings_6.png">
 
 > This Form has been Changed in Version 13
 

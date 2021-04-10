@@ -4,7 +4,7 @@
 This diagram covers how ERPNext tracks your company information across key
 functions. This diagram does not cover all the features of ERPNext.
 
-<img class="screenshot" alt="Workflow" src="{{docs_base_url}}/assets/img/setup/overview-flow.png">
+<img class="screenshot" alt="Workflow" src="{{docs_base_url}}/v13/assets/img/setup/overview-flow.png">
 
 _Note: Not all of the steps are mandatory. ERPNext allows you to freely skip
 steps if you want to simplify the process._

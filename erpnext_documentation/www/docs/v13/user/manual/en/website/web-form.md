@@ -71,7 +71,7 @@ You can also show contextual links in a sidebar on your Web Form. Set it up in
 You can add child tables to your web forms, just like regular forms.
 
 <img class="screenshot" alt="Web form Grid"
-src="{{docs_base_url}}/assets/img/website/grid-in-webform.png">
+src="{{docs_base_url}}/v13/assets/img/website/grid-in-webform.png">
 
 
 ### 2.3 Payment Gateway Integration
@@ -80,7 +80,7 @@ You can now add a Payment Gateway to the web form, so that you can ask users to
 pay against a web form. A good example for this is a conference ticket.
 
 <img class="screenshot" alt="Web form payment"
-src="{{docs_base_url}}/assets/img/website/payment-in-webform.png">
+src="{{docs_base_url}}/v13/assets/img/website/payment-in-webform.png">
 
 ### 2.4 Portal User
 
@@ -90,13 +90,13 @@ assigned any 'Role' to a user he would get access to 'Desk View'. From version
 unchecking 'Desk Access' in Role.
 
 <img class="screenshot" alt="Disallow Desk Access"
-src="{{docs_base_url}}/assets/img/website/disallow_desk_access.png">
+src="{{docs_base_url}}/v13/assets/img/website/disallow_desk_access.png">
 
 In Portal Settings, you can set a role against each menu item so that only users
 with that role will be allowed to see that item.
 
 <img class="screenshot" alt="portal settings"
-src="{{docs_base_url}}/assets/img/website/portal-settings.png">
+src="{{docs_base_url}}/v13/assets/img/website/portal-settings.png">
 
 ### 2.5 Custom Script
 
@@ -122,7 +122,7 @@ applicable to webforms accessible without the user login(webforms with 'Login
 Required' checkbox unchecked).
 
 <img class="screenshot" alt="Success Message"
-src="{{docs_base_url}}/assets/img/website/success_message.png">
+src="{{docs_base_url}}/v13/assets/img/website/success_message.png">
 
 
 ### 2.8 Result

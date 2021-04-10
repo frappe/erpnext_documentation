@@ -17,7 +17,7 @@ To set up Email Digest, go to:
 
 Example:
 
-<img class="screenshot" alt="Email Digest" src="{{docs_base_url}}/assets/img/setup/email/email-digest.png">
+<img class="screenshot" alt="Email Digest" src="{{docs_base_url}}/v13/assets/img/setup/email/email-digest.png">
 
 ### Related Topics
 1. [Auto Email Reports](/docs/v13/user/manual/en/setting-up/email/auto-email-reports)

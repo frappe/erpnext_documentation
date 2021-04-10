@@ -23,7 +23,7 @@ Before creating a new template, note that templates are already created for many
 4. Select an account head which has pre set tax rates or create your own.
 1. Selecting default will apply this template by default for new Purchase transactions.
 5. Save.
-<img class="screenshot" alt="Purchase taxes" src="{{docs_base_url}}/assets/img/buying/purchase-taxes.png">
+<img class="screenshot" alt="Purchase taxes" src="{{docs_base_url}}/v13/assets/img/buying/purchase-taxes.png">
 
 Is Inter State: For India. On selection of a customer in Sales Invoice or Delivery Note, if the GST codes of place of supply and customer shipping address don't match, the template with 'Is Inter State' ticked will be set as the taxes template. If the place of supply and shipping address are the same, the default taxes template will be applied. This also applies to Purchase Invoice, on selection of Supplier, the templates are set depending on the addresses. For example, IGST.
 
@@ -34,7 +34,7 @@ Is Inter State: For India. On selection of a customer in Sales Invoice or Delive
 * **Add or Deduct:** Whether you want to add or deduct the tax from the item.
 
 * **Reference Row #**: If tax is based on "Previous Row Total" you can select the row number which will be taken as a base for this calculation (default is the previous row).
-   <img class="screenshot" alt="Purchase taxes table" src="{{docs_base_url}}/assets/img/buying/purchase-taxes-table.png">
+   <img class="screenshot" alt="Purchase taxes table" src="{{docs_base_url}}/v13/assets/img/buying/purchase-taxes-table.png">
 
 * **Is this Tax included in Basic Rate?**: If checked, the tax amount will be considered as already included in the Print Rate / Print Amount.
 * **Account Head:** The Account ledger under which this tax will be booked. If you select VAT or any other preset heads, the rate will be automatically filled.

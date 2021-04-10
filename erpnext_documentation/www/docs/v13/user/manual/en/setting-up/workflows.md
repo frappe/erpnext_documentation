@@ -8,7 +8,7 @@ ERPNext tracks the multiple permissions before submission.
 
 Example of a leave application Workflow is given below:
 
-<img class="screenshot" alt="Workflow" src="{{docs_base_url}}/assets/img/setup/workflow-leave-fl.png">
+<img class="screenshot" alt="Workflow" src="{{docs_base_url}}/v13/assets/img/setup/workflow-leave-fl.png">
 
 This is an example of a two level approval with cancellation. If a user applies for leave, then his request will be sent to the HR
 department. The HR department (HR User) will either reject or approve this
@@ -36,13 +36,13 @@ Before creating a Workflow, it is advised to create these first:
 
     The Workflow States can have different colors according to the state. Eg: Green for success. Document statuses: Saved = 0, Submitted = 1, Cancelled = 2.
 
-    <img class="screenshot" alt="Workflow" src="{{docs_base_url}}/assets/img/setup/workflow-1.png">
+    <img class="screenshot" alt="Workflow" src="{{docs_base_url}}/v13/assets/img/setup/workflow-1.png">
 
     The field you select under Update Field will be updated for the document type when the State changes. Update Value is the text that appears on the field selected in Update Field. So here the status field is updated to Applied, Approved, etc.
 
 1. Enter the Transition Rules.
 
-    <img class="screenshot" alt="Workflow" src="{{docs_base_url}}/assets/img/setup/workflow-2.png">
+    <img class="screenshot" alt="Workflow" src="{{docs_base_url}}/v13/assets/img/setup/workflow-2.png">
 
     Action indicates the actions an approver can take on the leave application. Next State is the State the document type will be at when the Action is applied. So here, the State changes from Applied to Approved by HR when the Approve action is performed on it.
 
@@ -117,16 +117,16 @@ doc.creation > frappe.utils.add_to_date(frappe.utils.now_datetime(), days=-5, as
 
 When a Leave Application is saved by Employee, the status of the document changes to "Applied":
 
-<img class="screenshot" alt="Workflow" src="{{docs_base_url}}/assets/img/setup/workflow-3.png">
+<img class="screenshot" alt="Workflow" src="{{docs_base_url}}/v13/assets/img/setup/workflow-3.png">
 
 When the HR User logs in, he can either Approve or Reject. If approved the
 status of the document changes to "Approved by HR". However, it is yet to be approved by Leave Approver.
 
-<img class="screenshot" alt="Workflow" src="{{docs_base_url}}/assets/img/setup/workflow-4.png">
+<img class="screenshot" alt="Workflow" src="{{docs_base_url}}/v13/assets/img/setup/workflow-4.png">
 
 When the Leave Approver opens the Leave Application page, he can finally "Approve" or "Reject" the Leave Application.
 
-<img class="screenshot" alt="Workflow" src="{{docs_base_url}}/assets/img/setup/workflow-5.png">
+<img class="screenshot" alt="Workflow" src="{{docs_base_url}}/v13/assets/img/setup/workflow-5.png">
 
 ## 5. Video
 <div>

@@ -9,7 +9,7 @@ To access Project Template, go to:
 
 > Home > Projects > Projects > Project Template
 
-<img class="screenshot" alt="Project Template" src="{{docs_base_url}}/assets/img/project/projects-project-template.png">
+<img class="screenshot" alt="Project Template" src="{{docs_base_url}}/v13/assets/img/project/projects-project-template.png">
 
 ## 1. How to Create A New Project Template:
 

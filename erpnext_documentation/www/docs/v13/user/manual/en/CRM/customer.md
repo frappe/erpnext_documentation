@@ -24,7 +24,7 @@ Home > Selling > Customers
 1. If the customer is being created against a lead, you can select the same in From Lead field.
 1. Save.
 
-    <img class="screenshot" alt="Create Customer" src="{{docs_base_url}}/assets/img/crm/create-customer.gif">
+    <img class="screenshot" alt="Create Customer" src="{{docs_base_url}}/v13/assets/img/crm/create-customer.gif">
 
 You can disallow sales orders and sales invoices against a customer by clicking on 'Disabled'.
 
@@ -35,7 +35,7 @@ You can also upload customer details via the [Data Import Tool](/docs/v13/user/m
 ## 2. Features
 General flow of transactions for a customer is as following:
 
-<img class="screenshot" alt="Customer" src="{{docs_base_url}}/assets/img/crm/customer-to selling-flowchart.jpeg">
+<img class="screenshot" alt="Customer" src="{{docs_base_url}}/v13/assets/img/crm/customer-to selling-flowchart.jpeg">
 
 > Note: Customers are separate from Contacts and Addresses. A Customer can
 have multiple Contacts and Addresses.
@@ -49,7 +49,7 @@ attach multiple Contacts or Addresses to the customer.
 
 If the "Delivery Note Required" or "Sales Order Required" option is configured as "Yes" in [Selling Settings](/docs/v13/user/manual/en/selling/selling-settings), it can be overridden for a particular customer by enabling the "Allow Sales Invoice Creation Without Sales Order" or "Allow Purchase Invoice Creation Without Delivery Note" in the Customer Master.
 
-<img class="screenshot" alt="Supplier Master" src="{{docs_base_url}}/assets/img/selling/customer-so-dn-required.png">
+<img class="screenshot" alt="Supplier Master" src="{{docs_base_url}}/v13/assets/img/selling/customer-so-dn-required.png">
 
 ### 2.3 Set Tax Withholding Category
 
@@ -106,7 +106,7 @@ You can set how a unique id should be generated each the customer in [Selling Se
 
 * **Customer Name**: If customer name itself should be used as an id then select 'Customer Name' in Customer Naming By. In this case, if you create two customers with identical names, **- 1** will be suffixed to the second customer.
 
-<img class="screenshot" alt="Customer" src="{{docs_base_url}}/assets/img/crm/customer-with-identical-names.png">
+<img class="screenshot" alt="Customer" src="{{docs_base_url}}/v13/assets/img/crm/customer-with-identical-names.png">
 
 You can set the default customer group, territory and price list in [Selling Settings](/docs/v13/user/manual/en/selling/selling-settings).
 

@@ -6,7 +6,7 @@
 To access Support Settings, go to:
 > Home > Support > Settings > Support Settings
 
-<img class="screenshot" alt="Issue" src="{{docs_base_url}}/assets/img/support/support-settings.png">
+<img class="screenshot" alt="Issue" src="{{docs_base_url}}/v13/assets/img/support/support-settings.png">
 
 ## 1. Service Level Agreements
 ### 1.1 Track Service Level Agreement

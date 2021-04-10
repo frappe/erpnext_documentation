@@ -31,13 +31,13 @@ Follow the same steps every time you wish to create start a new chat.
 
 For every new Chat that has been opened in the system, a Chat Room gets created. A list of all your Chat Rooms can be fetched in the Chat Room List when you search for it from the Global search.
 
-<img class="screenshot" alt="Assign" src="{{docs_base_url}}/assets/img/collaboration-tools/chat-1.png">
+<img class="screenshot" alt="Assign" src="{{docs_base_url}}/v13/assets/img/collaboration-tools/chat-1.png">
 
 ## Chat Message
 
 Every message that has been sent by a User gets reflected in the Chat Message List. Herein, you will also be allowed to make changes to a sent message.
 
-<img class="screenshot" alt="Assign" src="{{docs_base_url}}/assets/img/collaboration-tools/chat-1.png">
+<img class="screenshot" alt="Assign" src="{{docs_base_url}}/v13/assets/img/collaboration-tools/chat-1.png">
 
 ## Chat Profile Report
 

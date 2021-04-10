@@ -20,7 +20,7 @@ Creating a Tax Category is simple, go to the Tax Category list, click on New and
 - This will fetch the Sales Tax Template linked to the Tax Rule. Hence, the rows in the Tax table will be automatically filled.
 - Tax Category can be used to group Customers to whom same tax will be applied. For example, Government, NGO, commercial, etc.
 
-  <img class="screenshot" alt="Tax Category" src="{{docs_base_url}}/assets/img/accounts/tax-category.gif">
+  <img class="screenshot" alt="Tax Category" src="{{docs_base_url}}/v13/assets/img/accounts/tax-category.gif">
 
 > Tip: One Tax Category can be assigned to multiple Tax Rules. So you can create different combinations to apply taxes automatically to transactions.
 

@@ -30,7 +30,7 @@ A Maintenance Schedule is usually created from a Sales Order of type 'Maintenanc
 1. After saving, click on the **Generate Schedule** button to generate a Maintenance Schedule.
 1. Submit.
 
-    <img class="screenshot" alt="Maintenance Schedule" src="{{docs_base_url}}/assets/img/support/maintenance-schedule-1.png">
+    <img class="screenshot" alt="Maintenance Schedule" src="{{docs_base_url}}/v13/assets/img/support/maintenance-schedule-1.png">
 
 The **Generate Schedule** button will generate a separate row for each maintenance activity. Each Item in a Maintenance Schedule is allocated to a Sales Person.
 

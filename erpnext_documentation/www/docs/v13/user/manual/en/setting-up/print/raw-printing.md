@@ -28,7 +28,7 @@ To create a new print format for Raw Printing:
 5. Fill in the **Raw Commands** field with the required raw commands to be sent to the printer.
 6. Click Save.
 
-  ![Raw Commands Print Format]({{docs_base_url}}/assets/img/setup/print/raw-command-print-format.png)
+  ![Raw Commands Print Format]({{docs_base_url}}/v13/assets/img/setup/print/raw-command-print-format.png)
 
 Currently, any string-based printer languages can be used in the `Raw Commands` field in the print format. Writing raw commands requires knowledge of the printer's native language provided by the printer manufacturer. Please refer to the developer manual provided by the printer manufacturer on how to write their native commands.
 
@@ -51,15 +51,15 @@ To print a raw command print format from the Document print view:
 1. Select appropriate print format. For print format in Raw Commands, "No Preview available" message is shown in place of the print preview.
 2. Click on the print button.
 3. Please allow the connection prompt from the QZ Tray for the actions that you initiated (Keyboard Shortcut: Alt + A).
-   -  ![QZ Tray Prompt]({{docs_base_url}}/assets/img/setup/print/qz-tray-prompt.png)
+   -  ![QZ Tray Prompt]({{docs_base_url}}/v13/assets/img/setup/print/qz-tray-prompt.png)
 4. You may be asked to select the "print format - printer mapping".
    -  This mapping is used to send the print commands to the appropriate printer.
    -  The printer needs to be installed on your computer to be able to map it to a print format.
-     ![print format - printer mapping]({{docs_base_url}}/assets/img/setup/print/printer-settings.png)
+     ![print format - printer mapping]({{docs_base_url}}/v13/assets/img/setup/print/printer-settings.png)
    -  This mapping is stored locally on the same computer and will have to be set on each client machine.
    -  You can also edit this by clicking on the **Printer Settings** button.
 
-      ![Raw Printing from Print View]({{docs_base_url}}/assets/img/setup/print/raw-printing-from-print-view.gif)
+      ![Raw Printing from Print View]({{docs_base_url}}/v13/assets/img/setup/print/raw-printing-from-print-view.gif)
 
 ### 2.2 Calling Raw Print functions from a custom script
 

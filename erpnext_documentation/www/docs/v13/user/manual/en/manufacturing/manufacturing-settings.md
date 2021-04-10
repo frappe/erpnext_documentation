@@ -5,7 +5,7 @@ Manufacturing Settings can be found at:
 
 > Home > Manufacturing > Settings > Manufacturing Settings
 
-<img class="screenshot" alt="Manufacturing Settings" src="{{docs_base_url}}/assets/img/manufacturing/manufacturing-settings-1.png">
+<img class="screenshot" alt="Manufacturing Settings" src="{{docs_base_url}}/v13/assets/img/manufacturing/manufacturing-settings-1.png">
 
 ### Capacity Planning
 [Capacity planning](/docs/v13/user/manual/en/manufacturing/capacity-planning) is the process in which an organization decides whether or not to accept the new orders based on the resources and existing work orders.

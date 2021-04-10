@@ -35,6 +35,6 @@ You can specify the confirmation email and welcome email template for the email 
 **Confirmation Email Template:** This email template is used to replace the default template sent for newsletter subscription. The confirmation email generated via this template is sent when someone subscribes to the Email Group Website.
 **Welcome Email Template:** Whenever a subscriber is added to an email group after confirmation, the email template set here will be sent to them.
 
-<img class="screenshot" alt="Email Group Templates" src="{{docs_base_url}}/assets/img/crm/email-group.png">
+<img class="screenshot" alt="Email Group Templates" src="{{docs_base_url}}/v13/assets/img/crm/email-group.png">
 
 Next: [Automate Lead Capturing](/docs/v13/user/manual/en/CRM/articles/automate_lead_capturing)

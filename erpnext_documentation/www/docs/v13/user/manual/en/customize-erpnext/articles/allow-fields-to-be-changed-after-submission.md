@@ -10,11 +10,11 @@ To set this property,
 1. Go to Customize Form.
 2. Select the Form in which you want to set this property.
 
-    <img alt="select docytpe" class="screenshot" src="{{docs_base_url}}/assets/img/customize/customize-allow on submit.gif">
+    <img alt="select docytpe" class="screenshot" src="{{docs_base_url}}/v13/assets/img/customize/customize-allow on submit.gif">
 
 3. Edit the field with this property.
 
-    <img alt="Check Allow on Submit" class="screenshot" src="{{docs_base_url}}/assets/img/customize/customize-allow on submit-1.gif">
+    <img alt="Check Allow on Submit" class="screenshot" src="{{docs_base_url}}/v13/assets/img/customize/customize-allow on submit-1.gif">
 
 4. Update.
 

@@ -41,7 +41,7 @@ At the billing counter, the retailer needs to select Items which the Customer bu
 
 * **Barcode / Serial No**: A Barcode / Serial No is an optical machine-readable representation of data relating to the object to which it is attached. Enter Barcode / Serial No in the box as shown in the image below and pause for a second, the item will be automatically added to the cart.
 
-<img class="screenshot" alt="POS Item" src="{{docs_base_url}}/assets/img/accounts/pos-item.png">
+<img class="screenshot" alt="POS Item" src="{{docs_base_url}}/v13/assets/img/accounts/pos-item.png">
 
 > Tip: To change the quantity of an Item, enter your desired quantity in the
 quantity box. These are mostly used if the same Item is purchased in bulk.
@@ -52,7 +52,7 @@ in Search box.
 ### 2.3  Removing an Item from the Cart
 1. Select row in the cart and click on Delete button in the numeric keypad
 
-    <img class="screenshot" alt="POS Item" src="{{docs_base_url}}/assets/img/accounts/pos_deleted_item.gif">
+    <img class="screenshot" alt="POS Item" src="{{docs_base_url}}/v13/assets/img/accounts/pos_deleted_item.gif">
 
 
 2. Set Qty as zero to remove Item from the POS invoice. There are two ways to remove an Item.
@@ -64,7 +64,7 @@ in Search box.
 
 POS calculates the extra amount paid by the customer, which user can return from the cash account. User has to set the account for the change amount on the POS profile.
 
-<img class="screenshot" alt="POS Payment" src="{{docs_base_url}}/assets/img/accounts/change-amount.png">
+<img class="screenshot" alt="POS Payment" src="{{docs_base_url}}/v13/assets/img/accounts/change-amount.png">
 
 ### 2.5 Write off Amount
 If you are writing off certain amount. For example when you receive extra cash as a result of not having exact denomination of change, check on ‘Write off Outstanding Amount’ and set the Account.
@@ -72,7 +72,7 @@ If you are writing off certain amount. For example when you receive extra cash a
 Outstanding amount can be write off from the POS, user has to enter the amount under Write Off field on the payment screen.
 
 For example, here bill amount is 2,310, but the Customer paid 2,300, then the amount written off will be 10.
-<img class="screenshot" alt="POS Payment" src="{{docs_base_url}}/assets/img/accounts/write-off.png">
+<img class="screenshot" alt="POS Payment" src="{{docs_base_url}}/v13/assets/img/accounts/write-off.png">
 
 System books the Write Off amount into the General Ledger account which has selected on the POS Profile.
 
@@ -83,14 +83,14 @@ Change the POS Profile via:
 
 Select the Company and then choose the POS Profile from the list. You can also set the newly selected POS profile as the default for the Company.
 
-<img class="screenshot" alt="Change POS Profile" src="{{docs_base_url}}/assets/img/accounts/Change-POS-Profile.png">
+<img class="screenshot" alt="Change POS Profile" src="{{docs_base_url}}/v13/assets/img/accounts/Change-POS-Profile.png">
 
 ## 3. Features
 
 ### 3.1 Adding a new Customer
 In POS, user can select the existing Customer during making an order or create a new customer. This feature works in the offline mode also. User can also add the customer details like contact number, address details, etc on the form. The Customer which has been created from the POS will be synced when the internet connection is active.
 
-<img class="screenshot" alt="POS Customer" src="{{docs_base_url}}/assets/img/accounts/pos-customer.gif">
+<img class="screenshot" alt="POS Customer" src="{{docs_base_url}}/v13/assets/img/accounts/pos-customer.gif">
 
 ### 3.2 Offline POS
 
@@ -101,7 +101,7 @@ To learn more on how POS Invoices can be created when offline, [check here.](htt
 ### 3.3 Offline Records
 All the records from the POS stores into the browser's and syncs submitted records after every minute of the interval if system is connected to internet. User can view the offline records by clicking on Menu > View Offline Records.
 
-<img class="screenshot" alt="POS Payment" src="{{docs_base_url}}/assets/img/accounts/offline-records.png">
+<img class="screenshot" alt="POS Payment" src="{{docs_base_url}}/v13/assets/img/accounts/offline-records.png">
 
 ### 3.4 Accounting entries (GL Entry) for a Point of Sale:
 
@@ -123,7 +123,7 @@ To see entries after submitting the [Sales Invoice](/docs/v13/user/manual/en/acc
 ### 3.5 Email
 
 Users can send email from the POS, after submitting an order, user has to click on Menu > Email:
-<img class="screenshot" alt="POS Payment" src="{{docs_base_url}}/assets/img/accounts/pos-email.png">
+<img class="screenshot" alt="POS Payment" src="{{docs_base_url}}/v13/assets/img/accounts/pos-email.png">
 After sync of a POS order, email is sent to the Customer with the print of the bill in the attachment.
 
 ### 3.6 POS Closing Voucher
@@ -133,7 +133,7 @@ Click on the Menu and select 'Close the POS'. Select the period, your POS Profil
 
 For closing shift wise or cashier wise, use the [POS Cashier Closing](/docs/v13/user/manual/en/accounts/pos-cashier-closing).
 
-<img class="screenshot" alt="POS Payment" src="{{docs_base_url}}/assets/img/accounts/pos-closing-voucher.png">
+<img class="screenshot" alt="POS Payment" src="{{docs_base_url}}/v13/assets/img/accounts/pos-closing-voucher.png">
 
 Enter the collected amount for each mode of payment. If you notice any difference between the system amount and the actual physical cash collected, create a Difference Posting.
 

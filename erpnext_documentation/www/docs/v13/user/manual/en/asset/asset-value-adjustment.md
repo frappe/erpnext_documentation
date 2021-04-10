@@ -21,7 +21,7 @@ Before creating and using Asset Value Adjustment, it is advised to create the fo
 1. Select a date.
 1. Enter the current and new value of the asset.
 1. Save and Submit.
-    <img class="screenshot" alt="Asset" src="{{docs_base_url}}/assets/img/asset/asset-value-adjustment.png">
+    <img class="screenshot" alt="Asset" src="{{docs_base_url}}/v13/assets/img/asset/asset-value-adjustment.png">
 
 
 On saving the system will book a "Gain/Loss on asset revaluation" and adjust the valuation of the asset.

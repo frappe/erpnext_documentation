@@ -19,7 +19,7 @@ From the list of UOM, select UOM for which value in decimal place is to be restr
 
 In the UoOM master, you will find a field called "Must be whole number". Check this field to restrict user from enter value in decimal places in quantity field, for item having this UOM.
 
-<img alt="UoM Must be Whole No" class="screenshot" src="{{docs_base_url}}/assets/img/articles/uom-fraction-1.png">
+<img alt="UoM Must be Whole No" class="screenshot" src="{{docs_base_url}}/v13/assets/img/articles/uom-fraction-1.png">
 
 ####Validation
 
@@ -27,7 +27,7 @@ While creating transaction, if you enter value in fraction for item whose UOM ha
 
 `Quantity cannot be a fraction at row #`
 
-<img alt="UoM Validation Message" class="screenshot" src="{{docs_base_url}}/assets/img/articles/uom-fraction-2.png">
+<img alt="UoM Validation Message" class="screenshot" src="{{docs_base_url}}/v13/assets/img/articles/uom-fraction-2.png">
 
 
 <!-- markdown -->

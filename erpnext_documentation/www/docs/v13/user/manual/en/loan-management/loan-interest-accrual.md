@@ -4,12 +4,12 @@
 
 **Loan Interest will be accrued monthly on first day of every month for demand loans and one day before payment day for term loans.**
 
-<img class="screenshot" alt="Loan Interest Accrual" src="{{docs_base_url}}/assets/img/loan-management/loan-interest-accrual-flow.png">
+<img class="screenshot" alt="Loan Interest Accrual" src="{{docs_base_url}}/v13/assets/img/loan-management/loan-interest-accrual-flow.png">
 
 To access the Loan Interest Accrual list, go to:
 > Home > Loan Management > Disbursement and Repayment > Loan Interest Accrual
 
-<img class="screenshot" alt="Loan Interest Accrual" src="{{docs_base_url}}/assets/img/loan-management/loan-interest-accrual.png">
+<img class="screenshot" alt="Loan Interest Accrual" src="{{docs_base_url}}/v13/assets/img/loan-management/loan-interest-accrual.png">
 
 
 A Loan interest accrual contains the details about:

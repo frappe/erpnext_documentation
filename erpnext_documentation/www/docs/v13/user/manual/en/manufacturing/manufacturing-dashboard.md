@@ -5,11 +5,11 @@ To access the Manufacturing Dashboard, go to:
 
 > Home > Customization > Dashboard > Manufacturing
 
-<img class="screenshot" alt="Manufacturing Dashboard" src="{{docs_base_url}}/assets/img/manufacturing/manufacturing-dashboard.png">
+<img class="screenshot" alt="Manufacturing Dashboard" src="{{docs_base_url}}/v13/assets/img/manufacturing/manufacturing-dashboard.png">
 
 ## Number Cards
 
-<img class="screenshot" alt="Number Cards" src="{{docs_base_url}}/assets/img/manufacturing/manufacturing-number-cards.png">
+<img class="screenshot" alt="Number Cards" src="{{docs_base_url}}/v13/assets/img/manufacturing/manufacturing-number-cards.png">
 
 1. **Monthly Total Work Order** :- You will get the total count of Work Orders which are in Open, In Progress, and Completed state. The Work Orders created one month before the current date will be displayed in the number card.
 1. **Monthly Completed Work Order** :- The user will get the total count of Work Orders which are in the Completed state. The Work Orders created one month before the current date will be displayed in the number card.
@@ -20,7 +20,7 @@ To access the Manufacturing Dashboard, go to:
 
 You can see some predefined graph reports in the dashboard when you open the Manufacturing module. These reports are fully customizable, you can choose what to show or hide and also configure the metrics on which the reports are shown.
 
-<img class="screenshot" alt="Produced Quantity & Completed Operation" src="{{docs_base_url}}/assets/img/manufacturing/manufacturing-dashboard-2.png">
+<img class="screenshot" alt="Produced Quantity & Completed Operation" src="{{docs_base_url}}/v13/assets/img/manufacturing/manufacturing-dashboard-2.png">
 
 ### Produced Quantity
 
@@ -32,7 +32,7 @@ The chart will give information about the total number of operations completed i
 
 <hr>
 
-<img class="screenshot" alt="Work Order & Quality Inspction Analysis" src="{{docs_base_url}}/assets/img/manufacturing/manufacturing-dashboard-3.png">
+<img class="screenshot" alt="Work Order & Quality Inspction Analysis" src="{{docs_base_url}}/v13/assets/img/manufacturing/manufacturing-dashboard-3.png">
 
 ### Work Order Analysis
 
@@ -44,7 +44,7 @@ This chart will give information about the number of Quality Inspections based o
 
 <hr>
 
-<img class="screenshot" alt="Pending Work Order & Downtime Analysis" src="{{docs_base_url}}/assets/img/manufacturing/manufacturing-dashboard-4.png">
+<img class="screenshot" alt="Pending Work Order & Downtime Analysis" src="{{docs_base_url}}/v13/assets/img/manufacturing/manufacturing-dashboard-4.png">
 
 ### Pending Work Orders
 
@@ -56,7 +56,7 @@ The chart will give information about the total number of minutes a machine was 
 
 <hr>
 
-<img class="screenshot" alt="Work Order Quantity Analysis" src="{{docs_base_url}}/assets/img/manufacturing/manufacturing-dashboard-5.png">
+<img class="screenshot" alt="Work Order Quantity Analysis" src="{{docs_base_url}}/v13/assets/img/manufacturing/manufacturing-dashboard-5.png">
 
 ### Work Order Quantity Analysis
 
@@ -64,7 +64,7 @@ The chart will give information about the total number of quantities that are Pe
 
 <hr>
 
-<img class="screenshot" alt="Job Card Analysis" src="{{docs_base_url}}/assets/img/manufacturing/manufacturing-dashboard-6.png">
+<img class="screenshot" alt="Job Card Analysis" src="{{docs_base_url}}/v13/assets/img/manufacturing/manufacturing-dashboard-6.png">
 
 ### Job Card Analysis
 

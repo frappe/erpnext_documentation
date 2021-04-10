@@ -1,5 +1,5 @@
 <!-- add-breadcrumbs -->
-# Crop 
+# Crop
 
 Now we need to specify what our crop will be. A crop summarizes all that is necessary before creatng our first crop cycle or planting.
 
@@ -18,7 +18,7 @@ The basic information should be entered as such:
 * Planting UOM: Unit
 * Yield UOM: Grams
 
-Click Save 
+Click Save
 
 We will skip the Materials Required, Byproducts and Produce sections. In the Ideal Agriculture Task List we enter some planned tasks such as planting, watering, and harvesting. (Please note, our activity list will be intentionally abbreviated for illustraion purposes. For this example we will prepare our field, plant the next day, water only once, add a cover after germination on day 12, remove weeds at day 19, and harvest at day 90.
 
@@ -46,6 +46,6 @@ Click 'Save'
 
 You form should now look something like this
 
-<img class="screenshot" alt="Task" src="{{docs_base_url}}/assets/img/agriculture/crops_and_land/crop.png">
+<img class="screenshot" alt="Task" src="{{docs_base_url}}/v13/assets/img/agriculture/crops_and_land/crop.png">
 
 Repeat step 2 for as many crops as you need. You can save some time by duplicating existing crops and modifying only the necessary items

@@ -10,7 +10,7 @@ To access the Issue Type list, go to:
 
 To create an Issue Type, click on New and enter a name for the type. A description can be added.
 
-<img class="screenshot" alt="Issue Type" src="{{docs_base_url}}/assets/img/support/issue-type.png">
+<img class="screenshot" alt="Issue Type" src="{{docs_base_url}}/v13/assets/img/support/issue-type.png">
 
 # Issue Priority
 
@@ -23,11 +23,11 @@ To access the Issue Priority list, go to:
 
 To create an Issue Priority, click on New and enter a name for the type. A description can be added.
 
-<img class="screenshot" alt="Issue" src="{{docs_base_url}}/assets/img/support/issue-priority.png">
+<img class="screenshot" alt="Issue" src="{{docs_base_url}}/v13/assets/img/support/issue-priority.png">
 
 **Issue Priority list**
 
-<img class="screenshot" alt="Issue" src="{{docs_base_url}}/assets/img/support/issue-priority-list.png">
+<img class="screenshot" alt="Issue" src="{{docs_base_url}}/v13/assets/img/support/issue-priority-list.png">
 
 ### Related Topics
 1. [Issue](/docs/v13/user/manual/en/support/issue)

@@ -4,14 +4,14 @@
 
 **Process Loan Interest record is created on every loan Interest accrual cycle and is also used for manually processing loan interest accrual.**
 
-<img class="screenshot" alt="Loan Application" src="{{docs_base_url}}/assets/img/loan-management/process-loan-interest-accrual-flow.png">
+<img class="screenshot" alt="Loan Application" src="{{docs_base_url}}/v13/assets/img/loan-management/process-loan-interest-accrual-flow.png">
 
 To access the Process Loan Interest Accrual list, go to:
 > Home > Loan Management > Loan Processes > Process Loan Interest Accrual
 
 Loan Interest will be accrued monthly on the first day of every month for demand loans and one day before payment day for term loans by a background job. If you want to accrue interest manually against a loan then it can be done using Process Loan Interest Accrual.
 
-<img class="screenshot" alt="Loan Application" src="{{docs_base_url}}/assets/img/loan-management/process-loan-interest-accrual.png">
+<img class="screenshot" alt="Loan Application" src="{{docs_base_url}}/v13/assets/img/loan-management/process-loan-interest-accrual.png">
 
 ## 1. Prerequisites
 Before creating a Process Loan Interest Accrual, you must create the following first:

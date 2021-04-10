@@ -3,7 +3,7 @@
 
 In a submitted Sales Order, you can see multiple options under the 'Create' option:
 
-<img alt="Custom Script" class="screenshot" src="{{docs_base_url}}/assets/img/customize/customize-button-all.png">
+<img alt="Custom Script" class="screenshot" src="{{docs_base_url}}/v13/assets/img/customize/customize-button-all.png">
 
 You can use this custom script to rename the buttons:
 
@@ -26,7 +26,7 @@ frappe.ui.form.on('Sales Order', {
 
 Using this script, we have removed/hidden the unwanted buttons, and then renamed one:
 
-<img alt="Custom Script" class="screenshot" src="{{docs_base_url}}/assets/img/customize/customize-button-rename.png">
+<img alt="Custom Script" class="screenshot" src="{{docs_base_url}}/v13/assets/img/customize/customize-button-rename.png">
 
 **Note:** To learn more about the JS APIs, visit the [frappe documentation](https://frappe.io/docs/v13/user/en/api/form).
 

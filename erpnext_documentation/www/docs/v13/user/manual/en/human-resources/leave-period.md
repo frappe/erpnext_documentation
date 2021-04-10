@@ -28,7 +28,7 @@ Additionally, you can check the 'Is Active' checkbox if you want to enable this 
 
 
 <img class="screenshot" alt="Leave Period"
-	src="{{docs_base_url}}/assets/img/human-resources/leave-period.png">
+	src="{{docs_base_url}}/v13/assets/img/human-resources/leave-period.png">
 
 ## 3. Granting leave using Leave Period
 
@@ -40,7 +40,7 @@ The **Grant** button will generate Leave Allocations based on the [Leave Policy]
 
 
 <img class="screenshot" alt="Leave Period"
-	src="{{docs_base_url}}/assets/img/human-resources/grant-button.gif">
+	src="{{docs_base_url}}/v13/assets/img/human-resources/grant-button.gif">
 
 
 ## 3. Related Topics

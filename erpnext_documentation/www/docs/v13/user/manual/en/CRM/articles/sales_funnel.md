@@ -12,15 +12,15 @@ More than this, by looking at the way these numbers change over time, you can id
 
 Select the Company, select the From Date, To Date and select Sales Funnel in Chart.
 
-<img alt="Lead Details" class="screenshot" src="{{docs_base_url}}/assets/img/crm/sales_funnel.png">
+<img alt="Lead Details" class="screenshot" src="{{docs_base_url}}/v13/assets/img/crm/sales_funnel.png">
 
 ### 2. Sales Pipeline
 
-An opportunity will pass through many sales stages before it yields any business. Using this report you can visualise the total amount of business the opportunities have and compare them across the stages.  
+An opportunity will pass through many sales stages before it yields any business. Using this report you can visualise the total amount of business the opportunities have and compare them across the stages.
 
 Select the Company, select the From Date, To Date and select Sales Pipeline in Chart.
 
-<img alt="Lead Details" class="screenshot" src="{{docs_base_url}}/assets/img/crm/analysis_on_sales_stage.png">
+<img alt="Lead Details" class="screenshot" src="{{docs_base_url}}/v13/assets/img/crm/analysis_on_sales_stage.png">
 
 ### 3. Opportunities by Lead Source
 
@@ -28,6 +28,6 @@ This report helps you visualise the business potential of opportunities based on
 
 Select the Company, select the From Date, To Date and select 'Opportunities by Lead Source' in Chart.
 
-<img alt="Lead Details" class="screenshot" src="{{docs_base_url}}/assets/img/crm/opportunities_by_lead_source.png">
+<img alt="Lead Details" class="screenshot" src="{{docs_base_url}}/v13/assets/img/crm/opportunities_by_lead_source.png">
 
 {next}

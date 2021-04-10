@@ -41,7 +41,7 @@ For manual creation, follow these steps:
 * **Include Payment (POS)**: If this invoice is for retail sales / Point of Sale. [Know more here](/docs/v13/user/manual/en/accounts/sales-invoice#324-pos-invoices).
 * **Is Return Credit Note**: Tick this if the customer has returned the Items. To know more details, visit the [Credit Note](/docs/v13/user/manual/en/accounts/credit-note) page.
 
-<img class="screenshot" alt="Sales Invoice" src="{{docs_base_url}}/assets/img/accounts/sales-invoice.png">
+<img class="screenshot" alt="Sales Invoice" src="{{docs_base_url}}/v13/assets/img/accounts/sales-invoice.png">
 
 For India:
 **e-Way Bill No**: According to GST rules, transporters need to carry an e-Way Bill. To know how to generate an e-Way Bill, [visit this page](/docs/v13/user/manual/en/regional/india/auto-generate-e-way-bill-JSON).
@@ -287,7 +287,7 @@ into the Sales Invoice and you can easily make payments.
 Also, if you check the **Update Stock** the stock will also update automatically,
 without the need for a Delivery Note.
 
-<img class="screenshot" alt="POS Invoice" src="{{docs_base_url}}/assets/img/accounts/pos-sales-invoice.png">
+<img class="screenshot" alt="POS Invoice" src="{{docs_base_url}}/v13/assets/img/accounts/pos-sales-invoice.png">
 
 ### 3.25 After Submitting
 
