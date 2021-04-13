@@ -1,4 +1,4 @@
-<!-- add breadcrumbs -->
+<!-- add-breadcrumbs -->
 # Asset Value Adjustment
 
 **If the value of an Asset changed suddenly due to any damages, it can be recorded using Asset Value Adjustment.**
@@ -21,7 +21,8 @@ Before creating and using Asset Value Adjustment, it is advised to create the fo
 1. Select a date.
 1. Enter the current and new value of the asset.
 1. Save and Submit.
-    <img class="screenshot" alt="Asset" src="{{docs_base_url}}/v13/assets/img/asset/asset-value-adjustment.png">
+
+<img class="screenshot" alt="Asset" src="{{docs_base_url}}/v13/assets/img/asset/asset-value-adjustment.png">
 
 
 On saving the system will book a "Gain/Loss on asset revaluation" and adjust the valuation of the asset.
@@ -32,3 +33,5 @@ On submitting, a Journal Entry is created under the 'Accumulated Depreciations' 
 ### 3. Related Topics
 1. [Asset Depreciation](/docs/v13/user/manual/en/asset/asset-depreciation)
 1. [Scrapping an Asset](/docs/v13/user/manual/en/asset/scrapping-an-asset)
+
+{next}

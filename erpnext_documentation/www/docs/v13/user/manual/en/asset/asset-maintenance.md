@@ -14,16 +14,17 @@ To perform Asset Maintenance in ERPNext:
 5. Create Asset Repair Log.
 
 To access the Asset Maintenance list, go to:
-> Home > Asset > Maintenance > Asset Maintenance
+> Home > Assets > Maintenance > Asset Maintenance
 
 ## 1. Prerequisites
 Before creating and using Asset Maintenance, it is advised to create the following first:
 
 
-1. [Asset](/docs/v13/user/manual/en/asset/asset)
-1. Go to an Asset master and check the 'Maintenance Required' checkbox in Asset to enable Asset Maintenance.
-<img class="screenshot" alt="Asset" src="{{docs_base_url}}/v13/assets/img/asset/maintenance_required.png">
-1. [Asset Maintenance Team](/docs/v13/user/manual/en/asset/asset-maintenance-team)
+* [Asset](/docs/v13/user/manual/en/asset/asset) with 'Maintenance Required' checked.
+
+    <img class="screenshot" alt="Asset" src="{{docs_base_url}}/v13/assets/img/asset/maintenance-required.png">
+
+* [Asset Maintenance Team](/docs/v13/user/manual/en/asset/asset-maintenance-team)
 
 ## 2. How to create Asset Maintenance
 For each asset, create an Asset Maintenance record listing all the associated maintenance tasks, maintenance type (Preventive Maintenance or Calibration), periodicity, assign to and start and end date of maintenance. Based on start date and periodicity the next due date is auto-calculated and a ToDo is created for the Assignee.
@@ -36,7 +37,8 @@ For each asset, create an Asset Maintenance record listing all the associated ma
   1. Select a periodicity for which the task needs to be carried out. The next due date will be calculated.
 1. Save.
 1. After saving, you can assign the task to a user.
-  <img class="screenshot" alt="Asset" src="{{docs_base_url}}/v13/assets/img/asset/asset_maintenance.png">
+
+<img class="screenshot" alt="Asset" src="{{docs_base_url}}/v13/assets/img/asset/asset-maintenance.png">
 
 If the Item is serialized, the Serial Number can be entered.
 
@@ -51,10 +53,11 @@ If the Item is serialized, the Serial Number can be entered.
 
 On assigning the maintenance to a user, it will appear in the User's ToDo list.
 
-![Asset Maintenance](/docs/v13/assets/img/asset/asset-maintenance-todo.png)
-
+<img class="screenshot" alt="Asset" src="{{docs_base_url}}/v13/assets/img/asset/asset-maintenance.png">
 
 ## 4. Related Topics
 1. [Asset Value Adjustment](/docs/v13/user/manual/en/asset/asset-value-adjustment)
 1. [Asset Depreciation](/docs/v13/user/manual/en/asset/asset-depreciation)
 1. [Scrapping an Asset](/docs/v13/user/manual/en/asset/scrapping-an-asset)
+
+{next}

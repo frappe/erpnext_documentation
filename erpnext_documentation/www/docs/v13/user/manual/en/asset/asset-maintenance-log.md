@@ -6,7 +6,7 @@
 For each task in Asset Maintenance, Asset Maintenance Log is **auto created** to keep track of the upcoming maintenances. It will have a status, completion date and actions performed. Based on completion date here, next due date is calculated automatically and new Asset Maintenance Log is created.
 
 To access the Asset Maintenance Log, go to:
-> Home > Asset > Maintenance > Asset Maintenance Log
+> Home > Assets > Maintenance > Asset Maintenance Log
 
 ## 1. Prerequisites
 Before creating and using Asset Maintenance Log, it is advised to create the following first:
@@ -21,4 +21,6 @@ In order to submit an Asset Maintenance Log, the Asset Maintenance status has to
 * The status of the Asset Maintenance Log can be 'Planned', 'Completed', 'Canceled', or 'Overdue'.
 * Additional notes can be added in the Actions performed section to describe the activity in detail.
 
-<img class="screenshot" alt="Asset" src="{{docs_base_url}}/v13/assets/img/asset/asset_maintenance_log.png">
+<img class="screenshot" alt="Asset" src="{{docs_base_url}}/v13/assets/img/asset/asset-maintenance-log.png">
+
+{next}

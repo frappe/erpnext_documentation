@@ -1,9 +1,7 @@
-<!-- add breadcrumbs -->
+<!-- add-breadcrumbs -->
 # Asset Depreciation
 
 The system automatically creates a schedule for depreciation based on depreciation method and other related inputs like 'Available to Use Date' in the Asset record. It is also possible to create multiple depreciation schedules for different Finance Books. You need to tick the 'Calculate Depreciation' checkbox while creating an asset for calculating its depreciation and adding entries to the depreciation table in the Asset record.
-
-<img class="screenshot" alt="Asset" src="{{docs_base_url}}/v13/assets/img/asset/depreciation-schedule.png">
 
 Types of depreciations in ERPNext:
 
@@ -41,16 +39,16 @@ The related accounts can be set in the Asset Category or Company.
 ## 3. Automatic depreciation entries
 You can enable booking of depreciation entry automatically from [Accounts Settings](/docs/v13/user/manual/en/accounts/accounts-settings). This will create depreciation entry automatically on scheduled date via scheduler. Otherwise, you have to create Journal Entry manually by clicking "Make > Depreciation Entry" in corresponding Depreciation Schedule row.
 
-The system will automatically set the Fiscal Year end date as the next depreciation date and calculate the depreciation amount *pro rata temporis* based on the Available-for-use Date (IFRS16).
-
-<img class="screenshot" alt="Asset" src="/docs/v13/assets/img/asset/asset_prorated_depreciation.png">
+<img class="screenshot" alt="Asset" src="{{docs_base_url}}/v13/assets/img/asset/depreciation-schedule.png">
 
 ## 4. An example
 For better understanding, net value of the asset on different depreciation dates are shown in a line graph.
 
-<img class="screenshot" alt="Asset" src="{{docs_base_url}}/v13/assets/img/asset/asset-graph.png">
+<img class="screenshot" alt="Asset" src="{{docs_base_url}}/v13/assets/img/asset/asset-submit.png">
 
 ### 5. Related Topics
 1. [Asset Maintenance](/docs/v13/user/manual/en/asset/asset-maintenance)
 1. [Asset Value Adjustment](/docs/v13/user/manual/en/asset/asset-value-adjustment)
 1. [Scrapping an Asset](/docs/v13/user/manual/en/asset/scrapping-an-asset)
+
+{next}

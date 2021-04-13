@@ -6,7 +6,7 @@
 You can also maintain the records of Repair/Failures of Assets which are not listed in Asset Maintenance.
 
 To access the Asset Repair list, go to:
-> Home > Asset > Maintenance > Asset Repair
+> Home > Assets > Maintenance > Asset Repair
 
 ## 1. Prerequisites
 Before creating and using Asset Repair, it is advised to create the following first:
@@ -24,8 +24,10 @@ Before creating and using Asset Repair, it is advised to create the following fi
 1. Change the Repair Status from 'Pending', 'Completed', or 'Canceled'.
 1. Save and Submit.
 
-    <img class="screenshot" alt="Asset" src="{{docs_base_url}}/v13/assets/img/asset/asset_repair.png">
+<img class="screenshot" alt="Asset" src="{{docs_base_url}}/v13/assets/img/asset/asset-repair.png">
 
 ## 3. Related Topics
 1. [Asset Maintenance](/docs/v13/user/manual/en/asset/asset-maintenance)
 1. [Asset Value Adjustment](/docs/v13/user/manual/en/asset/asset-value-adjustment)
+
+{next}

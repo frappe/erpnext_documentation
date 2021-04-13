@@ -3,9 +3,11 @@
 
 **An Asset is any valuable Item owned by a Company.**
 
-Examples of Assets include furniture, computers, mobile phones, printers, cars, etc. Assets may be leased to be used by the employees of a Company.
+Furniture, computers, mobile phones, printers, cars, manufacturing equipment are examples of assets. Generally, an asset is a tangible item that is located on the company premises or is carried by an employee. In some cases, an asset could be an intangible item.
 
-In ERPNext, the Asset record is the heart of fixed asset management. All the transactions related to an Asset like purchasing, sales, depreciation, scrapping, movement, or maintenance will be managed against the Asset record.
+An asset's useful life spans across multiple years and hence its economic value is spread over corresponding years from the accounting perspective. If you buy a printer for $300 and it is expected to be useful for three years, from the accounting perspective $100 is recorded as the expense for three years each instead of all the $300 in the first year. Most countries have rules for such calculations.
+
+In ERPNext, the Asset record is the heart of asset management module. All the transactions related to an Asset like purchasing, depreciation, maintenance, movement, scrapping, sales will be recorded against the Asset record.
 
 To access the Asset list, go to:
 > Home > Assets > Assets > Asset
@@ -13,60 +15,72 @@ To access the Asset list, go to:
 ## 1. Prerequisites
 Before creating and using Asset, it is advised to create the following first:
 
-* [Item](/docs/v13/user/manual/en/stock/item) with 'Is fixed Asset' enabled
+* [Item](/docs/v13/user/manual/en/stock/item) with 'Is Fixed Asset' enabled.
 * [Asset Category](/docs/v13/user/manual/en/asset/asset-category)
 
-## 2. Types of Assets
-Before creating an Asset, the types of Assets in ERPNext need to be understood.
+## 2. How to create an Asset
 
-There are two use cases for creating an asset record. The asset can be an existing asset which has been bought earlier and it might have already been depreciated partially. Or the asset is a newly purchased item.
+An Item representing the asset should be created. The **'Maintain Stock'** should be **unchecked** and **'Is Fixed Asset'** must be **checked**.
 
-### 2.1 Existing Asset
-For an existing asset, you can create the asset record directly checking "Is Existing Asset" field. In this case, you also need to enter already booked depreciation amount and number of booked depreciation. And based on the input, the system will create a schedule for remaining depreciation.
+<img class="screenshot" alt="Asset Item" src="{{docs_base_url}}/v13/assets/img/asset/asset-item.png">
 
-<img class="screenshot" alt="Existing Asset" src="{{docs_base_url}}/v13/assets/img/asset/existing-asset.png">
+### 2.1 Auto creation of assets 
 
-### 2.2 New Asset
+You can configure ERPNext to automatically create assets on submission of Purchase Receipt by enabling **'Auto Create Assets on Purchase'** in Item.
 
-For new assets, you cannot create the asset record directly from the Asset form. You need to create a Purchase Receipt/Invoice for it.
+<img class="screenshot" alt="Asset" src="{{docs_base_url}}/v13/assets/img/asset/asset-auto-create.png">
 
-When you're buying new assets, an asset ID is created when you make a Purchase Receipt. On submitting the Purchase Receipt for an Asset, you'll see a message like 'Asset AST00003 created'. This will happen only if you've ticked the 'Is Fixed Asset' checkbox when creating the Item.
+If you have enabled auto asset creation for the item representing an asset, you will have to provide the asset location while submitting the Purchase Receipt. 
 
-When you're buying new assets, assets can be created automatically when you make a Purchase Receipt, if you have 'Auto Create Assets on Purchase' ticked in the Item master of the Asset. On submitting the Purchase Receipt for an Asset, you'll see a message like '5 Assets created for Office Phone'. If you don't want to auto create assets, after Purchase Receipt submission you will have to manually create assets and link the Purchase Receipt to the Asset.
+<img class="screenshot" alt="Asset Location in Purchase Receipt" src="{{docs_base_url}}/v13/assets/img/asset/asset-location-in-purchase-receipt.png">
 
-<img class="screenshot" alt="Asset" src="{{docs_base_url}}/v13/assets/img/asset/asset.png">
+A message confirming the creation of assets is displayed on submission of Purchase Receipt.
 
-After submitting a Purchase Receipt/Invoice for such an Item, in case of asset auto creation, a number of Asset records will be created in the Draft stage. You can then go to these Assets and submit them.
+<img class="screenshot" alt="Asset Creation Confirmation Message" src="{{docs_base_url}}/v13/assets/img/asset/asset-auto-create-on-purchase.png">
 
-To know more, visit the [Purchasing an Asset](/docs/v13/user/manual/en/asset/purchasing-an-asset) page.
+### 2.2 Manual creation of assets
 
-## 3. How to manually create an Asset
+If you would like to create assets manually, create an Item with 'Is Fixed Asset' enabled and leave 'Auto Create Assets on Purchase' unchecked . On submission of a Purchase Receipt/Purchase Invoice with that Item a message is shown indicating that you need to create assets manually. 
 
-Before you can create an Asset, you need to create an Item with 'Is Fixed Asset' checkbox ticked and create a Purchase Receipt/Invoice against that Item. Note that you will have to create a number of Assets based on the quantity specified in the Purchase Document.
+<img class="screenshot" alt="Manual Creation of Assets" src="{{docs_base_url}}/v13/assets/img/asset/asset-manual-creation-message.png">
 
-An Asset Category needs to be assigned to that Item. Now the Asset can be created.
+Follow below steps to create assets manually.
 
 1. Go to the Assets list, click on New.
 1. Enter a name for the asset.
-1. Select the Item Code, the Item Name and Asset Category will be fetched automatically.
-1. Select who is the Asset Owner, i.e. Company, Supplier, or Customer.
+1. Select the Item Code. Item Name and Asset Category will be fetched automatically.
+1. Select the Asset Owner, i.e. Company, Supplier, or Customer.
 1. Select the Company/Supplier/Customer.
-1. Select the Purchase Receipt/Invoice. Purchase Date and Gross Purchase Amount will be fetched automatically.
+1. Select the Purchase Receipt/Purchase Invoice. Purchase Date and Gross Purchase Amount will be fetched automatically.
 1. Select a Location. Eg: Mumbai Office. This will be fetched automatically if specified in Purchase Receipt items table
-1. Enter an Available for use Date to set the date from which the Asset is available for use. The depreciation amount for the first period will be calculated from this date.
-1. Tick the 'Is Existing Asset' checkbox if you're recording an existing Asset.
+1. Set Available-for-use Date. The depreciation will be calculated starting from this date.
 1. Save and Submit.
 
-### 3.1 Additional options when creating an Asset
+Please note you need create **one asset record for each asset you have bought**. If you have bought five computers and have created just one Purchase Receipt with quantity set to five then you will have to create five asset records manually.
 
-1. **Item Code**: An Item for the Asset must be a non-stock item, with "Is Asset" field checked.
-    <img class="screenshot" alt="Asset Item" src="{{docs_base_url}}/v13/assets/img/asset/asset-item.png">
-1. **Custodian**: The employee you're giving/assigning the asset to.
+### 2.3 Importing existing assets
+
+When you move from a legacy system to ERPNext, you will have to add details of all the assets your company has purchased previosly along with depreciation details of each asset.
+
+For an existing asset, you can create the asset record directly by checking **"Is Existing Asset"** checkbox and provide below details. 
+
+* Gross Purchase Amount
+* Purchase Date
+* Available-for-use Date
+* Opening Accumulated Depreciation: The accumulated depreciation amount which has already been booked for an existing asset.
+* Number of Depreciations Booked: Number of depreciation entries already booked.
+
+Based on these details the schedule for depreciation of remaining amount will be created automatically.
+
+<img class="screenshot" alt="Existing Asset" src="{{docs_base_url}}/v13/assets/img/asset/existing-asset.png">
+
+To know more, visit the [Purchasing an Asset](/docs/v13/user/manual/en/asset/purchasing-an-asset) page.
+
+
+### 2.4 Additional options when creating an Asset
+
+1. **Custodian**: The employee who will carry the asset.
 1. **Department**: The department of the Custodian.
-1. **Is Existing Asset**: Check if you already own the asset, not purchased recently. The asset could also have been carried forward from the previous Fiscal Year. The existing assets which are partially/fully depreciated can also be created/maintained for future reference.
-1. **Opening Accumulated Depreciation**: The accumulated depreciation amount which has already been booked for an existing asset.
-1. **Number of Depreciations Booked**: Enter the number of already booked depreciations for an existing asset.
-1. **Current Value (After Depreciation)**: In case you are creating a record of an existing asset which has already been partially/fully depreciated, mention the current value of the asset. In case of a new asset, mention the purchase amount or leave it blank.
 1. **Next Depreciation Date**: Mention the next depreciation date, even if it is the first one. If the asset is an existing one and depreciation has already been completed, leave it blank.
 1. **Calculate Depreciation**: Enable this checkbox to calculate depreciation of Assets.
 1. **Allow Monthly Depreciation**: Enable this checkbox to distribute depreciation amount of an asset into 12 months of the year. Depreciation entries will be made every month on the date provided as Depreciation Start Date. For example, if Available for Use date is 22nd Nov 2019 and depreciation Start Date is 31st March 2020, first depreciation will be done on 30th Nov 2019 second on 31st Dec 2019 and so on. Amount will be distributed based on days left until next depreciation.
@@ -92,7 +106,7 @@ An Asset Category needs to be assigned to that Item. Now the Asset can be create
 On booking depreciations against this Asset, the Depreciation Schedule section will be visible.
 This table has columns for Finance Book, Schedule Date, Depreciation Amount, Amount Deprecated, and Journal Entry.
 
-![Depreciation Schedule](/docs/v13/assets/img/asset/asset-depreciation.png)
+![Depreciation Schedule](/docs/v13/assets/img/asset/asset-depreciation-schedule.png)
 
 ### 4.3 Insurance Details
 If Insurance has been taken for the Asset you're recording, you can store the following Insurance details:
@@ -120,3 +134,5 @@ Once you create an Asset, you'll see options to transfer, scrap, or sell the ass
 1. [Asset Movement](/docs/v13/user/manual/en/asset/asset-movement)
 1. [Purchase Receipt](/docs/v13/user/manual/en/stock/purchase-receipt)
 1. [Purchase Invoice](/docs/v13/user/manual/en/accounts/purchase-invoice)
+
+{next}
