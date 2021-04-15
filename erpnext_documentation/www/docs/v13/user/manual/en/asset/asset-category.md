@@ -43,3 +43,5 @@ The following account details can be set to record asset values in the ledger:
 
 ## 3. Related Topics
 1. [Asset](/docs/v13/user/manual/en/asset/asset)
+
+{next}
