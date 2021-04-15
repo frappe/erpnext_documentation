@@ -1,35 +1,30 @@
 <!-- add-breadcrumbs -->
 # Implementation Strategy
 
-Before you start managing your Operations in ERPNext, you must first become
-familiar with the system and the terms used. For this we recommend
-implementation should happen in two phases.
+Before you start managing your company operations in ERPNext, you must first become familiar with the system and the terms used. For this, we recommend the two-phase implementation strategy. A **Test Phase**, where you enter dummy records representing your day-to-day transactions, and a **Live Phase**, where you start entering the live data.
 
-  * A **Test Phase**, where you enter dummy records representing your day to day transactions and a **Live Phase**, where we start entering live data.
+## 1. Test Phase
 
-### Test Phase
-
-  * Read the Manual
-  * Create a free account at [https://erpnext.com](https://erpnext.com) (the easiest way to experiment).
-  * Create your first Customer, Supplier and Item. Add a few more so you get familiar with them.
-  * Create Customer Groups, Item Groups, Warehouses, Supplier Groups, so that you can classify your Items.
-  * Complete a standard sales cycle - Lead > Opportunity > Quotation > Sales Order > Delivery Note > Sales Invoice > Payment (Journal Entry)
-  * Complete a standard purchase cycle - Material Request > Purchase Order > Purchase Receipt > Payment (Journal Entry).
-  * Complete a manufacturing cycle (if applicable) - BOM > Production Planning Tool > Work Order > Material Issue
+  * Read the [Manual](/docs/user/manual/en).
+  * Create a trial instance on [erpnext.com](https://erpnext.com).
+  * Create [Customer Group](/docs/user/manual/en/CRM/customer-group), [Item Group](/docs/user/manual/en/stock/item-group), [Warehouse](/docs/user/manual/en/stock/warehouse), [Supplier Group](/docs/user/manual/en/buying/supplier-group) records.
+  * Create a few [Customer](/docs/user/manual/en/CRM/customer), [Supplier](/docs/user/manual/en/buying/supplier) and [Item](/docs/user/manual/en/stock/item) records.
+  * Complete a standard sales cycle:  [Lead](/docs/user/manual/en/CRM/lead) > [Opportunity](/docs/user/manual/en/CRM/opportunity) > [Quotation](/docs/user/manual/en/selling/quotation) > [Sales Order](/docs/user/manual/en/selling/sales-order) > [Delivery Note](/docs/user/manual/en/stock/delivery-note) > [Sales Invoice](/docs/user/manual/en/accounts/sales-invoice) > [Payment Entry](/docs/user/manual/en/accounts/payment-entry).
+  * Complete a standard purchase cycle: [Material Request](/docs/user/manual/en/stock/material-request) > [Purchase Order](/docs/user/manual/en/buying/purchase-order) > [Purchase Receipt](/docs/user/manual/en/stock/purchase-receipt) > [Purchase Invoice](/docs/user/manual/en/accounts/purchase-invoice) > [Payment Entry](/docs/user/manual/en/accounts/payment-entry).
+  * If applicable complete a manufacturing cycle: [BOM](/docs/user/manual/en/manufacturing/bill-of-materials) > [Production Plan](/docs/user/manual/en/manufacturing/production-plan) > [Work Order](/docs/user/manual/en/manufacturing/work-order) > [Stock Entry](/docs/user/manual/en/stock/stock-entry)
+  * Create [Custom DocType](/docs/user/manual/en/customize-erpnext/doctype), [Custom Field](/docs/user/manual/en/customize-erpnext/custom-field), [Print Format](https://docs.erpnext.com/docs/user/manual/en/setting-up/print/print-format).
   * Replicate a real life scenario into the system.
-  * Create custom fields, print formats etc as required.
 
-### Live Phase
+## 2. Live Phase
 
-Once you are familiar with ERPNext, start entering your live data!
+Once you are familiar with ERPNext, set it up and start entering your live data!
 
-  * Clean up the account of test data or better, start a fresh install.
-  * If you just want to clear your transactions and not your master data like Item, Customer, Supplier, BOM etc, you can click delete the transactions of your Company and start fresh. To do so, open the Company Record via Accounting > Accounting Masters > Company and delete your Company's transactions by clicking on the **Delete Company Transactions** button at the bottom of the Company Form.
-  * You can also setup a new account at [https://erpnext.com](https://erpnext.com), and use the 14-day free trial. [Find out more ways of deploying ERPNext](getting-started-with-erpnext)
-  * Setup all the modules with Customer Groups, Item Groups, Warehouses, BOMs etc.
-  * Import Customers, Suppliers, Items, Contacts and Addresses using Data Import Tool.
-  * Import opening stock using Stock Reconciliation Tool.
-  * Create opening accounting entries via Journal Entry and create outstanding Sales Invoices and Purchase Invoices.
-  * If you need help, [you can buy support](https://erpnext.com/pricing) or [ask in the user forum](https://discuss.erpnext.com).
+* Sign up for a new instance at [https://erpnext.com](https://erpnext.com). Alternatively, you can just [delete the transactions](/docs/user/manual/en/setting-up/articles/delete-a-company-and-all-related-transactions) but keep the master data in the instance you have already created.
+* Import the master data like customers, suppliers, items via [Data Import Tool](/docs/user/manual/en/setting-up/data/data-import).
+* Review the module-wise settings like [Selling Settings](/docs/user/manual/en/selling/selling-settings), [Buying Settings](/docs/user/manual/en/buying/buying-settings), [Stock Settings](/docs/user/manual/en/stock/stock-settings). 
+* Import opening stock using [Stock Reconciliation](/docs/user/manual/en/stock/stock-reconciliation#1-how-to-create-a-stock-reconciliation-to-post-opening-stock).
+* Import outstanding invoices using [Opening Invoice Creation Tool](/docs/user/manual/en/accounts/opening-invoice-creation-tool)
+* Import [opening balance](/docs/user/manual/en/accounts/opening-balance).
+* Go-live!
 
 {next}
