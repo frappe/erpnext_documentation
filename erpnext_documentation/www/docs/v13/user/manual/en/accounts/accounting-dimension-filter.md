@@ -26,7 +26,7 @@ To access the Accounting Dimension Filter list, go to:
 
 Based on the restrictions applied on the account, only allowed dimensions will be filtered and shown in the transactions.
 
-<img alt="Filter Apply" class="screenshot" src="{{docs_base_url}}/v13/assets/img/accounts/accounting-dimension-filter-apply.png">
+![Accounting Dimension With Filters](/docs/v13/assets/img/accounts/accounting-dimension-with-filters.png)
 
 ### 2.2 Validations for Invalid and Mandatory Dimensions
 

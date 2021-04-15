@@ -20,7 +20,7 @@ The abbreviation also appears in various accounts, cost centers, taxes templates
 
 You can also attach a company logo and add a description for the company.
 
-![Company Master](/docs/v13/assets/img/setup/company-master.png)
+![Company Master](/docs/v13/assets/img/accounts/company-master.png)
 
 ### 1.1 Multi Company Structure
 
@@ -45,14 +45,12 @@ Once you build a company tree, ERPNext will validate if the accounts of the chil
 ### 1.3 Chart of Accounts
 For each Company, the master for Chart of Accounts is maintained separately. This allows you to maintain separate accounting for each company as per the legal requirements. You can also import chart of accounts using the [Charts Of Accounts Importer](/docs/v13/user/manual/en/setting-up/chart-of-accounts-importer).
 
-<img class="screenshot" alt="Company Chart of Accounts" src="{{docs_base_url}}/v13/assets/img/accounts/company-coa.png">
-
 ERPNext has localized Chart of Accounts readily available for some countries. When creating a new Company, you can choose to set up the Chart of Account for it from one of the following options.
 
 * Standard Chart of Accounts
 * Based on Existing Company's Chart of Account
 
-<img class="screenshot" alt="Company Chart of Accounts" src="{{docs_base_url}}/v13/assets/img/accounts/company-coa-2.png">
+<img class="screenshot" alt="Company Chart of Accounts" src="{{docs_base_url}}/v13/assets/img/accounts/new-company-coa-based-on.png">
 
 Note that, if the Parent Company is selected when creating a new Company, the Chart of Accounts will be created based on the existing Parent Company.
 
@@ -107,7 +105,7 @@ Perpetual Inventory feature would lead to Stock transactions impacting the compa
 * Stock Received But Not Billed
 * Expenses Included In Valuation
 
-    ![Stock Settings in Company](/docs/v13/assets/img/setup/company-stock-settings.png)
+    ![Stock Settings in Company](/docs/v13/assets/img/accounts/company-stock-settings.png)
 
 ### 2.4 Fixed Asset Depreciation Settings
 For managing fixed assets in a company, the following accounts are needed. Most of them will be created by default. They can be seen in the [Chart of Accounts](/docs/v13/user/manual/en/accounts/chart-of-accounts).
@@ -121,7 +119,7 @@ For managing fixed assets in a company, the following accounts are needed. Most 
 * Capital Work In Progress Account
 * Asset Received But Not Billed
 
-    ![Fixed Asset Depreciation](/docs/v13/assets/img/setup/company-asset-depreciation.png)
+    ![Fixed Asset Depreciation](/docs/v13/assets/img/accounts/company-asset-depreciation-settings.png)
 
 ### 2.5 HRA Settings
 
@@ -160,12 +158,9 @@ For reference, the following details of your company can be saved in ERPNext:
 
 > Note: When setting the address here, it is important to tick the 'Is Your Company Address' checkbox.
 
-![Company Address](/docs/v13/assets/img/setup/company-address.png)
+![Company Address](/docs/v13/assets/img/accounts/company-address.png)
 
 **For India**, different addresses can be added with different GSTIN numbers if the company has multiple locations. For example, if your company has offices in Mumbai, Delhi, and Bangalore, you'll have to add different addresses with different GSTIN numbers.
-
-On saving a company, the following details/actions will be visible in the dashboard:
-![Company after Save](/docs/v13/assets/img/setup/company-after-save.png)
 
 **Registration Details**: Here you can save various tax/cheque/bank number for reference.
 
@@ -181,7 +176,7 @@ You can delete all transactions (Orders, Invoices) of a Company. *Use with cauti
 1. Click on the **Delete Company Transactions** button
 1. Verify your password
 1. Enter Company name for confirmation
-    ![Company after Save](/docs/v13/assets/img/setup/company-delete-transactions.png)
+    ![Company after Save](/docs/v13/assets/img/accounts/company-delete-transactions.png)
 
 And you're done. The master data like Item, Account, Employee, BOM etc. will remain as it is.
 
@@ -204,3 +199,5 @@ And you're done. The master data like Item, Account, Employee, BOM etc. will rem
 1. [Letter Head](/docs/v13/user/manual/en/setting-up/print/letter-head)
 1. [Email Account](/docs/v13/user/manual/en/setting-up/email/email-account)
 1. [Administrator](/docs/v13/user/manual/en/setting-up/users-and-permissions/administrator)
+
+{next}

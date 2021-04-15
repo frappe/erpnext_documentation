@@ -13,7 +13,6 @@ To import details of capital accounts:
 
 > To know about Journal Enter in detail, [visit this page](/docs/v13/user/manual/en/accounts/journal-entry).
 
-<img class="screenshot" alt="Stock Asset Ledger" src="{{docs_base_url}}/v13/assets/img/accounts/opening_balance_capital_accounts.png">
-
+![Opening Entry Capital Accounts](/docs/v13/assets/img/accounts/opening-balance-capital-accounts.png)
 
 {next}
