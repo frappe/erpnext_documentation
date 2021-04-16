@@ -4,15 +4,22 @@ All **GL Entries** can be exported in DATEV-Format for your tax advisor.
 
 ## DATEV-Format
 
-The german DATEV eG is a registered cooperative of the tax, accountancy and legal professions. The DATEV format is a CSV-based file interface for importing data into DATEV Accounting. The interface documentation is available in the DATEV developer portal:
-
-- [DATEV format v7.0](https://developer.datev.de/portal/system/files/files/book/datev_format_v7.0.zip).
+The german DATEV eG is a registered cooperative of the tax, accountancy and legal professions. The DATEV format is a CSV-based file interface for importing data into DATEV Accounting.
 
 ## Prerequisites
 
 To use the DATEV Export, these need to be created first:
 
 - [DATEV Settings](/docs/user/manual/en/regional/germany/datev-settings)
+- In **Customer** and **Supplier**, in the "Accounting" section, you can set the "Debtor/Credior Number" of this party (optional).
+
+    1. Add a new row to the table,
+    2. Open the row's detail view,
+    3. Select your **Company**, and
+    4. Set the "Debtor/Credior Number" of this party.
+
+    The "Debtor/Credior Number" will be used as the account number of this party in the exported master data. It will also be available as additional information in exported transactions.
+- **Customer** and **Supplier** should have zero or one **Address** marked as "Primary Billing Address". You can also specify a billing email and phone number in this address. If available, this will be exported with the master data. 
 
 ## Filters
 
@@ -45,3 +52,9 @@ However, in ERPNext the right side is not necessarily an **Account**. It could a
 | Net amount   | Credit          | Sales   | Temporary       |
 
 > Please consult your tax advisor about if and how you can use this data.
+
+## Technical Notes
+
+The interface documentation is available in the DATEV developer portal:
+
+- [DATEV format v7.0](https://developer.datev.de/portal/system/files/files/book/datev_format_v7.0.zip).
