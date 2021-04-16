@@ -11,14 +11,14 @@ The german DATEV eG is a registered cooperative of the tax, accountancy and lega
 To use the DATEV Export, these need to be created first:
 
 - [DATEV Settings](/docs/user/manual/en/regional/germany/datev-settings)
-- In **Customer** and **Supplier**, in the "Accounting" section, you can set the "Debtor/Credior Number" of this party (optional).
+- In **Customer** and **Supplier**, in the "Accounting" section, you can set the "Debtor/Creditor Number" of this party (optional).
 
     1. Add a new row to the table,
     2. Open the row's detail view,
     3. Select your **Company**, and
-    4. Set the "Debtor/Credior Number" of this party.
+    4. Set the "Debtor/Creditor Number" of this party.
 
-    The "Debtor/Credior Number" will be used as the account number of this party in the exported master data. It will also be available as additional information in exported transactions.
+    The "Debtor/Creditor Number" will be used as the account number of this party in the exported master data. It will also be available as additional information in exported transactions.
 - **Customer** and **Supplier** should have zero or one **Address** marked as "Primary Billing Address". You can also specify a billing email and phone number in this address. If available, this will be exported with the master data. 
 
 ## Filters
