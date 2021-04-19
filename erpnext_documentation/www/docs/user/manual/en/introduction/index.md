@@ -2,7 +2,7 @@
 # Introduction
 
 ## What is an ERP?
-
+sfsdfs
 > If you are already convinced that you need an all-in-one software for your organization, you can skip this page.
 
 ERP stands for Enterprise Resource Planning. ERP is a category of business management software used to collect, store, manage, interpret data from business activities, enforce processes, enable control mechanisms and automate a range of activities.
