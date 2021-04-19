@@ -31,6 +31,7 @@ You'll find the global configuration options here, for module-wise setup, visit 
 1. [User Permissions](/docs/user/manual/en/setting-up/users-and-permissions/user-permissions)
 1. [Role Permission For Page And Report](/docs/user/manual/en/setting-up/users-and-permissions/role-permission-for-page-and-report)
 1. [Sharing](/docs/user/manual/en/setting-up/users-and-permissions/sharing)
+1. [Limited User](/docs/user/manual/en/setting-up/users-and-permissions/limited-user)
 1. [Administrator](/docs/user/manual/en/setting-up/users-and-permissions/administrator)
 
 ### 1.4 Printing
@@ -96,6 +97,7 @@ You'll find the global configuration options here, for module-wise setup, visit 
 1. [Delete A Company And All Related Transactions](/docs/user/manual/en/setting-up/articles/delete-a-company-and-all-related-transactions)
 1. [Managing Tree Structure Masters](/docs/user/manual/en/setting-up/articles/managing-tree-structure-masters/)
 1. [Managing Permission Level](/docs/user/manual/en/setting-up/articles/managing-perm-level/)
+1. [Opening Invoice Creation Tool](/docs/user/manual/en/setting-up/opening-invoice-creation-tool)
 
 ### 2.3 Errors
 

@@ -19,7 +19,7 @@ A Loan interest accrual contains the details about:
   * **Pending Principal Amount**: Pending Principal amount against the  loan
   * **Interest Amount**: Interest Amount accrued against the loan
   * **Is Paid**: Is paid checkbox indicates whether the accrued loan interest has been paid or not
-  * [Process Loan Interest Accrual](/docs/user/manual/en/loan-management/process-loan-interest_accrual) is the process by which Loan Interest was accrued
+  * [Process Loan Interest Accrual](/docs/user/manual/en/loan-management/process-loan-interest-accrual) is the process by which Loan Interest was accrued
 
 {next}
 

@@ -221,10 +221,10 @@ valuation method (FIFO / Moving Average) or actual cost of serialized items.
 
     In this example, we have considered the valuation method as FIFO.
     Valuation Rate  = Purchase Rate + Charges Included in Valuation
-                    = 200 + (250 * (2000 / 2500) / 10)
-                    = 220
+                    = 200 + (250 / 10)
+                    = 225
     Total Valuation Amount  = 220 * 5
-                            = 1100
+                            = 1125
 
 
 

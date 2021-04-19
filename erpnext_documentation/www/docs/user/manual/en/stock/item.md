@@ -90,7 +90,7 @@ Barcodes can be recorded in Items to quickly scan and add them in transactions. 
 * **Weight UOM**: The Unit of Measure for the item. This can be Nos, Kilo, etc. The Weight UoM which you use internally can be different from the purchase UoM.
 * **Weight Per Unit**: The actual weight per unit of the item. Eg: 1 kilo biscuits or 10 biscuits per pack.
 * **Default Material Request Type**: When you create a new Material Request for this item, the field set here will be selected by default in the new Material Request. This is also known as an 'indent'.
-* **Valuation Method**: Select the Valuation Method whether FIFO or Moving Average. To know more about Valuation Methods, [click here](/docs/user/manual/en/stock/articles/item-valuation-fifo-and-moving-average).
+* **Valuation Method**: Select the Valuation Method whether FIFO or Moving Average. Read [Item Valuation methods](/docs/user/manual/en/stock/articles/item-valuation-fifo-and-moving-average) to know more.
 
 ### 3.4 Automatic Reordering
 When the stock of an item dips under a certain quantity, you can set an automatic reorder under 'Auto Reorder' section. This should be enabled in [Stock Settings](/docs/user/manual/en/stock/stock-settings#9-automatic-material-request). This will raise a [Material Request](/docs/user/manual/en/stock/material-request) for the Item. The user with roles Purchase Manager and Stock Manager will be **notified** when the Material Request is created.
@@ -180,8 +180,6 @@ In this section, you can define Company-wide transaction-related defaults for th
 ### 3.11 Supplier Details
 
 * **Delivered by Supplier (Drop Ship)**: If the item is delivered directly by the supplier to the customer, tick this checkbox. Read more [here](/docs/user/manual/en/selling/articles/drop-shipping).
-* **Manufacturer:** Select the Manufacturer who manufactured this item.
-* **Manufacturer Part Number:** Enter the manufacturer part number that the manufacturer has assigned to this item.
 * **Supplier Codes:** Track Item Code defined by the Suppliers for this Item. In the Purchase transactions, on selecting an Item, a Supplier Part No. will be fetched as well for the Supplier's reference. You can read more about it [here](/docs/user/manual/en/buying/articles/maintaining-suppliers-part-no-in-item).
 
   ![Item Supplier Details](/docs/assets/img/stock/item-supplier.png)
@@ -236,12 +234,24 @@ You can also set a [Tax Category](/docs/user/manual/en/accounts/tax-category) fo
 
 Quality Inspection can be done with Quick View and you need not go to a different page to update the details inspection in ERPNext.
 
-To know more about Quality Inspection, [click here](/docs/user/manual/en/stock/quality-inspection).
+Read [Quality Inspection](/docs/user/manual/en/stock/quality-inspection) to know more.
 
 ### 3.18 Manufacturing
 
 * **Default BOM**: The default [Bill of Materials](/docs/user/manual/en/manufacturing/bill-of-materials) used to manufacture this Item.
 * **Supply Raw Materials for Purchase**:  If you're subcontracting to a vendor, you can choose to provide them with the raw materials to manufacture the item using the default BOM.
+* **Manufacturer:** Select the Manufacturer who manufactured this item.
+* **Manufacturer Part Number:** Enter the manufacturer part number that the manufacturer has assigned to this item.
+
+  ![Item Manufacturing](/docs/assets/img/stock/item-manufacturing.png)
+
+* The manufacturer details appear after you've created an 'Item Manufacturer' from the dashboard and selected that record as default. Here, add details for:
+  * Item Code
+  * Enter the manufacturer name
+  * Enter the part number the manufacturer uses to identify this item
+  * Select 'Is Default' to show the manufacturer and part number in the Item record
+
+  ![Item Manufacturer](/docs/assets/img/stock/item-manufacturer.png)
 
 ### 3.19  Website
 

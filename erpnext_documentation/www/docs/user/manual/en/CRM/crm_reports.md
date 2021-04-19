@@ -6,7 +6,7 @@ CRM module's reports feature helps users get the information about the prospects
 
 ### 1. Lead Details
 
-This reports provides lead name, address, contact details, lead source, territory and other details.
+This report provides lead name, address, contact details, lead source, territory, and other details.
 
 <img alt="Lead Details" class="screenshot" src="{{docs_base_url}}/assets/img/crm/report/lead.png">
 
@@ -42,5 +42,10 @@ You can also select specific customer in 'Party Name' and report will show addre
 
 <img alt="Lead Details" class="screenshot" src="{{docs_base_url}}/assets/img/crm/report/address_and_contacts.png">
 
+### 7. Lost Opportunity
+
+This report provides Lost Opportunity details like opportunity from, party, customer name, lost reasons, sales stage, territory, and other details.
+
+<img alt="Lead Details" class="screenshot" src="{{docs_base_url}}/assets/img/crm/report/lost_opportunity.png">
 
 {next}

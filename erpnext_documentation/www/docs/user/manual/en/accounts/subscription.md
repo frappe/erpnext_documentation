@@ -1,7 +1,7 @@
 <!-- add-breadcrumbs -->
 # Subscription
 
-If you offer a service that requires renewal in a certain time period (yearly, monthly, quarterly, etc.), you can use the Subscription feature in ERPNext to track them. The Subscription master captures all the details required for the auto-creation of Sales Invoice on subscription expiry.
+If you offer a service that requires renewal in a certain time period or you pay some monthly expenses like rent (yearly, monthly, quarterly, etc.), you can use the Subscription feature in ERPNext to track them. The Subscription master captures all the details required for the auto-creation of Sales or Purchase Invoices.
 
 Let's consider a use-case of ERPNext subscription itself. Our hosting plans are available on a yearly basis. Each Customer's account has a subscription expiry date, after which customers must renew their subscription with us.
 
@@ -16,12 +16,13 @@ Before creating and using a Subscription, it is advisable to create the followin
 1. [Subscription Plan](/docs/user/manual/en/accounts/subscription-plan)
 
 ## 2. How to set a Subscription
-1. Go to the Subscription list and click on New. 
-1. Select a Customer.
+1. Go to the Subscription list and click on New.
+1. Select Party Type as 'Customer' or 'Supplier' and select the party.
 1. Set the Start Date from when the subscription will be active.
+1. Optionally you can also enter the subscription end date if you know it before hand.
 1. Days Until Due is the number of days within which Customer has to pay a generated Sales Invoice.
 1. Select the [Subscription Plans](/docs/user/manual/en/accounts/subscription-plan).
-1. Save. 
+1. Save.
  ![Subscription](/docs/assets/img/accounts/subscription.png)
 
 Based on the subscription start and end date, actual dates for invoices will be calculated.
@@ -35,7 +36,7 @@ If you're offering a trial period for the subscription, a Trial Period Start Dat
 On enabling the 'Cancel At End Of Period' the Subscription will be canceled at the end of its period. For example, if it is a yearly subscription, the system will stop generating invoices after one year of subscription.
 
 ### 3.3 Taxes
-You can apply Taxes to a Subscription by using a Sales Taxes and Charges Template. Visit the [Sales Taxes and Charges Template](/docs/user/manual/en/selling/sales-taxes-and-charges-template) page to know more. 
+You can apply Taxes to a Subscription by using a Sales Taxes and Charges Template. Visit the [Sales Taxes and Charges Template](/docs/user/manual/en/selling/sales-taxes-and-charges-template) page to know more.
 
 ### 3.4 Applying discounts
 You can apply additional discounts on the Subscription based on Grand Total (pre tax) or Net Total (post tax). A discount percentage can also be set. For example, a discount of 2% on 12,000 would be 240 in discount.
@@ -43,14 +44,17 @@ You can apply additional discounts on the Subscription based on Grand Total (pre
 Visit the [Applying Discount](/docs/user/manual/en/selling/articles/applying-discount) page for more details.
 
 ### 3.5 Automatically create invoices
-Based on the [Subscription Plans](/docs/user/manual/en/accounts/subscription-plan) interval, invoices will be created automatically. The 'Generate Invoice At Beginning Of Period' needs to be enabled if you want to generate invoices as soon as the subscription is active.
+Based on the [Subscription Plans](/docs/user/manual/en/accounts/subscription-plan) interval, invoices will be created automatically. The 'Generate Invoice At Beginning Of Period' needs to be enabled if you want to generate invoices as soon as the subscription is active. If "Generate New Invoices Past Due Date" is enabled then new invoices will keep on generating even though current invoice is unpaid or past due date. If "Generate Invoice Early" is enabled, an invoice will be generated before the end of the period by the number of days entered in "Generate Invoice Days Early."
  ![Subscription Invoices](/docs/assets/img/accounts/subscription-invoices.png)
 
-### 3.6 Canceling a Subscription
+### 3.6 Follow Calendar Months
+If 'Follow Calendar Months' is enabled then proper calendar months will be followed even if the Subscription Start Date is in the middle of the month. For Eg: Suppose billing interval is 'Month' and billing interval count is 3 in subscription plan and Subscription Start Date is '15-04-2020' then if 'Follow Calendar Months' is checked then first invoice will be generated for '15-04-2020' to '30-06-2020' rather than '15-04-2020' to '14-07-2020'
+
+### 3.8 Canceling a Subscription
 If the Customer decides to cancel a Subscription, it can be canceled in the system using the **Cancel Subscription**. The system will stop generating invoices when a Subscription is canceled.
  ![Subscription Cancel](/docs/assets/img/accounts/subscription-cancel.png)
 
-### 3.7 Updating a Subscription
+### 3.9 Updating a Subscription
 Clicking on the **Fetch Subscription Updates** button will update the Subscription with the latest generated invoices.
 
 ## 4. Difference Between Subscription and Auto-Repeat
@@ -58,7 +62,7 @@ Clicking on the **Fetch Subscription Updates** button will update the Subscripti
 | Auto Repeat | Subscription |
 |---------------|---------------|
 | Is applicable on transactions | Is applicable on Items |
-| Multiple transactions like Sales Order, Purchase Order, Invoices, Journal Entry, etc. are auto created | Only Sales Invoices are auto-created |
+| Multiple transactions like Sales Order, Purchase Order, Invoices, Journal Entry, etc. are auto created | Only Sales Invoices and Purchase  Invoices are auto-created |
 | Has only a few controls | Has many control options to define trials, billing due date, and creating Subscription Plans |
 
 ### 5. Related Topics

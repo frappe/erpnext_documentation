@@ -31,3 +31,7 @@ CRMs
 CAPEX
 OPEX
 KPIs
+datev
+paytm
+mpesa
+gocardless

@@ -18,6 +18,8 @@ Before creating and using a Delivery Note, it is advised that you create the fol
 
 * [Sales Order](/docs/user/manual/en/selling/sales-order)
 
+> Note: From version-13 onwards we have introduced immutable ledger which changes the rules for cancellation of stock entries and posting backdated stock transactions in ERPNext. [Learn more here](/docs/user/manual/en/accounts/articles/immutable-ledger-in-erpnext).
+
 ## 2. How to create a Delivery Note
 The entry of the Delivery Note is very similar to a Purchase Receipt. It is usually created from a “Submitted” Sales Order (that is not shipped) by clicking on Create > Delivery.
 
@@ -44,7 +46,8 @@ These are the statuses a Delivery Note can be in:
 * **Draft**: A draft is saved but yet to be submitted to the system.
 * **To Bill**: Yet to be billed using a [Sales Invoice](/docs/user/manual/en/accounts/sales-invoice).
 * **Completed**: Submitted and sent all the Items.
-* **Canceled**: Canceled the Delivery Note.
+* **Return Issued**: All the Items have been returned.
+* **Cancelled**: Cancelled the Delivery Note.
 * **Closed**: The purpose of the Close is to manage short-closing. For example, your Customer ordered for 20 qty but closed at 15 qty. The remaining 5 is not to be sent or billed.
 
 ### 2.2 Partial Deliveries
@@ -73,9 +76,9 @@ For India, the following details can be added for GST:
 ### 3.3 Currency and Price List
 You can set the currency in which the Deliver Note is to be sent. This is usually fetched if set in the Sales Order. If you set a Pricing List, then the item prices will be fetched from that list. Ticking on Ignore Pricing Rule will ignore the Pricing Rules set in Accounts > Pricing Rule.
 
-To know about Price Lists, [click here](/docs/user/manual/en/stock/price-lists).
-
-To know about managing transactions in multiple currencies, [click here](/docs/user/manual/en/accounts/articles/managing-transactions-in-multiple-currency).
+Read about [Price Lists](/docs/user/manual/en/stock/price-lists) 
+and [Multi-Currency Transactions](/docs/user/manual/en/accounts/articles/managing-transactions-in-multiple-currency)
+to know more.
 
 ### 3.4 Warehouses
 
@@ -87,7 +90,7 @@ To know about managing transactions in multiple currencies, [click here](/docs/u
 
 * The Item Code, name, description, Image, and Manufacturer will be fetched from the [Item master](/docs/user/manual/en/stock/item).
 
-* **Scan Barcode**: You can add Items in the Items table by scanning their barcodes if you have a barcode scanner. Know how to track them [here](/docs/user/manual/en/stock/articles/track-items-using-barcode)
+* **Scan Barcode**: You can add Items in the Items table by scanning their barcodes if you have a barcode scanner. Read documentation for [tracking items using barcode](/docs/user/manual/en/stock/articles/track-items-using-barcode) to know more.
 
 * **Discount and Margin**: You can apply a discount on individual Items percentage-wise or the total amount of the Item. Read [Applying Discount](/docs/user/manual/en/selling/articles/applying-discount) for more details.
 
@@ -239,6 +242,6 @@ If you don't want to create a Delivery Note after a Sales Order and directly wan
 ### 4. Related Topics
 1. [Warehouse](/docs/user/manual/en/stock/warehouse)
 1. [Delivery Note Stock Error](/docs/user/manual/en/stock/articles/delivery-note-stock-error)
-1. [Material Transfer From Delivery Note](/docs/user/manual/en/stock/articles/material-transfer-from-delivery-note)
+1. [Material Transfer From Delivery Note and Purchase Receipt](/docs/user/manual/en/stock/articles/material-transfer-from-delivery-note)
 1. [Installation Note](/docs/user/manual/en/stock/installation-note)
 1. [Delivery Trip](/docs/user/manual/en/stock/delivery-trip)

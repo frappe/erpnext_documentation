@@ -115,7 +115,7 @@ The setting will be applicable on all the float field.
 
 Use Geolocation field to store GeoJSON <a href="https://tools.ietf.org/html/rfc7946#section-3.3">feature_collection</a>. Stores polygons, lines, and points. Internally it uses the following custom properties for identifying a circle.
 
-For more understanding, [click here](/docs/user/manual/en/customize-erpnext/articles/geolocation-field)
+Read [Geolocation field](/docs/user/manual/en/customize-erpnext/articles/geolocation-field) for more understanding.
 
 #### HTML
 
@@ -193,7 +193,7 @@ Section Break is used to divide the form into multiple sections.
 
 #### Signature
 
-You can define the field to be a Signature field wherein you can add the Digital Signature in this field. To know more, [click here](/docs/user/manual/en/customize-erpnext/articles/signature-field)
+You can define the field to be a Signature field wherein you can add the Digital Signature in this field. Read documentation for [Signature Field](/docs/user/manual/en/customize-erpnext/articles/signature-field) to know more.
 
 #### Table MultiSelect
 
@@ -206,6 +206,19 @@ This is a combination of 'Link' type and 'Table' type fields. Instead of a child
 This is a Time field where you can define the Time in the field.
 
 <img alt="Field Types" class="screenshot" src="{{docs_base_url}}/assets/img/customize/customize-field-type-time.png">
+
+#### Duration
+
+You can use the Duration field if you want to define a timespan.
+
+<img alt="Field Types" class="screenshot" src="{{docs_base_url}}/assets/img/customize/duration-fieldtype.png">
+
+If you don't want to track duration in terms of days or seconds, you can enable "Hide Days" and "Hide Seconds" options respectively in your Form.
+
+<img alt="Field Types" class="screenshot" src="{{docs_base_url}}/assets/img/customize/duration-options.png">
+
+For example, here in the SLA DocType, option is present to choose hours and minutes only.
+<img alt="Field Types" class="screenshot" src="{{docs_base_url}}/assets/img/customize/duration-options-2.png">
 
 {next}
 

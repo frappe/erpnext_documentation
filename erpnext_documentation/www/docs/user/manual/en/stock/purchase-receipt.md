@@ -16,6 +16,8 @@ Before creating and using a Purchase Receipt, it is advised that you create the 
 
 * [Purchase Order](/docs/user/manual/en/buying/purchase-order)
 
+> Note: From version-13 onwards we have introduced immutable ledger which changes the rules for cancellation of stock entries and posting backdated stock transactions in ERPNext. [Learn more here](/docs/user/manual/en/accounts/articles/immutable-ledger-in-erpnext).
+
 
 ## 2. How to create a Purchase Receipt
 A Purchase Receipt is usually created from a [Purchase Order](/docs/user/manual/en/buying/purchase-order). In the Purchase Order, click on Create > Purchase Receipt.
@@ -45,7 +47,8 @@ These are the statuses a Purchase Receipt can be in:
 * **Draft**: A draft is saved but yet to be submitted to the system.
 * **To Bill**: Yet to be billed using a [Purchase Invoice](/docs/user/manual/en/accounts/purchase-invoice).
 * **Completed**: Submitted and received all the Items.
-* **Canceled**: Canceled the Purchase Receipt.
+* **Return Issued**: All the Items have been returned.
+* **Cancelled**: Cancelled the Purchase Receipt.
 * **Closed**: The purpose of the Close is to manage short-closing. For example, you ordered 20 qty, but closing at 15 qty. The remaining 5 is not to be received or billed.
 
 ## 3. Features
@@ -54,7 +57,9 @@ The currency of the Purchase Receipt is shown in this section, it is fetched fro
 
 Since the incoming Item affects the value of your inventory, it is important to convert it into your base currency if you have ordered in another Currency. You will need to update the Currency Conversion Rate if applicable.
 
-To know about Price Lists, [click here](/docs/user/manual/en/stock/price-lists).
+Read about [Price Lists](/docs/user/manual/en/stock/price-lists) 
+and [Multi-Currency Transactions](/docs/user/manual/en/accounts/articles/managing-transactions-in-multiple-currency)
+to know more.
 
 ### 3.2 Warehouse details
 The following Warehouses set will apply to all Items in the Items table of the Purchase Receipt. You can change the Warehouses for individual Items via the table.
@@ -64,13 +69,13 @@ The following Warehouses set will apply to all Items in the Items table of the P
 
 #### Subcontracting
 
-**Raw Materials Supplied**: In case you're subcontracting, select 'Yes' to supply the Raw Materials to the vendor. To know more about subcontracting, [click here](/docs/user/manual/en/manufacturing/subcontracting).
+* **Raw Materials Consumed**: In case you're subcontracting, select 'Yes' to consume the Raw Materials from the vendor. Read [Subcontracting](/docs/user/manual/en/manufacturing/subcontracting) to know more.
 
 ### 3.3 Items table
 
 * **Barcode**: You can track Items using [barcodes](/docs/user/manual/en/stock/articles/track-items-using-barcode).
 
-* **Scan Barcode**: You can add Items in the Items table by scanning their barcodes if you have a barcode scanner. Know how to track them [here](/docs/user/manual/en/stock/articles/track-items-using-barcode)
+* **Scan Barcode**: You can add Items in the Items table by scanning their barcodes if you have a barcode scanner. Read documentation for [tracking items using barcode](/docs/user/manual/en/stock/articles/track-items-using-barcode) to know more.
 
 * The Item Code, name, description, Image, and Manufacturer will be fetched from the Item master.
 
@@ -114,8 +119,10 @@ To know more, visit the [Quality Inspection](/docs/user/manual/en/stock/quality-
 ![Quality Inspection](/docs/assets/img/stock/quality-inspection.png)
 
 
-### 3.5 Pricing Rules
-The **Get Current Stock** button will fetch the current number of stock Items from the selected Target Warehouse.
+### 3.5 Raw Materials Consumed
+* The **Consumed Items** table contains the Raw Materials consumed by the Supplier in order to receive the Finished Item.
+* The **Get Current Stock** button will fetch the current stock of the Consumed Items from the Supplier Warehouse.
+    <img class="screenshot" alt="Purchase Receipt" src="{{docs_base_url}}/assets/img/stock/purchase-receipt-consumed-items.png">
 
 ### 3.6 Taxes and Valuation
 The Taxes and Charges will be fetched from the [Purchase Order](/docs/user/manual/en/buying/purchase-order).

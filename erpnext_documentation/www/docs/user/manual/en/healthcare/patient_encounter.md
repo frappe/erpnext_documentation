@@ -55,7 +55,13 @@ You can also prescribe a Clinical Procedure to be performed for the Patient in t
 
 <img class="screenshot" alt="ERPNext Healthcare" src="{{docs_base_url}}/assets/img/healthcare/encounter_procedures.png">
 
-### 2.5 Billing and Prescriptions
+### 2.5 Therapies
+
+If your Healthcare facility offers Rehabilitation and Physiotherapy services, you can prescribe therapies in the Patient Encounter and a Therapy Plan will be created automatically on submission of Patient Encounter.
+
+<img class="screenshot" alt="ERPNext Healthcare" src="{{docs_base_url}}/assets/img/healthcare/therapy-encounter.jpg">
+
+### 2.6 Billing and Prescriptions
 
 The Pharmacy (Sales / Accounts) User can fetch medication and investigation (Lab Test) orders from Patient Encounter using the **Get items from > Prescription** in Sales Invoice.
 
@@ -83,8 +89,7 @@ After you have completed filling up all the necessary sections, you can Submit t
 
 ## 4. Related Topics
 
-1. [Patient Appointment](/docs/user/manual/en/Healthcare/patient_appointment)
-1. [Clinical Procedure Template](/docs/user/manual/en/Healthcare/clinical_procedure_template)
-1. [Lab Test Template](/docs/user/manual/en/Healthcare/lab_test_template)
+1. [Patient Appointment](/docs/user/manual/en/healthcare/patient_appointment)
+1. [Clinical Procedure Template](/docs/user/manual/en/healthcare/clinical_procedure_template)
 
 {next}

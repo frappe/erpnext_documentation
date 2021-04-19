@@ -40,4 +40,4 @@ You have to specify the number and the period for the duration
 
 ## Related Topics
 
-1. [Patient Encounter](/docs/user/manual/en/Healthcare/patient_encounter)
+1. [Patient Encounter](/docs/user/manual/en/healthcare/patient_encounter)

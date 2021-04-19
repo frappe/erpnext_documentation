@@ -23,18 +23,3 @@ This report list item wise - warehouse wise stock level of an item considering a
 The projected inventory is used by the planning system to monitor the reorder point and to determine the reorder quantity. The projected Quantity is used by the planning engine to monitor the safety stock levels. These levels are maintained to serve unexpected demands.
 
 Having a tight control of the projected inventory is crucial to determine shortages and to calculate the right order quantity.
-
-####Stock Balance Report
-
-Stock Ledger report helps you check stock balance of an item on a given date. 
-
-You can access this report from
-
-`Stock > Main Report > Stock Balance`
-
-This allows you to go back in time, and check what was stock level of an item in a particular warehouse in the near past. 
-
-With item's stock levels, you will also get their valuation details in this report.
-
-Based on the date filters, this report provides item's Opening Stock on From Date, and Closing Stock on To From. It will also list the In Quantity and Out Quantity for an item between the date range.
-<!-- markdown -->

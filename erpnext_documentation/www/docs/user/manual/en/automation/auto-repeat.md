@@ -42,7 +42,14 @@ Once you click on Repeat, a prompt for Auto Repeat will show up. Fill in the det
 
 ## 2. Features
 
-### 2.1 Notify by Email
+
+### 2.1 Submit on Creation
+
+If the reference document type is submittable, you get an option called _Submit on Creation_. If this is checked, your document will be submitted on creation.
+
+<img class="screenshot" alt="Auto Repeat Submit on Creation" src="/docs/assets/img/automation/submit-on-creation.png">
+
+### 2.2 Notify by Email
 If you want to notify certain contacts whenever the recurring documents are created, you can check 'Notify by Email' in the Notification section of Auto Repeat. This will send the auto-generated recurring documents to the specified Email Addresses. Fields for the same are explained below:
 
 - **Recipients**: Defines the Email IDs of the recipients for recurring document creation emails.
@@ -55,22 +62,31 @@ If you want to notify certain contacts whenever the recurring documents are crea
 
 > **Note**: If the document you are setting up Auto Repeat for, is submittable, ensure that "Allow Print for Draft" is enabled in [Print Settings](/docs/user/manual/en/setting-up/print/print-settings) to receive the new recurring document in Auto Repeat Notification Email. If this is not enabled, you will be notified about the recurring document creation without the document.
 
-### 2.2 Repeat on a particular day
+### 2.3 Repeat on a particular day
 If the frequency is set as Monthly, Quarterly, Half-yearly or Yearly, then it will create recurring documents in the respective months on the same day as the 'Start Date' of Auto Repeat. If you want to create recurring documents on some other day then you can set one of the following:
 
 - **Repeat on Day**: Day of the month on which recurring document will be created. For example, if frequency is Monthly and you enter 7 then it will generate recurring document on 7th of the respective month.
 - **Repeat on Last Day of the Month**: This option is available as the last day of every month is different. For example, in a leap year last day of Feb is 29th, and it is 28th otherwise. If you check this option, it will create recurring documents on the last day of the respective months.
 
-### 2.3 Dashboard
+### 2.4 Ability to select weekdays for Auto Repeat
+
+> Introduced in version 13
+
+Auto Repeat with Weekly frequency allows you to select the days on which you want the recurring documents to be created.
+
+<img class="screenshot" alt="Auto Repeat Weekdays" src="/docs/assets/img/automation/auto-repeat-weekdays.png">
+
+### 2.5 Dashboard
+
 You can see the Auto Repeat schedule in the Dashboard of Auto Repeat document. If you don't specify the End Date then the schedule will show only the Next Schedule Date.
 
 <img class="screenshot" alt="Allow Auto Dashboard" src="/docs/assets/img/automation/auto-repeat-dashboard.png">
 
-### 2.4 Auto Repeat Frequency on the sidebar
+### 2.6 Auto Repeat Frequency on the sidebar
 When a document is set on Auto Repeat you can see the Auto Repeat frequency on the sidebar.
 You can click on the status to see the linked Auto Repeat document.
 
 <img class="screenshot" alt="Auto Repeat Frequency" src="/docs/assets/img/automation/auto-repeat-frequency.png">
 
-### 2.5 Disable Auto Repeat
+### 2.7 Disable Auto Repeat
 If you check this field it will stop creating recurring documents and unlink the Auto Repeat document from the Reference Document.

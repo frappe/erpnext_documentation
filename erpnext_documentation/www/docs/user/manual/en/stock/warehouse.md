@@ -63,4 +63,4 @@ of Item and Warehouse. Thus you can get the stock balance for any specific Item 
 
 ### 3. Related Topics
 1. [Stock Entry Purpose](/docs/user/manual/en/stock/articles/stock-entry-purpose)
-1. [Stock Level Report](/docs/user/manual/en/stock/articles/stock-level-report)
+1. [Stock Level Report](/docs/user/manual/en/stock/stock-level-report)

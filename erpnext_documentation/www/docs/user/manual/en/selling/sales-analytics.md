@@ -26,7 +26,14 @@ In the following screenshot, the data column to the right highlighted in orange 
 Using the 'Set Chart' button, you can set values for the X and Y fields, use different type of charts and select a color.
 
 ## 2. Sales Funnel Report
-Go to **Selling > Analytics**. The sales funnel report provides sales generation analysis. It displays the progression of stages in the sales process.  There are four stages for leading up to a Sales Order: Active Leads/Customers, Opportunities, Quotations and Sales orders.
+Go to **Selling > Analytics**. The report "Sales Funnel" provides a sales generation analysis. It displays the progression of stages in the sales process.  There are four stages leading up to a Sales Order: Active Leads, Opportunities, Quotations and Converted (has become a Customer).
+
+- Active Leads shows the number of all your **Leads**, including all the other stages.
+- Opportunities shows the number of Leads for which an **Opportunity** was created.
+- Quotation shows the number of leads for which a **Quotation** was submitted.
+- Converted shows the number of leads for which a **Quotation** and **Sales Order** was submitted.
+
+The earlier stages usually include the later stages. However, if an earlier stage was skipped, you might see counterintuitive results like two **Quotations** resulting from one **Opportunity** (because it is not mandatory to create an **Opportunity** first).
 
 <img alt="Sales Funnel" class="screenshot" src="/docs/assets/img/crm/sales_funnel.png">
 

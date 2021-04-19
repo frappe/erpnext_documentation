@@ -25,6 +25,6 @@
 1. [Sales Return Use Cases](/docs/user/manual/en/stock/articles/sales-return-use-cases)
 1. [Managing Fractions In UOM](/docs/user/manual/en/stock/articles/managing-fractions-in-uom)
 1. [Repack Entry](/docs/user/manual/en/stock/articles/repack-entry)
-1. [Material Transfer From Delivery Note](/docs/user/manual/en/stock/articles/material-transfer-from-delivery-note)
+1. [Material Transfer From Delivery Note and Purchase Receipt](/docs/user/manual/en/stock/articles/material-transfer-from-delivery-note)
 1. [Mode Of Payment](/docs/user/manual/en/stock/articles/mode_of_payment)
 1. [Migrate to Perpetual Inventory](/docs/user/manual/en/stock/articles/migrate-to-perpetual-inventory)

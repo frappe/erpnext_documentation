@@ -42,6 +42,11 @@
 				"title": "Healthcare Settings"
 			},
 			{
+				"content": "Using Patient History Settings, you can configure the doctypes and fields which you want in the Patient Medical Record and Patient History.",
+				"link": "/docs/user/manual/en/healthcare/patient_history_settings",
+				"title": "Patient History Settings"
+			},
+			{
 				"content": "You can easily configure the masters for setting up ERPNext Healthcare for your practice.",
 				"link": "/docs/user/manual/en/healthcare/setup_practice",
 				"title": "Setup Practice"
@@ -107,6 +112,31 @@
 	{
 		"links": [
 			{
+				"content": "Inpatient Record is automatically created when a practitioner orders an admission.",
+				"link": "/docs/user/manual/en/healthcare/inpatient_record",
+				"title": "Inpatient Record"
+			},
+			{
+				"content": "Inpatient Medication Order is created to administer drug dispensing for admitted patients.",
+				"link": "/docs/user/manual/en/healthcare/inpatient_medication_order",
+				"title": "Inpatient Medication Order"
+			},
+			{
+				"content": "Inpatient Medication Entry is created to process Inpatient Medication Orders in bulk based on some filters and to optionally update stock on dispensing the drugs.",
+				"link": "/docs/user/manual/en/healthcare/inpatient_medication_entry",
+				"title": "Inpatient Medication Entry"
+			}
+		],
+		"title": "Inpatient"
+	},
+	{
+		"links": [
+			{
+				"content": "The healthcare module in ERPNext allows you to create all types of Lab Tests rapidly with the help of Lab Test Template DocType. You can pre-configure the events and result components for Single, Compound, Descriptive or Grouped tests, so that, you don't have to fill in redundant data every single time.",
+				"link": "/docs/user/manual/en/healthcare/lab_test_template",
+				"title": "Lab Test Template"
+			},
+			{
 				"content": "ERPNext Healthcare allows you to manage a clinical laboratory efficiently by allowing you to enter Lab Tests and print or email test results, manage samples collected, create Invoice etc.",
 				"link": "/docs/user/manual/en/healthcare/lab_test",
 				"title": "Lab Test"
@@ -122,8 +152,49 @@
 	{
 		"links": [
 			{
+				"content": "Create Exercise with their difficulty level, link body parts and map all the steps involved in the Exercise.",
+				"link": "/docs/user/manual/en/healthcare/exercise_type",
+				"title": "Exercise Type"
+			},
+			{
+				"content": "ERPNext helps you templatize Therapies with Healthcare Service Units, their standard rates and Item details for billing. You can also add exercises according to Body Parts.",
+				"link": "/docs/user/manual/en/healthcare/therapy_type",
+				"title": "Therapy Type"
+			},
+			{
+
+				"content": "The Therapy Plan created using the Therapy Plan Template will not be billed for individual sessions but for the package as a whole.",
+				"link": "/docs/user/manual/en/healthcare/therapy_plan_template",
+				"title": "Therapy Plan Template"
+			},
+			{
+				"content": "ERPNext helps you create a plan for Patients with the prescribed therapies and number of sessions required to complete each Therapy.",
+				"link": "/docs/user/manual/en/healthcare/therapy_plan",
+				"title": "Therapy Plan"
+			},
+			{
+				"content": "Keep a track of every Therapy Session by quantifying the Counts completed, Assistance Level required, etc. for every Exercise.",
+				"link": "/docs/user/manual/en/healthcare/therapy_session",
+				"title": "Therapy Session"
+			},
+			{
+				"content": "ERPNext helps you templatize all the Patient Assessments with all the parameters and the scale on which you want to evaluate the patient.",
+				"link": "/docs/user/manual/en/healthcare/patient_assessment_template",
+				"title": "Patient Assessment Template"
+			},
+			{
+				"content": "Evaluate your Patient's progress with any set of Assessment Parameters and Scale.",
+				"link": "/docs/user/manual/en/healthcare/patient_assessment",
+				"title": "Patient Assessment"
+			}
+		],
+		"title": "Rehabilitation and Physiotherapy"
+	},
+	{
+		"links": [
+			{
 				"content": "ERPNext Healthcare helps you to draw up the medical history of a Patient anytime by quickly searching and selecting the Patient.",
-				"link": "/docs/user/manual/en/healthcare/medical_record",
+				"link": "/docs/user/manual/en/healthcare/patient_history",
 				"title": "Patient History"
 			},
 			{
@@ -132,16 +203,16 @@
 				"title": "Patient Appointment Analytics"
 			},
 			{
-				"content": "Inpatient Record is automatically created when a practitioner orders an admission.",
-				"link": "/docs/user/manual/en/healthcare/inpatient_record",
-				"title": "Inpatient Record"
+				"content": "The Inpatient Medication Orders Report shows all the data related to the medication orders for inpatients.",
+				"link": "/docs/user/manual/en/healthcare/inpatient_medication_orders_report",
+				"title": "Inpatient Medication Orders Report"
 			}
 		],
 		"title": "Records and Reports"
 	}
 ] %}
 
-{% from "erpnext_com/templates/includes/macros.html" import doc_page %}
+{% from "erpnext_documentation/templates/includes/macros.html" import doc_page %}
 
 {{ doc_page(
 	'Healthcare',

@@ -75,7 +75,7 @@ Once the purchase invoice gets submit and you want to change 'Release Date' then
 
 If you want to hold submitted purchase invoice then you can hold using 'Block Invoice' option and If you want to unblock again then use 'Unblock Invoice' option.
 
-![Block PI](/docs/assets/img/accounts/pi_block.png)   
+![Block PI](/docs/assets/img/accounts/pi_block.png)
 
 This is invoice level holding, Suppliers can be put on hold. [Learn more here](/docs/user/manual/en/buying/supplier#23-credit-limit).
 
@@ -101,9 +101,9 @@ You can set the currency in which the Purchase Invoice order is to be sent. This
 
 ![PI Price List](/docs/assets/img/accounts/pi-price-list.png)
 
-To know about Price Lists, [click here](/docs/user/manual/en/stock/price-lists).
-
-To know about managing transactions in multiple currencies, [click here](/docs/user/manual/en/accounts/articles/managing-transactions-in-multiple-currency).
+Read about [Price Lists](/docs/user/manual/en/stock/price-lists)
+and [Multi-Currency Transactions](/docs/user/manual/en/accounts/articles/managing-transactions-in-multiple-currency)
+to know more.
 
 ### 3.6 Subcontracting or 'Supply Raw Materials'
 
@@ -111,7 +111,7 @@ Setting 'Supply Raw Materials' option is useful for subcontracting where you pro
 
 ### 3.7 Items table
 
-* **Scan Barcode**: You can add Items in the Items table by scanning their barcodes if you have a barcode scanner. Know how to track them [here](/docs/user/manual/en/stock/articles/track-items-using-barcode)
+* **scan barcode**: You can add Items in the Items table by scanning their barcodes if you have a barcode scanner. Read documentation for [tracking items using barcode](/docs/user/manual/en/stock/articles/track-items-using-barcode) to know more.
 
 * The Item Code, name, description, Image, and Manufacturer will be fetched from the [Item master](/docs/user/manual/en/stock/item).
 
@@ -140,6 +140,9 @@ Setting 'Supply Raw Materials' option is useful for subcontracting where you pro
 * **Page Break** will create a page break just before this Item when printing.
 
 #### Update Stock
+
+> Note: From version-13 onwards we have introduced immutable ledger which changes the rules for cancellation of stock entries and posting backdated stock transactions in ERPNext. [Learn more here](/docs/user/manual/en/accounts/articles/immutable-ledger-in-erpnext).
+
 The **Update Stock** checkbox should be checked if you want ERPNext to automatically update your inventory. Consequently, there will be no need for a Delivery Note.
 
 ### 3.8 Taxes and charges
@@ -170,7 +173,7 @@ Visit the [Applying Discount](/docs/user/manual/en/selling/articles/applying-dis
 For high-value Items, the seller can request an advance payment before processing the order. The **Get Advances Received** button opens a popup from where you can fetch the orders where advance payment was made. To know more, visit the [Advance Payment Entry](/docs/user/manual/en/accounts/advance-payment-entry) page.
 
 ### 3.11 Payment Terms
-The payment for an invoice may be made in parts depending on your understanding with the Supplier. This is fetched if set in the Sales Order.
+The payment for an invoice may be made in parts depending on your understanding with the Supplier. This is fetched if set in the Purchase Order.
 
 ![PI Payment Terms](/docs/assets/img/accounts/pi-pay-terms.png)
 
@@ -211,11 +214,11 @@ The following details can be set for GST:
 ### 3.16 More Information
 
 * **Is Opening Entry**: If this is an opening entry to affect your accounts select 'Yes'. i.e. if you're migrating from another ERP to ERPNext mid year, you might want to use an Opening Entry to update account balances in ERPNext.
-* **Remarks**: Any additional remarks about the Sales Invoice can be added here.
+* **Remarks**: Any additional remarks about the Purchase Invoice can be added here.
 
 ### 3.17 After Submitting
 
-On submitting a Sales Invoice, the following documents can be created against it:
+On submitting a Purchase Invoice, the following documents can be created against it:
 
 1. [Journal Entry](/docs/user/manual/en/accounts/journal-entry)
 1. [Payment Entry](/docs/user/manual/en/accounts/payment-entry)

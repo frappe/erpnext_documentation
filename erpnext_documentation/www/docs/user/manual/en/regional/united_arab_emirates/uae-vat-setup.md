@@ -3,7 +3,7 @@
 
 ### 1. Setting up Tax Registration No for customer, supplier and company
 
-Set tax registation number in the field tax id for the customer, supplier and company
+Set Tax Registration Number in the field, Tax ID for the Customer, Supplier, and Company.
 
 1. For Customer
 <img class="screenshot" alt="TRN in Customer" src="{{docs_base_url}}/assets/img/regional/uae/tax-id-customer.png">
@@ -37,10 +37,15 @@ For **Sales Invoice**,
 
 ### 4. Print Tax Invoice
 
-ERPNext provides 2 default print foramt
+ERPNext provides two default print format
 
 1. Simplified Tax Invoice
 <img class="screenshot" alt="Simplified Tax Invoice" src="{{docs_base_url}}/assets/img/regional/uae/simplified-invoice.png">
 
 2. Detailed Tax Invoice
 <img class="screenshot" alt="Detailed Tax Invoice" src="{{docs_base_url}}/assets/img/regional/uae/detailed-invoice.png">
+
+### 5. Set-up VAT Accounts
+Select the accounts that will be used for creating VAT invoices here.
+
+<img class="screenshot" alt="UAE VAT Account Settings" src="{{docs_base_url}}/assets/img/regional/uae/uae-vat-account-settings.png">

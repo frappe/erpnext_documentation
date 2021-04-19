@@ -38,8 +38,10 @@ Items can be fetched into the Purchase Order automatically from open [Material R
 1. Select a Supplier in the Purchase Order.
 1. Set default Supplier in the Item form under [Item Defaults](/docs/user/manual/en/stock/item#39-item-defaults).
 1. A [Material Request](/docs/user/manual/en/stock/material-request) needs to present of type 'Purchase'.
-1. Click on the **Get Items from open Material Requests** button below the supplier name. Now a dialog will appear with Material Requests containing Items for which the default Supplier is the same as the one selected in the Purchase Order. On selecting the Material Requests and clicking on **Get Items**, the Items will be fetched from the Material Requests.
+1. Click on the **Get Items from open Material Requests** button below the Supplier name. Now a dialog will appear with Material Requests containing Items for which the default Supplier is the same as the one selected in the Purchase Order. On selecting the Material Requests and clicking on **Get Items**, the Items will be fetched from the Material Requests.
 <img class="screenshot" alt="Get Items from Open Material Requests" src="{{docs_base_url}}/assets/img/buying/get-items-from-open-mr.png">
+
+> **Note:** The **Get Items from Open Material Requests** button is visible as long as the Items table is empty.
 
 ## 3. Features
 
@@ -57,9 +59,9 @@ For India:
 ### 3.2 Currency and Price List
 You can set the currency in which the purchase order is to be stored. If you set a Pricing List, then the item prices will be fetched from that list. Ticking on Ignore Pricing Rule will ignore the Pricing Rules set in Accounts > Pricing Rule.
 
-To know about Price Lists, [click here](/docs/user/manual/en/stock/price-lists).
-
-To know about managing transactions in multiple currencies, [click here](/docs/user/manual/en/accounts/articles/managing-transactions-in-multiple-currency).
+Read about [Price Lists](/docs/user/manual/en/stock/price-lists) 
+and [Multi-Currency Transactions](/docs/user/manual/en/accounts/articles/managing-transactions-in-multiple-currency)
+to know more.
 
 ### 3.3 Subcontracting or 'Supply Raw Materials'
 
@@ -67,7 +69,7 @@ Setting 'Supply Raw Materials' option is useful for subcontracting where you pro
 
 ### 3.4 The Items table
 
-* **Scan Barcode**: You can add Items in the Items table by scanning their barcodes if you have a barcode scanner. Know how to track them [here](/docs/user/manual/en/stock/articles/track-items-using-barcode)
+* **Scan Barcode**: You can add Items in the Items table by scanning their barcodes if you have a barcode scanner. Read documentation for [tracking items using barcode](/docs/user/manual/en/stock/articles/track-items-using-barcode) to know more.
 
 * **Quantity and Rate**: When you select the Item code, it's name, description, and UOM will be fetched. The 'UOM Conversion Factor' is set to 1 by default, you can change it depending on the UOM received from the seller, more in the next section.
 
@@ -153,7 +155,7 @@ Read [Applying Discount](/docs/user/manual/en/selling/articles/applying-discount
 ### 3.10 Payment Terms
 Sometimes payment is not done all at once. Depending on the agreement, half of the payment may be made before shipment and the other half after receiving the goods/services. You can add a Payment Terms template or add the terms manually in this section.
 
-To know more about Payment Terms, [click here](/docs/user/manual/en/accounts/payment-terms).
+Read [Payment Terms](/docs/user/manual/en/accounts/payment-terms) to know more.
 
 ### 3.11 Terms and Conditions
 In Sales/Purchase transactions there might be certain Terms and Conditions based on which the Supplier provides goods or services to the Customer. You can apply the Terms and Conditions to transactions to transactions and they will appear when printing the document. To know about Terms and Conditions, [click here](/docs/user/manual/en/setting-up/print/terms-and-conditions)

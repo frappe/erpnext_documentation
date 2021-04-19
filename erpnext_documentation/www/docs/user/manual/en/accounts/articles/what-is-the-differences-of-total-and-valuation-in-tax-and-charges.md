@@ -15,7 +15,7 @@ Let's consider an example to understand an effect of each charge type. We purcha
 
 Tax or Charge categorized as **Total** will be included in the total of purchase transactions. But it will not have impact on the valuation of item purchased.
 
-If VAT 4% is applied on item, it will amount to INR 32 (at item's based rate is 800). Since VAT is the [consumption tax](https://frappe.io/blog/erpnext-features/managing-consumption-tax), its should be added value of Purchase Order/Invoice, since it will be included in payable towards supplier. But its should not be added to the value of Purchased item.
+If VAT 4% is applied on item, it will amount to INR 32 (at item's based rate is 800). Since VAT is the consumption tax, its should be added value of Purchase Order/Invoice, since it will be included in payable towards supplier. But its should not be added to the value of Purchased item.
 
 When Purchase Invoice is submitted, general ledger posting will be done for tax/charge categorized as Total.
 

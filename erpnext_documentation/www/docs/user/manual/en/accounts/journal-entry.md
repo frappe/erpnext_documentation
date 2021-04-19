@@ -7,16 +7,19 @@ A Journal Entry is a multi purpose transaction where the debit and credit accoun
 
 All types of accounting entries other than Sales and Purchase transactions are made using the **Journal Entry**. A **Journal Entry** is a standard accounting transaction that affects multiple Accounts and the sum of debits is equal to the sum of credits. A Journal Entry Impacts the main ledger.
 
-Journal Entries can be used for entering expenses, opening entries, contra entries, bank payments, excise entries, etc. For example, booing running expenses, direct expenses like petrol/transport, sundry expenses, adjustment entries, and adjusting invoice amount.
+Journal Entries can be used for entering expenses, opening entries, contra entries, bank payments, excise entries, etc. For example, booking running expenses, direct expenses like petrol/transport, sundry expenses, adjustment entries, and adjusting invoice amount.
+
+> Note: From version-13 onwards we have introduced immutable ledger which changes the way cancellation of accounting entries works in ERPNext. [Learn more here](/docs/user/manual/en/accounts/articles/immutable-ledger-in-erpnext).
 
 To access the Journal Entry list, go to:
-> Home > Accounting > General Ledger > Journal Entry 
+> Home > Accounting > General Ledger > Journal Entry
 
 ## 1. How to create a Journal Entry
 1. Go to the Journal Entry list, click on New.
 1. The default Entry Type will be 'Journal Entry'. This is a general purpose entry type. Visit [section 3](/docs/user/manual/en/accounts/journal-entry#3-journal-entry-types) to know more about entry types.
 1. You can change the Posting Date.
 1. Expand the table, select an Account from which amount is debited.
+1. The above details can be added from a [Journal Entry Template](/docs/user/manual/en/accounts/journal-entry-template) too with the 'From Template' field.
 1. Select the Party Type and Party if it's a Debtor entry.
 1. Add a row where the amount will be credited.
 1. Note that, in the end, total debit and credit amounts should add up to be the same.
@@ -38,7 +41,7 @@ When creating a Journal Entry, a **Quick Entry** button can be seen on the top r
   ![Acc Dim](/docs/assets/img/accounts/je-acc-dim.png)
 
 * **Bank Account No**: If you've added a [Bank Account](/docs/user/manual/en/accounts/bank-account), the number associated with that bank account will be fetched.
-* **Reference Type**: If this Accounting Entry is associated with another transaction, it can be referenced here. Select the Reference Type and select the specific document. For example, if you're creating a Journal Entry against a specific Sales Invoice. Link this Journal Entry to the invoice. The “outstanding” amount of that invoice will be affected. 
+* **Reference Type**: If this Accounting Entry is associated with another transaction, it can be referenced here. Select the Reference Type and select the specific document. For example, if you're creating a Journal Entry against a specific Sales Invoice. Link this Journal Entry to the invoice. The “outstanding” amount of that invoice will be affected.
 
   ![Reference](/docs/assets/img/accounts/je_table_reference.png)
 
@@ -51,7 +54,7 @@ Following are the documents that can be selected in the Journal Entry under Refe
   * [Purchase Order](/docs/user/manual/en/buying/purchase-order)
   * [Expense Claim](/docs/user/manual/en/human-resources/expense-claim)
   * [Asset](/docs/user/manual/en/asset/asset)
-  * [Loan](/docs/user/manual/en/human-resources/loan-management)
+  * [Loan](/docs/user/manual/en/loan-management/loan)
   * [Payroll Entry](/docs/user/manual/en/human-resources/payroll-entry)
   * [Employee Advance](/docs/user/manual/en/human-resources/employee-advance)
   * [Exchange Rate Revaluation](/docs/user/manual/en/accounts/exchange-rate-revaluation)
@@ -81,7 +84,7 @@ with the amount required to make the total as zero. Select the account to debit/
 
 A Reference Number can be entered manually and a Reference Date can be set. On entering a Reference Number here, a 'Remark' will be seen, for example:
 
-> Note: supplier 
+> Note: supplier
 
 > Reference #2321 dated 30-09-2019 ₹ 1,000.00 against Sales Invoice ACC-SINV-2019-00064
 
@@ -97,7 +100,21 @@ If the accounts selected are in different currencies, tick the 'Multi Currency' 
 
 ![Multi Currency](/docs/assets/img/accounts/je-multi-currency.png)
 
-### 2.6 Print Settings
+### 2.6 Journal Entry Template
+
+**From Template** field: Selecting an option in this will load details from a Journal Entry Template.
+
+It will fetch and add the following details to the entry:
+
+- Entry Type
+- Company
+- Series
+- Accounts in Accounting Entries
+- Is Opening
+
+To learn more go to the [Journal Entry Template](/docs/user/manual/en/accounts/journal-entry-template) page.
+
+### 2.7 Print Settings
 
 ![Journal Print Settings](/docs/assets/img/accounts/je_print_settings.png)
 
@@ -112,13 +129,13 @@ You can do this by selecting a **Print Heading**. To create new Print Headings g
 
 Home > Settings > Printing > Print Heading
 
-Know more [here](/docs/user/manual/en/setting-up/print/print-headings).
+Read [Print Headings](/docs/user/manual/en/setting-up/print/print-headings) to know more.
 
 ### 2.7 More Information
 
 * **Mode of Payment**: Whether the payment was done using Wire Transfer, Bank Draft, Credit Card, Cheque, or Cash. New Modes of Payment can also be created. If a Bank Account is set in Mode of Payment, it will be fetched here when the Mode of Payment is selected.
 * **Is Opening**: If the Journal Entry is of type 'Opening Entry' this field will be set to 'Yes'. To know more, visit the [Opening Balance](/docs/user/manual/en/accounts/opening-balance) page.
-
+* **From Template**: When a template is selected, the 'Accounting Entries' table will be emptied first before loading the accounts from the template. You can add more account entries after that.
 
 ## 3. Journal Entry Types
 Let's take a look at some of the common accounting entries that can be done via Journal Entry in ERPNext.
@@ -160,31 +177,31 @@ This is a type of entry to easily identify all credit card entries.
 
 ### 3.6 Debit Note
 
-This is a document sent by a customer (your Company) to a supplier (your Supplier) when returning goods/items. 
+This is a document sent by a customer (your Company) to a supplier (your Supplier) when returning goods/items.
 
 You can also create a Debit Note directly from a Purchase Invoice.
 
-"Debit Note" is made for a Supplier against a Purchase Invoice or accepted 
+"Debit Note" is made for a Supplier against a Purchase Invoice or accepted
 as a credit note from Supplier when a company returns goods. When a Debit
-Note is made, the Company can either receive a payment from the Supplier or 
+Note is made, the Company can either receive a payment from the Supplier or
 adjust the amount in another invoice.
 
   * Debit: Supplier Account.
   * Credit: Purchase Return Account.
 
-To know more, [visit this page](/docs/user/manual/en/accounts/debit-note). 
+To know more, [visit this page](/docs/user/manual/en/accounts/debit-note).
 
 ### 3.7 Credit Note
 This is a document sent by a supplier to a customer when returning goods/items.
 
-"Credit Note" is made for a Customer against a Sales Invoice when the 
+"Credit Note" is made for a Customer against a Sales Invoice when the
 company needs to adjust a payment for returned goods. When a Credit Note
-is made, the seller can either make a payment to the customer or adjust 
+is made, the seller can either make a payment to the customer or adjust
 the amount in another invoice.
 
   * Debit: Sales Return Account.
   * Credit: Customer Account.
-  
+
 To know more, [visit this page](/docs/user/manual/en/accounts/credit-note).
 
 > A debit/credit note is usually issued for the value of the goods returned or lesser.
@@ -198,24 +215,24 @@ A Contra Entry is booked when the transaction is booked within the same Company 
 * Cash to Bank
 * Bank to Cash
 
-This is used to record withdrawing or depositing money from a Bank Account. When this entry is used, the money does not leave the company unless it is again used to pay for something. 
+This is used to record withdrawing or depositing money from a Bank Account. When this entry is used, the money does not leave the company unless it is again used to pay for something.
 
 ### 3.9 Excise Entry
 
 When a Company buys goods from a Supplier, company pays excise duty
-on these goods to Supplier. And when a company sells these goods to Customers, 
-it receives excise duty. Company will deduct payable excise duty and deposit balance 
+on these goods to Supplier. And when a company sells these goods to Customers,
+it receives excise duty. Company will deduct payable excise duty and deposit balance
 in Govt. account.
 
-  * When a Company buys goods with Excise duty: 
+  * When a Company buys goods with Excise duty:
     * Debit: Purchase Account, Excise Duty Account.
   	* Credit: Supplier Account.
-	
-  * When a Company sells goods with Excise duty: 
+
+  * When a Company sells goods with Excise duty:
     * Debit: Customer Account.
     * Credit: Sales Account, Excise Duty Account.
 
-> Note: Applicable in India, might not be applicable for your country. 
+> Note: Applicable in India, might not be applicable for your country.
 Please check your country regulations.
 
 
@@ -233,7 +250,7 @@ debts.
 
 ### 3.11 Opening Entry
 
-This entry is useful when moving from an another software to ERPNext during any time of the year. Your outstanding bills, equities etc. can be recorded to ERPNext using this entry type. Selecting type will fetch the Balance Sheet accounts. 
+This entry is useful when moving from an another software to ERPNext during any time of the year. Your outstanding bills, equities etc. can be recorded to ERPNext using this entry type. Selecting type will fetch the Balance Sheet accounts.
 
 ### 3.12 Depreciation
 

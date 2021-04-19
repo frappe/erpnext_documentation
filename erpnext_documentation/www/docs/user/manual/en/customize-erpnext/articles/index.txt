@@ -1,5 +1,4 @@
 allow-fields-to-be-changed-after-submit
-changing-attachment-limits
 creating-custom-link-field
 customizing-data-visibility-in-child-table
 customizing-sorting-order-in-the-list-view

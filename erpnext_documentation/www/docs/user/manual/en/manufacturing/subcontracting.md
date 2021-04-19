@@ -9,9 +9,9 @@ project to be done at once, often leading to quicker completion.
 
 Subcontracting is practiced by various industries. For example, manufacturers
 who make a number of products from complex components subcontract certain
-components and package them at their facilities.  
+components and package them at their facilities.
 
-If your business involves outsourcing certain processes to a third party Supplier where you supply the raw materials and the third party does the labor/production, you can track this by using the subcontracting feature of ERPNext.  
+If your business involves outsourcing certain processes to a third party Supplier where you supply the raw materials and the third party does the labor/production, you can track this by using the subcontracting feature of ERPNext.
 
 ## 1. How to Set up Subcontracting
 
@@ -20,7 +20,7 @@ If your business involves outsourcing certain processes to a third party Supplie
 3. For the processed Item, in the Item master, enable “Is Sub Contracted Item”.
 
   <img class="screenshot" alt="Sub-Contracting" src="{{docs_base_url}}/assets/img/manufacturing/subcontract.png">
-  
+
 ### 1.1 Creating a BOM
 Make a [Bill Of Materials](/docs/user/manual/en/manufacturing/bill-of-materials) for the processed Item, with the unprocessed Items as sub-items. Let's consider a simple example, where you manufacture a pen. The processed
 pen will be named under Bill of Materials(BOM), whereas, the nib, plastic, ink, etc. will be categorized as sub-items.
@@ -30,7 +30,7 @@ This BOM will be without Operations if all of the production work is done by the
 <img class="screenshot" alt="Sub-Contracting" src="{{docs_base_url}}/assets/img/manufacturing/subcontract2.png">
 
 ### 1.2 Creating a Purchase Order
-Make a Purchase Order for the processed Item, the one for which you've created a BOM. When you “Save”, in the “Raw Materials Supplied”, all your un-processed Items will be updated based on your Bill of Materials. You can also select the Warehouse in which the raw materials would be reserved for subcontracting under Reserve Warehouse. 
+Make a Purchase Order for the processed Item, the one for which you've created a BOM. When you “Save”, in the “Raw Materials Supplied”, all your un-processed Items will be updated based on your Bill of Materials. You can also select the Warehouse in which the raw materials would be reserved for subcontracting under Reserve Warehouse.
 
 1. The costs involved with the subcontracting process should be recorded in the Rate field of the Items table in the Purchase Order shown as follows:
 
@@ -41,7 +41,7 @@ Make a Purchase Order for the processed Item, the one for which you've created a
 1. You need to set 'Supply Raw Materials' as Yes since this Purchase Order is for subcontracting.
 
 1. From a Purchase Order, select the raw materials to transfer to subcontractor:
-  ![Sub-Contracting](/docs/assets/img/manufacturing/po_material_transfer_subcontract.gif)
+  ![Sub-Contracting](/docs/assets/img/buying/subcontract-transfer-materials.gif)
 
 1. Once the [Purchase Order](/docs/user/manual/en/buying/purchase-order#35-raw-materials-supplied) is submitted, you can view the reserved quantity of the item from the item dashboard as well.
 
@@ -60,6 +60,21 @@ Receive the Items from your Supplier using a [Purchase Receipt](/docs/user/manua
 Click on Create > Purchase Receipt from the Purchase Order. Set the Accepted and Supplier Warehouses. Make sure to check the “Consumed Quantity” in the “Raw Materials” table so that the correct stock is maintained at the Supplier’s end. You need to select the Supplier's Warehouse where you'll receive the finished goods.
 
 <img class="screenshot" alt="Sub-Contracting" src="{{docs_base_url}}/assets/img/manufacturing/subcontract5.png">
+
+### 1.5 Supplier Sourced Raw Material
+While creating a BOM for subcontracting, there might be few raw materials like nuts and bolts which the Suppliers will have to procure themselves.
+
+While creating a Stock Entry for "Transfer" from Purchase Order, these items can be excluded one by one, but it is impossible to do so if you have more than 100 items. 
+
+If some raw material is sourced by the Supplier directly, then such raw materials have to be included in the BOM.
+
+* It will have zero value in BOM
+* In Purchase Order, this raw material will not appear in Supplied Items since it is not supplied
+* Also, while creating a "Transfer", such items will be excluded from the Stock Entry
+
+<img class="screenshot" alt="Supplier Sourced Raw Material" src="{{docs_base_url}}/assets/img/manufacturing/supplier_sourced_subcontracting.png">
+
+However, the Supplier may choose to include the supplier-provided items in their Sales Order sent to you.
 
 ## 2. Notes
 * Make sure that the “Rate” of processed Item is the processing rate

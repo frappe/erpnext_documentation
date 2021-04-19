@@ -30,7 +30,7 @@ Before creating and using a Work Order, it is advised that you create the follow
   <img class="screenshot" alt="Work Order" src="{{docs_base_url}}/assets/img/manufacturing/work-order.png">
 1. **Use Multi-Level BOM**: This is enabled by default. If you want to plan materials for sub-assemblies of the Item you're manufacturing leave this enabled. If you plan and manufacture the sub-assemblies separately, you can disable this checkbox. To know more, visit [this page](/docs/user/manual/en/manufacturing/articles/managing-multi-level-bom).
 1. Select Warehouses:
-  1. **Source Warehouses**: Select this Warehouse in the Item row. The warehouse where you store your raw materials. Each required item can have separate source warehouse. Group warehouse also can be selected as source warehouse. On submission of Work Order, the raw materials will be reserved in these warehouses for production usage.
+  1. **Source Warehouses**: Select this Warehouse in the Item row. The warehouse where you store your raw materials. Each required item can have a separate source warehouse. Group warehouse also can be selected as source warehouse. On submission of the Work Order, the raw materials will be reserved in these warehouses for production usage.
   1. **Work-in-Progress Warehouse**: The warehouse where your Items will be transferred when you begin production. Group Warehouse can also be selected as a Work in Progress warehouse.
   1. **Target Warehouse**: The warehouse where you store finished Items before they are shipped.
   1. **Scrap Warehouse**: If the BOM results in Scrap material, the Scrap Warehouse needs to be selected.
@@ -46,7 +46,7 @@ A Work Order can also be directly created from a [Sales Order](/docs/user/manual
 * **Project**: Link the Work Order to a Project to track progress in cases like engineer to order.
 * **Allow Alternative Item**: Sometimes when manufacturing a finished good, specific materials may not be available. For example, using plastic beads instead of plastic crystals. The finished good itself could be different. Ticking this checkbox will allow you the select an Alternative Item. To know more, visit [this page](/docs/user/manual/en/manufacturing/item-alternative).
 * **Skip Material Transfer to WIP Warehouse**: Usually, a Stock Entry is created when the raw materials are transferred to a Work In Progress Warehouse. In this case, the raw material is considered to be consumed hence the Stock Entry is skipped. The next option will be shown if you tick this checkbox.
-* **Backflush Raw Materials From Work-in-Progress Warehouse**: Ticking this checkbox will automatically create a Stock Entry with type 'Manufacture'. This means that the raw materials were consumed from the Source Warehouse, used to manufacture finished goods and another Stock Entry was created for your Target Warehouse.
+* **Backflush Raw Materials From Work-in-Progress Warehouse**: Ticking this checkbox will automatically create a Stock Entry with the type 'Manufacture'. This means that the raw materials were consumed from the Source Warehouse, used to manufacture finished goods and another Stock Entry was created for your Target Warehouse.
   ![Options when creating WO](/docs/assets/img/manufacturing/work-order-options.png)
 
 ## 3. Features
@@ -60,9 +60,9 @@ The Source Warehouse can be changed for the raw material items used here. The de
 * **Transferred Quantity**: Once the Work Order starts and Job Cards are run, items are transferred from the Source Warehouse to Work In Progress Warehouse. This field shows the quantity in the WIP Warehouse. Note that if you tick on 'Skip Material Transfer to WIP Warehouse', this column will not be updated.
 * **Consumed Quantity**: When the Item from the WIP Warehouse is consumed and the finished product is manufactured, this field will be updated.
 * **Allow Alternative Item**: If a particular Item (raw material or sub-assembly) is not available, ticking this checkbox will allow you to select an alternative item defined in the Item Alternative list.
-* **Include Item in Manufacturing**: Raw Materials need to have this checkbox ticked. This checkbox appears in the Item master, the BOM, and the Work Order. In case there are Operations or services you need to include in the BOM that are not necessarily an Item used for manufacturing, untick this checkbox. For example, treating the plastic with a chemical involves some cost but it is not an Item and the cost needs to be tracked.
+* **Skip Material Transfer**: If you don't want to transfer the specific raw material to the work in progress warehouse then you need to enable this checkbox.
 
-  On unticking this checkbox for an Item, you can still select it in the BOM and Work Order, but no Stock Entries will be created against it.
+  Once uncheck this checkbox for an Item, you can still select it in the BOM and Work Order, but no Stock Entries will be created against it.
 
 Once the Work Order is saved the following two fields will also show the availability in the respective Warehouses in the Required Items table:
 
@@ -117,7 +117,7 @@ When a Work Order is created from a [Material Request](/docs/user/manual/en/stoc
 ### 3.5 Transferring Materials for Manufacturing
 
 * Once you have submitted your Work Order, you need to Transfer the Raw Materials to initiate the Manufacturing Process.
-* This will create a Stock Entry with all the Items required to complete this Work Order to be added to the WIP Warehouse. This will add the sub-assembly Items as is or explode it to show the raw materials depending on whether you ticked 'Use Multi-Level BOM' or not.
+* This will create a Stock Entry with all the Items required to complete this Work Order to be added to the WIP Warehouse. This will add the sub-assembly Items as is or explode them to show the raw materials depending on whether you ticked 'Use Multi-Level BOM' or not.
 
 * Click on 'Start'. Once you click on Start, Job Cards will be created for the [Operations](/docs/user/manual/en/manufacturing/job-card) involved.
 
@@ -144,7 +144,7 @@ If this is the case, you can tick the 'Skip Material Transfer' checkbox, which w
 ### 3.7 Creating Job Cards
 
 * Progress in the Work Order can be tracked using Job Cards
-* Drafts of Job Cards are created based when a Work Order is Submitted.
+* Drafts of Job Cards are created based on when a Work Order is Submitted.
 * To create more Job Cards against a Work Order click on the plus sign next to Job Card on the Work Order dashboard.
 
 To know more about Job Cards, visit [this page](/docs/user/manual/en/manufacturing/job-card).
@@ -161,21 +161,37 @@ To know more about Job Cards, visit [this page](/docs/user/manual/en/manufacturi
 
 > Tip: You can also partially complete a Work Order by updating the Finished Goods stock creating a Stock Entry.
 
-### 3.9 Stopping a Work Order
-When you stop a Work Order its status is changed to Stopped indicating that all production process against that Work Order has stopped.
+### 3.9 Return Non Consumed Materials
+
+In some cases, the user sends extra raw materials to the manufacturing stations, but sometimes the operator does not consume all the raw materials to complete the Finished Goods, or sometimes the quantity to manufacture gets reduce. In this case, the unconsumed raw materials are transferred back to the store. In ERPNext, to transfer the raw materials back to the store from the work in progress warehouse user has to click on the button Return Non Consumed Materials. On click of a button, the system opens the stock entry to transfer the raw materials from work in progress warehouse to the Stores warehouse.
+<img class="screenshot" alt="Return Unconsumed Materials" src="{{docs_base_url}}/assets/img/manufacturing/return_unconsumed_materials.png">
+
+Stock Entry to return raw materials is as below
+
+<img class="screenshot" alt="Return Unconsumed Materials Stock Entry" src="{{docs_base_url}}/assets/img/manufacturing/return_unconsumed_materials_stock_entry.png">
+
+### 4.0 Stopping a Work Order
+When you stop a Work Order its status is changed to Stopped indicating that all production process against that Work Order has stopped. But before stopping the work order user has to make sure that the raw materials which were transferred to the Work In Progress warehouse have been returned or not. In case, if the user has tried to stop the work order without returning the raw materials then the system will throw the error and not allow the user to stop the work order.
 
 To stop a Work Order, click on the 'Stop' button.
 
 <img class="screenshot" alt="PO - stop" src="{{docs_base_url}}/assets/img/manufacturing/PO-stop.png">
 
-You can also re-start a stopped Work Order.
+If raw materials have not returned and still available in the Work In Progress warehouse. Clicking the Stop button system will throw the below error.
+
+<img class="screenshot" alt="Work Order Stop Error" src="{{docs_base_url}}/assets/img/manufacturing/work_order_cannot_stop.png">
+
+You can also re-open the stopped Work Order.
+
+<img class="screenshot" alt="Reopen Work Order" src="{{docs_base_url}}/assets/img/manufacturing/reopen-work-order.png">
+
 
 ### 3.10 Capacity Planning in Work Order
 
-* When a Work Order is submitted, based on the Planned Start Date and the availability of the Workstations, system schedules all operations for the Work Order (if Work Order has Operations specified).
+* When a Work Order is submitted, based on the Planned Start Date and the availability of the Workstations, the system schedules all operations for the Work Order (if Work Order has Operations specified).
 * Drafts of Time Logs are also created based on the scheduled operations.
 
-On Submitting the Work Order, the system will reserve a slot for each of the Work Order Operations serially after the planned start date based on the Workstation availability. The Workstation availability depends on the Workstation timings, holiday list and if some other Work Order Operation is scheduled in that slot.
+On Submitting the Work Order, the system will reserve a slot for each of the Work Order Operations serially after the planned start date based on the Workstation availability. The Workstation availability depends on the Workstation timings, holiday list, and if some other Work Order Operation is scheduled in that slot.
 
 You can mention the number of days for the system to try scheduling the operations in the Manufacturing Settings. This is set to 30 Days by default. If the operation requires time exceeding the available slot, the system will ask you to break the operations. Once the scheduling is done the system will create Time Logs and save them. You can Modify them and submit them later.
 

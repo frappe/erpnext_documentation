@@ -1,9 +1,12 @@
 # Appointment Booking Settings
 
+You can find all settings related to booking appointments in Appointment Booking Settings.
+
 ![Appointment Booking Settings](/docs/assets/img/crm/appointment-booking-settings.png)
+
 ## 1. Enable Appointment scheduling
 
-This checkbox will enable appointment scheduling and also enable the `/book_appointment` Route for website users (your customers).
+This checkbox will enable appointment scheduling and also enable the `/book_appointment` Route for website users (your customers). Your customers will see a portal view. To know more, visit the [Appointment Page](/docs/user/manual/en/CRM/appointment)
 
 ## 2. Agent Details 
 
@@ -37,12 +40,12 @@ Enabling this checkbox will send an email to the participants of the appointment
 
 ### 3.3 Number of days appointment can be books in advance
 
-This is the number of days the appointment can be booked in advance. If the Holiday List provided above ends before the date calculated using this number, appointment schedulling will be stopped at the end of holiday list end.
+This is the number of days the appointment can be booked in advance. If the Holiday List provided above ends before the date calculated using this number, appointment scheduling will be stopped at the end of holiday list end.
 
 
 ## 4. Success settings
 
 ### 4.1 Success Redirect URL
 
-This is the URL where the user will be redirected on creation of successful appoitnment creation via Web Portal. This redirect will not occur when creating appointments from within Desk UI.
+This is the URL where the user will be redirected on creation of successful appointment creation via Web Portal. This redirect will not occur when creating appointments from within Desk UI.
 Leave blank for home. This is relative to site URL, for example "about" will redirect to "https://yoursitename.com/about"

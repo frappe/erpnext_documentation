@@ -7,7 +7,7 @@ product or service.**
 This is done in a market segment of a particular geographical area to achieve specified objectives.
 
 To access Campaign, go to:
-> Home > CRM > Settings > Campaign
+> Home > CRM > Campaign > Campaign
 
 <img class="screenshot" alt="Campaign" src="{{docs_base_url}}/assets/img/crm/campaign.png">
 
@@ -55,7 +55,7 @@ You will have to set up a schedule for the campaign. Click on 'Add Row' to add a
 
 ### 2.4 Dashboard
 
-The Campaign dashboard shows you all the Email Campaigns linked to the Campaign. You can also create a new Email Campaign from here.
+The Campaign dashboard shows you all the Email Campaigns and Social Media Post linked to the Campaign. You can also create a new Email Campaign and Social Media Post from here.
 
 <img class="screenshot" alt="Campaign Dashboard" src="{{docs_base_url}}/assets/img/crm/email-campaigns-from-dash.png">
 

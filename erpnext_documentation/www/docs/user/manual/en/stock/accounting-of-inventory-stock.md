@@ -19,8 +19,9 @@ the value as per Stock Ledger always remains the same with the relevant account
 balance. This improves the accuracy of the Balance Sheet and the Profit and Loss
 statement.
 
-To check accounting entries for a particular stock transaction,
-[click here](/docs/user/manual/en/stock/perpetual-inventory)
+Read [Perpetual Inventory documentation](/docs/user/manual/en/stock/perpetual-inventory)
+to check accounting entries for a particular stock transaction.
+
 
 ### 1.2 Advantages of Perpetual Inventory
 

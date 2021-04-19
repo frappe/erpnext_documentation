@@ -3,7 +3,7 @@
 
 **A Material Request is a simple document identifying a requirement of a set of Items (products or services) for a particular reason.**
 
-A Material Request can be of the following types:
+A Material Request can have the following purposes:
 
 * **Purchase**: If the material being requested is to be purchased.
 * **Material Transfer**: If the material being requested is to be shifted from one Warehouse to another.
@@ -19,12 +19,12 @@ To access the Material Request list, go to:
 ## 1. How to create a Material Request
 1. Go to the Material Request list, click on New.
 1. Enter the required by date.
-1. Select from one of the types as listed above.
+1. Select from one of the purposes as listed above.
 1. You can fetch Items from a BOM, Sales Order, or Product Bundle.
   ![MR fetch from](/docs/assets/img/stock/mr-fetch-from.png)
 1. Select the Item and set the quantity.
 1. Select the Warehouse for which Items are required.
-1. You can change the Required by Date for individual Items in this table.
+1. You can change the Required By date for individual Items in this table.
 1. Save and Submit.
 
 ### 1.1 Alternate ways of creating a Material Request
@@ -60,7 +60,7 @@ These are the statuses a Material Request can be in:
 
 * The Item Code, name, description, Image, and Manufacturer will be fetched from the Item master.
 
-* **Scan Barcode**: You can add Items in the Items table by scanning their barcodes if you have a barcode scanner. Know how to track them [here](/docs/user/manual/en/stock/articles/track-items-using-barcode)
+* **Scan Barcode**: You can add Items in the Items table by scanning their barcodes if you have a barcode scanner. Read documentation for [tracking items using barcode](/docs/user/manual/en/stock/articles/track-items-using-barcode) to know more.
 
 * The UoM, Conversion Factor, and Amount will be fetched. You change the Warehouse for which the material is being requested.
 
@@ -68,20 +68,24 @@ These are the statuses a Material Request can be in:
 
 * Page Break will create a page break just before this item when printing.
 
-### 2.2 More Information
+### 2.2 Setting Warehouses
+* **Set Warehouse**: Optionally, you can set the Warehouse where the requested Items will arrive. This will be fetched into the 'For Warehouse' fields in the Item table rows.
+
+### 2.3 More Information
 In the 'Requested For' field, you can set a Reference from where Material Request was generated.
 
-### 2.3 Printing Details
+### 2.4 Printing Details
 #### Letterhead
-You can print your Material Request on your company's letterhead. [Click here](/docs/user/manual/en/setting-up/print/letter-head) to learn more.
+You can print your Material Request on your company's letterhead. 
+Read [Letter head documentation](/docs/user/manual/en/setting-up/print/letter-head) to learn more.
 
 #### Print Headings
 Purchase Receipt headings can also be changed when printing the document. You can do this by selecting a **Print Heading**. To create new Print Headings go to: Home > Settings > Printing > Print Heading. Know more [here](/docs/user/manual/en/setting-up/print/print-headings).
 
-### 2.4 Terms and Conditions
+### 2.5 Terms and Conditions
 In Sales/Purchase transactions there might be certain Terms and Conditions based on which the Supplier provides goods or services to the Customer. You can apply the Terms and Conditions to transactions to transactions and they will appear when printing the document. To know about Terms and Conditions, [click here](/docs/user/manual/en/setting-up/print/terms-and-conditions)
 
-### 2.5 After Submitting
+### 2.6 After Submitting
 You can create the following documents:
 
 * [Request For Quotation](/docs/user/manual/en/buying/request-for-quotation)
@@ -91,7 +95,7 @@ You can create the following documents:
 <img class="screenshot" alt="Material Request" src="{{docs_base_url}}/assets/img/stock/material-request.png">
 
 
-### 2.6 Automatically generate Material Requests
+### 2.7 Automatically generate Material Requests
 
 Material Requests can be generated automatically by enabling the setting in [Stock Settings](/docs/user/manual/en/stock/stock-settings#9-automatic-material-request) and setting the level in the [Item form](/docs/user/manual/en/stock/item#34-automatic-reordering). When the stock level dips below a certain quantity, setting a reorder will automatically create material requests for the Item.
 

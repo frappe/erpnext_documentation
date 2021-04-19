@@ -39,7 +39,7 @@ A Payment Entry can also be created directly then linked to an order/invoice lat
 If you're following the Sales/Purchase Cycle, you'd need the following:
 
 1. [Sales Order](/docs/user/manual/en/selling/sales-order) (Advance Payment)
-1. [Purchase Order](/docs/user/manual/en/buying/purchase-order) (Advance Payment
+1. [Purchase Order](/docs/user/manual/en/buying/purchase-order) (Advance Payment)
 1. [Sales Invoice](/docs/user/manual/en/accounts/sales-invoice)
 1. [Purchase Invoice](/docs/user/manual/en/accounts/purchase-invoice)
 
@@ -96,16 +96,16 @@ A Payment Entry created manually will have no order/invoice linked to it. Paymen
 ![Payment Accounts]({{docs_base_url}}/assets/img/accounts/payment-accounts.png)
 
 * **Party Balance**: The overall amount receivable or payable from Customer or Supplier from Invoices set in the current Payment Entry. Paid amounts will be positive and if advance payments are made, they will be negative.
-* **Account Paid From**: The [Account](/docs/user/manual/en/accounts/chart-of-accounts) from which the amount will be deducted when Payment is submitted. 
-* **Account Paid To**: The [CoA account](/docs/user/manual/en/accounts/chart-of-accounts) from which the amount will be added when Payment Entry is submitted. 
+* **Account Paid From**: The [Account](/docs/user/manual/en/accounts/chart-of-accounts) from which the amount will be deducted when Payment is submitted.
+* **Account Paid To**: The [CoA account](/docs/user/manual/en/accounts/chart-of-accounts) from which the amount will be added when Payment Entry is submitted.
 
-* **Account Currency**: The Currencies of these accounts will be fetched as set in the [Account](/docs/user/manual/en/accounts/chart-of-accounts) and cannot be edited here. To know about more about transactions in multiple currencies, [visit this page]((/docs/user/manual/en/accounts/articles/managing-transactions-in-multiple-currency)).
-* **Account Balance**: The total amount balance from all the invoices of the selected accounts. 
+* **Account Currency**: The Currencies of these accounts will be fetched as set in the [Account](/docs/user/manual/en/accounts/chart-of-accounts) and cannot be edited here. To know about more about transactions in multiple currencies, [visit this page](/docs/user/manual/en/accounts/articles/managing-transactions-in-multiple-currency).
+* **Account Balance**: The total amount balance from all the invoices of the selected accounts.
 
 **Paid Amount**: The **total amount** paid for the current Payment Entry is shown in this field.
 
 > **Note**: When making Payment Entries, the default bank account will be fetched in the following order if set:
- 
+
 > * Company form
 > * Mode of Payment default account
 > * Customer/Supplier default bank account
@@ -119,7 +119,7 @@ This can be used to make payments to multiple Sales Invoices using one Payment E
 
 ![Outstanding Invoice]({{docs_base_url}}/assets/img/accounts/outstanding-pe.png)
 
-If the Party has not made full payment, enter the amount paid in the 'Allocated' field. 
+If the Party has not made full payment, enter the amount paid in the 'Allocated' field.
 
 If creating Payment Entry for a Customer, the Payment Amount will be allocated against a Sales Invoice. On the same lines, when creating Payment Entry for a Supplier, Payment Amount will be allocated against a Purchase Invoice.
 
@@ -129,7 +129,7 @@ If creating Payment Entry for a Customer, the Payment Amount will be allocated a
 * **Name**: The particular transaction ID is fetched/selected here.
 * **Total Amount**: The total amount of one Invoice/Journal Entry in the row.
 * **Outstanding**: The amount to receive/to pay for this invoice.
-* **Allocated**: If the Paid Amount is less than the invoice amount only the paid amount will be allocated to the invoice(s) fetched in the Payment Entry. The payment may be made in parts, for example, if there are three invoices of amounts 20, 20, 20, the Paid Amount is 60 then this Paid Amount will be distributed equally. [Payment Terms](/docs/user/manual/en/accounts/payment-terms) may also be involved. 
+* **Allocated**: If the Paid Amount is less than the invoice amount only the paid amount will be allocated to the invoice(s) fetched in the Payment Entry. The payment may be made in parts, for example, if there are three invoices of amounts 20, 20, 20, the Paid Amount is 60 then this Paid Amount will be distributed equally. [Payment Terms](/docs/user/manual/en/accounts/payment-terms) may also be involved.
 
  ![Outstanding Invoice]({{docs_base_url}}/assets/img/accounts/outstanding-pe.png)
 
@@ -162,7 +162,7 @@ In this table, the deductions or loss from payments can be adjusted as explained
 ![Payment Write Off]({{docs_base_url}}/assets/img/accounts/payment-write-off.png)
 
 ### 3.5 After Submitting
-Save and Submit Payment Entry. On submission, outstanding will be updated in the Invoices. 
+Save and Submit Payment Entry. On submission, outstanding will be updated in the Invoices.
 
 <img class="screenshot" alt="Making Payment" src="{{docs_base_url}}/assets/img/accounts/payment-entry-8.png">
 
@@ -186,7 +186,7 @@ If you want to maintain a receivable/payable account in foreign currency, then c
 
 ![Foreign Account in Customer]({{docs_base_url}}/assets/img/accounts/cust-foreign-acc.png)
 
-ERPNext allows you maintain accounts and invoicing in [multiple currency](/docs/user/manual/en/accounts/multi-currency-accounting). If an invoice is made in the party currency, Currency Exchange Rate between the Company's base currency and party currency is also entered in the invoice. 
+ERPNext allows you maintain accounts and invoicing in [multiple currency](/docs/user/manual/en/accounts/multi-currency-accounting). If an invoice is made in the party currency, Currency Exchange Rate between the Company's base currency and party currency is also entered in the invoice.
 
 > Note: A separate Debtor/Creditor account needs to be created and selected in the Sales Invoice/Order for currency exchange to work correctly. For example, if the Customer is from the US, create a receivable account called 'Debtors US'.
 
