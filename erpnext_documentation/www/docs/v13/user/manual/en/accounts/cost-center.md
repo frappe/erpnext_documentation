@@ -61,6 +61,9 @@ Selecting a different Company will display the Cost Centers for that Company.
 
 <img class="screenshot" alt="Cost Center" src="{{docs_base_url}}/v13/assets/img/accounts/chart-of-cost-center.png">
 
+![Chart of Cost Centers](/docs/v13/assets/img/accounts/company-master.png)
+
+
 ### 3. Related Topics
 1. [Budgeting](/docs/v13/user/manual/en/accounts/budgeting)
 1. [Sales Invoice](/docs/v13/user/manual/en/accounts/sales-invoice)

@@ -5,6 +5,9 @@ To import all the existing fixed assets first create the asset record and then c
 
 ## 1. Create Asset Records
 
+> To know about Assets in detail, [visit this page](/docs/v13/user/manual/en/asset/asset).
+
+
 Create Asset record for each asset that your company owns which is not fully depreciated.
 
 To create a new Asset:
@@ -19,7 +22,7 @@ To create a new Asset:
 1. Tick **Is Existing Asset.**
 1. Save.
 
-    <img class="screenshot" alt="Stock Asset Ledger" src="{{docs_base_url}}/v13/assets/img/accounts/asset_opening_balance.png">
+ ![Opening Stock Balance](/docs/v13/assets/img/accounts/asset-opening-balance.png)
 
 > To know about Assets in detail, [visit this page](/docs/v13/user/manual/en/asset/asset).
 
@@ -35,6 +38,6 @@ To create a new Journal Entry:
 1. Select 'Temporary Opening' ledger in Account column and enter the balancing amount in Credit column.
 1. Set 'Is Opening' to Yes.
 
-<img class="screenshot" alt="Stock Asset Ledger" src="{{docs_base_url}}/v13/assets/img/accounts/journal_entry_for_fixed_asset_opening_balance.png">
+![Journal Entry Fixed Asset Opening](/docs/v13/assets/img/accounts/journal-entry-fixed-asset.png)
 
 {next}

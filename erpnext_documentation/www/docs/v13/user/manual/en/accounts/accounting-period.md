@@ -31,7 +31,7 @@ Do note that if the Accounting Period ends and if any of the selected transactio
 
 
 If you try to submit a closed transaction after its Accounting Period ends, you will see a validation error preventing you from doing so.
-![Accounting Period](/docs/v13/assets/img/accounts/accounting-period-1.png)
+![Accounting Period](/docs/v13/assets/img/accounts/accounting-period-closed-for-transaction.png)
 
 > Note: No role can submit transactions defined in the Accounting Period, even the Role set in 'Role Allowed to Set Frozen Accounts & Edit Frozen Entries' in [Account Settings](/docs/v13/user/manual/en/accounts/accounts-settings).
 

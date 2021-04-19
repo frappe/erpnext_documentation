@@ -6,7 +6,7 @@ take a "Tea Stall" as a company and see how to book accounting entries for the
 business.
 
 Mama (The Tea-stall owner) invests Rs. 25000 to start the business.
-![JE](/docs/v13/assets/img/accounts/je-1.png)
+![JE](/docs/v13/assets/img/accounts/equity-journal-entry.png)
 
 ## 1. Investment
 Mama invested Rs. 25000 in Company, hoping to get some profit. In other
@@ -17,7 +17,7 @@ will be debited.
 
   The company needs equipments (stove, teapot, cups, etc.) and raw materials (tea, sugar, milk, etc.) immediately. He decides to buy them from the nearest general store, "Super Bazaar" whose owner is a friend, so that he gets some credit. Equipments cost him Rs. 2800 and raw materials Rs. 2200. He pays Rs. 2000 out of the total cost which is Rs. 5000. This can be recorded in ERPNext using a [Payment Entry](/docs/v13/user/manual/en/accounts/payment-entry).
 
-![JE](/docs/v13/assets/img/accounts/je-2.png)
+![JE](/docs/v13/assets/img/accounts/payment-entry-gl.png)
 
 ## 2. Assets
 Equipments are "Fixed Assets" (because they have a long life) and raw materials are "Current Assets" (since they are used for day-to-day
@@ -28,7 +28,7 @@ Bazaar" later, so Super Bazaar will be credited by Rs. 3000.
 
   Mama (who takes care of all entries) decides to book sales at the end of every day, so that he can analyze daily sales. At the end of the very first day, the tea stall sells 325 cups of tea, which gives net sales of Rs. 1625. The owner happily books his first day sales.
 
-![JE](/docs/v13/assets/img/accounts/si-1.png)
+![JE](/docs/v13/assets/img/accounts/sales-invoice-gl.png)
 
 ## 3. Income
 Income has been booked in "Sales of Tea" account which has been
@@ -40,7 +40,7 @@ sold" account by same amount.
 At the end of the month, the company paid the rent amount of stall (Rs. 5000) and
 salary of one employee (Rs. 8000), who joined from the very first day.
 
-![JE](/docs/v13/assets/img/accounts/je-3.png)
+![JE](/docs/v13/assets/img/accounts/salary-journal-entry-gl.png)
 
 ## 4. Booking Profit
 
@@ -65,3 +65,5 @@ materials available worth Rs. 1000.
 1. [Adjust Withhold Amount Payment Entry](/docs/v13/user/manual/en/accounts/articles/adjust-withhold-amount-payment-entry)
 1. [Bulk Payment Entry](/docs/v13/user/manual/en/accounts/articles/bulk-payment-entry)
 1. [Difference Entry Button](/docs/v13/user/manual/en/accounts/articles/difference-entry-button)
+
+{next}

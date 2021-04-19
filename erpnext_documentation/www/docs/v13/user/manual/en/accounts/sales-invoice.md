@@ -34,14 +34,14 @@ For manual creation, follow these steps:
 1. The prices will be fetched automatically if [Item Price](/docs/v13/user/manual/en/stock/item-price) is added, else add a price in the table.
 1. The posting date and time will be set to current, you can edit after you tick the checkbox below Posting Time to make a backdated entry.
 1. Save and Submit.
- ![SI](/docs/v13/assets/img/accounts/sales-invoice-1.png)
+ ![New Sales Invoice](/docs/v13/assets/img/accounts/new-sales-invoice.png)
 
 ### 2.1 Additional options when creating a Sales Invoice
 
 * **Include Payment (POS)**: If this invoice is for retail sales / Point of Sale. [Know more here](/docs/v13/user/manual/en/accounts/sales-invoice#324-pos-invoices).
 * **Is Return Credit Note**: Tick this if the customer has returned the Items. To know more details, visit the [Credit Note](/docs/v13/user/manual/en/accounts/credit-note) page.
 
-<img class="screenshot" alt="Sales Invoice" src="{{docs_base_url}}/v13/assets/img/accounts/sales-invoice.png">
+![POS and Credit Note Options](/docs/v13/assets/img/accounts/pos-and-credit-note-in-sales-invoice.png)
 
 For India:
 **e-Way Bill No**: According to GST rules, transporters need to carry an e-Way Bill. To know how to generate an e-Way Bill, [visit this page](/docs/v13/user/manual/en/regional/india/auto-generate-e-way-bill-JSON).
@@ -81,7 +81,7 @@ Accounting Dimensions lets you tag transactions based on a specific Territory, B
 * **Customer's Purchase Order**: Track customer's PO No. received, primarily to prevent the creation of duplicate Sales Order or Invoice for the same PO received from the Customer. You can do more configuration related to customer's PO No. validation in [Selling Settings](/docs/v13/user/manual/en/selling/selling-settings#44-allow-multiple-sales-orders-against-a-customers-purchase-order)
 * **Customer's Purchase Order Date**: The date on which the Customer placed the Purchase Order.
 
- ![Customer Address](/docs/v13/assets/img/accounts/si-customer.png)
+![Purchase Order Details](/docs/v13/assets/img/accounts/purchase-order-details-in-invoice.png)
 
 ### 3.4 Address and Contact
 
@@ -154,7 +154,7 @@ corresponding Timesheet entries for that Project will be fetched.
 
 If your Company's Employees are working at a location and it needs to be billed, you can create an Invoice based on the Timesheet.
 
-![SI Timesheet](/docs/v13/assets/img/accounts/si-timesheet.png)
+![SI Timesheet](/docs/v13/assets/img/accounts/timesheet-in-sales-invoice.png)
 
 To know more, [visit this page](/docs/v13/user/manual/en/projects/sales-invoice-from-timesheet).
 
@@ -169,7 +169,7 @@ To add taxes automatically via a Tax Category, visit [this page](/docs/v13/user/
 
 Make sure to mark all your taxes in the Taxes and Charges table correctly for an accurate valuation.
 
-![SI Tax](/docs/v13/assets/img/accounts/si-tax.png)
+![SI Tax](/docs/v13/assets/img/accounts/taxes-in-sales-invoice.png)
 
 #### Shipping Rule
 A Shipping Rule helps set the cost of shipping an Item. The cost will usually increase with the distance of shipping. To know more, visit the [Shipping Rule](/docs/v13/user/manual/en/selling/shipping-rule) page.
@@ -182,7 +182,7 @@ If the Customer is enrolled in a Loyalty Program, they can choose to redeem it. 
 Any additional discounts to the whole Invoice can be set in this section. This discount could be based on the Grand Total i.e., post tax/charges or Net total i.e., pre tax/charges. The additional discount can be applied as a percentage or an amount.
 Visit the [Applying Discount](/docs/v13/user/manual/en/selling/articles/applying-discount) page for more details.
 
-![SI Add Discount](/docs/v13/assets/img/accounts/si-add-discount.png)
+![Additional Discount in Sales Invoice](/docs/v13/assets/img/accounts/additional-discount-in-sales-invoice.png)
 
 ### 3.12 Advance Payment
 For high-value Items, the seller can request an advance payment before processing the order. The **Get Advances Received** button opens a popup from where you can fetch the orders where the advance payment was made. To know more, visit the [Advance Payment Entry](/docs/v13/user/manual/en/accounts/advance-payment-entry) page.
@@ -249,7 +249,7 @@ The following Sales details can be recorded:
 * **Campaign**: If this invoice is a part of on ongoing sales Campaign, it can be linked. To know more, visit the [Campaign page](/docs/v13/user/manual/en/CRM/campaign).
 * **Source**: A Lead Source can be tagged here to know the source of sales. To know more, visit the [Lead Source](/docs/v13/user/manual/en/CRM/lead_source) page.
 
- ![SI More info](/docs/v13/assets/img/accounts/si-more-info.png)
+![SI More info](/docs/v13/assets/img/accounts/more-information-in-sales-invoice.png)
 
 ### 3.20 Accounting Details
 
@@ -258,7 +258,7 @@ The following Sales details can be recorded:
 <!-- deprecated * **C-Form Applicable**: A C Form is used for the reduction of applicable taxes, select yes if applicable to your transaction. Note: C Form is not applicable in India since GST. -->
 * **Remarks**: Any additional remarks about the Sales Invoice can be added here.
 
- ![SI Accounting Details](/docs/v13/assets/img/accounts/si-acc-details.png)
+![Accounting Details](/docs/v13/assets/img/accounts/accounting-details-in-sales-invoice.png)
 
 ### 3.21 Commission
 
@@ -299,7 +299,7 @@ On submitting a Sales Invoice, the following documents can be created against it
 1. [Invoice Discounting](/docs/v13/user/manual/en/accounts/invoice_discounting)
 1. [Delivery Note](/docs/v13/user/manual/en/stock/delivery-note)
 
-![SI Submit](/docs/v13/assets/img/accounts/si-submit.png)
+![SI Submit](/docs/v13/assets/img/accounts/sales-invoice-post-submit.png)
 
 
 ## 4. More
@@ -327,7 +327,7 @@ When booking a sale (accrual):
 * **Credit:** Income (net total, minus taxes for each Item)
 * **Credit:** Taxes (liabilities to be paid to the government)
 
- ![SI Ledger](/docs/v13/assets/img/accounts/si-ledger.png)
+ ![SI Ledger](/docs/v13/assets/img/accounts/ledger-updates-on-sales-invoice-submission.png)
 
 > To see entries in your Sales Invoice after you “Submit”, click on “View
 Ledger”.

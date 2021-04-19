@@ -62,7 +62,7 @@ For ease of use, you can also set a Payment Terms Template and simply reselect i
 
 Once you have composed the Payment Terms Template, you can use them in sales and purchase transactions. Based on the value defined for Payment Terms and transaction value, the payment schedule will be defined, with a Due Date for each payment slab.
 
-![Payment Schedule]({{docs_base_url}}/v13/assets/img/accounts/payment-term-table.png)
+![Payment Schedule]({{docs_base_url}}/v13/assets/img/accounts/payment-term-in-invoice.png)
 
 Note: The Payment Schedule can be shown in the Print View using the [Print Format Builder](/docs/v13/user/manual/en/setting-up/print/print-format-builder).
 

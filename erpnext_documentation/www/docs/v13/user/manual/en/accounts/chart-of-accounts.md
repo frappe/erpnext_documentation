@@ -58,7 +58,7 @@ Typically, you might want to create Accounts for:
  * Product Sales, Service Sales, etc. under **Income**.
  * Building, machinery, furniture, etc. under **Fixed Assets**.
 
-<img class="screenshot" alt="Chart of Accounts" src="{{docs_base_url}}/v13/assets/img/accounts/chart-of-accounts-1.png">
+![Chart of Accounts](/docs/v13/assets/img/accounts/coa-root-accounts.png)
 
 > Tip: Accounts with different currencies are created when you receive or make payments to or from different currencies. For example if you are based in India and transact with USA, you may need to create accounts like 'Debtors US', 'Creditors US', etc.
 
@@ -105,7 +105,7 @@ beginning and end of your Fiscal Year, they become zero.
 
 In ERPNext it is easy to keep track of Profit and Loss via the Profit and Loss chart.
 
-![Profit and Loss Report]({{docs_base_url}}/v13/assets/img/accounts/profit_n_loss_report_1.png)
+![Profit and Loss Report]({{docs_base_url}}/v13/assets/img/accounts/profit-and-loss-report.png)
 
 
 Note that, on the first day of the year you have not made any profit or loss, but you
@@ -126,8 +126,7 @@ Supplier).
 
 > Note: An Account “Ledger” is also sometimes called as Account “Head”.
 
-<img class="screenshot" alt="Chart of Accounts" src="{{docs_base_url}}/v13/assets/img/accounts/chart-of-accounts-2.png">
-
+![Groups and Ledgers in CoA](/docs/v13/assets/img/accounts/coa-group-and-ledger.png)
 
 ### 2.4 Other Account Types
 
@@ -173,20 +172,22 @@ such as Balance Sheet, Profit and Loss statement, and Cash flow statement.
 An Example of various financial statement are given below:
 
 1. Cash Flow Report:
- <img class="screenshot" alt="Cash Flow Report" src="{{docs_base_url}}/v13/assets/img/accounts/cash_flow_report.png">
+
+ ![Cash Flow]({{docs_base_url}}/v13/assets/img/accounts/cash-flow.png)
 
 1. Profit and Loss Report:
- <img class="screenshot" alt="Profit and Loss Report" src="{{docs_base_url}}/v13/assets/img/accounts/profit_n_loss_report.png">
+ ![Profit and Loss Report]({{docs_base_url}}/v13/assets/img/accounts/profit-and-loss-report.png)
 
 1. Balance Sheet Report:
- <img class="screenshot" alt="Balance Sheet Report" src="{{docs_base_url}}/v13/assets/img/accounts/balance_sheet_report.png">
+
+ ![Balance Sheet]({{docs_base_url}}/v13/assets/img/accounts/balance-sheet.png)
 
 ### 2.6 Account Number
 A standard Chart of Accounts is organized according to a numerical system. Each major category will begin with a certain number, and then the sub-categories within that major category will all begin with the same number. For example, if assets are classified by numbers starting with the digit 1000, then cash accounts might be labeled 1100, bank accounts might be labeled 1200, accounts receivable might be labeled 1300, and so on. A gap between account numbers is generally maintained for adding accounts in the future.
 
 You can assign a number while creating an account from Chart of Accounts page. You can also edit a number from account record, by clicking **Update Account Name / Number** button. On updating account number, the system renames the account name automatically to embed the number in the account name.
 
-![Account Number]({{docs_base_url}}/v13/assets/img/accounts/acc-no.png)
+![Account Number]({{docs_base_url}}/v13/assets/img/accounts/update-account-number.png)
 
 ## 3. Video
 
