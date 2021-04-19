@@ -3,7 +3,7 @@
 
 **A Job Opening is a job vacancy in your Company. You can make a record of the open vacancies in your company using Job Opening.**
 
-ERPNext allows to plan recruitments for your company. The number of Job Openings you can create for a Designation is restricted according to the vacancies planned by the Staffing Plan defined for the company or one of its parent group companies in the hierarchy. 
+ERPNext allows to plan recruitment for your company. The number of Job Openings you can create for a Designation is restricted according to the vacancies planned by the Staffing Plan defined for the company or one of its parent group companies in the hierarchy. 
 
 > **Note:** Make sure the "Check Vacancies On Job Offer Creation" checkbox is checked in the Hiring Settings section of the HR Settings.
 
