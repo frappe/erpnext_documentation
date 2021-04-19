@@ -30,6 +30,6 @@ Salary Payment Via ECS shows gross pay along with employee's Bank details.
 
 ## 5.Bank Remittance Report
 
-This report helps you to track bank transactions of payroll entries between companie(s) and employees. It shows the transaction between the bank accounts of the Company and the Employee with the Payment Date.
+This report helps you to track bank transactions of payroll entries between company(ies) and employees. It shows the transaction between the bank accounts of the Company and the Employee with the Payment Date.
 
 <img alt="Monthly Salary Register" class="screenshot" src="{{docs_base_url}}/assets/img/payroll/bank_remittance_report.png">

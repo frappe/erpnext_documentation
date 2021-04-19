@@ -5,7 +5,7 @@
 **Loan Security Price is the record in which you can log the loan security price and its validity.**
 
 During a loan security price update process, Loan Security Price is used to fetch the valid loan security
-price for updation.
+price for updating.
 
 To access the Loan Security Price list, go to:
 > Home > Loan Management > Loan Security > Loan Security Price

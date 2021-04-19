@@ -37,12 +37,8 @@ mpesa
 gocardless
 SINV
 RFID
-Topup
-topup
-updation
 Unpledge
 Unsubmitted
 IFSC
 MICR
-companie
 ESOPS
