@@ -97,7 +97,17 @@ Currency field holds numeric value, like Item Price, Amount, etc. Currency field
 
 #### Data
 
-The data field will be a simple text field. It allows you to enter a value of up to 140 characters, making this the most generic field type. To enable validations for Email, Name, or Phone Number inputs, set options to "Email", "Name", "Phone" in Settings > DocType.
+The data field will be a simple text field. It allows you to enter a value of up to 140 characters, making this the most generic field type.
+
+You can enable validations for the following types of data:
+
+1. Name
+2. Email
+3. Phone
+4. URL
+
+by setting the options to "Name", "Email", "Phone" or "URL" respectively in Settings > DocType.
+
 
 <img alt="Field Types" class="screenshot" src="{{docs_base_url}}/assets/img/customize/customize-data-field.png">
 
