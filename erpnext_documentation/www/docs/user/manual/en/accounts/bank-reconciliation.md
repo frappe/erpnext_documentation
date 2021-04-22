@@ -2,7 +2,7 @@
 # Bank Reconciliation
 
 **A Bank Reconciliation entry is used to match ERPNext account statements with your bank account statements.**
-
+adads
 If you are receiving payments or making payments via cheques, the bank statements will not accurately match the dates of your entry, this is because the bank usually takes time to “clear” these payments.
 
 Also, you may have mailed a cheque to your Supplier and it may be a few days before it is received and deposited by the Supplier. In ERPNext you can synchronize your bank statements and your Journal Entries using the transaction dates.
