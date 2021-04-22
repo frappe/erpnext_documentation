@@ -27,3 +27,5 @@ Before creating and using the Payment Order, it is advisable to create the follo
  ![Payment Order Fetch](/docs/v13/assets/img/accounts/payment-order.png)
 1. Save and Submit the Payment Order. Now, you'll see a button to make the Payment Entries in bulk.
  ![Payment Order Fetch](/docs/v13/assets/img/accounts/payment-order-submit.png)
+
+ {next}

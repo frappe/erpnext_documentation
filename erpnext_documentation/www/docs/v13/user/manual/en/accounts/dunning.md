@@ -50,3 +50,5 @@ A Payment Entry can be created from a Dunning. It will be pulled together with t
 ## 4. Related Topics
 1. [Payment Entry](/docs/v13/user/manual/en/accounts/payment-entry)
 1. [Sales Invoice](/docs/v13/user/manual/en/accounts/purchase-invoice)
+
+{next}

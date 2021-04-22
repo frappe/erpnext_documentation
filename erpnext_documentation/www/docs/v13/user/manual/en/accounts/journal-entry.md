@@ -33,13 +33,13 @@ To access the Journal Entry list, go to:
 ### 1.1 Quick Entry
 When creating a Journal Entry, a **Quick Entry** button can be seen on the top right. This makes creating the Journal Entry a bit easier. Enter the amount, select the accounts, add a remark. This will populate the 'Accounting Entries' table with the selected details.
 
-![Quick Entry](/docs/v13/assets/img/accounts/quick-entry.png)
+![Quick Entry](/docs/v13/assets/img/accounts/quick-journal-entry.png)
 
 ## 2. Features
 ### 2.1 Accounting Entries
 
 * **Accounting Dimensions**: A Project or Cost Center can be linked here to track the costing separately. To know more, [visit this page](/docs/v13/user/manual/en/accounts/accounting-dimensions).
-  ![Accounting Dimension](/docs/v13/assets/img/accounts/je-acc-dim.png)
+  ![Accounting Dimension](/docs/v13/assets/img/accounts/journal-entry-accounting-dimension.png)
 
 * **Bank Account No**: If you've added a [Bank Account](/docs/v13/user/manual/en/accounts/bank-account), the number associated with that bank account will be fetched.
 * **Reference Type**: If this Accounting Entry is associated with another transaction, it can be referenced here. Select the Reference Type and select the specific document. For example, if you're creating a Journal Entry against a specific Sales Invoice. Link this Journal Entry to the invoice. The “outstanding” amount of that invoice will be affected.
@@ -278,3 +278,5 @@ If your Chart of Accounts has accounts with multiple currencies, a Journal Entry
 1. [Sales Invoice](/docs/v13/user/manual/en/accounts/sales-invoice)
 1. [Difference Entry Button](/docs/v13/user/manual/en/accounts/articles/difference-entry-button)
 1. [Finance Book](/docs/v13/user/manual/en/accounts/finance-book)
+
+{next}

@@ -127,17 +127,14 @@ You can check out [this video](https://www.youtube.com/watch?v=5wjollWN0OA) for 
 1. [What Is The Differences Of Total And Valuation In Tax And Charges](/docs/v13/user/manual/en/accounts/articles/what-is-the-differences-of-total-and-valuation-in-tax-and-charges)
 1. [Types In Tax Template](/docs/v13/user/manual/en/accounts/articles/types-in-tax-template)
 1. [Manage Foreign Exchange Difference](/docs/v13/user/manual/en/accounts/articles/manage-foreign-exchange-difference)
-1. [How To Freeze Accounting Ledger](/docs/v13/user/manual/en/accounts/articles/how-to-freeze-accounting-ledger)
 1. [Managing Transactions In Multiple Currency](/docs/v13/user/manual/en/accounts/articles/managing-transactions-in-multiple-currency)
 1. [Recurring Orders And Invoices](/docs/v13/user/manual/en/accounts/articles/recurring-orders-and-invoices)
 
 ### 2.4 Other
-1. [Tracking Project Profitability Using Cost Center](/docs/v13/user/manual/en/accounts/articles/tracking-project-profitability-using-cost-center)
 1. [Update Stock Option In Sales Invoice](/docs/v13/user/manual/en/accounts/articles/update-stock-option-in-sales-invoice)
 1. [Exchange Rate Field Frozen](/docs/v13/user/manual/en/accounts/articles/exchange-rate-field-frozen)
 1. [Fiscal Year Creation](/docs/v13/user/manual/en/accounts/articles/fiscal-year-creation)
 1. [How To Customize Cash Flow Report](/docs/v13/user/manual/en/accounts/articles/how-to-customise-cash-flow-report)
-1. [How To Manage Subscriptions With ERPNext](/docs/v13/user/manual/en/accounts/articles/how-to-manage-subscriptions-with-erpnext)
 1. [Immutable Ledger In ERPNext](/docs/v13/user/manual/en/accounts/articles/immutable-ledger-in-erpnext)
 
 ### 2.5 Reports and Errors

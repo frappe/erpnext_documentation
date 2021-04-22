@@ -20,11 +20,11 @@ To help speed up creation of e-Way Bills, you can now auto-generate a JSON file 
 
 1. You should now see a button labelled **e-Way Bill JSON** under the **Make** menu at the top-right corner.
 
-	<img class="screenshot" src="/docs/v13/assets/img/regional/india/ewb_invoice_button.png">
+	![Create E-way Bill JSON](/docs/v13/assets/img/regional/india/create-e-way-bill-json.png)
 
 1. If you want to generate a JSON file for multiple invoices, you can select the relevant invoices from Sales Invoice List and find the **Generate e-Way Bill JSON** button under the **Actions** menu in the top-right corner.
 
-	<img class="screenshot" src="/docs/v13/assets/img/regional/india/ewb_list_button.png">
+	![Create Multiple E-way Bill JSON](/docs/v13/assets/img/regional/india/create-multiple-e-way-bill-json.png)
 
 1. Upon clicking this button, your data will be validated in accordance with the <a href="https://docs.ewaybillgst.gov.in/html/formatdownloadnew.html">JSON schema</a> and the auto-generated JSON file will be downloaded onto your device.
 
@@ -37,6 +37,7 @@ To help speed up creation of e-Way Bills, you can now auto-generate a JSON file 
 1. Choose and upload the auto-generated file. You can safely ignore any warning regarding Document No. raised by the e-Way Bill System.
 
 	<img class="screenshot" src="/docs/v13/assets/img/regional/india/ewb_warning.png">
+	![](/docs/v13/assets/img/regional/india/)
 
 1. The e-Way Bill System should now display a description of the e-Way Bill(s) you are trying to generate. If it looks okay and no errors are encountered, you can proceed to generate the e-Way Bill(s) by clicking the **Generate** button.
 
@@ -47,4 +48,6 @@ To help speed up creation of e-Way Bills, you can now auto-generate a JSON file 
 
 You can now enter the e-Way Bill No. in your Sales Invoice for future reference.
 
-<img class="screenshot" src="/docs/v13/assets/img/regional/india/ewb_invoice_field.png">
+![E-way Bill Number in Invoice](/docs/v13/assets/img/regional/india/e-way-bill-number-in-invoice.png)
+
+{next}

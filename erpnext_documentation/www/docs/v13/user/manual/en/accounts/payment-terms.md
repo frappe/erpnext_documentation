@@ -69,3 +69,5 @@ Note: The Payment Schedule can be shown in the Print View using the [Print Forma
 ### 2. Related Topics
 1. [Sales Invoice](/docs/v13/user/manual/en/accounts/sales-invoice)
 1. [Purchase Invoice](/docs/v13/user/manual/en/accounts/purchase-invoice)
+
+{next}

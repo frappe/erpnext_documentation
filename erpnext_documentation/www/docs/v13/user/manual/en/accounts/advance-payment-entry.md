@@ -45,3 +45,5 @@ Save and submit the Sales Invoice.
 1. [Sales Invoice](/docs/v13/user/manual/en/accounts/sales-invoice)
 1. [Journal Entry](/docs/v13/user/manual/en/accounts/journal-entry)
 1. [Payment Entry](/docs/v13/user/manual/en/accounts/payment-entry)
+
+{next}

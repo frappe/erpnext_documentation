@@ -68,3 +68,5 @@ Selecting a different Company will display the Cost Centers for that Company.
 1. [Budgeting](/docs/v13/user/manual/en/accounts/budgeting)
 1. [Sales Invoice](/docs/v13/user/manual/en/accounts/sales-invoice)
 1. [Purchase Invoice](/docs/v13/user/manual/en/accounts/purchase-invoice)
+
+{next}

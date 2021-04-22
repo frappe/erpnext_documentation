@@ -205,7 +205,7 @@ If you outsource transporting Items to their delivery location, the transporter 
 
 The details are usually fetched from the Delivery Note.
 
- ![Delivery Note Transport](/docs/v13/assets/img/accounts/si-transporter.png)
+ ![Delivery Note Transport](/docs/v13/assets/img/accounts/transporter-details-in-sales-invoice.png)
 
 The following details can be recorded:
 
@@ -342,3 +342,5 @@ Ledger”.
 1. [Sales Order](/docs/v13/user/manual/en/selling/sales-order)
 1. [Quotation](/docs/v13/user/manual/en/selling/quotation)
 1. [Delivery Note](/docs/v13/user/manual/en/stock/delivery-note)
+
+{next}

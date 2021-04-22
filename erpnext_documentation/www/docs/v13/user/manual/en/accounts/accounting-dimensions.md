@@ -57,3 +57,5 @@ You can also disable the dimensions if you don't require them anymore. The old t
 1. [Cost Center](/docs/v13/user/manual/en/accounts/cost-center)
 1. [Budgeting](/docs/v13/user/manual/en/accounts/budgeting)
 1. [Accounting Reports](/docs/v13/user/manual/en/accounts/accounting-reports)
+
+{next}

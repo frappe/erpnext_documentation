@@ -39,3 +39,5 @@ Create the [Batch](/docs/v13/user/manual/en/stock/batch) and [Serial No](/docs/v
 1. [Accounting Of Inventory Stock](/docs/v13/user/manual/en/stock/accounting-of-inventory-stock)
 1. [Stock Entry](/docs/v13/user/manual/en/stock/stock-entry)
 1. [Stock Reconciliation](/docs/v13/user/manual/en/stock/stock-reconciliation)
+
+{next}

@@ -38,3 +38,5 @@ it as shown in the following screenshot:
 1. [Finance Book](/docs/v13/user/manual/en/accounts/finance-book)
 1. [Accounting Reports](/docs/v13/user/manual/en/accounts/accounting-reports)
 1. [Budgeting](/docs/v13/user/manual/en/accounts/budgeting)
+
+{next}

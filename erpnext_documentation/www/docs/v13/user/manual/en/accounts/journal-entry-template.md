@@ -31,3 +31,5 @@ To access the Journal Entry Template, go to:
 
 ## 3. Related Topics
   1. [Journal Entry](/docs/v13/user/manual/en/accounts/journal-entry)
+
+  {next}

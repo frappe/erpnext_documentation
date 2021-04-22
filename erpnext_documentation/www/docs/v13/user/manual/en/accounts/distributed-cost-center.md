@@ -39,3 +39,5 @@ The following reports will be automatically updated when Cost Center filter is a
 
 ### 2. Related Topics
 1. [Cost Center](/docs/v13/user/manual/en/accounts/cost-center)
+
+{next}

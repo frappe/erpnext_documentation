@@ -205,3 +205,5 @@ You can assign a number while creating an account from Chart of Accounts page. Y
 1. [Inter Company Journal Entry](/docs/v13/user/manual/en/accounts/inter-company-journal-entry)
 1. [Accounting Reports](/docs/v13/user/manual/en/accounts/accounting-reports)
 1. [Multi Currency Accounting](/docs/v13/user/manual/en/accounts/multi-currency-accounting)
+
+{next}

@@ -5,20 +5,20 @@ To freeze accounting entries upto a certain date, follow below given steps.
 
 #### Step 1: Go to:
 
-`Accounts > Setup > Accounts Settings`
+`Accounting > Accounting Msters > Accounts Settings`
 
 #### Step 2: Set Date
 
 Set date in the **Accounts Frozen Upto** field.
 
-<img alt="Accounts Frozen Date" class="screenshot" src="{{docs_base_url}}/v13/assets/img/articles/frozen-date-1.png">
+![Books Closed Through](/docs/v13/assets/img/articles/books-closed-through.png)
 
 Now, the system will not allow to make any accounting entries before set date. If at all someone tries creating entries, system will show error message as below.
 
-<img alt="Frozen Date Error" class="screenshot" src="{{docs_base_url}}/v13/assets/img/articles/frozen-date-2.png">
+![Frozen Date Error](/docs/v13/assets/img/articles/error-message-in-transaction.png)
 
 You can still allow user with certain role to create/edit entries within accounts frozen date. You can set that Role in the Account Settings itself.
 
-<img alt="Frozen Date Error" class="screenshot" src="{{docs_base_url}}/v13/assets/img/articles/frozen-date-3.png">
+![Role Allowed To Close Books](/docs/v13/assets/img/articles/role-allowed-to-close-books.png)
 
 {next}

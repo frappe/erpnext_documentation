@@ -5,7 +5,7 @@
 
 When submitting an invoice, why does it ask for a Round Off Account? How to update it?
 
-<img class="screenshot" alt="Fees Section" src="{{docs_base_url}}/v13/assets/img/accounts/round-off-account.png">
+![Round off Account in Purchase Invoice](/docs/v13/assets/img/articles/round-off-message-in-purchase-invoice.png)
 
 **Answer**
 
@@ -26,7 +26,7 @@ You need to create Round-off Account in the Chart of Accounts and update in the 
   Account > Company
 * Open Company in which Round-Off account has to be updated.
 * In the Company master, scroll to Accounts Settings and select Round-Off account and Cost Center.
-    <img class="screenshot" alt="Fees Section" src="{{docs_base_url}}/v13/assets/img/accounts/company-round-off-account.png">
+    ![Round Off Account in Company](/docs/v13/assets/img/articles/round-off-account-in-company.png)
 
 Once Round-Off account this updated in the Company master, then try to submit Purchase Invoice once again.
 

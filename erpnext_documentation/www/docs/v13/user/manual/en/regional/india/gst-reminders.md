@@ -20,3 +20,5 @@ Here they can update their GSTIN and it will automatically be added to your cust
 #### Sample GSTIN Reminder Email
 
 <img class="screenshot" alt="GST Reminder Email" src="{{docs_base_url}}/v13/assets/img/regional/india/gstin-reminder-email.png">
+
+{next}

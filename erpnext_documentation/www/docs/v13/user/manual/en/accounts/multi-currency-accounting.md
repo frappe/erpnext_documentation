@@ -11,18 +11,17 @@ Bank accounts in foreign currencies can be for other branches of your own compan
 ### 1.1 Set currency in Chart of Accounts
 To get started with multi-currency accounting, you need to assign accounting currency in the Account record. You can define Currency from [Chart of Accounts](/docs/v13/user/manual/en/accounts/chart-of-accounts) while creating an Account.
 
-<img class="screenshot" alt="Modify Account Currency" src="{{docs_base_url}}/v13/assets/img/accounts/multi-currency/account-set-currency.png">
-
+![Set Currency in Account](/docs/v13/assets/img/accounts/set-default-currency-in-ledger.png)
 
 ### 1.2 New account with different currency
 You can also assign/modify the currency by opening specific Account records for existing Accounts.
 
-<img class="screenshot" alt="Set Currency from Chart of Accounts" src="{{docs_base_url}}/v13/assets/img/accounts/multi-currency/account-set-currency-1.png">
+![Update Currency in Ledger](/docs/v13/assets/img/accounts/update-currency-in-ledger.png)
 
 ### 1.3 Currency for Customer/Supplier
 For Customer/Supplier (Party), you can also define its billing currency in the party record. If the party's accounting currency is different from Company Currency, you should mention Default Receivable/Payable Account in that currency.
 
-<img class="screenshot" alt="Customer Accounting Currency"    src="{{docs_base_url}}/v13/assets/img/accounts/multi-currency/customer-currency.png">
+![Billing Currency in Customer](/docs/v13/assets/img/accounts/customer-billing-currency.png)
 
 ### 1.4 After setup
 Once you define Currency in the required account(s) and select relevant accounts in the Party record, you are ready to make transactions against them. If party account currency is different from the Company currency, the system will restrict from making transactions with that party.
@@ -54,7 +53,7 @@ Now, in Invoice, Paid Amount will be entered in transaction currency, instead of
 
 Outstanding Amount and Advance Amount will always be calculated and shown in Customer's Account Currency. The paid amounts will be reflected in the [Payment Entry](/docs/v13/user/manual/en/accounts/payment-entry):
 
-<img class="screenshot" alt="Sales Invoice Outstanding"   src="{{docs_base_url}}/v13/assets/img/accounts/multi-currency/paid-amount.png">
+![Multi-currency in Payment Entry](/docs/v13/assets/img/accounts/multi-currency-in-payment-entry.png)
 
 ### 3.2 Purchase Invoice
 
@@ -64,11 +63,11 @@ Similarly, in a Purchase Invoice, accounting entries will be made based on Suppl
 
 In Journal Entry, you can make transactions in different currencies. There is a checkbox 'Multi Currency', to enable multi-currency entries. Only when 'Multi Currency' option selected, you will be able to select accounts which have different currencies.
 
-<img class="screenshot" alt="Journal Entry Exchange Rate" src="{{docs_base_url}}/v13/assets/img/accounts/multi-currency/journal-entry-multi-currency.png">
+![Multi-currency in Journal Entry](/docs/v13/assets/img/accounts/multi-currency-journal-entry.png)
 
 In the Accounts table, on the selection of a foreign currency account, the system will show the Currency section and fetch Account Currency and Exchange Rate automatically. You can change/modify the Exchange Rate later manually. Debit/Credit amount should be entered in Account Currency, the system will calculate and show the Debit/Credit amount in Company Currency automatically.
 
-<img class="screenshot" alt="Journal Entry in multi currency" src="{{docs_base_url}}/v13/assets/img/accounts/multi-currency/journal-entry-row.png">
+![Company and Transaction Currency in Journal ENtry](/docs/v13/assets/img/accounts/company-and-transaction-currency-in-journal-entry.png)
 
 ## 4. Reports
 
@@ -76,13 +75,13 @@ In the Accounts table, on the selection of a foreign currency account, the syste
 
 In General Ledger, the system shows debit/credit amount in party currency **if filtered** by an Account and that Account Currency is different from Company Currency.
 
-<img class="screenshot" alt="General Ledger Report"   src="{{docs_base_url}}/v13/assets/img/accounts/multi-currency/general-ledger.png">
+![Multi-currency in General Ledger](/docs/v13/assets/img/accounts/multi-currency-in-general-ledger.png)
 
 ### 4.2 Accounts Receivable/Payable
 
 In Accounts Receivable/Payable report, the system shows all the amounts in Party/Account Currency.
 
-<img class="screenshot" alt="Accounts Receivable Report"  src="{{docs_base_url}}/v13/assets/img/accounts/multi-currency/accounts-receivable.png">
+![Multi-currency in Accounts Receivables](/docs/v13/assets/img/accounts/multi-currency-in-accounts-receivable.png)
 
 ### 5. Related Topics
 1. [Exchange Rate Revaluation](/docs/v13/user/manual/en/accounts/exchange-rate-revaluation)
@@ -90,3 +89,5 @@ In Accounts Receivable/Payable report, the system shows all the amounts in Party
 1. [Currency](/docs/v13/user/manual/en/accounts/currency)
 1. [Sales Invoice](/docs/v13/user/manual/en/accounts/sales-invoice)
 1. [Purchase Invoice](/docs/v13/user/manual/en/accounts/purchase-invoice)
+
+{next}
