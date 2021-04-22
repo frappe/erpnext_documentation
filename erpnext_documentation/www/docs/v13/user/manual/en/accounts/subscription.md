@@ -71,3 +71,5 @@ Clicking on the **Fetch Subscription Updates** button will update the Subscripti
 1. [Item](/docs/v13/user/manual/en/stock/item)
 1. [Customer](/docs/v13/user/manual/en/CRM/customer)
 1. [Subscription Plan](/docs/v13/user/manual/en/accounts/subscription-plan)
+
+{next}

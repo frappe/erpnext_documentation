@@ -29,7 +29,7 @@ Once you set up a POS profile, you can start billing on POS.
 1. When all Items are added, click on Pay. You'll be asked to submit the Sales Invoice.
 1. Select the payment mode, Submit
 1. You can then print the POS invoice.
-  ![POS Cycle](/docs/v13/assets/img/accounts/pos-cycle.gif)
+  ![POS Checkout](/docs/v13/assets/img/accounts/pos-checkout.gif)
 
 After the Sales Invoice is submitted, you can either print or email it directly to the customer.
 
@@ -41,8 +41,6 @@ At the billing counter, the retailer needs to select Items which the Customer bu
 
 * **Barcode / Serial No**: A Barcode / Serial No is an optical machine-readable representation of data relating to the object to which it is attached. Enter Barcode / Serial No in the box as shown in the image below and pause for a second, the item will be automatically added to the cart.
 
-<img class="screenshot" alt="POS Item" src="{{docs_base_url}}/v13/assets/img/accounts/pos-item.png">
-
 > Tip: To change the quantity of an Item, enter your desired quantity in the
 quantity box. These are mostly used if the same Item is purchased in bulk.
 
@@ -50,10 +48,9 @@ If your product list is very long use the Search field, type the product name
 in Search box.
 
 ### 2.3  Removing an Item from the Cart
-1. Select row in the cart and click on Delete button in the numeric keypad
+1. Select row in the cart and click on 'Remove' button in the numeric keypad
 
-    <img class="screenshot" alt="POS Item" src="{{docs_base_url}}/v13/assets/img/accounts/pos_deleted_item.gif">
-
+  ![Remove Item From POS](/docs/v13/assets/img/accounts/remove-item-from-pos.png)
 
 2. Set Qty as zero to remove Item from the POS invoice. There are two ways to remove an Item.
   * If Item's Qty is 1, click on a minus sign to make it zero.
@@ -65,6 +62,7 @@ in Search box.
 POS calculates the extra amount paid by the customer, which user can return from the cash account. User has to set the account for the change amount on the POS profile.
 
 <img class="screenshot" alt="POS Payment" src="{{docs_base_url}}/v13/assets/img/accounts/change-amount.png">
+  ![Change Amount in POS](/docs/v13/assets/img/accounts/change-amount-in-pos.png)
 
 ### 2.5 Write off Amount
 If you are writing off certain amount. For example when you receive extra cash as a result of not having exact denomination of change, check on ‘Write off Outstanding Amount’ and set the Account.
@@ -90,7 +88,7 @@ Select the Company and then choose the POS Profile from the list. You can also s
 ### 3.1 Adding a new Customer
 In POS, user can select the existing Customer during making an order or create a new customer. This feature works in the offline mode also. User can also add the customer details like contact number, address details, etc on the form. The Customer which has been created from the POS will be synced when the internet connection is active.
 
-<img class="screenshot" alt="POS Customer" src="{{docs_base_url}}/v13/assets/img/accounts/pos-customer.gif">
+![Add New Customer in POS](/docs/v13/assets/img/accounts/pos-add-new-customer.gif)
 
 ### 3.2 Offline POS
 
@@ -133,7 +131,7 @@ Click on the Menu and select 'Close the POS'. Select the period, your POS Profil
 
 For closing shift wise or cashier wise, use the [POS Cashier Closing](/docs/v13/user/manual/en/accounts/pos-cashier-closing).
 
-<img class="screenshot" alt="POS Payment" src="{{docs_base_url}}/v13/assets/img/accounts/pos-closing-voucher.png">
+![POS Closing Entry](/docs/v13/assets/img/accounts/pos-closing-entry.png)
 
 Enter the collected amount for each mode of payment. If you notice any difference between the system amount and the actual physical cash collected, create a Difference Posting.
 
@@ -142,3 +140,5 @@ Enter the collected amount for each mode of payment. If you notice any differenc
 1. [Purchase Order](/docs/v13/user/manual/en/buying/purchase-order)
 1. [Payment Entry](/docs/v13/user/manual/en/accounts/payment-entry)
 1. [Payment Request](/docs/v13/user/manual/en/accounts/payment-request)
+
+{next}

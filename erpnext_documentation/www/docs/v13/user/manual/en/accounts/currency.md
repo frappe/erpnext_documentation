@@ -14,3 +14,5 @@ For example, this is how the Currency page for Euro:
 1. [Exchange Rate Revaluation](/docs/v13/user/manual/en/accounts/exchange-rate-revaluation)
 1. [Multi Currency Accounting](/docs/v13/user/manual/en/accounts/multi-currency-accounting)
 1. [Currency Exchange](/docs/v13/user/manual/en/accounts/currency-exchange)
+
+{next}

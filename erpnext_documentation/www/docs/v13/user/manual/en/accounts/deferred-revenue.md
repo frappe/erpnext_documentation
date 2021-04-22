@@ -12,7 +12,7 @@ The company that receives the prepayment records the amount as Deferred Revenue 
 
 Before you start using deferred accounting you should be aware of the below settings which will give you more control over how you manage your deferred accounting
 
-<img class="screenshot" alt="Deferred Accounting Settings" src="{{docs_base_url}}/v13/assets/img/accounts/deferred-accounting-settings.png">
+![Deferred Accounting Settings](/docs/v13/assets/img/accounts/deferred-accounting-settings.png)
 
 1. **Automatically Process Deferred Accounting Entry:** This setting is enabled by default. In case you don't want the deferred accounting entries to be posted automatically you can disable this setting. If this setting is disabled deferred accounting will have to be processed manually using [Process Deferred Accounting](/docs/v13/user/manual/en/accounts/process-deferred-accounting)
 
@@ -30,13 +30,13 @@ Internet and broadcasting service providers offer subscription plans on quarterl
 
 In the Item master created for the subscription plan, under Deferred Revenue section, check field **Enable Deferred Revenue**. You can also select a Deferred Revenue account for this particular item and number of months.
 
-<img class="screenshot" alt="Item - Deferred Revenue" src="{{docs_base_url}}/v13/assets/img/accounts/deferred-item.png">
+![Item With Deferred Revenue](/docs/v13/assets/img/accounts/deferred-item.png)
 
 ### 2.2 Sales Invoice
 
 On creation of Sales Invoice for the Deferred Revenue Item, instead of posting in the Income Account, Deferred Revenue account is Credited by the sale amount. If you had set the account and period in Item, then the account and service start, end dates will be fetched automatically.
 
-<img class="screenshot" alt="Item - Deferred Revenue" src="{{docs_base_url}}/v13/assets/img/accounts/deferred-invoice.gif">
+![Invoice With Deferred Revenue](/docs/v13/assets/img/accounts/deferred-invoice.gif)
 
 ### 2.3 Journal Entry
 
@@ -45,6 +45,8 @@ Based on the From Date and To Date set in the Sales Invoice Item table, Journal 
 Following is an example of Income for the Deferred Revenue Item booked via multiple Journal Entries.
 
 <img class="screenshot" alt="Item - Deferred Revenue" src="{{docs_base_url}}/v13/assets/img/accounts/deferred-jv.png">
+
+![](/docs/v13/assets/img/accounts/)
 
 ## 3.  Video
 
@@ -57,3 +59,5 @@ Following is an example of Income for the Deferred Revenue Item booked via multi
 1. [Sales Invoice](/docs/v13/user/manual/en/accounts/sales-invoice)
 1. [Journal Entry](/docs/v13/user/manual/en/accounts/journal-entry)
 1. [Chart Of Accounts](/docs/v13/user/manual/en/accounts/chart-of-accounts)
+
+{next}

@@ -23,7 +23,7 @@ To access the Share Transfer list, go to:
 1. Set the rate of one share, the amount will be calculated based on the number of shares.
 1. Save and Submit.
 
- <img class="screenshot" alt="Create Shareholder" src="/docs/v13/assets/img/accounts/shareholder/sharetransfer_issue.png">
+ ![Share Transfer](/docs/v13/assets/img/accounts/sharetransfer-issue.png)
 
 After submitting, a Journal Entry can be created to update the ledger using the **Create Journal Entry** button.
 

@@ -22,7 +22,7 @@ Before creating and using a Process Deferred Accounting, it is advised to create
 1. Enter service Start Date and End Date.
 1. Save and Submit.
 
-<img class="screenshot" alt="Process Deferred Revenue" src="{{docs_base_url}}/v13/assets/img/accounts/process-deferred-accounting.png">
+![Process Deferred Revenue](/docs/v13/assets/img/accounts/process-deferred-accounting.png)
 
 ## 3. Features
 
@@ -39,4 +39,6 @@ To enable automatic deferred accounting, enable the 'Automatically Process Defer
 To access Accounts Settings go to:
 > Home > Accounting > Accounting Masters > Accounts Settings
 
-<img class="screenshot" alt="Process Deferred Revenue" src="{{docs_base_url}}/v13/assets/img/accounts/process-deferred-accounting-settings.png">
+![Deferred Accounting Settings](/docs/v13/assets/img/accounts/deferred-accounting-settings.png)
+
+{next}
