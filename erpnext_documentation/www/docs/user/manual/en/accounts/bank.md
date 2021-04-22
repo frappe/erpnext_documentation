@@ -1,7 +1,7 @@
 <!-- add-breadcrumbs -->
 # Bank
 
-In ERPNext, saving different banks lets you upload an excel sheet and map the transactions to the ledger. The transactions are created as Bank Transactions. These can then be used for reference and reports. This is done using [Bank Reconciliation](/docs/user/manual/en/accounts/bank-reconciliation).
+In ERPNext, saving different asbanks lets you upload an excel sheet and map the transactions to the ledger. The transactions are created as Bank Transactions. These can then be used for reference and reports. This is done using [Bank Reconciliation](/docs/user/manual/en/accounts/bank-reconciliation).
 
 To access Bank, go to:
 > Home > Accounting > Bank Statement > Bank
