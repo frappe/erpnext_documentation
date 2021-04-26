@@ -4,9 +4,9 @@
 ## What is an ERP?
 
 > If you are already convinced that you need an all-in-one software for your organization, you can skip this page.
-
+szdfsd
 ERP stands for Enterprise Resource Planning. ERP is a category of business management software used to collect, store, manage, interpret data from business activities, enforce processes, enable control mechanisms and automate a range of activities.
-
+sgdf
 Here is a bit of historical context on how the term ERP came to be. Manufacturing companies need to plan and manage their resources like raw materials, machinery, and workforce to meet customer demands. In the 1960s and 70s companies started to use software to better plan and manage the resources. These software were called **Material Requirements Planning (MRP or MRP I)**. From this **Manufacturing Resource Planning (MRP or MRP II)** evolved which added more functionalities like forecasting, maintenance scheduling, and financial accounting. Later more functionalities like human resource management, project planning were added by the MRP vendors in an attempt to offer an all-in-one software, and such software were named **Enterprise Resource Planning (ERP)**. While ERPs have their root in the manufacturing industry, today companies in all sorts of industries use them.
 
 Whether you are a tiny, small, mid, large, huge, or humongous organization, you will benefit from having an ERP.
@@ -16,6 +16,7 @@ Whether you are a tiny, small, mid, large, huge, or humongous organization, you 
 **1. Single Source of Truth**
 
 If the sales team in your company uses one software to manage sales and the accounting team uses a separate accounting software this could result some issues. The accounting team needs to duplicate the customer data and continuously update it to keep it in sync with the data in the sales software. And depending on whom you ask you may get a different answer for the same question like what is the billing address of a specific customer. ERP systems eliminate this as they act as a single central database (single source of truth). This results in efficiency and data accuracy. You can gain insights into your business via reports and analytics.
+sdfgd
 
 **2. Enforce Process and Control Mechanisms**
 
