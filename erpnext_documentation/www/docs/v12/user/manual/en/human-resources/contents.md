@@ -45,6 +45,7 @@ their calculation.
 
 ### 1.4 Recruitment
 1. [Staffing Plan](/docs/user/manual/en/human-resources/staffing-plan)
+1. [Employee Referral](/docs/user/manual/en/human-resources/employee-referral)
 1. [Job Opening](/docs/user/manual/en/human-resources/job-opening)
 1. [Job Applicant](/docs/user/manual/en/human-resources/job-applicant)
 1. [Job Offer](/docs/user/manual/en/human-resources/job-offer)
