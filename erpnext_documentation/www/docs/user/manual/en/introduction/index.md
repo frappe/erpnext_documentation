@@ -13,7 +13,7 @@ Whether you are a tiny, small, mid, large, huge, or humongous organization, you 
 
 ## Why do companies use ERP?
 
-**1. Single Source of Truth**
+**1. Single SourceSDF of Truth**
 
 If the sales team in your company uses one software to manage sales and the accounting team uses a separate accounting software this could result some issues. The accounting team needs to duplicate the customer data and continuously update it to keep it in sync with the data in the sales software. And depending on whom you ask you may get a different answer for the same question like what is the billing address of a specific customer. ERP systems eliminate this as they act as a single central database (single source of truth). This results in efficiency and data accuracy. You can gain insights into your business via reports and analytics.
 
