@@ -18,7 +18,31 @@ You can select a specific project and date range in the filters. Details of the 
 
 <img class="screenshot" alt="Project Billing Summary" src="{{docs_base_url}}/assets/img/project/projects-daily-timesheet-summary.png">
 
-## 3. Project Wise Stock Tracking
+## 3. Employee Hours Utilization Based on Timesheets
+
+**This report gives you an overview of the utilization of employee working hours based on Timesheets submitted.**
+
+The Employee Working hours are divided into 3 categories:
+    
+1. Billed Hours
+2. Non-Billed Hours
+3. Un-tracked Hours (Total - Billed - Non-Billed)
+
+Two types of percentage utilizations are calculated for each employee:
+
+```
+% Utilization (Billed + Non-Billed) = [(Billed Hours + Non-Billed Hours) / (Total Hours)] * 100
+
+% Utilization (Billed Only) = (Billed Hours / Total Hours) * 100
+```
+
+where **Total Hours** is the number of working hours in the selected *date range*.
+
+The report can also be filtered for a particular Employee, Department and/or Project.
+
+<img class="screenshot" alt="Project Billing Summary" src="{{docs_base_url}}/assets/img/project/projects-employee-util-report.png">
+
+## 4. Project Wise Stock Tracking
 
 **This report gives you the analysis of all the Stock Movements carried out for all the different Projects.**
 
