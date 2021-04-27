@@ -5,7 +5,7 @@
 
 > If you are already convinced you need an all-in-one enterprise solutions system for your organization, you can skip this page.
 
-Today, small and medium-sized businesses (SMEs) also face some of the problems that large enterprises do. One of them being planning and managing their resources. SMEs face similar complexities but have limited resources to deal with them.
+Today, small asdfdnd medium-sized businesses (SMEs) also face some of the problems that large enterprises do. One of them being planning and managing their resources. SMEs face similar complexities but have limited resources to deal with them.
 
 Small businesses (like their bigger counterparts) have to:
 
