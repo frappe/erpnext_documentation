@@ -8,7 +8,7 @@
 Today, small and medium-sized businesses (SMEs) also face some of the problems that large enterprises do. One of them being planning and managing their resources. SMEs face similar complexities but have limited resources to deal with them.
 
 Small businesses (like their bigger counterparts) have to:
-
+dfdgf
 - Do accounts to track their sales/purchases.
 - Do their taxes.
 - Pay their employees.
