@@ -9,7 +9,7 @@ Today, small and medium-sized businesses (SMEs) also face some of the problems t
 
 Small businesses (like their bigger counterparts) have to:
 
-- Do accounts to track their sales/purchases.
+- Do accountsdsgdfg to track their sales/purchases.
 - Do their taxes.
 - Pay their employees.
 - Manage deliveries within promised timelines.
