@@ -34,11 +34,11 @@ Now the Item Tax Template is ready to be assigned to an Item. To do this, go the
 
 Tax templates are preset with values. For items which have a different tax rate than the others, you need to change it in the Item master. Go to the tax table in the Item, add a row, select the tax type and change the rate. Now, this new rate will over ride the template when creating an order/invoice. For example, in the below screenshot you can see that the tax rate is set as 5 and that's the rate which will be applied in transactions.
 
-<img class="screenshot" alt="Opening Account" src="{{docs_base_url}}/v13/assets/img/accounts/item-wise-tax.png">
+![Item-wise Tax](/docs/v13/assets/img/accounts/item-wise-tax.png)
 
 For the Item which is exempted from tax entirely, mention 0% as tax rate in the Item master.
 
-<img class="screenshot" alt="Opening Account" src="{{docs_base_url}}/v13/assets/img/accounts/exempted-item.png">
+![Tax Exempted Item](/docs/v13/assets/img/accounts/tax-exempted-item.png)
 
 > Note: For Item Tax Template to work, you need to ensure that the tax types (accounts) set in Item Tax Template (with changed tax rates) are present in the Sales Taxes and Charges Template.
 
@@ -46,22 +46,21 @@ For the Item which is exempted from tax entirely, mention 0% as tax rate in the 
 
 ### 2.2 Tax Calculation in transaction
 
-For example, in the following screenshot, the Item has an Item Tax Template assigned to it with 5% on two tax heads.
+In sales transactions like Quotation, Sales Order, and Sales Invoice the taxes on items are calculated as per the Sales Taxes and Charges Template selected. However, if some items have an Item Tax Template linked, then the taxes are calculated on those items as per the rates mentioned in the Item Tax Template instead of the rates mentioned in the Sales Taxes and Charges Template.
 
-<img class="screenshot" alt="Opening Account" src="{{docs_base_url}}/v13/assets/img/accounts/tax-calculation.png">
+For example, in the following screenshot, you can see that taxes are calculated at 3% even though the rate as per Sales Taxes and Charges Template is 6.25%.
 
-The tax is fetched from the Item Tax Template and calculated:
-<img class="screenshot" alt="Opening Account" src="{{docs_base_url}}/v13/assets/img/accounts/tax-calculation1.png">
+![Tax Calculation](/docs/v13/assets/img/accounts/tax-calculation.png)
 
 ### 2.3 Item Tax Template for each Items
 You can also manually select a different Item Tax Template for each Item in a transaction:
 
-![Item Tax individual](/docs/v13/assets/img/accounts/item-tax-each.png)
-
+![Slect Item Tax Template](/docs/v13/assets/img/accounts/select-item-tax-template.png)
 
 ### 2.4 Item wise tax on an Item Group
 You can assign the Item Tax Template to an Item Group by modifying the Item Tax table in the Item Tax section within the Item Group document.
-<img class="screenshot" alt="Item Tax in Item Group" src="{{docs_base_url}}/v13/assets/img/accounts/item-group-tax.png">
+
+![Item Tax Template in Item Group](/docs/v13/assets/img/accounts/item-tax-template-in-item-group.png)
 
 Item Tax Template applied on an Item Group will apply to all Items in that group unless an individual Item in the Item Group has its own Item Tax Template assigned to it.
 
@@ -92,3 +91,5 @@ You can also assign validity to tax templates as shown in the image above.
 1. [Tax Rule](/docs/v13/user/manual/en/accounts/tax-rule)
 1. [Sales Invoice](/docs/v13/user/manual/en/accounts/sales-invoice)
 1. [Purchase Invoice](/docs/v13/user/manual/en/accounts/purchase-invoice)
+
+{next}

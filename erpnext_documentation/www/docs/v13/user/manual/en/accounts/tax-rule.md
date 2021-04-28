@@ -48,26 +48,20 @@ Set a Start and End Date if the tax is to be applied only for a specified period
 Setting a priority number here will decide on which order a Tax Rule will be applied in case multiple Tax Rules have similar criteria. '1' is the highest priority, '2' has lesser priority and so on.
 
 ## 4. How does Tax Rule Work?
-It works like a filter to automatically apply tax templates:
 
-1. Set a Customer or a specific region
-1. The selected tax template will be applied according to the conditions set in the Tax Rule
-1. It will be applied to new Sales/Purchase transactions based on the type selected in the Tax Rule
+Let us configure Tax Rule so that system automatically applies specific tax rates when a specific condition matches. For example, if the city in the billing address of customer is 'Malibu' then a 6.25% of state tax, 1% of county tax and 2.25% of district tax should be applied. 
 
-For example, selecting 'Nitin' as the Customer and 'All Item Groups' will cause the Tax Rule to be applied to all sales transactions with the Customer Nitin. Likewise, selecting a 'Plastic Crystal A' and 'All Customer Groups' will cause the Tax Rule to be applied to all Customers but only when the Item is 'Plastic Crystal A'.
+Create a Sales Taxes and Charges Template as shown below.
 
-While creating a new transaction the system will select and apply tax template based on the tax rule defined.
+![City Specific To Zipcode](/docs/v13/assets/img/accounts/city-specific-tax.png)
 
-Let us consider a scenario to understand Tax Rule Better. Suppose we define two Tax Rules as below.
+Create a Tax Rule as shown below.
 
-<img class="screenshot" alt="Tax Rule" src="{{docs_base_url}}/v13/assets/img/accounts/tax-rule-1.png">
+![Tax Rule](/docs/v13/assets/img/accounts/tax-rule.png)
 
-<img class="screenshot" alt="Tax Rule" src="{{docs_base_url}}/v13/assets/img/accounts/tax-rule-2.png">
+Once you select a customer and a billing address of that customer with city as 'Malibu', system automatically applies the appropriate taxes.
 
-Here In State GST has Billing Country as India and VAT 14% has Billing Country as Germany.
-
-Now suppose we try to create a Sales Order for a Customer whose default Billing Country is India, system will select In State GST.
-In case the Customer's Billing Country was Germany, the system will select VAT 14%.
+![Tax Rule in Sales Invoice](/docs/v13/assets/img/accounts/tax-rule-in-sales-invoice.gif)
 
 ### 5. Related Topics
 1. [Pricing Rule](/docs/v13/user/manual/en/accounts/pricing-rule)
@@ -75,3 +69,5 @@ In case the Customer's Billing Country was Germany, the system will select VAT 1
 1. [Tax Category](/docs/v13/user/manual/en/accounts/tax-category)
 1. [Customer](/docs/v13/user/manual/en/CRM/customer)
 1. [Supplier](/docs/v13/user/manual/en/buying/supplier)
+
+{next}

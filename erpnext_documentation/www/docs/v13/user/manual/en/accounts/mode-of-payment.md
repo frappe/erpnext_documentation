@@ -29,3 +29,5 @@ To access the Mode of Payment list, go to:
 ## 2. Related Topics
 1. [Payment Entry](/docs/v13/user/manual/en/accounts/payment-entry)
 1. [Payment Request](/docs/v13/user/manual/en/accounts/payment-request)
+
+{next}

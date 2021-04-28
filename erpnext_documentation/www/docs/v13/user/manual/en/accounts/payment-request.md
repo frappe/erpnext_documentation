@@ -55,3 +55,5 @@ In case you don't want to use any integration or payment gateway and only want t
 1. [Payment Terms](/docs/v13/user/manual/en/accounts/payment-terms)
 1. [Sales Invoice](/docs/v13/user/manual/en/accounts/sales-invoice)
 1. [Purchase Invoice](/docs/v13/user/manual/en/accounts/purchase-invoice)
+
+{next}

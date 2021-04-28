@@ -20,7 +20,7 @@ Creating a Tax Category is simple, go to the Tax Category list, click on New and
 - This will fetch the Sales Tax Template linked to the Tax Rule. Hence, the rows in the Tax table will be automatically filled.
 - Tax Category can be used to group Customers to whom same tax will be applied. For example, Government, NGO, commercial, etc.
 
-  <img class="screenshot" alt="Tax Category" src="{{docs_base_url}}/v13/assets/img/accounts/tax-category.gif">
+  ![Tax Category in Sales Invoice](/docs/v13/assets/img/accounts/tax-category-in-invoice.gif)
 
 > Tip: One Tax Category can be assigned to multiple Tax Rules. So you can create different combinations to apply taxes automatically to transactions.
 
@@ -31,7 +31,7 @@ Tax Category is automatically determined in a transaction by either the Party Ad
 1. [Supplier](/docs/v13/user/manual/en/buying/supplier)
 1. [Address](/docs/v13/user/manual/en/CRM/address) Billing or Shipping.
   You can select whether Billing Address or Shipping Address gets preference by changing the 'Determine Address Tax Category From' option in Accounts Settings. Tax Category is determined from Party Address first. If the Address is not assigned any Tax Category, then the Party's Tax Category is used.
-      ![Tax Cat Address](/docs/v13/assets/img/accounts/tax-cat-address.png)
+      ![Tax Cat Address](/docs/v13/assets/img/accounts/tax-category-in-address.png)
 1. [Item](/docs/v13/user/manual/en/stock/item#316-item-tax)
 1. You can also manually select the Tax Category in a transaction.
 
@@ -45,3 +45,5 @@ Tax Category is automatically determined in a transaction by either the Party Ad
 1. [Customer](/docs/v13/user/manual/en/CRM/customer)
 1. [Supplier](/docs/v13/user/manual/en/buying/supplier)
 1. [Address](/docs/v13/user/manual/en/CRM/address)
+
+{next}

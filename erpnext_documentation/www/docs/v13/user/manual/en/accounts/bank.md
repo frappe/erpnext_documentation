@@ -20,3 +20,5 @@ On setting this up, [Bank](/docs/v13/user/manual/en/accounts/bank-reconciliation
 
 ## 2. Related Topics
 1. [Bank Account](/docs/v13/user/manual/en/accounts/bank-account)
+
+{next}

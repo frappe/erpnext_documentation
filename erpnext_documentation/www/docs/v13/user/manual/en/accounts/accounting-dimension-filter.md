@@ -41,3 +41,5 @@ In case any mandatory dimension is missing or a restricted dimension is tagged a
 1. [Cost Center](/docs/v13/user/manual/en/accounts/cost-center)
 1. [Budgeting](/docs/v13/user/manual/en/accounts/budgeting)
 1. [Accounting Dimensions](/docs/v13/user/manual/en/accounts/accounting-dimensions)
+
+{next}

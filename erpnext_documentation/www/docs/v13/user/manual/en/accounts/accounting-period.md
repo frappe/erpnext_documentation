@@ -38,3 +38,5 @@ If you try to submit a closed transaction after its Accounting Period ends, you 
 ## 2. Related Topics
 * [How Accounting Period is used for Closing Accounting Books](https://frappe.io/blog/erpnext-features/closing-accounting-books-in-erpnext)
 * [Period Closing Voucher](/docs/v13/user/manual/en/accounts/period-closing-voucher)
+
+{next}

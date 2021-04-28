@@ -14,3 +14,5 @@ Many a times, for fixed asset depreciation, a Company may use different deprecia
 #### Related Topics
 1. [Cost Center](/docs/v13/user/manual/en/accounts/cost-center)
 1. [Budgeting](/docs/v13/user/manual/en/accounts/budgeting)
+
+{next}

@@ -1,16 +1,14 @@
 <!-- add-breadcrumbs -->
 # Freeze an Account
 
-Once an Account is Frozen, you won't be able to use it for any accounting transaction. Since this is a critical action, you need to explicitly define a Role who can set an Account as Frozen. You can define this Role in the Account Settings.
-
-`Accounts > Account Settings`
+Once an Account is Frozen, you won't be able to use it for any accounting transaction.
 
 To freeze an Account, go to Chart of Accounts, and edit an Account.
 
-<img class="screenshot" alt="Download Backup" src="{{docs_base_url}}/v13/assets/img/articles/freeze-account-1.png">
+![Ledger in Chart of Accounts](/docs/v13/assets/img/articles/expense-ledger.png)
 
 If User has Role define in the  Account Setting assigned, then he/she will be able to set an Account as Frozen.
 
-<img class="screenshot" alt="Download Backup" src="{{docs_base_url}}/v13/assets/img/articles/freeze-account-2.png">
+![Set Frozen Account To Yes](/docs/v13/assets/img/articles/frozen-ledger.png)
 
 {next}

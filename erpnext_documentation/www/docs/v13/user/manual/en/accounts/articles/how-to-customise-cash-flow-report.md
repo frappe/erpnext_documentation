@@ -23,7 +23,8 @@ after we go through an example.
 ### Background information
 Let's assume we have a fictitious company for which we want to generate a cash flow report.
 This is what the cash flow report looks like at the moment:
-<img alt="Default cash flow report" class="screenshot" src="{{docs_base_url}}/v13/assets/img/articles/default-cash-flow-report.png">
+
+![Default Cash Flow Report](/docs/v13/assets/img/articles/default-cash-flow-report.png)
 
 We don't like the report for the following reasons:
 - The reporting format is too scant.
@@ -32,22 +33,22 @@ We don't like the report for the following reasons:
 ### Customisation Process
 
 We wants the Cash Flow Report to look something similar to the format in the images below:
-<img alt="cash flow format 1" class="screenshot" src="{{docs_base_url}}/v13/assets/img/articles/format-1.png">
-<img alt="cash flow format 1" class="screenshot" src="{{docs_base_url}}/v13/assets/img/articles/format-2.png">
+
+![Custom Cash Flow Format](/docs/v13/assets/img/articles/format-1.png)
+
+![Custom Cash Flow Format](/docs/v13/assets/img/articles/format-2.png)
 
 #### Activate Customised Cash Flow Report
-Do this in Accounts Settings by checking the 'Use Custom Cash Flow Format' checkbox. This will cause ERPNext to only
-use your custom format for cash flow reports.
+Do this in Accounts Settings by checking the 'Use Custom Cash Flow Format' checkbox. This will cause ERPNext to only use your custom format for cash flow reports.
 
-After doing that, your cash flow report should look like this:
-<img alt="custom cash flow statement" class="screenshot" src="{{docs_base_url}}/v13/assets/img/articles/no-mappers.png">
+![Enable Custom Cash Flow Report](/docs/v13/assets/img/articles/enable-custom-cash-flow.png)
 
 Move to the next section to build the report.
 
 #### Create Cash Flow Mappings
 For each line, we need to create a Cash Flow Mapping document to represent it.
 
-<img alt="new cash flow mapping form" class="screenshot" src="{{docs_base_url}}/v13/assets/img/articles/new-cash-flow-mapping.png">
+![New Cash Flow Mapping](/docs/v13/assets/img/articles/new-cash-flow-mapping.png)
 
 You can think of the Cash Flow Mapping as a representation of each line in the cash flow report. A Cash Flow Mapping
 is a child of a Cash Flow Mapper which will be explained later.
@@ -67,7 +68,7 @@ The fields in the Cash Flow Mapping doctype are:
 
 With this information, let's go ahead and create the Cash Flow Mapping Document for the line 'Income taxes recognised in profit or loss'
 
-<img alt="custom cash flow statement" class="screenshot" src="{{docs_base_url}}/v13/assets/img/articles/cash-flow-mapping-1.png">
+![Cash Flow Mapping for Income Tax Expense](/docs/v13/assets/img/articles/cash-flow-mapping-for-income-tax.png)
 
 I have named it 'Income Tax Charge' and given it a label 'Income taxes recognised in profit or loss'. We want this
 line to reflect income tax charges from our profit or loss statement. The account where this happens in our chart
@@ -83,28 +84,29 @@ is a parent account.*
 
 In the same way, I have created for the remaining two mappings.
 
-<img alt="custom cash flow statement" class="screenshot" src="{{docs_base_url}}/v13/assets/img/articles/cash-flow-mapping-2.png">
+![Cash Flow Mapping for Finance Cost](/docs/v13/assets/img/articles/cash-flow-mapping-for-finance-cost.png)
 
 Finance costs also need to be adjusted so make sure to check the 'Is Finance Cost' checkbox.
 
-<img alt="custom cash flow statement" class="screenshot" src="{{docs_base_url}}/v13/assets/img/articles/cash-flow-mapping-3.png">
+![Cash Flow Mapping for Depreciation](/docs/v13/assets/img/articles/cash-flow-mapping-for-depreciation.png)
 
 Next let's add Cash Flow Mapping for items that show changes in working capital:
+
 - Increase/(decrease) in other liabilities
 - (Increase)/decrease in trade and other receivables
 - Increase/(decrease) in trade and other payables
 - VAT payable
 - (Increase)/decrease in inventory
 
-<img alt="custom cash flow statement" class="screenshot" src="{{docs_base_url}}/v13/assets/img/articles/cash-flow-mapping-4.png">
+![Cash Flow Mapping for Other Liabilities](/docs/v13/assets/img/articles/cash-flow-mapping-for-other-liabilities.png)
 
-<img alt="custom cash flow statement" class="screenshot" src="{{docs_base_url}}/v13/assets/img/articles/cash-flow-mapping-5.png">
+![Cash Flow Mapping for Receivables](/docs/v13/assets/img/articles/cash-flow-mapping-for-receivables.png)
 
-<img alt="custom cash flow statement" class="screenshot" src="{{docs_base_url}}/v13/assets/img/articles/cash-flow-mapping-6.png">
+![Cash Flow Mapping for Payables](/docs/v13/assets/img/articles/cash-flow-mapping-for-payables.png)
 
-<img alt="custom cash flow statement" class="screenshot" src="{{docs_base_url}}/v13/assets/img/articles/cash-flow-mapping-7.png">
+![Cash Flow Mapping for Duties and Taxes](/docs/v13/assets/img/articles/cash-flow-mapping-for-taxes-payables.png)
 
-<img alt="custom cash flow statement" class="screenshot" src="{{docs_base_url}}/v13/assets/img/articles/cash-flow-mapping-8.png">
+![Cash Flow Mapping for Inventory](/docs/v13/assets/img/articles/cash-flow-mapping-inventory.png)
 
 Don't forget to tell ERPNext that these mappings represent changes in working capital by checking the 'Is Working
 Capital' checkbox.
@@ -122,8 +124,8 @@ sections so when you view the Cash Flow Mapper list, you will that three have be
 - Investing Activities
 
 You will not be able to add or remove any of them but they are editable and can be renamed.
-<img alt="cash flow mapper list" class="screenshot" src="{{docs_base_url}}/v13/assets/img/articles/cash-flow-mapper-2.png">
 
+![Cash Flow Mappers](/docs/v13/assets/img/articles/cash-flow-mappers-standard.png)
 
 Open the Operating Activities Cash Flow Mapper so we can add the Cash Flow Mappings we have created.
 
@@ -137,21 +139,25 @@ Activities Cash Flow Mapper
 - **Mapping**: This table contains all the Cash Flow Mappings related to the Cash Flow Mapper.
 
 Now add all the Cash Flow Mappings you have created and Save. You should have something like this:
-<img alt="cash flow mapper for operating activities" class="screenshot" src="{{docs_base_url}}/v13/assets/img/articles/cash-flow-mapper-4.png">
+
+![Operating Activity Cash Flow Mapper](/docs/v13/assets/img/articles/cash-flow-mapper-operating-activity.png)
 
  Refresh the cash flow statement and view the changes.
-<img alt="updated cash flow report" class="screenshot" src="{{docs_base_url}}/v13/assets/img/articles/cash-flow-mapper-3.png">
+![Updated Cash Flow Report](/docs/v13/assets/img/articles/cash-flow-report-customized.png)
 
 Looks close to our requirements but we are not done yet. Create new mappings for 'Investing Activities' and 'Financing
 Activities' sections of the cash flow statement.
 
-<img alt="cash flow mapping" class="screenshot" src="{{docs_base_url}}/v13/assets/img/articles/cash-flow-mapping-9.png">
+![Cash Flow Mapping for Property](/docs/v13/assets/img/articles/cash-flow-mapping-for-property.png)
 
-<img alt="cash flow mapping" class="screenshot" src="{{docs_base_url}}/v13/assets/img/articles/cash-flow-mapping-10.png">
+![Cash Flow Mapping for Equity](/docs/v13/assets/img/articles/cash-flow-mapping-for-equity.png)
 
-<img alt="cash flow mapper for operating activities" class="screenshot" src="{{docs_base_url}}/v13/assets/img/articles/cash-flow-mapper-5.png">
+![Cash Flow Mapping For Investing](/docs/v13/assets/img/articles/cash-flow-mapping-for-investing.png)
 
-<img alt="cash flow mapper for operating activities" class="screenshot" src="{{docs_base_url}}/v13/assets/img/articles/cash-flow-mapper-6.png">
+![Cash Flow Mapping for Financing Activities](/docs/v13/assets/img/articles/cash-flow-mapping-for-financing-activities.png)
 
 Here's what our cash flow statement now looks like:
-<img alt="final cash flow statement" class="screenshot" src="{{docs_base_url}}/v13/assets/img/articles/final-cash-flow.png">
+
+![Custom Cash Flow Report](/docs/v13/assets/img/articles/final-cash-flow.png)
+
+{next}

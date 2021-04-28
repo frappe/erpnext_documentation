@@ -51,3 +51,5 @@ For reference, the following details about a Bank Account can be stored in ERPNe
 ### 3.4 Integration Details
 
 **Last Integration Date**: If your bank supports [Plaid Integration](/docs/v13/user/manual/en/erpnext_integration/plaid_integration), setting a date here will synchronize on the set date. This will create Bank Transactions entries.
+
+{next}
