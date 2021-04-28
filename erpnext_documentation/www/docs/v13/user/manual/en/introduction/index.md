@@ -47,7 +47,7 @@ ERPNext will help you to:
 - Track your budgets and spending.
 - Determine effective selling price based on the actual raw material, machinery and effort cost.
 - Get reminders on maintenance schedules.
-- Publish your website.
+- Publish your website, now!
 
 And a ton more.
 
