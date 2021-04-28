@@ -51,10 +51,10 @@ To access Projects, go to:
   | **Manual**          | -                                                  |-                                   | Manual               |
   | **Task Completion** | Task completed / Total no. of Tasks                  | 2/3                                | 66.66                |
   | **Task Progress**   | Sum of % Progress of all Tasks / Total No. of Tasks | (100+100+50)/3                     | 83.33                |
-  | **Task Weight**     | Sum of (Task weight + % Progress)                   | (0.4 * 100 + 0.2 * 100 + 0.2 * 100)| 70                   |
+  | **Task Weight**     | Sum of (Task weight * % Progress)                   | (0.4 * 100 + 0.2 * 100 + 0.2 * 50)| 70                   |
 
 
-**Note:** If the total weight of the Tasks is not 100, then the calculated result will be divided by the total weight.
+**Note:** If the total weight of the Tasks is not 1, then the calculated result will be divided by the total weight.
 For example, if the total of task weights is 70, then percentage completed = (70/0.8)% = 87.5%.
 
 
