@@ -1,9 +1,9 @@
 <!-- add-breadcrumbs -->
-# Quality Inspction Summary
+# Quality Inspection Summary
 
-To access the Quality Inspction Summary, go to:
+To access the Quality Inspection Summary, go to:
 
-> Home > Manufacturing > Reports > Quality Inspction Summary
+> Home > Manufacturing > Reports > Quality Inspection Summary
 
 <img class="screenshot" alt="Task" src="{{docs_base_url}}/assets/img/manufacturing/quality-inspection-summary.png">
 
