@@ -25,6 +25,8 @@ Once you have created a Private App on Shopify, setup App Credentials and other 
 > To access Shopify Settings, go to:
 Integrations > Shopify Settings
 
+Note: Shopify does not support unsecure HTTP connection. Your ERPNext site must be able to accept HTTPS requests. Access your ERPNext site using `https://` url before proceeding.
+
 1. Select App Type as Private and Fill-up API key, Password and Shared Secret from Shopify's Private App.
 <img class="screenshot" alt="Setup Private App Credentials" src="{{docs_base_url}}/assets/img/erpnext_integrations/app_details.png">
 
