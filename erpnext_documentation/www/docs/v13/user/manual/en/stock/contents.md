@@ -82,7 +82,7 @@ The Stock module is tightly integrated with Purchase, Manufacturing and Accounti
 1. [Managing Rejected Finished Goods Items](/docs/v13/user/manual/en/stock/articles/managing-rejected-finished-goods-items)
 1. [Return Rejected Item](/docs/v13/user/manual/en/stock/articles/return-rejected-item)
 1. [Track Items Using Barcode](/docs/v13/user/manual/en/stock/articles/track-items-using-barcode)
-1. [Creating Depreciation For Item](/docs/v13/user/manual/en/stock/articles/creating-depreciation-for-item)
+<!-- 1. [Creating Depreciation For Item](/docs/v13/user/manual/en/stock/articles/creating-depreciation-for-item) old...-->
 1. [Item Valuation FIFO And Moving Average](/docs/v13/user/manual/en/stock/articles/item-valuation-fifo-and-moving-average)
 1. [Item Codification](/docs/v13/user/manual/en/stock/articles/item-codification)
 

@@ -67,8 +67,8 @@ Different types of manufacturing like make to stock, make to order, and engineer
 ### 3.3 Others
 1. [Material Consumption](/docs/v13/user/manual/en/manufacturing/articles/material_consumption)
 1. [Customer Provided Items](/docs/v13/user/manual/en/manufacturing/articles/customer-provided-items)
-1. [How to change Dashboard in Manufacturing Desk](/docs/v13/user/manual/en/manufacturing/articles/how-to-change-dashboard-in-manufacturing-desk)
-1. [Run MRP on Parent Warehouse in Production Plan](/docs/v13/user/manual/en/manufacturing/articles/run-mrp-on-parent-warehouse-in-production-plan)
+<!-- 1. [How to change Dashboard in Manufacturing Desk](/docs/v13/user/manual/en/manufacturing/articles/how-to-change-dashboard-in-manufacturing-desk)
+1. [Run MRP on Parent Warehouse in Production Plan](/docs/v13/user/manual/en/manufacturing/articles/run-mrp-on-parent-warehouse-in-production-plan) -->
 
 ## 4. Videos
 1. [Bill of Materials](/docs/v13/user/videos/learn/bill-of-materials)
