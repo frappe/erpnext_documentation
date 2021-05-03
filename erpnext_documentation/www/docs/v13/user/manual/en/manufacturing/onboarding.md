@@ -53,6 +53,6 @@ Check out the following video to know about features in the manufacturing module
  <iframe src="https://www.youtube.com/embed/xE74wdQU5cc" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 </div>
 
-<img class="screenshot" alt="Task" src="{{docs_base_url}}/v13/assets/img/manufacturing/manufacturing.png">
+<!-- <img class="screenshot" alt="Task" src="{{docs_base_url}}/v13/assets/img/manufacturing/manufacturing.png"> -->
 
 {next}

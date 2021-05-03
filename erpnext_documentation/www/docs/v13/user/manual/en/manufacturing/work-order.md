@@ -161,14 +161,14 @@ To know more about Job Cards, visit [this page](/docs/v13/user/manual/en/manufac
 
 > Tip: You can also partially complete a Work Order by updating the Finished Goods stock creating a Stock Entry.
 
-### 3.9 Return Non Consumed Materials
+### 3.9 Capacity Planning in Work Order
 
-In some cases, the user sends extra raw materials to the manufacturing stations, but sometimes the operator does not consume all the raw materials to complete the Finished Goods, or sometimes the quantity to manufacture gets reduce. In this case, the unconsumed raw materials are transferred back to the store. In ERPNext, to transfer the raw materials back to the store from the work in progress warehouse user has to click on the button Return Non Consumed Materials. On click of a button, the system opens the stock entry to transfer the raw materials from work in progress warehouse to the Stores warehouse.
-<img class="screenshot" alt="Return Unconsumed Materials" src="{{docs_base_url}}/v13/assets/img/manufacturing/return_unconsumed_materials.png">
+* When a Work Order is submitted, based on the Planned Start Date and the availability of the Workstations, the system schedules all operations for the Work Order (if Work Order has Operations specified).
+* Drafts of Time Logs are also created based on the scheduled operations.
 
-Stock Entry to return raw materials is as below
+On Submitting the Work Order, the system will reserve a slot for each of the Work Order Operations serially after the planned start date based on the Workstation availability. The Workstation availability depends on the Workstation timings, holiday list, and if some other Work Order Operation is scheduled in that slot.
 
-<img class="screenshot" alt="Return Unconsumed Materials Stock Entry" src="{{docs_base_url}}/v13/assets/img/manufacturing/return_unconsumed_materials_stock_entry.png">
+You can mention the number of days for the system to try scheduling the operations in the Manufacturing Settings. This is set to 30 Days by default. If the operation requires time exceeding the available slot, the system will ask you to break the operations. Once the scheduling is done the system will create Time Logs and save them. You can Modify them and submit them later.
 
 ### 4.0 Stopping a Work Order
 When you stop a Work Order its status is changed to Stopped indicating that all production process against that Work Order has stopped. But before stopping the work order user has to make sure that the raw materials which were transferred to the Work In Progress warehouse have been returned or not. In case, if the user has tried to stop the work order without returning the raw materials then the system will throw the error and not allow the user to stop the work order.
@@ -177,23 +177,10 @@ To stop a Work Order, click on the 'Stop' button.
 
 <img class="screenshot" alt="PO - stop" src="{{docs_base_url}}/v13/assets/img/manufacturing/PO-stop.png">
 
-If raw materials have not returned and still available in the Work In Progress warehouse. Clicking the Stop button system will throw the below error.
-
-<img class="screenshot" alt="Work Order Stop Error" src="{{docs_base_url}}/v13/assets/img/manufacturing/work_order_cannot_stop.png">
-
 You can also re-open the stopped Work Order.
 
 <img class="screenshot" alt="Reopen Work Order" src="{{docs_base_url}}/v13/assets/img/manufacturing/reopen-work-order.png">
 
-
-### 3.10 Capacity Planning in Work Order
-
-* When a Work Order is submitted, based on the Planned Start Date and the availability of the Workstations, the system schedules all operations for the Work Order (if Work Order has Operations specified).
-* Drafts of Time Logs are also created based on the scheduled operations.
-
-On Submitting the Work Order, the system will reserve a slot for each of the Work Order Operations serially after the planned start date based on the Workstation availability. The Workstation availability depends on the Workstation timings, holiday list, and if some other Work Order Operation is scheduled in that slot.
-
-You can mention the number of days for the system to try scheduling the operations in the Manufacturing Settings. This is set to 30 Days by default. If the operation requires time exceeding the available slot, the system will ask you to break the operations. Once the scheduling is done the system will create Time Logs and save them. You can Modify them and submit them later.
 
 ## 4. Video
 

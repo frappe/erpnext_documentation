@@ -25,7 +25,7 @@ If your business involves outsourcing certain processes to a third party Supplie
 Make a [Bill Of Materials](/docs/v13/user/manual/en/manufacturing/bill-of-materials) for the processed Item, with the unprocessed Items as sub-items. Let's consider a simple example, where you manufacture a pen. The processed
 pen will be named under Bill of Materials(BOM), whereas, the nib, plastic, ink, etc. will be categorized as sub-items.
 
-This BOM will be without Operations if all of the production work is done by the third party.
+This BOM will be without Operations if all of the production work is done by the third party. Let's see with a simple example of a plastic cane:
 
 <img class="screenshot" alt="Sub-Contracting" src="{{docs_base_url}}/v13/assets/img/manufacturing/subcontract2.png">
 
