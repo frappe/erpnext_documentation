@@ -27,7 +27,7 @@ Before creating and using a Quality Inspection, it is advised that you do the fo
 1. Any additional Remarks about the Inspection can be added.
 1. Save. Set the Status. Submit.
 
-<img class="screenshot" alt="Quality Inspection" src="{{docs_base_url}}/v13/assets/img/stock/quality-inspection.png">
+<img class="screenshot" alt="Quality Inspection" src="{{docs_base_url}}/v13/assets/img/stock/quality-inspection-1.png">
 
 ## 3. Features
 

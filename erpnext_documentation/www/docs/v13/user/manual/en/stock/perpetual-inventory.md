@@ -76,7 +76,7 @@ Chart of Accounts:
 
 #### 2.2 Purchase Receipt
 
-Suppose you have purchased _10 nos_ of item "RM0001" at _$200_ and _5 nos_ of item "Base Plate" at **$100** from supplier "Arcu Vel Quam Fabricators". Following are the details of Purchase Receipt:
+Suppose you have purchased _10 nos_ of item "RM0001" at _$200_ from supplier "Arcu Vel Quam Fabricators". Following are the details of Purchase Receipt:
 
 **Supplier:** Arcu Vel Quam Fabricators
 
