@@ -96,9 +96,9 @@ The same can be **Re-opened**.
 
 <img class="screenshot" alt="Make PO or MR" src="{{docs_base_url}}/v13/assets/img/manufacturing/nokia_phone_bom.png">
 
-In the above screenshot, the User creates the Nokia Headphone first and then creates the Nokia Charger and then creates final finished goods.
+In the above screenshot, the User creates the Shaving Brush Bristles first and then creates final finished goods.
 
-Here, the User wants to make the work order for the Nokia Headphone and Nokia Charger, to do this, the user has to enable the field "Make Work Order for Sub Assembly Items" in the Production Plan against the item Nokia Lumia.
+Here, the User wants to make the work order for Shaving Brush Bristles, to do this, the user has to enable the field "Make Work Order for Sub Assembly Items" in the Production Plan against the item Shaving Brush.
 
 <img class="screenshot" alt="Make PO or MR" src="{{docs_base_url}}/v13/assets/img/manufacturing/production_plan_for_subassembely.png">
 

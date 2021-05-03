@@ -31,9 +31,9 @@ Once created, a Routing can be selected in a BOM to fetch the Operations stored 
 
 ## 3. Sequence ID in Routing
 ![Routing Sequence ID](/docs/v13/assets/img/manufacturing/sequence-id-routing.png)
-Sequence ID enforces the users to complete the operations sequentially via Job Card. In case a user tries to complete an operation before completing any of its precedent operations as per the Sequence ID, the system throws a validation error as shown in the screenshot below.
+Sequence ID enforces the users to complete the operations sequentially via Job Card. In case a user tries to complete an operation before completing any of its precedent operations as per the Sequence ID, the system throws a validation error.
 
-![Error](/docs/v13/assets/img/manufacturing/sequence-id-error.png)
+<!-- ![Error](/docs/v13/assets/img/manufacturing/sequence-id-error.png) -->
 
 ## 2. Related Topics
 1. [Work Order](/docs/v13/user/manual/en/manufacturing/work-order)
