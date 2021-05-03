@@ -195,6 +195,8 @@ And you're done. The master data like Item, Account, Employee, BOM etc. will rem
 * All naming series will be reset
 * Stock Entries linked to a Warehouse of this Company will be deleted
 
+A record of all such deletion actions will be maintained in the [Transaction Deletion Tool](/docs/user/manual/en/setting-up/delete-company-transactions#1-transaction-deletion-tool) DocType, in case you ever want to see what DocTypes were affected by this.
+
 ### 3. Related Topics
 1. [Setting Up Taxes](/docs/user/manual/en/setting-up/setting-up-taxes)
 1. [System Settings](/docs/user/manual/en/setting-up/settings/system-settings)
