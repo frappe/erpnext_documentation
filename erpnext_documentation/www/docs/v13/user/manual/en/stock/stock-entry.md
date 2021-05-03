@@ -15,9 +15,7 @@ Stock Entries can be made for the following purposes:
 * **Material Consumption for Manufacture**: There can be multiple consumption stock entries against a manufacturing Work Order. [Refer this link for more details](/docs/v13/user/manual/en/manufacturing/articles/material_consumption)
 * **Manufacture**: If the Material is being received from a Manufacturing/Production Operation.
 * **Repack**: If the Original item/items are being repacked into new item/items.
-* **Subcontract**: If the Material is being issued for a sub-contract activity. This entry is made from a Purchase Order. To know more, visit the [subcontracting](/docs/v13/user/manual/en/manufacturing/subcontracting) page.
-* **Send to Warehouse**: If the Material is being sent at a Warehouse and needs confirmation at the receiving end, this document will be selected in the Stock Entry with type 'Receive to Warehouse' to confirm how many items were received. The status will be 'Goods In Transit' until all goods are received, after which the status will change to 'Goods Transferred'.
-* **Receive to Warehouse**: If the Material is being received at a Warehouse the Stock Entry with type 'Send to Warehouse' will be selected here and the number of goods received will be updated.
+* **Send to Subcontractor**: If the Material is being issued for a sub-contract activity. This entry is made from a Purchase Order. To know more, visit the [subcontracting](/docs/v13/user/manual/en/manufacturing/subcontracting) page.
 
 To know more in detail about the stock entry types, [visit this page](/docs/v13/user/manual/en/stock/articles/stock-entry-purpose).
 

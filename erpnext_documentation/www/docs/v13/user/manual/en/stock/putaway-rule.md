@@ -41,8 +41,6 @@ Before creating and using a Putaway Rule, it is advised that you create the foll
 
 1. Set the Priority. This can begin from 1 onwards, 1 being the highest priority.
 1. Save.
- <img class='screenshot' alt='Saved Putaway Rule' src='{{docs_base_url}}/v13/assets/img/stock/saved-putaway-rule.png'>
-
 1. You can additionally Disable a Putaway Rule as well.
 
 The rule is unique to each Item-Warehouse combination.
