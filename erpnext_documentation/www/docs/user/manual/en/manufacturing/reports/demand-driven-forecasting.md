@@ -1,7 +1,7 @@
 <!-- add-breadcrumbs -->
 # Demand Driven Forecasting
 
-To access the Forecating Report, go to:
+To access the Forecasting Report, go to:
 
 > Home > Manufacturing > Reports > Forecasting
 
