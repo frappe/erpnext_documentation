@@ -12,7 +12,8 @@ To help automate the E-Invoicing process, we have integrated ERPNext with a GST 
 ## 1. Prerequisites
 
 - You must have a registered account on E-Invoice [portal](https://einvoice1.gst.gov.in/)
-- GST Accounts must be set in the "GST Settings" DocType.
+- GST Accounts must be set in the "GST Settings".
+- Addresses of Company & Customers must have proper GSTIN & State set.
 
 > Note: Using this integration for automatic process involves additional charges. Contact ERPNext Sales Team for more information.
 
@@ -25,15 +26,20 @@ To help automate the E-Invoicing process, we have integrated ERPNext with a GST 
 1. Click on "User Credentials" from the expanded list.
 1. Click on "Create API User".
 1. Click on "Through GSP" and select "Adequare Info Private Limited".
-1. Create a username and password which will be used to authenticate with GSP.
+1. Enter a new Username.
+1. Enter a new Password.
 
 ### 2.2 Setting Up ERPNext
 
-Go to "E-Invoice Settings" and click on the "Enable" checkbox.
+Go to "E Invoice Settings" and click on the "Enable" checkbox.
 
 1. **GSTIN**: GSTIN by which your company is registered on the e-invoice portal.
-1. **Username**: Username created in the previous step for authenticating with GSP.
-1. **Password**: Password created in the previous step for authenticating with GSP.
+1. **Username**: Username created in the previous step.
+1. **Password**: Password created in the previous step.
+
+<img class="screenshot" src="/docs/assets/img/regional/india/einv_settings.png">
+
+> Note. In E Invoice Settings, you must **not** enter the username/password that is used to login into e-invoice portal. 
 
 ### 2.3 Generating IRN
 
@@ -59,6 +65,10 @@ Once you cancel the IRN, the invoice will look something like this.
 
 <img class="screenshot" src="/docs/assets/img/regional/india/einv_cancelled_irn.png">
 
+You can also Generate/Cancel IRN in bulk using the Bulk IRN Generation/Cancellation option from the Sales Invoice List. 
+
+<img class="screenshot" src="/docs/assets/img/regional/india/einv_bulk_irn_generation.png">
+
 ## 3. E-Way bill
 
 ### 3.1 Generating E-Way Bill
@@ -72,8 +82,14 @@ You will see a popup with relevant info before submitting:
 
 ### 3.2 Cancelling-E Way Bill
 
-The process is similar to the cancellation of IRN. Click on Cancel E-Way Bill and then enter reason and remarks for cancellation.
+The cancellation of the e-way bill is currently not supported. However, you can cancel the e-way bill using the e-invoice portal and then update the status in the ERPNext system, to be able to cancel IRN for the invoice.
 
 <img class="screenshot" src="/docs/assets/img/regional/india/einv_cancel_ewaybill_button.png">
 
 <img class="screenshot" src="/docs/assets/img/regional/india/einv_cancelled_ewaybill.png">
+
+## 4. E Invoice Summary Report
+
+You can refer to E Invoice Summary Report to check the statuses of your eligible Sales Invoices. 
+
+<img class="screenshot" src="/docs/assets/img/regional/india/einv_summary_report.png">
