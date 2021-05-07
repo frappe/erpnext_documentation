@@ -128,6 +128,8 @@ style.border_color # '#d1d8dd'
 guess_mimetype = mimetypes.guess_type,
 html2text = html2text,
 dev_server # True if in developer mode
+make_get_request # get api request
+make_post_request # post api request
 ```
 
 ## 3. Examples
