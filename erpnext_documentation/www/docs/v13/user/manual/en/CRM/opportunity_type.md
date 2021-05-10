@@ -14,6 +14,6 @@ To access the Opportunity Type, go to:
 1. Enter 'Name'.
 1. Enter 'Description'
 
-<img class="screenshot" alt="Opportunity" src="{{docs_base_url}}/v13/assets/img/crm/opportunity_type.png">
+![Opportunity Type](/docs/v13/assets/img/crm/opportunity-type.png)
 
 {next}

@@ -12,6 +12,6 @@ dropdown. Once the Customer is created, the Lead becomes “Converted” and any
 further Opportunities from the same source can be created against this
 Customer.
 
-<img class="screenshot" alt="Create Customer" src="{{docs_base_url}}/v13/assets/img/crm/lead-to-customer.gif">
+![Lead, Customer and Contact](/docs/v13/assets/img/crm/lead-to-customer.gif)
 
 {next}

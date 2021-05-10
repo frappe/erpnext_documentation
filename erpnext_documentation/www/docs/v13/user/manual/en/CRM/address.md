@@ -16,11 +16,11 @@ To access the Address list, go to:
 1. Enter Email Address, Phone and Fax.
 1. Enter Link DocType and Link Name to link this address to customer, supplier etc.
 4. Save.
-    <img class="screenshot" alt="Contact" src="{{docs_base_url}}/v13/assets/img/crm/address.png">
+    ![Contact](/docs/v13/assets/img/crm/address.png)
 
 You can also add an Address from the Customer or Supplier record by clicking on “New Address" button as shown below.
 
-<img class="screenshot" alt="Contact" src="{{docs_base_url}}/v13/assets/img/crm/address-from-supp.png">
+![Add Address From Customer](/docs/v13/assets/img/crm/add-address-from-customer.png)
 
 To Import multiple addresses from a spreadsheet, use the [Data Import Tool](/docs/v13/user/manual/en/setting-up/data/data-import).
 
@@ -33,7 +33,7 @@ An address may be linked to multiple customers or multiple suppliers.
 
 An address can also be linked to customers and suppliers at the same time.
 
-<img class="screenshot" alt="Contact" src="{{docs_base_url}}/v13/assets/img/crm/link_address_to_multipl_entities.png">
+![Link One Address to Multiple Entities](/docs/v13/assets/img/crm/link-address-to-multiple-entities.png)
 
 ### 2.2 Address Title
 
@@ -41,7 +41,7 @@ If the address is not linked to any entity you need to manually add a title.
 
 If the address is linked to an entity like a customer or supplier, the title is generated automatically in 'Entity Name-Address Type' format.
 
-<img class="screenshot" alt="Contact" src="{{docs_base_url}}/v13/assets/img/crm/address_title_generation.png">
+![Address Title](/docs/v13/assets/img/crm/address-title.png)
 
 ### 2.3 Preferred Billing Address and Shipping Address
 
@@ -50,16 +50,16 @@ If you check 'Preferred Shipping Address', the address would be automatically ad
 Similarly, if you check 'Preferred Billing Address', the address would be automatically added in the Billing Address in Sales Order, Sales Invoice and Delivery Note transactions.
 
 ### 2.4 GST Localization for India
-If the customer/supplier has registered for GST, enter Party GSTIN and GST State.Make sure GSTIN entered is in valid format.
+If the customer or supplier has registered under GST, you can enter GSTIN and GST State in Address. Make sure GSTIN entered is in valid format.
+![GST Details in Address](/docs/v13/assets/img/crm/gst-details-in-address.png)
 
 In sales transactions along with address, GSTIN is also fetched.
 
-<img class="screenshot" alt="Contact" src="{{docs_base_url}}/v13/assets/img/crm/gstin_in_so.png">
+![GST Details in Sales Order](/docs/v13/assets/img/crm/gst-details-in-sales-order.png)
 
 You can also add addresses of your own company's facilities. Check 'Is Your Company Address', select Company in Link DocType, and Company Name in Link Name for such addresses and you can select them in GST Sales Invoice to print your own address.
 
-<img class="screenshot" alt="Contact" src="{{docs_base_url}}/v13/assets/img/crm/own_company_address.png">
-
+![Company Address](/docs/v13/assets/img/crm/company-address.png)
 
 >GSTIN is to be added in Address and not in Customer/Supplier, as one Customer/Supplier may have multiple GSTIN (one for each state where he conducts his business).
 

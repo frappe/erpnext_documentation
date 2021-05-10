@@ -10,24 +10,24 @@ To access the Opportunity list, go to:
 
 ## 1. How to Create an Opportunity
 
-1. Go to the Opportunity list and click on New.
+1. Go to the Opportunity list and click on 'Add Opportunity'.
 1. In 'Opportunity From', select Lead if opportunity is from a lead.
 
-   <img class="screenshot" alt="Opportunity" src="{{docs_base_url}}/v13/assets/img/crm/new-opportunity.gif">
+   ![Creating New Opportunity](/docs/v13/assets/img/crm/creating-opportunity.gif)
 
-1. You can also go to an “Open” Lead and select “Opportunity” from the **Make** dropdown as shown below.
+1. You can also go to a Lead with 'Open' status and select “Opportunity” under **Create** dropdown as shown below.
 
-    <img class="screenshot" alt="Opportunity" src="{{docs_base_url}}/v13/assets/img/crm/lead-to-opportunity.png">
+    ![Create Opportunity From Lead](/docs/v13/assets/img/crm/lead-to-opportunity.png)
 
 1. In 'Opportunity From', select Customer if opportunity is from a customer.
-
-    <img class="screenshot" alt="Opportunity" src="{{docs_base_url}}/v13/assets/img/crm/requirement-gathering.png">
 
 1. Select Opportunity Type. This indicates the broad category of opportunity like Sales, Support, Maintenance etc.
 
 1. You can add more details like Opportunity Amount, Probability (of conversion), Currency in 'SALES' section.
 
-1. You can capture the details of the products/services needed by clicking on 'With Items' checkbox and adding the item and quantity details in 'ITEMS' section.
+1. You can capture the details of the products/services needed by clicking on 'With Items' checkbox and adding the item and quantity details in 'Items' section.
+
+    ![Item Details in Opportunity](/docs/v13/assets/img/crm/item-details-in-opportunity.png)
 
 1. Enter the Source of the opportunity in the SOURCE section.
 
@@ -42,7 +42,7 @@ It is important to reach out to opportunities from time to time and build the re
 
 You can define [Assignment Rules](/docs/v13/user/manual/en/automation/assignment-rule) to automatically assign the opportunities to sales executives.
 
-<img class="screenshot" alt="Lead" src="{{docs_base_url}}/v13/assets/img/crm/opportunity_assignment.png">
+![Opportunity Assignment](/docs/v13/assets/img/crm/opportunity-assignment-rule.png)
 
 ### 2.3 Auto-close Opportunities
 
@@ -50,12 +50,12 @@ If you do not receive a response from an opportunity for a certain number of day
 
 You can set the number of days in [Selling Settings](/docs/v13/user/manual/en/selling/selling-settings).
 
-<img class="screenshot" alt="Opportunity" src="{{docs_base_url}}/v13/assets/img/crm/autoclose_opportunities.png">
+![Auto Close Opportunities](/docs/v13/assets/img/crm/auto-close-opportunities.png)
 
 ### 2.4 Create a Quotation
 You can create a [Quotation](/docs/v13/user/manual/en/selling/quotation) from the **Make** dropdown. Relevant field values will be copied over.
 
-<img class="screenshot" alt="Opportunity" src="{{docs_base_url}}/v13/assets/img/crm/make-sq-from-opportunity.png">
+![Create Quotation From Opportunity](/docs/v13/assets/img/crm/create-quotation-from-opportunity.png)
 
 ### 2.5 Create a Supplier Quotation
 
@@ -66,11 +66,11 @@ Pipeline” this is what you need to track if you want to be able to predict how
 much business you are going to get in the future. Its always a good idea to be
 able to track what is coming in order to adjust your resources.
 
-### 2.6 Capture the Reasons for Losing Opportunities
+### 2.6 Capture the Reasons for Lost Opportunities
 
 When an opportunity is lost, you can capture the reasons for losing. This will help you to analyse the trends over a long period of time and identify the insights needed for improvements at various areas in the organisation.
 
-<img class="screenshot" alt="Quotation Lost Reason" src="{{docs_base_url}}/v13/assets/img/crm/quotation_lost_reason.png">
+![Quotation Lost Reason](/docs/v13/assets/img/crm/quotation-lost-reason.png)
 
 ### 2.7 Minutes to First Response
 
