@@ -74,8 +74,7 @@ You will see a popup with relevant info before submitting:
 
 The process is similar to the cancellation of IRN. Click on Cancel E-Way Bill and then enter reason and remarks for cancellation.
 
-<img class="screenshot" src="/docs/v13/assets/img/regional/india/einv_cancel_ewaybill_button.png">
-![](/docs/v13/assets/img/regional/india/)
+![Cancel E-way Bill](/docs/v13/assets/img/regional/india/einv-cancel-ewaybill-button.png)
 
 <img class="screenshot" src="/docs/v13/assets/img/regional/india/einv_cancelled_ewaybill.png">
 ![](/docs/v13/assets/img/regional/india/)

@@ -21,13 +21,11 @@ To access the Newsletter list, go to:
 1. Tick 'Send Unsubscribe Link' if you would like to include unsubscribe link in the email.
 1. 'Send Web View Link' will include a link in the email to open the newsletter on the web. This option is only visible when the newsletter is published.
 
-<img class="screenshot" alt="Newsletter" src="{{docs_base_url}}/v13/assets/img/crm/newsletter-doc.png">
-
-<img class="screenshot" alt="Newsletter" src="{{docs_base_url}}/v13/assets/img/crm/newsletter-doc-2.png">
+![Newsletter](/docs/v13/assets/img/crm/newsletter-doc.png)
 
 Below is the screenshot of the email received with link to unsubscribe and a link to open the email on the web.
 
-<img class="screenshot" alt="Lead" src="{{docs_base_url}}/v13/assets/img/crm/newsletter-doc-web-link.png">
+![Newsletter With Unsubscribe Link](/docs/v13/assets/img/crm/newsletter-doc-web-link.png)
 
 ## 2. Features
 
@@ -41,7 +39,7 @@ You can select multiple email groups in the 'RECIPIENT' tables in the newsletter
 
 You can choose to send your newsletter at any future datetime by specifying time in hourly steps.
 
-<img class="screenshot" alt="Scheduled Newsletter" src="{{docs_base_url}}/v13/assets/img/crm/scheduled-newsletter.png">
+![Scheduled Newsletter](/docs/v13/assets/img/crm/scheduled-newsletter.png)
 
 ### 2.3 Test Newsletter Before Sending to Subscribers
 
@@ -49,8 +47,9 @@ Once the newsletter is ready you can provide a 'Test Email Address' and click on
 
 You can review the newsletter received in the test email, verify it and then send it to all subscribers by clicking on 'Send'.
 
-<img class="screenshot" alt="Newsletter Test" src="{{docs_base_url}}/v13/assets/img/crm/newsletter-test.png">
+![Newsletter Test](/docs/v13/assets/img/crm/newsletter-test.png)
 
+<br>
 <div class="embed-container">
 	<iframe src="https://www.youtube.com/embed/muLKsCrrDRo?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen>
 	</iframe>
