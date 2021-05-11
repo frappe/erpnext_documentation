@@ -26,4 +26,6 @@ To access Quality Feedback, go to:
     - Feedback: Feedback based on the given Rating.
 1. Save.
 
-    <img class="screenshot" alt="Quality mangement" src="{{docs_base_url}}/v13/assets/img/quality-management/feedback.gif">
+    ![Quality Feedback](/docs/v13/assets/img/quality-management/quality-feedback.gif)
+
+{next}
