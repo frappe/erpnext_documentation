@@ -18,8 +18,9 @@ To access Quality Meeting, go to:
     - Document Type: Select from Quality Review, Quality Action, or Quality Feedback.
     - Review: Select the Quality Review, Action, Feedback to be discussed.
     - Minute: Written or recorded documentation that is associated with the Review.
-    <img class="screenshot" alt="Quality mangement" src="{{docs_base_url}}/v13/assets/img/quality-management/creating-quality-goal.gif">
 1. Save.
+
+![Quality Meeting](/docs/v13/assets/img/quality-management/quality-meeting.gif)
 
 The Status of the Meeting can be set to Closed once the agenda is done.
 
