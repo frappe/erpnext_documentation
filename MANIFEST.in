@@ -15,4 +15,5 @@ recursive-include erpnext_documentation *.png
 recursive-include erpnext_documentation *.py
 recursive-include erpnext_documentation *.svg
 recursive-include erpnext_documentation *.txt
+recursive-include erpnext_documentation *.gif
 recursive-exclude erpnext_documentation *.pyc

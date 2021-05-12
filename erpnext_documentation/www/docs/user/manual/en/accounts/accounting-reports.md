@@ -92,6 +92,13 @@ The Sales and Purchase Register report shows all the Sales and Purchase transact
 
 <img alt="Sales Register" class="screenshot" src="{{docs_base_url}}/assets/img/accounts/reports/sales-register.png">
 
+### 3.2 Tax Detail
+Go to: **Accounts > Reports > Tax Detail**.
+
+Some countries require taxes to be reported broken down into a specific format, and especially Goods and Services taxes. The Tax Detail report allows sectioned custom reports to be created easily from General Ledger Entries, down to individual invoice line items. Watch the animation below to see how it works:
+
+<img alt="Tax Detail" class="screenshot" src="{{docs_base_url}}/assets/img/accounts/reports/tax-detail.png">
+
 ## 4. Budget and Cost Center
 ### 4.1 Budget Variance
 Go to: **Accounts > Budget and Cost Center > Budget Variance Report**.
