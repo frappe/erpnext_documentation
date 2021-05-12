@@ -137,7 +137,7 @@ More detailed analysis can also be done by using the 'Group By' filter which giv
 ### 6.2 Sales or Purchase Invoice Trends
 Go to: **Accounts > Analytics > Sales Invoice Trends *or* Purchase Invoice Trends**.
 
-Another very useful report is invoice trends, From this report you can easily get the trending items on monthly, quaterly, half yearly or yearly basis. You will get the idea of sales and purchase both in quantity and amount.
+Another very useful report is invoice trends. From this report you can easily get the trending items on a monthly, quarterly, half-yearly or yearly basis. You can analyse sales and purchases both in quantity and value.
 
 <img alt="Sales Invoice Trends" class="screenshot" src="{{docs_base_url}}/assets/img/accounts/reports/sales-invoice-trends.png">
 
