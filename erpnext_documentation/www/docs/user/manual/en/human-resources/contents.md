@@ -95,7 +95,7 @@ their calculation.
 
 
 ### 1.10 Expense Claims
-1. [Expense Claim](/docs/user/manual/en/human-resources/gratuity)
+1. [Expense Claim](/docs/user/manual/en/human-resources/expense-claim)
 1. [Employee Advance](/docs/user/manual/en/human-resources/employee-advance)
 
 ## 1.11 Gratuity
