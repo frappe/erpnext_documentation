@@ -115,7 +115,7 @@ their calculation.
 1. [Fleet Management](/docs/user/manual/en/human-resources/fleet-management)
 1. [Vehicle](/docs/user/manual/en/human-resources/vehicle)
 1. [Vehicle Log](/docs/user/manual/en/human-resources/vehicle-log)
-
+1. [Vehicle Expenses Report](/docs/user/manual/en/human-resources/vehicle-expenses-report)
 
 ### 1.14 Settings
 1. [HR Settings](/docs/user/manual/en/human-resources/hr-settings)
