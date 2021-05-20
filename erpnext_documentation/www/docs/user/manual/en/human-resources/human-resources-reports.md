@@ -42,7 +42,7 @@ To track and monitor Vehicle Expenses you can use the Vehicle Expenses report. T
 
 ## Bank Remittance Report
 
-This report helps you to track bank transactions of payroll entries between companie(s) and employees. It shows the transaction between the bank accounts of the Company and the Employee with the Payment Date.
+This report helps you to track bank transactions of payroll entries between companies and employees. It shows the transaction between the bank accounts of the Company and the Employee with the Payment Date.
 
 <img alt="Monthly Salary Register" class="screenshot" src="{{docs_base_url}}/assets/img/human-resources/bank_remittance_report.png">
 
