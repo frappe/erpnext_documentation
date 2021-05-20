@@ -1,14 +1,14 @@
 <!-- add-breadcrumbs -->
 
-# Profitability Report
+# Project Profitability Report
 
-The profitability report shows the Profitability and Utilization of each employee based on the Timesheets generated.
+The Project Profitability Report shows the Profitability and Utilization of each employee based on the Timesheets generated.
 
 To view this report, you can go to:
 
-> Home > Projects > Reports > Profitability
+> Home > Projects > Reports > Project Profitability
 
-This report shows the Profitability with the following data:
+This report shows the Project Profitability with the following data:
 
 - Timesheet
 - Salary Slip generated using the Timesheet
@@ -18,11 +18,11 @@ This report shows the Profitability with the following data:
 
 ### Calculation of Utilization
 
-The Utilization of the Employee is calculated using the Total Billed Hours from the Timesheet, Working Days from the Salary Slip, and the Default Working Hours from HR Settings.
+The Utilization of the Employee is calculated using the Total Billed Hours from the Timesheet, Working Days from the Salary Slip, and the Standard Working Hours from HR Settings.
 
 The formula for Utilization is as follows,
 ```
-Utilization = Total Billed Hours / (Working Days * Default Working Hours)
+Utilization = Total Billed Hours / (Working Days * Standard Working Hours)
 ```
 
 ### Calculation of Profit
