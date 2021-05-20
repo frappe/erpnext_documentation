@@ -3,7 +3,7 @@
 
 ## Employee Leave Balance
 
-These key reports can be found under:
+This report shows the number of Leaves Allocated, Leaves Takes, and Leaves Expired for an employee over the duration selected through the date filters. It also shows the number of leaves that remain unused for an employee at the end of that duration.
 
 <img alt="Employee Leave Balance" class="screenshot" src="{{docs_base_url}}/assets/img/human-resources/employee-leave-balance-report.png">
 
