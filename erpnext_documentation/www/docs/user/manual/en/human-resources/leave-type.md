@@ -21,11 +21,15 @@ To access Leave Type, go to:
 
 Below is a detailed explanation of all the fields and checkboxes in Leave Type.
 
-* **Max Leaves Allowed:** This field allows you to set the maximum number of the annual allocation of this Leave Type while creating the Leave Policy.
+* **Maximum Leave Allocation Allowed:** This field allows you to set the maximum number of the annual allocation of this Leave Type while creating the Leave Policy.
+
+> Known as "Max Leaves Allowed" till version-12.
 
 * **Applicable After (Working Days):** Enter the minimum number of working days here. Only the employees who have worked for this number of days or more will be allowed to apply for this particular leave type. Any other leaves (such as Casual Leave, Sick Leave.etc.) availed by the Employees after their joining date will also be considered while calculating working days of the Employee.
 
-* **Maximum Continuous Days Applicable:** It refers to the maximum number of days this particular Leave Type can be availed at a stretch. If an employee exceeds the maximum number of days, their extended leave will be considered as ‘Leave Without Pay'.
+* **Maximum Consecutive Leaves Allowed:** It refers to the maximum number of days this particular Leave Type can be availed at a stretch. If an employee exceeds the maximum number of days, their extended leave will be considered as ‘Leave Without Pay'.
+
+> Known as "Maximum Continuous Days Applicable" till version-12.
 
 * **Is Carry Forward:** If checked, the balance leaves of this Leave Type will be carried forward to the next allocation period.
 
@@ -84,9 +88,13 @@ For example, an Employee is allotted 24 Privilege Leaves in a year, wherein the 
 There are some pre-loaded Leave Types in the system, as below:
 
 - **Leave Without Pay:** You can avail these leaves for different purposes, such as extended medical issues, educational purposes, or unavoidable personal reasons. The 'Leave Without Pay' checkbox for this Leave Type is checked by default. The employee does not get paid for such leaves.
+
 - **Privilege leave:** These are like earned leaves that can be availed for travel, family vacation, and so on.
+
 - **Sick leave:** You can avail of these leaves if you are unwell.
+
 - **Compensatory off:** These are compensatory leaves allotted to employees for overtime work. The 'Is Compensatory' checkbox for this Leave Type is checked by default.
+
 - **Casual leave:** You can avail of this leave to take care of urgent and unseen matters.
 
 ## 3. Related Topics
