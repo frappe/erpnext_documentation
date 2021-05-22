@@ -71,19 +71,19 @@ In the following example, we have selected 'TDS - 194C - Individual' which has a
 #### 3.2.1 Deduction Advance TDS against Purchase Order
 1. Set up Tax Withholding Category against supplier and follow the same steps required to apply TDS in a Purchase Invoice as shown in the image below
 
-<img class="screenshot" alt="Tax Withholding Category" src="{{docs_base_url}}/assets/img/accounts/tds-purchase-order.png">
+ <img class="screenshot" alt="Tax Withholding Category" src="{{docs_base_url}}/assets/img/accounts/tds-purchase-order.png">
 
 2. Create Payment Entry against that Purchase Order, all the relevant details required to apply TDS will be pulled.
 
-<img class="screenshot" alt="Tax Withholding Category" src="{{docs_base_url}}/assets/img/accounts/tds-po-payment-entry.png">
+ <img class="screenshot" alt="Tax Withholding Category" src="{{docs_base_url}}/assets/img/accounts/tds-po-payment-entry.png">
 
 3. Update Advance Tax Account or add "Unrealized Profit and Loss Account" in company master which will be used as the default Advance Tax Account if not specific in the transaction
 
-<img class="screenshot" alt="Tax Withholding Category" src="{{docs_base_url}}/assets/img/accounts/advance-tax-account.png">
+ <img class="screenshot" alt="Tax Withholding Category" src="{{docs_base_url}}/assets/img/accounts/advance-tax-account.png">
 
 4. Once a Purchase Invoice is created against this order, TDS will still be applied but the new effect of TDS will be zero, hence no TDS payable. In a way the Advance TDS Paid will be allocated against the invoice.
 
-<img class="screenshot" alt="Tax Withholding Category" src="{{docs_base_url}}/assets/img/accounts/tds-purchase-invoice.png">
+ <img class="screenshot" alt="Tax Withholding Category" src="{{docs_base_url}}/assets/img/accounts/tds-purchase-invoice.png">
 
 ### 3.2.2 Deducting TDS against advances paid (Using Payment Entry)
 1. Select "Payment Type" as "Pay"
@@ -93,10 +93,12 @@ In the following example, we have selected 'TDS - 194C - Individual' which has a
 5. Click on Save. TDS will be auto applied
 6. If the paid amount was entered after deducting TDS, check "Included In Paid Amount" and Save again
 
-<img class="screenshot" alt="Tax Withholding Category" src="{{docs_base_url}}/assets/img/accounts/included-in-paid-amount.png">
+ <img class="screenshot" alt="Tax Withholding Category" src="{{docs_base_url}}/assets/img/accounts/included-in-paid-amount.png">
 
 7. Submit the entry
+8. Same will also be visible in TDS payable monthly report
 
+ <img class="screenshot" alt="Tax Withholding Category" src="{{docs_base_url}}/assets/img/accounts/advance-tds-payable-monthly.png">
 
 ### 3.3 Setting up TCS - Section 20C(1H) for eligible customers
 In the following example, we have create a Tax Withholding Category for [TCS - Section 20C(1H)](https://taxguru.in/income-tax/faqs-tcs-sales-goods-section-206c1h.html) and set it up against an eligible customer.
