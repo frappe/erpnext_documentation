@@ -37,3 +37,8 @@ mpesa
 gocardless
 csrf
 socketio
+ewaybill
+GSTN
+Suvidha
+Adequare
+einv

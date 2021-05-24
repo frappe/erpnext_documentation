@@ -15,7 +15,7 @@ A major change has been introduced in ERPNext from version 13 onwards. This chan
 
 <img alt="General Ledger" class="screenshot" src="{{docs_base_url}}/assets/img/articles/general-ledger.png">
 
-On cancellation of any transaction instead of deleting the GL Entries for that transactions reverse entries will pe passed to cancel the effect of that transaction on the date of cancellation.
+On cancellation of any transaction instead of deleting the GL Entries for that transactions reverse entries will be passed to cancel the effect of that transaction on the date of cancellation.
 
 <img alt="Document Delete" class="screenshot" src="{{docs_base_url}}/assets/img/articles/document-delete.png">
 
