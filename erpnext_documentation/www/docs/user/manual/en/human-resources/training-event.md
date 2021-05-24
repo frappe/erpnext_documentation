@@ -1,6 +1,6 @@
 # Training Event
 
-**Training Event allows you to schedule seminars, workshops, conferences, etc. under a Training Program.** 
+**Training Event allows you to schedule seminars, workshops, conferences, etc. under a Training Program.**
 
 You can also invite your employees to attend the event using this feature.
 
@@ -37,7 +37,7 @@ Before creating a Training Event, it is advisable you create the following docum
 
 You can invite your employees to attend the Training Event. You can do so by selecting the employees to be invited in the Employees table.
 
-By default the status of the employee will be 'Open'.
+By default the status of the employee will be 'Open'. You can mark the Event as Mandatory.
 
 <img class="screenshot" alt="Employee" src="{{docs_base_url}}/assets/img/human-resources/training-event-employee.png">
 
