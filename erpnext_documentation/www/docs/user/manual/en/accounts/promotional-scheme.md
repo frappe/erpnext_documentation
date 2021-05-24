@@ -65,7 +65,11 @@ Based on your selection you can set applicability to one of the following master
 * [Sales Partner](/docs/user/manual/en/selling/sales-partner)
 * [Campaign](/docs/user/manual/en/CRM/campaign)
 * [Supplier](/docs/user/manual/en/buying/supplier)
-* Supplier Group
+* [Supplier Group](/docs/user/manual/en/buying/supplier-group)
+
+After selecting from one of the above masters, you can select more than one item from the master. For example, multiple customers can be selected. On submitting the Promotional Scheme, a separate Pricing Rule will automatically get created for each customer.
+
+<img alt="Party Information" class="screenshot" src="{{docs_base_url}}/assets/img/accounts/promotional-scheme-party-info.png">
 
 ### 3.3 Validity 
 You can also set a date interval for when the Promotional Scheme will be valid. This is useful for a sales promotion. On leaving the dates blank the Promotional Scheme will not have any time frame limit. 
