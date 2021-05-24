@@ -1,4 +1,7 @@
 <!-- add-breadcrumbs -->
+
+> This integration is now deprecated and will be removed in the future version (v14). We recommend using the [new integration created as a Frappe App](/docs/v13/user/manual/en/erpnext_integration/shopify_integration_app) which has cool new features like Inventory sync.
+
 # Shopify Integration
 
 The Shopify Connector pulls the orders from Shopify and creates Sales Order against them in ERPNext.
