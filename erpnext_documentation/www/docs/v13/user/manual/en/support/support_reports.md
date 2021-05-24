@@ -47,4 +47,6 @@ This report provides a count of issues according to weekly, monthly, quarterly, 
 To access the Issue Analytics report, go to:
 > Home > Support > Reports > Issue Analytics
 
-<img class="screenshot" alt="Issue Analytics" src="{{docs_base_url}}/v13/assets/img/support/issue-analytics.png">
+![Issue Analytics](/docs/v13/assets/img/support/issue-analytics.png)
+
+{next}
