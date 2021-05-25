@@ -19,22 +19,22 @@ If your business involves outsourcing certain processes to a third party Supplie
 2. Create a Warehouse for your Supplier so that you can keep track of Items supplied. (you may supply a month's worth of Items in one go).
 3. For the processed Item, in the Item master, enable “Is Sub Contracted Item”.
 
-  <img class="screenshot" alt="Sub-Contracting" src="{{docs_base_url}}/assets/img/manufacturing/subcontract.png">
+  <img class="screenshot" alt="Sub-Contracting" src="{{docs_base_url}}/v13/assets/img/manufacturing/subcontract.png">
 
 ### 1.1 Creating a BOM
 Make a [Bill Of Materials](/docs/v13/user/manual/en/manufacturing/bill-of-materials) for the processed Item, with the unprocessed Items as sub-items. Let's consider a simple example, where you manufacture a pen. The processed
 pen will be named under Bill of Materials(BOM), whereas, the nib, plastic, ink, etc. will be categorized as sub-items.
 
-This BOM will be without Operations if all of the production work is done by the third party.
+This BOM will be without Operations if all of the production work is done by the third party. Let's see with a simple example of a plastic cane:
 
-<img class="screenshot" alt="Sub-Contracting" src="{{docs_base_url}}/assets/img/manufacturing/subcontract2.png">
+<img class="screenshot" alt="Sub-Contracting" src="{{docs_base_url}}/v13/assets/img/manufacturing/subcontract2.png">
 
 ### 1.2 Creating a Purchase Order
 Make a Purchase Order for the processed Item, the one for which you've created a BOM. When you “Save”, in the “Raw Materials Supplied”, all your un-processed Items will be updated based on your Bill of Materials. You can also select the Warehouse in which the raw materials would be reserved for subcontracting under Reserve Warehouse.
 
 1. The costs involved with the subcontracting process should be recorded in the Rate field of the Items table in the Purchase Order shown as follows:
 
-  <img class="screenshot" alt="Sub-Contracting" src="{{docs_base_url}}/assets/img/manufacturing/subcontract3.png">
+  <img class="screenshot" alt="Sub-Contracting" src="{{docs_base_url}}/v13/assets/img/manufacturing/subcontract3.png">
 
 1. In the previous image, we are providing the subcontractor with 2 boxes of each of the 3 materials to manufacture 240 pens. The cost involved with one pen is 27 and the total cost for all pens is hence 6,480
 
@@ -45,21 +45,21 @@ Make a Purchase Order for the processed Item, the one for which you've created a
 
 1. Once the [Purchase Order](/docs/v13/user/manual/en/buying/purchase-order#35-raw-materials-supplied) is submitted, you can view the reserved quantity of the item from the item dashboard as well.
 
-  <img class="screenshot" alt="Sub-Contracting" src="{{docs_base_url}}/assets/img/manufacturing/subcontract3-reserved-material.png">
+  <img class="screenshot" alt="Sub-Contracting" src="{{docs_base_url}}/v13/assets/img/manufacturing/subcontract3-reserved-material.png">
 
 ### 1.3 Creating Stock Entry to Transfer Raw Materials
 Now that the raw materials are reserved, make a Stock Entry to deliver the raw material Items to your Supplier.
 
 In the Purchase Order, click on Transfer > Material to Supplier. Set the Source and Target Warehouses. The Stock Entry will be of type 'Send to Subcontractor' where you transfer from one Warehouse to another. Tick 'From BOM' and select the BOM, enter the quantity, and click on the Get Items button.
 
-<img class="screenshot" alt="Sub-Contracting" src="{{docs_base_url}}/assets/img/manufacturing/subcontract4.png">
+<img class="screenshot" alt="Sub-Contracting" src="{{docs_base_url}}/v13/assets/img/manufacturing/subcontract4.png">
 
 ### 1.4 Creating a Purchase Receipt to receive the finished items
 Receive the Items from your Supplier using a [Purchase Receipt](/docs/v13/user/manual/en/stock/purchase-receipt). You need to enter the Supplier Warehouse from where the raw materials will be taken and finished goods will be received in the Accepted Warehouse. Consider this like a backflush for subcontracting.
 
 Click on Create > Purchase Receipt from the Purchase Order. Set the Accepted and Supplier Warehouses. Make sure to check the “Consumed Quantity” in the “Raw Materials” table so that the correct stock is maintained at the Supplier’s end. You need to select the Supplier's Warehouse where you'll receive the finished goods.
 
-<img class="screenshot" alt="Sub-Contracting" src="{{docs_base_url}}/assets/img/manufacturing/subcontract5.png">
+<img class="screenshot" alt="Sub-Contracting" src="{{docs_base_url}}/v13/assets/img/manufacturing/subcontract5.png">
 
 ### 1.5 Supplier Sourced Raw Material
 While creating a BOM for subcontracting, there might be few raw materials like nuts and bolts which the Suppliers will have to procure themselves.
@@ -72,7 +72,7 @@ If some raw material is sourced by the Supplier directly, then such raw material
 * In Purchase Order, this raw material will not appear in Supplied Items since it is not supplied
 * Also, while creating a "Transfer", such items will be excluded from the Stock Entry
 
-<img class="screenshot" alt="Supplier Sourced Raw Material" src="{{docs_base_url}}/assets/img/manufacturing/supplier_sourced_subcontracting.png">
+<img class="screenshot" alt="Supplier Sourced Raw Material" src="{{docs_base_url}}/v13/assets/img/manufacturing/supplier_sourced_subcontracting.png">
 
 However, the Supplier may choose to include the supplier-provided items in their Sales Order sent to you.
 

@@ -13,7 +13,7 @@ To access a Price List go to:
 
 > Home > Selling/Buying/Stock > Items and Pricing > Price List
 
-<img class="screenshot" alt="Price List" src="{{docs_base_url}}/assets/img/stock/price-list.png">
+<img class="screenshot" alt="Price List" src="{{docs_base_url}}/v13/assets/img/stock/price-list.png">
 
 ## 1. How to use a Price List
 

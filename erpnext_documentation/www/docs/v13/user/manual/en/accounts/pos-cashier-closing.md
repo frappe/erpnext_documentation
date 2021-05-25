@@ -18,3 +18,5 @@ To access the Cashier Closing list, go to:
 * **Returns**: The amount for the Items returned by Customers.
 
 From here, the accountant or concerned person can collect, tally the cash and make the necessary [Journal Entries](/docs/v13/user/manual/en/accounts/journal-entry) to update the Company ledgers.
+
+{next}

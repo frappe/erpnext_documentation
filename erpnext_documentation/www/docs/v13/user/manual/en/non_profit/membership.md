@@ -11,7 +11,7 @@ To create new Membership go to:
 
 > Non Profit > Membership > New
 
-<img class="screenshot" alt="Membership" src="{{docs_base_url}}/assets/img/non_profit/membership/membership.png">
+<img class="screenshot" alt="Membership" src="{{docs_base_url}}/v13/assets/img/non_profit/membership/membership.png">
 
 **Member:** Member is a link field that fetches member details from Member doctype.
 
@@ -46,14 +46,14 @@ You can follow the steps listed below to setup a Razorpay subscription for membe
 
 You can find instructions on setting up razorpay [here](/docs/v13/user/manual/en/erpnext_integration/razorpay-integration). You can setup billing in Membership Settings in the Non Profit module.
 
-<img class="screenshot" alt="Membership" src="{{docs_base_url}}/assets/img/non_profit/razorpay-enabled.png">
+<img class="screenshot" alt="Membership" src="{{docs_base_url}}/v13/assets/img/non_profit/razorpay-enabled.png">
 
 Checking _Enable RazorPay For Memberships_ will show you more configuration options.
 
 - **Billing Cycle**: This is the period of time between billings. You can either select Monthly or Yearly Billing.
 - **Billing Frequency**: The number of billing cycles for which the customer should be charged. For example, if a customer is buying a 1-year membership that should be billed on a monthly basis, this value should be 12.
 
-<img class="screenshot" alt="Membership" src="{{docs_base_url}}/assets/img/non_profit/membership/membership-settings.png">
+<img class="screenshot" alt="Membership" src="{{docs_base_url}}/v13/assets/img/non_profit/membership/membership-settings.png">
 
 There are other configurations available for Invoicing.
 
@@ -72,7 +72,7 @@ If _Send Membership Acknowledgement_ is enabled, you can enable _Send Invoice wi
 
 Membership Type corresponds to your RazorPay plan. You can read more about Membership Plan [here](/docs/v13/user/manual/en/non_profit/membership_type)
 
-<img class="screenshot" alt="Membership" src="{{docs_base_url}}/assets/img/non_profit/plan.png">
+<img class="screenshot" alt="Membership" src="{{docs_base_url}}/v13/assets/img/non_profit/plan.png">
 
 When Razorpay subscription options are activated, you will see a **Plan ID** field. This is where you can add the plan id from Razorpay.
 
@@ -94,14 +94,14 @@ You need to import members with the following fields.
 > Note: RazorPay subscriptions will only be tracked for those members whose data exists in the Member list.
 
 This is how a member will look like in ERPNext.
-<img class="screenshot" alt="Membership" src="{{docs_base_url}}/assets/img/non_profit/member.png">
+<img class="screenshot" alt="Membership" src="{{docs_base_url}}/v13/assets/img/non_profit/member.png">
 
 
 ## 3.4 Setting up webhook
 
 You can set up a webhook from the RazorPay dashboard in settings. You can read more about webhooks in RazorPay [here](https://razorpay.com/docs/v13/webhooks/). This webhook will notify your ERPNext site whenever a new subscription is created or renewed.
 
-<img class="screenshot" alt="Membership" src="{{docs_base_url}}/assets/img/non_profit/razorpay-webhook.png">
+<img class="screenshot" alt="Membership" src="{{docs_base_url}}/v13/assets/img/non_profit/razorpay-webhook.png">
 
 You will need the following details to set up the webhook.
 

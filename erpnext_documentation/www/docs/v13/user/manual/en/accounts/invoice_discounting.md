@@ -25,9 +25,12 @@ You need to create following ledgers in order to post invoice discounting transa
 1. Select Accounts Receivable Credit Account, Accounts Receivable Discounted Account and Accounts Receivable Unpaid Account.
 1. Click on Save then Submit.
 1. After submitting the Invoice Discounting form, click on the **Disburse Loan**.
-  <img class="screenshot" alt="Lead" src="{{docs_base_url}}/assets/img/accounts/invoice_discounting.png">
+
+ ![Disburse Loan in Invoice Discounting](/docs/v13/assets/img/accounts/invoice-discounting.png)
+
 1. You'll be taken to a [Journal Entry](/docs/v13/user/manual/en/accounts/journal-entry) screen. Save and Submit the Journal Entry.
-  ![Journal Entry](/docs/v13/assets/img/accounts/invoice-discounting-je.png)
+
+  ![Journal Entry](/docs/v13/assets/img/accounts/invoice-discounting-journal-entry.png)
 
 ## 2. Features
 
@@ -42,8 +45,10 @@ You can also specify multiple of the above filters.
 
 ### 2.2 Closing the Loan
 When you repay the loan at the end of the loan period or before that, you can update the same by clicking on 'Close Loan' button.
-  ![Journal Entry](/docs/v13/assets/img/accounts/invoice-discounting-disbursed.png)
+  ![Journal Entry](/docs/v13/assets/img/accounts/invoice-discounting-close-loan.png)
 System will prepare the Journal Entry. Review and Submit the it.
 
 ### 2.3 Auto Update of Ledgers at the end of Loan Period
 If the loan is not repaid at the end of loan period, system will create a Journal Entry via a scheduled job to shift value from 'Accounts Receivable Discounted Account' to 'Accounts Receivable Unpaid Account'. This will make it easy to trace the invoices which were discounted and remained unpaid at the end of the loan period.
+
+{next}

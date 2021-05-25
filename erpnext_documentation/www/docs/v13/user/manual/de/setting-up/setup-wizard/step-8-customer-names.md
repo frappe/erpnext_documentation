@@ -5,7 +5,7 @@
 Geben Sie die Namen Ihrer Kunden und die Kontaktpersonen ein.
 
 <img alt="Customers" class="screenshot"
-src="{{docs_base_url}}/assets/img/setup-wizard/step-8.png">
+src="{{docs_base_url}}/v13/assets/img/setup-wizard/step-8.png">
 
 ---
 

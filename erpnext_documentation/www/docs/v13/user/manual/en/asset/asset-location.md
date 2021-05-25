@@ -9,5 +9,6 @@ You can also add Latitude and Longitude of the location. When an asset is moved 
 
 Map of the location is also shown:
 
-<img class="screenshot" alt="Asset" src="{{docs_base_url}}/assets/img/asset/asset_location.png">
+<img class="screenshot" alt="Asset" src="{{docs_base_url}}/v13/assets/img/asset/asset-location.png">
 
+{next}

@@ -16,7 +16,9 @@ Creating a Bank is simple, go to the Bank list, click on New, and enter a name.
 1. Under 'Field in Bank Transaction' select the field to be updated in the 'Bank Statement Transaction Entry' form.
 1. Under 'Column in Bank File', enter the column in the excel file exported from the bank.
 
-On setting this up, [Bank Reconciliation](/docs/v13/user/manual/en/accounts/bank-reconciliation) can be done smoothly.
+On setting this up, [Bank](/docs/v13/user/manual/en/accounts/bank-reconciliation) can be done smoothly.
 
 ## 2. Related Topics
 1. [Bank Account](/docs/v13/user/manual/en/accounts/bank-account)
+
+{next}

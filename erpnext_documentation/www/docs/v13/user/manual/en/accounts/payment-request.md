@@ -22,28 +22,29 @@ A Payment Request cannot be created manually, it is created from a Sales/Purchas
 ### 2.1 Creating Payment Request via Sales Order
 In a Sales Order, click on Create and then click on Payment to make an advance payment. To know more about advance payment, visit the [Advance Payment Entry](/docs/v13/user/manual/en/accounts/advance-payment-entry) page.
 
-<img class="screenshot" alt="Payment Request" src="{{docs_base_url}}/assets/img/accounts/pr-from-so.png">
+![Payment Request From Sales Order](/docs/v13/assets/img/accounts/payment-request-from-sales-order.png)
 
 ### 2.2 Creating payment Request via Sales Invoice
 In a Sales Invoice, click on Create and then click on Payment to make payment against the invoice.
-<img class="screenshot" alt="Payment Request" src="{{docs_base_url}}/assets/img/accounts/pr-from-si.png">
+
+![Payment Request From Sales Invoice](/docs/v13/assets/img/accounts/payment-request-from-sales-invoice.png)
 
 Select appropriate Payment Gateway Account on Payment Request for accounts posting. Account head specified on payment gateway will
 be considered to create a Journal Entry.
 
 > Note: Invoice/Order currency and 'Payment Gateway Account' currency should be the same.
 
-<img class="screenshot" alt="Payment Request" src="{{docs_base_url}}/assets/img/accounts/pr-details-1.png">
+![Payment Request Details](/docs/v13/assets/img/accounts/payment-request-details.png)
 
 ### 2.3 Notifying the Customer
 You can notify customer from Payment Request using [Print Format](/docs/v13/user/manual/en/setting-up/print/print-format). If the customer contact email is set, it will be fetched automatically. If not so you can set an email address in Payment Request.
 
-<img class="screenshot" alt="Payment Request" src="{{docs_base_url}}/assets/img/accounts/pr-details-2.png">
+![Payment Request Details](/docs/v13/assets/img/accounts/payment-request-recipient-details.png)
 
 ### 2.4 Request Mail
 Here is an example request email. The URL is generated automatically if you've set up the respective payment integration. To know more about integrations, [visit this page](/docs/v13/user/manual/en/erpnext_integration).
 
-<img class="screenshot" alt="Payment Request" src="{{docs_base_url}}/assets/img/accounts/pr-email.png">
+<img class="screenshot" alt="Payment Request" src="{{docs_base_url}}/v13/assets/img/accounts/pr-email.png">
 
 ### 2.5 Payment Request without using any Gateway
 
@@ -54,3 +55,5 @@ In case you don't want to use any integration or payment gateway and only want t
 1. [Payment Terms](/docs/v13/user/manual/en/accounts/payment-terms)
 1. [Sales Invoice](/docs/v13/user/manual/en/accounts/sales-invoice)
 1. [Purchase Invoice](/docs/v13/user/manual/en/accounts/purchase-invoice)
+
+{next}

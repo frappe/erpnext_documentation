@@ -8,12 +8,12 @@ Ein ERPNext können Sie einen Datensatz zu den Angebotsschreiben, die Sie an Bew
 
 > Personalwesen > Dokumente > Angebotsschreiben > Neu
 
-<img class="screenshot" alt="Angebotsschreiben" src="{{docs_base_url}}/assets/img/human-resources/job-offer.png">
+<img class="screenshot" alt="Angebotsschreiben" src="{{docs_base_url}}/v13/assets/img/human-resources/job-offer.png">
 
 > Anmerkung: Angebotsschreiben kann nur zu einem [Bewerber](/docs/v13/user/manual/de/human-resources/job-applicant.html) erstellt werden.
 
 Es gibt ein vordefiniertes Druckformat zum Angebotsschreiben.
 
-<img class="screenshot" alt="Angebotsschreiben" src="{{docs_base_url}}/assets/img/human-resources/job-offer-print.png">
+<img class="screenshot" alt="Angebotsschreiben" src="{{docs_base_url}}/v13/assets/img/human-resources/job-offer-print.png">
 
 {next}

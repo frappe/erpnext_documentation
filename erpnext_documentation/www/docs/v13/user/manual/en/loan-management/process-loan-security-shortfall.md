@@ -4,13 +4,13 @@
 
 **Process Loan Security Shortfall record is created on loan security price update and is also used for manual processing of Loan Security Price.**
 
-<img class="screenshot" alt="Make Loan Security Shortfall" src="{{docs_base_url}}/assets/img/loan-management/process-loan-security-shortfall-flow.png">
+<img class="screenshot" alt="Make Loan Security Shortfall" src="{{docs_base_url}}/v13/assets/img/loan-management/process-loan-security-shortfall-flow.png">
 
 To access the Process Loan Security Shortfall list, go to:
 > Home > Loan Management > Loan Processes > Process Loan Security Shortfall
 
 
-<img class="screenshot" alt="Loan Security Shortfall" src="{{docs_base_url}}/assets/img/loan-management/process-loan-security-shortfall.png">
+<img class="screenshot" alt="Loan Security Shortfall" src="{{docs_base_url}}/v13/assets/img/loan-management/process-loan-security-shortfall.png">
 
 ## 1. Prerequisites
 Before creating a Loan Security Unpledge, you must create the following first:

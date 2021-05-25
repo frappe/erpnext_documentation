@@ -15,7 +15,7 @@ To access the Opening Invoice Creation Tool, go to:
 
 3. Checking the "Create Missing Party" checkbox will automatically create customers or suppliers if missing according to the name provided in the Party column.
 
-    <img class="screenshot" alt="Opening Invoice Creation Tool" src="{{docs_base_url}}/assets/img/setup/opening-invoice-creation-tool.png">
+    <img class="screenshot" alt="Opening Invoice Creation Tool" src="{{docs_base_url}}/v13/assets/img/setup/opening-invoice-creation-tool.png">
 
 4. Fill up the Invoices table. It consists of the following fields:
     - **Party**: You can select an existing Customer/Supplier or enter the name of a new one which will be automatically created.

@@ -34,3 +34,5 @@ You should use it if you have a set of standard Payment Terms or for ease of use
 <div class="embed-container">
     <iframe src="https://www.youtube.com/embed/Z91oWYJx6yA?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 </div>
+
+{next}

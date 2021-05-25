@@ -16,13 +16,13 @@ To access Terms and Conditions template go to:
 1. Go to the Terms and Conditions Template list, click on New.
 1. Add the Terms and Conditions.
 
-    <img class="screenshot" alt="Terms and Conditions" src="{{docs_base_url}}/assets/img/setup/print/terms-1.png">
+    <img class="screenshot" alt="Terms and Conditions" src="{{docs_base_url}}/v13/assets/img/setup/print/terms-1.png">
 
 ### 1.1. Select in Transaction
 
 In transactions, you will find a section of Terms and Conditions where you will be able to search and fetch the required Terms and Condition master.
 
-<img class="screenshot" alt="Terms and Conditions, Select in document" src="{{docs_base_url}}/assets/img/setup/print/terms-3.png">
+<img class="screenshot" alt="Terms and Conditions, Select in document" src="{{docs_base_url}}/v13/assets/img/setup/print/terms-3.png">
 
 ### 1.2 Terms and Conditions when printing
 Once the Terms and Conditions are set in a Sales/Purchase transaction, it will appear when printing:

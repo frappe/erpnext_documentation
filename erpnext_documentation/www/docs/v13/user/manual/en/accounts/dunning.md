@@ -25,12 +25,12 @@ For manual creation, follow these steps:
 1. The posting date and time will be set to current, you can edit after you tick the checkbox below Posting Time to make a backdated entry.
 1. Save and Submit.
 
- ![Dunning example](/docs/v13/assets/img/accounts/dunning.gif)
+ ![Dunning example](/docs/v13/assets/img/accounts/new-dunning.png)
 
 ### 2.1 What is a Dunning Type
 Dunning Type stores default values for overdue days, dunning fee, interest rate and text blocks to be included. For example, a Dunning Type "First Notice" will not have any fees, but Dunning Type "Second Notice" will have a dunning fee and interest charged on the outstanding amount.
 
- ![Dunning Type](/docs/v13/assets/img/accounts/dunning-type.png)
+ ![Dunning Type](/docs/v13/assets/img/accounts/dunning-document-type.png)
 
 ### 2.2 Statuses
 
@@ -45,8 +45,10 @@ These are the statuses that are auto-assigned to Dunning.
 
 A Payment Entry can be created from a Dunning. It will be pulled together with the Sales Invoice details it is against.
 
-![Dunning Payment](/docs/v13/assets/img/accounts/dunning-payment.png)
+![Dunning Payment](/docs/v13/assets/img/accounts/dunning-payment-entry.png)
 
 ## 4. Related Topics
 1. [Payment Entry](/docs/v13/user/manual/en/accounts/payment-entry)
 1. [Sales Invoice](/docs/v13/user/manual/en/accounts/purchase-invoice)
+
+{next}

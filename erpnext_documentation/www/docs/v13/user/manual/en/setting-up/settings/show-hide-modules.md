@@ -7,7 +7,7 @@ For example, if you are in the services business, you want to hide the Manufactu
 
 Check/uncheck the items to show or hide modules.
 
-<img class="screenshot" alt="Module Settings" src="{{docs_base_url}}/assets/img/setup/settings/show-hide-modules.gif">
+<img class="screenshot" alt="Module Settings" src="{{docs_base_url}}/v13/assets/img/setup/settings/show-hide-modules.gif">
 
 In versions **older** than v12, click on your username, select 'Everyone' and check/uncheck the modules
 

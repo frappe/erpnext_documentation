@@ -11,7 +11,7 @@ The **BOM** is a list of all materials (either bought or made) and operations
 that go into manufacturing a finished product or sub-assembly. In ERPNext, each item (sub-assembly) could
 have its own BOM hence forming a tree of Items with multiple levels.
 
-<img class="screenshot" alt="Work Order" src="{{docs_base_url}}/assets/img/manufacturing/manufacturing-flow-bom.png">
+<img class="screenshot" alt="Work Order" src="{{docs_base_url}}/v13/assets/img/manufacturing/manufacturing-flow-bom.png">
 
 To make accurate Purchase Requests, you must always maintain correct BOMs.
 
@@ -47,12 +47,12 @@ Before creating and using a BOM, it is advised that you create the following fir
 
 In the Items table, you'll see an option 'Include Item in Manufacturing'. Raw Materials need to have this checkbox ticked. In case there are Operations or services you need to include in the BOM that are not necessarily an Item used for manufacturing, uncheck this checkbox. For example, treating the plastic with a chemical involves some cost but it is not an Item and the cost needs to be tracked.
 
-  <img class="screenshot" alt="Task" src="{{docs_base_url}}/assets/img/manufacturing/bom-item-include.png">
+  <img class="screenshot" alt="Task" src="{{docs_base_url}}/v13/assets/img/manufacturing/bom-item-include.png">
 
 ### 2.1 Bill of Materials with Operations
 To add [Operations](/docs/v13/user/manual/en/manufacturing/operation) tick the 'With Operations' checkbox. Now, an Operations table can be seen. This option is useful for tracking the costing of various Operations performed to manufacture the [Item](/docs/v13/user/manual/en/stock/item). Operations can be added easily by setting a template with the [Routing](/docs/v13/user/manual/en/manufacturing/routing) master.
 
-<img class="screenshot" alt="Task" src="{{docs_base_url}}/assets/img/manufacturing/bom-operations.png">
+<img class="screenshot" alt="Task" src="{{docs_base_url}}/v13/assets/img/manufacturing/bom-operations.png">
 
 1. In the “Operations” table, add the operations that need to be performed to manufacture this particular Item.
 1. For each operation, you will be asked to enter a [Workstation](/docs/v13/user/manual/en/manufacturing/workstation) where the Operation will be performed. A default Workstation can be set from the [Operation](/docs/v13/user/manual/en/manufacturing/operation) document.
@@ -85,11 +85,11 @@ The Costing section in a BOM gives an approximate cost of manufacturing the Item
 
 The costing is calculated from the Valuation Rate of the raw materials/sub-assemblies involved and the Operation costs.
 
-<img class="screenshot" alt="Costing" src="{{docs_base_url}}/assets/img/manufacturing/bom-costing.png">
+<img class="screenshot" alt="Costing" src="{{docs_base_url}}/v13/assets/img/manufacturing/bom-costing.png">
 
 In case the BOM was submitted when the costs for Items/Operations were not updated, you can update the costs using the **Update Cost** button. This will fetch the latest price/costs.
 
-<img class="screenshot" alt="Update Cost" src="{{docs_base_url}}/assets/img/manufacturing/bom-update-cost.png">
+<img class="screenshot" alt="Update Cost" src="{{docs_base_url}}/v13/assets/img/manufacturing/bom-update-cost.png">
 
 The BOM cost can also be set to be updated automatically via Manufacturing Settings, 'Update BOM Cost Automatically' option.
 
@@ -99,7 +99,7 @@ This table lists down all the raw materials required to manufacture an Item. It 
 
 For example, to manufacture a plastic shaving brush you need some raw materials and the bristles as a sub-assembly. For the handle, you manufacture your own plastic, but for the bristles, you use raw plastic crystals.
 
-<img class="screenshot" alt="Exploded Section" src="{{docs_base_url}}/assets/img/manufacturing/bom-exploded.png">
+<img class="screenshot" alt="Exploded Section" src="{{docs_base_url}}/v13/assets/img/manufacturing/bom-exploded.png">
 
 ### 3.3 Project and Website
 The BOM can be linked to a [Project](/docs/v13/user/manual/en/projects) to track progress, Project costing, etc. In case of engineer to order, every order could be a [Project](/docs/v13/user/manual/en/projects/project) and the sub-assemblies would be [Tasks](/docs/v13/user/manual/en/projects/tasks). The completion can be tracked by linking to a Project in that case.
@@ -108,11 +108,11 @@ The BOM can also be shown in the [Website](/docs/v13/user/manual/en/website) for
 
 ### 3.4 BOM Template
 
-<img class="screenshot" alt="BOM Template" src="{{docs_base_url}}/assets/img/manufacturing/bom-template.png">
+<img class="screenshot" alt="BOM Template" src="{{docs_base_url}}/v13/assets/img/manufacturing/bom-template.png">
 
 With BOM template you can create BOMs for template items (against which you create variant items). These BOMs can be used as the default BOM while making Work Orders against the template Item's variants. You can also add the template items as raw materials in the template BOM. While making Work Order from the BOM Template, ERPNext gives provision to select the Item Variant against the template Item, for more details check following screenshot.
 
-<img class="screenshot" alt="Variant Selection" src="{{docs_base_url}}/assets/img/manufacturing/variant-selection-against-template.png">
+<img class="screenshot" alt="Variant Selection" src="{{docs_base_url}}/v13/assets/img/manufacturing/variant-selection-against-template.png">
 
 The user can also make the BOM for the variant item using the template BOM. To make the variant BOM:
 1. Go to the BOM Template.
@@ -121,7 +121,7 @@ The user can also make the BOM for the variant item using the template BOM. To m
 4. Select the Variant Item for which you want to make the BOM.
 5. If the raw materials in the BOM is a template Item, then system gives provision to select the Item Variant.
 
-<img class="screenshot" alt="Variant BOM" src="{{docs_base_url}}/assets/img/manufacturing/variant-bom.png">
+<img class="screenshot" alt="Variant BOM" src="{{docs_base_url}}/v13/assets/img/manufacturing/variant-bom.png">
 
 
 ### 3.5 After Submitting

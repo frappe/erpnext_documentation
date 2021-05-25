@@ -5,7 +5,7 @@ The Manufacturing module in ERPNext covers all necessary features a Manufacturin
 
 Different types of manufacturing like make to stock, make to order, and engineer to order can be managed in the ERPNext Manufacturing module.
 
-<img class="screenshot" alt="Manufacturing Desk" src="{{docs_base_url}}/assets/img/manufacturing/manufacturing-desk.png">
+<img class="screenshot" alt="Manufacturing Desk" src="{{docs_base_url}}/v13/assets/img/manufacturing/manufacturing-desk.png">
 
 ## 1. Topics
 
@@ -40,8 +40,8 @@ Different types of manufacturing like make to stock, make to order, and engineer
 
 ### 2.2 Work Order, Quality Inspection & Job Card
 1. [Work Order Summary](/docs/v13/user/manual/en/manufacturing/reports/work-order-summary)
-1. [Work Order Wise Consumed Materials](/docs/v13/user/manual/en/manufacturing/reports/work-order-consumed-materials)
-1. [Returned Materials Against Work Order](/docs/v13/user/manual/en/manufacturing/reports/returned_materials_against_work_order)
+<!-- 1. [Work Order Wise Consumed Materials](/docs/v13/user/manual/en/manufacturing/reports/work-order-consumed-materials)
+1. [Returned Materials Against Work Order](/docs/v13/user/manual/en/manufacturing/reports/returned_materials_against_work_order) -->
 1. [Job Card Summary](/docs/v13/user/manual/en/manufacturing/reports/job-card-summary)
 1. [Quality Inspction Summary](/docs/v13/user/manual/en/manufacturing/reports/quality-inspction-summary)
 1. [Production Analytics](/docs/v13/user/manual/en/manufacturing/reports/production-analytics)
@@ -67,8 +67,8 @@ Different types of manufacturing like make to stock, make to order, and engineer
 ### 3.3 Others
 1. [Material Consumption](/docs/v13/user/manual/en/manufacturing/articles/material_consumption)
 1. [Customer Provided Items](/docs/v13/user/manual/en/manufacturing/articles/customer-provided-items)
-1. [How to change Dashboard in Manufacturing Desk](/docs/v13/user/manual/en/manufacturing/articles/how-to-change-dashboard-in-manufacturing-desk)
-1. [Run MRP on Parent Warehouse in Production Plan](/docs/v13/user/manual/en/manufacturing/articles/run-mrp-on-parent-warehouse-in-production-plan)
+<!-- 1. [How to change Dashboard in Manufacturing Desk](/docs/v13/user/manual/en/manufacturing/articles/how-to-change-dashboard-in-manufacturing-desk)
+1. [Run MRP on Parent Warehouse in Production Plan](/docs/v13/user/manual/en/manufacturing/articles/run-mrp-on-parent-warehouse-in-production-plan) -->
 
 ## 4. Videos
 1. [Bill of Materials](/docs/v13/user/videos/learn/bill-of-materials)

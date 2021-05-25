@@ -12,7 +12,7 @@ Or search from the search bar.
 
 Whenever a new document is created, these values will be set as default.
 
-<img class="screenshot" alt="Global Defaults" src="{{docs_base_url}}/assets/img/setup/settings/global-defaults.png">
+<img class="screenshot" alt="Global Defaults" src="{{docs_base_url}}/v13/assets/img/setup/settings/global-defaults.png">
 
 * Default Company
 * Current Fiscal Year

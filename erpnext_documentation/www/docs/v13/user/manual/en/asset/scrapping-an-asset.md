@@ -1,4 +1,4 @@
-<!-- add breadcrumbs -->
+<!-- add-breadcrumbs -->
 # Scrapping an Asset
 
 **When an asset is no longer usable, it is scrapped.**
@@ -11,7 +11,7 @@ The "Gain/Loss Account on Asset Disposal" account mentioned in the Company is de
 
 A Journal Entry will be created if you scrap an asset:
 
-<img class="screenshot" alt="Asset" src="{{docs_base_url}}/assets/img/asset/scrap-journal-entry.png">
+<img class="screenshot" alt="Asset" src="{{docs_base_url}}/v13/assets/img/asset/scrap-journal-entry.png">
 
 After scrapping, you can also restore the asset using "Restore Asset" button from the asset master.
 
@@ -19,3 +19,5 @@ After scrapping, you can also restore the asset using "Restore Asset" button fro
 1. [Asset Maintenance](/docs/v13/user/manual/en/asset/asset-maintenance)
 1. [Asset Value Adjustment](/docs/v13/user/manual/en/asset/asset-value-adjustment)
 1. [Asset Depreciation](/docs/v13/user/manual/en/asset/asset-depreciation)
+
+{next}

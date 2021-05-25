@@ -17,11 +17,8 @@ To access Quality Action, go to:
 ## 1. Prerequisites
 
 Before creating and using a Quality Action it is advised to create the following first:
-* [Quality Review](/docs/v13/user/manual/en/quality-management/quality_review)
 
-    Or
-
-* [Quality Feedback](/docs/v13/user/manual/en/quality-management/quality_feedback)
+[Quality Review](/docs/v13/user/manual/en/quality-management/quality_review) or [Quality Feedback](/docs/v13/user/manual/en/quality-management/quality_feedback)
 
 ## 2. How to create a Quality Action
 
@@ -34,7 +31,7 @@ Before creating and using a Quality Action it is advised to create the following
 
 The Status field indicates whether the Quality Action is Open and ongoing or Closed.
 
-<img class="screenshot" alt="Quality management" src="{{docs_base_url}}/assets/img/quality-management/action.gif">
+<img class="screenshot" alt="Quality management" src="{{docs_base_url}}/v13/assets/img/quality-management/action.gif">
 
 ## 3. Related Topics
 

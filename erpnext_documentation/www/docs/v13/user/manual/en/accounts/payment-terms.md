@@ -18,7 +18,7 @@ You can use Payment Terms in the following documents:
 To access Payment Term go to:
 > Home > Accounting > Accounting Masters > Payment Term
 
-<img class="screenshot" alt="Payment Terms" src="{{docs_base_url}}/assets/img/accounts/payment-terms.png">
+<img class="screenshot" alt="Payment Terms" src="{{docs_base_url}}/v13/assets/img/accounts/payment-terms.png">
 
 ## 1. How to create a Payment Term
 
@@ -49,7 +49,7 @@ You can set up a discounted payment terms such that if payment is done within th
 * **Discount Validity Based On:** This field acts similar to the Due Date Based On the field in the previous section.
 * **Discount Validity:** The number of days or months the discount is valid with respect to the invoice date (eg. 10 days after the invoice date).
 
-<img class="screenshot" alt="Payment Terms with Discount" src="{{docs_base_url}}/assets/img/accounts/payment-terms-with-discount.png">
+<img class="screenshot" alt="Payment Terms with Discount" src="{{docs_base_url}}/v13/assets/img/accounts/payment-terms-with-discount.png">
 
 You can now link the Payment Terms with an Invoice and on creating the payment against such invoice, the discount will be applied automatically.
 
@@ -62,10 +62,12 @@ For ease of use, you can also set a Payment Terms Template and simply reselect i
 
 Once you have composed the Payment Terms Template, you can use them in sales and purchase transactions. Based on the value defined for Payment Terms and transaction value, the payment schedule will be defined, with a Due Date for each payment slab.
 
-![Payment Schedule]({{docs_base_url}}/assets/img/accounts/payment-term-table.png)
+![Payment Schedule]({{docs_base_url}}/v13/assets/img/accounts/payment-term-in-invoice.png)
 
 Note: The Payment Schedule can be shown in the Print View using the [Print Format Builder](/docs/v13/user/manual/en/setting-up/print/print-format-builder).
 
 ### 2. Related Topics
 1. [Sales Invoice](/docs/v13/user/manual/en/accounts/sales-invoice)
 1. [Purchase Invoice](/docs/v13/user/manual/en/accounts/purchase-invoice)
+
+{next}

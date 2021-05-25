@@ -45,3 +45,5 @@ You should select a liability account like Reserves and Surplus, or Any Revenue 
 1. [Fiscal Year](/docs/v13/user/manual/en/accounts/fiscal-year)
 1. [Tax Withholding Category](/docs/v13/user/manual/en/accounts/tax-withholding-category)
 1. [Accounting Period](/docs/v13/user/manual/en/accounts/accounting-period)
+
+{next}

@@ -20,6 +20,6 @@ Example of Skills for a Designation:
 1. Under the Trainings table, select the Training Event and the Training Date.
 1. Save.
 
-![Employee Skill Map]({{docs_base_url}}/assets/img/human-resources/employee-skill-map.png)
+![Employee Skill Map]({{docs_base_url}}/v13/assets/img/human-resources/employee-skill-map.png)
 
 {next}

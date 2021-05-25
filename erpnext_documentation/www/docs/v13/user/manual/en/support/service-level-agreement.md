@@ -16,7 +16,7 @@ Before creating and using a Service Level Agreement, it is advised that you crea
 
 * Enable **Track Service Level Agreement** in Support Settings
 
-    <img class="screenshot" alt="Service Level Agreement" src="{{docs_base_url}}/assets/img/support/sla-setting.png">
+    ![Service Level Agreement](/docs/v13/assets/img/support/sla-setting.png)
 
 ## 2. How to Create a Service Level Agreement
 1. Go to the Service Level Agreement list, click on New.
@@ -29,10 +29,12 @@ Before creating and using a Service Level Agreement, it is advised that you crea
 1. Entity: Select the specific Customer/Customer Group/Territory.
 1. Start / End Date: Defines the validity of the agreement.
 1. Priorities: You can set multiple Issue Priorities and their Time to Respond and Resolve (in hours and mins).
-    <img class="screenshot" alt="Service Level" src="{{docs_base_url}}/assets/img/support/priorities.png">
+
+    ![Service Level](/docs/v13/assets/img/support/priorities.png)
 1. Default Priority: Default Priority selected in Priorities table that will be applied in the Service Level Agreement.
 1. Support Hours: Contains the Days of the week on which Support is provided. Has a Start Time and End Time of the Working day.
-    <img class="screenshot" alt="Service Level" src="{{docs_base_url}}/assets/img/support/sla.png">
+
+    ![SLA Support Hours](/docs/v13/assets/img/support/sla-support-hours.png)
 1. Save.
 
     ![SLA](/docs/v13/assets/img/support/sla.png)
@@ -40,12 +42,14 @@ Before creating and using a Service Level Agreement, it is advised that you crea
 ## 3. Features
 ### 3.1 Applies to New Issues
 
-Once an SLA is saved, it'll be applied to Issues raised by Customers/Territories as per the option you chose in Entity Type:
-    ![SLA in Issue](/docs/v13/assets/img/support/sla-issue.png)
+Once an SLA is saved, it'll be applied to Issues raised by Customers/Territories as per the option you chose in 'Entity Type'.
+
+![SLA in Issue](/docs/v13/assets/img/support/sla-entity-type.png)
 
 ### 3.2 Resetting an SLA
 An SLA can also be reset until the time does not fail. For example, if the SLA is 3 days, you can reset the SLA only within 3 days of the Issue being created. After that, the Service Level will display failed.
-    ![SLA Issue](/docs/v13/assets/img/support/reset-sla.gif)
+
+![SLA Issue](/docs/v13/assets/img/support/reset-sla.gif)
 
 ### 3.3 Time respond / resolve in Issues
 The time to respond to an Issue and the time to resolve will be shown:
@@ -58,11 +62,13 @@ These times are based on the timelines set in the 'Priority' field in the Servic
 From version 13 onwards, ERPNext allows you to pause SLA on issues when you are waiting for an event to happen. You can do this by selecting a status that is configured in this "Pause SLA On" table.
 
 * Set the statuses on which you want to pause SLA in the SLA document. You can also add custom statuses here.
-    <img class="screenshot" alt="Service Level" src="{{docs_base_url}}/assets/img/support/pause-sla.png">
+    <img class="screenshot" alt="Service Level" src="{{docs_base_url}}/v13/assets/img/support/pause-sla.png">
 * When the status is changed to any of the above, resolution and response fields are unset and the dashboard indicators change to:
-    <img class="screenshot" alt="Service Level" src="{{docs_base_url}}/assets/img/support/hold-indicator.png">
+    <img class="screenshot" alt="Service Level" src="{{docs_base_url}}/v13/assets/img/support/hold-indicator.png">
 * When the status of the issue changes back to a non-hold status (which is not configured in the "Pause SLA On" table), the **Total Hold time** field will be set in your Issue document.
-    <img class="screenshot" alt="Service Level" src="{{docs_base_url}}/assets/img/support/total-hold-time.png">
+    <img class="screenshot" alt="Service Level" src="{{docs_base_url}}/v13/assets/img/support/total-hold-time.png">
 The Response and Resolution time will be recalculated by adding the hold time, thereby restarting your SLA timers.
 
-> Note: Service Level DocType was removed in version 13 and all functions are handled only with the Service Level Agreement DocType
+> Note: Service Level DocType was removed in version 13 and all functions are handled only with the Service Level Agreement DocType.
+
+{next}

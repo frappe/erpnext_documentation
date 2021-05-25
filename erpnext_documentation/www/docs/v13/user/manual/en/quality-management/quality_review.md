@@ -23,7 +23,7 @@ Before creating and using a Quality Review it is advised to create the following
 1. In the Review section of the Reviews table, leave a review about a Quality Objective.
 1. Save.
 
-    <img class="screenshot" alt="Quality management" src="{{docs_base_url}}/assets/img/quality-management/new-quality-review.gif">
+    ![Quality Review](/docs/v13/assets/img/quality-management/quality-review.gif)
 
 > Note: If the Quality Procedure is linked to the Quality Goal, the Quality Procedure will be fetched in the Quality Review.
 

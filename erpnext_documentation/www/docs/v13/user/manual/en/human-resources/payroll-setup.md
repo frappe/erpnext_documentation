@@ -33,7 +33,7 @@ pay in proportion of LWP days divided by the total working days for the month (b
 #### Earning
 
 <img class="screenshot" alt="Salary Component Earnings"
-	src="{{docs_base_url}}/assets/img/human-resources/salary-component.png">
+	src="{{docs_base_url}}/v13/assets/img/human-resources/salary-component.png">
 
 * Is Additional Component: This option specify that the component can only be paid as Additional Salary. Examples of this component could be Performance Bonus or pay received for on-site deputation etc. Such components are not considered to be part of normal Salary Structure. Instead, Additional Salary with these components can be submitted as required which will be added to the Salary Slip automatically.
 

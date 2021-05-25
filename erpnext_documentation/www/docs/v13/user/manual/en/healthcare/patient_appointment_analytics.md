@@ -15,7 +15,7 @@ To view the Patient Appointment Analytics, you can go to:
 
 Appointment Analytics according to Healthcare Practitioner is the default view:
 
-<img class="screenshot" alt="ERPNext Healthcare" src="{{docs_base_url}}/assets/img/healthcare/appointment_analytics_1.png">
+<img class="screenshot" alt="ERPNext Healthcare" src="{{docs_base_url}}/v13/assets/img/healthcare/appointment_analytics_1.png">
 
 According to Medical Department:
 

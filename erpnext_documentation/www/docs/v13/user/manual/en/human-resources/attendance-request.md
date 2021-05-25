@@ -36,7 +36,7 @@ Before creating an Attendance Request, it is advised that you create the followi
 
 As seen below, respective Attendance records are linked with the submitted Attendance Request.
 
- <img class="screenshot"  alt="Attendance Request Linked" src="{{docs_base_url}}/assets/img/human-resources/attendance-request-link.png">
+ <img class="screenshot"  alt="Attendance Request Linked" src="{{docs_base_url}}/v13/assets/img/human-resources/attendance-request-link.png">
 
 If you cancel the Attendance Request, the linked Attendance documents created will be cancelled as well.
 

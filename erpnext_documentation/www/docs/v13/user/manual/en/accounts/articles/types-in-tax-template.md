@@ -3,7 +3,7 @@
 
 In the Sales Taxes and Purchase Taxes master, you will find a column called Type. Following a brief on a meaning of each Type and how you can use it.
 
-<img alt="Role Desk Permission" class="screenshot" src="{{docs_base_url}}/assets/img/articles/types-in-tax-masters.png">
+![Calculate Tax Based On](/docs/v13/assets/img/articles/calculate-tax-based-on.png)
 
 **Actual:** This allows you to enter expense amount directly. For example, Rs. 500 incurred for Shipping.
 

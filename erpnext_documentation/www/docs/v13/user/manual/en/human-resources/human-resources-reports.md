@@ -22,7 +22,7 @@ Employee Birthday Report shows month-wise birthdays of your Employees.
 
 Employee Holiday Attendance shows the list of Employees who attended on Holidays.
 
-<img alt="Employee Information" class="screenshot" src="{{docs_base_url}}/v13assets/img/human-resources/employee-holiday-report.png">
+<img alt="Employee Information" class="screenshot" src="{{docs_base_url}}/v13/assets/img/human-resources/employee-holiday-report.png">
 
 ## Monthly Salary Register
 

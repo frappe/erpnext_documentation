@@ -7,4 +7,4 @@ To view the report, go to:
 
 > Home > Stock > Other Reports > Stock and Account Value Comparison
 
-<img class="screenshot" alt="Stock Report" src="{{docs_base_url}}/assets/img/stock/stock-value-account-value-comparison.png">
+<img class="screenshot" alt="Stock Report" src="{{docs_base_url}}/v13/assets/img/stock/stock-value-account-value-comparison.png">

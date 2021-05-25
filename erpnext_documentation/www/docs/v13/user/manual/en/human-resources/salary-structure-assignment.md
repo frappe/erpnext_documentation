@@ -39,7 +39,7 @@ If you want to bulk assign the Salary Structure to multiple employees, you can d
 
 You can optionally filter out employees based on Employee Grade, Department, Designation, and Employee itself.
 
-<img class="screenshot" alt="Salary Structure Assignment" src="{{docs_base_url}}/v13assets/img/human-resources/assign-sal3.png">
+<img class="screenshot" alt="Salary Structure Assignment" src="{{docs_base_url}}/v13/assets/img/human-resources/assign-sal3.png">
 
 Once this is done, click on the 'Assign' button to assign the Salary Structure accordingly.
 

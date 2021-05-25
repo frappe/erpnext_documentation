@@ -11,9 +11,8 @@ Before importing current assets, make sure that you have created the required le
 1. Select 'Temporary Opening' ledger in Account and enter the balancing amount in Credit.
 1. Set 'Is Opening' to Yes.
 
-> To know about Journal Enter in detail, [visit this page](/docs/v13/user/manual/en/accounts/journal-entry).
+> To know about Journal Enter in detail, [visit this page](/docs/v13/user/manual/en/accounts/journal-entry.
 
- <img class="screenshot" alt="Stock Asset Ledger" src="{{docs_base_url}}/assets/img/accounts/opening_balance_current_assets.png">
-
+![Opening Balance Current Assets](/docs/v13/assets/img/accounts/opening-balance-current-assets.png)
 
 {next}

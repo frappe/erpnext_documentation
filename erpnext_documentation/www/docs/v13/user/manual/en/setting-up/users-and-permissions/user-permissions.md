@@ -24,7 +24,7 @@ To access User Permissions, go to:
 3. Under For Value, select the specific item that you want to allow (the name of the "Company).
 4. If you check 'Is Default', the value selected in 'For Value' will be used by default for any future transactions by this user. That is if company 'Unico Plastics Inc.' is selected as 'For Value', this Company will be set as default for all future transactions by this user.
 
-    <img src="{{docs_base_url}}/assets/img/users-and-permissions/user-perms/new-user-permission.png" class="screenshot" alt="Creating a new user permission">
+    <img src="{{docs_base_url}}/v13/assets/img/users-and-permissions/user-perms/new-user-permission.png" class="screenshot" alt="Creating a new user permission">
 
     > Note: Only a single user permission can be set as default for a particular document type for a specific user.
 
@@ -38,7 +38,7 @@ In Advanced Control, you can have better command over where the User Permission 
 You can optionally apply user permissions only for specific document type by setting the Document Type after unchecking the Apply To All Document Types checkbox.
 Setting **Applicable For** option will make the current user permission applicable only under the selected Document Type master.
 
-<img src="{{docs_base_url}}/assets/img/users-and-permissions/user-perms/advanced-control.png" class="screenshot" alt="Applicable For">
+<img src="{{docs_base_url}}/v13/assets/img/users-and-permissions/user-perms/advanced-control.png" class="screenshot" alt="Applicable For">
 
 In the above User Permission, the user will be able to access only Sales Orders of the selected company.
 
@@ -52,7 +52,7 @@ Let's assume **For Value**, 'Unico Plastics Inc.', has a child company 'Unico To
 
 **Hide Descendants** is visible only on selecting a Tree View DocType. By enabling this checkbox, permissions for descendants of **For Value** will not be granted.
 
-<img src="{{docs_base_url}}/assets/img/users-and-permissions/user-perms/hide-descendant-permissions.png" class="screenshot" alt="Hide Descendant Permissions">
+<img src="{{docs_base_url}}/v13/assets/img/users-and-permissions/user-perms/hide-descendant-permissions.png" class="screenshot" alt="Hide Descendant Permissions">
 
 A user that can view records of 'Unico Plastics Inc.' will not be able to view those of 'Unico Toys'.
 
@@ -62,7 +62,7 @@ Another way of allowing documents to be seen by everyone that have been restrict
 
 For example, you don't want Assets to be restricted for any user, then select **Asset** in form type. Under the fields table, expand the Company field and tick on "Ignore User Permissions".
 
-<img src="{{docs_base_url}}/assets/img/users-and-permissions/user-perms/ignore-user-permissions.png" class="screenshot" alt="Ignore User Permissions on specific properties">
+<img src="{{docs_base_url}}/v13/assets/img/users-and-permissions/user-perms/ignore-user-permissions.png" class="screenshot" alt="Ignore User Permissions on specific properties">
 
 
 ### 2.3 Strict Permissions
@@ -77,7 +77,7 @@ Finally, once you have created your air-tight permission model, and you want to 
 
 Ticking on the Show Permissions checkbox will show the read/write/submit and other access levels.
 
-<img src="{{docs_base_url}}/assets/img/users-and-permissions/user-perms/permitted-documents.png" class="screenshot" alt="Permitted Documents for User report">
+<img src="{{docs_base_url}}/v13/assets/img/users-and-permissions/user-perms/permitted-documents.png" class="screenshot" alt="Permitted Documents for User report">
 
 Note: If you cannot access Sales Order or any other document type in this list, make sure you've set the [roles](/docs/v13/user/manual/en/setting-up/users-and-permissions/role-based-permissions) correctly.
 

@@ -17,7 +17,7 @@ To access Auto Repeat, go to:
 2. Select the form in which you want to allow creation of repeatable documents.
 3. Check 'Allow Auto Repeat' to allow the creation of repeatable documents for that Form. This is necessary for the document type to show up in the Reference Document field under the Auto Repeat doctype.
 
-  <img class="screenshot" alt="Allow Auto Repeat" src="/docs/v13/assets/img/automation/allow-auto-repeat.png">
+  ![Allow Auto Repeat](/docs/v13/assets/img/automation/allow-auto-repeat.png)
 
 ### 1.2 Set up Auto Repeat
 1. Go to **Home > Settings > Automation > Auto Repeat > New**.
@@ -34,11 +34,11 @@ You can also set a document on Auto Repeat by clicking the **Repeat** option fro
 
 **Note**: If a document is already on Auto Repeat, the Repeat option is not available.
 
-<img class="screenshot" alt="Allow Auto Repeat" src="/docs/v13/assets/img/automation/repeat-option.png">
+![Repeat in Transactions](/docs/v13/assets/img/automation/repeat-option.png)
 
 Once you click on Repeat, a prompt for Auto Repeat will show up. Fill in the details and click on Save.
 
-<img class="screenshot" alt="Auto Repeat Prompt" src="/docs/v13/assets/img/automation/auto-repeat-prompt.png">
+![Auto Repeat Prompt](/docs/v13/assets/img/automation/auto-repeat-prompt.png)
 
 ## 2. Features
 
@@ -47,7 +47,7 @@ Once you click on Repeat, a prompt for Auto Repeat will show up. Fill in the det
 
 If the reference document type is submittable, you get an option called _Submit on Creation_. If this is checked, your document will be submitted on creation.
 
-<img class="screenshot" alt="Auto Repeat Submit on Creation" src="/docs/v13/assets/img/automation/submit-on-creation.png">
+![Auto Repeat Submit on Creation](/docs/v13/assets/img/automation/submit-on-creation.png)
 
 ### 2.2 Notify by Email
 If you want to notify certain contacts whenever the recurring documents are created, you can check 'Notify by Email' in the Notification section of Auto Repeat. This will send the auto-generated recurring documents to the specified Email Addresses. Fields for the same are explained below:
@@ -80,13 +80,15 @@ Auto Repeat with Weekly frequency allows you to select the days on which you wan
 
 You can see the Auto Repeat schedule in the Dashboard of Auto Repeat document. If you don't specify the End Date then the schedule will show only the Next Schedule Date.
 
-<img class="screenshot" alt="Allow Auto Dashboard" src="/docs/v13/assets/img/automation/auto-repeat-dashboard.png">
+![Auto Repeat Dashboard](/docs/v13/assets/img/automation/auto-repeat-dashboard.png)
 
 ### 2.6 Auto Repeat Frequency on the sidebar
 When a document is set on Auto Repeat you can see the Auto Repeat frequency on the sidebar.
 You can click on the status to see the linked Auto Repeat document.
 
-<img class="screenshot" alt="Auto Repeat Frequency" src="/docs/v13/assets/img/automation/auto-repeat-frequency.png">
+![Auto Repeat Frequency](/docs/v13/assets/img/automation/auto-repeat-frequency.png)
 
 ### 2.7 Disable Auto Repeat
 If you check this field it will stop creating recurring documents and unlink the Auto Repeat document from the Reference Document.
+
+{next}

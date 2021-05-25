@@ -3,7 +3,7 @@
 
 ERPNext Healthcare allows you to book Patient Appointments for any date and alert patients via Email or SMS. You can easily organize appointments for each Practitioner based on their availability schedules.
 
-<!-- <img class="screenshot" alt="ERPNext Healthcare" src="{{docs_base_url}}/assets/img/healthcare/appointment_calendar.png"> -->
+<!-- <img class="screenshot" alt="ERPNext Healthcare" src="{{docs_base_url}}/v13/assets/img/healthcare/appointment_calendar.png"> -->
 
 To create a Patient Appointment, go to:
 
@@ -20,7 +20,7 @@ Before creating a Patient Appointment, these need to be created first:
 
 You can book appointments for a registered Patient by searching for Patient by Patient ID, Name, Email or Mobile number. It is also possible to register a new Patient from the Appointment screen itself by selecting "Create a new Patient" in the Patient field.
 
-  <img class="screenshot" alt="ERPNext Healthcare" src="{{docs_base_url}}/assets/img/healthcare/patient_appointment_link.png">
+  <img class="screenshot" alt="ERPNext Healthcare" src="{{docs_base_url}}/v13/assets/img/healthcare/patient_appointment_link.png">
 
 ## 2. How to Create a Patient Appointment
 
@@ -33,9 +33,9 @@ You can book appointments for a registered Patient by searching for Patient by P
 7. Then click on the **Check Availability** button. It will allow you to select the Medical Department, Healthcare Practitioner and Date for which the appointment is to be booked. On selecting the details, all the available time slots for the practitioner will be fetched from the [Practitioner Schedule](/docs/v13/user/manual/en/healthcare/practitioner_schedule) and displayed with status indicators for the selected date. You can select a time slot and hit **Book**.
 8. Once booked, the scheduled time of the Appointment and the Service Unit as per the Practitioner and appropriate Status will be set in the document.
 
-<img class="screenshot" alt="ERPNext Healthcare" src="{{docs_base_url}}/assets/img/healthcare/check_availability.png">
+<img class="screenshot" alt="ERPNext Healthcare" src="{{docs_base_url}}/v13/assets/img/healthcare/check_availability.png">
 
-<img class="screenshot" alt="ERPNext Healthcare" src="{{docs_base_url}}/assets/img/healthcare/appointment.png">
+<img class="screenshot" alt="ERPNext Healthcare" src="{{docs_base_url}}/v13/assets/img/healthcare/appointment.png">
 
 ## 3. Features
 
@@ -43,13 +43,13 @@ You can book appointments for a registered Patient by searching for Patient by P
 
 You can click on "Calendar" view from the Patient Appointment list view. Types of Appointments can be differentiated by setting the "Color" field in [Appointment Type](/docs/v13/user/manual/en/healthcare/appointment_type)
 
-<img class="screenshot" alt="ERPNext Healthcare" src="{{docs_base_url}}/assets/img/healthcare/healthcare-appointments.png">
+<img class="screenshot" alt="ERPNext Healthcare" src="{{docs_base_url}}/v13/assets/img/healthcare/healthcare-appointments.png">
 
 ### 3.2 Appointment Rescheduling
 
 You can reschedule the Patient Appointment by clicking on the **Reschedule** button in the document and following the same steps.
 
-<img class="screenshot" alt="ERPNext Healthcare" src="{{docs_base_url}}/assets/img/healthcare/reschedule.png">
+<img class="screenshot" alt="ERPNext Healthcare" src="{{docs_base_url}}/v13/assets/img/healthcare/reschedule.png">
 
 ### 3.3 Managing Schedules
 
@@ -61,13 +61,13 @@ While booking it also checks for Appointment Overlaps and restricts the booking 
 
 In the "More Info" section of the Patient Appointment document, the user can add "Notes" and also select a "Referring Practitioner" to help track referrals.
 
-<img class="screenshot" alt="ERPNext Healthcare" src="{{docs_base_url}}/assets/img/healthcare/more_info.png">
+<img class="screenshot" alt="ERPNext Healthcare" src="{{docs_base_url}}/v13/assets/img/healthcare/more_info.png">
 
 ### 3.5 Out Patient SMS Alerts
 
 Optionally, you can configure [Healthcare Settings](/docs/v13/user/manual/en/healthcare/healthcare_settings) in ERPNext to automatically send an SMS alert to the Patients about the booking confirmation via "Out-Patient SMS Alerts".
 
-<img class="screenshot" alt="ERPNext Healthcare" src="{{docs_base_url}}/assets/img/healthcare/outpatient_sms_alert.png">
+<img class="screenshot" alt="ERPNext Healthcare" src="{{docs_base_url}}/v13/assets/img/healthcare/outpatient_sms_alert.png">
 
 ### 3.6 Automate Appointment Invoicing
 
@@ -79,7 +79,7 @@ If the Appointment type is selected in the Patient Appointment and there are cha
 
 The Patient Appointment will also prompt you to select the **Mode of Payment** for invoicing.
 
-<img class="screenshot" alt="ERPNext Healthcare" src="{{docs_base_url}}/assets/img/healthcare/automate_invoicing.png">
+<img class="screenshot" alt="ERPNext Healthcare" src="{{docs_base_url}}/v13/assets/img/healthcare/automate_invoicing.png">
 
 > Note: If you have not enabled this, you can always use **Get Items From > Healthcare Services** in Sales Invoice
 
@@ -92,7 +92,7 @@ Status indicates the state of the Patient Appointment. The various Statuses are:
 - **Closed**: When a Patient Encounter or Clinical Procedure has been created for the Patient Appointment.
 - **Cancelled**: When the Appointment is Cancelled.
 
-<img class="screenshot" alt="ERPNext Healthcare" src="{{docs_base_url}}/assets/img/healthcare/status.png">
+<img class="screenshot" alt="ERPNext Healthcare" src="{{docs_base_url}}/v13/assets/img/healthcare/status.png">
 
 
 ## 4. Actions

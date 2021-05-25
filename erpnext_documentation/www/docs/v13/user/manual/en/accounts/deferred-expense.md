@@ -1,3 +1,5 @@
+<!-- add-breadcrumbs -->
+
 # Deferred Expense
 
 **Deferred expense is a cost that has already been incurred, but which has not yet been consumed.**
@@ -10,7 +12,7 @@ The cost is recorded as an asset until such time as the underlying goods or serv
 
 Before you start using deferred accounting you should be aware of the below settings which will give you more control over how you manage your deferred accounting
 
-<img class="screenshot" alt="Deferred Accounting Settings" src="{{docs_base_url}}/assets/img/accounts/deferred-accounting-settings.png">
+![Deferred Accounting Settings](/docs/v13/assets/img/accounts/deferred-accounting-settings.png)
 
 1. **Automatically Process Deferred Accounting Entry:** This setting is enabled by default. In case you don't want the deferred accounting entries to be posted automatically, you can disable this setting. If this setting is disabled, deferred accounting will have to be processed manually using [Process Deferred Accounting](/docs/v13/user/manual/en/accounts/process-deferred-accounting)
 
@@ -39,18 +41,16 @@ Following is how you can configure Deferred Expense accounting in ERPNext to aut
 
 In the Item master, under Deferred Expense section, check field **Enable Deferred Expense**. In this section, you can also select a Deferred Expense account (Asset Account, preferably Current Asset) for this particular item and no. of months.
 
-<img class="screenshot" alt="Item - Deferred Revenue" src="{{docs_base_url}}/assets/img/accounts/deferred-item-expense.png">
-
+![Item With Deferred Expense](/docs/v13/assets/img/accounts/deferred-item-expense.png)
 
 ### 2.2 Purchase Invoice
 
 On creation of Purchase Invoice for the Deferred Expense Item, instead of posting in the Expense Account, Deferred Expense account (Asset account) is Credited by the purchase amount. Let's consider a simple example of an Internet subscription here:
 
-<img class="screenshot" alt="Item - Deferred Revenue" src="{{docs_base_url}}/assets/img/accounts/deferred-purchase-invoice.gif">
+![Invoice With Deferred Expense](/docs/v13/assets/img/accounts/deferred-purchase-invoice.gif)
 
 ### 2.3 Journal Entry
 
 Based on the From Date and To Date set in the Purchase Invoice Item table, Journal Entries are created automatically at the end of each month. It debits the value from Deferred Expense account and credits Expense Account selected for an Item in the Purchase Invoice.
-
 
 {next}

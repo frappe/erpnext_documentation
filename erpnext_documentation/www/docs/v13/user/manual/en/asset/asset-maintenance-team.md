@@ -6,7 +6,7 @@
 The maintenance activities can be cleaning, polishing, servicing, or any other activity required to maintain the Asset in good condition.
 
 To access the Asset Maintenance Team, go to:
-> Home > Asset > Maintenance > Asset Maintenance Team
+> Home > Assets > Maintenance > Asset Maintenance Team
 
 ## 1. Prerequisites
 Before creating and using Asset Maintenance Team, it is advised to create the following first:
@@ -22,8 +22,10 @@ Before creating and using Asset Maintenance Team, it is advised to create the fo
 1. In the Maintenance Team Members table, add the team members and select their maintenance [roles](/docs/v13/user/manual/en/setting-up/users-and-permissions/role-and-role-profile).
 1. Save.
 
-    <img class="screenshot" alt="Asset" src="{{docs_base_url}}/assets/img/asset/asset_maintenance_team.png">
+<img class="screenshot" alt="Asset" src="{{docs_base_url}}/v13/assets/img/asset/asset-maintenance-team.png">
 
 ## 3. Related Topics
 1. [Asset Maintenance](/docs/v13/user/manual/en/asset/asset-maintenance)
 1. [Asset Repair](/docs/v13/user/manual/en/asset/asset-repair)
+
+{next}

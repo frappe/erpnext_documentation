@@ -37,7 +37,7 @@ If more items need to be added, or existing items to be edited in the CPU BOM, t
 
 Select Current BOM and New BOM of the **sub-assembly** Item:
 
-<img class="screenshot" alt="BOM Update Tool" src="{{docs_base_url}}/assets/img/manufacturing/bom-update-tool.png">
+<img class="screenshot" alt="BOM Update Tool" src="{{docs_base_url}}/v13/assets/img/manufacturing/bom-update-tool.png">
 
 To update the new BOM in all the parent BOMs, where CPU is selected as sub-assembly, you can use the **Replace** button.
 

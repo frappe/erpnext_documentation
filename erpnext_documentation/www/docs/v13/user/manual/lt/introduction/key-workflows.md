@@ -5,7 +5,7 @@
 
 ![](/docs/v13/assets/old_images/erpnext/overview.png)
 
-<img class="screenshot" alt="Workflow" src="{{docs_base_url}}/assets/img/setup/overview.png">
+<img class="screenshot" alt="Workflow" src="{{docs_base_url}}/v13/assets/img/setup/overview.png">
 
 Pastaba: ne visi veiksmai yra privalomi. ERPNext leidžia laisvai praleisti žingsnius, jei norite supaprastinti procesą.
 

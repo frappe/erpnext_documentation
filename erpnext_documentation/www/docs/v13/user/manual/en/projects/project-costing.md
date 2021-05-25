@@ -13,13 +13,13 @@ Each project has multiple tasks associated with it. To track the actual cost of 
 
 Activity Cost is a master where you can track billing and costing rate for each Employee, for each Activity Type.
 
-<img class="screenshot" alt="Activity Cost" src="{{docs_base_url}}/assets/img/project/projects-activity-cost.png">
+<img class="screenshot" alt="Activity Cost" src="{{docs_base_url}}/v13/assets/img/project/projects-activity-cost.png">
 
 ## Timesheet
 
 Based on the time spent on the Project-Task, an Employee will create a [Timesheet](/docs/v13/user/manual/en/projects/timesheets).
 
-<img class="screenshot" alt="Timesheet" src="{{docs_base_url}}/assets/img/project/projects-timesheet.png">
+<img class="screenshot" alt="Timesheet" src="{{docs_base_url}}/v13/assets/img/project/projects-timesheet.png">
 
 On selection of the Activity Type in the Time Log, Billing and Costing Rate will be fetched for that Employee from the respective [Activity Cost](/docs/v13/user/manual/en/projects/activity-cost).
 
@@ -29,8 +29,8 @@ Multiplying these rates with total no. of hours in the Time Log gives Costing Am
 
 Based on all the Timesheets created for specific Tasks, its costing will be updated in the respective Task.
 
-<img class="screenshot" alt="Task" src="{{docs_base_url}}/assets/img/project/projects-task-costing.png">
+<img class="screenshot" alt="Task" src="{{docs_base_url}}/v13/assets/img/project/projects-task-costing.png">
 
 Same way, the Project cost will be updated based on Timesheets created against each of its associated tasks and the cost of the Project gets updated simultaneously.
 
-<img class="screenshot" alt="Project - Costing" src="{{docs_base_url}}/assets/img/project/projects-costing-and-billing.png">
+<img class="screenshot" alt="Project - Costing" src="{{docs_base_url}}/v13/assets/img/project/projects-costing-and-billing.png">

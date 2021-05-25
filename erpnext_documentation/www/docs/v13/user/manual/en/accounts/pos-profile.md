@@ -21,10 +21,13 @@ To access the POS Profile list, go to:
 1. Select a [Naming Series](/docs/v13/user/manual/en/setting-up/settings/naming-series).
 1. Set a Write Off Account and Write Off Cost Center to which the transactions will be recorded.
 1. Set up payment modes in the table, the default will be cash if nothing is set here. Only the modes set here will be available when using POS. After adding payment modes, set one of them as the default payment method by ticking the checkbox.
- <img class="screenshot" alt="POS Setting" src="{{docs_base_url}}/assets/img/pos-setting/default_mop.png">
+
+ ![Payment Method in POS Profile](/docs/v13/assets/img/accounts/payment-method-in-pos.png)
+
 1. Set the default amounts for the payment methods (recommended: 0).
 1. Save.
- <img class="screenshot" alt="POS Setting" src="{{docs_base_url}}/assets/img/pos-setting/pos_profile.png">
+
+ ![POS Profile](/docs/v13/assets/img/accounts/pos-profile.png)
 
 ### 1.1 Additional options when creating a POS Profile
 
@@ -48,7 +51,7 @@ By default, all Sales Users can access the POS Profiles created in ERPNext. Howe
 
 **Setting POS Profile as default**: On ticking the Default checkbox in the table, the current POS Profile becomes the default POS Profile for that User. So, the next time the User logs into the system, the POS Profile will be set by default.
 
-![POS User](/docs/v13/assets/img/pos-setting/pos-profile-default.png)
+![POS User](/docs/v13/assets/img/accounts/pos-profile-default.png)
 
 > Note: If you specify a particular User, the POS setting will be
 applied only to that User. If the User option is left blank, the setting will
@@ -58,11 +61,11 @@ be set for all users. To understand how POS works, visit the [Point of Sale](/do
 ### 2.2 Setting Item Group and Customer Group
 On setting an Item Group/Customer Group in a POS Profile, the group will be automatically selected when making transactions with the POS Profile.
 
-<img class="screenshot" alt="POS Setting" src="{{docs_base_url}}/assets/img/pos-setting/item_customer_group.png">
+![Filters in POS Profile](/docs/v13/assets/img/accounts/filters-in-pos-profile.png)
 
 ### 2.3 Print Settings
 
-![POS Print](/docs/v13/assets/img/pos-setting/pos-profile-print.png)
+![POS Print Settings](/docs/v13/assets/img/accounts/pos-profile-in-print-settings.png)
 
 #### Print Format for Online
 You can set a Print Format which will decide what the layout of the printed document will look like. To know more, visit the [Print Format](/docs/v13/user/manual/en/setting-up/print/print-format) page.
@@ -115,3 +118,5 @@ Accounting Dimensions lets you tag transactions based on a specific Territory, B
 1. [Sales Invoice](/docs/v13/user/manual/en/accounts/sales-invoice)
 1. [Purchase Invoice](/docs/v13/user/manual/en/accounts/purchase-invoice)
 1. [Point Of Sales](/docs/v13/user/manual/en/accounts/point-of-sales)
+
+{next}

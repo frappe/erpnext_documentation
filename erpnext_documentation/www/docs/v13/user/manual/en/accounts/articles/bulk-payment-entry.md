@@ -11,6 +11,6 @@ If you want to create a single payment entry adjusting against multiple invoices
 
 ### Demo of Bulk Payment Entry
 
-<img class="screenshot" alt="Bulk Payment" src="{{docs_base_url}}/assets/img/accounts/bulk-payment.gif">
+![Adjust Payment Entry Against Multiple Sales](/docs/v13/assets/img/articles/bulk-payment.gif)
 
 {next}

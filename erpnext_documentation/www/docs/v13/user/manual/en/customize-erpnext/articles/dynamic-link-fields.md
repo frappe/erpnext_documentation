@@ -13,7 +13,7 @@ Below are the steps to insert Custom Dynamic Field. For instance, we will insert
 
 First, we will create a link field that will be linked to the DocType.
 
-<img alt="Custom Link Field" class="screenshot" src="{{docs_base_url}}/assets/img/customize/customize-dynamic-link-1.gif">
+<img alt="Custom Link Field" class="screenshot" src="{{docs_base_url}}/v13/assets/img/customize/customize-dynamic-link-1.gif">
 
 By **DocType** mentioned in the Option field, we mean parent DocType. So, just like Quotation is one DocType, which has multiple Quotation under it. Same way, DocType is also a DocType which has Sales Order, Purchase Order and other doctypes created as DocType records.
 
@@ -28,17 +28,17 @@ By **DocType** mentioned in the Option field, we mean parent DocType. So, just l
 
 So linking this field with parent DocType will list all the DocType records.
 
-<img alt="journal Voucher Link Field" class="screenshot" src="{{docs_base_url}}/assets/img/customize/customize-dynamic-link.png">
+<img alt="journal Voucher Link Field" class="screenshot" src="{{docs_base_url}}/v13/assets/img/customize/customize-dynamic-link.png">
 
 #### Step 2: Insert Dynamic Link Field
 
 This custom field's type will be "Dynamic Link". In the Option field, the name of the Doctype link field will be mentioned.
 
-<img alt="Custom Dynamic Field" class="screenshot" src="{{docs_base_url}}/assets/img/customize/customize-dynamic-link-2.gif">
+<img alt="Custom Dynamic Field" class="screenshot" src="{{docs_base_url}}/v13/assets/img/customize/customize-dynamic-link-2.gif">
 
 This field will allow selecting document id, based on the value selected in the Doctype link field. For example, if we select Sales Order in the prior field, the Dynamic Link field will list all the Sales Orders ids.
 
-<img alt="Custom Dynamic Field" class="screenshot" src="{{docs_base_url}}/assets/img/customize/customize-dynamic-link-3.gif">
+<img alt="Custom Dynamic Field" class="screenshot" src="{{docs_base_url}}/v13/assets/img/customize/customize-dynamic-link-3.gif">
 
 **Customizing options in the Doctype Link field**
 

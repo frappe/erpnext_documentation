@@ -20,3 +20,5 @@ Before you can set a Subscription, you need a Subscription Plan.
 You can also set up additional payment details and link a Payment Gateway.
 
 A Subscription Plan is linked to an Item, for which a Sales Invoice is created.
+
+{next}

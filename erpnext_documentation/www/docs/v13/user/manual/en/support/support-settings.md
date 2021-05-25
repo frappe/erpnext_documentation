@@ -6,7 +6,7 @@
 To access Support Settings, go to:
 > Home > Support > Settings > Support Settings
 
-<img class="screenshot" alt="Issue" src="{{docs_base_url}}/assets/img/support/support-settings.png">
+![Support Settings](/docs/v13/assets/img/support/support-settings.png)
 
 ## 1. Service Level Agreements
 ### 1.1 Track Service Level Agreement
@@ -19,3 +19,4 @@ This allows a User to reset the Service Level Agreement in Issues. User will get
 ### 2.1 Close Issue After Days
 Any "Replied" or "Resolved" issue will be closed after the number of days defined in this field. However, if the Customer replies to a closed Issue, the Issue will Open again.
 
+{next}

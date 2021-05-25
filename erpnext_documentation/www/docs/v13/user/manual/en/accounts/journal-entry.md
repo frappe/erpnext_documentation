@@ -25,25 +25,26 @@ To access the Journal Entry list, go to:
 1. Note that, in the end, total debit and credit amounts should add up to be the same.
 1. Save and Submit.
 
-  <img class="screenshot" alt="Journal Entry" src="{{docs_base_url}}/assets/img/accounts/journal-entry.png">
+![Journal Entry](/docs/v13/assets/img/accounts/journal-entry.png)
+
 
 **Finance Book**: You can post this entry to a specific [Finance Book](/docs/v13/user/manual/en/accounts/finance-book). On leaving this field blank, this Journal Entry will show up in all Finance Books.
 
 ### 1.1 Quick Entry
 When creating a Journal Entry, a **Quick Entry** button can be seen on the top right. This makes creating the Journal Entry a bit easier. Enter the amount, select the accounts, add a remark. This will populate the 'Accounting Entries' table with the selected details.
 
-![Quick Entry](/docs/v13/assets/img/accounts/quick-entry.png)
+![Quick Entry](/docs/v13/assets/img/accounts/quick-journal-entry.png)
 
 ## 2. Features
 ### 2.1 Accounting Entries
 
 * **Accounting Dimensions**: A Project or Cost Center can be linked here to track the costing separately. To know more, [visit this page](/docs/v13/user/manual/en/accounts/accounting-dimensions).
-  ![Acc Dim](/docs/v13/assets/img/accounts/je-acc-dim.png)
+  ![Accounting Dimension](/docs/v13/assets/img/accounts/journal-entry-accounting-dimension.png)
 
 * **Bank Account No**: If you've added a [Bank Account](/docs/v13/user/manual/en/accounts/bank-account), the number associated with that bank account will be fetched.
 * **Reference Type**: If this Accounting Entry is associated with another transaction, it can be referenced here. Select the Reference Type and select the specific document. For example, if you're creating a Journal Entry against a specific Sales Invoice. Link this Journal Entry to the invoice. The “outstanding” amount of that invoice will be affected.
 
-  ![Reference](/docs/v13/assets/img/accounts/je_table_reference.png)
+  ![Reference](/docs/v13/assets/img/accounts/journal-entry-reference.png)
 
 Following are the documents that can be selected in the Journal Entry under Reference Type:
 
@@ -67,7 +68,7 @@ Following are the documents that can be selected in the Journal Entry under Refe
 ### 2.2 Reverse Journal Entry
 In any submitted Journal Entry, there is a dedicated button to reverse the Journal Entry. On clicking the 'Reverse Journal Entry' button, the system creates a new Journal Entry by reversing debit and credit amount against the respective accounts.
 
-<img alt="Reverse Journal Entry" class="screenshot" src="{{docs_base_url}}/assets/img/accounts/reverse-journal-entry.png">
+![Reverse Journal Entry](/docs/v13/assets/img/accounts/reverse-journal-entry.png)
 
 ### 2.3 Difference Entry
 The “Difference” is the difference that remains after summing all debit and credit amounts.
@@ -78,7 +79,7 @@ This should be zero if the Journal Entry is to be “Submitted”. If this
 number is not zero, you can click on “Make Difference Entry” and the system will automatically add a new row
 with the amount required to make the total as zero. Select the account to debit/credit and proceed.
 
-  ![Make Difference](/docs/v13/assets/img/accounts/make-difference.png)
+  ![Make Difference](/docs/v13/assets/img/accounts/journal-entry-make-difference-entry.png)
 
 ### 2.4 Referencing
 
@@ -98,7 +99,7 @@ In th Reference section, the following fields can be entered manually if the bil
 
 If the accounts selected are in different currencies, tick the 'Multi Currency' checkbox. If this checkbox is not enabled, you will not be able to select any foreign currencies in the Journal Entry. This will show the different currency and fetch the 'Exchange Rate'. To know more, visit the [Multi Currency Accounting](/docs/v13/user/manual/en/accounts/multi-currency-accounting) page.
 
-![Multi Currency](/docs/v13/assets/img/accounts/je-multi-currency.png)
+![Multi Currency](/docs/v13/assets/img/accounts/multi-currency-journal-entry.png)
 
 ### 2.6 Journal Entry Template
 
@@ -116,7 +117,7 @@ To learn more go to the [Journal Entry Template](/docs/v13/user/manual/en/accoun
 
 ### 2.7 Print Settings
 
-![Journal Print Settings](/docs/v13/assets/img/accounts/je_print_settings.png)
+![Journal Print Settings](/docs/v13/assets/img/accounts/journal-entry-print-settings.png)
 
 **Pay To / Recd From**: The name entered here will show up in the Sales Invoice. This is useful for printing cheques. Go to the print view in the Journal Entry and select the 'Cheque Printing Format'.
 
@@ -277,3 +278,5 @@ If your Chart of Accounts has accounts with multiple currencies, a Journal Entry
 1. [Sales Invoice](/docs/v13/user/manual/en/accounts/sales-invoice)
 1. [Difference Entry Button](/docs/v13/user/manual/en/accounts/articles/difference-entry-button)
 1. [Finance Book](/docs/v13/user/manual/en/accounts/finance-book)
+
+{next}

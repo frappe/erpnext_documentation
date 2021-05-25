@@ -33,7 +33,7 @@ Um eine E-Mail-Erinnerung einzustellen, gehen Sie wie folgt vor:
 ---
 
 #### Beispiel
-<img class="screenshot" alt="Email Alert" src="{{docs_base_url}}/assets/img/setup/notifications/email-alert-1.png">
+<img class="screenshot" alt="Email Alert" src="{{docs_base_url}}/v13/assets/img/setup/notifications/email-alert-1.png">
 <img class="screenshot" alt="Email Alert" src="{{docs_base_url}}//assets/img/setup/notifications/email-alert-2.png">
 
 {next}

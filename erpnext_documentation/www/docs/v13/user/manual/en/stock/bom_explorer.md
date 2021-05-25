@@ -7,4 +7,4 @@ You need to select the BOM in the filter then the report will show the quantity 
 
 Using the BOM Explorer, user can view the quantity of raw materials and scraps from all exploded items and print it.
 
-<img alt="reorder level" class="screenshot" src="{{docs_base_url}}/assets/img/articles/bom_explorer.png">
+<img alt="reorder level" class="screenshot" src="{{docs_base_url}}/v13/assets/img/articles/bom_explorer.png">

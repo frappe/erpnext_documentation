@@ -20,7 +20,7 @@ To create a Therapy Plan Template, go to:
 6. The Total Sessions and Total Amount is calculated and set in the fields respectively.
 6. Save.
 
-<img class="screenshot" alt="Therapy Plan Template" src="{{docs_base_url}}/assets/img/healthcare/therapy_plan_template.png">
+<img class="screenshot" alt="Therapy Plan Template" src="{{docs_base_url}}/v13/assets/img/healthcare/therapy_plan_template.png">
 
 ## 2. Related Topics
 1. [Therapy Plan](/docs/v13/user/manual/en/healthcare/therapy_plan)

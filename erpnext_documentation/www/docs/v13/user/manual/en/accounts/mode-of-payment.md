@@ -13,11 +13,11 @@ To access the Mode of Payment list, go to:
 1. Set a default payment Account for all the companies.
 1. Save.
 
-    ![Mode of Payment]({{docs_base_url}}/assets/img/accounts/mode-of-payment.png)
+    ![Mode of Payment]({{docs_base_url}}/v13/assets/img/accounts/mode-of-payment.png)
 
 > **Tip**: Setting the default Account will this account fetched into [Payment Entries](/docs/v13/user/manual/en/accounts/payment-entry).
 
-![Mode of Payment](/docs/v13/assets/img/accounts/mode-of-payment-pe.gif)
+![Mode of Payment](/docs/v13/assets/img/accounts/mode-of-payment-in-payment-entry.gif)
 
 > **Note**: When making Payment Entries, the default bank account will be fetched in the following order if set:
 
@@ -29,3 +29,5 @@ To access the Mode of Payment list, go to:
 ## 2. Related Topics
 1. [Payment Entry](/docs/v13/user/manual/en/accounts/payment-entry)
 1. [Payment Request](/docs/v13/user/manual/en/accounts/payment-request)
+
+{next}

@@ -79,7 +79,7 @@ An email will be sent to notify the User with the role 'Purchase Manager' when a
 
 ## 11. Inter Warehouse Transfer Settings
 
-<img class="screenshot" alt="Delivery Note Material Transfer" src="{{docs_base_url}}/assets/img/stock/inter-warehouse.png">
+<img class="screenshot" alt="Delivery Note Material Transfer" src="{{docs_base_url}}/v13/assets/img/stock/inter-warehouse.png">
 
 ### 11.1 Enable customer warehouse for material transfer from Delivery Note and Sales Invoice
 

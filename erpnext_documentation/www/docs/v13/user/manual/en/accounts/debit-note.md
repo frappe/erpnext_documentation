@@ -12,19 +12,19 @@ A Debit is for your record of the debit against the Items your return.
 The user can make a Debit Note against the Purchase Invoice or they can directly make Debit Note from the Purchase Invoice without reference.
 
 1. Go to the respective Purchase Invoice and click on **Create > Return / Debit Note**.
- ![Debit Note from Invoice](/docs/v13/assets/img/accounts/debit-note-from-invoice.png)
+ ![Debit Note from Invoice](/docs/v13/assets/img/accounts/debit-note-from-purchase-invoice.png)
 1. The Supplier and Item details will be fetched as set in the Purchase Invoice.
 1. If you had paid partially or fully, make a Payment Entry against the original Purchase Invoice.
 1. Save and Submit.
- <img class="screenshot" alt="Sales Invoice" src="{{docs_base_url}}/assets/img/accounts/debit-note.png">
+
+ ![Debit Note](/docs/v13/assets/img/accounts/debit-note.png)
 
 The other steps are similar to a [Purchase Invoice](/docs/v13/user/manual/en/accounts/purchase-invoice).
 
 
 ### 1.1 How does Debit Note affect ledger
-Once a Payment Entry is created against the original Purchase Invoice, the amount will be added to the Supplier's account in negative so that the next time you make a purchase, this amount will be adjusted.
+The Debit Note will reverse the impact of the purchase invoice.
 
-This is how the ledger is affected after a payment entry against a returned invoice:
 ![Debit Note Ledger](/docs/v13/assets/img/accounts/debit-note-ledger.png)
 
 Refer the [Purchase Invoice](/docs/v13/user/manual/en/accounts/purchase-invoice) page for any other details.
@@ -37,8 +37,10 @@ From Supplier Blue Mills, you had purchased Cotton worth Rs 2400 + taxes and at 
 
 Debit Note with payment entry in ERPNext for above example is as below:
 
-<img class="screenshot" alt="Sales Invoice" src="{{docs_base_url}}/assets/img/accounts/debit_note_example1.gif">
+![Creating Debit Note](/docs/v13/assets/img/accounts/creating-debit-note.gif)
 
 ### 3. Related Topics
 1. [Payment Entry](/docs/v13/user/manual/en/accounts/payment-entry)
 1. [Credit Note](/docs/v13/user/manual/en/accounts/credit-note)
+
+{next}

@@ -39,25 +39,25 @@ Go to "E-Invoice Settings" and click on the "Enable" checkbox.
 
 Create a Sales Invoice and keep it in the Draft state. Click on the **E-Invoicing** button group and then on **Generate IRN**. If the Sales Invoice doesn't have any validation errors, IRN will be generated and updated in the Sales Invoice. You can now submit the invoice and print the E-Invoice with QRCode image by selecting "GST E-Invoice" Print Format while printing.
 
-<img class="screenshot" src="/docs/v13/assets/img/regional/india/einv_gen_irn_button.png">
+![Generate IRN in Invoice](/docs/v13/assets/img/regional/india/generate-irn-in-invoice.png)
 
 Once IRN is generation process is successful, QRCode and IRN will be stored in the Sales Invoice. Once these are generated, Sales Invoice fields cannot be edited.
 
-<img class="screenshot" src="/docs/v13/assets/img/regional/india/einv_generated_irn.png">
+![IRN in Invoice](/docs/v13/assets/img/regional/india/irn-in-invoice.png)
 
 You can print the E-Invoice using the default GST E-Invoice Print Format. Or you can manually edit your own print format to include e-invoice fields.
 
-<img class="screenshot" src="/docs/v13/assets/img/regional/india/einv_print_format.png">
+![E Invoice Print Format](/docs/v13/assets/img/regional/india/einv-print-format.png)
 
 ### 2.4 Cancel IRN
 
 If you have generated IRN for an invoice with faulty data then, you can cancel it with the **Cancel IRN** button under the E-Invoicing button group. Clicking on it will open up a popup which will ask for the reason for cancellation and remark.
 
-<img class="screenshot" src="/docs/v13/assets/img/regional/india/einv_cancel_irn_button.png">
+![E Invoice Cancel IRN Button](/docs/v13/assets/img/regional/india/einv-cancel-irn-button.png)
 
 Once you cancel the IRN, the invoice will look something like this.
 
-<img class="screenshot" src="/docs/v13/assets/img/regional/india/einv_cancelled_irn.png">
+![E Invoice WIth IRN Cancelled](/docs/v13/assets/img/regional/india/einv-cancelled-irn.png)
 
 ## 3. E-Way bill
 
@@ -65,15 +65,18 @@ Once you cancel the IRN, the invoice will look something like this.
 
 E-Invoicing reduces the additional step involved in generating E-Way Bills. Now you can provide **Transporter Info** along with IRN generation to generate E-Way Bill for the invoice. You can find the Transporter Info section in the bottom part of the invoice. You must select **Transporter**, **Mode of Transport**, and **Distance** to generate E Way Bill. You can also generate E Way Bill after generating IRN and submitting the invoice.
 
-<img class="screenshot" src="/docs/v13/assets/img/regional/india/einv_gen_ewaybill_button.png">
+![E Invoice Generate Eway Bill](/docs/v13/assets/img/regional/india/einv-generate-ewaybill-button.png)
 
 You will see a popup with relevant info before submitting:
-<img class="screenshot" src="/docs/v13/assets/img/regional/india/einv_gen_ewaybill_dialog.png">
+![E Way Bill Dialog](/docs/v13/assets/img/regional/india/einv-gen-ewaybill-dialog.png)
 
 ### 3.2 Cancelling-E Way Bill
 
 The process is similar to the cancellation of IRN. Click on Cancel E-Way Bill and then enter reason and remarks for cancellation.
 
-<img class="screenshot" src="/docs/v13/assets/img/regional/india/einv_cancel_ewaybill_button.png">
+![Cancel E-way Bill](/docs/v13/assets/img/regional/india/einv-cancel-ewaybill-button.png)
 
 <img class="screenshot" src="/docs/v13/assets/img/regional/india/einv_cancelled_ewaybill.png">
+![](/docs/v13/assets/img/regional/india/)
+
+{next}

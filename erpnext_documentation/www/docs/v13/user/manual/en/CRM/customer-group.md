@@ -15,13 +15,13 @@ You can define a price a list which will be automatically applied to all custome
 3. Tick 'Group Node' if you would like to add sub customer groups under this.
 4. Click on 'Create New'.
 
-<img class="screenshot" alt="Customer Group Tree" src="{{docs_base_url}}/assets/img/crm/customer-group-tree.png">
+![Customer Group](/docs/v13/assets/img/crm/customer-group.png)
 
 > Tip: If you think all this is too much effort, you can leave it at “Default
 Customer Group”. But all this effort, will pay off when you start getting
 reports. An example of a sample report is given below:
 
-<img class="screenshot" alt="Customer Group report" src="{{docs_base_url}}/assets/img/crm/sales-analytics-customer.gif">
+![Sales Analytics Customer Group](/docs/v13/assets/img/crm/sales-analytics-customer-group.gif)
 
 ### 2. Features
 

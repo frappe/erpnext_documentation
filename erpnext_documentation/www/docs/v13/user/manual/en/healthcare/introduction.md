@@ -2,11 +2,11 @@
 
 Here is what a patient appointment looks like in ERPNext:
 
-<img class="screenshot" alt="ERPNext Healthcare" src="{{docs_base_url}}/assets/img/healthcare/patient-appointment.png">
+<img class="screenshot" alt="ERPNext Healthcare" src="{{docs_base_url}}/v13/assets/img/healthcare/patient-appointment.png">
 
 Here are some analytics:
 
-<img class="screenshot" alt="ERPNext Healthcare" src="{{docs_base_url}}/assets/img/healthcare/appointment-analytics.png">
+<img class="screenshot" alt="ERPNext Healthcare" src="{{docs_base_url}}/v13/assets/img/healthcare/appointment-analytics.png">
 
 ERPNext Healthcare helps you manage your hospital, clinic, or practice efficiently by scheduling Appointments, capturing Vitals, and managing medication and investigation orders by recording Patient Encounters. You can easily pull out a Patient's Medical History anytime to review the patient's past conditions and treatments assisting you in providing effective, high-quality care. ERPNext Healthcare allows you to manage multiple Medical Code Standards like the ICD 10 and easily search for Medical Codes simplifying the coding process. ERPNext Healthcare also comes with a Laboratory module with predefined templates for recording common Lab Tests. Reports like Appointment Analytics and Lab Test Report help you get a thorough idea of the operations.
 

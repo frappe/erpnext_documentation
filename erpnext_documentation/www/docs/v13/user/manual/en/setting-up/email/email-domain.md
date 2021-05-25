@@ -15,7 +15,7 @@ If you want to send and receive emails on your ERPNext account, you need to corr
 
 ERPNext creates a template email domain using example.com for your reference. You should add your new domain if you want to use it in your ERPNext account.
 
-<img class="screenshot" alt="Email Domain" src="{{docs_base_url}}/assets/img/setup/email/email-domain.png">
+<img class="screenshot" alt="Email Domain" src="{{docs_base_url}}/v13/assets/img/setup/email/email-domain.png">
 
 ## 1. How to create an Email Domain
 1. Go to the Email Domain list, click on New.

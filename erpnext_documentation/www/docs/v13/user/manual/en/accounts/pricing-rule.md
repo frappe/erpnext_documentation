@@ -33,7 +33,8 @@ Before creating and using a Pricing Rule, it is advisable to create the followin
 1. Set a title for the rule.
 1. Select what to Apply On from Item Code, Item Group, Brand, or Transaction.
 1. Select whether you want to apply Price discount or Product discount. If you want to give free products then select the product discount.
- <img alt="Applicable On" class="screenshot" src="{{docs_base_url}}/assets/img/articles/pricing-rule-on.png">
+ ![Pricing Rule](/docs/v13/assets/img/accounts/pricing-rule.png)
+
 1. For a single item, select Item Code and select the items.
 1. If you want Pricing Rule to be applied on all the items, select 'Item Group' and select **All Item Group** (parent Item Group).
 1. Set the discount/price to be applied. To know more, [go to this section](/docs/v13/user/manual/en/accounts/pricing-rule#35-price-discount-scheme).
@@ -80,7 +81,7 @@ This can be useful to give discounts if a Customer buys an Item multiple times a
 ### 3.1 Apply Rule On Other
 This feature checks condition on first Item but applies rule on another Item.
 
-![Apply rule on other](/docs/v13/assets/img/articles/pricing-rule-other.png)
+![Apply Pricing Rule on Other Item](/docs/v13/assets/img/accounts/pricing-rule-on-other-item.png)
 
 For example, set Item1 and Item2 in the 'Apply Rule On' table and set 'Apply Rule On Other' on Item3. Now, if the transaction has Item1, Item2, and Item3, the Pricing Rule will apply on Item3 since the first two Items were present in the transaction.
 
@@ -103,16 +104,16 @@ Specify minimum qty, maximum qty, minimum amount, or maximum amount of an Item w
 
 Note that if the quantity or amount falls short or exceeds the limits set here, the Pricing Rule will not be applied at all. However, it will be applied if you have enabled the options Mixed Conditions or Cumulative.
 
-<img alt="Applicable Qty" class="screenshot" src="{{docs_base_url}}/assets/img/articles/pricing-rule-qty-amt.png">
+![Pricing Rule Quantity and Amount](/docs/v13/assets/img/accounts/pricing-rule-quantity-and-amount.png)
 
 ### 3.4 Validity
 You can also set a date interval for when the Pricing Rule will be valid. This is useful for a sales promotion. On leaving the dates blank the Pricing Rule will not have any time frame limit.
 
-<img alt="Period" class="screenshot" src="{{docs_base_url}}/assets/img/articles/pricing-rule-period.png">
+![Pricing Rule Period Settings](/docs/v13/assets/img/accounts/pricing-rule-period-settings.png)
 
 ### 3.5 Margin
 
-![Pricing Rule Margin](/docs/v13/assets/img/articles/pricing-rule-margin1.png)
+![Pricing Rule Margin](/docs/v13/assets/img/accounts/pricing-rule-margin.png)
 
 * **Margin Type**: When selling an Item, you may sell it for a certain margin. If you don't want to add selling prices to Items every time and would like to automatically set a margin, it can be done with this feature.
 
@@ -123,7 +124,7 @@ Read [adding margin](/docs/v13/user/manual/en/selling/articles/adding-margin) fo
 ### 3.6 Price Discount Scheme
 The actual rule to be applied is set in this section.
 
-![Pricing Rule](/docs/v13/assets/img/articles/pricing-rule-rule.png)
+![Pricing Rule Discount](/docs/v13/assets/img/accounts/pricing-rule-discount-scheme.png)
 
 * **Rate**: This will be the new rate for an Item. For example, if you sell an Item for 100 and want to sell it for 112 for a specific party, then select Rate and set the Rate as 112.
 * **Discount Percentage**: A specific discount percentage can be set. The discount percentage can be set to a specific [Price List](/docs/v13/user/manual/en/stock/price-lists). Leaving the 'For Price List' blank will apply the Pricing Rule to all Price Lists.
@@ -131,7 +132,7 @@ The actual rule to be applied is set in this section.
 
 ### 3.7 Advanced Settings
 
-![Pricing Rule Advance](/docs/v13/assets/img/articles/pricing-rule-adv.png)
+![Pricing Rule Advanced Settings](/docs/v13/assets/img/accounts/pricing-rule-advanced-settings.png)
 
 * **Threshold for Suggestion**: This is the threshold based on which the system will notify you to adjust Item Quantity for discount. For example, if the Min Quantity is 10 and the Threshold is 9, the system will notify to add 1 more Item for the discount to be applicable. This also applies to the amount set.
 
@@ -145,35 +146,37 @@ The actual rule to be applied is set in this section.
 
  This is useful when the top distributor in the hierarchy decides the discount/rate to be applied and you are only validating if the Pricing Rule is applied correctly.
 
-## 4. Pricing Rule discount types
+## 4. Pricing Rule Discount Types
 ### 4.1 Price Discount
 
 1. Under the Margin Type, you can set whether the margin is calculated as a percentage or an amount. Eg: 10% margin on supplier price list at the time of sales.
 
 1. Rate mentioned in Pricing Rule will be given priority over Item's Price List (Item Price) rate.
 
- <img alt="Applicable Rate" class="screenshot" src="/docs/v13/assets/img/articles/pricing-rule-price.png">
+ ![Price Discount Scheme Rate](/docs/v13/assets/img/accounts/price-discount-scheme-rate.png)
 
 1. Discount Percentage can be applied for a specific Price List (Selling or Buying). To apply it for both, leave the 'For Price List' field blank.
 
- <img alt="Discount" class="screenshot" src="{{docs_base_url}}/assets/img/articles/pricing-rule-discount.png">
+ ![Price Discount Scheme Discount](/docs/v13/assets/img/accounts/price-discount-scheme-discount.png)
 
 1. Discount can also be set in terms of amount.
 
- <img alt="Discount" class="screenshot" src="{{docs_base_url}}/assets/img/articles/pricing-rule-discount-amt.png">
+  ![Price Discount Scheme Amount](/docs/v13/assets/img/accounts/price-discount-scheme-amount.png)
 
 ### 4.2 Product Discount
 
 1. "Buy 2 quantities get 1 free quantity of the same item." To configure such type of rules, set the Price or Product Discount as 'Product discount', tick the Same Item checkbox, and set the quantity.
 
- <img alt="Discount" class="screenshot" src="{{docs_base_url}}/assets/img/articles/pricing-rule-same-product-free.png">
+ ![Pricing Rule Product Discount](/docs/v13/assets/img/accounts/pricing-rule-same-product-free.png)
 
 1. "Buy 2 quantities get 1 free quantity of the another item." To configure such type of rules. Set the Price or Product Discount as Product discount, untick the 'Same Item' checkbox and set the 'Free Item' and quantity.
 
- <img alt="Discount" class="screenshot" src="{{docs_base_url}}/assets/img/articles/pricing-rule-other-product-free.png">
+ ![Pricing Rule Other Product Free](/docs/v13/assets/img/accounts/pricing-rule-other-product-free.png)
 
 ### 5. Related Topics
 1. [Promotional Scheme](/docs/v13/user/manual/en/accounts/promotional-scheme)
 1. [Tax Rule](/docs/v13/user/manual/en/accounts/tax-rule)
 1. [Supplier](/docs/v13/user/manual/en/buying/supplier)
 1. [Item](/docs/v13/user/manual/en/stock/item)
+
+{next}
