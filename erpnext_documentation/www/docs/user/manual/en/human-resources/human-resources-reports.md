@@ -3,7 +3,7 @@
 
 ## Employee Leave Balance
 
-These key reports can be found under:
+This report shows the number of Leaves Allocated, Leaves Takes, and Leaves Expired for an employee over the duration selected through the date filters. It also shows the number of leaves that remain unused for an employee at the end of that duration.
 
 <img alt="Employee Leave Balance" class="screenshot" src="{{docs_base_url}}/assets/img/human-resources/employee-leave-balance-report.png">
 
@@ -42,7 +42,7 @@ To track and monitor Vehicle Expenses you can use the Vehicle Expenses report. T
 
 ## Bank Remittance Report
 
-This report helps you to track bank transactions of payroll entries between companie(s) and employees. It shows the transaction between the bank accounts of the Company and the Employee with the Payment Date.
+This report helps you to track bank transactions of payroll entries between companies and employees. It shows the transaction between the bank accounts of the Company and the Employee with the Payment Date.
 
 <img alt="Monthly Salary Register" class="screenshot" src="{{docs_base_url}}/assets/img/human-resources/bank_remittance_report.png">
 
