@@ -62,7 +62,7 @@ To make payment against the expense claim, user has to click on Create > Payment
 
 #### Expense Claim
 
-<img class="screenshot" alt="Create Payment" src="{{ docs_base_url }}/assets/img/human-resources/expense_claim_create_payment.png">
+<img class="screenshot" alt="Create Payment" src="{{ docs_base_url }}/v13/assets/img/human-resources/expense_claim_create_payment.png">
 
 #### Payment Entry
 
