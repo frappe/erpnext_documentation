@@ -24,7 +24,7 @@ Before creating a Leave Policy Assignment, it is advisable to create the followi
 1. Save and Submit.
 
 <img class="screenshot" alt="Leave Policy Assignment"
-	src="{{docs_base_url}}/assets/img/human-resources/leave-policy-assignment.png">
+	src="{{docs_base_url}}/v13/assets/img/human-resources/leave-policy-assignment.png">
 
 ## 3. Granting Leaves
 

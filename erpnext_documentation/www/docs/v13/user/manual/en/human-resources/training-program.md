@@ -18,7 +18,7 @@ To access Training Program, go to:
 1. Select the Supplier n(optional) in case an outside vendor/expert was called to conduct the training.
 1. Additionally, you can also write a short description of the Training Program in the Description box (optional).
 
-    <img class="screenshot" alt="Training Program" src="{{docs_base_url}}/assets/img/human-resources/training-program.png">
+    <img class="screenshot" alt="Training Program" src="{{docs_base_url}}/v13/assets/img/human-resources/training-program.png">
 
 > **Note:** By default, the Status of the Training Program is 'Scheduled'. However, you can change the status to 'Completed' or 'Cancelled' as per the requirement.
 

@@ -16,7 +16,7 @@ To access Leave Policy, go to:
 
 
 	<img class="screenshot" alt="Leave Policy"
-	src="{{docs_base_url}}/assets/img/human-resources/leave-policy.png">
+	src="{{docs_base_url}}/v13/assets/img//human-resources/leave-policy.png">
 
 
 Once submitted, you can enforce the Leave Policy through the dashboard, either to an Employee or an Employee Grade.

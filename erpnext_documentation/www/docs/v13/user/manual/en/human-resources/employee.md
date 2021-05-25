@@ -86,8 +86,7 @@ Personal Details of the Employee such as Family Background details like name and
 
 Here, the Educational Details such as School/University, Qualification, Level and Year of Passing of the Employee can be saved as shown below:
 
-<img class="screenshot" alt="Educational Qualification" src="{{docs_base_url}}/assets/img/human-resources/educational-qualification.png">
-<img class="screenshot" alt="Educational Qualification" src="{{docs_base_url}}/assets/img/human-resources/educational-qualification.png">
+<img class="screenshot" alt="Educational Qualification" src="{{docs_base_url}}/v13/assets/img/human-resources/educational-qualification.png">
 
 Additionally, details such as Class/Percentage and Subjects can also be saved by clicking on the downward arrow in the Education table.
 
@@ -95,7 +94,7 @@ Additionally, details such as Class/Percentage and Subjects can also be saved by
 
 Just like Educational Qualification, an Employee's Previous Work Experience can also be captured in the External Work History table as shown below:
 
-<img class="screenshot" alt="Previous Work Experience" src="{{docs_base_url}}/assets/img/human-resources/previous-work-experience.png">
+<img class="screenshot" alt="Previous Work Experience" src="{{docs_base_url}}/v13/assets/img/human-resources/previous-work-experience.png">
 
 Additionally, details such as Contact of the previous company and Total Experience in years can also be saved in the External Work History table.
 
@@ -125,5 +124,4 @@ Some additional features included in the Employee master are as follows:
 <div class="embed-container">
     <iframe src="https://www.youtube.com/embed/kkwOzeU4wFU?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 </div>
-
 

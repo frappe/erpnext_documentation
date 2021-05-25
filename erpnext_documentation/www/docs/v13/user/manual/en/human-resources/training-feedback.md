@@ -23,7 +23,7 @@ Before creating a Training Event, it is advisable you create the following docum
 1. Enter the feedback in the Feedback box.
 1. Save and Submit.
 
-    <img class="screenshot" alt="Employee" src="{{docs_base_url}}/assets/img/human-resources/training-feedback.png">
+    <img class="screenshot" alt="Employee" src="{{docs_base_url}}/v13/assets/img/human-resources/training-feedback.png">
 
 > Note: You can also access Training Feedback directly through the Training Event dashboard.
 

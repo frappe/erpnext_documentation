@@ -22,7 +22,7 @@ To access Employee Advance, go to:
 1. Select the Advance Account and Mode of Payment.
 1. Save.
 
-    <img class="screenshot" alt="Expense Claim" src="{{docs_base_url}}/assets/img/human-resources/employee-advance.png">
+    <img class="screenshot" alt="Expense Claim" src="{{docs_base_url}}/v13/assets/img/human-resources/employee-advance.png">
 
 > Note: The Employee can only Save the Employee Advance but cannot Submit it. It can be only submitted by the Expense Approver.
 
@@ -43,18 +43,18 @@ After submission of Employee Advance record, accounts user will be able to creat
 
 The Payment Entry will look like following:
 
-<img class="screenshot" alt="Employee Advance Payment via Payment Entry" src="{{docs_base_url}}/assets/img/human-resources/employee-advance-payment-entry.png">
+<img class="screenshot" alt="Employee Advance Payment via Payment Entry" src="{{docs_base_url}}/v13/assets/img/human-resources/employee-advance-payment-entry.png">
 
 #### Employee Advance Payment via Journal Entry
 Alternatively, a [Journal Entry](/docs/v13/user/manual/en/accounts/journal-entry) can also be created against the Employee Advance.
 
 
-<img class="screenshot" alt="Employee Advance Payment via Journal Entry" src="{{docs_base_url}}/assets/img/human-resources/employee-advance-journal-entry1.png">
+<img class="screenshot" alt="Employee Advance Payment via Journal Entry" src="{{docs_base_url}}/v13/assets/img/human-resources/employee-advance-journal-entry1.png">
 
 > Note: Make sure the Party Type is selected as Employee and the Reference Type is selected as Employee
 Advance.
 
-<img class="screenshot" alt="Employee Advance Payment via Journal Entry" src="{{docs_base_url}}/assets/img/human-resources/employee-advance-journal-entry2.png">
+<img class="screenshot" alt="Employee Advance Payment via Journal Entry" src="{{docs_base_url}}/v13/assets/img/human-resources/employee-advance-journal-entry2.png">
 
 #### Employee Advance is Paid
 On submission of the Payment Entry/Journal Entry, the paid amount and status will be updated in Employee Advance record.

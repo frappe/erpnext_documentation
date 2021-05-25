@@ -26,7 +26,7 @@ Before creating a Training Event, it is advisable you create the following docum
 1. Additionally, you can also write a short description of the Event in the Description box.
 1. Save and Submit.
 
-    <img class="screenshot" alt="Employee" src="{{docs_base_url}}/assets/img/human-resources/training-event.png">
+    <img class="screenshot" alt="Employee" src="{{docs_base_url}}/v13/assets/img/human-resources/training-event.png">
 
 > **Note:**  Check the 'Has Certificate' checkbox if the Training Event is a certified course.
 
@@ -39,7 +39,7 @@ You can invite your employees to attend the Training Event. You can do so by sel
 
 By default the status of the employee will be 'Open'.
 
-<img class="screenshot" alt="Employee" src="{{docs_base_url}}/assets/img/human-resources/training-event-employee.png">
+<img class="screenshot" alt="Employee" src="{{docs_base_url}}/v13/assets/img/human-resources/training-event-employee.png">
 
 When you submit the Training Event, a notification will be sent to the employee notifying that the Training has been scheduled. This is sent via Email Alert "Training Scheduled". You can modify this Email Alert to customize the message.
 

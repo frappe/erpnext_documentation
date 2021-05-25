@@ -9,7 +9,7 @@ To record an Employee Skill Map go to:
 Make sure you have set the required Skills for designations from the Skill doctype.
 
 Example of Skills for a Designation:
-![Designation Skills]({{docs_base_url}}/assets/img/human-resources/designation-skills.png)
+![Designation Skills]({{docs_base_url}}/v13/assets/img/human-resources/designation-skills.png)
 
 ## 1. How to create an Employee Skill Map
 

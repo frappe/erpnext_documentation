@@ -52,14 +52,14 @@ pay in proportion of LWP days divided by the total working days for the month (b
  - Create Separate Payment Entry Against Benefit Claim: Some of the flexible benefits may be legally required to be paid via separate vouchers. If you enable this, while posting the bank entry the amount paid for such components will be posted as a separate entry for each Employee.
 
 	<img class="screenshot" alt="Flexible Salary Component"
-	src="{{docs_base_url}}/assets/img/human-resources/salary-component-1.png">
+	src="{{docs_base_url}}/v13/assets/img/human-resources/salary-component-1.png">
 
 	> Note: Normal Tax calculation does not include Flexible Benefits as in most cases these are exempted from Tax. To tax these components anytime before that last payroll, use "Deduct Tax For Unclaimed Employee Benefits" in Payroll Entry / Salary Slip while processing the Salary.
 
 #### Deduction
 
 <img class="screenshot" alt="Salary Component Deduction"
-	src="{{docs_base_url}}/assets/img/human-resources/salary-component-2.png">
+	src="{{docs_base_url}}/v13/assets/img/human-resources/salary-component-2.png">
 
 * Variable Based On Taxable Salary: If you enable this, the component will be considered as the standard Tax deduction component. Tax will be calculated based on the Income Tax Slab linked to the employee.
 
@@ -91,7 +91,7 @@ Usual components of a salary structure (in India) include:
 
 * Employee Stock Options: ESOPS are Free/discounted shares given by the company to the employees. This is done to primarily increase employee retention.
 
-<img class="screenshot" alt="Submitted Salary Structure" src="{{docs_base_url}}/assets/img/human-resources/salary-structure.png">
+<img class="screenshot" alt="Submitted Salary Structure" src="{{docs_base_url}}/v13/assets/img/human-resources/salary-structure.png">
 A submitted Salary Structure
 
 ### Creating a New Salary Structure
@@ -113,7 +113,7 @@ Salary Slip based on Timesheet is applicable if you have timesheet based payroll
 1. Check "Salary Slip Based on Timesheet"
 2. Select the salary component and enter Hour Rate (Note: This salary component gets added to earnings in Salary Slip)
 
-<img class="screenshot" alt="Salary Slip based on Timesheet" src="{{docs_base_url}}/assets/img/human-resources/salary-timesheet.png">
+<img class="screenshot" alt="Salary Slip based on Timesheet" src="{{docs_base_url}}/v13/assets/img/human-resources/salary-timesheet.png">
 
 #### Earnings and Deductions in Salary Structure
 
@@ -123,11 +123,11 @@ If the condition and formula for any of the earnings or deductions are not confi
 
 #### Condition and Formula
 
-<img class="screenshot" alt="Condition and Formula" src="{{docs_base_url}}/assets/img/human-resources/condition-formula.png">
+<img class="screenshot" alt="Condition and Formula" src="{{docs_base_url}}/v13/assets/img/human-resources/condition-formula.png">
 
 #### Condition and Amount
 
-<img class="screenshot" alt="Condition and Amount" src="{{docs_base_url}}/assets/img/human-resources/condition-amount.png">
+<img class="screenshot" alt="Condition and Amount" src="{{docs_base_url}}/v13/assets/img/human-resources/condition-amount.png">
 
 
 In conditions and formulas,
@@ -138,7 +138,7 @@ In conditions and formulas,
 
 #### Account Details
 
-<img class="screenshot" alt="Salary Structure Account" src="{{docs_base_url}}/assets/img/human-resources/salary-structure-account.png">
+<img class="screenshot" alt="Salary Structure Account" src="{{docs_base_url}}/v13/assets/img/human-resources/salary-structure-account.png">
 
   * Select Mode of Payment and Payment Account for the Salary Slips which will be generated using this Salary Structure
 
@@ -159,7 +159,7 @@ To create a new Salary Structure Assignment go to:
 
 > Human Resources > Payroll > Salary Structure Assignment > New Salary Structure Assignment
 
-<img class="screenshot" alt="Salary Structure Assignment" src="{{docs_base_url}}/assets/img/human-resources/salary-structure-assignment.png">
+<img class="screenshot" alt="Salary Structure Assignment" src="{{docs_base_url}}/v13/assets/img/human-resources/salary-structure-assignment.png">
 
 * * *
 
@@ -173,7 +173,7 @@ You can also create salary slip for multiple employees using Payroll Entry:
 
 #### Payroll Entry
 
-<img class="screenshot" alt="Payroll Entry" src="{{docs_base_url}}/assets/img/human-resources/payroll-entry.png">
+<img class="screenshot" alt="Payroll Entry" src="{{docs_base_url}}/v13/assets/img/human-resources/payroll-entry.png">
 
 In Payroll Entry,
 
@@ -222,6 +222,6 @@ Once the Salary Structure is created and assigned to employees via Salary Struct
 
 #### Salary Slip
 
-<img class="screenshot" alt="Salary Slip" src="{{docs_base_url}}/assets/img/human-resources/salary-slip.png">
+<img class="screenshot" alt="Salary Slip" src="{{docs_base_url}}/v13/assets/img/human-resources/salary-slip.png">
 
 {next}

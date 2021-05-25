@@ -17,7 +17,7 @@ To access Leave Type, go to:
 1. Save.
 
     <img class="screenshot" alt="New Leave Type"
-    src="{{docs_base_url}}/assets/img/human-resources/new-leave-type.png">
+    src="{{docs_base_url}}/v13/assets/img/human-resources/new-leave-type.png">
 
 Below is a detailed explanation of all the fields and checkboxes in Leave Type.
 
@@ -44,7 +44,7 @@ Below is a detailed explanation of all the fields and checkboxes in Leave Type.
 * **Is Partially Paid Leaves:** This checkbox ensures that Leave Type will be treated as partially paid and some part of daily earnings will be paid through salary slip. If this checkbox is enabled then a field "Fraction of Daily Salary Per Leave" appears where you can define the fraction of daily salary paid on the partial leave day.
 
     <img class="screenshot" alt="New Leave Type"
-    src="{{docs_base_url}}/assets/img/human-resources/is-partially-paid-leaves.png">
+    src="{{docs_base_url}}/v13/assets/img/human-resources/is-partially-paid-leaves.png">
 
 > **Note:** The Leave Type can be either Leave Without pay or Partially Paid.
 
@@ -57,7 +57,7 @@ It is possible that Employees can receive cash from their Employer for unused le
 > **Note:** Leave encashment is allowed only in the last month of the Leave Period.
 
 <img class="screenshot" alt="Leave Encashment"
-        src="{{docs_base_url}}/assets/img/human-resources/leave-encashment.png">
+        src="{{docs_base_url}}/v13/assets/img/human-resources/leave-encashment.png">
 
 **Encashment Threshold Days:**  This field indicates the number of leave days the Employees won't be able to encash. Above the mentioned days, the Employee is eligible to encash leaves.
 
@@ -75,7 +75,7 @@ Earned Leaves are leaves earned by an Employee after working with the company fo
 For example, an Employee is allotted 24 Privilege Leaves in a year, wherein the Privilege Leave is set as Earned Leave with Monthly allotment. In this case, the Employee will earn 2 (24 leaves/12 months) Privilege Leaves at the end of every month. The leave allotment process (background job) will only allot leaves considering the max leaves for the leave type and will round to 'Rounding' for fractions.
 
 <img class="screenshot" alt="Earned Leave"
-        src="{{docs_base_url}}/assets/img/human-resources/earned-leave.png">
+        src="{{docs_base_url}}/v13/assets/img/human-resources/earned-leave.png">
 
 > **Note:** The initial allocation of this Leave Tye will be 0. Leaves will be updated at the end of the Month (or as per the 'Earned Leave Frequency' set).
 

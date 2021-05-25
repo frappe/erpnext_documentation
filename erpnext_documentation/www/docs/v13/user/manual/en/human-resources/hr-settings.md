@@ -12,7 +12,7 @@ There are various settings available in the HR Settings.
 
 ## 1. Employee Settings
 
-<img class="screenshot" alt="Previous Work Experience" src="{{docs_base_url}}/assets/img/human-resources/hr-settings1.png">
+<img class="screenshot" alt="Previous Work Experience" src="{{docs_base_url}}/v13/assets/img/human-resources/hr-settings1.png">
 
 ### 1.1. Retirement Age:
 You can enter the retirement age (in years) for your employees.
@@ -34,7 +34,7 @@ In Expense Claim Document the 'Expense Approver' field is set to mandatory on ch
 
 ## 2. Payroll Settings
 
-<img class="screenshot" alt="Previous Work Experience" src="{{docs_base_url}}/assets/img/human-resources/hr-settings2.png">
+<img class="screenshot" alt="Previous Work Experience" src="{{docs_base_url}}/v13/assets/img/human-resources/hr-settings2.png">
 
 #### 2.1 Calculate Payroll Working Days Based On
 Working Days in Salary Slip can be calculated based on Leave Application or Attendance records. You can select the option based on what you want to calculate working days.
@@ -72,7 +72,7 @@ This will generate a password like SAL-Jane-1972
 
 ## 3. Leave Settings
 
-<img class="screenshot" alt="Previous Work Experience" src="{{docs_base_url}}/assets/img/human-resources/hr-settings3.png">
+<img class="screenshot" alt="Previous Work Experience" src="{{docs_base_url}}/v13/assets/img/human-resources/hr-settings3.png">
 
 ### 3.1 Leave Approval Notification Template
 On creating or updating a leave application with a leave approver, an email is sent to this leave approver notifying about the new leave application. The email template used for this purpose can be selected here.

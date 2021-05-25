@@ -25,7 +25,7 @@ Before creating an Employee Promotion, it is advisable that you create the follo
 1. Enter the Promotion Date.
 1. In the Employee Promotion Detail table, select the Property and set the Current and New value.
 
-    <img class="screenshot" alt="Employee Promotion" src="{{docs_base_url}}/assets/img/human-resources/employee-promotion.png">
+    <img class="screenshot" alt="Employee Promotion" src="{{docs_base_url}}/v13/assets/img/human-resources/employee-promotion.png">
 
 > Note: Promotion document can be submitted on or after Promotion Date. Once submitted all the changes added to Promotion Details table will be applied to the Employee. ERPNext also keeps a record of all promotions of the Employee in the Employment History table in Employee document.
 

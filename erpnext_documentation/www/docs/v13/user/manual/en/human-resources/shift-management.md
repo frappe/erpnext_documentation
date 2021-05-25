@@ -19,12 +19,12 @@ To access Shift Type, go to:
 1. Go to Shift Type List, Click on New.
 2. Enter Name, Start Time and End Time
 3. Save
-<img class="screenshot" alt="Shift Type" src="{{docs_base_url}}/assets/img/human-resources/new-shift-type.png">
+<img class="screenshot" alt="Shift Type" src="{{docs_base_url}}/v13/assets/img/human-resources/new-shift-type.png">
 
 ## 2. Features
 
 In addition to defining the different shifts in your organization, the Shift Type document also has the setting for auto attendance. Auto attendance marks the attendance for the employees assigned to this shift based on records in the 'Employee Checkin' Document. Auto Attendance for all shift type records are attempted to be marked every hour. You can also trigger the auto attendance manually for a single shift type by pressing the 'Mark Attendance' button in the shift type document.
-<img class="screenshot" alt="Shift Type" src="{{docs_base_url}}/assets/img/human-resources/shift-type.png">
+<img class="screenshot" alt="Shift Type" src="{{docs_base_url}}/v13/assets/img/human-resources/shift-type.png">
 
 ### 2.1 Start Time
 The time of the day when this shift starts. The time is to be entered in 24Hrs format.
@@ -102,13 +102,13 @@ To create a new Shift Request go to:
 1. Select the Approver. If the selected approver does not have access to the Shift Request document, it is shared with the approver with "submit" permission.
 1. Save.
 
-	<img class="screenshot" alt="Shift Request" src="{{docs_base_url}}/assets/img/human-resources/shift-request.png">
+	<img class="screenshot" alt="Shift Request" src="{{docs_base_url}}/v13/assets/img/human-resources/shift-request.png">
 
 # Shift Assignment
 
 * Once the Shift Request is Approved and submitted it automatically creates the Shift Assignments for an Employee.
 
-	<img class="screenshot" alt="Shift Assignment" src="{{docs_base_url}}/assets/img/human-resources/shift-assignment.png">
+	<img class="screenshot" alt="Shift Assignment" src="{{docs_base_url}}/v13/assets/img/human-resources/shift-assignment.png">
 
 > Note: The Assignment for active shift-type will be for a fixed period if there is an End Date otherwise, it will be treated as an ongoing shift with no End Date. Users can update End Date and status even after submitting the document.
 
@@ -119,7 +119,7 @@ A Shift Request Approver is a user who can approve a Shift Request of an Employe
 * **Department Level:** Shift Request Approvers for each department can be configured in the [Department](/docs/v13/user/manual/en/human-resources/department) master. Multiple Shift Request Approver can be set in a Department.
 
 
-    <img class="screenshot" alt="Shift Request Approvers" src="{{docs_base_url}}/assets/img/human-resources/shift-request-approvers.png">
+    <img class="screenshot" alt="Shift Request Approvers" src="{{docs_base_url}}/v13/assets/img/human-resources/shift-request-approvers.png">
 
     When an Employee belonging to a particular department request for Shift Type, the Shift Request Approver set in that Employee's department master will be considered as his Shift Type Approvers.
 
@@ -128,7 +128,7 @@ A Shift Request Approver is a user who can approve a Shift Request of an Employe
 Shift Request Approver can also be set Employee-wise in the employee master.
 
 
- <img class="screenshot" alt="Shift Request Approvers" src="{{docs_base_url}}/assets/img/human-resources/employee-level-approvers.png">
+ <img class="screenshot" alt="Shift Request Approvers" src="{{docs_base_url}}/v13/assets/img/human-resources/employee-level-approvers.png">
 
 
 If Shift Request Approver are set at both Employee-level and Department-level, the Employee-level Shift Request Approver will be considered as the default Leave Approver in this case.

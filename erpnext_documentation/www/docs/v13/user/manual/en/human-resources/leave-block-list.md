@@ -28,7 +28,7 @@ Before you create a Leave Block List, it is advisable you have the following doc
 
 
     <img class="screenshot" alt="Leave Block List"
-    src="{{docs_base_url}}/assets/img/human-resources/leave-block-list.png">
+    src="{{docs_base_url}}/v13/assets/img/human-resources/leave-block-list.png">
 
 > **Note:** Enable the 'Applies to Company' option if you want the Leave Block List to be applicable for the entire Company. If not checked, the list will have to be added to each [Department](/docs/v13/user/manual/en/human-resources/department) where it has to be applied.
 

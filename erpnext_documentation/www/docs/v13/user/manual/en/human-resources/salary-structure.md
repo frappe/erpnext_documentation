@@ -39,7 +39,7 @@ To create Earnings and Deductions, select the Salary Component in the Component 
 
 
 
-<img class="screenshot" alt="Salary Structure" src="{{docs_base_url}}/assets/img/human-resources/salary-structure.png">
+<img class="screenshot" alt="Salary Structure" src="{{docs_base_url}}/v13/assets/img/human-resources/salary-structure.png">
 
 
 > **Note:** Make sure to click on the downward arrow and enable the 'Amount based on formula' checkbox in case the Salary Component is calculated using a formula.
@@ -61,7 +61,7 @@ Steps for creating Salary Structure based on Timesheets:
 1. Enter the Hour Rate. Based on the Rate entered, the amount for Working hours for the selected Salary Component will be calculated accordingly.
 1. Save and Submit.
 
- <img class="screenshot" alt="Create Salary Slip based on Timesheets" src="{{docs_base_url}}/assets/img/human-resources/salary-structure-for-salary-based-on-timesheets.png">
+ <img class="screenshot" alt="Create Salary Slip based on Timesheets" src="{{docs_base_url}}/v13/assets/img/human-resources/salary-structure-for-salary-based-on-timesheets.png">
 
 
 ### 2.4 Leave Encashment Amount Per Day

@@ -36,7 +36,7 @@ Before creating an Employee Onboarding, it is advisable that you create the foll
 1. Save and Submit.
 
 
-  <img class="screenshot" alt="Onboarding Template" src="{{docs_base_url}}/assets/img/human-resources/employee-onboarding1.png">
+  <img class="screenshot" alt="Onboarding Template" src="{{docs_base_url}}/v13/assets/img/human-resources/employee-onboarding1.png">
 
 
 
@@ -57,7 +57,7 @@ To create a new Employee Onboarding Template:
 1. Enter the Department, Designation and Employee Grade (optional).
 1. Mention the Activities for onboarding. For each Activity, you can also mention the User or Role, or one of it, to whom this Activity will be assigned.
 
-  <img class="screenshot" alt="Onboarding Template" src="{{docs_base_url}}/assets/img/human-resources/onboarding-template.png">
+  <img class="screenshot" alt="Onboarding Template" src="{{docs_base_url}}/v13/assets/img/human-resources/onboarding-template.png">
 
 
 ### 3.2 Tasks and Assignments
@@ -66,11 +66,11 @@ On submission of the Employee Onboarding, a [Project](/docs/v13/user/manual/en/p
 
 You can view the created Projects and Tasks as shown below:
 
-<img class="screenshot" alt="Onboarding Template" src="{{docs_base_url}}/assets/img/human-resources/project-task.png">
+<img class="screenshot" alt="Onboarding Template" src="{{docs_base_url}}/v13/assets/img/human-resources/project-task.png">
 
 Additionally, each Activity can be assigned weights based on its importance.
 
-<img class="screenshot" alt="Tasks and Assignments" src="{{docs_base_url}}/assets/img/human-resources/employee-onboarding3.png">
+<img class="screenshot" alt="Tasks and Assignments" src="{{docs_base_url}}/v13/assets/img/human-resources/employee-onboarding3.png">
 
 Based on the progress on the Tasks, progress can be updated in the Employee Onboarding process.
 
@@ -79,7 +79,7 @@ Based on the progress on the Tasks, progress can be updated in the Employee Onbo
 
 You can directly create an Employee through the Employee Onboarding doctype (if not already created) once all the mandatory onboarding tasks are complete.
 
-<img class="screenshot" alt="Onboarding Template" src="{{docs_base_url}}/assets/img/human-resources/onboarding-employee.png">
+<img class="screenshot" alt="Onboarding Template" src="{{docs_base_url}}/v13/assets/img/human-resources/onboarding-employee.png">
 
 
 ## 4. Related Topics
