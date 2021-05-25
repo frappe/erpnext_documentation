@@ -92,13 +92,23 @@ To book reversal of ITC go to Journal Entry doctype and follow the following ste
 
 ### 9. Setting up reverse charge and posting reverse charge purchase invoices
 
-#### 9.1 Add reverse charge accounts in GST Settings
+#### 9.1 Eligibility for Input Tax Credit
+
+In order to avail Input Tax Credit on Purchase Invoices, please follow the following steps
+
+* Select type of Eligibility of ITC under GST Details section in Purchase Invoice, by default this is kept as "All Other ITC", users can update the appropriate option.
+
+* By default the availed tax amounts will also be update as the entire GST Amount applied in the invoice on save. In case eligible tax amount is less than the applied GST amount in the invoice user will have to manually update the availed ITC amounts before submitting the invoice
+
+<img class="screenshot" alt="Eligibility for ITC" src="{{docs_base_url}}/assets/img/regional/india/eligibility-for-itc.png">
+
+#### 9.2 Add reverse charge accounts in GST Settings
 
 Add reverse charge accounts for GST as shown in the image below and check the "Is Reverse Charge Account" as shown in the image below. Instead of separate reverse charge account the Output GST tax account used for sales can also be marked as reverse charge account
 
 <img class="screenshot" alt="Sample GST Tax Invoice" src="{{docs_base_url}}/assets/img/regional/india/gst-reverse-charge-setting.png">
 
-#### 9.2 Making purchase invoices liable to reverse charge
+#### 9.3 Making purchase invoices liable to reverse charge
 
 To make purchase invoices liable to reverse charge invoices please follow the following steps
 
