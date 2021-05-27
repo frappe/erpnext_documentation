@@ -22,6 +22,8 @@ Before creating and using a Request for Quotation, it is advised that you create
 1. Warehouse can be left blank if 'Maintain Stock' is unticked for the item.
 5. Save and submit.
 
+![Create RFQ]({{docs_base_url}}/v13/assets/img/buying/rfq-create.png)
+
 A Request for Quotation (RFQ) can also be created from a submitted Material Request. Once an RFQ is created, you can print and send suppliers the PDF which will have all the details you entered relevant to the RFQ. You can also get their reply (Supplier Quotation) in ERPNext itself, see section [4.1 Supplier Quotation by User](#41-supplier-quotation-by-user).
 However, for a large number of items, your supplier may be more comfortable with an Excel sheet, etc.
 
@@ -36,12 +38,16 @@ The items in the items table can be fetched from other documents. The options ar
 
 * **Possible Supplier**: Select a possible supplier. Then if you have any submitted Material Requests against this supplier, items can be fetched from that.
 
+![RFQ get items]({{docs_base_url}}/v13/assets/img/buying/rfq-get-items.png)
+
 ### 3.2 Get Suppliers
 Instead of entering the suppliers manually in the table, you can also fetch them using the 'Get Suppliers' button. When you click on **Tools > Get Suppliers**, you will see the field 'Get Suppliers By'. There are two options to fetch suppliers: By Tag or By Group.
 
 * **By tag**: Go to 'Tag Category' via searching from the search bar. You must have created tags here first and assigned them to a Supplier in the Buying module. Then you can select 'By Tag'. On clicking Add 'All Suppliers', suppliers with matching tags will be fetched.
 
 * **By Group**: Select 'Supplier Group' and choose the supplier group from which suppliers need to be added. For example, if you select Hardware, all your hardware suppliers will be added so that you can get a quote from all of them.
+
+![RFQ get suppliers]({{docs_base_url}}/v13/assets/img/buying/rfq-get-suppliers.png)
 
 In the Supplier table, on expanding a row with the inverted triangle, you'll see an option 'Download PDF' which will open a PDF of the RFQ.
 
