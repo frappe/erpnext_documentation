@@ -31,6 +31,7 @@ Fields in future transactions will be auto-populated if the 'Default' fields lik
 * **Internal Supplier**: If the supplier is from a sister or parent/child company, tick this field and select the company which they represent.
 
 For India:
+
 * **GST Category**: Select a GST Category of the supplier.
 * **PAN**: For India, PAN (Permanent Account Number) card details of the Supplier.
 
@@ -41,7 +42,7 @@ If the "Purchase Order Required" or "Purchase Receipt Required" option is config
 <img class="screenshot" alt="Supplier Master" src="{{docs_base_url}}/v13/assets/img/buying/supplier-po-pr-required.png">
 
 ### 2.3 Currency and Price List
-**Billing Currency**: Your supplier's currency can be different from your company currency. If you choose USD for a supplier, then the currency will be filled as USD and the exchange rate shown for future purchase transactions.
+**Billing Currency**: Your supplier's currency can be different from your company currency. If you choose JPY for a supplier, then the currency will be filled as JPY and the exchange rate shown for future purchase transactions.
 
 ![Supplier Currency](/docs/v13/assets/img/buying/supplier-currency.gif)
 
