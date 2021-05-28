@@ -58,7 +58,11 @@ You can configure the action that system should take if the same rate is not mai
 
 When this checkbox is unchecked, an item cannot be added multiple times in the same Purchase Order. However, you can still explicitly change the quantity. This is a validation checkbox for preventing accidental purchase of the same item. This can be checked for specific use cases where there are multiple sources for the same material, for example in manufacturing.
 
-### 4. Related Topics
+## 4. Consider Rejected Quantity For Purchase Invoice
+
+By default this checkbox will be checked. When Checked, Purchase Invoice created from a Purchase Receipt will be on basis of Received Quantity in that Purchase Receipt and when unchecked, Purchase Invoice created from a Purchase Receipt will be on basis of Accepted Quantity in that Purchase Receipt.
+
+### 5. Related Topics
 1. [Supplier Group](/docs/user/manual/en/buying/supplier-group)
 
 {next}
