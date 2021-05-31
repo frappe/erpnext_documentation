@@ -23,7 +23,7 @@ Before creating and using a Blanket Order, it is advised that you create the fol
 1. Enter Item Code, Quantity and Rate in the Item table. You can also mention the Terms and Conditions for each item.
 1. Submit.
 
-<img class="screenshot" alt="Blanket Order Selling" src="{{docs_base_url}}/v13/assets/img/selling/blanket-order-selling.gif">
+![Blanket Order Selling](/docs/v13/assets/img/selling/blanket-order-selling.gif)
 
 ## 3. Features
 
@@ -43,10 +43,9 @@ Once a Blanket Order is submitted, you can create new Quotations by clicking on 
 
 You can view Purchase Orders, Sales Orders and Quotations against this Blanket Order through the Dashboard.
 
-<img class="screenshot" alt="Blanket Order Dashboard" src="{{docs_base_url}}/v13/assets/img/selling/blanket_order_dashboard.png">
+![Blanket Order Dashboard](/docs/v13/assets/img/selling/blanket-order-dashboard.png)
 
 **Note-** Multiple Sales Orders, Purchase Orders, and Quotations can be created against one Blanket Order.
-
 
 ### 4. Related Topics
 * [Sales Order](/docs/v13/user/manual/en/selling/sales-order)

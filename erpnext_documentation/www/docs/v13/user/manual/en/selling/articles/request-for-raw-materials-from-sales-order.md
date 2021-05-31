@@ -1,3 +1,4 @@
+<!-- add-breadcrumbs -->
 # Request for Raw Materials from Sales Order
 
 Production Plan helps user to plan production against multiple sales orders and helps in Material Procurement planning for the raw-material item, based on the quantity of finished product to be manufactured.
@@ -8,11 +9,11 @@ To do so, you can follow the below steps.
 
 * After your Sales Order has been submitted, click on **Make** and select **Request for Raw Materials**.
 
-<img class="screenshot" alt="Request for Raw materials" src="{{docs_base_url}}/v13/assets/img/articles/request-for-raw-materials.png">
+![Request For Raw Materials](/docs/v13/assets/img/selling/request-for-raw-materials.png)
 
 * It will open a dialog and display all the Finished Items having a BOM.
 
-<img class="screenshot" alt="Request for Raw materials" src="{{docs_base_url}}/v13/assets/img/articles/request-for-raw-materials-dialog.png">
+![Request For Raw Materials Dialog](/docs/v13/assets/img/selling/request-for-raw-materials-dialog.png)
 
 * Here, you can change the BOM as you want and choose the necessary options.
 
@@ -20,8 +21,10 @@ Suppose, enabling the **Include Exploded Items** will fetch the Raw Materials fr
 
 * Click on Make, and your Material Request will be submitted.
 
-<img class="screenshot" alt="Request for Raw materials" src="{{docs_base_url}}/v13/assets/img/articles/material-request-submitted.png">
+![Submitted Material Request](/docs/v13/assets/img/selling/material-request-submitted.png)
 
 Material Request generated for the Raw Material of the finished Item present in Sales Order.
 
-<img class="screenshot" alt="Request for Raw materials" src="{{docs_base_url}}/v13/assets/img/articles/created-mr-from-sales-order.png">
+![Material Request](/docs/v13/assets/img/selling/created-mr-from-sales-order.png)
+
+{next}
