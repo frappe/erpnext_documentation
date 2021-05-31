@@ -13,7 +13,7 @@ To access the Quotation list, go to:
 
 A typical sales flow looks like:
 
-<img class="screenshot" alt="Make Quotation from Opportunity" src="{{docs_base_url}}/v13/assets/img/selling/selling-flow-quo.png">
+![Make Quotation from Opportunity](/docs/v13/assets/img/selling/selling-flow-quo.png)
 
 A Quotation contains details about:
 
@@ -48,7 +48,7 @@ Before creating and using a Quotation, it is advised that you create the followi
 
 You can also create a Quotation from an Opportunity shown as follows.
 
-<img class="screenshot" alt="Make Quotation from Opportunity" src="{{docs_base_url}}/v13/assets/img/selling/make-quote-from-opp.png">
+![Make Quotation from Opportunity](/docs/v13/assets/img/selling/make-quote-from-opp.png)
 
 ## 3. Features
 
@@ -89,7 +89,7 @@ To add taxes to your Quotation, you can select a [Sales Taxes and Charges Templa
 
 The total taxes and charges will be displayed below the table. Clicking on Tax Breakup will show all the components and amounts.
 
-<img class="screenshot" alt="Taxes in Quotation" src="{{docs_base_url}}/v13/assets/img/selling/quotation-taxes.png">
+![Taxes in Quotation](/docs/v13/assets/img/selling/quotation-taxes.png)
 
 To add taxes automatically via a Tax Category, visit [this page](/docs/v13/user/manual/en/accounts/tax-category).
 
@@ -104,7 +104,7 @@ Read [Applying Discount](/docs/v13/user/manual/en/selling/articles/applying-disc
 ### 3.6 Payment Terms
 Sometimes payment is not done all at once. Depending on the agreement, half of the payment may be made before shipment and the other half after receiving the goods/services. You can add a Payment Terms template or add the terms manually in this section.
 
-<img class="screenshot" alt="Payment Terms in Quotation" src="{{docs_base_url}}/v13/assets/img/selling/quotation-payment-terms.png">
+![Payment Terms in Quotation](/docs/v13/assets/img/selling/quotation-payment-terms.png)
 
 Read [Payment Terms](/docs/v13/user/manual/en/accounts/payment-terms) to know more.
 
@@ -133,7 +133,7 @@ you send the Quotation.
 
 On submitting, you can create a Sales Order or a Subscription from the Quotation using the Create button. In the Dashboard present on the top, you can go to the Sales Order linked with this Quotation. In case it didn't work out, you can set the Quotation as lost by clicking on the 'Set as Lost button'.
 
-<img class="screenshot" alt="Submitted Quotation" src="{{docs_base_url}}/v13/assets/img/selling/submitted-quotation.png">
+![Submitted Quotation](/docs/v13/assets/img/selling/submitted-quotation.png)
 
 ### 4. Related Topics
 1. [Applying Discount](/docs/v13/user/manual/en/selling/articles/applying-discount)

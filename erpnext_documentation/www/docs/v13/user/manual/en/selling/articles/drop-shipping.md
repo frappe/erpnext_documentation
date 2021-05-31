@@ -29,13 +29,13 @@ From Sales Order, all items, having **Supplier delivers to Customer**  checked o
 
 It will automatically set Customer, Customer Address and Contact Person.
 
-After submitting Purchase Order, to update delivery status, use **Mark as Delivered** button on Purchase Order. It will update delivery percetage and delivered quantity on Sales Order.
+After submitting Purchase Order, to update delivery status, use **Delivered** option under **Status** button on Purchase Order. It will update delivery percetage and delivered quantity on Sales Order.
 
 <img class="screenshot" alt="Purchase Order for Drop Shipping" src="{{docs_base_url}}/v13/assets/img/selling/drop-ship-purchase-order.png">
 
 <span style="color:#18B52D">**_Close_**</span>, is a new feature introduced on **Purchase Order** and **Sales Order**, to close or to mark fulfillment.
 
-<img class="screenshot" alt="Close Sales Order" src="{{docs_base_url}}/v13/assets/img/selling/close-sales-order.png">
+<img class="screenshot" alt="Close Sales Order" src="{{docs_base_url}}/v13/assets/img/selling/close-option-in-sales-order.png">
 
 ###Drop Shipping Print Format
 You can notify, Suppliers by sending a email after submitting Purchase Order by attaching Drop Shipping print format.

@@ -3,7 +3,7 @@
 
 In the submitted Sales Orders, you will find **Stop** option. Stopping Sales Order will restrict user from creating Delivery Note and Sales Invoice against it.
 
-<img alt="Close SO" class="screenshot"  src="{{docs_base_url}}/v13/assets/img/articles/close-1.png">
+![Close Option in Sales Order](/docs/v13/assets/img/selling/close-option-in-sales-order.png)
 
 ####Scenario
 
@@ -11,10 +11,12 @@ An order is received for ten Wind Turbines. Sales Order is also created for ten 
 
 In this case, create Delivery Note and Sales Invoice will be created only for the seven units. And the Sales Order should be set as stopped.
 
-<img alt="Closed SO" class="screenshot"  src="{{docs_base_url}}/v13/assets/img/articles/close-2.png">
+![Closed Sales Order](/docs/v13/assets/img/selling/closed-sales-order.png)
 
 Once Sales Order is set as stopped, you will not have pending quantities (three in this case) reflecting in Pending to Deliver and Pending to Invoice reports. To make further transactions against Stopped Sales Order, you should first Unstop it.
 
 You will find same funtionality in the Purchase Order as well.
+
+{next}
 
 <!-- markdown -->

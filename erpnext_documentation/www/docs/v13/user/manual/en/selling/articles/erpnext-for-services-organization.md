@@ -15,7 +15,7 @@ The setup for a Service company differs primarily for Items. They don't maintain
 
 To create a Service (non-stock) Item, in the item master, uncheck "Maintain Stock" field.
 
-<img alt="Service Item" class="screenshot"  src="{{docs_base_url}}/v13/assets/img/articles/services-1.png">
+![Service Item](/docs/v13/assets/img/selling/service-item.png)
 
 When creating Sales Order for the services, select Order Type as **Maintenance**. Sales Order of Maintenance Type needs lesser details compared to stock item's order like Delivery Note, item warehouse etc.
 
@@ -45,5 +45,7 @@ You can also refer to help video on User and Permissions setting in ERPNext.
     <iframe src="https://www.youtube.com/embed/8Slw1hsTmUI" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen>
     </iframe>
 </div>
+
+{next}
 
 <!-- markdown -->

@@ -36,7 +36,7 @@ To see the listing of partners, go to:
 
 https://yourCompanyName.erpnext.com/partners
 
-<img class="screenshot" alt="Sales Partner" src="{{docs_base_url}}/v13/assets/img/crm/sales-partner-listing.png">
+<img class="screenshot" alt="Sales Partner" src="{{docs_base_url}}/v13/assets/img/selling/sales-partner-listing.png">
 
 ### 2.4 Track Sales via Sales Partner
 
