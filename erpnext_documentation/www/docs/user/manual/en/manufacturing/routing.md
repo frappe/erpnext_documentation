@@ -28,6 +28,7 @@ To access the Routing list, go to:
 
 Once created, a Routing can be selected in a BOM to fetch the Operations stored in the Routing.
 ![Routing BOM](/docs/assets/img/manufacturing/routing-bom.png)
+> Note: Once Operation Time is updated in Routing, the BOMs linked with the Routing will get the latest updated Operation Time too.
 
 ## 3. Sequence ID in Routing
 ![Routing Sequence ID](/docs/assets/img/manufacturing/sequence-id-routing.png)
