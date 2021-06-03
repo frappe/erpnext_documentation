@@ -2,7 +2,9 @@
 #Employee Benefit Claim
 
 Employee Benefit Claim allows Employees to -
+
  1. Claim flexible benefits which are to be received lump-sum (if Salary Component is _Pay Against Benefit Claim_)
+ 
  2. Claim tax exemption for flexible benefits received pro-rata, as part of salary when _Deduct Tax For Unclaimed Employee Benefits_ is checked in Payroll Entry / Salary Slip
 
 You can create a new Employee Benefit Claim by going to,
