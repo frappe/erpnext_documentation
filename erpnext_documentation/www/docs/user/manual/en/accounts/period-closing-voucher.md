@@ -31,6 +31,7 @@ To access the Period Closing Voucher list, go to:
 * **Transaction Date** will be Period Closing Voucher's creation date.
 * **Posting Date** will be when this entry should be executed. If your Fiscal Year ends on 31st December, then that date should be selected as Posting Date in the Period Closing Voucher.
 * **Closing Fiscal Year** will be an year for which you are closing your financial statement.
+* **Book Cost Center Wise Profit/Loss** will book closing entries as per cost center of income & expense accounting entries
 
 ### 1.3 What happens on submitting?
 The Period Closing Voucher will make accounting entries (GL Entry). This will make all your Income and Expense Accounts zero and transfer Profit/Loss balance to the Closing Account.
