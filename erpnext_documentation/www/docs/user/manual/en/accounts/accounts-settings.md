@@ -3,7 +3,7 @@
 
 There are various account settings in ERPNext to restrict and configure actions in the Accounting module.
 
-![Account Settings]({{docs_base_url}}/assets/img/accounts/account-settings.png)
+![Account Settings]({{docs_base_url}}/assets/img/accounts/accounts-settings.png)
 
 ## 1. Accounts Frozen Up to
 Freeze accounting transactions up to specified date, nobody can make/modify entry except the specified Role.
