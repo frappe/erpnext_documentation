@@ -78,6 +78,14 @@ You can also assign validity to tax templates as shown in the image above.
 
 > Note: While adding items in Purchase Invoice first preference will be given to 'Supplier Invoice Date' instead of 'Posting Date' for fetching valid Item Tax Template.
 
+### 2.7 Net Rate based item taxes
+
+<img class="screenshot" alt="Item Tax Net Rate" src="{{docs_base_url}}/assets/img/accounts/item-tax-net-range.png">
+
+- On many commodities and items the tax rate is determined based on the final rate of the item after application of discount or margin. For Eg If a T-Shirt is sold at a net rate greater than Rs. 500 then the tax percentage applied should be 12 % else it will be 5%
+
+- Using minimum and maximum net rates in item taxes this process can be automated, based on the final net rate of the item appropriate item tax will be auto applied. If both the values are 0 then it won't consider any values neither minimum nor maximum.
+
 ### 2.6 Some points to note
 
 - If you set the Tax Category as empty, the default Item Tax Template will be applied to Items in transactions.
