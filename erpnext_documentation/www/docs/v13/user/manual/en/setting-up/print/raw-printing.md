@@ -61,9 +61,9 @@ To print a raw command print format from the Document print view:
 
       ![Raw Printing from Print View]({{docs_base_url}}/v13/assets/img/setup/print/raw-printing-from-print-view.gif)
 
-### 2.2 Calling Raw Print functions from a custom script
+### 2.2 Calling Raw Print functions from a client script
 
-It is often a requirement that a print command has to be issued on a certain event (like submit, save, amend, etc.). It is possible to write a [custom script](/docs/v13/user/manual/en/customize-erpnext/custom-scripts) to do this for you.
+It is often a requirement that a print command has to be issued on a certain event (like submit, save, amend, etc.). It is possible to write a [client script](/docs/v13/user/manual/en/customize-erpnext/client-scripts) to do this for you.
 
 Following are the relevant Raw Print functions:
 

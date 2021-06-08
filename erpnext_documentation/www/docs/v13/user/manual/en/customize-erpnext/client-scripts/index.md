@@ -1,11 +1,11 @@
 <!-- add-breadcrumbs -->
-# Custom Scripts
+# Client Scripts
 
-**If you wish to change any ERPNext form formats, you can do so by using Custom Scripts.** For example, if you wish to add a submit button after saving, to a Lead form, you can do so by creating your own script.
+**Client Scripts are small code snippets that are executed in the browser to extend or customize the standard functionality of ERPNext.** 
 
-> Home > Customization > Form Customization > Custom Script
+> Home > Customization > Custom Script
 
-<img alt="Custom Script" class="screenshot" src="{{docs_base_url}}/v13/assets/img/customize/customize-erpnext-custom-scripts.png">
+![Client Script](/docs/v13/assets/img/customize/customize-erpnext-client-scripts.png)
 
 ## 1. How to Create a Custom Script
 
@@ -22,7 +22,7 @@ Create a Custom Script (you must have System Manager role for this):
   * Client Custom Scripts are in JavaScript and Server Custom Scripts are in Python.
   * For testing, make sure to go to Tools > Clear Cache and refresh after updating a Custom Script.
 
-### 2. Custom Script Examples
+### 2. Client Script Examples
 Here are some custom script examples:
 
 {index}

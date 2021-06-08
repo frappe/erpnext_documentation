@@ -1,5 +1,5 @@
 <!-- add-breadcrumbs -->
-#Custom Translations
+# Custom Translations
 
 **With Custom Translations, user can print the customer's and supplier's document in their local language.**
 
@@ -9,7 +9,7 @@ For example, if you have customers from Germany and France who want quotations i
 
 In the Customer master, select the default Language. Say, the default language for the Customer is **Spanish**.
 
-<img src="{{docs_base_url}}/v13/assets/img/setup/multilingual_print_format/set_customer_default_lang.png" class="screenshot">
+![Set Customer Language](/docs/v13/assets/img/customize/set-customer-language.png)
 
 Same way, you can also set default language in the Supplier master.
 
@@ -19,7 +19,7 @@ In the Print Preview of a transaction, values will be translated into the party'
 
 Customer Quotation print preview in customer's default language.
 
-<img src="{{docs_base_url}}/v13/assets/img/setup/multilingual_print_format/customer_quotation.png" class="screenshot">
+![Invoice in Customer Language](/docs/v13/assets/img/customize/invoice-in-customer-language.png)
 
 Supplier Quotation print preview in supplier's default language.
 
@@ -27,7 +27,7 @@ Supplier Quotation print preview in supplier's default language.
 
 User has the option to select an alternate language on print view.
 
-<img src="{{docs_base_url}}/v13/assets/img/setup/multilingual_print_format/alternate_language.png" class="screenshot">
+![Select Language in Invoice](/docs/v13/assets/img/customize/select-language-in-invoice.png)
 
 ## 2. Custom Translation
 
@@ -35,13 +35,15 @@ Users can set their custom translations using Custom Translations form. For exam
 
 > Home > Customization > Other > Custom Translations > New
 
-<img src="{{docs_base_url}}/v13/assets/img/setup/multilingual_print_format/translation.png" class="screenshot">
+![Translation](/docs/v13/assets/img/customize/translation.png)
 
 The translation is applied when the user selects the language as Spanish on supplier Quotation's print preview. Note that no translation is applied for the second item's description since it wasn't created in the Translation list.
 
-<img src="{{docs_base_url}}/v13/assets/img/setup/multilingual_print_format/custom_translation.png" class="screenshot">
+![Translation in Transaction](/docs/v13/assets/img/customize/translation-in-transaction.png)
 
 ### 3. Related Topics
 1. [Address Template](/docs/v13/user/manual/en/setting-up/print/address-template)
 1. [Quotation](/docs/v13/user/manual/en/selling/quotation)
 1. [Sales Order](/docs/v13/user/manual/en/selling/sales-order)
+
+{next}
