@@ -13,7 +13,7 @@ If more than one sales persons are working together on an order, then contributi
 
 <img class="screenshot" alt="Sales Person Order" src="{{docs_base_url}}/assets/img/articles/sales-person-transaction-2.png">
 
-On saving transaction, based on the Net Total and Contriution (%), `Contribution to Net Total` will be calculated for each Sales Person.
+On saving transaction, based on the Net Total and Contribution (%), `Contribution to Net Total` will be calculated for each Sales Person.
 
 <div class=well>Total % Contribution for all Sales Person must be 100%. If only one Sales Person is selected, then % Contribution will be 100.</div>
 
