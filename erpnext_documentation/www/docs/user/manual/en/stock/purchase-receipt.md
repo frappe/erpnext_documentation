@@ -163,6 +163,8 @@ by the “Accepted Quantity” If you have rejections, a Stock Ledger Entry is
 made for each Rejection. The “Pending Quantity” is updated in the Purchase
 Order.
 
+General Ledger Entries are also created for the Purchase Receipt upon submission, which can be viewed using the View > Accounting Ledger button. If the Purchase Receipt was created from a Purchase Invoice and the exchange rate at the time of creation of the Purchase Receipt is different from that at the time of creation of the Purchase Invoice, additional General Ledger Entries will be created to handle the difference.
+
 After submitting the Purchase Receipt, the following can be created:
 
 * [Purchase Return](/docs/user/manual/en/stock/purchase-return)
