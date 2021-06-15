@@ -6,16 +6,7 @@
 You can set multiple levels of approval for an ERPNext Workflow. To allow multiple people to submit multiple requests, for approvals by multiple users, ERPNext requires you to fill the Workflow conditions.
 ERPNext tracks the multiple permissions before submission.
 
-Example of a leave application Workflow is given below:
-
-<img class="screenshot" alt="Workflow" src="{{docs_base_url}}/v13/assets/img/setup/workflow-leave-fl.png">
-
-This is an example of a two level approval with cancellation. If a user applies for leave, then his request will be sent to the HR
-department. The HR department (HR User) will either reject or approve this
-request. Once this process is completed, the user's Manager (leave approver)
-will get an indication that the HR department has Accepted or Rejected. The
-Manager, who is the approving authority, will either Approve or Reject this
-request. Accordingly, the user will get his Approved or Rejected status.
+Consider a scenario, where multiple levels of approval are required for a quotation. A sales person (user with 'Sales User' role) will create a quotation. Then it is either approved or rejected by a sales lead (user with 'Sales Manager' role). If approved by sales lead, it is further approved or rejected by regional manager (user with 'Regional Manager' role).
 
 To make a Workflow and transition rules go to:
 
@@ -36,18 +27,11 @@ Before creating a Workflow, it is advised to create these first:
 
     The Workflow States can have different colors according to the state. Eg: Green for success. Document statuses: Saved = 0, Submitted = 1, Cancelled = 2.
 
-    <img class="screenshot" alt="Workflow" src="{{docs_base_url}}/v13/assets/img/setup/workflow-1.png">
-
-    The field you select under Update Field will be updated for the document type when the State changes. Update Value is the text that appears on the field selected in Update Field. So here the status field is updated to Applied, Approved, etc.
+    ![Workflow](/docs/v13/assets/img/setup/workflow.png)
 
 1. Enter the Transition Rules.
 
-    <img class="screenshot" alt="Workflow" src="{{docs_base_url}}/v13/assets/img/setup/workflow-2.png">
-
-    Action indicates the actions an approver can take on the leave application. Next State is the State the document type will be at when the Action is applied. So here, the State changes from Applied to Approved by HR when the Approve action is performed on it.
-
-1. Under Workflow State Field, enter a name for the Custom Field that'll be added to the DocType, Leave Application in this case.
-1. On saving, the Custom Field will be created in the DocType.
+    ![Workflow Transition Rules](/docs/v13/assets/img/setup/workflow-transition-rules.png)
 
 ### 2.2 Things to note when creating a Workflow
 
@@ -64,7 +48,7 @@ workflow transition step that says from submitted you can cancel.
 
 ### 2.3 Other options for a Workflow
 1. Is Active: On ticking this, all other Workflows for the selected DocType become inactive.
-1. Don't Override Status: This Workflow's status will not override the status of the document (Leave Application) in the list view.
+1. Don't Override Status: This Workflow's status will not override the status of the document (Quotation) in the list view.
 1. Send Email Alerts: Emails will be sent to the user with next possible workflow actions.
 
 ## 3. Features
@@ -82,14 +66,13 @@ E.g. states like Canceled or Rejected can be optional.
 
 ### 3.2 Conditions
 
-> Introduced in Version 11
 
-In Version 11, you can also add a condition for the Transition to be applicable. For example, in this case, if someone applies for a leave of more than 5 days, a particular role must approve. For this to happen in the particular transition, you can set a property for **Condition** under Approved by HR as:
+You can also add a condition for the Transition to be applicable. For example, in this case, if sales executive creates a quotation with grand total of $100,000 or more, a particular role must approve. For this to happen in the particular transition, you can set a property for **Condition**:
 
 ```
-doc.total_leave_days <= 5
+doc.grand_total <= 100000
 ```
-Then if someone applied for leave for less than 5 days, only that particular transition will apply. Here, `total_leave_days` is the field name of the field 'Total Leave Days' of Leave Application. To see the field name of a field go to Menu > Customize.
+Here, `grand_total` is the field name of the field 'Grand Total' of Quotation. To see the field name of a field go to Menu > Customize.
 
 This can be extended to any property of the document.
 
@@ -113,20 +96,20 @@ Examples:
 doc.creation > frappe.utils.add_to_date(frappe.utils.now_datetime(), days=-5, as_string=True, as_datetime=True)
 ```
 
-## 4. Example of a Leave Application Process
+## 4. Example of a Quotation Approval Process
 
-When a Leave Application is saved by Employee, the status of the document changes to "Applied":
+When a quotation is saved by sales user, the status of the document changes to "Draft" and when clicked on submit the status changes to 'Approval Pending By Sales Manager':
 
-<img class="screenshot" alt="Workflow" src="{{docs_base_url}}/v13/assets/img/setup/workflow-3.png">
+![Workflow State in Transaction](/docs/v13/assets/img/setup/workflow-status-in-transaction.png)
 
-When the HR User logs in, he can either Approve or Reject. If approved the
-status of the document changes to "Approved by HR". However, it is yet to be approved by Leave Approver.
+When the Sales Manager logs in, he can either Approve or Reject. If approved the
+status of the document changes to "Approval Pending By Regional Manager".
 
-<img class="screenshot" alt="Workflow" src="{{docs_base_url}}/v13/assets/img/setup/workflow-4.png">
+![Workflow Action Options](/docs/v13/assets/img/setup/workflow-action-options.png)
 
-When the Leave Approver opens the Leave Application page, he can finally "Approve" or "Reject" the Leave Application.
+When the Regional Manager opens the quotation, he can finally "Approve" or "Reject" it.
 
-<img class="screenshot" alt="Workflow" src="{{docs_base_url}}/v13/assets/img/setup/workflow-5.png">
+![Workflow Action Options](/docs/v13/assets/img/setup/workflow-action-options-2.png)
 
 ## 5. Video
 <div>

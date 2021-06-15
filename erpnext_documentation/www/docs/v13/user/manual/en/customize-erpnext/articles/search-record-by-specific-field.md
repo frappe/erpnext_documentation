@@ -1,7 +1,10 @@
 <!-- add-breadcrumbs -->
 # Search Record by Specific Field
 
-While creating any DocType, you may want to link a particular field to another DocType. For ease in selection, you can also ensure that you are able to see the value of another field of the latter DocType in the search result.
+While creating any DocType, you may want to link a particular field to another DocType. For example, in Sales Order DocType, 'Customer' field allows you to select an existing customer. Such fields are called [Link Fields](/docs/v13/user/manual/en/customize-erpnext/articles/field-types#link).
+
+Using Link Fields you can create a
+
 
 Let's assume that you want to see that Item in a Sales Order along with its Item Group. The steps to do this are given below:
 

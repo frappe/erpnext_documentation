@@ -6,7 +6,7 @@
 
 **An Assignment Rule lets you set up automatic assignment of documents to Users.**
 
-Assignment Rule will be useful in a scenario wherein you have a support team and incoming support tickets. To assign the support tickets automatically amongst the employees who work on support, an Assignment Rule can be used.
+To assign the support tickets automatically amongst the employees who work on support, an Assignment Rule can be used.
 
 To access Assignment Rule, go to:
 > Home > Settings > Assignment Rule
@@ -26,18 +26,19 @@ To set up an automatic assignment:
     - `issue_type == "Technical" and priority=="High" and status == "Open"`
 
 1. Select the assignment rule.
+
     ![Assignment Rule](/docs/v13/assets/img/automation/assignment-rule-select.png)
 
     * **Round Robin**: Assign each document to a User in sequence.
     * **Load Balancing**: Assign new documents to the User who has the least number of assignments.
 
         Select the list of Users to whom this Assignment Rule will apply:
-        <img class="screenshot" alt="Assign" src="{{docs_base_url}}/v13/assets/img/automation/auto-assign-2.png">
+        ![Users in Assignment Rule](/docs/v13/assets/img/automation/auto-assign-2.png)
 
     * **Based on Field**: Introduced in v13, this rule can be used to assign a document to the User that is set in the configured field.
 
         Select the User link field which will determine to whom this Assignment Rule will apply:
-        <img class="screenshot" alt="Field Assign" src="{{docs_base_url}}/v13/assets/img/automation/field-auto-assign.png">
+        ![Field Assign](/docs/v13/assets/img/automation/field-auto-assign.png)
 
 
 1. Save.
@@ -50,12 +51,12 @@ High Priority Issue *File Upload not working* has been assigned to you.
 
 ### 1.1 Multiple Assignment Rules
 
-You can also set up multiple auto assignments for each Document Type, the one with the highest Priority will be applied first:
+You can also set up multiple auto assignments for each Document Type, the one with the highest Priority will be applied first.
 
-Here is an example of an Assignment Rule.
+![Assignment Rule with Higher Priority](/docs/v13/assets/img/automation/assignment-rule-with-higher-priority.png)
 
-Set Document Type, Descriptions and Conditions.
-<img class="screenshot" alt="Assign" src="{{docs_base_url}}/v13/assets/img/automation/auto-assign-1.png">
+
+assignment-rule-with-higher-priority
 
 ### 1.2 Setting Due Date for assignment
 
@@ -76,3 +77,5 @@ If you want to set a due date on Issue assignment based on the "Resolution By" d
 
 1. [Workflows](/docs/v13/user/manual/en/setting-up/workflows)
 1. [Workflow Actions](/docs/v13/user/manual/en/setting-up/workflow-actions)
+
+{next}

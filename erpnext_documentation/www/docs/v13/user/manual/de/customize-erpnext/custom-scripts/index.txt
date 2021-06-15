@@ -1,1 +1,1 @@
-custom-script-examples
+client-script-examples

@@ -28,3 +28,5 @@ Document statuses:
 1. [Workflows](/docs/v13/user/manual/en/setting-up/workflows)
 1. [Workflow Actions](/docs/v13/user/manual/en/setting-up/workflow-actions)
 1. [Assignment Rule](/docs/v13/user/manual/en/automation/assignment-rule)
+
+{next}

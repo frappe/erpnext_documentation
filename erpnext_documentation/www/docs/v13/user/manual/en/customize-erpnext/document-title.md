@@ -5,8 +5,7 @@
 
 For example, the default title on a Quotation is the customer name, but if you are dealing with only a few customers and sending lots of quotations to each customer, you may want to customize.
 
-<img class="screenshot" alt = "Customize Title"
-    src="{{docs_base_url}}/v13/assets/img/customize/customize-document-title.png">
+![Document Title](/docs/v13/assets/img/customize/document-title.png)
 
 ## Setting Title Fields
 
@@ -22,13 +21,11 @@ You can set the default value of that property by using Python style string form
 
 You can define the title by setting document properties in braces `{}`. For example, if your document has fields `customer_name`, you can specify that as the Title of the Form.
 
-<img class="screenshot" alt = "Customize Title"
-    src="{{docs_base_url}}/v13/assets/img/customize/customize erpnext-defining-titles.gif">
+![Set Document Title](/docs/v13/assets/img/customize/set-document-title.gif)
 
 Alternatively, you can also define a particular field as the 'Title Field' in Customize Form.
 
-<img class="screenshot" alt = "Customize Title"
-    src="{{docs_base_url}}/v13/assets/img/customize/customize-document-title-6.png">
+![Title Field](/docs/v13/assets/img/customize/title-field-in-view-settings.png)    
 
 ## Fixed or Editable Titles
 

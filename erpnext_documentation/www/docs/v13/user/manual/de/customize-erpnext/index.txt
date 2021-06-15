@@ -1,6 +1,6 @@
 custom-field
 custom-doctype
-custom-scripts
+client-scripts
 customize-form
 document-title
 hiding-modules-and-features
