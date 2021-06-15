@@ -228,6 +228,8 @@ On submitting a Purchase Invoice, the following documents can be created against
 
 ![PI Submit](/docs/assets/img/accounts/pi-submit.png)
 
+Additionally, General Ledger Entries will be created automatically upon submission of the invoice, which can be viewed using the View > Accounting Ledger button. If the Purchase Invoice was created from a Purchase Receipt and the exchange rate at the time of creation of the Purchase Invoice is different from that at the time of creation of the Purchase Receipt, additional General Ledger Entries will be created to handle the difference.
+
 ## 4. More
 ### 4.1 Accounting Impact
 Similar to a Sales Invoice, in a Purchase Invoice you have to enter an Expense or an Asset account for
