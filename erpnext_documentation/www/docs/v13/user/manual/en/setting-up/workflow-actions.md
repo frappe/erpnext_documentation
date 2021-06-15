@@ -12,10 +12,11 @@ To access Workflow Actions, go to:
 > Home > Settings > Workflow Actions
 
 If a User is eligible to take action on some workflows, emails will be sent to the user with the relevant document as attachment. From there the user can `Approve` or `Reject` the Workflow.
-<img class="screenshot" alt="Workflow" src="{{docs_base_url}}/v13/assets/img/setup/workflow-actions-email.png">
+
+![Workflow Action Email](/docs/v13/assets/img/setup/workflow-actions-email.png)
 
 Also the users will see entries in their Workflow Action list:
-<img class="screenshot" alt="Workflow" src="{{docs_base_url}}/v13/assets/img/setup/workflow-actions-list.png">
+![Workflow Action List](/docs/v13/assets/img/setup/workflow-actions-list.png)
 
 **Note:**
 
@@ -25,3 +26,5 @@ Also the users will see entries in their Workflow Action list:
 ### Related Topics
 1. [Workflows](/docs/v13/user/manual/en/setting-up/workflows)
 1. [Assignment Rule](/docs/v13/user/manual/en/automation/assignment-rule)
+
+{next}
