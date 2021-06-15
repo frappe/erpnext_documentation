@@ -3,7 +3,7 @@
 
 There are various account settings in ERPNext to restrict and configure actions in the Accounting module.
 
-![Account Settings]({{docs_base_url}}/assets/img/accounts/account-settings.png)
+![Account Settings]({{docs_base_url}}/assets/img/accounts/accounts-settings.png)
 
 ## 1. Accounts Frozen Up to
 Freeze accounting transactions up to specified date, nobody can make/modify entry except the specified Role.
@@ -35,27 +35,30 @@ If checked, system will unlink the payment against the respective invoice. By de
 ## 10. Unlink Advance Payment on Cancellation of Order
 Similar to the previous option, this unlinks any advance payments made against Purchase/Sales Orders.
 
+## 11. Post Ledger Entries for Given Change
+If checked, for a point of sale invoice, the system will post ledger entries considering the change amount given.
 
-## 11. Book Asset Depreciation Entry Automatically
+
+## 12. Book Asset Depreciation Entry Automatically
 When checked, an automatic entry for an asset depreciation will be created based on the first date set. For example, yearly depreciation for an item will be scheduled for the next 3/4 years based on the Number of Depreciations Booked set in the Asset master. For more details, visit the [Asset Depreciation](/docs/user/manual/en/asset/asset-depreciation) page.
 
-## 12. Allow Cost Center in Entry of Balance Sheet Account
+## 13. Allow Cost Center in Entry of Balance Sheet Account
 If checked, system will allow user to tag entries in Balance Sheet Accounts against a Cost Center. By default Cost Center is available only for Profit/Loss account.
 
-## 13. Automatically Add Taxes and Charges from Item Tax Template
+## 14. Automatically Add Taxes and Charges from Item Tax Template
 Enabling this will populate the Taxes table in transactions if an [Item Tax Template](/docs/user/manual/en/accounts/item-tax-template) is set for an Item and that Item is selected in the transaction.
 
-## 14. Automatically Fetch Payment Terms
+## 15. Automatically Fetch Payment Terms
 Enabling this will automatically fetch the Payment Terms based on the Supplier.
 
-## 15. Print Settings
+## 16. Print Settings
 
 ![Account Settings]({{docs_base_url}}/assets/img/accounts/account-settings-1.png)
 
 * **Show Inclusive Tax In Print**: The applied taxes will be shown in the print view.
 * **Show Payment Schedule in Print**: The Payment Schedule table is visible on using [Payment Terms](/docs/user/manual/en/accounts/payment-terms). Enabling this will show this table in print view.
 
-## 16. Allow Stale Exchange Rate
+## 17. Allow Stale Exchange Rate
 This should be unchecked if you want ERPNext to check the age of records fetched from Currency Exchange in foreign currency transactions. If it is unchecked, the exchange rate field will be read-only in documents.
 
 Stale Days is the number of days to use when deciding if a Currency Exchange record is stale. This is valid when 'Allow Stale Rates' is **disabled**. So, if the Stale Days is set as 10, stale rates that are 10 days will be allowed. If Allow Stale Rates is enabled, there is no time limit on the age of stale rates.
@@ -71,5 +74,5 @@ If stale rates are disabled, the order of fetching is:
 * If no Currency Exchange is found Latest rate as per market is fetched automatically
 
 
-## 17. Use Custom Cash Flow Format
+## 18. Use Custom Cash Flow Format
 You may choose to use Custom Cash Flow Formats to customize what the Cash Flow report looks like. To know more, [visit this page](/docs/user/manual/en/accounts/articles/how-to-customise-cash-flow-report).
