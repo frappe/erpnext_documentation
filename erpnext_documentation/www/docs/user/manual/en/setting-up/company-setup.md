@@ -178,10 +178,10 @@ You can delete all transactions (Orders, Invoices) of a Company. *Use with cauti
 * The User has to be the creator of the Company
 
 #### Steps
-1. Click on the **Delete Company Transactions** button
+1. Click on the [Delete Transactions](/docs/user/manual/en/setting-up/delete-company-transactions#2-delete-transactions) button under Manage
 1. Verify your password
 1. Enter Company name for confirmation
-    ![Company after Save](/docs/assets/img/setup/company-delete-transactions.png)
+    ![Company after Save](/docs/assets/img/setup/successful-deletion.png)
 
 And you're done. The master data like Item, Account, Employee, BOM etc. will remain as it is.
 
@@ -194,6 +194,8 @@ And you're done. The master data like Item, Account, Employee, BOM etc. will rem
 * All communications linked to the Company will be deleted
 * All naming series will be reset
 * Stock Entries linked to a Warehouse of this Company will be deleted
+
+A record of all such deletion actions will be maintained in the [Transaction Deletion Tool](/docs/user/manual/en/setting-up/delete-company-transactions#1-transaction-deletion-tool) DocType, in case you ever want to see what DocTypes were affected by this.
 
 ### 3. Related Topics
 1. [Setting Up Taxes](/docs/user/manual/en/setting-up/setting-up-taxes)
