@@ -1,0 +1,91 @@
+[
+ {
+  "route": "/docs",
+  "title": "Docs Home"
+ },
+ {
+   "route": "/docs/v13/user/manual/en",
+   "title": "Manual (English)"
+  },
+
+ {
+  "route": "/docs/v13/user/manual/en/introduction",
+  "title": "Introduction"
+ },
+ {
+  "route": "/docs/v13/user/manual/en/setting-up",
+  "title": "Setting Up"
+ },
+ {
+   "route": "/docs/v13/user/manual/en/accounts",
+   "title": "Accounts"
+  },
+  {
+   "route": "/docs/v13/user/manual/en/stock",
+   "title": "Stock"
+  },
+  {
+   "route": "/docs/v13/user/manual/en/CRM",
+   "title": "CRM"
+  },
+  {
+   "route": "/docs/v13/user/manual/en/selling",
+   "title": "Selling"
+  },
+  {
+   "route": "/docs/v13/user/manual/en/buying",
+   "title": "Buying"
+  },
+  {
+   "route": "/docs/v13/user/manual/en/human-resources",
+   "title": "Human Resources"
+  },
+  {
+   "route": "/docs/v13/user/manual/en/projects",
+   "title": "Projects"
+  },
+  {
+   "route": "/docs/v13/user/manual/en/support",
+   "title": "Support"
+  },
+  {
+    "route": "/docs/v13/user/manual/en/asset",
+    "title": "Asset"
+  },
+ {
+   "route": "/docs/v13/user/manual/en/quality-management",
+   "title": "Quality Management"
+ },
+ {
+  "route": "/docs/v13/user/manual/en/manufacturing",
+  "title": "Manufacturing"
+ },
+ {
+  "route": "/docs/v13/user/manual/en/education",
+  "title": "Education"
+ },
+ {
+   "route": "/docs/v13/user/manual/en/healthcare",
+   "title": "Healthcare"
+  },
+  {
+   "route": "/docs/v13/user/manual/en/agriculture",
+   "title": "Agriculture"
+  },
+ {
+  "route": "/docs/v13/user/manual/en/non_profit",
+  "title": "Non Profit"
+ },
+ {
+  "route": "/docs/v13/user/manual/en/hospitality",
+  "title": "Hospitality"
+ },
+ {
+   "route": "/docs/v13/user/manual/en/erpnext_integration",
+   "title": "Integrations"
+  },
+ {
+  "route": "/docs/v13/user/manual/en/customize-erpnext",
+  "title": "Customize"
+ }
+]

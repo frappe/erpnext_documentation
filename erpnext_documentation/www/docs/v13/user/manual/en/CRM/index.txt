@@ -1,0 +1,16 @@
+lead
+opportunity
+customer
+contact
+address
+campaign
+email-campaign
+newsletter
+crm_reports
+lead_source
+opportunity_type
+sales_stage
+sales-person
+customer-group
+newsletter
+email_group

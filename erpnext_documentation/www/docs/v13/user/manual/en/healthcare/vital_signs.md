@@ -1,0 +1,31 @@
+<!-- add-breadcrumbs -->
+
+# Vital Signs
+
+ERPNext Healthcare helps you to capture the Vital Signs of Patients at any point in the treatment process. All Vitals information over time can be viewed as part of the Patient History.
+
+## 1. How to Create Vital Signs
+
+To create Vital Signs, go to:
+
+> Home > Healthcare > Consultation > Vital Signs
+
+Select the Patient, enter Date and Time and Save. You can capture various Vital Signs as shown below:
+
+<img class="screenshot" alt="ERPNext Healthcare" src="{{docs_base_url}}/v13/assets/img/healthcare/vital_signs_1.png">
+
+Normal values or ranges are provided for ease of assessment. An automated BMI calculator is also made available.
+
+<img class="screenshot" alt="ERPNext Healthcare" src="{{docs_base_url}}/v13/assets/img/healthcare/vitals_bmi.png">
+
+You can also create and record Vitals for a Patient from Patient Appointment, Patient Encounter or the Patient master documents by using the **Create > Vital Signs** button.
+
+> This Form has been Changed in Version 13
+
+## 2. Related Topics
+
+1. [Patient Appointment](/docs/v13/user/manual/en/healthcare/patient_appointment)
+1. [Patient](/docs/v13/user/manual/en/healthcare/patient)
+1. [Patient Encounter](/docs/v13/user/manual/en/healthcare/patient_encounter)
+
+{next}

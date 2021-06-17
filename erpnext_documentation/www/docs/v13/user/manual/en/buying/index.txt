@@ -1,0 +1,8 @@
+request-for-quotation
+purchase-order
+purchase-taxes-and-charges-template
+supplier
+supplier-quotation
+supplier-scorecard
+buying-settings
+supplier-group
