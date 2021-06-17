@@ -92,6 +92,13 @@ The Sales and Purchase Register report shows all the Sales and Purchase transact
 
 <img alt="Sales Register" class="screenshot" src="{{docs_base_url}}/assets/img/accounts/reports/sales-register.png">
 
+### 3.2 Tax Detail
+Go to: **Accounts > Reports > Tax Detail**.
+
+Some governments require taxes to be reported broken down into a specific format, and especially Goods and Services taxes. The Tax Detail report allows sectioned custom reports to be created easily from General Ledger Entries, down to individual invoice line items. Watch the animation below to see how it works:
+
+<img alt="Tax Detail" class="screenshot" src="{{docs_base_url}}/assets/img/accounts/reports/tax-detail.gif">
+
 ## 4. Budget and Cost Center
 ### 4.1 Budget Variance
 Go to: **Accounts > Budget and Cost Center > Budget Variance Report**.
@@ -130,7 +137,7 @@ More detailed analysis can also be done by using the 'Group By' filter which giv
 ### 6.2 Sales or Purchase Invoice Trends
 Go to: **Accounts > Analytics > Sales Invoice Trends *or* Purchase Invoice Trends**.
 
-Another very useful report is invoice trends, From this report you can easily get the trending items on monthly, quaterly, half yearly or yearly basis. You will get the idea of sales and purchase both in quantity and amount.
+Another very useful report is invoice trends. From this report you can easily get the trending items on a monthly, quarterly, half-yearly or yearly basis. You can analyse sales and purchases both in quantity and value.
 
 <img alt="Sales Invoice Trends" class="screenshot" src="{{docs_base_url}}/assets/img/accounts/reports/sales-invoice-trends.png">
 
