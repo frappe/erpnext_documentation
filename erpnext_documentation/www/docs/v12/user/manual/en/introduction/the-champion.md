@@ -1,13 +1,9 @@
 <!-- add-breadcrumbs -->
 # The Champion
 
-<<<<<<< HEAD
 We have done hundreds of ERPNext implementations over the past decade and we realize that successful ERPNext implementation is a lot about intangibles and attitude. ERP systems bring **organization-wide** changes which need to be managed effectively.
-=======
-<img alt="Champion" class="screenshot" src="{{docs_base_url}}/v12/assets/img/setup/implementation-image.png">
->>>>>>> e9d4ee18... docs: Fix assets URL
 
-<img alt="Champion" class="screenshot" src="{{docs_base_url}}/assets/img/setup/implementation-image.png" width=100%; height=100%>
+<img alt="Champion" class="screenshot" src="{{docs_base_url}}/v12/assets/img/setup/implementation-image.png" width=100%; height=100%>
 
 ## What does a project champion do?
 

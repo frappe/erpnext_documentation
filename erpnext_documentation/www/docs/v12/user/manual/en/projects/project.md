@@ -15,7 +15,7 @@ To access Projects, go to:
 
 > Home > Projects > Projects > Project 
 
-<img class="screenshot" alt="Project" src="{{docs_base_url}}//assets/img/project/projects-project-intro.png">
+<img class="screenshot" alt="Project" src="{{docs_base_url}}/v12/assets/img/project/projects-project-intro.png">
 
 ## 1. How to Create a Project
 
@@ -34,15 +34,9 @@ To access Projects, go to:
   4. **Priority**: You can select the priority level of the Project based on how crucial it is. You can also add more priority levels.
   5. **Department**: If the project belongs to, or is owned by a [Department](/docs/user/manual/en/human-resources/department) in the organization, you can add that here.
   6. **Is Active**: A Yes/No tab, which lets you change the active status of the project at any later stage.
-<<<<<<< HEAD
-  7. **Completion Method**: You can track the % completion of your project based on one of the three methods, viz. **Manual, Task Completion, Task Progress and Task Weight**. 
-  
-  <img class="screenshot" alt="Project 2" src="{{docs_base_url}}/assets/img/project/project-proj.png">
-=======
   7. **Completion Method**: You can track the % completion of your project based on one of the three methods, viz. **Manual, Task Completion, Task Progress and Task Weight**.
 
   <img class="screenshot" alt="Project 2" src="{{docs_base_url}}/v12/assets/img/project/project-proj.png">
->>>>>>> e9d4ee18... docs: Fix assets URL
 
   Some examples of how the Percentage Completion is calculated based on Tasks:
 

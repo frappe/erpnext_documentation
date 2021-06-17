@@ -25,13 +25,8 @@ In a Sales Order, click on Create and then click on Payment to make an advance p
 <img class="screenshot" alt="Payment Request" src="{{docs_base_url}}/v12/assets/img/accounts/pr-from-so.png">
 
 ### 2.2 Creating payment Request via Sales Invoice
-<<<<<<< HEAD
-In a Sales Invoice, click on Create and then click on Payment to make payment against the invoice. 
-<img class="screenshot" alt="Payment Request" src="{{docs_base_url}}/assets/img/accounts/pr-from-si.png">
-=======
 In a Sales Invoice, click on Create and then click on Payment to make payment against the invoice.
 <img class="screenshot" alt="Payment Request" src="{{docs_base_url}}/v12/assets/img/accounts/pr-from-si.png">
->>>>>>> e9d4ee18... docs: Fix assets URL
 
 Select appropriate Payment Gateway Account on Payment Request for accounts posting. Account head specified on payment gateway will 
 be considered to create a Journal Entry.

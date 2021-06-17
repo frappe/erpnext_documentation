@@ -69,13 +69,8 @@ The Time Sheet when expanded, allows you to enter the following details to it:
    * **Costing Rate**: This is the actual cost of work done. It is fetched from the activity cost (per employee) or from activity type and can be edited.
    * **Billing Amount**: The billing amount gets auto-calculated based on the billable number of hours and the billing Rate.
    * **Costing Amount**: The costing amount gets auto-calculated based on the number of hours and the costing rate.
-<<<<<<< HEAD
-   
-   <img class="screenshot" alt="Timesheet" src="{{docs_base_url}}/assets/img/project/projects-time-sheet-expansion.png">
-=======
 
    <img class="screenshot" alt="Timesheet" src="{{docs_base_url}}/v12/assets/img/project/projects-time-sheet-expansion.png">
->>>>>>> e9d4ee18... docs: Fix assets URL
 
 ## 2. Features
 

@@ -138,11 +138,7 @@ In conditions and formulas,
 
 #### Account Details
 
-<<<<<<< HEAD
-<img class="screenshot" alt="Salary Structure Account" src="{{docs_base_url}}/assets/img/human-resources/salary-structure-account.png">  
-=======
 <img class="screenshot" alt="Salary Structure Account" src="{{docs_base_url}}/v12/assets/img/human-resources/salary-structure-account.png">
->>>>>>> e9d4ee18... docs: Fix assets URL
 
   * Select Mode of Payment and Payment Account for the Salary Slips which will be generated using this Salary Structure
 
@@ -163,11 +159,7 @@ To create a new Salary Structure Assignment go to:
 
 > Human Resources > Payroll > Salary Structure Assignment > New Salary Structure Assignment
 
-<<<<<<< HEAD
-<img class="screenshot" alt="Salary Structure Assignment" src="{{docs_base_url}}/assets/img/human-resources/salary-structure-assignment.png">  
-=======
 <img class="screenshot" alt="Salary Structure Assignment" src="{{docs_base_url}}/v12/assets/img/human-resources/salary-structure-assignment.png">
->>>>>>> e9d4ee18... docs: Fix assets URL
 
 * * *
 

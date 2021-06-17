@@ -14,13 +14,8 @@ To access Tasks, go to,
   1. Go to the Task List and click on New.
   2. Add the subject of the task.
   3. Save.
-<<<<<<< HEAD
-  
-  <img class="screenshot" alt="Task" src="{{docs_base_url}}/assets/img/project/projects-task-creation-main.gif">
-=======
 
   <img class="screenshot" alt="Task" src="{{docs_base_url}}/v12/assets/img/project/projects-task-creation-main.gif">
->>>>>>> e9d4ee18... docs: Fix assets URL
 
 Alternatively, a task can also be created from a Project in the following way:
 
@@ -28,13 +23,8 @@ Alternatively, a task can also be created from a Project in the following way:
   2. Go to Task under the Project section on the Dashboard. The plus icon '+' here would direct you to the task creation page.
   3. Add the subject of the task.
   4. Save.
-<<<<<<< HEAD
-  
-  <img class="screenshot" alt="Task" src="{{docs_base_url}}/assets/img/project/projects-task-creation.gif">
-=======
 
   <img class="screenshot" alt="Task" src="{{docs_base_url}}/v12/assets/img/project/projects-task-creation.gif">
->>>>>>> e9d4ee18... docs: Fix assets URL
 
 ### 1.1 Additional Options while creating a Project
 
@@ -50,13 +40,8 @@ The following additional details can be added when editing a new task:
   * **Is Group**: This box can be checked to indicate that a task is a parent task, and can be further divided into multiple sub-tasks.
   * **Is Template**: This box can be checked to indicate that this task is a template task, and is meant to be used in a Project Template.
   * **Parent Task**: If a particular task is a part of a group task, the parent task can be linked to the task from this field.
-<<<<<<< HEAD
-  
-  <img class="screenshot" alt="Task" src="{{docs_base_url}}/assets/img/project/timesheet/project-task.png">
-=======
 
   <img class="screenshot" alt="Task" src="{{docs_base_url}}/v12/assets/img/project/timesheet/project-task.png">
->>>>>>> e9d4ee18... docs: Fix assets URL
 
 ## 2. Features
 

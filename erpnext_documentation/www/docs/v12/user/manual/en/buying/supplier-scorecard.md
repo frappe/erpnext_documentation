@@ -21,23 +21,13 @@ Before creating and using a Supplier Scorecard, it is advised that you create th
 2. Select a Supplier to score.
 3. Select the evaluating period whether weekly, monthly, or yearly.
 4. Setup the scoring function (details in next section).
-<<<<<<< HEAD
 5. A supplier scorecard is created for each supplier individually. Only one supplier scorecard can be created for each supplier. 
-<img class="screenshot" alt="Purchase Order" src="{{docs_base_url}}/assets/img/buying/supplier-scorecard.png">
-
-## 2. Features
-### 2.1 Scoring Setup
-The supplier scorecard consists of a set evaluation periods, during which the performance of a supplier is evaluated. This period can be weekly, monthly or yearly. The current score is calculated from the score of each evaluation period based on the weighting function. The default formula is linearly weighed over the previous 12 scoring periods. 
-<img class="screenshot" alt="Purchase Order" src="{{docs_base_url}}/assets/img/buying/supplier-scorecard-weighing.png">
-=======
-5. A supplier scorecard is created for each supplier individually. Only one supplier scorecard can be created for each supplier.
 <img class="screenshot" alt="Purchase Order" src="{{docs_base_url}}/v12/assets/img/buying/supplier-scorecard.png">
 
 ## 2. Features
 ### 2.1 Scoring Setup
-The supplier scorecard consists of a set evaluation periods, during which the performance of a supplier is evaluated. This period can be weekly, monthly or yearly. The current score is calculated from the score of each evaluation period based on the weighting function. The default formula is linearly weighed over the previous 12 scoring periods.
+The supplier scorecard consists of a set evaluation periods, during which the performance of a supplier is evaluated. This period can be weekly, monthly or yearly. The current score is calculated from the score of each evaluation period based on the weighting function. The default formula is linearly weighed over the previous 12 scoring periods. 
 <img class="screenshot" alt="Purchase Order" src="{{docs_base_url}}/v12/assets/img/buying/supplier-scorecard-weighing.png">
->>>>>>> e9d4ee18... docs: Fix assets URL
 This formula is customizable.
 
 #### Supplier Standings

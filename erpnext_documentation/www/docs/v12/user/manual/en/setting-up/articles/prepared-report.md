@@ -35,10 +35,5 @@ For better processing of such reports, ERPNext offers Prepared Reports (since v1
 1. You can either wait on the said screen or click on _here_ in the above message to open the page for the report. This will open a new page for the report:
     <img alt="Prepared Report Queued" class="screenshot" src="{{docs_base_url}}/v12/assets/img/articles/prepared-report-queued.png">
     As you see, the report page has status as "Queued". Once the report is ready, you will see a **Show Report** button which you can click to view the report:
-<<<<<<< HEAD
-     <img alt="Prepared Report Initiated" class="screenshot" src="{{docs_base_url}}/assets/img/articles/prepared-report-page.png">
-1. Since Prepared Report is also a doctype, to view the list of Prepared Reports, you can use the [Role Permission Manager](/docs/user/manual/en/setting-up/users-and-permissions/role-based-permissions) to grant access to the same.
-=======
      <img alt="Prepared Report Initiated" class="screenshot" src="{{docs_base_url}}/v12/assets/img/articles/prepared-report-page.png">
 1. Since Prepared Report is also a doctype, to view the list of Prepared Reports, you can use the [Role Permission Manager](/docs/v12/user/manual/en/setting-up/users-and-permissions/role-based-permissions) to grant access to the same.
->>>>>>> e9d4ee18... docs: Fix assets URL

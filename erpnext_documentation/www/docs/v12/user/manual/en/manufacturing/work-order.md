@@ -27,13 +27,8 @@ Before creating and using a Work Order, it is advised that you create the follow
 1. Enter the quantity to manufacture. Raw material Items will be fetched only when this is set.
 1. If the selected BOM has Operations mentioned in it, the system will fetch all Operations from BOM, these values can be changed. Refer [section 3.2](/docs/user/manual/en/manufacturing/work-order#32-operations-table) to know more.
 1. Set the Planned Start Date (an Estimated Date at which you want the Production to begin).
-<<<<<<< HEAD
-  <img class="screenshot" alt="Work Order" src="{{docs_base_url}}/assets/img/manufacturing/work-order.png">
-1. **Use Multi-Level BOM**: This is enabled by default. If you want to plan materials for sub-assemblies of the Item you're manufacturing leave this enabled. If you plan and manufacture the sub-assemblies separately, you can disable this checkbox. To know more, visit [this page](/docs/user/manual/en/manufacturing/articles/managing-multi-level-bom).
-=======
   <img class="screenshot" alt="Work Order" src="{{docs_base_url}}/v12/assets/img/manufacturing/work-order.png">
 1. **Use Multi-Level BOM**: This is enabled by default. If you want to plan materials for sub-assemblies of the Item you're manufacturing leave this enabled. If you plan and manufacture the sub-assemblies separately, you can disable this checkbox. To know more, visit [this page](/docs/v12/user/manual/en/manufacturing/articles/managing-multi-level-bom).
->>>>>>> e9d4ee18... docs: Fix assets URL
 1. Select Warehouses:
   1. **Source Warehouses**: Select this Warehouse in the Item row. The warehouse where you store your raw materials. Each required item can have a separate source warehouse. Group warehouse also can be selected as source warehouse. On submission of the Work Order, the raw materials will be reserved in these warehouses for production usage.
   1. **Work-in-Progress Warehouse**: The warehouse where your Items will be transferred when you begin production. Group Warehouse can also be selected as a Work in Progress warehouse.

@@ -176,13 +176,8 @@ An Example of various financial statement are given below:
  <img class="screenshot" alt="Cash Flow Report" src="{{docs_base_url}}/v12/assets/img/accounts/cash_flow_report.png">
 
 1. Profit and Loss Report:
-<<<<<<< HEAD
- <img class="screenshot" alt="Profit and Loss Report" src="{{docs_base_url}}/assets/img/accounts/profit_n_loss_report.png">
- 
-=======
  <img class="screenshot" alt="Profit and Loss Report" src="{{docs_base_url}}/v12/assets/img/accounts/profit_n_loss_report.png">
 
->>>>>>> e9d4ee18... docs: Fix assets URL
 1. Balance Sheet Report:
  <img class="screenshot" alt="Balance Sheet Report" src="{{docs_base_url}}/v12/assets/img/accounts/balance_sheet_report.png">
 

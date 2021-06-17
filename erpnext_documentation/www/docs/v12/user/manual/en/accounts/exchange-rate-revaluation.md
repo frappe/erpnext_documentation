@@ -13,13 +13,8 @@ To access the Exchange Rate Revaluation list, go to:
 1. To get started with multi currency accounting, you need to assign the accounting currency in an Account record.
 1. You can define Currency from the Chart of Accounts while creating an account.
 
-<<<<<<< HEAD
- <img class="screenshot" alt="Set Currency from Chart of Accounts" src="{{docs_base_url}}/assets/img/accounts/multi-currency/chart-of-accounts.png">
- 
-=======
  <img class="screenshot" alt="Set Currency from Chart of Accounts" src="{{docs_base_url}}/v12/assets/img/accounts/multi-currency/chart-of-accounts.png">
 
->>>>>>> e9d4ee18... docs: Fix assets URL
 1. You can also assign/modify the currency for existing accounts by opening the specific Account record.
 1. Click on the Account and Click on Edit.
 
@@ -35,13 +30,8 @@ Exchange Rate Revaluation feature is for dealing with the situation when you hav
 1. Go to **Accounting > Setup > Exchange Rate Revaluation > New**.
 1. Select the Company.
 1. Click the 'Get Entries' button. It'll fetch the accounts which have currency different from the 'Default Currency' set in the Company.
-<<<<<<< HEAD
-1. This will fetch the new exchange rate automatically if not set in Currency Exchange DocType for that currency else it will fetch the 'Exchange Rate' set in the [Currency Exchange](/docs/user/manual/en/accounts/currency-exchange) DocType.
- <img class="screenshot" alt="Exchange Rate Revaluation"   src="{{docs_base_url}}/assets/img/accounts/exchange-rate-revaluation.png">
-=======
 1. This will fetch the new exchange rate automatically if not set in Currency Exchange DocType for that currency else it will fetch the 'Exchange Rate' set in the [Currency Exchange](/docs/v12/user/manual/en/accounts/currency-exchange) DocType.
  <img class="screenshot" alt="Exchange Rate Revaluation"   src="{{docs_base_url}}/v12/assets/img/accounts/exchange-rate-revaluation.png">
->>>>>>> e9d4ee18... docs: Fix assets URL
 
 1. On Submitting, **Create Journal Entry** button will appear.
 <img class="screenshot" alt="Exchange Rate Revaluation Submitting"    src="{{docs_base_url}}/v12/assets/img/accounts/exchange-rate-revaluation-submit.png">

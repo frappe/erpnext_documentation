@@ -22,13 +22,8 @@ Before creating a Loan Application, it is advisable to create the following docu
 1. Enter loan information such as a Loan Type, Loan Amount and Required by Date.
 1. Select the [Repayment Method](#31-repayment-method) and based on loan information, information such as Total Payable Amount and Interest will be calculated.
 1. Save and Submit.
-<<<<<<< HEAD
-   
-  <img class="screenshot" alt="Loan Application" src="{{docs_base_url}}/assets/img/human-resources/loan-application.png">
-=======
 
   <img class="screenshot" alt="Loan Application" src="{{docs_base_url}}/v12/assets/img/human-resources/loan-application.png">
->>>>>>> e9d4ee18... docs: Fix assets URL
 
 ## 3. Features
 

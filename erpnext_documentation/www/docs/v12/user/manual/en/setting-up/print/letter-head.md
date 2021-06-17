@@ -19,13 +19,8 @@ To access Letter Head, go to:
   * Logo Image: Click on the Attach button to attach an image. Once the image is inserted, HTML for it will be generated automatically.
   * Other information (like Address, tax ID, etc.) that you want to put on your Letter Head.
 
-<<<<<<< HEAD
-    <img class="screenshot" alt="Print Heading" src="{{docs_base_url}}/assets/img/setup/print/letter-head.png">
-  
-=======
     <img class="screenshot" alt="Print Heading" src="{{docs_base_url}}/v12/assets/img/setup/print/letter-head.png">
 
->>>>>>> e9d4ee18... docs: Fix assets URL
   > If you want to make this the default Letter Head, click on "Default Letter Head".
 
 1. After entering values in the Header and Footer section, save the Letter Head.

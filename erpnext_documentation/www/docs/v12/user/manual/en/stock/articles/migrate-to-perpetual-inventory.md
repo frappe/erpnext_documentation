@@ -44,13 +44,8 @@ For the users who are currently following periodic inventory valuation system, a
   * Activate Perpetual Inventory
 
 1. Go to: **Home > Accounting > Company**
-<<<<<<< HEAD
-    
-    <img class="screenshot" alt="Perpetual Inventory" src="{{docs_base_url}}/assets/img/accounts/perpetual-1.png">
-=======
 
     <img class="screenshot" alt="Perpetual Inventory" src="{{docs_base_url}}/v12/assets/img/accounts/perpetual-1.png">
->>>>>>> e9d4ee18... docs: Fix assets URL
 
 #### 2. Related Topics
 1. [Accounting Of Inventory Stock](/docs/user/manual/en/stock/accounting-of-inventory-stock)

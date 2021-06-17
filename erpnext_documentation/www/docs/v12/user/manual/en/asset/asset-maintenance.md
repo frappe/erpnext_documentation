@@ -22,13 +22,8 @@ Before creating and using Asset Maintenance, it is advised to create the followi
 
 1. [Asset](/docs/user/manual/en/asset/asset)
 1. Go to an Asset master and check the 'Maintenance Required' checkbox in Asset to enable Asset Maintenance.
-<<<<<<< HEAD
-<img class="screenshot" alt="Asset" src="{{docs_base_url}}/assets/img/asset/maintenance_required.png">
-1. [Asset Maintenance Team](/docs/user/manual/en/asset/asset-maintenance-team)
-=======
 <img class="screenshot" alt="Asset" src="{{docs_base_url}}/v12/assets/img/asset/maintenance_required.png">
 1. [Asset Maintenance Team](/docs/v12/user/manual/en/asset/asset-maintenance-team)
->>>>>>> e9d4ee18... docs: Fix assets URL
 
 ## 2. How to create Asset Maintenance
 For each asset, create an Asset Maintenance record listing all the associated maintenance tasks, maintenance type (Preventive Maintenance or Calibration), periodicity, assign to and start and end date of maintenance. Based on start date and periodicity the next due date is auto-calculated and a ToDo is created for the Assignee.

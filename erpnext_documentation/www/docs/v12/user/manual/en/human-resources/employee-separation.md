@@ -55,13 +55,8 @@ To create a new Employee Separation Template:
 1. Go to: Human Resources > Employee Lifecycle > Employee Separation Template > New.
 1. Enter the Department, Designation and Employee Grade (optional).
 1. Mention the Activities for separation. For each Activity, you can also mention the User or Role, or one of it, to whom this Activity will be assigned.
-<<<<<<< HEAD
-  
-  <img class="screenshot" alt="Onboarding Template" src="{{docs_base_url}}/assets/img/human-resources/employee-separation-template.png">
-=======
 
   <img class="screenshot" alt="Onboarding Template" src="{{docs_base_url}}/v12/assets/img/human-resources/employee-separation-template.png">
->>>>>>> e9d4ee18... docs: Fix assets URL
 
 
 ### 3.2 Tasks and Assignments

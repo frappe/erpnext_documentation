@@ -64,13 +64,8 @@ Similarly, in a Purchase Invoice, accounting entries will be made based on Suppl
 
 In Journal Entry, you can make transactions in different currencies. There is a checkbox 'Multi Currency', to enable multi-currency entries. Only when 'Multi Currency' option selected, you will be able to select accounts which have different currencies.
 
-<<<<<<< HEAD
-<img class="screenshot" alt="Journal Entry Exchange Rate" src="{{docs_base_url}}/assets/img/accounts/multi-currency/journal-entry-multi-currency.png">
- 
-=======
 <img class="screenshot" alt="Journal Entry Exchange Rate" src="{{docs_base_url}}/v12/assets/img/accounts/multi-currency/journal-entry-multi-currency.png">
 
->>>>>>> e9d4ee18... docs: Fix assets URL
 In the Accounts table, on the selection of a foreign currency account, the system will show the Currency section and fetch Account Currency and Exchange Rate automatically. You can change/modify the Exchange Rate later manually. Debit/Credit amount should be entered in Account Currency, the system will calculate and show the Debit/Credit amount in Company Currency automatically.
 
 <img class="screenshot" alt="Journal Entry in multi currency" src="{{docs_base_url}}/v12/assets/img/accounts/multi-currency/journal-entry-row.png">
