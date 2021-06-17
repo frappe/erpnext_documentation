@@ -75,6 +75,62 @@ To print Tax Invoice as per GSTN guidelines, please select **GST Tax Invoice** p
 
 ![Sample GST Tax Invoice](/docs/v13/assets/img/regional/india/sample-gst-tax-invoice.png)
 
+### 8. GST Transactions
+
+#### 8.1 Reversal of Input Tax Credit
+
+To book reversal of ITC go to Journal Entry doctype and follow the following steps
+
+1. Select "Entry Type" as "Reversal Of ITC"
+2. In "Reversal Type" select "As per rules 42 & 43 of CGST Rules" or "Others" based on the types of reversal
+3. Select appropriate Company Address (GSTIN) for which ITC is being reversed
+4. Fill the accounts and amounts in the Accounting Entries as shown below
+5. Save and Submit
+
+![Reversal of Input Tax Credit](/docs/v13/assets/img/regional/india/reversal-of-itc.png)
+
+### 9. Setting up reverse charge and posting reverse charge purchase invoices
+
+#### 9.1 Add reverse charge accounts in GST Settings
+
+Add reverse charge accounts for GST as shown in the image below and check the "Is Reverse Charge Account" as shown in the image below. Instead of separate reverse charge account the Output GST tax account used for sales can also be marked as reverse charge account
+
+![GST Reverse Charge Settings](/docs/v13/assets/img/regional/india/gst-reverse-charge-setting.png)
+
+#### 9.2 Making purchase invoices liable to reverse charge
+
+To make purchase invoices liable to reverse charge invoices please follow the following steps
+
+* Select Supplier and add items to the invoice as usual
+
+* Select "Reverse Charge Applicable as "Y" under GST Details Section
+* If GST paid is eligible for input tax credit, in "Eligibility for ITC" select "ITC on Reverse Charge"
+* "Add" taxes using the regular Input Tax account heads
+
+![Reverse Charge](/docs/v13/assets/img/regional/india/reverse-charge-add.png)
+
+* "Deduct" the same amount of taxes using the reverse charge accounts so that the net GST payable by the supplier is 0
+
+![Reverse Charge](/docs/v13/assets/img/regional/india/reverse-charge-deduct.png)
+
+* Save and Submit
+
+In order to avoid manual selection of accounts and automate this process please follow below steps
+
+* Create Tax Category for reverse charge
+
+![Reverse Charge Tax Category](/docs/v13/assets/img/regional/india/reverse-charge-tax-category.png)
+
+* Update tax category in the relevant supplier masters
+
+![Supplier Tax Category](/docs/v13/assets/img/regional/india/supplier-tax-category.png)
+
+* Create Purchase Taxes and Charges template for reverse charge
+
+![Reverse Charge Template](/docs/v13/assets/img/regional/india/reverse-charge-template.png)
+
+* Once this configuration is done, on selection of supplier appropriate Purchase Taxes and Charges Template will be applied
+
 ### Reports
 
 ERPNext comes with most of your reports you need to prepare your GST Returns. Go to Accounts > GST India head for the list.
