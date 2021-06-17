@@ -14,7 +14,7 @@ To access the Contract list, go to:
 1. Choose the Customer.
 1. Enter the Contract Terms. A template can also be created for easily fetching the terms.
 1. Save.
-    ![Contract](/docs/assets/img/crm/contract.png)
+    ![Contract](/docs/v12/assets/img/crm/contract.png)
 
 **Party User**: The employee from your Company who is in contact with the Customer.
 
@@ -31,7 +31,7 @@ The Start and End date within which the Contract is valid.
 ### 2.2 Signee Details
 This section will appear when the 'Signed' checkbox is ticked to indicate that the Customer has signed and accepted the Contract. 
 
-![Contract Signee](/docs/assets/img/crm/contract-signee.png)
+![Contract Signee](/docs/v12/assets/img/crm/contract-signee.png)
 
 * **Signee**: Enter the name of the person that has signed the Contract.
 * **Signed On**: The date on which the Contract was signed.
@@ -42,7 +42,7 @@ Enter the terms of the Contract in the Contract Terms field. You can create a Co
 ### 2.4 Fulfilment Details
 If the Contract requires some fulfilment from the Supplier's (your) end, their details can be recorded in the Fulfilment Terms table.
 
-![Contract Fulfilment](/docs/assets/img/crm/contract-fulfilment.png)
+![Contract Fulfilment](/docs/v12/assets/img/crm/contract-fulfilment.png)
 
 * **Requirement**: Enter a requirement that needs to be fulfiled. For example, 'installation'.
 * **Notes**: Any notes about the requirement can be entered here.
@@ -60,7 +60,7 @@ The parties enter into this contract on {{ start_date }}.
 
 When you create a new contract using this template, the `{{ start_date }}` is replaced by the date entered into the field of the same name. 
 
-![Contract Template](/docs/assets/img/crm/contract-template-jinja.gif)
+![Contract Template](/docs/v12/assets/img/crm/contract-template-jinja.gif)
 
 ### 2.6 References
 If the Contract can be linked to a transaction in ERPNext. Select the transaction type and the specific transaction. The documents that can be linked are:
@@ -72,7 +72,7 @@ If the Contract can be linked to a transaction in ERPNext. Select the transactio
 * Sales Invoice
 * Purchase Invoice
 
-![Contract References](/docs/assets/img/crm/contract-reference.png)
+![Contract References](/docs/v12/assets/img/crm/contract-reference.png)
 
 ### 3. Related Topics
 1. [Quotation](/docs/user/manual/en/selling/quotation)

@@ -14,7 +14,7 @@ This report shows the Project Profitability with the following data:
 - Salary Slip generated using the Timesheet
 - Sales Invoice generated using the Timesheet
 
-<img class="screenshot" src="/docs/assets/img/project/profitability-report.gif">
+<img class="screenshot" src="/docs/v12/assets/img/project/profitability-report.gif">
 
 ### Calculation of Utilization
 

@@ -16,12 +16,12 @@ To access Web Page go to:
 1. Click on Save.
 1. The web page will be published only when **Published** is ticked.
 
-![New Web Page](/docs/assets/img/website/new-web-page.png)
+![New Web Page](/docs/v12/assets/img/website/new-web-page.png)
 *New Web Page*
 
 View your Web Page by clicking on **See on Website** in the side bar.
 
-![Web Page](/docs/assets/img/website/web-page.png)
+![Web Page](/docs/v12/assets/img/website/web-page.png)
 *Web Page*
 
 ### 1.1 Tips on making a good Web Page
@@ -46,7 +46,7 @@ For Rich Text Content, you can directly embed images using the editor. For
 Markdown and HTML, you must attach the images to the document first. Now get the
 URL of your image by right-clicking on your attachment and copying the address.
 
-![Image Link](/docs/assets/img/website/get-image-link.png)
+![Image Link](/docs/v12/assets/img/website/get-image-link.png)
 
 Now, add them to your Markdown or HTML using the appropriate syntax.
 
@@ -94,14 +94,14 @@ You can add a Website Sidebar with custom links on your Web Page. In the
 **Sidebar and Comments** section enable **Show Sidebar**. Select an existing
 Website Sidebar or create a new one.
 
-![Web Page Sidebar](/docs/assets/img/website/web-page-sidebar.png)
+![Web Page Sidebar](/docs/v12/assets/img/website/web-page-sidebar.png)
 *Web Page Sidebar*
 
 Add links and their route in the Sidebar Items table.
-![Website Sidebar](/docs/assets/img/website/new-website-sidebar.png)
+![Website Sidebar](/docs/v12/assets/img/website/new-website-sidebar.png)
 *Website Sidebar*
 
-![Web Page with Sidebar](/docs/assets/img/website/web-page-with-sidebar.png)
+![Web Page with Sidebar](/docs/v12/assets/img/website/web-page-with-sidebar.png)
 *Web Page with Sidebar*
 
 ### 2.5 Comments
@@ -109,7 +109,7 @@ Add links and their route in the Sidebar Items table.
 You can enable comments on your Web Page where people can leave a comment with
 their Name and Email. Enable comments from the **Sidebar and Comments** section.
 
-![Web Page Comments](/docs/assets/img/website/web-page-comments.gif)
+![Web Page Comments](/docs/v12/assets/img/website/web-page-comments.gif)
 *Web Page Comments*
 
 ### 2.6 Header
@@ -117,10 +117,10 @@ their Name and Email. Enable comments from the **Sidebar and Comments** section.
 You can add a custom HTML for the header section of the page. This will override
 the title of the Web Page.
 
-![Web Page Header](/docs/assets/img/website/web-page-header.png)
+![Web Page Header](/docs/v12/assets/img/website/web-page-header.png)
 *Web Page Header*
 
-![Web Page with Custom Header](/docs/assets/img/website/web-page-with-custom-header.png)
+![Web Page with Custom Header](/docs/v12/assets/img/website/web-page-with-custom-header.png)
 *Web Page with Custom Header*
 
 ### 2.7 Breadcrumbs
@@ -128,10 +128,10 @@ the title of the Web Page.
 You can add a list of breadcrumbs on your Web Page. These will be shown on top
 before the header.
 
-![Web Page Breadcrumbs](/docs/assets/img/website/web-page-breadcrumbs.png)
+![Web Page Breadcrumbs](/docs/v12/assets/img/website/web-page-breadcrumbs.png)
 *Web Page Breadcrumbs*
 
-![Web Page with Breadcrumbs](/docs/assets/img/website/web-page-with-breadcrumbs.png)
+![Web Page with Breadcrumbs](/docs/v12/assets/img/website/web-page-with-breadcrumbs.png)
 *Web Page with Breadcrumbs*
 
 ### 2.8 Meta Tags
@@ -140,7 +140,7 @@ You can also add Meta Tags to your Web Page. You must add the property key and
 its value in the Meta Tag Table and it will auto-generate HTML `meta` tags on
 your Web Page.
 
-![Web Page Meta Tags](/docs/assets/img/website/web-page-meta-tags.gif)
+![Web Page Meta Tags](/docs/v12/assets/img/website/web-page-meta-tags.gif)
 *Web Page Meta Tags*
 
 {next}

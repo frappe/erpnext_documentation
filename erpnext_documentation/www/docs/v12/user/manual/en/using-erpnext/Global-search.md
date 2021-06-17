@@ -7,7 +7,7 @@ For every sequence of a particular word or a set of characters, you will have a 
 
 ### Using Awesome Bar for Global Search.
 
-![Tree Master Renaming](/docs/assets/img/using-erpnext/using-global-search-2.gif)
+![Tree Master Renaming](/docs/v12/assets/img/using-erpnext/using-global-search-2.gif)
 
 Global Search helps users find information quickly. It’s located in the upper right-hand corner in ERPNext. Simply entering a few characters in the Search Bar will show results from several different record types (Contact, Customer, Issues, etc.) related to that keyword. You can also customize the fields based on which search will be shown.
 
@@ -20,5 +20,5 @@ You can also type in multiple keywords separated by & operator to find your desi
 
 ### Enable Global Search for fields in a Doctype.
 
-![Tree Master Renaming](/docs/assets/img/using-erpnext/using-global-search-1.gif)
+![Tree Master Renaming](/docs/v12/assets/img/using-erpnext/using-global-search-1.gif)
 

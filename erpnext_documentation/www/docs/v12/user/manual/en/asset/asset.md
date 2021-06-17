@@ -92,7 +92,7 @@ An Asset Category needs to be assigned to that Item. Now the Asset can be create
 On booking depreciations against this Asset, the Depreciation Schedule section will be visible.
 This table has columns for Finance Book, Schedule Date, Depreciation Amount, Amount Deprecated, and Journal Entry.
 
-![Depreciation Schedule](/docs/assets/img/asset/asset-depreciation.png)
+![Depreciation Schedule](/docs/v12/assets/img/asset/asset-depreciation.png)
 
 ### 4.3 Insurance Details
 If Insurance has been taken for the Asset you're recording, you can store the following Insurance details:
@@ -113,7 +113,7 @@ Ticking on Maintenance Required allows recording Asset Maintenance entries for t
 ### 4.6 After Submitting
 Once you create an Asset, you'll see options to transfer, scrap, or sell the asset. From the Make button, you can adjust its value and make a depreciation entry.
 
-![Asset Submit](/docs/assets/img/asset/asset-submit.png)
+![Asset Submit](/docs/v12/assets/img/asset/asset-submit.png)
 
 ### 5. Related Topics
 1. [Asset Maintenance](/docs/user/manual/en/asset/asset-maintenance)

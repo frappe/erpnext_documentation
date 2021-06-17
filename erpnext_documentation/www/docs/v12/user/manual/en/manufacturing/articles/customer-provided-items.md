@@ -5,7 +5,7 @@ In Contract Manufacturing, in some cases, the Customer provides specific items a
 
 In this feature, Customer Provided Item is received through 'Stock Entry' with type 'Material Receipt' from a 'Material Request' with type 'Customer provided'. This feature is used when someone subcontracts the manufacturing process to you and supplies the raw materials.
 
-<img alt="Customer Provided Material Request" class="screenshot" src="/docs/assets/img/articles/material-request-customer-provided.png">
+<img alt="Customer Provided Material Request" class="screenshot" src="/docs/v12/assets/img/articles/material-request-customer-provided.png">
 
 Here are the steps on how to setup a 'Customer Provided' item.
 

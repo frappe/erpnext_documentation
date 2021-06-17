@@ -118,7 +118,7 @@ The email discussion thread in an Issue maintains all the emails which are sent 
 
 You can assign an Issue to a specific User by clicking on "Assign" feature in the left sidebar. This will add a new To Do to the user and also send a message indicating that this Issue is allocated.
 
-![Assign Issue](/docs/assets/img/support/issue-assign.png)
+![Assign Issue](/docs/v12/assets/img/support/issue-assign.png)
 
 
 ### 4.5 Closing

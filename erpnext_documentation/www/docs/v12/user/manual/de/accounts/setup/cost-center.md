@@ -37,7 +37,7 @@ Sie könne ein Budget in der Kostenstelle einrichten. Wenn Sie saisonale Verkäu
 
 > Rechnungswesen > Einstellungen > Budgetverteilung > Neu
 
-![Budgetverteilung](/docs/assets/old_images/erpnext/budgeting.png)
+![Budgetverteilung](/docs/v12/assets/old_images/erpnext/budgeting.png)
 
 ### Budgetaktionen
 

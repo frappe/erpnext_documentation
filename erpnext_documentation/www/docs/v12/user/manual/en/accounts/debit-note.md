@@ -12,7 +12,7 @@ A Debit is for your record of the debit against the Items your return.
 The user can make a Debit Note against the Purchase Invoice or they can directly make Debit Note from the Purchase Invoice without reference.
 
 1. Go to the respective Purchase Invoice and click on **Create > Return / Debit Note**.
- ![Debit Note from Invoice](/docs/assets/img/accounts/debit-note-from-invoice.png)
+ ![Debit Note from Invoice](/docs/v12/assets/img/accounts/debit-note-from-invoice.png)
 1. The Supplier and Item details will be fetched as set in the Purchase Invoice.
 1. If you had paid partially or fully, make a Payment Entry against the original Purchase Invoice.
 1. Save and Submit.
@@ -25,7 +25,7 @@ The other steps are similar to a [Purchase Invoice](/docs/user/manual/en/account
 Once a Payment Entry is created against the original Purchase Invoice, the amount will be added to the Supplier's account in negative so that the next time you make a purchase, this amount will be adjusted. 
 
 This is how the ledger is affected after a payment entry against a returned invoice:
-![Debit Note Ledger](/docs/assets/img/accounts/debit-note-ledger.png)
+![Debit Note Ledger](/docs/v12/assets/img/accounts/debit-note-ledger.png)
 
 Refer the [Purchase Invoice](/docs/user/manual/en/accounts/purchase-invoice) page for any other details.
 

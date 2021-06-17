@@ -12,9 +12,9 @@ Before creating and using a Quality Inspection, it is advised that you do the fo
 
 * **Create an [Item](/docs/user/manual/en/stock/item)**.
 * **Enable Quality Inspection Criteria in the Item master**. On enabling either checkboxes, **submission** of a stock delivery/receipt document will be allowed only after a Quality Inspection is done against it:
-    ![Enable Quality Inspection](/docs/assets/img/stock/quality-inspection-pre-requisite.png)
+    ![Enable Quality Inspection](/docs/v12/assets/img/stock/quality-inspection-pre-requisite.png)
 * (Optional) **Create a Quality Inspection Template**. You can add inspection parameters and acceptance criteria in the template, which can be easily fetched into any Quality Inspection. After saving the template, you can set this template in the Item Master (as shown above).
-    ![Quality Inspection Template](/docs/assets/img/stock/quality-inspection-template.png)
+    ![Quality Inspection Template](/docs/v12/assets/img/stock/quality-inspection-template.png)
 
 ## 2. How to create a new Quality Inspection
 

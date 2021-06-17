@@ -5,11 +5,11 @@
 
 To delete a document, you can go to the dropdown menu of the document and select 'Delete'.
 
-![Restore Deleted Document](/docs/assets/img/using-erpnext/using-restore-1.png)
+![Restore Deleted Document](/docs/v12/assets/img/using-erpnext/using-restore-1.png)
 
 For bulk deletion, you can select multiple Cancelled records and delete them at once from the List View.
 
-![Restore Deleted Documents](/docs/assets/img/using-erpnext/using-restore-3.gif)
+![Restore Deleted Documents](/docs/v12/assets/img/using-erpnext/using-restore-3.gif)
 
 > Note: Any submittable document will not be deleted after submission. To delete a submitted document, you will be required to first 'cancel' the document.
 
@@ -27,7 +27,7 @@ To access Deleted Documents, go to:
 2. Open the deleted Document
 3. Click on the **Restore** button.
 
-![Restore Deleted Document](/docs/assets/img/using-erpnext/using-restore-2.gif)
+![Restore Deleted Document](/docs/v12/assets/img/using-erpnext/using-restore-2.gif)
 
 > Note: If the document was deleted after getting ** canceled**, it would be restored with a new name.
 

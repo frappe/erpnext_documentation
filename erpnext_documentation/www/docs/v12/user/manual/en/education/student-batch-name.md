@@ -5,7 +5,7 @@
 
 For example, A group of students studying the same Program together will be called a Student Batch.
 
-![Student Batch](/docs/assets/img/education/education-student-workflow.png)
+![Student Batch](/docs/v12/assets/img/education/education-student-workflow.png)
 
 To access the Student Batch, go to:
 > Home > Education > Settings > Student Batch Name

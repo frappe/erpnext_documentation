@@ -80,7 +80,7 @@ This can be useful to give discounts if a Customer buys an Item multiple times a
 ### 3.1 Apply Rule On Other
 This feature checks condition on first Item but applies rule on another Item.
 
-![Apply rule on other](/docs/assets/img/articles/pricing-rule-other.png)
+![Apply rule on other](/docs/v12/assets/img/articles/pricing-rule-other.png)
 
 For example, set Item1 and Item2 in the 'Apply Rule On' table and set 'Apply Rule On Other' on Item3. Now, if the transaction has Item1, Item2, and Item3, the Pricing Rule will apply on Item3 since the first two Items were present in the transaction.
 
@@ -112,7 +112,7 @@ You can also set a date interval for when the Pricing Rule will be valid. This i
 
 ### 3.5 Margin
 
-![Pricing Rule Margin](/docs/assets/img/articles/pricing-rule-margin1.png)
+![Pricing Rule Margin](/docs/v12/assets/img/articles/pricing-rule-margin1.png)
 
 * **Margin Type**: When selling an Item, you may sell it for a certain margin. If you don't want to add selling prices to Items every time and would like to automatically set a margin, it can be done with this feature.
 
@@ -123,7 +123,7 @@ Read [adding margin](/docs/user/manual/en/selling/articles/adding-margin) for mo
 ### 3.6 Price Discount Scheme
 The actual rule to be applied is set in this section.
 
-![Pricing Rule](/docs/assets/img/articles/pricing-rule-rule.png)
+![Pricing Rule](/docs/v12/assets/img/articles/pricing-rule-rule.png)
 
 * **Rate**: This will be the new rate for an Item. For example, if you sell an Item for 100 and want to sell it for 112 for a specific party, then select Rate and set the Rate as 112.
 * **Discount Percentage**: A specific discount percentage can be set. The discount percentage can be set to a specific [Price List](/docs/user/manual/en/stock/price-lists). Leaving the 'For Price List' blank will apply the Pricing Rule to all Price Lists.
@@ -131,7 +131,7 @@ The actual rule to be applied is set in this section.
 
 ### 3.7 Advanced Settings
 
-![Pricing Rule Advance](/docs/assets/img/articles/pricing-rule-adv.png)
+![Pricing Rule Advance](/docs/v12/assets/img/articles/pricing-rule-adv.png)
 
 * **Threshold for Suggestion**: This is the threshold based on which the system will notify you to adjust Item Quantity for discount. For example, if the Min Quantity is 10 and the Threshold is 9, the system will notify to add 1 more Item for the discount to be applicable. This also applies to the amount set.
 
@@ -152,7 +152,7 @@ The actual rule to be applied is set in this section.
 
 1. Rate mentioned in Pricing Rule will be given priority over Item's Price List (Item Price) rate.
 
- <img alt="Applicable Rate" class="screenshot" src="/docs/assets/img/articles/pricing-rule-price.png">
+ <img alt="Applicable Rate" class="screenshot" src="/docs/v12/assets/img/articles/pricing-rule-price.png">
 
 1. Discount Percentage can be applied for a specific Price List (Selling or Buying). To apply it for both, leave the 'For Price List' field blank.
 

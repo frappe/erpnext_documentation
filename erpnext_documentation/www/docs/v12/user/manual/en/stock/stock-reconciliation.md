@@ -30,7 +30,7 @@ You can also add Items in the stock which have Serial Numbers or the Batch Numbe
 1. The Difference Account will be set as 'Temporary Opening'.
 1. Save and Submit.
 
-    ![Opening Stock](/docs/assets/img/stock/opening_stock.png)
+    ![Opening Stock](/docs/v12/assets/img/stock/opening_stock.png)
 
 > Note: Maintain Stock option should be enabled in Item master for this to work.
 
@@ -48,7 +48,7 @@ To reconcile the stock:
 1. The Cost Center default will be 'Main', change if needed.
 1. Save and Submit.
   
-    ![Stock Reconciliation](/docs/assets/img/stock/stock_recon.png)
+    ![Stock Reconciliation](/docs/v12/assets/img/stock/stock_recon.png)
 
 
 ## 3. Features

@@ -25,7 +25,7 @@ To access the Quality Procedure list, go to:
 
 The 'Parent Procedure' is linked to the child procedure. For example 'Demo preparation' needs to be done before a demo and hence 'Product Demo' is the parent here:
 
-![Parent Procedure](/docs/assets/img/quality-management/procedure-parent.png)
+![Parent Procedure](/docs/v12/assets/img/quality-management/procedure-parent.png)
 
 ## 2. Features
 

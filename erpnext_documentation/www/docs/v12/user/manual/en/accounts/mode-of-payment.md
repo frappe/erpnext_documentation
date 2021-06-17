@@ -17,7 +17,7 @@ To access the Mode of Payment list, go to:
 
 > **Tip**: Setting the default Account will this account fetched into [Payment Entries](/docs/user/manual/en/accounts/payment-entry).
 
-![Mode of Payment](/docs/assets/img/accounts/mode-of-payment-pe.gif)
+![Mode of Payment](/docs/v12/assets/img/accounts/mode-of-payment-pe.gif)
 
 > **Note**: When making Payment Entries, the default bank account will be fetched in the following order if set:
 

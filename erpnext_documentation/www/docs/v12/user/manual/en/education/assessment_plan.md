@@ -34,7 +34,7 @@ Apart from the mandatory fields, you may also add the following details to the a
 1. **Program**: Select the Program under which the assessment has been conducted.
 1. **Academic Year and Academic Term**: Select and enter the Academic Year and the Academic Year for which the Assessment is being done.
 
-![Assessment Plan](/docs/assets/img/education/assessment-plan-4.png)
+![Assessment Plan](/docs/v12/assets/img/education/assessment-plan-4.png)
 
 ## 3. Features
 
@@ -47,13 +47,13 @@ Apart from the mandatory fields, you may also add the following details to the a
 1. **Examiner**: Add the name of the Examining Instructor for this assessment.
 1. **Supervisor**: Add the name of the Supervising Instructor for this assessment.
 
-![Assessment Plan](/docs/assets/img/education/education-assessment-plan-2.png)
+![Assessment Plan](/docs/v12/assets/img/education/education-assessment-plan-2.png)
 
 ### 3.2. Evaluate
 
 Once you select the Course and the Grading Scale gets updated, you will be required to enter the Maximum Assessment Score and the Assessment Criteria would get automatically updated in the system.
 
-![Assessment Plan](/docs/assets/img/education/education-assessment-plan-3.png)
+![Assessment Plan](/docs/v12/assets/img/education/education-assessment-plan-3.png)
 
 #### Video Tutorial on Assessment Plan
 

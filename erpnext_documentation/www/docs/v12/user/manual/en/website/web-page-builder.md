@@ -18,15 +18,15 @@
 1. Click on Save.
 1. The web page will be published only when **Published** is ticked.
 
-![New Web Page with Page Builder](/docs/assets/img/website/new-web-page-with-page-builder.png)
+![New Web Page with Page Builder](/docs/v12/assets/img/website/new-web-page-with-page-builder.png)
 _New Web Page with Page Builder_
 
-![Page Builder Edit Values Dialog](/docs/assets/img/website/page-builder-edit-values-dialog.png)
+![Page Builder Edit Values Dialog](/docs/v12/assets/img/website/page-builder-edit-values-dialog.png)
 _Page Builder Edit Values Dialog_
 
 View your Web Page by clicking on **See on Website** in the sidebar.
 
-![Web Page](/docs/assets/img/website/web-page-with-page-builder-preview.png)
+![Web Page](/docs/v12/assets/img/website/web-page-with-page-builder-preview.png)
 _Web Page with Page Builder_
 
 ### 1.1 Add Sections
@@ -35,10 +35,10 @@ You can add more sections to your page by adding more rows in the Page Building 
 table. The framework comes with a great set of Web Templates for you to create
 all sorts of pages.
 
-![More Sections](/docs/assets/img/website/web-page-with-more-sections.png)
+![More Sections](/docs/v12/assets/img/website/web-page-with-more-sections.png)
 _Web Page with another section_
 
-![More Sections - Preview](/docs/assets/img/website/web-page-with-more-sections-preview.png)
+![More Sections - Preview](/docs/v12/assets/img/website/web-page-with-more-sections-preview.png)
 _Web Page with another section - Preview_
 
 ### 1.2 Section Options
@@ -53,7 +53,7 @@ following additional options:
 - **Hide Block**: If checked, it will hide the section block.
 - **CSS Class**: Add any CSS class and style it in the CSS field in the Style section.
 
-![Section Options](/docs/assets/img/website/page-builder-section-options.png)
+![Section Options](/docs/v12/assets/img/website/page-builder-section-options.png)
 _Section Options_
 
 

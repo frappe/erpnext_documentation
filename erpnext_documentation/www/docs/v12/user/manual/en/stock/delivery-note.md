@@ -10,7 +10,7 @@ inventory. The Delivery Note is an optional step and a Sales Invoice can be crea
 To access the Delivery Note list, go to:
 > Home > Stock > Stock Transactions > Delivery Note
 
-![Delivery Note flow](/docs/assets/img/stock/delivery-note-flow.png)
+![Delivery Note flow](/docs/v12/assets/img/stock/delivery-note-flow.png)
 
 
 ## 1. Prerequisites
@@ -148,7 +148,7 @@ If you outsource transporting Items to their delivery location, the transporter 
 * **Transporter**: The Supplier who will transport the Item to your Customer. The transporter feature should be enabled in the Supplier master to select the [Supplier](/docs/user/manual/en/buying/supplier) here.
 * **Driver**: You can add a Driver here who will drive the mode of transport.
 
-![Delivery Note Transport](/docs/assets/img/stock/delivery-note-transport.png)
+![Delivery Note Transport](/docs/v12/assets/img/stock/delivery-note-transport.png)
 
 The following details can be recorded:
 
@@ -227,7 +227,7 @@ The Dashboard will show the following options:
 * [Delivery Trip](/docs/user/manual/en/stock/delivery-trip)
 * [Sales Invoice](/docs/user/manual/en/accounts/sales-invoice)
 
-![Delivery Note after submit](/docs/assets/img/stock/delivery-note-submit.png)
+![Delivery Note after submit](/docs/v12/assets/img/stock/delivery-note-submit.png)
 
 > Tip: To disallow the creation of Delivery Notes without a Sales Order against it:
 

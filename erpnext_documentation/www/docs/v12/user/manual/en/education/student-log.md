@@ -23,7 +23,7 @@ To access Student Log, go to
 1. Enter the Student ID. The moment you do this, the name of the student will automatically be fetched.
 1. Save.
 
-    ![Student Log](/docs/assets/img/education/education-student-log-1.png)
+    ![Student Log](/docs/v12/assets/img/education/education-student-log-1.png)
 
 ### 3.1. Additional Options while creating a Student Log
 
@@ -34,7 +34,7 @@ To access Student Log, go to
     - Medical: If the student was found not having their lunch, or if they complained of some other medical issue.
     - Achievement: If the student scored a goal for the team in a football match.
 
-        ![Student Log](/docs/assets/img/education/education-student-log-2.png)
+        ![Student Log](/docs/v12/assets/img/education/education-student-log-2.png)
 
 * **Date**: You can select the date on which the log was entered.
 * **Academic Year**: You can select the academic session for which this log is being made.
@@ -43,6 +43,6 @@ To access Student Log, go to
 * **Student Batch**: Select the batch of which this student is a part of.
 * **Log**: This field will have your note of log for the student.
 
-    ![Student Log](/docs/assets/img/education/education-student-log-3.png)
+    ![Student Log](/docs/v12/assets/img/education/education-student-log-3.png)
 
 {next}

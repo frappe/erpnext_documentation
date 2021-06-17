@@ -7,7 +7,7 @@ Generally, advance payment is done in the case of high value deals. Consider a C
 
 In ERPNext, advance payment entry is created using Payment Entry. If there exist a Sales Order, you can directly create a Payment Entry for the advance amount. Or else, you can also create a standalone Payment Entry for the Customer. Same way, you can also create advance Payment Entry for Supplier, via Purchase Order.
 
-![PE from SO](/docs/assets/img/accounts/advance-payment-1.png)
+![PE from SO](/docs/v12/assets/img/accounts/advance-payment-1.png)
 
 > Note: If payment is not linked to an invoice, it is considered as an advance payment. The advance payments are reflected in the Accounts Receivable and Payable reports.
 

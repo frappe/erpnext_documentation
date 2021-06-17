@@ -7,7 +7,7 @@ You can rename a document in ERPNext (if it is allowed) by going to **Menu > Ren
 
 Alternatively, if you want to rename a whole bunch of records, use the Rename Tool. Go to:
 
-![Renaming a document](/docs/assets/img/setup/renaming-a-document.gif)
+![Renaming a document](/docs/v12/assets/img/setup/renaming-a-document.gif)
 
 > Home > Settings > Rename Tool
 

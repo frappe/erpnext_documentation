@@ -2,7 +2,7 @@
 
 You can find all settings related to booking appointments in Appointment Booking Settings.
 
-![Appointment Booking Settings](/docs/assets/img/crm/appointment-booking-settings.png)
+![Appointment Booking Settings](/docs/v12/assets/img/crm/appointment-booking-settings.png)
 
 ## 1. Enable Appointment scheduling
 

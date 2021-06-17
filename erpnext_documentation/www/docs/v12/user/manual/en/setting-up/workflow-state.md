@@ -7,7 +7,7 @@ Different Workflow States may be achieved before or after applying different Wor
 
 By default, the following Workflow States are created in ERPNext:
 
-![Workflow States](/docs/assets/img/setup/workflow-states.png)
+![Workflow States](/docs/v12/assets/img/setup/workflow-states.png)
 
 The Workflow States can have different colors according to the state.
 

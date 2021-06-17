@@ -25,13 +25,13 @@ To use the DATEV Export, these need to be created first:
 
 In the filters section you can choose the company whose **GL Entries** you want to export. You can also set the timeframe for the export. Usually this will be the last month.
 
-![DATEV Export Filters](/docs/assets/img/regional/germany/datev-export-filters.png)
+![DATEV Export Filters](/docs/v12/assets/img/regional/germany/datev-export-filters.png)
 
 ## Menu
 
 From the menu you can open the [DATEV Settings](/docs/user/manual/en/regional/germany/datev-settings) or download the export file. The export file is a ZIP archive that contains the transaction data from the preview as well as master data (**Customers**, **Suppliers**, **Accounts**).
 
-![DATEV Export Menu](/docs/assets/img/regional/germany/datev-export-menu.png)
+![DATEV Export Menu](/docs/v12/assets/img/regional/germany/datev-export-menu.png)
 
 ## Exported Data
 

@@ -9,7 +9,7 @@ In ERPNext you can send any document as email (with a PDF attachment) by clickin
 
 After you click on send, the email gets added to the email queue. It will be in the Sending status until it is Sent. The status of the email is displayed in the queue, if sending has failed, it can be sent by clicking on Send Now.
 
-![Email Queue](/docs/assets/img/setup/email/email-queue.png)
+![Email Queue](/docs/v12/assets/img/setup/email/email-queue.png)
 
 The following options are available when sending an Email.
 
@@ -23,7 +23,7 @@ The following options are available when sending an Email.
 
 The following two fields are the fields which appear on the print screen:
 
-![Email Print Options](/docs/assets/img/setup/email/email-print-options.png)
+![Email Print Options](/docs/v12/assets/img/setup/email/email-print-options.png)
 
 * **Select Print Format**: The print format of the document. Know more about Print Format [here](/docs/user/manual/en/setting-up/print/print-format).
 * **Select Languages**: The language in which the PDF is to be generated.

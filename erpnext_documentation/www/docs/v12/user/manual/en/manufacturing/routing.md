@@ -24,17 +24,17 @@ To access the Routing list, go to:
     1. The Operating Cost will be calculated based on the Hourly Rate and the Operation Time.
 1. Save.
 
-    ![Routing](/docs/assets/img/manufacturing/routing.png)
+    ![Routing](/docs/v12/assets/img/manufacturing/routing.png)
 
 Once created, a Routing can be selected in a BOM to fetch the Operations stored in the Routing.
-![Routing BOM](/docs/assets/img/manufacturing/routing-bom.png)
+![Routing BOM](/docs/v12/assets/img/manufacturing/routing-bom.png)
 > Note: Once Operation Time is updated in Routing, the BOMs linked with the Routing will get the latest updated Operation Time too.
 
 ## 3. Sequence ID in Routing
-![Routing Sequence ID](/docs/assets/img/manufacturing/sequence-id-routing.png)
+![Routing Sequence ID](/docs/v12/assets/img/manufacturing/sequence-id-routing.png)
 Sequence ID enforces the users to complete the operations sequentially via Job Card. In case a user tries to complete an operation before completing any of its precedent operations as per the Sequence ID, the system throws a validation error as shown in the screenshot below.
 
-![Error](/docs/assets/img/manufacturing/sequence-id-error.png)
+![Error](/docs/v12/assets/img/manufacturing/sequence-id-error.png)
 
 ## 2. Related Topics
 1. [Work Order](/docs/user/manual/en/manufacturing/work-order)

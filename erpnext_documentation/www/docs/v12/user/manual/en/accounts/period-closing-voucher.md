@@ -24,7 +24,7 @@ To access the Period Closing Voucher list, go to:
 1. Select the account, usually this is the 'Reserves and Surplus' account.
 1. Enter any remarks.
 1. Save and Submit.
-  ![Period Closing Voucher](/docs/assets/img/accounts/period-closing-voucher.png)
+  ![Period Closing Voucher](/docs/v12/assets/img/accounts/period-closing-voucher.png)
 
 ### 1.2 The fields explained
 
@@ -37,7 +37,7 @@ The Period Closing Voucher will make accounting entries (GL Entry). This will ma
 
 You should select a liability account like Reserves and Surplus, or Any Revenue Reserve account or into Owners Capital account as Closing Account.
 
-![Period Closing Voucher ledger](/docs/assets/img/accounts/period-closing-voucher-ledger.png)
+![Period Closing Voucher ledger](/docs/v12/assets/img/accounts/period-closing-voucher-ledger.png)
 
 > **Note:** If accounting entries are made in a closing Fiscal Year, even after Period Closing Voucher was created for that Fiscal Year, you should create another Period Closing Voucher. Later voucher will only transfer the pending P&L balance into Closing Account Head.
 

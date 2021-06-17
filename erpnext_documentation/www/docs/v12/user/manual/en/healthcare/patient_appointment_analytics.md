@@ -19,7 +19,7 @@ Appointment Analytics according to Healthcare Practitioner is the default view:
 
 According to Medical Department:
 
-<img class="screenshot" alt="ERPNext Healthcare" src="/docs/assets/img/healthcare/appointment_analytics_2.png">
+<img class="screenshot" alt="ERPNext Healthcare" src="/docs/v12/assets/img/healthcare/appointment_analytics_2.png">
 
 The toolbar provides filters to select what data is to be used. Using the dropdown selections, the data displayed can be refined. As the selections are made, data is reflected in the data window as well as the graph window. The various filters available are:
 
@@ -28,11 +28,11 @@ The toolbar provides filters to select what data is to be used. Using the dropdo
 - Appointment Status
 - Medical Department
 
-    <img class="screenshot" alt="Appointment Analytics Filters" src="/docs/assets/img/healthcare/appointment_analytics_filters.png">
+    <img class="screenshot" alt="Appointment Analytics Filters" src="/docs/v12/assets/img/healthcare/appointment_analytics_filters.png">
 
 You can use the checkboxes on the Left Hand Side to choose what rows you want to see in the chart:
 
-<img class="screenshot" src="/docs/assets/img/healthcare/appointment_analytics.gif">
+<img class="screenshot" src="/docs/v12/assets/img/healthcare/appointment_analytics.gif">
 
 Using the **Set Chart** button, you can set values for the X and Y fields, use different types of charts and select a color.
 

@@ -31,17 +31,17 @@ To access Social Media Post, go to:
 5. Enter content for Twitter and LinkedIn.
 6. Attach image(Optional).
 7. Save and Submit.
-![New Social Media Post](/docs/assets/img/crm/social-media-post.png)
+![New Social Media Post](/docs/v12/assets/img/crm/social-media-post.png)
 
 ## 3. Features
 
 ### 3.1 Immediate Post
 Users can also immediately post just after submitting a Social Media Post by clicking the '**Post Now**' button.
-![Post Now](/docs/assets/img/crm/post-now.png)
+![Post Now](/docs/v12/assets/img/crm/post-now.png)
 
 ### 3.2 Reschedule
 Users can change the Scheduled Time of the post. In case there is an error, users can reschedule the post by changing the '**Scheduled Time**' of the Social Media Post document.
-![Reschedule Post](/docs/assets/img/crm/reschedule-post.png)
+![Reschedule Post](/docs/v12/assets/img/crm/reschedule-post.png)
 
 ## 4. Related Topics
 1. [Campaign](/docs/user/manual/en/CRM/campaign)

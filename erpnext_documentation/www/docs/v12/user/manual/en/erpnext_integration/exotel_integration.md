@@ -19,8 +19,8 @@ This integration allows you to integrate Exotel into your ERPNext account. Leads
 - In your connect API under "Create popup..." and paste following URL:
 `https://<your-site>/api/method/erpnext.erpnext_integrations.exotel_integration.handle_incoming_call`
 
-![Connect Applet](/docs/assets/img/erpnext_integrations/exotel_integration/connect_applet.png)
-![Call Popup Section](/docs/assets/img/erpnext_integrations/exotel_integration/create_popup_section.png)
+![Connect Applet](/docs/v12/assets/img/erpnext_integrations/exotel_integration/connect_applet.png)
+![Call Popup Section](/docs/v12/assets/img/erpnext_integrations/exotel_integration/create_popup_section.png)
 
 > **Note:** Replace `<your-site>` in URL with your site name. For example, if the site name is **frappe.erpnext.com** then the URL will be:
 `https://frappe.erpnext.com/api/method/erpnext.erpnext_integrations.exotel_integration.handle_incoming_call`
@@ -28,18 +28,18 @@ This integration allows you to integrate Exotel into your ERPNext account. Leads
 - After that add a Passthru applet under "After Call Conversation ends" and paste following URL:
 `https://<your-site>/api/method/erpnext.erpnext_integrations.exotel_integration.handle_end_call`
 
-![After Conversation Ends Section](/docs/assets/img/erpnext_integrations/exotel_integration/after_conversation_ends_section.png)
+![After Conversation Ends Section](/docs/v12/assets/img/erpnext_integrations/exotel_integration/after_conversation_ends_section.png)
 
-![After call ends section](/docs/assets/img/erpnext_integrations/exotel_integration/passthru_end_call.png)
+![After call ends section](/docs/v12/assets/img/erpnext_integrations/exotel_integration/passthru_end_call.png)
 
 > **Note:** Make sure to check "Make Passthru Async".
 
 - Similary, add a Passthru applet under "If nobody answers..." section and paste following URL:
 `https://<your-site>/api/method/erpnext.erpnext_integrations.exotel_integration.handle_missed_call`
 
-![No Response Section](/docs/assets/img/erpnext_integrations/exotel_integration/no_response.png)
+![No Response Section](/docs/v12/assets/img/erpnext_integrations/exotel_integration/no_response.png)
 
-![After call ends section](/docs/assets/img/erpnext_integrations/exotel_integration/passthru_missed_call.png)
+![After call ends section](/docs/v12/assets/img/erpnext_integrations/exotel_integration/passthru_missed_call.png)
 
 > **Note:** Make sure to check "Make Passthru Async".
 

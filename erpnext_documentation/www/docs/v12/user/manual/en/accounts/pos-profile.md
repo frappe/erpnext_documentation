@@ -48,7 +48,7 @@ By default, all Sales Users can access the POS Profiles created in ERPNext. Howe
 
 **Setting POS Profile as default**: On ticking the Default checkbox in the table, the current POS Profile becomes the default POS Profile for that User. So, the next time the User logs into the system, the POS Profile will be set by default.
 
-![POS User](/docs/assets/img/pos-setting/pos-profile-default.png)
+![POS User](/docs/v12/assets/img/pos-setting/pos-profile-default.png)
 
 > Note: If you specify a particular User, the POS setting will be
 applied only to that User. If the User option is left blank, the setting will
@@ -62,7 +62,7 @@ On setting an Item Group/Customer Group in a POS Profile, the group will be auto
 
 ### 2.3 Print Settings
 
-![POS Print](/docs/assets/img/pos-setting/pos-profile-print.png)
+![POS Print](/docs/v12/assets/img/pos-setting/pos-profile-print.png)
 
 #### Print Format for Online
 You can set a Print Format which will decide what the layout of the printed document will look like. To know more, visit the [Print Format](/docs/user/manual/en/setting-up/print/print-format) page.
@@ -88,7 +88,7 @@ Then the following can be configured in the POS Profile:
 * [Print Format](/docs/user/manual/en/setting-up/print/print-format)
 * [Customer Group](/docs/user/manual/en/CRM/customer-group)
 
-![POS Offline](/docs/assets/img/pos-setting/pos-profile-offline.png)
+![POS Offline](/docs/v12/assets/img/pos-setting/pos-profile-offline.png)
 
 ### 2.5 Accounting
 

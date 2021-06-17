@@ -15,7 +15,7 @@ To access the Student Group Creation Tool, go to:
 1. Click on get **Get Courses**: All the courses within the selected Program will be enlisted here. You can choose and delete courses from the list already added in the list. You can also select and add courses from other programs on this list.
 1. Click on **Create Students Groups**. Multiple Student groups for each course and batch will be created.
 
-![Student Group Creation Tool](/docs/assets/img/education/education-student-group-creation-tool.gif)
+![Student Group Creation Tool](/docs/v12/assets/img/education/education-student-group-creation-tool.gif)
 
 ## 2. Tutorial Video on Student Group Creation Tool
 

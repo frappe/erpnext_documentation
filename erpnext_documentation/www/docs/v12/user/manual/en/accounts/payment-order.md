@@ -22,8 +22,8 @@ Before creating and using the Payment Order, it is advisable to create the follo
 1. Go to the Payment Order list and click on New.
 1. Select the Company bank account.
 1. Click on the **Get from** button and select Payment Request. Apply filters if needed and select the Payment Requests.
- ![Payment Order Fetch](/docs/assets/img/accounts/payment-order-fetch.png)
+ ![Payment Order Fetch](/docs/v12/assets/img/accounts/payment-order-fetch.png)
 1. The Payment Requests will be fetched into the Payment Order.
- ![Payment Order Fetch](/docs/assets/img/accounts/payment-order.png)
+ ![Payment Order Fetch](/docs/v12/assets/img/accounts/payment-order.png)
 1. Save and Submit the Payment Order. Now, you'll see a button to make the Payment Entries in bulk.
- ![Payment Order Fetch](/docs/assets/img/accounts/payment-order-submit.png)
+ ![Payment Order Fetch](/docs/v12/assets/img/accounts/payment-order-submit.png)

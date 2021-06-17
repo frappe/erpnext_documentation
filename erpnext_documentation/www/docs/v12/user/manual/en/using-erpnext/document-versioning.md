@@ -5,7 +5,7 @@
 
 This feature comes handy while conducting an Audit Tail to check on what changes were made in a document along with the time of change and the stakeholder responsible.
 
-![Document Versioning](/docs/assets/img/using-erpnext/using-document-versioning-1.png)
+![Document Versioning](/docs/v12/assets/img/using-erpnext/using-document-versioning-1.png)
 
 ## How to Enable Document Versioning
 
@@ -16,7 +16,7 @@ Let's assume that we need to enable Document Versioning for Purchase Order.
 3. You shall be directed to the [Customize Form](/docs/user/manual/en/customize-erpnext/customize-form) page for Purchase Order.
 4. Check the field "Track changes" in the Properties.
 
- ![Document Versioning](/docs/assets/img/using-erpnext/using-document-versioning-2.gif)
+ ![Document Versioning](/docs/v12/assets/img/using-erpnext/using-document-versioning-2.gif)
 
 With this, Document Versioning shall be enabled for all the Purchase Orders edited henceforth.
 
@@ -26,6 +26,6 @@ For each document that has Document Versioning enabled, a Version Log is created
 
 When you click on these links, you will be directed to a log of all the fields and the changes made therein.
 
-![Document Versioning](/docs/assets/img/using-erpnext/using-document-versioning-3.gif)
+![Document Versioning](/docs/v12/assets/img/using-erpnext/using-document-versioning-3.gif)
 
 {next}

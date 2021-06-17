@@ -10,4 +10,4 @@ The UoM list by itself only stores the name. The actual conversion rates are sto
 
 For example, here 1 Kg is approximately 2.2 Pounds and the exact conversion factor is stored:
 
-![UoM conversion factor](/docs/assets/img/stock/uom_convert.png)
+![UoM conversion factor](/docs/v12/assets/img/stock/uom_convert.png)

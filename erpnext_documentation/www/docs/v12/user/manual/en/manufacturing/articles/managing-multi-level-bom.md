@@ -5,15 +5,15 @@ Consider a scenario where your manufacturing process involves producing sub-asse
 
 First of all, you need to have BOMs for the sub-assemblies, then these BOMs should be linked to the BOM of the final finished product. In the following screenshot, you can see that the BOM for Brush Bristles (subassembly) is linked to the BOM of the Shaving Brush (final product). This is seen in the Materials table in the Bill of Materials master.
 
-![Multi-level BOM](/docs/assets/img/articles/multi-bom.png)
+![Multi-level BOM](/docs/v12/assets/img/articles/multi-bom.png)
 
 The 'Materials' table will only show the sub-assemblies while the 'Materials Required (Exploded)' table will show all the raw materials required to manufacture the final product.
 
 BOM materials table where sub-assembly is shown:
-![Multi-level BOM](/docs/assets/img/articles/bom-materials.png)
+![Multi-level BOM](/docs/v12/assets/img/articles/bom-materials.png)
 
 In the exploded view only the raw materials are shown:
-![Multi-level BOM](/docs/assets/img/articles/bom-materials-exploded.png)
+![Multi-level BOM](/docs/v12/assets/img/articles/bom-materials-exploded.png)
 
 
 To use multi-level BOM in a Work Order, enable the 'Use Multi-Level BOM' checkbox. This is enabled by default. If you want to plan materials for sub-assemblies of the Item you're manufacturing leave this enabled. If you plan and manufacture the sub-assemblies separately disable this checkbox.

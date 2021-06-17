@@ -12,7 +12,7 @@ To access the Cashier Closing list, go to:
 1. Enter any expenses incurred during the shift like refershments, tea, coffee, etc.
 1. In the Payments table, enter the mode of Payment and the amount received.
 1. Save and Submit.
-    ![POS Cashier Closing](/docs/assets/img/accounts/pos-cashier-closing.png)
+    ![POS Cashier Closing](/docs/v12/assets/img/accounts/pos-cashier-closing.png)
 
 * **Custody**: The amount in the cash drawer.
 * **Returns**: The amount for the Items returned by Customers.

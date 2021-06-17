@@ -17,7 +17,7 @@ To access the Asset Category list, go to:
 1. Check 'Enable Capital Work in Progress Accounting' if you want to maintain records of assets under a temporary balance sheet account instead of the corresponding asset account. To know more, [visit this page](/docs/user/manual/en/asset/purchasing-an-asset).
 1. Save.
 
-    ![Asset Category](/docs/assets/img/asset/asset-category.png)
+    ![Asset Category](/docs/v12/assets/img/asset/asset-category.png)
 
 ### 1.1 Additional options when creating an Asset Category
 1. **Enable Capital Work in Progress Accounting**: On enabling this, accounting entry for assets under this category which are not in use are posted in the Capital Work in Progress accounts. This happens when you own the Asset but it isn't being used yet, i.e. 'Available for Use Date' is set at a later date. If you use all your assets immediately, disable this feature. On disabling this, CWIP accounting will be skipped.

@@ -42,7 +42,7 @@ You can also specify multiple of the above filters.
 
 ### 2.2 Closing the Loan
 When you repay the loan at the end of the loan period or before that, you can update the same by clicking on 'Close Loan' button.
-  ![Journal Entry](/docs/assets/img/accounts/invoice-discounting-disbursed.png)
+  ![Journal Entry](/docs/v12/assets/img/accounts/invoice-discounting-disbursed.png)
 System will prepare the Journal Entry. Review and Submit the it.
 
 ### 2.3 Auto Update of Ledgers at the end of Loan Period

@@ -53,7 +53,7 @@ To auto deduct the Loan repayment from Salary, check "Repay from Salary" in Loan
 ### 3.3 Extending the Loan
 Loan amount is deducted from the salary. If the employee is on leave without pay for some period, the existing loan can be extended without the need for creating a new loan. This can be done be editing the Repayment Schedule table even after submitting the loan.
 
-![Extending Loan](/docs/assets/img/human-resources/change-loan-amount.gif)
+![Extending Loan](/docs/v12/assets/img/human-resources/change-loan-amount.gif)
 
 ## 4. Related Topics
 

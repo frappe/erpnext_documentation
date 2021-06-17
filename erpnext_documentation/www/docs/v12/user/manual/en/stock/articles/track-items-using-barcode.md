@@ -21,4 +21,4 @@ After downloading the ERPNext app from the [Google Play Store](https://play.goog
 
 Log in to your ERPNext account, go to the Item master and you'll be able to scan barcodes and add Items right from your smartphone!
 
-![Item Barcode using Smartphone](/docs/assets/img/articles/item-barcode-phone.gif)
+![Item Barcode using Smartphone](/docs/v12/assets/img/articles/item-barcode-phone.gif)

@@ -13,15 +13,15 @@ To enable Braintree in your ERPNext account, you need to configure the following
 
 You can setup several Braintree payment gateways if needed. The choice of payment gateway account will determine which braintree account is used for the payment.
 
-![Braintree Settings](/docs/assets/img/setup/integrations/braintree_account.png)
+![Braintree Settings](/docs/v12/assets/img/setup/integrations/braintree_account.png)
 
 On enabling service, the system will create Payment Gateway record and an Account head in chart of account with account type as Bank.
 
-![Braintree COA](/docs/assets/img/setup/integrations/braintree_coa.png)
+![Braintree COA](/docs/v12/assets/img/setup/integrations/braintree_coa.png)
 
 It will also create a payment gateway account. You can change the default bank account if needed and create a template for the payment request.
 
-![Payment Gateway Account](/docs/assets/img/setup/integrations/payment_gateway_account_braintree.png)
+![Payment Gateway Account](/docs/v12/assets/img/setup/integrations/payment_gateway_account_braintree.png)
 
 After configuring the Payment Gateway Account, your system is able to accept online payments through Braintree.
 

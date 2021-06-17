@@ -25,7 +25,7 @@ Before you create Fees record, it is advisable that you create the following fir
 1. Add the **Due Date** of the payment of the Fees.
 1. Save.
 
-    ![Fees](/docs/assets/img/education/education-fee-1.gif)
+    ![Fees](/docs/v12/assets/img/education/education-fee-1.gif)
 
 ### 2.1. Additional Options while Creating Fees
 
@@ -38,19 +38,19 @@ Before you create Fees record, it is advisable that you create the following fir
 
 Add all the relevant details of the student which includes **Program Enrollment**, **Program**, **Academic Term** and **Academic Year.** The **Student Email ID** gets fetched from the Student details given earlier.
 
-![Fees](/docs/assets/img/education/education-fees-2.png)
+![Fees](/docs/v12/assets/img/education/education-fees-2.png)
 
 ### 3.2. Fee Structure
 
 You can select a **Fee Structure** for the given Fees Record. The moment you do so, all the **Fee Components** will be auto-populated from the Fee Structure.
 
-![Fees](/docs/assets/img/education/education-fee-4.gif)
+![Fees](/docs/v12/assets/img/education/education-fee-4.gif)
 
 ### 3.3. Fee Components
 
 You can also add the **Fee Components** by selecting and adding the **Fee Category**, **Description** and **Fee Amount**.
 
-![Fees](/docs/assets/img/education/education-fees-5.png)
+![Fees](/docs/v12/assets/img/education/education-fees-5.png)
 
 ### 3.4. Printing Settings
 
@@ -71,7 +71,7 @@ To facilitate that smoothly, you can add your Accounts details in the fee struct
 
 * **Cost Center**: Select and add the name of the Cost Center of your Institute for Accounting Dimensions.
 
-    ![Fees](/docs/assets/img/education/education-fees-3.png)
+    ![Fees](/docs/v12/assets/img/education/education-fees-3.png)
 
 ### Payment
 Directly make a payment from fee, select Mode of Payment in payment entry and submit the payment. 

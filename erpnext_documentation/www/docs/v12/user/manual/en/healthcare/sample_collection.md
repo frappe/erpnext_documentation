@@ -16,7 +16,7 @@ To create a Sample Collection go to
 5. Set the Date and Time of sample collection in the "Collected On" field.
 6. Save and Submit.
 
-  ![Sample Collection](/docs/assets/img/healthcare/sample-collection.png)
+  ![Sample Collection](/docs/v12/assets/img/healthcare/sample-collection.png)
 
 ## 2. Features
 
@@ -24,13 +24,13 @@ To create a Sample Collection go to
 
 You can also automate the creation of Sample Collection document for each Lab Test by enabling the 'Create Sample Collection document for Lab Test' option in [Healthcare Settings](/docs/user/manual/en/healthcare/healthcare_settings) and configure samples in the Lab Test Template.
 
-![Lab Sample Collection](/docs/assets/img/healthcare/lab-sample-collection.png)
+![Lab Sample Collection](/docs/v12/assets/img/healthcare/lab-sample-collection.png)
 
 ## 2.2 Sample labeling
 
 Printing of sample identification tags is also possible in ERPNext. By default a print format called "Sample ID Print" is made available, but you can always customize this directly using the [Print Format Builder](/docs/user/manual/en/setting-up/print/print-format-builder.html) or even create a custom [Print Format](/docs/user/manual/en/customize-erpnext/print-format.html) if required. The number of labels required has to be set in the "No. of prints" field in the Sample Collection document. Accordingly, those many labels will be generated in the print view.
 
-![Sample Print](/docs/assets/img/healthcare/sample-print.png)
+![Sample Print](/docs/v12/assets/img/healthcare/sample-print.png)
 
 ## 3. Related Topics
 

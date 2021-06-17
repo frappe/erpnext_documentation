@@ -21,19 +21,19 @@ To create a Lab Test, go to:
 6. After saving all the data configured in the template will be fetched and set in the lab test document.
 7. You can change the pre-configured data according to your requirements. Add comments if any, in the Comments section.
 
-    ![Lab Test](/docs/assets/img/healthcare/lab-test.png)
+    ![Lab Test](/docs/v12/assets/img/healthcare/lab-test.png)
 
 8. As the results get ready, you can enter the details of the results in the Lab Test document. All presets, Normal Values etc. as configured in the Lab Test Template are made available Lab Test for easy data capture.
 
 For example, Grouped Test:
-    ![Lab Result](/docs/assets/img/healthcare/lab_test_2.png)
+    ![Lab Result](/docs/v12/assets/img/healthcare/lab_test_2.png)
 
 Descriptive Test:
-    ![Lab Result](/docs/assets/img/healthcare/lab-result.png)
+    ![Lab Result](/docs/v12/assets/img/healthcare/lab-result.png)
 
 Components for which _Allow Blank_ is not checked, will throw a validation if left blank on submit.
 
-    ![Lab Result](/docs/assets/img/healthcare/result-mandatory.png)
+    ![Lab Result](/docs/v12/assets/img/healthcare/result-mandatory.png)
 
 ## 2. Features
 
@@ -41,17 +41,17 @@ Components for which _Allow Blank_ is not checked, will throw a validation if le
 
 It is also possible to use the "Create Multiple" option from the Lab Test list view to create all the lab tests ordered or billed for a patient. You can create multiple lab tests from a previously created Sales Invoice or Patient Encounter.
 
-![Lab Test Multiple](/docs/assets/img/healthcare/lab_test_3.png)
+![Lab Test Multiple](/docs/v12/assets/img/healthcare/lab_test_3.png)
 
 You can select the Patient and then the Encounter or Invoice from which you need to pull the tests without having to open the Encounter/Sales Invoice to look up the orders.
 
-![Lab Test](/docs/assets/img/healthcare/patient-encounter-lab-tests-1.png)
+![Lab Test](/docs/v12/assets/img/healthcare/patient-encounter-lab-tests-1.png)
 
 The tests prescribed in the Investigations section of that Patient Encounter would be pulled.
 
-![Lab Test](/docs/assets/img/healthcare/patient-encounter-lab-tests.png)
+![Lab Test](/docs/v12/assets/img/healthcare/patient-encounter-lab-tests.png)
 
-![Lab Test](/docs/assets/img/healthcare/patient-encounter-lab-tests-2.png)
+![Lab Test](/docs/v12/assets/img/healthcare/patient-encounter-lab-tests-2.png)
 
 In the case of Sales Invoice, the items (Lab Test Template items) billed in the invoice will be pulled to create Lab Tests.
 
@@ -59,7 +59,7 @@ In the case of Sales Invoice, the items (Lab Test Template items) billed in the 
 
 If the Lab Test Template has sample collection configured, then on creating the Lab Test, sample collection document(s) will be created automatically. To create Sample Collection documents for every Lab Test, enable _Create Sample Collection document for Lab Test_ option in Healthcare Settings and configure samples in the Lab Test Template.
 
-![Lab Sample Collection](/docs/assets/img/healthcare/lab-sample-collection.png)
+![Lab Sample Collection](/docs/v12/assets/img/healthcare/lab-sample-collection.png)
 
 ### 2.3 Automatic Lab Test creation on Sales Invoice submission
 
@@ -73,15 +73,15 @@ Organisms are an optional entry for descriptive lab tests. You can select the or
 
 In the case of Descriptive lab tests, if _Sensitivity_ option is enabled in the template you can enter the sensitivity results of the sample against various antibiotics in the Sensitivity child table. The Sensitivity and Antibiotic masters are pre-configured in ERPNext. You can extend or modify them as per your needs.
 
-![Sensitivity](/docs/assets/img/healthcare/sensitivity.png)
+![Sensitivity](/docs/v12/assets/img/healthcare/sensitivity.png)
 
 ### 2.6 Format Test Result
 
 ERPNext also allows you to format test result for each test/event in your result.
 
-![Format Test Result](/docs/assets/img/healthcare/format-result-value.png)
+![Format Test Result](/docs/v12/assets/img/healthcare/format-result-value.png)
 
-![Formatted Result](/docs/assets/img/healthcare/formatted-result.png)
+![Formatted Result](/docs/v12/assets/img/healthcare/formatted-result.png)
 
 ### 2.7 Laboratory SMS Alerts
 

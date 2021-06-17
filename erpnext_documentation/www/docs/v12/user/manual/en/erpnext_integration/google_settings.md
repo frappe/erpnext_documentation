@@ -10,13 +10,13 @@ To enable Google Integrations, ERPNext needs access to the API through which the
 In order to allow a synchronization with Google Calendar, Google Contacts or Google Drive you need to authorize ERPNext to get data from Google. Following is an example for setting up Google Contacts Integration
 
 1. Create a new project on Google Cloud Platform and generate new OAuth 2.0 credentials.
-<img class="screenshot" src="/docs/assets/img/erpnext_integrations/google_contacts_project_creation.gif">
+<img class="screenshot" src="/docs/v12/assets/img/erpnext_integrations/google_contacts_project_creation.gif">
 - Enable API Access in API Library for the Integration you wish to integrate.
   - Google Calendar: **Calendar API**
   - Google Contacts: **People API**
   - Google Drive: **Drive API**
 
- <img class="screenshot" src="/docs/assets/img/erpnext_integrations/api.gif">
+ <img class="screenshot" src="/docs/v12/assets/img/erpnext_integrations/api.gif">
 - In **API & Services > Credentials** create a new Credential and select **Create OAuth client ID**
 - Select Application Type **Web Application**
 - Add `https://{yoursite}` to Authorized JavaScript origins.
@@ -27,7 +27,7 @@ In order to allow a synchronization with Google Calendar, Google Contacts or Goo
      - Google Drive: **google\_drive**
   - eg: for Google Contacts URL will be `https://{yoursite}?cmd=frappe.integrations.doctype.google_contacts.google_contacts.google_callback`
 
- <img class="screenshot" src="/docs/assets/img/erpnext_integrations/google_contacts_oauth.gif">
+ <img class="screenshot" src="/docs/v12/assets/img/erpnext_integrations/google_contacts_oauth.gif">
 - Add your Client ID and Client Secret in the Google Settings in **Home > Integrations > Google Services > Google Settings**
 
 ### For Google Maps
@@ -36,4 +36,4 @@ In order to allow a synchronization with Google Maps you need to generate an API
 
 1. Create a new project on Google Cloud Platform and generate new API Key.
 - Enable API Access in API Library for the Directions API and then add the API Key in the Google Settings in **Home > Integrations > Google Services > Google Settings**.
-<img class="screenshot" src="/docs/assets/img/erpnext_integrations/api_key.gif">
+<img class="screenshot" src="/docs/v12/assets/img/erpnext_integrations/api_key.gif">

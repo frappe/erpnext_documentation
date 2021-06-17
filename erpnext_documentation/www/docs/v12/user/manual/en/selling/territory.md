@@ -13,7 +13,7 @@ To access the Territory list, go to:
 1. Tick 'Group Node' if there'll be sub-territories under this Territory. For example, France is a group Territory and Paris is a sub-territory.
 1. Save.
 
-    ![Territory List](/docs/assets/img/selling/territory-list.png)
+    ![Territory List](/docs/v12/assets/img/selling/territory-list.png)
 
 You can add multiple sub-territories under a parent territory. On saving, a territory can be selected in transactions and reports.
 
@@ -31,7 +31,7 @@ Here you can set specific sales targets based on the following fields:
 * Target Amount
 * Target Distribution
 
-![Territory Target](/docs/assets/img/selling/territory-target.png)
+![Territory Target](/docs/v12/assets/img/selling/territory-target.png)
 
 To know more about setting sales targets, visit the [Sales Person Target Allocation](/docs/user/manual/en/selling/sales-person-target-allocation) page
 

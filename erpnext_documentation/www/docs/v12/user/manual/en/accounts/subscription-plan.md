@@ -15,7 +15,7 @@ Before you can set a Subscription, you need a Subscription Plan.
 1. Set a Billing Interval whether Daily, Weekly, Monthly, or Yearly.
 1. Set a Billing Interval Count. If you select Year as your interval and count as 5, the billing will be done for every 5 years.
 1. Save.
-    ![Subscription Plan](/docs/assets/img/accounts/subscription-plan.png)
+    ![Subscription Plan](/docs/v12/assets/img/accounts/subscription-plan.png)
 
 You can also set up additional payment details and link a Payment Gateway.
 

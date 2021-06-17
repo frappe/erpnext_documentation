@@ -41,7 +41,7 @@ Make a Purchase Order for the processed Item, the one for which you've created a
 1. You need to set 'Supply Raw Materials' as Yes since this Purchase Order is for subcontracting.
 
 1. From a Purchase Order, select the raw materials to transfer to subcontractor:
-  ![Sub-Contracting](/docs/assets/img/buying/subcontract-transfer-materials.gif)
+  ![Sub-Contracting](/docs/v12/assets/img/buying/subcontract-transfer-materials.gif)
 
 1. Once the [Purchase Order](/docs/user/manual/en/buying/purchase-order#35-raw-materials-supplied) is submitted, you can view the reserved quantity of the item from the item dashboard as well.
 

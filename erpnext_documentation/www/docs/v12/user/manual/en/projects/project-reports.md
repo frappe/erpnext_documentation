@@ -40,7 +40,7 @@ where **Total Hours** is the number of working hours in the selected *date range
 
 The report can also be filtered for a particular Employee, Department and/or Project.
 
-<img class="screenshot" alt="Project Billing Summary" src="{{docs_base_url}}/assets/img/project/projects-employee-util-report.png">
+<img class="screenshot" alt="Project Billing Summary" src="{{docs_base_url}}/v12/assets/img/project/projects-employee-util-report.png">
 
 ## 4. Project Wise Stock Tracking
 

@@ -29,7 +29,7 @@ Before creating a new template, note that templates are already created for many
 4. Select an account head which has pre set tax rates or create your own.
 1. Selecting default will apply this template by default for new Sales transactions.
 5. Save.
-  ![Sales taxes](/docs/assets/img/selling/sales-taxes.png)
+  ![Sales taxes](/docs/v12/assets/img/selling/sales-taxes.png)
 
 **Is Inter State**: For India. On selection of a customer in Sales Invoice or Delivery Note, if the GST codes of place of supply and customer shipping address don't match, the template with 'Is Inter State' ticked will be set as the taxes template. If the place of supply and shipping address are the same, the default taxes template will be applied. This also applies to Purchase Invoice, on selection of Supplier, the templates are set depending on the addresses. For example, IGST.
 
@@ -39,7 +39,7 @@ Before creating a new template, note that templates are already created for many
 * **Consider Tax or Charge for**: Total - for the total of all items. Valuation - for each item. Valuation and total - apply tax/charge to both. [Check out this article](/docs/user/manual/en/accounts/articles/what-is-the-differences-of-total-and-valuation-in-tax-and-charges) to know the difference.
 
 * **Reference Row #**: If tax is based on "Previous Row Total" you can select the row number which will be taken as a base for this calculation (default is the previous row).
-    ![Sales taxes table](/docs/assets/img/selling/sales-taxes-table.png)
+    ![Sales taxes table](/docs/v12/assets/img/selling/sales-taxes-table.png)
 
 * **Is this Tax included in Basic Rate?**: If checked, the tax amount will be considered as already included in the Print Rate / Print Amount in the Item table of a transaction. This is useful when you want to give tax inclusive price to your customers. To account for tax inclusive rates, the system calculates the Net Amount by deducting the amount of tax to be applied then calculates the tax on it.
 * **Account Head:** The Account ledger under which this tax will be booked. If you select VAT or any other preset heads, the rate will be automatically filled.

@@ -13,7 +13,7 @@
 1. Once you are done with all the translations you can click on **Contribute Translations** button.
 1. You can view the status of your contribution by clicking on the source text under Contributed Translations section.
 
-![Translation Tool](/docs/assets/img/translations/translation_tool.gif)
+![Translation Tool](/docs/v12/assets/img/translations/translation_tool.gif)
 
 ## 2. Status of the Contributed Translation
 

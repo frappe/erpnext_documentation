@@ -23,7 +23,7 @@ To create a new Income Tax Slab:
 In the Tax Slab table, you can define the rate for different income slabs. To define slab, From Amount and To Amount should be entered. For the first slab, From Amount is optional and for the last slab, To Amount is optional. Both the amount is inclusive while evaluating tax based on taxable income.
 
 
-<img class="screenshot" alt="Income Tax Slab" src="/docs/assets/img/human-resources/income-tax-slab.png">
+<img class="screenshot" alt="Income Tax Slab" src="/docs/v12/assets/img/human-resources/income-tax-slab.png">
 
 The tax slab can be applicable based on specific conditions. Conditions can be written using all field names of Employee, Salary Structure, Salary Structure Assignment, and Salary Slip documents.
 
@@ -48,7 +48,7 @@ annual_taxable_earning > 500000
 If other taxes are applicable on calculated income tax, you can enter those using this table. You can also define the min and max taxable amount for which this tax will be applicable.
 For example, Health and Education Cess is applied additionally on income tax to everyone in India.
 
-<img class="screenshot" alt="Other Charged on Income Tax" src="/docs/assets/img/human-resources/other-taxes-on-income-tax.png">
+<img class="screenshot" alt="Other Charged on Income Tax" src="/docs/v12/assets/img/human-resources/other-taxes-on-income-tax.png">
 
 
 ### 2.3 Other Properties

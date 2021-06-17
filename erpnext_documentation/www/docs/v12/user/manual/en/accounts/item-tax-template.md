@@ -26,7 +26,7 @@ Before creating and using an Item Tax Template, it is advised to create the foll
 
 Now the Item Tax Template is ready to be assigned to an Item. To do this, go the Item, Item Tax section and select an Item Tax Template:
 
-![Item Tax In Item](/docs/assets/img/accounts/item-tax-in-item.png)
+![Item Tax In Item](/docs/v12/assets/img/accounts/item-tax-in-item.png)
 
 > Note: It is advised to not use the Sales/Purchase Template selected here in [Tax Rule](/docs/user/manual/en/accounts/tax-rule), it may cause interference. If you want to use same tax rates for Tax Rule and Item Tax Template, use a different name for the Sales/Purchase Tax Templates.
 
@@ -56,7 +56,7 @@ The tax is fetched from the Item Tax Template and calculated:
 ### 2.3 Item Tax Template for each Items
 You can also manually select a different Item Tax Template for each Item in a transaction:
 
-![Item Tax individual](/docs/assets/img/accounts/item-tax-each.png)
+![Item Tax individual](/docs/v12/assets/img/accounts/item-tax-each.png)
 
 
 ### 2.4 Item wise tax on an Item Group

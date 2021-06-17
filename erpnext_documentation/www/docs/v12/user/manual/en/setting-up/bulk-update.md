@@ -18,7 +18,7 @@ To do this,
 1. Select the limit, i.e. number of documents (Quotations) to be updated.
 1. Click on Update.
 
-    ![Bulk Update](/docs/assets/img/setup/bulk-update.png)
+    ![Bulk Update](/docs/v12/assets/img/setup/bulk-update.png)
 
 > Note: You can only update fields that can be updated normally in a particular stage. For example, valid till date cannot be updated for submitted Quotations.
 

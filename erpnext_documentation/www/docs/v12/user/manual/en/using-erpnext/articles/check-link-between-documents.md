@@ -7,7 +7,7 @@ Every document can be linked to various other documents in ERPNext.
 
 To do so, you can simply go to the menu and click on 'Links'. A Pop-Up box will open which will list down all the documents that this document has been linked to.
 
-![Checking Document Links](/docs/assets/img/using-erpnext/using-document-links-1.gif)
+![Checking Document Links](/docs/v12/assets/img/using-erpnext/using-document-links-1.gif)
 
 > Note: This option will only show you the forward links in a document; the backward links can be found within the document itself. 
 

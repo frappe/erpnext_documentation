@@ -21,7 +21,7 @@ To access the Material Request list, go to:
 1. Enter the required by date.
 1. Select from one of the purposes as listed above.
 1. You can fetch Items from a BOM, Sales Order, or Product Bundle.
-  ![MR fetch from](/docs/assets/img/stock/mr-fetch-from.png)
+  ![MR fetch from](/docs/v12/assets/img/stock/mr-fetch-from.png)
 1. Select the Item and set the quantity.
 1. Select the Warehouse for which Items are required.
 1. You can change the Required By date for individual Items in this table.

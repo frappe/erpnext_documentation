@@ -38,10 +38,10 @@ Before creating and using a BOM, it is advised that you create the following fir
  1. If this Item is a sub-assembly, the default BOM for it will be fetched.
  1. Select the Source Warehouse to track inventory.
  1. Enter the scrap percentage that will remain after this raw material is used.
-  ![BOM Materials](/docs/assets/img/manufacturing/bom-materials.png)
+  ![BOM Materials](/docs/v12/assets/img/manufacturing/bom-materials.png)
 
 1. Under the Scrap section, select the scrap Item that will be created when manufacturing and its quantity. The scrap Item can also have a Rate if it is a by-product and not waste. Skip this section if 100% of raw materials are completely utilized.
-  ![BOM Scrap](/docs/assets/img/manufacturing/bom-scrap.png)
+  ![BOM Scrap](/docs/v12/assets/img/manufacturing/bom-scrap.png)
 
 1. Save and Submit.
 
@@ -62,7 +62,7 @@ To add [Operations](/docs/user/manual/en/manufacturing/operation) tick the 'With
 
 Transfer Material Against needs to be set for a BOM With Operations. Materials can be transferred against a [Work Order](/docs/user/manual/en/manufacturing/work-order) in bulk or individual [Job Cards](/docs/user/manual/en/manufacturing/job-card). Changing this affects whether the 'Material Transfer for Manufacture' is done against the Work Order at once or multiple times against the individual Job Cards. Setting this option depends on factors like time taken to manufacture the item, value of the items manufactured, number of parts used in manufacturing, the skill of your labor involved, etc.
 
-![BOM transfer materials against](/docs/assets/img/manufacturing/bom-transfer-materials.png)
+![BOM transfer materials against](/docs/v12/assets/img/manufacturing/bom-transfer-materials.png)
 
 ### 2.2 Additional options when creating a Bill of Materials
 
@@ -127,7 +127,7 @@ The user can also make the BOM for the variant item using the template BOM. To m
 ### 3.5 After Submitting
 Once the BOM is submitted, the following document types can be created against the BOM from the Dashboard:
 
-![BOM submit](/docs/assets/img/manufacturing/bom-submit.png)
+![BOM submit](/docs/v12/assets/img/manufacturing/bom-submit.png)
 
 ## 4. Video
 

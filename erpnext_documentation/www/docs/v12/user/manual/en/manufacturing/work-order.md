@@ -47,7 +47,7 @@ A Work Order can also be directly created from a [Sales Order](/docs/user/manual
 * **Allow Alternative Item**: Sometimes when manufacturing a finished good, specific materials may not be available. For example, using plastic beads instead of plastic crystals. The finished good itself could be different. Ticking this checkbox will allow you the select an Alternative Item. To know more, visit [this page](/docs/user/manual/en/manufacturing/item-alternative).
 * **Skip Material Transfer to WIP Warehouse**: Usually, a Stock Entry is created when the raw materials are transferred to a Work In Progress Warehouse. In this case, the raw material is considered to be consumed hence the Stock Entry is skipped. The next option will be shown if you tick this checkbox.
 * **Backflush Raw Materials From Work-in-Progress Warehouse**: Ticking this checkbox will automatically create a Stock Entry with the type 'Manufacture'. This means that the raw materials were consumed from the Source Warehouse, used to manufacture finished goods and another Stock Entry was created for your Target Warehouse.
-  ![Options when creating WO](/docs/assets/img/manufacturing/work-order-options.png)
+  ![Options when creating WO](/docs/v12/assets/img/manufacturing/work-order-options.png)
 
 ## 3. Features
 ### 3.1 Time
@@ -69,7 +69,7 @@ Once the Work Order is saved the following two fields will also show the availab
 * Available Qty at Source Warehouse
 * Available Qty at WIP Warehouse
 
-![WO material Qty](/docs/assets/img/manufacturing/work-order-material-qty.png)
+![WO material Qty](/docs/v12/assets/img/manufacturing/work-order-material-qty.png)
 
 
 ### 3.2 Operations table
@@ -106,7 +106,7 @@ In this section, the following are shown:
 
 These values are calculated as per the Job Cards.
 
-![Work Order Operation Costs](/docs/assets/img/manufacturing/wo-operation-cost.png)
+![Work Order Operation Costs](/docs/v12/assets/img/manufacturing/wo-operation-cost.png)
 
 ### 3.4 More Information
 Here the Item Description and Stock UOM is shown for the Item being manufactured.

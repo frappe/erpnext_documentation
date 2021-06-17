@@ -2,7 +2,7 @@
 
 The ERPNext Learning Management System uses the following masters to show content on the portal.
 
-![LMS Setting](/docs/assets/img/education/education-lms-masters.png)
+![LMS Setting](/docs/v12/assets/img/education/education-lms-masters.png)
 
 ---
 
@@ -14,9 +14,9 @@ On the portal, for students to be able to view the programs on the portal, a pro
 
 If 'Allow Self Enroll' is not checked, the program will be visible to only those students who are already enrolled in the program, this way you can host private programs on your portal.
 
-![LMS Setting](/docs/assets/img/education/education-lms-settings-1.png)
+![LMS Setting](/docs/v12/assets/img/education/education-lms-settings-1.png)
 
-![LMS Setting](/docs/assets/img/education/education-lms-3.png)
+![LMS Setting](/docs/v12/assets/img/education/education-lms-3.png)
 
 Read about [Program](/docs/user/manual/en/education/program) to know more.
 
@@ -26,7 +26,7 @@ Read about [Program](/docs/user/manual/en/education/program) to know more.
 
 For each of the courses in a particular program, you can set a course intro and a course hero image to be used on the portal. There is a table to add topics too, these topics will be displayed on the LMS to all enrolled students.
 
-![LMS Setting](/docs/assets/img/education/education-lms-4.png)
+![LMS Setting](/docs/v12/assets/img/education/education-lms-4.png)
 
 Read [Courses](/docs/user/manual/en/education/course) to learn more.
 
@@ -35,7 +35,7 @@ Read [Courses](/docs/user/manual/en/education/course) to learn more.
 ## 4. Topics
 Similar to the course, Topic has a table where you can add the content. You can add three different types of content viz. Video, Article and a Quiz.
 
-![LMS Setting](/docs/assets/img/education/education-lms-13.png)
+![LMS Setting](/docs/v12/assets/img/education/education-lms-13.png)
 
 Read [Topics](/docs/user/manual/en/education/topic) to learn more.
 
@@ -50,11 +50,11 @@ Articles, Quizzes & Videos are all categorized under Content Masters, to add any
 Adding articles is pretty straight forward, the content field is a rich-text field, you can add images, tables, links, and more to your articles. There is a title field that is used as the name of the article to be used in links, this title will be displayed on the portal.
 Other details include Author and Publish Date, these are optional fields and can be used for attributing resources.
 
-![LMS Setting](/docs/assets/img/education/education-lms-8.png)
+![LMS Setting](/docs/v12/assets/img/education/education-lms-8.png)
 
 The article is published if its parent program is published, it looks as follows on the portal.
 
-![LMS Setting](/docs/assets/img/education/education-lms-settings-8.png)
+![LMS Setting](/docs/v12/assets/img/education/education-lms-settings-8.png)
 
 ### 5.2 Videos
 
@@ -62,11 +62,11 @@ Videos can be added from both Vimeo and YouTube, using the [Video](/docs/user/ma
 
 Title field stores the name of the document as well as the title to be displayed on the portal. You can also add a publish date as well as the duration of the video in minutes.
 
-![LMS Setting](/docs/assets/img/education/education-lms-9.png)
+![LMS Setting](/docs/v12/assets/img/education/education-lms-9.png)
 
 Just like articles, video is published if its parent program is published, it looks as follows on the portal.
 
-![LMS Setting](/docs/assets/img/education/education-lms-7.png)
+![LMS Setting](/docs/v12/assets/img/education/education-lms-7.png)
 
 ### 5.3 Quizzes
 Instructors can also add quizzes to the topics they publish in a program. A quiz is a collection of multiple-choice questions that can be added from the Question master.
@@ -81,17 +81,17 @@ You need to set a passing score, max attempts as well as a grading basis for the
 1. **Is Time-Bound**: If checked, the quiz will have a time limit.
 1. **Duration** If the quiz is time-bound, this field can be used to set the time-limit.
 
-![LMS Setting](/docs/assets/img/education/education-lms-10.png)
+![LMS Setting](/docs/v12/assets/img/education/education-lms-10.png)
 
 #### Questions
 You can add questions to be listed in quizzes. Based on the number of options marked correct, the type of the question is automatically set to either *Single Correct Answer* or *Multiple Correct Answers*.
 
-![LMS Setting](/docs/assets/img/education/education-lms-11.png)
+![LMS Setting](/docs/v12/assets/img/education/education-lms-11.png)
 
-![LMS Setting](/docs/assets/img/education/education-lms-12.png)
+![LMS Setting](/docs/v12/assets/img/education/education-lms-12.png)
 
 Quizzes are also automatically published with its parent program, it looks as follows on the portal.
 
-![LMS Setting](/docs/assets/img/education/education-lms-5.png)
+![LMS Setting](/docs/v12/assets/img/education/education-lms-5.png)
 
 {next}

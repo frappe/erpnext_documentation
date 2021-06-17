@@ -5,7 +5,7 @@
 
 Their cards are a replacement to the erstwhile Module icons which were present in ERPNext versions before version 12.
 
-![New Desktop](/docs/assets/img/using-erpnext/desktop/desktop.png)
+![New Desktop](/docs/v12/assets/img/using-erpnext/desktop/desktop.png)
 
 These cards can be classified into four categories, namely:
 
@@ -16,11 +16,11 @@ These cards can be classified into four categories, namely:
 
 These cards allow better navigation with shortcut items in the drop-down menu. You can customize this drop-down to add or remove links to various DocType for that module.
 
-![Desktop Dropdown](/docs/assets/img/using-erpnext/desktop/desktop-dropdown.png)
+![Desktop Dropdown](/docs/v12/assets/img/using-erpnext/desktop/desktop-dropdown.png)
 
 You can reorder as well as show or hide these module cards.
 
-![Drag and Drop](/docs/assets/img/using-erpnext/desktop/drag-and-drop.gif)
+![Drag and Drop](/docs/v12/assets/img/using-erpnext/desktop/drag-and-drop.gif)
 
 ## Module Page
 
@@ -28,17 +28,17 @@ Clicking on any module card will take you to the module page. Here the user can 
 
 For example, here is how the Accounting module page looks like.
 
-![Accounts Module](/docs/assets/img/using-erpnext/desktop/accounts-module-page.png)
+![Accounts Module](/docs/v12/assets/img/using-erpnext/desktop/accounts-module-page.png)
 
 ### Navigating the page
 
 Some links of these modules may be marked grey, clicking on these links won't open any new page. They are marked so because there is a dependent document that needs to be created first. For example, you will need to build a Sales Invoice before accessing the sales register. Hovering on any of these links will show a pop-up guiding the user to the dependent document.
 
-![Muted Link in Module Page](/docs/assets/img/using-erpnext/desktop/module-link-hover.png)
+![Muted Link in Module Page](/docs/v12/assets/img/using-erpnext/desktop/module-link-hover.png)
 
 You shall also notice a color indicator before some of the links. These indicators are used to inform the user if any open or urgent documents need to be looked at.
 
-![Color Indicators](/docs/assets/img/using-erpnext/desktop/color-indicator.png)
+![Color Indicators](/docs/v12/assets/img/using-erpnext/desktop/color-indicator.png)
 
 * The **red** indicator in the above example indicated that there are open or overdue tasks on the list. 
 * Similarly, a **blue** indicator would mean that there are no open tasks. 

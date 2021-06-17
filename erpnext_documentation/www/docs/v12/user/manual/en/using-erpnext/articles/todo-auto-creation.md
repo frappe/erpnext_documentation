@@ -3,7 +3,7 @@
 
 Every Document in ERPNext has an option called 'Assign To' in the side-bar. Using this option, any Document can be assigned to the user. The User would be assigned a ToDo simultaneously. 
 
-![ToDo Auto Creation](/docs/assets/img/using-erpnext/using-todo-auto-assign-1.gif)
+![ToDo Auto Creation](/docs/v12/assets/img/using-erpnext/using-todo-auto-assign-1.gif)
 
 Under such conditions, the three ToDo statuses are defined as per the updates on the assignment. 
 
@@ -19,4 +19,4 @@ In the same scenario as above, let's say that the support ticket was marked clos
 
 Simultaneously the ToDo associated with the Support Ticket will also be reopened.
 
-![ToDo](/docs/assets/img/using-erpnext/using-to-do-6.png)
+![ToDo](/docs/v12/assets/img/using-erpnext/using-to-do-6.png)

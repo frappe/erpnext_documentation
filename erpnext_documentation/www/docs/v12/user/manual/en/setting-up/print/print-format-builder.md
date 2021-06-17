@@ -18,10 +18,10 @@ Or via a document.
 1. Here you can edit an existing print format or create a new Print Format for a document type like Item, Quotation, etc.
 1. Let's see how to edit an existing Print Format in this section. To know about creating a new Print Format, see the next section.
 1. Select the Print Format to edit.
-    ![Select doctype for editing Print Format](/docs/assets/img/setup/print/print-format-builder-edit.png)
+    ![Select doctype for editing Print Format](/docs/v12/assets/img/setup/print/print-format-builder-edit.png)
     
 1. Click on the Edit button, you will be taken to the Print Format Builder UI.
-    ![Print Format builder screen](/docs/assets/img/setup/print/print-format-builder-screen.png)
+    ![Print Format builder screen](/docs/v12/assets/img/setup/print/print-format-builder-screen.png)
 
 1. Here you can drag and drop fields from the sidebar to the page and vice versa.
 1. After making the changes, click on Save.

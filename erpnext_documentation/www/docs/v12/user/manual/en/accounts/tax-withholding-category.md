@@ -26,7 +26,7 @@ In ERPNext, Tax Withholding Categories for most cases are available by default, 
 1. Add more companies and accounts as needed.
 1. Save.
 
- ![Tax withholding Category](/docs/assets/img/accounts/tax-withholding-category.png)
+ ![Tax withholding Category](/docs/v12/assets/img/accounts/tax-withholding-category.png)
 
 Under accounting details, the TDS account is added for each Company in the system.
 

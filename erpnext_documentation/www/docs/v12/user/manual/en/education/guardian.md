@@ -3,7 +3,7 @@
 
 **Guardian allows you to record the details of the Guardians of a Student.**
 
-![Guardian](/docs/assets/img/education/education-guardian-1.png)
+![Guardian](/docs/v12/assets/img/education/education-guardian-1.png)
 
 Every student can have multiple guardians like Father, Mother, Brother, or Sister. 
 
@@ -37,7 +37,7 @@ Apart from the mandatory details of the Guardian, you can also add the following
 8. **Designation**: You can enter the designation of the Guardian here.
 9. **Work Address**: The Work Address of the Guardian can be recorded here for emergency purposes.
 
-    ![Guardian](/docs/assets/img/education/education-guardian-1.png)
+    ![Guardian](/docs/v12/assets/img/education/education-guardian-1.png)
 
 ## 3. Features
 
@@ -45,19 +45,19 @@ Apart from the mandatory details of the Guardian, you can also add the following
 
 While creating a Student, if you have selected a Particular Guardian for them, the name of that Student will automatically be fetched here. Multiple students can have the same person as their guardian. In that case, multiple entries will be made in this section. However, on the front end, one will not be able to add more students to this section.
 
-![Guardian](/docs/assets/img/education/education-guardian-2.png)
+![Guardian](/docs/v12/assets/img/education/education-guardian-2.png)
 
 ### 3.2. Guardian Interests
 
 Interests could be a list of activities that the Guardian would be willing to do for the institute or would like their Dependent or Ward to do as a part of extra-curricular activities.
 
-![Guardian](/docs/assets/img/education/education-guardian-3.png)
+![Guardian](/docs/v12/assets/img/education/education-guardian-3.png)
 
 ## 4. Making the Guardian A User
 
 Once Guardian has been saved, you can find a button **Invite As User** on the top right corner of the form. This button would allow you to invite the guardian as a User of ERPNext by sending them an invitation email on the recorded email ID. 
 
-![Guardian](/docs/assets/img/education/education-guardian-4.png)
+![Guardian](/docs/v12/assets/img/education/education-guardian-4.png)
  
 ## 5. Related Topics
 

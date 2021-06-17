@@ -187,7 +187,7 @@ In Payroll Entry,
 8. Select the Cost Center and Payment Account.
 9. Save the form and Submit it to create Salary Slip records for each active Employee for the time period selected. If the Salary Slips are already created, the system will not create any more Salary Slips. You can also just save the form as Draft and create the Salary Slips later.
 
-<img class="screenshot" alt="Submitted Payroll Entry" src="/docs/assets/img/human-resources/created-payroll.png">
+<img class="screenshot" alt="Submitted Payroll Entry" src="/docs/v12/assets/img/human-resources/created-payroll.png">
 
 Once all Salary Slips are created, you can use _View Salary Slips_ to verify if they are created correctly or edit it if you want to deduct Leave Without Pay (LWP).
 
@@ -206,13 +206,13 @@ The salary payment entry is a Journal Entry that debits the total of the earning
 To generate your salary payment voucher from Payroll Entry, click on -
 > Make > Bank Entry
 
-<img class="screenshot" alt="Payroll Make Entry" src="/docs/assets/img/human-resources/payroll-make-bank-entry.png">
+<img class="screenshot" alt="Payroll Make Entry" src="/docs/v12/assets/img/human-resources/payroll-make-bank-entry.png">
 
 Payroll Entry will route you to Journal Entry with relevant filters to view the draft Journal Vouchers created. You shall set reference number and date for the transactions and Submit the Journal Entries.
 
 >Note: For Salary Components which are Flexible Benefits and has _Create Separate Payment Entry Against Benefit Claim_ checked, ERPNext will book separate draft Journal Entries.
 
-<img class="screenshot" alt="Payroll Entry" src="/docs/assets/img/human-resources/payroll-journal-entry.png">
+<img class="screenshot" alt="Payroll Entry" src="/docs/v12/assets/img/human-resources/payroll-journal-entry.png">
 
 ## Creating Salary Slips Manually
 

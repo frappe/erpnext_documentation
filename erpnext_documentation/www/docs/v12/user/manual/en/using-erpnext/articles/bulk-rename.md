@@ -11,7 +11,7 @@ You can rename IDs of up to 500 records at a time. The following are steps to bu
 
 In a spreadsheet file, enter old Item IDs in the first column, and new Item Ids in the second column. Save spreadsheet file in a CSV format.
 
-![Upload Data](/docs/assets/img/using-erpnext/using-bulk-rename-1.png)
+![Upload Data](/docs/v12/assets/img/using-erpnext/using-bulk-rename-1.png)
 
 #### Step 2: Upload Data File
 
@@ -21,7 +21,7 @@ To upload data file go to,
 
 Select DocType which you want to rename. Here, DocType will be Item. Then Browse and Upload data file.
 
-![Upload Data](/docs/assets/img/using-erpnext/using-bulk-rename-2.gif)
+![Upload Data](/docs/v12/assets/img/using-erpnext/using-bulk-rename-2.gif)
 
 {next}
 

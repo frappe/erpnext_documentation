@@ -10,7 +10,7 @@ making a Purchase Order.
 To access the Purchase Invoice list, go to:
 > Home > Accounting > Accounts Payable > Purchase Invoice
 
-![PI Flow](/docs/assets/img/accounts/pi-flow.png)
+![PI Flow](/docs/v12/assets/img/accounts/pi-flow.png)
 
 ## 1. Prerequisites
 Before creating and using a Purchase Invoice, it is advised to create the following first:
@@ -69,13 +69,13 @@ Sometimes you may need to hold an invoice from being submitted.
 
 **Hold Invoice**: Enable this checkbox to put the Purchase Invoice on hold. This can be done only before submitting the invoice. Once 'Hold Invoice' is enabled and the Purchase Invoice is submitted, the status will change to 'Temporarily on Hold'.
 
-![PI Hold](/docs/assets/img/accounts/pi-hold.png)
+![PI Hold](/docs/v12/assets/img/accounts/pi-hold.png)
 
 Once the purchase invoice gets submit and you want to change 'Release Date' then you can take the help of the 'Hold Invoice' button, which is available on the top right.
 
 If you want to hold submitted purchase invoice then you can hold using 'Block Invoice' option and If you want to unblock again then use 'Unblock Invoice' option.
 
-![Block PI](/docs/assets/img/accounts/pi_block.png)
+![Block PI](/docs/v12/assets/img/accounts/pi_block.png)
 
 This is invoice level holding, Suppliers can be put on hold. [Learn more here](/docs/user/manual/en/buying/supplier#23-credit-limit).
 
@@ -99,7 +99,7 @@ For India, the following details can be recorded for GST purposes:
 ### 3.5 Currency and Price list
 You can set the currency in which the Purchase Invoice order is to be sent. This is fetched from the Purchase Order. If you set a Pricing List, then the item prices will be fetched from that list. Ticking on 'Ignore Pricing Rule' will ignore the [Pricing Rules](/docs/user/manual/en/accounts/pricing-rule) set in Accounts > Pricing Rule.
 
-![PI Price List](/docs/assets/img/accounts/pi-price-list.png)
+![PI Price List](/docs/v12/assets/img/accounts/pi-price-list.png)
 
 Read about [Price Lists](/docs/user/manual/en/stock/price-lists)
 and [Multi-Currency Transactions](/docs/user/manual/en/accounts/articles/managing-transactions-in-multiple-currency)
@@ -148,7 +148,7 @@ The **Update Stock** checkbox should be checked if you want ERPNext to automatic
 ### 3.8 Taxes and charges
 The Taxes and Charges will be fetched from the [Purchase Order](/docs/user/manual/en/buying/purchase-order) or [Purchase Receipt](/docs/user/manual/en/stock/purchase-receipt).
 
-![PI Tax](/docs/assets/img/accounts/pi-tax.png)
+![PI Tax](/docs/v12/assets/img/accounts/pi-tax.png)
 
 Visit the [Purchase Taxes and Charges Template](/docs/user/manual/en/buying/purchase-taxes-and-charges-template) page to know more about taxes.
 
@@ -165,7 +165,7 @@ A Shipping Rule helps set the cost of shipping an Item. The cost will usually in
 
 Any additional discounts to the whole Invoice can be set in this section. This discount could be based on the Grand Total i.e., post tax/charges or Net total i.e., pre tax/charges. The additional discount can be applied as a percentage or an amount.
 
-![PI Discount](/docs/assets/img/accounts/pi-discount.png)
+![PI Discount](/docs/v12/assets/img/accounts/pi-discount.png)
 
 Visit the [Applying Discount](/docs/user/manual/en/selling/articles/applying-discount) page for more details.
 
@@ -175,7 +175,7 @@ For high-value Items, the seller can request an advance payment before processin
 ### 3.11 Payment Terms
 The payment for an invoice may be made in parts depending on your understanding with the Supplier. This is fetched if set in the Purchase Order.
 
-![PI Payment Terms](/docs/assets/img/accounts/pi-pay-terms.png)
+![PI Payment Terms](/docs/v12/assets/img/accounts/pi-pay-terms.png)
 
 
 To know more, visit the [Payment Terms](/docs/user/manual/en/accounts/payment-terms) page.
@@ -226,7 +226,7 @@ On submitting a Purchase Invoice, the following documents can be created against
 1. [Landed Cost Voucher](/docs/user/manual/en/stock/landed-cost-voucher)
 1. [Asset](/docs/user/manual/en/asset/asset)
 
-![PI Submit](/docs/assets/img/accounts/pi-submit.png)
+![PI Submit](/docs/v12/assets/img/accounts/pi-submit.png)
 
 Additionally, General Ledger Entries will be created automatically upon submission of the invoice, which can be viewed using the View > Accounting Ledger button. If the Purchase Invoice was created from a Purchase Receipt and the exchange rate at the time of creation of the Purchase Invoice is different from that at the time of creation of the Purchase Receipt, additional General Ledger Entries will be created to handle the difference.
 
@@ -246,7 +246,7 @@ The Purchase Invoice will affect your accounts as follows:
 * Credits:
  * Supplier
 
-![PI Ledger](/docs/assets/img/accounts/pi-ledger.png)
+![PI Ledger](/docs/v12/assets/img/accounts/pi-ledger.png)
 
 ### 4.2 Accounting When **Is Paid** is checked
 If **Is Paid** is checked, ERPNext will also make the following

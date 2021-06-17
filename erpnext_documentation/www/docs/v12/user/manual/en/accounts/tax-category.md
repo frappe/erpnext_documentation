@@ -31,7 +31,7 @@ Tax Category is automatically determined in a transaction by either the Party Ad
 1. [Supplier](/docs/user/manual/en/buying/supplier)
 1. [Address](/docs/user/manual/en/CRM/address) Billing or Shipping.
   You can select whether Billing Address or Shipping Address gets preference by changing the 'Determine Address Tax Category From' option in Accounts Settings. Tax Category is determined from Party Address first. If the Address is not assigned any Tax Category, then the Party's Tax Category is used.
-      ![Tax Cat Address](/docs/assets/img/accounts/tax-cat-address.png)
+      ![Tax Cat Address](/docs/v12/assets/img/accounts/tax-cat-address.png)
 1. [Item](/docs/user/manual/en/stock/item#316-item-tax)
 1. You can also manually select the Tax Category in a transaction.
   

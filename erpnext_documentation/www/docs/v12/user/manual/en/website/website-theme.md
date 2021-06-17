@@ -16,7 +16,7 @@ your website and make it match your brand.
 > **Note:** Make sure you set the Website Theme in Website Settings for the
 > theme to be applied.
 
-![Select Website Theme in Website Settings](/docs/assets/img/website/website-theme.png)
+![Select Website Theme in Website Settings](/docs/v12/assets/img/website/website-theme.png)
 
 ## 2. Features
 
@@ -59,7 +59,7 @@ providing styles for the entire website, or just an add-on. For example, it migh
 style only the elements it introduces. By checking the boxes you can choose which
 theme should be included in your website.
 
-![Included Theme Files](/docs/assets/img/website/website-theme-included-theme-files.gif)
+![Included Theme Files](/docs/v12/assets/img/website/website-theme-included-theme-files.gif)
 
 ### 2.4 Custom JS
 

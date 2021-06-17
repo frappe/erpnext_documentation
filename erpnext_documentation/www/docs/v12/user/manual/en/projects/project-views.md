@@ -9,7 +9,7 @@ Apart from the generic list and report views for projects and tasks, ERPNext als
 
 A Gantt Chart shows how tasks are linked to each other and shows their execution sequence, based on start and end dates set in the tasks along with any dependencies, if available.
 
-![Task - Gantt View](/docs/assets/img/project/task-gantt-chart.png)
+![Task - Gantt View](/docs/v12/assets/img/project/task-gantt-chart.png)
 *Gantt Chart for Tasks*
 
 You can update the range of the chart by selecting one of Quarter Day, Half Day, Day, Week, or Month.
@@ -22,7 +22,7 @@ If you want to further customize the chart and make it more colorful, read [this
 
 Kanban in Japanese means "billboard" or "signboard" as the task management method traces its origin back to Toyota's lean manufacturing process. In a typical kanban board setup, you have a board or wall which is divided into section which represent different stages of execution or realization. Tasks go up on the board as sticky notes or Post Its and move through the board updating its current stage in the process.
 
-![Task - Kanban View](/docs/assets/img/project/task-kanban.png)
+![Task - Kanban View](/docs/v12/assets/img/project/task-kanban.png)
 *ERPNext Kanban Board*
 
 ERPNext renders the Kanban view for tasks based on its status. You can update the status of a task by moving the representative card from one column to the next. You can also assign colors to these columns for visual reference.
@@ -33,7 +33,7 @@ Read [customizing Kanban board](/docs/user/manual/en/customize-erpnext/kanban-bo
 
 Like the Gantt chart, the calendar view also shows the task and the planned number of days it'll take to complete. However, this one shows the task spread across your regular calendar.
 
-![Task - Calendar View](/docs/assets/img/project/task-calendar.png)
+![Task - Calendar View](/docs/v12/assets/img/project/task-calendar.png)
 *Calendar View for Tasks*
 
 {next}

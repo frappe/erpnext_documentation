@@ -20,7 +20,7 @@ In ERPNext, you can create a Non Conformance by selecting the Quality Procedure 
 1. Record corrective / preventive actions if any
 1. Update status
 
-![Non Conformance](/docs/assets/img/quality-management/non-conformance.png)
+![Non Conformance](/docs/v12/assets/img/quality-management/non-conformance.png)
 
 ## 3. Related Topics
 

@@ -23,7 +23,7 @@ Create App by link `https://www.linkedin.com/developers` fill all the details an
 1. Share on LinkedIn
 2. Sign In with LinkedIn
 3. Marketing Developer Platform
-![LinkedIn Developer App Product](/docs/assets/img/crm/linkedin-dev-products.png)
+![LinkedIn Developer App Product](/docs/v12/assets/img/crm/linkedin-dev-products.png)
 
 ### 1.2 Configure Redirect URLs:
 
@@ -31,26 +31,26 @@ Create App by link `https://www.linkedin.com/developers` fill all the details an
 2. In **OAuth 2.0 settings** section add **Redirect URLs**:
 `https://{yoursite}/api/method/erpnext.crm.doctype.linkedin_settings.linkedin_settings.callback`
 3. Click **Update** to make changes. 
-![LinkedIn Redirect URL](/docs/assets/img/crm/linkedin-redirect-urls.png)
+![LinkedIn Redirect URL](/docs/v12/assets/img/crm/linkedin-redirect-urls.png)
 
 ## 2. How to set up LinkedIn Settings
 
 To access LinkedIn Settings, go to:
 > Home > CRM > Settings > LinkedIn Settings
 
-![LinkedIn Settings](/docs/assets/img/crm/linkedin-settings.png)
+![LinkedIn Settings](/docs/v12/assets/img/crm/linkedin-settings.png)
 
 ### Company ID
 You get the Company ID from your LinkedIn Company URL.
-![LinkedIn Company ID](/docs/assets/img/crm/linkedin-company-id.png)
+![LinkedIn Company ID](/docs/v12/assets/img/crm/linkedin-company-id.png)
 
 ### Consumer Key and Consumer Secret
 You get **Consumer Key** and **Consumer Secret** from your LinkedIn Developer account go to:
 > `https://www.linkedin.com/developers/` > My Apps > `{Your App}` > Auth
 
-![LinkedIn Client](/docs/assets/img/crm/linkedin-client.png)
+![LinkedIn Client](/docs/v12/assets/img/crm/linkedin-client.png)
 
 Once you save the doc by filling **Company ID**, **Consumer Key**, and **Consumer Secret** it will redirect to LinkedIn's sign-in page by providing valid LinkedIn credentials and clicking Allow, the member approves your application's request to access their member data and interact with LinkedIn on their behalf. 
-![Authorize LinkedIn](/docs/assets/img/crm/authorize-linkedin.jpg)
+![Authorize LinkedIn](/docs/v12/assets/img/crm/authorize-linkedin.jpg)
 
 {next}

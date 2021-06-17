@@ -20,7 +20,7 @@ The abbreviation also appears in various accounts, cost centers, taxes templates
 
 You can also attach a company logo and add a description for the company.
 
-![Company Master](/docs/assets/img/setup/company-master.png)
+![Company Master](/docs/v12/assets/img/setup/company-master.png)
 
 ### 1.1 Multi Company Structure
 
@@ -107,7 +107,7 @@ Perpetual Inventory feature would lead to Stock transactions impacting the compa
 * Stock Received But Not Billed
 * Expenses Included In Valuation
 
-    ![Stock Settings in Company](/docs/assets/img/setup/company-stock-settings.png)
+    ![Stock Settings in Company](/docs/v12/assets/img/setup/company-stock-settings.png)
 
 ### 2.4 Fixed Asset Depreciation Settings
 For managing fixed assets in a company, the following accounts are needed. Most of them will be created by default. They can be seen in the [Chart of Accounts](/docs/user/manual/en/accounts/chart-of-accounts).
@@ -121,7 +121,7 @@ For managing fixed assets in a company, the following accounts are needed. Most 
 * Capital Work In Progress Account
 * Asset Received But Not Billed
 
-    ![Fixed Asset Depreciation](/docs/assets/img/setup/company-asset-depreciation.png)
+    ![Fixed Asset Depreciation](/docs/v12/assets/img/setup/company-asset-depreciation.png)
 
 ### 2.5 HRA Settings
 
@@ -160,12 +160,12 @@ For reference, the following details of your company can be saved in ERPNext:
 
 > Note: When setting the address here, it is important to tick the 'Is Your Company Address' checkbox.
 
-![Company Address](/docs/assets/img/setup/company-address.png)
+![Company Address](/docs/v12/assets/img/setup/company-address.png)
 
 **For India**, different addresses can be added with different GSTIN numbers if the company has multiple locations. For example, if your company has offices in Mumbai, Delhi, and Bangalore, you'll have to add different addresses with different GSTIN numbers.
 
 On saving a company, the following details/actions will be visible in the dashboard:
-![Company after Save](/docs/assets/img/setup/company-after-save.png)
+![Company after Save](/docs/v12/assets/img/setup/company-after-save.png)
 
 **Registration Details**: Here you can save various tax/cheque/bank number for reference.
 
@@ -181,7 +181,7 @@ You can delete all transactions (Orders, Invoices) of a Company. *Use with cauti
 1. Click on the **Delete Company Transactions** button
 1. Verify your password
 1. Enter Company name for confirmation
-    ![Company after Save](/docs/assets/img/setup/company-delete-transactions.png)
+    ![Company after Save](/docs/v12/assets/img/setup/company-delete-transactions.png)
 
 And you're done. The master data like Item, Account, Employee, BOM etc. will remain as it is.
 

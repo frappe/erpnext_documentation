@@ -8,7 +8,7 @@ To access the Currency list, go to:
 
 For example, this is how the Currency page for Euro:
 
-![Currency](/docs/assets/img/accounts/currency.png)
+![Currency](/docs/v12/assets/img/accounts/currency.png)
 
 ## Related Topics
 1. [Exchange Rate Revaluation](/docs/user/manual/en/accounts/exchange-rate-revaluation)

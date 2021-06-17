@@ -50,14 +50,14 @@ The details about Warranty/AMC will be fetched according to the Serial Number.
 * Warranty Expiry Date
 * AMC Expiry date
 
-    ![Warranty Serial](/docs/assets/img/support/warranty-serial.png)
+    ![Warranty Serial](/docs/v12/assets/img/support/warranty-serial.png)
 
 ### 3.2 Resolution
 * **Resolution Date:** When the warranty or AMC is Closed, current date and time will be fetched in resolution Date field automatically. This field is also editable.
 * **Resolved By:** Set the Email ID of the User who has resolved the Warranty Claim. The email ID is linked with [User](/docs/user/manual/en/setting-up/users-and-permissions/adding-users) created in the system.
 * **Resolved Details:** This is a text field. User can enter details about the Warranty or AMC claim. A User can also upload the image, enter or create a table.
 
-    ![Warranty Resolution](/docs/assets/img/support/warranty-resolution.png)
+    ![Warranty Resolution](/docs/v12/assets/img/support/warranty-resolution.png)
 
 ### 3.3 Customer Details
 
@@ -71,7 +71,7 @@ The following details of the [Customer](/docs/user/manual/en/CRM/customer) will 
 
 **Service Address:** User can enter the Service Address if it is different from Customer Address.
 
-![Warranty Customer](/docs/assets/img/support/warranty-customer.png)
+![Warranty Customer](/docs/v12/assets/img/support/warranty-customer.png)
 
 ### 3.4 More Information
 

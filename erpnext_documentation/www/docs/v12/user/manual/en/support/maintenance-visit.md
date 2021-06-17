@@ -7,7 +7,7 @@ To access the Maintenance Visit list, go to:
 > Home > Support > Maintenance > Maintenance Visit
 
 A Maintenance Visit is usually created from a Sales Order of type 'Maintenance'.
-![SO Maintenance Visit](/docs/assets/img/support/so-maintenance-visit.png)
+![SO Maintenance Visit](/docs/v12/assets/img/support/so-maintenance-visit.png)
 
 ## 1. Prerequisites
 

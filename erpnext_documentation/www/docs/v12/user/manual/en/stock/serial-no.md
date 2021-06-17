@@ -24,7 +24,7 @@ Before creating and using a Serial Number, it is advised that you create the fol
 
 * [Item](/docs/user/manual/en/stock/item)
 * Enable 'Has Serial No' in the Item master
-    ![Serial No Enabled](/docs/assets/img/stock/serial-no-enabled.png)
+    ![Serial No Enabled](/docs/v12/assets/img/stock/serial-no-enabled.png)
 
 
 ## 2. How to create a Serial Number
@@ -32,7 +32,7 @@ Usually, Serial Numbers are auto-created when transactions are made against a se
 
 For example, a series was set for the following Item as 'PB2L.#####'. Then a Stock Entry was submitted to receive the Item. The Serial Numbers were created accordingly.
 
-![Serial No Created](/docs/assets/img/stock/serial-no-created.png)
+![Serial No Created](/docs/v12/assets/img/stock/serial-no-created.png)
 
 However, if you want to create a Serial No _manually_ follow these steps:
 

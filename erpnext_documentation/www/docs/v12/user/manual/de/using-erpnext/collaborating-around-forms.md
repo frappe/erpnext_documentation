@@ -6,7 +6,7 @@
 
 Sie können jedwede Transaktion aus dem System versenden, indem Sie auf die Schaltfläche "Zugeordnet zu" klicken. Im Menü "Kommunikation" wird ein Protokoll aller von Ihnen versendeter E-Mails gepflegt.
 
-![Formulare](/docs/assets/old_images/erpnext/forms.png)
+![Formulare](/docs/v12/assets/old_images/erpnext/forms.png)
 
 ### Kommentar
 

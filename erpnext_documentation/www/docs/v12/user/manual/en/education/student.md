@@ -16,7 +16,7 @@ metatags:
 
 This form will also contain any additional details like the Student's Guardian and Sibling details.
 
-![Student](/docs/assets/img/education/education-student-1.png)
+![Student](/docs/v12/assets/img/education/education-student-1.png)
 
 The student is enrolled in a [Program](/docs/user/manual/en/education/program) when the application is approved. Once the enrollment is done the [Student Applicant](/docs/user/manual/en/education/student-applicant) status is update to Admitted.
 
@@ -37,7 +37,7 @@ Before creating a student, it is advised to create the following first:
 3. Enter other details like Student Email Address, User ID(If Applicable) and Joining Date.
 4. Save.
 
- ![Student](/docs/assets/img/education/education-student-4.png)
+ ![Student](/docs/v12/assets/img/education/education-student-4.png)
 
 ## 3. Features
 
@@ -47,35 +47,35 @@ Apart from the aforementioned details, some additional details of the student th
 
 Personal details of the Student like their Date of Birth, Gender, Blood Group, and Nationality can be added here.
 
-![Student](/docs/assets/img/education/education-student-personal.png)
+![Student](/docs/v12/assets/img/education/education-student-personal.png)
 
 ### 3.2. Home Address
 
 The address of the student, along with the City, State, and Pincode can be captured here. Two address lines can be captured for each student. 
 
-![Student](/docs/assets/img/education/education-student-address.png)
+![Student](/docs/v12/assets/img/education/education-student-address.png)
 
 ### 3.3. Guardian Details
 
 The details of the student's guardian and their relationship with the student can be captured here. You can create a [Guardian](/docs/user/manual/en/education/guardian) from here itself, or create a guardian first and then create the Student.
 
-![Student](/docs/assets/img/education/education-student-guardian.png)
+![Student](/docs/v12/assets/img/education/education-student-guardian.png)
 
 ### 3.4. Sibling Details 
 
 This section will have all the details of the Student's Siblings. You can select if the sibling is studying in the Same Institute or no. If the Sibling is also a student of your institute, you will be required to enter their Student ID, if not, you can enter the name of the Institution they are associated with. Their academic details like Program and personal details like Gender and Date of Birth can also be captured.
 
-![Student](/docs/assets/img/education/education-student-sibling.png)
+![Student](/docs/v12/assets/img/education/education-student-sibling.png)
 
 ### 3.5. Exit Details
 
 The Student's exit details can be captured here, like their Date of Leaving, and Leaving Certificate Number as captured in your institute's records can be captured. Further, you can also enter the Reason For Leaving in here.
 
-![Student](/docs/assets/img/education/education-student-7.png)
+![Student](/docs/v12/assets/img/education/education-student-7.png)
 
 > Note: On top of the student form, there is an **'Enabled'** checkbox using which the student by default would always be enabled. Once you have recorded the Student's Exit Details, you must uncheck this box to disable the student.
 
-![Student](/docs/assets/img/education/education-student-3.png)
+![Student](/docs/v12/assets/img/education/education-student-3.png)
 
 ### 3.6. After Saving
 
@@ -85,7 +85,7 @@ Once you save the Student Form, the student gets created in the system and you w
 
 Once a student is created in the system, you can also view the Accounting Ledger, which will show a report of all the payments made by the student.
 
-![Student](/docs/assets/img/education/education-student-2.png)
+![Student](/docs/v12/assets/img/education/education-student-2.png)
 
 ## 5. Related Topics
 

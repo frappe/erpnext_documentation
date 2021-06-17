@@ -23,7 +23,7 @@ Before creating and using an Item, it is advised that you create the following f
 1. Select an Item Group.
 1. Enter the opening stock units and standard selling rate.
 3. Save.
-  ![Item Saved](/docs/assets/img/stock/item-saved.png)
+  ![Item Saved](/docs/v12/assets/img/stock/item-saved.png)
 
 ### 2.1 Item Properties
 
@@ -68,7 +68,7 @@ For India:
 
 * **Brand**: If you have more than one brand save them under Selling > Brand and pre-select them while filling a New Item.
 * **Description**: Description of the item. The text from the Item Code will be fetched by default.
-  ![Item brand and description](/docs/assets/img/stock/item-brand-description.png)
+  ![Item brand and description](/docs/v12/assets/img/stock/item-brand-description.png)
 
 ### 3.2 Barcodes
 
@@ -159,7 +159,7 @@ In this section, you can define Company-wide transaction-related defaults for th
 * **Default Income Account:** It is the account in which income from selling the Item will be credited.
 * **Default Cost Center:** It is used for tracking expense for this Item.
 
-  ![Item defaults](/docs/assets/img/stock/item-defaults.png)
+  ![Item defaults](/docs/v12/assets/img/stock/item-defaults.png)
 
 > Tip: You can add more rows for multiple companies.
 
@@ -182,7 +182,7 @@ In this section, you can define Company-wide transaction-related defaults for th
 * **Delivered by Supplier (Drop Ship)**: If the item is delivered directly by the supplier to the customer, tick this checkbox. Read more [here](/docs/user/manual/en/selling/articles/drop-shipping).
 * **Supplier Codes:** Track Item Code defined by the Suppliers for this Item. In the Purchase transactions, on selecting an Item, a Supplier Part No. will be fetched as well for the Supplier's reference. You can read more about it [here](/docs/user/manual/en/buying/articles/maintaining-suppliers-part-no-in-item).
 
-  ![Item Supplier Details](/docs/assets/img/stock/item-supplier.png)
+  ![Item Supplier Details](/docs/v12/assets/img/stock/item-supplier.png)
 
 ### 3.12 Foreign Trade Details
 If you're sourcing the item from another country, you can set the details here.
@@ -196,14 +196,14 @@ If you're sourcing the item from another country, you can set the details here.
 * **Max Discount (%)**: You can define the maximum discount in % to be applied to an item. Eg: if you set 20%, you cannot sell this item with a discount greater than 20%.
 * **Is Sales Item**: If unticked, you won't be able to use this item in sales transactions.
 
-  ![Item Sales Details](/docs/assets/img/stock/item-sales.png)
+  ![Item Sales Details](/docs/v12/assets/img/stock/item-sales.png)
 
 ### 3.14 Deferred Revenue and Deferred Expense
 You can enable deferred revenue or expense from the item. Once you tick the checkbox, you'll see options to set the Deferred Expense Account and the number of months through which the revenue/expense is deferred. 
 
 For example, consider a yearly gym membership, you pay the money upfront at once but the service is given throughout the year. For the gym owner, this is deferred revenue and for the customer, it is a deferred expense.
 
-  ![Deferred Revenue](/docs/assets/img/stock/deferred-revenue.png)
+  ![Deferred Revenue](/docs/v12/assets/img/stock/deferred-revenue.png)
 
 Check out the pages on [Deferred Revenue](/docs/user/manual/en/accounts/deferred-revenue) for more details.
 
@@ -221,7 +221,7 @@ These settings are required only if a particular Item has a different tax rate t
 
 You need to create a new 'Item Tax Template' or choose an existing one. For example, if you have a tax Account, “VAT 14%” and this particular Item is exempted from tax, then you select “VAT 14%” in the first column, and set “0” as the tax rate in the second column. Visit the [Item Tax Template](/docs/user/manual/en/accounts/item-tax-template) page for more details.
 
-![Item tax template](/docs/assets/img/stock/item-tax-template.png)
+![Item tax template](/docs/v12/assets/img/stock/item-tax-template.png)
 
 You can also set a [Tax Category](/docs/user/manual/en/accounts/tax-category) for this Item.
 
@@ -243,7 +243,7 @@ Read [Quality Inspection](/docs/user/manual/en/stock/quality-inspection) to know
 * **Manufacturer:** Select the Manufacturer who manufactured this item.
 * **Manufacturer Part Number:** Enter the manufacturer part number that the manufacturer has assigned to this item.
 
-  ![Item Manufacturing](/docs/assets/img/stock/item-manufacturing.png)
+  ![Item Manufacturing](/docs/v12/assets/img/stock/item-manufacturing.png)
 
 * The manufacturer details appear after you've created an 'Item Manufacturer' from the dashboard and selected that record as default. Here, add details for:
   * Item Code
@@ -251,7 +251,7 @@ Read [Quality Inspection](/docs/user/manual/en/stock/quality-inspection) to know
   * Enter the part number the manufacturer uses to identify this item
   * Select 'Is Default' to show the manufacturer and part number in the Item record
 
-  ![Item Manufacturer](/docs/assets/img/stock/item-manufacturer.png)
+  ![Item Manufacturer](/docs/v12/assets/img/stock/item-manufacturer.png)
 
 ### 3.19  Website
 

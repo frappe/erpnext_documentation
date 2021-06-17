@@ -8,7 +8,7 @@
 <div class="row">
     <div class="col-sm-4">
         <a href="/docs/user/videos/learn">
-            <img src="/docs/assets/img/videos/learn.jpg" class="img-responsive" style="margin-top: 0px;">
+            <img src="/docs/v12/assets/img/videos/learn.jpg" class="img-responsive" style="margin-top: 0px;">
         </a>
     </div>
     <div class="col-sm-8">
@@ -25,7 +25,7 @@
 <div class="row">
     <div class="col-sm-4">
         <a href="https://conf.erpnext.com/2014/videos">
-            <img src="/docs/assets/img/videos/conf-2014.jpg" class="img-responsive" style="margin-top: 0px;">
+            <img src="/docs/v12/assets/img/videos/conf-2014.jpg" class="img-responsive" style="margin-top: 0px;">
         </a>
     </div>
     <div class="col-sm-8">

@@ -5,7 +5,7 @@
 
 For example, Tuition Fees and Hostel fees would make the different categories of fees.
 
-![Fee Category](/docs/assets/img/education/education-fee-category-1.png)
+![Fee Category](/docs/v12/assets/img/education/education-fee-category-1.png)
 
 To access Fee Category, go to:
 
@@ -13,11 +13,11 @@ To access Fee Category, go to:
 
 To create a new Fee Category, go to the Fee Category list, and click on new. Add the **Name** and **Description** of the Fee Category.
 
-![Fee Category](/docs/assets/img/education/education-fee-category-2.gif)
+![Fee Category](/docs/v12/assets/img/education/education-fee-category-2.gif)
 
 For example, Tuition Fees and Hostel fees would make the different categories of fees.
 
-![Fee Category](/docs/assets/img/education/education-fee-category-1.png)
+![Fee Category](/docs/v12/assets/img/education/education-fee-category-1.png)
 
 To access Fee Category, go to:
 
@@ -25,6 +25,6 @@ To access Fee Category, go to:
 
 To create a new Fee Category, go to the Fee Category list, and click on new. Add the **Name** and **Description** of the Fee Category.
 
-![Fee Category](/docs/assets/img/education/education-fee-category-2.gif)
+![Fee Category](/docs/v12/assets/img/education/education-fee-category-2.gif)
 
 {next}

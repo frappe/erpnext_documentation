@@ -18,7 +18,7 @@ Exemptions from taxable salary are usually restricted to spendings on particular
 You can configure Employee Tax Exemption Category by going to,
 > Human resources > Payroll Setup > Employee Tax Exemption Category > New Employee Tax Exemption Category
 
-<img class="screenshot" alt="Employee Tax Exemption Category" src="/docs/assets/img/human-resources/employee-tax-exemption-category.png">
+<img class="screenshot" alt="Employee Tax Exemption Category" src="/docs/v12/assets/img/human-resources/employee-tax-exemption-category.png">
 
 ### Employee Tax Exemption Sub Category
 Under each category, there could be many heads for which the exemptions are allowed. For example, in India, subcategories under 80C could be Life Insurance Premium
@@ -26,7 +26,7 @@ Under each category, there could be many heads for which the exemptions are allo
 You can configure Employee Tax Exemption Sub Category by going to,
 > Human resources > Payroll Setup > Employee Tax Exemption Sub Category > New Employee Tax Sub Exemption Category
 
-<img class="screenshot" alt="Employee Tax Exemption Sub Category" src="/docs/assets/img/human-resources/employee-tax-exemption-subcategory.png">
+<img class="screenshot" alt="Employee Tax Exemption Sub Category" src="/docs/v12/assets/img/human-resources/employee-tax-exemption-subcategory.png">
 
 ### HRA Exemption - Regional, India
 For the fiscal year 2018-19, in India, House Rent Allowance (HRA) exemption from taxable earnings is the minimum of:

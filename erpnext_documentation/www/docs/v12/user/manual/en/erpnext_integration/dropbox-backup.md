@@ -56,7 +56,7 @@ With this, a folder called "ERPNext" will be created in your Dropbox account, an
 ####Step 5: In a new window, open the Dropbox Settings page in your ERPnext installation
 ####Step 6: Set backup frequency and email
 Set the frequency to download your site backups to your Dropbox account.
-<img class="screenshot" alt="set frequency" src="/docs/assets/img/setup/integrations/setup-backup-frequency.png">
+<img class="screenshot" alt="set frequency" src="/docs/v12/assets/img/setup/integrations/setup-backup-frequency.png">
 
 ####Step 7: Input Keys from your Dropbox App window
 From your Dropbox App page, enter the app key and (unhidden) app secret into the ERPnext Dropbox settings page.
@@ -79,7 +79,7 @@ Alternatively, you can enter it manually in `sites/{sitename}/site_config.json` 
 The Dropbox login page will open in the new tab. This might require you to allow pop-up for your ERPNext account.
 ####Step 11: Allow Dropbox Access
 On successful login, you will find a confirmation message as following. Click on "Allow" to let your ERPNext account have access to your Dropbox account.
-<img class="screenshot" alt="Allow" src="/docs/assets/img/setup/integrations/dropbox-3.png">
+<img class="screenshot" alt="Allow" src="/docs/v12/assets/img/setup/integrations/dropbox-3.png">
 ####Step 12: Confirm Backups Work
 From the ERPnext Dropbox page, click `Take Backup Now` and then go to you Dropbox files view. You should see a new folder in Dropbox named `Apps` and inside of it your {New App} folder. Inside of it should be backup folders for both files and database.
 So for an app named `erpnext`, following are the folder locations:

@@ -5,7 +5,7 @@
 
 For example, if a group of students studying the same program together will be called a student batch, then from within this group, the cluster of students who have taken up the same elective course will be called a Student Group.
 
-![Student Group](/docs/assets/img/education/education-student-workflow.png)
+![Student Group](/docs/v12/assets/img/education/education-student-workflow.png)
 
 To access Student Group, go to:
 
@@ -31,7 +31,7 @@ Before creating a Student group, it is advisable that you first create the follo
 1. **Student Group Name**: Enter the name of the student group.
 1. Save.
 
-![Student Group](/docs/assets/img/education/education-student-group-1)
+![Student Group](/docs/v12/assets/img/education/education-student-group-1)
 
 ### 2.1. Additional Options while creating a Student Group
 
@@ -42,7 +42,7 @@ Apart from the above mandatory options, the following fields should also be fill
 1. **Batch**: Select the Batch based on which you would want to fetch the list of students for the student group.
 1. **Max Strength**: Enter the Maximum number of students that can be a part of this Student Group. If the number of selected students in the group is more than the Max Strength, the system will not allow you to save this group and an error will be shown.
 
-    ![Student Group](/docs/assets/img/education/education-student-group-max-student-limit-error.png)
+    ![Student Group](/docs/v12/assets/img/education/education-student-group-max-student-limit-error.png)
 
 1. **Student Category**: If you want the students of a specific category to be a part of this group, you can select that.
 1. **Course**: This option only appears when then Group is Based on a Course. You can select a particular course here, and a list of only those students who have been enrolled in this course would be fetched to create this student group.
@@ -57,7 +57,7 @@ Apart from the above mandatory options, the following fields should also be fill
 
 * **Instructors**: Select the Instructors who will be teaching or mentoring this particular group of students.
 
-![Student Group](/docs/assets/img/education/education-student-group-4.png)
+![Student Group](/docs/v12/assets/img/education/education-student-group-4.png)
 
 ## 3. After creating a Student Group
 
@@ -68,11 +68,11 @@ Once the student group has been created and saved, the following can be created 
 1. **Assessment Plan**: You will be redirected to [Assessment Plan](/docs/user/manual/en/education/assessment_plan) list, where all the assessment plan for your student group will be listed and you will also be allowed to create a New Assessment Plan for the group.
 1. **Update Email Group**: Once you select this option if the Email Ids of the Students in this group will be added to the Email Group and you will be able to send newsletters to all the subscribers in this Student Group.
 
-    ![Student Group](/docs/assets/img/education/education-student-group-update-email.png)
+    ![Student Group](/docs/v12/assets/img/education/education-student-group-update-email.png)
 
 1. **Newsletters**: You will be able to send [Newsletters](/docs/user/manual/en/CRM/newsletter) to all the subscribers from within the student group with this option.
 
-![Student Group](/docs/assets/img/education/education-student-group-4.png)
+![Student Group](/docs/v12/assets/img/education/education-student-group-4.png)
 
 
 

@@ -56,7 +56,7 @@ The value of each of these variables is calculated over the scoring period for e
  - The total number of deliveries from the supplier
  - The total amount (in dollars) received from a supplier
 
-![Supplier Scorecard variable](/docs/assets/img/buying/supplier-scorecard-variables.png)
+![Supplier Scorecard variable](/docs/v12/assets/img/buying/supplier-scorecard-variables.png)
 
 Variables are pre-set, additional variables can be added through server-side customizations. Tick the Custom checkbox if the variable you're creating is for a custom field.
 

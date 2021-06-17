@@ -35,21 +35,21 @@ Before creating and using a Service Level Agreement, it is advised that you crea
     <img class="screenshot" alt="Service Level" src="{{docs_base_url}}/v12/assets/img/support/sla.png">
 1. Save.
 
-    ![SLA](/docs/assets/img/support/sla.png)
+    ![SLA](/docs/v12/assets/img/support/sla.png)
 
 ## 3. Features
 ### 3.1 Applies to New Issues
 
 Once an SLA is saved, it'll be applied to Issues raised by Customers/Territories as per the option you chose in Entity Type:
-    ![SLA in Issue](/docs/assets/img/support/sla-issue.png)
+    ![SLA in Issue](/docs/v12/assets/img/support/sla-issue.png)
 
 ### 3.2 Resetting an SLA
 An SLA can also be reset until the time does not fail. For example, if the SLA is 3 days, you can reset the SLA only within 3 days of the Issue being created. After that, the Service Level will display failed.
-    ![SLA Issue](/docs/assets/img/support/reset-sla.gif)
+    ![SLA Issue](/docs/v12/assets/img/support/reset-sla.gif)
 
 ### 3.3 Time respond / resolve in Issues
 The time to respond to an Issue and the time to resolve will be shown:
-    ![SLA in Issue](/docs/assets/img/support/sla-in-issue.png)
+    ![SLA in Issue](/docs/v12/assets/img/support/sla-in-issue.png)
 
 These times are based on the timelines set in the 'Priority' field in the Service Level's Priorities table.
 

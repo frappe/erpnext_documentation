@@ -5,7 +5,7 @@
 
 You can scrap an asset anytime using the "Scrap Asset" button in the Asset record. You will be asked for confirmation, click on Yes and the asset will be scrapped. 
 
-![Asset Scrapped](/docs/assets/img/asset/asset-scrapped.png)
+![Asset Scrapped](/docs/v12/assets/img/asset/asset-scrapped.png)
 
 The "Gain/Loss Account on Asset Disposal" account mentioned in the Company is debited by the Current Value (After Depreciation) of the asset. 
 

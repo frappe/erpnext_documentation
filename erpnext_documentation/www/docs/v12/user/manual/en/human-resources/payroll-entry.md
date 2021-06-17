@@ -27,7 +27,7 @@ Once the information is saved, click on the **Get Employees** button to get a li
 
 Once the list of Employees is fetched, click on the **Create Salary Slips** button to generate Salary Slips.
 
-<img class="screenshot" alt="Payroll Entry" src="/docs/assets/img/human-resources/payroll-entry-get-employees.png">
+<img class="screenshot" alt="Payroll Entry" src="/docs/v12/assets/img/human-resources/payroll-entry-get-employees.png">
 
 > **Note:** If the Salary Slips are already created, the system will not create any more Salary Slips. You can also just save the form as Draft and create the Salary Slips later.
 
@@ -38,7 +38,7 @@ Once the list of Employees is fetched, click on the **Create Salary Slips** butt
 
 After verifying the Salary Slips, you can Submit them all together by clicking on the **Submit Salary Slip** button.
 
-<img class="screenshot" alt="Payroll Entry" src="/docs/assets/img/human-resources/payroll-entry.png">
+<img class="screenshot" alt="Payroll Entry" src="/docs/v12/assets/img/human-resources/payroll-entry.png">
 
 This will also book the default Payroll Payable account against respective Expense Heads (as configured in Salary Components) to record the accrual of salary to employees.
 
@@ -47,7 +47,7 @@ You can select Cost Center in the Payroll Entry against which the expenses will 
 
 If you want to book expenses against multiple cost centers based on Employee/Department, you can do so by setting Payroll Cost Center in Employee/Department master. Cost Center assigned in Employee/Department master will get priority over the selected Cost Center in Payroll Entry.
 
-<img class="screenshot" alt="Payroll Entry" src="/docs/assets/img/human-resources/payroll-make-accrual-entry.png">
+<img class="screenshot" alt="Payroll Entry" src="/docs/v12/assets/img/human-resources/payroll-make-accrual-entry.png">
 
 > **Note:** Submitting Salary Slips one by one manually will not create the Journal Entry to record salary accrual.
 
@@ -65,7 +65,7 @@ To generate your salary payment voucher from Payroll Entry, click on the **Make 
 
 Payroll Entry will route you to Journal Entry with relevant filters to view the draft Journal Vouchers created. You will have to set the reference number and date for the transactions and Submit the Journal Entry.
 
-<img class="screenshot" alt="Payroll Entry" src="/docs/assets/img/human-resources/payroll-make-bank-entry.png">
+<img class="screenshot" alt="Payroll Entry" src="/docs/v12/assets/img/human-resources/payroll-make-bank-entry.png">
 
 > **Note:** For Salary Components which are Flexible Benefits and has _Create Separate Payment Entry Against Benefit Claim_ checked, ERPNext will book separate draft Journal Entries.
 

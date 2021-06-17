@@ -20,7 +20,7 @@ To create a new **Web Form** go to:
 
 > Home > Website > Web Site > Web Form
 
-![New Web Form](/docs/assets/img/website/new-web-form-1.png)
+![New Web Form](/docs/v12/assets/img/website/new-web-form-1.png)
 *New Web Form*
 
 Select the **DocType** based on which you want to build your Web Form. The
@@ -31,11 +31,11 @@ Add fields to your Web Form. These are the fields from the DocType you have
 selected. You can change the Label for these fields. Try to keep number of
 fields to be minimum as long forms are cumbersome to fill.
 
-![Web Form Fields](/docs/assets/img/website/new-web-form-2.png)
+![Web Form Fields](/docs/v12/assets/img/website/new-web-form-2.png)
 *Web Form Fields*
 
 Click on **See on Website** in the sidebar to view your Web form.
-![Web Form](/docs/assets/img/website/web-form.png)
+![Web Form](/docs/v12/assets/img/website/web-form.png)
 *Web Form*
 
 Here is an explanation of each of the checkboxes on the right.
@@ -60,10 +60,10 @@ Here is an explanation of each of the checkboxes on the right.
 You can also show contextual links in a sidebar on your Web Form. Set it up in
 **Sidebar Settings**.
 
-![Web Form Sidebar](/docs/assets/img/website/web-form-sidebar.png)
+![Web Form Sidebar](/docs/v12/assets/img/website/web-form-sidebar.png)
 *Web Form Sidebar*
 
-![Web Form with Sidebar](/docs/assets/img/website/web-form-with-sidebar.png)
+![Web Form with Sidebar](/docs/v12/assets/img/website/web-form-with-sidebar.png)
 *Web Form with Sidebar*
 
 ### 2.2 Creating Web Forms with Child Table

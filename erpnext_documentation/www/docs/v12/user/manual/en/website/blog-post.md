@@ -21,7 +21,7 @@ To access the Blog Post, go to:
 The Blog Intro is a short description of your blog that appears just after the
 title and before the content.
 
-![New Blog Post](/docs/assets/img/website/new-blog-post.png)
+![New Blog Post](/docs/v12/assets/img/website/new-blog-post.png)
 
 You can write your blog in Rich Text, Markdown, or HTML. If you want to write
 simple content pages, Rich Text and Markdown are great options. Learn how to
@@ -29,17 +29,17 @@ attach images to your blog [here](/docs/user/manual/en/website/web-page#images).
 
 > Learn markdown in a few minutes at [Mastering Markdown](https://guides.github.com/features/mastering-markdown/).
 
-![Blog Post in Markdown](/docs/assets/img/website/blog-post-in-markdown.png)
+![Blog Post in Markdown](/docs/v12/assets/img/website/blog-post-in-markdown.png)
 *Blog Post in Markdown*
 
 View your Blog Post by clicking on **See on Website** in the sidebar.
-![Blog Post](/docs/assets/img/website/blog-post.png)
+![Blog Post](/docs/v12/assets/img/website/blog-post.png)
 *Blog Post*
 
 Check the **Disable Comments** option if you'd like to disable the ability for readers to add comments to the current blog post.
-![Blog Post](/docs/assets/img/website/blog-post-disable-comments.png)
+![Blog Post](/docs/v12/assets/img/website/blog-post-disable-comments.png)
 
-![Blog Post](/docs/assets/img/website/blog-post-no-comments.png)
+![Blog Post](/docs/v12/assets/img/website/blog-post-no-comments.png)
 *Adding Comments Disabled*
 
 ## 2. Features
@@ -52,11 +52,11 @@ Blogger is a user who can post blogs. To create a Blogger, go to:
 
 You can mention a short bio about the blogger and also set an avatar here.
 
-![Blogger](/docs/assets/img/website/blogger.png)
+![Blogger](/docs/v12/assets/img/website/blogger.png)
 *Blogger*
 
 The preview will be shown at the end of the blog post.
-![Blogger Preview](/docs/assets/img/website/blogger-preview.png)
+![Blogger Preview](/docs/v12/assets/img/website/blogger-preview.png)
 *Blogger Preview*
 
 ### 2.2 Blog Category
@@ -65,13 +65,13 @@ You can group your blogs into categories. To create a new Blog Category, go to:
 
 **Home > Website > Blog > Blog Category**.
 
-![Blog Category](/docs/assets/img/website/blog-category.png)
+![Blog Category](/docs/v12/assets/img/website/blog-category.png)
 *Blog Category*
 
 If you click on **See on Website** in the sidebar, you'll be redirected to a
 list of blogs under that category.
 
-![Blog Category - General](/docs/assets/img/website/blog-category-web-view.png)
+![Blog Category - General](/docs/v12/assets/img/website/blog-category-web-view.png)
 *Blog Category - General*
 
 ### 2.3 Meta Tags
@@ -89,7 +89,7 @@ Under the SEO section, you can add the meta description and image for your blog 
 
 If you leave this section empty, the blog introduction or the first 140 characters of the blog will be shown as the meta description. In the same way, if you leave the meta image empty, the first image in the blog will be selected.
 
-![Google Search Preview](/docs/assets/img/website/blog-post-seo-meta.png)
+![Google Search Preview](/docs/v12/assets/img/website/blog-post-seo-meta.png)
 *Blog Post Google Search Preview*
 
 On submitting the blog, you can also preview how the blog will look when shared on a social media platform like Facebook or Twitter. To check this, use the debugging tools offered by the platforms:
@@ -102,7 +102,7 @@ On submitting the blog, you can also preview how the blog will look when shared 
 
 To check the post preview, simply enter the webpage/blog link in the tool:
 
-![Facebook Sharing Debugger](/docs/assets/img/website/blog-post-facebook-debugger.png)
+![Facebook Sharing Debugger](/docs/v12/assets/img/website/blog-post-facebook-debugger.png)
 *Using Facebook's Sharing Debugger Tool*
 
 Using these tools, you can optimize your blog post for sharing.

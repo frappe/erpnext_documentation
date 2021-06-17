@@ -3,7 +3,7 @@
 
 **A Request for Quotation is a document that an organization sends to one or more suppliers asking a quotation for items.**
 
-![Buying Flow](/docs/assets/img/buying/buying_flow_rfq.png)
+![Buying Flow](/docs/v12/assets/img/buying/buying_flow_rfq.png)
 
 To access Request for Quotation, go to:
 > Home > Buying > Purchasing > Request for Quotation

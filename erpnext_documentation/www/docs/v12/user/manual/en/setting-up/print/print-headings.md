@@ -20,7 +20,7 @@ To access Print Headings go to:
 
 To use the print heading, select the created print heading in the 'Print Heading' field transaction, shown as follows:
 
-![Using a Print Heading](/docs/assets/img/setup/print/use-print-heading.gif)
+![Using a Print Heading](/docs/v12/assets/img/setup/print/use-print-heading.gif)
 
 Example of a change in print heading is shown as follows:
 

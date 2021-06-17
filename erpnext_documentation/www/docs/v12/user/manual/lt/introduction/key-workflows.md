@@ -3,7 +3,7 @@
 
 Ši diagrama demonstruoja, kaip infomacija keliauja ERPNext sistemoje vykdant jūsų įmonės esmines funkcijas. Ši schema neapima visų ERPNext funkcijų.
 
-![](/docs/assets/old_images/erpnext/overview.png)
+![](/docs/v12/assets/old_images/erpnext/overview.png)
 
 <img class="screenshot" alt="Workflow" src="{{docs_base_url}}/v12/assets/img/setup/overview.png">
 

@@ -5,7 +5,7 @@ ToDo is a list of activities that is to be done by a particular individual.
 
 **In ERPNext, a ToDo is a simple tool where you can define the activities to be done. The ToDo List will enlist all the activities assigned to you and by you.**
 
-![ToDo](/docs/assets/img/using-erpnext/using-to-do-1.png)
+![ToDo](/docs/v12/assets/img/using-erpnext/using-to-do-1.png)
 
 A ToDo also gets auto-created when any other Document is assigned to you. Checkout [ToDo-Auto Creation](/docs/user/manual/en/using-erpnext/articles/todo-auto-creation)
 
@@ -19,7 +19,7 @@ To access ToDo, go to
 2. You will be redirected to a Quick Entry for ToDo, wherein you will be required to enter the description of the ToDo.
 3. Save.
 
- ![ToDo](/docs/assets/img/using-erpnext/using-to-do-2.gif)
+ ![ToDo](/docs/v12/assets/img/using-erpnext/using-to-do-2.gif)
 
 > Note: While creating a ToDo using the Quick Entry, the ToDo by default gets assigned to the creator. To prevent the same, and assign it to other users, ensure that you edit the ToDo in Full Page.
 
@@ -27,7 +27,7 @@ To access ToDo, go to
 
 Once a ToDo is created, the assigned user will get a notification for the ToDo.
 
-![ToDo](/docs/assets/img/using-erpnext/using-todo-notification.png)
+![ToDo](/docs/v12/assets/img/using-erpnext/using-todo-notification.png)
 
 ### 1.1. Additional Options while creating a ToDo
 
@@ -37,7 +37,7 @@ Once a ToDo is created, the assigned user will get a notification for the ToDo.
 4. **Due Date**: You can add the Due Date to all the ToDos.
 5. **Allocated To**: In cases where you are assigning a ToDo to another ERPNext User, you can do so here.
 
- ![ToDo](/docs/assets/img/using-erpnext/using-to-do-3.png)
+ ![ToDo](/docs/v12/assets/img/using-erpnext/using-to-do-3.png)
 
 ### 1.2. References
 
@@ -47,7 +47,7 @@ Every Document in ERPNext has an option called 'Assign To' in the side-bar. Usin
 2. **Reference Name**: On assignment via another DocType, the name of the Reference DocType also gets linked over here.
 3. **Assignment By**: When you get assigned aa ToDo via another Document Type, the name of the person making the assignment also gets tagged.
 
- ![ToDo](/docs/assets/img/using-erpnext/using-to-do-4.png)
+ ![ToDo](/docs/v12/assets/img/using-erpnext/using-to-do-4.png)
 
 ## 2. ToDo Statuses
 ToDo has 3 statuses, each describing the current state of a task.
@@ -56,7 +56,7 @@ ToDo has 3 statuses, each describing the current state of a task.
 * **Closed**: When an activity is completed, the ToDo can be marked as 'Closed' or 'Resolved' or 'Completed'. Further, for conditions like Issue Resolved or task Completed; the ToDo gets closed automatically. It can also be Reopened if required.
 * **Cancelled**: When a user gets removed from the assignment of a ToDo/Task/Issue, the ToDo linked to that Document automatically gets 'Cancelled'.
 
- ![ToDo](/docs/assets/img/using-erpnext/using-to-do-5.png)
+ ![ToDo](/docs/v12/assets/img/using-erpnext/using-to-do-5.png)
 
 
 {next}

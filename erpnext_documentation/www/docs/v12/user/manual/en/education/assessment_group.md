@@ -5,7 +5,7 @@
 
 For example, if you wish to conduct an assessment for each Academic Term within an Academic Year, then setup Assessment Group as follows.
 
-![Assessment Group](/docs/assets/img/education/education-assessment-group.png)
+![Assessment Group](/docs/v12/assets/img/education/education-assessment-group.png)
 
 To access the Assessment Group, go to 
 

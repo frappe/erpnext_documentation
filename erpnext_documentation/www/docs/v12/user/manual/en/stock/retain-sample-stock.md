@@ -31,7 +31,7 @@ Retain Sample is based on Batch hence Has Batch No should be enabled first. Chec
 
 * On submission of this Stock Entry, button 'Make Retention Stock Entry' will be available to make another Stock Entry for the transfer of sample items from the mentioned batch to the retention warehouse set in Stock Settings.
 
-    ![Sample Retention Button](/docs/assets/img/stock/sample-retention-button.png)
+    ![Sample Retention Button](/docs/v12/assets/img/stock/sample-retention-button.png)
 
 * Clicking this button will direct you to new Stock Entry of type 'Material Transfer'. This entry is transfering your sample retention from your Target Warehouse (Stores) to the Sample Retention Warehouse. It will contain all the information, verify and click Submit.
 

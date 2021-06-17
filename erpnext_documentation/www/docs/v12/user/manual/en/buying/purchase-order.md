@@ -7,7 +7,7 @@ It is similar to a Sales Order but instead of sending it to an external party, y
 
 > Home > Buying > Purchasing > Purchase Order
 
-![Buying Flow](/docs/assets/img/buying/buying_flow_po.png)
+![Buying Flow](/docs/v12/assets/img/buying/buying_flow_po.png)
 
 ## 1. Prerequisites
 Before creating and using a Purchase Order, it is advised that you create the following first:
@@ -96,7 +96,7 @@ This section appears when 'Supply Raw Materials' supplied is set to 'Yes'. This 
 
 * **Required Quantity**: The count of Items required to complete the subcontracting as specified in the [BOM](/docs/user/manual/en/manufacturing/bill-of-materials).
 * **Supplied Quantity**: This will be updated when you create Stock Entries to transfer materials to Supplier Warehouse from the Reserve Warehouse using the **Transfer** button.
-    ![Subcontract Transfer Material](/docs/assets/img/buying/subcontract-transfer-materials.gif)
+    ![Subcontract Transfer Material](/docs/v12/assets/img/buying/subcontract-transfer-materials.gif)
 
 ### 3.7 Purchase UOM and Stock UOM Conversion
 
@@ -188,7 +188,7 @@ Once you “Submit” your Purchase Order, you can trigger actions these actions
     * [Payment Entry](/docs/user/manual/en/accounts/payment-entry) - A payment entry indicates that payment has been made against a purchase order.
     * [Journal Entry](/docs/user/manual/en/accounts/journal-entry) - A Journal Entry is recorded in the general ledger.
 
-    ![Purchase Order post submitting](/docs/assets/img/buying/po-after-submit.png)
+    ![Purchase Order post submitting](/docs/v12/assets/img/buying/po-after-submit.png)
 
 ### 4. Related Topics
 1. [Request For Quotation](/docs/user/manual/en/buying/request-for-quotation)

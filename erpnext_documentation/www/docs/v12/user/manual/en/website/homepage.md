@@ -15,7 +15,7 @@ To access the Homepage page in ERPNext, go to:
 1. Set the Title. This will be shown in the Browser Tab.
 1. Configure the Hero Section as explained in the next section.
 
-![Homepage](/docs/assets/img/website/homepage.png)
+![Homepage](/docs/v12/assets/img/website/homepage.png)
 *Homepage*
 
 > Make sure your default 'Home Page' is set as `home` in Website Settings for
@@ -34,7 +34,7 @@ There are three ways in which you can customize the way the Hero Section looks:
 After you set your Tag Line, Description and Hero Image you'll have a decent
 looking front page. You can also change the URL for the Explore button under **URL for "All Products"**.
 
-![Website Homepage](/docs/assets/img/website/website-homepage.png)
+![Website Homepage](/docs/v12/assets/img/website/website-homepage.png)
 *Website Homepage*
 
 ### 2.2 Homepage Slideshow
@@ -42,18 +42,18 @@ looking front page. You can also change the URL for the Explore button under **U
 Set the **Hero Section Based On** to **Slideshow** and the **Homepage Slideshow**
 field will appear.
 
-![Homepage Slideshow Setting](/docs/assets/img/website/homepage-slideshow-setting.png)
+![Homepage Slideshow Setting](/docs/v12/assets/img/website/homepage-slideshow-setting.png)
 *Homepage Slideshow Setting*
 
 Now, select an existing Slideshow or create a new one shown as follows:
 
-![Website Slideshow](/docs/assets/img/website/website-slideshow.png)
+![Website Slideshow](/docs/v12/assets/img/website/website-slideshow.png)
 *Website Slideshow*
 
 > For best results, make sure all of your slideshow images have same height and
 > their width is greater than the height.
 
-![Website Homepage with Slideshow](/docs/assets/img/website/website-homepage-slideshow.gif)
+![Website Homepage with Slideshow](/docs/v12/assets/img/website/website-homepage-slideshow.gif)
 
 ### 2.3 Custom Hero Section
 
@@ -64,16 +64,16 @@ Set **Hero Section Based On** to **Hero Section**.
 Now create a new Hero Section. Set **Section Based On** as **Custom HTML**.
 Write your custom HTML in the Section HTML field.
 
-![Homepage Settings](/docs/assets/img/website/homepage-hero-custom.png)
+![Homepage Settings](/docs/v12/assets/img/website/homepage-hero-custom.png)
 *Homepage Settings*
 
 You can write any valid [Bootstrap 4](https://getbootstrap.com/docs/4.3/getting-started/introduction/) markup here.
 
-![New Hero Section](/docs/assets/img/website/hero-custom.png)
+![New Hero Section](/docs/v12/assets/img/website/hero-custom.png)
 *New Hero Section*
 
 It will look something like this:
-![Homepage Hero Custom](/docs/assets/img/website/website-homepage-custom.png)
+![Homepage Hero Custom](/docs/v12/assets/img/website/website-homepage-custom.png)
 *Homepage Hero Custom*
 
 ## 3. Featured Products
@@ -81,11 +81,11 @@ It will look something like this:
 You can also show featured products on your Homepage by adding them to the
 Products table.
 
-![Homepage Products Table](/docs/assets/img/website/homepage-featured-products.png)
+![Homepage Products Table](/docs/v12/assets/img/website/homepage-featured-products.png)
 *Homepage Products Table*
 
 It will look something like this:
-![Featured Products on Homepage](/docs/assets/img/website/website-featured-products.png)
+![Featured Products on Homepage](/docs/v12/assets/img/website/website-featured-products.png)
 *Featured Products on Homepage*
 
 ## 4. Homepage Section
@@ -97,14 +97,14 @@ You can add custom sections on your Homepage by creating new Homepage Sections.
 A homepage section can consist of cards or Custom HTML. Set **Section Based On**
 to **Cards**.
 
-![New Homepage Section](/docs/assets/img/website/new-homepage-section.png)
+![New Homepage Section](/docs/v12/assets/img/website/new-homepage-section.png)
 *New Homepage Section*
 
 Add details for each card like Title, Subtitle, Image, Content and Route in the
 Section Cards table.
 
 It will look something like this:
-![Homepage Section](/docs/assets/img/website/homepage-section.png)
+![Homepage Section](/docs/v12/assets/img/website/homepage-section.png)
 *Homepage Section*
 
 You can also control the order in which these sections appear by setting the
@@ -122,6 +122,6 @@ To setup a custom homepage:
 1. Create a [Web Page](/docs/user/manual/en/website/web-page).
 1. Go to Website > Setup > Website Settings.
 1. Set Home Page as the `route` of your Web Page.
-   ![](/docs/assets/img/website/custom-homepage.png)
+   ![](/docs/v12/assets/img/website/custom-homepage.png)
 
 {next}

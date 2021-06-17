@@ -21,11 +21,11 @@ In order to allow a synchronization with Google Calendar, you need to authorize 
 ### Creating an Event in ERPNext
 - Once Google Calendar Integration is succesful, all the events created in ERPNext will be synced if `Push to Google Calendar` is checked.
 - Creating an Event in ERPNext
-  <img class="screenshot" src="/docs/assets/img/erpnext_integrations/erpnext-gc.gif">
+  <img class="screenshot" src="/docs/v12/assets/img/erpnext_integrations/erpnext-gc.gif">
 - Deleting an Event in ERPNext
-  <img class="screenshot" src="/docs/assets/img/erpnext_integrations/gc-erpnext.gif">
+  <img class="screenshot" src="/docs/v12/assets/img/erpnext_integrations/gc-erpnext.gif">
 
 ### Syncing Events from Google Calendar
 - Once Google Calendar Integration is succesful, all the events in Google Calendar will be synced if `Pull from Google Calendar` is checked.
 - Syncing Events from Google Calendar to ERPNext
-  <img class="screenshot" src="/docs/assets/img/erpnext_integrations/gc-sync.gif">
+  <img class="screenshot" src="/docs/v12/assets/img/erpnext_integrations/gc-sync.gif">

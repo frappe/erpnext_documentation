@@ -15,7 +15,7 @@ modify it according to your needs and legal requirements.
 For each company, Chart of Accounts signifies the way to classify the accounting entries, mostly
 based on statutory (tax, compliance to government regulations) requirements.
 
-![CoA Tree](/docs/assets/img/accounts/chart-of-accounts-tree.png)
+![CoA Tree](/docs/v12/assets/img/accounts/chart-of-accounts-tree.png)
 
 The Chart of Accounts helps you to answer questions like:
 

@@ -25,11 +25,11 @@ Once you set up a POS profile, you can start billing on POS.
 1. In order to edit Rate and Discount, you need to enable them in the POS Profile.
 1. A default Warehouse needs to be set to complete the transaction. If Warehouse is set in both Item and POS profile, the one in POS Profile will be given preference.
 1. Do note that you need to have Items in your Warehouse before you can sell. If Items are not available, a red dot will be shown next to the Item when selected.
-  ![POS Screen](/docs/assets/img/accounts/pos-screen.png)
+  ![POS Screen](/docs/v12/assets/img/accounts/pos-screen.png)
 1. When all Items are added, click on Pay. You'll be asked to submit the Sales Invoice.
 1. Select the payment mode, Submit
 1. You can then print the POS invoice.
-  ![POS Cycle](/docs/assets/img/accounts/pos-cycle.gif)
+  ![POS Cycle](/docs/v12/assets/img/accounts/pos-cycle.gif)
   
 After the Sales Invoice is submitted, you can either print or email it directly to the customer.
 

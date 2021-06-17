@@ -20,5 +20,5 @@ To use the BOM Update Tool, go to:
 2. Select the new BOM of which you want to see the changes in **BOM 2** field.
 3. The changes will be shown as soon as you select both the values.
 
-![BOM Comparison Tool](/docs/assets/img/manufacturing/bom-comparison-tool.png)
+![BOM Comparison Tool](/docs/v12/assets/img/manufacturing/bom-comparison-tool.png)
 

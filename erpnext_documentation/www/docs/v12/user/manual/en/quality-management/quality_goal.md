@@ -24,7 +24,7 @@ In the Objectives table, enter:
     1. The Objectives which consist the various Objectives that need to be completed to meet the a Quality Goal.
     1. The Target which consists of the numeric target value of an Objective that is to be met.
     1. The Unit of Measurement to measure the Target. Eg: Leads, Hours, etc.
-    ![Quality Goal](/docs/assets/img/quality-management/quality-goal.png)
+    ![Quality Goal](/docs/v12/assets/img/quality-management/quality-goal.png)
 1. Save.
 
 The Revision field shows The number of times the document was saved.

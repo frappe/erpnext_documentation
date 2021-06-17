@@ -51,7 +51,7 @@ If the Item is serialized, the Serial Number can be entered.
 
 On assigning the maintenance to a user, it will appear in the User's ToDo list.
 
-![Asset Maintenance](/docs/assets/img/asset/asset-maintenance-todo.png)
+![Asset Maintenance](/docs/v12/assets/img/asset/asset-maintenance-todo.png)
 
 
 ## 4. Related Topics

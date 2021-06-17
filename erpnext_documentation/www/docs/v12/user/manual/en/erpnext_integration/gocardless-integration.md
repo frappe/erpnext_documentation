@@ -10,15 +10,15 @@ To enable GoCardless in your ERPNext account, you need to configure the followin
 
 You can setup several GoCardless payment gateways if needed. The choice of payment gateway account will determine which GoCardless account is used for the payment.
 
-![GoCardless Settings](/docs/assets/img/setup/integrations/gocardless_account.png)
+![GoCardless Settings](/docs/v12/assets/img/setup/integrations/gocardless_account.png)
 
 On enabling service, the system will create a Payment Gateway record and an Account head in chart of account with account type as Bank.
 
-![GoCardless COA](/docs/assets/img/setup/integrations/gocardless_coa.png)
+![GoCardless COA](/docs/v12/assets/img/setup/integrations/gocardless_coa.png)
 
 It will also create a payment gateway account. You can change the default bank account if needed and create a template for the payment request.
 
-![Payment Gateway Account](/docs/assets/img/setup/integrations/payment_gateway_account_gocardless.png)
+![Payment Gateway Account](/docs/v12/assets/img/setup/integrations/payment_gateway_account_gocardless.png)
 
 After configuring the Payment Gateway Account, your system is able to accept online payments through GoCardless.
 

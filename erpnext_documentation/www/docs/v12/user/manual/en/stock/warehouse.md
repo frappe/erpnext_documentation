@@ -34,7 +34,7 @@ identifying which Warehouse belongs to which company at a glance.
 #### Address and contact
 You can add Billing, Shipping, and other types of addresses for the Warehouse. You can also add a contact, this could be the Warehouse Manager for example.
 
-![Warehouse](/docs/assets/img/stock/warehouse.png)
+![Warehouse](/docs/v12/assets/img/stock/warehouse.png)
 
 ### 1.2 After Saving
 After saving a Warehouse, you'll see the following options:

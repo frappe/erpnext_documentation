@@ -82,7 +82,7 @@ Ticking on the Show Permissions checkbox will show the read/write/submit and oth
 Note: If you cannot access Sales Order or any other document type in this list, make sure you've set the [roles](/docs/user/manual/en/setting-up/users-and-permissions/role-based-permissions) correctly.
 
 For example, the user, Bruce is restricted to Company 'Unico Plastics Inc.'
-![User restricted to Company](/docs/assets/img/users-and-permissions/user-perms/user-restricted-to-company.png)
+![User restricted to Company](/docs/v12/assets/img/users-and-permissions/user-perms/user-restricted-to-company.png)
 
 ### 3. Related Topics
 1. [Adding Users](/docs/user/manual/en/setting-up/users-and-permissions/adding-users)

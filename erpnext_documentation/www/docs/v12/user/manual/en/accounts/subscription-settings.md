@@ -10,5 +10,5 @@ To access the Subscription list, go to:
 
 * **Cancel Invoice After Grace Period**: Instead of displaying 'Unpaid', the Subscription will be canceled in ERPNext if the Customer does not pay.
 
-![Subscription](/docs/assets/img/accounts/subscription-settings.png)
+![Subscription](/docs/v12/assets/img/accounts/subscription-settings.png)
 

@@ -8,7 +8,7 @@ To enable Shopping Cart, go to:
 
 > Home > Website > Portal > Shopping Cart Settings
 
-![Shopping Cart Settings](/docs/assets/img/website/shopping-cart-settings.png)
+![Shopping Cart Settings](/docs/v12/assets/img/website/shopping-cart-settings.png)
 *Shopping Cart Settings*
 
 You can even build a **landing page** for your store at a custom route (eg. /*store*).
@@ -34,7 +34,7 @@ Items without variants have their dedicated product page and an **Add to Cart**
 button. The stock information is also shown if they are enabled in Shopping Cart
 Settings.
 
-![Item without Variants](/docs/assets/img/website/item-without-variants.png)
+![Item without Variants](/docs/v12/assets/img/website/item-without-variants.png)
 *Item without Variants*
 
 ### 1.2 Items with variants
@@ -42,7 +42,7 @@ Settings.
 Since Item Templates can't be bought directly, there is a Configure button to
 choose the specific variant and add it to cart.
 
-![Item with Variants](/docs/assets/img/website/item-with-variants.gif)
+![Item with Variants](/docs/v12/assets/img/website/item-with-variants.gif)
 *Item with Variants*
 
 ## 2. Cart Quotation
@@ -51,7 +51,7 @@ If checkout is disabled, when your customers add an item to cart, they can click
 on the **Request for Quotation** button to get a quote for it. A [Quotation](/docs/user/manual/en/selling/quotation)
 is generated in the system.
 
-![Cart Quotation](/docs/assets/img/website/cart-quotation.png)
+![Cart Quotation](/docs/v12/assets/img/website/cart-quotation.png)
 *Cart Quotation*
 
 ## 3. Cart Checkout
@@ -61,8 +61,8 @@ Settings. You must have [PayPal Integration](/docs/user/manual/en/erpnext_integr
 or [Razorpay Integration](/docs/user/manual/en/erpnext_integration/razorpay-integration)
 for enabling payments.
 
-![Cart Checkout Settings](/docs/assets/img/website/cart-checkout-settings.png)
+![Cart Checkout Settings](/docs/v12/assets/img/website/cart-checkout-settings.png)
 *Cart Checkout Settings*
 
-![Cart Checkout](/docs/assets/img/website/cart-checkout.png)
+![Cart Checkout](/docs/v12/assets/img/website/cart-checkout.png)
 *Cart Checkout*

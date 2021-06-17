@@ -13,11 +13,11 @@ Check [List of Renamable Documents](/docs/user/manual/en/using-erpnext/articles/
 
 **Step 2**: From the drop-down menu, select the option 'Rename'. 
 
-![Document Renaming](/docs/assets/img/using-erpnext/using-rename-documents-1.gif)
+![Document Renaming](/docs/v12/assets/img/using-erpnext/using-rename-documents-1.gif)
 
 Alternatively, you can also click on the Title of the document, which will result in a pop-up, wherein you will be able to change the name of the document that you wish to rename.
 
-![Document Renaming](/docs/assets/img/using-erpnext/using-rename-documents-2.gif)
+![Document Renaming](/docs/v12/assets/img/using-erpnext/using-rename-documents-2.gif)
 
 ### Effect of Renaming
 

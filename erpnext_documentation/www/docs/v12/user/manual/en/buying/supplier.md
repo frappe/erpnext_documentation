@@ -43,7 +43,7 @@ If the "Purchase Order Required" or "Purchase Receipt Required" option is config
 ### 2.3 Currency and Price List
 **Billing Currency**: Your supplier's currency can be different from your company currency. If you choose USD for a supplier, then the currency will be filled as USD and the exchange rate shown for future purchase transactions.
 
-![Supplier Currency](/docs/assets/img/buying/supplier-currency.gif)
+![Supplier Currency](/docs/v12/assets/img/buying/supplier-currency.gif)
 
 Each Supplier can have a default **Price List** so that every time you buy a new item from this supplier for different prices, the price list associated with the supplier would be updated as well. Under the price list comes item price, you can see the prices in Buying > Items and Pricing > Item Price.
 
@@ -97,7 +97,7 @@ Once all the necessary details are filled, save the document. On saving, options
 * **Payment Entry**: Payment Entries for the Purchase Invoices against this supplier.
 * **Pricing Rule**: Any Pricing Rules linked with this supplier. See section _2.2 Currency and Price List_ to know how it works.
 
-![Supplier Save](/docs/assets/img/buying/supplier-save.png)
+![Supplier Save](/docs/v12/assets/img/buying/supplier-save.png)
 
 By clicking on the View button, you can view the Accounting Ledger or Accounts Payable directly for this supplier.
 

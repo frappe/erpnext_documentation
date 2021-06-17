@@ -21,7 +21,7 @@ It reflects the same value as entered in the *Rate* field of the document.
 
 Here is how Stock Ledger Report represents a **Stock Entry** of type *Material Receipt*.
 
-![Stock Ledger Report](/docs/assets/img/stock/stock-ledger.png)
+![Stock Ledger Report](/docs/v12/assets/img/stock/stock-ledger.png)
 
 It reflects an item **Chair** of quantity *1000 units* with Incoming Rate (Basic Rate) as *Rs.3000* received in warehouse *Stores - L* along with calculating Valuation Rate and Balance Value.
 

@@ -5,7 +5,7 @@
 
 A Supplier Quotation may also contain terms of sale, terms of payment, and warranties. Acceptance of quotation by the buyer can be considered as an agreement binding on both parties.
 
-![Buying Flow](/docs/assets/img/buying/buying_flow_sq.png)
+![Buying Flow](/docs/v12/assets/img/buying/buying_flow_sq.png)
 
 To access Supplier Quotation, go to:
 > Home > Buying > Purchasing > Supplier Quotation

@@ -171,7 +171,7 @@ When the 'Order Type' of the Sales Order is 'Maintenance' follow these steps:
 
     i) Maintenance Visit ii) Maintenance Schedule.
 
-  ![Sales Order Maintenance Type](/docs/assets/img/selling/so-maintenance.png)
+  ![Sales Order Maintenance Type](/docs/v12/assets/img/selling/so-maintenance.png)
 
 > **Note 1:**
 By clicking on the Action button and selecting 'Maintenance Visit' you can directly fill the visit form. The Sales Order details will be fetched directly.

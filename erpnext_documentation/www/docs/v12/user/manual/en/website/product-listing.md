@@ -8,14 +8,14 @@ You can go to the product listing by clicking on the **Explore** button on your
 homepage or visiting the **/all-products** route. For example,
 `https://apple.erpnext.com/all-products`
 
-![Product Listing](/docs/assets/img/website/product-listing.png)
+![Product Listing](/docs/v12/assets/img/website/product-listing.png)
 *Product Listing*
 
 ## 1. Products Settings
 
 The Product Listing can be configured from Products Settings. Go to  **Website > Portal > Products Settings**.
 
-![Products Settings](/docs/assets/img/website/products-settings.png)
+![Products Settings](/docs/v12/assets/img/website/products-settings.png)
 *Products Settings*
 
 Here are some of the configuration options:
@@ -39,7 +39,7 @@ You can also add filters to your listing. There are two types of filters:
 Enable the Field Filters checkbox in Products Settings and add the fields based
 on which you want to have the filters.
 
-![Field Filters](/docs/assets/img/website/field-filters.png)
+![Field Filters](/docs/v12/assets/img/website/field-filters.png)
 *Field Filters*
 
 #### Attribute Filters
@@ -47,12 +47,12 @@ on which you want to have the filters.
 Enable the Attribute Filters checkbox in Products Settings and add the
 attributes based on which you want to have the filters.
 
-![Attribute Filters](/docs/assets/img/website/attribute-filters.png)
+![Attribute Filters](/docs/v12/assets/img/website/attribute-filters.png)
 *Attribute Filters*
 
 Go to your Product Listing, it should show filters on the sidebar.
 
-![Product Listing with Filters](/docs/assets/img/website/product-listing-with-filters.png)
+![Product Listing with Filters](/docs/v12/assets/img/website/product-listing-with-filters.png)
 *Product Listing with Filters*
 
 {next}

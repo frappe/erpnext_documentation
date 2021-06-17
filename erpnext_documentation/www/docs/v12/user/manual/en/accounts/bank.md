@@ -6,7 +6,7 @@ In ERPNext, saving different banks lets you upload an excel sheet and map the tr
 To access Bank, go to:
 > Home > Accounting > Bank Statement > Bank
 
-![Bank](/docs/assets/img/accounts/bank.png)
+![Bank](/docs/v12/assets/img/accounts/bank.png)
 
 ## 1. How to create a Bank
 Creating a Bank is simple, go to the Bank list, click on New, and enter a name.

@@ -7,11 +7,11 @@ The **Academic year** form have the Start and End date for the Academic year.
 
 Within an Academic Year, you can have multiple **Academic Terms**.
 
-![Academic Year](/docs/assets/img/education/education-academic-year-1.png)
+![Academic Year](/docs/v12/assets/img/education/education-academic-year-1.png)
 
 An academic Year can be further liked to a [Student group](/docs/user/manual/en/education/student-group), which can be created from an Academic Year.
 
-![Academic Year](/docs/assets/img/education/education-academic-year-2.png)
+![Academic Year](/docs/v12/assets/img/education/education-academic-year-2.png)
 
 If the Academic Year has been specified in the [Education Settings](/docs/user/manual/en/education/education-settings) then it will become the default Academic Term in all the forms and will be editable if required.
 

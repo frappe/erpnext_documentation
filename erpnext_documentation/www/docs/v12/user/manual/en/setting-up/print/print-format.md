@@ -19,7 +19,7 @@ To access Print Format, go to:
 1. Enter a name and select a DocType for which the Print Format is to be used.
 1. The module for which it should apply will be selected automatically.
 
-  ![Print Format menu](/docs/assets/img/setup/print/print-format-menu.png)
+  ![Print Format menu](/docs/v12/assets/img/setup/print/print-format-menu.png)
 
 1. Save.
 
@@ -34,16 +34,16 @@ Fields in the transactions and their child tables can be hidden/shown using Cust
 For example, if you want to hide the 'Item Code' when printing a Quotation, click on the print icon to enter the print screen.
 
 Go to Menu > Customize, select Quotation Item in the 'Enter Form Type' field.
-![Print Format Customize](/docs/assets/img/setup/print/print-format-customize1.png)
+![Print Format Customize](/docs/v12/assets/img/setup/print/print-format-customize1.png)
 
 To know more, visit the [Customize Print Format](/docs/user/manual/en/customize-erpnext/print-format) page.
 
 In the fields table, expand the 'Item Code' row, scroll down and tick the 'Print Hide' checkbox.
-![Print Format Print Hide](/docs/assets/img/setup/print/print-format-customize2.png)
+![Print Format Print Hide](/docs/v12/assets/img/setup/print/print-format-customize2.png)
 
 
 A newly created Print Format can be selected on the print screen of a transaction. From there you can see how it looks and proceed to print.
-![Selecting a Print Format](/docs/assets/img/setup/print/print-format-selection.png)
+![Selecting a Print Format](/docs/v12/assets/img/setup/print/print-format-selection.png)
 
 ## 2. Video
 <div class="embed-container">

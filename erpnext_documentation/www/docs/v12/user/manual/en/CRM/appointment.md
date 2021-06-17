@@ -32,17 +32,17 @@ To access Appointment list, go to:
 3. Enter customer details
 4. In linked documents, if you have already created a Lead for the Customer you can set it here. Otherwise the system will automatically create a new lead with the customer details from previous step.
 1. Save.
- ![New Appointment](/docs/assets/img/crm/new-appointment.png)
+ ![New Appointment](/docs/v12/assets/img/crm/new-appointment.png)
 
 ### 2.1 Creating appointments via website
 
 Your Customers/Leads can create appointment using the webpage `yoursitename.com/book_appointment`. 
 
 First they need to set a date, time.
-![Appointment Webform](/docs/assets/img/crm/appointment-webform.png)
+![Appointment Webform](/docs/v12/assets/img/crm/appointment-webform.png)
 
 Then, add more details:
-![Appointment Details](/docs/assets/img/crm/appointment-details.png)
+![Appointment Details](/docs/v12/assets/img/crm/appointment-details.png)
 
 It'll match the customer email with leads in the system and if one is found, it is linked with the document.
 If no lead is found, the appointment is marked as "Unverified" and an email is sent to the customer to confirm their email

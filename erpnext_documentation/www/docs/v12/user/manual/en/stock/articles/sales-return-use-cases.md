@@ -20,7 +20,7 @@ This is a scenario where the customer purchased an item from you for which Sales
 3. If you wish to also return items via Sales Invoice itself, check field "Update Stock".
 4. Save and Submit Credit Note.
 
-<img class="screenshot" alt="Create Shareholder" src="/docs/assets/img/stock/sales-return-against-payment.png">
+<img class="screenshot" alt="Create Shareholder" src="/docs/v12/assets/img/stock/sales-return-against-payment.png">
 
 As per this entry, the sold items will be accepted back in your Warehouse. Also, the payment received from the Customer will be reversed.
 

@@ -27,7 +27,7 @@ To access Letter Head, go to:
 
 You can set the Letter Head based on HTML to make changes to it:
 
-![Letter Head based on](/docs/assets/img/setup/print/letter-head-based-on.gif)
+![Letter Head based on](/docs/v12/assets/img/setup/print/letter-head-based-on.gif)
 
 This is how the Letter Head looks in a document's print.
 

@@ -11,7 +11,7 @@ If you receive payment in the slab of 30-70, then you can define Payment Term fo
 
 In the Payment Terms Template, you can select all the Payment Terms and define a template which can be easily applied in the sales and purchase transactions.
 
-![Payment Terms Template](/docs/assets/img/accounts/payment-terms-template.png)
+![Payment Terms Template](/docs/v12/assets/img/accounts/payment-terms-template.png)
 
 ## 1. Prerequisites
 Before creating and using Payment Request, it is advisable to create the following first:

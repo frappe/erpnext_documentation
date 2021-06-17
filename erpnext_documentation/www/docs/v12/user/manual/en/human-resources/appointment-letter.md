@@ -43,4 +43,4 @@ Before creating an Appointment Letter, it is advisable to create the following:
 ### 3.2 Print Format
 You can create new or use existing standard print formats.
 
-![Appointment Letter](/docs/assets/img/human-resources/standard-appointment-letter.png)
+![Appointment Letter](/docs/v12/assets/img/human-resources/standard-appointment-letter.png)

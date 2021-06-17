@@ -12,7 +12,7 @@ Since the new Sales Order will have all the details the same as that of the orig
 
 To make a Duplicate document, you can go to the original document and click on 'Duplicate' from the Drop-Down menu.
 
-![Duplicate Record](/docs/assets/img/using-erpnext/using-duplicate-record-1.gif)
+![Duplicate Record](/docs/v12/assets/img/using-erpnext/using-duplicate-record-1.gif)
 
 {next}
 

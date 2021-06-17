@@ -25,11 +25,11 @@ Daten werden in ERPNext in Tabellen gespeichert, sehr ähnlich einer Tabellenkal
 
 Öffnen Sie die Vorlage nach dem Herunterladen in einer Tabellenkalkulationsanwendung und fügen Sie die Daten unterhalb der Spaltenköpfe ein.
 
-![Tabellenblatt](/docs/assets/old_images/erpnext/import-3.png)
+![Tabellenblatt](/docs/v12/assets/old_images/erpnext/import-3.png)
 
 Exportieren Sie dann Ihre Vorlage oder speichern Sie sie im CSV-Format (**Comma Separated Values**).
 
-![Tabellenblatt](/docs/assets/old_images/erpnext/import-4.png)
+![Tabellenblatt](/docs/v12/assets/old_images/erpnext/import-4.png)
 
 ### 3. Hochladen der CSV-Datei
 

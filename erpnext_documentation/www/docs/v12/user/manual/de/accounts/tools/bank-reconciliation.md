@@ -12,7 +12,7 @@ Der Kontoauszug erscheint in ERPNext in der Form eines Berichtes.
 
 #### Abbilung 1: Kontoauszug
 
-![](/docs/assets/old_images/erpnext/bank-reconciliation-2.png) 
+![](/docs/v12/assets/old_images/erpnext/bank-reconciliation-2.png) 
 
 Wenn Sie den Bericht erhalten, überprüfen Sie bitte, ob das Feld "Abwicklungsdatum" wie bei der Bank angegeben mit dem Kontoauszug übereinstimmt. Wenn die Beträge übereinstimmen, dann werden die Abwicklungsdaten abgeglichen. Wenn die Beträge nicht übereinstimmen, dann überprüfen Sie bitte die Abwicklungsdaten und die Journalbuchungen/Buchungssätze.
 

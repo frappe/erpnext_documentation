@@ -9,7 +9,7 @@ Required as “No” in Buying Settings.
 To access the Purchase Receipt list, go to:
 > Home > Stock > Stock Transactions > Purchase Receipt
 
-![Purchase Receipt flow](/docs/assets/img/stock/purchase-receipt-flow.png)
+![Purchase Receipt flow](/docs/v12/assets/img/stock/purchase-receipt-flow.png)
 
 ## 1. Prerequisites
 Before creating and using a Purchase Receipt, it is advised that you create the following first:
@@ -81,7 +81,7 @@ The following Warehouses set will apply to all Items in the Items table of the P
 
 * **Received and Accepted**: Set the received, accepted and rejected quantity. The UoM is fetched from the Item master. You will need to update the “UOM Conversion Factor” if your Purchase Order for an Item is in a different Unit of Measure (UOM) than what you stock (Stock UOM).
 
-    ![Purchase Receipt Items table](/docs/assets/img/stock/purchase-receipt-item.png)
+    ![Purchase Receipt Items table](/docs/v12/assets/img/stock/purchase-receipt-item.png)
 
 * **Rate**: The Rate is fetched if set in the [Price List](/docs/user/manual/en/stock/price-lists) and the total Amount is calculated.
 
@@ -116,7 +116,7 @@ After enabling Inspection Criteria in the [Item form](/docs/user/manual/en/stock
 
 To know more, visit the [Quality Inspection](/docs/user/manual/en/stock/quality-inspection) page.
 
-![Quality Inspection](/docs/assets/img/stock/quality-inspection.png)
+![Quality Inspection](/docs/v12/assets/img/stock/quality-inspection.png)
 
 
 ### 3.5 Raw Materials Consumed
@@ -172,7 +172,7 @@ After submitting the Purchase Receipt, the following can be created:
 * [Purchase Invoice](/docs/user/manual/en/accounts/purchase-invoice)
 * [Retaining Sample Stock](/docs/user/manual/en/stock/retain-sample-stock)
 
-![Purchase Receipt submit](/docs/assets/img/stock/purchase-receipt-submit.png)
+![Purchase Receipt submit](/docs/v12/assets/img/stock/purchase-receipt-submit.png)
 
 ### 3.11 Returning a Purchase Order
 Once you've received a Purchase Order using a Purchase Receipt, you can create a return entry in case the Item needs to be returned to the [Supplier](/docs/user/manual/en/buying/supplier). To know more, visit the [Purchase Return](/docs/user/manual/en/stock/purchase-return) page.

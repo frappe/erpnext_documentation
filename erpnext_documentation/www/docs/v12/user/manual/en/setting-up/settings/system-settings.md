@@ -100,7 +100,7 @@ On ticking 'Enable Two Factor Auth', the following two options will be seen.
 * **Hide footer in auto-email reports**: If ticked, footers will be hidden in [Auto Email reports](/docs/user/manual/en/setting-up/email/auto-email-reports).
 * **Send document web view link in the email**: ERPNext has a portal view available from where parties like Customers and Suppliers can sign up and view their order history. When you email a transaction to your party, you can also send a web link to view the same document on the portal of your ERPNext account. This option will enable this functionality.
 
-    ![Email Footer](/docs/assets/img/setup/settings/email-footer.png)
+    ![Email Footer](/docs/v12/assets/img/setup/settings/email-footer.png)
 
 ### 1.10 Chat
 

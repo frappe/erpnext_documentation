@@ -18,7 +18,7 @@ To access Employee Other Income, go to:
 1. Enter the Amount and its Source.
 1. Save and Submit.
 
-<img class="screenshot" alt="Employee Other Income" src="/docs/assets/img/human-resources/employee-other-income.png">
+<img class="screenshot" alt="Employee Other Income" src="/docs/v12/assets/img/human-resources/employee-other-income.png">
 
 ## 2. Related Topics
 

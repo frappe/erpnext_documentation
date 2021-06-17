@@ -5,7 +5,7 @@
 
 For example, if for a particular term, Economics Major is a program taught in the institute, then Mathematical Methods for Economics would be a Course covered under the program.
 
-![Course](/docs/assets/img/education/education-program-workflow.png)
+![Course](/docs/v12/assets/img/education/education-program-workflow.png)
 
 A course will have a set of [topics](/docs/user/manual/en/education/topic) that are to be covered under it's scope. 
 
@@ -29,7 +29,7 @@ Before creating a course, it is advised to create:
 5. Add the Description for the course.
 6. Save.
 
- ![Course](/docs/assets/img/education/education-course-1.png)
+ ![Course](/docs/v12/assets/img/education/education-course-1.png)
 
 ## 3. Features
 
@@ -40,7 +40,7 @@ For every new Course a User can have a New Assessment setting where in they can 
 1. **Default Grading Scale**: A default [Grading Scale](/docs/user/manual/en/education/grading_scale) can be set up for the course, wherein you can define what would be the achievement level of the student based on the scores they earn for a course.
 2. **Assessment Criteria**: You can define the [Assessment Criteria](/docs/user/manual/en/education/assessment_criteria) for this course wherein based on the different parameters of assessment, the student's understanding of the subject would be assessed.
 
- ![Course](/docs/assets/img/education/education-course-2.png)
+ ![Course](/docs/v12/assets/img/education/education-course-2.png)
 
 ## 4. More Actions
 
@@ -51,7 +51,7 @@ Once the course has been created, the following documents can be created from th
 3. [Course Schedule](/docs/user/manual/en/education/course-schedule)
 4. [Assessment Plan](/docs/user/manual/en/education/assessment_plan)
 
- ![Course](/docs/assets/img/education/education-course-3.png)
+ ![Course](/docs/v12/assets/img/education/education-course-3.png)
 
 ## 5. Video Tutorial for Course
 

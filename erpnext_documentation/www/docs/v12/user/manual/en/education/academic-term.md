@@ -9,7 +9,7 @@ To access Academic term, go to:
 
 The **Academic term** form in ERPNext enables you to create academic terms within in an Academic Year. Based on the term schedule enter the start and end date for the schedule and generate the Academic Term.
 
-![Academic Term](/docs/assets/img/education/education-term.png)
+![Academic Term](/docs/v12/assets/img/education/education-term.png)
 
 If the Academic Term has been specified in the [Education Settings](/docs/user/manual/en/education/education-settings) then it will become the default Academic Term in all the forms and will be editable if required.
 

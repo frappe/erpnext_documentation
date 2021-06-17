@@ -38,7 +38,7 @@ Control actions can be triggered when:
 
 You can set a control action in the Budget based on Material Requests, Purchase Orders, or on actual expenses. Further, you can set a control action for annual or monthly budgets.
 
-![Control Actions](/docs/assets/img/accounts/control-actions.png)
+![Control Actions](/docs/v12/assets/img/accounts/control-actions.png)
 
 There are three types of control actions.
 

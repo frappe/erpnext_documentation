@@ -17,7 +17,7 @@ To access Academic term, go to:
 4. Select how you want the Instructor Records to be created, using Full Name, using Naming series or using Employee Number.
 5. **Instructor Record to be created by**: You can select how you want the Instructor Records to be created in your ERPNext system, whether it should be by Full Name, by Naming series, or by Employee Code.
 
- ![Education Settings](/docs/assets/img/education/education-seetings-1.png)
+ ![Education Settings](/docs/v12/assets/img/education/education-seetings-1.png)
 
 ### 1.1. Configuring Properties
 
@@ -35,7 +35,7 @@ Once you Enable LMS for your ERPNext Education module, the following settings wo
 1. **LMS Title**: Enter the Title for your LMS. It could be the name of your Institute.
 2. **Description**: You can add the description of the course for your LMS.
 
-![Education Settings](/docs/assets/img/education/education-seetings-1.png)
+![Education Settings](/docs/v12/assets/img/education/education-seetings-1.png)
 
 You can further go to [LMS Activity](/docs/user/manual/en/education/setting-up-lms) to add the courses, articles or quizzes for your LMS. To access your LMS portal, you may go to the URL, {yourdomainname}.erpnext.com/lms
 

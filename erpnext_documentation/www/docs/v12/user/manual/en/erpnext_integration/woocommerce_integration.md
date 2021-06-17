@@ -12,11 +12,11 @@ While creating a Sales Order from WooCommerce, if the Customer or Item is missin
 1. From your WooCommerce site's sidebar, click on Settings.
 2. Click on the "Advanced" tab then click on the REST API link.
 
-    ![Woocommerce API](/docs/assets/img/erpnext_integrations/wc-add-key.png)
+    ![Woocommerce API](/docs/v12/assets/img/erpnext_integrations/wc-add-key.png)
 
 3. Click on "Add key" button. Provide the necessary details and click on "Generate API key" button.
 
-    ![Woocommerce API Key](/docs/assets/img/erpnext_integrations/wc-generate-keys.png)
+    ![Woocommerce API Key](/docs/v12/assets/img/erpnext_integrations/wc-generate-keys.png)
 
 ### 1.2 Woocommerce Settings
 
@@ -30,7 +30,7 @@ While creating a Sales Order from WooCommerce, if the Customer or Item is missin
 8. Click Save.
 9. After saving the Woocommerce Settings, "Secret" and "Endpoint" are generated automatically.
 
-![Woocommerce Settings](/docs/assets/img/erpnext_integrations/woocommerce-settings.png)
+![Woocommerce Settings](/docs/v12/assets/img/erpnext_integrations/woocommerce-settings.png)
 
 ### 1.3 Woocommerce Webhook Settings
 
@@ -43,11 +43,11 @@ While creating a Sales Order from WooCommerce, if the Customer or Item is missin
 7. Copy "Secret" from "Woocommerce Settings" doctype in your ERPNext site and paste it in "Secret" field.
 8. Keep API VERSION as it is and click on Save Webhook. Now it is successfully set up.
 
-![Woocommerce Webhook](/docs/assets/img/erpnext_integrations/wc-webhook.png)
+![Woocommerce Webhook](/docs/v12/assets/img/erpnext_integrations/wc-webhook.png)
 
 A GIF below to show the entire process:
 
-![Woocommerce Set Up](/docs/assets/img/erpnext_integrations/woocommerce-setup.gif)
+![Woocommerce Set Up](/docs/v12/assets/img/erpnext_integrations/woocommerce-setup.gif)
 
 > **Note:** In the above screenshot and GIF, in place of delivery url on woocommerce website, you need to paste the url you will obtain after saving the "Woocommerce Settings" in the "Endpoint" field in your ERPNext instance. Here other URL was pasted as localhost was being used.
 
@@ -63,7 +63,7 @@ A GIF below to show the entire process:
 8. Now on your ERPNext instance, check the following Document Types: Customer, Address, Item, Sales Order. They will be fetched and created from the webhook data.
 9. In case the orders are not synced, you can check the error in **Home > Settings > Core > Error Log**.
 
-![Woocommerce Set Up](/docs/assets/img/erpnext_integrations/woocommerce-order.gif)
+![Woocommerce Set Up](/docs/v12/assets/img/erpnext_integrations/woocommerce-order.gif)
 
 ## 2. Features
 
@@ -76,7 +76,7 @@ In the Woocommerce Settings DocType:
 - **Sales Order Series**: You can set a separate series for Sales Orders created via woocommerce. The default series is "SO-WOO-".
 - **UOM**: This is the default UOM used for Items and Sales Orders. The default UOM is "Nos".
 
-![Woocommerce Defaults](/docs/assets/img/erpnext_integrations/wc-defaults.png)
+![Woocommerce Defaults](/docs/v12/assets/img/erpnext_integrations/wc-defaults.png)
 
 ## 3. Related Topics
 1. [Sales Order](/docs/user/manual/en/selling/sales-order)

@@ -19,7 +19,7 @@ landing page.
 If you want to use the ERPNext [Homepage](/docs/user/manual/en/website/homepage),
 you must set it as `home`.
 
-![Website Settings - Landing Page](/docs/assets/img/website/website-settings-landing-page.png)
+![Website Settings - Landing Page](/docs/v12/assets/img/website/website-settings-landing-page.png)
 *Website Settings - Landing Page*
 
 You can also set the **Title Prefix** here. It will be appended to the browser title
@@ -38,7 +38,7 @@ You can set the brand logo for your website in this section. Upload the Brand
 Image first and then click on "Set Banner from Image" button. It will generate a
 Banner HTML with your uploaded logo.
 
-![Website Settings - Banner Image](/docs/assets/img/website/website-settings-banner-image.png)
+![Website Settings - Banner Image](/docs/v12/assets/img/website/website-settings-banner-image.png)
 *Website Settings - Banner Image*
 
 ### 3.2 Favicon
@@ -46,12 +46,12 @@ Banner HTML with your uploaded logo.
 You can also set the favicon of your website in this section. It appears on the
 left side of the browser tab.
 
-![Website Settings - Favicon](/docs/assets/img/website/website-settings-favicon.png)
+![Website Settings - Favicon](/docs/v12/assets/img/website/website-settings-favicon.png)
 *Website Settings - Favicon*
 
 View your website by clicking on **View Website** in the action bar on top right.
 
-![Website with Brand and Favicon](/docs/assets/img/website/website-brand-and-favicon.png)
+![Website with Brand and Favicon](/docs/v12/assets/img/website/website-brand-and-favicon.png)
 *Website with Brand and Favicon*
 
 ## 4. Top Bar
@@ -59,10 +59,10 @@ View your website by clicking on **View Website** in the action bar on top right
 You can customize the menu items in the navbar of your website from the **Top Bar**
 section.
 
-![Website Setting - Top Bar](/docs/assets/img/website/website-settings-top-bar.png)
+![Website Setting - Top Bar](/docs/v12/assets/img/website/website-settings-top-bar.png)
 *Website Setting - Top Bar*
 
-![Website Navbar Items](/docs/assets/img/website/website-navbar-items.png)
+![Website Navbar Items](/docs/v12/assets/img/website/website-navbar-items.png)
 *Website Navbar Items*
 
 ## 5. Banner
@@ -70,10 +70,10 @@ section.
 You can add a persistent banner to your website which will be shown above the
 navbar on all web pages. You can write any valid Bootstrap 4 markup here.
 
-![Website Settings - Banner](/docs/assets/img/website/website-settings-banner.png)
+![Website Settings - Banner](/docs/v12/assets/img/website/website-settings-banner.png)
 *Website Settings - Banner*
 
-![Website Banner](/docs/assets/img/website/website-banner.png)
+![Website Banner](/docs/v12/assets/img/website/website-banner.png)
 *Website Banner*
 
 ## 6. Footer
@@ -81,13 +81,13 @@ navbar on all web pages. You can write any valid Bootstrap 4 markup here.
 You can add address information and categorized links to your footer in the
 **Footer** section.
 
-![Website Settings - Footer Address](/docs/assets/img/website/website-settings-footer-address.png)
+![Website Settings - Footer Address](/docs/v12/assets/img/website/website-settings-footer-address.png)
 *Website Settings - Footer Address*
 
-![Website Settings - Footer Links](/docs/assets/img/website/website-settings-footer-links.png)
+![Website Settings - Footer Links](/docs/v12/assets/img/website/website-settings-footer-links.png)
 *Website Settings - Footer Links*
 
-![Website Footer](/docs/assets/img/website/website-footer.png)
+![Website Footer](/docs/v12/assets/img/website/website-footer.png)
 *Website Footer*
 
 ## 7. Google Integrations
@@ -106,7 +106,7 @@ In order to allow ERPNext to request Google crawlers to index a web page, you ne
 
 - Once Authorized, an indexing request is automatically sent on creation/update/trash of any new blog post or web pages created via the user.
 
-![Google Integrations](/docs/assets/img/website/website-settings-integrations.png)
+![Google Integrations](/docs/v12/assets/img/website/website-settings-integrations.png)
 *Google Integrations*
 
 ### 7.2 Google Analytics
@@ -125,7 +125,7 @@ the effect of this setting in [Google's documentation](https://support.google.co
 You can use this section to set meta tags across all of your web pages. A common
 use case is to add Google site verification tags.
 
-![Website Settings - Header](/docs/assets/img/website/website-settings-header.png)
+![Website Settings - Header](/docs/v12/assets/img/website/website-settings-header.png)
 *Website Settings - Header*
 
 ## 9. Robots
@@ -133,7 +133,7 @@ use case is to add Google site verification tags.
 You can define `robots.txt` rules in this section. This information is used by
 web crawlers to decide which pages to index and which to skip.
 
-![Website Settings - Robots](/docs/assets/img/website/website-settings-robots-txt.png)
+![Website Settings - Robots](/docs/v12/assets/img/website/website-settings-robots-txt.png)
 *Website Settings - Robots*
 
 > Learn more about `robots.txt` at [Moz - Robots.txt](https://moz.com/learn/seo/robotstxt)
@@ -146,7 +146,7 @@ they will be redirected to `https://apple.erpnext.com/products/iphone`.
 
 ERPNext will raise a `301 Permanent Redirect` response for these routes.
 
-![Website Settings - Routes Redirects](/docs/assets/img/website/website-settings-route-redirects.png)
+![Website Settings - Routes Redirects](/docs/v12/assets/img/website/website-settings-route-redirects.png)
 *Website Settings - Routes Redirects*
 
 > If you are migrating your existing website to ERPNext based website,

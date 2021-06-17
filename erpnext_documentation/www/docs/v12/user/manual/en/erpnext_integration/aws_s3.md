@@ -20,7 +20,7 @@
 
     2. Create a new user for programmatic access.
 
-        ![Screenshot of "Add User" in AWS](/docs/assets/img/erpnext_integrations/s3_backup_add_user.png)
+        ![Screenshot of "Add User" in AWS](/docs/v12/assets/img/erpnext_integrations/s3_backup_add_user.png)
 
     3. Attach the policy you created to the new user.
 
@@ -37,4 +37,4 @@ To automatically delete old backups or move them to a cheaper storage class, hav
 - Specify the name of the bucket that you created in step 1.
 - Choose how often you want to take and upload backups. This can range from monthly to daily. If you only want to take manual backups, set the frequency to "None".
 
-![S3 Backup Settings in ERPNext](/docs/assets/img/erpnext_integrations/s3_backup_settings.png)
+![S3 Backup Settings in ERPNext](/docs/v12/assets/img/erpnext_integrations/s3_backup_settings.png)

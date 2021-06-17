@@ -14,7 +14,7 @@ Before creating and using a Batch, it is advised that you create the following f
 
 * [Item](/docs/user/manual/en/stock/item)
 * Enable 'Has Batch No' in the Item master
-    ![Batch No Enabled](/docs/assets/img/stock/batch-no-enabled.png)
+    ![Batch No Enabled](/docs/v12/assets/img/stock/batch-no-enabled.png)
 
 
 ## 2. How to create a new Batch
@@ -47,7 +47,7 @@ When you open a batch, you will see all the quantities that belong to that batch
 
 * You can also split the batch into smaller one by clicking on the **Split** button. This will create a new Batch based on this Batch and the quantities will be split between the batches.
 
-    ![Split Batch](/docs/assets/img/stock/batch_split.png)
+    ![Split Batch](/docs/v12/assets/img/stock/batch_split.png)
 
 * If you set expiry date, the Batch will show 'Not Expired' until the expiry date, after which it'll show 'Expired'. If a date is not set, the Batch will show 'Not Set'.
 

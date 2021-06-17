@@ -4,7 +4,7 @@
 After enabling Shopping Cart for your app you can create a custom landing page for your
 store using the [Web Page Builder](/docs/user/manual/en/website/web-page-builder).
 
-![Store Landing Page](/docs/assets/img/website/store-landing-page.png)
+![Store Landing Page](/docs/v12/assets/img/website/store-landing-page.png)
 *Custom Store Landing Page*
 
 ## 1. How to create a Custom Store Landing Page
@@ -19,7 +19,7 @@ store using the [Web Page Builder](/docs/user/manual/en/website/web-page-builder
 
 	The configuration for the page in the screenshot above looks like this:
 
-	![Store Web Templates](/docs/assets/img/website/store-web-templates.png)
+	![Store Web Templates](/docs/v12/assets/img/website/store-web-templates.png)
 	*Store Page Building Blocks*
 
 1. Add Values.
@@ -32,7 +32,7 @@ store using the [Web Page Builder](/docs/user/manual/en/website/web-page-builder
 	- **Hero Slider:**
 		Up to 5 slides can be created. The image, title, primary action, alignment, theme for each slide
 		is configurable.
-		![Store Hero Slider](/docs/assets/img/website/store-hero-slider.png)
+		![Store Hero Slider](/docs/v12/assets/img/website/store-hero-slider.png)
 		*Hero Slider Configuration*
 
 	- **Product Category Cards:**
@@ -41,7 +41,7 @@ store using the [Web Page Builder](/docs/user/manual/en/website/web-page-builder
 		Ensure that the **Show in Website** option is ticked in the Item Group form so that the
 		route for the product category is generated.
 
-		![Store Product Category Cards](/docs/assets/img/website/store-product-category.png)
+		![Store Product Category Cards](/docs/v12/assets/img/website/store-product-category.png)
 		*Product Categories Configuration*
 
 	- **Item Card Group:**
@@ -49,7 +49,7 @@ store using the [Web Page Builder](/docs/user/manual/en/website/web-page-builder
 		Each card will link to an [Item](/docs/user/manual/en/stock/item). If **featured** is checked,
 		the item will take up 2 columns of space.
 
-		![Store Item Card Group](/docs/assets/img/website/store-item-card-group.png)
+		![Store Item Card Group](/docs/v12/assets/img/website/store-item-card-group.png)
 		*Item Cards Configuration*
 
 
@@ -59,7 +59,7 @@ store using the [Web Page Builder](/docs/user/manual/en/website/web-page-builder
 	Once the page is published, click on **See on Website** on the sidebar or visit the configured route
 	and check out the page!
 
-	![Store Page Published](/docs/assets/img/website/store-page-published.png)
+	![Store Page Published](/docs/v12/assets/img/website/store-page-published.png)
 	*Publish your Web Page*
 
 1. Set as your Home Page.

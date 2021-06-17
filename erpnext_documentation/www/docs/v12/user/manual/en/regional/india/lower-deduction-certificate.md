@@ -20,7 +20,7 @@ Before creating and using a Lower Deduction Certificate, it is advised to create
 1. Enter rate of TDS as per the certificate and the certificate limit.
 1. Click on Save.
 
-![Lower Deduction Certificate](/docs/assets/img/regional/india/lower-deduction-certificate.png)
+![Lower Deduction Certificate](/docs/v12/assets/img/regional/india/lower-deduction-certificate.png)
 
 ## 3. Using Lower Deduction Certificate
 ### 3.1 Use in Purchase Invoice

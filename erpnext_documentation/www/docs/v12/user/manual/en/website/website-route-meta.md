@@ -23,7 +23,7 @@ To access Website Route Meta go to:
    Value column.
 1. Click on Save.
 
-![New Website Route Meta](/docs/assets/img/website/new-website-route-meta.png)
+![New Website Route Meta](/docs/v12/assets/img/website/new-website-route-meta.png)
 *New Website Route Meta*
 
 Now if you check the page source of your web page, the meta tags will look

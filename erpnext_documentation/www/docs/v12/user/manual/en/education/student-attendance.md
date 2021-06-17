@@ -13,7 +13,7 @@ To access Student Attendance, go to:
 
 Select the **Student, Course Schedule, and Student Group** for which attendance is to be marked for the given date. Set the Status to Present/Absent and save.
 
-![Student Attendance](/docs/assets/img/education/education-student-attendance-1.gif)
+![Student Attendance](/docs/v12/assets/img/education/education-student-attendance-1.gif)
 
 **[Student Attendance tool](/docs/user/manual/en/education/student-attendance-tool)** can be used for bulk updation of the attendance based on **Batch, Course, or Activity**.
 

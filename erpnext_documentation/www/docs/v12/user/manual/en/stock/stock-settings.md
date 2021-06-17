@@ -6,7 +6,7 @@ You can set default settings for your stock related transactions from the Stock 
 
 ## 1. Item Naming By
 
-![Stock Settings](/docs/assets/img/stock/stock-settings-1.png)
+![Stock Settings](/docs/v12/assets/img/stock/stock-settings-1.png)
 
 By default, the Item Name is set as per the Item Code entered. If you want Items to be named by a set [Naming Series](/docs/user/manual/en/setting-up/settings/naming-series) choose the 'Naming Series' option .
 
@@ -21,7 +21,7 @@ The default unit of measure for stock is set as numbers (Nos), it can be changed
 
 ### 2.3 Default Warehouse
 Set the default Warehouse from which the stock transactions are done. This will be fetched into the Default Warehouse in the Item master:
-    ![Stock Settings](/docs/assets/img/stock/stock-settings-def.png)
+    ![Stock Settings](/docs/v12/assets/img/stock/stock-settings-def.png)
 
 ### 2.4 Sample Retention Warehouse
 This is the Warehouse where sample retentions are stored. To know more, visit [this page](/docs/user/manual/en/stock/retain-sample-stock).
@@ -47,7 +47,7 @@ If you want to control your description, views, and allow any HTML to be embedde
 
 ## 7. Auto insert
 
-![Stock Settings](/docs/assets/img/stock/stock-settings-2.png)
+![Stock Settings](/docs/v12/assets/img/stock/stock-settings-2.png)
 
 ### 7.1 Auto insert Price List rate if missing
 Enabling this will insert an Item Price to the Price List of an Item automatically when using the Item in its first transaction. This price is fetched from the 'Rate' set in the first transaction with the Item. The Price List depends on whether you're using a Purchase or Sales transaction.
@@ -67,7 +67,7 @@ The quantity of items will be set according to the serial numbers. For example, 
 
 ## 10. Automatic Material Request
 
-![Stock Settings](/docs/assets/img/stock/stock-settings-3.png)
+![Stock Settings](/docs/v12/assets/img/stock/stock-settings-3.png)
 
 ### 10.1 Raise Material Request when the stock reaches re-order level
 
@@ -95,7 +95,7 @@ To know more about inter warehouse material transfer via Delivery Note and Purch
 
 The User will not be allowed to make stock postings beyond this date.
 
-![Stock Settings](/docs/assets/img/stock/stock-settings-4.png)
+![Stock Settings](/docs/v12/assets/img/stock/stock-settings-4.png)
 
 * **Stock Frozen Upto**: A threshold date till which stocks will be frozen.
 * **Freeze Stocks Older Than [Days]**: Stocks older than x days will be frozen. This is calculated based on the creation date of the item.

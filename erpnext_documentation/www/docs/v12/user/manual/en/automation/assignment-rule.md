@@ -26,7 +26,7 @@ To set up an automatic assignment:
     - `issue_type == "Technical" and priority=="High" and status == "Open"`
 
 1. Select the assignment rule.
-    ![Assignment Rule](/docs/assets/img/automation/assignment-rule-select.png)
+    ![Assignment Rule](/docs/v12/assets/img/automation/assignment-rule-select.png)
 
     * **Round Robin**: Assign each document to a User in sequence.
     * **Load Balancing**: Assign new documents to the User who has the least number of assignments.
@@ -65,7 +65,7 @@ Example:
 
 If you want to set a due date on Issue assignment based on the "Resolution By" date of the Issue, you can do so by selecting "Resolution By" field in `Due Date Based On` option in Assignment Rule.
 
-![Due Date Based On](/docs/assets/img/automation/assignment-rule-due-date-based-on.png)
+![Due Date Based On](/docs/v12/assets/img/automation/assignment-rule-due-date-based-on.png)
 
 **Note:**
 

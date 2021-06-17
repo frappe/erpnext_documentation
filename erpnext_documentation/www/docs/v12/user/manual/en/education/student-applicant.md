@@ -25,7 +25,7 @@ Before creating a Student Applicant, it is advisable to first create the followi
 4. Enter the **Student Email Address**.
 5. Save.
 
-    ![Student Applicant](/docs/assets/img/education/education-student-applcant-1.gif)
+    ![Student Applicant](/docs/v12/assets/img/education/education-student-applcant-1.gif)
 
 ## 3. Features
 
@@ -35,11 +35,11 @@ A Student Applicant gets automatically created when a student applies online. Th
 
 Once the student applies, the status of the application by default is "Applied". You can either "Approve" or "Reject" the form.
 
-![Student Applicant](/docs/assets/img/education/education-student-applicant-5.png)
+![Student Applicant](/docs/v12/assets/img/education/education-student-applicant-5.png)
 
 Once the application is approved, you can "Enroll" the student to a program. When you click the **Enroll** button, the system shall create a student against that applicant and redirect you to the [Program Enrollment form](/docs/user/manual/en/education/program-enrollment).
 
-![Student Applicant](/docs/assets/img/education/education-student-applcant-6.gif)
+![Student Applicant](/docs/v12/assets/img/education/education-student-applcant-6.gif)
 
 > Note: Once a student is created against the student applicant, the system will set the application status to 'Admitted' and will not allow you to change the application status unless the student record is deleted.
 

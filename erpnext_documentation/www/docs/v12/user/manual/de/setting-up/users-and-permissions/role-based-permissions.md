@@ -64,7 +64,7 @@ Der Urlaubsantrag ist ein gutes **Beispiel**, welches alle Bereiche des Berechti
 
 5\. **Ein Urlaubsantrag sollte nur von einem Mitarbeiter der Personalverwaltung oder einem Urlaubsgenehmiger bestätigt oder abgelehnt werden können.** Das Statusfeld des Urlaubsantrags wird auf Ebene 1 gesetzt. Mitarbeiter der Personalverwaltung und Urlaubsgenehmiger bekommen Lese- und Schreibrechte für Ebene 1, während allen anderen Leserechte für Ebene 1 gegeben werden.
 
-<img class="screenshot" alt="Leserechte auf einen Satz von Feldern auf bestimmte Rollen beschränken." src="/docs/assets/old_images/erpnext/setting-up-permissions-level-1.png">
+<img class="screenshot" alt="Leserechte auf einen Satz von Feldern auf bestimmte Rollen beschränken." src="/docs/v12/assets/old_images/erpnext/setting-up-permissions-level-1.png">
 
 6\. **Der Mitarbeiter der Personalverwaltung sollte die Möglichkeit haben Urlaubsanträge an seine Untergebenen zu delegieren.** Er erhält die Erlaubis Benutzerberechtigungen einzustellen. Ein Nutzer mit der Rolle "Benutzer Personalverwaltung" wäre dann also in der Lage Benutzer-Berechtigungen und Urlaubsanträge für andere Benutzer zu definieren.
 

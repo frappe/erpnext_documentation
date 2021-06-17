@@ -15,10 +15,10 @@ To access the Manufacturer list, go to:
 1. Enter a Manufacturer name and enter a description if needed.
 1. Save.
 
-    ![Manufacturer](/docs/assets/img/stock/manufacturer.png)
+    ![Manufacturer](/docs/v12/assets/img/stock/manufacturer.png)
 
 After creating a Manufacturer, it can be set in the Item form with a Manufacturer Part Number for identification.
-![Manufacturer](/docs/assets/img/stock/manufacturer-part.png)
+![Manufacturer](/docs/v12/assets/img/stock/manufacturer-part.png)
 
 ### 1.1 Additional details
 The following details can be set for a Manufacturer:

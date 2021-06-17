@@ -20,7 +20,7 @@ To access Fee Schedule, go to:
 1. Select and add the **Student Group**. 
 1. Save and Submit.
 
-![Fee Schedule](/docs/assets/img/education/education-fee-schedule-1.gif)
+![Fee Schedule](/docs/v12/assets/img/education/education-fee-schedule-1.gif)
 
 ## 2. Features
 
@@ -45,6 +45,6 @@ To facilitate that smoothly, you can add your Accounts details in the fee struct
 
 * **Cost Center**: Select and add the name of the Cost Center of your Institute for Accounting Dimensions.
 
-![Fees Schedule](/docs/assets/img/education/education-fee-schedule-2.png)
+![Fees Schedule](/docs/v12/assets/img/education/education-fee-schedule-2.png)
 
 {next}

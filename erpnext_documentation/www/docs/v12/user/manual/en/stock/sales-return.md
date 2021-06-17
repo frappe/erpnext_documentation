@@ -45,7 +45,7 @@ On Creating a Sales Return against a Delivery Note:
 * The **Returned Quantity** in the original Delivery Note along with any Sales Order linked to it, is updated.
 
 * The original Delivery Note's status is changed to **Return Issued** if 100% returned:
-  ![Return Issued](/docs/assets/img/stock/sales-return-issue.png)
+  ![Return Issued](/docs/v12/assets/img/stock/sales-return-issue.png)
 
 ## 4. Related Topics
 1. [Purchase Return](/docs/user/manual/en/stock/purchase-return)

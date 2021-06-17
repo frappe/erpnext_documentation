@@ -75,10 +75,10 @@ When advance is paid to an Employee, there are three situations:
 Create the Employee Advance, create a payment entry to indicate that the amount is paid. 
 
 * If amount is unused, click on the **Return** button to return the paid Advance amount
-    ![Return Button](/docs/assets/img/human-resources/advance-return-button.png)
+    ![Return Button](/docs/v12/assets/img/human-resources/advance-return-button.png)
 * If all of the advance is used, it will reflect in the Claimed Amount field
 * If only some amount is claimed and rest is returned, the returned amount will be shown in the 'Returned Amount' field.
-    ![Return advance Amount](/docs/assets/img/human-resources/advance-returned-amount.png)
+    ![Return advance Amount](/docs/v12/assets/img/human-resources/advance-returned-amount.png)
 
 ## 4. Related Topics
 

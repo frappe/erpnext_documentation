@@ -15,10 +15,10 @@ To enable LMS go to:
 
 Here, there is a checkbox using which the LMS can be enabled. 
 
-![Setting Up LMS](/docs/assets/img/education/education-seetings-1.png)
+![Setting Up LMS](/docs/v12/assets/img/education/education-seetings-1.png)
 
 Enter a title to be displayed on the portal (if not set, the portal title will be set to the default company name). You can also add a description to be displayed on the portal.
 
-![Setting Up LMS](/docs/assets/img/education/education-lms-.png)
+![Setting Up LMS](/docs/v12/assets/img/education/education-lms-.png)
 
 {next}

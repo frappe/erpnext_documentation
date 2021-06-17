@@ -43,7 +43,7 @@ You can enable booking of depreciation entry automatically from [Accounts Settin
 
 The system will automatically set the Fiscal Year end date as the next depreciation date and calculate the depreciation amount *pro rata temporis* based on the Available-for-use Date (IFRS16).
 
-<img class="screenshot" alt="Asset" src="/docs/assets/img/asset/asset_prorated_depreciation.png">
+<img class="screenshot" alt="Asset" src="/docs/v12/assets/img/asset/asset_prorated_depreciation.png">
 
 ## 4. An example
 For better understanding, net value of the asset on different depreciation dates are shown in a line graph.

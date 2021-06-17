@@ -100,7 +100,7 @@ You can generate API Secret keys from this section using the Generate Keys butto
 ### 2.11 After saving
 After saving a user, these buttons will be seen on the dashboard area of the User master.
 
-![User dashboard buttons](/docs/assets/img/setup/users/user-after-save.png)
+![User dashboard buttons](/docs/v12/assets/img/setup/users/user-after-save.png)
 
 #### Permissions
 * **Set User Permissions**: Will take you to the [User Permissions](/docs/user/manual/en/setting-up/users-and-permissions/user-permissions) page of Bruce from where you can restrict Bruce's access to documents.

@@ -40,10 +40,10 @@ As per this setting, there will be only four columns in the Print Format, namely
 The values of other columns (like name, description, image, serial nos. etc.) are concatenated in the Description column.
 
 When the checkbox is unticked, the print format looks like this:
-![Incompact Print Format Settings](/docs/assets/img/setup/print/incompact-print.png)
+![Incompact Print Format Settings](/docs/v12/assets/img/setup/print/incompact-print.png)
 
 This is what the Compact Print Format looks like:
-![Compact Print Format Settings](/docs/assets/img/setup/print/compact-print.png)
+![Compact Print Format Settings](/docs/v12/assets/img/setup/print/compact-print.png)
 
 
 ### 2.3 Allow Print for Draft

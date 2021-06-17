@@ -12,7 +12,7 @@ To begin importing data, go to:
 
 Or go to the Document you want to import and click on Menu > Import:
 
-<img alt="Start Import" class="screenshot" src="/docs/assets/img/setup/data-import/task-menu-import.png">
+<img alt="Start Import" class="screenshot" src="/docs/v12/assets/img/setup/data-import/task-menu-import.png">
 
 Before using Data Import **ensure** that you have all of your data ready.
 
@@ -31,17 +31,17 @@ Let's say you want to import the list of Customers from your old system into ERP
 1. Select the fields that you want to fill in as the Customer details.
 1. Click on **Export**.
 
-![Download Template](/docs/assets/img/setup/data-import/download-template.gif)
+![Download Template](/docs/v12/assets/img/setup/data-import/download-template.gif)
 
 ### 1.2 Entering Data in the Template
 
 Your downloaded template will look something like this:
 
-![Blank Template](/docs/assets/img/setup/data-import/blank-template-file.png)
+![Blank Template](/docs/v12/assets/img/setup/data-import/blank-template-file.png)
 
 Open the downloaded template in a spreadsheet application (like Excel, Numbers, or Libre Office) and enter the data below the column headings shown as follows:
 
-![Customer Template with Data](/docs/assets/img/setup/data-import/customer-template-with-data.png)
+![Customer Template with Data](/docs/v12/assets/img/setup/data-import/customer-template-with-data.png)
 
 Now, save your template as an Excel or Comma Separated Values (CSV) file.
 
@@ -56,15 +56,15 @@ When you import this template, each row will make a Customer record in the syste
 1. Select the template file and click on **Upload**.
 1. After the upload is successful, click on **Start Import**.
 
-![Upload Template File](/docs/assets/img/setup/data-import/upload-template-file.png)
+![Upload Template File](/docs/v12/assets/img/setup/data-import/upload-template-file.png)
 
 If there are any errors in your template, they will be shown in the Warnings section. The warnings will be categorized by Row or Column with their number so that you can easily track them down in the template and resolve them. You must resolve all the warnings before you can import the data.
 
-![Import Warnings](/docs/assets/img/setup/data-import/import-warnings.png)
+![Import Warnings](/docs/v12/assets/img/setup/data-import/import-warnings.png)
 
 After you have resolved the warnings, click on **Start Import** again to import the data. On successful import of the data, you'll see a log of each record that was created in the Import Log section.
 
-![Import Success](/docs/assets/img/setup/data-import/import-success.png)
+![Import Success](/docs/v12/assets/img/setup/data-import/import-success.png)
 
 ## 2. Updating Existing Records
 
@@ -84,7 +84,7 @@ Let's say you want to update Customer data in bulk in your system. The first ste
 
 Your downloaded template will look something like this:
 
-![Customer Template for Update](/docs/assets/img/setup/data-import/customer-template-for-update.png)
+![Customer Template for Update](/docs/v12/assets/img/setup/data-import/customer-template-for-update.png)
 
 Now, change the values in your template and save the file as Excel or CSV.
 
@@ -102,7 +102,7 @@ Each form in ERPNext can have multiple child tables associated with it. The chil
 
 When you export a document with child tables, for e.g., each child row will appear on a separate row but it is associated with a single parent row. The subsequent values in the parent columns will remain blank. You must ensure that this order is not broken when you are importing them via Data Import.
 
-![Child Table Export](/docs/assets/img/setup/data-import/child-table-export.png)
+![Child Table Export](/docs/v12/assets/img/setup/data-import/child-table-export.png)
 
 ## 4. Import Options
 
@@ -110,9 +110,9 @@ When you export a document with child tables, for e.g., each child row will appe
 
 You can also import data from Google Sheets. Import your template in Google Sheets and enter the data. Make sure the Google Sheet is public. You can test this by opening the Google Sheets URL in an incognito browser window.
 
-![Google Sheets](/docs/assets/img/setup/data-import/google-sheets.png)
+![Google Sheets](/docs/v12/assets/img/setup/data-import/google-sheets.png)
 
-![Import via Google Sheets](/docs/assets/img/setup/data-import/import-via-google-sheets.png)
+![Import via Google Sheets](/docs/v12/assets/img/setup/data-import/import-via-google-sheets.png)
 
 ### 4.2 Submit After Import
 

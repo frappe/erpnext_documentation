@@ -3,7 +3,7 @@
 
 **A Course Scheduling Tool will allow you to create Course Schedules in bulk for a particular Student Group and an Instructor.**
 
-![Course Scheduling Tool](/docs/assets/img/education/education-course-schedule-1.png)
+![Course Scheduling Tool](/docs/v12/assets/img/education/education-course-schedule-1.png)
 
 To access the Course Scheduling Tool, go to:
 
@@ -29,7 +29,7 @@ Before creating a Course Schedule, it is advised that you create the following f
 1. Select the **Day** of the week on which the Course Lecture has to be scheduled.
 1. Click on **Schedule Course** button, based on the dates selected and days for the course selected, the Tool will schedule the required course lectures.
 
-![Course Scheduling Tool](/docs/assets/img/education/education-course-scheduling-tool.gif)
+![Course Scheduling Tool](/docs/v12/assets/img/education/education-course-scheduling-tool.gif)
 
 
 {next}

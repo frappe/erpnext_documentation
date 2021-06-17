@@ -14,7 +14,7 @@ To access the Currency Exchange list, go to:
 1. Select whether the exchange rate applies to selling, buying, or both transactions.
 1. Save.
 
-    ![Currency Exchange](/docs/assets/img/accounts/currency-exchange.png)
+    ![Currency Exchange](/docs/v12/assets/img/accounts/currency-exchange.png)
 
 ## 2. Related Topics
 1. [Exchange Rate Revaluation](/docs/user/manual/en/accounts/exchange-rate-revaluation)

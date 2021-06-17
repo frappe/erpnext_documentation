@@ -30,7 +30,7 @@ The toolbar provides filters to select what data is to be used. Using the dropdo
 - Healthcare Service Unit
 - Show Completed Orders: By default this checkbox is enabled. If you just want to see the data related to pending orders, you can uncheck this. Pending here refers to the order entries in Inpatient Medication Order table which have the _Is Order Completed_ checkbox unchecked.
 
-<img class="screenshot" src="/docs/assets/img/healthcare/inpatient-medication-orders.gif">
+<img class="screenshot" src="/docs/v12/assets/img/healthcare/inpatient-medication-orders.gif">
 
 Using the **Set Chart** button, you can set values for the X and Y fields, use different types of charts and select a color.
 

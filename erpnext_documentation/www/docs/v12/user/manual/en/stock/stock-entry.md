@@ -54,7 +54,7 @@ Usually, "Source Warehouse" and "Target Warehouse" both are set for recording a 
 ### 2.2 Stock Entry Type
 You can also create a Stock Entry Type where only the name will be different, for example 'Scrap Entry'. The purpose will be Material Transfer but the name will be different. This is useful if you want certain Users to have access only to specific actions related to stock.
 
-![Stock Entry Type](/docs/assets/img/stock/stock-entry-type.png)
+![Stock Entry Type](/docs/v12/assets/img/stock/stock-entry-type.png)
 
 ## 3. Features
 

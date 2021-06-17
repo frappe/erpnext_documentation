@@ -43,7 +43,7 @@ ERPNext creates a template email domain using example.com for your reference. Yo
 
 Once you click on save, these settings are validated by ERPNext and the Email Domain gets saved. Sometimes this could take a few seconds and you might have to wait. This email domain is then available in a dropdown called Domain in the Email Accounts screen.
 
-![Email domain in email account](/docs/assets/img/setup/email/email-domain1.png)
+![Email domain in email account](/docs/v12/assets/img/setup/email/email-domain1.png)
 
 #### Entered everything but still unable to setup Email Domain?
 

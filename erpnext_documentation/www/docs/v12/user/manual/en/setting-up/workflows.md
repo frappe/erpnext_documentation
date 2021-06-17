@@ -76,7 +76,7 @@ workflow transition step that says from submitted you can cancel.
 In States, optional Workflow state means that the state may not be a part of final approval.
 
 E.g. states like Canceled or Rejected can be optional.
-![Optional State](/docs/assets/img/setup/workflow-optional-state.png)
+![Optional State](/docs/v12/assets/img/setup/workflow-optional-state.png)
 
 **Note:** Workflow Actions are not created for optional states.
 

@@ -16,7 +16,7 @@ To access Data Export, go to:
 1. You can also add filters to select only specific data, for example, Grand Total >= 1,000 for Sales Orders.
 1. Click on Export to download the file.
 
-    ![Data Export](/docs/assets/img/setup/data-export.png)
+    ![Data Export](/docs/v12/assets/img/setup/data-export.png)
 
 ### Related Topics
 1. [Data Import](/docs/user/manual/en/setting-up/data/data-import)

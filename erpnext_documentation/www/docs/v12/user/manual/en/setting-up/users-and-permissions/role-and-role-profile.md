@@ -20,7 +20,7 @@ To access Role, go to:
 
 You can add two factor authentication for the role and also restrict it to a specific domain. From here, you can go to the [Roles Permission Manager](/docs/user/manual/en/setting-up/users-and-permissions/role-based-permissions) and set permissions for the role across different DocTypes.
 
-![Permissions for new Role](/docs/assets/img/users-and-permissions/role-permissions.png)
+![Permissions for new Role](/docs/v12/assets/img/users-and-permissions/role-permissions.png)
 
 ## 2. How to add a Role Profile
 
@@ -32,7 +32,7 @@ To access Role Profile, go to:
 1. Select the roles you want to assign to this profile.
 1. Save.
 
-    ![Role Profile](/docs/assets/img/users-and-permissions/role-profile.png)
+    ![Role Profile](/docs/v12/assets/img/users-and-permissions/role-profile.png)
 
 ### 3. Related Topics
 1. [Role Based Permissions](/docs/user/manual/en/setting-up/users-and-permissions/role-based-permissions)

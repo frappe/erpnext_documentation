@@ -2,7 +2,7 @@
 
 We can easily identify the progress of manufacturing of certain items in our organizations using Open Work Orders in ERPNext.
 
-<img class="screenshot" alt="Sales Funnel" src="/docs/assets/img/manufacturing/open-work-order.png">
+<img class="screenshot" alt="Sales Funnel" src="/docs/v12/assets/img/manufacturing/open-work-order.png">
 
 In this report, users are able to see what items need to be produced, total quantity to be produced and also any produced items before. To further detail, users can proceed to click on the work order e.g; MFG-WO-2018-00005.
 

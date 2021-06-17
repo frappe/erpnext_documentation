@@ -50,11 +50,11 @@ Leave Application is a good example that encompasses all areas of a Permission S
 * An **Employee** should only be able to access his/her Leave Application.
   Hence, User Permissions record should be created for each User-Employee combination.
 
-  <img class="screenshot" alt="Limiting access to Leave Applications for a user with Employee Role via User Permissions Manager" src="/docs/assets/img/users-and-permissions/setting-up-permissions-employee-user-permissions.png">
+  <img class="screenshot" alt="Limiting access to Leave Applications for a user with Employee Role via User Permissions Manager" src="/docs/v12/assets/img/users-and-permissions/setting-up-permissions-employee-user-permissions.png">
 
 * If you want an **Employee** to only select a document in another document and not have read access to that document as a whole, then grant only Select perm to the role, Employee.
 
-  <img class="screenshot" alt="Limiting access to Leave Applications for a user with Employee Role via User Permissions Manager" src="/docs/assets/img/users-and-permissions/setting-up-select-permissions-employee.png">
+  <img class="screenshot" alt="Limiting access to Leave Applications for a user with Employee Role via User Permissions Manager" src="/docs/v12/assets/img/users-and-permissions/setting-up-select-permissions-employee.png">
 
 * **HR Manager** should be able to see all Leave Applications.
   Create a Permission Rule for HR Manager at Level 0, with Read permissions. Apply User Permissions should be disabled.
@@ -69,7 +69,7 @@ Leave Application is a good example that encompasses all areas of a Permission S
 * It should be Approved/Rejected only by HR User or Leave Approver.
   The Status field of a Leave Application is set at Level 1. HR User and Leave Approver are given Read and Write permissions for Level 0, while everyone else (All) are given Read permission for Level 1.
 
-  <img class="screenshot" alt="Limiting read access for a set of fields to certain Roles" src="/docs/assets/img/users-and-permissions/setting-up-permissions-level-1.png">
+  <img class="screenshot" alt="Limiting read access for a set of fields to certain Roles" src="/docs/v12/assets/img/users-and-permissions/setting-up-permissions-level-1.png">
 
 * **HR User** should be able to delegate Leave Applications to his/her subordinates.
   HR User is given the right to Set User Permissions. A User with HR User role would be able to define User Permissions on Leave Application for other users.

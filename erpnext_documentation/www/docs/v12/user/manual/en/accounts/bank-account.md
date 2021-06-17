@@ -8,7 +8,7 @@ You can add Bank Accounts in ERPNext for Company. Supplier, Customer, or any oth
 To access Bank Account, go to:
 > Home > Accounting > Bank Statement > Bank Account
 
-![Bank Account](/docs/assets/img/accounts/bank-account.png)
+![Bank Account](/docs/v12/assets/img/accounts/bank-account.png)
 
 ## 1. Prerequisites
 Before creating and using Bank Account, it is advised to create the following first:

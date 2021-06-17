@@ -25,13 +25,13 @@ To access the Workstation list, go to:
 
 Optionally, you can enter a description for the Workstation.
 
-![Workstation](/docs/assets/img/manufacturing/workstation.png)
+![Workstation](/docs/v12/assets/img/manufacturing/workstation.png)
 
 The hours when the Workstation will be Operational can be added. On adding a Holiday list, the days listed as holidays won't be counted as working for the Workstation.
-![Workstation Hours](/docs/assets/img/manufacturing/workstation-hours.png)
+![Workstation Hours](/docs/v12/assets/img/manufacturing/workstation-hours.png)
 
 After saving the Workstation, the following actions can be performed against it:
-![Workstation submit](/docs/assets/img/manufacturing/workstation-submit.png)
+![Workstation submit](/docs/v12/assets/img/manufacturing/workstation-submit.png)
 
 ## 2. Features
 ### 2.1 Production Capacity
