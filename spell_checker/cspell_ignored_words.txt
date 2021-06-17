@@ -35,6 +35,8 @@ datev
 paytm
 mpesa
 gocardless
+csrf
+socketio
 ewaybill
 GSTN
 Suvidha
