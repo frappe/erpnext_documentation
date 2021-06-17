@@ -26,6 +26,8 @@ If the Customer address and the Driver address are set, you can calculate the es
 ### 2.2 Optimize Route
 Using Google Maps, the best route for the deliveries will be calculated.
 
+### 2.3 Create Expense Claim
+An [Expense Claim](/docs/user/manual/en/human-resources/expense-claim) can be created from a Delivery Trip by clicking on 'Create > Expense Claim'. The Employee details and Delivery Trip name will be fetched from the Delivery Trip record.
 
 ### Related Topics
 1. [Packing Slip](/docs/user/manual/en/stock/packing-slip)
