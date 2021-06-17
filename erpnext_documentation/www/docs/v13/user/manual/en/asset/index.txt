@@ -1,0 +1,14 @@
+asset
+asset-category
+asset-location
+asset-movement
+asset-maintenance-team
+asset-maintenance
+asset-maintenance-log
+asset-repair
+asset-value-adjustment
+purchasing-an-asset
+selling-an-asset
+asset-depreciation
+scrapping-an-asset
+asset-reports

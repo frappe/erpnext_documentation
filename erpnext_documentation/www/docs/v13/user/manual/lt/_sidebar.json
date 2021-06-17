@@ -1,0 +1,15 @@
+[
+ {
+  "route": "/docs",
+  "title": "Home"
+ },
+ {
+  "route": "/docs/v13/user/manual/en/introduction",
+  "title": "Introduction"
+ },
+ {
+  "route": "/search_docs",
+  "title": "Search",
+  "type": "input"
+ }
+]
