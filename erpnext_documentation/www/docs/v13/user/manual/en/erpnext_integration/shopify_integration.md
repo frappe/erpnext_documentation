@@ -35,7 +35,7 @@ Integrations > Shopify Settings
 <img class="screenshot" alt="ERP Configurations" src="{{docs_base_url}}/v13/assets/img/erpnext_integrations/erp_configurations.png">
 
 3. Setup Sync Configurations.
-    The system pulls Orders from Shopify and creates Sales Order in ERPNext. You can configure ERPNext system to capture payment and fulfilments against orders.
+    The system pulls Orders from Shopify and creates Sales Order in ERPNext. You can configure ERPNext system to capture payment and fulfillments against orders.
 <img class="screenshot" alt="Sync Configure" src="{{docs_base_url}}/v13/assets/img/erpnext_integrations/sync_config.png">
 
 4. Setup Tax Mapper.
