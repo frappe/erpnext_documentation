@@ -44,7 +44,10 @@ You can apply additional discounts on the Subscription based on Grand Total (pre
 Visit the [Applying Discount](/docs/v13/user/manual/en/selling/articles/applying-discount) page for more details.
 
 ### 3.5 Automatically create invoices
-Based on the [Subscription Plans](/docs/v13/user/manual/en/accounts/subscription-plan) interval, invoices will be created automatically. The 'Generate Invoice At Beginning Of Period' needs to be enabled if you want to generate invoices as soon as the subscription is active. If "Generate New Invoices Past Due Date" is enabled then new invoices will keep on generating even though current invoice is unpaid or past due date. If "Generate Invoice Early" is enabled, an invoice will be generated before the end of the period by the number of days entered in "Generate Invoice Days Early."
+Based on the [Subscription Plans](/docs/v13/user/manual/en/accounts/subscription-plan) interval, invoices will be created automatically. "Generate Invoice At Beginning Of Period" needs to be enabled if you want to generate invoices as soon as the subscription is active. If "Generate New Invoices Past Due Date" is enabled then new invoices will keep on generating even though current invoice is unpaid or past due date. If "Generate Invoice Early" is enabled, an invoice will be generated before the end of the period by the number of days entered in "Generate Invoice Days Early."
+
+The generated invoices will be submitted automatically by default. If 'Submit Invoice Automatically' is disabled, the invoice will be saved as a draft.
+
  ![Subscription Invoices](/docs/v13/assets/img/accounts/subscription-invoices.png)
 
 ### 3.6 Follow Calendar Months
