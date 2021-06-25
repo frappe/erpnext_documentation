@@ -17,10 +17,6 @@ Before creating and using Asset Repair, it is advised to create the following fi
 
 1. Go to the Asset Repair list, click on New. 
 1. Select the Asset. 
-
-    Alternatively, you could open the record for the Asset in question and click on the **Repair Asset** button under **Manage**.
-    <img class="screenshot" alt="Create Asset" src="{{docs_base_url}}/v13/assets/img/asset/create-asset-repair.png">
-
 1. Select the Failure Date.
 1. Enter the Repair Cost.
 1. Save.
@@ -29,6 +25,9 @@ Before creating and using Asset Repair, it is advised to create the following fi
 1. Save and Submit.
 
 <img class="screenshot" alt="Asset Repair" src="{{docs_base_url}}/v13/assets/img/asset/asset-repair-basic.png">
+
+> Note: Alternatively, you could open the record for the Asset in question and click on the **Repair Asset** button under **Manage**, and then follow steps 3-8.
+    <img class="screenshot" alt="Create Asset" src="{{docs_base_url}}/v13/assets/img/asset/create-asset-repair.png">
 
 ### 2.1 Additional options when creating an Asset Repair 
 
