@@ -40,7 +40,7 @@ Before creating and using a BOM, it is advised that you create the following fir
  1. Enter the scrap percentage that will remain after this raw material is used.
   ![BOM Materials](/docs/v13/assets/img/manufacturing/bom-materials.png)
 
-1. Under the Scrap section, select the scrap Item that will be created when manufacturing and its quantity. The scrap Item can also have a Rate if it is a by-product and not waste. Skip this section if 100% of raw materials are completely utilized.
+1. Under the Scrap section, select the scrap Item that will be created when manufacturing and its quantity. The scrap Item can also have a Rate if it is a by-product and not waste. Skip this section if 100% of raw materials are completely utilized. If the scrap Item is the same as the Item to be manufactured, it is set as a Process Loss Item and its quantity is subtracted from the manufactured Item quantity.
   ![BOM Scrap](/docs/v13/assets/img/manufacturing/bom-scrap.png)
 
 1. Save and Submit.
