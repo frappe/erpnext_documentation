@@ -99,6 +99,7 @@ To know more, visit the [Purchasing an Asset](/docs/v13/user/manual/en/asset/pur
 * **Depreciation Start Date**: The date from which booking of depreciation will be started.
 * **Expected Value After Useful Life**: Useful Life is the time period over in which the company expects that the asset will be productive. After that period, either the asset is scrapped or sold. In case it is sold, mention the estimated value here. This value is also known as Salvage Value, Scrap Value, or Residual Value.
 * **Rate of Depreciation**: This will be calculated based on the amount entered in expected value after useful life.
+* **Value After Depreciation**: The current value of the Asset.
 
 
 ### 4.2 Depreciation Schedule
@@ -125,9 +126,9 @@ On submission of an asset, "Capital Work in Progress" account will be credited a
 Ticking on Maintenance Required allows recording Asset Maintenance entries for this Asset. To know more, visit the [Asset Maintenance](/docs/v13/user/manual/en/asset/asset-maintenance) page.
 
 ### 4.6 After Submitting
-Once you create an Asset, you'll see options to transfer, scrap, or sell the asset. From the Make button, you can adjust its value and make a depreciation entry.
+Once you create an Asset, you'll see options to transfer, scrap, sell or repair the asset, adjust its value or view all GL Entries associated with it under the **Manage** button.
 
-![Asset Submit](/docs/v13/assets/img/asset/asset-submit.png)
+![Asset Submit](/docs/v13/assets/img/asset/after-submitting-asset.png)
 
 ### 5. Related Topics
 1. [Asset Maintenance](/docs/v13/user/manual/en/asset/asset-maintenance)
