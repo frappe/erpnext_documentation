@@ -60,7 +60,7 @@ Please note you need create **one asset record for each asset you have bought**.
 
 ### 2.3 Importing existing assets
 
-When you move from a legacy system to ERPNext, you will have to add details of all the assets your company has purchased previosly along with depreciation details of each asset.
+When you move from a legacy system to ERPNext, you will have to add details of all the assets your company has purchased previously along with depreciation details of each asset.
 
 For an existing asset, you can create the asset record directly by checking **"Is Existing Asset"** checkbox and provide below details. 
 
