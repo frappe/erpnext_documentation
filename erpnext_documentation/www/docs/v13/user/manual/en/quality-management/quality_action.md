@@ -18,7 +18,7 @@ To access Quality Action, go to:
 
 Before creating and using a Quality Action it is advised to create the following first:
 
-[Quality Review](/docs/v13/user/manual/en/quality-management/quality_review) or [Quality Feedback](/docs/v13/user/manual/en/quality-management/quality_feedback)
+* [Quality Review](/docs/v13/user/manual/en/quality-management/quality_review) or [Quality Feedback](/docs/v13/user/manual/en/quality-management/quality_feedback)
 
 ## 2. How to create a Quality Action
 
