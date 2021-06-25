@@ -30,7 +30,7 @@ The repository for app is hosted on GitHub: [http://github.com/frappe/ecommerce_
 2. Click on **Manage private apps** to create private app
 <img class="screenshot" alt="Manage Private Apps" src="{{docs_base_url}}/v13/assets/img/erpnext_integrations/manage_private_apps.png">
 
-3. Fill up the details and create app. The each app has its own API key, Password and Shared secret
+3. Fill up the details and create app. Each app has its own Password and Shared secret
 <img class="screenshot" alt="App Details" src="{{docs_base_url}}/v13/assets/img/erpnext_integrations/app_details.png">
 
 
@@ -42,7 +42,7 @@ Awesome bar > "Shopify Setting"
 
 Note: Shopify does not support insecure HTTP connection. Your ERPNext site must be able to accept HTTPS requests. Access your ERPNext site using `https://` url before proceeding.
 
-1. Select App Type as Private and Fill-up API key, Password and Shared Secret from Shopify's Private App.
+1. Fill-up Password and Shared Secret from Shopify's Private App.
 <img class="screenshot" alt="Setup Private App Credentials" src="{{docs_base_url}}/v13/assets/img/erpnext_integrations/app_details.png">
 
 2. Setup Customer, Company and Inventory configurations
