@@ -9,11 +9,7 @@ Businesses often return goods that are already sold. They could be returned by t
 Before creating and using a Sales Return, it is advised that you create the following first:
 
 * [Item](/docs/v13/user/manual/en/stock/item)
-* [Sales Invoice](/docs/v13/user/manual/en/accounts/sales-invoice)
-
-    Or
-
-    [Delivery Note](/docs/v13/user/manual/en/stock/delivery-note)
+* [Sales Invoice](/docs/v13/user/manual/en/accounts/sales-invoice) or [Delivery Note](/docs/v13/user/manual/en/stock/delivery-note)
 
 ## 2. How to create a Sales Return
 
