@@ -66,6 +66,7 @@ The Stock module is tightly integrated with Purchase, Manufacturing and Accounti
 2. [Stock Level Report](/docs/v13/user/manual/en/stock/stock-level-report)
 1. [BOM Explorer](/docs/v13/user/manual/en/stock/bom_explorer)
 1. [Stock Value and Account Value Comparision](/docs/v13/user/manual/en/stock/stock-value-account-value-comparison)
+1. [COGS By Item Group](/docs/v13/user/manual/en/stock/cogs-by-item-group)
 
 ## 2. Articles
 ### 2.1 Stock Transactions
