@@ -178,25 +178,28 @@ A Shipping Rule helps set the cost of shipping an Item. The cost will usually in
 
 If the Customer is enrolled in a Loyalty Program, they can choose to redeem it. To know more, visit the [Loyalty Program](/docs/v13/user/manual/en/accounts/loyalty-program) page.
 
-### 3.11 Additional Discount
+### 3.11 Discount Account
+If the [Enable Discount Accounting](/docs/v13/user/manual/en/accounts/accounts-settings#3-enable-discount-accounting) box in [Accounts Settings](/docs/v13/user/manual/en/accounts/accounts-settings) is checked, you can enter a Discount Account in the Items table to create GL Entries for Discounts applied on Items. 
+
+### 3.12 Additional Discount
 Any additional discounts to the whole Invoice can be set in this section. This discount could be based on the Grand Total i.e., post tax/charges or Net total i.e., pre tax/charges. The additional discount can be applied as a percentage or an amount.
 Visit the [Applying Discount](/docs/v13/user/manual/en/selling/articles/applying-discount) page for more details.
 
 ![Additional Discount in Sales Invoice](/docs/v13/assets/img/accounts/additional-discount-in-sales-invoice.png)
 
-### 3.12 Advance Payment
+### 3.13 Advance Payment
 For high-value Items, the seller can request an advance payment before processing the order. The **Get Advances Received** button opens a popup from where you can fetch the orders where the advance payment was made. To know more, visit the [Advance Payment Entry](/docs/v13/user/manual/en/accounts/advance-payment-entry) page.
 
-### 3.13 Payment Terms
+### 3.14 Payment Terms
 The payment for an invoice may be made in parts depending on your understanding with the Supplier. This is fetched if set in the Sales Order. To know more, visit the [Payment Terms](/docs/v13/user/manual/en/accounts/payment-terms) page.
 
-### 3.14 Write Off
+### 3.15 Write Off
 Write off happens when the Customer pays an amount less than the invoice amount. This may be a small difference like 0.50. Over several orders, this might add up to a big number. For accounting accuracy, this difference amount is 'written off'. To know more, visit the [Payment Terms](/docs/v13/user/manual/en/accounts/payment-entry#25-deductions-or-loss) page.
 
-### 3.15 Terms and Conditions
+### 3.16 Terms and Conditions
 There may be certain terms and conditions on the Item you're selling, these can be applied here. Read [Terms and Condition documentation](/docs/v13/user/manual/en/setting-up/print/terms-and-conditions) to know how to add them.
 
-### 3.16 Transporter Information
+### 3.17 Transporter Information
 
 If you outsource transporting Items to their delivery location, the transporter details can be added. This is not the same as [drop shipping](/docs/v13/user/manual/en/selling/articles/drop-shipping).
 
@@ -221,7 +224,7 @@ For India, GST:
 
 The Transport Receipt Date and Driver Name will be fetched.
 
-### 3.17 Printing Settings
+### 3.18 Printing Settings
 
 #### Letterhead
 You can print your Sales Invoice on your Company's letterhead. Know more [here](/docs/v13/user/manual/en/setting-up/print/letter-head).
@@ -233,7 +236,7 @@ Sales Invoice headings can also be changed when printing the document. You can d
 
 There are additional checkboxes for printing the Sales Invoice without the amount, this might be useful when the Item is of high value. You can also group the same Items in one row when printing.
 
-### 3.18 GST Details (for India)
+### 3.19 GST Details (for India)
 
 The following details can be set for GST:
 
@@ -243,7 +246,7 @@ The following details can be set for GST:
 * E-commerce GSTIN
 * Print Heading
 
-### 3.19 More Information
+### 3.20 More Information
 The following Sales details can be recorded:
 
 * **Campaign**: If this invoice is a part of on ongoing sales Campaign, it can be linked. To know more, visit the [Campaign page](/docs/v13/user/manual/en/CRM/campaign).
@@ -251,7 +254,7 @@ The following Sales details can be recorded:
 
 ![SI More info](/docs/v13/assets/img/accounts/more-information-in-sales-invoice.png)
 
-### 3.20 Accounting Details
+### 3.21 Accounting Details
 
 * **Debit To**: The account against which receivable will be booked for this Customer.
 * **Is Opening Entry**: If this is an opening entry to affect your accounts select 'Yes'. i.e. if you're migrating from another ERP to ERPNext mid year, you might want to use an Opening Entry to update account balances in ERPNext.
@@ -260,15 +263,15 @@ The following Sales details can be recorded:
 
 ![Accounting Details](/docs/v13/assets/img/accounts/accounting-details-in-sales-invoice.png)
 
-### 3.21 Commission
+### 3.22 Commission
 
 If the sale took place via one of your Sales Partners, you can add their commission details here. This is usually fetched from the Sales Order/Delivery Note.
 
-### 3.22 Sales Team
+### 3.23 Sales Team
 
 **Sales Persons:** ERPNext allows you to add multiple Sales Persons who may have worked on this deal. This is also fetched from the Sales Order/Delivery Note.
 
-### 3.23 Automatically Fetching Item Batch Numbers
+### 3.24 Automatically Fetching Item Batch Numbers
 
 If you are selling an Item from a [Batch](/docs/v13/user/manual/en/stock/batch),
 ERPNext will automatically fetch a batch number for you if "Update Stock"
@@ -278,7 +281,7 @@ is checked. The batch number will be fetched on a First Expiring First Out
 Note that if the first batch in the queue cannot satisfy the order on the invoice,
 the next batch in the queue that can satisfy the order will be selected. If no batch can satisfy the order, ERPNext will cancel its attempt to automatically fetch a suitable batch number.
 
-### 3.24 POS Invoices
+### 3.25 POS Invoices
 
 Consider a scenario where the retail transaction is carried out. For e.g: A retail shop.
 If you check the **Is POS** checkbox, then all your **POS Profile** data is fetched
@@ -289,7 +292,7 @@ without the need for a Delivery Note.
 
 <img class="screenshot" alt="POS Invoice" src="{{docs_base_url}}/v13/assets/img/accounts/pos-sales-invoice.png">
 
-### 3.25 After Submitting
+### 3.26 After Submitting
 
 On submitting a Sales Invoice, the following documents can be created against it:
 
