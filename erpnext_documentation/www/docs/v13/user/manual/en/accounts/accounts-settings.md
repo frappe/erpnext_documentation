@@ -70,8 +70,11 @@ Select the role that is allowed to submit transactions that exceed credit limits
 ## Print Settings
 ![Print Settings]({{docs_base_url}}/v13/assets/img/accounts/accounts-settings-print.png)
 
-* **Show Inclusive Tax In Print**: The applied taxes will be shown in the print view.
-* **Show Payment Schedule in Print**: The Payment Schedule table is visible on using [Payment Terms](/docs/v13/user/manual/en/accounts/payment-terms). Enabling this will show this table in print view.
+### 1. Show Inclusive Tax In Print 
+The applied taxes will be shown in the print view.
+
+### 2. Show Payment Schedule in Print
+The Payment Schedule table is visible on using [Payment Terms](/docs/v13/user/manual/en/accounts/payment-terms). Enabling this will show this table in print view.
 
 ## Currency Exchange Settings
 ![Currency Exchange Settings]({{docs_base_url}}/v13/assets/img/accounts/accounts-settings-currency-exchange.png)
