@@ -64,9 +64,6 @@ their calculation.
 1. [Employee Separation](/docs/user/manual/en/human-resources/employee-separation)
 1. [Employee Transfer](/docs/user/manual/en/human-resources/employee_transfer)
 1. [Employee Skill Map](/docs/user/manual/en/human-resources/employee_skill_map)
-1. [Grievance Type](/docs/user/manual/en/human-resources/grievance-type)
-1. [Employee Grievance](/docs/user/manual/en/human-resources/employee-grievance)
-
 
 ### 1.7 Payroll
 1. [Payroll Management](/docs/user/manual/en/human-resources/payroll-intro)

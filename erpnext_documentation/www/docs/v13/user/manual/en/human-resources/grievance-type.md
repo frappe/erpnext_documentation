@@ -15,7 +15,6 @@ To access Attendance, go to:
 
 1. Go to the Grievance Type List, click on Add Grievance Type.
 1. Enter the name and description
-1. Check the check like *"Is Applicable for Suspension"* and *"Is Applicable for pay cut"*, if applicable.
 1. Save your document
 
-    <img class="screenshot" alt="Attendance" src="{{docs_base_url}}/assets/img/human-resources/grievance-type.png">
+    <img class="screenshot" alt="Grievance Type" src="{{docs_base_url}}/v13/assets/img/human-resources/grievance-type.png">
