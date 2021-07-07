@@ -46,6 +46,7 @@ their calculation.
 ### 1.4 Recruitment
 1. [Staffing Plan](/docs/v13/user/manual/en/human-resources/staffing-plan)
 1. [Job Opening](/docs/v13/user/manual/en/human-resources/job-opening)
+1. [Employee Referral](/docs/v13/user/manual/en/human-resources/employee-referral)
 1. [Job Applicant](/docs/v13/user/manual/en/human-resources/job-applicant)
 1. [Job Offer](/docs/v13/user/manual/en/human-resources/job-offer)
 1. [Appointment Letter](/docs/v13/user/manual/en/human-resources/appointment-letter)
@@ -64,7 +65,6 @@ their calculation.
 1. [Employee Separation](/docs/v13/user/manual/en/human-resources/employee-separation)
 1. [Employee Transfer](/docs/v13/user/manual/en/human-resources/employee_transfer)
 1. [Employee Skill Map](/docs/v13/user/manual/en/human-resources/employee_skill_map)
-1. [Employee Referral](/docs/v13/user/manual/en/human-resources/employee-referral)
 
 
 ### 1.7 Payroll
