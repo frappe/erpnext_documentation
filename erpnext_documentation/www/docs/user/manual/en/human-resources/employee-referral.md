@@ -4,10 +4,10 @@
 
 > Introduced In Version 13
 
-Internal Recruitment is one of the best process for recruitment, and it also saves effort and capital.
-The Employee Referral is the process where Employees refer to a person which is the best fit for a vacant designation/position in Company.
+Internal Recruitment is one of the best processes for recruitment, and it also saves effort and capital.
+The Employee Referral is a process where existing employees refer a suitable candidate from their network for a vacant designation/position.
 
-In ERPNext, you can manage Employee Referral.
+In ERPNext, you can manage Employee Referrals.
 
 To access Employee Referral, go to:
 
@@ -20,43 +20,37 @@ To access Employee Referral, go to:
 1. [Job Applicant](/docs/user/manual/en/human-resources/job-applicant)
 
 ## 2. How to create Employee Referral
-1. Go to: Employee Referral > Add Employee Referral.
-1. Fill Basic Details of person you want to refer like First Name, Last Name, Email etc.
+1. Go to Employee Referral > Add Employee Referral.
+1. Fill in basic details of the person you want to refer like First Name, Last Name, Email, etc.
 1. Select Employee under Referrer.
 1. Save and Submit.
 
 
 <img class="screenshot" alt="Leave Allocations"
-	src="{{docs_base_url}}/assets/img/human-resources/employee-referral.png">
+    src="{{docs_base_url}}/assets/img/human-resources/employee-referral.png">
 
 ## 3. Features
 
-### 3.1 Creating Job Applicant and auto syncing status from Job applicant
-When you submit employee referral document the initial status will be "Pending". After submit, you will see a custom button for creating a Job Applicant. After Submitting the document Create Job Applicant Button will Appear at top right corner.
+### 3.1 Creating Job Applicant and auto-syncing status from Job Applicant
+When you submit an employee referral document the initial status will be "Pending". After Submitting the document Create Job Applicant Button will Appear at the top right corner.
+
+On clicking, Job Applicant will be created with the status "Open" and the status of Employee Referral document will change to "In Process"
 
 <img class="screenshot" alt="Leave Allocations"
-	src="{{docs_base_url}}/assets/img/human-resources/create-job-applicant.png">
+    src="{{docs_base_url}}/assets/img/human-resources/create-job-applicant.png">
 
-On click, Job Applicant will be created with status "Open" and the status of Employee Referral document will change to "In Process"
+If someone changes the status of the Job Applicant document to "Hold" or "Replied", The status of the Employee Referral document will remain "In Process". If the status of the Job Applicant is "Accepted" or "Rejected", The status of the Employee Referral document will also change to "Accepted" or "Rejected" respectively.
 
-If someone changes the status of the Job Applicant document to "Hold" or "Replied", The status of the Employee Referral document will remain "In Process". If the status of the Job Applicant is "Accepted" or "rejected", The status of the Employee Referral document will also change to "Accepted" or "rejected" respectively.
+### 3.2 Managing referral bonus
+Many companies provide bonuses to their employees for such referrals. ERPNext allows you to track the payment of the bonus to employees for their referral.
 
-### 3.2 Is applicable for referral bonus
-Many companies provides Bonus to there employees for such referral. ERPNext allow you pay bonus to employee for there referral.
-
-For Referral bonus you need to check **Is applicable for referral bonus** checkbox before submitting the document. After submitting the document Create Additional Salary Button will Appear at top right corner, if status is Accepted.
+For the Referral bonus, you need to check the Is applicable for referral bonus checkbox before submitting the document. After submitting the document Create Additional Salary button will Appear at the top right corner of the status is "Accepted".
 
 <img class="screenshot" alt="Leave Allocations"
-	src="{{docs_base_url}}/assets/img/human-resources/referral-bonus.png">
+    src="{{docs_base_url}}/assets/img/human-resources/referral-bonus.png">
 
-On Click, It will redirect you to Additional salary form where you need to select Salary component and Payroll date and after that you need to save and submit the document.
+On Click, It will redirect you to the Additional salary form where you need to select Salary component and Payroll date and after that, you need to save and submit the document.
 
 <img class="screenshot" alt="Leave Allocations"
-	src="{{docs_base_url}}/assets/img/human-resources/create-referral-bonus.png">
-
-
-
-
-
-
+    src="{{docs_base_url}}/assets/img/human-resources/create-referral-bonus.png">
 
