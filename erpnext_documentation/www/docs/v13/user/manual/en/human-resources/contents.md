@@ -64,6 +64,7 @@ their calculation.
 1. [Employee Separation](/docs/v13/user/manual/en/human-resources/employee-separation)
 1. [Employee Transfer](/docs/v13/user/manual/en/human-resources/employee_transfer)
 1. [Employee Skill Map](/docs/v13/user/manual/en/human-resources/employee_skill_map)
+1. [Employee Referral](/docs/v13/user/manual/en/human-resources/employee-referral)
 
 
 ### 1.7 Payroll
