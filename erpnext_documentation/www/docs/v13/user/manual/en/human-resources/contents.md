@@ -17,6 +17,7 @@ their calculation.
 1. [Branch](/docs/v13/user/manual/en/human-resources/branch)
 1. [Department](/docs/v13/user/manual/en/human-resources/department)
 1. [Designation](/docs/v13/user/manual/en/human-resources/designation)
+1. [Organizational Chart](/docs/v13/user/manual/en/human-resources/organizational-chart)
 1. [Employee Grade](/docs/v13/user/manual/en/human-resources/employee-grade)
 1. [Employee Group](/docs/v13/user/manual/en/human-resources/employee-group)
 1. [Employee Health Insurance](/docs/v13/user/manual/en/human-resources/health-insurance)
