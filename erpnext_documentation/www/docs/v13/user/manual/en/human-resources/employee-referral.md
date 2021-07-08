@@ -44,7 +44,7 @@ If someone changes the status of the Job Applicant document to "Hold" or "Replie
 ### 3.2 Managing referral bonus
 Many companies provide bonuses to their employees for such referrals. ERPNext allows you to track the payment of the bonus to employees for their referral.
 
-For the Referral bonus, you need to check the Is applicable for referral bonus checkbox before submitting the document. After submitting the document Create Additional Salary button will Appear at the top right corner of the status is "Accepted".
+For the Referral bonus, you need to check the "Is applicable for referral bonus" checkbox before submitting the document. After submitting the document, the "Create Additional Salary" button will appear at the top right corner, if the status is "Accepted".
 
 <img class="screenshot" alt="Leave Allocations"
     src="{{docs_base_url}}/assets/img/human-resources/referral-bonus.png">
@@ -53,4 +53,3 @@ On Click, It will redirect you to the Additional salary form where you need to s
 
 <img class="screenshot" alt="Leave Allocations"
     src="{{docs_base_url}}/assets/img/human-resources/create-referral-bonus.png">
-
