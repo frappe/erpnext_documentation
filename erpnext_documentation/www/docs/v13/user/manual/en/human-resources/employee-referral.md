@@ -39,7 +39,7 @@ On clicking, Job Applicant will be created with the status "Open" and the status
 <img class="screenshot" alt="Leave Allocations"
     src="{{docs_base_url}}/assets/img/human-resources/create-job-applicant.png">
 
-If someone changes the status of the Job Applicant document to "Hold" or "Replied", The status of the Employee Referral document will remain "In Process". If the status of the Job Applicant is "Accepted" or "Rejected", The status of the Employee Referral document will also change to "Accepted" or "Rejected" respectively.
+When someone changes the status of the **Job Applicant** to "Hold" or "Replied", the status of the **Employee Referral** will remain "In Process". If the status of the **Job Applicant** changes to "Accepted" or "Rejected", the status of the **Employee Referral** document will also change to "Accepted" or "Rejected" respectively.
 
 ### 3.2 Managing referral bonus
 Many companies provide bonuses to their employees for such referrals. ERPNext allows you to track the payment of the bonus to the employee for their referral.
