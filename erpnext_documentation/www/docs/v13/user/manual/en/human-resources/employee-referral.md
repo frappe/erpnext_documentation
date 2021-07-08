@@ -32,7 +32,7 @@ To access Employee Referral, go to:
 ## 3. Features
 
 ### 3.1 Creating Job Applicant and auto-syncing status from Job Applicant
-When you submit an employee referral document the initial status will be "Pending". After Submitting the document Create Job Applicant Button will Appear at the top right corner.
+When you submit an employee referral document the initial status will be "Pending". After submitting the document, the "Create Job Applicant" button will appear at the top right corner.
 
 Clicking this button will create a new **Job Applicant** with the status "Open". The status of the **Employee Referral** document will change to "In Process"
 
