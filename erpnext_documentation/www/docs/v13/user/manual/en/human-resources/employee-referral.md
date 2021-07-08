@@ -15,9 +15,9 @@ To access Employee Referral, go to:
 
 
 ## 1. Prerequisites
-1. [Employee](/docs/user/manual/en/human-resources/employee)
-1. [Additional Salary](/docs/user/manual/en/human-resources/additional-salary)
-1. [Job Applicant](/docs/user/manual/en/human-resources/job-applicant)
+1. [Employee](/docs/v13/user/manual/en/human-resources/employee)
+1. [Additional Salary](/docs/v13/user/manual/en/human-resources/additional-salary)
+1. [Job Applicant](/docs/v13/user/manual/en/human-resources/job-applicant)
 
 ## 2. How to create Employee Referral
 1. Go to Employee Referral > Add Employee Referral.
