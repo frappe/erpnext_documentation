@@ -65,7 +65,6 @@ their calculation.
 1. [Employee Transfer](/docs/user/manual/en/human-resources/employee_transfer)
 1. [Employee Skill Map](/docs/user/manual/en/human-resources/employee_skill_map)
 
-
 ### 1.7 Payroll
 1. [Payroll Management](/docs/user/manual/en/human-resources/payroll-intro)
 1. [Payroll Period](/docs/user/manual/en/human-resources/payroll-period)
