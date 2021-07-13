@@ -98,7 +98,15 @@ Click on Accounting Ledger button to view all accounting transactions with the c
 
 Click on Accounts Receivable button to view the details of all outstanding invoices.
 
-### 2.10 Set Customer Id, Default Customer Group, Territory, and Price List
+### 2.10 Fetching Details from Customer Group
+
+The Customer Details can also be fetched from the Customer Group using the "Get Customer Group Details" button under "Actions".
+
+![Get Customer Group Details](/docs/v13/assets/img/crm/customer-group-details.png)
+
+![Fetching Customer Group Details](/docs/v13/assets/img/crm/customer-group-fetch.gif)
+
+### 2.11 Set Customer Id, Default Customer Group, Territory, and Price List
 
 You can set how a unique id should be generated each the customer in [Selling Settings](/docs/v13/user/manual/en/selling/selling-settings).
 
