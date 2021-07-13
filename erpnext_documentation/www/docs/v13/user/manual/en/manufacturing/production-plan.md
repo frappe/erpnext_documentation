@@ -43,6 +43,14 @@ A Production Plan can also be created manually where you can select the Items to
 
 1. On expanding a row in the Items to Manufacture table, you'll see an option to 'Include Exploded Items'. Ticking this includes raw materials of the sub-assembly items in the production process.
 
+1. If you wants to make Work Orders for the Sub-assembly items, then you need to click on button Get Sub Assmbly Items.
+
+1. Once you clicked on button Get Sub Assmbly Items, system will fetch the Sub Assembly Items with BOM.
+
+1. You can set the Manufacturing Type as In House / Subcontract against the Sub Assembly Items. The system will create the work order for the Sub Assembly Items which has Manufacturing Type as In House and will create the Subcontracted Purchase Order for the Sub Assembly Items which has Manufacturing Type as Subcontract.
+
+![Get Sub Assembly items for Production Plan]({{docs_base_url}}/v13/assets/img/manufacturing/sub-assembly-items.png)
+
 ### 2.2 Production Against Material Requests
 
 1. Select option as Material Request from the Get Items From drop-down list. The system will show the filters, using that we can pull the Material Requests for the production.
@@ -94,17 +102,17 @@ The same can be **Re-opened**.
 
 ### 2.5 Making work order for the sub-assembly items
 
-<img class="screenshot" alt="Make PO or MR" src="{{docs_base_url}}/v13/assets/img/manufacturing/nokia_phone_bom.png">
+1. If user wants to make Work Orders for the Sub-assembly items, then you need to click on button Get Sub Assmbly Items.
 
-In the above screenshot, the User creates the Shaving Brush Bristles first and then creates final finished goods.
+1. Once you clicked on button Get Sub Assmbly Items, system will fetch the Sub Assembly Items with BOM.
 
-Here, the User wants to make the work order for Shaving Brush Bristles, to do this, the user has to enable the field "Make Work Order for Sub Assembly Items" in the Production Plan against the item Shaving Brush.
+1. You can set the Manufacturing Type as In House / Subcontract against the Sub Assembly Items. The system will create the work order for the Sub Assembly Items which has Manufacturing Type as In House and will create the Subcontracted Purchase Order for the Sub Assembly Items which has Manufacturing Type as Subcontract.
 
-<img class="screenshot" alt="Make PO or MR" src="{{docs_base_url}}/v13/assets/img/manufacturing/production_plan_for_subassembely.png">
+![Get Sub Assembly items for Production Plan]({{docs_base_url}}/v13/assets/img/manufacturing/sub-assembly-items.png)
 
-On clicking make Work Order, the system will generate the Work Order for the sub-assembly items and the finished good items:
+1. After submission of the Production Plan, user has to click on Create > Work Order / Subcontract PO
+1. System will create Work Order / Purchase Order against the Sub Assembly Items
 
-<img class="screenshot" alt="Make PO or MR" src="{{docs_base_url}}/v13/assets/img/manufacturing/wo_against_the_production_plan.png">
 
 ## 3. Related Topics
 1. [Work Order](/docs/v13/user/manual/en/manufacturing/work-order)
