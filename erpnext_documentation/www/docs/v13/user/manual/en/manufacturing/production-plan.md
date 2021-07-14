@@ -43,6 +43,9 @@ A Production Plan can also be created manually where you can select the Items to
 
 1. On expanding a row in the Items to Manufacture table, you'll see an option to 'Include Exploded Items'. Ticking this includes raw materials of the sub-assembly items in the production process.
 
+1. If "Consolidate Items" is ticked and saved, items with the same BOM are combined into a single item with the combined total planned quantity.
+![Get items Combined for Production Plan](/docs/v13/assets/img/manufacturing/get_items_combined_wo.png)
+
 ### 2.2 Production Against Material Requests
 
 1. Select option as Material Request from the Get Items From drop-down list. The system will show the filters, using that we can pull the Material Requests for the production.
