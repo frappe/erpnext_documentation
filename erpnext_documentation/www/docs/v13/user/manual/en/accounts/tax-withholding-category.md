@@ -67,7 +67,38 @@ In the following example, we have selected 'TDS - 194C - Individual' which has a
 >1. Second for credit in Creditors account
 >1. Third for credit in the account selected in Tax Withholding Category.
 
-### 3.2 Setting up TCS - Section 20C(1H) for eligible customers
+### 3.2 Deducting TDS on Advances
+#### 3.2.1 Deduction Advance TDS against Purchase Order
+1. Set up Tax Withholding Category against supplier and follow the same steps required to apply TDS in a Purchase Invoice as shown in the image below
+
+![TDS Purchase Order](/docs/v13/assets/img/accounts/tds-purchase-order.png)
+
+2. Create Payment Entry against that Purchase Order, all the relevant details required to apply TDS will be pulled.
+
+![TDS Payment Entry](/docs/v13/assets/img/accounts/tds-po-payment-entry.png)
+
+3. Update Advance Tax Account or add "Unrealized Profit and Loss Account" in company master which will be used as the default Advance Tax Account if not specific in the transaction
+
+![Advance Tax Account](/docs/v13/assets/img/accounts/advance-tax-account.png)
+
+4. Once a Purchase Invoice is created against this order, TDS will still be applied but the new effect of TDS will be zero, hence no TDS payable. In a way the Advance TDS Paid will be allocated against the invoice.
+
+![TDS Purchase Invoice](/docs/v13/assets/img/accounts/tds-purchase-invoice.png)
+
+### 3.2.2 Deducting TDS against advances paid (Using Payment Entry)
+1. Select "Payment Type" as "Pay"
+2. Select "Party Type" as "Supplier" and the appropriate supplier
+3. Enter paid amount, paid can be before of after TDS deduction
+4. Under the Taxes and Charges section check "Apply Tax Withholding Amount" and select Tax Withholding Category
+5. Click on Save. TDS will be auto applied
+6. Submit the entry
+7. Same will also be visible in TDS payable monthly report
+
+![Advance Tax Account](/docs/v13/assets/img/accounts/advance-tax-account.png)
+
+![TDS Payable Monthly Report](/docs/v13/assets/img/accounts/advance-tds-payable-monthly.png)
+
+### 3.3 Setting up TCS - Section 20C(1H) for eligible customers
 In the following example, we have create a Tax Withholding Category for [TCS - Section 20C(1H)](https://taxguru.in/income-tax/faqs-tcs-sales-goods-section-206c1h.html) and set it up against an eligble customer.
 
 1. We will first create a Tax Withholding Category named **TCS - Section 20C(1H)** and we set cumulative threshold to 50 Lakhs as per the scheme.
