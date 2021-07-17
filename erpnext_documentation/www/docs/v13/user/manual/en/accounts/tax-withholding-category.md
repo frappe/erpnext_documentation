@@ -99,7 +99,7 @@ In the following example, we have selected 'TDS - 194C - Individual' which has a
 ![TDS Payable Monthly Report](/docs/v13/assets/img/accounts/advance-tds-payable-monthly.png)
 
 ### 3.3 Setting up TCS - Section 20C(1H) for eligible customers
-In the following example, we have create a Tax Withholding Category for [TCS - Section 20C(1H)](https://taxguru.in/income-tax/faqs-tcs-sales-goods-section-206c1h.html) and set it up against an eligble customer.
+In the following example, we have create a Tax Withholding Category for [TCS - Section 20C(1H)](https://taxguru.in/income-tax/faqs-tcs-sales-goods-section-206c1h.html) and set it up against an eligible customer.
 
 1. We will first create a Tax Withholding Category named **TCS - Section 20C(1H)** and we set cumulative threshold to 50 Lakhs as per the scheme.
 
