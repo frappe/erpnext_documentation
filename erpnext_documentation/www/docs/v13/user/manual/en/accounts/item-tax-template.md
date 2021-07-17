@@ -55,7 +55,7 @@ For example, in the following screenshot, you can see that taxes are calculated 
 ### 2.3 Item Tax Template for each Items
 You can also manually select a different Item Tax Template for each Item in a transaction:
 
-![Slect Item Tax Template](/docs/v13/assets/img/accounts/select-item-tax-template.png)
+![Select Item Tax Template](/docs/v13/assets/img/accounts/select-item-tax-template.png)
 
 ### 2.4 Item wise tax on an Item Group
 You can assign the Item Tax Template to an Item Group by modifying the Item Tax table in the Item Tax section within the Item Group document.
