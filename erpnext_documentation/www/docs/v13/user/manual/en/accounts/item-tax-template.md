@@ -55,7 +55,7 @@ For example, in the following screenshot, you can see that taxes are calculated 
 ### 2.3 Item Tax Template for each Items
 You can also manually select a different Item Tax Template for each Item in a transaction:
 
-![Slect Item Tax Template](/docs/v13/assets/img/accounts/select-item-tax-template.png)
+![Select Item Tax Template](/docs/v13/assets/img/accounts/select-item-tax-template.png)
 
 ### 2.4 Item wise tax on an Item Group
 You can assign the Item Tax Template to an Item Group by modifying the Item Tax table in the Item Tax section within the Item Group document.
@@ -77,7 +77,15 @@ You can also assign validity to tax templates as shown in the image above.
 
 > Note: While adding items in Purchase Invoice first preference will be given to 'Supplier Invoice Date' instead of 'Posting Date' for fetching valid Item Tax Template.
 
-### 2.6 Some points to note
+### 2.6 Net Rate based item taxes
+
+![Item Tax Net Range](/docs/v13/assets/img/accounts/item-tax-net-range.png)
+
+- On many commodities and items the tax rate is determined based on the final rate of the item after application of discount or margin. For Eg If a T-Shirt is sold at a net rate greater than Rs. 500 then the tax percentage applied should be 12 % else it will be 5%
+
+- Using minimum and maximum net rates in item taxes this process can be automated, based on the final net rate of the item appropriate item tax will be auto applied. If both the values are 0 then it won't consider any values neither minimum nor maximum.
+
+### 2.7 Some points to note
 
 - If you set the Tax Category as empty, the default Item Tax Template will be applied to Items in transactions.
 
