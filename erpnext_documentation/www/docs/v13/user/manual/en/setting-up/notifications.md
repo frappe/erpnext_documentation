@@ -139,6 +139,7 @@ Example:
 
 <img class="screenshot" alt="Set Message" src="{{docs_base_url}}/v13/assets/img/setup/notifications/slack_notification_4.png">
 
+> If you do not want "Go to the document" button, you can uncheck the "Show link to document" checkbox from Slack Webhook URL document page.
 
 ---
 
