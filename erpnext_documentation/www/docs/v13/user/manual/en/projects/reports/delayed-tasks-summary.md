@@ -10,7 +10,7 @@ To view this report, you can go to:
 
 The report is generated based on the Task Doctype.
 
-<img class="screenshot" src="/docs/assets/img/project/delayed-deliverables-summary.png">
+<img class="screenshot" src="/docs/v13/assets/img/project/delayed-tasks-summary.png">
 
 ### Calculation of Delay
 
