@@ -111,7 +111,7 @@ To learn how to write custom scripts for your Web Forms, read
 
 You can customize the look and feel of your Web Form by writing your own Custom
 CSS. Inspect the elements on the page to see what classes are available for
-styling. Learn more about CSS [here](https://developer.mozilla.org/en-US/docs/v13/Learn/Getting_started_with_the_web/CSS_basics).
+styling. Learn more about CSS [here](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/CSS_basics).
 
 ### 2.7 Actions
 
