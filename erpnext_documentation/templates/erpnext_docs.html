@@ -13,3 +13,33 @@
 }
 </style>
 {% endblock %}
+
+{% block script %}
+<script>
+	frappe.ready(() => {
+		frappe.setup_search('#search-container', '{{ docs_search_scope or "" }}');
+
+		$('.web-footer .container')
+			.removeClass('container')
+			.addClass('container-fluid doc-container');
+		// TODO: Replace with better solution
+		$('nav').find('#navbarSupportedContent').replaceWith(`
+			<select class="form-control ml-lg-5 mt-3 mt-lg-0" id="version-switcher">
+				<option value="v12">Version 12</option>
+				<option value="v13">Version 13</option>
+			</select>
+		`)
+		let version_switcher = $('nav').find("#version-switcher")
+		let current_location = window.location.href;
+		let version_pattern = /\/(v\d{1,2})\//;
+		let match = current_location.match(/\/(v\d{1,2})\//)
+		if (match) {
+			version_switcher.val(match[1])
+		}
+		version_switcher.change(() => {
+			let value = version_switcher.val()
+			window.location.href = current_location.replace(version_pattern, `/${value}/`)
+		});
+	});
+</script>
+{% endblock %}
