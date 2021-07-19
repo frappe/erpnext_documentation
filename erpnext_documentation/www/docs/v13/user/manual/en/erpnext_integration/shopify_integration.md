@@ -1,4 +1,7 @@
 <!-- add-breadcrumbs -->
+
+> This integration is now deprecated and will be removed in the future version (v14). We recommend using the [new integration created as a Frappe App](/docs/v13/user/manual/en/erpnext_integration/shopify_integration_app) which has cool new features like Inventory sync.
+
 # Shopify Integration
 
 The Shopify Connector pulls the orders from Shopify and creates Sales Order against them in ERPNext.
@@ -32,7 +35,7 @@ Integrations > Shopify Settings
 <img class="screenshot" alt="ERP Configurations" src="{{docs_base_url}}/v13/assets/img/erpnext_integrations/erp_configurations.png">
 
 3. Setup Sync Configurations.
-    The system pulls Orders from Shopify and creates Sales Order in ERPNext. You can configure ERPNext system to capture payment and fulfilments against orders.
+    The system pulls Orders from Shopify and creates Sales Order in ERPNext. You can configure ERPNext system to capture payment and fulfillments against orders.
 <img class="screenshot" alt="Sync Configure" src="{{docs_base_url}}/v13/assets/img/erpnext_integrations/sync_config.png">
 
 4. Setup Tax Mapper.
