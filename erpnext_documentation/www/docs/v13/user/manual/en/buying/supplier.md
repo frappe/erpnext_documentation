@@ -87,7 +87,14 @@ Contacts and Addresses in ERPNext are stored separately so that you can create m
 
 > Tip: When you select a Supplier in any transaction, Contact for which "Is Primary" field id checked, it will auto-fetch with the Supplier details.
 
-### 2.8 After saving
+### 2.8 Fetching Details from Supplier Group
+The Supplier Details can also be fetched from the Supplier Group using the "Get Supplier Group Details" button under "Actions".
+
+<img class="screenshot" alt="Fetch Supplier Group Details" src="{{docs_base_url}}/v13/assets/img/buying/supplier-group-details.png">
+
+<img class="screenshot" alt="Fetch Supplier Group Details" src="{{docs_base_url}}/v13/assets/img/buying/supplier-group-details-fetch.gif">
+
+### 2.9 After saving
 Once all the necessary details are filled, save the document. On saving, options to create the following will be seen in the Dashboard:
 
 * **Request for Quotation**: An RFQ against this supplier.
