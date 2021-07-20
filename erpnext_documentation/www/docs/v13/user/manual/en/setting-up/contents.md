@@ -112,7 +112,7 @@ You'll find the global configuration options here, for module-wise setup, visit 
 1. [Set up Two Factor Authentication](/docs/v13/user/manual/en/setting-up/articles/setup-two-factor-authentication)
 1. [Disabling Line Breaks in Print Format Sections](/docs/v13/user/manual/en/setting-up/articles/print-format-sections)
 1. [Integrating ERPNext With Biometric Attendance Devices](/docs/v13/user/manual/en/setting-up/articles/integrating-erpnext-with-biometric-attendance-devices)
-
+1. [Enable RediSearch for E-Commerce Search](/docs/v13/user/manual/en/setting-up/articles/installing-redisearch)
 
 ## 3. Videos
 
