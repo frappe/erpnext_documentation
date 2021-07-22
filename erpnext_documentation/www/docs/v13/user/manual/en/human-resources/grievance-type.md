@@ -3,11 +3,11 @@
 
 > Introduced in version-13
 
-**To resolve Employee grievances, first we need to classify them. For these grievances, the company may have to set different process for solving different Type of Grievance.**
+**To resolve Employee grievances, we need to classify them. For this, the company may have to identify different Types of Grievances.**
 
 In ERPNext, you can create a Grievance Type for Handling such grievance.
 
-To access Attendance, go to:
+To access Grievance Type, go to:
 
 > Home > Human Resources > Grievance Type
 
