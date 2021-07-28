@@ -1,7 +1,32 @@
 <!-- add-breadcrumbs -->
 # GST Features in ERPNext
+### 1. Default GST Accounting Setup
 
-### 1. Setting up GSTIN
+On creation of a new Company for India a default GST setup is done which has the following components
+#### 1.1 Default GST Accounts
+
+By default all the necessary GST accounts are created under the respective accounts heads in the Chart of Accounts
+
+* Input GST Tax accounts (Tax Assets) used for booking GST in Purchase Invoices. The Input Tax account heads includes the following accounts.
+
+![GST Accounts](/docs/v13/assets/img/regional/india/input-tax-accounts.png)
+
+* Output GST Tax accounts (Tax Liabilities) used for booking GST in Sales Invoices. The Output Tax Account heads include the following accounts 
+
+![GST Accounts](/docs/v13/assets/img/regional/india/output-tax-accounts.png)
+
+#### 1.2 Default Tax Categories
+
+Some default tax categories are created which can be used along with Sales/Purchase Taxes and Charges template in-order to automate application of taxes in Invoices. The tax categories created are as follows
+
+![GST Tax Category](/docs/v13/assets/img/regional/india/gst-tax-categories.png)
+
+#### 1.3 Item Tax Templates
+
+Many times companies buy and sell multiple items which fall under different tax slabs. To mange item wise taxes item tax templates can be used. By default following Item tax templates are created
+
+![GST Item Tax Templates](/docs/v13/assets/img/regional/india/item-tax-templates.png)
+### 2. Setting up GSTIN
 
 GST Law requires that you maintain the GSTIN number for all your suppliers and vendors. In ERPNext, GSTIN is linked to the **Address**
 
@@ -21,13 +46,13 @@ Open Address Template record for India, add GSTIN number and State Code there if
 
 ![GST in Address Template](/docs/v13/assets/img/regional/india/address-template-gstin.png)
 
-### 2. Setting up HSN Codes
+### 3. Setting up HSN Codes
 
 According to the GST Law, your itemised invoices must contain the HSN Code related to that Item. ERPNext comes pre-installed with all 12,000+ HSN Codes so that you can easily select the relevant HSN Code in your Item
 
 ![HSN in Item](/docs/v13/assets/img/regional/india/hsn-item.gif)
 
-### 3. Making Tax Masters
+### 4. Making Tax Masters
 
 To setup Billing in GST, you need to create 3 Tax Accounts for the various GST reporting heads CGST - Central GST, SGST - State GST, IGST - Inter-state GST
 
@@ -37,7 +62,7 @@ Go to your **Chart of Accounts**, under the Duties and Taxes head of your accoun
 
 ![GST Ledgers](/docs/v13/assets/img/regional/india/gst-ledger.png)
 
-### 4. Add GST Accounts in GST Settings
+### 5. Add GST Accounts in GST Settings
 
 Add all the GST Accounts in GST Settings. Adding these accounts in GST Settings will help the system identify all the GST accounts and generate GST reports.
 
@@ -45,7 +70,7 @@ You can also enable the "Round Off GST Values" in case you want to round off ind
 
 ![GST Settings](/docs/v13/assets/img/regional/india/gst-settings.png)
 
-### 5. Make Tax Templates
+### 6. Make Tax Templates
 
 You will have have to make two tax templates for both your sales and purchase, one for in state sales and other for out of state sales.
 
@@ -55,7 +80,7 @@ In your **In State GST** template, select 2 accounts, SGST and CGST
 
 In your **Out of State GST** template, select IGST
 
-### 6. Making GST Ready Invoices
+### 7. Making GST Ready Invoices
 
 If you have setup the GSTIN of your Customers and Suppliers, and your tax template, you are ready to go for making GST Ready Invoices!
 
@@ -69,15 +94,15 @@ For **Sales Invoice**,
 
 ![GST Invoice](/docs/v13/assets/img/regional/india/gst-invoice.gif)
 
-### 7. Print GST Tax Invoice
+### 8. Print GST Tax Invoice
 
 To print Tax Invoice as per GSTN guidelines, please select **GST Tax Invoice** print format. This print format includes company address, GSTIN numbers, HSN/SAC Code and item-wise tax breakup. And while printing select correct value of Invoice Copy field, to mention whether it is for the Customer, Supplier or Transporter.
 
 ![Sample GST Tax Invoice](/docs/v13/assets/img/regional/india/sample-gst-tax-invoice.png)
 
-### 8. GST Transactions
+### 9. GST Transactions
 
-#### 8.1 Reversal of Input Tax Credit
+#### 9.1 Reversal of Input Tax Credit
 
 To book reversal of ITC go to Journal Entry doctype and follow the following steps
 
@@ -89,15 +114,15 @@ To book reversal of ITC go to Journal Entry doctype and follow the following ste
 
 ![Reversal of Input Tax Credit](/docs/v13/assets/img/regional/india/reversal-of-itc.png)
 
-### 9. Setting up reverse charge and posting reverse charge purchase invoices
+### 10. Setting up reverse charge and posting reverse charge purchase invoices
 
-#### 9.1 Add reverse charge accounts in GST Settings
+#### 10.1 Add reverse charge accounts in GST Settings
 
 Add reverse charge accounts for GST as shown in the image below and check the "Is Reverse Charge Account" as shown in the image below. Instead of separate reverse charge account the Output GST tax account used for sales can also be marked as reverse charge account
 
 ![GST Reverse Charge Settings](/docs/v13/assets/img/regional/india/gst-reverse-charge-setting.png)
 
-#### 9.2 Making purchase invoices liable to reverse charge
+#### 10.2 Making purchase invoices liable to reverse charge
 
 To make purchase invoices liable to reverse charge invoices please follow the following steps
 
