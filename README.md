@@ -1,5 +1,10 @@
 ## ERPNext Documentation
 
+> This GitHub repository is archived since we now use a different contribution pipeline.
+> 
+> You can directly contribute to the documentation through [docs.erpnext.com](https://docs.erpnext.com). For new conribution guidellines refer [docs.erpnext.com/contribute](https://docs.erpnext.com/contribute).
+
+
 The GitHub repository for ERPNext product user manual. ERPNext is the world's largest 100% open source ERP product.
 
 English documentation link: https://docs.erpnext.com/docs/user/manual/en
