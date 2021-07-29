@@ -6,3 +6,4 @@ supplier-quotation
 supplier-scorecard
 buying-settings
 supplier-group
+supplier-item-group
