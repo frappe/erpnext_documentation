@@ -160,4 +160,22 @@ On successful creation, a member and customer will automatically be created. The
 
 You can use the `subscription_id` to trigger a payment.
 
+## 3.6 Update halted Razorpay subscriptions
+
+When all the payment retries have been exhausted, Razorpay moves the subscription to the halted state. The customer has to manually retry the charge or change the card linked to the subscription for the subscription to move back to the active state.
+
+You can set up a webhook from the RazorPay dashboard in settings. This webhook will notify your ERPNext site whenever a subscription is halted.
+
+<img class="screenshot" alt="Membership" src="{{docs_base_url}}/v13/assets/img/non_profit/halted-membership-webhook.png">
+
+1. This is the endpoint RazorPay will utilize to notify of any halted subscription
+
+	```sh
+	https://<your-site>/api/method/erpnext.non_profit.doctype.membership.membership.update_halted_razorpay_subscription
+	```
+
+2. You have to enable `subscription.halted` event.
+
+3. Toggle Enable to Activate it.
+
 {next}
