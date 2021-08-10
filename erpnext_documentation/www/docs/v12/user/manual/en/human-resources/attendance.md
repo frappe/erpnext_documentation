@@ -14,8 +14,8 @@ To access Attendance, go to:
 
 Before creating an Attendance record, it is advised that you create the following first:
 
-* [Employee](/docs/user/manual/en/human-resources/employee)
-* [Shift Type](/docs/user/manual/en/human-resources/shift-management)
+* [Employee](/docs/v12/user/manual/en/human-resources/employee)
+* [Shift Type](/docs/v12/user/manual/en/human-resources/shift-management)
 
 ## 2. How to create an Attendance
 
@@ -35,34 +35,19 @@ Before creating an Attendance record, it is advised that you create the followin
 You can get a monthly report of your Attendance data by going to the **Monthly
 Attendance Details** report.
 
-You can easily set attendance for Employees using the [Employee Attendance Tool](/docs/user/manual/en/human-resources/employee-attendance-tool).
+You can easily set attendance for Employees using the [Employee Attendance Tool](/docs/v12/user/manual/en/human-resources/employee-attendance-tool).
 
-You can also bulk upload attendance using the [Upload Attendance](/docs/user/manual/en/human-resources/upload-attendance).
+You can also bulk upload attendance using the [Upload Attendance](/docs/v12/user/manual/en/human-resources/upload-attendance).
 
-## 3. Features
-### 3.1 Marking Unmarked Attendance
-In case the attendance for some employees is not marked, you can mark them as present, absent, or half-day.
+## 3. Related Topics
 
-#### How to Mark Attendance
-1. Go to the Attendance list.
-1. Click on the **Mark Attendance** button.
-1. A dialog will appear.
-1. Select the Employee and Month.
-1. Select the Status whether Present, Absent, or Half Day.
-1. Select the dates on which you want to mark attendance for a selected Employee.
-1. Click on the **Mark Attendance** button and click on **Yes**.
-
-    <img class="screenshot" alt="Attendance" src="{{docs_base_url}}/v12/assets/img/human-resources/marking_unmarked_attendance.gif">
-
-## 4. Related Topics
-
-1. [Employee Attendance Tool](/docs/user/manual/en/human-resources/employee-attendance-tool)
-1. [Shift Management](/docs/user/manual/en/human-resources/shift-management)
-1. [Auto Attendance](/docs/user/manual/en/human-resources/auto-attendance)
-1. [Upload Attendance](/docs/user/manual/en/human-resources/upload-attendance)
-1. [Attendance Request](/docs/user/manual/en/human-resources/attendance-request)
+1. [Employee Attendance Tool](/docs/v12/user/manual/en/human-resources/employee-attendance-tool)
+1. [Shift Management](/docs/v12/user/manual/en/human-resources/shift-management)
+1. [Auto Attendance](/docs/v12/user/manual/en/human-resources/auto-attendance)
+1. [Upload Attendance](/docs/v12/user/manual/en/human-resources/upload-attendance)
+1. [Attendance Request](/docs/v12/user/manual/en/human-resources/attendance-request)
 
 
-It is also, possible to set up marking of attendance automatically based on check-in/check-out logs from Biometric/RFID Devices (or any other similar mechanisms that produce IN/OUT logs of the employee). Please refer to [Auto Attendance](/docs/user/manual/en/human-resources/auto-attendance) feature for more information.
+It is also, possible to set up marking of attendance automatically based on check-in/check-out logs from Biometric/RFID Devices (or any other similar mechanisms that produce IN/OUT logs of the employee). Please refer to [Auto Attendance](/docs/v12/user/manual/en/human-resources/auto-attendance) feature for more information.
 
 {next}
