@@ -1,6 +1,8 @@
 <!-- add-breadcrumbs -->
 # ERPNext Shipping
 
+> Introduced in version 13
+
 **The ERPNext Shipping app helps you compare shipping rates being offered by multiple service providers, generate labels, and track your shipments' status.**
 
 Integration with the following service providers is available:
@@ -8,6 +10,8 @@ Integration with the following service providers is available:
 1. [Packlink](https://www.packlink.com/en-GB/)
 1. [LetMeShip](https://www.letmeship.com/en/)
 1. [SendCloud](https://www.sendcloud.com/home-new/)
+
+> To avail these features, the **ERPNext Shipping** app will have to be installed on your site. You can the avail the app [here](https://github.com/frappe/erpnext-shipping/tree/master) or contact your hosting platform.
 
 ## 1. Setting Up
 
